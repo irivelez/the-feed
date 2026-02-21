@@ -1,19 +1,6 @@
-# AI Digest — 2026-02-18
+# 📡 AI Daily Digest — 2026-02-18
 
-> Generated: 2026-02-18T14:04:21.746Z
-
-## 🌐 Big Picture
-
-The agentic stack is crystallizing fast — models are commoditizing toward Opus-level at Sonnet prices, coding agents are going mainstream (even Torvalds uses them), and the real battleground is shifting from 'can AI code?' to 'who controls the tooling layer around it.'
-
-## 📊 Key Data Points
-
-- **3x weekly users** — OpenAI Codex tripled active users since early 2026 — coding agents hit mainstream adoption
-- **<18 months to human-level** — Computer use / UI automation approaching human parity faster than most orgs are planning for
-- **7,692♥ on Karpathy's take** — Most-engaged item: LLMs making formal verification practical — signals deep rethinking of software quality
-- **Same-day Sonnet 4.6 shipping** — Perplexity, Cursor, and others deployed Sonnet 4.6 within hours — model adoption cycles now measured in hours, not weeks
-
-## 📝 TL;DR
+## TL;DR
 
 - Sonnet 4.6 closes the gap with Opus-class models, compressing the price-performance curve and forcing faster adoption decisions across the stack
 - Coding agents are no longer experimental — Codex 3x growth, Torvalds adopting agentic workflows, Cursor expanding plugins — the default dev loop is shifting
@@ -21,399 +8,189 @@ The agentic stack is crystallizing fast — models are commoditizing toward Opus
 - The moat debate intensifies: Isenberg says skills/taste beat code, Swyx calls out performative coders, Willison argues CLIs beat MCPs — the builder-vs-talker divide sharpens
 - Open-source competition heats up with Qwen3.5 multimodal agents while practitioner frameworks (Mollick's guide, trustworthy analysis) race to help orgs actually adopt responsibly
 
-## Business
-
-### OpenAI Codex weekly users tripled since start of 2026
-
-- **Source:** @sama
-- **Insight:** Coding agents hitting mainstream adoption — signals where enterprise AI spend is going
-- **Tags:** agentic, business
-- **Engagement:** 7,847♥
-- **Link:** https://x.com/sama/status/2023233085509410833
-
-### How Harmonic Built an Investment Agent with LangGraph
-
-- **Source:** @LangChain
-- **Insight:** Real production agent case study: VCs using agentic workflows for deal sourcing
-- **Tags:** agentic, business
-- **Engagement:** 47♥
-- **Link:** https://x.com/LangChain/status/2023427321772802458
-
-### Perplexity ditches AI ads as companies battle over trust and revenue ⚡ CONTRARIAN
-
-- **Source:** The Verge AI
-- **Insight:** AI business model wars heating up — ad-free positioning signals shifting monetization strategies
-- **Tags:** business, contrarian
-- **Link:** https://www.theverge.com/ai-artificial-intelligence/880562/perplexity-ditches-ai-ads
-
-### Meta buys millions of Nvidia AI chips in massive new deal
-
-- **Source:** The Verge AI
-- **Insight:** Signals continued infrastructure arms race — impacts compute availability and pricing for everyone
-- **Tags:** business, models
-- **Link:** https://www.theverge.com/ai-artificial-intelligence/880513/nvidia-meta-ai-grace-vera-chips
-
-### ByteDance tweaks safeguards on Seedance AI video model after Hollywood backlash ⚡ CONTRARIAN
-
-- **Source:** The Verge AI
-- **Insight:** Copyright pressure forcing model providers to add guardrails — regulatory signal for builders
-- **Tags:** models, business, contrarian
-- **Link:** https://www.theverge.com/ai-artificial-intelligence/879644/bytedance-seedance-safeguards-ai-video-copyright-infringement
-
-### Shopify's AI Advantages
-
-- **Source:** Ben Thompson (Stratechery)
-- **Insight:** Ben Thompson on how Shopify leverages AI for competitive moat — strong business strategy signal
-- **Tags:** business
-- **Link:** https://stratechery.com/2026/shopify-earnings-shopifys-ai-advantages/
-
-### Peter Steinberger joins OpenAI to lead next-gen personal agents
-
-- **Source:** @sama
-- **Insight:** Top mobile dev talent moving to personal AI agents — signals OpenAI's consumer agent push
-- **Tags:** agentic, business
-- **Engagement:** 46,155♥
-- **Link:** https://x.com/sama/status/2023150230905159801
-
-## Models
-
-### Sonnet 4.6 launched — approaching Opus-class capabilities
-
-- **Source:** @alexalbert__
-- **Insight:** Mid-tier model closing gap with flagship = cheaper Opus-level performance for production
-- **Tags:** models
-- **Engagement:** 3,587♥
-- **Link:** https://x.com/alexalbert__/status/2023817479580221795
-
-### Sonnet 4.6 Now Available in Cursor
-
-- **Source:** @cursor_ai
-- **Insight:** New Claude model drop with notable gains on long tasks — immediate impact for coding agents
-- **Tags:** models, claude-code
-- **Engagement:** 1,926♥
-- **Link:** https://x.com/cursor_ai/status/2023841746577485894
-
-### Introducing Claude Sonnet 4.6
-
-- **Source:** Simon Willison
-- **Insight:** New Claude model release — direct impact on tooling and cost decisions for AI practitioners
-- **Tags:** models, claude-code
-- **Link:** https://simonwillison.net/2026/Feb/17/claude-sonnet-46/#atom-everything
-
-### Sonnet 4.6 available on Perplexity Pro/Max
-
-- **Source:** @AravSrinivas
-- **Insight:** Perplexity ships Sonnet 4.6 across all clients same day — fast model adoption signals competitive pressure
-- **Tags:** models, tools
-- **Engagement:** 545♥
-- **Link:** https://x.com/AravSrinivas/status/2023840571014737976
-
-### Qwen3.5: Towards Native Multimodal Agents
-
-- **Source:** Simon Willison
-- **Insight:** Open-source multimodal agent model from Alibaba — serious competition to GPT/Claude for agentic use cases
-- **Tags:** models, agentic, multi-agent
-- **Link:** https://simonwillison.net/2026/Feb/17/qwen35/#atom-everything
-
-### Computer use approaching human-level capability in under 18 months
-
-- **Source:** @alexalbert__
-- **Insight:** Pace of agentic UI automation is faster than most orgs are planning for
-- **Tags:** agentic, models
-- **Engagement:** 1,411♥
-- **Link:** https://x.com/alexalbert__/status/2023820589983801796
-
-### Anticipation for Sonnet 4.6 surpassing Opus 4.5
-
-- **Source:** @mckaywrigley
-- **Insight:** Early signal that Sonnet 4.6 may outperform Opus 4.5 — shifts cost/performance calculus for teams choosing models
-- **Tags:** models
-- **Engagement:** 266♥
-- **Link:** https://x.com/mckaywrigley/status/2023820204296556753
-
-### Grok 4.20 first impressions: fast, accurate, pleasant
-
-- **Source:** @EMostaque
-- **Insight:** Mostaque's early review of Grok 4.20 — competitive new model worth tracking
-- **Tags:** models
-- **Engagement:** 322♥
-- **Link:** https://x.com/EMostaque/status/2023809812350542054
-
-### GPT 5.2 Pro sets new speed record
-
-- **Source:** @EMostaque
-- **Insight:** New latency record for GPT 5.2 Pro — model speed competition intensifying
-- **Tags:** models
-- **Engagement:** 78♥
-- **Link:** https://x.com/EMostaque/status/2023769970774339644
-
-### Opus vs Codex showdown, and AI for accessibility
-
-- **Source:** Lenny Rachitsky
-- **Insight:** Head-to-head comparison of top coding models — useful for tool selection decisions
-- **Tags:** claude-code, models, agentic
-- **Link:** https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-opus-vs-codex
-
-## Opinion
-
-### Karpathy: LLMs change the calculus for programming languages and formal methods ⚡ CONTRARIAN
-
-- **Source:** @karpathy
-- **Insight:** LLMs make formal verification more practical — shifts what's worth investing in for software quality
-- **Tags:** research, contrarian
-- **Engagement:** 7,692♥
-- **Link:** https://x.com/karpathy/status/2023476423055601903
-
-### Greg Isenberg: The Skill Era of the Internet
-
-- **Source:** @gregisenberg
-- **Insight:** Thesis that software moats shift from code to skills/taste as AI commoditizes engineering
-- **Tags:** business, agentic
-- **Engagement:** 1,618♥
-- **Link:** https://x.com/gregisenberg/status/2023769860690383065
-
-### Find what AI is NOT good at — contrarian exercise ⚡ CONTRARIAN
-
-- **Source:** @alliekmiller
-- **Insight:** Allie Miller challenges practitioners to spot AI's blind spots — valuable for realistic adoption planning
-- **Tags:** contrarian, business
-- **Engagement:** 61♥
-- **Link:** https://x.com/alliekmiller/status/2023427074355269634
-
-### Swyx on 'performative coders' and AI hype culture ⚡ CONTRARIAN
-
-- **Source:** @swyx
-- **Insight:** Sharp critique of people who perform coding with AI but don't ship — resonates with builder-vs-talker divide
-- **Tags:** contrarian, agentic
-- **Engagement:** 320♥
-- **Link:** https://x.com/swyx/status/2023963163763384809
-
-### Simon Willison: CLIs beat MCPs for agent tooling ⚡ CONTRARIAN
-
-- **Source:** @simonw
-- **Insight:** Argues CLI tools give more functionality than MCPs for coding agents — contrarian to the MCP hype wave
-- **Tags:** agentic, tools, contrarian
-- **Engagement:** 3♥
-- **Link:** https://x.com/simonw/status/2023912875304382725
-
-### When will AI agent economic activity overtake humans?
-
-- **Source:** @EMostaque
-- **Insight:** Mostaque poses the big question on agent-driven economies — signals where AI investment thesis is heading
-- **Tags:** agentic, business
-- **Engagement:** 174♥
-- **Link:** https://x.com/EMostaque/status/2023942846084980770
-
-### The AI Vampire ⚡ CONTRARIAN
-
-- **Source:** Simon Willison
-- **Insight:** Contrarian take on AI value extraction dynamics — critical lens for business strategy
-- **Tags:** contrarian, business
-- **Link:** https://simonwillison.net/2026/Feb/15/the-ai-vampire/#atom-everything
-
-### Rumors of AGI's arrival have been greatly exaggerated ⚡ CONTRARIAN
-
-- **Source:** Gary Marcus
-- **Insight:** Marcus pushes back on AGI hype — valuable contrarian lens for grounded business decisions
-- **Tags:** contrarian, research
-- **Link:** https://garymarcus.substack.com/p/rumors-of-agis-arrival-have-been
-
-### GPT-5 vs GPT-2: Bigger models aren't always better ⚡ CONTRARIAN
-
-- **Source:** @simonw
-- **Insight:** GPT-5 underperforms GPT-2 at simple creative tasks — useful contrarian datapoint on scaling assumptions
-- **Tags:** models, contrarian
-- **Engagement:** 139♥
-- **Link:** https://x.com/simonw/status/2023795247416045662
-
-### Samsung caught using AI-generated slop in social media ads ⚡ CONTRARIAN
-
-- **Source:** The Verge AI
-- **Insight:** Major brand backlash over AI-generated content — cautionary tale for AI content strategy
-- **Tags:** contrarian, business
-- **Link:** https://www.theverge.com/tech/879864/samsung-ai-generated-edited-video-ads-slop
-
-## Research
-
-### Harness Engineering for Deep Coding Agents
-
-- **Source:** @LangChain
-- **Insight:** Frontier coding agent improvement techniques — directly relevant to agentic dev workflows
-- **Tags:** agentic, claude-code
-- **Engagement:** 35♥
-- **Link:** https://x.com/LangChain/status/2023809765214658729
-
-### Scientist using AI to discover new antibiotics across unconventional sources
-
-- **Source:** MIT Tech Review AI
-- **Insight:** Applied ML in drug discovery with real results — strong case study for AI beyond tech
-- **Tags:** research
-- **Link:** https://www.technologyreview.com/2026/02/16/1132516/cesar-de-la-fuente-using-ai-antibiotics-hunt/
-
-### Radial-VCReg: New self-supervised representation learning method
-
-- **Source:** @ylecun
-- **Insight:** LeCun shares new paper improving VCReg with radial constraints — advances in non-contrastive SSL
-- **Tags:** research
-- **Engagement:** 98♥
-- **Link:** https://x.com/ylecun/status/2023084719001280780
-
-## Tools
-
-### A Guide to Which AI to Use in the Agentic Era
-
-- **Source:** One Useful Thing (Ethan Mollick)
-- **Insight:** Mollick's framework for choosing AI tools as agents proliferate — essential practitioner guide
-- **Tags:** agentic, models, tools
-- **Link:** https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the
-
-### Claude's web search now writes and executes code to filter results
-
-- **Source:** @alexalbert__
-- **Insight:** Search + code execution combo = agents that can research AND process autonomously
-- **Tags:** claude-code, agentic, tools
-- **Engagement:** 1,882♥
-- **Link:** https://x.com/alexalbert__/status/2023834863858769975
-
-### ACP protocol as the next big agent communication standard
-
-- **Source:** @hwchase17
-- **Insight:** LangChain founder bets on Agent Communication Protocol as breakout standard for deep agents
-- **Tags:** multi-agent, agentic
-- **Engagement:** 63♥
-- **Link:** https://x.com/hwchase17/status/2023804915341291870
-
-### Codex CLI + Agent-Browser + Agentation Stack
-
-- **Source:** @ryancarson
-- **Insight:** Practical agentic dev stack combining Codex CLI, Vercel's agent-browser, and agentation for powerful automation
-- **Tags:** agentic, tools, claude-code
-- **Engagement:** 11♥
-- **Link:** https://x.com/ryancarson/status/2024116086430466417
-
-### Torvalds now uses agentic engineering
-
-- **Source:** @steipete
-- **Insight:** Linus Torvalds adopting agentic coding — signals mainstream dev workflow shift
-- **Tags:** agentic, claude-code
-- **Engagement:** 51♥
-- **Link:** https://x.com/steipete/status/2024115022503293414
-
-### Claude gets code execution, web fetch, memory and programmatic tool calling
-
-- **Source:** @alexalbert__
-- **Insight:** Claude's tool ecosystem expanding fast — code exec + web fetch approach full agent capabilities
-- **Tags:** claude-code, agentic, tools
-- **Engagement:** 423♥
-- **Link:** https://x.com/alexalbert__/status/2023834875678298535
-
-### Agent Observability Powers Agent Evaluation
-
-- **Source:** @LangChain
-- **Insight:** LangChain frames observability as prerequisite for agent eval — key architectural pattern
-- **Tags:** agentic, tools
-- **Engagement:** 48♥
-- **Link:** https://x.com/LangChain/status/2023823729948807672
-
-### Cursor Agent Plugins for AWS
-
-- **Source:** @cursor_ai
-- **Insight:** Agent plugins pattern: giving coding agents cloud deployment skills, not just code generation
-- **Tags:** agentic, tools
-- **Engagement:** 48♥
-- **Link:** https://x.com/cursor_ai/status/2023829000192422347
-
-### Cursor launches Cloudflare plugin for MCP servers and Workers
-
-- **Source:** @cursor_ai
-- **Insight:** Cursor expanding plugin ecosystem — MCP server integration signals agentic tooling becoming standard
-- **Tags:** tools, agentic
-- **Engagement:** 82♥
-- **Link:** https://x.com/cursor_ai/status/2023827897627377783
-
-### Rodney: New CLI tool for browser automation designed for coding agents
-
-- **Source:** @simonw
-- **Insight:** Simon Willison's browser automation CLI built for coding agents and Showboat — new agentic tooling option
-- **Tags:** agentic, tools, claude-code
-- **Engagement:** 123♥
-- **Link:** https://x.com/simonw/status/2023896441085948069
-
-### agent-debugger: Terminal debugger for LangGraph/LangChain agents
-
-- **Source:** @hwchase17
-- **Insight:** Community-built terminal debugger for LangGraph agents — signals maturing agentic dev tooling ecosystem
-- **Tags:** agentic, tools, multi-agent
-- **Engagement:** 76♥
-- **Link:** https://x.com/hwchase17/status/2023838420439888075
-
-### Understanding how users actually use your production agents
-
-- **Source:** @hwchase17
-- **Insight:** LangChain founder on the challenge of observability for production agents — key ops problem
-- **Tags:** agentic, tools
-- **Engagement:** 12♥
-- **Link:** https://x.com/hwchase17/status/2023826380862222518
-
-### Rodney and Claude Code for Desktop
-
-- **Source:** Simon Willison
-- **Insight:** Simon Willison's take on Claude Code desktop integration — practical agentic coding patterns
-- **Tags:** claude-code, agentic, tools
-- **Link:** https://simonwillison.net/2026/Feb/16/rodney-claude-code/#atom-everything
-
-### CrewAI teases major new feature
-
-- **Source:** @joaomdmoura
-- **Insight:** CrewAI founder hints at breakthrough feature deeply integrated with the framework
-- **Tags:** multi-agent, agentic
-- **Engagement:** 17♥
-- **Link:** https://x.com/joaomdmoura/status/2023563467891028195
-
-### Ciana Parrot — self-hosted AI assistant with multi-channel support
-
-- **Source:** @hwchase17
-- **Insight:** Open-source self-hosted agent with scheduled tasks and skills — growing pattern in personal AI
-- **Tags:** agentic, tools
-- **Engagement:** 88♥
-- **Link:** https://x.com/hwchase17/status/2023102882653036751
-
-### WordPress launches AI assistant for site editing via prompts
-
-- **Source:** The Verge AI
-- **Insight:** AI-assisted no-code site building goes mainstream — signals where agentic UX is heading
-- **Tags:** agentic, tools
-- **Link:** https://www.theverge.com/tech/880223/wordpress-launches-ai-assistant
-
-## Tutorials
-
-### How to do AI analysis you can actually trust
-
-- **Source:** Lenny Rachitsky
-- **Insight:** Practical framework for reliable AI-driven analysis — directly useful for business leaders adopting AI
-- **Tags:** tools, business
-- **Link:** https://www.lennysnewsletter.com/p/how-to-do-ai-analysis-you-can-actually
-
-### OpenClaw Architecture Diagrams Deep Dive
-
-- **Source:** @kloss_xyz
-- **Insight:** High-engagement post (651♥) sharing OpenClaw system diagrams — useful for understanding agentic infra patterns
-- **Tags:** agentic, tools
-- **Engagement:** 651♥
-- **Link:** https://x.com/kloss_xyz/status/2023663090668368258
-
-### How a visually impaired engineer uses Claude Code for accessibility
-
-- **Source:** Lenny Rachitsky
-- **Insight:** Real-world Claude Code use case showing agentic AI solving non-obvious problems
-- **Tags:** claude-code, agentic
-- **Link:** https://www.lennysnewsletter.com/p/how-this-visually-impaired-engineer
-
-### AI-powered physical mail processing workflow
-
-- **Source:** @alliekmiller
-- **Insight:** Practical automation: one prompt categorizes, scans, and processes all physical mail end-to-end
-- **Tags:** agentic, tools
-- **Engagement:** 52♥
-- **Link:** https://x.com/alliekmiller/status/2023766392546242834
-
+## Big Picture
+
+The agentic stack is crystallizing fast — models are commoditizing toward Opus-level at Sonnet prices, coding agents are going mainstream (even Torvalds uses them), and the real battleground is shifting from 'can AI code?' to 'who controls the tooling layer around it.'
+
+## Data Points
+
+- [object Object]
+- [object Object]
+- [object Object]
+- [object Object]
+
+## Signals by Category
+
+### Business
+
+- **OpenAI Codex weekly users tripled since start of 2026**
+  Coding agents hitting mainstream adoption — signals where enterprise AI spend is going
+  #agentic #business | 👍 7847
+- **How Harmonic Built an Investment Agent with LangGraph**
+  Real production agent case study: VCs using agentic workflows for deal sourcing
+  #agentic #business | 👍 47
+- **Perplexity ditches AI ads as companies battle over trust and revenue**
+  AI business model wars heating up — ad-free positioning signals shifting monetization strategies
+  #business #contrarian | 👍 0
+- **Meta buys millions of Nvidia AI chips in massive new deal**
+  Signals continued infrastructure arms race — impacts compute availability and pricing for everyone
+  #business #models | 👍 0
+- **ByteDance tweaks safeguards on Seedance AI video model after Hollywood backlash**
+  Copyright pressure forcing model providers to add guardrails — regulatory signal for builders
+  #models #business #contrarian | 👍 0
+- **Shopify's AI Advantages**
+  Ben Thompson on how Shopify leverages AI for competitive moat — strong business strategy signal
+  #business | 👍 0
+- **Peter Steinberger joins OpenAI to lead next-gen personal agents**
+  Top mobile dev talent moving to personal AI agents — signals OpenAI's consumer agent push
+  #agentic #business | 👍 46155
+
+### Models
+
+- **Sonnet 4.6 launched — approaching Opus-class capabilities**
+  Mid-tier model closing gap with flagship = cheaper Opus-level performance for production
+  #models | 👍 3587
+- **Sonnet 4.6 Now Available in Cursor**
+  New Claude model drop with notable gains on long tasks — immediate impact for coding agents
+  #models #claude-code | 👍 1926
+- **Introducing Claude Sonnet 4.6**
+  New Claude model release — direct impact on tooling and cost decisions for AI practitioners
+  #models #claude-code | 👍 0
+- **Sonnet 4.6 available on Perplexity Pro/Max**
+  Perplexity ships Sonnet 4.6 across all clients same day — fast model adoption signals competitive pressure
+  #models #tools | 👍 545
+- **Qwen3.5: Towards Native Multimodal Agents**
+  Open-source multimodal agent model from Alibaba — serious competition to GPT/Claude for agentic use cases
+  #models #agentic #multi-agent | 👍 0
+- **Computer use approaching human-level capability in under 18 months**
+  Pace of agentic UI automation is faster than most orgs are planning for
+  #agentic #models | 👍 1411
+- **Anticipation for Sonnet 4.6 surpassing Opus 4.5**
+  Early signal that Sonnet 4.6 may outperform Opus 4.5 — shifts cost/performance calculus for teams choosing models
+  #models | 👍 266
+- **Grok 4.20 first impressions: fast, accurate, pleasant**
+  Mostaque's early review of Grok 4.20 — competitive new model worth tracking
+  #models | 👍 322
+- **GPT 5.2 Pro sets new speed record**
+  New latency record for GPT 5.2 Pro — model speed competition intensifying
+  #models | 👍 78
+- **Opus vs Codex showdown, and AI for accessibility**
+  Head-to-head comparison of top coding models — useful for tool selection decisions
+  #claude-code #models #agentic | 👍 0
+
+### Opinion
+
+- **Karpathy: LLMs change the calculus for programming languages and formal methods**
+  LLMs make formal verification more practical — shifts what's worth investing in for software quality
+  #research #contrarian | 👍 7692
+- **Greg Isenberg: The Skill Era of the Internet**
+  Thesis that software moats shift from code to skills/taste as AI commoditizes engineering
+  #business #agentic | 👍 1618
+- **Find what AI is NOT good at — contrarian exercise**
+  Allie Miller challenges practitioners to spot AI's blind spots — valuable for realistic adoption planning
+  #contrarian #business | 👍 61
+- **Swyx on 'performative coders' and AI hype culture**
+  Sharp critique of people who perform coding with AI but don't ship — resonates with builder-vs-talker divide
+  #contrarian #agentic | 👍 320
+- **Simon Willison: CLIs beat MCPs for agent tooling**
+  Argues CLI tools give more functionality than MCPs for coding agents — contrarian to the MCP hype wave
+  #agentic #tools #contrarian | 👍 3
+- **When will AI agent economic activity overtake humans?**
+  Mostaque poses the big question on agent-driven economies — signals where AI investment thesis is heading
+  #agentic #business | 👍 174
+- **The AI Vampire**
+  Contrarian take on AI value extraction dynamics — critical lens for business strategy
+  #contrarian #business | 👍 0
+- **Rumors of AGI's arrival have been greatly exaggerated**
+  Marcus pushes back on AGI hype — valuable contrarian lens for grounded business decisions
+  #contrarian #research | 👍 0
+- **GPT-5 vs GPT-2: Bigger models aren't always better**
+  GPT-5 underperforms GPT-2 at simple creative tasks — useful contrarian datapoint on scaling assumptions
+  #models #contrarian | 👍 139
+- **Samsung caught using AI-generated slop in social media ads**
+  Major brand backlash over AI-generated content — cautionary tale for AI content strategy
+  #contrarian #business | 👍 0
+
+### Research
+
+- **Harness Engineering for Deep Coding Agents**
+  Frontier coding agent improvement techniques — directly relevant to agentic dev workflows
+  #agentic #claude-code | 👍 35
+- **Scientist using AI to discover new antibiotics across unconventional sources**
+  Applied ML in drug discovery with real results — strong case study for AI beyond tech
+  #research | 👍 0
+- **Radial-VCReg: New self-supervised representation learning method**
+  LeCun shares new paper improving VCReg with radial constraints — advances in non-contrastive SSL
+  #research | 👍 98
+
+### Tools
+
+- **A Guide to Which AI to Use in the Agentic Era**
+  Mollick's framework for choosing AI tools as agents proliferate — essential practitioner guide
+  #agentic #models #tools | 👍 0
+- **Claude's web search now writes and executes code to filter results**
+  Search + code execution combo = agents that can research AND process autonomously
+  #claude-code #agentic #tools | 👍 1882
+- **ACP protocol as the next big agent communication standard**
+  LangChain founder bets on Agent Communication Protocol as breakout standard for deep agents
+  #multi-agent #agentic | 👍 63
+- **Codex CLI + Agent-Browser + Agentation Stack**
+  Practical agentic dev stack combining Codex CLI, Vercel's agent-browser, and agentation for powerful automation
+  #agentic #tools #claude-code | 👍 11
+- **Torvalds now uses agentic engineering**
+  Linus Torvalds adopting agentic coding — signals mainstream dev workflow shift
+  #agentic #claude-code | 👍 51
+- **Claude gets code execution, web fetch, memory and programmatic tool calling**
+  Claude's tool ecosystem expanding fast — code exec + web fetch approach full agent capabilities
+  #claude-code #agentic #tools | 👍 423
+- **Agent Observability Powers Agent Evaluation**
+  LangChain frames observability as prerequisite for agent eval — key architectural pattern
+  #agentic #tools | 👍 48
+- **Cursor Agent Plugins for AWS**
+  Agent plugins pattern: giving coding agents cloud deployment skills, not just code generation
+  #agentic #tools | 👍 48
+- **Cursor launches Cloudflare plugin for MCP servers and Workers**
+  Cursor expanding plugin ecosystem — MCP server integration signals agentic tooling becoming standard
+  #tools #agentic | 👍 82
+- **Rodney: New CLI tool for browser automation designed for coding agents**
+  Simon Willison's browser automation CLI built for coding agents and Showboat — new agentic tooling option
+  #agentic #tools #claude-code | 👍 123
+- **agent-debugger: Terminal debugger for LangGraph/LangChain agents**
+  Community-built terminal debugger for LangGraph agents — signals maturing agentic dev tooling ecosystem
+  #agentic #tools #multi-agent | 👍 76
+- **Understanding how users actually use your production agents**
+  LangChain founder on the challenge of observability for production agents — key ops problem
+  #agentic #tools | 👍 12
+- **Rodney and Claude Code for Desktop**
+  Simon Willison's take on Claude Code desktop integration — practical agentic coding patterns
+  #claude-code #agentic #tools | 👍 0
+- **CrewAI teases major new feature**
+  CrewAI founder hints at breakthrough feature deeply integrated with the framework
+  #multi-agent #agentic | 👍 17
+- **Ciana Parrot — self-hosted AI assistant with multi-channel support**
+  Open-source self-hosted agent with scheduled tasks and skills — growing pattern in personal AI
+  #agentic #tools | 👍 88
+- **WordPress launches AI assistant for site editing via prompts**
+  AI-assisted no-code site building goes mainstream — signals where agentic UX is heading
+  #agentic #tools | 👍 0
+
+### Tutorials
+
+- **How to do AI analysis you can actually trust**
+  Practical framework for reliable AI-driven analysis — directly useful for business leaders adopting AI
+  #tools #business | 👍 0
+- **OpenClaw Architecture Diagrams Deep Dive**
+  High-engagement post (651♥) sharing OpenClaw system diagrams — useful for understanding agentic infra patterns
+  #agentic #tools | 👍 651
+- **How a visually impaired engineer uses Claude Code for accessibility**
+  Real-world Claude Code use case showing agentic AI solving non-obvious problems
+  #claude-code #agentic | 👍 0
+- **AI-powered physical mail processing workflow**
+  Practical automation: one prompt categorizes, scans, and processes all physical mail end-to-end
+  #agentic #tools | 👍 52
+
+## Stats
+
+- Raw fetched: 218
+- Kept: 50
+- Sources: X (181), RSS (37)
