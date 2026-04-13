@@ -1,44 +1,41 @@
-# AI Intelligence Brief — April 4, 2026
+# AI Intelligence Digest — April 13, 2026
 
-## 🌍 Big Picture
+## 🌍 BIG PICTURE
 
-- **🔥 OpenAI closes $122B round at $852B valuation** — Largest private funding round in history, resetting every AI startup's fundraising benchmark and compressing competitive oxygen. (3d) https://x.com/OpenAI/status/2039085161971896807
-- **Claude Code accidentally open-sourced** — Community dissecting internals: fake tools, frustration regexes, Tamagotchi-style pet agent, and upcoming features. A masterclass in agentic architecture leaked to the public. (3d) https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/
-- **Karpathy: LLM = CPU, Agent = OS** — The mental model crystallizing how builders think about agent architecture. IDE wars shifting from code completion to full agentic coding workflows. (3d) https://x.com/karpathy/status/2039054981719089202
-- **Stripe ships 1,300 AI-generated PRs/week** — Proof that agentic coding isn't a demo — it's production infrastructure at one of tech's most rigorous engineering orgs. (4d) https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-stripe
-- **Sequoia: "Services is the new software"** — $1T+ in services ripe for AI replacement. Founders should use this map to pick their niche before incumbents wake up. (3d) https://x.com/gregisenberg/status/2039125157134905517
-- **AI ranks #1 on live Codeforces** — Up from #175 in one year. Exponential coding capability curve forces engineering leaders to rethink team structures. (3d) https://x.com/Ronycoder/status/2039356217949393269
+- 🔥 **Sam Altman publishes personal essay** — Rare personal writing from the OpenAI CEO, signaling a shift in how he's positioning himself publicly. (2d) https://x.com/sama/status/2042738954550603884
+- 🧠 **Karpathy frames personal AI as tractable brain upload** — Instead of uploading consciousness, build an AI trained on your data that acts as your proxy. A philosophical but practical framing for personal agents. (2d) https://x.com/karpathy/status/2042626702459674801
+- 🚀 **OpenAI launches Codex CLI + Atlas** — Two new releases: Codex CLI (open-source coding agent) and Atlas (new product). OpenAI flooding the market with developer tools. (1d) https://x.com/OpenAI/status/2042780056804811115
+- 🤖 **Google demos adventure game on Pixel 10 Pro using Gemma 4 vision** — On-device multimodal AI running real game prototypes. Edge AI getting real. (2d) https://x.com/GoogleAI/status/2042627135408378257
+- 💡 **Arav Srinivas: kids will build multi-billion dollar businesses with AI** — Perplexity CEO sees the next generation leveraging AI tools in ways nobody's imagined yet. (2h) https://x.com/AravSrinivas/status/2043456501248074132
+- ⚔️ **CrewAI founder: agentic tooling is furniture rearrangement** — "The building is being commoditized." Existential cracks appearing in the agent framework space. (8h) https://x.com/joaomdmoura/status/2043367945112572122
 
-**Synthesis:** The AI industry split into two lanes — OpenAI consolidating power with an $852B war chest while Claude Code's leaked internals hand builders a blueprint for agentic architecture. The tension between closed mega-capital and open agentic tooling defines what comes next.
+*Synthesis: The agent framework layer is commoditizing fast while big labs flood open tools. The real moat is shifting to workflow design and domain-specific applications.*
 
-## 🔧 Builder
+## 🔧 BUILDER
 
-- **Claude Code source leak deep-dive** — 600K lines dissected: prompt engineering patterns, hidden guardrails, upcoming features. Visual guide at ccunpacked.dev. (3d) https://ccunpacked.dev/
-- **Cut Claude Code token usage by 68.5%** — Give agents their own OS with structured workspaces and dedicated context. Directly applicable to any multi-agent setup. (3d) https://www.reddit.com/r/ClaudeAI/comments/1s6gu92/i_cut_claude_codes_token_usage_by_685_by_giving/
-- **Claude wrote a full FreeBSD kernel RCE exploit** — AI autonomously discovering and writing kernel-level exploits changes offensive/defensive security calculus. (3d) https://github.com/califio/publications/blob/main/MADBugs/CVE-2026-4747/write-up.md
-- **🔥 npm axios vulnerability (300M weekly downloads)** — Supply chain attack hitting mainstream libs. Every AI app with Node.js deps is a target. Pin your versions NOW. (3d) https://x.com/karpathy/status/2038849654423798197
-- **1-Bit Bonsai: first commercially viable 1-bit LLMs** — Edge/on-device builders: local LLMs at fraction of compute cost going commercial. (3d) https://prismml.com/
-- **Ethan Mollick: Claude Dispatch and the Power of Interfaces** — How interface design determines AI adoption. Directly relevant to agentic UX decisions. (3d) https://www.oneusefulthing.org/p/claude-dispatch-and-the-power-of
-- **LangChain: Agent improvement loop starts with tracing** — Trace → eval → fix cycle as primitive for debugging production agents. (3d) https://x.com/LangChain/status/2039028327030079565
-- **90% of AI agent projects don't need agents at all** — Contrarian check: complexity bias kills agent projects. Ship the simplest thing first. (3d) https://www.reddit.com/r/AI_Agents/comments/1s4u5v4/90_of_ai_agent_projects_i_get_hired_for_dont_need/
+- **Boris Cherny: Claude Code defaulted to medium thinking due to user feedback on token usage** — Not a nerf, a deliberate UX tradeoff. Power users should explicitly set thinking level. (21h) https://x.com/bcherny/status/2043163965648515234
+- **Harrison Chase launches Deepagents — batteries-included agent SDK from LangChain** — Positioning as the "middleware" layer between minimal (create-agent) and full-featured. CLI included for agentic coding exploration. (9h) https://x.com/hwchase17/status/2043356543698063690
+- **LangChain: your eval harness is your memory** — Blog on evaluation patterns: capture traces → evaluate → improve. The loop that separates toy agents from production ones. (1d) https://x.com/LangChain/status/2042979361867886733
+- **Harrison Chase: open memory standards will need to emerge** — Agents need shared memory protocols. The infra is missing. (9h) https://x.com/hwchase17/status/2043354508978258058
+- **Cursor doubles Composer 2 usage limits** — New Agents interface with 2x capacity. Coding agent wars heating up. (1d) https://x.com/cursor_ai/status/2043009335161430187
+- **Steipete: most models trained on Claude Code-like harness, Codex differs** — Insight into how training environments shape agent behavior. (11h) https://x.com/steipete/status/2043315267867160624
+- **Simon Willison impressed by Gemma 4 26B A4B variant** — Lightweight open model punching above its weight. Good for local/edge deployments. (6h) https://x.com/simonw/status/2043399039547502949
+- **Simon Willison: red/green TDD with AI agents** — Using test-driven development patterns to constrain and validate agent outputs. (2d) https://x.com/simonw/status/2042755962172510684
 
-💡 **Takeaway:** The Claude Code leak is a goldmine — study its agent OS patterns and workspace architecture to cut your own token costs and build more reliable agents.
+*💡 Takeaway: Set Claude Code thinking level explicitly (don't rely on defaults), and build eval loops from day one — traces → evaluate → improve is the production agent pattern.*
 
-## 🔥 Content Fuel
+## 🔥 CONTENT FUEL
 
-- "How to set up Claude so it never forgets you: Prompts → Projects → Skills (explained in 3 mins)..." — @rubenhassid · 197 likes · Step-by-step · 3-level Claude setup system with specific steps for persistent AI memory https://x.com/rubenhassid/status/2039311247611412981
+- "Don't type another prompt into Claude. Do these 9 simple things first: 1. Download the Claude app..." — @rubenhassid · Step-by-step · 9 specific Claude setup steps (download app, pick Opus 4.6, enable Extended Thinking, use Cowork mode) — directly reproducible as Spanish guide (14h) https://x.com/rubenhassid/status/2043267894382088314
 
-- "Vibe-code a free tool by lunch. Let it market your business forever. Here's the 5-step viral loop..." — @startupideaspod · 123 likes · Step-by-step · Concrete viral loop: build free tool → users score → share → organic growth https://x.com/startupideaspod/status/2039019596465025468
+- "Here is how to actually build a skill the right way: Step 1: Build your workflow by hand with the agent..." — @startupideaspod · Step-by-step · 6 explicit steps to build reliable AI skills with error correction loop (1d) https://x.com/startupideaspod/status/2043062970436235414
 
-- "200,000+ new vibe coding projects get created every day yet almost NONE get customers. 7 distribution strategies..." — @gregisenberg · 1,436 likes · Listicle · MCP servers, programmatic SEO with Firecrawl, each with concrete tactics https://x.com/gregisenberg/status/2038706332119797894
+- "So many people wanted to see my knowledge management system in Claude Code, so here it is..." — @alliekmiller · Workflow · Exact stack: Obsidian + Claude Code + GitHub second brain in <2 hours (2d) https://x.com/alliekmiller/status/2042728780847047131
 
-- "How to actually get customers for your vibe coded app: MCP servers, 10K SEO pages, free tools..." — @startupideaspod · 986 likes · Listicle · 7 specific acquisition tactics: MCP, programmatic SEO, answer engine optimization https://x.com/startupideaspod/status/2038707700226466121
+- "I have a 100% hit rate on my AI skills. Here's why: I never write skills from scratch..." — @startupideaspod · Workflow · Walk agent through task manually, correct in real time, then extract skill from context (2d) https://x.com/startupideaspod/status/2042714123683926044
 
-- "The Complete AI Stack for Solo Builders in 2026. Every Tool You Need in One Place." — @cyrilXBT · 161 likes · Listicle · Full AI tool stack mapped by category for solo builders https://x.com/cyrilXBT/status/2039182530654445840
+- "One of the biggest issues with Claude Code is that it doesn't actually show you how many tokens you're using..." — @aiedge_ · Tool-demo · Claude Code token dashboard with git clone link, clear problem→solution (1d) https://x.com/aiedge_/status/2043124473092866332
 
-- "How to Use Claude for Research (And Actually Trust the Sources)" — @zodchiii · 73 likes · How-to · Specific workflow for validating sources with Claude research mode https://x.com/zodchiii/status/2039301162923438562
+- "SOMEONE JUST BUILT AN AI AGENT THAT SELLS POOLS WITHOUT TALKING TO A SINGLE HUMAN..." — @cyrilXBT · Case-study · Reproducible pipeline: find homes by value, render pool into backyard, mail personalized postcard (6h) https://x.com/cyrilXBT/status/2043366148297666590
 
-- "Most people are sleeping on MCP servers as a sales channel. Here's how it works..." — @startupideaspod · 380 likes · How-to · MCP as distribution: AI discovers your product, sells 24/7, $0 spent https://x.com/startupideaspod/status/2038708720453173749
-
-## Stats
-Sources scanned: 347 | Kept: 111 | Content Fuel: 12 | Enterprise Signals: 9
+- "My all-time favorite Claude prompts. Simple inputs, yet they yield massive returns..." — @aiedge_ · Listicle · Specific prompts for saving tokens, deeper insights, killing slop (6h) https://x.com/aiedge_/status/2043373626444095679
