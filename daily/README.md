@@ -1,0 +1,1 @@
+# Daily fetch output directory
