@@ -1,28 +1,18 @@
-# The Feed 📡
+# the-feed — raw data store for the content engine
 
-Daily AI intelligence digest — automated, curated, ready for content creation.
+Store of record for [content-engine](https://github.com/irivelez/content-engine)'s gathering stage. Two folders, two cadences, one contract:
 
-## What is this?
+| Folder | What | Cadence · Producer | Local mirror (content-engine) |
+|---|---|---|---|
+| `daily/{YYYY-MM-DD}.json` | The **daily sweep** — X + Hacker News + RSS, ~450 items/day, rule-filtered (no AI) | 8:00 AM daily · `scripts/fetch-sources.js` (launchd) | `pipeline/daily/` — 14-day cache, prunes only after verified push |
+| `deep/{YYYY-Wnn}.md` | The **weekly deep research** — one `/last30days` multi-source run (Reddit · X · YouTube · HN · GitHub), raw evidence with engagement | Sundays · the `/brief` skill | `pipeline/deep/` — 12-week cache, prunes only if verified here |
 
-This repo is the bridge between **discovery** (automated AI content sourcing) and **creation** (writing with your own angle via Claude Code).
+`daily/latest.json` always mirrors the most recent day.
 
-Every day at 6 AM PT, a fresh digest lands in `digests/` as a structured markdown file.
+**Item schema (`daily/*.json → items[]`):** `title · content · author · url · likes · comments · retweets · engagementScore (likes + 3·rt + 2·replies) · source (x|hackernews|rss) · tier (trusted|creator|rss|hackernews|broad) · publishedAt · age · hot`
 
-## How to use with Claude Code
+**Downstream:** raw data here is curated weekly into `content-engine/pipeline/briefs/{YYYY-Wnn}.md` — topics → grounded angles with verbatim hooks, each carrying `ACTION: draft | discard | regenerate` for any content-creation agent.
 
-```
-Read today's digest from https://raw.githubusercontent.com/irivelez/the-feed/main/digests/latest.md and let's create content about [your angle]
-```
+**Coverage:** complete since 2026-04-13, gap 2026-05-31 → 2026-07-25 (fetcher down).
 
-## Structure
-
-- `digests/YYYY-MM-DD.md` — Daily digest files
-- `digests/latest.md` — Always points to the most recent digest
-- `sources.md` — Current source configuration
-
-## Sources
-
-23 X/Twitter accounts, 13 RSS feeds, 5 subreddits, HN — curated for AI, agentic systems, and business impact.
-
----
-*Powered by [thexperiment.dev](https://thexperiment.dev)*
+**Legacy — frozen, do not consume:** `digests/`, `latest.md` (deprecated server pipeline, kept for history).
