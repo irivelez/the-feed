@@ -1,16 +1,16 @@
 {
-  "date": "2026-09-24",
-  "fetchedAt": "2026-09-24T13:00:54.479Z",
+  "date": "2026-09-25",
+  "fetchedAt": "2026-09-25T13:00:56.231Z",
   "stats": {
-    "rawFetched": 90,
-    "afterDedup": 90,
+    "rawFetched": 81,
+    "afterDedup": 81,
     "byTier": {
-      "hackernews": 20,
-      "rss": 70
+      "hackernews": 14,
+      "rss": 67
     },
     "bySource": {
-      "hackernews": 20,
-      "rss": 70
+      "hackernews": 14,
+      "rss": 67
     }
   },
   "items": [
@@ -19,13 +19,13 @@
       "content": "Claude Opus 5.5",
       "author": "km144",
       "url": "https://www.anthropic.com/claude-opus-5-5",
-      "likes": 1781,
-      "comments": 1107,
-      "engagementScore": 3995,
+      "likes": 1793,
+      "comments": 1117,
+      "engagementScore": 4027,
       "source": "hackernews",
       "publishedAt": "2026-09-22T16:29:05.000Z",
       "tier": "hackernews",
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -33,13 +33,13 @@
       "content": "GPT-6 Sol and Luna",
       "author": "OfficialTurkey",
       "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-      "likes": 1753,
-      "comments": 831,
-      "engagementScore": 3415,
+      "likes": 1766,
+      "comments": 847,
+      "engagementScore": 3460,
       "source": "hackernews",
       "publishedAt": "2026-09-22T18:00:34.000Z",
       "tier": "hackernews",
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -47,167 +47,41 @@
       "content": "Claude discovers a novel enzyme system with CRISPR-like repeats",
       "author": "raahelb",
       "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-      "likes": 692,
-      "comments": 712,
-      "engagementScore": 2116,
+      "likes": 769,
+      "comments": 786,
+      "engagementScore": 2341,
       "source": "hackernews",
       "publishedAt": "2026-09-23T18:06:47.000Z",
       "tier": "hackernews",
-      "age": "18h",
+      "age": "1d",
       "hot": false
     },
     {
-      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
-      "content": "Pentagon says overreliance on AI contributed to missile strike on Iran school\n<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;0V37g\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;0V37g</a>",
-      "author": "devonnull",
-      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-      "likes": 921,
-      "comments": 523,
-      "engagementScore": 1967,
+      "title": "Rails World 2026 Opening Keynote [video]",
+      "content": "Rails World 2026 Opening Keynote [video]",
+      "author": "an0malous",
+      "url": "https://www.youtube.com/watch?v=vDjW_dRyKXY",
+      "likes": 360,
+      "comments": 391,
+      "engagementScore": 1142,
       "source": "hackernews",
-      "publishedAt": "2026-09-22T19:03:38.000Z",
+      "publishedAt": "2026-09-23T15:33:33.000Z",
       "tier": "hackernews",
       "age": "1d",
       "hot": false
     },
     {
-      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
-      "content": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
-      "author": "sohkamyung",
-      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
-      "likes": 731,
-      "comments": 440,
-      "engagementScore": 1611,
-      "source": "hackernews",
-      "publishedAt": "2026-09-22T13:52:15.000Z",
-      "tier": "hackernews",
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
-      "content": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
-      "author": "pszypowicz",
-      "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
-      "likes": 472,
-      "comments": 270,
-      "engagementScore": 1012,
-      "source": "hackernews",
-      "publishedAt": "2026-09-23T12:15:33.000Z",
-      "tier": "hackernews",
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "Feds Target AI Critics as \"Foreign Agents\"",
-      "content": "Feds Target AI Critics as \"Foreign Agents\"",
-      "author": "nmeagent",
-      "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
-      "likes": 313,
-      "comments": 328,
-      "engagementScore": 969,
-      "source": "hackernews",
-      "publishedAt": "2026-09-24T00:41:31.000Z",
-      "tier": "hackernews",
-      "age": "12h",
-      "hot": false
-    },
-    {
-      "title": "Linux support is coming to Snapdragon X2 Series",
-      "content": "Linux support is coming to Snapdragon X2 Series",
+      "title": "Linux support is coming to Snapdragon X2 series",
+      "content": "Linux support is coming to Snapdragon X2 series",
       "author": "aaronday",
       "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
-      "likes": 480,
-      "comments": 204,
-      "engagementScore": 888,
+      "likes": 603,
+      "comments": 263,
+      "engagementScore": 1129,
       "source": "hackernews",
       "publishedAt": "2026-09-23T22:38:16.000Z",
       "tier": "hackernews",
-      "age": "14h",
-      "hot": false
-    },
-    {
-      "title": "I don't want the details",
-      "content": "I don't want the details",
-      "author": "mooreds",
-      "url": "https://michaelheap.com/i-dont-want-the-details/",
-      "likes": 414,
-      "comments": 212,
-      "engagementScore": 838,
-      "source": "hackernews",
-      "publishedAt": "2026-09-23T13:04:44.000Z",
-      "tier": "hackernews",
-      "age": "23h",
-      "hot": false
-    },
-    {
-      "title": "GPT-6 Astra has gained the ability to drive a car",
-      "content": "GPT-6 Astra has gained the ability to drive a car",
-      "author": "plurby",
-      "url": "https://drivingbench.com/",
-      "likes": 296,
-      "comments": 228,
-      "engagementScore": 752,
-      "source": "hackernews",
-      "publishedAt": "2026-09-23T15:14:22.000Z",
-      "tier": "hackernews",
-      "age": "21h",
-      "hot": false
-    },
-    {
-      "title": "OpenAI breaches Medicare, Albanese reveals",
-      "content": "OpenAI breaches Medicare, Albanese reveals",
-      "author": "jonnonz",
-      "url": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
-      "likes": 221,
-      "comments": 243,
-      "engagementScore": 707,
-      "source": "hackernews",
-      "publishedAt": "2026-09-23T21:01:48.000Z",
-      "tier": "hackernews",
-      "age": "15h",
-      "hot": false
-    },
-    {
-      "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
-      "content": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
-      "author": "pieterr",
-      "url": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
-      "likes": 314,
-      "comments": 149,
-      "engagementScore": 612,
-      "source": "hackernews",
-      "publishedAt": "2026-09-24T08:23:03.000Z",
-      "tier": "hackernews",
-      "age": "4h",
-      "hot": false
-    },
-    {
-      "title": "Gemini 3.8 text-to-speech",
-      "content": "Gemini 3.8 text-to-speech",
-      "author": "swolpers",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
-      "likes": 313,
-      "comments": 139,
-      "engagementScore": 591,
-      "source": "hackernews",
-      "publishedAt": "2026-09-23T15:29:23.000Z",
-      "tier": "hackernews",
-      "age": "21h",
-      "hot": false
-    },
-    {
-      "title": "VSCode's SSH Agent Is Bananas (2025)",
-      "content": "VSCode's SSH Agent Is Bananas (2025)",
-      "author": "Rapzid",
-      "url": "https://fly.io/blog/vscode-ssh-wtf/",
-      "likes": 257,
-      "comments": 161,
-      "engagementScore": 579,
-      "source": "hackernews",
-      "publishedAt": "2026-09-23T21:01:48.000Z",
-      "tier": "hackernews",
-      "age": "15h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -215,83 +89,155 @@
       "content": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
       "author": "snikolaev",
       "url": "https://transluce.org/agent-activity",
-      "likes": 164,
-      "comments": 145,
-      "engagementScore": 454,
+      "likes": 261,
+      "comments": 286,
+      "engagementScore": 833,
       "source": "hackernews",
       "publishedAt": "2026-09-24T05:21:10.000Z",
       "tier": "hackernews",
-      "age": "7h",
+      "age": "1d",
       "hot": false
     },
     {
-      "title": "Stripe's Knowledge AI Platform",
-      "content": "Stripe's Knowledge AI Platform",
-      "author": "ltononro",
-      "url": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
-      "likes": 182,
-      "comments": 113,
-      "engagementScore": 408,
+      "title": "'That's so AI ' What gen Alpha's biggest insult tells us",
+      "content": "'That's so AI ' What gen Alpha's biggest insult tells us",
+      "author": "YeGoblynQueenne",
+      "url": "https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
+      "likes": 170,
+      "comments": 240,
+      "engagementScore": 650,
       "source": "hackernews",
-      "publishedAt": "2026-09-23T13:38:00.000Z",
+      "publishedAt": "2026-09-24T12:23:41.000Z",
       "tier": "hackernews",
-      "age": "23h",
+      "age": "1d",
       "hot": false
     },
     {
-      "title": "Cloud Agents Are Inevitable AI Prisons",
-      "content": "Cloud Agents Are Inevitable AI Prisons",
-      "author": "nponte",
-      "url": "https://normanponte.io/19df691f",
-      "likes": 61,
-      "comments": 138,
-      "engagementScore": 337,
+      "title": "Opus 5.5 is good at explainer videos",
+      "content": "Opus 5.5 is good at explainer videos",
+      "author": "iacguy",
+      "url": "https://launchvideo.io",
+      "likes": 307,
+      "comments": 164,
+      "engagementScore": 635,
       "source": "hackernews",
-      "publishedAt": "2026-09-23T18:16:41.000Z",
+      "publishedAt": "2026-09-24T20:28:47.000Z",
       "tier": "hackernews",
-      "age": "18h",
+      "age": "16h",
       "hot": false
     },
     {
-      "title": "Making Tailscale Faster",
-      "content": "Making Tailscale Faster",
-      "author": "yarapavan",
-      "url": "https://tailscale.com/blog/making-tailscale-faster",
-      "likes": 192,
-      "comments": 72,
-      "engagementScore": 336,
+      "title": "Tutoring company tells parents to save their money and 'use AI instead'",
+      "content": "Tutoring company tells parents to save their money and 'use AI instead'",
+      "author": "theanonymousone",
+      "url": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
+      "likes": 122,
+      "comments": 192,
+      "engagementScore": 506,
       "source": "hackernews",
-      "publishedAt": "2026-09-23T17:49:07.000Z",
+      "publishedAt": "2026-09-24T15:09:38.000Z",
       "tier": "hackernews",
-      "age": "19h",
+      "age": "21h",
       "hot": false
     },
     {
-      "title": "OpenAI agent hacked Australian government website, PM says",
-      "content": "OpenAI agent hacked Australian government website, PM says",
-      "author": "rudy6912",
-      "url": "https://www.bbc.com/news/live/cvgl73pxgndwt",
-      "likes": 126,
-      "comments": 77,
-      "engagementScore": 280,
+      "title": "Show HN: Koi.rest – watch some fish and regain your balance",
+      "content": "Show HN: Koi.rest – watch some fish and regain your balance\nHi there. My name is Paul. I’m a developer, an explorer and I’ve got ADHD. As of the beginning of August, I’m also unemployed.<p>This last part, along with everything else this past year, has caused me a great deal of stress.<p>While our balcony zen garden project is yet to be completed, I had an idea to create a virtual one that everyone can use.<p>It&#x27;s an idea that, unfortunately, I’ve been postponing for a while now, mostly because I have no fucking idea how to do it as I don’t know JavaScript, and I don&#x27;t have the capacity to learn it right now.<p>So I let perfect be the enemy of good and, well... just kept the idea to myself.<p>Then I said &quot;fuck it&quot; and used AI to make the thing I really wanted to make.<p>I realized I didn&#x27;t want &quot;perfect&quot;. I wanted &quot;good enough&quot;.<p>I tweaked, added, removed, drew, researched, questioned, tested... I just wasn&#x27;t the one coding it.<p>So now, instead of occupying my brain, it now lives on the internet for others to enjoy.<p>Yes, there’s something noble about making something entirely on your own, but what good is an idea that just sits in my head?<p>So here I am. I made the thing. The weird, little, quiet koi pond.<p>The silly project of passion. The little corner of the internet to let strangers watch fish quietly, together.<p>I hope this pond helps you as much as it helped me.",
+      "author": "hxii",
+      "url": "https://koi.rest",
+      "likes": 195,
+      "comments": 56,
+      "engagementScore": 307,
       "source": "hackernews",
-      "publishedAt": "2026-09-24T02:44:48.000Z",
+      "publishedAt": "2026-09-24T21:33:03.000Z",
+      "tier": "hackernews",
+      "age": "15h",
+      "hot": false
+    },
+    {
+      "title": "What About Rails?",
+      "content": "What About Rails?",
+      "author": "jrochkind1",
+      "url": "https://jardo.dev/what-about-rails",
+      "likes": 114,
+      "comments": 64,
+      "engagementScore": 242,
+      "source": "hackernews",
+      "publishedAt": "2026-09-25T02:50:16.000Z",
       "tier": "hackernews",
       "age": "10h",
       "hot": false
     },
     {
-      "title": "Mercury 2.5 LLM hits 770 tokens per second",
-      "content": "Mercury 2.5 LLM hits 770 tokens per second",
-      "author": "Retro_Dev",
-      "url": "https://artificialanalysis.ai/models/mercury-2-5",
-      "likes": 129,
-      "comments": 73,
-      "engagementScore": 275,
+      "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
+      "content": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
+      "author": "benbreen",
+      "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
+      "likes": 144,
+      "comments": 31,
+      "engagementScore": 206,
       "source": "hackernews",
-      "publishedAt": "2026-09-23T22:16:19.000Z",
+      "publishedAt": "2026-09-24T19:14:27.000Z",
       "tier": "hackernews",
-      "age": "14h",
+      "age": "17h",
+      "hot": false
+    },
+    {
+      "title": "Show HN: Air-gapped file encryption as self-decrypting HTML page",
+      "content": "Show HN: Air-gapped file encryption as self-decrypting HTML page\nAir-gapped file encryption packed into a single, self-decrypting HTML page. Repo: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;ApelegHQ&#x2F;ts-cms-ep-sfx\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;ApelegHQ&#x2F;ts-cms-ep-sfx</a><p>I was inspired by self-extracting archives. I wanted to share files with basically no dependencies. The goal was:<p><pre><code>  1. Something that didn&#x27;t require any installation (assuming a web browser)\n  2. Have a single file with no network that could self-decrypt\n  3. Be fully auditable\n</code></pre>\nThe second point is done by having (sort of(*)) reproducible builds and embedded OpenPGP signatures.<p>The first point is made by cleverly manipulating the HTML structure so that it can decrypt without breaking the PGP signature. It can even decrypt using bare openssl (which was a design goal too, though getting the exact structure right took some work and bug reports).<p>The third point is accomplished by the first two, and by the source being freely available.<p>(*) Depends on the OS at the moment.",
+      "author": "emurlin",
+      "url": "https://cms-sfx-demo.apeleg.com/",
+      "likes": 74,
+      "comments": 28,
+      "engagementScore": 130,
+      "source": "hackernews",
+      "publishedAt": "2026-09-24T07:22:17.000Z",
+      "tier": "hackernews",
+      "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "Show HN: AgentRun: DSL to turn agents into workflows",
+      "content": "Show HN: AgentRun: DSL to turn agents into workflows\nHi HN,<p>I just open sourced the DSL that our harness in grep.ai uses to turn repeatable parts of agent work into workflows. You can combine tool calls, code, Jev-powered system one decisions for things like routing and screening evidence, and agents when a step needs more investigation.<p>Our harness uses the traces and retro notes agents leave behind when doing a job to figure out which parts can become a workflow. The idea is to make the work easier to understand and avoid paying for a full agent loop where one isn’t needed.\nFor example, a research workflow can split a question into subquestions, send agents to research them in parallel, use Jev to screen the evidence, and have another agent write the report. You can inspect the steps, evaluate the evidence screening separately, or change one agent without rebuilding everything.<p>The DSL and examples are in our GitHub. There’s a scripted demo you can run without API keys: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;Parcha-ai&#x2F;agentrun\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Parcha-ai&#x2F;agentrun</a><p>You can also use it as a Pi extension to build, inspect, and run workflows: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;Parcha-ai&#x2F;agentrun#use-it-in-pi\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Parcha-ai&#x2F;agentrun#use-it-in-pi</a><p>I would love to hear if this is useful to others.<p>More background on how AgentRun works in this video: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=vOVhtGjtwpg\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=vOVhtGjtwpg</a>. Or read about our use cases in this article: <a href=\"https:&#x2F;&#x2F;x.com&#x2F;MiguelriosEN&#x2F;status&#x2F;2101029313906987422\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;MiguelriosEN&#x2F;status&#x2F;2101029313906987422</a>.",
+      "author": "miguelrios",
+      "url": "https://github.com/Parcha-ai/agentrun",
+      "likes": 44,
+      "comments": 10,
+      "engagementScore": 64,
+      "source": "hackernews",
+      "publishedAt": "2026-09-23T19:42:58.000Z",
+      "tier": "hackernews",
+      "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "commit-rewriter 0.2",
+      "content": "commit-rewriter 0.2",
+      "author": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "publishedAt": "2026-09-24T20:06:53+00:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "16h",
+      "hot": false
+    },
+    {
+      "title": "datasette 1.0a41",
+      "content": "datasette 1.0a41",
+      "author": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Sep/24/datasette/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "publishedAt": "2026-09-24T19:15:23+00:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "17h",
       "hot": false
     },
     {
@@ -306,7 +252,7 @@
       "publishedAt": "2026-09-23T17:12:27+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "19h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -321,7 +267,7 @@
       "publishedAt": "2026-09-23T16:37:18+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "20h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -336,7 +282,7 @@
       "publishedAt": "2026-09-23T02:53:19+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -351,7 +297,7 @@
       "publishedAt": "2026-09-22T23:46:41+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -366,7 +312,7 @@
       "publishedAt": "2026-09-22T18:48:37+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -381,7 +327,7 @@
       "publishedAt": "2026-09-22T18:03:21+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -396,7 +342,7 @@
       "publishedAt": "2026-09-22T17:14:55+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -411,187 +357,202 @@
       "publishedAt": "2026-09-22T15:54:16+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
-      "content": "Jev introduces a new shape of LLM - System One, aka Decision Models",
-      "author": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Sep/21/jev/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Simon Willison",
-      "publishedAt": "2026-09-21T23:09:20+00:00",
-      "tier": "rss",
-      "signalWeight": 1,
       "age": "2d",
       "hot": false
     },
     {
-      "title": "Cloudflare Python Workers are now generally available",
-      "content": "Cloudflare Python Workers are now generally available",
-      "author": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Simon Willison",
-      "publishedAt": "2026-09-21T22:25:44+00:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "2d",
-      "hot": false
-    },
-    {
-      "title": "OpenAI agents hacked an Australian government website in search for data",
-      "content": "OpenAI agents hacked an Australian government website in search for data",
+      "title": "Can Apple Home’s AI camera features outsmart Amazon and Google’s? I put them to the test",
+      "content": "Can Apple Home’s AI camera features outsmart Amazon and Google’s? I put them to the test",
       "author": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data",
+      "url": "https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
       "likes": 0,
       "comments": 0,
       "source": "rss",
       "sourceName": "The Verge AI",
-      "publishedAt": "2026-09-24T07:52:32-04:00",
+      "publishedAt": "2026-09-25T09:00:00-04:00",
       "tier": "rss",
       "signalWeight": 1,
       "age": "1h",
       "hot": false
     },
     {
-      "title": "Gemini 4 is almost ready, says new Google DeepMind chief",
-      "content": "Gemini 4 is almost ready, says new Google DeepMind chief",
+      "title": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
+      "content": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
       "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
+      "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
       "likes": 0,
       "comments": 0,
       "source": "rss",
       "sourceName": "The Verge AI",
-      "publishedAt": "2026-09-24T05:04:18-04:00",
+      "publishedAt": "2026-09-25T08:00:00-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "1h",
+      "hot": false
+    },
+    {
+      "title": "Gemini 3.8 Live with Live Avatar gives Google&#8217;s AI a face",
+      "content": "Gemini 3.8 Live with Live Avatar gives Google&#8217;s AI a face",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-09-24T15:59:26-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "17h",
+      "hot": false
+    },
+    {
+      "title": "Jensen Huang talks about AI and climate change like a supervillain",
+      "content": "Jensen Huang talks about AI and climate change like a supervillain",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-09-24T14:04:44-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "18h",
+      "hot": false
+    },
+    {
+      "title": "Meta is going to let you build games with AI right on your phone",
+      "content": "Meta is going to let you build games with AI right on your phone",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-09-24T13:52:29-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "19h",
+      "hot": false
+    },
+    {
+      "title": "Muse will apparently let you download its entire filesystem",
+      "content": "Muse will apparently let you download its entire filesystem",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-09-24T13:14:12-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "19h",
+      "hot": false
+    },
+    {
+      "title": "Muse sure looks a lot like OpenClaw",
+      "content": "Muse sure looks a lot like OpenClaw",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-09-24T13:10:38-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "19h",
+      "hot": false
+    },
+    {
+      "title": "It’s sinister that Meta’s Muse AI mascot is so cute",
+      "content": "It’s sinister that Meta’s Muse AI mascot is so cute",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-09-24T13:00:00-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "20h",
+      "hot": false
+    },
+    {
+      "title": "Gemini can now call businesses for you so you don’t have to wait on hold",
+      "content": "Gemini can now call businesses for you so you don’t have to wait on hold",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-09-24T12:04:31-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "20h",
+      "hot": false
+    },
+    {
+      "title": "Why can’t we just keep rogue AIs off the internet?",
+      "content": "Why can’t we just keep rogue AIs off the internet?",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999881/why-cant-we-airgap-rogue-ai-agents",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-09-24T10:30:00-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "22h",
+      "hot": false
+    },
+    {
+      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
+      "content": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The Pentagon wants $30 million to build an AI-powered lie detector The US government wants to spend $30.3 million over the next five years on an improved lie detector, according to&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Fri, 25 Sep 2026 12:10:00 +0000",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "1h",
+      "hot": false
+    },
+    {
+      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+      "content": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use artificial intelligence and machine learning and on a technique called “standoff sensing,” which&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Fri, 25 Sep 2026 09:16:25 +0000",
       "tier": "rss",
       "signalWeight": 1,
       "age": "3h",
       "hot": false
     },
     {
-      "title": "Meta is making a standalone Muse AI gadget",
-      "content": "Meta is making a standalone Muse AI gadget",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
+      "title": "Young organs may not be a fountain of youth for recipients",
+      "content": "Around this time last year I was attending an aging conference in Manchester, listening to a talk about fly aging, when my phone started pinging. News outlets were reporting that a hot mic had caught Russia’s and China’s leaders discussing the possibility of living forever. “With the developments of biotechnology, human organs can be continuously&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/09/25/1145083/young-organs-may-not-be-a-fountain-of-youth-for-recipients/",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-09-23T20:15:20-04:00",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Fri, 25 Sep 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "12h",
-      "hot": false
-    },
-    {
-      "title": "Muse is coming to Meta smart glasses",
-      "content": "Muse is coming to Meta smart glasses",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/999673/meta-connect-2026-muse-glasses-features",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-09-23T19:40:56-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "13h",
-      "hot": false
-    },
-    {
-      "title": "Meta ditches the camera on its newest smart glasses",
-      "content": "Meta ditches the camera on its newest smart glasses",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/999281/ray-ban-meta-audio-glasses-meta-connect-2026",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-09-23T19:37:17-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "13h",
-      "hot": false
-    },
-    {
-      "title": "Meta is making Muse more powerful and will let you video chat with it, too",
-      "content": "Meta is making Muse more powerful and will let you video chat with it, too",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/999454/meta-muse-ai-agent-video-chat-connect-2026",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-09-23T19:19:42-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "13h",
-      "hot": false
-    },
-    {
-      "title": "Meta Connect 2026: The biggest news and announcements",
-      "content": "Meta Connect 2026: The biggest news and announcements",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/998480/meta-connect-2026-biggest-news-announcements",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-09-23T18:45:00-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "14h",
-      "hot": false
-    },
-    {
-      "title": "Meta Connect 2026 live blog: On the ground at Mark Zuckerberg’s next big product launch",
-      "content": "Meta Connect 2026 live blog: On the ground at Mark Zuckerberg’s next big product launch",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/998457/meta-connect-2026-live-blog-mark-zuckerberg-keynote",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-09-23T18:30:00-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "14h",
-      "hot": false
-    },
-    {
-      "title": "Meta’s AI agent is a cute little guy who’s great at spending my money",
-      "content": "Meta’s AI agent is a cute little guy who’s great at spending my money",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-09-23T15:00:00-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "18h",
-      "hot": false
-    },
-    {
-      "title": "Data centers are black boxes, but California wants to change that",
-      "content": "Data centers are black boxes, but California wants to change that",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/policy/999412/data-center-water-electricity-disclosure-bills",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-09-23T14:22:57-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "18h",
+      "age": "4h",
       "hot": false
     },
     {
@@ -606,7 +567,7 @@
       "publishedAt": "Thu, 24 Sep 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -621,7 +582,7 @@
       "publishedAt": "Thu, 24 Sep 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -636,7 +597,7 @@
       "publishedAt": "Wed, 23 Sep 2026 17:10:11 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "19h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -651,7 +612,7 @@
       "publishedAt": "Wed, 23 Sep 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -666,7 +627,7 @@
       "publishedAt": "Wed, 23 Sep 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -681,7 +642,7 @@
       "publishedAt": "Wed, 23 Sep 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -696,52 +657,7 @@
       "publishedAt": "Tue, 22 Sep 2026 13:42:05 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
-      "content": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Don’t be fooled by this summer of AI hype&#160; —Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender, professor of linguistics at the University of&#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Tue, 22 Sep 2026 12:10:00 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
       "age": "2d",
-      "hot": false
-    },
-    {
-      "title": "Don’t be fooled by this summer of AI hype",
-      "content": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident, after which Anthropic (proudly) and Meta (reluctantly) disclosed similar incidents involving their models. This was followed&#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Tue, 22 Sep 2026 11:04:51 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "2d",
-      "hot": false
-    },
-    {
-      "title": "The Download: investigating deaths at the US border&#8217;s “virtual wall”",
-      "content": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The US spent billions on border surveillance. Why can’t it catch people before they die? When José Morales Bernal crossed the border into the US in April 2024, the day before&#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Mon, 21 Sep 2026 12:20:00 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
       "hot": false
     },
     {
@@ -756,7 +672,7 @@
       "publishedAt": "Wed, 23 Sep 2026 16:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "21h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -771,7 +687,7 @@
       "publishedAt": "Wed, 23 Sep 2026 13:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -786,7 +702,7 @@
       "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -801,7 +717,7 @@
       "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -816,7 +732,7 @@
       "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -831,7 +747,7 @@
       "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -846,7 +762,7 @@
       "publishedAt": "Wed, 23 Sep 2026 10:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -861,7 +777,7 @@
       "publishedAt": "Wed, 23 Sep 2026 02:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -876,7 +792,7 @@
       "publishedAt": "Wed, 23 Sep 2026 01:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -891,7 +807,7 @@
       "publishedAt": "Wed, 23 Sep 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -906,7 +822,7 @@
       "publishedAt": "Tue, 22 Sep 2026 23:12:49 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -921,7 +837,7 @@
       "publishedAt": "Tue, 22 Sep 2026 19:06:40 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -936,7 +852,7 @@
       "publishedAt": "Tue, 22 Sep 2026 12:45:14 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -951,7 +867,7 @@
       "publishedAt": "Mon, 21 Sep 2026 15:03:51 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -966,12 +882,12 @@
       "publishedAt": "Mon, 21 Sep 2026 12:04:11 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
       "title": "90 minutes of unfiltered product advice from Snap and Discord’s product chief | Peter Sellis",
-      "content": "Peter Sellis on designing teams like terrorist organizations, riding your best people hard, and the three oxymorons of a truly great PM",
+      "content": "Listen now (97 mins) | Peter Sellis on designing teams like terrorist organizations, riding your best people hard, and the three oxymorons of a truly great PM",
       "author": "Lenny Rachitsky",
       "url": "https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
       "likes": 0,
@@ -981,7 +897,7 @@
       "publishedAt": "Sun, 20 Sep 2026 12:32:17 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -996,7 +912,7 @@
       "publishedAt": "Sat, 19 Sep 2026 19:42:24 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -1009,36 +925,6 @@
       "source": "rss",
       "sourceName": "Lenny Rachitsky",
       "publishedAt": "Wed, 16 Sep 2026 12:02:14 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "8d",
-      "hot": false
-    },
-    {
-      "title": "60+ new creative growth ideas",
-      "content": "How to stand out when everyone is running the same playbook",
-      "author": "Lenny Rachitsky",
-      "url": "https://www.lennysnewsletter.com/p/60-creative-growth-ideas",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Lenny Rachitsky",
-      "publishedAt": "Tue, 15 Sep 2026 12:45:28 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "9d",
-      "hot": false
-    },
-    {
-      "title": "🎙️ How I AI: How two SpaceXAI designers use Grok Bot to do their jobs",
-      "content": "Your weekly listens from How I AI, part of the Lenny&#8217;s Podcast Network",
-      "author": "Lenny Rachitsky",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-two-spacexai-designers",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Lenny Rachitsky",
-      "publishedAt": "Mon, 14 Sep 2026 15:03:48 GMT",
       "tier": "rss",
       "signalWeight": 1,
       "age": "9d",
@@ -1056,7 +942,7 @@
       "publishedAt": "Thu, 24 Sep 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -1071,7 +957,7 @@
       "publishedAt": "Wed, 23 Sep 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -1086,7 +972,7 @@
       "publishedAt": "Tue, 22 Sep 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -1101,7 +987,7 @@
       "publishedAt": "Mon, 21 Sep 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -1116,7 +1002,7 @@
       "publishedAt": "Fri, 18 Sep 2026 17:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -1131,7 +1017,7 @@
       "publishedAt": "Thu, 17 Sep 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
+      "age": "8d",
       "hot": false
     },
     {
@@ -1144,21 +1030,6 @@
       "source": "rss",
       "sourceName": "Ben Thompson (Stratechery)",
       "publishedAt": "Wed, 16 Sep 2026 10:18:04 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "8d",
-      "hot": false
-    },
-    {
-      "title": "OpenAI Ads, Amazon Ads in ChatGPT, Walmart to Accept Apple Pay",
-      "content": "ChatGPT ads are working, and solve Amazon's biggest problem with chatbots. Then, Walmart finally gives in to Apple Pay, because fighting the status quo is hard.",
-      "author": "Ben Thompson (Stratechery)",
-      "url": "https://stratechery.com/2026/openai-ads-amazon-ads-in-chatgpt-walmart-to-accept-apple-pay/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Ben Thompson (Stratechery)",
-      "publishedAt": "Tue, 15 Sep 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
       "age": "9d",
@@ -1176,7 +1047,7 @@
       "publishedAt": "Fri, 18 Sep 2026 17:54:32 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -1191,7 +1062,7 @@
       "publishedAt": "Thu, 17 Sep 2026 15:38:13 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -1206,7 +1077,7 @@
       "publishedAt": "Thu, 24 Sep 2026 12:27:50 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -1221,7 +1092,7 @@
       "publishedAt": "Wed, 23 Sep 2026 21:46:40 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "15h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -1236,7 +1107,7 @@
       "publishedAt": "Wed, 23 Sep 2026 12:43:51 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -1251,7 +1122,7 @@
       "publishedAt": "Tue, 22 Sep 2026 22:31:01 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -1266,7 +1137,7 @@
       "publishedAt": "Tue, 22 Sep 2026 18:29:58 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -1281,7 +1152,7 @@
       "publishedAt": "Mon, 21 Sep 2026 21:11:13 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -1296,7 +1167,7 @@
       "publishedAt": "Sat, 19 Sep 2026 14:59:18 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -1311,7 +1182,7 @@
       "publishedAt": "Fri, 18 Sep 2026 19:52:12 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -1326,7 +1197,7 @@
       "publishedAt": "Fri, 18 Sep 2026 16:29:57 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -1341,7 +1212,7 @@
       "publishedAt": "Thu, 17 Sep 2026 21:50:14 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     }
   ]
