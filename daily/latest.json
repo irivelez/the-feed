@@ -1,16 +1,16 @@
 {
-  "date": "2026-09-26",
-  "fetchedAt": "2026-09-26T13:00:55.148Z",
+  "date": "2026-09-27",
+  "fetchedAt": "2026-09-27T13:00:57.420Z",
   "stats": {
-    "rawFetched": 81,
-    "afterDedup": 81,
+    "rawFetched": 84,
+    "afterDedup": 84,
     "byTier": {
-      "hackernews": 15,
-      "rss": 66
+      "hackernews": 17,
+      "rss": 67
     },
     "bySource": {
-      "hackernews": 15,
-      "rss": 66
+      "hackernews": 17,
+      "rss": 67
     }
   },
   "items": [
@@ -19,27 +19,13 @@
       "content": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
       "author": "cramer4next",
       "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-      "likes": 457,
-      "comments": 784,
-      "engagementScore": 2025,
+      "likes": 492,
+      "comments": 870,
+      "engagementScore": 2232,
       "source": "hackernews",
       "publishedAt": "2026-09-25T15:29:25.000Z",
       "tier": "hackernews",
-      "age": "21h",
-      "hot": false
-    },
-    {
-      "title": "Rails World 2026 Opening Keynote [video]",
-      "content": "Rails World 2026 Opening Keynote [video]",
-      "author": "an0malous",
-      "url": "https://www.youtube.com/watch?v=vDjW_dRyKXY",
-      "likes": 429,
-      "comments": 485,
-      "engagementScore": 1399,
-      "source": "hackernews",
-      "publishedAt": "2026-09-23T15:33:33.000Z",
-      "tier": "hackernews",
-      "age": "2d",
+      "age": "1d",
       "hot": false
     },
     {
@@ -47,55 +33,27 @@
       "content": "Revealing the details of how OpenAI agents hacked Hugging Face",
       "author": "specked-citrus",
       "url": "https://swarmtraces.org/",
-      "likes": 535,
-      "comments": 338,
-      "engagementScore": 1211,
+      "likes": 724,
+      "comments": 453,
+      "engagementScore": 1630,
       "source": "hackernews",
       "publishedAt": "2026-09-25T21:09:27.000Z",
-      "tier": "hackernews",
-      "age": "15h",
-      "hot": false
-    },
-    {
-      "title": "What About Rails?",
-      "content": "What About Rails?",
-      "author": "jrochkind1",
-      "url": "https://jardo.dev/what-about-rails",
-      "likes": 318,
-      "comments": 218,
-      "engagementScore": 754,
-      "source": "hackernews",
-      "publishedAt": "2026-09-25T02:50:16.000Z",
       "tier": "hackernews",
       "age": "1d",
       "hot": false
     },
     {
-      "title": "One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days",
-      "content": "One Piece of Flock Camera Data Put This Innocent Woman in Jail for 13 Days",
-      "author": "HotGarbage",
-      "url": "https://www.jezebel.com/flock-cameras-data-innocent-woman-arrested-lindsey-isaacs-palm-beach-florida-lawsuit-vehicular-homicide",
-      "likes": 204,
-      "comments": 99,
-      "engagementScore": 402,
+      "title": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
+      "content": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
+      "author": "papergirl",
+      "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+      "likes": 340,
+      "comments": 292,
+      "engagementScore": 924,
       "source": "hackernews",
-      "publishedAt": "2026-09-26T00:59:02.000Z",
+      "publishedAt": "2026-09-27T06:19:33.000Z",
       "tier": "hackernews",
-      "age": "12h",
-      "hot": false
-    },
-    {
-      "title": "Microsoft abandons personal AI chatbot race with Copilot reboot",
-      "content": "Microsoft abandons personal AI chatbot race with Copilot reboot\n<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;XJG5V\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;XJG5V</a>",
-      "author": "sbulaev",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
-      "likes": 126,
-      "comments": 120,
-      "engagementScore": 366,
-      "source": "hackernews",
-      "publishedAt": "2026-09-25T14:07:08.000Z",
-      "tier": "hackernews",
-      "age": "22h",
+      "age": "6h",
       "hot": false
     },
     {
@@ -103,25 +61,11 @@
       "content": "How to keep enjoying programming in a world of LLMs",
       "author": "signa11",
       "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-      "likes": 69,
-      "comments": 109,
-      "engagementScore": 287,
+      "likes": 257,
+      "comments": 290,
+      "engagementScore": 837,
       "source": "hackernews",
       "publishedAt": "2026-09-26T09:41:58.000Z",
-      "tier": "hackernews",
-      "age": "3h",
-      "hot": false
-    },
-    {
-      "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
-      "content": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
-      "author": "benbreen",
-      "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
-      "likes": 167,
-      "comments": 43,
-      "engagementScore": 253,
-      "source": "hackernews",
-      "publishedAt": "2026-09-24T19:14:27.000Z",
       "tier": "hackernews",
       "age": "1d",
       "hot": false
@@ -131,41 +75,139 @@
       "content": "How I changed teaching after AI managed to do all my homework assignments",
       "author": "azhenley",
       "url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
-      "likes": 86,
-      "comments": 79,
-      "engagementScore": 244,
+      "likes": 233,
+      "comments": 206,
+      "engagementScore": 645,
       "source": "hackernews",
       "publishedAt": "2026-09-24T20:51:50.000Z",
       "tier": "hackernews",
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
-      "title": "Meta's Muse appears to use an OpenAI model labeled muse-special",
-      "content": "Meta's Muse appears to use an OpenAI model labeled muse-special",
-      "author": "Aeroi",
-      "url": "https://mouse.dev/blog/muse-special/",
-      "likes": 136,
-      "comments": 48,
-      "engagementScore": 232,
+      "title": "Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election",
+      "content": "Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election",
+      "author": "rbanffy",
+      "url": "https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/",
+      "likes": 259,
+      "comments": 176,
+      "engagementScore": 611,
       "source": "hackernews",
-      "publishedAt": "2026-09-25T18:18:06.000Z",
+      "publishedAt": "2026-09-27T08:44:04.000Z",
+      "tier": "hackernews",
+      "age": "4h",
+      "hot": false
+    },
+    {
+      "title": "Automattic has a new board after failed attempt to put CEO on leave",
+      "content": "Automattic has a new board after failed attempt to put CEO on leave",
+      "author": "ilamont",
+      "url": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
+      "likes": 140,
+      "comments": 173,
+      "engagementScore": 486,
+      "source": "hackernews",
+      "publishedAt": "2026-09-26T15:40:27.000Z",
+      "tier": "hackernews",
+      "age": "21h",
+      "hot": false
+    },
+    {
+      "title": "OpenAI bots meddled with multiple US Government agency sites",
+      "content": "OpenAI bots meddled with multiple US Government agency sites",
+      "author": "Betelbuddy",
+      "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
+      "likes": 121,
+      "comments": 180,
+      "engagementScore": 481,
+      "source": "hackernews",
+      "publishedAt": "2026-09-26T14:03:54.000Z",
+      "tier": "hackernews",
+      "age": "22h",
+      "hot": false
+    },
+    {
+      "title": "DeepSeek Elastic Compute (DSec)",
+      "content": "DeepSeek Elastic Compute (DSec)",
+      "author": "shenli3514",
+      "url": "https://arxiv.org/abs/2609.22978",
+      "likes": 274,
+      "comments": 90,
+      "engagementScore": 454,
+      "source": "hackernews",
+      "publishedAt": "2026-09-26T18:22:41.000Z",
       "tier": "hackernews",
       "age": "18h",
       "hot": false
     },
     {
-      "title": "One Month Without AI",
-      "content": "One Month Without AI",
-      "author": "saibotk",
-      "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
-      "likes": 85,
-      "comments": 72,
-      "engagementScore": 229,
+      "title": "Microsoft abandons personal AI chatbot race with Copilot reboot",
+      "content": "Microsoft abandons personal AI chatbot race with Copilot reboot\n<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;XJG5V\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;XJG5V</a>",
+      "author": "sbulaev",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
+      "likes": 151,
+      "comments": 143,
+      "engagementScore": 437,
       "source": "hackernews",
-      "publishedAt": "2026-09-26T10:08:21.000Z",
+      "publishedAt": "2026-09-25T14:07:08.000Z",
       "tier": "hackernews",
-      "age": "2h",
+      "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "An agent used DNS to reach an external chatbot",
+      "content": "An agent used DNS to reach an external chatbot",
+      "author": "apsec112",
+      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+      "likes": 117,
+      "comments": 116,
+      "engagementScore": 349,
+      "source": "hackernews",
+      "publishedAt": "2026-09-26T04:14:11.000Z",
+      "tier": "hackernews",
+      "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "Evolving programming languages in the AI era",
+      "content": "Evolving programming languages in the AI era",
+      "author": "pjm331",
+      "url": "https://dashbit.co/blog/evolving-ai-era",
+      "likes": 115,
+      "comments": 73,
+      "engagementScore": 261,
+      "source": "hackernews",
+      "publishedAt": "2026-09-25T02:34:39.000Z",
+      "tier": "hackernews",
+      "age": "2d",
+      "hot": false
+    },
+    {
+      "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+      "content": "Drawgent: Coding agent on a live Excalidraw canvas",
+      "author": "parasitid",
+      "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+      "likes": 162,
+      "comments": 42,
+      "engagementScore": 246,
+      "source": "hackernews",
+      "publishedAt": "2026-09-26T15:56:34.000Z",
+      "tier": "hackernews",
+      "age": "21h",
+      "hot": false
+    },
+    {
+      "title": "A searchable library of forgotten public-domain film clips from 1915 onward",
+      "content": "A searchable library of forgotten public-domain film clips from 1915 onward",
+      "author": "momentmaker",
+      "url": "https://www.movingimagearchive.com/",
+      "likes": 183,
+      "comments": 26,
+      "engagementScore": 235,
+      "source": "hackernews",
+      "publishedAt": "2026-09-24T16:11:42.000Z",
+      "tier": "hackernews",
+      "age": "2d",
       "hot": false
     },
     {
@@ -173,55 +215,56 @@
       "content": "A single function Jev-like wrapper for LLMs, including vision models",
       "author": "allanrbo",
       "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
-      "likes": 100,
-      "comments": 28,
-      "engagementScore": 156,
+      "likes": 144,
+      "comments": 44,
+      "engagementScore": 232,
       "source": "hackernews",
       "publishedAt": "2026-09-26T04:20:58.000Z",
-      "tier": "hackernews",
-      "age": "8h",
-      "hot": false
-    },
-    {
-      "title": "I wrote a ray tracer in Brainfuck",
-      "content": "I wrote a ray tracer in Brainfuck",
-      "author": "epestr",
-      "url": "https://epestr.com/blog/writing-a-ray-tracer-in-brainfuck/",
-      "likes": 77,
-      "comments": 19,
-      "engagementScore": 115,
-      "source": "hackernews",
-      "publishedAt": "2026-09-25T10:08:41.000Z",
       "tier": "hackernews",
       "age": "1d",
       "hot": false
     },
     {
-      "title": "FTC chair suggests AI developers should be liable for conduct of agents",
-      "content": "FTC chair suggests AI developers should be liable for conduct of agents",
-      "author": "usernomdeguerre",
-      "url": "https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/",
-      "likes": 54,
-      "comments": 16,
-      "engagementScore": 86,
+      "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+      "content": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+      "author": "yu3zhou4",
+      "url": "https://arxiv.org/abs/2609.25021",
+      "likes": 58,
+      "comments": 51,
+      "engagementScore": 160,
       "source": "hackernews",
-      "publishedAt": "2026-09-25T22:49:41.000Z",
+      "publishedAt": "2026-09-27T10:26:25.000Z",
       "tier": "hackernews",
-      "age": "14h",
+      "age": "2h",
       "hot": false
     },
     {
-      "title": "A new world airport and its baggage",
-      "content": "A new world airport and its baggage",
-      "author": "firloop",
-      "url": "https://computer.rip/2026-09-20-denver-baggage.html",
-      "likes": 39,
-      "comments": 1,
-      "engagementScore": 41,
+      "title": "Generate fonts where every LLM token is the same width",
+      "content": "Generate fonts where every LLM token is the same width",
+      "author": "z-mach9",
+      "url": "https://ampdot.mesh.host/token-space-fonts.html",
+      "likes": 76,
+      "comments": 15,
+      "engagementScore": 106,
       "source": "hackernews",
-      "publishedAt": "2026-09-23T22:30:46.000Z",
+      "publishedAt": "2026-09-26T00:30:03.000Z",
       "tier": "hackernews",
-      "age": "2d",
+      "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "Kākāpō Party",
+      "content": "Kākāpō Party",
+      "author": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "publishedAt": "2026-09-26T23:39:06+00:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "13h",
       "hot": false
     },
     {
@@ -236,7 +279,7 @@
       "publishedAt": "2026-09-25T17:22:01+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "19h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -251,7 +294,7 @@
       "publishedAt": "2026-09-25T02:07:04+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -266,7 +309,7 @@
       "publishedAt": "2026-09-24T23:31:08+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -281,7 +324,7 @@
       "publishedAt": "2026-09-24T20:06:53+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -296,7 +339,7 @@
       "publishedAt": "2026-09-24T19:15:23+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -311,7 +354,7 @@
       "publishedAt": "2026-09-23T17:12:27+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -326,7 +369,7 @@
       "publishedAt": "2026-09-23T16:37:18+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -341,7 +384,7 @@
       "publishedAt": "2026-09-23T02:53:19+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -356,22 +399,37 @@
       "publishedAt": "2026-09-22T23:46:41+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
-      "title": "llm 0.36",
-      "content": "llm 0.36",
-      "author": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Sep/22/llm/",
+      "title": "OpenAI pauses training of its ‘most capable models’",
+      "content": "OpenAI pauses training of its ‘most capable models’",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "Simon Willison",
-      "publishedAt": "2026-09-22T18:48:37+00:00",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-09-26T12:34:59-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "20h",
+      "hot": false
+    },
+    {
+      "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
+      "content": "Can Cloudflare CEO Matthew Prince save the web from AI?",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-09-26T10:00:00-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "23h",
       "hot": false
     },
     {
@@ -386,7 +444,7 @@
       "publishedAt": "2026-09-25T12:49:53-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "20h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -401,7 +459,7 @@
       "publishedAt": "2026-09-25T11:51:56-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "21h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -416,7 +474,7 @@
       "publishedAt": "2026-09-25T11:39:48-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "21h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -431,7 +489,7 @@
       "publishedAt": "2026-09-25T09:00:00-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -446,7 +504,7 @@
       "publishedAt": "2026-09-25T08:00:00-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -461,7 +519,7 @@
       "publishedAt": "2026-09-24T15:59:26-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -476,7 +534,7 @@
       "publishedAt": "2026-09-24T14:04:44-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -491,37 +549,7 @@
       "publishedAt": "2026-09-24T13:52:29-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "Muse will apparently let you download its entire filesystem",
-      "content": "Muse will apparently let you download its entire filesystem",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-09-24T13:14:12-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "Muse sure looks a lot like OpenClaw",
-      "content": "Muse sure looks a lot like OpenClaw",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-09-24T13:10:38-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -536,7 +564,7 @@
       "publishedAt": "Fri, 25 Sep 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -551,7 +579,7 @@
       "publishedAt": "Fri, 25 Sep 2026 09:16:25 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -566,7 +594,7 @@
       "publishedAt": "Fri, 25 Sep 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -581,7 +609,7 @@
       "publishedAt": "Thu, 24 Sep 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -596,7 +624,7 @@
       "publishedAt": "Thu, 24 Sep 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -611,7 +639,7 @@
       "publishedAt": "Wed, 23 Sep 2026 17:10:11 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -626,7 +654,7 @@
       "publishedAt": "Wed, 23 Sep 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -641,7 +669,7 @@
       "publishedAt": "Wed, 23 Sep 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -656,7 +684,7 @@
       "publishedAt": "Wed, 23 Sep 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -671,7 +699,7 @@
       "publishedAt": "Tue, 22 Sep 2026 13:42:05 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -686,7 +714,7 @@
       "publishedAt": "Fri, 25 Sep 2026 19:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "18h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -701,7 +729,7 @@
       "publishedAt": "Wed, 23 Sep 2026 16:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -716,7 +744,7 @@
       "publishedAt": "Wed, 23 Sep 2026 13:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -731,7 +759,7 @@
       "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -746,7 +774,7 @@
       "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -761,7 +789,7 @@
       "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -776,7 +804,7 @@
       "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -791,7 +819,7 @@
       "publishedAt": "Wed, 23 Sep 2026 10:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -806,7 +834,7 @@
       "publishedAt": "Wed, 23 Sep 2026 02:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -821,7 +849,37 @@
       "publishedAt": "Wed, 23 Sep 2026 01:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
+      "hot": false
+    },
+    {
+      "title": "The grief, loneliness, and burnout sweeping through the tech industry right now | Molly Graham",
+      "content": "Listen now (94 mins) | Molly Graham revisits her famous career advice for the AI era, and explains why delegating to a robot is nothing like delegating to a human",
+      "author": "Lenny Rachitsky",
+      "url": "https://www.lennysnewsletter.com/p/the-grief-loneliness-and-burnout",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Lenny Rachitsky",
+      "publishedAt": "Sun, 27 Sep 2026 12:32:18 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "1h",
+      "hot": false
+    },
+    {
+      "title": "🧠 Community Wisdom: AI doomerism, speeding up discovery in a big org, verifying engineering answers as a new PM, where analytics adds the most value, and more",
+      "content": "Community Wisdom 300",
+      "author": "Lenny Rachitsky",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-doomerism-speeding",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Lenny Rachitsky",
+      "publishedAt": "Sat, 26 Sep 2026 17:54:02 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "19h",
       "hot": false
     },
     {
@@ -836,7 +894,7 @@
       "publishedAt": "Tue, 22 Sep 2026 23:12:49 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -851,7 +909,7 @@
       "publishedAt": "Tue, 22 Sep 2026 19:06:40 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -866,7 +924,7 @@
       "publishedAt": "Tue, 22 Sep 2026 12:45:14 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -881,7 +939,7 @@
       "publishedAt": "Mon, 21 Sep 2026 15:03:51 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -896,7 +954,7 @@
       "publishedAt": "Mon, 21 Sep 2026 12:04:11 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -911,7 +969,7 @@
       "publishedAt": "Sun, 20 Sep 2026 12:32:17 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -926,7 +984,7 @@
       "publishedAt": "Sat, 19 Sep 2026 19:42:24 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -941,7 +999,7 @@
       "publishedAt": "Fri, 25 Sep 2026 17:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "20h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -956,7 +1014,7 @@
       "publishedAt": "Thu, 24 Sep 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -971,7 +1029,7 @@
       "publishedAt": "Wed, 23 Sep 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -986,7 +1044,7 @@
       "publishedAt": "Tue, 22 Sep 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -1001,7 +1059,7 @@
       "publishedAt": "Mon, 21 Sep 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -1016,22 +1074,7 @@
       "publishedAt": "Fri, 18 Sep 2026 17:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
-      "hot": false
-    },
-    {
-      "title": "An Interview with Joanna Stern About the iPhone Duo and AI for Normal People",
-      "content": "An Interview with Joanna Stern About the iPhone Duo and AI for Normal People",
-      "author": "Ben Thompson (Stratechery)",
-      "url": "https://stratechery.com/2026/an-interview-with-joanna-stern-about-the-iphone-duo-and-ai-for-normal-people/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Ben Thompson (Stratechery)",
-      "publishedAt": "Thu, 17 Sep 2026 10:00:00 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "9d",
+      "age": "8d",
       "hot": false
     },
     {
@@ -1046,7 +1089,7 @@
       "publishedAt": "Fri, 18 Sep 2026 17:54:32 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
+      "age": "8d",
       "hot": false
     },
     {
@@ -1061,7 +1104,22 @@
       "publishedAt": "Thu, 17 Sep 2026 15:38:13 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "8d",
+      "age": "9d",
+      "hot": false
+    },
+    {
+      "title": "BREAKING: AI agent incident toll has risen to tens of thousands",
+      "content": "Meanwhile, the US government appears to be paralyzed",
+      "author": "Gary Marcus",
+      "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Gary Marcus",
+      "publishedAt": "Sat, 26 Sep 2026 23:55:49 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "13h",
       "hot": false
     },
     {
@@ -1076,7 +1134,7 @@
       "publishedAt": "Fri, 25 Sep 2026 21:58:42 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "15h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -1091,7 +1149,7 @@
       "publishedAt": "Thu, 24 Sep 2026 12:27:50 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -1106,7 +1164,7 @@
       "publishedAt": "Wed, 23 Sep 2026 21:46:40 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -1121,7 +1179,7 @@
       "publishedAt": "Wed, 23 Sep 2026 12:43:51 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -1136,7 +1194,7 @@
       "publishedAt": "Tue, 22 Sep 2026 22:31:01 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -1151,7 +1209,7 @@
       "publishedAt": "Tue, 22 Sep 2026 18:29:58 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -1166,7 +1224,7 @@
       "publishedAt": "Mon, 21 Sep 2026 21:11:13 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -1181,7 +1239,7 @@
       "publishedAt": "Sat, 19 Sep 2026 14:59:18 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -1196,22 +1254,7 @@
       "publishedAt": "Fri, 18 Sep 2026 19:52:12 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
-      "hot": false
-    },
-    {
-      "title": "Wake up, people. What we should actually fear, near term, is not so much rogue superintelligence as unleashed agentic AI causing hacking the internet at scale.",
-      "content": "Rome is burning and people are fantasizing about Skynet.",
-      "author": "Gary Marcus",
-      "url": "https://garymarcus.substack.com/p/wake-up-people-what-we-should-actually",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Gary Marcus",
-      "publishedAt": "Fri, 18 Sep 2026 16:29:57 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "7d",
+      "age": "8d",
       "hot": false
     }
   ]
