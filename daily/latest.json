@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-02",
-  "fetchedAt": "2026-10-02T13:01:03.914Z",
+  "date": "2026-10-03",
+  "fetchedAt": "2026-10-03T13:01:03.532Z",
   "stats": {
-    "rawFetched": 81,
-    "afterDedup": 81,
+    "rawFetched": 76,
+    "afterDedup": 76,
     "byTier": {
       "hackernews": 13,
-      "rss": 68
+      "rss": 63
     },
     "bySource": {
       "hackernews": 13,
-      "rss": 68
+      "rss": 63
     }
   },
   "items": [
@@ -19,27 +19,27 @@
       "content": "Gemini 4 Argon\nSee also: <i>Gemini 4 Argon (High): Intelligence, Performance and Price Analysis</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49914236</a>",
       "author": "bradleyg223",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-      "likes": 1660,
-      "comments": 1150,
-      "engagementScore": 3960,
+      "likes": 1687,
+      "comments": 1174,
+      "engagementScore": 4035,
       "source": "hackernews",
       "publishedAt": "2026-09-30T20:04:37.000Z",
       "tier": "hackernews",
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
-      "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
-      "content": "Clef: Open-weight decision models, and new RL fine-tuning platform",
-      "author": "jasondavies",
-      "url": "https://blog.cloudflare.com/clef-decision-models/",
-      "likes": 548,
-      "comments": 194,
-      "engagementScore": 936,
+      "title": "Sites in ChatGPT",
+      "content": "Sites in ChatGPT",
+      "author": "polvi",
+      "url": "https://chatgpt.com/features/sites/",
+      "likes": 300,
+      "comments": 278,
+      "engagementScore": 856,
       "source": "hackernews",
-      "publishedAt": "2026-10-01T16:18:57.000Z",
+      "publishedAt": "2026-10-01T22:22:21.000Z",
       "tier": "hackernews",
-      "age": "20h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -47,13 +47,13 @@
       "content": "DeepSeek Harness Desktop for macOS and Windows",
       "author": "Kuyawa",
       "url": "https://www.deepseek.com/en/harness/",
-      "likes": 280,
-      "comments": 147,
-      "engagementScore": 574,
+      "likes": 391,
+      "comments": 211,
+      "engagementScore": 813,
       "source": "hackernews",
       "publishedAt": "2026-10-02T03:11:20.000Z",
       "tier": "hackernews",
-      "age": "9h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -61,13 +61,13 @@
       "content": "Vote on which of Hacker News' challenges for AI have been met",
       "author": "stabbles",
       "url": "https://stoppels.ch/goalposts/",
-      "likes": 170,
-      "comments": 195,
-      "engagementScore": 560,
+      "likes": 197,
+      "comments": 259,
+      "engagementScore": 715,
       "source": "hackernews",
       "publishedAt": "2026-10-01T17:32:43.000Z",
       "tier": "hackernews",
-      "age": "19h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -75,125 +75,125 @@
       "content": "RIP, vector database",
       "author": "razin",
       "url": "https://turbopuffer.com/blog/rip-vector-database",
-      "likes": 346,
-      "comments": 98,
-      "engagementScore": 542,
+      "likes": 380,
+      "comments": 107,
+      "engagementScore": 594,
       "source": "hackernews",
       "publishedAt": "2026-10-01T16:01:56.000Z",
       "tier": "hackernews",
-      "age": "20h",
+      "age": "1d",
       "hot": false
     },
     {
-      "title": "OpenDLSS: A Vulkan Reimplementation of Nvidia's DLSS 5 Neural Rendering Network",
-      "content": "OpenDLSS: A Vulkan Reimplementation of Nvidia's DLSS 5 Neural Rendering Network",
-      "author": "sagacity",
-      "url": "https://github.com/maanHimself/OpenDLSS-NR",
-      "likes": 259,
-      "comments": 119,
-      "engagementScore": 497,
+      "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+      "content": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+      "author": "alstonite",
+      "url": "https://stillwet.art/",
+      "likes": 302,
+      "comments": 96,
+      "engagementScore": 494,
       "source": "hackernews",
-      "publishedAt": "2026-09-30T08:43:21.000Z",
-      "tier": "hackernews",
-      "age": "2d",
-      "hot": false
-    },
-    {
-      "title": "Responsible Release of AI-Generated Mathematics",
-      "content": "Responsible Release of AI-Generated Mathematics",
-      "author": "aureianimus",
-      "url": "https://agmai.org/general-sep29/",
-      "likes": 121,
-      "comments": 178,
-      "engagementScore": 477,
-      "source": "hackernews",
-      "publishedAt": "2026-09-30T02:36:12.000Z",
-      "tier": "hackernews",
-      "age": "2d",
-      "hot": false
-    },
-    {
-      "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
-      "content": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
-      "author": "giuliomagnifico",
-      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
-      "likes": 183,
-      "comments": 109,
-      "engagementScore": 401,
-      "source": "hackernews",
-      "publishedAt": "2026-10-01T10:21:36.000Z",
+      "publishedAt": "2026-10-02T00:27:56.000Z",
       "tier": "hackernews",
       "age": "1d",
       "hot": false
     },
     {
-      "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
-      "content": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents\nHey HN, Anders and Tom here. We&#x27;re building Magnitude, an inference engine for agents that optimizes itself to run as fast as possible on your hardware. It works on Mac, Linux, and Windows on any hardware and is up to 2x faster than llama.cpp.<p>We&#x27;re both software engineers and previously built an open source browser agent to 4k+ GH stars and 100k+ downloads. We increasingly wanted to run it on local models, but found that no inference engine worked for our use case.<p>Inference engines today all make a performance tradeoff. They are either:<p>- Built for batched inference on datacenter hardware at the cost of single-session performance (vLLM, SGLang)\n- Designed for broad compatibility instead of optimizing for specific hardware (llama.cpp, Ollama)\n- Specialized for specific hardware or models but lacking engine completeness (oMLX, ds4)<p>Plus none of them are designed for running agents locally. Sessions are long, several often run at once, and you still want to use your computer for other things.<p>Magnitude is built for maximum performance on your hardware and running local agents:<p>- On-device compilation and tuning: Kernels are written with flexible parameters that are tuned on your actual device before the model runs. This gives you broad hardware compatibility with the same performance ceiling as hardware-specific kernels.<p>- Focus on best architectures: We write our tunable, highly efficient kernels for the most popular open-weights families. This allows us to achieve and surpass the performance of hardware or model specialized engines, without forcing ourselves to over-generalize at the cost of performance.<p>- Dynamic memory allocation: Magnitude reserves only enough memory up front to hold model weights. As your agent sessions grow, the memory heap dynamically increases, and frees itself when agents stop. Your hardware can still be used for other stuff while agents run.<p>- Hybrid paged attention: We borrow the best ideas from engines like SGLang to allow concurrent sessions to share prefix caches, but optimize placement for memory-adjacency so single-session performance doesn&#x27;t suffer.<p>Magnitude is fully open source (Apache 2.0). We built it in Rust, including a custom GPU kernel runtime and autotuner. We take inspiration from the best innovations in inference from academics (e.g. FlashAttention, FlashInfer, TurboQuant) as well as other engines (e.g. SGLang radix attention) to reach the performance ceiling.<p>Benchmarked against llama.cpp with Qwen 3.6 35B A3B (4 bit), 64k context, no speculative decoding:<p>Metal (Mac M4 Pro 48 GB)\n- 92% faster decode (30 tok&#x2F;s → 57 tok&#x2F;s)\n- 9% faster prefill (466 tok&#x2F;s → 507 tok&#x2F;s)\n- 28% less per-agent memory usage<p>CUDA (DGX Spark)\n- 19% faster decode (49 tok&#x2F;s → 58 tok&#x2F;s)\n- 23% faster prefill (2,033 tok&#x2F;s → 2,507 tok&#x2F;s)\n- 27% less per-agent memory usage<p>Magnitude ships as a desktop app that you can easily connect with whatever agents you already use (Pi, OpenCode, Hermes, Codex, and more). It automatically runs models on demand when these agents actually need them, and shuts them down after inactivity.\nHere&#x27;s what it looks like: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=0qE8BWEZu7o\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=0qE8BWEZu7o</a><p>We&#x27;re excited to push Magnitude further to let you run bigger models on the same hardware while continuing to improve performance. Our plans include:<p>- Expert streaming: store experts on RAM or disk and load them just-in-time. This lets you run models bigger than what otherwise would fit on your GPU.<p>- Kernel compiler: our current kernels tune a few parameters to fit your hardware. We can take this further with a fully custom compiler that automatically chooses how to fuse kernels and which implementations to use, to make it fit to your hardware even better.<p>- Multi-device utilization: Make the best possible use of all hardware on a system (CPU, GPUs, RAM, disk) by detecting these and automatically solving for the best model layout.<p>We&#x27;d love for more people to try it out and give us feedback. Feel free to comment here, we&#x27;ll be around all day!",
-      "author": "anerli",
-      "url": "https://github.com/magnitudedev/magnitude",
-      "likes": 193,
-      "comments": 97,
-      "engagementScore": 387,
+      "title": "With most information hidden, the game Stratego had stumped AI until now",
+      "content": "With most information hidden, the game Stratego had stumped AI until now\n<a href=\"https:&#x2F;&#x2F;www.nature.com&#x2F;articles&#x2F;s41586-026-11036-y\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nature.com&#x2F;articles&#x2F;s41586-026-11036-y</a><p><a href=\"https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2511.07312\" rel=\"nofollow\">https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2511.07312</a>",
+      "author": "PaulHoule",
+      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+      "likes": 236,
+      "comments": 114,
+      "engagementScore": 464,
       "source": "hackernews",
-      "publishedAt": "2026-09-30T17:37:40.000Z",
-      "tier": "hackernews",
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "Show HN: Open-source model routing for coding agents at Astra-level performance",
-      "content": "Show HN: Open-source model routing for coding agents at Astra-level performance\nA few months ago we started building a model router for coding agents because we thought we could outperform any single model with an ensemble approach. Recently we’ve achieved that milestone and I want to talk about how we did it.<p>First of all, a quick explanation: the Weave Router (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;weave-os&#x2F;router\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;weave-os&#x2F;router</a>) plugs into any coding agent (e.g. Claude Code or Codex) and intelligently switches between LLMs. So, for example, Astra handles tricky debugging or complex system design tasks, and Deepseek v4 Flash handles simple frontend updates.<p>What we’re announcing today is our new routing model, which we’re calling Weave Router 2.0. We benchmarked 2.0 against GPT-6 Astra on Terminal Bench 4.0 and SWE Atlas. On both benchmarks, the router had equivalent pass rates. On Terminal Bench, the router hit 52% of Astra’s cost, and completed tasks 2.2x faster. On SWE Atlas, the router cost 54% as much as Astra and ran 2.5x faster. (Full results on our website at <a href=\"https:&#x2F;&#x2F;weaveos.com&#x2F;router\">https:&#x2F;&#x2F;weaveos.com&#x2F;router</a>!)<p>It turns out training a model to route effectively - taking into consideration model capabilities, costs, cache awareness, and more - is a really hard problem! I want to talk about three ways we were able to improve so much over the last few months: 1) a new architecture, 2) larger training data set size, and 3) smarter cache-eviction impact calculation.<p>1)  a new architecture. Our initial approach used an RL model without many priors. While RL is still an important part of the story, the cost of fully exploring the space of routing decisions is very high, so we’ve taken some shortcuts that have significantly improved performance.<p>Consider how large the search space for the routing problem is. Take a typical coding agent session, with ~100 agent turns (i.e. 100 LLM API calls). Technically there are 100 chances to select a model. If we assume a roster of ~10 models (of course there are lots more but we can remove any that are Pareto dominated), then there are 10^100 possible paths through that session. We simply cannot explore all of them! So that&#x27;s why clever tricks to shrink this space are so important.<p>In particular: we trained a hidden Markov model to trace the session state, then a classifier maps the session to one of a few buckets of similar models. Using the HMM allows us to evaluate not just where a session is currently, but <i>how it got there</i>. We&#x27;ve gotten significantly better performance on bucket selection by incorporating that information - we believe this is because two sessions that might look quite similar to a naive classifier are much better distinguished by this HMM approach.<p>Using this HMM + classifier to select a bucket first significantly shrinks the space to explore, by throwing out most models that could not reasonably serve the given session. This rearchitecture was the single biggest performance unlock!<p>2) larger training data set size (much less technically interesting but still an important part of the story). By using frontier LLMs to help us label a larger and more diverse set of coding agent sessions, we were able to bootstrap the two models discussed in 1) to a better state, while also providing even richer reward signals for RL.<p>3) smarter cache-eviction impact calculation. One of the hardest parts of routing well (if you care about saving money) is using the model caches intelligently. We built a subsystem that can calculate the expected value of switching models (and thus paying a high one-time cost to fill up a different cache) much more accurately, helping us avoid costly and unnecessary switches in more cases, while still switching when the benefit outweighs the cost. This is where most of our improvement on cost has come from.<p>We still have a lot of room to continue to improve (we won’t rest until we’re consistently beating Astra&#x2F;Fable, not just tying!) but matching frontier model performance was a huge milestone for our routing model, and in my opinion validates our initial hypothesis that an ensemble of models can do better than any single model ever could.<p>Our router is open source (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;weave-os&#x2F;router\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;weave-os&#x2F;router</a>) so anyone can try it out. Or if you prefer you can use our hosted version (<a href=\"https:&#x2F;&#x2F;weaveos.com&#x2F;router\">https:&#x2F;&#x2F;weaveos.com&#x2F;router</a>).",
-      "author": "adchurch",
-      "url": "https://news.ycombinator.com/item?id=49911500",
-      "likes": 105,
-      "comments": 36,
-      "engagementScore": 177,
-      "source": "hackernews",
-      "publishedAt": "2026-09-30T16:58:24.000Z",
-      "tier": "hackernews",
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "How to set up SPF, DKIM, and DMARC for your sending domain",
-      "content": "How to set up SPF, DKIM, and DMARC for your sending domain",
-      "author": "spy888",
-      "url": "https://mailfully.com/blog/spf-dkim-dmarc-setup",
-      "likes": 83,
-      "comments": 28,
-      "engagementScore": 139,
-      "source": "hackernews",
-      "publishedAt": "2026-10-01T14:33:21.000Z",
+      "publishedAt": "2026-10-02T14:11:24.000Z",
       "tier": "hackernews",
       "age": "22h",
       "hot": false
     },
     {
-      "title": "Identity Management for Agentic AI [pdf] (2025)",
-      "content": "Identity Management for Agentic AI [pdf] (2025)",
-      "author": "cgeier",
-      "url": "https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf",
-      "likes": 73,
-      "comments": 25,
-      "engagementScore": 123,
+      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+      "content": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+      "author": "usernomdeguerre",
+      "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+      "likes": 260,
+      "comments": 89,
+      "engagementScore": 438,
       "source": "hackernews",
-      "publishedAt": "2026-10-01T15:11:10.000Z",
+      "publishedAt": "2026-10-02T02:51:27.000Z",
       "tier": "hackernews",
-      "age": "21h",
+      "age": "1d",
       "hot": false
     },
     {
-      "title": "Aweb – Communication for AI Agents",
-      "content": "Aweb – Communication for AI Agents",
-      "author": "gurjeet",
-      "url": "https://aweb.ai",
-      "likes": 37,
-      "comments": 26,
-      "engagementScore": 89,
+      "title": "From the creator of Redis; run LLM locally with ds4",
+      "content": "From the creator of Redis; run LLM locally with ds4",
+      "author": "fibo",
+      "url": "https://dwarfstar.sh/",
+      "likes": 274,
+      "comments": 70,
+      "engagementScore": 414,
       "source": "hackernews",
-      "publishedAt": "2026-10-01T22:02:31.000Z",
+      "publishedAt": "2026-10-02T18:01:16.000Z",
       "tier": "hackernews",
-      "age": "14h",
+      "age": "18h",
+      "hot": false
+    },
+    {
+      "title": "Venice’s failed war against Constantinople led to the first bond market",
+      "content": "Venice’s failed war against Constantinople led to the first bond market",
+      "author": "RickJWagner",
+      "url": "https://bigthink.com/books/a-fabulous-debt/",
+      "likes": 137,
+      "comments": 39,
+      "engagementScore": 215,
+      "source": "hackernews",
+      "publishedAt": "2026-10-02T13:17:47.000Z",
+      "tier": "hackernews",
+      "age": "23h",
+      "hot": false
+    },
+    {
+      "title": "Show HN: Made an open-source Lego AI generator",
+      "content": "Show HN: Made an open-source Lego AI generator\nHi there :-) New on HN, first time posting.<p>Past year, around December, I started experimenting with making ChatGPT and Claude generate source code in LDraw language.<p>This LDraw is literally an &quot;assembly&quot; language, a low-level programming language that describes how to assemble LEGO pieces together into models, one placement instruction at a time.<p>When executed by specific tools, like e.g. LDView, LeoCAD, Studio... these instructions become LEGO CAD models, that can be interacted with, modified, etc.<p>Or, in other words: one LDraw source file in .mpd or .ldr format is equivalent to one LEGO CAD model.<p>So, the idea I had was: if I manage for maybe ChatGPT or Claude to generate high-quality LDraw source files... then, they would actually be generating high-quality LEGO CAD models, right?<p>Then, after months of iterations and trying one thing after the other... it worked!!!<p>Long story short: using GPT-6 Astra and Opus 5.5, I&#x27;ve managed to create a python toolset, instructions, and docs for agents in general. Now, these can be used by them to generate LDraw models.<p>I&#x27;ve packed it all as a dockerized web app for others to try and experiment, with several providers (and agents) to choose from: OpenAI, Claude and OpenRouter.<p>Here&#x27;s a bunch of exmaples: <a href=\"https:&#x2F;&#x2F;anteloc.github.io&#x2F;index-samples.html\" rel=\"nofollow\">https:&#x2F;&#x2F;anteloc.github.io&#x2F;index-samples.html</a>.<p>If you are curious about the internals of an .mpd model, the &quot;what was the agent picturing on its mind&quot;, open the .mpd file that got your attention on a text editor, and read the first line under the ones starting with &quot;0 FILE&quot;.<p>I&#x27;d really appreciate feedback and comments, let&#x27;s see where this goes =)",
+      "author": "antelocnova",
+      "url": "https://github.com/anteloc/ldraw-nova",
+      "likes": 121,
+      "comments": 46,
+      "engagementScore": 213,
+      "source": "hackernews",
+      "publishedAt": "2026-10-02T20:00:15.000Z",
+      "tier": "hackernews",
+      "age": "17h",
+      "hot": false
+    },
+    {
+      "title": "Gemini ending free use of Flash and Pro models",
+      "content": "Gemini ending free use of Flash and Pro models",
+      "author": "rjh29",
+      "url": "https://www.reddit.com/r/GeminiAI/comments/1wwalmc/wtf_google_getting_rid_of_free_gemini_flash_and/",
+      "likes": 38,
+      "comments": 31,
+      "engagementScore": 100,
+      "source": "hackernews",
+      "publishedAt": "2026-10-03T09:13:19.000Z",
+      "tier": "hackernews",
+      "age": "3h",
+      "hot": false
+    },
+    {
+      "title": "NTSB Preliminary Report: Prime Air 767 Runway Overrun [pdf]",
+      "content": "NTSB Preliminary Report: Prime Air 767 Runway Overrun [pdf]",
+      "author": "sdko",
+      "url": "https://www.ntsb.gov/investigations/Documents/DCA26MA352%20Prelim.pdf",
+      "likes": 41,
+      "comments": 20,
+      "engagementScore": 81,
+      "source": "hackernews",
+      "publishedAt": "2026-10-03T01:09:01.000Z",
+      "tier": "hackernews",
+      "age": "11h",
       "hot": false
     },
     {
@@ -208,7 +208,7 @@
       "publishedAt": "2026-10-01T06:29:01+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -223,7 +223,7 @@
       "publishedAt": "2026-09-30T21:54:19+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -238,7 +238,7 @@
       "publishedAt": "2026-09-29T22:20:28+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -253,7 +253,7 @@
       "publishedAt": "2026-09-29T18:27:48+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -268,7 +268,7 @@
       "publishedAt": "2026-09-29T16:45:27+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -283,7 +283,7 @@
       "publishedAt": "2026-09-29T15:55:13+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -298,7 +298,7 @@
       "publishedAt": "2026-09-28T22:07:38+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -313,7 +313,7 @@
       "publishedAt": "2026-09-28T19:11:42+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -328,7 +328,7 @@
       "publishedAt": "2026-09-28T04:01:30+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -343,7 +343,67 @@
       "publishedAt": "2026-09-27T23:54:15+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
+      "hot": false
+    },
+    {
+      "title": "Meta open sources code to let you make Muse AI gadgets",
+      "content": "Meta open sources code to let you make Muse AI gadgets",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-02T17:08:37-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "15h",
+      "hot": false
+    },
+    {
+      "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+      "content": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-02T16:08:40-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "16h",
+      "hot": false
+    },
+    {
+      "title": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
+      "content": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-02T14:00:00-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "19h",
+      "hot": false
+    },
+    {
+      "title": "Breaking up (with Elon Musk) is hard to do",
+      "content": "Breaking up (with Elon Musk) is hard to do",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-02T13:37:36-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "19h",
       "hot": false
     },
     {
@@ -358,7 +418,7 @@
       "publishedAt": "2026-10-02T08:00:00-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -373,7 +433,7 @@
       "publishedAt": "2026-10-02T08:00:00-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -388,7 +448,7 @@
       "publishedAt": "2026-10-02T07:52:20-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -403,7 +463,7 @@
       "publishedAt": "2026-10-02T05:42:19-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -418,7 +478,7 @@
       "publishedAt": "2026-10-01T15:47:51-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "17h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -433,67 +493,22 @@
       "publishedAt": "2026-10-01T13:12:21-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "19h",
-      "hot": false
-    },
-    {
-      "title": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
-      "content": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-01T10:36:50-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "22h",
-      "hot": false
-    },
-    {
-      "title": "Inside our months-long investigation into Kevin O’Leary’s Utah data center debacle",
-      "content": "Inside our months-long investigation into Kevin O’Leary’s Utah data center debacle",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/podcast/1002851/utah-ai-data-center-stratos-kevin-oleary-investigation-backlash",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-01T10:00:00-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "23h",
-      "hot": false
-    },
-    {
-      "title": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
-      "content": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-09-30T20:23:45-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
       "age": "1d",
       "hot": false
     },
     {
-      "title": "Google announces Gemini 4 and says it&#8217;s so capable that only &#8216;trusted cyber defenders&#8217; can have it right now",
-      "content": "Google announces Gemini 4 and says it&#8217;s so capable that only &#8216;trusted cyber defenders&#8217; can have it right now",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+      "title": "Redefining enterprise intelligence with autonomous AI",
+      "content": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from the previous year. For many enterprises, this investment has&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-09-30T16:41:41-04:00",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Fri, 02 Oct 2026 15:49:04 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "21h",
       "hot": false
     },
     {
@@ -508,7 +523,7 @@
       "publishedAt": "Fri, 02 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -523,7 +538,7 @@
       "publishedAt": "Fri, 02 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -538,7 +553,7 @@
       "publishedAt": "Fri, 02 Oct 2026 08:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -553,7 +568,7 @@
       "publishedAt": "Thu, 01 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -568,7 +583,7 @@
       "publishedAt": "Thu, 01 Oct 2026 10:32:24 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -583,7 +598,7 @@
       "publishedAt": "Thu, 01 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -598,7 +613,7 @@
       "publishedAt": "Wed, 30 Sep 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -613,7 +628,7 @@
       "publishedAt": "Wed, 30 Sep 2026 10:40:30 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -628,22 +643,37 @@
       "publishedAt": "Tue, 29 Sep 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
-      "title": "Coming soon: Our 2026 list of Climate Tech Companies to Watch",
-      "content": "Earlier this month, the UN announced the planet will tip past 1.5 ˚C of warming, “likely within the next few years,” squashing any lingering hope that nations would cut emissions fast enough to achieve the loftiest goal of the Paris climate agreement. In the US, the world’s second-largest-emitting country, its leader continues to deny climate&#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/",
+      "title": "A model guide for the GPT-6 family",
+      "content": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "author": "OpenAI Blog",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Tue, 29 Sep 2026 11:00:00 +0000",
+      "sourceName": "OpenAI Blog",
+      "publishedAt": "Fri, 02 Oct 2026 16:15:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "20h",
+      "hot": false
+    },
+    {
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "content": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "author": "OpenAI Blog",
+      "url": "https://openai.com/index/chatham-financial",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "OpenAI Blog",
+      "publishedAt": "Fri, 02 Oct 2026 00:00:00 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "1d",
       "hot": false
     },
     {
@@ -658,7 +688,7 @@
       "publishedAt": "Thu, 01 Oct 2026 17:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "20h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -673,7 +703,7 @@
       "publishedAt": "Thu, 01 Oct 2026 16:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "21h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -688,7 +718,7 @@
       "publishedAt": "Thu, 01 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -703,7 +733,7 @@
       "publishedAt": "Wed, 30 Sep 2026 10:30:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -716,21 +746,6 @@
       "source": "rss",
       "sourceName": "OpenAI Blog",
       "publishedAt": "Wed, 30 Sep 2026 10:00:00 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "2d",
-      "hot": false
-    },
-    {
-      "title": "Introducing GPT-6.1 Sol",
-      "content": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "author": "OpenAI Blog",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "OpenAI Blog",
-      "publishedAt": "Tue, 29 Sep 2026 10:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
       "age": "3d",
@@ -748,7 +763,22 @@
       "publishedAt": "Tue, 29 Sep 2026 10:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
+      "hot": false
+    },
+    {
+      "title": "Introducing GPT-6.1 Sol",
+      "content": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "author": "OpenAI Blog",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "OpenAI Blog",
+      "publishedAt": "Tue, 29 Sep 2026 10:00:00 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "4d",
       "hot": false
     },
     {
@@ -763,37 +793,7 @@
       "publishedAt": "Tue, 29 Sep 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "How we will do better for Australia",
-      "content": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-      "author": "OpenAI Blog",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "OpenAI Blog",
-      "publishedAt": "Mon, 28 Sep 2026 19:00:00 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "Towards safety cases for frontier AI training",
-      "content": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-      "author": "OpenAI Blog",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "OpenAI Blog",
-      "publishedAt": "Mon, 28 Sep 2026 19:00:00 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -808,7 +808,7 @@
       "publishedAt": "Wed, 30 Sep 2026 14:45:15 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -823,7 +823,7 @@
       "publishedAt": "Wed, 30 Sep 2026 12:04:27 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -838,7 +838,7 @@
       "publishedAt": "Tue, 29 Sep 2026 13:15:57 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -853,7 +853,7 @@
       "publishedAt": "Mon, 28 Sep 2026 15:03:13 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -868,7 +868,7 @@
       "publishedAt": "Mon, 28 Sep 2026 12:03:04 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -883,7 +883,7 @@
       "publishedAt": "Sun, 27 Sep 2026 12:32:18 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -898,37 +898,22 @@
       "publishedAt": "Sat, 26 Sep 2026 17:54:02 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
-      "title": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
-      "content": "Watch now (39 mins) | &#127897;&#65039; I ran blind evaluations across writing, frontend prototypes, long-running agentic tasks, SVGs, coding, and video editing, then put Opus 5.5 through Barbie Bench",
-      "author": "Lenny Rachitsky",
-      "url": "https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model",
+      "title": "2026.40: Dots and Question Marks",
+      "content": "The best Stratechery content from the week of September 28, 2026, including Meta's focus, what OpenAI is doing, and Mao and NBA Media Day.",
+      "author": "Ben Thompson (Stratechery)",
+      "url": "https://stratechery.com/2026/dots-and-question-marks/",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "Lenny Rachitsky",
-      "publishedAt": "Tue, 22 Sep 2026 23:12:49 GMT",
+      "sourceName": "Ben Thompson (Stratechery)",
+      "publishedAt": "Fri, 02 Oct 2026 17:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "9d",
-      "hot": false
-    },
-    {
-      "title": "I left Claude for months. Opus 5.5 is why I'm back",
-      "content": "Watch now (25 mins) | &#127897;&#65039; I abandoned Claude for months because it drove me insane. Opus 5.5 changed that, and I'll show you exactly where it's earning a spot back in my stack for frontend, SVGs, and agentic tasks",
-      "author": "Lenny Rachitsky",
-      "url": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Lenny Rachitsky",
-      "publishedAt": "Tue, 22 Sep 2026 19:06:40 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "9d",
+      "age": "20h",
       "hot": false
     },
     {
@@ -943,7 +928,7 @@
       "publishedAt": "Thu, 01 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -958,7 +943,7 @@
       "publishedAt": "Wed, 30 Sep 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -973,7 +958,7 @@
       "publishedAt": "Tue, 29 Sep 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -988,7 +973,7 @@
       "publishedAt": "Mon, 28 Sep 2026 10:25:37 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -1003,7 +988,7 @@
       "publishedAt": "Fri, 25 Sep 2026 17:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -1016,21 +1001,6 @@
       "source": "rss",
       "sourceName": "Ben Thompson (Stratechery)",
       "publishedAt": "Thu, 24 Sep 2026 10:00:00 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "8d",
-      "hot": false
-    },
-    {
-      "title": "More on Muse, Amazon, and Walmart; Muse and Expedia; Whither Google?",
-      "content": "Meta needs Walmart to wait out Amazon; Expedia seeks to keep its middleware position; meanwhile, where is Google?",
-      "author": "Ben Thompson (Stratechery)",
-      "url": "https://stratechery.com/2026/more-on-muse-amazon-and-walmart-muse-and-expedia-whither-google/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Ben Thompson (Stratechery)",
-      "publishedAt": "Wed, 23 Sep 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
       "age": "9d",
@@ -1048,22 +1018,7 @@
       "publishedAt": "Thu, 01 Oct 2026 10:54:12 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "Si Sheppard – How did a few hundred Spanish soldiers topple two empires?",
-      "content": "Fall of the Incas & Aztecs.",
-      "author": "Dwarkesh Patel",
-      "url": "https://www.dwarkesh.com/p/si-sheppard",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Dwarkesh Patel",
-      "publishedAt": "Thu, 01 Oct 2026 15:28:28 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "21h",
+      "age": "2d",
       "hot": false
     },
     {
@@ -1078,7 +1033,7 @@
       "publishedAt": "Wed, 30 Sep 2026 16:45:58 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -1093,7 +1048,7 @@
       "publishedAt": "Tue, 29 Sep 2026 23:39:34 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -1108,7 +1063,7 @@
       "publishedAt": "Tue, 29 Sep 2026 19:18:57 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -1123,7 +1078,7 @@
       "publishedAt": "Mon, 28 Sep 2026 20:54:59 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -1138,7 +1093,7 @@
       "publishedAt": "Sat, 26 Sep 2026 23:55:49 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -1153,7 +1108,7 @@
       "publishedAt": "Fri, 25 Sep 2026 21:58:42 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -1168,7 +1123,7 @@
       "publishedAt": "Thu, 24 Sep 2026 12:27:50 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "8d",
+      "age": "9d",
       "hot": false
     },
     {
@@ -1181,36 +1136,6 @@
       "source": "rss",
       "sourceName": "Gary Marcus",
       "publishedAt": "Wed, 23 Sep 2026 21:46:40 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "8d",
-      "hot": false
-    },
-    {
-      "title": "Dear President Trump, here’s a deal you can actually make that will make you look great",
-      "content": "An open letter about how you could change the world, tomorrow",
-      "author": "Gary Marcus",
-      "url": "https://garymarcus.substack.com/p/dear-president-trump-heres-a-deal",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Gary Marcus",
-      "publishedAt": "Wed, 23 Sep 2026 12:43:51 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "9d",
-      "hot": false
-    },
-    {
-      "title": "The secret behind Meta’s Muse",
-      "content": "The new secret is the old secret",
-      "author": "Gary Marcus",
-      "url": "https://garymarcus.substack.com/p/the-secret-behind-metas-muse",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Gary Marcus",
-      "publishedAt": "Tue, 22 Sep 2026 22:31:01 GMT",
       "tier": "rss",
       "signalWeight": 1,
       "age": "9d",
