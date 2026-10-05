@@ -1,73 +1,31 @@
 {
-  "date": "2026-10-04",
-  "fetchedAt": "2026-10-04T13:00:56.054Z",
+  "date": "2026-10-05",
+  "fetchedAt": "2026-10-05T13:00:57.725Z",
   "stats": {
-    "rawFetched": 73,
-    "afterDedup": 73,
+    "rawFetched": 76,
+    "afterDedup": 76,
     "byTier": {
       "hackernews": 10,
-      "rss": 63
+      "rss": 66
     },
     "bySource": {
       "hackernews": 10,
-      "rss": 63
+      "rss": 66
     }
   },
   "items": [
-    {
-      "title": "I quit OpenAI because its culture is broken",
-      "content": "I quit OpenAI because its culture is broken\n<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;5GQx8\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;5GQx8</a><p><a href=\"https:&#x2F;&#x2F;www.theguardian.com&#x2F;technology&#x2F;2026&#x2F;oct&#x2F;03&#x2F;openai-safety-leader-quits-warning-ai-companys-culture-is-broken\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theguardian.com&#x2F;technology&#x2F;2026&#x2F;oct&#x2F;03&#x2F;openai-sa...</a>",
-      "author": "Brajeshwar",
-      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
-      "likes": 290,
-      "comments": 528,
-      "engagementScore": 1346,
-      "source": "hackernews",
-      "publishedAt": "2026-10-03T13:46:34.000Z",
-      "tier": "hackernews",
-      "age": "23h",
-      "hot": false
-    },
     {
       "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
       "content": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents\n<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;TyDPf\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;TyDPf</a>",
       "author": "Anon84",
       "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
-      "likes": 193,
-      "comments": 285,
-      "engagementScore": 763,
+      "likes": 405,
+      "comments": 784,
+      "engagementScore": 1973,
       "source": "hackernews",
       "publishedAt": "2026-10-03T17:44:29.000Z",
       "tier": "hackernews",
-      "age": "19h",
-      "hot": false
-    },
-    {
-      "title": "Religious scholars met with Anthropic",
-      "content": "Religious scholars met with Anthropic\n<a href=\"https:&#x2F;&#x2F;archive.is&#x2F;y8FW0\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.is&#x2F;y8FW0</a>",
-      "author": "bookofjoe",
-      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
-      "likes": 102,
-      "comments": 236,
-      "engagementScore": 574,
-      "source": "hackernews",
-      "publishedAt": "2026-10-04T02:34:22.000Z",
-      "tier": "hackernews",
-      "age": "10h",
-      "hot": false
-    },
-    {
-      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
-      "content": "Getting the most out of Opus 5.5 in Claude and Claude Code",
-      "author": "saikatsg",
-      "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
-      "likes": 221,
-      "comments": 152,
-      "engagementScore": 525,
-      "source": "hackernews",
-      "publishedAt": "2026-10-03T18:29:30.000Z",
-      "tier": "hackernews",
-      "age": "18h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -75,83 +33,125 @@
       "content": "Agents don't need memory, they need documentation",
       "author": "kmeh",
       "url": "https://liao.gg/blog/agents-dont-need-memory",
-      "likes": 226,
-      "comments": 129,
-      "engagementScore": 484,
+      "likes": 366,
+      "comments": 264,
+      "engagementScore": 894,
       "source": "hackernews",
       "publishedAt": "2026-10-03T17:03:37.000Z",
-      "tier": "hackernews",
-      "age": "19h",
-      "hot": false
-    },
-    {
-      "title": "Pop!_OS bans AI-generated code from much of its codebase",
-      "content": "Pop!_OS bans AI-generated code from much of its codebase",
-      "author": "bundie",
-      "url": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
-      "likes": 107,
-      "comments": 159,
-      "engagementScore": 425,
-      "source": "hackernews",
-      "publishedAt": "2026-10-03T17:57:03.000Z",
-      "tier": "hackernews",
-      "age": "19h",
-      "hot": false
-    },
-    {
-      "title": "In Ukraine, distributed renewables foil Russia's assaults",
-      "content": "In Ukraine, distributed renewables foil Russia's assaults",
-      "author": "JumpCrisscross",
-      "url": "https://energytransition.org/2026/09/in-ukraine-distributed-renewables-foil-russias-assaults/",
-      "likes": 128,
-      "comments": 106,
-      "engagementScore": 340,
-      "source": "hackernews",
-      "publishedAt": "2026-10-04T08:39:58.000Z",
-      "tier": "hackernews",
-      "age": "4h",
-      "hot": false
-    },
-    {
-      "title": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server",
-      "content": "Show HN: Pi pod – Run your pi coding agent in sandboxes on your own server\npi pod runs sessions of the pi coding agent in isolated sandboxes (&quot;pods&quot;) on a server you run, in composable environments.<p>----<p>Since moving my company towards AI-native work, I have been really frustrated by the state of &quot;agentic engineering&quot; environments. Products by the labs (claude code, codex) lock you into a single provider for your tokens. Agnostic solutions (factory, devin, arguably cursor) make you pay per-token costs. None of these products allow you to fully customize the harness, and of course they all run on someone else&#x27;s infrastructure.<p>I&#x27;ve been an early and fervent user of pi, which I think is fantastically simple and beautiful software. I have felt it needs an environment for it to work across platforms with fully functional composability for teams.<p>This is very much a work in progress, but for my team this has been a much needed solution and has helped us tremendously. I hope you will give it a try and let me know how you would like it to improve.",
-      "author": "edverma2",
-      "url": "https://pipod.dev/",
-      "likes": 104,
-      "comments": 39,
-      "engagementScore": 182,
-      "source": "hackernews",
-      "publishedAt": "2026-10-02T19:10:38.000Z",
       "tier": "hackernews",
       "age": "1d",
       "hot": false
     },
     {
-      "title": "Show HN: Graphene – Data analysis toolkit for your coding agent",
-      "content": "Show HN: Graphene – Data analysis toolkit for your coding agent\nMy friend and I have worked at a number of BI companies and thought: Can’t a coding agent do most of this now?<p>Almost. They just need a context&#x2F;semantic layer to ensure query correctness and some kind of artifact for publishing findings and visualizations.<p>We built an open source project called Graphene that provides these tools:<p>- Semantic layer that’s more token-efficient than YAML, more deterministic than Markdown (eg, composable, callable metric macros), with a query API that’s well in-distribution (SQL).\n- MDX-like files for dashboards (Markdown with inlined SQL + HTML components for viz with support for CSS and Javascript)\n- Connects to popular data warehouses or local DuckDB<p>Your coding agent will build really in-depth reports and can ofc leverage any other skills or context that you&#x27;ve made available to it. We dogfood it inside a monorepo with our website, app source code, planning docs, etc so the agent has access to a ton of context. It’s also nice that the agent can add instrumentation, adjust pipelines and transformations, and add dashboards all in one PR.<p>If you want to try it out, just point your coding agent at <a href=\"https:&#x2F;&#x2F;github.com&#x2F;graphene-data&#x2F;graphene&#x2F;blob&#x2F;main&#x2F;docs&#x2F;setup.md\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;graphene-data&#x2F;graphene&#x2F;blob&#x2F;main&#x2F;docs&#x2F;set...</a> and ask it to set up Graphene.<p>If you don’t have data to play with, you can clone our example project:<p>1. `git clone &lt;<a href=\"https:&#x2F;&#x2F;github.com&#x2F;graphene-data&#x2F;example-flights.git`\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;graphene-data&#x2F;example-flights.git`</a>&gt;\n2. `cd example-flights &amp;&amp; npm install`<p>Would love any&#x2F;all feedback!",
-      "author": "kcmarr",
-      "url": "https://github.com/graphene-data/graphene",
-      "likes": 31,
-      "comments": 9,
-      "engagementScore": 49,
+      "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+      "content": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+      "author": "llm_nerd",
+      "url": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
+      "likes": 240,
+      "comments": 205,
+      "engagementScore": 650,
       "source": "hackernews",
-      "publishedAt": "2026-10-01T21:29:52.000Z",
+      "publishedAt": "2026-10-05T01:54:08.000Z",
+      "tier": "hackernews",
+      "age": "11h",
+      "hot": false
+    },
+    {
+      "title": "All I wanted was a custom domain email",
+      "content": "All I wanted was a custom domain email",
+      "author": "jgx0",
+      "url": "https://jacobg.co/emails-at-jacobg-co/",
+      "likes": 84,
+      "comments": 123,
+      "engagementScore": 330,
+      "source": "hackernews",
+      "publishedAt": "2026-10-04T17:47:21.000Z",
+      "tier": "hackernews",
+      "age": "19h",
+      "hot": false
+    },
+    {
+      "title": "Show HN: AI search for every photo and every frame of video on macOS",
+      "content": "Show HN: AI search for every photo and every frame of video on macOS",
+      "author": "allenleee",
+      "url": "https://github.com/allenv0/SCM",
+      "likes": 155,
+      "comments": 71,
+      "engagementScore": 297,
+      "source": "hackernews",
+      "publishedAt": "2026-10-04T09:24:52.000Z",
+      "tier": "hackernews",
+      "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "Decision models like Jev don't beat LLM-as-a-judge or traditional classifiers",
+      "content": "Decision models like Jev don't beat LLM-as-a-judge or traditional classifiers",
+      "author": "tomncooper",
+      "url": "https://developers.redhat.com/articles/2026/10/02/benchmarking-ai-decision-models-against-traditional-guardrails",
+      "likes": 98,
+      "comments": 35,
+      "engagementScore": 168,
+      "source": "hackernews",
+      "publishedAt": "2026-10-02T13:47:41.000Z",
       "tier": "hackernews",
       "age": "2d",
       "hot": false
     },
     {
-      "title": "Three AI agents, two countries, and one uneven world wide web",
-      "content": "Three AI agents, two countries, and one uneven world wide web",
-      "author": "effects",
-      "url": "https://royapakzad.substack.com/p/multilingual-ai-agents",
-      "likes": 35,
-      "comments": 1,
-      "engagementScore": 37,
+      "title": "Homa: The end of TCP for AI clusters [video]",
+      "content": "Homa: The end of TCP for AI clusters [video]\nPaper: \n<a href=\"https:&#x2F;&#x2F;www.usenix.org&#x2F;system&#x2F;files&#x2F;atc21-ousterhout.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;www.usenix.org&#x2F;system&#x2F;files&#x2F;atc21-ousterhout.pdf</a><p>Related: <a href=\"https:&#x2F;&#x2F;lwn.net&#x2F;Articles&#x2F;1003059&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;lwn.net&#x2F;Articles&#x2F;1003059&#x2F;</a>, <a href=\"https:&#x2F;&#x2F;www.theregister.com&#x2F;networks&#x2F;2026&#x2F;10&#x2F;01&#x2F;stanford-prof-is-beating-the-drum-for-a-new-protocol-to-replace-tcp&#x2F;5300629\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theregister.com&#x2F;networks&#x2F;2026&#x2F;10&#x2F;01&#x2F;stanford-pro...</a>",
+      "author": "signa11",
+      "url": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
+      "likes": 78,
+      "comments": 45,
+      "engagementScore": 168,
       "source": "hackernews",
-      "publishedAt": "2026-10-02T20:39:05.000Z",
+      "publishedAt": "2026-10-04T19:42:25.000Z",
+      "tier": "hackernews",
+      "age": "17h",
+      "hot": false
+    },
+    {
+      "title": "How to scale intent, quality, and artistry with AI [video]",
+      "content": "How to scale intent, quality, and artistry with AI [video]",
+      "author": "simonjgreen",
+      "url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
+      "likes": 92,
+      "comments": 36,
+      "engagementScore": 164,
+      "source": "hackernews",
+      "publishedAt": "2026-10-04T08:41:58.000Z",
       "tier": "hackernews",
       "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "What's the future for pure math research in the age of AI?",
+      "content": "What's the future for pure math research in the age of AI?",
+      "author": "6bitquant",
+      "url": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/",
+      "likes": 62,
+      "comments": 50,
+      "engagementScore": 162,
+      "source": "hackernews",
+      "publishedAt": "2026-10-04T07:53:45.000Z",
+      "tier": "hackernews",
+      "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "Interview with Chicken Scheme Maintainer Sjamaan/Peter Bex",
+      "content": "Interview with Chicken Scheme Maintainer Sjamaan/Peter Bex",
+      "author": "veqq",
+      "url": "https://alexalejandre.com/interviews/peter-bex/",
+      "likes": 50,
+      "comments": 12,
+      "engagementScore": 74,
+      "source": "hackernews",
+      "publishedAt": "2026-10-02T22:17:04.000Z",
+      "tier": "hackernews",
+      "age": "2d",
       "hot": false
     },
     {
@@ -166,7 +166,7 @@
       "publishedAt": "2026-10-03T23:34:02+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "13h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -181,7 +181,7 @@
       "publishedAt": "2026-10-03T22:00:31+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "15h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -196,7 +196,7 @@
       "publishedAt": "2026-10-02T22:57:38+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -211,7 +211,7 @@
       "publishedAt": "2026-10-01T06:29:01+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -226,7 +226,7 @@
       "publishedAt": "2026-09-30T21:54:19+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -241,7 +241,7 @@
       "publishedAt": "2026-09-29T22:20:28+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -256,7 +256,7 @@
       "publishedAt": "2026-09-29T18:27:48+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -271,7 +271,7 @@
       "publishedAt": "2026-09-29T16:45:27+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -286,7 +286,7 @@
       "publishedAt": "2026-09-29T15:55:13+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -301,7 +301,52 @@
       "publishedAt": "2026-09-28T22:07:38+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
+      "hot": false
+    },
+    {
+      "title": "Our minds aren’t equipped to handle AI",
+      "content": "Our minds aren’t equipped to handle AI",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-05T06:00:00-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "3h",
+      "hot": false
+    },
+    {
+      "title": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
+      "content": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-04T12:16:04-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "20h",
+      "hot": false
+    },
+    {
+      "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+      "content": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-04T11:21:59-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "21h",
       "hot": false
     },
     {
@@ -316,7 +361,7 @@
       "publishedAt": "2026-10-03T12:49:10-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "20h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -331,7 +376,7 @@
       "publishedAt": "2026-10-03T11:00:00-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "22h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -346,7 +391,7 @@
       "publishedAt": "2026-10-03T10:31:56-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "22h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -361,7 +406,7 @@
       "publishedAt": "2026-10-02T17:08:37-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -376,7 +421,7 @@
       "publishedAt": "2026-10-02T16:08:40-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -391,7 +436,7 @@
       "publishedAt": "2026-10-02T14:00:00-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -406,52 +451,52 @@
       "publishedAt": "2026-10-02T13:37:36-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "AI hallucinations are making entitled customers even worse",
-      "content": "AI hallucinations are making entitled customers even worse",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-02T08:00:00-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
       "age": "2d",
       "hot": false
     },
     {
-      "title": "If a data center is camouflaged in the woods, will anyone hate it?",
-      "content": "If a data center is camouflaged in the woods, will anyone hate it?",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry",
+      "title": "The Download: AI’s popularity paradox and EmTech Future 2026",
+      "content": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. People really hate AI, so why can’t they get enough? —Will Douglas Heaven Over the summer I talked to the CEO of Springboards, a startup building an LLM designed to come&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/10/05/1145711/the-download-ai-popularity-paradox-emtech-future-2026/",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-02T08:00:00-04:00",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Mon, 05 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "1h",
       "hot": false
     },
     {
-      "title": "Amazon writes scary blog warning communities not to block data centers",
-      "content": "Amazon writes scary blog warning communities not to block data centers",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning",
+      "title": "People really hate AI, so why can’t they get enough?",
+      "content": "Over the summer I talked to the CEO of Springboards, a startup building an LLM that’s designed to come up with a wider variety of responses than its mainstream rivals do. At the start of the call, he said something that’s been stuck in my head since: “We often say that we’re a self-loathing AI&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-02T07:52:20-04:00",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Mon, 05 Oct 2026 08:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "5h",
+      "hot": false
+    },
+    {
+      "title": "EmTech Future 2026: When AI Meets Everything",
+      "content": "Yossi Matias, Vice President &#38; Head of Google Research, explores how AI is beginning to reshape biology, infrastructure, manufacturing, and science, and why its greatest impact may come when it intersects with other fields.&#160; Step inside the newsroom with our MIT Technology Review editors for sharp analysis and unpublished insights from the team that researches&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Mon, 05 Oct 2026 04:00:00 +0000",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "9h",
       "hot": false
     },
     {
@@ -466,7 +511,7 @@
       "publishedAt": "Fri, 02 Oct 2026 15:49:04 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -481,7 +526,7 @@
       "publishedAt": "Fri, 02 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -496,7 +541,7 @@
       "publishedAt": "Fri, 02 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -511,7 +556,7 @@
       "publishedAt": "Fri, 02 Oct 2026 08:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -526,7 +571,7 @@
       "publishedAt": "Thu, 01 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -541,7 +586,7 @@
       "publishedAt": "Thu, 01 Oct 2026 10:32:24 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -556,52 +601,22 @@
       "publishedAt": "Thu, 01 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "The Download: OpenAI’s chief research officer explains its hacking response",
-      "content": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. “We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer Two months after OpenAI’s agents hacked into the computers of AI company Hugging Face,&#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Wed, 30 Sep 2026 12:10:00 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
       "age": "4d",
       "hot": false
     },
     {
-      "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
-      "content": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised serious questions&#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+      "title": "Building advertising for the way people use AI",
+      "content": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "author": "OpenAI Blog",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Wed, 30 Sep 2026 10:40:30 +0000",
+      "sourceName": "OpenAI Blog",
+      "publishedAt": "Mon, 05 Oct 2026 10:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
-      "hot": false
-    },
-    {
-      "title": "The Download: climate tech companies to watch and AI’s discovery problem",
-      "content": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Coming soon: our 2026 list of Climate Tech Companies to Watch With the planet nearing 1.5 °C of warming, climate policies being unraveled, and Big Tech backpedaling on its climate ambitions,&#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/09/29/1145249/the-download-climate-tech-ai-scientific-discovery/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Tue, 29 Sep 2026 12:10:00 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "5d",
+      "age": "3h",
       "hot": false
     },
     {
@@ -616,7 +631,7 @@
       "publishedAt": "Fri, 02 Oct 2026 16:15:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -631,7 +646,7 @@
       "publishedAt": "Fri, 02 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -646,7 +661,7 @@
       "publishedAt": "Thu, 01 Oct 2026 17:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -661,7 +676,7 @@
       "publishedAt": "Thu, 01 Oct 2026 16:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -676,7 +691,7 @@
       "publishedAt": "Thu, 01 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -691,7 +706,7 @@
       "publishedAt": "Wed, 30 Sep 2026 10:30:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -706,7 +721,7 @@
       "publishedAt": "Wed, 30 Sep 2026 10:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -721,7 +736,7 @@
       "publishedAt": "Tue, 29 Sep 2026 10:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -736,22 +751,22 @@
       "publishedAt": "Tue, 29 Sep 2026 10:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
-      "title": "Introducing dots",
-      "content": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-      "author": "OpenAI Blog",
-      "url": "https://openai.com/index/introducing-dots",
+      "title": "How OpenAI uses ChatGPT Sites (live at DevDay!) | Kath Korevec (Product Lead)",
+      "content": "Watch now (36 mins) | &#127897;&#65039; Kath Korevec demos ChatGPT Sites live at OpenAI DevDay, showing how to turn Slack, Notion, and calendar data into internal tools that adapt to each person on your team",
+      "author": "Lenny Rachitsky",
+      "url": "https://www.lennysnewsletter.com/p/how-openai-uses-chatgpt-sites-live",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "OpenAI Blog",
-      "publishedAt": "Tue, 29 Sep 2026 00:00:00 GMT",
+      "sourceName": "Lenny Rachitsky",
+      "publishedAt": "Mon, 05 Oct 2026 12:04:54 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "1h",
       "hot": false
     },
     {
@@ -766,7 +781,7 @@
       "publishedAt": "Sun, 04 Oct 2026 12:32:47 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -781,7 +796,7 @@
       "publishedAt": "Sat, 03 Oct 2026 17:00:49 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "20h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -796,7 +811,7 @@
       "publishedAt": "Wed, 30 Sep 2026 14:45:15 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -811,7 +826,7 @@
       "publishedAt": "Wed, 30 Sep 2026 12:04:27 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -826,7 +841,7 @@
       "publishedAt": "Tue, 29 Sep 2026 13:15:57 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -841,7 +856,7 @@
       "publishedAt": "Mon, 28 Sep 2026 15:03:13 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -856,7 +871,7 @@
       "publishedAt": "Mon, 28 Sep 2026 12:03:04 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -871,7 +886,7 @@
       "publishedAt": "Sun, 27 Sep 2026 12:32:18 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
+      "age": "8d",
       "hot": false
     },
     {
@@ -886,7 +901,22 @@
       "publishedAt": "Sat, 26 Sep 2026 17:54:02 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
+      "age": "8d",
+      "hot": false
+    },
+    {
+      "title": "Apple and a Hacker&#8217;s Future",
+      "content": "I was happy for years in Apple's walled garden; with AI, however, their protections feel like limitations.",
+      "author": "Ben Thompson (Stratechery)",
+      "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Ben Thompson (Stratechery)",
+      "publishedAt": "Mon, 05 Oct 2026 10:00:00 +0000",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "3h",
       "hot": false
     },
     {
@@ -901,7 +931,7 @@
       "publishedAt": "Fri, 02 Oct 2026 17:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -916,7 +946,7 @@
       "publishedAt": "Thu, 01 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -931,7 +961,7 @@
       "publishedAt": "Wed, 30 Sep 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -946,7 +976,7 @@
       "publishedAt": "Tue, 29 Sep 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -961,7 +991,7 @@
       "publishedAt": "Mon, 28 Sep 2026 10:25:37 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -976,7 +1006,7 @@
       "publishedAt": "Fri, 25 Sep 2026 17:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "8d",
+      "age": "9d",
       "hot": false
     },
     {
@@ -991,7 +1021,7 @@
       "publishedAt": "Thu, 01 Oct 2026 10:54:12 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -1006,7 +1036,22 @@
       "publishedAt": "Thu, 01 Oct 2026 15:28:28 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
+      "hot": false
+    },
+    {
+      "title": "Coming soon: New York City’s hearing on AI risks",
+      "content": "New York tries to take care of its own",
+      "author": "Gary Marcus",
+      "url": "https://garymarcus.substack.com/p/coming-soon-new-york-citys-hearing",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Gary Marcus",
+      "publishedAt": "Mon, 05 Oct 2026 02:35:22 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "10h",
       "hot": false
     },
     {
@@ -1021,7 +1066,7 @@
       "publishedAt": "Wed, 30 Sep 2026 16:45:58 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -1036,7 +1081,7 @@
       "publishedAt": "Tue, 29 Sep 2026 23:39:34 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -1051,7 +1096,7 @@
       "publishedAt": "Tue, 29 Sep 2026 19:18:57 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -1066,7 +1111,7 @@
       "publishedAt": "Mon, 28 Sep 2026 20:54:59 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -1081,7 +1126,7 @@
       "publishedAt": "Sat, 26 Sep 2026 23:55:49 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
+      "age": "8d",
       "hot": false
     },
     {
@@ -1096,7 +1141,7 @@
       "publishedAt": "Fri, 25 Sep 2026 21:58:42 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "8d",
+      "age": "9d",
       "hot": false
     }
   ]
