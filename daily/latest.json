@@ -1,87 +1,45 @@
 {
-  "date": "2026-10-09",
-  "fetchedAt": "2026-10-09T13:00:53.896Z",
+  "date": "2026-10-10",
+  "fetchedAt": "2026-10-10T13:00:53.208Z",
   "stats": {
-    "rawFetched": 78,
-    "afterDedup": 78,
+    "rawFetched": 74,
+    "afterDedup": 74,
     "byTier": {
-      "hackernews": 16,
-      "rss": 62
+      "hackernews": 15,
+      "rss": 59
     },
     "bySource": {
-      "hackernews": 16,
-      "rss": 62
+      "hackernews": 15,
+      "rss": 59
     }
   },
   "items": [
-    {
-      "title": "Sharing AI progress in mathematics",
-      "content": "Sharing AI progress in mathematics\n<a href=\"https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math</a><p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math&#x2F;tree&#x2F;main&#x2F;preprints\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math&#x2F;tree&#x2F;main&#x2F;preprints</a>",
-      "author": "OfficialTurkey",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-      "likes": 1329,
-      "comments": 1512,
-      "engagementScore": 4353,
-      "source": "hackernews",
-      "publishedAt": "2026-10-06T22:17:21.000Z",
-      "tier": "hackernews",
-      "age": "2d",
-      "hot": false
-    },
     {
       "title": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
       "content": "Why isn't the industry freaking out about DeepSeek 4.1 Flash?",
       "author": "jonotime",
       "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
-      "likes": 858,
-      "comments": 770,
-      "engagementScore": 2398,
+      "likes": 1099,
+      "comments": 966,
+      "engagementScore": 3031,
       "source": "hackernews",
       "publishedAt": "2026-10-08T00:14:48.000Z",
       "tier": "hackernews",
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
-      "title": "OpenAI withdraws three mathematical results",
-      "content": "OpenAI withdraws three mathematical results\n<a href=\"https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math&#x2F;blob&#x2F;main&#x2F;history.md\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math&#x2F;blob&#x2F;main&#x2F;history.md</a>",
-      "author": "sashank_1509",
-      "url": "https://twitter.com/danintheory/status/2108065033070789090",
-      "likes": 337,
-      "comments": 584,
-      "engagementScore": 1505,
+      "title": "Typesafe AI raises $870M at $7.5B",
+      "content": "Typesafe AI raises $870M at $7.5B",
+      "author": "tosh",
+      "url": "https://typesafe.ai/blog/series-ai",
+      "likes": 386,
+      "comments": 308,
+      "engagementScore": 1002,
       "source": "hackernews",
-      "publishedAt": "2026-10-08T07:05:40.000Z",
+      "publishedAt": "2026-10-09T17:02:31.000Z",
       "tier": "hackernews",
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "OpenAI annualised revenues $20B less than previously signalled",
-      "content": "OpenAI annualised revenues $20B less than previously signalled",
-      "author": "mfiguiere",
-      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
-      "likes": 406,
-      "comments": 277,
-      "engagementScore": 960,
-      "source": "hackernews",
-      "publishedAt": "2026-10-08T16:45:58.000Z",
-      "tier": "hackernews",
-      "age": "20h",
-      "hot": false
-    },
-    {
-      "title": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
-      "content": "I gave Opus 5.5 one prompt and six hours to visualize Invisible Cities",
-      "author": "stared",
-      "url": "https://quesma.com/blog/invisible-cities-one-shot/",
-      "likes": 393,
-      "comments": 192,
-      "engagementScore": 777,
-      "source": "hackernews",
-      "publishedAt": "2026-10-08T12:00:20.000Z",
-      "tier": "hackernews",
-      "age": "1d",
+      "age": "19h",
       "hot": false
     },
     {
@@ -89,27 +47,41 @@
       "content": "OpenAI, the Partition Principle, and Mathematics",
       "author": "md224",
       "url": "https://karagila.org/2026/openai-pp/",
-      "likes": 142,
-      "comments": 223,
-      "engagementScore": 588,
+      "likes": 204,
+      "comments": 305,
+      "engagementScore": 814,
       "source": "hackernews",
       "publishedAt": "2026-10-08T23:29:43.000Z",
       "tier": "hackernews",
-      "age": "13h",
+      "age": "1d",
       "hot": false
     },
     {
-      "title": "4-hour battery storage is cheaper to install than gas turbines all across globe",
-      "content": "4-hour battery storage is cheaper to install than gas turbines all across globe",
-      "author": "01-_-",
-      "url": "https://www.solarpowerworldonline.com/2026/10/4-hour-battery-storage-is-cheaper-to-install-than-gas-turbines-all-across-globe/",
-      "likes": 248,
-      "comments": 145,
-      "engagementScore": 538,
+      "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
+      "content": "OpenAI fires three safety researchers for \"mishandling research information\"\nLater: <a href=\"https:&#x2F;&#x2F;www.cnbc.com&#x2F;2026&#x2F;10&#x2F;09&#x2F;openai-fired-researchers-ai-concerns.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.cnbc.com&#x2F;2026&#x2F;10&#x2F;09&#x2F;openai-fired-researchers-ai-...</a>",
+      "author": "trakkstar",
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "likes": 342,
+      "comments": 214,
+      "engagementScore": 770,
       "source": "hackernews",
-      "publishedAt": "2026-10-08T16:03:33.000Z",
+      "publishedAt": "2026-10-09T10:00:26.000Z",
       "tier": "hackernews",
-      "age": "20h",
+      "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+      "content": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+      "author": "franze",
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "likes": 400,
+      "comments": 180,
+      "engagementScore": 760,
+      "source": "hackernews",
+      "publishedAt": "2026-10-09T11:03:48.000Z",
+      "tier": "hackernews",
+      "age": "1d",
       "hot": false
     },
     {
@@ -117,27 +89,83 @@
       "content": "I think I found a planet nobody knew existed. I used Claude Code to find it",
       "author": "pyduan",
       "url": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
-      "likes": 216,
-      "comments": 102,
-      "engagementScore": 420,
+      "likes": 280,
+      "comments": 128,
+      "engagementScore": 536,
       "source": "hackernews",
       "publishedAt": "2026-10-08T07:07:34.000Z",
+      "tier": "hackernews",
+      "age": "2d",
+      "hot": false
+    },
+    {
+      "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
+      "content": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
+      "author": "Zambyte",
+      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+      "likes": 179,
+      "comments": 128,
+      "engagementScore": 435,
+      "source": "hackernews",
+      "publishedAt": "2026-10-09T22:00:35.000Z",
+      "tier": "hackernews",
+      "age": "15h",
+      "hot": false
+    },
+    {
+      "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+      "content": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+      "author": "piratebroadcast",
+      "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+      "likes": 158,
+      "comments": 80,
+      "engagementScore": 318,
+      "source": "hackernews",
+      "publishedAt": "2026-10-09T11:36:20.000Z",
       "tier": "hackernews",
       "age": "1d",
       "hot": false
     },
     {
-      "title": "Let your AI agents paint big arrows, boxes and text on your screen",
-      "content": "Let your AI agents paint big arrows, boxes and text on your screen",
-      "author": "franze",
-      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-      "likes": 122,
-      "comments": 42,
-      "engagementScore": 206,
+      "title": "Why are coding agents so dumb?",
+      "content": "Why are coding agents so dumb?",
+      "author": "mtlynch",
+      "url": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
+      "likes": 94,
+      "comments": 90,
+      "engagementScore": 274,
       "source": "hackernews",
-      "publishedAt": "2026-10-09T11:03:48.000Z",
+      "publishedAt": "2026-10-09T14:21:31.000Z",
       "tier": "hackernews",
-      "age": "1h",
+      "age": "22h",
+      "hot": false
+    },
+    {
+      "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+      "content": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+      "author": "matt_d",
+      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+      "likes": 140,
+      "comments": 35,
+      "engagementScore": 210,
+      "source": "hackernews",
+      "publishedAt": "2026-10-09T17:42:12.000Z",
+      "tier": "hackernews",
+      "age": "19h",
+      "hot": false
+    },
+    {
+      "title": "Can you use autoregressive diffusion to generate market data?",
+      "content": "Can you use autoregressive diffusion to generate market data?",
+      "author": "jsomers",
+      "url": "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/",
+      "likes": 116,
+      "comments": 38,
+      "engagementScore": 192,
+      "source": "hackernews",
+      "publishedAt": "2026-10-09T14:56:13.000Z",
+      "tier": "hackernews",
+      "age": "22h",
       "hot": false
     },
     {
@@ -145,102 +173,105 @@
       "content": "AI-ready biological data: $1.8B global commitment",
       "author": "ray__",
       "url": "https://biohub.org/news/virtual-biology-initiative-expansion/",
-      "likes": 133,
-      "comments": 19,
-      "engagementScore": 171,
+      "likes": 146,
+      "comments": 20,
+      "engagementScore": 186,
       "source": "hackernews",
       "publishedAt": "2026-10-08T20:46:25.000Z",
       "tier": "hackernews",
-      "age": "16h",
+      "age": "1d",
       "hot": false
     },
     {
-      "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
-      "content": "OpenAI fires three safety researchers for \"mishandling research information\"",
-      "author": "trakkstar",
-      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-      "likes": 71,
-      "comments": 32,
-      "engagementScore": 135,
-      "source": "hackernews",
-      "publishedAt": "2026-10-09T10:00:26.000Z",
-      "tier": "hackernews",
-      "age": "3h",
-      "hot": false
-    },
-    {
-      "title": "Sub-1-Bit LLM Compression via Latent Factorization",
-      "content": "Sub-1-Bit LLM Compression via Latent Factorization",
-      "author": "brainless",
-      "url": "https://github.com/SamsungLabs/LittleBit",
-      "likes": 86,
-      "comments": 24,
-      "engagementScore": 134,
-      "source": "hackernews",
-      "publishedAt": "2026-10-08T13:29:46.000Z",
-      "tier": "hackernews",
-      "age": "23h",
-      "hot": false
-    },
-    {
-      "title": "Show HN: Jevman – AI decision models play Pac-Man",
-      "content": "Show HN: Jevman – AI decision models play Pac-Man\nOpenai just launched their decisions endpoint, cloudflare launched clef the other week, and many more jev alternatives are out there.<p>We wanted to put the popular ones to the test and thought Pac-Man is a good benchmark for simple and fast decision making.<p>So we let jev 1.13, kev, clef, clef flash, GPT-6 Luna and Laya play Pac-Man against bot ghosts.<p>The low latency of these models allows for real time play. We had each model play 100 games, published a leader board and open-sourced the repo so anyone can run their own model and join the ranking. Link to repo:\n<a href=\"https:&#x2F;&#x2F;github.com&#x2F;opper-ai&#x2F;jevman-benchmark&#x2F;blob&#x2F;main&#x2F;CONTRIBUTING.md#benchmark-your-own-model\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;opper-ai&#x2F;jevman-benchmark&#x2F;blob&#x2F;main&#x2F;CONTR...</a><p>You can also join the game and play as Pac-Man yourself, and the ghosts are the models, either a mix of models or all jev, kev, clef etc. A game costs about 2 cent, all models are running via my startup opper, and we added free credits for everyone to try.<p>It&#x27;s pretty fun to play and surprisingly difficult to beat jev&#x27;s highscore. Any feedback is more than welcome!",
-      "author": "felix089",
-      "url": "https://opper.ai/jevman-benchmark/",
+      "title": "Food processing influences metabolism and brain activity",
+      "content": "Food processing influences metabolism and brain activity",
+      "author": "gmays",
+      "url": "https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html",
       "likes": 65,
-      "comments": 16,
+      "comments": 53,
+      "engagementScore": 171,
+      "source": "hackernews",
+      "publishedAt": "2026-10-10T05:22:30.000Z",
+      "tier": "hackernews",
+      "age": "7h",
+      "hot": false
+    },
+    {
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "content": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "author": "rociiu",
+      "url": "https://github.com/rociiu/talorys",
+      "likes": 55,
+      "comments": 21,
       "engagementScore": 97,
       "source": "hackernews",
-      "publishedAt": "2026-10-08T16:34:13.000Z",
+      "publishedAt": "2026-10-10T10:52:09.000Z",
       "tier": "hackernews",
-      "age": "20h",
+      "age": "2h",
       "hot": false
     },
     {
-      "title": "The Deeply Impersonal Personalized Recruiter Mail",
-      "content": "The Deeply Impersonal Personalized Recruiter Mail",
-      "author": "speckx",
-      "url": "https://blog.pentlander.com/the-deeply-impersonal-personalized-recruiter-mail/",
-      "likes": 36,
-      "comments": 30,
-      "engagementScore": 96,
+      "title": "Rewriting Prime Agent in Rust",
+      "content": "Rewriting Prime Agent in Rust",
+      "author": "piotrgrabowski",
+      "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
+      "likes": 54,
+      "comments": 18,
+      "engagementScore": 90,
       "source": "hackernews",
-      "publishedAt": "2026-10-08T17:15:57.000Z",
+      "publishedAt": "2026-10-09T23:06:25.000Z",
       "tier": "hackernews",
-      "age": "19h",
+      "age": "13h",
       "hot": false
     },
     {
-      "title": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
-      "content": "Show HN: Edi Life OS – self-hosted life dashboard with an MCP server for AI",
-      "author": "edris0077",
-      "url": "https://github.com/edrisranjbar/lifeos",
-      "likes": 38,
-      "comments": 14,
-      "engagementScore": 66,
-      "source": "hackernews",
-      "publishedAt": "2026-10-09T00:02:19.000Z",
-      "tier": "hackernews",
-      "age": "12h",
+      "title": "Quoting The New York Times",
+      "content": "Quoting The New York Times",
+      "author": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "publishedAt": "2026-10-10T02:04:12+00:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "10h",
       "hot": false
     },
     {
-      "title": "Show HN: TerrainSR – fast, realistic heightmap upscaling model",
-      "content": "Show HN: TerrainSR – fast, realistic heightmap upscaling model\nThis is a model that I made for a historical game. I wanted to have a 1:1 scale model of Europe, but my problem was that 100m data was too low-res while 10m LIDAR data was patchy, took hundreds of GBs to store and was full of manmade objects like mines, buildings and so on.<p>I trained this model on undeveloped landscape so that it can quickly add plausible erosion features, rocks, etc to the low-resolution height data and sort of reconstruct what the terrain would look like before any human interference.",
-      "author": "joegibbs",
-      "url": "https://huggingface.co/joe-gibbs/terrainsr",
-      "likes": 38,
-      "comments": 7,
-      "engagementScore": 52,
-      "source": "hackernews",
-      "publishedAt": "2026-10-07T01:24:17.000Z",
-      "tier": "hackernews",
-      "age": "2d",
+      "title": "Deno is joining Cloudflare",
+      "content": "Deno is joining Cloudflare",
+      "author": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "publishedAt": "2026-10-09T22:48:37+00:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "14h",
       "hot": false
     },
     {
-      "title": "A new feature for my, blog built using my voice",
-      "content": "A new feature for my, blog built using my voice",
+      "title": "Quoting Matthew Green",
+      "content": "Quoting Matthew Green",
+      "author": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/9/matthew-green/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "publishedAt": "2026-10-09T15:02:29+00:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "21h",
+      "hot": false
+    },
+    {
+      "title": "A new feature for my blog, built using my voice",
+      "content": "A new feature for my blog, built using my voice",
       "author": "Simon Willison",
       "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
       "likes": 0,
@@ -250,7 +281,7 @@
       "publishedAt": "2026-10-09T12:54:06+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -265,7 +296,7 @@
       "publishedAt": "2026-10-09T00:34:43+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "12h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -280,7 +311,7 @@
       "publishedAt": "2026-10-08T23:34:28+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "13h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -295,7 +326,7 @@
       "publishedAt": "2026-10-08T21:05:44+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "15h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -310,7 +341,7 @@
       "publishedAt": "2026-10-07T23:14:58+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -325,7 +356,7 @@
       "publishedAt": "2026-10-07T20:56:21+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -340,52 +371,82 @@
       "publishedAt": "2026-10-07T14:53:51+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "Quoting Jake Boggan",
-      "content": "Quoting Jake Boggan",
-      "author": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Oct/7/jake-boggan/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Simon Willison",
-      "publishedAt": "2026-10-07T04:47:55+00:00",
-      "tier": "rss",
-      "signalWeight": 1,
       "age": "2d",
       "hot": false
     },
     {
-      "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
-      "content": "OpenAI “rogue” agent activities found on Wikimedia projects",
-      "author": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+      "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "content": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "Simon Willison",
-      "publishedAt": "2026-10-07T00:16:45+00:00",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-09T17:15:38-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "15h",
       "hot": false
     },
     {
-      "title": "Quoting Victoria Kim",
-      "content": "Quoting Victoria Kim",
-      "author": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
+      "title": "&#8216;Pure insanity&#8217;: Mathematicians will need years to make sense of OpenAI&#8217;s latest drop",
+      "content": "&#8216;Pure insanity&#8217;: Mathematicians will need years to make sense of OpenAI&#8217;s latest drop",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "Simon Willison",
-      "publishedAt": "2026-10-06T23:58:56+00:00",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-09T15:09:44-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "17h",
+      "hot": false
+    },
+    {
+      "title": "Nikon microscopic video competition winner disqualified for using generative AI",
+      "content": "Nikon microscopic video competition winner disqualified for using generative AI",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-09T14:06:57-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "18h",
+      "hot": false
+    },
+    {
+      "title": "Trump’s attempt to rename AI is looking awfully artificial",
+      "content": "Trump’s attempt to rename AI is looking awfully artificial",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-09T10:25:43-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "22h",
+      "hot": false
+    },
+    {
+      "title": "Instinct was the buzziest AI agent around — can it survive Muse?",
+      "content": "Instinct was the buzziest AI agent around — can it survive Muse?",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-09T10:00:00-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "23h",
       "hot": false
     },
     {
@@ -400,7 +461,7 @@
       "publishedAt": "2026-10-09T05:48:26-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -415,7 +476,7 @@
       "publishedAt": "2026-10-08T17:53:51-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "15h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -430,7 +491,7 @@
       "publishedAt": "2026-10-08T16:06:56-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "16h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -445,7 +506,7 @@
       "publishedAt": "2026-10-08T13:58:33-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "19h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -460,82 +521,7 @@
       "publishedAt": "2026-10-08T13:57:01-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "19h",
-      "hot": false
-    },
-    {
-      "title": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
-      "content": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-08T13:00:00-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "20h",
-      "hot": false
-    },
-    {
-      "title": "Google’s AI note-taking app transcribes your meetings completely offline",
-      "content": "Google’s AI note-taking app transcribes your meetings completely offline",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-08T11:27:30-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "21h",
-      "hot": false
-    },
-    {
-      "title": "Google is launching a one-stop Gemini agent for your work tasks",
-      "content": "Google is launching a one-stop Gemini agent for your work tasks",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-08T10:28:03-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "22h",
-      "hot": false
-    },
-    {
-      "title": "Can you trust Meta’s Muse or OpenAI’s Dots to run your life?",
-      "content": "Can you trust Meta’s Muse or OpenAI’s Dots to run your life?",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-08T10:00:00-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "23h",
-      "hot": false
-    },
-    {
-      "title": "Artificial is a wicked satire that also sticks to the facts",
-      "content": "Artificial is a wicked satire that also sticks to the facts",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1007786/artificial-is-a-wicked-satire-that-also-sticks-to-the-facts",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-08T10:00:00-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "23h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -550,7 +536,7 @@
       "publishedAt": "Fri, 09 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -565,7 +551,7 @@
       "publishedAt": "Fri, 09 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -580,7 +566,7 @@
       "publishedAt": "Fri, 09 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -595,7 +581,7 @@
       "publishedAt": "Fri, 09 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -610,7 +596,7 @@
       "publishedAt": "Fri, 09 Oct 2026 00:08:24 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "12h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -625,7 +611,7 @@
       "publishedAt": "Thu, 08 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -640,7 +626,7 @@
       "publishedAt": "Thu, 08 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -655,7 +641,7 @@
       "publishedAt": "Thu, 08 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -670,7 +656,7 @@
       "publishedAt": "Thu, 08 Oct 2026 08:17:32 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -685,7 +671,7 @@
       "publishedAt": "Wed, 07 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -700,7 +686,22 @@
       "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6h",
+      "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "content": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "author": "OpenAI Blog",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "OpenAI Blog",
+      "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "1d",
       "hot": false
     },
     {
@@ -715,7 +716,7 @@
       "publishedAt": "Thu, 08 Oct 2026 16:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "21h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -730,7 +731,7 @@
       "publishedAt": "Thu, 08 Oct 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -745,7 +746,7 @@
       "publishedAt": "Thu, 08 Oct 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -760,7 +761,7 @@
       "publishedAt": "Thu, 08 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -775,7 +776,7 @@
       "publishedAt": "Wed, 07 Oct 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -790,7 +791,7 @@
       "publishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -805,7 +806,7 @@
       "publishedAt": "Wed, 07 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -820,22 +821,7 @@
       "publishedAt": "Tue, 06 Oct 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "Sharing AI progress in mathematics",
-      "content": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-      "author": "OpenAI Blog",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "OpenAI Blog",
-      "publishedAt": "Tue, 06 Oct 2026 12:00:00 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -850,7 +836,7 @@
       "publishedAt": "Mon, 05 Oct 2026 15:03:24 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -865,7 +851,7 @@
       "publishedAt": "Mon, 05 Oct 2026 12:04:54 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -880,7 +866,7 @@
       "publishedAt": "Sun, 04 Oct 2026 12:32:47 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -895,7 +881,7 @@
       "publishedAt": "Sat, 03 Oct 2026 17:00:49 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -910,37 +896,22 @@
       "publishedAt": "Wed, 30 Sep 2026 14:45:15 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "8d",
-      "hot": false
-    },
-    {
-      "title": "Jev: 8 real use cases for the fastest, cheapest model I’ve ever used | John Lindquist",
-      "content": "Watch now (46 mins) | &#127897;&#65039; Educator and developer John Lindquist shares eight Jev demos, from live voice classification and deduplication to agent routing, showing how low costs make once-impractical ideas worth trying",
-      "author": "Lenny Rachitsky",
-      "url": "https://www.lennysnewsletter.com/p/jev-8-real-use-cases-for-the-fastest",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Lenny Rachitsky",
-      "publishedAt": "Wed, 30 Sep 2026 12:04:27 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
       "age": "9d",
       "hot": false
     },
     {
-      "title": "All of the Lenny & Friends Summit talks are now online!",
-      "content": "Plus, some reflections and takeaways from the day",
-      "author": "Lenny Rachitsky",
-      "url": "https://www.lennysnewsletter.com/p/all-of-the-lenny-and-friends-summit",
+      "title": "2026.41: It&#8217;s Not You, It&#8217;s Me",
+      "content": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
+      "author": "Ben Thompson (Stratechery)",
+      "url": "https://stratechery.com/2026/its-not-you-its-me/",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "Lenny Rachitsky",
-      "publishedAt": "Tue, 29 Sep 2026 13:15:57 GMT",
+      "sourceName": "Ben Thompson (Stratechery)",
+      "publishedAt": "Fri, 09 Oct 2026 17:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "9d",
+      "age": "20h",
       "hot": false
     },
     {
@@ -955,7 +926,7 @@
       "publishedAt": "Thu, 08 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -970,7 +941,7 @@
       "publishedAt": "Wed, 07 Oct 2026 10:01:39 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -985,7 +956,7 @@
       "publishedAt": "Tue, 06 Oct 2026 10:07:36 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -1000,7 +971,7 @@
       "publishedAt": "Mon, 05 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -1015,7 +986,7 @@
       "publishedAt": "Fri, 02 Oct 2026 17:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -1028,21 +999,6 @@
       "source": "rss",
       "sourceName": "Ben Thompson (Stratechery)",
       "publishedAt": "Thu, 01 Oct 2026 10:00:00 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "8d",
-      "hot": false
-    },
-    {
-      "title": "OpenAI Dev Day, Dot and OpenAI&#8217;s Product Transition, Sign In With ChatGPT",
-      "content": "OpenAI's Dev Day showcased a product that is, frankly, pretty confusing. However, there is more vision here than it might seem.",
-      "author": "Ben Thompson (Stratechery)",
-      "url": "https://stratechery.com/2026/openai-dev-day-dot-and-openais-product-transition-sign-in-with-chatgpt/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Ben Thompson (Stratechery)",
-      "publishedAt": "Wed, 30 Sep 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
       "age": "9d",
@@ -1060,7 +1016,7 @@
       "publishedAt": "Thu, 01 Oct 2026 10:54:12 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "8d",
+      "age": "9d",
       "hot": false
     },
     {
@@ -1075,7 +1031,22 @@
       "publishedAt": "Thu, 01 Oct 2026 15:28:28 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
+      "age": "8d",
+      "hot": false
+    },
+    {
+      "title": "We must recall open-ended AI agents with internet access from the market, now",
+      "content": "Every minute we wait risks disaster",
+      "author": "Gary Marcus",
+      "url": "https://garymarcus.substack.com/p/we-must-recall-open-ended-ai-agents",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Gary Marcus",
+      "publishedAt": "Sat, 10 Oct 2026 03:40:18 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "9h",
       "hot": false
     },
     {
@@ -1090,7 +1061,7 @@
       "publishedAt": "Wed, 07 Oct 2026 17:16:44 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -1105,7 +1076,7 @@
       "publishedAt": "Mon, 05 Oct 2026 02:35:22 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -1118,36 +1089,6 @@
       "source": "rss",
       "sourceName": "Gary Marcus",
       "publishedAt": "Wed, 30 Sep 2026 16:45:58 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "8d",
-      "hot": false
-    },
-    {
-      "title": "Hot take on a weak White House Accord on “Super Intelligence”",
-      "content": "What was signed, and what wasn&#8217;t said",
-      "author": "Gary Marcus",
-      "url": "https://garymarcus.substack.com/p/hot-take-on-a-weak-white-house-accord",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Gary Marcus",
-      "publishedAt": "Tue, 29 Sep 2026 23:39:34 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "9d",
-      "hot": false
-    },
-    {
-      "title": "BREAKING: OpenAI was warned, months before the Hugging Face incident",
-      "content": "They raced ahead, anyway",
-      "author": "Gary Marcus",
-      "url": "https://garymarcus.substack.com/p/breaking-openai-was-warned-months",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Gary Marcus",
-      "publishedAt": "Tue, 29 Sep 2026 19:18:57 GMT",
       "tier": "rss",
       "signalWeight": 1,
       "age": "9d",
@@ -1165,7 +1106,7 @@
       "publishedAt": "Tue, 06 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     }
   ]
