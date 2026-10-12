@@ -1,143 +1,31 @@
 {
-  "date": "2026-10-11",
-  "fetchedAt": "2026-10-11T13:00:54.167Z",
+  "date": "2026-10-12",
+  "fetchedAt": "2026-10-12T13:00:55.496Z",
   "stats": {
-    "rawFetched": 67,
-    "afterDedup": 67,
+    "rawFetched": 68,
+    "afterDedup": 68,
     "byTier": {
       "hackernews": 10,
-      "rss": 57
+      "rss": 58
     },
     "bySource": {
       "hackernews": 10,
-      "rss": 57
+      "rss": 58
     }
   },
   "items": [
     {
-      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
-      "content": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
-      "author": "rociiu",
-      "url": "https://github.com/rociiu/talorys",
-      "likes": 303,
-      "comments": 137,
-      "engagementScore": 577,
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "content": "The gap in shared understanding of LLM capability is widening",
+      "author": "albertzeyer",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "likes": 522,
+      "comments": 763,
+      "engagementScore": 2048,
       "source": "hackernews",
-      "publishedAt": "2026-10-10T10:52:09.000Z",
+      "publishedAt": "2026-10-11T20:20:52.000Z",
       "tier": "hackernews",
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "Food processing influences metabolism and brain activity",
-      "content": "Food processing influences metabolism and brain activity",
-      "author": "gmays",
-      "url": "https://news.vt.edu/articles/2026/10/research_fralinbiomed_upfhutelin.html",
-      "likes": 167,
-      "comments": 135,
-      "engagementScore": 437,
-      "source": "hackernews",
-      "publishedAt": "2026-10-10T05:22:30.000Z",
-      "tier": "hackernews",
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
-      "content": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
-      "author": "arkj",
-      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-      "likes": 168,
-      "comments": 107,
-      "engagementScore": 382,
-      "source": "hackernews",
-      "publishedAt": "2026-10-10T18:48:35.000Z",
-      "tier": "hackernews",
-      "age": "18h",
-      "hot": false
-    },
-    {
-      "title": "Mxc: Microsoft Execution Containers version 1.0.0",
-      "content": "Mxc: Microsoft Execution Containers version 1.0.0",
-      "author": "smokel",
-      "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
-      "likes": 199,
-      "comments": 58,
-      "engagementScore": 315,
-      "source": "hackernews",
-      "publishedAt": "2026-10-09T06:52:49.000Z",
-      "tier": "hackernews",
-      "age": "2d",
-      "hot": false
-    },
-    {
-      "title": "Five months treating bugs like patients and coding agents like a medical team",
-      "content": "Five months treating bugs like patients and coding agents like a medical team",
-      "author": "rafiss",
-      "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
-      "likes": 158,
-      "comments": 65,
-      "engagementScore": 288,
-      "source": "hackernews",
-      "publishedAt": "2026-10-09T15:26:33.000Z",
-      "tier": "hackernews",
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
-      "content": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
-      "author": "davikr",
-      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-      "likes": 111,
-      "comments": 82,
-      "engagementScore": 275,
-      "source": "hackernews",
-      "publishedAt": "2026-10-11T02:02:38.000Z",
-      "tier": "hackernews",
-      "age": "10h",
-      "hot": false
-    },
-    {
-      "title": "Using AI for Just 10 Minutes Erodes Your Ability to Persist at Hard Things",
-      "content": "Using AI for Just 10 Minutes Erodes Your Ability to Persist at Hard Things",
-      "author": "giuliomagnifico",
-      "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
-      "likes": 44,
-      "comments": 55,
-      "engagementScore": 154,
-      "source": "hackernews",
-      "publishedAt": "2026-10-11T10:47:21.000Z",
-      "tier": "hackernews",
-      "age": "2h",
-      "hot": false
-    },
-    {
-      "title": "AI is creating a 'human premium' for art created by people",
-      "content": "AI is creating a 'human premium' for art created by people",
-      "author": "colinprince",
-      "url": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
-      "likes": 46,
-      "comments": 51,
-      "engagementScore": 148,
-      "source": "hackernews",
-      "publishedAt": "2026-10-11T11:34:28.000Z",
-      "tier": "hackernews",
-      "age": "1h",
-      "hot": false
-    },
-    {
-      "title": "AI agents in a stand-up call",
-      "content": "AI agents in a stand-up call",
-      "author": "jonbaer",
-      "url": "https://atoll92.github.io/agent-standup/",
-      "likes": 46,
-      "comments": 45,
-      "engagementScore": 136,
-      "source": "hackernews",
-      "publishedAt": "2026-10-11T03:42:47.000Z",
-      "tier": "hackernews",
-      "age": "9h",
+      "age": "16h",
       "hot": false
     },
     {
@@ -145,13 +33,125 @@
       "content": "I paid people to try and follow my README",
       "author": "edent",
       "url": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
-      "likes": 62,
-      "comments": 35,
-      "engagementScore": 132,
+      "likes": 400,
+      "comments": 196,
+      "engagementScore": 792,
       "source": "hackernews",
       "publishedAt": "2026-10-11T11:47:29.000Z",
       "tier": "hackernews",
+      "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
+      "content": "500B tokens later: Letting AI agents decompile a first-person shooter",
+      "author": "davikr",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "likes": 199,
+      "comments": 142,
+      "engagementScore": 483,
+      "source": "hackernews",
+      "publishedAt": "2026-10-11T02:02:38.000Z",
+      "tier": "hackernews",
+      "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "Postgres isn't slow, your storage is",
+      "content": "Postgres isn't slow, your storage is",
+      "author": "saisrirampur",
+      "url": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is",
+      "likes": 131,
+      "comments": 130,
+      "engagementScore": 391,
+      "source": "hackernews",
+      "publishedAt": "2026-10-12T06:36:53.000Z",
+      "tier": "hackernews",
+      "age": "6h",
+      "hot": false
+    },
+    {
+      "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
+      "content": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
+      "author": "m463",
+      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+      "likes": 156,
+      "comments": 99,
+      "engagementScore": 354,
+      "source": "hackernews",
+      "publishedAt": "2026-10-12T05:03:47.000Z",
+      "tier": "hackernews",
+      "age": "7h",
+      "hot": false
+    },
+    {
+      "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+      "content": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+      "author": "giuliomagnifico",
+      "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+      "likes": 120,
+      "comments": 113,
+      "engagementScore": 346,
+      "source": "hackernews",
+      "publishedAt": "2026-10-11T10:47:21.000Z",
+      "tier": "hackernews",
+      "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "QGIS bans AI assisted contributions",
+      "content": "QGIS bans AI assisted contributions",
+      "author": "bwnkl",
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "likes": 136,
+      "comments": 102,
+      "engagementScore": 340,
+      "source": "hackernews",
+      "publishedAt": "2026-10-12T11:22:24.000Z",
+      "tier": "hackernews",
       "age": "1h",
+      "hot": false
+    },
+    {
+      "title": "Ledger confirms hidden chip in crypto wallet amid $92M theft claims",
+      "content": "Ledger confirms hidden chip in crypto wallet amid $92M theft claims",
+      "author": "thm",
+      "url": "https://crypto.news/ledger-confirms-hidden-chip-in-crypto-wallet-amid-92m/",
+      "likes": 66,
+      "comments": 58,
+      "engagementScore": 182,
+      "source": "hackernews",
+      "publishedAt": "2026-10-12T10:09:37.000Z",
+      "tier": "hackernews",
+      "age": "2h",
+      "hot": false
+    },
+    {
+      "title": "Vectorized CLZ and CTZ",
+      "content": "Vectorized CLZ and CTZ",
+      "author": "zX41ZdbW",
+      "url": "https://purplesyringa.moe/blog/vectorized-clz-and-ctz/",
+      "likes": 48,
+      "comments": 5,
+      "engagementScore": 58,
+      "source": "hackernews",
+      "publishedAt": "2026-10-11T03:36:42.000Z",
+      "tier": "hackernews",
+      "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "Show HN: BraiNOTES, handwritten notes on your lecture PDFs in a browser tab",
+      "content": "Show HN: BraiNOTES, handwritten notes on your lecture PDFs in a browser tab\nIn August, I posted here about TeXbrain, a LaTeX editor that runs completely in the browser, with no need for an account or server. (I didn&#x27;t excpect it to get that much feedback, bug reports and help from here!)<p>This is the same idea for the other half of my studies, the handwritten notes. I take them on a convertible laptop, and I&#x27;ve had a hard time with apps for that, taking notes from a device to another, exporting as PDF, needing an account for many of them, etc. So I&#x27;ve been working on the version of it that I always wanted. Open a tab, the slides of the lecture or multiple PDFs open next to the page or even become the page, write on them with my pen, and nothing ever leaves my browser.<p>braiNOTES is a static website and has no backend. Strokes are perfect-freehand outlines which support pen pressure, the PDF files are rendered by pdf.js in a worker, and for storage it uses IndexedDB a moment after every change. No account, no analytics, and completely offline and local-first. You can export notebooks as .brainotes files, which in the background is a zip with one json per page + the PDFs and pictures you import. It keeps the original pages and puts the vectorized ink on top, this way the text stays selectable in the slides.<p>You can try it here: <a href=\"https:&#x2F;&#x2F;notes.swimmingbrain.dev\" rel=\"nofollow\">https:&#x2F;&#x2F;notes.swimmingbrain.dev</a>\nGitHub Repo: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;swimmingbrain&#x2F;brainotes\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;swimmingbrain&#x2F;brainotes</a> (MIT)<p>In Study mode, the PDF opens on the side of the tab, you can read it simultaneously to the notes, snip a formula or diagrams directly into the notes with the snip tool, and then write around it. In Board mode, you have just a Whiteboard for tutoring or simply for more place for exercises, and can also highlight or draw things with the laser pointer tool while presenting.<p>The line of the ink appears the moment the pen moves, and a one euro filter calms shaky hands while you write + a light a refit when you lift the pen.<p>I also have a video editor and an animation tool which are still a work in progress, on the same GitHub profile. I&#x27;m also working on a MCP server for each tool, so you can use your MCP client to do further things with your notes, automatically edit videos on the video editor, etc. That feature will of course be off unless you turn it on and will only be able to talk to localhost.<p>I&#x27;ve used this tool for every lecture in the last few months and a few friends use it too. Bug reports, fixes, recommendations, feedback are all welcome!",
+      "author": "swimmingbrain",
+      "url": "https://github.com/swimmingbrain/brainotes",
+      "likes": 32,
+      "comments": 2,
+      "engagementScore": 36,
+      "source": "hackernews",
+      "publishedAt": "2026-10-11T23:22:29.000Z",
+      "tier": "hackernews",
+      "age": "13h",
       "hot": false
     },
     {
@@ -166,7 +166,7 @@
       "publishedAt": "2026-10-11T00:52:37+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "12h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -181,7 +181,7 @@
       "publishedAt": "2026-10-10T23:58:04+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "13h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -196,7 +196,7 @@
       "publishedAt": "2026-10-10T02:04:12+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -211,7 +211,7 @@
       "publishedAt": "2026-10-09T22:48:37+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -226,7 +226,7 @@
       "publishedAt": "2026-10-09T15:02:29+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -241,7 +241,7 @@
       "publishedAt": "2026-10-09T12:54:06+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -256,7 +256,7 @@
       "publishedAt": "2026-10-09T00:34:43+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -271,7 +271,7 @@
       "publishedAt": "2026-10-08T23:34:28+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -286,7 +286,7 @@
       "publishedAt": "2026-10-08T21:05:44+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -301,7 +301,37 @@
       "publishedAt": "2026-10-07T23:14:58+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
+      "hot": false
+    },
+    {
+      "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+      "content": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-12T09:00:00-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "1h",
+      "hot": false
+    },
+    {
+      "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+      "content": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-11T14:33:56-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "18h",
       "hot": false
     },
     {
@@ -316,7 +346,7 @@
       "publishedAt": "2026-10-11T07:00:00-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -331,7 +361,7 @@
       "publishedAt": "2026-10-10T18:10:17-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "14h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -346,7 +376,7 @@
       "publishedAt": "2026-10-10T14:52:07-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "18h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -361,7 +391,7 @@
       "publishedAt": "2026-10-10T10:41:16-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "22h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -376,7 +406,7 @@
       "publishedAt": "2026-10-10T09:00:00-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -391,7 +421,7 @@
       "publishedAt": "2026-10-09T17:15:38-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -406,7 +436,7 @@
       "publishedAt": "2026-10-09T15:09:44-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -421,37 +451,52 @@
       "publishedAt": "2026-10-09T14:06:57-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
-      "title": "Trump’s attempt to rename AI is looking awfully artificial",
-      "content": "Trump’s attempt to rename AI is looking awfully artificial",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding",
+      "title": "The Download: moon city problems and drone traffic controllers",
+      "content": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Mars may be a hellhole, but the moon is not far behind The US and China are racing to build bases on the moon, with NASA hoping to establish a small&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/10/12/1146376/the-download-moon-city-drone-air-traffic-controllers/",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-09T10:25:43-04:00",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Mon, 12 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "1h",
       "hot": false
     },
     {
-      "title": "Instinct was the buzziest AI agent around — can it survive Muse?",
-      "content": "Instinct was the buzziest AI agent around — can it survive Muse?",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
+      "title": "Mars may be a hellhole, but the moon is not far behind",
+      "content": "Welcome to the second space race. You can be forgiven for experiencing déjà vu. Last time, it was the Soviet Union and the United States vying to be the first to plant some flags. Now it’s a sprint to the lunar surface between America and China—alongside a host of varyingly friendly and rival nations—plus a&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-09T10:00:00-04:00",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Mon, 12 Oct 2026 09:37:02 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "3h",
+      "hot": false
+    },
+    {
+      "title": "The ecologist revealing the invisible networks that revive rainforests",
+      "content": "In a research station in central Panama, you can walk through a century of forest time, watching scrubby plots of adolescent trees give way to cathedral-­like canopies of mature growth. Forest ecologist Daisy Dent, a senior scientist at ETH Zurich, oversees this sequence of plots across the Barro Colorado Nature Monument, some of which date&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Mon, 12 Oct 2026 09:00:00 +0000",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "4h",
       "hot": false
     },
     {
@@ -466,7 +511,7 @@
       "publishedAt": "Fri, 09 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -481,7 +526,7 @@
       "publishedAt": "Fri, 09 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -496,7 +541,7 @@
       "publishedAt": "Fri, 09 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -511,7 +556,7 @@
       "publishedAt": "Fri, 09 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -526,7 +571,7 @@
       "publishedAt": "Fri, 09 Oct 2026 00:08:24 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -541,7 +586,7 @@
       "publishedAt": "Thu, 08 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -554,51 +599,6 @@
       "source": "rss",
       "sourceName": "MIT Tech Review AI",
       "publishedAt": "Thu, 08 Oct 2026 10:00:00 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "AI breakthroughs in robotics won&#8217;t change your life any time soon",
-      "content": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped like a human—white with a black head and torso—has been popping up on video feeds. Perhaps you’ve seen it dance or&#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Thu, 08 Oct 2026 09:00:00 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "Building a safer path to autonomous industrial AI",
-      "content": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to automate more complex tasks across industrial environments. But unlike AI that operates purely in the digital world, industrial AI can interact directly with physical systems,&#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Thu, 08 Oct 2026 08:17:32 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "The Download: weight-loss drugs slowing aging and carbon dioxide batteries",
-      "content": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Weight-loss drugs show signs of slowing biological aging, say drugmakers Popular weight-loss drugs may do more than help people shed pounds. They might also slow the aging process. Drugmakers Eli Lilly&#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/10/07/1145895/the-download-weight-loss-drugs-slow-aging-carbon-dioxide-batteries/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Wed, 07 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
       "age": "4d",
@@ -616,7 +616,7 @@
       "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -631,7 +631,7 @@
       "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -646,7 +646,7 @@
       "publishedAt": "Thu, 08 Oct 2026 16:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -661,7 +661,7 @@
       "publishedAt": "Thu, 08 Oct 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -676,7 +676,7 @@
       "publishedAt": "Thu, 08 Oct 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -691,7 +691,7 @@
       "publishedAt": "Thu, 08 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -706,7 +706,7 @@
       "publishedAt": "Wed, 07 Oct 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -721,7 +721,7 @@
       "publishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -736,7 +736,7 @@
       "publishedAt": "Wed, 07 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -751,7 +751,22 @@
       "publishedAt": "Tue, 06 Oct 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
+      "hot": false
+    },
+    {
+      "title": "How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)",
+      "content": "Listen now | &#127897;&#65039;Alex Cornell explains how Muse serves your mom and an engineer with the same interface, and demos a SkyMall-style catalog, golf recaps, and a blog turned podcast",
+      "author": "Lenny Rachitsky",
+      "url": "https://www.lennysnewsletter.com/p/how-meta-designed-muse-an-ai-agent",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Lenny Rachitsky",
+      "publishedAt": "Mon, 12 Oct 2026 12:03:55 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "1h",
       "hot": false
     },
     {
@@ -766,7 +781,7 @@
       "publishedAt": "Sun, 11 Oct 2026 12:31:59 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -781,7 +796,7 @@
       "publishedAt": "Sat, 10 Oct 2026 13:01:38 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "23h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -796,7 +811,7 @@
       "publishedAt": "Mon, 05 Oct 2026 15:03:24 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -811,7 +826,7 @@
       "publishedAt": "Mon, 05 Oct 2026 12:04:54 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -826,7 +841,7 @@
       "publishedAt": "Sun, 04 Oct 2026 12:32:47 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
+      "age": "8d",
       "hot": false
     },
     {
@@ -841,7 +856,22 @@
       "publishedAt": "Sat, 03 Oct 2026 17:00:49 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
+      "age": "8d",
+      "hot": false
+    },
+    {
+      "title": "Personal Day",
+      "content": "Personal Day — No Update",
+      "author": "Ben Thompson (Stratechery)",
+      "url": "https://stratechery.com/2026/personal-day-4/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Ben Thompson (Stratechery)",
+      "publishedAt": "Mon, 12 Oct 2026 10:00:00 +0000",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "3h",
       "hot": false
     },
     {
@@ -856,7 +886,7 @@
       "publishedAt": "Fri, 09 Oct 2026 17:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -871,7 +901,7 @@
       "publishedAt": "Thu, 08 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -886,7 +916,7 @@
       "publishedAt": "Wed, 07 Oct 2026 10:01:39 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -901,7 +931,7 @@
       "publishedAt": "Tue, 06 Oct 2026 10:07:36 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -916,7 +946,7 @@
       "publishedAt": "Mon, 05 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -929,21 +959,6 @@
       "source": "rss",
       "sourceName": "Ben Thompson (Stratechery)",
       "publishedAt": "Fri, 02 Oct 2026 17:00:00 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "8d",
-      "hot": false
-    },
-    {
-      "title": "Si Sheppard – How did a few hundred Spanish soldiers topple two empires?",
-      "content": "Fall of the Incas & Aztecs.",
-      "author": "Dwarkesh Patel",
-      "url": "https://www.dwarkesh.com/p/si-sheppard",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Dwarkesh Patel",
-      "publishedAt": "Thu, 01 Oct 2026 15:28:28 GMT",
       "tier": "rss",
       "signalWeight": 1,
       "age": "9d",
@@ -961,7 +976,7 @@
       "publishedAt": "Sat, 10 Oct 2026 03:40:18 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -976,7 +991,7 @@
       "publishedAt": "Wed, 07 Oct 2026 17:16:44 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -991,7 +1006,7 @@
       "publishedAt": "Mon, 05 Oct 2026 02:35:22 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -1006,7 +1021,7 @@
       "publishedAt": "Tue, 06 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     }
   ]
