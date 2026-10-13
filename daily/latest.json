@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-12",
-  "fetchedAt": "2026-10-12T13:00:55.496Z",
+  "date": "2026-10-13",
+  "fetchedAt": "2026-10-13T13:00:55.635Z",
   "stats": {
-    "rawFetched": 68,
-    "afterDedup": 68,
+    "rawFetched": 77,
+    "afterDedup": 76,
     "byTier": {
-      "hackernews": 10,
-      "rss": 58
+      "hackernews": 16,
+      "rss": 60
     },
     "bySource": {
-      "hackernews": 10,
-      "rss": 58
+      "hackernews": 16,
+      "rss": 60
     }
   },
   "items": [
@@ -19,69 +19,97 @@
       "content": "The gap in shared understanding of LLM capability is widening",
       "author": "albertzeyer",
       "url": "https://twitter.com/karpathy/status/2109361546505966046",
-      "likes": 522,
-      "comments": 763,
-      "engagementScore": 2048,
+      "likes": 704,
+      "comments": 1026,
+      "engagementScore": 2756,
       "source": "hackernews",
       "publishedAt": "2026-10-11T20:20:52.000Z",
       "tier": "hackernews",
-      "age": "16h",
+      "age": "1d",
       "hot": false
     },
     {
-      "title": "I paid people to try and follow my README",
-      "content": "I paid people to try and follow my README",
-      "author": "edent",
-      "url": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
-      "likes": 400,
-      "comments": 196,
-      "engagementScore": 792,
+      "title": "AI is a tool and using it well takes skill",
+      "content": "AI is a tool and using it well takes skill",
+      "author": "layer8",
+      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+      "likes": 473,
+      "comments": 376,
+      "engagementScore": 1225,
       "source": "hackernews",
-      "publishedAt": "2026-10-11T11:47:29.000Z",
+      "publishedAt": "2026-10-12T21:40:18.000Z",
+      "tier": "hackernews",
+      "age": "15h",
+      "hot": false
+    },
+    {
+      "title": "QGIS enacts moratorium on AI contributions",
+      "content": "QGIS enacts moratorium on AI contributions\n<a href=\"https:&#x2F;&#x2F;lists.osgeo.org&#x2F;pipermail&#x2F;qgis-developer&#x2F;2026-September&#x2F;068576.html\" rel=\"nofollow\">https:&#x2F;&#x2F;lists.osgeo.org&#x2F;pipermail&#x2F;qgis-developer&#x2F;2026-Septem...</a>",
+      "author": "bwnkl",
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "likes": 378,
+      "comments": 405,
+      "engagementScore": 1188,
+      "source": "hackernews",
+      "publishedAt": "2026-10-12T11:22:24.000Z",
       "tier": "hackernews",
       "age": "1d",
       "hot": false
     },
     {
-      "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
-      "content": "500B tokens later: Letting AI agents decompile a first-person shooter",
-      "author": "davikr",
-      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-      "likes": 199,
-      "comments": 142,
-      "engagementScore": 483,
+      "title": "AI coding agents generate more code, but not more software",
+      "content": "AI coding agents generate more code, but not more software",
+      "author": "gumby",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "likes": 344,
+      "comments": 289,
+      "engagementScore": 922,
       "source": "hackernews",
-      "publishedAt": "2026-10-11T02:02:38.000Z",
+      "publishedAt": "2026-10-12T17:14:01.000Z",
       "tier": "hackernews",
-      "age": "1d",
+      "age": "19h",
       "hot": false
     },
     {
-      "title": "Postgres isn't slow, your storage is",
-      "content": "Postgres isn't slow, your storage is",
-      "author": "saisrirampur",
-      "url": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is",
-      "likes": 131,
-      "comments": 130,
-      "engagementScore": 391,
+      "title": "'AI' Is Not a Tool by Rich Hickey",
+      "content": "'AI' Is Not a Tool by Rich Hickey\n<a href=\"https:&#x2F;&#x2F;gist.github.com&#x2F;svieira&#x2F;619d60dea942a8d4498cba3bb6b11c02\" rel=\"nofollow\">https:&#x2F;&#x2F;gist.github.com&#x2F;svieira&#x2F;619d60dea942a8d4498cba3bb6b1...</a>",
+      "author": "svieira",
+      "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+      "likes": 282,
+      "comments": 150,
+      "engagementScore": 582,
       "source": "hackernews",
-      "publishedAt": "2026-10-12T06:36:53.000Z",
+      "publishedAt": "2026-10-12T18:00:25.000Z",
       "tier": "hackernews",
-      "age": "6h",
+      "age": "19h",
       "hot": false
     },
     {
-      "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
-      "content": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
-      "author": "m463",
-      "url": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
-      "likes": 156,
-      "comments": 99,
-      "engagementScore": 354,
+      "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "content": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "author": "hurricanepootis",
+      "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+      "likes": 263,
+      "comments": 131,
+      "engagementScore": 525,
       "source": "hackernews",
-      "publishedAt": "2026-10-12T05:03:47.000Z",
+      "publishedAt": "2026-10-12T21:35:35.000Z",
       "tier": "hackernews",
-      "age": "7h",
+      "age": "15h",
+      "hot": false
+    },
+    {
+      "title": "AI models can provably hide arbitrary capabilities",
+      "content": "AI models can provably hide arbitrary capabilities",
+      "author": "sbulaev",
+      "url": "https://arxiv.org/abs/2610.13928",
+      "likes": 237,
+      "comments": 115,
+      "engagementScore": 467,
+      "source": "hackernews",
+      "publishedAt": "2026-10-13T02:07:08.000Z",
+      "tier": "hackernews",
+      "age": "10h",
       "hot": false
     },
     {
@@ -89,69 +117,170 @@
       "content": "Using AI for just 10 minutes erodes your ability to persist at hard things",
       "author": "giuliomagnifico",
       "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
-      "likes": 120,
-      "comments": 113,
-      "engagementScore": 346,
+      "likes": 179,
+      "comments": 143,
+      "engagementScore": 465,
       "source": "hackernews",
       "publishedAt": "2026-10-11T10:47:21.000Z",
       "tier": "hackernews",
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
-      "title": "QGIS bans AI assisted contributions",
-      "content": "QGIS bans AI assisted contributions",
-      "author": "bwnkl",
-      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
-      "likes": 136,
-      "comments": 102,
-      "engagementScore": 340,
+      "title": "A look at the math that OpenAI claims computes faster Fourier transforms",
+      "content": "A look at the math that OpenAI claims computes faster Fourier transforms",
+      "author": "mochomocha",
+      "url": "https://www.argmin.net/p/faster-fourier-transforms",
+      "likes": 184,
+      "comments": 117,
+      "engagementScore": 418,
       "source": "hackernews",
-      "publishedAt": "2026-10-12T11:22:24.000Z",
+      "publishedAt": "2026-10-13T02:46:43.000Z",
+      "tier": "hackernews",
+      "age": "10h",
+      "hot": false
+    },
+    {
+      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "content": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "author": "surprisetalk",
+      "url": "https://taylor.town/kk-ai-2026",
+      "likes": 198,
+      "comments": 76,
+      "engagementScore": 350,
+      "source": "hackernews",
+      "publishedAt": "2026-10-12T15:16:45.000Z",
+      "tier": "hackernews",
+      "age": "21h",
+      "hot": false
+    },
+    {
+      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+      "content": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents\nHey HN, I’m Vishnu from Agent37 (<a href=\"https:&#x2F;&#x2F;agent37.com\">https:&#x2F;&#x2F;agent37.com</a>). We build sandboxes for running AI agents at under 10% of the cost of most sandbox providers. Our customers spend an average of $0.37&#x2F;month per sandbox.<p>You can view a video walkthrough of the product here: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;DK5ISR2tbNo\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;DK5ISR2tbNo</a><p>We started as one of those OpenClaw wrapper companies back in February (yup.. judge me). In time we added more and more harnesses.<p>One of the goals I had at the time was to offer a free plan to users, so as to gain more market share. But it was too cost prohibitive to do it right away. Especially since we were bootstrapped and servers were running on my savings.<p>Today we’re actually able to offer the free plan thanks to the optimizations we’ve made since. Over 90% of the new signups we have are just free plan users and they host their personal Hermes&#x2F;Openclaw&#x2F;Claude Code etc on our cloud. Our infrastructure cost for the free sandboxes averages around $0.05 to $0.10 per user per month.<p>Here are some techniques that have worked for lowering cost:<p>* When you look at agent harnesses, they have certain patterns in the way they consume CPU and RAM. They need CPU in bursts when they’re initializing or performing certain tasks, but beyond that, they’re often not peaking. They need more RAM for things like browser and computer-use tasks. Once the task is done, usage often comes back down. This is a key insight in lowering cost, so by efficiently managing the CPU&#x2F;RAM utilization we could lower the cost.<p>* Secondly, you have to skip the hyperscalers when renting the Hosts. I worked at Amazon before and they have 80-90% margins on VMs. So it was an obvious choice once I looked at the prices to go one layer down to vendors like Hetzner and OVH. This alone was probably one of the biggest cost levers in reducing the cost.<p>* Thirdly, you also want to pick a technology stack that lets you efficiently cache and share resources across the host. We use gVisor for better utilization and fast boot times. It lets us use available host memory across sandboxes without reserving a full VM’s memory for each one. There are tradeoffs: our gVisor sandboxes don’t support workloads like Docker-in-Docker or Android emulators.<p>* And finally the size and shape of the hosts you buy also makes a big difference. RAM is typically the bottleneck when it comes to cost and not the CPU. This is specifically true for agent harness workloads, so when buying servers, we optimize for packing more RAM into a given host.<p>We also host full VM sandboxes for workloads that need them, including running Docker at a slightly higher price, but they are still pretty low cost given the rest of the techniques.<p>Overall, my learning has been that just by focusing on a niche of sandbox usecases, and optimizing for it you can give a much better cost&#x2F;performance tradeoff.<p>I was previously a Senior Software Engineer at Amazon and an Engineering Manager at Quantcast. I built Amazon&#x27;s internal AI chatbot, Diya, and their internal coding harness, Ziya.<p>If you’re someone who’s looking to run agents on sandbox and are exploring a sandbox vendor, come check us out. We’re particularly looking for developers building messaging agents to try their workloads and challenge the limits and economics of our platform.<p>Thanks!<p><a href=\"https:&#x2F;&#x2F;agent37.com\">https:&#x2F;&#x2F;agent37.com</a>",
+      "author": "vishnukool",
+      "url": "https://news.ycombinator.com/item?id=50059096",
+      "likes": 145,
+      "comments": 101,
+      "engagementScore": 347,
+      "source": "hackernews",
+      "publishedAt": "2026-10-12T16:46:34.000Z",
+      "tier": "hackernews",
+      "age": "20h",
+      "hot": false
+    },
+    {
+      "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+      "content": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+      "author": "khalidkhair",
+      "url": "https://github.com/prabanta-dev/janas",
+      "likes": 178,
+      "comments": 63,
+      "engagementScore": 304,
+      "source": "hackernews",
+      "publishedAt": "2026-10-12T22:05:43.000Z",
+      "tier": "hackernews",
+      "age": "14h",
+      "hot": false
+    },
+    {
+      "title": "An hour of audio transcribed in about 13s on MacBook Air",
+      "content": "An hour of audio transcribed in about 13s on MacBook Air",
+      "author": "amrrs",
+      "url": "https://eg2.haku.sh/",
+      "likes": 106,
+      "comments": 31,
+      "engagementScore": 168,
+      "source": "hackernews",
+      "publishedAt": "2026-10-13T11:27:14.000Z",
       "tier": "hackernews",
       "age": "1h",
       "hot": false
     },
     {
-      "title": "Ledger confirms hidden chip in crypto wallet amid $92M theft claims",
-      "content": "Ledger confirms hidden chip in crypto wallet amid $92M theft claims",
-      "author": "thm",
-      "url": "https://crypto.news/ledger-confirms-hidden-chip-in-crypto-wallet-amid-92m/",
-      "likes": 66,
-      "comments": 58,
-      "engagementScore": 182,
+      "title": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
+      "content": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p\nHi HN! I&#x27;m Saarth. I&#x27;m in 9th grade, and I built Atticus.<p>Atticus is a fast and cheap Mac assistant that can do tasks for you. You hold down Control-Option-Space, speak or type your task, be it complex or a simple browser search, and Atticus will get on it.<p>The interesting part is that simple tasks, like opening apps, playing a Spotify playlist, or web queries, don&#x27;t touch AI, and instead are processed locally and typically finish in under a second. For example, prompting Atticus to open apps takes around 0.08 seconds, sometimes even finishing before you finish your sentence, sort of like Jev.<p>Any tasks that are more complicated will be sent to Claude via claude -p, meaning you never need an API key and Atticus will run on your existing Claude Pro or Max plan. By using this approach, costs are also cut down immensely, with, on average, tasks costing a fraction of a cent.<p>To achieve Atticus&#x27; speed, it remembers shortcuts from each task it completes. When it does a task right for the first time, it saves its steps and replays them the next time without AI. For example, a workflow of creating a new meeting took about 30 seconds the first time around. Atticus then logs the exact steps to memory and takes 5-8 seconds on the next pass. To add to this, Atticus also learns about you as you use it more and from what&#x27;s on your computer, including your name, your apps, and things you want it to remember, personalizing its answers to you.<p>To combat the safety concerns over giving an AI unrestricted access to your device, Atticus has toggleable restrictions, so before anything is deleted, sent, bought, or written to a file, the user is prompted before that action.<p>Some features I&#x27;m currently working on include a meeting copilot that capitalizes on Atticus&#x27; speed, allowing Atticus to listen in on meetings and answer questions in real time as they come in, personalized to the context of the meeting and what it knows about you.<p>To run Atticus, macOS 26 or higher is required for its voice transcription features. The voice transcription is also done locally by macOS.<p>Atticus is free, open source, and also very fresh, and I&#x27;m completely aware of its many rough edges, which is why I&#x27;d love to hear from everyone about what breaks and what you guys would like to see Atticus do!",
+      "author": "SaarthRanka",
+      "url": "https://github.com/SaarthurR/atticus-mac",
+      "likes": 107,
+      "comments": 23,
+      "engagementScore": 153,
       "source": "hackernews",
-      "publishedAt": "2026-10-12T10:09:37.000Z",
-      "tier": "hackernews",
-      "age": "2h",
-      "hot": false
-    },
-    {
-      "title": "Vectorized CLZ and CTZ",
-      "content": "Vectorized CLZ and CTZ",
-      "author": "zX41ZdbW",
-      "url": "https://purplesyringa.moe/blog/vectorized-clz-and-ctz/",
-      "likes": 48,
-      "comments": 5,
-      "engagementScore": 58,
-      "source": "hackernews",
-      "publishedAt": "2026-10-11T03:36:42.000Z",
+      "publishedAt": "2026-10-12T00:15:12.000Z",
       "tier": "hackernews",
       "age": "1d",
       "hot": false
     },
     {
-      "title": "Show HN: BraiNOTES, handwritten notes on your lecture PDFs in a browser tab",
-      "content": "Show HN: BraiNOTES, handwritten notes on your lecture PDFs in a browser tab\nIn August, I posted here about TeXbrain, a LaTeX editor that runs completely in the browser, with no need for an account or server. (I didn&#x27;t excpect it to get that much feedback, bug reports and help from here!)<p>This is the same idea for the other half of my studies, the handwritten notes. I take them on a convertible laptop, and I&#x27;ve had a hard time with apps for that, taking notes from a device to another, exporting as PDF, needing an account for many of them, etc. So I&#x27;ve been working on the version of it that I always wanted. Open a tab, the slides of the lecture or multiple PDFs open next to the page or even become the page, write on them with my pen, and nothing ever leaves my browser.<p>braiNOTES is a static website and has no backend. Strokes are perfect-freehand outlines which support pen pressure, the PDF files are rendered by pdf.js in a worker, and for storage it uses IndexedDB a moment after every change. No account, no analytics, and completely offline and local-first. You can export notebooks as .brainotes files, which in the background is a zip with one json per page + the PDFs and pictures you import. It keeps the original pages and puts the vectorized ink on top, this way the text stays selectable in the slides.<p>You can try it here: <a href=\"https:&#x2F;&#x2F;notes.swimmingbrain.dev\" rel=\"nofollow\">https:&#x2F;&#x2F;notes.swimmingbrain.dev</a>\nGitHub Repo: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;swimmingbrain&#x2F;brainotes\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;swimmingbrain&#x2F;brainotes</a> (MIT)<p>In Study mode, the PDF opens on the side of the tab, you can read it simultaneously to the notes, snip a formula or diagrams directly into the notes with the snip tool, and then write around it. In Board mode, you have just a Whiteboard for tutoring or simply for more place for exercises, and can also highlight or draw things with the laser pointer tool while presenting.<p>The line of the ink appears the moment the pen moves, and a one euro filter calms shaky hands while you write + a light a refit when you lift the pen.<p>I also have a video editor and an animation tool which are still a work in progress, on the same GitHub profile. I&#x27;m also working on a MCP server for each tool, so you can use your MCP client to do further things with your notes, automatically edit videos on the video editor, etc. That feature will of course be off unless you turn it on and will only be able to talk to localhost.<p>I&#x27;ve used this tool for every lecture in the last few months and a few friends use it too. Bug reports, fixes, recommendations, feedback are all welcome!",
-      "author": "swimmingbrain",
-      "url": "https://github.com/swimmingbrain/brainotes",
-      "likes": 32,
-      "comments": 2,
-      "engagementScore": 36,
+      "title": "Show HN: Use your OpenAI subscription to create audiobooks",
+      "content": "Show HN: Use your OpenAI subscription to create audiobooks",
+      "author": "janpmz",
+      "url": "https://pdftomp3.com/connect-ai/",
+      "likes": 66,
+      "comments": 37,
+      "engagementScore": 140,
       "source": "hackernews",
-      "publishedAt": "2026-10-11T23:22:29.000Z",
+      "publishedAt": "2026-10-13T10:08:34.000Z",
       "tier": "hackernews",
-      "age": "13h",
+      "age": "2h",
+      "hot": false
+    },
+    {
+      "title": "Character.ai Files for Bankruptcy",
+      "content": "Character.ai Files for Bankruptcy",
+      "author": "yanis_t",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+      "likes": 60,
+      "comments": 29,
+      "engagementScore": 118,
+      "source": "hackernews",
+      "publishedAt": "2026-10-13T11:24:08.000Z",
+      "tier": "hackernews",
+      "age": "1h",
+      "hot": false
+    },
+    {
+      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "content": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "author": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "publishedAt": "2026-10-12T18:15:38+00:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "18h",
+      "hot": false
+    },
+    {
+      "title": "web-edit 0.1a0",
+      "content": "web-edit 0.1a0",
+      "author": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "publishedAt": "2026-10-12T15:54:36+00:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "21h",
+      "hot": false
+    },
+    {
+      "title": "datasette-ports 0.4",
+      "content": "datasette-ports 0.4",
+      "author": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "publishedAt": "2026-10-12T04:57:07+00:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "1d",
       "hot": false
     },
     {
@@ -166,7 +295,7 @@
       "publishedAt": "2026-10-11T00:52:37+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -181,7 +310,7 @@
       "publishedAt": "2026-10-10T23:58:04+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -196,7 +325,7 @@
       "publishedAt": "2026-10-10T02:04:12+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -211,7 +340,7 @@
       "publishedAt": "2026-10-09T22:48:37+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -226,7 +355,7 @@
       "publishedAt": "2026-10-09T15:02:29+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -241,7 +370,7 @@
       "publishedAt": "2026-10-09T12:54:06+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -256,52 +385,37 @@
       "publishedAt": "2026-10-09T00:34:43+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "ttok 0.4",
-      "content": "ttok 0.4",
-      "author": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Oct/8/ttok/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Simon Willison",
-      "publishedAt": "2026-10-08T23:34:28+00:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "Quoting Carson Gross",
-      "content": "Quoting Carson Gross",
-      "author": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Oct/8/carson-gross/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Simon Willison",
-      "publishedAt": "2026-10-08T21:05:44+00:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "Quoting Ben Affleck",
-      "content": "Quoting Ben Affleck",
-      "author": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Oct/7/ben-affleck/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Simon Willison",
-      "publishedAt": "2026-10-07T23:14:58+00:00",
-      "tier": "rss",
-      "signalWeight": 1,
       "age": "4d",
+      "hot": false
+    },
+    {
+      "title": "Apple launches HomeView, its first smart display for the home",
+      "content": "Apple launches HomeView, its first smart display for the home",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1009704/apple-homeview-smart-display-first-look",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-13T09:00:00-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "1h",
+      "hot": false
+    },
+    {
+      "title": "Meta has some Wonder Full new AI models",
+      "content": "Meta has some Wonder Full new AI models",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-12T13:00:00-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "20h",
       "hot": false
     },
     {
@@ -316,7 +430,7 @@
       "publishedAt": "2026-10-12T09:00:00-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -331,7 +445,7 @@
       "publishedAt": "2026-10-11T14:33:56-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "18h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -346,7 +460,7 @@
       "publishedAt": "2026-10-11T07:00:00-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -361,7 +475,7 @@
       "publishedAt": "2026-10-10T18:10:17-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -376,7 +490,7 @@
       "publishedAt": "2026-10-10T14:52:07-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -391,7 +505,7 @@
       "publishedAt": "2026-10-10T10:41:16-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -406,52 +520,52 @@
       "publishedAt": "2026-10-10T09:00:00-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
-      "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
-      "content": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+      "title": "The Download: open model trade-offs and geothermal power’s promise",
+      "content": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Open models have real benefits. Do they outweigh the risks? Anthropic recently released a report arguing that a powerful new model released by the Chinese company Z.ai, poses a major cyberattack&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-09T17:15:38-04:00",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Tue, 13 Oct 2026 12:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "1h",
       "hot": false
     },
     {
-      "title": "&#8216;Pure insanity&#8217;: Mathematicians will need years to make sense of OpenAI&#8217;s latest drop",
-      "content": "&#8216;Pure insanity&#8217;: Mathematicians will need years to make sense of OpenAI&#8217;s latest drop",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+      "title": "Open models have real benefits. Do they outweigh the risks?",
+      "content": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic released a report arguing that the model GLM-5.3 poses a major cyberattack risk. The report’s core concern is that the&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-09T15:09:44-04:00",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Tue, 13 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3h",
       "hot": false
     },
     {
-      "title": "Nikon microscopic video competition winner disqualified for using generative AI",
-      "content": "Nikon microscopic video competition winner disqualified for using generative AI",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
+      "title": "AI labs are buying data from dead startups to train their models",
+      "content": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives into real money. He’s netted roughly $25,000 for his code base and a still-pending amount (likely around&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-09T14:06:57-04:00",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Tue, 13 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "4h",
       "hot": false
     },
     {
@@ -466,7 +580,7 @@
       "publishedAt": "Mon, 12 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -481,7 +595,7 @@
       "publishedAt": "Mon, 12 Oct 2026 09:37:02 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -496,7 +610,7 @@
       "publishedAt": "Mon, 12 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -511,7 +625,7 @@
       "publishedAt": "Fri, 09 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -526,7 +640,7 @@
       "publishedAt": "Fri, 09 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -541,7 +655,7 @@
       "publishedAt": "Fri, 09 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -554,51 +668,6 @@
       "source": "rss",
       "sourceName": "MIT Tech Review AI",
       "publishedAt": "Fri, 09 Oct 2026 09:00:00 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "content": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter&#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Fri, 09 Oct 2026 00:08:24 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
-      "content": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI breakthroughs in robotics won’t change your life any time soon The hype around humanoid robots is reaching fever pitch. Much of it comes from the idea that the same AI&#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Thu, 08 Oct 2026 12:10:00 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "4d",
-      "hot": false
-    },
-    {
-      "title": "Why we’re watching these climate tech companies",
-      "content": "This week, we released our 2026 version of our Climate Tech Companies to Watch list. It’s an annual project that the MIT Technology Review team puts together. Our goal is to highlight some of the promising, interesting advances and firms we think are worth paying attention to in the world of climate and energy technology. &#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/10/08/1145920/climate-tech-companies-list/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Thu, 08 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
       "age": "4d",
@@ -616,7 +685,7 @@
       "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -631,7 +700,7 @@
       "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -646,7 +715,7 @@
       "publishedAt": "Thu, 08 Oct 2026 16:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -661,7 +730,7 @@
       "publishedAt": "Thu, 08 Oct 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -676,7 +745,7 @@
       "publishedAt": "Thu, 08 Oct 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -691,7 +760,7 @@
       "publishedAt": "Thu, 08 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -706,7 +775,7 @@
       "publishedAt": "Wed, 07 Oct 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -721,7 +790,7 @@
       "publishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -736,7 +805,7 @@
       "publishedAt": "Wed, 07 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -751,7 +820,37 @@
       "publishedAt": "Tue, 06 Oct 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
+      "hot": false
+    },
+    {
+      "title": "How to tell if a startup has a moat",
+      "content": "A framework for assessing whether the company you&#8217;re considering joining is built to last",
+      "author": "Lenny Rachitsky",
+      "url": "https://www.lennysnewsletter.com/p/how-to-tell-if-a-startup-has-a-moat",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Lenny Rachitsky",
+      "publishedAt": "Tue, 13 Oct 2026 12:45:41 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "1h",
+      "hot": false
+    },
+    {
+      "title": "🎙️ How I AI: How Meta designed Muse with Alex Cornell",
+      "content": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "author": "Lenny Rachitsky",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Lenny Rachitsky",
+      "publishedAt": "Mon, 12 Oct 2026 15:00:38 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "22h",
       "hot": false
     },
     {
@@ -766,7 +865,7 @@
       "publishedAt": "Mon, 12 Oct 2026 12:03:55 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -781,7 +880,7 @@
       "publishedAt": "Sun, 11 Oct 2026 12:31:59 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -796,7 +895,7 @@
       "publishedAt": "Sat, 10 Oct 2026 13:01:38 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -811,7 +910,7 @@
       "publishedAt": "Mon, 05 Oct 2026 15:03:24 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -826,7 +925,7 @@
       "publishedAt": "Mon, 05 Oct 2026 12:04:54 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
+      "age": "8d",
       "hot": false
     },
     {
@@ -841,7 +940,7 @@
       "publishedAt": "Sun, 04 Oct 2026 12:32:47 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "8d",
+      "age": "9d",
       "hot": false
     },
     {
@@ -856,7 +955,22 @@
       "publishedAt": "Sat, 03 Oct 2026 17:00:49 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "8d",
+      "age": "9d",
+      "hot": false
+    },
+    {
+      "title": "SpaceX Buys More Spectrum, Musk and Market Structure, Distributed Cellular",
+      "content": "SpaceX's mobile strategy is becoming clearly with its latest spectrum purchase, and it might work.",
+      "author": "Ben Thompson (Stratechery)",
+      "url": "https://stratechery.com/2026/spacex-buys-more-spectrum-musk-and-market-structure-distributed-cellular/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Ben Thompson (Stratechery)",
+      "publishedAt": "Tue, 13 Oct 2026 10:00:00 +0000",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "3h",
       "hot": false
     },
     {
@@ -871,7 +985,7 @@
       "publishedAt": "Mon, 12 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -886,7 +1000,7 @@
       "publishedAt": "Fri, 09 Oct 2026 17:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -901,7 +1015,7 @@
       "publishedAt": "Thu, 08 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -916,7 +1030,7 @@
       "publishedAt": "Wed, 07 Oct 2026 10:01:39 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -931,7 +1045,7 @@
       "publishedAt": "Tue, 06 Oct 2026 10:07:36 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -946,22 +1060,22 @@
       "publishedAt": "Mon, 05 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
+      "age": "8d",
       "hot": false
     },
     {
-      "title": "2026.40: Dots and Question Marks",
-      "content": "The best Stratechery content from the week of September 28, 2026, including Meta's focus, what OpenAI is doing, and Mao and NBA Media Day.",
-      "author": "Ben Thompson (Stratechery)",
-      "url": "https://stratechery.com/2026/dots-and-question-marks/",
+      "title": "Could this be the Frontier Labs’ WeWork moment?",
+      "content": "Some ominous signs",
+      "author": "Gary Marcus",
+      "url": "https://garymarcus.substack.com/p/could-this-be-the-frontier-labs-wework",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "Ben Thompson (Stratechery)",
-      "publishedAt": "Fri, 02 Oct 2026 17:00:00 +0000",
+      "sourceName": "Gary Marcus",
+      "publishedAt": "Tue, 13 Oct 2026 00:28:16 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "9d",
+      "age": "12h",
       "hot": false
     },
     {
@@ -976,7 +1090,7 @@
       "publishedAt": "Sat, 10 Oct 2026 03:40:18 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -991,7 +1105,7 @@
       "publishedAt": "Wed, 07 Oct 2026 17:16:44 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -1006,7 +1120,7 @@
       "publishedAt": "Mon, 05 Oct 2026 02:35:22 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
+      "age": "8d",
       "hot": false
     },
     {
@@ -1021,7 +1135,7 @@
       "publishedAt": "Tue, 06 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     }
   ]
