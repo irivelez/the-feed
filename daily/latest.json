@@ -1,115 +1,256 @@
 {
-  "date": "2026-10-16",
-  "fetchedAt": "2026-10-16T13:00:56.061Z",
+  "date": "2026-10-17",
+  "fetchedAt": "2026-10-17T13:00:52.273Z",
   "stats": {
-    "rawFetched": 64,
-    "afterDedup": 64,
+    "rawFetched": 73,
+    "afterDedup": 73,
     "byTier": {
-      "hackernews": 7,
+      "hackernews": 16,
       "rss": 57
     },
     "bySource": {
-      "hackernews": 7,
+      "hackernews": 16,
       "rss": 57
     }
   },
   "items": [
     {
+      "title": "Claude reveals ECDSA curve origins",
+      "content": "Claude reveals ECDSA curve origins\n<a href=\"https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;</a>",
+      "author": "ahlCVA",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "likes": 913,
+      "comments": 338,
+      "engagementScore": 1589,
+      "source": "hackernews",
+      "publishedAt": "2026-10-16T18:55:59.000Z",
+      "tier": "hackernews",
+      "age": "18h",
+      "hot": false
+    },
+    {
       "title": "Neural networks are clean",
       "content": "Neural networks are clean\n<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056</a>",
       "author": "themgt",
       "url": "https://already-clean.goodfire.com/",
-      "likes": 741,
-      "comments": 277,
-      "engagementScore": 1295,
+      "likes": 805,
+      "comments": 329,
+      "engagementScore": 1463,
       "source": "hackernews",
       "publishedAt": "2026-10-15T16:04:01.000Z",
       "tier": "hackernews",
-      "age": "20h",
+      "age": "1d",
       "hot": false
     },
     {
-      "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
-      "content": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
-      "author": "aaraujo002",
-      "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-      "likes": 242,
-      "comments": 195,
-      "engagementScore": 632,
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "content": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "author": "speckx",
+      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "likes": 536,
+      "comments": 453,
+      "engagementScore": 1442,
       "source": "hackernews",
-      "publishedAt": "2026-10-15T14:58:48.000Z",
+      "publishedAt": "2026-10-16T17:08:38.000Z",
+      "tier": "hackernews",
+      "age": "19h",
+      "hot": false
+    },
+    {
+      "title": "How the Claude Code team does code review",
+      "content": "How the Claude Code team does code review",
+      "author": "pretext",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "likes": 385,
+      "comments": 354,
+      "engagementScore": 1093,
+      "source": "hackernews",
+      "publishedAt": "2026-10-16T19:04:47.000Z",
+      "tier": "hackernews",
+      "age": "17h",
+      "hot": false
+    },
+    {
+      "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "content": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "author": "theanonymousone",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "likes": 294,
+      "comments": 111,
+      "engagementScore": 516,
+      "source": "hackernews",
+      "publishedAt": "2026-10-17T08:37:46.000Z",
+      "tier": "hackernews",
+      "age": "4h",
+      "hot": false
+    },
+    {
+      "title": "You could have invented transformers from memory",
+      "content": "You could have invented transformers from memory",
+      "author": "speckx",
+      "url": "https://alexwang.ai/posts/associative-memory/",
+      "likes": 337,
+      "comments": 78,
+      "engagementScore": 493,
+      "source": "hackernews",
+      "publishedAt": "2026-10-16T19:01:17.000Z",
+      "tier": "hackernews",
+      "age": "17h",
+      "hot": false
+    },
+    {
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "content": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "author": "Anon84",
+      "url": "https://github.com/cobanov/PS5LM",
+      "likes": 307,
+      "comments": 75,
+      "engagementScore": 457,
+      "source": "hackernews",
+      "publishedAt": "2026-10-16T18:32:35.000Z",
+      "tier": "hackernews",
+      "age": "18h",
+      "hot": false
+    },
+    {
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "content": "DeepSeek-v4.1-Flash-1017",
+      "author": "theykk",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "likes": 248,
+      "comments": 97,
+      "engagementScore": 442,
+      "source": "hackernews",
+      "publishedAt": "2026-10-17T08:21:25.000Z",
+      "tier": "hackernews",
+      "age": "4h",
+      "hot": false
+    },
+    {
+      "title": "Show HN: Gemini 4 Argon plays StarCraft",
+      "content": "Show HN: Gemini 4 Argon plays StarCraft\nI&#x27;ve refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse",
+      "author": "__cayenne__",
+      "url": "https://starskirmish.com/bench/v0-2/",
+      "likes": 228,
+      "comments": 103,
+      "engagementScore": 434,
+      "source": "hackernews",
+      "publishedAt": "2026-10-16T14:18:44.000Z",
       "tier": "hackernews",
       "age": "22h",
       "hot": false
     },
     {
-      "title": "Using AI to reverse engineer hardware",
-      "content": "Using AI to reverse engineer hardware",
-      "author": "ErenayDev",
-      "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
-      "likes": 217,
-      "comments": 193,
-      "engagementScore": 603,
+      "title": "Anthropic assigned highest junk credit rating in June",
+      "content": "Anthropic assigned highest junk credit rating in June\n<a href=\"https:&#x2F;&#x2F;finance.yahoo.com&#x2F;technology&#x2F;ai&#x2F;articles&#x2F;anthropic-secured-highest-junk-credit-040018773.html\" rel=\"nofollow\">https:&#x2F;&#x2F;finance.yahoo.com&#x2F;technology&#x2F;ai&#x2F;articles&#x2F;anthropic-s...</a>",
+      "author": "JumpCrisscross",
+      "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+      "likes": 263,
+      "comments": 82,
+      "engagementScore": 427,
       "source": "hackernews",
-      "publishedAt": "2026-10-15T14:35:15.000Z",
+      "publishedAt": "2026-10-16T18:11:42.000Z",
       "tier": "hackernews",
-      "age": "22h",
+      "age": "18h",
       "hot": false
     },
     {
-      "title": "The 8-mile hole in a Hawaii national park that no one can explain",
-      "content": "The 8-mile hole in a Hawaii national park that no one can explain",
-      "author": "elsewhen",
-      "url": "https://www.sfgate.com/national-parks/article/hawaii-volcanoes-park-great-crack-22358849.php",
-      "likes": 74,
-      "comments": 46,
-      "engagementScore": 166,
+      "title": "Designing more efficient quantum circuits with Claude",
+      "content": "Designing more efficient quantum circuits with Claude",
+      "author": "pretext",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "likes": 153,
+      "comments": 32,
+      "engagementScore": 217,
       "source": "hackernews",
-      "publishedAt": "2026-10-14T05:08:09.000Z",
+      "publishedAt": "2026-10-16T18:00:18.000Z",
+      "tier": "hackernews",
+      "age": "19h",
+      "hot": false
+    },
+    {
+      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "content": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "author": "albinstman",
+      "url": "https://llmspeed.dev/",
+      "likes": 122,
+      "comments": 44,
+      "engagementScore": 210,
+      "source": "hackernews",
+      "publishedAt": "2026-10-17T04:36:53.000Z",
+      "tier": "hackernews",
+      "age": "8h",
+      "hot": false
+    },
+    {
+      "title": "Tell HN: Remember to migrate away from .name domain",
+      "content": "Tell HN: Remember to migrate away from .name domain\nIf you have a third.level.name domain, it&#x27;ll get permanently expunged next year. Have you successfully taken steps to migrate away? Did you move to a standard .com domain, or are you taking your chances with another .tld?<p>Personally, I&#x27;m stuck in Microsoft hell because Azure admin emails cannot be changed and support is both uncaring and powerless.",
+      "author": "nikanj",
+      "url": "https://news.ycombinator.com/item?id=50089577",
+      "likes": 71,
+      "comments": 45,
+      "engagementScore": 161,
+      "source": "hackernews",
+      "publishedAt": "2026-10-14T15:49:31.000Z",
       "tier": "hackernews",
       "age": "2d",
       "hot": false
     },
     {
-      "title": "BeBox is a Haiku application that emulates Be Inc.'s BeBox",
-      "content": "BeBox is a Haiku application that emulates Be Inc.'s BeBox",
-      "author": "rguiscard",
-      "url": "https://github.com/johnrash/bebox",
-      "likes": 79,
-      "comments": 25,
-      "engagementScore": 129,
+      "title": "Nine-Inch Snails",
+      "content": "Nine-Inch Snails",
+      "author": "zdw",
+      "url": "https://www.theatlantic.com/science/2026/10/giant-african-snails-florida-invasion/688850/",
+      "likes": 81,
+      "comments": 38,
+      "engagementScore": 157,
       "source": "hackernews",
-      "publishedAt": "2026-10-15T23:22:53.000Z",
+      "publishedAt": "2026-10-16T22:21:05.000Z",
       "tier": "hackernews",
-      "age": "13h",
+      "age": "14h",
       "hot": false
     },
     {
-      "title": "Prompt injection in HTTP headers: what 217M web responses show",
-      "content": "Prompt injection in HTTP headers: what 217M web responses show",
-      "author": "panoramas4good",
-      "url": "https://www.signalscorps.com/blog/prompt-injection-in-http-headers/",
-      "likes": 90,
-      "comments": 17,
-      "engagementScore": 124,
+      "title": "How to make System 1 LLMs show System 2 competencies?",
+      "content": "How to make System 1 LLMs show System 2 competencies?",
+      "author": "porridgeraisin",
+      "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
+      "likes": 51,
+      "comments": 26,
+      "engagementScore": 103,
       "source": "hackernews",
-      "publishedAt": "2026-10-15T14:36:22.000Z",
+      "publishedAt": "2026-10-16T14:16:34.000Z",
       "tier": "hackernews",
       "age": "22h",
       "hot": false
     },
     {
-      "title": "Frontier Pre-Training at Microsoft AI",
-      "content": "Frontier Pre-Training at Microsoft AI",
-      "author": "psoulos",
-      "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/",
-      "likes": 42,
-      "comments": 4,
-      "engagementScore": 50,
+      "title": "Show HN: rStation – A shared research lab for your AI agents",
+      "content": "Show HN: rStation – A shared research lab for your AI agents",
+      "author": "stephenchung",
+      "url": "https://rstation.ai/",
+      "likes": 53,
+      "comments": 19,
+      "engagementScore": 91,
       "source": "hackernews",
-      "publishedAt": "2026-10-15T16:12:13.000Z",
+      "publishedAt": "2026-10-16T14:35:43.000Z",
       "tier": "hackernews",
-      "age": "20h",
+      "age": "22h",
+      "hot": false
+    },
+    {
+      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+      "content": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+      "author": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "publishedAt": "2026-10-16T22:06:37+00:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "14h",
       "hot": false
     },
     {
@@ -124,7 +265,7 @@
       "publishedAt": "2026-10-15T19:47:52+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "17h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -139,7 +280,22 @@
       "publishedAt": "2026-10-15T13:04:03+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "23h",
+      "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "LaTeX renderer",
+      "content": "LaTeX renderer",
+      "author": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/15/latex/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "publishedAt": "2026-10-15T02:07:28+00:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "2d",
       "hot": false
     },
     {
@@ -154,7 +310,7 @@
       "publishedAt": "2026-10-14T21:23:01+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -169,7 +325,7 @@
       "publishedAt": "2026-10-14T16:26:53+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -184,7 +340,7 @@
       "publishedAt": "2026-10-13T23:00:06+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -199,7 +355,7 @@
       "publishedAt": "2026-10-13T22:28:54+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -214,7 +370,7 @@
       "publishedAt": "2026-10-13T13:32:00+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -229,37 +385,37 @@
       "publishedAt": "2026-10-13T01:40:05+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
-      "title": "llm-meta-ai 0.2",
-      "content": "llm-meta-ai 0.2",
-      "author": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
+      "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
+      "content": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "Simon Willison",
-      "publishedAt": "2026-10-12T23:58:46+00:00",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-16T11:00:00-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "22h",
       "hot": false
     },
     {
-      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
-      "content": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
-      "author": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+      "title": "Meta’s new terms may allow it to train AI on news sites for free",
+      "content": "Meta’s new terms may allow it to train AI on news sites for free",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "Simon Willison",
-      "publishedAt": "2026-10-12T18:15:38+00:00",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-16T10:02:40-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "22h",
       "hot": false
     },
     {
@@ -274,7 +430,7 @@
       "publishedAt": "2026-10-15T18:43:23-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "14h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -289,7 +445,7 @@
       "publishedAt": "2026-10-15T18:35:55-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "14h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -304,7 +460,7 @@
       "publishedAt": "2026-10-15T17:39:52-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "15h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -319,7 +475,7 @@
       "publishedAt": "2026-10-15T17:09:33-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "15h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -334,7 +490,7 @@
       "publishedAt": "2026-10-15T15:57:16-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "17h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -349,7 +505,7 @@
       "publishedAt": "2026-10-15T14:15:36-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "18h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -364,7 +520,7 @@
       "publishedAt": "2026-10-15T12:21:45-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "20h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -379,37 +535,22 @@
       "publishedAt": "2026-10-15T10:30:00-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "22h",
+      "age": "1d",
       "hot": false
     },
     {
-      "title": "Nobody is safe from celebrity AI deepfakes",
-      "content": "Nobody is safe from celebrity AI deepfakes",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/report/1011927/instagram-celebrity-ai-slop-likeness-taylor-swift-mia-goth",
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "content": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-15T10:03:42-04:00",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Fri, 16 Oct 2026 18:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "22h",
-      "hot": false
-    },
-    {
-      "title": "Benn Jordan on Flock, privacy, and the new surveillance backlash",
-      "content": "Benn Jordan on Flock, privacy, and the new surveillance backlash",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/podcast/1011170/benn-jordan-flock-cameras-alpr-ai-surveillance-privacy",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-15T10:00:00-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "23h",
+      "age": "19h",
       "hot": false
     },
     {
@@ -424,12 +565,12 @@
       "publishedAt": "Fri, 16 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1h",
+      "age": "1d",
       "hot": false
     },
     {
       "title": "This implant can restore sight for patients with macular degeneration",
-      "content": "Age-related macular degeneration (AMD) affects more than 5 million people around the world. And until now, no treatment could restore their vision. The Prima system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-­equipped eyeglasses to improve sight in patients&#8230;",
+      "content": "More than 5 million people around the world with age-related macular degeneration (AMD) experience atrophy in their retinas. And until now, no treatment could restore their vision. The PRIMA system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-­equipped eyeglasses&#8230;",
       "author": "MIT Tech Review AI",
       "url": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
       "likes": 0,
@@ -439,7 +580,7 @@
       "publishedAt": "Fri, 16 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -454,7 +595,7 @@
       "publishedAt": "Fri, 16 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -469,7 +610,7 @@
       "publishedAt": "Fri, 16 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -484,7 +625,7 @@
       "publishedAt": "Fri, 16 Oct 2026 07:56:32 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -499,7 +640,7 @@
       "publishedAt": "Thu, 15 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -514,7 +655,7 @@
       "publishedAt": "Thu, 15 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -529,7 +670,7 @@
       "publishedAt": "Thu, 15 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -544,22 +685,52 @@
       "publishedAt": "Thu, 15 Oct 2026 08:43:24 +0000",
       "tier": "rss",
       "signalWeight": 1,
+      "age": "2d",
+      "hot": false
+    },
+    {
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "content": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "author": "OpenAI Blog",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "OpenAI Blog",
+      "publishedAt": "Fri, 16 Oct 2026 19:00:00 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "18h",
+      "hot": false
+    },
+    {
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "content": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "author": "OpenAI Blog",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "OpenAI Blog",
+      "publishedAt": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
       "age": "1d",
       "hot": false
     },
     {
-      "title": "The Download: faking blood and the future of batteries",
-      "content": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The US military’s race to make fake blood In February 2007, a US military helicopter carrying blood to a field hospital was shot down in Iraq, killing all seven crew members.&#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/10/14/1146452/the-download-military-fake-blood-future-batteries/",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "content": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "author": "OpenAI Blog",
+      "url": "https://openai.com/index/benefit-street-partners",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Wed, 14 Oct 2026 12:10:00 +0000",
+      "sourceName": "OpenAI Blog",
+      "publishedAt": "Fri, 16 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "1d",
       "hot": false
     },
     {
@@ -574,7 +745,7 @@
       "publishedAt": "Thu, 15 Oct 2026 19:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "18h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -589,7 +760,7 @@
       "publishedAt": "Thu, 15 Oct 2026 13:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -604,7 +775,7 @@
       "publishedAt": "Thu, 15 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -619,7 +790,7 @@
       "publishedAt": "Wed, 14 Oct 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -634,7 +805,7 @@
       "publishedAt": "Wed, 14 Oct 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -649,7 +820,7 @@
       "publishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -664,52 +835,7 @@
       "publishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
-      "hot": false
-    },
-    {
-      "title": "The EU’s next chapter in AI is agentic",
-      "content": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-      "author": "OpenAI Blog",
-      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "OpenAI Blog",
-      "publishedAt": "Wed, 14 Oct 2026 00:00:00 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "2d",
-      "hot": false
-    },
-    {
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "content": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-      "author": "OpenAI Blog",
-      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "OpenAI Blog",
-      "publishedAt": "Tue, 13 Oct 2026 12:00:00 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
       "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "content": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "author": "OpenAI Blog",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "OpenAI Blog",
-      "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "7d",
       "hot": false
     },
     {
@@ -724,7 +850,7 @@
       "publishedAt": "Wed, 14 Oct 2026 12:04:05 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -739,7 +865,7 @@
       "publishedAt": "Tue, 13 Oct 2026 12:45:41 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -754,7 +880,7 @@
       "publishedAt": "Mon, 12 Oct 2026 15:00:38 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -769,7 +895,7 @@
       "publishedAt": "Mon, 12 Oct 2026 12:03:55 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -784,7 +910,7 @@
       "publishedAt": "Sun, 11 Oct 2026 12:31:59 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -799,7 +925,22 @@
       "publishedAt": "Sat, 10 Oct 2026 13:01:38 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
+      "hot": false
+    },
+    {
+      "title": "2026.42: Home At Last",
+      "content": "The best Stratechery content from the week of October 12, 2026, including what Apple is doing, SpaceX's appetite, and the title, takes, and the Washington Wizards.",
+      "author": "Ben Thompson (Stratechery)",
+      "url": "https://stratechery.com/2026/home-at-last/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Ben Thompson (Stratechery)",
+      "publishedAt": "Fri, 16 Oct 2026 17:42:42 +0000",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "19h",
       "hot": false
     },
     {
@@ -814,7 +955,7 @@
       "publishedAt": "Thu, 15 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -829,7 +970,7 @@
       "publishedAt": "Wed, 14 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -844,7 +985,7 @@
       "publishedAt": "Tue, 13 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -859,7 +1000,7 @@
       "publishedAt": "Fri, 09 Oct 2026 17:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -872,21 +1013,6 @@
       "source": "rss",
       "sourceName": "Ben Thompson (Stratechery)",
       "publishedAt": "Thu, 08 Oct 2026 10:00:00 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "8d",
-      "hot": false
-    },
-    {
-      "title": "Apple and LG, The House For Everyone Else, Agent Standards and Amazon",
-      "content": "Apple is taking a smarter approach to the home than I expected, leaning into integration (with partners); then, what Amazon should do about agents.",
-      "author": "Ben Thompson (Stratechery)",
-      "url": "https://stratechery.com/2026/apple-and-lg-the-house-for-everyone-else-agent-standards-and-amazon/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Ben Thompson (Stratechery)",
-      "publishedAt": "Wed, 07 Oct 2026 10:01:39 +0000",
       "tier": "rss",
       "signalWeight": 1,
       "age": "9d",
@@ -904,7 +1030,7 @@
       "publishedAt": "Thu, 15 Oct 2026 01:32:36 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -919,7 +1045,7 @@
       "publishedAt": "Wed, 14 Oct 2026 01:29:11 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -934,7 +1060,7 @@
       "publishedAt": "Tue, 13 Oct 2026 00:28:16 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -949,7 +1075,7 @@
       "publishedAt": "Sat, 10 Oct 2026 03:40:18 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -964,7 +1090,7 @@
       "publishedAt": "Wed, 07 Oct 2026 17:16:44 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "8d",
+      "age": "9d",
       "hot": false
     }
   ]
