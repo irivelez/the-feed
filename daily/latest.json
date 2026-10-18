@@ -1,43 +1,43 @@
 {
-  "date": "2026-10-17",
-  "fetchedAt": "2026-10-17T13:00:52.273Z",
+  "date": "2026-10-18",
+  "fetchedAt": "2026-10-18T13:00:54.327Z",
   "stats": {
-    "rawFetched": 73,
-    "afterDedup": 73,
+    "rawFetched": 69,
+    "afterDedup": 69,
     "byTier": {
-      "hackernews": 16,
+      "hackernews": 12,
       "rss": 57
     },
     "bySource": {
-      "hackernews": 16,
+      "hackernews": 12,
       "rss": 57
     }
   },
   "items": [
     {
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "content": "DeepSeek-v4.1-Flash-1017\n<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017\" rel=\"nofollow\">https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017</a>",
+      "author": "theykk",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "likes": 893,
+      "comments": 671,
+      "engagementScore": 2235,
+      "source": "hackernews",
+      "publishedAt": "2026-10-17T08:21:25.000Z",
+      "tier": "hackernews",
+      "age": "1d",
+      "hot": false
+    },
+    {
       "title": "Claude reveals ECDSA curve origins",
       "content": "Claude reveals ECDSA curve origins\n<a href=\"https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;</a>",
       "author": "ahlCVA",
       "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "likes": 913,
-      "comments": 338,
-      "engagementScore": 1589,
+      "likes": 1041,
+      "comments": 383,
+      "engagementScore": 1807,
       "source": "hackernews",
       "publishedAt": "2026-10-16T18:55:59.000Z",
-      "tier": "hackernews",
-      "age": "18h",
-      "hot": false
-    },
-    {
-      "title": "Neural networks are clean",
-      "content": "Neural networks are clean\n<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;nickcammarata&#x2F;status&#x2F;2110757819427574056</a>",
-      "author": "themgt",
-      "url": "https://already-clean.goodfire.com/",
-      "likes": 805,
-      "comments": 329,
-      "engagementScore": 1463,
-      "source": "hackernews",
-      "publishedAt": "2026-10-15T16:04:01.000Z",
       "tier": "hackernews",
       "age": "1d",
       "hot": false
@@ -47,13 +47,13 @@
       "content": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
       "author": "speckx",
       "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
-      "likes": 536,
-      "comments": 453,
-      "engagementScore": 1442,
+      "likes": 611,
+      "comments": 554,
+      "engagementScore": 1719,
       "source": "hackernews",
       "publishedAt": "2026-10-16T17:08:38.000Z",
       "tier": "hackernews",
-      "age": "19h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -61,111 +61,55 @@
       "content": "How the Claude Code team does code review",
       "author": "pretext",
       "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-      "likes": 385,
-      "comments": 354,
-      "engagementScore": 1093,
+      "likes": 462,
+      "comments": 465,
+      "engagementScore": 1392,
       "source": "hackernews",
       "publishedAt": "2026-10-16T19:04:47.000Z",
       "tier": "hackernews",
-      "age": "17h",
-      "hot": false
-    },
-    {
-      "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
-      "content": "DeepSeek: DeepSeek v4.1 Flash 1017",
-      "author": "theanonymousone",
-      "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
-      "likes": 294,
-      "comments": 111,
-      "engagementScore": 516,
-      "source": "hackernews",
-      "publishedAt": "2026-10-17T08:37:46.000Z",
-      "tier": "hackernews",
-      "age": "4h",
+      "age": "1d",
       "hot": false
     },
     {
       "title": "You could have invented transformers from memory",
-      "content": "You could have invented transformers from memory",
+      "content": "You could have invented transformers from memory\n<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;heyyalexwang&#x2F;status&#x2F;2111158818730397932\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;heyyalexwang&#x2F;status&#x2F;2111158818730397932</a>",
       "author": "speckx",
       "url": "https://alexwang.ai/posts/associative-memory/",
-      "likes": 337,
-      "comments": 78,
-      "engagementScore": 493,
+      "likes": 580,
+      "comments": 130,
+      "engagementScore": 840,
       "source": "hackernews",
       "publishedAt": "2026-10-16T19:01:17.000Z",
       "tier": "hackernews",
-      "age": "17h",
+      "age": "1d",
       "hot": false
     },
     {
-      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-      "content": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-      "author": "Anon84",
-      "url": "https://github.com/cobanov/PS5LM",
-      "likes": 307,
-      "comments": 75,
-      "engagementScore": 457,
+      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "content": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "author": "fagnerbrack",
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "likes": 295,
+      "comments": 134,
+      "engagementScore": 563,
       "source": "hackernews",
-      "publishedAt": "2026-10-16T18:32:35.000Z",
+      "publishedAt": "2026-10-18T06:50:36.000Z",
       "tier": "hackernews",
-      "age": "18h",
+      "age": "6h",
       "hot": false
     },
     {
-      "title": "DeepSeek-v4.1-Flash-1017",
-      "content": "DeepSeek-v4.1-Flash-1017",
-      "author": "theykk",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "likes": 248,
-      "comments": 97,
-      "engagementScore": 442,
+      "title": "Pele – Mermaid diagrams as themeable SVG",
+      "content": "Pele – Mermaid diagrams as themeable SVG",
+      "author": "dchest",
+      "url": "https://pele.run/",
+      "likes": 479,
+      "comments": 41,
+      "engagementScore": 561,
       "source": "hackernews",
-      "publishedAt": "2026-10-17T08:21:25.000Z",
+      "publishedAt": "2026-10-17T15:55:09.000Z",
       "tier": "hackernews",
-      "age": "4h",
-      "hot": false
-    },
-    {
-      "title": "Show HN: Gemini 4 Argon plays StarCraft",
-      "content": "Show HN: Gemini 4 Argon plays StarCraft\nI&#x27;ve refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse",
-      "author": "__cayenne__",
-      "url": "https://starskirmish.com/bench/v0-2/",
-      "likes": 228,
-      "comments": 103,
-      "engagementScore": 434,
-      "source": "hackernews",
-      "publishedAt": "2026-10-16T14:18:44.000Z",
-      "tier": "hackernews",
-      "age": "22h",
-      "hot": false
-    },
-    {
-      "title": "Anthropic assigned highest junk credit rating in June",
-      "content": "Anthropic assigned highest junk credit rating in June\n<a href=\"https:&#x2F;&#x2F;finance.yahoo.com&#x2F;technology&#x2F;ai&#x2F;articles&#x2F;anthropic-secured-highest-junk-credit-040018773.html\" rel=\"nofollow\">https:&#x2F;&#x2F;finance.yahoo.com&#x2F;technology&#x2F;ai&#x2F;articles&#x2F;anthropic-s...</a>",
-      "author": "JumpCrisscross",
-      "url": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
-      "likes": 263,
-      "comments": 82,
-      "engagementScore": 427,
-      "source": "hackernews",
-      "publishedAt": "2026-10-16T18:11:42.000Z",
-      "tier": "hackernews",
-      "age": "18h",
-      "hot": false
-    },
-    {
-      "title": "Designing more efficient quantum circuits with Claude",
-      "content": "Designing more efficient quantum circuits with Claude",
-      "author": "pretext",
-      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
-      "likes": 153,
-      "comments": 32,
-      "engagementScore": 217,
-      "source": "hackernews",
-      "publishedAt": "2026-10-16T18:00:18.000Z",
-      "tier": "hackernews",
-      "age": "19h",
+      "age": "21h",
       "hot": false
     },
     {
@@ -173,69 +117,99 @@
       "content": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
       "author": "albinstman",
       "url": "https://llmspeed.dev/",
-      "likes": 122,
-      "comments": 44,
-      "engagementScore": 210,
+      "likes": 308,
+      "comments": 85,
+      "engagementScore": 478,
       "source": "hackernews",
       "publishedAt": "2026-10-17T04:36:53.000Z",
+      "tier": "hackernews",
+      "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "How employment is changing at Anthropic",
+      "content": "How employment is changing at Anthropic",
+      "author": "theanonymousone",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "likes": 74,
+      "comments": 129,
+      "engagementScore": 332,
+      "source": "hackernews",
+      "publishedAt": "2026-10-18T10:49:26.000Z",
+      "tier": "hackernews",
+      "age": "2h",
+      "hot": false
+    },
+    {
+      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "content": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping\nFOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it&#x27;ll throw up a questionnaire that checks if you understand how the code you&#x27;re pushing works.",
+      "author": "critiquebrowser",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "likes": 168,
+      "comments": 50,
+      "engagementScore": 268,
+      "source": "hackernews",
+      "publishedAt": "2026-10-18T04:33:49.000Z",
       "tier": "hackernews",
       "age": "8h",
       "hot": false
     },
     {
-      "title": "Tell HN: Remember to migrate away from .name domain",
-      "content": "Tell HN: Remember to migrate away from .name domain\nIf you have a third.level.name domain, it&#x27;ll get permanently expunged next year. Have you successfully taken steps to migrate away? Did you move to a standard .com domain, or are you taking your chances with another .tld?<p>Personally, I&#x27;m stuck in Microsoft hell because Azure admin emails cannot be changed and support is both uncaring and powerless.",
-      "author": "nikanj",
-      "url": "https://news.ycombinator.com/item?id=50089577",
-      "likes": 71,
-      "comments": 45,
-      "engagementScore": 161,
+      "title": "Designing more efficient quantum circuits with Claude",
+      "content": "Designing more efficient quantum circuits with Claude",
+      "author": "pretext",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "likes": 172,
+      "comments": 36,
+      "engagementScore": 244,
       "source": "hackernews",
-      "publishedAt": "2026-10-14T15:49:31.000Z",
+      "publishedAt": "2026-10-16T18:00:18.000Z",
       "tier": "hackernews",
-      "age": "2d",
+      "age": "1d",
       "hot": false
     },
     {
-      "title": "Nine-Inch Snails",
-      "content": "Nine-Inch Snails",
-      "author": "zdw",
-      "url": "https://www.theatlantic.com/science/2026/10/giant-african-snails-florida-invasion/688850/",
-      "likes": 81,
-      "comments": 38,
-      "engagementScore": 157,
+      "title": "The math that OpenAI keeps for itself",
+      "content": "The math that OpenAI keeps for itself",
+      "author": "dpaleka",
+      "url": "https://newsletter.danielpaleka.com/p/the-math-that-openai-keeps-for-itself",
+      "likes": 40,
+      "comments": 15,
+      "engagementScore": 70,
       "source": "hackernews",
-      "publishedAt": "2026-10-16T22:21:05.000Z",
+      "publishedAt": "2026-10-17T19:22:52.000Z",
       "tier": "hackernews",
-      "age": "14h",
+      "age": "17h",
       "hot": false
     },
     {
-      "title": "How to make System 1 LLMs show System 2 competencies?",
-      "content": "How to make System 1 LLMs show System 2 competencies?",
-      "author": "porridgeraisin",
-      "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
-      "likes": 51,
-      "comments": 26,
-      "engagementScore": 103,
-      "source": "hackernews",
-      "publishedAt": "2026-10-16T14:16:34.000Z",
-      "tier": "hackernews",
-      "age": "22h",
+      "title": "Inline rendering with document​.currentScript",
+      "content": "Inline rendering with document​.currentScript",
+      "author": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "publishedAt": "2026-10-17T21:11:12+00:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "15h",
       "hot": false
     },
     {
-      "title": "Show HN: rStation – A shared research lab for your AI agents",
-      "content": "Show HN: rStation – A shared research lab for your AI agents",
-      "author": "stephenchung",
-      "url": "https://rstation.ai/",
-      "likes": 53,
-      "comments": 19,
-      "engagementScore": 91,
-      "source": "hackernews",
-      "publishedAt": "2026-10-16T14:35:43.000Z",
-      "tier": "hackernews",
-      "age": "22h",
+      "title": "web-edit 0.1a2",
+      "content": "web-edit 0.1a2",
+      "author": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/17/web-edit/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "publishedAt": "2026-10-17T13:16:49+00:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "23h",
       "hot": false
     },
     {
@@ -250,7 +224,7 @@
       "publishedAt": "2026-10-16T22:06:37+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "14h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -265,7 +239,7 @@
       "publishedAt": "2026-10-15T19:47:52+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -280,7 +254,7 @@
       "publishedAt": "2026-10-15T13:04:03+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -295,7 +269,7 @@
       "publishedAt": "2026-10-15T02:07:28+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -310,7 +284,7 @@
       "publishedAt": "2026-10-14T21:23:01+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -325,7 +299,7 @@
       "publishedAt": "2026-10-14T16:26:53+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -340,7 +314,7 @@
       "publishedAt": "2026-10-13T23:00:06+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -355,37 +329,37 @@
       "publishedAt": "2026-10-13T22:28:54+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "Quoting Geoffrey Huntley",
-      "content": "Quoting Geoffrey Huntley",
-      "author": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Simon Willison",
-      "publishedAt": "2026-10-13T13:32:00+00:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "web-edit 0.1a1",
-      "content": "web-edit 0.1a1",
-      "author": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Oct/13/web-edit/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Simon Willison",
-      "publishedAt": "2026-10-13T01:40:05+00:00",
-      "tier": "rss",
-      "signalWeight": 1,
       "age": "4d",
+      "hot": false
+    },
+    {
+      "title": "Meta removes language that may have allowed it to scrape news sites",
+      "content": "Meta removes language that may have allowed it to scrape news sites",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-17T11:04:36-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "21h",
+      "hot": false
+    },
+    {
+      "title": "Websites are closing their doors to AI agents",
+      "content": "Websites are closing their doors to AI agents",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-17T09:00:00-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "1d",
       "hot": false
     },
     {
@@ -400,7 +374,7 @@
       "publishedAt": "2026-10-16T11:00:00-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "22h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -415,7 +389,7 @@
       "publishedAt": "2026-10-16T10:02:40-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "22h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -430,7 +404,7 @@
       "publishedAt": "2026-10-15T18:43:23-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -445,7 +419,7 @@
       "publishedAt": "2026-10-15T18:35:55-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -460,7 +434,7 @@
       "publishedAt": "2026-10-15T17:39:52-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -475,7 +449,7 @@
       "publishedAt": "2026-10-15T17:09:33-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -490,7 +464,7 @@
       "publishedAt": "2026-10-15T15:57:16-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -505,37 +479,7 @@
       "publishedAt": "2026-10-15T14:15:36-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "Friends don&#8217;t let friends feed their data to AI agents",
-      "content": "Friends don&#8217;t let friends feed their data to AI agents",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-15T12:21:45-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "How Windows is being optimized for Nvidia’s RTX Spark laptops",
-      "content": "How Windows is being optimized for Nvidia’s RTX Spark laptops",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-15T10:30:00-04:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -550,7 +494,7 @@
       "publishedAt": "Fri, 16 Oct 2026 18:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "19h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -565,12 +509,12 @@
       "publishedAt": "Fri, 16 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
       "title": "This implant can restore sight for patients with macular degeneration",
-      "content": "More than 5 million people around the world with age-related macular degeneration (AMD) experience atrophy in their retinas. And until now, no treatment could restore their vision. The PRIMA system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-­equipped eyeglasses&#8230;",
+      "content": "More than 5 million people around the world have an advanced form of age-related macular degeneration (AMD) called geographic atrophy, in which cells in the retinas die off. And until now, no treatment could restore their vision. The PRIMA system, which was approved in Europe in July and is awaiting FDA clearance in the US,&#8230;",
       "author": "MIT Tech Review AI",
       "url": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
       "likes": 0,
@@ -580,7 +524,7 @@
       "publishedAt": "Fri, 16 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -595,7 +539,7 @@
       "publishedAt": "Fri, 16 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -610,7 +554,7 @@
       "publishedAt": "Fri, 16 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -625,7 +569,7 @@
       "publishedAt": "Fri, 16 Oct 2026 07:56:32 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -640,7 +584,7 @@
       "publishedAt": "Thu, 15 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -655,7 +599,7 @@
       "publishedAt": "Thu, 15 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -670,7 +614,7 @@
       "publishedAt": "Thu, 15 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -685,7 +629,7 @@
       "publishedAt": "Thu, 15 Oct 2026 08:43:24 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -698,21 +642,6 @@
       "source": "rss",
       "sourceName": "OpenAI Blog",
       "publishedAt": "Fri, 16 Oct 2026 19:00:00 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "18h",
-      "hot": false
-    },
-    {
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "content": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "author": "OpenAI Blog",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "OpenAI Blog",
-      "publishedAt": "Fri, 16 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
       "age": "1d",
@@ -730,7 +659,22 @@
       "publishedAt": "Fri, 16 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
+      "hot": false
+    },
+    {
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "content": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "author": "OpenAI Blog",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "OpenAI Blog",
+      "publishedAt": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "2d",
       "hot": false
     },
     {
@@ -745,7 +689,7 @@
       "publishedAt": "Thu, 15 Oct 2026 19:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -760,7 +704,7 @@
       "publishedAt": "Thu, 15 Oct 2026 13:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -775,7 +719,7 @@
       "publishedAt": "Thu, 15 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -790,7 +734,7 @@
       "publishedAt": "Wed, 14 Oct 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -805,7 +749,7 @@
       "publishedAt": "Wed, 14 Oct 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -820,7 +764,7 @@
       "publishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -835,7 +779,37 @@
       "publishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
+      "hot": false
+    },
+    {
+      "title": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
+      "content": "Listen now (72 mins) | Emmanuel Ameisen of Anthropic explains what looking inside language models reveals about planning, consciousness, and AI safety",
+      "author": "Lenny Rachitsky",
+      "url": "https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Lenny Rachitsky",
+      "publishedAt": "Sun, 18 Oct 2026 12:31:36 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "1h",
+      "hot": false
+    },
+    {
+      "title": "🧠 Community Wisdom: PRDs for agents, tracking competitor messaging, whether software moats still exist, exercising startup options when you leave, and more",
+      "content": "Community Wisdom 302",
+      "author": "Lenny Rachitsky",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-prds-for-agents",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Lenny Rachitsky",
+      "publishedAt": "Sat, 17 Oct 2026 13:53:57 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "23h",
       "hot": false
     },
     {
@@ -850,7 +824,7 @@
       "publishedAt": "Wed, 14 Oct 2026 12:04:05 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -865,7 +839,7 @@
       "publishedAt": "Tue, 13 Oct 2026 12:45:41 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -880,7 +854,7 @@
       "publishedAt": "Mon, 12 Oct 2026 15:00:38 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -895,7 +869,7 @@
       "publishedAt": "Mon, 12 Oct 2026 12:03:55 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -910,7 +884,7 @@
       "publishedAt": "Sun, 11 Oct 2026 12:31:59 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -925,7 +899,7 @@
       "publishedAt": "Sat, 10 Oct 2026 13:01:38 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -940,7 +914,7 @@
       "publishedAt": "Fri, 16 Oct 2026 17:42:42 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "19h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -955,7 +929,7 @@
       "publishedAt": "Thu, 15 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -970,7 +944,7 @@
       "publishedAt": "Wed, 14 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -985,7 +959,7 @@
       "publishedAt": "Tue, 13 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -1000,22 +974,7 @@
       "publishedAt": "Fri, 09 Oct 2026 17:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
-      "hot": false
-    },
-    {
-      "title": "An Interview with Katie Harbath About Disrupting Politics at Facebook",
-      "content": "An interview with former Facebook Head of Global Elections Katie Harbath about her new book Disrupting Politics, and how things change for the company in the 2010s.",
-      "author": "Ben Thompson (Stratechery)",
-      "url": "https://stratechery.com/2026/an-interview-with-katie-harbath-about-disrupting-politics-at-facebook/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Ben Thompson (Stratechery)",
-      "publishedAt": "Thu, 08 Oct 2026 10:00:00 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "9d",
+      "age": "8d",
       "hot": false
     },
     {
@@ -1030,7 +989,7 @@
       "publishedAt": "Thu, 15 Oct 2026 01:32:36 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -1045,7 +1004,7 @@
       "publishedAt": "Wed, 14 Oct 2026 01:29:11 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -1060,7 +1019,7 @@
       "publishedAt": "Tue, 13 Oct 2026 00:28:16 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -1075,22 +1034,7 @@
       "publishedAt": "Sat, 10 Oct 2026 03:40:18 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
-      "hot": false
-    },
-    {
-      "title": "Complementary remarks from Gary Marcus and Terence Tao on OpenAI’s giant math drop",
-      "content": "The real news here isn&#8217;t the result; it&#8217;s what we were not told.",
-      "author": "Gary Marcus",
-      "url": "https://garymarcus.substack.com/p/complementary-remarks-from-gary-marcus",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Gary Marcus",
-      "publishedAt": "Wed, 07 Oct 2026 17:16:44 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "9d",
+      "age": "8d",
       "hot": false
     }
   ]
