@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-18",
-  "fetchedAt": "2026-10-18T13:00:54.327Z",
+  "date": "2026-10-19",
+  "fetchedAt": "2026-10-19T13:00:56.093Z",
   "stats": {
-    "rawFetched": 69,
-    "afterDedup": 69,
+    "rawFetched": 75,
+    "afterDedup": 75,
     "byTier": {
-      "hackernews": 12,
-      "rss": 57
+      "hackernews": 16,
+      "rss": 59
     },
     "bySource": {
-      "hackernews": 12,
-      "rss": 57
+      "hackernews": 16,
+      "rss": 59
     }
   },
   "items": [
@@ -19,53 +19,39 @@
       "content": "DeepSeek-v4.1-Flash-1017\n<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;news&#x2F;news261017&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017\" rel=\"nofollow\">https:&#x2F;&#x2F;openrouter.ai&#x2F;deepseek&#x2F;deepseek-v4.1-flash-1017</a>",
       "author": "theykk",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "likes": 893,
-      "comments": 671,
-      "engagementScore": 2235,
+      "likes": 947,
+      "comments": 708,
+      "engagementScore": 2363,
       "source": "hackernews",
       "publishedAt": "2026-10-17T08:21:25.000Z",
       "tier": "hackernews",
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
-      "title": "Claude reveals ECDSA curve origins",
-      "content": "Claude reveals ECDSA curve origins\n<a href=\"https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;words.filippo.io&#x2F;seeds-solved&#x2F;</a>",
-      "author": "ahlCVA",
-      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-      "likes": 1041,
-      "comments": 383,
-      "engagementScore": 1807,
+      "title": "Namecheap just seized and disabled all my domains",
+      "content": "Namecheap just seized and disabled all my domains",
+      "author": "sashk",
+      "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
+      "likes": 603,
+      "comments": 311,
+      "engagementScore": 1225,
       "source": "hackernews",
-      "publishedAt": "2026-10-16T18:55:59.000Z",
+      "publishedAt": "2026-10-18T16:56:56.000Z",
       "tier": "hackernews",
-      "age": "1d",
+      "age": "20h",
       "hot": false
     },
     {
-      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-      "content": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-      "author": "speckx",
-      "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
-      "likes": 611,
-      "comments": 554,
-      "engagementScore": 1719,
+      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "content": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "author": "fagnerbrack",
+      "url": "https://api-docs.deepseek.com/guides/search/",
+      "likes": 580,
+      "comments": 272,
+      "engagementScore": 1124,
       "source": "hackernews",
-      "publishedAt": "2026-10-16T17:08:38.000Z",
-      "tier": "hackernews",
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "How the Claude Code team does code review",
-      "content": "How the Claude Code team does code review",
-      "author": "pretext",
-      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-      "likes": 462,
-      "comments": 465,
-      "engagementScore": 1392,
-      "source": "hackernews",
-      "publishedAt": "2026-10-16T19:04:47.000Z",
+      "publishedAt": "2026-10-18T06:50:36.000Z",
       "tier": "hackernews",
       "age": "1d",
       "hot": false
@@ -75,55 +61,27 @@
       "content": "You could have invented transformers from memory\n<a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;heyyalexwang&#x2F;status&#x2F;2111158818730397932\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;heyyalexwang&#x2F;status&#x2F;2111158818730397932</a>",
       "author": "speckx",
       "url": "https://alexwang.ai/posts/associative-memory/",
-      "likes": 580,
-      "comments": 130,
-      "engagementScore": 840,
+      "likes": 638,
+      "comments": 142,
+      "engagementScore": 922,
       "source": "hackernews",
       "publishedAt": "2026-10-16T19:01:17.000Z",
       "tier": "hackernews",
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
-      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
-      "content": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
-      "author": "fagnerbrack",
-      "url": "https://api-docs.deepseek.com/guides/search/",
-      "likes": 295,
-      "comments": 134,
-      "engagementScore": 563,
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "content": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text\n<a href=\"https:&#x2F;&#x2F;x.com&#x2F;Jiaru_Zou&#x2F;status&#x2F;2110400256647340476\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;Jiaru_Zou&#x2F;status&#x2F;2110400256647340476</a><p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;togethercomputer&#x2F;HybridAgent\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;togethercomputer&#x2F;HybridAgent</a><p><a href=\"https:&#x2F;&#x2F;huggingface.co&#x2F;collections&#x2F;togethercomputer&#x2F;hybridagent\" rel=\"nofollow\">https:&#x2F;&#x2F;huggingface.co&#x2F;collections&#x2F;togethercomputer&#x2F;hybridag...</a><p>Evaluations: <a href=\"https:&#x2F;&#x2F;arxiv.org&#x2F;html&#x2F;2610.18861v1#S5\" rel=\"nofollow\">https:&#x2F;&#x2F;arxiv.org&#x2F;html&#x2F;2610.18861v1#S5</a>",
+      "author": "allinonai",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "likes": 442,
+      "comments": 216,
+      "engagementScore": 874,
       "source": "hackernews",
-      "publishedAt": "2026-10-18T06:50:36.000Z",
+      "publishedAt": "2026-10-18T20:48:14.000Z",
       "tier": "hackernews",
-      "age": "6h",
-      "hot": false
-    },
-    {
-      "title": "Pele – Mermaid diagrams as themeable SVG",
-      "content": "Pele – Mermaid diagrams as themeable SVG",
-      "author": "dchest",
-      "url": "https://pele.run/",
-      "likes": 479,
-      "comments": 41,
-      "engagementScore": 561,
-      "source": "hackernews",
-      "publishedAt": "2026-10-17T15:55:09.000Z",
-      "tier": "hackernews",
-      "age": "21h",
-      "hot": false
-    },
-    {
-      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
-      "content": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
-      "author": "albinstman",
-      "url": "https://llmspeed.dev/",
-      "likes": 308,
-      "comments": 85,
-      "engagementScore": 478,
-      "source": "hackernews",
-      "publishedAt": "2026-10-17T04:36:53.000Z",
-      "tier": "hackernews",
-      "age": "1d",
+      "age": "16h",
       "hot": false
     },
     {
@@ -131,55 +89,183 @@
       "content": "How employment is changing at Anthropic",
       "author": "theanonymousone",
       "url": "https://www.anthropic.com/research/employment-at-anthropic",
-      "likes": 74,
-      "comments": 129,
-      "engagementScore": 332,
+      "likes": 132,
+      "comments": 224,
+      "engagementScore": 580,
       "source": "hackernews",
       "publishedAt": "2026-10-18T10:49:26.000Z",
-      "tier": "hackernews",
-      "age": "2h",
-      "hot": false
-    },
-    {
-      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
-      "content": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping\nFOSS, Basically it plugs into your existing coding agent workflow and every time you push to prod it&#x27;ll throw up a questionnaire that checks if you understand how the code you&#x27;re pushing works.",
-      "author": "critiquebrowser",
-      "url": "https://sphinx-six-theta.vercel.app/",
-      "likes": 168,
-      "comments": 50,
-      "engagementScore": 268,
-      "source": "hackernews",
-      "publishedAt": "2026-10-18T04:33:49.000Z",
-      "tier": "hackernews",
-      "age": "8h",
-      "hot": false
-    },
-    {
-      "title": "Designing more efficient quantum circuits with Claude",
-      "content": "Designing more efficient quantum circuits with Claude",
-      "author": "pretext",
-      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
-      "likes": 172,
-      "comments": 36,
-      "engagementScore": 244,
-      "source": "hackernews",
-      "publishedAt": "2026-10-16T18:00:18.000Z",
       "tier": "hackernews",
       "age": "1d",
       "hot": false
     },
     {
-      "title": "The math that OpenAI keeps for itself",
-      "content": "The math that OpenAI keeps for itself",
-      "author": "dpaleka",
-      "url": "https://newsletter.danielpaleka.com/p/the-math-that-openai-keeps-for-itself",
-      "likes": 40,
-      "comments": 15,
-      "engagementScore": 70,
+      "title": "I built a programming language that LLMs can't use",
+      "content": "I built a programming language that LLMs can't use",
+      "author": "dom96",
+      "url": "https://blog.picheta.me/post/killswitch-lang/",
+      "likes": 221,
+      "comments": 171,
+      "engagementScore": 563,
       "source": "hackernews",
-      "publishedAt": "2026-10-17T19:22:52.000Z",
+      "publishedAt": "2026-10-17T22:26:47.000Z",
       "tier": "hackernews",
-      "age": "17h",
+      "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "content": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "author": "amrrs",
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+      "likes": 211,
+      "comments": 152,
+      "engagementScore": 515,
+      "source": "hackernews",
+      "publishedAt": "2026-10-18T21:09:12.000Z",
+      "tier": "hackernews",
+      "age": "15h",
+      "hot": false
+    },
+    {
+      "title": "Documents: Police officer gave her Flock login to her ICE agent husband",
+      "content": "Documents: Police officer gave her Flock login to her ICE agent husband",
+      "author": "DeepLogin",
+      "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+      "likes": 216,
+      "comments": 108,
+      "engagementScore": 432,
+      "source": "hackernews",
+      "publishedAt": "2026-10-19T10:45:14.000Z",
+      "tier": "hackernews",
+      "age": "2h",
+      "hot": false
+    },
+    {
+      "title": "How Far Will AI Assistants Go for a Refund They Can't Get?",
+      "content": "How Far Will AI Assistants Go for a Refund They Can't Get?",
+      "author": "DeepLogin",
+      "url": "https://www.vals.ai/blogs/impossible-refund",
+      "likes": 89,
+      "comments": 111,
+      "engagementScore": 311,
+      "source": "hackernews",
+      "publishedAt": "2026-10-18T12:22:58.000Z",
+      "tier": "hackernews",
+      "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "DeepSeek V4.1 Flash 1017 (Max)",
+      "content": "DeepSeek V4.1 Flash 1017 (Max)",
+      "author": "theanonymousone",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+      "likes": 165,
+      "comments": 62,
+      "engagementScore": 289,
+      "source": "hackernews",
+      "publishedAt": "2026-10-19T04:41:46.000Z",
+      "tier": "hackernews",
+      "age": "8h",
+      "hot": false
+    },
+    {
+      "title": "The Brain Sandwich",
+      "content": "The Brain Sandwich",
+      "author": "keyle",
+      "url": "https://terriblesoftware.org/2026/10/02/the-brain-sandwich/",
+      "likes": 92,
+      "comments": 60,
+      "engagementScore": 212,
+      "source": "hackernews",
+      "publishedAt": "2026-10-18T11:15:37.000Z",
+      "tier": "hackernews",
+      "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "Verisign .com Domain Name Registry Consumer Class Action",
+      "content": "Verisign .com Domain Name Registry Consumer Class Action",
+      "author": "greyface-",
+      "url": "https://www.hbsslaw.com/cases/verisign-com-domain-name-registry-consumer-class-action",
+      "likes": 103,
+      "comments": 54,
+      "engagementScore": 211,
+      "source": "hackernews",
+      "publishedAt": "2026-10-19T04:40:18.000Z",
+      "tier": "hackernews",
+      "age": "8h",
+      "hot": false
+    },
+    {
+      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "content": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "author": "ankitg12",
+      "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+      "likes": 74,
+      "comments": 49,
+      "engagementScore": 172,
+      "source": "hackernews",
+      "publishedAt": "2026-10-19T05:55:31.000Z",
+      "tier": "hackernews",
+      "age": "7h",
+      "hot": false
+    },
+    {
+      "title": "Let's Encrypt is adding two additional remote perspectives for domain validation",
+      "content": "Let's Encrypt is adding two additional remote perspectives for domain validation",
+      "author": "gslin",
+      "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
+      "likes": 54,
+      "comments": 13,
+      "engagementScore": 80,
+      "source": "hackernews",
+      "publishedAt": "2026-10-19T10:53:39.000Z",
+      "tier": "hackernews",
+      "age": "2h",
+      "hot": false
+    },
+    {
+      "title": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+      "content": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+      "author": "isuruwijesiri",
+      "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+      "likes": 35,
+      "comments": 15,
+      "engagementScore": 65,
+      "source": "hackernews",
+      "publishedAt": "2026-10-19T12:07:41.000Z",
+      "tier": "hackernews",
+      "age": "1h",
+      "hot": false
+    },
+    {
+      "title": "llm-tools-datasette 0.1.1",
+      "content": "llm-tools-datasette 0.1.1",
+      "author": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "publishedAt": "2026-10-18T23:43:09+00:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "13h",
+      "hot": false
+    },
+    {
+      "title": "llm-echo 0.5",
+      "content": "llm-echo 0.5",
+      "author": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "publishedAt": "2026-10-18T23:16:16+00:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "13h",
       "hot": false
     },
     {
@@ -194,7 +280,7 @@
       "publishedAt": "2026-10-17T21:11:12+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "15h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -209,7 +295,7 @@
       "publishedAt": "2026-10-17T13:16:49+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "23h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -224,7 +310,7 @@
       "publishedAt": "2026-10-16T22:06:37+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -239,7 +325,7 @@
       "publishedAt": "2026-10-15T19:47:52+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -254,7 +340,7 @@
       "publishedAt": "2026-10-15T13:04:03+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -269,7 +355,7 @@
       "publishedAt": "2026-10-15T02:07:28+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -284,7 +370,7 @@
       "publishedAt": "2026-10-14T21:23:01+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -299,37 +385,37 @@
       "publishedAt": "2026-10-14T16:26:53+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "Redesigning source control at Anthropic",
-      "content": "Redesigning source control at Anthropic",
-      "author": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Simon Willison",
-      "publishedAt": "2026-10-13T23:00:06+00:00",
-      "tier": "rss",
-      "signalWeight": 1,
       "age": "4d",
       "hot": false
     },
     {
-      "title": "llm-gemini 0.35",
-      "content": "llm-gemini 0.35",
-      "author": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+      "title": "Democrats think cracking down on AI could give them an edge",
+      "content": "Democrats think cracking down on AI could give them an edge",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/policy/1013113/democrats-ai-midterms",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "Simon Willison",
-      "publishedAt": "2026-10-13T22:28:54+00:00",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-19T08:00:00-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "1h",
+      "hot": false
+    },
+    {
+      "title": "A woman was arrested in Philly for blocking a delivery robot",
+      "content": "A woman was arrested in Philly for blocking a delivery robot",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-10-18T14:28:10-04:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "18h",
       "hot": false
     },
     {
@@ -344,7 +430,7 @@
       "publishedAt": "2026-10-17T11:04:36-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "21h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -359,7 +445,7 @@
       "publishedAt": "2026-10-17T09:00:00-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -374,7 +460,7 @@
       "publishedAt": "2026-10-16T11:00:00-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -389,7 +475,7 @@
       "publishedAt": "2026-10-16T10:02:40-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -404,7 +490,7 @@
       "publishedAt": "2026-10-15T18:43:23-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -419,7 +505,7 @@
       "publishedAt": "2026-10-15T18:35:55-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -434,7 +520,7 @@
       "publishedAt": "2026-10-15T17:39:52-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -449,37 +535,67 @@
       "publishedAt": "2026-10-15T17:09:33-04:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
-      "title": "Bluesky&#8217;s AI tool now lets you make games and apps to share on social",
-      "content": "Bluesky&#8217;s AI tool now lets you make games and apps to share on social",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
+      "title": "The Download: preserving the Arctic permafrost, and playful AI agents",
+      "content": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inside the quest to combat Arctic fires and save the planet’s frozen carbon —James Temple In July 2021, a wildfire burned through a forest on the University of Alaska, Fairbanks campus,&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-15T15:57:16-04:00",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Mon, 19 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "1h",
       "hot": false
     },
     {
-      "title": "Meta and Apple team up to make Muse AI models run better on Macs",
-      "content": "Meta and Apple team up to make Muse AI models run better on Macs",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+      "title": "Inside the quest to combat Arctic fires and save the planet’s frozen carbon",
+      "content": "In the middle of an especially warm July in 2021, a wildfire ignited in a thick forest of black spruce and peeling paper birch trees on the northern campus of the University of Alaska, Fairbanks.&#160; The blaze, possibly sparked by lightning, burned across the dry carpet of feather mosses and lichen before climbing into the&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/10/19/1146832/inside-the-quest-to-combat-arctic-fires-and-save-the-planets-frozen-carbon/",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-10-15T14:15:36-04:00",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Mon, 19 Oct 2026 09:22:17 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3h",
+      "hot": false
+    },
+    {
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+      "content": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Mon, 19 Oct 2026 09:08:05 +0000",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "3h",
+      "hot": false
+    },
+    {
+      "title": "How far can we push computing?",
+      "content": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. On the evening of December 29, 1959, at an American Physical Society meeting at Caltech, the physicist Richard Feynman gave a lecture called “There’s&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/10/19/1145904/tr-explains-how-far-can-we-push-computing/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Mon, 19 Oct 2026 09:00:00 +0000",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "4h",
       "hot": false
     },
     {
@@ -494,7 +610,7 @@
       "publishedAt": "Fri, 16 Oct 2026 18:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -509,7 +625,7 @@
       "publishedAt": "Fri, 16 Oct 2026 12:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -524,7 +640,7 @@
       "publishedAt": "Fri, 16 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -539,7 +655,7 @@
       "publishedAt": "Fri, 16 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -554,7 +670,7 @@
       "publishedAt": "Fri, 16 Oct 2026 09:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -567,66 +683,6 @@
       "source": "rss",
       "sourceName": "MIT Tech Review AI",
       "publishedAt": "Fri, 16 Oct 2026 07:56:32 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "2d",
-      "hot": false
-    },
-    {
-      "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
-      "content": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Pig kidneys that were “frozen” for a year have been brought back to life Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been&#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Thu, 15 Oct 2026 12:10:00 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "How much more can nuclear power plants give?",
-      "content": "In this age of rising electricity demand, people are trying to squeeze every last bit of power out of every power plant possible. Over the past few weeks, there’s been big news about nuclear power plants trying to do just that. Constellation, the largest nuclear operator in the US, announced plans to add nearly a&#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/10/15/1146577/nuclear-power-upgrade/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Thu, 15 Oct 2026 10:00:00 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "Six wild ideas for perpetuating your mind",
-      "content": "Have you ever thought about what makes you you? Science assures us it has everything to do with the three-pound organ between our ears, with its billions of neurons and trillions of delicate connections. But it’s a lot trickier to explain why we have a sense of self-awareness or to pin down precisely where that&#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/10/15/1145819/six-wild-ideas-perpetuating-your-mind-cognitive-immortality/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Thu, 15 Oct 2026 09:00:00 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "Pig kidneys that were “frozen” for a year have been brought back to life",
-      "content": "Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been successfully rewarmed and shown to work again for the first time, say scientists. They hope to replicate the findings with human organs. The kidneys—which are similar in size to human ones—were left in a glass-like state, in one&#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/10/15/1146091/pig-kidneys-that-were-frozen-for-a-year-have-been-brought-back-to-life/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Thu, 15 Oct 2026 08:43:24 +0000",
       "tier": "rss",
       "signalWeight": 1,
       "age": "3d",
@@ -644,7 +700,7 @@
       "publishedAt": "Fri, 16 Oct 2026 19:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -659,7 +715,7 @@
       "publishedAt": "Fri, 16 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -674,7 +730,7 @@
       "publishedAt": "Fri, 16 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -689,7 +745,7 @@
       "publishedAt": "Thu, 15 Oct 2026 19:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -704,7 +760,7 @@
       "publishedAt": "Thu, 15 Oct 2026 13:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -719,7 +775,7 @@
       "publishedAt": "Thu, 15 Oct 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -734,7 +790,7 @@
       "publishedAt": "Wed, 14 Oct 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -749,7 +805,7 @@
       "publishedAt": "Wed, 14 Oct 2026 12:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -764,7 +820,7 @@
       "publishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -779,7 +835,22 @@
       "publishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
+      "hot": false
+    },
+    {
+      "title": "“Claude cuts my TikTok”: How this creator is scaling video with AI | Brooke Lacey",
+      "content": "Watch now (37 mins) | &#127897;&#65039; Brooke Lacey shows live how Claude Code turns a raw phone video into a captioned, jump-cut TikTok in about 15 seconds",
+      "author": "Lenny Rachitsky",
+      "url": "https://www.lennysnewsletter.com/p/claude-cuts-my-tiktok-how-this-creator",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Lenny Rachitsky",
+      "publishedAt": "Mon, 19 Oct 2026 12:04:52 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "1h",
       "hot": false
     },
     {
@@ -794,7 +865,7 @@
       "publishedAt": "Sun, 18 Oct 2026 12:31:36 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -809,7 +880,7 @@
       "publishedAt": "Sat, 17 Oct 2026 13:53:57 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "23h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -824,7 +895,7 @@
       "publishedAt": "Wed, 14 Oct 2026 12:04:05 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -839,7 +910,7 @@
       "publishedAt": "Tue, 13 Oct 2026 12:45:41 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -854,7 +925,7 @@
       "publishedAt": "Mon, 12 Oct 2026 15:00:38 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -869,7 +940,7 @@
       "publishedAt": "Mon, 12 Oct 2026 12:03:55 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -884,7 +955,7 @@
       "publishedAt": "Sun, 11 Oct 2026 12:31:59 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
+      "age": "8d",
       "hot": false
     },
     {
@@ -899,7 +970,22 @@
       "publishedAt": "Sat, 10 Oct 2026 13:01:38 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
+      "age": "8d",
+      "hot": false
+    },
+    {
+      "title": "Do You Trust Apple?",
+      "content": "Apple has a lot of trust in terms of delivering integrated products and preserving privacy; the real trust question is if you think Siri AI will justify investing more in their ecosystem.",
+      "author": "Ben Thompson (Stratechery)",
+      "url": "https://stratechery.com/2026/do-you-trust-apple/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Ben Thompson (Stratechery)",
+      "publishedAt": "Mon, 19 Oct 2026 10:00:00 +0000",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "3h",
       "hot": false
     },
     {
@@ -914,7 +1000,7 @@
       "publishedAt": "Fri, 16 Oct 2026 17:42:42 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -929,7 +1015,7 @@
       "publishedAt": "Thu, 15 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -944,7 +1030,7 @@
       "publishedAt": "Wed, 14 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -959,7 +1045,7 @@
       "publishedAt": "Tue, 13 Oct 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -974,7 +1060,7 @@
       "publishedAt": "Fri, 09 Oct 2026 17:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "8d",
+      "age": "9d",
       "hot": false
     },
     {
@@ -989,7 +1075,7 @@
       "publishedAt": "Thu, 15 Oct 2026 01:32:36 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -1004,7 +1090,7 @@
       "publishedAt": "Wed, 14 Oct 2026 01:29:11 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -1019,7 +1105,7 @@
       "publishedAt": "Tue, 13 Oct 2026 00:28:16 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -1034,7 +1120,7 @@
       "publishedAt": "Sat, 10 Oct 2026 03:40:18 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "8d",
+      "age": "9d",
       "hot": false
     }
   ]
