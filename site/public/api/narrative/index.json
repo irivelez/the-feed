@@ -5,12 +5,12 @@
   "narratives": [
     {
       "id": "2026-10-22",
-      "publishedAt": "2026-10-22T21:55:00Z",
+      "publishedAt": "2026-10-22T22:17:33Z",
       "window": {
         "from": "2026-10-16",
         "to": "2026-10-22"
       },
-      "headline": "Agents went always-on; the risk moved to keys and trust",
+      "headline": "Your agents can do the work now. Can you prove they did?",
       "url": "/api/narrative/2026-10-22.json"
     }
   ]

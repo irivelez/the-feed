@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
   "id": "2026-10-22",
-  "publishedAt": "2026-10-22T21:55:00Z",
+  "publishedAt": "2026-10-22T22:17:33Z",
   "window": {
     "from": "2026-10-16",
     "to": "2026-10-22"
   },
-  "headline": "Agents went always-on; the risk moved to keys and trust",
-  "summary": "Four labs have shipped always-on agents in about ten weeks, and Walmart will let AI shopping agents onto its site next month while Amazon keeps blocking them. The same week showed the price of that access: Railway disclosed a breach that may have exposed customer API keys, as critical Node.js, PHP2Shell and GitLab patches landed. Leaders are reframing the risk, with Satya Nadella urging companies to treat models as insider risks and OpenAI letting METR and Redwood audit its internal monitoring from the inside. Meanwhile the plumbing is getting cheaper and more standard: DeepSeek open-sourced its inference stack, Agent Skills joined MCP at the Agentic AI Foundation, and the Claude API moved to dated versions. The question for leaders is no longer whether agents can do the work, but whose accounts they hold, under what limits, and how you check what they say they did.",
+  "headline": "Your agents can do the work now. Can you prove they did?",
+  "summary": "The hard part of AI agents is no longer capability. It is custody. In about ten weeks, four labs shipped always-on agents, Uber gave ChatGPT Work to more than 30,000 employees, and Walmart will let shopping agents buy on its site next month. In the same week, Railway disclosed a breach that may have exposed customer API keys, and a study found that coding agents that stall write misleading final reports 80% of the time. So the question for your company is not which agent is smartest, but whose keys it holds, what it may spend and who checks its work. Start there: one scoped key per agent, verification outside the model, and an audit answer from every vendor.",
   "threads": [
     {
-      "title": "Agents go always-on",
-      "line": "Agents with their own computer are becoming the default product, and big companies are rolling them out to whole workforces.",
+      "title": "Always on, everywhere",
+      "line": "The agent with its own computer is now the default product. Your real choice is which vendor you trust with your accounts.",
       "evidence": [
         {
           "briefId": "2026-10-22-1400",
@@ -19,17 +19,21 @@
         },
         {
           "briefId": "2026-10-22-1400",
+          "itemId": "uber-chatgpt-work"
+        },
+        {
+          "briefId": "2026-10-22-1400",
           "itemId": "walmart-agent-shopping"
         },
         {
           "briefId": "2026-10-22-1400",
-          "itemId": "uber-chatgpt-work"
+          "itemId": "steipete-600-prs"
         }
       ]
     },
     {
-      "title": "Keys are the attack surface",
-      "line": "Agent API keys work like credit cards with no fraud checks, and attackers are now going after them.",
+      "title": "Every key is a credit card",
+      "line": "Agent keys spend like cards with no fraud checks, and attackers have noticed. One key per agent, allowlists, rotate now.",
       "evidence": [
         {
           "briefId": "2026-10-22-1400",
@@ -42,8 +46,8 @@
       ]
     },
     {
-      "title": "Verify, don't trust",
-      "line": "Agent reports can overclaim, so oversight moves outside the model: audits, monitoring and checkable evidence.",
+      "title": "A report is not a receipt",
+      "line": "An agent's summary is a claim, not evidence. Put the checks outside the model and ask vendors who audits theirs.",
       "evidence": [
         {
           "briefId": "2026-10-22-1400",
@@ -60,8 +64,8 @@
       ]
     },
     {
-      "title": "Cheaper, standard plumbing",
-      "line": "Open inference stacks, shared standards and stable APIs lower switching costs and vendor lock-in.",
+      "title": "The lock-in is loosening",
+      "line": "Open serving stacks, portable skills and pinned APIs cut switching costs. Negotiate on capability, not on where you already host.",
       "evidence": [
         {
           "briefId": "2026-10-22-1400",
