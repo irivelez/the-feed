@@ -1,6 +1,6 @@
 {
   "$schema": "../contracts/sources.schema.json",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "updated": "2026-10-22",
   "x": {
     "howTo": [
@@ -33,7 +33,8 @@
       "claudeai",
       "NousResearch",
       "amasad",
-      "dillonrolnick"
+      "dillonrolnick",
+      "ScottWu46"
     ],
     "bigPicture": [
       "sama",
@@ -65,25 +66,22 @@
       "eastdakota",
       "ycombinator",
       "patrickc",
-      "stratechery"
+      "stratechery",
+      "mariogabriele"
     ],
     "frontierCapital": [
       "Metaplanet",
       "gerovich",
-      "soundboy",
       "nathanbenaich",
       "LynAldenContact",
-      "LukeGromen",
       "TaviCosta",
-      "VitalikButerin"
+      "VitalikButerin",
+      "RayDalio",
+      "naval",
+      "bhorowitz"
     ],
     "design": [
-      "MengTo",
-      "jsngr",
-      "raunofreiberg",
-      "emilkowalski",
-      "karrisaarinen",
-      "soleio"
+      "MengTo"
     ],
     "queries": [
       "Claude Skills",
@@ -179,18 +177,18 @@
   "retired": {
     "2026-07-26": {
       "reason": "Probed live, not assumed. Removed sources that return nothing.",
-      "subreddits": "Brave Search key returns HTTP 422 on every request incl. q=test — dead at the key, not the query. Reddit coverage moves to /last30days (native Reddit source).",
+      "subreddits": "Brave Search key returns HTTP 422 on every request incl. q=test \u2014 dead at the key, not the query. Reddit coverage moves to /last30days (native Reddit source).",
       "rssFeeds": {
-        "Anthropic Blog": "HTTP 404 on rss.xml, news/rss.xml, feed.xml — no working feed exists. Covered via @AnthropicAI on X + HN.",
+        "Anthropic Blog": "HTTP 404 on rss.xml, news/rss.xml, feed.xml \u2014 no working feed exists. Covered via @AnthropicAI on X + HN.",
         "Allie K. Miller": "HTTP 404 on substack feed.",
-        "Paul Graham": "Feed carries no pubDate — every item fails the recency filter, always. Yielded 0 for the life of the fetcher."
+        "Paul Graham": "Feed carries no pubDate \u2014 every item fails the recency filter, always. Yielded 0 for the life of the fetcher."
       },
       "xHandles": {
-        "DanielaAmodei": "Last tweet Apr 2022 — dead 4 years.",
-        "crewAIInc": "Last tweet 66 days ago — dormant.",
-        "GanimCorey": "bird returns 0 tweets — account gone or renamed.",
-        "rileybrown_ai": "bird returns 0 tweets — account gone or renamed.",
-        "_note": "Probed individually. AnthropicAI/GoogleAI/GoogleDeepMind/mckaywrigley/rowancheung/DarioAmodei also yielded 0 but are ALIVE — kept, and the trusted-tier window was widened to 7d to stop discarding them."
+        "DanielaAmodei": "Last tweet Apr 2022 \u2014 dead 4 years.",
+        "crewAIInc": "Last tweet 66 days ago \u2014 dormant.",
+        "GanimCorey": "bird returns 0 tweets \u2014 account gone or renamed.",
+        "rileybrown_ai": "bird returns 0 tweets \u2014 account gone or renamed.",
+        "_note": "Probed individually. AnthropicAI/GoogleAI/GoogleDeepMind/mckaywrigley/rowancheung/DarioAmodei also yielded 0 but are ALIVE \u2014 kept, and the trusted-tier window was widened to 7d to stop discarding them."
       },
       "queries": {
         "dropped": [
@@ -205,9 +203,9 @@
           "production grade AI agent",
           "Claude Code free alternative",
           "npx skills Claude",
-          "site:bloomberglinea.com AI inteligencia artificial tecnología"
+          "site:bloomberglinea.com AI inteligencia artificial tecnolog\u00eda"
         ],
-        "_note": "Probed individually 2026-07-26 against the fetcher own filter (3d fresh, >=100 likes, >=60 chars). Each returned ZERO passing items. site:bloomberglinea.com returned 0 raw — bird does not support the site: operator."
+        "_note": "Probed individually 2026-07-26 against the fetcher own filter (3d fresh, >=100 likes, >=60 chars). Each returned ZERO passing items. site:bloomberglinea.com returned 0 raw \u2014 bird does not support the site: operator."
       },
       "contentQueries": {
         "dropped": [
@@ -225,19 +223,12 @@
         "_note": "All 10 probed. ZERO passing items across the entire lane (>=200 likes, >=80 chars, 3d). Aimed at the retired AI-hustle positioning."
       },
       "deadFields": {
-        "broadSearchQualityFilter": "Never read by the fetcher. minViews/minFollowers/bioKeywords are UNIMPLEMENTABLE — bird returns only {username,name} per author and viewCount is undefined. Surviving intent kept as qualityFilter.minLikes.",
-        "topicFilters": "Never read. [\"AI tools\",\"prompts\",\"automation\",\"no-code\",\"productivity\",\"Claude\",\"ChatGPT\",\"workflow\",\"tutorial\",\"how-to\",\"agents\"] — encodes the retired positioning.",
+        "broadSearchQualityFilter": "Never read by the fetcher. minViews/minFollowers/bioKeywords are UNIMPLEMENTABLE \u2014 bird returns only {username,name} per author and viewCount is undefined. Surviving intent kept as qualityFilter.minLikes.",
+        "topicFilters": "Never read. [\"AI tools\",\"prompts\",\"automation\",\"no-code\",\"productivity\",\"Claude\",\"ChatGPT\",\"workflow\",\"tutorial\",\"how-to\",\"agents\"] \u2014 encodes the retired positioning.",
         "maxResults": "Never read (20). The fetcher has no global cap concept.",
-        "braveSourceOverrides": "Renamed to sourceOverrides — nothing Brave-related survives."
+        "braveSourceOverrides": "Renamed to sourceOverrides \u2014 nothing Brave-related survives."
       }
     }
   },
-  "web": [
-    {
-      "name": "Jaan Tallinn",
-      "url": "https://jaan.info/priorities/",
-      "lane": "frontierCapital",
-      "note": "No verified X account found; his own site states his current priorities. Check monthly for changes."
-    }
-  ]
+  "web": []
 }
