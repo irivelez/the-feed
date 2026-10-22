@@ -1,0 +1,772 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-22-1835",
+  "generatedAt": "2026-10-22T23:36:00Z",
+  "configVersions": {
+    "sources": "1.2.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-21T11:30:00Z",
+    "to": "2026-10-22T23:35:00Z"
+  },
+  "sourceNotes": [
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed): request timed out; a later check returned HTTP 301 redirect. Feed URL may have moved.",
+    "arXiv API: first request timed out; retry succeeded.",
+    "Benedict Evans, One Useful Thing (Ethan Mollick), Mitchell Hashimoto, Metaplanet news (Google News): feeds reachable, 0 items in the last 36 hours.",
+    "X queries lane is noisy: matches for 'Claude Skills' and 'multi-agent orchestration' were mostly low-follower promo/listicle posts; none used. X search ignores min_likes, so engagement filtering must happen client-side.",
+    "X frontierCapital: Metaplanet, gerovich, VitalikButerin, naval, bhorowitz had no original posts in the last 48 hours. bigPicture: sama, DarioAmodei, karpathy and others had no original posts in the last 24 hours.",
+    "web: no pages configured."
+  ],
+  "candidates": [
+    {
+      "id": "agent-skills-donated-aaif",
+      "lens": "practical",
+      "topic": "agent-skills-aaif",
+      "summary": "Anthropic is donating the Agent Skills standard to the Agentic AI Foundation, the same foundation it donated MCP to.",
+      "facts": [
+        "ClaudeDevs: since December 2025, 70+ agent platforms have integrated the standard, including ChatGPT, Cursor, GitHub Copilot and VS Code.",
+        "Boris Cherny: Agent Skills started as an experiment in Claude Code.",
+        "Anthropic's announcement says it is committed to keeping Agent Skills open, community-driven and vendor-neutral."
+      ],
+      "source": {
+        "name": "ClaudeDevs",
+        "url": "https://x.com/ClaudeDevs/status/2113328526413996100",
+        "type": "x",
+        "handle": "ClaudeDevs"
+      },
+      "related": [
+        {
+          "name": "Anthropic announcement",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+        },
+        {
+          "name": "Boris Cherny on X",
+          "url": "https://x.com/bcherny/status/2113333859907747871"
+        },
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
+        }
+      ],
+      "publishedAt": "2026-10-22T17:55:59Z",
+      "metrics": {
+        "likes": 5532,
+        "reposts": 236,
+        "replies": 194,
+        "views": 407489,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://x.com/ClaudeDevs/status/2113328526413996100",
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "claude-auto-mode-default",
+      "lens": "practical",
+      "topic": "claude-auto-mode",
+      "summary": "Starting next week, Claude web, desktop and mobile sessions run in auto mode by default on Pro, Max and Team plans; an automated check blocks risky actions instead of asking for approval at each step. Users can switch back to manual.",
+      "source": {
+        "name": "Claude",
+        "url": "https://x.com/claudeai/status/2113360845409583307",
+        "type": "x",
+        "handle": "claudeai"
+      },
+      "publishedAt": "2026-10-22T20:04:24Z",
+      "metrics": {
+        "likes": 9372,
+        "reposts": 314,
+        "replies": 384,
+        "views": 495129,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://x.com/claudeai/status/2113360845409583307",
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "claude-on-google-cloud-ga",
+      "lens": "practical",
+      "topic": "frontier-models-google-cloud",
+      "summary": "Claude Models on Google Cloud (Anthropic managed) is generally available: the full Claude Platform on Google Cloud with Google Cloud IAM credentials, billing and commitment retirement.",
+      "facts": [
+        "ClaudeDevs: the full Claude API is available from a Google Cloud account, including Claude Managed Agents, code execution and Opus 5.5 fast mode."
+      ],
+      "source": {
+        "name": "Claude",
+        "url": "https://x.com/claudeai/status/2113380122468454765",
+        "type": "x",
+        "handle": "claudeai"
+      },
+      "related": [
+        {
+          "name": "ClaudeDevs on X",
+          "url": "https://x.com/ClaudeDevs/status/2113381868364271743"
+        }
+      ],
+      "publishedAt": "2026-10-22T21:21:00Z",
+      "metrics": {
+        "likes": 2237,
+        "reposts": 128,
+        "replies": 149,
+        "views": 173002,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "openai-models-google-cloud",
+      "lens": "broad",
+      "topic": "frontier-models-google-cloud",
+      "summary": "OpenAI and Google Cloud are bringing OpenAI frontier models and Codex workflows to Gemini's Model Garden, available through Google Cloud Marketplace.",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/openai-models-google-cloud",
+        "type": "rss"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50180079"
+        }
+      ],
+      "publishedAt": "2026-10-21T12:00:00Z",
+      "care": 4,
+      "proof": 5,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "anthropic-formal-verification-claude",
+      "lens": "broad",
+      "topic": "ai-formal-verification",
+      "summary": "Anthropic's Frontier Red Team blog describes using Claude to formally verify software at large scale; formal verification has historically been feasible only for small codebases or with a lot of expert time.",
+      "source": {
+        "name": "Anthropic",
+        "url": "https://x.com/AnthropicAI/status/2113390212911083894",
+        "type": "x",
+        "handle": "AnthropicAI"
+      },
+      "publishedAt": "2026-10-22T22:01:06Z",
+      "metrics": {
+        "likes": 1942,
+        "reposts": 168,
+        "replies": 187,
+        "views": 114990,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://x.com/AnthropicAI/status/2113390212911083894",
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "poteto-statechart-skill",
+      "lens": "practical",
+      "topic": "ai-formal-verification",
+      "summary": "poteto is building a companion skill for pstack that has agents draw statecharts/diagrams and check them against specs made with /create-formal-verification-skill; it uses Pele from kepano.",
+      "source": {
+        "name": "poteto",
+        "url": "https://x.com/poteto/status/2113398433977659654",
+        "type": "x",
+        "handle": "poteto"
+      },
+      "publishedAt": "2026-10-22T22:33:46Z",
+      "metrics": {
+        "likes": 1057,
+        "reposts": 30,
+        "replies": 77,
+        "views": 23370,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "php2shell-ai-found-rce",
+      "lens": "broad",
+      "topic": "ai-vuln-wave",
+      "summary": "PHP shipped security releases (8.5.12, 8.4.27, 8.3.36, 8.2.35) for PHP2Shell, a critical remote code execution flaw that Wiz says was uncovered by AI; Amazon reports exploitation on Oct 17, before public disclosure.",
+      "facts": [
+        "The PHP Foundation post was the second-highest story on Hacker News in the window (795 points).",
+        "Simon Willison: if you're running anything on PHP it's vital you upgrade.",
+        "Railway, GitLab (critical patch 19.5.1) and Node (Brotli decoder CVE-2026-111497) also shipped security fixes or disclosures in the same 48 hours."
+      ],
+      "source": {
+        "name": "PHP Foundation via Hacker News",
+        "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+        "type": "hn"
+      },
+      "related": [
+        {
+          "name": "Wiz: PHP2Shell",
+          "url": "https://www.wiz.io/blog/php2shell-php-rce"
+        },
+        {
+          "name": "AWS: exploitation before disclosure",
+          "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/"
+        },
+        {
+          "name": "Railway security disclosure",
+          "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st"
+        },
+        {
+          "name": "GitLab patch release",
+          "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/"
+        },
+        {
+          "name": "The Atlantic: Read This Website While You Still Can",
+          "url": "https://www.theatlantic.com/technology/2026/10/ai-hacking-apocalypse-began-last-night/689106/"
+        },
+        {
+          "name": "ThePrimeagen on the Node Brotli CVE",
+          "url": "https://x.com/ThePrimeagen/status/2113262791880753379"
+        }
+      ],
+      "publishedAt": "2026-10-21T15:48:00Z",
+      "metrics": {
+        "points": 795,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "openai-patch-the-planet",
+      "lens": "broad",
+      "topic": "ai-vuln-wave",
+      "summary": "OpenAI published 'Patch the Planet', on global response coordination as agents uncover vulnerabilities. a16z clip: Greg Brockman on why defenders can hold the advantage, what OpenAI did to secure itself, and a $1B commitment to secure critical infrastructure.",
+      "source": {
+        "name": "OpenAI via Hacker News",
+        "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+        "type": "hn"
+      },
+      "related": [
+        {
+          "name": "a16z clip with Greg Brockman",
+          "url": "https://x.com/a16z/status/2113404552439558377"
+        },
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50181175"
+        }
+      ],
+      "publishedAt": "2026-10-21T14:03:00Z",
+      "metrics": {
+        "points": 262,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "litellm-pypi-compromise",
+      "lens": "practical",
+      "topic": "ai-supply-chain",
+      "summary": "SafeDep reports that LiteLLM 1.107.0 on PyPI was compromised and installs a credential stealer and backdoor.",
+      "source": {
+        "name": "SafeDep via Hacker News",
+        "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+        "type": "hn"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50181114"
+        }
+      ],
+      "publishedAt": "2026-10-21T14:00:00Z",
+      "metrics": {
+        "points": 587,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 5,
+      "proof": 4,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "rauch-kill-static-credentials",
+      "lens": "broad",
+      "topic": "ai-vuln-wave",
+      "summary": "Guillermo Rauch calls for the industry to kill static credentials and move to short-lived, self-destructing keys via OIDC, comparing it to the industry-wide push for TLS.",
+      "source": {
+        "name": "Guillermo Rauch",
+        "url": "https://x.com/rauchg/status/2113399539227136084",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "publishedAt": "2026-10-22T22:38:09Z",
+      "metrics": {
+        "likes": 349,
+        "reposts": 17,
+        "replies": 44,
+        "views": 14447,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "nvidia-openshell",
+      "lens": "practical",
+      "topic": "agent-runtime-security",
+      "summary": "NVIDIA open-sourced OpenShell, described as a safe, private runtime for fleets of autonomous AI agents.",
+      "source": {
+        "name": "NVIDIA on GitHub via Hacker News",
+        "url": "https://github.com/NVIDIA/OpenShell",
+        "type": "hn"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50198675"
+        }
+      ],
+      "publishedAt": "2026-10-22T17:44:00Z",
+      "metrics": {
+        "points": 261,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "nous-hermes-cua-spaces",
+      "lens": "practical",
+      "topic": "shared-agent-computers",
+      "summary": "Nous Research: a new trycua Spaces plugin gives Hermes its own Linux, macOS or Windows Space on hardware you own; teammates can open it, watch live, step in and hand it back while Hermes keeps working.",
+      "source": {
+        "name": "Nous Research",
+        "url": "https://x.com/NousResearch/status/2113391397760041329",
+        "type": "x",
+        "handle": "NousResearch"
+      },
+      "publishedAt": "2026-10-22T22:05:48Z",
+      "metrics": {
+        "likes": 330,
+        "reposts": 31,
+        "replies": 23,
+        "views": 18077,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "perplexity-agent-api-batch",
+      "lens": "broad",
+      "topic": "perplexity-batch-api",
+      "summary": "Perplexity's Agent API now has a Batch API supporting up to 50k requests per file; each request runs the full agent loop with web_search and fetch_url.",
+      "source": {
+        "name": "Aravind Srinivas",
+        "url": "https://x.com/AravSrinivas/status/2113368776532271185",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-10-22T20:35:55Z",
+      "metrics": {
+        "likes": 55,
+        "reposts": 3,
+        "replies": 21,
+        "views": 9047,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "openai-decisions-api",
+      "lens": "practical",
+      "topic": "openai-decisions-api",
+      "summary": "OpenAI launched the Decisions API, pitched as fast, focused, low-cost decisions for any application.",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/decisions-api",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-22T19:00:00Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "openai-cli",
+      "lens": "practical",
+      "topic": "openai-cli",
+      "summary": "OpenAI published an official OpenAI CLI repository on GitHub.",
+      "source": {
+        "name": "OpenAI on GitHub via Hacker News",
+        "url": "https://github.com/openai/openai-cli",
+        "type": "hn"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50191507"
+        }
+      ],
+      "publishedAt": "2026-10-22T05:23:00Z",
+      "metrics": {
+        "points": 229,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "claude-duet-launch",
+      "lens": "practical",
+      "topic": "claude-duet",
+      "summary": "Anthropic launched Claude Duet. Lenny Rachitsky reviewed it ('Claude Duet is beautiful. I still forgot to use it'); Alex Albert says products like Claude Duet could end up bigger for local small businesses than Square or Google Maps.",
+      "source": {
+        "name": "Claude Duet via Hacker News",
+        "url": "https://claude.com/product/claude-duet",
+        "type": "hn"
+      },
+      "related": [
+        {
+          "name": "Lenny Rachitsky review",
+          "url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still"
+        },
+        {
+          "name": "Alex Albert on X",
+          "url": "https://x.com/alexalbert__/status/2113386454907007444"
+        },
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50186037"
+        }
+      ],
+      "publishedAt": "2026-10-21T19:14:00Z",
+      "metrics": {
+        "points": 544,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "arxiv-silent-cue-loss",
+      "lens": "practical",
+      "topic": "agent-document-ingestion",
+      "summary": "arXiv paper: formatting-blind document ingestion makes enterprise agents confidently wrong. On 76 real policy documents, recovering author-flagged requirements drops from micro F1 0.690 to 0.150 (docling) and 0.075 (plain text); highlight and colour carry the loss, and 32.8% of 6,460 documents use deliberate colour or highlight.",
+      "source": {
+        "name": "arXiv",
+        "url": "http://arxiv.org/abs/2610.30026v1",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-10-21T16:51:25Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "arxiv-memorytax",
+      "lens": "practical",
+      "topic": "agent-memory",
+      "summary": "arXiv 'MemoryTax': on one LoCoMo conversation, designed agent memory (Mem0, Zep) beat full context only with GPT-4o-mini; with Claude Opus 5.5 the Pi coding agent searching raw history scored 99% for less than half the cost of full context. Authors flag it as a short study, one conversation, one run per cell.",
+      "source": {
+        "name": "arXiv",
+        "url": "http://arxiv.org/abs/2610.29823v1",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-10-21T14:46:27Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "microsoft-diagnostic-orchestrator",
+      "lens": "broad",
+      "topic": "ms-diagnostic-orchestrator",
+      "summary": "Microsoft published work in Science showing its diagnostic orchestrator reasoning through complex medical cases with greater diagnostic accuracy at lower testing cost. The Verge reports Microsoft claims it can diagnose conditions up to four times better than doctors (company claim).",
+      "source": {
+        "name": "Satya Nadella",
+        "url": "https://x.com/satyanadella/status/2113347282469077501",
+        "type": "x",
+        "handle": "satyanadella"
+      },
+      "related": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
+        }
+      ],
+      "publishedAt": "2026-10-22T19:10:30Z",
+      "metrics": {
+        "likes": 274,
+        "reposts": 30,
+        "replies": 41,
+        "views": 44905,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "andreessen-ai-native-gap",
+      "lens": "broad",
+      "topic": "andreessen-ai-adoption-gap",
+      "summary": "a16z clip: Marc Andreessen says the gap between what AI-native startups and incumbents think AI can do is the widest he has seen; in a separate clip he says individuals are adopting AI faster than organizations, often without telling management, and startup formation will skyrocket.",
+      "source": {
+        "name": "a16z",
+        "url": "https://x.com/a16z/status/2113337272599023840",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "related": [
+        {
+          "name": "a16z clip: individuals vs organizations",
+          "url": "https://x.com/a16z/status/2113352287376785890"
+        }
+      ],
+      "publishedAt": "2026-10-22T18:30:44Z",
+      "metrics": {
+        "likes": 1009,
+        "reposts": 90,
+        "replies": 59,
+        "views": 98797,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "uber-chatgpt-work",
+      "lens": "broad",
+      "topic": "enterprise-ai-rollouts",
+      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees for research, data analysis, presentations and complex workflows.",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "ai-lobbying-records",
+      "lens": "broad",
+      "topic": "ai-lobbying",
+      "summary": "Federal disclosures show Anthropic, OpenAI and Nvidia each had their highest-spending lobbying quarter in July-September: Nvidia $2.2M, Anthropic $2.1M, OpenAI $1.5M.",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-22T11:50:00Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "openai-metr-redwood-eval",
+      "lens": "broad",
+      "topic": "lab-safety-monitoring",
+      "summary": "OpenAI invited METR and Redwood Research to pilot a three-week embedded evaluation of its internal monitoring system with deep infrastructure access; OpenAI says findings strengthened safeguards.",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://x.com/OpenAI/status/2113298833392496746",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "publishedAt": "2026-10-22T15:57:59Z",
+      "metrics": {
+        "likes": 1909,
+        "reposts": 119,
+        "replies": 270,
+        "views": 234447,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "mistral-large-4",
+      "lens": "broad",
+      "topic": "mistral-large-4",
+      "summary": "Mistral released Mistral Large 4.",
+      "source": {
+        "name": "Mistral via Hacker News",
+        "url": "https://mistral.ai/news/mistral-large-4/",
+        "type": "hn"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50186129"
+        }
+      ],
+      "publishedAt": "2026-10-21T19:20:00Z",
+      "metrics": {
+        "points": 322,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "marcus-banks-ai-agents",
+      "lens": "broad",
+      "topic": "ai-vuln-wave",
+      "summary": "Gary Marcus (contrarian source) writes that U.S. banks are taking hits from AI agents.",
+      "source": {
+        "name": "Gary Marcus",
+        "url": "https://garymarcus.substack.com/p/breaking-news-us-banks-are-taking",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-22T13:52:00Z",
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "canva-craft-model",
+      "lens": "design",
+      "topic": "canva-craft",
+      "summary": "Canva launched Canva Craft, its first in-house image generation model, using a two-stage architecture that plans a design before generating it; it is live in Dream Lab.",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-22T17:51:00Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "mengto-framer-mcp",
+      "lens": "design",
+      "topic": "framer-mcp",
+      "summary": "Meng To: you can turn Claude and Codex sites into Framer sites with one prompt using the Framer MCP ('Create a copy of this site in Framer using the MCP').",
+      "source": {
+        "name": "Meng To",
+        "url": "https://x.com/MengTo/status/2113340500753486131",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-10-22T18:43:34Z",
+      "metrics": {
+        "likes": 28,
+        "reposts": 1,
+        "replies": 7,
+        "views": 5533,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "mengto-html-demo-skill",
+      "lens": "design",
+      "topic": "html-demo-skill",
+      "summary": "Meng To open-sourced a skill that turns an app into an HTML demo that stays sharp at any size, loops, scrubs, jumps to any step and respects reduced motion.",
+      "source": {
+        "name": "Meng To",
+        "url": "https://x.com/MengTo/status/2112843787777249661",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-10-21T09:49:48Z",
+      "metrics": {
+        "likes": 651,
+        "reposts": 59,
+        "replies": 30,
+        "views": 34038,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "benaich-europe-ai-sovereignty",
+      "lens": "frontier-capital",
+      "topic": "europe-ai-sovereignty",
+      "summary": "Nathan Benaich: Europe cannot rent its way to AI sovereignty; June's US export controls halted Fable and Mythos (Fable returned in July), showing Washington can control access without owning the labs, and a domestic data center does not give control over the models inside it.",
+      "source": {
+        "name": "Nathan Benaich",
+        "url": "https://x.com/nathanbenaich/status/2113284247289049112",
+        "type": "x",
+        "handle": "nathanbenaich"
+      },
+      "publishedAt": "2026-10-22T15:00:02Z",
+      "metrics": {
+        "likes": 11,
+        "reposts": 3,
+        "replies": 3,
+        "views": 1155,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "tavicosta-brazil-cheap",
+      "lens": "frontier-capital",
+      "topic": "brazil-equities-view",
+      "summary": "Tavi Costa: Brazil is one of the cheapest markets worldwide, both relative to others and to its own history (a view, shared with a chart).",
+      "source": {
+        "name": "Otavio (Tavi) Costa",
+        "url": "https://x.com/TaviCosta/status/2113007419303608680",
+        "type": "x",
+        "handle": "TaviCosta"
+      },
+      "publishedAt": "2026-10-21T20:40:01Z",
+      "metrics": {
+        "likes": 569,
+        "reposts": 56,
+        "replies": 22,
+        "views": 38489,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 2,
+      "proof": 3,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "id": "dalio-diagnosis-before-design",
+      "lens": "frontier-capital",
+      "topic": "dalio-principles",
+      "summary": "Ray Dalio: it is a common mistake to jump from identifying a tough problem straight to proposing a solution; strategic thinking needs both diagnosis and design, and a good diagnosis typically takes fifteen minutes to an hour.",
+      "source": {
+        "name": "Ray Dalio",
+        "url": "https://x.com/RayDalio/status/2113019999803593076",
+        "type": "x",
+        "handle": "RayDalio"
+      },
+      "publishedAt": "2026-10-21T21:30:00Z",
+      "metrics": {
+        "likes": 525,
+        "reposts": 53,
+        "replies": 28,
+        "views": 66667,
+        "capturedAt": "2026-10-22T23:33:30Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-10-22"
+    }
+  ]
+}
