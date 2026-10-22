@@ -51,7 +51,7 @@ function tweetMedia(t) {
   for (const m of t.mediaDetails || []) out.push(m.media_url_https);
   if (t.video?.poster) out.push(t.video.poster);
   const bv = t.card?.binding_values || {};
-  for (const k of ["photo_image_full_size_large", "thumbnail_image_large", "summary_photo_image_large", "player_image_large"]) if (bv[k]?.image_value?.url) out.push(bv[k].image_value.url);
+  for (const k of ["photo_image_full_size_original", "thumbnail_image_original", "summary_photo_image_original", "player_image_original", "photo_image_full_size_large", "thumbnail_image_large", "summary_photo_image_large", "player_image_large"]) if (bv[k]?.image_value?.url) out.push(bv[k].image_value.url);
   if (t.quoted_tweet) out.push(...tweetMedia(t.quoted_tweet));
   return out;
 }
@@ -68,7 +68,16 @@ async function save(url, out, minW = 400) {
     if (channels.slice(0, 3).every((c) => c.stdev < 8)) return false; // nearly blank
     const { info } = await sharp(buf).trim({ threshold: 30 }).toBuffer({ resolveWithObject: true });
     if (info.width * info.height < 0.2 * meta.width * meta.height) return false; // small icon on a plain background
-    await sharp(buf).resize(W, H, { fit: "cover", position: "attention" }).flatten({ background: "#ffffff" }).jpeg({ quality: 82, mozjpeg: true }).toFile(out);
+    // Near 16:9 photos fill the frame; anything else (logos, repo cards, square art) is shown whole, centered, never cropped.
+    const ratio = meta.width / meta.height;
+    if (Math.abs(ratio / (W / H) - 1) <= 0.12) {
+      await sharp(buf).resize(W, H, { fit: "cover", position: "attention" }).flatten({ background: "#ffffff" }).jpeg({ quality: 82, mozjpeg: true }).toFile(out);
+    } else {
+      const pad = Math.round(H * 0.08);
+      const bg = (await sharp(buf).flatten({ background: "#ffffff" }).stats()).dominant;
+      const inner = await sharp(buf).flatten({ background: bg }).resize(W - 2 * pad, H - 2 * pad, { fit: "contain", background: bg }).toBuffer();
+      await sharp({ create: { width: W, height: H, channels: 3, background: bg } }).composite([{ input: inner, gravity: "center" }]).jpeg({ quality: 82, mozjpeg: true }).toFile(out);
+    }
     return true;
   } catch { return false; }
 }
