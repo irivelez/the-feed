@@ -3,14 +3,16 @@ import Narrative from "./Narrative";
 // Presentation only. Data comes from /api JSON (see lib/api.js).
 const TAG = { new: "New", building: "Building", shift: "Shift" };
 const SECTIONS = [
-  { key: "today", title: "Today's AI", match: (i) => i.lens === "practical" || i.lens === "broad" },
+  { key: "today", title: "Latest", match: (i) => i.lens === "practical" || i.lens === "broad" },
   { key: "capital", title: "Quiet money", match: (i) => i.lens === "frontier-capital" },
   { key: "design", title: "Design", match: (i) => i.lens === "design" },
 ];
 
 const time = (iso) => new Date(iso).toLocaleTimeString("en-US", { timeZone: "America/Bogota", hour: "numeric", minute: "2-digit" });
 const day = (iso) => new Date(iso).toLocaleDateString("en-US", { timeZone: "America/Bogota", weekday: "short", month: "short", day: "numeric" });
-const when = (iso, ref) => (day(iso) === day(ref) ? time(iso) : day(iso));
+const short = (iso) => new Date(iso).toLocaleDateString("en-US", { timeZone: "America/Bogota", month: "short", day: "numeric" });
+const when = (iso, ref) => (day(iso) === day(ref) ? `${short(iso)}, ${time(iso)}` : short(iso));
+const MAX_AGE_DAYS = 28;
 function Pic({ i, eager }) {
   return i.image
     ? <img src={i.image.src} alt={i.image.alt} loading={eager ? "eager" : "lazy"} />
@@ -31,8 +33,9 @@ function Card({ i, ref_ }) {
 export default function Brief({ brief, archived, narrative }) {
   const byId = Object.fromEntries(brief.items.map((i) => [i.id, i]));
   const top = new Set(brief.top3.map((t) => t.itemId));
-  const rest = [...brief.items].filter((i) => !top.has(i.id)).sort((a, b) => b.importance - a.importance);
   const ref_ = brief.publishedAt;
+  const rest = [...brief.items].filter((i) => !top.has(i.id)).filter((i) => archived || new Date(ref_) - new Date(i.publishedAt) <= MAX_AGE_DAYS * 864e5)
+    .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   return (
     <main>
       <Nav here={archived ? "archive" : "brief"} meta={`${day(ref_)} · ${brief.edition}`} />

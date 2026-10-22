@@ -84,6 +84,6 @@
   "quality": {
     "requireSourceLink": true,
     "requireFirsthandProof": true,
-    "maxSourceAgeDays": 30
+    "maxSourceAgeDays": 28
   }
 }
