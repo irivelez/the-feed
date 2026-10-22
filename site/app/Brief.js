@@ -9,19 +9,19 @@ const SECTIONS = [
 const time = (iso) => new Date(iso).toLocaleTimeString("en-US", { timeZone: "America/Bogota", hour: "numeric", minute: "2-digit" });
 const day = (iso) => new Date(iso).toLocaleDateString("en-US", { timeZone: "America/Bogota", weekday: "short", month: "short", day: "numeric" });
 const when = (iso, ref) => (day(iso) === day(ref) ? time(iso) : day(iso));
-// X/arXiv screenshots repeat the headline; only real source images add information.
-const useful = (img) => img && !/^Screenshot/i.test(img.alt);
+function Pic({ i, eager }) {
+  return i.image
+    ? <img src={i.image.src} alt={i.image.alt} loading={eager ? "eager" : "lazy"} />
+    : <div className={`ph ${i.lens}`} aria-hidden="true" />;
+}
 
 function Card({ i, ref_ }) {
-  const img = useful(i.image) && i.image;
   return (
-    <a className={`card${img ? " has-img" : ""}`} href={i.source.url} target="_blank" rel="noopener" title={i.title}>
-      <div className="txt">
-        <h3>{i.title}</h3>
-        <p>{i.soWhat}</p>
-        <small>{i.momentum !== "new" && <b>{TAG[i.momentum]}</b>}{i.source.name} · {when(i.publishedAt, ref_)}</small>
-      </div>
-      {img && <img src={img.src} alt="" loading="lazy" />}
+    <a className="card" href={i.source.url} target="_blank" rel="noopener" title={i.title}>
+      <Pic i={i} />
+      <h3>{i.title}</h3>
+      <p>{i.soWhat}</p>
+      <small>{i.momentum !== "new" && <b>{TAG[i.momentum]}</b>}{i.source.name} · {when(i.publishedAt, ref_)}</small>
     </a>
   );
 }
@@ -40,20 +40,19 @@ export default function Brief({ brief, archived }) {
 
       <section>
         <h2>Top 3</h2>
-        <ol className="top">
-          {brief.top3.map((t) => {
+        <div className="top">
+          {brief.top3.map((t, n) => {
             const i = byId[t.itemId];
-            return (
-              <li key={t.itemId}>
-                <a href={i?.source.url} target="_blank" rel="noopener" title={t.headline}>
-                  <h3>{t.headline}</h3>
-                  <p>{t.whyItMatters}</p>
-                  {i && <small>{i.source.name} · {when(i.publishedAt, ref_)}</small>}
-                </a>
-              </li>
+            return i && (
+              <a key={t.itemId} className={n === 0 ? "hero lead" : "hero"} href={i.source.url} target="_blank" rel="noopener" title={t.headline}>
+                <Pic i={i} eager />
+                <h3>{t.headline}</h3>
+                <p>{t.whyItMatters}</p>
+                <small>{i.source.name} · {when(i.publishedAt, ref_)}</small>
+              </a>
             );
           })}
-        </ol>
+        </div>
       </section>
 
       {SECTIONS.map((s) => {
@@ -61,7 +60,7 @@ export default function Brief({ brief, archived }) {
         return list.length > 0 && (
           <section key={s.key}>
             <h2>{s.title}</h2>
-            <div className="list">{list.map((i) => <Card key={i.id} i={i} ref_={ref_} />)}</div>
+            <div className="grid">{list.map((i) => <Card key={i.id} i={i} ref_={ref_} />)}</div>
           </section>
         );
       })}

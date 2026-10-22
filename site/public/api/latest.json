@@ -37,7 +37,7 @@
       },
       "image": {
         "src": "/img/agent-skills-foundation.jpg",
-        "alt": "Screenshot of the X post: @ClaudeDevs on X"
+        "alt": "Profile image of @ClaudeDevs"
       }
     },
     {
@@ -69,7 +69,7 @@
       ],
       "image": {
         "src": "/img/security-wave.jpg",
-        "alt": "Screenshot of the X post: @gregisenberg on X"
+        "alt": "Image from @gregisenberg on X"
       }
     },
     {
@@ -111,7 +111,7 @@
       ],
       "image": {
         "src": "/img/claude-duet.jpg",
-        "alt": "Source image: The Verge"
+        "alt": "Image from The Verge"
       }
     },
     {
@@ -129,7 +129,7 @@
       },
       "image": {
         "src": "/img/walmart-agent-shopping.jpg",
-        "alt": "Source image: The Verge"
+        "alt": "Image from The Verge"
       }
     },
     {
@@ -147,7 +147,7 @@
       },
       "image": {
         "src": "/img/claude-api-versioning.jpg",
-        "alt": "Screenshot of the X post: @ClaudeDevs on X"
+        "alt": "Profile image of @ClaudeDevs"
       }
     },
     {
@@ -171,7 +171,7 @@
       ],
       "image": {
         "src": "/img/openai-on-google-cloud.jpg",
-        "alt": "Screenshot of the X post: OpenAI"
+        "alt": "Image from OpenAI"
       }
     },
     {
@@ -189,7 +189,7 @@
       },
       "image": {
         "src": "/img/overclaim-bench.jpg",
-        "alt": "Screenshot of the arXiv abstract page"
+        "alt": "arXiv 2609.20812: When coding agents don't finish, their final report misleads 80% of the time"
       }
     },
     {
@@ -207,7 +207,7 @@
       },
       "image": {
         "src": "/img/steipete-600-prs.jpg",
-        "alt": "Screenshot of the X post: @steipete on X"
+        "alt": "Image from @steipete on X"
       }
     },
     {
@@ -231,7 +231,7 @@
       ],
       "image": {
         "src": "/img/deepseek-deepinfer.jpg",
-        "alt": "Screenshot of the X post: @deepseek_ai on X"
+        "alt": "Image from @deepseek_ai on X"
       }
     },
     {
@@ -249,7 +249,7 @@
       },
       "image": {
         "src": "/img/models-as-insiders.jpg",
-        "alt": "Screenshot of the X post: @satyanadella on X"
+        "alt": "Image from @satyanadella on X"
       }
     },
     {
@@ -273,7 +273,7 @@
       ],
       "image": {
         "src": "/img/openai-legacy-code.jpg",
-        "alt": "Screenshot of the X post: OpenAI"
+        "alt": "Profile image of @OpenAI"
       }
     },
     {
@@ -291,7 +291,7 @@
       },
       "image": {
         "src": "/img/openai-metr-redwood.jpg",
-        "alt": "Screenshot of the X post: @OpenAI on X"
+        "alt": "Profile image of @OpenAI"
       }
     },
     {
@@ -309,7 +309,7 @@
       },
       "image": {
         "src": "/img/traces-as-training-data.jpg",
-        "alt": "Screenshot of the X post: @hwchase17 on X"
+        "alt": "Image from @hwchase17 on X"
       }
     },
     {
@@ -324,6 +324,10 @@
       "source": {
         "name": "OpenAI",
         "url": "https://openai.com/index/uber-chatgpt-work-rollout"
+      },
+      "image": {
+        "src": "/img/uber-chatgpt-work.jpg",
+        "alt": "OpenAI: Uber rolls out ChatGPT Work to more than 30,000 employees"
       }
     },
     {
