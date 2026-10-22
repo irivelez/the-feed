@@ -6,5 +6,5 @@ export function generateStaticParams() {
 }
 export default async function Page({ params }) {
   const { id } = await params;
-  return <><p className="archived"><a href="/">← Latest brief</a> · Archived edition</p><Brief brief={brief(id)} archive={archiveIds()} /></>;
+  return <Brief brief={brief(id)} archived />;
 }

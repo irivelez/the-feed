@@ -1,109 +1,87 @@
-"use client";
-import { useState } from "react";
-
-const MOMENTUM = {
-  new: { label: "New today", icon: "🆕" },
-  building: { label: "Building this week", icon: "📈" },
-  shift: { label: "Shift this month", icon: "🧭" },
-};
-const LENS = { practical: "Practical", broad: "Broad picture", "frontier-capital": "Frontier capital", design: "Design" };
-// Lenses shown in their own section, apart from the daily AI news. Hidden when empty.
+// Presentation only. Data comes from /api JSON (see lib/api.js).
+const TAG = { new: "New", building: "Building", shift: "Shift" };
 const SECTIONS = [
-  { lens: "frontier-capital", title: "Frontier capital: views from the world's quiet investors" },
-  { lens: "design", title: "Design" },
+  { key: "today", title: "Today's AI", match: (i) => i.lens === "practical" || i.lens === "broad" },
+  { key: "capital", title: "Quiet money", match: (i) => i.lens === "frontier-capital" },
+  { key: "design", title: "Design", match: (i) => i.lens === "design" },
 ];
-const NEWS = new Set(["practical", "broad"]);
 
-function Card({ i }) {
+const time = (iso) => new Date(iso).toLocaleTimeString("en-US", { timeZone: "America/Bogota", hour: "numeric", minute: "2-digit" });
+const day = (iso) => new Date(iso).toLocaleDateString("en-US", { timeZone: "America/Bogota", weekday: "short", month: "short", day: "numeric" });
+const when = (iso, ref) => (day(iso) === day(ref) ? time(iso) : day(iso));
+// X/arXiv screenshots repeat the headline; only real source images add information.
+const useful = (img) => img && !/^Screenshot/i.test(img.alt);
+
+function Card({ i, ref_ }) {
+  const img = useful(i.image) && i.image;
   return (
-    <article className="card">
-      {i.image && <a href={i.source.url} target="_blank" rel="noopener"><img src={i.image.src} alt={i.image.alt} loading="lazy" /></a>}
-      <div className="body">
-        <div className="badges"><span className="m">{MOMENTUM[i.momentum].icon} {MOMENTUM[i.momentum].label}</span><span className={`lens ${i.lens}`}>{LENS[i.lens]}</span></div>
+    <a className={`card${img ? " has-img" : ""}`} href={i.source.url} target="_blank" rel="noopener" title={i.title}>
+      <div className="txt">
         <h3>{i.title}</h3>
-        <p className="takeaway">{i.takeaway}</p>
-        <p className="sowhat"><strong>So what:</strong> {i.soWhat}</p>
-        <div className="foot"><a href={i.source.url} target="_blank" rel="noopener">{i.source.name} ↗</a><time>{fmt(i.publishedAt)}</time></div>
+        <p>{i.soWhat}</p>
+        <small>{i.momentum !== "new" && <b>{TAG[i.momentum]}</b>}{i.source.name} · {when(i.publishedAt, ref_)}</small>
       </div>
-    </article>
+      {img && <img src={img.src} alt="" loading="lazy" />}
+    </a>
   );
 }
 
-function fmt(iso) {
-  return new Date(iso).toLocaleString("en-US", { timeZone: "America/Bogota", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) + " COT";
-}
-
-export default function Brief({ brief, archive }) {
-  const [filter, setFilter] = useState("all");
+export default function Brief({ brief, archived }) {
   const byId = Object.fromEntries(brief.items.map((i) => [i.id, i]));
-  const sorted = [...brief.items].sort((a, b) => b.importance - a.importance);
-  const items = sorted.filter((i) => NEWS.has(i.lens) && (filter === "all" || i.momentum === filter));
+  const top = new Set(brief.top3.map((t) => t.itemId));
+  const rest = [...brief.items].filter((i) => !top.has(i.id)).sort((a, b) => b.importance - a.importance);
+  const ref_ = brief.publishedAt;
   return (
     <main>
-      <header className="masthead">
-        <div className="brand">Signal Brief</div>
-        <div className="meta">{brief.edition} edition · {fmt(brief.publishedAt)}</div>
-        <p className="tag">Agentic AI in practice, and the big picture, for leaders with five minutes.</p>
+      <header>
+        <h1>Signal Brief</h1>
+        <p>{day(ref_)} · {brief.edition}{archived && <> · <a href="/">Latest</a></>}</p>
       </header>
 
-      <section className="top3" aria-label="Top 3">
+      <section>
         <h2>Top 3</h2>
-        <ol>
-          {brief.top3.map((t) => (
-            <li key={t.itemId}>
-              <a href={byId[t.itemId]?.source.url} target="_blank" rel="noopener"><strong>{t.headline}</strong></a>
-              <p><span className="why">Why it matters for leaders:</span> {t.whyItMatters}</p>
-            </li>
-          ))}
+        <ol className="top">
+          {brief.top3.map((t) => {
+            const i = byId[t.itemId];
+            return (
+              <li key={t.itemId}>
+                <a href={i?.source.url} target="_blank" rel="noopener" title={t.headline}>
+                  <h3>{t.headline}</h3>
+                  <p>{t.whyItMatters}</p>
+                  {i && <small>{i.source.name} · {when(i.publishedAt, ref_)}</small>}
+                </a>
+              </li>
+            );
+          })}
         </ol>
       </section>
 
-      <nav className="chips" aria-label="Momentum filter">
-        <button className={filter === "all" ? "on" : ""} onClick={() => setFilter("all")}>All</button>
-        {Object.entries(MOMENTUM).map(([k, m]) => (
-          <button key={k} className={filter === k ? "on" : ""} onClick={() => setFilter(k)}>{m.icon} {m.label}</button>
-        ))}
-      </nav>
-
-      <section className="cards">
-        {items.map((i) => <Card key={i.id} i={i} />)}
-        {items.length === 0 && <p className="empty">Nothing with this tag in this edition.</p>}
-      </section>
-
-      {SECTIONS.map(({ lens, title }) => {
-        const list = sorted.filter((i) => i.lens === lens);
+      {SECTIONS.map((s) => {
+        const list = rest.filter(s.match);
         return list.length > 0 && (
-          <section key={lens} className={`lane ${lens}`} aria-label={title}>
-            <h2>{title}</h2>
-            <div className="cards">{list.map((i) => <Card key={i.id} i={i} />)}</div>
+          <section key={s.key}>
+            <h2>{s.title}</h2>
+            <div className="list">{list.map((i) => <Card key={i.id} i={i} ref_={ref_} />)}</div>
           </section>
         );
       })}
 
       {brief.voices.length > 0 && (
-        <section className="voices" aria-label="Voices">
+        <section>
           <h2>Voices</h2>
-          <div className="strip">
+          <div className="voices">
             {brief.voices.map((v) => (
               <figure key={v.url}>
-                <blockquote><a href={v.url} target="_blank" rel="noopener">“{v.quote}”</a></blockquote>
+                <a href={v.url} target="_blank" rel="noopener"><blockquote>{v.quote}</blockquote></a>
                 <figcaption>@{v.handle}</figcaption>
-                {v.bestReply && (
-                  <div className="reply"><span>Best reply</span> <a href={v.bestReply.url} target="_blank" rel="noopener">“{v.bestReply.quote}”</a> <em>@{v.bestReply.handle}</em></div>
-                )}
+                {v.bestReply && <a className="reply" href={v.bestReply.url} target="_blank" rel="noopener">↳ {v.bestReply.quote} <span>@{v.bestReply.handle}</span></a>}
               </figure>
             ))}
           </div>
         </section>
       )}
 
-      <footer>
-        <h2>Archive</h2>
-        <ul className="archive">
-          {archive.map((id) => <li key={id}><a href={`/archive/${id}/`}>{id.slice(0, 10)} {id.slice(11, 13)}:{id.slice(13)}</a></li>)}
-        </ul>
-        <p className="small">Curated by Irina Vélez from trusted sources. Every item links its original source.</p>
-      </footer>
+      <footer><a href="/archive/">Archive</a></footer>
     </main>
   );
 }
