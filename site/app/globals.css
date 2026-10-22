@@ -103,3 +103,9 @@ a:focus-visible { outline:2px solid var(--accent); outline-offset:4px; border-ra
 .howto small { margin-top:auto; padding-top:12px; }
 .howto small a:hover { color:var(--accent); }
 .empty { color:var(--muted); }
+
+/* Heat: attention signal, not quality */
+b.hot { color:#fff; background:#e8590c; padding:1px 6px; border-radius:6px; margin-right:6px; font-size:.75em; }
+.hotx { display:flex; gap:12px; overflow-x:auto; padding-bottom:4px; }
+.hotx a { flex:0 0 260px; padding:12px; border-radius:12px; background:var(--card); color:inherit; text-decoration:none; }
+.hotx p { margin:8px 0; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }

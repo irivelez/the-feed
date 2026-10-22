@@ -164,6 +164,17 @@
               },
               "points": {
                 "type": "integer"
+              },
+              "views": {
+                "type": "integer"
+              },
+              "capturedAt": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "authorBaseline": {
+                "type": "integer",
+                "description": "median likes of the author's recent ~20 posts"
               }
             }
           },
@@ -213,6 +224,10 @@
             "type": "string",
             "format": "date",
             "description": "First run that saw this story; Editor uses it for momentum."
+          },
+          "topic": {
+            "type": "string",
+            "description": "shared slug for candidates on the same story"
           }
         }
       }

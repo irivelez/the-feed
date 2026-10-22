@@ -94,3 +94,9 @@ The current site reads these files at build time from `site/public/api/` (`site/
 - Brief and candidates `schemaVersion`: `"1.1"` adds lens values `frontier-capital` and `design`. `"1.0"` files stay valid (same shape, two lenses). Editor writes `"1.1"` from now on.
 - `schemaVersion` changes when a data shape changes. Additive optional fields: no bump. Anything that breaks a reader: bump, update the schema, and update the reader in the same commit.
 - `version` in config files tracks edits to inputs.
+
+## Heat (attention, not quality)
+- Signal captures real X metrics per candidate in `metrics` (likes, reposts, replies, views, capturedAt, authorBaseline) and a shared `topic` slug for candidates on the same story. Real numbers only.
+- Editor runs `node pipeline/scripts/heat.mjs /tmp/brief-<id>.json` before publish. It adds optional `item.heat` {score, level none|warm|hot, metric, voices}: engagement (likes + 2*reposts + replies) relative to the author's baseline, plus +10 per extra trusted voice on the same topic (max +30). Hot >= 70, warm >= 40. It never changes selection or order and always exits 0.
+- Editor fills optional `hotOnX` (3-5 most-engaged X posts from candidates: url, handle, text <=140, metric, note <=20 words on why people care). Omit it if fewer than 3 posts have real metrics.
+- The site shows a small "Hot" tag, the metric and voice count in the source line, and a "Hot on X" strip after Top 3. Each one is hidden when its data is absent.

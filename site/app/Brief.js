@@ -13,6 +13,7 @@ const day = (iso) => new Date(iso).toLocaleDateString("en-US", { timeZone: "Amer
 const short = (iso) => new Date(iso).toLocaleDateString("en-US", { timeZone: "America/Bogota", month: "short", day: "numeric" });
 const when = (iso, ref) => (day(iso) === day(ref) ? `${short(iso)}, ${time(iso)}` : short(iso));
 const MAX_AGE_DAYS = 28;
+const heatTxt = (i) => (i.heat && i.heat.level !== "none" ? ` · ${i.heat.metric}${i.heat.voices ? ` · ${i.heat.voices} voices` : ""}` : "");
 function Pic({ i, eager }) {
   return i.image
     ? <img src={i.image.src} alt={i.image.alt} loading={eager ? "eager" : "lazy"} />
@@ -25,7 +26,7 @@ function Card({ i, ref_ }) {
       <Pic i={i} />
       <h3>{i.title}</h3>
       <p>{i.soWhat}</p>
-      <small>{i.momentum !== "new" && <b>{TAG[i.momentum]}</b>}{i.source.name} · {when(i.publishedAt, ref_)}</small>
+      <small>{i.heat?.level === "hot" && <b className="hot">Hot</b>}{i.momentum !== "new" && <b>{TAG[i.momentum]}</b>}{i.source.name} · {when(i.publishedAt, ref_)}{heatTxt(i)}</small>
     </a>
   );
 }
@@ -50,12 +51,27 @@ export default function Brief({ brief, archived, narrative }) {
                 <Pic i={i} eager />
                 <h3>{t.headline}</h3>
                 <p>{t.whyItMatters}</p>
-                <small>{i.source.name} · {when(i.publishedAt, ref_)}</small>
+                <small>{i.heat?.level === "hot" && <b className="hot">Hot</b>}{i.source.name} · {when(i.publishedAt, ref_)}{heatTxt(i)}</small>
               </a>
             );
           })}
         </div>
       </section>
+
+      {brief.hotOnX?.length >= 3 && (
+        <section>
+          <h2>Hot on X</h2>
+          <div className="hotx">
+            {brief.hotOnX.map((h) => (
+              <a key={h.url} href={h.url} target="_blank" rel="noopener">
+                <b className="hot">{h.metric}</b>
+                <p>{h.text}</p>
+                <small>@{h.handle}{h.note ? ` · ${h.note}` : ""}</small>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
 
       <Narrative n={narrative} currentBriefId={brief.id} />
 

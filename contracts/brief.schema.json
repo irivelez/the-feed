@@ -182,6 +182,37 @@
                 }
               }
             }
+          },
+          "heat": {
+            "type": "object",
+            "additionalProperties": false,
+            "description": "Attention signal from X engagement, NOT quality. Set by pipeline/scripts/heat.mjs.",
+            "required": [
+              "score",
+              "level"
+            ],
+            "properties": {
+              "score": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "level": {
+                "enum": [
+                  "none",
+                  "warm",
+                  "hot"
+                ]
+              },
+              "metric": {
+                "type": "string",
+                "maxLength": 24
+              },
+              "voices": {
+                "type": "integer",
+                "minimum": 1
+              }
+            }
           }
         }
       }
@@ -229,6 +260,42 @@
                 "format": "uri"
               }
             }
+          }
+        }
+      }
+    },
+    "hotOnX": {
+      "type": "array",
+      "maxItems": 5,
+      "description": "Most-engaged X posts from candidates (attention, not quality).",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "url",
+          "handle",
+          "text",
+          "metric"
+        ],
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "handle": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string",
+            "maxLength": 140
+          },
+          "metric": {
+            "type": "string",
+            "maxLength": 24
+          },
+          "note": {
+            "type": "string",
+            "maxLength": 140
           }
         }
       }
