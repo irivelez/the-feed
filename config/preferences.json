@@ -1,18 +1,30 @@
 {
   "$schema": "../contracts/preferences.schema.json",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "updated": "2026-10-22",
   "language": "en",
   "lenses": {
     "practical": {
       "label": "Practical",
-      "weight": 0.5,
+      "weight": 0.4,
       "description": "Agentic AI builders actually ship: agents, Claude Code, multi-agent, SDKs, workflows."
     },
     "broad": {
       "label": "Broad picture",
-      "weight": 0.5,
+      "weight": 0.35,
       "description": "Where AI is going and why it matters for leaders: labs, capital, policy, platform shifts."
+    },
+    "frontier-capital": {
+      "label": "Frontier capital",
+      "weight": 0.15,
+      "description": "Original views on how the world works from quiet, deep-thinking investors and early backers outside the SF mainstream. Kept apart from daily AI news.",
+      "section": "Frontier capital: views from the world's quiet investors"
+    },
+    "design": {
+      "label": "Design",
+      "weight": 0.1,
+      "description": "AI and product design: interfaces, craft, tools.",
+      "section": "Design"
     }
   },
   "topics": {
@@ -40,8 +52,26 @@
   "counts": {
     "top3": 3,
     "minItems": 8,
-    "maxItems": 16,
-    "voices": 5
+    "maxItems": 26,
+    "voices": 5,
+    "perLens": {
+      "practical": {
+        "min": 4,
+        "max": 8
+      },
+      "broad": {
+        "min": 4,
+        "max": 8
+      },
+      "frontier-capital": {
+        "min": 0,
+        "max": 5
+      },
+      "design": {
+        "min": 0,
+        "max": 5
+      }
+    }
   },
   "refresh": {
     "timezone": "America/Bogota",

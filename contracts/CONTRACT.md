@@ -13,8 +13,8 @@ site/         PRESENTATION  Next.js; reads only /api JSON
 
 | File | Schema | What |
 |---|---|---|
-| `config/sources.json` | `contracts/sources.schema.json` | X lists (`x.howTo`, `x.bigPicture`), X queries, RSS feeds (incl. The Atlantic), arXiv, Hacker News, retired sources |
-| `config/preferences.json` | `contracts/preferences.schema.json` | lenses and weights, topics to boost or mute, momentum windows, item counts, refresh times |
+| `config/sources.json` | `contracts/sources.schema.json` | X lanes (`x.howTo`, `x.bigPicture`, `x.frontierCapital`, `x.design`), X queries, RSS feeds (incl. The Atlantic; optional `lane`), `web` pages without a feed, arXiv, Hacker News, retired sources |
+| `config/preferences.json` | `contracts/preferences.schema.json` | lenses, weights and section titles, per-lens item counts (`counts.perLens`), topics to boost or mute, momentum windows, item counts, refresh times |
 
 - This is the only place inputs change. Irina or Chief of Staff edits the file directly; no approval workflow.
 - Bots read config and never write it. If a source is dead, Signal reports it in `sourceNotes`; a human removes it.
@@ -45,6 +45,17 @@ Validates the brief (schema, unique ids, top3 ids exist, images exist, id matche
 If invalid: exit 1, nothing is written, `/api/latest.json` keeps the last good brief.
 `--check-all` validates config, all candidates and all published briefs.
 
+## Lanes and lenses
+
+| Source lane (config) | Brief `lens` | Where it shows |
+|---|---|---|
+| `howTo` | `practical` | main news grid |
+| `bigPicture` | `broad` | main news grid |
+| `frontierCapital` | `frontier-capital` | own section "Frontier capital: views from the world's quiet investors", apart from daily AI news |
+| `design` | `design` | own section "Design" |
+
+Editor picks per-lens counts from `preferences.counts.perLens` (frontier-capital and design: 0–5; a section with no items is hidden). Frontier-capital items are views and ideas, not market tips; link the person's own post or page.
+
 ## 3. Presentation: `site/`
 
 The site's only data source is the public API:
@@ -59,5 +70,6 @@ The site's only data source is the public API:
 The current site reads these files at build time from `site/public/api/` (`site/lib/api.js`) and pre-renders every page. A redesign may replace everything in `site/` except `site/public/api/` and `site/public/img/`, as long as it reads only those URLs. It must not import from `pipeline/`, `contracts/` or `config/`.
 
 ## Versioning
+- Brief and candidates `schemaVersion`: `"1.1"` adds lens values `frontier-capital` and `design`. `"1.0"` files stay valid (same shape, two lenses). Editor writes `"1.1"` from now on.
 - `schemaVersion` changes when a data shape changes. Additive optional fields: no bump. Anything that breaks a reader: bump, update the schema, and update the reader in the same commit.
 - `version` in config files tracks edits to inputs.

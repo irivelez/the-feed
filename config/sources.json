@@ -1,6 +1,6 @@
 {
   "$schema": "../contracts/sources.schema.json",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "updated": "2026-10-22",
   "x": {
     "howTo": [
@@ -10,8 +10,6 @@
       "cursor_ai",
       "bcherny",
       "gregisenberg",
-      "joaomdmoura",
-      "alliekmiller",
       "swyx",
       "simonw",
       "hwchase17",
@@ -30,8 +28,12 @@
       "AlexFinn",
       "ThePrimeagen",
       "tibo_maker",
-      "MengTo",
-      "mattyp"
+      "mattyp",
+      "mattpocockuk",
+      "claudeai",
+      "NousResearch",
+      "amasad",
+      "dillonrolnick"
     ],
     "bigPicture": [
       "sama",
@@ -59,7 +61,29 @@
       "garrytan",
       "rauchg",
       "beffjezos",
-      "nikitabier"
+      "nikitabier",
+      "eastdakota",
+      "ycombinator",
+      "patrickc",
+      "stratechery"
+    ],
+    "frontierCapital": [
+      "Metaplanet",
+      "gerovich",
+      "soundboy",
+      "nathanbenaich",
+      "LynAldenContact",
+      "LukeGromen",
+      "TaviCosta",
+      "VitalikButerin"
+    ],
+    "design": [
+      "MengTo",
+      "jsngr",
+      "raunofreiberg",
+      "emilkowalski",
+      "karrisaarinen",
+      "soleio"
     ],
     "queries": [
       "Claude Skills",
@@ -132,6 +156,12 @@
       "name": "The Atlantic Technology",
       "url": "https://www.theatlantic.com/feed/channel/technology/",
       "headlineOnly": true
+    },
+    {
+      "name": "Metaplanet news (Google News)",
+      "url": "https://news.google.com/rss/search?q=Metaplanet&hl=en-US&gl=US&ceid=US:en",
+      "lane": "frontierCapital",
+      "note": "metaplanet.com/news has no feed; it lists these same Google News items."
     }
   ],
   "arxiv": {
@@ -201,5 +231,13 @@
         "braveSourceOverrides": "Renamed to sourceOverrides — nothing Brave-related survives."
       }
     }
-  }
+  },
+  "web": [
+    {
+      "name": "Jaan Tallinn",
+      "url": "https://jaan.info/priorities/",
+      "lane": "frontierCapital",
+      "note": "No verified X account found; his own site states his current priorities. Check monthly for changes."
+    }
+  ]
 }

@@ -42,3 +42,7 @@ figcaption { color:var(--mute); font-size:.85rem; margin-top:6px; }
 .archive { list-style:none; padding:0; display:flex; flex-wrap:wrap; gap:8px 16px; }
 .small, .empty { color:var(--mute); font-size:.85rem; }
 .archived { max-width:1080px; margin:12px auto 0; padding:0 16px; font-size:.9rem; color:var(--mute); }
+.lane { margin-top:40px; padding-top:16px; border-top:2px solid currentColor; }
+.lane h2 { margin-bottom:16px; }
+.lens.frontier-capital { color:#9a5b00; } .lens.design { color:#0b62a8; }
+@media (prefers-color-scheme: dark) { .lens.frontier-capital { color:#f0b45a; } .lens.design { color:#7cc0f5; } }

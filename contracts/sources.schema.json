@@ -2,25 +2,194 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Signal Brief sources (config/sources.json)",
   "type": "object",
-  "required": ["version", "x", "rss", "arxiv", "hackerNews"],
+  "required": [
+    "version",
+    "x",
+    "rss",
+    "arxiv",
+    "hackerNews"
+  ],
   "properties": {
-    "$schema": { "type": "string" },
-    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
-    "updated": { "type": "string", "format": "date" },
+    "$schema": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
     "x": {
-      "type": "object", "required": ["howTo", "bigPicture"],
+      "type": "object",
+      "required": [
+        "howTo",
+        "bigPicture"
+      ],
       "properties": {
-        "howTo": { "type": "array", "items": { "type": "string", "pattern": "^[A-Za-z0-9_]{1,15}$" }, "uniqueItems": true },
-        "bigPicture": { "type": "array", "items": { "type": "string", "pattern": "^[A-Za-z0-9_]{1,15}$" }, "uniqueItems": true },
-        "queries": { "type": "array", "items": { "type": "string" } },
-        "hotThresholdLikes": { "type": "integer", "minimum": 0 },
-        "replies": { "type": "object", "properties": { "capture": { "type": "boolean" }, "minFollowers": { "type": "integer" }, "minLikes": { "type": "integer" } } }
+        "howTo": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_]{1,15}$"
+          },
+          "uniqueItems": true
+        },
+        "bigPicture": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_]{1,15}$"
+          },
+          "uniqueItems": true
+        },
+        "queries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "hotThresholdLikes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "replies": {
+          "type": "object",
+          "properties": {
+            "capture": {
+              "type": "boolean"
+            },
+            "minFollowers": {
+              "type": "integer"
+            },
+            "minLikes": {
+              "type": "integer"
+            }
+          }
+        },
+        "frontierCapital": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_]{1,15}$"
+          },
+          "uniqueItems": true
+        },
+        "design": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_]{1,15}$"
+          },
+          "uniqueItems": true
+        }
       }
     },
-    "rss": { "type": "array", "items": { "type": "object", "required": ["name", "url"], "properties": { "name": { "type": "string" }, "url": { "type": "string", "format": "uri" }, "contrarian": { "type": "boolean" }, "headlineOnly": { "type": "boolean" } }, "additionalProperties": false } },
-    "arxiv": { "type": "object", "required": ["categories"], "properties": { "categories": { "type": "array", "items": { "type": "string" } }, "topicFilter": { "type": "string" } } },
-    "hackerNews": { "type": "object", "required": ["minPoints"], "properties": { "minPoints": { "type": "integer" }, "topicFilter": { "type": "string" } } },
-    "retired": { "type": "object" }
+    "rss": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "url"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "contrarian": {
+            "type": "boolean"
+          },
+          "headlineOnly": {
+            "type": "boolean"
+          },
+          "lane": {
+            "enum": [
+              "howTo",
+              "bigPicture",
+              "frontierCapital",
+              "design"
+            ]
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "arxiv": {
+      "type": "object",
+      "required": [
+        "categories"
+      ],
+      "properties": {
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "topicFilter": {
+          "type": "string"
+        }
+      }
+    },
+    "hackerNews": {
+      "type": "object",
+      "required": [
+        "minPoints"
+      ],
+      "properties": {
+        "minPoints": {
+          "type": "integer"
+        },
+        "topicFilter": {
+          "type": "string"
+        }
+      }
+    },
+    "retired": {
+      "type": "object"
+    },
+    "web": {
+      "type": "array",
+      "description": "Pages without a feed, checked by Signal for new content.",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "url",
+          "lane"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "lane": {
+            "enum": [
+              "howTo",
+              "bigPicture",
+              "frontierCapital",
+              "design"
+            ]
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    }
   },
   "additionalProperties": false
 }

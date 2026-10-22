@@ -6,7 +6,28 @@ const MOMENTUM = {
   building: { label: "Building this week", icon: "📈" },
   shift: { label: "Shift this month", icon: "🧭" },
 };
-const LENS = { practical: "Practical", broad: "Broad picture" };
+const LENS = { practical: "Practical", broad: "Broad picture", "frontier-capital": "Frontier capital", design: "Design" };
+// Lenses shown in their own section, apart from the daily AI news. Hidden when empty.
+const SECTIONS = [
+  { lens: "frontier-capital", title: "Frontier capital: views from the world's quiet investors" },
+  { lens: "design", title: "Design" },
+];
+const NEWS = new Set(["practical", "broad"]);
+
+function Card({ i }) {
+  return (
+    <article className="card">
+      {i.image && <a href={i.source.url} target="_blank" rel="noopener"><img src={i.image.src} alt={i.image.alt} loading="lazy" /></a>}
+      <div className="body">
+        <div className="badges"><span className="m">{MOMENTUM[i.momentum].icon} {MOMENTUM[i.momentum].label}</span><span className={`lens ${i.lens}`}>{LENS[i.lens]}</span></div>
+        <h3>{i.title}</h3>
+        <p className="takeaway">{i.takeaway}</p>
+        <p className="sowhat"><strong>So what:</strong> {i.soWhat}</p>
+        <div className="foot"><a href={i.source.url} target="_blank" rel="noopener">{i.source.name} ↗</a><time>{fmt(i.publishedAt)}</time></div>
+      </div>
+    </article>
+  );
+}
 
 function fmt(iso) {
   return new Date(iso).toLocaleString("en-US", { timeZone: "America/Bogota", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) + " COT";
@@ -15,8 +36,8 @@ function fmt(iso) {
 export default function Brief({ brief, archive }) {
   const [filter, setFilter] = useState("all");
   const byId = Object.fromEntries(brief.items.map((i) => [i.id, i]));
-  const items = [...brief.items].sort((a, b) => b.importance - a.importance)
-    .filter((i) => filter === "all" || i.momentum === filter);
+  const sorted = [...brief.items].sort((a, b) => b.importance - a.importance);
+  const items = sorted.filter((i) => NEWS.has(i.lens) && (filter === "all" || i.momentum === filter));
   return (
     <main>
       <header className="masthead">
@@ -45,20 +66,19 @@ export default function Brief({ brief, archive }) {
       </nav>
 
       <section className="cards">
-        {items.map((i) => (
-          <article key={i.id} className="card">
-            {i.image && <a href={i.source.url} target="_blank" rel="noopener"><img src={i.image.src} alt={i.image.alt} loading="lazy" /></a>}
-            <div className="body">
-              <div className="badges"><span className="m">{MOMENTUM[i.momentum].icon} {MOMENTUM[i.momentum].label}</span><span className={`lens ${i.lens}`}>{LENS[i.lens]}</span></div>
-              <h3>{i.title}</h3>
-              <p className="takeaway">{i.takeaway}</p>
-              <p className="sowhat"><strong>So what:</strong> {i.soWhat}</p>
-              <div className="foot"><a href={i.source.url} target="_blank" rel="noopener">{i.source.name} ↗</a><time>{fmt(i.publishedAt)}</time></div>
-            </div>
-          </article>
-        ))}
+        {items.map((i) => <Card key={i.id} i={i} />)}
         {items.length === 0 && <p className="empty">Nothing with this tag in this edition.</p>}
       </section>
+
+      {SECTIONS.map(({ lens, title }) => {
+        const list = sorted.filter((i) => i.lens === lens);
+        return list.length > 0 && (
+          <section key={lens} className={`lane ${lens}`} aria-label={title}>
+            <h2>{title}</h2>
+            <div className="cards">{list.map((i) => <Card key={i.id} i={i} />)}</div>
+          </section>
+        );
+      })}
 
       {brief.voices.length > 0 && (
         <section className="voices" aria-label="Voices">

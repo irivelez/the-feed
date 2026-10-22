@@ -15,7 +15,11 @@
   "additionalProperties": false,
   "properties": {
     "schemaVersion": {
-      "const": "1.0"
+      "enum": [
+        "1.0",
+        "1.1"
+      ],
+      "description": "1.1 adds lens values frontier-capital and design. 1.0 briefs stay valid."
     },
     "id": {
       "type": "string",
@@ -105,7 +109,9 @@
           "lens": {
             "enum": [
               "practical",
-              "broad"
+              "broad",
+              "frontier-capital",
+              "design"
             ]
           },
           "momentum": {
