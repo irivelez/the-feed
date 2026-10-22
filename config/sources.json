@@ -1,0 +1,205 @@
+{
+  "$schema": "../contracts/sources.schema.json",
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "x": {
+    "howTo": [
+      "ClaudeDevs",
+      "alexalbert__",
+      "LangChain",
+      "cursor_ai",
+      "bcherny",
+      "gregisenberg",
+      "joaomdmoura",
+      "alliekmiller",
+      "swyx",
+      "simonw",
+      "hwchase17",
+      "jxnlco",
+      "mckaywrigley",
+      "kloss_xyz",
+      "ryancarson",
+      "ronycoder",
+      "steipete",
+      "rubenhassid",
+      "startupideaspod",
+      "systematicls",
+      "rowancheung",
+      "mattshumer_",
+      "poteto",
+      "AlexFinn",
+      "ThePrimeagen",
+      "tibo_maker",
+      "MengTo",
+      "mattyp"
+    ],
+    "bigPicture": [
+      "sama",
+      "DarioAmodei",
+      "elonmusk",
+      "sundarpichai",
+      "satyanadella",
+      "JensenHuang",
+      "demishassabis",
+      "karpathy",
+      "alexandr_wang",
+      "AravSrinivas",
+      "AnthropicAI",
+      "OpenAI",
+      "GoogleDeepMind",
+      "GoogleAI",
+      "deepseek_ai",
+      "ylecun",
+      "AndrewYNg",
+      "DrJimFan",
+      "EMostaque",
+      "DavidSacks",
+      "pmarca",
+      "a16z",
+      "garrytan",
+      "rauchg",
+      "beffjezos",
+      "nikitabier"
+    ],
+    "queries": [
+      "Claude Skills",
+      "Claude skills build",
+      "Claude Code tutorial",
+      "Claude Code workflow",
+      "step-by-step agentic guide",
+      "multi-agent orchestration",
+      "agent SDK production",
+      "Ralph loop",
+      "loop engineering",
+      "built and shipped with AI",
+      "build SaaS with Claude Code",
+      "solo founder AI agents"
+    ],
+    "hotThresholdLikes": 10000,
+    "replies": {
+      "capture": true,
+      "minFollowers": 1000,
+      "minLikes": 5
+    }
+  },
+  "rss": [
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/"
+    },
+    {
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    },
+    {
+      "name": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/feed/"
+    },
+    {
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml"
+    },
+    {
+      "name": "Lenny Rachitsky",
+      "url": "https://www.lennysnewsletter.com/feed"
+    },
+    {
+      "name": "Ben Thompson (Stratechery)",
+      "url": "https://stratechery.com/feed/"
+    },
+    {
+      "name": "Benedict Evans",
+      "url": "https://www.ben-evans.com/benedictevans?format=rss"
+    },
+    {
+      "name": "One Useful Thing (Ethan Mollick)",
+      "url": "https://www.oneusefulthing.org/feed"
+    },
+    {
+      "name": "Dwarkesh Patel",
+      "url": "https://www.dwarkeshpatel.com/feed"
+    },
+    {
+      "name": "Gary Marcus",
+      "url": "https://garymarcus.substack.com/feed",
+      "contrarian": true
+    },
+    {
+      "name": "Mitchell Hashimoto",
+      "url": "https://mitchellh.com/feed.xml"
+    },
+    {
+      "name": "The Atlantic Technology",
+      "url": "https://www.theatlantic.com/feed/channel/technology/",
+      "headlineOnly": true
+    }
+  ],
+  "arxiv": {
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.MA"
+    ],
+    "topicFilter": "agents only"
+  },
+  "hackerNews": {
+    "minPoints": 200,
+    "topicFilter": "AI"
+  },
+  "retired": {
+    "2026-07-26": {
+      "reason": "Probed live, not assumed. Removed sources that return nothing.",
+      "subreddits": "Brave Search key returns HTTP 422 on every request incl. q=test — dead at the key, not the query. Reddit coverage moves to /last30days (native Reddit source).",
+      "rssFeeds": {
+        "Anthropic Blog": "HTTP 404 on rss.xml, news/rss.xml, feed.xml — no working feed exists. Covered via @AnthropicAI on X + HN.",
+        "Allie K. Miller": "HTTP 404 on substack feed.",
+        "Paul Graham": "Feed carries no pubDate — every item fails the recency filter, always. Yielded 0 for the life of the fetcher."
+      },
+      "xHandles": {
+        "DanielaAmodei": "Last tweet Apr 2022 — dead 4 years.",
+        "crewAIInc": "Last tweet 66 days ago — dormant.",
+        "GanimCorey": "bird returns 0 tweets — account gone or renamed.",
+        "rileybrown_ai": "bird returns 0 tweets — account gone or renamed.",
+        "_note": "Probed individually. AnthropicAI/GoogleAI/GoogleDeepMind/mckaywrigley/rowancheung/DarioAmodei also yielded 0 but are ALIVE — kept, and the trusted-tier window was widened to 7d to stop discarding them."
+      },
+      "queries": {
+        "dropped": [
+          "Claude Code commands tricks",
+          "Claude Code tips",
+          "Claude subagents",
+          "Claude agent SDK",
+          "Agent Skills Claude",
+          "MCP server Claude",
+          "autonomous AI agent",
+          "agentic workflow build",
+          "production grade AI agent",
+          "Claude Code free alternative",
+          "npx skills Claude",
+          "site:bloomberglinea.com AI inteligencia artificial tecnología"
+        ],
+        "_note": "Probed individually 2026-07-26 against the fetcher own filter (3d fresh, >=100 likes, >=60 chars). Each returned ZERO passing items. site:bloomberglinea.com returned 0 raw — bird does not support the site: operator."
+      },
+      "contentQueries": {
+        "dropped": [
+          "built this with Claude Code",
+          "built this with AI in hours",
+          "AI replaced my workflow results",
+          "I automated my business with AI",
+          "AI side hustle making money",
+          "AI workflow before after results",
+          "non-technical founder built with AI",
+          "how I automate with Claude Code",
+          "I built my startup with AI agents",
+          "Claude Code replaced my workflow"
+        ],
+        "_note": "All 10 probed. ZERO passing items across the entire lane (>=200 likes, >=80 chars, 3d). Aimed at the retired AI-hustle positioning."
+      },
+      "deadFields": {
+        "broadSearchQualityFilter": "Never read by the fetcher. minViews/minFollowers/bioKeywords are UNIMPLEMENTABLE — bird returns only {username,name} per author and viewCount is undefined. Surviving intent kept as qualityFilter.minLikes.",
+        "topicFilters": "Never read. [\"AI tools\",\"prompts\",\"automation\",\"no-code\",\"productivity\",\"Claude\",\"ChatGPT\",\"workflow\",\"tutorial\",\"how-to\",\"agents\"] — encodes the retired positioning.",
+        "maxResults": "Never read (20). The fetcher has no global cap concept.",
+        "braveSourceOverrides": "Renamed to sourceOverrides — nothing Brave-related survives."
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import Brief from "../../Brief";
-import { brief, archiveIds } from "../../../lib/briefs";
+import { brief, archiveIds } from "../../../lib/api";
 export const dynamicParams = false;
 export function generateStaticParams() {
   return archiveIds().map((id) => ({ id }));

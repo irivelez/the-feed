@@ -1,0 +1,13 @@
+{
+  "name": "signal-brief-pipeline",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/publish.mjs --check-all",
+    "publish-brief": "node scripts/publish.mjs"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}

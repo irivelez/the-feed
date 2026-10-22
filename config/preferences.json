@@ -1,0 +1,59 @@
+{
+  "$schema": "../contracts/preferences.schema.json",
+  "version": "1.0.0",
+  "updated": "2026-10-22",
+  "language": "en",
+  "lenses": {
+    "practical": {
+      "label": "Practical",
+      "weight": 0.5,
+      "description": "Agentic AI builders actually ship: agents, Claude Code, multi-agent, SDKs, workflows."
+    },
+    "broad": {
+      "label": "Broad picture",
+      "weight": 0.5,
+      "description": "Where AI is going and why it matters for leaders: labs, capital, policy, platform shifts."
+    }
+  },
+  "topics": {
+    "boost": [
+      "AI agents",
+      "agent security",
+      "Claude Code",
+      "multi-agent orchestration",
+      "agent standards (MCP, Skills)",
+      "inference cost",
+      "enterprise AI adoption",
+      "Latin America"
+    ],
+    "mute": [
+      "crypto price moves",
+      "meme coins",
+      "partisan politics"
+    ]
+  },
+  "momentum": {
+    "newHours": 24,
+    "buildingDays": 7,
+    "shiftDays": 30
+  },
+  "counts": {
+    "top3": 3,
+    "minItems": 8,
+    "maxItems": 16,
+    "voices": 5
+  },
+  "refresh": {
+    "timezone": "America/Bogota",
+    "times": [
+      "07:00",
+      "13:00",
+      "19:00"
+    ]
+  },
+  "quality": {
+    "requireSourceLink": true,
+    "requireFirsthandProof": true,
+    "maxSourceAgeDays": 30
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0",
+  "latest": "2026-10-22-1400",
+  "count": 1,
+  "briefs": [
+    {
+      "id": "2026-10-22-1400",
+      "date": "2026-10-22",
+      "edition": "Midday",
+      "publishedAt": "2026-10-22T19:00:00Z",
+      "headline": "A wave of breaches and critical flaws hit the infrastructure agents run on.",
+      "url": "/api/briefs/2026-10-22-1400.json"
+    }
+  ]
+}

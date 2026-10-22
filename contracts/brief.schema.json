@@ -1,0 +1,231 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Signal Brief (site/public/api/briefs/<id>.json and latest.json), written by Editor, read by the site",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "date",
+    "publishedAt",
+    "edition",
+    "top3",
+    "items",
+    "voices"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}-\\d{4}$"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "publishedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "edition": {
+      "enum": [
+        "Morning",
+        "Midday",
+        "Evening"
+      ]
+    },
+    "top3": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "itemId",
+          "headline",
+          "whyItMatters"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "itemId": {
+            "type": "string"
+          },
+          "headline": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 160
+          },
+          "whyItMatters": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 240
+          }
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "takeaway",
+          "soWhat",
+          "lens",
+          "momentum",
+          "source",
+          "publishedAt",
+          "importance"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 140
+          },
+          "takeaway": {
+            "type": "string",
+            "minLength": 20,
+            "maxLength": 280
+          },
+          "soWhat": {
+            "type": "string",
+            "minLength": 10,
+            "maxLength": 220
+          },
+          "lens": {
+            "enum": [
+              "practical",
+              "broad"
+            ]
+          },
+          "momentum": {
+            "enum": [
+              "new",
+              "building",
+              "shift"
+            ]
+          },
+          "importance": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10
+          },
+          "publishedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "image": {
+            "type": "object",
+            "required": [
+              "src",
+              "alt"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "src": {
+                "type": "string",
+                "pattern": "^/img/"
+              },
+              "alt": {
+                "type": "string"
+              }
+            }
+          },
+          "source": {
+            "type": "object",
+            "required": [
+              "name",
+              "url"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          },
+          "related": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "name",
+                "url"
+              ],
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "voices": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "handle",
+          "quote",
+          "url"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "handle": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string",
+            "maxLength": 280
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "bestReply": {
+            "type": "object",
+            "required": [
+              "handle",
+              "quote",
+              "url"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "handle": {
+                "type": "string"
+              },
+              "quote": {
+                "type": "string",
+                "maxLength": 280
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
