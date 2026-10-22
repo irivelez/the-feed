@@ -97,6 +97,6 @@ The current site reads these files at build time from `site/public/api/` (`site/
 
 ## Heat (attention, not quality)
 - Signal captures real X metrics per candidate in `metrics` (likes, reposts, replies, views, capturedAt, authorBaseline) and a shared `topic` slug for candidates on the same story. Real numbers only.
-- Editor runs `node pipeline/scripts/heat.mjs /tmp/brief-<id>.json` before publish. It adds optional `item.heat` {score, level none|warm|hot, metric, voices}: engagement (likes + 2*reposts + replies) relative to the author's baseline, plus +10 per extra trusted voice on the same topic (max +30). Hot >= 70, warm >= 40. It never changes selection or order and always exits 0.
+- Editor runs `node pipeline/scripts/heat.mjs /tmp/brief-<id>.json` before publish. It adds optional `item.heat` {score, level none|warm|hot, metric, voices}: the higher of absolute reach (log of likes + 2*reposts + replies, so a huge account's viral post still shows) and engagement relative to the author's baseline (so a small account's breakout shows), plus +10 per extra trusted voice on the same topic (max +30). Hot >= 70, warm >= 40. It never changes selection or order and always exits 0.
 - Editor fills optional `hotOnX` (3-5 most-engaged X posts from candidates: url, handle, text <=140, metric, note <=20 words on why people care). Omit it if fewer than 3 posts have real metrics.
 - The site shows a small "Hot" tag, the metric and voice count in the source line, and a "Hot on X" strip after Top 3. Each one is hidden when its data is absent.

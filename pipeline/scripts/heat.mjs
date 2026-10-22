@@ -19,7 +19,10 @@ try {
     const c = byId.get(it.id) || byUrl.get(it.source?.url); const m = c?.metrics;
     if (!m || m.likes == null) continue;
     const eng = (m.likes || 0) + 2 * (m.reposts || 0) + (m.replies || 0);
-    let score = m.authorBaseline ? Math.min(80, 25 * Math.log2(1 + eng / (1.5 * m.authorBaseline))) : Math.min(50, 8 * Math.log10(1 + eng));
+    // Raw reach counts too: a huge account's post is still viral (absolute), and a small account's breakout counts (relative). Take the higher.
+    const absolute = Math.min(80, Math.max(0, 16 * (Math.log10(1 + eng) - 2))); // ~1k eng = 16, 10k = 32, 100k = 48, 1M = 64
+    const relative = m.authorBaseline ? Math.min(80, 25 * Math.log2(1 + eng / (1.5 * m.authorBaseline))) : 0;
+    let score = Math.max(absolute, relative);
     const voices = c.topic ? voicesByTopic[c.topic]?.size || 1 : 1;
     score = Math.round(Math.min(100, score + Math.min(30, 10 * (voices - 1))));
     const level = score >= 70 ? "hot" : score >= 40 ? "warm" : "none";
