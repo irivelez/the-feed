@@ -1,0 +1,19 @@
+{
+  "name": "signal-brief",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "validate": "node scripts/publish.mjs --check data/latest.json",
+    "publish-brief": "node scripts/publish.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}

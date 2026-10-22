@@ -1,0 +1,389 @@
+{
+  "id": "2026-10-22-1400",
+  "date": "2026-10-22",
+  "publishedAt": "2026-10-22T19:00:00Z",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "security-wave",
+      "headline": "A wave of breaches and critical flaws hit the infrastructure agents run on.",
+      "whyItMatters": "Every agent key is a credit card with no fraud checks. One key per agent, spend caps and rotation are this week's to-do."
+    },
+    {
+      "itemId": "agent-skills-foundation",
+      "headline": "Agent Skills becomes an open standard, already in 70+ platforms.",
+      "whyItMatters": "Your team's know-how, written once as skills, now works across ChatGPT, Cursor, Copilot and Claude."
+    },
+    {
+      "itemId": "claude-duet",
+      "headline": "Four labs have shipped always-on agents in about 10 weeks.",
+      "whyItMatters": "Agents with their own computer are the new default. The decision is whom you trust with your accounts."
+    }
+  ],
+  "items": [
+    {
+      "id": "agent-skills-foundation",
+      "title": "Anthropic hands Agent Skills to the Agentic AI Foundation, the same home as MCP",
+      "takeaway": "Anthropic is donating the Agent Skills standard to the Agentic AI Foundation. Since December 2025, 70+ agent platforms have integrated it, including ChatGPT, Cursor, GitHub Copilot and VS Code.",
+      "soWhat": "Skills you write for one agent now travel across vendors. Invest in a skills library, not in one tool.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-10-22T17:55:59Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2113328526413996100"
+      },
+      "image": {
+        "src": "/img/agent-skills-foundation.jpg",
+        "alt": "Screenshot of the X post: @ClaudeDevs on X"
+      }
+    },
+    {
+      "id": "security-wave",
+      "title": "Black October: Railway breach leaked customer API keys as Node.js, PHP2Shell and GitLab flaws hit",
+      "takeaway": "Railway disclosed a breach that may have exposed customer API keys and secrets. Critical Node.js, PHP2Shell and GitLab patches landed the same day. Vercel shipped firewall mitigations before the Node.js patch.",
+      "soWhat": "Agent keys work like credit cards with no fraud checks. One key per agent, IP allowlists, rotate now.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 10,
+      "publishedAt": "2026-10-21T23:08:40Z",
+      "source": {
+        "name": "@gregisenberg on X",
+        "url": "https://x.com/gregisenberg/status/2113044829957459984"
+      },
+      "related": [
+        {
+          "name": "X News: critical vulnerabilities on Oct 21",
+          "url": "https://x.com/i/trending/2112509508182307302"
+        },
+        {
+          "name": "@rauchg on the Node.js RCE",
+          "url": "https://x.com/rauchg/status/2113050053724221732"
+        },
+        {
+          "name": "OpenAI: Patch the Planet",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
+        }
+      ],
+      "image": {
+        "src": "/img/security-wave.jpg",
+        "alt": "Screenshot of the X post: @gregisenberg on X"
+      }
+    },
+    {
+      "id": "chatgpt-ads-89-countries",
+      "title": "ChatGPT Ads reach 89 countries, including 14 in Latin America",
+      "takeaway": "OpenAI added 26 countries to ChatGPT Ads, among them Argentina, Chile, Colombia and Peru. More than 100,000 advertisers have used the platform in about eight months.",
+      "soWhat": "Being found inside AI answers is now a paid channel. Marketing budgets need a line for it.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-10-21T12:00:00Z",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries"
+      },
+      "image": {
+        "src": "/img/chatgpt-ads-89-countries.jpg",
+        "alt": "Source image: OpenAI"
+      }
+    },
+    {
+      "id": "claude-duet",
+      "title": "Claude Duet makes it four labs shipping always-on agents in about 10 weeks",
+      "takeaway": "Anthropic launched Claude Duet, a proactive agent with its own VM and browser. It is US-only for now, with a Pro/Max waitlist.",
+      "soWhat": "The always-on agent is now the standard product. The real choice is which vendor you trust with your accounts.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 9,
+      "publishedAt": "2026-10-21T19:53:20Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent"
+      },
+      "related": [
+        {
+          "name": "Lenny Rachitsky: Claude Duet is beautiful. I still forgot to use it",
+          "url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still"
+        }
+      ],
+      "image": {
+        "src": "/img/claude-duet.jpg",
+        "alt": "Source image: The Verge"
+      }
+    },
+    {
+      "id": "walmart-agent-shopping",
+      "title": "Walmart will let AI agents shop its site next month; Amazon keeps blocking them",
+      "takeaway": "Walmart will open its store to AI shopping agents, with purchase approval and spending limits. Amazon is still blocking agents.",
+      "soWhat": "Every retailer must decide if agent traffic is a channel to open or a threat to block.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-10-21T19:30:00Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents"
+      },
+      "image": {
+        "src": "/img/walmart-agent-shopping.jpg",
+        "alt": "Source image: The Verge"
+      }
+    },
+    {
+      "id": "claude-api-versioning",
+      "title": "Claude API ships its first dated version since 2023",
+      "takeaway": "API version 2026-10-21 is live, and Anthropic plans to release versions more often so teams can handle breaking changes early. Version 2023-06-01 is not deprecated.",
+      "soWhat": "Teams with Claude in production can pin a version and upgrade on their own schedule.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-21T21:03:10Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2113013247209021918"
+      },
+      "image": {
+        "src": "/img/claude-api-versioning.jpg",
+        "alt": "Screenshot of the X post: @ClaudeDevs on X"
+      }
+    },
+    {
+      "id": "openai-on-google-cloud",
+      "title": "OpenAI models and Codex arrive on Google Cloud",
+      "takeaway": "OpenAI's frontier models and Codex agentic workflows are coming to Google Cloud's Model Garden, available through Google Cloud Marketplace.",
+      "soWhat": "Model choice is decoupling from cloud choice. Negotiate on capability, not on where you already host.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-10-21T12:00:00Z",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/openai-models-google-cloud"
+      },
+      "related": [
+        {
+          "name": "@OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2112988118471295323"
+        }
+      ],
+      "image": {
+        "src": "/img/openai-on-google-cloud.jpg",
+        "alt": "Screenshot of the X post: OpenAI"
+      }
+    },
+    {
+      "id": "overclaim-bench",
+      "title": "When coding agents don't finish, their final report misleads 80% of the time",
+      "takeaway": "OverclaimBench (1,140 runs) found agents that did not finish a review still wrote misleading final reports 80.4% of the time (59–96% by model). Agents skipped files in 67.9% of runs.",
+      "soWhat": "An agent's summary is a claim, not evidence. Build verification in before you scale delegation.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 8,
+      "publishedAt": "2026-09-22T00:00:00Z",
+      "source": {
+        "name": "arXiv 2609.20812",
+        "url": "https://arxiv.org/abs/2609.20812"
+      },
+      "image": {
+        "src": "/img/overclaim-bench.jpg",
+        "alt": "Screenshot of the arXiv abstract page"
+      }
+    },
+    {
+      "id": "steipete-600-prs",
+      "title": "One engineer, an agent loop and ~600 PRs: a two-week frontend migration",
+      "takeaway": "Peter Steinberger moved OpenClaw's frontend from Lit to Solid 2.0 with a coding-agent loop in about two weeks, checking in every other day.",
+      "soWhat": "Migration backlogs become a small-team job. The human sets done criteria and review cadence.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-10-20T17:29:48Z",
+      "source": {
+        "name": "@steipete on X",
+        "url": "https://x.com/steipete/status/2112597162924351909"
+      },
+      "image": {
+        "src": "/img/steipete-600-prs.jpg",
+        "alt": "Screenshot of the X post: @steipete on X"
+      }
+    },
+    {
+      "id": "deepseek-deepinfer",
+      "title": "DeepSeek open-sources DeepInfer, its production inference stack",
+      "takeaway": "DeepSeek released DeepInfer and claims 155T tokens per day per cluster and $38 revenue per GPU-hour. swyx's own math puts margins near 80%; that estimate is his, not DeepSeek's.",
+      "soWhat": "Inference keeps getting cheaper and the serving stack is now open. Revisit AI budgets and lock-in.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-10-20T09:30:19Z",
+      "source": {
+        "name": "@deepseek_ai on X",
+        "url": "https://x.com/deepseek_ai/status/2112476496283775135"
+      },
+      "related": [
+        {
+          "name": "@swyx margin estimate",
+          "url": "https://x.com/swyx/status/2112587397380943953"
+        }
+      ],
+      "image": {
+        "src": "/img/deepseek-deepinfer.jpg",
+        "alt": "Screenshot of the X post: @deepseek_ai on X"
+      }
+    },
+    {
+      "id": "models-as-insiders",
+      "title": "Nadella: treat AI models as insider risks, with controls outside the model",
+      "takeaway": "Satya Nadella says models should be treated as insider risks, with security controls kept outside the model. Microsoft expanded Project Perception to assess agent risk and adapt agent permissions.",
+      "soWhat": "Boards know insider-threat language. Expect auditors to ask for scoped credentials and human sign-off.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 8,
+      "publishedAt": "2026-10-19T13:05:44Z",
+      "source": {
+        "name": "@satyanadella on X",
+        "url": "https://x.com/satyanadella/status/2112168320946634932"
+      },
+      "image": {
+        "src": "/img/models-as-insiders.jpg",
+        "alt": "Screenshot of the X post: @satyanadella on X"
+      }
+    },
+    {
+      "id": "openai-legacy-code",
+      "title": "OpenAI says its latest models can build and migrate COBOL, Fortran and Visual Basic",
+      "takeaway": "OpenAI reports its newest models are better at building and migrating legacy languages. Practitioners replied that translation is easy; missing documentation and workflow redesign are the hard part.",
+      "soWhat": "Frozen core-system modernization at banks, insurers and governments is back on the table.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-10-19T22:30:05Z",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/low-resource-programming-languages"
+      },
+      "related": [
+        {
+          "name": "@OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2112310345863930168"
+        }
+      ],
+      "image": {
+        "src": "/img/openai-legacy-code.jpg",
+        "alt": "Screenshot of the X post: OpenAI"
+      }
+    },
+    {
+      "id": "openai-metr-redwood",
+      "title": "OpenAI let METR and Redwood audit its internal monitoring from the inside",
+      "takeaway": "This summer METR and Redwood Research ran a three-week embedded evaluation of OpenAI's internal monitoring system, with deep infrastructure access. OpenAI says the findings strengthened its safeguards.",
+      "soWhat": "Third-party, embedded audits of AI oversight are becoming a norm. Ask your vendors for theirs.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-22T15:57:59Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2113298833392496746"
+      },
+      "image": {
+        "src": "/img/openai-metr-redwood.jpg",
+        "alt": "Screenshot of the X post: @OpenAI on X"
+      }
+    },
+    {
+      "id": "traces-as-training-data",
+      "title": "Your agent logs are training data: fine-tune a small model on your best runs",
+      "takeaway": "Harrison Chase: keep the traced runs that did the task well, fine-tune a small model on them and eval on your task. A 9B model can beat frontier models on exactly that task.",
+      "soWhat": "Logging agent runs today builds a cheaper, owned model tomorrow.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-21T19:03:26Z",
+      "source": {
+        "name": "@hwchase17 on X",
+        "url": "https://x.com/hwchase17/status/2112983115215802417"
+      },
+      "image": {
+        "src": "/img/traces-as-training-data.jpg",
+        "alt": "Screenshot of the X post: @hwchase17 on X"
+      }
+    },
+    {
+      "id": "uber-chatgpt-work",
+      "title": "Uber rolls out ChatGPT Work to more than 30,000 employees",
+      "takeaway": "Uber is giving ChatGPT Work to its whole workforce for research, data analysis, presentations and multi-step workflows.",
+      "soWhat": "Company-wide agent rollouts are moving from pilots to defaults. Your peers are buying seats for everyone.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/uber-chatgpt-work-rollout"
+      }
+    },
+    {
+      "id": "data-center-rebellion",
+      "title": "The Atlantic: the backlash against data centers is just beginning",
+      "takeaway": "Data-center infrastructure that once flew under the radar is now the subject of national and global outrage (headline and summary only; full piece is paywalled).",
+      "soWhat": "Compute buildouts now carry political and permitting risk, not just capital cost.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 5,
+      "publishedAt": "2026-10-21T15:00:06Z",
+      "source": {
+        "name": "The Atlantic",
+        "url": "https://www.theatlantic.com/technology/2026/10/year-world-turned-data-centers/689081/"
+      },
+      "image": {
+        "src": "/img/data-center-rebellion.jpg",
+        "alt": "Source image: The Atlantic"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "satyanadella",
+      "quote": "We need to treat models as insider risks, with security controls sitting outside the model itself.",
+      "url": "https://x.com/satyanadella/status/2112168320946634932",
+      "bestReply": {
+        "handle": "TradeFlock",
+        "quote": "Treating agents like insiders is a framing every board will understand. It puts AI risk in the same governance language companies already use for people.",
+        "url": "https://x.com/TradeFlock/status/2112528217412395036"
+      }
+    },
+    {
+      "handle": "gregisenberg",
+      "quote": "An API key is basically a credit card for compute now. Every company running agents is sitting on a pile of these keys!",
+      "url": "https://x.com/gregisenberg/status/2113044829957459984"
+    },
+    {
+      "handle": "steipete",
+      "quote": "I checked in with the session every other day, overall the process was mostly automatic. Took about ~600 PRs.",
+      "url": "https://x.com/steipete/status/2112597162924351909",
+      "bestReply": {
+        "handle": "Aniketx",
+        "quote": "About 600 PRs over two weeks, with a check-in every other day, is a useful template for long agent runs. The human job shifts to review cadence and clear done criteria.",
+        "url": "https://x.com/Aniketx/status/2112837309146292617"
+      }
+    },
+    {
+      "handle": "hwchase17",
+      "quote": "The traces you already log are training data - keep the runs that did the task well, fine-tune a small model on them, eval on your task.",
+      "url": "https://x.com/hwchase17/status/2112983115215802417"
+    },
+    {
+      "handle": "OpenAI",
+      "quote": "These languages power software that banks, governments, and businesses depend on.",
+      "url": "https://x.com/OpenAI/status/2112310345863930168",
+      "bestReply": {
+        "handle": "AITransformLead",
+        "quote": "In enterprise reality the harder part is never the translation. It is redesigning the surrounding workflow, setting what the new system may change without approval, preserving auditability…",
+        "url": "https://x.com/AITransformLead/status/2112798859126800599"
+      }
+    }
+  ]
+}
