@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-22T21:55:00Z",
+  "updatedAt": "2026-10-22T21:58:19.115Z",
   "howtos": [
     {
       "id": "ai-key-10-minute-fix",
@@ -39,35 +39,6 @@
         "briefId": "2026-10-22-1400",
         "itemId": "security-wave"
       },
-      "addedAt": "2026-10-22T21:55:00Z"
-    },
-    {
-      "id": "record-a-skill",
-      "dedupeKey": "computer-use-record-skill",
-      "title": "Teach an agent a boring browser task",
-      "what": "Use computer use to automate a tool that has no API.",
-      "kind": "steps",
-      "copy": [
-        "Pick the most boring 20-minute browser task you do every week (medium value, zero-to-low risk).",
-        "Hand it to a computer use agent and record a skill for it.",
-        "Watch it run 1-3 times and give it edits.",
-        "Run it again next month and compare."
-      ],
-      "whenToUse": "A weekly web task in a tool you pay for that has no API.",
-      "source": {
-        "name": "@alliekmiller on X",
-        "url": "https://x.com/alliekmiller/status/2112337681875112325"
-      },
-      "author": {
-        "name": "Allie K. Miller",
-        "handle": "alliekmiller"
-      },
-      "tags": [
-        "computer-use",
-        "automation"
-      ],
-      "quality": 4,
-      "verbatim": true,
       "addedAt": "2026-10-22T21:55:00Z"
     },
     {

@@ -30,6 +30,12 @@ export function kindOf(file, data) {
 }
 
 const briefCache = {};
+// X handles currently in config/sources.json (every x lane). How-to authors must be one of them.
+export function sourceHandles() {
+  const x = readJson(path.join(ROOT, "config/sources.json")).x || {};
+  return new Set(Object.values(x).filter(Array.isArray).flat().filter((h) => typeof h === "string").map((h) => h.toLowerCase()));
+}
+
 export function briefItem(briefId, itemId) {
   const f = path.join(BRIEFS, `${briefId}.json`);
   if (!(briefId in briefCache)) briefCache[briefId] = fs.existsSync(f) ? readJson(f) : null;
@@ -68,10 +74,11 @@ export function problems(file, forceKind) {
     for (const t of data.threads) for (const e of t.evidence) if (!briefItem(e.briefId, e.itemId)) out.push(`thread "${t.title}": evidence ${e.briefId}/${e.itemId} is not a published brief item`);
   }
   if (kind === "howto") {
-    const ids = new Set(), keys = new Set();
+    const ids = new Set(), keys = new Set(), handles = sourceHandles();
     for (const h of data.howtos) {
       if (ids.has(h.id)) out.push(`duplicate how-to id ${h.id}`); ids.add(h.id);
       if (keys.has(h.dedupeKey)) out.push(`duplicate dedupeKey ${h.dedupeKey}`); keys.add(h.dedupeKey);
+      if (!h.author.handle || !handles.has(h.author.handle.replace(/^@/, "").toLowerCase())) out.push(`${h.id}: author ${h.author.handle ? "@" + h.author.handle : h.author.name} is not an X source in config/sources.json`);
       if (h.kind === "prompt" && h.copy.length !== 1) out.push(`${h.id}: a prompt has exactly one copy element`);
       if (h.briefItem && !briefItem(h.briefItem.briefId, h.briefItem.itemId)) out.push(`${h.id}: briefItem ${h.briefItem.briefId}/${h.briefItem.itemId} not found`);
     }

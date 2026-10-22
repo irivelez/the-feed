@@ -60,6 +60,7 @@ Editor picks per-lens counts from `preferences.counts.perLens` (frontier-capital
 - Reads: the run's candidates (practical lens) and `site/public/api/howto/library.json` (to avoid repeats)
 - Writes a batch to a temp file, then: `node pipeline/scripts/publish-howto.mjs /tmp/howto-<runId>.json`
 - Schema: `contracts/howto.schema.json`. `copy` is the exact prompt (kind `prompt`, one element) or the steps (kind `steps`). `verbatim: true` only when quoted from the source; otherwise condensed, with nothing added.
+- Authors: `author.handle` must be an X handle in `config/sources.json` (any `x` lane); otherwise the batch is rejected, and `--check-all` flags it. When a source is removed, drop its cards with `node pipeline/scripts/publish-howto.mjs --remove <id>` (validated, atomic).
 - Dedupe: same technique = same `dedupeKey`, whoever posted it. The library keeps the higher `quality` (tie: newer); the other source moves to `alsoFrom`.
 - Output: `site/public/api/howto/library.json` (all, deduped), then `howto/latest.json` (this batch). A run with no real tips publishes nothing.
 
