@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "latest": "2026-10-22",
+  "count": 1,
+  "narratives": [
+    {
+      "id": "2026-10-22",
+      "publishedAt": "2026-10-22T21:55:00Z",
+      "window": {
+        "from": "2026-10-16",
+        "to": "2026-10-22"
+      },
+      "headline": "Agents went always-on; the risk moved to keys and trust",
+      "url": "/api/narrative/2026-10-22.json"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ Three layers. Each layer only touches its own paths. Paths are relative to the r
 
 ```
 config/       INPUTS        edited only by Irina or Chief of Staff
-contracts/    the schemas   every JSON file below is validated against one of these
+contracts/    the schemas (brief, candidates, sources, preferences, narrative, howto)   every JSON file below is validated against one of these
 pipeline/     DATA          Signal writes candidates; publish script validates and publishes
 site/         PRESENTATION  Next.js; reads only /api JSON
 ```
@@ -43,7 +43,7 @@ Validates the brief (schema, unique ids, top3 ids exist, images exist, id matche
 3. `site/public/api/latest.json` (atomic rename, written last)
 
 If invalid: exit 1, nothing is written, `/api/latest.json` keeps the last good brief.
-`--check-all` validates config, all candidates and all published briefs.
+`--check-all` validates config, all candidates, all briefs, narratives and how-tos (`node pipeline/scripts/publish.mjs --check-all`). Shared rules live in `pipeline/scripts/validate.mjs`.
 
 ## Lanes and lenses
 
@@ -56,6 +56,19 @@ If invalid: exit 1, nothing is written, `/api/latest.json` keeps the last good b
 
 Editor picks per-lens counts from `preferences.counts.perLens` (frontier-capital and design: 0–5; a section with no items is hidden). Frontier-capital items are views and ideas, not market tips; link the person's own post or page.
 
+### Editor: how-tos (every brief run)
+- Reads: the run's candidates (practical lens) and `site/public/api/howto/library.json` (to avoid repeats)
+- Writes a batch to a temp file, then: `node pipeline/scripts/publish-howto.mjs /tmp/howto-<runId>.json`
+- Schema: `contracts/howto.schema.json`. `copy` is the exact prompt (kind `prompt`, one element) or the steps (kind `steps`). `verbatim: true` only when quoted from the source; otherwise condensed, with nothing added.
+- Dedupe: same technique = same `dedupeKey`, whoever posted it. The library keeps the higher `quality` (tie: newer); the other source moves to `alsoFrom`.
+- Output: `site/public/api/howto/library.json` (all, deduped), then `howto/latest.json` (this batch). A run with no real tips publishes nothing.
+
+### Editor: weekly narrative (Monday ~08:00 Bogotá; mid-week only on a major shift)
+- Reads: the last 7 days of `site/public/api/briefs/*.json` and `pipeline/candidates/*.json`
+- Writes to a temp file, then: `node pipeline/scripts/publish-narrative.mjs /tmp/narrative-<YYYY-MM-DD>.json`
+- Schema: `contracts/narrative.schema.json`. `headline` <= 12 words; `summary` 4-6 sentences (what is shifting, why, what it means); 3-5 `threads`, each with `evidence` = published brief items `{briefId, itemId}`. Every fact in the summary must be in an evidence item.
+- Output: `site/public/api/narrative/<id>.json`, `narrative/index.json`, then `narrative/latest.json` (newest id). On failure nothing is written; the last good narrative stays.
+
 ## 3. Presentation: `site/`
 
 The site's only data source is the public API:
@@ -65,7 +78,14 @@ The site's only data source is the public API:
 | `/api/latest.json` | the current brief (brief schema) |
 | `/api/briefs/index.json` | `{schemaVersion, latest, count, briefs: [{id, date, edition, publishedAt, headline, url}]}`, newest first |
 | `/api/briefs/<id>.json` | one brief, `id` = `YYYY-MM-DD-HHmm` |
+| `/api/narrative/latest.json` | the current weekly narrative (narrative schema) |
+| `/api/narrative/index.json` | `{schemaVersion, latest, count, narratives: [{id, publishedAt, window, headline, url}]}` |
+| `/api/narrative/<id>.json` | one narrative, `id` = `YYYY-MM-DD` |
+| `/api/howto/library.json` | all how-tos, deduplicated, newest first (how-to schema) |
+| `/api/howto/latest.json` | the latest batch |
 | `/img/<item-id>.jpg` | card images |
+
+Narrative and how-to feeds are optional for the site: if a file is missing, its section or tab is empty.
 
 The current site reads these files at build time from `site/public/api/` (`site/lib/api.js`) and pre-renders every page. A redesign may replace everything in `site/` except `site/public/api/` and `site/public/img/`, as long as it reads only those URLs. It must not import from `pipeline/`, `contracts/` or `config/`.
 

@@ -1,5 +1,5 @@
 import Brief from "./Brief";
-import { latest } from "../lib/api";
+import { latest, narrative } from "../lib/api";
 export default function Home() {
-  return <Brief brief={latest()} />;
+  return <Brief brief={latest()} narrative={narrative()} />;
 }

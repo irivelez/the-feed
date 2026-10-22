@@ -1,3 +1,5 @@
+import Nav from "./Nav";
+import Narrative from "./Narrative";
 // Presentation only. Data comes from /api JSON (see lib/api.js).
 const TAG = { new: "New", building: "Building", shift: "Shift" };
 const SECTIONS = [
@@ -17,7 +19,7 @@ function Pic({ i, eager }) {
 
 function Card({ i, ref_ }) {
   return (
-    <a className="card" href={i.source.url} target="_blank" rel="noopener" title={i.title}>
+    <a id={i.id} className="card" href={i.source.url} target="_blank" rel="noopener" title={i.title}>
       <Pic i={i} />
       <h3>{i.title}</h3>
       <p>{i.soWhat}</p>
@@ -26,17 +28,14 @@ function Card({ i, ref_ }) {
   );
 }
 
-export default function Brief({ brief, archived }) {
+export default function Brief({ brief, archived, narrative }) {
   const byId = Object.fromEntries(brief.items.map((i) => [i.id, i]));
   const top = new Set(brief.top3.map((t) => t.itemId));
   const rest = [...brief.items].filter((i) => !top.has(i.id)).sort((a, b) => b.importance - a.importance);
   const ref_ = brief.publishedAt;
   return (
     <main>
-      <header>
-        <h1>Signal Brief</h1>
-        <p>{day(ref_)} · {brief.edition}{archived && <> · <a href="/">Latest</a></>}</p>
-      </header>
+      <Nav here={archived ? "archive" : "brief"} meta={`${day(ref_)} · ${brief.edition}`} />
 
       <section>
         <h2>Top 3</h2>
@@ -44,7 +43,7 @@ export default function Brief({ brief, archived }) {
           {brief.top3.map((t, n) => {
             const i = byId[t.itemId];
             return i && (
-              <a key={t.itemId} className={n === 0 ? "hero lead" : "hero"} href={i.source.url} target="_blank" rel="noopener" title={t.headline}>
+              <a key={t.itemId} id={i.id} className={n === 0 ? "hero lead" : "hero"} href={i.source.url} target="_blank" rel="noopener" title={t.headline}>
                 <Pic i={i} eager />
                 <h3>{t.headline}</h3>
                 <p>{t.whyItMatters}</p>
@@ -54,6 +53,8 @@ export default function Brief({ brief, archived }) {
           })}
         </div>
       </section>
+
+      <Narrative n={narrative} currentBriefId={brief.id} />
 
       {SECTIONS.map((s) => {
         const list = rest.filter(s.match);
@@ -80,7 +81,6 @@ export default function Brief({ brief, archived }) {
         </section>
       )}
 
-      <footer><a href="/archive/">Archive</a></footer>
     </main>
   );
 }

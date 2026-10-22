@@ -21,5 +21,7 @@ node pipeline/scripts/publish.mjs /tmp/brief-<id>.json   # validate + write site
 git add site/public/api site/public/img && git commit -m "Brief <id>" && git push   # Vercel deploys
 ```
 
+Narrative: `node pipeline/scripts/publish-narrative.mjs <file>`. How-tos: `node pipeline/scripts/publish-howto.mjs <file>`. Pages: `/` (Top 3, This week, sections), `/howto/`, `/archive/`.
+
 A brief that fails validation is not published; `/api/latest.json` keeps the last good one.
 Vercel: project root is `site/`, auto-deploys on push to `main`. Refresh: 07:00, 13:00, 19:00 Bogotá (COT).

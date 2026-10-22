@@ -4,7 +4,10 @@
   "type": "module",
   "scripts": {
     "check": "node scripts/publish.mjs --check-all",
-    "publish-brief": "node scripts/publish.mjs"
+    "publish-brief": "node scripts/publish.mjs",
+    "publish-narrative": "node scripts/publish-narrative.mjs",
+    "publish-howto": "node scripts/publish-howto.mjs",
+    "fetch-images": "node scripts/fetch-images.mjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1",

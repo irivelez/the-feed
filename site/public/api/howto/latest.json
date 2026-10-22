@@ -1,0 +1,212 @@
+{
+  "schemaVersion": "1.0",
+  "updatedAt": "2026-10-22T21:55:00Z",
+  "runId": "2026-10-22-1400",
+  "howtos": [
+    {
+      "id": "ai-key-10-minute-fix",
+      "dedupeKey": "agent-api-key-hygiene",
+      "title": "Lock down your agents' API keys",
+      "what": "A 10-minute fix so one leaked key can't drain your compute budget.",
+      "kind": "steps",
+      "copy": [
+        "Rotate every AI key tonight.",
+        "Set a hard monthly spend limit in each AI dashboard.",
+        "Give every agent its own key.",
+        "Turn on usage alerts so you know the second something spikes."
+      ],
+      "whenToUse": "Today, if any agent or app holds an AI provider key.",
+      "source": {
+        "name": "@gregisenberg on X",
+        "url": "https://x.com/gregisenberg/status/2113044829957459984"
+      },
+      "author": {
+        "name": "Greg Isenberg",
+        "handle": "gregisenberg"
+      },
+      "alsoFrom": [
+        {
+          "name": "@yun_youzi on X",
+          "url": "https://x.com/yun_youzi/status/2112567349492764781"
+        }
+      ],
+      "tags": [
+        "security",
+        "agents"
+      ],
+      "quality": 5,
+      "verbatim": true,
+      "briefItem": {
+        "briefId": "2026-10-22-1400",
+        "itemId": "security-wave"
+      },
+      "addedAt": "2026-10-22T21:55:00Z"
+    },
+    {
+      "id": "record-a-skill",
+      "dedupeKey": "computer-use-record-skill",
+      "title": "Teach an agent a boring browser task",
+      "what": "Use computer use to automate a tool that has no API.",
+      "kind": "steps",
+      "copy": [
+        "Pick the most boring 20-minute browser task you do every week (medium value, zero-to-low risk).",
+        "Hand it to a computer use agent and record a skill for it.",
+        "Watch it run 1-3 times and give it edits.",
+        "Run it again next month and compare."
+      ],
+      "whenToUse": "A weekly web task in a tool you pay for that has no API.",
+      "source": {
+        "name": "@alliekmiller on X",
+        "url": "https://x.com/alliekmiller/status/2112337681875112325"
+      },
+      "author": {
+        "name": "Allie K. Miller",
+        "handle": "alliekmiller"
+      },
+      "tags": [
+        "computer-use",
+        "automation"
+      ],
+      "quality": 4,
+      "verbatim": true,
+      "addedAt": "2026-10-22T21:55:00Z"
+    },
+    {
+      "id": "fine-tune-on-traces",
+      "dedupeKey": "fine-tune-small-model-on-traces",
+      "title": "Turn your agent logs into a small model",
+      "what": "Fine-tune a small model on your best runs; it can beat frontier models on that one task.",
+      "kind": "steps",
+      "copy": [
+        "Keep the traced runs that did the task well.",
+        "Fine-tune a small model on them.",
+        "Eval it on your task."
+      ],
+      "whenToUse": "A repeated agent task with logged runs, where cost or speed matters.",
+      "source": {
+        "name": "@hwchase17 on X",
+        "url": "https://x.com/hwchase17/status/2112983115215802417"
+      },
+      "author": {
+        "name": "Harrison Chase",
+        "handle": "hwchase17"
+      },
+      "alsoFrom": [
+        {
+          "name": "LangChain blog",
+          "url": "https://www.langchain.com/blog/langsmith-fine-tuning"
+        }
+      ],
+      "tags": [
+        "fine-tuning",
+        "evals"
+      ],
+      "quality": 4,
+      "verbatim": true,
+      "briefItem": {
+        "briefId": "2026-10-22-1400",
+        "itemId": "traces-as-training-data"
+      },
+      "addedAt": "2026-10-22T21:55:00Z"
+    },
+    {
+      "id": "agent-migration-loop",
+      "dedupeKey": "long-running-migration-loop",
+      "title": "Run a codebase migration as an agent loop",
+      "what": "Let a coding agent grind through a migration in small PRs while you set the bar.",
+      "kind": "steps",
+      "copy": [
+        "Start one long-running agent session with a clear target (e.g. move the frontend from Lit to Solid 2.0).",
+        "Let it ship many small PRs; first remove the old framework, then refactor to idiomatic patterns.",
+        "Check in with the session every other day.",
+        "When a later merge touches the same code, run CI and a fresh review again."
+      ],
+      "whenToUse": "A large, well-defined migration backlog and a small team.",
+      "source": {
+        "name": "@steipete on X",
+        "url": "https://x.com/steipete/status/2112597162924351909"
+      },
+      "author": {
+        "name": "Peter Steinberger",
+        "handle": "steipete"
+      },
+      "alsoFrom": [
+        {
+          "name": "@keelenai on X",
+          "url": "https://x.com/keelenai/status/2112843887693697516"
+        }
+      ],
+      "tags": [
+        "coding-agents",
+        "migration"
+      ],
+      "quality": 4,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-10-22-1400",
+        "itemId": "steipete-600-prs"
+      },
+      "addedAt": "2026-10-22T21:55:00Z"
+    },
+    {
+      "id": "statechart-then-verify",
+      "dedupeKey": "statechart-formal-verification",
+      "title": "Have your agent draw the statechart first",
+      "what": "Make the agent map the user flow as a statechart, then check it formally to find bugs.",
+      "kind": "steps",
+      "copy": [
+        "Ask your agent to draw a statechart of the flow.",
+        "Run a formal-verification skill (e.g. TLA+) against it to find bugs.",
+        "Fix the issues before users see them."
+      ],
+      "whenToUse": "A multi-step user flow where edge cases bite.",
+      "source": {
+        "name": "@poteto on X",
+        "url": "https://x.com/poteto/status/2112736749281759566"
+      },
+      "author": {
+        "name": "poteto",
+        "handle": "poteto"
+      },
+      "tags": [
+        "coding-agents",
+        "verification"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "addedAt": "2026-10-22T21:55:00Z"
+    },
+    {
+      "id": "pin-claude-api-version",
+      "dedupeKey": "pin-claude-api-version",
+      "title": "Pin your Claude API version",
+      "what": "Upgrade on your schedule instead of being broken by surprise.",
+      "kind": "steps",
+      "copy": [
+        "Pin the API version your app is tested on (2023-06-01 is not deprecated).",
+        "Test against 2026-10-21 in staging.",
+        "Switch when green; expect versions more often from now on."
+      ],
+      "whenToUse": "Any production app on the Claude API.",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2113013247209021918"
+      },
+      "author": {
+        "name": "Claude Developers",
+        "handle": "ClaudeDevs"
+      },
+      "tags": [
+        "api",
+        "claude"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-10-22-1400",
+        "itemId": "claude-api-versioning"
+      },
+      "addedAt": "2026-10-22T21:55:00Z"
+    }
+  ]
+}
