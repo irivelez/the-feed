@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-22-1900",
-  "count": 2,
+  "latest": "2026-10-23-0700",
+  "count": 3,
   "briefs": [
+    {
+      "id": "2026-10-23-0700",
+      "date": "2026-10-23",
+      "edition": "Morning",
+      "publishedAt": "2026-10-23T12:14:03Z",
+      "headline": "Anthropic's draft IPO filing shows $16.3B revenue and an $80.7B loss",
+      "url": "/api/briefs/2026-10-23-0700.json"
+    },
     {
       "id": "2026-10-22-1900",
       "date": "2026-10-22",

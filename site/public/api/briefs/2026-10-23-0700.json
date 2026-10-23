@@ -1,0 +1,536 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-10-23-0700",
+  "date": "2026-10-23",
+  "publishedAt": "2026-10-23T12:14:03Z",
+  "edition": "Morning",
+  "top3": [
+    {
+      "itemId": "anthropic-draft-s1",
+      "headline": "Anthropic's draft IPO filing shows $16.3B revenue and an $80.7B loss",
+      "whyItMatters": "Compute spend nearly quadrupled to $9B, so a key AI supplier's costs are now on the record."
+    },
+    {
+      "itemId": "claude-agent-sdk-resume-injection",
+      "headline": "Critical flaw in the Python Claude Agent SDK allows command execution",
+      "whyItMatters": "Teams running agents on the Python SDK should upgrade to 0.2.121 or later today."
+    },
+    {
+      "itemId": "aa-coding-agent-index-v2",
+      "headline": "Claude Code with Opus 5.5 tops a new coding agent index",
+      "whyItMatters": "The index scores model and harness together, the way your engineers actually use coding agents."
+    }
+  ],
+  "items": [
+    {
+      "id": "benaich-research-last-20",
+      "title": "Benaich shares a talk on why research's last 20% stays slow",
+      "takeaway": "Nathan Benaich shares a RAAIS talk by Alasdair Russell of Cambridge on why AI speeds research but leaves the last 20% as the bottleneck.",
+      "soWhat": "Expect AI to speed the early work while the hardest finishing steps still set your timeline.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 3,
+      "publishedAt": "2026-10-23T11:00:01Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2113586235998355785"
+      },
+      "image": {
+        "src": "/img/benaich-research-last-20.jpg",
+        "alt": "Image from @nathanbenaich on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "491 views"
+      }
+    },
+    {
+      "id": "mengto-minimax-landing-pages",
+      "title": "Meng To builds full landing pages with a budget model",
+      "takeaway": "Meng To made several landing pages and a small 3D game with MiniMax M3.1 Flash, at $0.15 per 1M input tokens, and shared his prompts.",
+      "soWhat": "Polished design work no longer requires frontier model prices.",
+      "lens": "design",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-10-23T08:50:38Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2113553675482525940"
+      },
+      "image": {
+        "src": "/img/mengto-minimax-landing-pages.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "6k views"
+      }
+    },
+    {
+      "id": "tavicosta-dollar-muted",
+      "title": "Tavi Costa: the dollar did not catch its usual selloff bid",
+      "takeaway": "Tavi Costa says the dollar's muted response during a selloff was the day's most important signal, while noting it is only one day.",
+      "soWhat": "If the dollar stops acting as a haven, treasury and currency plans need a second look.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-10-23T04:47:22Z",
+      "source": {
+        "name": "@TaviCosta on X",
+        "url": "https://x.com/TaviCosta/status/2113492452703408498"
+      },
+      "related": [
+        {
+          "name": "Tavi Costa: Macro observation",
+          "url": "https://tavicosta.substack.com/p/macro-observation"
+        }
+      ],
+      "image": {
+        "src": "/img/tavicosta-dollar-muted.jpg",
+        "alt": "Image from @TaviCosta on X"
+      },
+      "heat": {
+        "score": 12,
+        "level": "none",
+        "metric": "22k views"
+      }
+    },
+    {
+      "id": "grok-bot-phone-apps",
+      "title": "Grok Bot can now use Calendar, Reminders and Contacts on phones",
+      "takeaway": "Grok Bot can now use Calendar, Reminders, Contacts and other phone apps, rolling out on iOS and Android, per Elon Musk and the Grok Bot account.",
+      "soWhat": "Assistants are moving from chat windows into the apps where personal work actually happens.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-10-23T01:34:55Z",
+      "source": {
+        "name": "@elonmusk on X",
+        "url": "https://x.com/elonmusk/status/2113444022408937913"
+      },
+      "related": [
+        {
+          "name": "poteto: use Grok Bot with native phone apps",
+          "url": "https://x.com/poteto/status/2113411672815944075"
+        }
+      ],
+      "image": {
+        "src": "/img/grok-bot-phone-apps.jpg",
+        "alt": "Image from @elonmusk on X"
+      },
+      "heat": {
+        "score": 35,
+        "level": "none",
+        "metric": "1.3M views"
+      }
+    },
+    {
+      "id": "arc-genome-agents-rna",
+      "title": "Arc Institute uses AI agents to find new candidate RNAs",
+      "takeaway": "An Arc Institute preprint uses genome language models and AI agents to find candidate functional RNAs in the genome's non-coding regions.",
+      "soWhat": "Agents are starting to search scientific spaces too large for people to explore by hand.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-10-23T00:50:18Z",
+      "source": {
+        "name": "@patrickc on X",
+        "url": "https://x.com/patrickc/status/2113432794571641156"
+      },
+      "related": [
+        {
+          "name": "Patrick Hsu announcement",
+          "url": "https://x.com/pdhsu/status/2113395639224770872"
+        }
+      ],
+      "image": {
+        "src": "/img/arc-genome-agents-rna.jpg",
+        "alt": "Image from @patrickc on X"
+      },
+      "heat": {
+        "score": 10,
+        "level": "none",
+        "metric": "37k views"
+      }
+    },
+    {
+      "id": "meta-muse-japan",
+      "title": "Meta launches its Muse assistant in Japan",
+      "takeaway": "Meta's Muse is now in Japanese app stores, and a $100,000 Open Kernel Challenge invites developers to make Muse Spark run fastest.",
+      "soWhat": "Meta is expanding Muse country by country, adding another consumer assistant your customers may use.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-10-23T00:41:45Z",
+      "source": {
+        "name": "@alexandr_wang on X",
+        "url": "https://x.com/alexandr_wang/status/2113430642440736859"
+      },
+      "related": [
+        {
+          "name": "Open Kernel Challenge",
+          "url": "https://openkernelchallenge.dev/"
+        },
+        {
+          "name": "The Verge: Meta turns Muse sharing back on",
+          "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts"
+        }
+      ],
+      "image": {
+        "src": "/img/meta-muse-japan.jpg",
+        "alt": "Image from @alexandr_wang on X"
+      },
+      "heat": {
+        "score": 22,
+        "level": "none",
+        "metric": "118k views"
+      }
+    },
+    {
+      "id": "aa-coding-agent-index-v2",
+      "title": "Claude Code with Opus 5.5 tops a new coding agent index",
+      "takeaway": "Artificial Analysis Coding Agent Index v2.0 scores models with their agent harnesses over 290 tasks; Claude Code with Opus 5.5 leads at 61.7.",
+      "soWhat": "Compare coding agents as model plus harness, since that pairing is what your teams actually run.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-10-23T00:17:33Z",
+      "source": {
+        "name": "@ArtificialAnlys on X",
+        "url": "https://x.com/ArtificialAnlys/status/2113424551396934134"
+      },
+      "image": {
+        "src": "/img/aa-coding-agent-index-v2.jpg",
+        "alt": "Image from @ArtificialAnlys on X"
+      },
+      "heat": {
+        "score": 15,
+        "level": "none",
+        "metric": "106k views"
+      }
+    },
+    {
+      "id": "perplexity-decider-mac",
+      "title": "Perplexity's decision model now runs fully on a Mac",
+      "takeaway": "Decider for Mac runs Perplexity's 4B decision model on device with no API key, returning a probability for questions about text or images.",
+      "soWhat": "Small local models let teams automate yes-or-no calls without sending data to a vendor.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-10-23T00:00:04Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2113420151232352444"
+      },
+      "related": [
+        {
+          "name": "Decider for Mac",
+          "url": "https://pplx.ai/decider-for-mac"
+        },
+        {
+          "name": "Perplexity Devs announcement",
+          "url": "https://x.com/perplexitydevs/status/2113400672238616800"
+        }
+      ],
+      "image": {
+        "src": "/img/perplexity-decider-mac.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 27,
+        "level": "none",
+        "metric": "38k views"
+      }
+    },
+    {
+      "id": "atlantic-php-volunteer",
+      "title": "The Atlantic: PHP security rests on one volunteer",
+      "takeaway": "The Atlantic profiles Ondřej Surý, a relatively anonymous volunteer working on PHP security.",
+      "soWhat": "Check which critical open-source parts of your stack depend on a few unpaid people.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-10-22T23:47:00Z",
+      "source": {
+        "name": "The Atlantic",
+        "url": "https://www.theatlantic.com/technology/2026/10/man-who-saved-internet-php-vulnerability/689123/"
+      },
+      "image": {
+        "src": "/img/atlantic-php-volunteer.jpg",
+        "alt": "The Atlantic: The Atlantic: PHP security rests on one volunteer"
+      }
+    },
+    {
+      "id": "agentphishing-benchmark",
+      "title": "Phishing tuned for AI agents fools most email agents tested",
+      "takeaway": "In the AgentPhishing benchmark, four of nine email agents detected under 10% of agent-optimized phishing and complied over 45% of the time.",
+      "soWhat": "Any agent that reads your inbox needs controls beyond the model's own judgment.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-10-22T15:07:49Z",
+      "source": {
+        "name": "arXiv",
+        "url": "http://arxiv.org/abs/2610.31404v1"
+      },
+      "image": {
+        "src": "/img/agentphishing-benchmark.jpg",
+        "alt": "arXiv: Phishing tuned for AI agents fools most email agents tested"
+      }
+    },
+    {
+      "id": "doordash-feature-flag-agents",
+      "title": "DoorDash agents clean stale feature flags for $4.79 each",
+      "takeaway": "A DoorDash multi-agent system produced engineer-approved PRs for 45 of 50 stale flags, averaging $4.79 and 13.8 minutes per cleanup.",
+      "soWhat": "Tedious engineering cleanup is now a measurable agent job with a clear cost per task.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-10-22T14:32:23Z",
+      "source": {
+        "name": "arXiv",
+        "url": "http://arxiv.org/abs/2610.31351v1"
+      },
+      "image": {
+        "src": "/img/doordash-feature-flag-agents.jpg",
+        "alt": "arXiv: DoorDash agents clean stale feature flags for $4.79 each"
+      }
+    },
+    {
+      "id": "delegation-divide-index",
+      "title": "35% of global work time is partly delegable to agents",
+      "takeaway": "An index across 146 countries finds 35.2% of task time partly delegable to AI agents in 2026, and only 2.5% fully delegable.",
+      "soWhat": "Plan for agents that share tasks with people, since full handoff remains rare.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-22T05:22:09Z",
+      "source": {
+        "name": "arXiv",
+        "url": "http://arxiv.org/abs/2610.30752v1"
+      },
+      "related": [
+        {
+          "name": "GitHub release",
+          "url": "https://github.com/Cespial/delegation-divide"
+        }
+      ],
+      "image": {
+        "src": "/img/delegation-divide-index.jpg",
+        "alt": "Image from arXiv"
+      }
+    },
+    {
+      "id": "google-agent-compute-engine",
+      "title": "Google Cloud gives every agent its own isolated microVM",
+      "takeaway": "Google Cloud announced Agent Compute Engine, the microVM service behind Gemini agents, with per-agent identity and short-lived credentials.",
+      "soWhat": "Isolated, per-agent sandboxes are becoming the default way to run agents safely at scale.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "source": {
+        "name": "Google Cloud Blog",
+        "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance"
+      },
+      "image": {
+        "src": "/img/google-agent-compute-engine.jpg",
+        "alt": "Image from Google Cloud Blog"
+      }
+    },
+    {
+      "id": "emudhra-exits-tls",
+      "title": "eMudhra exits the global TLS certificate business after a CA incident",
+      "takeaway": "After an incident with its certificate authorities, eMudhra will leave global SSL/TLS, about 1% of its revenue; Go now distrusts the intermediates.",
+      "soWhat": "A trust failure can end a vendor's product line, so know who issues your certificates.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "source": {
+        "name": "eMudhra",
+        "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business"
+      },
+      "related": [
+        {
+          "name": "CVE-2026-111943 (NVD)",
+          "url": "https://nvd.nist.gov/vuln/detail/cve-2026-111943"
+        },
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50195110"
+        }
+      ],
+      "image": {
+        "src": "/img/emudhra-exits-tls.jpg",
+        "alt": "Image from eMudhra"
+      }
+    },
+    {
+      "id": "mistral-voxtral-3-voice-agents",
+      "title": "Mistral ships Voxtral 3 speech models and a voice agent SDK",
+      "takeaway": "Voxtral 3 covers speech-to-text in 50+ languages and text-to-speech in 35+, with a LiveKit-based voice agent SDK for Python and TypeScript.",
+      "soWhat": "European teams get a voice agent stack they can run on an EU API or self-host.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "source": {
+        "name": "Mistral AI",
+        "url": "https://mistral.ai/news/voxtral-3/"
+      },
+      "related": [
+        {
+          "name": "Voice agents docs",
+          "url": "https://docs.mistral.ai/studio/audio/voice-agents/overview"
+        }
+      ],
+      "image": {
+        "src": "/img/mistral-voxtral-3-voice-agents.jpg",
+        "alt": "Image from Mistral AI"
+      }
+    },
+    {
+      "id": "anthropic-draft-s1",
+      "title": "Anthropic's draft IPO filing shows $16.3B revenue and an $80.7B loss",
+      "takeaway": "Per the WSJ and Reuters, about $72B of Anthropic's first-half loss is a non-cash charge; compute spend rose to nearly $9B from $2.3B.",
+      "soWhat": "A major AI supplier's costs and commitments are becoming public, which helps you judge its staying power.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "source": {
+        "name": "The Wall Street Journal",
+        "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1"
+      },
+      "related": [
+        {
+          "name": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/anthropic-recorded-net-loss-of-over-80-billion-in-first-half-of-this-year-wsj-reports-4960917"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-draft-s1.jpg",
+        "alt": "The Wall Street Journal: Anthropic's draft IPO filing shows $16.3B revenue and an $80.7B loss"
+      }
+    },
+    {
+      "id": "gemini-api-cli",
+      "title": "Google releases a Gemini CLI built for other agents to call",
+      "takeaway": "The Apache 2.0 gemini-api binary lets Codex, Claude Code or any shell agent call Gemini models, media tools and managed agents.",
+      "soWhat": "Labs now package their APIs for agents first, so mixing vendors inside one workflow gets easier.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-10-19T00:00:00Z",
+      "source": {
+        "name": "Google AI Studio",
+        "url": "https://aistudio.google.com/learn/introducing-the-gemini-api-cli"
+      },
+      "related": [
+        {
+          "name": "GitHub repo",
+          "url": "https://github.com/google-gemini/gemini-api-cli"
+        }
+      ],
+      "image": {
+        "src": "/img/gemini-api-cli.jpg",
+        "alt": "Image from Google AI Studio"
+      }
+    },
+    {
+      "id": "claude-agent-sdk-resume-injection",
+      "title": "Critical flaw in the Python Claude Agent SDK allows command execution",
+      "takeaway": "CVE-2026-96620 (CVSS 9.2): a crafted resume value could inject an MCP config and run arbitrary commands. Fixed in claude-agent-sdk 0.2.121.",
+      "soWhat": "Upgrade any Python agents built on this SDK to 0.2.121 or later now.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-10-16T19:44:01Z",
+      "source": {
+        "name": "GitHub Advisory Database",
+        "url": "https://github.com/advisories/GHSA-h4mw-j7qp-8mwm"
+      },
+      "related": [
+        {
+          "name": "Fix PR #1123",
+          "url": "https://github.com/anthropics/claude-agent-sdk-python/pull/1123"
+        },
+        {
+          "name": "OSV entry",
+          "url": "https://osv.dev/vulnerability/CVE-2026-96620"
+        }
+      ],
+      "image": {
+        "src": "/img/claude-agent-sdk-resume-injection.jpg",
+        "alt": "Image from GitHub Advisory Database"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "TaviCosta",
+      "quote": "The muted response of the dollar was arguably the most important thing today.",
+      "url": "https://x.com/TaviCosta/status/2113492452703408498"
+    },
+    {
+      "handle": "patrickc",
+      "quote": "it shows how agents may be able to accelerate discovery in vast combinatoric spaces",
+      "url": "https://x.com/patrickc/status/2113432794571641156"
+    },
+    {
+      "handle": "nathanbenaich",
+      "quote": "AI can accelerate research and still leave the hardest part unfinished.",
+      "url": "https://x.com/nathanbenaich/status/2113586235998355785"
+    },
+    {
+      "handle": "AravSrinivas",
+      "quote": "You can now run the Perplexity Decision Model fully locally on your Mac, without any data leaving your machine.",
+      "url": "https://x.com/AravSrinivas/status/2113420151232352444"
+    },
+    {
+      "handle": "MengTo",
+      "quote": "I made these landing pages with MiniMax M3.1 Flash, at a fraction of the cost of frontier models.",
+      "url": "https://x.com/MengTo/status/2113553675482525940"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/elonmusk/status/2113444022408937913",
+      "handle": "elonmusk",
+      "text": "Grok Bot now integrates with your phone apps",
+      "metric": "12.2k likes",
+      "note": "An assistant that acts inside personal apps changes what people expect agents to do."
+    },
+    {
+      "url": "https://x.com/alexandr_wang/status/2113430642440736859",
+      "handle": "alexandr_wang",
+      "text": "we are launching muse in japan today! it is now available—download it from your favorite app store!",
+      "metric": "2k likes",
+      "note": "Meta's assistant reaches another large consumer market."
+    },
+    {
+      "url": "https://x.com/rauchg/status/2113462657059639505",
+      "handle": "rauchg",
+      "text": "The stewards and guardians of the internet's encryption's password: \"4\". Yes, just 4.",
+      "metric": "1k likes",
+      "note": "A vivid claim about this week's certificate trust failures; no primary source in the post."
+    },
+    {
+      "url": "https://x.com/mattpocockuk/status/2113507665733197892",
+      "handle": "mattpocockuk",
+      "text": "Content mappers look outrageously exciting. You get type inference from NON TYPESCRIPT CODE",
+      "metric": "901 likes",
+      "note": "TypeScript 7.1 Beta lets builders type-check markdown and other non-TypeScript files."
+    },
+    {
+      "url": "https://x.com/ArtificialAnlys/status/2113424551396934134",
+      "handle": "ArtificialAnlys",
+      "text": "Claude Opus 5.5 in Claude Code leads at 61.7",
+      "metric": "655 likes",
+      "note": "Coding agent rankings drive which tools engineering teams adopt."
+    }
+  ]
+}
