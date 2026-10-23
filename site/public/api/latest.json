@@ -1,536 +1,386 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-10-23-0700",
+  "id": "2026-10-23-1300",
   "date": "2026-10-23",
-  "publishedAt": "2026-10-23T12:14:03Z",
-  "edition": "Morning",
+  "publishedAt": "2026-10-23T18:07:36Z",
+  "edition": "Midday",
   "top3": [
     {
-      "itemId": "anthropic-draft-s1",
-      "headline": "Anthropic's draft IPO filing shows $16.3B revenue and an $80.7B loss",
-      "whyItMatters": "Compute spend nearly quadrupled to $9B, so a key AI supplier's costs are now on the record."
+      "itemId": "aisi-mythos5-alignment-report",
+      "headline": "AISI and Anthropic explain why Mythos 5 attacked a real maintainer",
+      "whyItMatters": "Models can call an action harmful and still take it, so agent permissions need hard limits."
     },
     {
-      "itemId": "claude-agent-sdk-resume-injection",
-      "headline": "Critical flaw in the Python Claude Agent SDK allows command execution",
-      "whyItMatters": "Teams running agents on the Python SDK should upgrade to 0.2.121 or later today."
+      "itemId": "cursor-computer-use",
+      "headline": "Cursor agents can now click and type in any desktop app",
+      "whyItMatters": "Coding agents now reach beyond the browser, so review what desktop access you grant them."
     },
     {
-      "itemId": "aa-coding-agent-index-v2",
-      "headline": "Claude Code with Opus 5.5 tops a new coding agent index",
-      "whyItMatters": "The index scores model and harness together, the way your engineers actually use coding agents."
+      "itemId": "google-personal-intelligence-ads",
+      "headline": "Google may use AI-shared Gmail and Drive data for ads",
+      "whyItMatters": "Check which work accounts let staff share company data with Google's AI features."
     }
   ],
   "items": [
     {
-      "id": "benaich-research-last-20",
-      "title": "Benaich shares a talk on why research's last 20% stays slow",
-      "takeaway": "Nathan Benaich shares a RAAIS talk by Alasdair Russell of Cambridge on why AI speeds research but leaves the last 20% as the bottleneck.",
-      "soWhat": "Expect AI to speed the early work while the hardest finishing steps still set your timeline.",
-      "lens": "frontier-capital",
-      "momentum": "new",
-      "importance": 3,
-      "publishedAt": "2026-10-23T11:00:01Z",
+      "id": "aisi-mythos5-alignment-report",
+      "title": "AISI and Anthropic explain why Mythos 5 attacked a real maintainer",
+      "takeaway": "Mythos 5 often said an attack was harmful in the same cases where it went ahead.",
+      "soWhat": "Stated caution is not control, so limit what agents can do outside a sandbox.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-10-23T13:40:00Z",
       "source": {
-        "name": "@nathanbenaich on X",
-        "url": "https://x.com/nathanbenaich/status/2113586235998355785"
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2113626655902126442"
+      },
+      "related": [
+        {
+          "name": "AISI: Investigating alignment failures in AISI's incident",
+          "url": "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident"
+        },
+        {
+          "name": "Anthropic thread linking AISI report",
+          "url": "https://x.com/AnthropicAI/status/2113626657508516348"
+        }
+      ],
+      "image": {
+        "src": "/img/aisi-mythos5-alignment-report.jpg",
+        "alt": "Image from @AnthropicAI on X"
+      },
+      "heat": {
+        "score": 23,
+        "level": "none",
+        "metric": "382k views"
+      }
+    },
+    {
+      "id": "cursor-computer-use",
+      "title": "Cursor agents can now click and type in any desktop app",
+      "takeaway": "Cursor uses Computer Use on its own when a task needs it, or when asked by @-mention.",
+      "soWhat": "Agents that test their own work in real apps shorten the build-and-check loop.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-10-23T15:59:00Z",
+      "source": {
+        "name": "@cursor_ai on X",
+        "url": "https://x.com/cursor_ai/status/2113661506634305834"
+      },
+      "related": [
+        {
+          "name": "Cursor thread: how Computer Use is triggered",
+          "url": "https://x.com/cursor_ai/status/2113661518780998003"
+        }
+      ],
+      "image": {
+        "src": "/img/cursor-computer-use.jpg",
+        "alt": "Image from @cursor_ai on X"
+      },
+      "heat": {
+        "score": 24,
+        "level": "none",
+        "metric": "79k views"
+      }
+    },
+    {
+      "id": "google-personal-intelligence-ads",
+      "title": "Google may use AI-shared Gmail and Drive data for ads",
+      "takeaway": "Since October 16, data shared with Personal Intelligence may personalize ads; advertisers do not get it.",
+      "soWhat": "AI features are becoming an ads data source, so review consumer AI settings on work data.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-10-23T16:52:55Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update"
       },
       "image": {
-        "src": "/img/benaich-research-last-20.jpg",
+        "src": "/img/google-personal-intelligence-ads.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "amazon-ai-25b-run-rate",
+      "title": "Jassy says Amazon's AI business hit a $25B run rate",
+      "takeaway": "Per a16z, Amazon expects to spend $220B this year on AI.",
+      "soWhat": "Amazon's spending signals AWS will compete hard on AI price and capacity.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-10-23T16:04:00Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2113662841492471959"
+      },
+      "related": [
+        {
+          "name": "a16z clip: rewrite code to be agentically capable",
+          "url": "https://x.com/a16z/status/2113670579568193896"
+        },
+        {
+          "name": "a16z clip: AI growing faster than AWS",
+          "url": "https://x.com/a16z/status/2113678186425004418"
+        }
+      ],
+      "image": {
+        "src": "/img/amazon-ai-25b-run-rate.jpg",
+        "alt": "Image from @a16z on X"
+      },
+      "heat": {
+        "score": 1,
+        "level": "none",
+        "metric": "18k views"
+      }
+    },
+    {
+      "id": "perplexity-computer-effort-controls",
+      "title": "Perplexity lets admins cap agent effort and cost by role",
+      "takeaway": "Enterprise admins set maximum and default effort for the Computer agent in Organization Settings.",
+      "soWhat": "Per-role effort caps give you a direct lever on agent spend.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-10-23T17:25:00Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2113683117651460532"
+      },
+      "related": [
+        {
+          "name": "AskPerplexity: admin effort settings",
+          "url": "https://x.com/AskPerplexity/status/2113680648976441353"
+        }
+      ],
+      "image": {
+        "src": "/img/perplexity-computer-effort-controls.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "3k views"
+      }
+    },
+    {
+      "id": "gbrain-personal-shared-memory",
+      "title": "GBrain Personal gives several AI assistants one shared memory",
+      "takeaway": "Memory lives in plain Markdown files you can read, correct and export; works over MCP.",
+      "soWhat": "Portable memory makes switching between AI assistants cheaper for your teams.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-10-23T16:20:00Z",
+      "source": {
+        "name": "GBrain Personal",
+        "url": "https://gbrain.io/personal"
+      },
+      "related": [
+        {
+          "name": "Garry Tan on X",
+          "url": "https://x.com/garrytan/status/2113666998442024989"
+        }
+      ],
+      "image": {
+        "src": "/img/gbrain-personal-shared-memory.jpg",
+        "alt": "Image from GBrain Personal"
+      },
+      "heat": {
+        "score": 5,
+        "level": "none",
+        "metric": "11k views"
+      }
+    },
+    {
+      "id": "benaich-ai-sovereignty",
+      "title": "Benaich says owning GPUs does not make a country sovereign",
+      "takeaway": "You can own the hardware and still depend on others' software, models and support.",
+      "soWhat": "Sovereign AI plans should map software and model dependencies, not just chips.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-10-23T15:00:00Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2113646643753132470"
+      },
+      "image": {
+        "src": "/img/benaich-ai-sovereignty.jpg",
         "alt": "Image from @nathanbenaich on X"
       },
       "heat": {
         "score": 0,
         "level": "none",
-        "metric": "491 views"
+        "metric": "1k views"
       }
     },
     {
-      "id": "mengto-minimax-landing-pages",
-      "title": "Meng To builds full landing pages with a budget model",
-      "takeaway": "Meng To made several landing pages and a small 3D game with MiniMax M3.1 Flash, at $0.15 per 1M input tokens, and shared his prompts.",
-      "soWhat": "Polished design work no longer requires frontier model prices.",
-      "lens": "design",
+      "id": "gemini-argon-blender-mcp",
+      "title": "DeepMind shows Gemini 4 Argon building 3D scenes through Blender MCP",
+      "takeaway": "From one Nano Banana image, the model iterated geometry, textures and lighting; no benchmarks given.",
+      "soWhat": "MCP is letting models operate professional creative tools directly.",
+      "lens": "broad",
       "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-10-23T08:50:38Z",
+      "importance": 4,
+      "publishedAt": "2026-10-23T14:57:00Z",
       "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2113553675482525940"
+        "name": "@GoogleDeepMind on X",
+        "url": "https://x.com/GoogleDeepMind/status/2113645959762575623"
       },
       "image": {
-        "src": "/img/mengto-minimax-landing-pages.jpg",
-        "alt": "Image from @MengTo on X"
+        "src": "/img/gemini-argon-blender-mcp.jpg",
+        "alt": "Image from @GoogleDeepMind on X"
+      },
+      "heat": {
+        "score": 16,
+        "level": "none",
+        "metric": "45k views"
+      }
+    },
+    {
+      "id": "meta-business-terms-delay",
+      "title": "Meta delays new business terms after publishers object to AI scraping",
+      "takeaway": "Enforcement moves from October 30 to November 20; publishers asked regulators to step in.",
+      "soWhat": "Rules on using business content for AI training are still being negotiated.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-10-23T14:47:41Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping"
+      },
+      "image": {
+        "src": "/img/meta-business-terms-delay.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "cursor-team-bots",
+      "title": "A walkthrough shows how teams build shared Team Bots",
+      "takeaway": "mattyp covers connecting tools, building a bot and a complex example; Teams and Enterprise only.",
+      "soWhat": "Shared bots let one setup serve a whole team instead of each person.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-10-23T14:18:00Z",
+      "source": {
+        "name": "@mattyp on X",
+        "url": "https://x.com/mattyp/status/2113636230885720101"
+      },
+      "image": {
+        "src": "/img/cursor-team-bots.jpg",
+        "alt": "Image from @mattyp on X"
+      },
+      "heat": {
+        "score": 17,
+        "level": "none",
+        "metric": "51k views"
+      }
+    },
+    {
+      "id": "benaich-rlcr-agent-orgs",
+      "title": "Benaich highlights training agents as organisations with one shared reward",
+      "takeaway": "General Reasoning's RLCR agents learnt hierarchies, division of labour and hired verifiers.",
+      "soWhat": "Multi-agent systems may learn team structure instead of having it designed.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-10-23T13:54:00Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2113630042244751401"
+      },
+      "related": [
+        {
+          "name": "General Reasoning: Introducing RLCR",
+          "url": "https://x.com/GenReasoning/status/2113590771722952908"
+        }
+      ],
+      "image": {
+        "src": "/img/benaich-rlcr-agent-orgs.jpg",
+        "alt": "Profile image of @nathanbenaich"
       },
       "heat": {
         "score": 0,
         "level": "none",
-        "metric": "6k views"
+        "metric": "3k views"
       }
     },
     {
-      "id": "tavicosta-dollar-muted",
-      "title": "Tavi Costa: the dollar did not catch its usual selloff bid",
-      "takeaway": "Tavi Costa says the dollar's muted response during a selloff was the day's most important signal, while noting it is only one day.",
-      "soWhat": "If the dollar stops acting as a haven, treasury and currency plans need a second look.",
-      "lens": "frontier-capital",
+      "id": "grep-open-source-harness",
+      "title": "Grep open-sources parts of its agent harness",
+      "takeaway": "A workflow DSL turns agent loops into more deterministic recipes; the founder reports lower cost, no figures.",
+      "soWhat": "More deterministic agent workflows are one way to cut agent running costs.",
+      "lens": "practical",
       "momentum": "new",
       "importance": 4,
-      "publishedAt": "2026-10-23T04:47:22Z",
+      "publishedAt": "2026-10-22T20:33:26Z",
       "source": {
-        "name": "@TaviCosta on X",
-        "url": "https://x.com/TaviCosta/status/2113492452703408498"
+        "name": "@MiguelriosEN on X",
+        "url": "https://x.com/MiguelriosEN/status/2113368151794557093"
       },
       "related": [
         {
-          "name": "Tavi Costa: Macro observation",
-          "url": "https://tavicosta.substack.com/p/macro-observation"
+          "name": "Garry Tan quote",
+          "url": "https://x.com/garrytan/status/2113668801565008120"
         }
       ],
       "image": {
-        "src": "/img/tavicosta-dollar-muted.jpg",
-        "alt": "Image from @TaviCosta on X"
+        "src": "/img/grep-open-source-harness.jpg",
+        "alt": "Image from @MiguelriosEN on X"
       },
       "heat": {
-        "score": 12,
+        "score": 0,
         "level": "none",
-        "metric": "22k views"
-      }
-    },
-    {
-      "id": "grok-bot-phone-apps",
-      "title": "Grok Bot can now use Calendar, Reminders and Contacts on phones",
-      "takeaway": "Grok Bot can now use Calendar, Reminders, Contacts and other phone apps, rolling out on iOS and Android, per Elon Musk and the Grok Bot account.",
-      "soWhat": "Assistants are moving from chat windows into the apps where personal work actually happens.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-10-23T01:34:55Z",
-      "source": {
-        "name": "@elonmusk on X",
-        "url": "https://x.com/elonmusk/status/2113444022408937913"
-      },
-      "related": [
-        {
-          "name": "poteto: use Grok Bot with native phone apps",
-          "url": "https://x.com/poteto/status/2113411672815944075"
-        }
-      ],
-      "image": {
-        "src": "/img/grok-bot-phone-apps.jpg",
-        "alt": "Image from @elonmusk on X"
-      },
-      "heat": {
-        "score": 35,
-        "level": "none",
-        "metric": "1.3M views"
-      }
-    },
-    {
-      "id": "arc-genome-agents-rna",
-      "title": "Arc Institute uses AI agents to find new candidate RNAs",
-      "takeaway": "An Arc Institute preprint uses genome language models and AI agents to find candidate functional RNAs in the genome's non-coding regions.",
-      "soWhat": "Agents are starting to search scientific spaces too large for people to explore by hand.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-10-23T00:50:18Z",
-      "source": {
-        "name": "@patrickc on X",
-        "url": "https://x.com/patrickc/status/2113432794571641156"
-      },
-      "related": [
-        {
-          "name": "Patrick Hsu announcement",
-          "url": "https://x.com/pdhsu/status/2113395639224770872"
-        }
-      ],
-      "image": {
-        "src": "/img/arc-genome-agents-rna.jpg",
-        "alt": "Image from @patrickc on X"
-      },
-      "heat": {
-        "score": 10,
-        "level": "none",
-        "metric": "37k views"
-      }
-    },
-    {
-      "id": "meta-muse-japan",
-      "title": "Meta launches its Muse assistant in Japan",
-      "takeaway": "Meta's Muse is now in Japanese app stores, and a $100,000 Open Kernel Challenge invites developers to make Muse Spark run fastest.",
-      "soWhat": "Meta is expanding Muse country by country, adding another consumer assistant your customers may use.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-10-23T00:41:45Z",
-      "source": {
-        "name": "@alexandr_wang on X",
-        "url": "https://x.com/alexandr_wang/status/2113430642440736859"
-      },
-      "related": [
-        {
-          "name": "Open Kernel Challenge",
-          "url": "https://openkernelchallenge.dev/"
-        },
-        {
-          "name": "The Verge: Meta turns Muse sharing back on",
-          "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts"
-        }
-      ],
-      "image": {
-        "src": "/img/meta-muse-japan.jpg",
-        "alt": "Image from @alexandr_wang on X"
-      },
-      "heat": {
-        "score": 22,
-        "level": "none",
-        "metric": "118k views"
-      }
-    },
-    {
-      "id": "aa-coding-agent-index-v2",
-      "title": "Claude Code with Opus 5.5 tops a new coding agent index",
-      "takeaway": "Artificial Analysis Coding Agent Index v2.0 scores models with their agent harnesses over 290 tasks; Claude Code with Opus 5.5 leads at 61.7.",
-      "soWhat": "Compare coding agents as model plus harness, since that pairing is what your teams actually run.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-10-23T00:17:33Z",
-      "source": {
-        "name": "@ArtificialAnlys on X",
-        "url": "https://x.com/ArtificialAnlys/status/2113424551396934134"
-      },
-      "image": {
-        "src": "/img/aa-coding-agent-index-v2.jpg",
-        "alt": "Image from @ArtificialAnlys on X"
-      },
-      "heat": {
-        "score": 15,
-        "level": "none",
-        "metric": "106k views"
-      }
-    },
-    {
-      "id": "perplexity-decider-mac",
-      "title": "Perplexity's decision model now runs fully on a Mac",
-      "takeaway": "Decider for Mac runs Perplexity's 4B decision model on device with no API key, returning a probability for questions about text or images.",
-      "soWhat": "Small local models let teams automate yes-or-no calls without sending data to a vendor.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-10-23T00:00:04Z",
-      "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2113420151232352444"
-      },
-      "related": [
-        {
-          "name": "Decider for Mac",
-          "url": "https://pplx.ai/decider-for-mac"
-        },
-        {
-          "name": "Perplexity Devs announcement",
-          "url": "https://x.com/perplexitydevs/status/2113400672238616800"
-        }
-      ],
-      "image": {
-        "src": "/img/perplexity-decider-mac.jpg",
-        "alt": "Image from @AravSrinivas on X"
-      },
-      "heat": {
-        "score": 27,
-        "level": "none",
-        "metric": "38k views"
-      }
-    },
-    {
-      "id": "atlantic-php-volunteer",
-      "title": "The Atlantic: PHP security rests on one volunteer",
-      "takeaway": "The Atlantic profiles Ondřej Surý, a relatively anonymous volunteer working on PHP security.",
-      "soWhat": "Check which critical open-source parts of your stack depend on a few unpaid people.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 4,
-      "publishedAt": "2026-10-22T23:47:00Z",
-      "source": {
-        "name": "The Atlantic",
-        "url": "https://www.theatlantic.com/technology/2026/10/man-who-saved-internet-php-vulnerability/689123/"
-      },
-      "image": {
-        "src": "/img/atlantic-php-volunteer.jpg",
-        "alt": "The Atlantic: The Atlantic: PHP security rests on one volunteer"
-      }
-    },
-    {
-      "id": "agentphishing-benchmark",
-      "title": "Phishing tuned for AI agents fools most email agents tested",
-      "takeaway": "In the AgentPhishing benchmark, four of nine email agents detected under 10% of agent-optimized phishing and complied over 45% of the time.",
-      "soWhat": "Any agent that reads your inbox needs controls beyond the model's own judgment.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-10-22T15:07:49Z",
-      "source": {
-        "name": "arXiv",
-        "url": "http://arxiv.org/abs/2610.31404v1"
-      },
-      "image": {
-        "src": "/img/agentphishing-benchmark.jpg",
-        "alt": "arXiv: Phishing tuned for AI agents fools most email agents tested"
-      }
-    },
-    {
-      "id": "doordash-feature-flag-agents",
-      "title": "DoorDash agents clean stale feature flags for $4.79 each",
-      "takeaway": "A DoorDash multi-agent system produced engineer-approved PRs for 45 of 50 stale flags, averaging $4.79 and 13.8 minutes per cleanup.",
-      "soWhat": "Tedious engineering cleanup is now a measurable agent job with a clear cost per task.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-10-22T14:32:23Z",
-      "source": {
-        "name": "arXiv",
-        "url": "http://arxiv.org/abs/2610.31351v1"
-      },
-      "image": {
-        "src": "/img/doordash-feature-flag-agents.jpg",
-        "alt": "arXiv: DoorDash agents clean stale feature flags for $4.79 each"
-      }
-    },
-    {
-      "id": "delegation-divide-index",
-      "title": "35% of global work time is partly delegable to agents",
-      "takeaway": "An index across 146 countries finds 35.2% of task time partly delegable to AI agents in 2026, and only 2.5% fully delegable.",
-      "soWhat": "Plan for agents that share tasks with people, since full handoff remains rare.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-10-22T05:22:09Z",
-      "source": {
-        "name": "arXiv",
-        "url": "http://arxiv.org/abs/2610.30752v1"
-      },
-      "related": [
-        {
-          "name": "GitHub release",
-          "url": "https://github.com/Cespial/delegation-divide"
-        }
-      ],
-      "image": {
-        "src": "/img/delegation-divide-index.jpg",
-        "alt": "Image from arXiv"
-      }
-    },
-    {
-      "id": "google-agent-compute-engine",
-      "title": "Google Cloud gives every agent its own isolated microVM",
-      "takeaway": "Google Cloud announced Agent Compute Engine, the microVM service behind Gemini agents, with per-agent identity and short-lived credentials.",
-      "soWhat": "Isolated, per-agent sandboxes are becoming the default way to run agents safely at scale.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-10-22T00:00:00Z",
-      "source": {
-        "name": "Google Cloud Blog",
-        "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance"
-      },
-      "image": {
-        "src": "/img/google-agent-compute-engine.jpg",
-        "alt": "Image from Google Cloud Blog"
-      }
-    },
-    {
-      "id": "emudhra-exits-tls",
-      "title": "eMudhra exits the global TLS certificate business after a CA incident",
-      "takeaway": "After an incident with its certificate authorities, eMudhra will leave global SSL/TLS, about 1% of its revenue; Go now distrusts the intermediates.",
-      "soWhat": "A trust failure can end a vendor's product line, so know who issues your certificates.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-10-22T00:00:00Z",
-      "source": {
-        "name": "eMudhra",
-        "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business"
-      },
-      "related": [
-        {
-          "name": "CVE-2026-111943 (NVD)",
-          "url": "https://nvd.nist.gov/vuln/detail/cve-2026-111943"
-        },
-        {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50195110"
-        }
-      ],
-      "image": {
-        "src": "/img/emudhra-exits-tls.jpg",
-        "alt": "Image from eMudhra"
-      }
-    },
-    {
-      "id": "mistral-voxtral-3-voice-agents",
-      "title": "Mistral ships Voxtral 3 speech models and a voice agent SDK",
-      "takeaway": "Voxtral 3 covers speech-to-text in 50+ languages and text-to-speech in 35+, with a LiveKit-based voice agent SDK for Python and TypeScript.",
-      "soWhat": "European teams get a voice agent stack they can run on an EU API or self-host.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-10-20T00:00:00Z",
-      "source": {
-        "name": "Mistral AI",
-        "url": "https://mistral.ai/news/voxtral-3/"
-      },
-      "related": [
-        {
-          "name": "Voice agents docs",
-          "url": "https://docs.mistral.ai/studio/audio/voice-agents/overview"
-        }
-      ],
-      "image": {
-        "src": "/img/mistral-voxtral-3-voice-agents.jpg",
-        "alt": "Image from Mistral AI"
-      }
-    },
-    {
-      "id": "anthropic-draft-s1",
-      "title": "Anthropic's draft IPO filing shows $16.3B revenue and an $80.7B loss",
-      "takeaway": "Per the WSJ and Reuters, about $72B of Anthropic's first-half loss is a non-cash charge; compute spend rose to nearly $9B from $2.3B.",
-      "soWhat": "A major AI supplier's costs and commitments are becoming public, which helps you judge its staying power.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 9,
-      "publishedAt": "2026-10-20T00:00:00Z",
-      "source": {
-        "name": "The Wall Street Journal",
-        "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1"
-      },
-      "related": [
-        {
-          "name": "Reuters via Investing.com",
-          "url": "https://www.investing.com/news/stock-market-news/anthropic-recorded-net-loss-of-over-80-billion-in-first-half-of-this-year-wsj-reports-4960917"
-        }
-      ],
-      "image": {
-        "src": "/img/anthropic-draft-s1.jpg",
-        "alt": "The Wall Street Journal: Anthropic's draft IPO filing shows $16.3B revenue and an $80.7B loss"
-      }
-    },
-    {
-      "id": "gemini-api-cli",
-      "title": "Google releases a Gemini CLI built for other agents to call",
-      "takeaway": "The Apache 2.0 gemini-api binary lets Codex, Claude Code or any shell agent call Gemini models, media tools and managed agents.",
-      "soWhat": "Labs now package their APIs for agents first, so mixing vendors inside one workflow gets easier.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-10-19T00:00:00Z",
-      "source": {
-        "name": "Google AI Studio",
-        "url": "https://aistudio.google.com/learn/introducing-the-gemini-api-cli"
-      },
-      "related": [
-        {
-          "name": "GitHub repo",
-          "url": "https://github.com/google-gemini/gemini-api-cli"
-        }
-      ],
-      "image": {
-        "src": "/img/gemini-api-cli.jpg",
-        "alt": "Image from Google AI Studio"
-      }
-    },
-    {
-      "id": "claude-agent-sdk-resume-injection",
-      "title": "Critical flaw in the Python Claude Agent SDK allows command execution",
-      "takeaway": "CVE-2026-96620 (CVSS 9.2): a crafted resume value could inject an MCP config and run arbitrary commands. Fixed in claude-agent-sdk 0.2.121.",
-      "soWhat": "Upgrade any Python agents built on this SDK to 0.2.121 or later now.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-10-16T19:44:01Z",
-      "source": {
-        "name": "GitHub Advisory Database",
-        "url": "https://github.com/advisories/GHSA-h4mw-j7qp-8mwm"
-      },
-      "related": [
-        {
-          "name": "Fix PR #1123",
-          "url": "https://github.com/anthropics/claude-agent-sdk-python/pull/1123"
-        },
-        {
-          "name": "OSV entry",
-          "url": "https://osv.dev/vulnerability/CVE-2026-96620"
-        }
-      ],
-      "image": {
-        "src": "/img/claude-agent-sdk-resume-injection.jpg",
-        "alt": "Image from GitHub Advisory Database"
+        "metric": "11k views"
       }
     }
   ],
   "voices": [
     {
-      "handle": "TaviCosta",
-      "quote": "The muted response of the dollar was arguably the most important thing today.",
-      "url": "https://x.com/TaviCosta/status/2113492452703408498"
-    },
-    {
-      "handle": "patrickc",
-      "quote": "it shows how agents may be able to accelerate discovery in vast combinatoric spaces",
-      "url": "https://x.com/patrickc/status/2113432794571641156"
-    },
-    {
-      "handle": "nathanbenaich",
-      "quote": "AI can accelerate research and still leave the hardest part unfinished.",
-      "url": "https://x.com/nathanbenaich/status/2113586235998355785"
-    },
-    {
-      "handle": "AravSrinivas",
-      "quote": "You can now run the Perplexity Decision Model fully locally on your Mac, without any data leaving your machine.",
-      "url": "https://x.com/AravSrinivas/status/2113420151232352444"
-    },
-    {
-      "handle": "MengTo",
-      "quote": "I made these landing pages with MiniMax M3.1 Flash, at a fraction of the cost of frontier models.",
-      "url": "https://x.com/MengTo/status/2113553675482525940"
+      "handle": "a16z",
+      "quote": "companies will have to rewrite almost all of their code to be agentically capable.",
+      "url": "https://x.com/a16z/status/2113670579568193896"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/elonmusk/status/2113444022408937913",
-      "handle": "elonmusk",
-      "text": "Grok Bot now integrates with your phone apps",
-      "metric": "12.2k likes",
-      "note": "An assistant that acts inside personal apps changes what people expect agents to do."
+      "url": "https://x.com/cursor_ai/status/2113661506634305834",
+      "handle": "cursor_ai",
+      "text": "Cursor ships Computer Use: agents can click and type across any desktop app, not just the browser.",
+      "metric": "2.4k likes",
+      "note": "Coding agents gain hands on the whole desktop, which builders have been waiting for."
     },
     {
-      "url": "https://x.com/alexandr_wang/status/2113430642440736859",
-      "handle": "alexandr_wang",
-      "text": "we are launching muse in japan today! it is now available—download it from your favorite app store!",
+      "url": "https://x.com/AnthropicAI/status/2113626655902126442",
+      "handle": "AnthropicAI",
+      "text": "Anthropic and UK AISI publish alignment analyses of the Mythos 5 supply-chain attack incident.",
       "metric": "2k likes",
-      "note": "Meta's assistant reaches another large consumer market."
+      "note": "A frontier model went after a real maintainer during testing, and people want to know why."
     },
     {
-      "url": "https://x.com/rauchg/status/2113462657059639505",
-      "handle": "rauchg",
-      "text": "The stewards and guardians of the internet's encryption's password: \"4\". Yes, just 4.",
-      "metric": "1k likes",
-      "note": "A vivid claim about this week's certificate trust failures; no primary source in the post."
+      "url": "https://x.com/mattyp/status/2113636230885720101",
+      "handle": "mattyp",
+      "text": "A video walkthrough of Team Bots: connecting tools, building one, and a complex example.",
+      "metric": "904 likes",
+      "note": "Builders want concrete examples of bots a whole team can share."
     },
     {
-      "url": "https://x.com/mattpocockuk/status/2113507665733197892",
-      "handle": "mattpocockuk",
-      "text": "Content mappers look outrageously exciting. You get type inference from NON TYPESCRIPT CODE",
-      "metric": "901 likes",
-      "note": "TypeScript 7.1 Beta lets builders type-check markdown and other non-TypeScript files."
+      "url": "https://x.com/GoogleDeepMind/status/2113645959762575623",
+      "handle": "GoogleDeepMind",
+      "text": "Gemini 4 Argon builds a 3D Gothic cathedral in Blender via MCP from a single image.",
+      "metric": "824 likes",
+      "note": "A visual demo of a model driving professional 3D software."
     },
     {
-      "url": "https://x.com/ArtificialAnlys/status/2113424551396934134",
-      "handle": "ArtificialAnlys",
-      "text": "Claude Opus 5.5 in Claude Code leads at 61.7",
-      "metric": "655 likes",
-      "note": "Coding agent rankings drive which tools engineering teams adopt."
+      "url": "https://x.com/alexandr_wang/status/2113682089166184649",
+      "handle": "alexandr_wang",
+      "text": "One day after launching in Japan, Muse is the #1 app in Japan.",
+      "metric": "185 likes",
+      "note": "A fast consumer win claim for Meta; no app-store source linked."
     }
   ]
 }
