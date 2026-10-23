@@ -1,7 +1,69 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-22T21:58:19.115Z",
+  "updatedAt": "2026-10-23T12:20:00Z",
   "howtos": [
+    {
+      "id": "typed-markdown-frontmatter-ts-71",
+      "dedupeKey": "typescript-content-mapper-markdown",
+      "title": "Type-check markdown frontmatter with TypeScript 7.1",
+      "what": "Use a TypeScript 7.1 Beta content mapper to get fully typed frontmatter from imported markdown files.",
+      "kind": "steps",
+      "copy": [
+        "Import a markdown file",
+        "Add a bit of config to tsconfig.json",
+        "Run tsc with --runExternalCode",
+        "Get fully typed markdown frontmatter"
+      ],
+      "whenToUse": "When a project loads content from markdown, vue or svelte files and you want type errors caught at build time.",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2113507665733197892"
+      },
+      "author": {
+        "name": "Matt Pocock",
+        "handle": "mattpocockuk"
+      },
+      "tags": [
+        "typescript",
+        "tooling"
+      ],
+      "quality": 3,
+      "verbatim": true,
+      "addedAt": "2026-10-23T12:20:00Z"
+    },
+    {
+      "id": "claude-code-from-iphone",
+      "dedupeKey": "claude-code-remote-control-phone",
+      "title": "Drive Claude Code on your laptop from an iPhone",
+      "what": "Pair the Claude iPhone app with Claude Code on a Mac and steer a coding session by voice from anywhere.",
+      "kind": "steps",
+      "copy": [
+        "Get a Claude Max subscription.",
+        "Download the Claude Mac app, sign in and open Claude Code.",
+        "Create a code repo and keep the laptop plugged in.",
+        "Download the Claude iPhone app and open it.",
+        "Go to Claude Code and add the device.",
+        "Enable Remote Control with the switch in the UI or Claude's rc command.",
+        "Use voice dictation to give instructions."
+      ],
+      "whenToUse": "When you want to keep an agent coding session moving while away from your desk.",
+      "source": {
+        "name": "@kloss_xyz on X",
+        "url": "https://x.com/kloss_xyz/status/2113517100480581827"
+      },
+      "author": {
+        "name": "kloss_xyz",
+        "handle": "kloss_xyz"
+      },
+      "tags": [
+        "claude-code",
+        "mobile",
+        "remote"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "addedAt": "2026-10-23T12:20:00Z"
+    },
     {
       "id": "ai-key-10-minute-fix",
       "dedupeKey": "agent-api-key-hygiene",
