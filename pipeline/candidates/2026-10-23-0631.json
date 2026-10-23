@@ -1,0 +1,702 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-23-0631",
+  "generatedAt": "2026-10-23T11:45:00Z",
+  "configVersions": {
+    "sources": "1.2.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-22T23:00:00Z",
+    "to": "2026-10-23T11:35:00Z"
+  },
+  "sourceNotes": [
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed): first request timed out; it 301-redirects to dwarkesh.com/feed, which works. Config URL should be updated.",
+    "arXiv API: first request timed out; retry succeeded.",
+    "Lenny Rachitsky, Benedict Evans, One Useful Thing (Ethan Mollick), Mitchell Hashimoto: feeds reachable, 0 items in the last 36 hours.",
+    "X queries lane is noisy again: matches were mostly zero-engagement reposts of Mistral/Claude news and promo threads; only used to locate primary sources.",
+    "X bigPicture lane was quiet overnight: sama, DarioAmodei, karpathy and several others had no new posts in the window. beffjezos posted heavily (cyber-acceleration commentary, no primary sources); not used.",
+    "X news story summaries (x.com/i/trending) used only to find primary sources; facts taken from the primary pages.",
+    "authorBaseline omitted for ArtificialAnlys and MengTo: their last-20 medians (14 and 2 likes) look skewed by very fresh or low-reach posts.",
+    "Metaplanet Google News item links only to a news.google.com redirect; source.url points at the configured feed.",
+    "web: no pages configured.",
+    "publishedAt for web/blog sources that show only a date is set to 00:00 UTC of that date."
+  ],
+  "candidates": [
+    {
+      "id": "aa-coding-agent-index-v2",
+      "lens": "practical",
+      "topic": "aa-coding-agent-index",
+      "summary": "Artificial Analysis launched v2.0 of its Coding Agent Index, which scores models together with their agent harnesses; Claude Code with Claude Opus 5.5 (max) leads at 61.7.",
+      "facts": [
+        "The index covers 290 tasks across three equally weighted benchmarks.",
+        "FrontierCode v1.1 from Cognition replaces DeepSWE.",
+        "Runner-ups: Claude Code with Claude Sonnet 5.5 (max) 59.3, Muse Code with Muse Wonder Full 58.9, Claude Code with Claude Fable 5.1 57.6.",
+        "On FrontierCode, Opus 5.5 scores 56.0%, ahead of Codex with DeepSeek V4.1 Flash at 52.6%.",
+        "SWE-Atlas-QnA grading was revised: 127 of 1,306 rubric criteria reworded, with GPT-6 Luna (xhigh) as judge."
+      ],
+      "source": {
+        "name": "Artificial Analysis",
+        "url": "https://x.com/ArtificialAnlys/status/2113424551396934134",
+        "type": "x",
+        "handle": "ArtificialAnlys"
+      },
+      "publishedAt": "2026-10-23T00:17:33Z",
+      "metrics": {
+        "likes": 655,
+        "reposts": 40,
+        "replies": 147,
+        "views": 106089,
+        "capturedAt": "2026-10-23T11:34:00Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://x.com/ArtificialAnlys/status/2113424551396934134",
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "claude-agent-sdk-resume-injection",
+      "lens": "practical",
+      "topic": "agent-sdk-security",
+      "summary": "A critical advisory (CVE-2026-96620, CVSS 9.2) in the Claude Agent SDK for Python: a resume value starting with '-' could inject --mcp-config and lead to arbitrary command execution. Fixed in claude-agent-sdk 0.2.121.",
+      "facts": [
+        "Affected: claude-agent-sdk (pip) versions below 0.2.121.",
+        "Fixed in 0.2.121 via PR #1123; the TypeScript SDK fix shipped in 0.3.208."
+      ],
+      "source": {
+        "name": "GitHub Advisory Database",
+        "url": "https://github.com/advisories/GHSA-h4mw-j7qp-8mwm",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Fix PR #1123",
+          "url": "https://github.com/anthropics/claude-agent-sdk-python/pull/1123"
+        },
+        {
+          "name": "OSV entry",
+          "url": "https://osv.dev/vulnerability/CVE-2026-96620"
+        }
+      ],
+      "publishedAt": "2026-10-16T19:44:01Z",
+      "care": 4,
+      "proof": 5,
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "mistral-voxtral-3-voice-agents",
+      "lens": "practical",
+      "topic": "mistral-voxtral-3",
+      "summary": "Mistral released Voxtral 3 speech models plus a voice agent SDK built on LiveKit for Python and TypeScript.",
+      "facts": [
+        "Speech-to-text covers 50+ languages with diarization and end-of-turn detection.",
+        "Text-to-speech covers 35+ languages; Pro Voice builds a custom voice from 30 minutes of audio.",
+        "Available through Mistral's EU API or self-deployment."
+      ],
+      "source": {
+        "name": "Mistral AI",
+        "url": "https://mistral.ai/news/voxtral-3/",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Voice agents docs",
+          "url": "https://docs.mistral.ai/studio/audio/voice-agents/overview"
+        }
+      ],
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://mistral.ai/news/voxtral-3/",
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "gemini-api-cli",
+      "lens": "practical",
+      "topic": "google-agent-infra",
+      "summary": "Google introduced the Gemini API CLI (gemini-api), a stateless binary that lets Codex, Claude Code or any agent with shell access call Gemini models, media generation, file analysis and background managed agents.",
+      "facts": [
+        "Self-describing interface: request schemas via --schema and machine-readable usage via --usage are built into the binary.",
+        "--dry-run validates inputs and prints the resolved HTTP request with credentials redacted, without a network call.",
+        "Apache 2.0 licensed."
+      ],
+      "source": {
+        "name": "Google AI Studio",
+        "url": "https://aistudio.google.com/learn/introducing-the-gemini-api-cli",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "GitHub repo",
+          "url": "https://github.com/google-gemini/gemini-api-cli"
+        }
+      ],
+      "publishedAt": "2026-10-19T00:00:00Z",
+      "care": 4,
+      "proof": 5,
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "google-agent-compute-engine",
+      "lens": "practical",
+      "topic": "google-agent-infra",
+      "summary": "Google Cloud announced Agent Compute Engine, the microVM service that already powers Gemini agents, giving each agent a hardware-isolated sandbox; preview is targeted for the coming months.",
+      "facts": [
+        "Announced at AGNTCon + MCPCon on Oct 22; it already powers Gemini as an agent for work tasks.",
+        "Idle microVMs are paused via checkpoint and restore while the agent waits on a human or external system; copy-on-write memory sharing runs multiple agents on one OS template.",
+        "Each microVM runs with its agent's own identity and short-lived credentials; service credentials are injected at egress outside the microVM; runs on Google's Titanium IPU.",
+        "Each microVM gets its own Hyperdisk for persistent workspaces and agent context."
+      ],
+      "source": {
+        "name": "Google Cloud Blog",
+        "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance",
+        "type": "blog"
+      },
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "typescript-content-mappers",
+      "lens": "practical",
+      "topic": "typescript-7-1",
+      "summary": "Matt Pocock highlights content mappers in the TypeScript 7.1 Beta: import non-TypeScript files (markdown, vue, svelte), extract types with a mapper, run tsc with --runExternalCode, and get type inference from them.",
+      "facts": [
+        "Simplest case per the post: import a markdown file, add config to tsconfig.json, run tsc with --runExternalCode, get fully typed frontmatter.",
+        "TypeScript 7.1 Beta was announced Oct 20 with a preview API and content mapper support."
+      ],
+      "source": {
+        "name": "Matt Pocock",
+        "url": "https://x.com/mattpocockuk/status/2113507665733197892",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "related": [
+        {
+          "name": "Announcing TypeScript 7.1 Beta",
+          "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta/"
+        }
+      ],
+      "publishedAt": "2026-10-23T05:47:49Z",
+      "metrics": {
+        "likes": 901,
+        "reposts": 30,
+        "replies": 39,
+        "views": 40878,
+        "capturedAt": "2026-10-23T11:34:00Z",
+        "authorBaseline": 571
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/mattpocockuk/status/2113507665733197892",
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "perplexity-decider-mac",
+      "lens": "practical",
+      "topic": "perplexity-decision-model",
+      "summary": "Perplexity's 4B decision model (pplx-decider-flash-v1.2) now runs locally on a Mac through a Decider for Mac app, with no API key and no data leaving the machine.",
+      "facts": [
+        "Ask a question about text or an image and get a probability back, on device (perplexitydevs).",
+        "Aravind Srinivas framed it as an example of open-weight, compact models."
+      ],
+      "source": {
+        "name": "Aravind Srinivas",
+        "url": "https://x.com/AravSrinivas/status/2113420151232352444",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "related": [
+        {
+          "name": "Perplexity Devs announcement",
+          "url": "https://x.com/perplexitydevs/status/2113400672238616800"
+        },
+        {
+          "name": "Decider for Mac",
+          "url": "https://pplx.ai/decider-for-mac"
+        }
+      ],
+      "publishedAt": "2026-10-23T00:00:04Z",
+      "metrics": {
+        "likes": 545,
+        "reposts": 36,
+        "replies": 57,
+        "views": 38312,
+        "capturedAt": "2026-10-23T11:34:00Z",
+        "authorBaseline": 407
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/perplexitydevs/status/2113400672238616800",
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "doordash-feature-flag-agents",
+      "lens": "practical",
+      "topic": "agents-in-production",
+      "summary": "DoorDash paper: a multi-agent LLM system that cleans up stale feature flags end to end (live rollout data via MCP, Jira tickets, PR creation) produced engineer-approved PRs for 45 of 50 stale flags.",
+      "facts": [
+        "DoorDash has 56,000+ feature flags across 623 repositories; 1,659 were stale as of May 2026.",
+        "Average cost per cleanup was $4.79 and 13.8 minutes, versus internal estimates of 1-2 hours per manual cleanup.",
+        "Rule-based cleanup tools proved insufficient in DoorDash's codebases."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "http://arxiv.org/abs/2610.31351v1",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-10-22T14:32:23Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "agentphishing-benchmark",
+      "lens": "practical",
+      "topic": "agent-security",
+      "summary": "AgentPhishing benchmark: LLM email agents handle known phishing emails safely but fail against attacks optimized for agent behavior; four of nine agents tested detected under 10% and complied with malicious requests over 45% of the time.",
+      "facts": [
+        "Authors built PhishOpt, which optimizes reusable email-generation skills against individual agents under realism constraints.",
+        "Failures were analyzed using Cialdini's persuasion principles."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "http://arxiv.org/abs/2610.31404v1",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-10-22T15:07:49Z",
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "naive-rag-beats-agentic-memory",
+      "lens": "practical",
+      "topic": "agent-memory",
+      "summary": "Paper: a naive RAG baseline over raw conversation history (dense retrieval plus reranking) ranked first among compared memory systems in six of seven benchmark-model settings, beating the strongest agentic memory system by 0.13-5.53 points.",
+      "facts": [
+        "Benchmarks: LoCoMo, LongMemEval, MEME and MemoryAgentBench.",
+        "Even full access to transformed memory stores left an accuracy gap versus raw evidence."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "http://arxiv.org/abs/2610.30755v1",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-10-22T05:23:16Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "replit-vuln-patching",
+      "lens": "practical",
+      "topic": "ai-vuln-wave",
+      "summary": "Replit says it patched infrastructure, updated language tooling and blocked exploits to protect hosted apps from recent third-party vulnerabilities, applying fixes automatically where possible and notifying users who need to republish.",
+      "source": {
+        "name": "Amjad Masad",
+        "url": "https://x.com/amasad/status/2113474587166171560",
+        "type": "x",
+        "handle": "amasad"
+      },
+      "related": [
+        {
+          "name": "Replit announcement",
+          "url": "https://x.com/Replit/status/2113472692892614996"
+        }
+      ],
+      "publishedAt": "2026-10-23T03:36:22Z",
+      "metrics": {
+        "likes": 137,
+        "reposts": 5,
+        "replies": 34,
+        "views": 12178,
+        "capturedAt": "2026-10-23T11:34:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "claude-code-from-iphone",
+      "lens": "practical",
+      "topic": "claude-code-mobile",
+      "summary": "kloss_xyz posted a step-by-step setup for running Claude Code from an iPhone: Claude Max subscription, Claude Mac app signed in to Claude Code with a repo on a plugged-in laptop, then the Claude iPhone app's Claude Code tab.",
+      "source": {
+        "name": "kloss_xyz",
+        "url": "https://x.com/kloss_xyz/status/2113517100480581827",
+        "type": "x",
+        "handle": "kloss_xyz"
+      },
+      "publishedAt": "2026-10-23T06:25:18Z",
+      "metrics": {
+        "likes": 158,
+        "reposts": 10,
+        "replies": 45,
+        "views": 10836,
+        "capturedAt": "2026-10-23T11:34:00Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "anthropic-draft-s1",
+      "lens": "broad",
+      "topic": "anthropic-ipo",
+      "summary": "Anthropic's draft IPO prospectus, reviewed by the WSJ and Reuters, shows $16.3B in first-half 2026 revenue and an $80.7B net loss, about $72B of it a non-cash charge tied to convertible notes.",
+      "facts": [
+        "First-half net loss a year earlier was $13B.",
+        "Compute spend was nearly $9B in the first half, up from $2.3B.",
+        "Anthropic has at least $518B in commitments over a decade, per Reuters; WSJ reports it could spend $750B on compute."
+      ],
+      "source": {
+        "name": "The Wall Street Journal",
+        "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/anthropic-recorded-net-loss-of-over-80-billion-in-first-half-of-this-year-wsj-reports-4960917"
+        }
+      ],
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "care": 5,
+      "proof": 4,
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "emudhra-exits-tls",
+      "lens": "broad",
+      "topic": "ca-trust-incident",
+      "summary": "eMudhra's board decided to withdraw from the global SSL/TLS certificate business after a recent incident with its CAs, which it says it revoked within 14 hours of discovery.",
+      "facts": [
+        "eMudhra says no end-entity certificates were issued from the affected CAs and its infrastructure was not compromised.",
+        "Global SSL/TLS is about 1% of eMudhra's revenue, per the release.",
+        "Go added a crypto/x509 denylist for the intermediates no longer considered trustworthy (CVE-2026-111943).",
+        "The HN thread on the exit reached 1,077 points."
+      ],
+      "source": {
+        "name": "eMudhra press release",
+        "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "CVE-2026-111943 (NVD)",
+          "url": "https://nvd.nist.gov/vuln/detail/cve-2026-111943"
+        },
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50195110"
+        }
+      ],
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "metrics": {
+        "points": 1077,
+        "capturedAt": "2026-10-23T11:33:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "rauch-key-password-4",
+      "lens": "broad",
+      "topic": "ai-vuln-wave",
+      "summary": "Guillermo Rauch: this week a key held by stewards of the internet's encryption had a password of just \"4\"; he says it could be used to target and decrypt nearly everything and residual risk is still being cleaned up.",
+      "source": {
+        "name": "Guillermo Rauch",
+        "url": "https://x.com/rauchg/status/2113462657059639505",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "publishedAt": "2026-10-23T02:48:58Z",
+      "metrics": {
+        "likes": 1029,
+        "reposts": 25,
+        "replies": 89,
+        "views": 59960,
+        "capturedAt": "2026-10-23T11:34:00Z",
+        "authorBaseline": 995
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "atlantic-php-volunteer",
+      "lens": "broad",
+      "topic": "ai-vuln-wave",
+      "summary": "The Atlantic profiles Ondřej Surý, a relatively anonymous volunteer working on PHP security, under the headline 'If Anything Happens to This Guy … Everyone Is Screwed'.",
+      "source": {
+        "name": "The Atlantic",
+        "url": "https://www.theatlantic.com/technology/2026/10/man-who-saved-internet-php-vulnerability/689123/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-22T23:47:00Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "meta-muse-japan",
+      "lens": "broad",
+      "topic": "meta-muse",
+      "summary": "Meta launched its Muse assistant in Japan, and a $100,000 Open Kernel Challenge invites developers to make Muse Spark run fastest.",
+      "facts": [
+        "Alexandr Wang: Muse is available in Japan now from app stores.",
+        "Wang also said 1Password is coming to Muse, rolling out over the coming days.",
+        "The Verge reports Meta re-enabled Muse sharing after researchers found public conversation links were easy to find."
+      ],
+      "source": {
+        "name": "Alexandr Wang",
+        "url": "https://x.com/alexandr_wang/status/2113430642440736859",
+        "type": "x",
+        "handle": "alexandr_wang"
+      },
+      "related": [
+        {
+          "name": "Open Kernel Challenge",
+          "url": "https://openkernelchallenge.dev/"
+        },
+        {
+          "name": "Daniel Gross on the challenge",
+          "url": "https://x.com/danielgross/status/2113351902402613558"
+        },
+        {
+          "name": "Wang on 1Password in Muse",
+          "url": "https://x.com/alexandr_wang/status/2113436201638375907"
+        },
+        {
+          "name": "The Verge: Meta turns Muse sharing back on",
+          "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts"
+        }
+      ],
+      "publishedAt": "2026-10-23T00:41:45Z",
+      "metrics": {
+        "likes": 2002,
+        "reposts": 166,
+        "replies": 175,
+        "views": 117886,
+        "capturedAt": "2026-10-23T11:34:00Z",
+        "authorBaseline": 2427
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/alexandr_wang/status/2113430642440736859",
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "grok-bot-phone-apps",
+      "lens": "broad",
+      "topic": "grok-bot",
+      "summary": "Elon Musk: Grok Bot now integrates with your phone apps.",
+      "related": [
+        {
+          "name": "poteto: use Grok Bot with native phone apps",
+          "url": "https://x.com/poteto/status/2113411672815944075"
+        }
+      ],
+      "source": {
+        "name": "Elon Musk",
+        "url": "https://x.com/elonmusk/status/2113444022408937913",
+        "type": "x",
+        "handle": "elonmusk"
+      },
+      "publishedAt": "2026-10-23T01:34:55Z",
+      "metrics": {
+        "likes": 12153,
+        "reposts": 1033,
+        "replies": 1165,
+        "views": 1269047,
+        "capturedAt": "2026-10-23T11:34:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/elonmusk/status/2113444022408937913",
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "arc-genome-agents-rna",
+      "lens": "broad",
+      "topic": "ai-for-science",
+      "summary": "Arc Institute preprint uses genome language models and AI agents to find new candidate functional RNAs in the genome's non-coding regions.",
+      "facts": [
+        "Patrick Collison: it uses deep learning and model interpretability to productive ends on a totally different kind of knowledge.",
+        "Patrick Hsu: RNAs can keep similar structures and functions while their DNA sequences change dramatically, which conventional computational tools struggle to recognize."
+      ],
+      "source": {
+        "name": "Patrick Collison",
+        "url": "https://x.com/patrickc/status/2113432794571641156",
+        "type": "x",
+        "handle": "patrickc"
+      },
+      "related": [
+        {
+          "name": "Patrick Hsu announcement",
+          "url": "https://x.com/pdhsu/status/2113395639224770872"
+        }
+      ],
+      "publishedAt": "2026-10-23T00:50:18Z",
+      "metrics": {
+        "likes": 370,
+        "reposts": 22,
+        "replies": 19,
+        "views": 37150,
+        "capturedAt": "2026-10-23T11:34:00Z",
+        "authorBaseline": 1051
+      },
+      "care": 2,
+      "proof": 4,
+      "imageHint": "https://x.com/pdhsu/status/2113395639224770872",
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "delegation-divide-index",
+      "lens": "broad",
+      "topic": "ai-labor-impact",
+      "summary": "Paper: an Agent Delegability Index across 146 countries finds 35.2% of task time in world employment is at least partly delegable to AI agents in 2026, and only 2.5% fully.",
+      "facts": [
+        "Delegable employment rises with income: 22.5% in low-income countries vs 48.7% in high-income countries.",
+        "Full delegation peaks for tasks that take a human about 11.8 minutes.",
+        "Across 101 countries, delegability and observed AI usage correlate at r = 0.86.",
+        "The index, prompts and an MCP server are released on GitHub."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "http://arxiv.org/abs/2610.30752v1",
+        "type": "arxiv"
+      },
+      "related": [
+        {
+          "name": "GitHub release",
+          "url": "https://github.com/Cespial/delegation-divide"
+        }
+      ],
+      "publishedAt": "2026-10-22T05:22:09Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "marcus-coreweave",
+      "lens": "broad",
+      "topic": "ai-capex-doubts",
+      "summary": "Gary Marcus (contrarian) writes that CoreWeave stock has dropped over 50% in the last six months.",
+      "source": {
+        "name": "Gary Marcus",
+        "url": "https://garymarcus.substack.com/p/all-the-kings-horses-and-all-the",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-22T15:29:13Z",
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "tavicosta-dollar-muted",
+      "lens": "frontier-capital",
+      "topic": "dollar-safe-haven",
+      "summary": "Tavi Costa: the dollar's muted response during the selloff was arguably the most important thing today; treasuries aside, the dollar would normally have caught a strong bid.",
+      "source": {
+        "name": "Tavi Costa",
+        "url": "https://x.com/TaviCosta/status/2113492452703408498",
+        "type": "x",
+        "handle": "TaviCosta"
+      },
+      "publishedAt": "2026-10-23T04:47:22Z",
+      "metrics": {
+        "likes": 354,
+        "reposts": 33,
+        "replies": 34,
+        "views": 22184,
+        "capturedAt": "2026-10-23T11:34:00Z",
+        "authorBaseline": 796
+      },
+      "care": 2,
+      "proof": 3,
+      "imageHint": "https://x.com/TaviCosta/status/2113492452703408498",
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "benaich-research-last-20",
+      "lens": "frontier-capital",
+      "topic": "ai-research-bottleneck",
+      "summary": "Nathan Benaich shares a RAAIS talk by Alasdair Russell (University of Cambridge) on why AI can accelerate research yet leave the last 20% as the bottleneck.",
+      "source": {
+        "name": "Nathan Benaich",
+        "url": "https://x.com/nathanbenaich/status/2113586235998355785",
+        "type": "x",
+        "handle": "nathanbenaich"
+      },
+      "publishedAt": "2026-10-23T11:00:01Z",
+      "metrics": {
+        "likes": 8,
+        "reposts": 0,
+        "replies": 2,
+        "views": 491,
+        "capturedAt": "2026-10-23T11:34:00Z"
+      },
+      "care": 2,
+      "proof": 3,
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "metaplanet-capital-research",
+      "lens": "frontier-capital",
+      "topic": "metaplanet",
+      "summary": "Headline via Google News: Bitcoin treasury firm Metaplanet names Capital Research its largest major shareholder.",
+      "source": {
+        "name": "Metaplanet news (Google News)",
+        "url": "https://news.google.com/rss/search?q=Metaplanet&hl=en-US&gl=US&ceid=US:en",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-23T07:43:44Z",
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "mengto-minimax-landing-pages",
+      "lens": "design",
+      "topic": "cheap-model-design",
+      "summary": "Meng To built landing pages (three keyboard sites, a SaaS page, a rainy 3D Singapore at night and a 3D lighthouse game) with MiniMax M3.1 Flash, priced at $0.15 per 1M input and $0.60 per 1M output tokens, and shared the whole process with prompts.",
+      "source": {
+        "name": "Meng To",
+        "url": "https://x.com/MengTo/status/2113553675482525940",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-10-23T08:50:38Z",
+      "metrics": {
+        "likes": 76,
+        "reposts": 2,
+        "replies": 12,
+        "views": 5623,
+        "capturedAt": "2026-10-23T11:34:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/MengTo/status/2113553675482525940",
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "canva-craft-plans-first",
+      "lens": "design",
+      "topic": "canva-craft",
+      "summary": "The Verge: Canva launched Canva Craft, its first in-house image model, which uses a two-stage architecture to plan a design before generating it.",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-22T21:51:25Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-10-22"
+    }
+  ]
+}
