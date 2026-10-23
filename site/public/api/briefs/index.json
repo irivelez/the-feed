@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-22-1400",
-  "count": 1,
+  "latest": "2026-10-22-1900",
+  "count": 2,
   "briefs": [
+    {
+      "id": "2026-10-22-1900",
+      "date": "2026-10-22",
+      "edition": "Evening",
+      "publishedAt": "2026-10-23T00:09:14Z",
+      "headline": "A poisoned LiteLLM release on PyPI installs a credential stealer",
+      "url": "/api/briefs/2026-10-22-1900.json"
+    },
     {
       "id": "2026-10-22-1400",
       "date": "2026-10-22",
