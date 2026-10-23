@@ -1,7 +1,39 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-23T12:20:00Z",
+  "updatedAt": "2026-10-23T18:08:05Z",
   "howtos": [
+    {
+      "id": "cursor-computer-use-desktop-apps",
+      "dedupeKey": "cursor-computer-use-desktop",
+      "title": "Let Cursor agents use your desktop apps",
+      "what": "Turn on Cursor's Computer Use so agents can click and type in desktop apps, such as the iOS Simulator.",
+      "kind": "steps",
+      "copy": [
+        "Update Cursor (cursor.com/download).",
+        "Let the agent use Computer Use on its own when a task needs it, or @-mention Computer Use in your prompt to request it."
+      ],
+      "whenToUse": "When an agent needs to test what it built in a desktop app, not just a browser.",
+      "source": {
+        "name": "@cursor_ai on X",
+        "url": "https://x.com/cursor_ai/status/2113661506634305834"
+      },
+      "author": {
+        "name": "Cursor",
+        "handle": "cursor_ai"
+      },
+      "tags": [
+        "cursor",
+        "computer-use",
+        "agents"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-10-23-1300",
+        "itemId": "cursor-computer-use"
+      },
+      "addedAt": "2026-10-23T18:08:05Z"
+    },
     {
       "id": "typed-markdown-frontmatter-ts-71",
       "dedupeKey": "typescript-content-mapper-markdown",
