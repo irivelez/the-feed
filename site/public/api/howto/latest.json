@@ -1,39 +1,43 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-23T18:08:05Z",
-  "runId": "2026-10-23-1234",
+  "updatedAt": "2026-10-24T00:04:51Z",
+  "runId": "2026-10-23-1900",
   "howtos": [
     {
-      "id": "cursor-computer-use-desktop-apps",
-      "dedupeKey": "cursor-computer-use-desktop",
-      "title": "Let Cursor agents use your desktop apps",
-      "what": "Turn on Cursor's Computer Use so agents can click and type in desktop apps, such as the iOS Simulator.",
+      "id": "rebuild-neglected-saas-with-argon",
+      "dedupeKey": "rebuild-neglected-niche-saas-from-complaints",
+      "title": "Rebuild a neglected niche SaaS from user complaints",
+      "what": "A six-step setup for using Gemini Argon to rebuild old software for one niche, starting from real customer complaints.",
       "kind": "steps",
       "copy": [
-        "Update Cursor (cursor.com/download).",
-        "Let the agent use Computer Use on its own when a task needs it, or @-mention Computer Use in your prompt to request it."
+        "Find recurring complaints about old, neglected SaaS in one niche on G2, Capterra, Idea Browser and Reddit.",
+        "Give Argon the complaints, their source links and the workflow.",
+        "Have Argon explain its plan.",
+        "Have it build the app and list what is unfinished.",
+        "Release the app free.",
+        "Sell further tools to the same buyers."
       ],
-      "whenToUse": "When an agent needs to test what it built in a desktop app, not just a browser.",
+      "whenToUse": "When you want to test a niche software idea quickly against problems users already complain about.",
       "source": {
-        "name": "@cursor_ai on X",
-        "url": "https://x.com/cursor_ai/status/2113661506634305834"
+        "name": "@startupideaspod on X",
+        "url": "https://x.com/startupideaspod/status/2113738961684414711"
       },
       "author": {
-        "name": "Cursor",
-        "handle": "cursor_ai"
+        "name": "Startup Ideas Podcast",
+        "handle": "startupideaspod"
       },
       "tags": [
-        "cursor",
-        "computer-use",
-        "agents"
+        "gemini",
+        "product-ideas",
+        "steps"
       ],
-      "quality": 3,
+      "quality": 2,
       "verbatim": false,
       "briefItem": {
-        "briefId": "2026-10-23-1300",
-        "itemId": "cursor-computer-use"
+        "briefId": "2026-10-23-1900",
+        "itemId": "argon-rebuild-old-saas-steps"
       },
-      "addedAt": "2026-10-23T18:08:05Z"
+      "addedAt": "2026-10-24T00:04:51Z"
     }
   ]
 }
