@@ -1,0 +1,285 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-24-1831",
+  "generatedAt": "2026-10-24T23:35:00Z",
+  "configVersions": {
+    "sources": "1.2.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-24T17:35:00Z",
+    "to": "2026-10-24T23:33:00Z"
+  },
+  "sourceNotes": [
+    "Saturday evening window (17:35Z to 23:33Z). Eight candidates; strongest are Apollo's no-AI-payoff note (via Hacker News) and a16z's OpenRouter token numbers. Only one practical item cleared the bar.",
+    "Apollo page shows the date (Oct 24, 2026) but no time; publishedAt set to 12:00Z on that date as an approximation of the day, not a read time.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) still returns HTTP 301 with no feed body; earlier runs found it moved to dwarkesh.com/feed. Config URL should be updated.",
+    "RSS with 0 items in the window: Simon Willison, MIT Tech Review, OpenAI Blog, Lenny Rachitsky, Stratechery, Benedict Evans, One Useful Thing, Mitchell Hashimoto, The Atlantic Technology. The Verge's Blue Planet III item is not AI news, not used.",
+    "Metaplanet Google News: one item (Capital Research raises Metaplanet voting stake to 11.11%, via Cryptonews) was already a candidate in an earlier run (metaplanet-capital-research); not repeated.",
+    "arXiv: weekend, no new cs.AI/cs.CL/cs.MA agent listings since Oct 22; no arXiv candidates.",
+    "Hacker News: the only new AI story above 200 points was the Apollo note (used). Roku moving repos to GitLab and Show HN 'Steal My Bitcoin' are not AI items.",
+    "X queries lane is noisy again: 25 matches, mostly skill-pack promotions, listicles and hashtag posts with near-zero engagement; not used.",
+    "X howTo lane: hwchase17's 'Multiplayer agents is way harder than single player' and his internal-adoption posts continue the company-harness story from the midday run (one-liners, not added). poteto's 'bots collaborate in Slack' post is a product demo without detail; jxnlco and Ronycoder posts were a joke and an ad.",
+    "X bigPicture lane: elonmusk posts were Starlink/Ukraine war policy and partisan politics (muted) or one-word replies; garrytan's Gstack update cites a @grok summary rather than a primary changelog, not used; beffjezos posts were memes or one-liners.",
+    "X frontierCapital lane: TaviCosta's miner-bottom post is a crypto price call (muted); nathanbenaich posted a one-line quote. Design lane (MengTo): no posts in the window.",
+    "Replies checked for rauchg, a16z and alexalbert__ posts; only one reply (amorriscode on the Albert post) met minFollowers 1000 and minLikes 5.",
+    "authorBaseline = median likes of the author's last 20 original posts, read this run."
+  ],
+  "candidates": [
+    {
+      "id": "apollo-no-ai-payoff-outside-tech",
+      "lens": "broad",
+      "topic": "ai-payoff-outside-tech",
+      "summary": "Apollo chief economist Torsten Slok wrote in The Daily Spark that AI has so far delivered no financial payoff to US companies outside the tech sector: revenue per worker and profit margins are rising for the Mag 7 but flat for the S&P 493, and there are still no signs of AI boosting productivity growth.",
+      "facts": [
+        "Slok writes that mainstream corporate America is pulling back and starting to view token spending as a cost center that weighs on margins, not as a source of growth.",
+        "He writes that VC-backed companies are spending more and more on tokens, while mainstream corporate America 'does not need the latest model and is unwilling to pay for it'.",
+        "His bottom line: 'the AI story will be decided in the S&P 493, not the Mag 7', and so far there is no evidence revenue growth or margins are improving outside tech.",
+        "Chart sources named on the page: Bloomberg, Macrobond, the San Francisco Fed utilization-adjusted total factor productivity series, and Ramp chief economist Ara Kharazian.",
+        "The post reached 424 points and 404 comments on Hacker News on Oct 24."
+      ],
+      "source": {
+        "name": "Apollo, The Daily Spark (Torsten Slok)",
+        "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50224463"
+        }
+      ],
+      "publishedAt": "2026-10-24T12:00:00Z",
+      "metrics": {
+        "points": 424,
+        "replies": 404,
+        "capturedAt": "2026-10-24T23:33:00Z"
+      },
+      "care": 5,
+      "proof": 4,
+      "imageHint": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "firstSeen": "2026-10-24"
+    },
+    {
+      "id": "a16z-openrouter-token-demand-27x",
+      "lens": "broad",
+      "topic": "gpu-rental-prices",
+      "summary": "a16z posted that token demand on OpenRouter is up about 27x since last November, from about 6T to about 165T tokens per week, and that open-weight models now handle about 72% of those tokens, up from about 28%, as one explanation for rising GPU rental prices.",
+      "facts": [
+        "The figures come from a16z's Charts of the Week by Moses Sternstein (Oct 23), which says OpenRouter 'captures only a small slice of the picture'.",
+        "The same issue says every GPU model in the Ornn Data series, including the oldest A100s, costs more to rent than at the start of the year, and prices are 9% to 143% above a straight-line 6-year depreciation.",
+        "The issue notes proprietary models made a modest share gain in the most recent week."
+      ],
+      "source": {
+        "name": "a16z",
+        "url": "https://x.com/a16z/status/2114122274467102926",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "related": [
+        {
+          "name": "a16z Charts of the Week: Attention is All You Need",
+          "url": "https://www.a16z.news/p/charts-of-the-week-attention-is-all"
+        }
+      ],
+      "publishedAt": "2026-10-24T22:30:03Z",
+      "metrics": {
+        "likes": 122,
+        "reposts": 19,
+        "replies": 8,
+        "views": 10433,
+        "capturedAt": "2026-10-24T23:34:00Z",
+        "authorBaseline": 190
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://x.com/a16z/status/2114122274467102926",
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "pennsylvania-ai-ad-labels",
+      "lens": "broad",
+      "topic": "ai-ad-disclosure-laws",
+      "summary": "Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act on Thursday, requiring a label on any ad (image, video, audio or text) that 'has been significantly modified or generated by artificial intelligence', in the same format as the ad.",
+      "facts": [
+        "The Verge reports Pennsylvania is one of the first states to require disclosures on AI content, and the label applies regardless of where the ad was created, so ads airing in Pennsylvania from other states are covered.",
+        "Carve-outs cover 'parody, satire, commentary or criticism' and anything 'evidently fictional'; The Verge notes 'significantly modified' is not defined.",
+        "The wording suggests only synthetic content that 'creates a false consumer perception' about a product or service needs a disclosure.",
+        "The bill was introduced by State Senator Nick Pisciottano."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-24T18:32:21Z",
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "firstSeen": "2026-10-24"
+    },
+    {
+      "id": "marcus-genai-harm-ledger",
+      "lens": "broad",
+      "topic": "ai-payoff-outside-tech",
+      "summary": "Gary Marcus published 'Will Generative AI do more harm than good?', listing harms (deepfakes, phishing, disinformation, surveillance, IP theft) and the October wave of hacks, and citing Apollo's Torsten Slok on missing productivity gains as the case that expected benefits are not materializing.",
+      "facts": [
+        "Marcus quotes Anthropic's Jason Clinton (Oct 22): 'as bad as things have gotten in the past 4 days, they are going to get a lot worse before they get better', asking security leaders to go to their boards 'for the basics' and saying 'we need to hold on for ~18 months'.",
+        "He notes Salesforce CEO Marc Benioff amplified Clinton's post with 'Code red'.",
+        "Marcus says employment effects have been 'more modest than some people expected'."
+      ],
+      "source": {
+        "name": "Gary Marcus (Marcus on AI)",
+        "url": "https://garymarcus.substack.com/p/will-generative-ai-do-more-harm-than",
+        "type": "rss"
+      },
+      "related": [
+        {
+          "name": "Apollo: No Signs of AI Payoff Outside the Tech Sector",
+          "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+        }
+      ],
+      "publishedAt": "2026-10-24T19:32:01Z",
+      "care": 3,
+      "proof": 2,
+      "imageHint": "https://garymarcus.substack.com/p/will-generative-ai-do-more-harm-than",
+      "firstSeen": "2026-10-24"
+    },
+    {
+      "id": "claude-team-feedback-directory",
+      "lens": "practical",
+      "topic": "claude-team-contacts",
+      "summary": "Alex Albert (Anthropic) posted a list of Anthropic staff on X to tag with product feedback, grouped by product: Claude Code, Chat/Cowork, Duet, Tag, API/Platform, and General/Community.",
+      "facts": [
+        "Claude Code contacts listed: @addyosmani, @lydiahallie, @_catwu, @bcherny, @sidbid, @jarredsumner, @adocomplete, @delba_oliveira, @connerphillippi, @dickson_tsai, @dmwlff.",
+        "API/Platform contacts listed: @RLanceMartin, @cjav_dev, @katelyn_lesse, @_hi_mc, @brada.",
+        "Chat/Cowork: @felixrieseberg, @TheAmolAvasare, @RobertJBye, @sean_t_strong. Duet: @ahuja_karan, @gabemulley. Tag: @noahzweben, @ghodss.",
+        "The post had 556 bookmarks at capture time."
+      ],
+      "source": {
+        "name": "Alex Albert",
+        "url": "https://x.com/alexalbert__/status/2114052900045590580",
+        "type": "x",
+        "handle": "alexalbert__"
+      },
+      "publishedAt": "2026-10-24T17:54:23Z",
+      "metrics": {
+        "likes": 822,
+        "reposts": 51,
+        "replies": 112,
+        "views": 47933,
+        "capturedAt": "2026-10-24T23:34:00Z",
+        "authorBaseline": 758
+      },
+      "bestReply": {
+        "handle": "amorriscode",
+        "quote": "@alexalbert__ @addyosmani @lydiahallie @_catwu @bcherny @sidbid @jarredsumner @adocomplete @delba_oliveira @connerphillippi @alicelovescake1 @BenjaminPasero and @codebytere for Claude Code on desktop too!",
+        "url": "https://x.com/amorriscode/status/2114094107144687926",
+        "followers": 46060,
+        "likes": 10
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/alexalbert__/status/2114052900045590580",
+      "firstSeen": "2026-10-24"
+    },
+    {
+      "id": "rauch-guiding-ai-skill",
+      "lens": "broad",
+      "topic": "managing-ai-skill",
+      "summary": "Guillermo Rauch (Vercel CEO) posted that the top skill he looks for is how well someone manages AI: knowing when they over-guide it ('It knows better than you') and when they under-guide it ('It can go off-track, have the wrong biases, or miss context').",
+      "facts": [
+        "Rauch's words: 'How well you manage this superpower is the #0 skill I look for.'",
+        "Lauren (@poteto) quoted it, linking her pstack guide on the same idea; her quote post had 832 likes and 943 bookmarks at capture time."
+      ],
+      "source": {
+        "name": "Guillermo Rauch",
+        "url": "https://x.com/rauchg/status/2114085432749347086",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "related": [
+        {
+          "name": "poteto quote post",
+          "url": "https://x.com/poteto/status/2114095305910280363"
+        },
+        {
+          "name": "poteto pstack guide (X article)",
+          "url": "https://x.com/poteto/article/2097732320606507506"
+        }
+      ],
+      "publishedAt": "2026-10-24T20:03:39Z",
+      "metrics": {
+        "likes": 1247,
+        "reposts": 58,
+        "replies": 193,
+        "views": 74877,
+        "capturedAt": "2026-10-24T23:34:00Z",
+        "authorBaseline": 1031
+      },
+      "care": 3,
+      "proof": 2,
+      "imageHint": "https://x.com/rauchg/status/2114085432749347086",
+      "firstSeen": "2026-10-24"
+    },
+    {
+      "id": "dalio-idea-meritocracy",
+      "lens": "frontier-capital",
+      "topic": "idea-meritocracy",
+      "summary": "Ray Dalio posted that an idea meritocracy, where disagreements are encouraged, is harder to run than a top-down autocracy that suppresses them, but that when believable parties are willing to learn from each other, their evolution is faster and their decision making better.",
+      "source": {
+        "name": "Ray Dalio",
+        "url": "https://x.com/RayDalio/status/2114118358299779148",
+        "type": "x",
+        "handle": "RayDalio"
+      },
+      "publishedAt": "2026-10-24T22:14:29Z",
+      "metrics": {
+        "likes": 106,
+        "reposts": 11,
+        "replies": 17,
+        "views": 22678,
+        "capturedAt": "2026-10-24T23:34:00Z",
+        "authorBaseline": 592
+      },
+      "care": 2,
+      "proof": 2,
+      "imageHint": "https://x.com/RayDalio/status/2114118358299779148",
+      "firstSeen": "2026-10-24"
+    },
+    {
+      "id": "alden-fiscal-dominance-normal",
+      "lens": "frontier-capital",
+      "topic": "fiscal-dominance",
+      "summary": "Lyn Alden wrote that it has been 'fascinating to watch this term go from niche to normal, both within institution and sovereigns', quoting Eric Fine's post that 'fiscal dominance' is now the dominant frame for every sovereign.",
+      "facts": [
+        "Eric Fine's quoted post (Oct 19): 'We've used it since 2012. The G-10 colleagues who called it extremely unlikely in DMs now say it themselves. That's the beginning of the end of denial, not the end.'"
+      ],
+      "source": {
+        "name": "Lyn Alden",
+        "url": "https://x.com/LynAldenContact/status/2114112871177314422",
+        "type": "x",
+        "handle": "LynAldenContact"
+      },
+      "related": [
+        {
+          "name": "Eric Fine post",
+          "url": "https://x.com/EricFine123/status/2112141884688925150"
+        }
+      ],
+      "publishedAt": "2026-10-24T21:52:41Z",
+      "metrics": {
+        "likes": 165,
+        "reposts": 4,
+        "replies": 17,
+        "views": 22748,
+        "capturedAt": "2026-10-24T23:34:00Z",
+        "authorBaseline": 423
+      },
+      "care": 2,
+      "proof": 2,
+      "imageHint": "https://x.com/LynAldenContact/status/2114112871177314422",
+      "firstSeen": "2026-10-24"
+    }
+  ]
+}
