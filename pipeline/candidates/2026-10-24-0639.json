@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-24-0639",
+  "generatedAt": "2026-10-24T11:52:00Z",
+  "configVersions": {
+    "sources": "1.2.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-23T23:30:00Z",
+    "to": "2026-10-24T11:45:00Z"
+  },
+  "sourceNotes": [
+    "Quiet overnight window (Friday night to Saturday morning Bogotá). Only three candidates cleared the bar.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returns HTTP 301; earlier runs found it redirects to dwarkesh.com/feed. Config URL should be updated.",
+    "RSS with 0 items in the window: Simon Willison, The Verge AI, MIT Tech Review, OpenAI Blog, Lenny Rachitsky, Stratechery, Benedict Evans, One Useful Thing, Gary Marcus, Mitchell Hashimoto, The Atlantic Technology, Metaplanet Google News.",
+    "arXiv: newest agent papers in cs.AI/cs.CL/cs.MA are still from 2026-10-22 (weekend, no new listing) and were reviewed in earlier runs; no arXiv candidates.",
+    "Hacker News: no new AI story above 200 points in the window except a Reddit post about a Samsung TV's on-board AI (205 points), which has no primary source; skipped. 'http2shell' (169 points, below minPoints) is covered via the Aikido X post.",
+    "X queries lane is noisy again: matches were mostly skill-pack promotions and lead magnets with low engagement and no primary source; not used.",
+    "X bigPicture lane: elonmusk posts were mostly partisan politics (muted topic) or one-word replies; beffjezos posts were opinion without proof; eastdakota's post on a proposed 24-hour AI vulnerability disclosure rule names no country or source, not used. eastdakota's comment on the Brotli RCE is attached as related to the ai-vuln-wave candidate.",
+    "X frontierCapital lane: only nathanbenaich posted (two one-line link posts, no substance). Metaplanet, gerovich, LynAldenContact, TaviCosta, VitalikButerin, RayDalio, naval, bhorowitz had no posts in the window. Design lane (MengTo): no posts in the window.",
+    "Sam Altman's reported Stanford remarks on AI-found hardware-level bugs appear only as an X news summary with no primary video or transcript found; not used.",
+    "mattpocockuk's '300K stars and nearly 30m installs' post does not name the project in text (image only); not used.",
+    "No replies met minFollowers 1000 and minLikes 5 on the trq212 and AikidoSecurity posts, so no bestReply captured.",
+    "authorBaseline omitted for all candidates to stay within the X read budget."
+  ],
+  "candidates": [
+    {
+      "id": "http2shell-brotli-rce-spreads",
+      "lens": "practical",
+      "topic": "ai-vuln-wave",
+      "summary": "Aikido Security says CVE-2026-111497, the Brotli decompression RCE that OpenAI found during red-teaming and first described as affecting Node.js and Python, now leaves many libraries and applications that use HTTP open to pre-auth remote code execution. Aikido calls the wider variant \"HTTP2Shell\" and says fixes are not yet available for all affected services.",
+      "facts": [
+        "Aikido advises watching for Brotli 1.2.1 dependency upgrades as they become available.",
+        "OpenAI says the flaw allows unauthenticated RCE via malicious compressed data: an unpatched server accepting compressed input can be taken over by a malicious client, and an unpatched client accepting compressed input (such as \"curl --compressed\") by a malicious server.",
+        "OpenAI says the root cause was fixed in Brotli source in February but was not known to be a security issue and had no newer release; Brotli cut new releases and published a CVE after disclosure.",
+        "OpenAI names Node.js, Bun and Envoy among software that includes Brotli.",
+        "Cloudflare CEO Matthew Prince (@eastdakota), quoting OpenAI's Greg Brockman on the disclosure: \"This one maybe as bad or worse than the PHP ones. Get used to lots of patching.\""
+      ],
+      "source": {
+        "name": "Aikido Security",
+        "url": "https://x.com/AikidoSecurity/status/2113759110625906950",
+        "type": "x",
+        "handle": "AikidoSecurity"
+      },
+      "related": [
+        {
+          "name": "OpenAI on the Brotli RCE",
+          "url": "https://x.com/OpenAI/status/2113766354386084338"
+        },
+        {
+          "name": "Greg Brockman on coordinating the Brotli disclosure",
+          "url": "https://x.com/gdb/status/2113773790207283353"
+        },
+        {
+          "name": "Matthew Prince (@eastdakota)",
+          "url": "https://x.com/eastdakota/status/2113803822065651765"
+        },
+        {
+          "name": "Patch the Planet: Brotli",
+          "url": "https://patchtheplanet.org/brotli"
+        }
+      ],
+      "publishedAt": "2026-10-23T22:26:58Z",
+      "metrics": {
+        "likes": 2538,
+        "reposts": 618,
+        "replies": 90,
+        "views": 434308,
+        "capturedAt": "2026-10-24T11:47:00Z"
+      },
+      "care": 5,
+      "proof": 4,
+      "imageHint": "https://x.com/AikidoSecurity/status/2113759110625906950",
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "china-ai-employment-guidelines",
+      "lens": "broad",
+      "topic": "ai-labor-policy",
+      "summary": "China's State Council General Office published guidelines (Guobanfa 2026 No. 29, dated October 16, released October 23) on adapting to AI to keep development employment-friendly. They set 18 tasks in six areas: AI job creation, employment-friendly AI adoption, worker skills, AI-enabled employment services, labor rights and social security, and monitoring of AI employment risks.",
+      "facts": [
+        "Companies are encouraged to explore an \"unemployment buffer period\" system and to notify affected workers in advance and offer transition support when rolling out AI at scale.",
+        "AI application projects in market-access areas that could cause a large employment impact must get an employment risk assessment during review; other AI projects get one as circumstances require.",
+        "AI should be prioritized for roles with labor shortages or hazardous conditions, with the scope and pace of AI in labor-intensive industries handled cautiously.",
+        "AI employment risk is to be folded into China's mechanism for preventing large-scale unemployment, with contingency plans.",
+        "The guidelines call for new AI occupations such as AI trainer and AI engineering technician, AI 'micro-majors' at universities, and a set of AI employment research centers.",
+        "They call for regulating AI in HR management, including algorithm-driven hiring discrimination, fake recruitment and privacy violations."
+      ],
+      "source": {
+        "name": "State Council of the PRC (gov.cn)",
+        "url": "https://english.www.gov.cn/policies/latestreleases/202610/23/content_WS6adb4e53c6d00ca5f9a0deb7.html",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Full text (Chinese), gov.cn",
+          "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084108.htm"
+        },
+        {
+          "name": "X news summary",
+          "url": "https://x.com/i/trending/2113714644619583923"
+        }
+      ],
+      "publishedAt": "2026-10-23T12:08:00Z",
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://english.www.gov.cn/policies/latestreleases/202610/23/content_WS6adb4e53c6d00ca5f9a0deb7.html",
+      "firstSeen": "2026-10-24"
+    },
+    {
+      "id": "thariq-leaves-anthropic",
+      "lens": "broad",
+      "topic": "anthropic-talent",
+      "summary": "Thariq Shihipar (@trq212), who worked on Claude Code at Anthropic for more than a year, says he has left the company. He says he is taking a break before \"diving into something new\" and points Claude Code followers to @addyosmani, @lydiahallie, @_catwu, @ClaudeDevs and @bcherny.",
+      "facts": [
+        "In his post he calls Anthropic's colleagues \"the most talented, thoughtful, competent, and earnest people I have ever met\" and says he trusts them deeply.",
+        "He did not name a next employer or project.",
+        "@ArfurGrok reported the departure about four hours before Shihipar's own post."
+      ],
+      "source": {
+        "name": "Thariq Shihipar",
+        "url": "https://x.com/trq212/status/2113844051938054167",
+        "type": "x",
+        "handle": "trq212"
+      },
+      "related": [
+        {
+          "name": "@ArfurGrok first report",
+          "url": "https://x.com/ArfurGrok/status/2113781170253308276"
+        }
+      ],
+      "publishedAt": "2026-10-24T04:04:29Z",
+      "metrics": {
+        "likes": 19050,
+        "reposts": 637,
+        "replies": 1492,
+        "views": 1630748,
+        "capturedAt": "2026-10-24T11:47:00Z"
+      },
+      "care": 3,
+      "proof": 5,
+      "imageHint": "https://x.com/trq212/status/2113844051938054167",
+      "firstSeen": "2026-10-24"
+    }
+  ]
+}
