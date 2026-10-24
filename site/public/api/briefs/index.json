@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-24-0700",
-  "count": 6,
+  "latest": "2026-10-24-1300",
+  "count": 7,
   "briefs": [
+    {
+      "id": "2026-10-24-1300",
+      "date": "2026-10-24",
+      "edition": "Midday",
+      "publishedAt": "2026-10-24T18:03:32Z",
+      "headline": "LangChain's internal agents run on five shared building blocks",
+      "url": "/api/briefs/2026-10-24-1300.json"
+    },
     {
       "id": "2026-10-24-0700",
       "date": "2026-10-24",

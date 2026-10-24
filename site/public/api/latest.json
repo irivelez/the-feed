@@ -1,117 +1,175 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-10-24-0700",
+  "id": "2026-10-24-1300",
   "date": "2026-10-24",
-  "publishedAt": "2026-10-24T12:15:00Z",
-  "edition": "Morning",
+  "publishedAt": "2026-10-24T18:03:32Z",
+  "edition": "Midday",
   "top3": [
     {
-      "itemId": "http2shell-brotli-rce-spreads",
-      "headline": "Brotli flaw reaches many HTTP libraries, and fixes lag",
-      "whyItMatters": "Your exposure likely sits in dependencies, so have teams track Brotli 1.2.1 upgrades."
+      "itemId": "langchain-company-harness",
+      "headline": "LangChain's internal agents run on five shared building blocks",
+      "whyItMatters": "Identity is the hard part, so decide which agent actions run as people and which as bots."
     },
     {
-      "itemId": "china-ai-employment-guidelines",
-      "headline": "China sets 18 tasks to keep AI adoption employment-friendly",
-      "whyItMatters": "Job impact is now part of AI project review in China, so plan workforce transitions early."
+      "itemId": "gpu-rental-vs-depreciation",
+      "headline": "GPU rents outpace depreciation, with H200 up 143%",
+      "whyItMatters": "Token demand since April keeps compute expensive, so budget AI capacity for high rates."
     },
     {
-      "itemId": "thariq-leaves-anthropic",
-      "headline": "Claude Code builder Thariq Shihipar leaves Anthropic",
-      "whyItMatters": "Senior agent talent is moving; watch where he lands and who now speaks for Claude Code."
+      "itemId": "us-electrical-equipment-capacity-shrinks",
+      "headline": "Power equipment is becoming a choke point for AI buildouts",
+      "whyItMatters": "US electrical gear capacity fell 9% as prices rose 69%, so check power lead times early."
     }
   ],
   "items": [
     {
-      "id": "thariq-leaves-anthropic",
-      "title": "Claude Code's Thariq Shihipar says he has left Anthropic",
-      "takeaway": "He named no next step and pointed followers to other Claude Code team members.",
-      "soWhat": "One of Claude Code's best-known builders is leaving; watch where he lands next.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-10-24T04:04:29Z",
-      "source": {
-        "name": "@trq212 on X",
-        "url": "https://x.com/trq212/status/2113844051938054167"
-      },
-      "image": {
-        "src": "/img/thariq-leaves-anthropic.jpg",
-        "alt": "Profile image of @trq212"
-      },
-      "heat": {
-        "score": 37,
-        "level": "none",
-        "metric": "1.6M views"
-      }
-    },
-    {
-      "id": "http2shell-brotli-rce-spreads",
-      "title": "Aikido says the Brotli flaw reaches many HTTP libraries",
-      "takeaway": "Aikido calls the wider variant HTTP2Shell; fixes are not yet out for every affected service.",
-      "soWhat": "Patching Node.js alone may not close it, so track Brotli 1.2.1 upgrades across dependencies.",
+      "id": "langchain-company-harness",
+      "title": "LangChain shares how it runs three internal agents in Slack",
+      "takeaway": "Sales, coding and content agents share five parts: Slack, per-tool identity, two-tier memory, sandboxes, scheduled runs.",
+      "soWhat": "Plan identity per tool early; Chase calls it the trickiest part of running company agents.",
       "lens": "practical",
-      "momentum": "building",
-      "importance": 9,
-      "publishedAt": "2026-10-23T22:26:58Z",
-      "source": {
-        "name": "@AikidoSecurity on X",
-        "url": "https://x.com/AikidoSecurity/status/2113759110625906950"
-      },
-      "related": [
-        {
-          "name": "Patch the Planet: Brotli",
-          "url": "https://patchtheplanet.org/brotli"
-        },
-        {
-          "name": "OpenAI on the Brotli RCE",
-          "url": "https://x.com/OpenAI/status/2113766354386084338"
-        },
-        {
-          "name": "Matthew Prince on X",
-          "url": "https://x.com/eastdakota/status/2113803822065651765"
-        }
-      ],
-      "image": {
-        "src": "/img/http2shell-brotli-rce-spreads.jpg",
-        "alt": "Image from @AikidoSecurity on X"
-      },
-      "heat": {
-        "score": 25,
-        "level": "none",
-        "metric": "434k views"
-      }
-    },
-    {
-      "id": "china-ai-employment-guidelines",
-      "title": "China requires job-risk reviews for AI projects with large employment impact",
-      "takeaway": "State Council guidelines set 18 tasks and urge advance notice and an unemployment buffer period.",
-      "soWhat": "Firms automating in China should plan worker notice and transition support before scaling AI.",
-      "lens": "broad",
       "momentum": "new",
       "importance": 8,
-      "publishedAt": "2026-10-23T12:08:00Z",
+      "publishedAt": "2026-10-24T17:08:51Z",
       "source": {
-        "name": "State Council (gov.cn)",
-        "url": "https://english.www.gov.cn/policies/latestreleases/202610/23/content_WS6adb4e53c6d00ca5f9a0deb7.html"
+        "name": "@hwchase17 on X",
+        "url": "https://x.com/hwchase17/status/2114041443836903662"
       },
       "related": [
         {
-          "name": "Full text (Chinese), gov.cn",
-          "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084108.htm"
+          "name": "Managed Deep Agents overview",
+          "url": "https://docs.langchain.com/langsmith/python/managed-deep-agents-overview"
+        },
+        {
+          "name": "Add identity to Managed Deep Agents",
+          "url": "https://docs.langchain.com/langsmith/python/managed-deep-agents-identity"
+        },
+        {
+          "name": "LangSmith sandbox auth proxy",
+          "url": "https://docs.langchain.com/langsmith/sandbox-auth-proxy"
         }
       ],
       "image": {
-        "src": "/img/china-ai-employment-guidelines.jpg",
-        "alt": "State Council (gov.cn): China requires job-risk reviews for AI projects with large employment impact"
+        "src": "/img/langchain-company-harness.jpg",
+        "alt": "Image from @hwchase17 on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "2k views"
+      }
+    },
+    {
+      "id": "perplexity-computer-impeccable-skill",
+      "title": "Perplexity Computer adds /impeccable, a skill that fixes AI-made interfaces",
+      "takeaway": "Open-source skill by Paul Bakaus checks layout, type, contrast and accessibility; free through Oct 31.",
+      "soWhat": "Design review is becoming an agent skill, so expect AI-built interfaces to get a quality pass.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-10-24T15:51:16Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2114021917586014449"
+      },
+      "related": [
+        {
+          "name": "Perplexity demo on X",
+          "url": "https://x.com/AskPerplexity/status/2114016621631250719"
+        }
+      ],
+      "image": {
+        "src": "/img/perplexity-computer-impeccable-skill.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 5,
+        "level": "none",
+        "metric": "14k views"
+      }
+    },
+    {
+      "id": "us-electrical-equipment-capacity-shrinks",
+      "title": "US capacity to make electrical equipment shrank 9% since 2019",
+      "takeaway": "Per a16z, semiconductor capacity rose 77% over the same period while electrical equipment prices rose 69%.",
+      "soWhat": "Power gear, not chips, may limit AI buildouts, so check equipment lead times in your plans.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-10-24T15:00:00Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2114009072995537108"
+      },
+      "image": {
+        "src": "/img/us-electrical-equipment-capacity-shrinks.jpg",
+        "alt": "Image from @a16z on X"
+      },
+      "heat": {
+        "score": 6,
+        "level": "none",
+        "metric": "13k views"
+      }
+    },
+    {
+      "id": "gpu-rental-vs-depreciation",
+      "title": "GPU rents run far ahead of six-year depreciation schedules",
+      "takeaway": "Per a16z: H200 +143%, B200 +111%, H100 +54%, A100 +9%; most of the gap opened after April.",
+      "soWhat": "Token demand is holding GPU prices up, so don't plan on compute getting cheaper soon.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-10-24T13:30:00Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2113986385908842870"
+      },
+      "related": [
+        {
+          "name": "a16z on GPU rental rates this year",
+          "url": "https://x.com/a16z/status/2113741008550990191"
+        }
+      ],
+      "image": {
+        "src": "/img/gpu-rental-vs-depreciation.jpg",
+        "alt": "Image from @a16z on X"
+      },
+      "heat": {
+        "score": 13,
+        "level": "none",
+        "metric": "36k views"
       }
     }
   ],
-  "voices": [
+  "voices": [],
+  "hotOnX": [
     {
-      "handle": "eastdakota",
-      "quote": "This one maybe as bad or worse than the PHP ones. Get used to lots of patching.",
-      "url": "https://x.com/eastdakota/status/2113803822065651765"
+      "url": "https://x.com/log4j/status/2113647464154857840",
+      "handle": "log4j",
+      "text": "A security researcher says OpenAI banned their account over local reverse-engineering of a Samsung TV.",
+      "metric": "6.2k likes",
+      "note": "Builders worry about bans for legitimate security work; no OpenAI statement was found."
+    },
+    {
+      "url": "https://x.com/a16z/status/2113986385908842870",
+      "handle": "a16z",
+      "text": "GPUs still rent ahead of a six-year depreciation schedule, H200 +143%, with most of the gap after April.",
+      "metric": "470 likes",
+      "note": "It challenges the idea that older AI chips lose value fast."
+    },
+    {
+      "url": "https://x.com/a16z/status/2114009072995537108",
+      "handle": "a16z",
+      "text": "US electrical equipment capacity is down 9% since 2019 while prices are up 69%.",
+      "metric": "150 likes",
+      "note": "It points to power, not just chips, as a key limit on the AI buildout."
+    },
+    {
+      "url": "https://x.com/AravSrinivas/status/2114021917586014449",
+      "handle": "AravSrinivas",
+      "text": "Perplexity adds /impeccable to Computer so users can build interfaces that don't look like AI slop.",
+      "metric": "143 likes",
+      "note": "Generic-looking AI interfaces are a common complaint among builders."
     }
   ]
 }
