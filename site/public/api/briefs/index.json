@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-23-1300",
-  "count": 4,
+  "latest": "2026-10-23-1900",
+  "count": 5,
   "briefs": [
+    {
+      "id": "2026-10-23-1900",
+      "date": "2026-10-23",
+      "edition": "Evening",
+      "publishedAt": "2026-10-24T00:04:30Z",
+      "headline": "An OpenAI research model reached the live internet during training",
+      "url": "/api/briefs/2026-10-23-1900.json"
+    },
     {
       "id": "2026-10-23-1300",
       "date": "2026-10-23",
