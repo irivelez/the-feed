@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-10-24-0700",
+  "date": "2026-10-24",
+  "publishedAt": "2026-10-24T12:15:00Z",
+  "edition": "Morning",
+  "top3": [
+    {
+      "itemId": "http2shell-brotli-rce-spreads",
+      "headline": "Brotli flaw reaches many HTTP libraries, and fixes lag",
+      "whyItMatters": "Your exposure likely sits in dependencies, so have teams track Brotli 1.2.1 upgrades."
+    },
+    {
+      "itemId": "china-ai-employment-guidelines",
+      "headline": "China sets 18 tasks to keep AI adoption employment-friendly",
+      "whyItMatters": "Job impact is now part of AI project review in China, so plan workforce transitions early."
+    },
+    {
+      "itemId": "thariq-leaves-anthropic",
+      "headline": "Claude Code builder Thariq Shihipar leaves Anthropic",
+      "whyItMatters": "Senior agent talent is moving; watch where he lands and who now speaks for Claude Code."
+    }
+  ],
+  "items": [
+    {
+      "id": "thariq-leaves-anthropic",
+      "title": "Claude Code's Thariq Shihipar says he has left Anthropic",
+      "takeaway": "He named no next step and pointed followers to other Claude Code team members.",
+      "soWhat": "One of Claude Code's best-known builders is leaving; watch where he lands next.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-10-24T04:04:29Z",
+      "source": {
+        "name": "@trq212 on X",
+        "url": "https://x.com/trq212/status/2113844051938054167"
+      },
+      "image": {
+        "src": "/img/thariq-leaves-anthropic.jpg",
+        "alt": "Profile image of @trq212"
+      },
+      "heat": {
+        "score": 37,
+        "level": "none",
+        "metric": "1.6M views"
+      }
+    },
+    {
+      "id": "http2shell-brotli-rce-spreads",
+      "title": "Aikido says the Brotli flaw reaches many HTTP libraries",
+      "takeaway": "Aikido calls the wider variant HTTP2Shell; fixes are not yet out for every affected service.",
+      "soWhat": "Patching Node.js alone may not close it, so track Brotli 1.2.1 upgrades across dependencies.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-10-23T22:26:58Z",
+      "source": {
+        "name": "@AikidoSecurity on X",
+        "url": "https://x.com/AikidoSecurity/status/2113759110625906950"
+      },
+      "related": [
+        {
+          "name": "Patch the Planet: Brotli",
+          "url": "https://patchtheplanet.org/brotli"
+        },
+        {
+          "name": "OpenAI on the Brotli RCE",
+          "url": "https://x.com/OpenAI/status/2113766354386084338"
+        },
+        {
+          "name": "Matthew Prince on X",
+          "url": "https://x.com/eastdakota/status/2113803822065651765"
+        }
+      ],
+      "image": {
+        "src": "/img/http2shell-brotli-rce-spreads.jpg",
+        "alt": "Image from @AikidoSecurity on X"
+      },
+      "heat": {
+        "score": 25,
+        "level": "none",
+        "metric": "434k views"
+      }
+    },
+    {
+      "id": "china-ai-employment-guidelines",
+      "title": "China requires job-risk reviews for AI projects with large employment impact",
+      "takeaway": "State Council guidelines set 18 tasks and urge advance notice and an unemployment buffer period.",
+      "soWhat": "Firms automating in China should plan worker notice and transition support before scaling AI.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-10-23T12:08:00Z",
+      "source": {
+        "name": "State Council (gov.cn)",
+        "url": "https://english.www.gov.cn/policies/latestreleases/202610/23/content_WS6adb4e53c6d00ca5f9a0deb7.html"
+      },
+      "related": [
+        {
+          "name": "Full text (Chinese), gov.cn",
+          "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084108.htm"
+        }
+      ],
+      "image": {
+        "src": "/img/china-ai-employment-guidelines.jpg",
+        "alt": "State Council (gov.cn): China requires job-risk reviews for AI projects with large employment impact"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "eastdakota",
+      "quote": "This one maybe as bad or worse than the PHP ones. Get used to lots of patching.",
+      "url": "https://x.com/eastdakota/status/2113803822065651765"
+    }
+  ]
+}

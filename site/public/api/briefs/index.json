@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-23-1900",
-  "count": 5,
+  "latest": "2026-10-24-0700",
+  "count": 6,
   "briefs": [
+    {
+      "id": "2026-10-24-0700",
+      "date": "2026-10-24",
+      "edition": "Morning",
+      "publishedAt": "2026-10-24T12:15:00Z",
+      "headline": "Brotli flaw reaches many HTTP libraries, and fixes lag",
+      "url": "/api/briefs/2026-10-24-0700.json"
+    },
     {
       "id": "2026-10-23-1900",
       "date": "2026-10-23",
