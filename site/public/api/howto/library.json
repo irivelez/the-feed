@@ -1,7 +1,44 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-24T00:04:51Z",
+  "updatedAt": "2026-10-24T18:04:02Z",
   "howtos": [
+    {
+      "id": "company-agent-harness-five-components",
+      "dedupeKey": "company-agent-harness-five-components",
+      "title": "Set up internal agents on five shared building blocks",
+      "what": "The five parts LangChain's GTM, coding and content agents converged on, from Harrison Chase.",
+      "kind": "steps",
+      "copy": [
+        "Put agents in Slack, and let them break out of a human thread into their own; use a custom UI for large review backlogs.",
+        "Set identity per tool: some actions on behalf of the user (PRs under the requester's handle, email only in DMs), others with fixed credentials (code review as the agent's own GitHub app).",
+        "Restrict fixed-credential actions, such as posting to the company account, to a whitelisted set of users.",
+        "Give memory two tiers, global and per-user, and let the agent decide which tier a fact goes to.",
+        "Run the agent outside the sandbox and connect to it to execute code, using a secret proxy to reach authenticated services.",
+        "Let runs be scheduled or event-triggered, not only invoked by a person."
+      ],
+      "whenToUse": "When you are rolling out several internal agents and need a common design for identity, memory and execution.",
+      "source": {
+        "name": "@hwchase17 on X",
+        "url": "https://x.com/hwchase17/status/2114041443836903662"
+      },
+      "author": {
+        "name": "Harrison Chase",
+        "handle": "hwchase17"
+      },
+      "tags": [
+        "agents",
+        "identity",
+        "memory",
+        "steps"
+      ],
+      "quality": 4,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-10-24-1300",
+        "itemId": "langchain-company-harness"
+      },
+      "addedAt": "2026-10-24T18:04:02Z"
+    },
     {
       "id": "rebuild-neglected-saas-with-argon",
       "dedupeKey": "rebuild-neglected-niche-saas-from-complaints",
