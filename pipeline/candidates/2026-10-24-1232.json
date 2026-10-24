@@ -1,0 +1,223 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-24-1232",
+  "generatedAt": "2026-10-24T17:36:07Z",
+  "configVersions": {
+    "sources": "1.2.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-24T11:40:00Z",
+    "to": "2026-10-24T17:35:00Z"
+  },
+  "sourceNotes": [
+    "Quiet Saturday midday window (11:40Z to 17:35Z). Five candidates; only the LangChain company-harness article is a strong practical item.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) still returns an empty/redirect body (parse error); earlier runs found it moved to dwarkesh.com/feed. Config URL should be updated.",
+    "RSS with 0 items in the window: Simon Willison, The Verge AI, MIT Tech Review, OpenAI Blog, Stratechery, Benedict Evans, One Useful Thing, Gary Marcus, Mitchell Hashimoto, The Atlantic Technology, Metaplanet Google News. Lenny Rachitsky had one community-roundup post (not AI-specific), not used.",
+    "arXiv: weekend, no new agent listings since runs already reviewed; no arXiv candidates.",
+    "Hacker News: new stories above 200 points in the window were not AI items with primary sources: Steve Blank's 'Elon Musk Just Gave Europe a Reason to Replace American Technology' (334 points; article body would not load as text), and a New York Post report that Google cut down 250K trees in Finland for a data center (232 points; secondary source). Kimi K3.1 and the Brotli/HTTP2Shell items were covered in earlier runs.",
+    "X queries lane is noisy again: 25 matches, almost all low-engagement skill-pack promotions and listicles; min_likes filter did not appear to apply. Not used.",
+    "X bigPicture lane: elonmusk posts were partisan politics (muted), one-liners or product plugs; alexandr_wang posts on Muse were one-liners without data; ycombinator's inference Paper Club claim (six inference FLOPs per training FLOP per year, $220B market cap) gives no source, not used; EMostaque and mariogabriele posts were quotes or interview promos.",
+    "X howTo lane: jxnlco, ThePrimeagen, tibo_maker and mattyp posts were jokes, promos or one-liners; not used.",
+    "X frontierCapital lane: only nathanbenaich posted (a meetup announcement and a one-line chart quote); no other frontier-capital account posted in the window. Design lane (MengTo): no posts in the window.",
+    "No replies to the hwchase17 article met minFollowers 1000 and minLikes 5, so no bestReply captured.",
+    "authorBaseline omitted for all candidates to stay within the X read budget.",
+    "Lens follows lane mapping: the Perplexity /impeccable item comes from AravSrinivas (bigPicture lane) so it is tagged broad, though its subject is interface design."
+  ],
+  "candidates": [
+    {
+      "id": "langchain-company-harness",
+      "lens": "practical",
+      "topic": "company-harness",
+      "summary": "Harrison Chase (LangChain) published an X article, \"The five components of building a 'company harness'\", describing how LangChain runs three internal agents (GTM Agent, OpenSWE, Content Studio) and the primitives every team converged on: living in Slack, per-tool identity, two-tier memory, sandboxed code execution, and scheduled or event-triggered runs.",
+      "facts": [
+        "The three agents: GTM Agent (monitors email and new qualified leads, sends daily briefs, answers account questions, runs outbound), OpenSWE (drafts PRs and runs code review over all PRs), Content Studio (drafts blogs, images, PowerPoints and videos in LangChain's style).",
+        "Chase calls identity \"the thorniest and trickiest problem\": each agent mixes on-behalf-of-user actions with fixed credentials, per tool. OpenSWE opens PRs under the requesting user's GitHub handle but reviews code in the background as its own GitHub app.",
+        "GTM Agent's email tools act on behalf of the user and are available only in DMs, not in shared channels; Content Studio posts to the company Twitter account with fixed credentials, and only a whitelisted set of users can invoke that.",
+        "Memory has two tiers, global and per-user, and the agent decides which tier a fact goes to; Chase says this is the least explored area.",
+        "Agents run outside the sandbox and connect to it to execute code, using the secret proxy on LangSmith Sandboxes to reach authenticated services.",
+        "A large share of runs are scheduled or event-triggered rather than invoked by a person; in one example the GTM agent created its own cron to send a daily brief.",
+        "Agents can \"break out\" of a human Slack thread into their own thread; for large review backlogs LangChain built a custom UI instead of Slack.",
+        "All three are built on Managed Deep Agents, on top of the open-source Deep Agents harness."
+      ],
+      "source": {
+        "name": "Harrison Chase",
+        "url": "https://x.com/hwchase17/status/2114041443836903662",
+        "type": "x",
+        "handle": "hwchase17"
+      },
+      "related": [
+        {
+          "name": "Managed Deep Agents overview (LangChain docs)",
+          "url": "https://docs.langchain.com/langsmith/python/managed-deep-agents-overview"
+        },
+        {
+          "name": "Add identity to Managed Deep Agents",
+          "url": "https://docs.langchain.com/langsmith/python/managed-deep-agents-identity"
+        },
+        {
+          "name": "LangSmith sandbox auth proxy",
+          "url": "https://docs.langchain.com/langsmith/sandbox-auth-proxy"
+        }
+      ],
+      "publishedAt": "2026-10-24T17:08:51Z",
+      "metrics": {
+        "likes": 41,
+        "reposts": 4,
+        "replies": 17,
+        "views": 1835,
+        "capturedAt": "2026-10-24T17:36:00Z"
+      },
+      "care": 5,
+      "proof": 4,
+      "imageHint": "https://x.com/hwchase17/status/2114041443836903662",
+      "firstSeen": "2026-10-24"
+    },
+    {
+      "id": "perplexity-computer-impeccable-skill",
+      "lens": "broad",
+      "topic": "perplexity-computer",
+      "summary": "Perplexity added /impeccable, an open-source skill built by Paul Bakaus (@pbakaus), to the skills marketplace in Perplexity Computer. Aravind Srinivas says it lets users build interfaces that don't look like AI-generated slop.",
+      "facts": [
+        "Perplexity's @AskPerplexity account says the skill reviews an interface and fixes what a designer would flag, checking layout, type, contrast and accessibility.",
+        "Tasks that use /impeccable are free through October 31, up to 5,000 credits per user."
+      ],
+      "source": {
+        "name": "Aravind Srinivas",
+        "url": "https://x.com/AravSrinivas/status/2114021917586014449",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "related": [
+        {
+          "name": "Perplexity (@AskPerplexity) demo",
+          "url": "https://x.com/AskPerplexity/status/2114016621631250719"
+        }
+      ],
+      "publishedAt": "2026-10-24T15:51:16Z",
+      "metrics": {
+        "likes": 143,
+        "reposts": 9,
+        "replies": 58,
+        "views": 14383,
+        "capturedAt": "2026-10-24T17:36:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/AskPerplexity/status/2114016621631250719",
+      "firstSeen": "2026-10-24"
+    },
+    {
+      "id": "us-electrical-equipment-capacity-shrinks",
+      "lens": "broad",
+      "topic": "ai-power-bottleneck",
+      "summary": "a16z's Charts of the Week says power is one of the AI buildout's biggest bottlenecks and US factory capacity to make electrical equipment has shrunk since 2019 while prices rose.",
+      "facts": [
+        "US factory capacity since 2019, per a16z: communications equipment +110%, semiconductors +77%, computers +16%, electrical equipment -9%.",
+        "a16z says electrical equipment prices are up 69%, the biggest jump of the four categories."
+      ],
+      "source": {
+        "name": "a16z",
+        "url": "https://x.com/a16z/status/2114009072995537108",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "publishedAt": "2026-10-24T15:00:00Z",
+      "metrics": {
+        "likes": 150,
+        "reposts": 17,
+        "replies": 36,
+        "views": 13256,
+        "capturedAt": "2026-10-24T17:35:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://x.com/a16z/status/2114009072995537108",
+      "firstSeen": "2026-10-24"
+    },
+    {
+      "id": "gpu-rental-vs-depreciation",
+      "lens": "broad",
+      "topic": "gpu-rental-prices",
+      "summary": "a16z says GPUs are still renting ahead of a standard 6-year depreciation schedule, and most of the gap opened after April, when token demand took off.",
+      "facts": [
+        "Rental price vs. depreciation schedule, per a16z: H200 +143%, B200 +111%, RTX PRO 6000 +73%, H100 +54%, A100 +9%.",
+        "The post quotes a16z's earlier chart on GPU rental rates rising year to date (seen in the 2026-10-23 evening run)."
+      ],
+      "source": {
+        "name": "a16z",
+        "url": "https://x.com/a16z/status/2113986385908842870",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "related": [
+        {
+          "name": "a16z on GPU rental rates year to date",
+          "url": "https://x.com/a16z/status/2113741008550990191"
+        }
+      ],
+      "publishedAt": "2026-10-24T13:30:00Z",
+      "metrics": {
+        "likes": 470,
+        "reposts": 69,
+        "replies": 35,
+        "views": 35756,
+        "capturedAt": "2026-10-24T17:35:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://x.com/a16z/status/2113986385908842870",
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "openai-bans-tv-reverse-engineer",
+      "lens": "practical",
+      "topic": "ai-security-research-bans",
+      "summary": "Security researcher @log4j, who posted on Oct 21 that they had a root shell on new Samsung TVs via zero-days, says OpenAI banned their account for reverse-engineering work. The claim spread on Saturday through a post by @yacinemtb and a quote from Nous Research promoting its Hermes Agent.",
+      "facts": [
+        "@log4j: \"i have never used openai to exploit or find vulnerabilities, only local reverse engineering which tripped daybreak.\"",
+        "@log4j says the ban cost them $500 and \"a bunch of banked resets\", and posted two screenshots.",
+        "@log4j's original Samsung TV post (Oct 21) says they kept getting weirdly targeted ads, found the firmware AES-encrypted, used zero-days for a root shell, and \"discovered PRIVACY HORROR\"; it reached a Hacker News front page (\"Root shell on Samsung TV\").",
+        "@yacinemtb's post framing it as \"Person who is reverse engineering his tv gets banned from OpenAI\" had 12,508 likes when read.",
+        "Nous Research quoted it: \"Hermes Agent gives you control\".",
+        "This run found no OpenAI statement on the ban; the claim rests on the user's own post and screenshots."
+      ],
+      "source": {
+        "name": "log4j",
+        "url": "https://x.com/log4j/status/2113647464154857840",
+        "type": "x",
+        "handle": "log4j"
+      },
+      "related": [
+        {
+          "name": "@log4j: root shell on Samsung TV",
+          "url": "https://x.com/log4j/status/2113014142600953868"
+        },
+        {
+          "name": "@yacinemtb post",
+          "url": "https://x.com/yacinemtb/status/2113965724435697732"
+        },
+        {
+          "name": "Nous Research quote",
+          "url": "https://x.com/NousResearch/status/2114029282892595467"
+        },
+        {
+          "name": "Hacker News: Root shell on Samsung TV",
+          "url": "https://news.ycombinator.com/item?id=50218633"
+        }
+      ],
+      "publishedAt": "2026-10-23T15:03:19Z",
+      "metrics": {
+        "likes": 6195,
+        "reposts": 249,
+        "replies": 221,
+        "views": 690374,
+        "capturedAt": "2026-10-24T17:36:00Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "imageHint": "https://x.com/log4j/status/2113647464154857840",
+      "firstSeen": "2026-10-24"
+    }
+  ]
+}
