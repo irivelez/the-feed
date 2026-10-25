@@ -1,175 +1,239 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-10-24-1300",
+  "id": "2026-10-24-1900",
   "date": "2026-10-24",
-  "publishedAt": "2026-10-24T18:03:32Z",
-  "edition": "Midday",
+  "publishedAt": "2026-10-25T00:02:54Z",
+  "edition": "Evening",
   "top3": [
     {
-      "itemId": "langchain-company-harness",
-      "headline": "LangChain's internal agents run on five shared building blocks",
-      "whyItMatters": "Identity is the hard part, so decide which agent actions run as people and which as bots."
+      "itemId": "apollo-no-ai-payoff-outside-tech",
+      "headline": "AI has not paid off yet outside the biggest tech firms",
+      "whyItMatters": "Slok says the AI story will be decided in the S&P 493, so measure returns, not usage."
     },
     {
-      "itemId": "gpu-rental-vs-depreciation",
-      "headline": "GPU rents outpace depreciation, with H200 up 143%",
-      "whyItMatters": "Token demand since April keeps compute expensive, so budget AI capacity for high rates."
+      "itemId": "a16z-openrouter-token-demand-27x",
+      "headline": "Open-weight models now carry 72% of OpenRouter's tokens",
+      "whyItMatters": "Demand rose 27x since last November, so test open models before committing to one vendor's prices."
     },
     {
-      "itemId": "us-electrical-equipment-capacity-shrinks",
-      "headline": "Power equipment is becoming a choke point for AI buildouts",
-      "whyItMatters": "US electrical gear capacity fell 9% as prices rose 69%, so check power lead times early."
+      "itemId": "pennsylvania-ai-ad-labels",
+      "headline": "Pennsylvania makes AI labels mandatory on ads shown in the state",
+      "whyItMatters": "The rule covers ads made anywhere, so national campaigns need a disclosure plan."
     }
   ],
   "items": [
     {
-      "id": "langchain-company-harness",
-      "title": "LangChain shares how it runs three internal agents in Slack",
-      "takeaway": "Sales, coding and content agents share five parts: Slack, per-tool identity, two-tier memory, sandboxes, scheduled runs.",
-      "soWhat": "Plan identity per tool early; Chase calls it the trickiest part of running company agents.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-10-24T17:08:51Z",
+      "id": "a16z-openrouter-token-demand-27x",
+      "title": "OpenRouter token demand is up 27x, and open models carry 72%",
+      "takeaway": "Per a16z, weekly tokens rose from about 6T to 165T since last November; open-weight share rose from 28% to 72%.",
+      "soWhat": "Open-weight models now carry most of this traffic, so price them against closed models in your plans.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-10-24T22:30:03Z",
       "source": {
-        "name": "@hwchase17 on X",
-        "url": "https://x.com/hwchase17/status/2114041443836903662"
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2114122274467102926"
       },
       "related": [
         {
-          "name": "Managed Deep Agents overview",
-          "url": "https://docs.langchain.com/langsmith/python/managed-deep-agents-overview"
-        },
-        {
-          "name": "Add identity to Managed Deep Agents",
-          "url": "https://docs.langchain.com/langsmith/python/managed-deep-agents-identity"
-        },
-        {
-          "name": "LangSmith sandbox auth proxy",
-          "url": "https://docs.langchain.com/langsmith/sandbox-auth-proxy"
+          "name": "a16z Charts of the Week",
+          "url": "https://www.a16z.news/p/charts-of-the-week-attention-is-all"
         }
       ],
       "image": {
-        "src": "/img/langchain-company-harness.jpg",
-        "alt": "Image from @hwchase17 on X"
+        "src": "/img/a16z-openrouter-token-demand-27x.jpg",
+        "alt": "Image from @a16z on X"
       },
       "heat": {
-        "score": 0,
+        "score": 17,
         "level": "none",
-        "metric": "2k views"
+        "metric": "10k views"
       }
     },
     {
-      "id": "perplexity-computer-impeccable-skill",
-      "title": "Perplexity Computer adds /impeccable, a skill that fixes AI-made interfaces",
-      "takeaway": "Open-source skill by Paul Bakaus checks layout, type, contrast and accessibility; free through Oct 31.",
-      "soWhat": "Design review is becoming an agent skill, so expect AI-built interfaces to get a quality pass.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-10-24T15:51:16Z",
+      "id": "dalio-idea-meritocracy",
+      "title": "Dalio: idea meritocracies are harder to run but decide better",
+      "takeaway": "Encouraging disagreement is harder than top-down control, but believable people learning from each other evolve faster.",
+      "soWhat": "Building a team that argues well takes effort, and Dalio says it pays back in better decisions.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 3,
+      "publishedAt": "2026-10-24T22:14:29Z",
       "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2114021917586014449"
+        "name": "@RayDalio on X",
+        "url": "https://x.com/RayDalio/status/2114118358299779148"
       },
-      "related": [
-        {
-          "name": "Perplexity demo on X",
-          "url": "https://x.com/AskPerplexity/status/2114016621631250719"
-        }
-      ],
       "image": {
-        "src": "/img/perplexity-computer-impeccable-skill.jpg",
-        "alt": "Image from @AravSrinivas on X"
+        "src": "/img/dalio-idea-meritocracy.jpg",
+        "alt": "Image from @RayDalio on X"
       },
       "heat": {
         "score": 5,
         "level": "none",
-        "metric": "14k views"
+        "metric": "23k views"
       }
     },
     {
-      "id": "us-electrical-equipment-capacity-shrinks",
-      "title": "US capacity to make electrical equipment shrank 9% since 2019",
-      "takeaway": "Per a16z, semiconductor capacity rose 77% over the same period while electrical equipment prices rose 69%.",
-      "soWhat": "Power gear, not chips, may limit AI buildouts, so check equipment lead times in your plans.",
-      "lens": "broad",
+      "id": "alden-fiscal-dominance-normal",
+      "title": "Lyn Alden sees 'fiscal dominance' move from niche to normal",
+      "takeaway": "Alden quotes Eric Fine: G-10 peers who once called it unlikely now use the term themselves.",
+      "soWhat": "Fine calls this the beginning of the end of denial, so watch how sovereigns talk about debt.",
+      "lens": "frontier-capital",
       "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-10-24T15:00:00Z",
+      "importance": 3,
+      "publishedAt": "2026-10-24T21:52:41Z",
       "source": {
-        "name": "@a16z on X",
-        "url": "https://x.com/a16z/status/2114009072995537108"
-      },
-      "image": {
-        "src": "/img/us-electrical-equipment-capacity-shrinks.jpg",
-        "alt": "Image from @a16z on X"
-      },
-      "heat": {
-        "score": 6,
-        "level": "none",
-        "metric": "13k views"
-      }
-    },
-    {
-      "id": "gpu-rental-vs-depreciation",
-      "title": "GPU rents run far ahead of six-year depreciation schedules",
-      "takeaway": "Per a16z: H200 +143%, B200 +111%, H100 +54%, A100 +9%; most of the gap opened after April.",
-      "soWhat": "Token demand is holding GPU prices up, so don't plan on compute getting cheaper soon.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-10-24T13:30:00Z",
-      "source": {
-        "name": "@a16z on X",
-        "url": "https://x.com/a16z/status/2113986385908842870"
+        "name": "@LynAldenContact on X",
+        "url": "https://x.com/LynAldenContact/status/2114112871177314422"
       },
       "related": [
         {
-          "name": "a16z on GPU rental rates this year",
-          "url": "https://x.com/a16z/status/2113741008550990191"
+          "name": "Eric Fine post",
+          "url": "https://x.com/EricFine123/status/2112141884688925150"
         }
       ],
       "image": {
-        "src": "/img/gpu-rental-vs-depreciation.jpg",
-        "alt": "Image from @a16z on X"
+        "src": "/img/alden-fiscal-dominance-normal.jpg",
+        "alt": "Profile image of @EricFine123"
       },
       "heat": {
-        "score": 13,
+        "score": 9,
         "level": "none",
-        "metric": "36k views"
+        "metric": "23k views"
+      }
+    },
+    {
+      "id": "rauch-guiding-ai-skill",
+      "title": "Vercel's CEO says managing AI well is the top hiring skill",
+      "takeaway": "Rauch looks for people who know when they over-guide AI and when they under-guide it.",
+      "soWhat": "Hiring is starting to test judgment with AI, so ask candidates how they steer it.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-10-24T20:03:39Z",
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2114085432749347086"
+      },
+      "related": [
+        {
+          "name": "poteto quote post",
+          "url": "https://x.com/poteto/status/2114095305910280363"
+        }
+      ],
+      "image": {
+        "src": "/img/rauch-guiding-ai-skill.jpg",
+        "alt": "Image from @rauchg on X"
+      },
+      "heat": {
+        "score": 25,
+        "level": "none",
+        "metric": "75k views"
+      }
+    },
+    {
+      "id": "pennsylvania-ai-ad-labels",
+      "title": "Pennsylvania now requires labels on AI-generated ads",
+      "takeaway": "The act covers image, video, audio and text ads airing in the state; 'significantly modified' is not defined.",
+      "soWhat": "Ads running in Pennsylvania need AI labels wherever they were made, so check your campaigns.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-24T18:32:21Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
+      },
+      "image": {
+        "src": "/img/pennsylvania-ai-ad-labels.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "claude-team-feedback-directory",
+      "title": "Anthropic lists which staff to tag for Claude product feedback",
+      "takeaway": "Alex Albert names contacts for Claude Code, Chat/Cowork, Duet, Tag, API/Platform and community.",
+      "soWhat": "Teams building on Claude now have named people to route bugs and requests to directly.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-10-24T17:54:23Z",
+      "source": {
+        "name": "@alexalbert__ on X",
+        "url": "https://x.com/alexalbert__/status/2114052900045590580"
+      },
+      "image": {
+        "src": "/img/claude-team-feedback-directory.jpg",
+        "alt": "Profile image of @alexalbert__"
+      },
+      "heat": {
+        "score": 23,
+        "level": "none",
+        "metric": "48k views"
+      }
+    },
+    {
+      "id": "apollo-no-ai-payoff-outside-tech",
+      "title": "Apollo finds no AI payoff yet outside the tech giants",
+      "takeaway": "Slok: revenue per worker and margins rise for the Mag 7 but stay flat for the S&P 493.",
+      "soWhat": "Outside tech, token spend is being treated as a cost, so tie each AI budget to measurable returns.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-10-24T12:00:00Z",
+      "source": {
+        "name": "Apollo Daily Spark",
+        "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50224463"
+        }
+      ],
+      "image": {
+        "src": "/img/apollo-no-ai-payoff-outside-tech.jpg",
+        "alt": "Image from Apollo Daily Spark"
       }
     }
   ],
   "voices": [],
   "hotOnX": [
     {
-      "url": "https://x.com/log4j/status/2113647464154857840",
-      "handle": "log4j",
-      "text": "A security researcher says OpenAI banned their account over local reverse-engineering of a Samsung TV.",
-      "metric": "6.2k likes",
-      "note": "Builders worry about bans for legitimate security work; no OpenAI statement was found."
+      "url": "https://x.com/rauchg/status/2114085432749347086",
+      "handle": "rauchg",
+      "text": "How well you manage this superpower is the #0 skill I look for.",
+      "metric": "1.2k likes",
+      "note": "A well-known CEO names judgment with AI as his first hiring filter."
     },
     {
-      "url": "https://x.com/a16z/status/2113986385908842870",
+      "url": "https://x.com/alexalbert__/status/2114052900045590580",
+      "handle": "alexalbert__",
+      "text": "Anthropic staff to tag with product feedback, grouped by Claude Code, Chat/Cowork, Duet, Tag and API.",
+      "metric": "822 likes",
+      "note": "Builders want a direct line to the people who ship Claude."
+    },
+    {
+      "url": "https://x.com/LynAldenContact/status/2114112871177314422",
+      "handle": "LynAldenContact",
+      "text": "Fascinating to watch this term go from niche to normal, both within institution and sovereigns.",
+      "metric": "165 likes",
+      "note": "Investors see fiscal dominance becoming the mainstream frame for government debt."
+    },
+    {
+      "url": "https://x.com/a16z/status/2114122274467102926",
       "handle": "a16z",
-      "text": "GPUs still rent ahead of a six-year depreciation schedule, H200 +143%, with most of the gap after April.",
-      "metric": "470 likes",
-      "note": "It challenges the idea that older AI chips lose value fast."
+      "text": "OpenRouter token demand is up about 27x since November; open-weight models handle about 72% of tokens.",
+      "metric": "122 likes",
+      "note": "It suggests open models now carry most real usage on one big router."
     },
     {
-      "url": "https://x.com/a16z/status/2114009072995537108",
-      "handle": "a16z",
-      "text": "US electrical equipment capacity is down 9% since 2019 while prices are up 69%.",
-      "metric": "150 likes",
-      "note": "It points to power, not just chips, as a key limit on the AI buildout."
-    },
-    {
-      "url": "https://x.com/AravSrinivas/status/2114021917586014449",
-      "handle": "AravSrinivas",
-      "text": "Perplexity adds /impeccable to Computer so users can build interfaces that don't look like AI slop.",
-      "metric": "143 likes",
-      "note": "Generic-looking AI interfaces are a common complaint among builders."
+      "url": "https://x.com/RayDalio/status/2114118358299779148",
+      "handle": "RayDalio",
+      "text": "An idea meritocracy is harder to run than an autocracy, but believable people learning together decide better.",
+      "metric": "106 likes",
+      "note": "Dalio's view on running teams through disagreement keeps drawing interest."
     }
   ]
 }
