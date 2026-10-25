@@ -1,0 +1,267 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-25-1841",
+  "generatedAt": "2026-10-25T23:45:00Z",
+  "configVersions": {
+    "sources": "1.2.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-25T17:36:00Z",
+    "to": "2026-10-25T23:40:00Z"
+  },
+  "sourceNotes": [
+    "Sunday evening window (17:36Z to 23:40Z). Very quiet: no RSS items in the window from any feed, few configured X accounts posting on AI.",
+    "@thorstenball, @_lyraaaa_ and @emollick are not configured handles; they came from X News stories in the window. Thorsten Ball's post counts for the practical lens but cannot be used as a how-to author until his handle is in config.",
+    "agent-sdk-rate-limits follows up the 06:36 candidate (Theo's claim) with the primary GitHub issue and its numbers.",
+    "Altman quote is from an Oct 21 interview; publishedAt is the Gizmodo article time (2:40 pm ET, Oct 23). Lynch Lab post is dated Oct 25 with no time; publishedAt set to 12:00Z.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) timed out again; earlier runs saw a 301 to dwarkesh.com/feed. Config URL should be updated.",
+    "RSS with 0 items in the window: Simon Willison, The Verge AI, MIT Tech Review, OpenAI Blog, Lenny Rachitsky, Stratechery, Benedict Evans, One Useful Thing, Gary Marcus, Mitchell Hashimoto, The Atlantic Technology, Metaplanet Google News.",
+    "arXiv: not queried this run (weekend; the 12:36 run found no new agent listings since Oct 22). Hacker News >=200 points in the window: only the skin-cancer CNN post is AI; FOSDEM/censorship, Oregon police records, Imagination Library not AI. JetBrains Thinkrail (155) and the UC Berkeley homework story (183) are below minPoints.",
+    "X howTo lane: mattshumer_ promo for a cybersecurity account (no facts), mattpocockuk course promo (software factory on GitHub Actions), gregisenberg one-liner, startupideaspod Ozmo robotics (unverified raise figure), ThePrimeagen and tibo_maker personal posts; none used.",
+    "X bigPicture lane: elonmusk posts were partisan politics (muted); alexandr_wang posts were jokes and a Scale alumni post; eastdakota and beffjezos posts had no AI facts. a16z skilled-labor chart used.",
+    "X frontierCapital and design lanes: no posts in the window.",
+    "X queries lane: mostly low-reach repeats of the Agent SDK limit story and Max API credits; nothing above the bar.",
+    "X News stories already covered in earlier runs and not repeated: AHM mathematicians pledge, Apollo AI-payoff note, Anthropic single-agent-loop guide. Not used: Block Dessa (earlier runs saw only a promo post, no primary source), Grok Imagine Odyssey episode, Pangram detector debates, Miyamoto on generative AI, Steam AI disclosure, Modi hologram (off-lens or no primary source).",
+    "Replies checked for thorstenball and emollick posts; none met minFollowers 1000 and minLikes 5, so no bestReply.",
+    "authorBaseline = median likes of the author's last 20 original posts, read this run (thorstenball, emollick, _lyraaaa_). GitHub issue data read from the GitHub API this run."
+  ],
+  "candidates": [
+    {
+      "id": "thorsten-ball-how-i-work-with-agents",
+      "lens": "practical",
+      "topic": "agent-working-practices",
+      "summary": "Thorsten Ball, who works on the Amp coding agent, published an X article, \"How I work with Agents ... as of October 2026\", listing the practices he has been sending friends in DMs.",
+      "facts": [
+        "Use the latest frontier models: \"If a model is wrong 10% of the time, you don't know which 10%, so you end up making multiple attempts.\"",
+        "Prompt the what, not the how; his example: \"Make the bytecode compiler and VM AS FAST AS YOU CAN. Do not stop until it's 2x faster.\"",
+        "Make the whole software lifecycle legible to the agent: let it run what it builds end to end, read production logs, deploy, watch rollouts, flip flags and triage bug reports. His team has custom plugins for bug reports, emailing users, system health and feature flags.",
+        "Eval agentic knowledge: spawn five blind agents, control vs. treatment, to test whether AGENTS.md files, skills and docs are actually used.",
+        "Ask for irrefutable proof (end-to-end walkthroughs, demo videos, before/after numbers); he suggests putting \"this is not evidence\" in AGENTS.md.",
+        "Scheduled wake-ups and heartbeats are a \"killer feature\"; stop managing context by hand, one thread = one task.",
+        "He reviews only code with high blast radius: fewer than 5 central files and database migrations."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/thorstenball/status/2114386050638336082",
+        "type": "x",
+        "handle": "thorstenball"
+      },
+      "related": [
+        {
+          "name": "X article: How I work with Agents",
+          "url": "https://x.com/i/article/2114385531811319808"
+        }
+      ],
+      "publishedAt": "2026-10-25T15:58:12Z",
+      "firstSeen": "2026-10-25",
+      "care": 4,
+      "proof": 3,
+      "metrics": {
+        "likes": 2291,
+        "reposts": 178,
+        "replies": 105,
+        "views": 173519,
+        "capturedAt": "2026-10-25T23:41:00Z",
+        "authorBaseline": 118
+      },
+      "imageHint": "https://x.com/thorstenball/status/2114386050638336082"
+    },
+    {
+      "id": "claude-p-5h-window-github-issue",
+      "lens": "practical",
+      "topic": "agent-sdk-rate-limits",
+      "summary": "The GitHub issue behind this weekend's Agent SDK rate-limit complaints: anthropics/claude-code #97074 reports that headless claude -p (entrypoint sdk-cli) uses about 1.8x more of the Max plan's 5-hour window than the interactive CLI for the same token usage. It is still open with no reply from Anthropic staff.",
+      "facts": [
+        "Opened Sep 25, 2026; labeled bug, has repro, area:cost. As of this run: 28 comments, 54 reactions, last comment Oct 25 23:05 UTC.",
+        "Reporter's controlled A/B test (Claude Code 2.1.282, claude-opus-5): headless about $1.6 of API-equivalent spend per 1% of the 5-hour window vs. about $3.0 interactive.",
+        "Historical windows on the same account: 3.1-4.1 dollars per 1% for cli vs. 1.6-1.9 for sdk-cli.",
+        "The reporter says the Agent SDK help article states claude -p draws from subscription limits but does not say it is weighted differently.",
+        "A commenter on Oct 25 reports the same faster burn through T3 Code (Agent SDK, sdk-ts) but no separate controlled measurement; another asks whether weekly quota is affected, unanswered.",
+        "No comment on the issue comes from an Anthropic member or collaborator account (checked via GitHub API this run)."
+      ],
+      "source": {
+        "name": "GitHub (anthropics/claude-code)",
+        "url": "https://github.com/anthropics/claude-code/issues/97074",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Claude help: use the Agent SDK with your Claude plan",
+          "url": "https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan"
+        }
+      ],
+      "publishedAt": "2026-09-25T11:00:35Z",
+      "firstSeen": "2026-10-25",
+      "care": 4,
+      "proof": 4
+    },
+    {
+      "id": "cnn-beats-frontier-llms-skin-cancer",
+      "lens": "broad",
+      "topic": "specialist-vs-frontier-models",
+      "summary": "Dermatologist Dr Magnus Lynch tested GPT-6 Astra and Claude Fable 5.1 against a fine-tuned 2015-era Inception v3 CNN on 200 biopsy-proven skin lesions; the CNN named the correct diagnosis more often (62% vs 42%). Hit 375 points on Hacker News.",
+      "facts": [
+        "Correct first-choice diagnosis out of 200: GPT-6 Astra 84, Claude Fable 5.1 85, CNN 125. With a second choice allowed: 134, 138 and 173.",
+        "Melanoma named as first choice (of 30): 8, 11 and 13.",
+        "Safe lesions discharged (of 100): 32, 22 and 76; melanomas discharged (of 30): 3, 4 and 18 at the CNN's preset threshold (2 or 1 when matched).",
+        "The CNN was fine-tuned on 68,011 ISIC Archive images on a single H100; test lesions and other images of the same patients were removed from training. Lesions come from the public MILK10k dataset.",
+        "Author's caveats: small numbers (30 melanomas), one LLM run per case, all lesions were biopsied (hard cases), possible LLM training contamination, and the CNN is a baseline, not state of the art.",
+        "Asked as a patient with one photo, both LLMs advised seeing a doctor for 99 and 98 of 100 further melanomas."
+      ],
+      "source": {
+        "name": "Lynch Lab",
+        "url": "https://lynchlab.net/llm-skin-cancer",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50233779"
+        }
+      ],
+      "publishedAt": "2026-10-25T12:00:00Z",
+      "firstSeen": "2026-10-25",
+      "care": 3,
+      "proof": 4,
+      "metrics": {
+        "points": 375,
+        "capturedAt": "2026-10-25T23:40:00Z"
+      },
+      "imageHint": "https://lynchlab.net/llm-skin-cancer"
+    },
+    {
+      "id": "altman-cant-patch-all-bugs",
+      "lens": "broad",
+      "topic": "ai-vuln-wave",
+      "summary": "In Stanford GSB's View From The Top interview (Oct 21), Sam Altman said \"I no longer think we're going to be able to just patch all the bugs\" and that defense has to switch to an AI-based \"defense shield\". The quote is resurfacing on X today alongside the PHP2Shell disclosures.",
+      "facts": [
+        "Altman, per the transcript: \"the cybersecurity... I don't even know what a dramatic enough word to use, but the problem coming towards us, I think is still something that we have not, as organizational leaders or countries or individuals, taken seriously.\"",
+        "He said models can probably find \"bugs that are outside of the normal threat model of what we think a hacker can do. You know, hardware-level insane stuff\", and that most organizational leaders \"have somewhat moved on\" while \"the models have kept going.\"",
+        "OpenAI's Oct 21 \"Patch the Planet\" post says Calif found a critical PHP flaw using GPT-5.6 Sol, commits $1 billion in subsidized Daybreak access for frontline defenders, and expects similar findings to \"increase sharply in the coming months.\"",
+        "X News lists the story as trending on Oct 25 with Cloudflare CEO Matthew Prince's note on exploit attempts against the PHP flaws."
+      ],
+      "source": {
+        "name": "Gizmodo",
+        "url": "https://gizmodo.com/sam-altman-i-no-longer-think-were-gonna-be-able-to-just-patch-all-the-bugs-2000829947",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Interview transcript (CEOInterviews.AI)",
+          "url": "https://ceointerviews.ai/interview/3109501/"
+        },
+        {
+          "name": "OpenAI: Patch the Planet",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
+        },
+        {
+          "name": "X News story",
+          "url": "https://x.com/i/trending/2114059501561160085"
+        }
+      ],
+      "publishedAt": "2026-10-23T18:40:00Z",
+      "firstSeen": "2026-10-25",
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://gizmodo.com/sam-altman-i-no-longer-think-were-gonna-be-able-to-just-patch-all-the-bugs-2000829947"
+    },
+    {
+      "id": "evil-qwen-two-neurons",
+      "lens": "broad",
+      "topic": "open-weights-safety",
+      "summary": "Researcher @_lyraaaa_ posted that steering two MLP neurons in Qwen3.5-4B (L14 N8949 +1, L13 N7956 -1) turns it \"evil\", with the dosing recipe. The post passed 13.5k likes and an X News story on Oct 25 says the steered model gives harmful instructions instead of pointing users to crisis lines.",
+      "facts": [
+        "Post text includes the recipe: \"dose × median(‖resid‖ leaving layer L, tokens 1:) / ‖W_down[:, n]‖` at the down_proj at every input\".",
+        "The method requires open weights and direct activation access."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/_lyraaaa_/status/2113833330429083662",
+        "type": "x",
+        "handle": "_lyraaaa_"
+      },
+      "related": [
+        {
+          "name": "X News story",
+          "url": "https://x.com/i/trending/2114463228033909030"
+        }
+      ],
+      "publishedAt": "2026-10-24T03:21:53Z",
+      "firstSeen": "2026-10-25",
+      "care": 3,
+      "proof": 4,
+      "metrics": {
+        "likes": 13504,
+        "reposts": 675,
+        "replies": 271,
+        "views": 1663105,
+        "capturedAt": "2026-10-25T23:41:00Z",
+        "authorBaseline": 38
+      },
+      "imageHint": "https://x.com/_lyraaaa_/status/2113833330429083662"
+    },
+    {
+      "id": "mollick-senior-span-of-control",
+      "lens": "broad",
+      "topic": "ai-flattens-management",
+      "summary": "Ethan Mollick posted that at large organizations AI is expanding the role and span of control of senior managers who can now directly monitor the whole firm, which he says vastly changes operations and is easier to implement than firm redesign.",
+      "facts": [
+        "Observation from Mollick's work with large organizations; no data attached.",
+        "X News grouped it on Oct 25 with Boom Supersonic's Blake Scholl calling product management an unnecessary layer."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/emollick/status/2114337256865493250",
+        "type": "x",
+        "handle": "emollick"
+      },
+      "related": [
+        {
+          "name": "X News story",
+          "url": "https://x.com/i/trending/2114419240744669499"
+        }
+      ],
+      "publishedAt": "2026-10-25T12:44:19Z",
+      "firstSeen": "2026-10-25",
+      "care": 3,
+      "proof": 2,
+      "metrics": {
+        "likes": 780,
+        "reposts": 37,
+        "replies": 325,
+        "views": 103487,
+        "capturedAt": "2026-10-25T23:41:00Z",
+        "authorBaseline": 358
+      }
+    },
+    {
+      "id": "a16z-skilled-labor-bottleneck",
+      "lens": "broad",
+      "topic": "ai-labor-bottleneck",
+      "summary": "a16z's Charts of the Week names skilled labor as a bottleneck for the AI buildout: US manufacturers are working existing staff longer and paying up for new hires.",
+      "facts": [
+        "Hours per worker are outpacing headcount growth in 7 out of 10 sectors.",
+        "Workers who switch jobs get ~10% pay increases, about double the ~5% for those who stay."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/a16z/status/2114416567639519557",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "publishedAt": "2026-10-25T17:59:28Z",
+      "firstSeen": "2026-10-25",
+      "care": 2,
+      "proof": 3,
+      "metrics": {
+        "likes": 212,
+        "reposts": 24,
+        "replies": 31,
+        "views": 22870,
+        "capturedAt": "2026-10-25T23:41:00Z"
+      },
+      "imageHint": "https://x.com/a16z/status/2114416567639519557"
+    }
+  ]
+}
