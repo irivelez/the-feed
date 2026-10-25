@@ -1,227 +1,259 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-10-25-0700",
+  "id": "2026-10-25-1300",
   "date": "2026-10-25",
-  "publishedAt": "2026-10-25T12:05:19Z",
-  "edition": "Morning",
+  "publishedAt": "2026-10-25T18:09:01Z",
+  "edition": "Midday",
   "top3": [
     {
-      "itemId": "bis-circular-ai-financing",
-      "headline": "Over half of AI firms' funding comes from other AI firms",
-      "whyItMatters": "BIS says these circular deals raise opacity and macro risk, so test vendor revenue claims."
+      "itemId": "anthropic-fold-subagents-guide",
+      "headline": "Anthropic says one agent with skills often beats subagent teams",
+      "whyItMatters": "Simpler agent designs can cut cost and latency, so question multi-agent builds before funding them."
     },
     {
-      "itemId": "arxiv-minimal-harness-mle-agents",
-      "headline": "A minimal coding agent matched elaborate harnesses on ML engineering",
-      "whyItMatters": "The model drove results, so question costly custom agent machinery before funding more of it."
+      "itemId": "openrouter-anthropic-token-volume",
+      "headline": "Anthropic token volume on OpenRouter jumped 3.6x since Opus 5.5",
+      "whyItMatters": "Model demand shifts within weeks, so avoid long lock-in to any single AI vendor."
     },
     {
-      "itemId": "apricitas-creative-jobs-ai",
-      "headline": "US creative industries lost over 200k jobs in four years",
-      "whyItMatters": "Every digital arts subsector is shrinking while in-person work grows, though AI's share is unproven."
+      "itemId": "cerebras-trillion-param-serving",
+      "headline": "Cerebras runs a 3-trillion-parameter open model at high speed",
+      "whyItMatters": "Frontier-size open models are becoming practical to serve, adding leverage in vendor talks."
     }
   ],
   "items": [
     {
-      "id": "petit-prince-ai-game",
-      "title": "A playable Le Petit Prince game built by chaining AI tools",
-      "takeaway": "Meng To says Sac made it with GPT Image 2.5, Tripo, and Opus 5.5 driving Blender and Unity.",
-      "soWhat": "One maker chained image, 3D and coding models into a playable game and shared the prompts.",
-      "lens": "design",
-      "momentum": "new",
-      "importance": 3,
-      "publishedAt": "2026-10-25T03:44:32Z",
-      "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2114201416655049138"
-      },
-      "related": [
-        {
-          "name": "Sac's breakdown on X",
-          "url": "https://x.com/Saccc_c/status/2109962425512734739"
-        }
-      ],
-      "image": {
-        "src": "/img/petit-prince-ai-game.jpg",
-        "alt": "Image from @MengTo on X"
-      },
-      "heat": {
-        "score": 80,
-        "level": "hot",
-        "metric": "8k views"
-      }
-    },
-    {
-      "id": "musk-supercomputer-buildout-limits",
-      "title": "Musk: every missing input stalls a supercomputer build",
-      "takeaway": "He endorsed a list running from land, permits and grid access to transformers, lathes and community politics.",
-      "soWhat": "Compute plans depend on physical inputs, so check power and equipment lead times, not just chips.",
+      "id": "a16z-ai-hardware-imports",
+      "title": "US imports of AI hardware are outpacing US production",
+      "takeaway": "Since 2019, computer imports rose 366% vs production 46%; grid equipment output fell 7% while imports rose 69%.",
+      "soWhat": "The AI build-out leans on foreign hardware, so supply chains and tariffs shape your compute costs.",
       "lens": "broad",
       "momentum": "building",
       "importance": 4,
-      "publishedAt": "2026-10-25T01:29:05Z",
+      "publishedAt": "2026-10-25T16:02:00Z",
       "source": {
-        "name": "@elonmusk on X",
-        "url": "https://x.com/elonmusk/status/2114167331056140414"
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2114387164226269519"
       },
-      "related": [
-        {
-          "name": "Object Zero on X (quoted list)",
-          "url": "https://x.com/Object_Zero_/status/2114100925077885381"
-        }
-      ],
       "image": {
-        "src": "/img/musk-supercomputer-buildout-limits.jpg",
-        "alt": "Profile image of @elonmusk"
+        "src": "/img/a16z-ai-hardware-imports.jpg",
+        "alt": "Image from @a16z on X"
       },
       "heat": {
-        "score": 29,
+        "score": 7,
         "level": "none",
-        "metric": "1.5M views"
+        "metric": "10k views"
       }
     },
     {
-      "id": "theo-agent-sdk-5h-limit-bug",
-      "title": "Theo says Claude Agent SDK use drains 5-hour limits faster",
-      "takeaway": "He says he confirmed the bug, weekly limits are unaffected, and he reported it to Anthropic. No Anthropic reply yet.",
-      "soWhat": "Teams running agents on Claude subscriptions may hit limits sooner until Anthropic confirms or fixes it.",
-      "lens": "practical",
-      "momentum": "new",
+      "id": "openrouter-anthropic-token-volume",
+      "title": "Anthropic token volume on OpenRouter is up 3.6x since Opus 5.5",
+      "takeaway": "Carta's Peter Walker shared the 7-day average; it covers OpenRouter traffic across all Anthropic models only.",
+      "soWhat": "Developer demand is shifting fast toward Anthropic, so keep model contracts flexible and benchmark alternatives often.",
+      "lens": "broad",
+      "momentum": "building",
       "importance": 6,
-      "publishedAt": "2026-10-25T01:25:33Z",
+      "publishedAt": "2026-10-25T15:25:00Z",
       "source": {
-        "name": "@theo on X",
-        "url": "https://x.com/theo/status/2114166439813017873"
+        "name": "@PeterJ_Walker on X",
+        "url": "https://x.com/PeterJ_Walker/status/2114377706603429899"
       },
       "image": {
-        "src": "/img/theo-agent-sdk-5h-limit-bug.jpg",
-        "alt": "Image from @theo on X"
+        "src": "/img/openrouter-anthropic-token-volume.jpg",
+        "alt": "Image from @PeterJ_Walker on X"
       },
       "heat": {
         "score": 63,
         "level": "warm",
-        "metric": "124k views"
+        "metric": "29k views"
       }
     },
     {
-      "id": "human-mathematics-association-1008",
-      "title": "1,008 mathematicians pledge to keep commercial AI out of their work",
-      "takeaway": "654 are in an AI-free caucus that does research without AI models; members won't publish AI-generated texts.",
-      "soWhat": "Not every expert field will adopt AI, and some are now organizing to refuse it.",
+      "id": "grok-calls-businesses",
+      "title": "Musk says Grok can now phone businesses for you",
+      "takeaway": "He says it makes the request, takes notes and sends a summary; no independent demo yet.",
+      "soWhat": "Consumer agents are starting to call companies, so customer service lines may soon talk to bots.",
       "lens": "broad",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 4,
-      "publishedAt": "2026-10-25T00:32:56Z",
+      "publishedAt": "2026-10-25T14:35:00Z",
       "source": {
-        "name": "Assoc. for Human Math",
-        "url": "https://www.ahmath.org/members"
+        "name": "@elonmusk on X",
+        "url": "https://x.com/elonmusk/status/2114365361068138990"
       },
-      "related": [
-        {
-          "name": "New Scientist",
-          "url": "https://www.newscientist.com/article/2593621-a-thousand-human-mathematicians-pledge-to-shun-ai-in-their-research/"
-        }
-      ],
       "image": {
-        "src": "/img/human-mathematics-association-1008.jpg",
-        "alt": "Assoc. for Human Math: 1,008 mathematicians pledge to keep commercial AI out of their work"
+        "src": "/img/grok-calls-businesses.jpg",
+        "alt": "Image from @elonmusk on X"
+      },
+      "heat": {
+        "score": 33,
+        "level": "none",
+        "metric": "1.1M views"
       }
     },
     {
-      "id": "bis-circular-ai-financing",
-      "title": "BIS: over half of AI firms' funding comes from other AI firms",
-      "takeaway": "In 2021-2025, 55.2% of investment into AI firms came from AI firms; 46.4% of AI-to-AI deal value also had supplier ties.",
-      "soWhat": "BIS warns this circular money adds opacity and macro risk, so read AI revenue claims with care.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-10-01T12:00:00Z",
-      "source": {
-        "name": "BIS Bulletin No 137",
-        "url": "https://www.bis.org/publications/bulletin-137-circular-relationships-among-ai-firms"
-      },
-      "related": [
-        {
-          "name": "BIS bulletin PDF",
-          "url": "https://www.bis.org/publications/bulletin-137-circular-relationships-among-ai-firms.pdf"
-        }
-      ],
-      "image": {
-        "src": "/img/bis-circular-ai-financing.jpg",
-        "alt": "Image from BIS Bulletin No 137"
-      }
-    },
-    {
-      "id": "arxiv-minimal-harness-mle-agents",
-      "title": "Study: elaborate agent harnesses add nothing over a minimal coding agent",
-      "takeaway": "Same model, same time budget: open-source multi-agent setups did no better than one session with read, write and bash.",
-      "soWhat": "On ML engineering tasks, the model mattered more than the machinery built around it.",
+      "id": "agent-security-skills-list",
+      "title": "Open-source security skills for coding agents gain large followings",
+      "takeaway": "Cloudflare's audit skill has 46k GitHub stars; NVIDIA's SkillSpector scans agent skills for injection and exfiltration risks.",
+      "soWhat": "Free tools now exist to audit agent skills, so require a scan before teams install third-party ones.",
       "lens": "practical",
       "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-09-30T17:51:30Z",
+      "importance": 5,
+      "publishedAt": "2026-10-25T14:17:00Z",
       "source": {
-        "name": "arXiv paper",
-        "url": "https://arxiv.org/abs/2609.40303"
+        "name": "@CDGalpha on X",
+        "url": "https://x.com/CDGalpha/status/2114360682917601666"
       },
       "related": [
         {
-          "name": "BioAI_NeuralNet summary on X",
-          "url": "https://x.com/BioAI_NeuralNet/status/2114161649183601012"
+          "name": "cloudflare/security-audit-skill",
+          "url": "https://github.com/cloudflare/security-audit-skill"
+        },
+        {
+          "name": "NVIDIA/SkillSpector",
+          "url": "https://github.com/NVIDIA/SkillSpector"
+        },
+        {
+          "name": "mukul975/Anthropic-Cybersecurity-Skills",
+          "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
         }
       ],
       "image": {
-        "src": "/img/arxiv-minimal-harness-mle-agents.jpg",
-        "alt": "Image from arXiv paper"
+        "src": "/img/agent-security-skills-list.jpg",
+        "alt": "Image from @CDGalpha on X"
+      },
+      "heat": {
+        "score": 35,
+        "level": "none",
+        "metric": "1k views"
       }
     },
     {
-      "id": "apricitas-creative-jobs-ai",
-      "title": "US creative industries lost over 200k jobs in four years",
-      "takeaway": "Politano says every digital arts subsector is shrinking while live entertainment grows; AI's exact share is hard to prove.",
-      "soWhat": "The losses sit in digital work while live entertainment grows, a pattern worth watching in your workforce.",
+      "id": "r-opensource-bans-ai",
+      "title": "r/opensource bans projects that use or are made by AI",
+      "takeaway": "New moderator rules say AI-made, AI-using or AI-targeted projects are not welcome.",
+      "soWhat": "Some developer communities are pushing back on AI, which can limit reach for AI-built open-source work.",
       "lens": "broad",
       "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-09-27T12:00:00Z",
+      "importance": 3,
+      "publishedAt": "2026-10-25T13:25:32Z",
       "source": {
-        "name": "Apricitas Economics",
-        "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+      },
+      "image": {
+        "src": "/img/r-opensource-bans-ai.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "anthropic-fold-subagents-guide",
+      "title": "Anthropic: one agent with skills often beats a team of subagents",
+      "takeaway": "Across enterprise deployments, a single loop often scored higher at lower cost; one customer ran about 2x faster.",
+      "soWhat": "Agent designs that mirror the org chart add cost, so challenge each subagent before your teams build one.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-10-22T12:00:00Z",
+      "source": {
+        "name": "Claude by Anthropic",
+        "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop"
+      },
+      "related": [
+        {
+          "name": "single-agent-loop-kit (GitHub)",
+          "url": "https://github.com/anthropics/single-agent-loop-kit"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-fold-subagents-guide.jpg",
+        "alt": "Image from Claude by Anthropic"
+      }
+    },
+    {
+      "id": "cerebras-trillion-param-serving",
+      "title": "Cerebras serves a 3-trillion-parameter open model across 59 wafers",
+      "takeaway": "Using Kimi K3, it reports 1,000-2,000+ tokens per second by moving only activations between wafers.",
+      "soWhat": "Fast serving of frontier-size open models is arriving, which widens your options beyond closed labs.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-10-22T12:00:00Z",
+      "source": {
+        "name": "Cerebras blog",
+        "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
       },
       "related": [
         {
           "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50226419"
+          "url": "https://news.ycombinator.com/item?id=50227356"
         }
       ],
       "image": {
-        "src": "/img/apricitas-creative-jobs-ai.jpg",
-        "alt": "Image from Apricitas Economics"
+        "src": "/img/cerebras-trillion-param-serving.jpg",
+        "alt": "Image from Cerebras blog"
+      }
+    },
+    {
+      "id": "arxiv-ai-text-harder-to-read",
+      "title": "Study: AI-written text is harder for people to process",
+      "takeaway": "All nine models studied used more rare phrases and odd subject-verb pairings than human writers.",
+      "soWhat": "AI drafts may cost readers more effort, so edit for clarity before they reach customers or boards.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-10-21T03:54:08Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.29162"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50223647"
+        }
+      ],
+      "image": {
+        "src": "/img/arxiv-ai-text-harder-to-read.jpg",
+        "alt": "arXiv: Study: AI-written text is harder for people to process"
       }
     }
   ],
-  "voices": [],
+  "voices": [
+    {
+      "handle": "@PeterJ_Walker",
+      "quote": "New from OpenRouter: 7-day average token volume for Anthropic models is up 3.6x since the launch of Opus 5.5",
+      "url": "https://x.com/PeterJ_Walker/status/2114377706603429899"
+    }
+  ],
   "hotOnX": [
     {
-      "url": "https://x.com/elonmusk/status/2114167331056140414",
-      "handle": "elonmusk",
-      "text": "A fuller list of the limitations of supercomputer buildout. If anything is missing, however seemingly trivial, the compute doesn't work.",
-      "metric": "5.1k likes",
-      "note": "It frames AI compute as a physical supply problem, not just a chip problem."
+      "url": "https://x.com/elonmusk/status/2114365361068138990",
+      "handle": "@elonmusk",
+      "text": "Grok can now call someone or a business for you, make a request, take notes and send you a summary.",
+      "metric": "8k likes",
+      "note": "A consumer agent placing real phone calls is a visible step for agents acting offline."
     },
     {
-      "url": "https://x.com/theo/status/2114166439813017873",
-      "handle": "theo",
-      "text": "All Agents SDK usage will drain your 5h limits faster than using Claude Code directly.",
-      "metric": "2k likes",
-      "note": "Builders on Claude plans want to know if agent workloads cost more than they should."
+      "url": "https://x.com/PeterJ_Walker/status/2114377706603429899",
+      "handle": "@PeterJ_Walker",
+      "text": "New from OpenRouter: 7-day average token volume for Anthropic models is up 3.6x since the launch of Opus 5.5",
+      "metric": "254 likes",
+      "note": "A hard number on how fast developers are moving to Anthropic models."
     },
     {
-      "url": "https://x.com/MengTo/status/2114201416655049138",
-      "handle": "MengTo",
-      "text": "A fully playable Le Petit Prince game, made with GPT Image 2.5, Tripo, and Opus 5.5 driving Blender and Unity.",
-      "metric": "95 likes",
-      "note": "People want proof that AI tools can carry a whole game from concept to play."
+      "url": "https://x.com/CDGalpha/status/2114360682917601666",
+      "handle": "@CDGalpha",
+      "text": "Ten open-source Claude skills for security auditing, led by Cloudflare's security-audit-skill and NVIDIA's SkillSpector.",
+      "metric": "90 likes",
+      "note": "Builders want ready-made ways to audit agents and the skills they install."
+    },
+    {
+      "url": "https://x.com/a16z/status/2114387164226269519",
+      "handle": "@a16z",
+      "text": "Since 2019, US imports of AI-related hardware have grown faster than US production in every category tracked.",
+      "metric": "49 likes",
+      "note": "It frames the AI build-out as a supply-chain and trade question."
     }
   ]
 }

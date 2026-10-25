@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-25-0700",
-  "count": 9,
+  "latest": "2026-10-25-1300",
+  "count": 10,
   "briefs": [
+    {
+      "id": "2026-10-25-1300",
+      "date": "2026-10-25",
+      "edition": "Midday",
+      "publishedAt": "2026-10-25T18:09:01Z",
+      "headline": "Anthropic says one agent with skills often beats subagent teams",
+      "url": "/api/briefs/2026-10-25-1300.json"
+    },
     {
       "id": "2026-10-25-0700",
       "date": "2026-10-25",
