@@ -1,0 +1,255 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-25-0636",
+  "generatedAt": "2026-10-25T11:38:00Z",
+  "configVersions": {
+    "sources": "1.2.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-24T23:33:00Z",
+    "to": "2026-10-25T11:36:00Z"
+  },
+  "sourceNotes": [
+    "Saturday night to Sunday morning window (23:33Z to 11:36Z). Seven candidates; quiet overnight on X. Strongest: Theo's confirmed Agent SDK 5-hour-limit bug, the BIS bulletin on circular AI financing, and the arXiv study finding elaborate agent harnesses add nothing over a minimal coding agent.",
+    "The BIS bulletin (published Oct 1), the arXiv harness paper (submitted Sep 30) and the Apricitas piece (dated Sep 27) are older than this window but resurfaced overnight on X and Hacker News; all are inside preferences.quality.maxSourceAgeDays (28). Apricitas is at day 28.",
+    "BIS and Apricitas pages show a date but no time; publishedAt set to 12:00Z on that date as an approximation of the day, not a read time.",
+    "Theo (@theo) is not a configured handle; his post was found through the X queries lane ('agent SDK' matches) and is the primary source the query results cite.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) timed out this run; earlier runs saw HTTP 301 to dwarkesh.com/feed. Config URL should be updated.",
+    "RSS with 0 items in the window: Simon Willison, The Verge AI, MIT Tech Review, OpenAI Blog, Lenny Rachitsky, Stratechery, Benedict Evans, One Useful Thing, Gary Marcus, Mitchell Hashimoto, The Atlantic Technology.",
+    "Metaplanet Google News: two items repeat the Capital Research 11.11% voting stake story already used in an earlier run; not repeated.",
+    "arXiv: weekend, no new cs.AI/cs.CL/cs.MA agent listings in the window; the one arXiv candidate came via the X queries lane.",
+    "Hacker News above 200 points in the window: Apricitas on creative-industry job losses (used) and Meta ignoring a Brazilian court order (partisan politics, muted).",
+    "X howTo lane: swyx hiring post, rubenhassid skill-pack promotion, AlexFinn one-liner, NousResearch image-only post with no text, mattpocockuk course-income and automerge-tool musings; none used.",
+    "X bigPicture lane: alexandr_wang posts were jokes; beffjezos posted many opinion and lifestyle posts (Mythos access, abliterated models) with no primary source; nikitabier's voice-spoofing post is speculation; rauchg on model engineering vocabulary is an opinion. Not used. elonmusk's compute-limits post used under the ai-power-bottleneck topic.",
+    "X frontierCapital lane: no posts in the window. Design lane: one MengTo post (used).",
+    "X queries lane: mostly skill-pack ads, book promotions and low-engagement posts; two leads used (Theo's Agent SDK bug, arXiv harness paper).",
+    "Replies checked for theo, nikitabier and elonmusk posts; none met minFollowers 1000 and minLikes 5, so no bestReply.",
+    "authorBaseline = median likes of the author's last 20 original posts, read this run (theo, MengTo, elonmusk)."
+  ],
+  "candidates": [
+    {
+      "id": "theo-agent-sdk-5h-limit-bug",
+      "lens": "practical",
+      "topic": "agent-sdk-rate-limits",
+      "summary": "Theo Browne (@theo) says he confirmed a bug on Anthropic's side: all Claude Agents SDK usage drains Claude subscription 5-hour limits faster than using Claude Code directly. He says weekly limits are not affected and that he has reported it to Anthropic.",
+      "facts": [
+        "Theo's words: 'All Agents SDK usage will drain your 5h limits faster than using Claude Code directly.'",
+        "He says: 'this does not affect weekly limits' and 'I have reported this to Anthropic, hoping for a fix soon.'",
+        "Other X users citing his post put the gap at about 1.6x to 1.7x on identical tokens; that figure comes from those posts and his attached image, not from his post text.",
+        "No Anthropic response was found in this window."
+      ],
+      "source": {
+        "name": "Theo Browne on X",
+        "url": "https://x.com/theo/status/2114166439813017873",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-10-25T01:25:33Z",
+      "metrics": {
+        "likes": 1952,
+        "reposts": 45,
+        "replies": 223,
+        "views": 123932,
+        "capturedAt": "2026-10-25T11:34:00Z",
+        "authorBaseline": 317
+      },
+      "care": 5,
+      "proof": 3,
+      "imageHint": "https://x.com/theo/status/2114166439813017873",
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "id": "arxiv-minimal-harness-mle-agents",
+      "lens": "practical",
+      "topic": "agent-harness",
+      "summary": "An arXiv paper by Kirill Brilliantov, Alejandro Hernández-Cano and Emmanuel Abbé finds that, under an equal time budget and the same frontier LLM, open-source state-of-the-art harnesses for autonomous ML engineering agents give no advantage over a single session of a minimal coding agent with read, write and bash access.",
+      "facts": [
+        "Title: 'How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?' (arXiv:2609.40303, cs.AI, submitted Sep 30, 2026).",
+        "The abstract names the machinery tested as multi-agent orchestrators and dedicated retrieval subagents, among others.",
+        "The authors point to the model backbone as the primary driver of performance and say machinery layers become redundant in the coding agent setting.",
+        "Conclusion in the abstract: effort spent on hand-crafted harnesses around strong models 'yields poor returns for current MLE benchmarks'."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2609.40303",
+        "type": "arxiv"
+      },
+      "related": [
+        {
+          "name": "BioAI_NeuralNet summary on X",
+          "url": "https://x.com/BioAI_NeuralNet/status/2114161649183601012"
+        }
+      ],
+      "publishedAt": "2026-09-30T17:51:30Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "id": "bis-circular-ai-financing",
+      "lens": "broad",
+      "topic": "ai-circular-financing",
+      "summary": "A Bank for International Settlements bulletin (No 137) finds that from 2021 to 2025, 28.7% of AI firms' investment deal value went to targets that were also AI firms, and 55.2% of incoming investment in AI firms came from other AI firms.",
+      "facts": [
+        "Of all AI-to-AI investment deals in 2021-2025, 16.1% by count and 46.4% by value also involved a supplier-customer relationship between investor and target.",
+        "The bulletin studies a universe of 1,246 AI firms in five supply-chain layers: compute, infrastructure, data tools, models and applications.",
+        "BIS says circular relationships reflect the need to secure critical inputs and information asymmetries, but entail macroeconomic risks and increase opacity.",
+        "The story resurfaced as an X trending topic overnight on Oct 25."
+      ],
+      "source": {
+        "name": "BIS Bulletin No 137",
+        "url": "https://www.bis.org/publications/bulletin-137-circular-relationships-among-ai-firms",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "BIS bulletin PDF",
+          "url": "https://www.bis.org/publications/bulletin-137-circular-relationships-among-ai-firms.pdf"
+        }
+      ],
+      "publishedAt": "2026-10-01T12:00:00Z",
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://www.bis.org/publications/bulletin-137-circular-relationships-among-ai-firms",
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "id": "apricitas-creative-jobs-ai",
+      "lens": "broad",
+      "topic": "ai-labor-impact",
+      "summary": "Joseph Politano (Apricitas Economics) writes that the US has lost more than 200k jobs in creative industries over the last four years, about 50k in the last year, and asks how much is due to AI. He says the exact AI share is hard to prove, but every digital arts subsector is losing jobs while in-person entertainment keeps growing.",
+      "facts": [
+        "He writes that the movie and TV industry lost more than 100k jobs over four years, nearly one-third of the sector.",
+        "He writes that written publishing employment is down more than 70k over the same period.",
+        "He names confounders: Hollywood consolidation, offshoring of production, and the shift to social media creators.",
+        "The post reached 380 points and 385 comments on Hacker News (submitted Oct 24, 23:11 UTC)."
+      ],
+      "source": {
+        "name": "Apricitas Economics (Joseph Politano)",
+        "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50226419"
+        }
+      ],
+      "publishedAt": "2026-09-27T12:00:00Z",
+      "metrics": {
+        "points": 380,
+        "replies": 385,
+        "capturedAt": "2026-10-25T11:32:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "id": "human-mathematics-association-1008",
+      "lens": "broad",
+      "topic": "ai-in-research",
+      "summary": "The Association for Human Mathematics lists 1,008 members, 654 of them in an AI-free caucus. Members commit to not working with commercial AI companies and not publishing math texts generated by AI; caucus members do not use AI models in research.",
+      "facts": [
+        "Membership commitment 1: no technical labor, mathematical knowledge, consultation or publicity for commercial AI companies.",
+        "Commitment 2: no publishing papers, reviews, referee reports, lecture notes, teaching materials or books generated by AI models.",
+        "AI-free caucus: members find proofs, explore examples and pose research questions without prompting AI tools.",
+        "New Scientist reported the pledge; computer scientist Pedro Domingos mocked it on X, proposing an ostrich mascot."
+      ],
+      "source": {
+        "name": "Association for Human Mathematics, members page",
+        "url": "https://www.ahmath.org/members",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "New Scientist",
+          "url": "https://www.newscientist.com/article/2593621-a-thousand-human-mathematicians-pledge-to-shun-ai-in-their-research/"
+        },
+        {
+          "name": "Hesamation on X",
+          "url": "https://x.com/Hesamation/status/2114153199414157752"
+        },
+        {
+          "name": "Pedro Domingos on X",
+          "url": "https://x.com/pmddomingos/status/2114208813104627972"
+        }
+      ],
+      "publishedAt": "2026-10-25T00:32:56Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "id": "musk-supercomputer-buildout-limits",
+      "lens": "broad",
+      "topic": "ai-power-bottleneck",
+      "summary": "Elon Musk quoted a list of what constrains power for compute and called it 'a fuller list of the limitations of supercomputer buildout. If anything is missing, however seemingly trivial, the compute doesn't work.'",
+      "facts": [
+        "The quoted post by @Object_Zero_ lists: land, permits, grid access, transformers and switchgear, noise, clean air, supply chain, fuel security, casting machines, suitable large lathes for turning shafts, residential priority, community political power.",
+        "The quoted post adds: 'All the best sites are now taken, and every year the marginal development site gets worse and worse.'"
+      ],
+      "source": {
+        "name": "Elon Musk on X",
+        "url": "https://x.com/elonmusk/status/2114167331056140414",
+        "type": "x",
+        "handle": "elonmusk"
+      },
+      "related": [
+        {
+          "name": "Object Zero on X (quoted list)",
+          "url": "https://x.com/Object_Zero_/status/2114100925077885381"
+        }
+      ],
+      "publishedAt": "2026-10-25T01:29:05Z",
+      "metrics": {
+        "likes": 5085,
+        "reposts": 577,
+        "replies": 597,
+        "views": 1478303,
+        "capturedAt": "2026-10-25T11:33:00Z",
+        "authorBaseline": 14575
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "id": "petit-prince-ai-game",
+      "lens": "design",
+      "topic": "ai-game-pipeline",
+      "summary": "Meng To shared a fully playable Le Petit Prince game where players explore every planet from the story. He says its maker, Sac (@Saccc_c), published the breakdown and prompts: GPT Image 2.5 for concept art, Tripo for 3D models, and Opus 5.5 driving Blender and Unity.",
+      "facts": [
+        "Meng To says Sac plans to open-source the full game.",
+        "The breakdown is in Sac's own X post, linked from Meng To's post."
+      ],
+      "source": {
+        "name": "Meng To on X",
+        "url": "https://x.com/MengTo/status/2114201416655049138",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "related": [
+        {
+          "name": "Sac's breakdown on X",
+          "url": "https://x.com/Saccc_c/status/2109962425512734739"
+        }
+      ],
+      "publishedAt": "2026-10-25T03:44:32Z",
+      "metrics": {
+        "likes": 95,
+        "reposts": 4,
+        "replies": 10,
+        "views": 7821,
+        "capturedAt": "2026-10-25T11:33:00Z",
+        "authorBaseline": 5
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/MengTo/status/2114201416655049138",
+      "firstSeen": "2026-10-25"
+    }
+  ]
+}
