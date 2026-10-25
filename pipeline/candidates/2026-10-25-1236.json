@@ -1,0 +1,306 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-25-1236",
+  "generatedAt": "2026-10-25T17:36:12Z",
+  "configVersions": {
+    "sources": "1.2.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-25T11:36:00Z",
+    "to": "2026-10-25T17:36:00Z"
+  },
+  "sourceNotes": [
+    "Sunday midday window (11:36Z to 17:36Z). Quiet on X. Strongest: Anthropic's guide on folding subagents into one agent loop (published Oct 22, resurfacing today and not in earlier candidate files) and OpenRouter's 3.6x Anthropic token-volume figure.",
+    "Anthropic guide and Cerebras post are dated Oct 22 with no time; publishedAt set to 12:00Z on that date as an approximation. Both are inside maxSourceAgeDays (28).",
+    "@CDGalpha and @PeterJ_Walker are not configured handles; both came from the X queries lane and a follow-up search on stories in X News.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) timed out again this run; earlier runs saw HTTP 301 to dwarkesh.com/feed. Config URL should be updated.",
+    "RSS with 0 items in the window: Simon Willison, MIT Tech Review, OpenAI Blog, Stratechery, Benedict Evans, One Useful Thing, Gary Marcus, Mitchell Hashimoto, The Atlantic Technology, Metaplanet Google News. Lenny Rachitsky had one non-AI item (PMF podcast), not used.",
+    "arXiv: no new cs.AI/cs.CL/cs.MA agent listings since Oct 22 (weekend); the one arXiv candidate came via Hacker News.",
+    "Hacker News above 200 points not used: Samsung TFLite tracking post (privacy, not AI-industry), Meta and Brazilian court order (partisan politics, muted), danluu on ambitious software and The Goose language (not AI), Danish government and MS Office (not AI). Apollo AI-payoff note and Apricitas creative-jobs piece already in earlier runs.",
+    "X News stories already covered in earlier runs and not repeated: Sweden blocking ChatGPT and Claude, Claude Code engineer departures, PHP2Shell, AHM mathematicians pledge.",
+    "X howTo lane: rubenhassid Block Dessa promo, ThePrimeagen thank-you post, tibo_maker prediction review (opinion), mattpocockuk on a language for agents (opinion); none used.",
+    "X bigPicture lane: elonmusk posts were mostly politics and jokes (muted) except the Grok calling feature (used); AravSrinivas game demo on Perplexity Computer not used; a16z hardware chart used.",
+    "X frontierCapital lane: RayDalio Principles excerpt (repeat of the idea-meritocracy theme) and nathanbenaich Wayve post (low engagement, no new facts); none used. Design lane: no MengTo posts in the window.",
+    "Replies checked for PeterJ_Walker, elonmusk (Grok calling) and CDGalpha posts; none met minFollowers 1000 and minLikes 5, so no bestReply.",
+    "authorBaseline = median likes of the author's last ~20 original posts, read this run (PeterJ_Walker, a16z, elonmusk, CDGalpha). GitHub star counts read from the GitHub API this run."
+  ],
+  "candidates": [
+    {
+      "id": "anthropic-fold-subagents-guide",
+      "lens": "practical",
+      "topic": "single-agent-loop",
+      "summary": "Anthropic published a Claude Platform guide (Diane Sarkis, Oct 22) recommending that enterprises fold routers, planners and domain subagents into one main agent loop with progressively disclosed skills and tools, plus an Apache-2.0 migration kit. It is resurfacing widely on X today.",
+      "facts": [
+        "Anthropic says that in comparisons across several enterprise deployments, a single agent with skills frequently outperformed both the one-prompt-for-everything design and the subagent design on quality, often at lower cost and latency per task.",
+        "One customer that compared its multi-agent harness with a single agent loop saw roughly 2x faster runtime with the single loop.",
+        "Anthropic still recommends subagents when a single loop shows measurable degradation from context bloat, when tasks need parallel fresh context windows, or when one agent struggles to select tools or has conflicting instructions.",
+        "The guide warns that agent architectures often become a copy of the org chart, with each team shipping its own subagent.",
+        "Anthropic released a migration kit at github.com/anthropics/single-agent-loop-kit with a guided workflow and a demo on a mock system."
+      ],
+      "source": {
+        "name": "Claude by Anthropic",
+        "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "single-agent-loop-kit (GitHub)",
+          "url": "https://github.com/anthropics/single-agent-loop-kit"
+        },
+        {
+          "name": "X post summarizing the guide",
+          "url": "https://x.com/window98se/status/2114063593713152209"
+        }
+      ],
+      "publishedAt": "2026-10-22T12:00:00Z",
+      "firstSeen": "2026-10-25",
+      "care": 5,
+      "proof": 4,
+      "imageHint": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop"
+    },
+    {
+      "id": "agent-security-skills-list",
+      "lens": "practical",
+      "topic": "agent-security-skills",
+      "summary": "@CDGalpha posted a list of ten open-source Claude skills for security auditing; the top three repos are public on GitHub with star counts close to those claimed.",
+      "facts": [
+        "cloudflare/security-audit-skill: 46,350 GitHub stars, described as a coding-agent skill for multi-phase security audits with independently verified, machine-readable findings (read via GitHub API this run).",
+        "mukul975/Anthropic-Cybersecurity-Skills: 34,994 stars, 817 structured cybersecurity skills mapped to MITRE ATT&CK, NIST CSF 2.0 and other frameworks.",
+        "NVIDIA/SkillSpector: 21,566 stars, a scanner for vulnerabilities, prompt injection, data exfiltration and supply-chain risks in Claude Code, Codex and MCP skills before installing them."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/CDGalpha/status/2114360682917601666",
+        "type": "x",
+        "handle": "CDGalpha"
+      },
+      "related": [
+        {
+          "name": "cloudflare/security-audit-skill",
+          "url": "https://github.com/cloudflare/security-audit-skill"
+        },
+        {
+          "name": "NVIDIA/SkillSpector",
+          "url": "https://github.com/NVIDIA/SkillSpector"
+        },
+        {
+          "name": "mukul975/Anthropic-Cybersecurity-Skills",
+          "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+        }
+      ],
+      "publishedAt": "2026-10-25T14:17:00Z",
+      "firstSeen": "2026-10-25",
+      "care": 3,
+      "proof": 3,
+      "metrics": {
+        "likes": 90,
+        "reposts": 2,
+        "replies": 8,
+        "views": 1303,
+        "capturedAt": "2026-10-25T17:34:00Z",
+        "authorBaseline": 41
+      },
+      "imageHint": "https://x.com/CDGalpha/status/2114360682917601666"
+    },
+    {
+      "id": "openrouter-anthropic-token-volume",
+      "lens": "broad",
+      "topic": "anthropic-demand",
+      "summary": "Peter Walker (Carta) posted OpenRouter data showing the 7-day average token volume for Anthropic models is up 3.6x since the launch of Opus 5.5.",
+      "facts": [
+        "Post text: 'New from OpenRouter: 7-day average token volume for Anthropic models is up 3.6x since the launch of Opus 5.5'.",
+        "He adds that Sonnet 5.5 and Haiku 5.5 have also been well received.",
+        "The figure covers OpenRouter traffic only, across all Anthropic models; it does not isolate Opus."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/PeterJ_Walker/status/2114377706603429899",
+        "type": "x",
+        "handle": "PeterJ_Walker"
+      },
+      "publishedAt": "2026-10-25T15:25:00Z",
+      "firstSeen": "2026-10-25",
+      "care": 4,
+      "proof": 3,
+      "metrics": {
+        "likes": 254,
+        "reposts": 27,
+        "replies": 21,
+        "views": 28727,
+        "capturedAt": "2026-10-25T17:34:00Z",
+        "authorBaseline": 47
+      },
+      "imageHint": "https://x.com/PeterJ_Walker/status/2114377706603429899"
+    },
+    {
+      "id": "cerebras-trillion-param-serving",
+      "lens": "broad",
+      "topic": "inference-hardware",
+      "summary": "Cerebras explained how it serves multi-trillion-parameter models across multiple WSE-3T wafers at 1,000-2,000+ tokens per second, using the open-source ~3T-parameter Kimi K3 as the example. The post reached 303 points on Hacker News.",
+      "facts": [
+        "A single WSE-3T wafer has 44 GB of on-chip memory.",
+        "Kimi K3 example: 69 linear-attention layers and 24 dense layers, 4-bit weights, 8-bit KV cache, about 16 GB per layer.",
+        "Cerebras places one dense layer per wafer (rest of SRAM for KV cache) and two linear layers per wafer, for 59 wafers total.",
+        "Only activations move between wafers, over RDMA over Ethernet at roughly 2 microseconds per hop.",
+        "Cerebras cites Kimi K3 at 88.3% on Terminal-Bench 2.1 vs 88.8% for GPT-5.6 Sol."
+      ],
+      "source": {
+        "name": "Cerebras blog",
+        "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50227356"
+        }
+      ],
+      "publishedAt": "2026-10-22T12:00:00Z",
+      "firstSeen": "2026-10-25",
+      "care": 3,
+      "proof": 4,
+      "metrics": {
+        "points": 303,
+        "capturedAt": "2026-10-25T17:34:00Z"
+      },
+      "imageHint": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+    },
+    {
+      "id": "grok-calls-businesses",
+      "lens": "broad",
+      "topic": "agents-acting-by-phone",
+      "summary": "Elon Musk posted that Grok can now call a person or business on the user's behalf, make a request, take notes on the response and send a summary of the conversation.",
+      "facts": [
+        "Post text: 'Grok @Bot can now call someone or a business for you, make a request on your behalf, take notes on the response and send you a note summarizing the conversation!'",
+        "The post quotes a post by @alexmichaelio.",
+        "Claim comes from the company's owner; no independent demo was read this run."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/elonmusk/status/2114365361068138990",
+        "type": "x",
+        "handle": "elonmusk"
+      },
+      "related": [
+        {
+          "name": "Quoted post",
+          "url": "https://x.com/alexmichaelio/status/2114056103373758724"
+        }
+      ],
+      "publishedAt": "2026-10-25T14:35:00Z",
+      "firstSeen": "2026-10-25",
+      "care": 3,
+      "proof": 2,
+      "metrics": {
+        "likes": 8038,
+        "reposts": 744,
+        "replies": 1292,
+        "views": 1055268,
+        "capturedAt": "2026-10-25T17:34:00Z",
+        "authorBaseline": 11870
+      },
+      "imageHint": "https://x.com/elonmusk/status/2114365361068138990"
+    },
+    {
+      "id": "arxiv-ai-text-harder-to-read",
+      "lens": "broad",
+      "topic": "ai-writing-readability",
+      "summary": "An arXiv paper (Clark, Martin, Mahowald) finds AI-generated text uses features linked to human processing difficulty more often than human writing, and hypothesizes that training for math, code and reasoning pushes models toward information density over communication. It reached 231 points on Hacker News.",
+      "facts": [
+        "All nine frontier and near-frontier models studied use more inanimate subjects with animate verbs and more low-frequency n-grams than human writing.",
+        "Most also use longer dependencies, more stacked nouns and more reduced object relatives in conversation, with substantial variation across model families.",
+        "The authors test their hypothesis with a proof-of-concept fine-tuning experiment."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.29162",
+        "type": "arxiv"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50223647"
+        }
+      ],
+      "publishedAt": "2026-10-21T03:54:08Z",
+      "firstSeen": "2026-10-25",
+      "care": 3,
+      "proof": 4,
+      "metrics": {
+        "points": 231,
+        "capturedAt": "2026-10-25T17:34:00Z"
+      }
+    },
+    {
+      "id": "a16z-ai-hardware-imports",
+      "lens": "broad",
+      "topic": "ai-hardware-supply",
+      "summary": "a16z posted that since 2019, US imports of AI-related hardware have grown faster than US production in every category it tracked.",
+      "facts": [
+        "Computers: production +46% vs imports +366%.",
+        "Communications equipment: +87% vs +175%.",
+        "Semiconductors: +76% vs +131%.",
+        "Grid and electrical equipment: -7% vs +69%.",
+        "Part of a16z 'Charts of the Week'; underlying data source not named in the post."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/a16z/status/2114387164226269519",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "publishedAt": "2026-10-25T16:02:00Z",
+      "firstSeen": "2026-10-25",
+      "care": 2,
+      "proof": 3,
+      "metrics": {
+        "likes": 49,
+        "reposts": 3,
+        "replies": 18,
+        "views": 10320,
+        "capturedAt": "2026-10-25T17:34:00Z",
+        "authorBaseline": 224
+      },
+      "imageHint": "https://x.com/a16z/status/2114387164226269519"
+    },
+    {
+      "id": "r-opensource-bans-ai",
+      "lens": "broad",
+      "topic": "open-source-ai-backlash",
+      "summary": "The Verge reports that moderators of r/opensource posted new submission rules banning projects that use AI, are made by AI, or are intended for AI.",
+      "facts": [
+        "The rules post opens: 'If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource.'",
+        "The rules were posted Saturday evening, Oct 24.",
+        "X News summary adds the rules require projects at least one year old with multiple contributors and OSI-approved licenses and exclude non-English speakers (not verified against the subreddit this run)."
+      ],
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-25T13:25:32Z",
+      "firstSeen": "2026-10-25",
+      "care": 2,
+      "proof": 4
+    },
+    {
+      "id": "verge-google-ai-search-publishing",
+      "lens": "broad",
+      "topic": "ai-search-publishing",
+      "summary": "The Verge's weekly Stepback column, by Emma Roth, examines how Google's AI search changes upended online publishing.",
+      "facts": [
+        "Published as The Stepback newsletter on Sunday, Oct 25."
+      ],
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-25T12:00:00Z",
+      "firstSeen": "2026-10-25",
+      "care": 2,
+      "proof": 2
+    }
+  ]
+}
