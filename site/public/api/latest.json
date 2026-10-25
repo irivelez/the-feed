@@ -1,239 +1,227 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-10-24-1900",
-  "date": "2026-10-24",
-  "publishedAt": "2026-10-25T00:02:54Z",
-  "edition": "Evening",
+  "id": "2026-10-25-0700",
+  "date": "2026-10-25",
+  "publishedAt": "2026-10-25T12:05:19Z",
+  "edition": "Morning",
   "top3": [
     {
-      "itemId": "apollo-no-ai-payoff-outside-tech",
-      "headline": "AI has not paid off yet outside the biggest tech firms",
-      "whyItMatters": "Slok says the AI story will be decided in the S&P 493, so measure returns, not usage."
+      "itemId": "bis-circular-ai-financing",
+      "headline": "Over half of AI firms' funding comes from other AI firms",
+      "whyItMatters": "BIS says these circular deals raise opacity and macro risk, so test vendor revenue claims."
     },
     {
-      "itemId": "a16z-openrouter-token-demand-27x",
-      "headline": "Open-weight models now carry 72% of OpenRouter's tokens",
-      "whyItMatters": "Demand rose 27x since last November, so test open models before committing to one vendor's prices."
+      "itemId": "arxiv-minimal-harness-mle-agents",
+      "headline": "A minimal coding agent matched elaborate harnesses on ML engineering",
+      "whyItMatters": "The model drove results, so question costly custom agent machinery before funding more of it."
     },
     {
-      "itemId": "pennsylvania-ai-ad-labels",
-      "headline": "Pennsylvania makes AI labels mandatory on ads shown in the state",
-      "whyItMatters": "The rule covers ads made anywhere, so national campaigns need a disclosure plan."
+      "itemId": "apricitas-creative-jobs-ai",
+      "headline": "US creative industries lost over 200k jobs in four years",
+      "whyItMatters": "Every digital arts subsector is shrinking while in-person work grows, though AI's share is unproven."
     }
   ],
   "items": [
     {
-      "id": "a16z-openrouter-token-demand-27x",
-      "title": "OpenRouter token demand is up 27x, and open models carry 72%",
-      "takeaway": "Per a16z, weekly tokens rose from about 6T to 165T since last November; open-weight share rose from 28% to 72%.",
-      "soWhat": "Open-weight models now carry most of this traffic, so price them against closed models in your plans.",
+      "id": "petit-prince-ai-game",
+      "title": "A playable Le Petit Prince game built by chaining AI tools",
+      "takeaway": "Meng To says Sac made it with GPT Image 2.5, Tripo, and Opus 5.5 driving Blender and Unity.",
+      "soWhat": "One maker chained image, 3D and coding models into a playable game and shared the prompts.",
+      "lens": "design",
+      "momentum": "new",
+      "importance": 3,
+      "publishedAt": "2026-10-25T03:44:32Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2114201416655049138"
+      },
+      "related": [
+        {
+          "name": "Sac's breakdown on X",
+          "url": "https://x.com/Saccc_c/status/2109962425512734739"
+        }
+      ],
+      "image": {
+        "src": "/img/petit-prince-ai-game.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 80,
+        "level": "hot",
+        "metric": "8k views"
+      }
+    },
+    {
+      "id": "musk-supercomputer-buildout-limits",
+      "title": "Musk: every missing input stalls a supercomputer build",
+      "takeaway": "He endorsed a list running from land, permits and grid access to transformers, lathes and community politics.",
+      "soWhat": "Compute plans depend on physical inputs, so check power and equipment lead times, not just chips.",
       "lens": "broad",
       "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-10-24T22:30:03Z",
+      "importance": 4,
+      "publishedAt": "2026-10-25T01:29:05Z",
       "source": {
-        "name": "@a16z on X",
-        "url": "https://x.com/a16z/status/2114122274467102926"
+        "name": "@elonmusk on X",
+        "url": "https://x.com/elonmusk/status/2114167331056140414"
       },
       "related": [
         {
-          "name": "a16z Charts of the Week",
-          "url": "https://www.a16z.news/p/charts-of-the-week-attention-is-all"
+          "name": "Object Zero on X (quoted list)",
+          "url": "https://x.com/Object_Zero_/status/2114100925077885381"
         }
       ],
       "image": {
-        "src": "/img/a16z-openrouter-token-demand-27x.jpg",
-        "alt": "Image from @a16z on X"
+        "src": "/img/musk-supercomputer-buildout-limits.jpg",
+        "alt": "Profile image of @elonmusk"
       },
       "heat": {
-        "score": 17,
+        "score": 29,
         "level": "none",
-        "metric": "10k views"
+        "metric": "1.5M views"
       }
     },
     {
-      "id": "dalio-idea-meritocracy",
-      "title": "Dalio: idea meritocracies are harder to run but decide better",
-      "takeaway": "Encouraging disagreement is harder than top-down control, but believable people learning from each other evolve faster.",
-      "soWhat": "Building a team that argues well takes effort, and Dalio says it pays back in better decisions.",
-      "lens": "frontier-capital",
+      "id": "theo-agent-sdk-5h-limit-bug",
+      "title": "Theo says Claude Agent SDK use drains 5-hour limits faster",
+      "takeaway": "He says he confirmed the bug, weekly limits are unaffected, and he reported it to Anthropic. No Anthropic reply yet.",
+      "soWhat": "Teams running agents on Claude subscriptions may hit limits sooner until Anthropic confirms or fixes it.",
+      "lens": "practical",
       "momentum": "new",
-      "importance": 3,
-      "publishedAt": "2026-10-24T22:14:29Z",
+      "importance": 6,
+      "publishedAt": "2026-10-25T01:25:33Z",
       "source": {
-        "name": "@RayDalio on X",
-        "url": "https://x.com/RayDalio/status/2114118358299779148"
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2114166439813017873"
       },
       "image": {
-        "src": "/img/dalio-idea-meritocracy.jpg",
-        "alt": "Image from @RayDalio on X"
+        "src": "/img/theo-agent-sdk-5h-limit-bug.jpg",
+        "alt": "Image from @theo on X"
       },
       "heat": {
-        "score": 5,
-        "level": "none",
-        "metric": "23k views"
+        "score": 63,
+        "level": "warm",
+        "metric": "124k views"
       }
     },
     {
-      "id": "alden-fiscal-dominance-normal",
-      "title": "Lyn Alden sees 'fiscal dominance' move from niche to normal",
-      "takeaway": "Alden quotes Eric Fine: G-10 peers who once called it unlikely now use the term themselves.",
-      "soWhat": "Fine calls this the beginning of the end of denial, so watch how sovereigns talk about debt.",
-      "lens": "frontier-capital",
-      "momentum": "new",
-      "importance": 3,
-      "publishedAt": "2026-10-24T21:52:41Z",
-      "source": {
-        "name": "@LynAldenContact on X",
-        "url": "https://x.com/LynAldenContact/status/2114112871177314422"
-      },
-      "related": [
-        {
-          "name": "Eric Fine post",
-          "url": "https://x.com/EricFine123/status/2112141884688925150"
-        }
-      ],
-      "image": {
-        "src": "/img/alden-fiscal-dominance-normal.jpg",
-        "alt": "Profile image of @EricFine123"
-      },
-      "heat": {
-        "score": 9,
-        "level": "none",
-        "metric": "23k views"
-      }
-    },
-    {
-      "id": "rauch-guiding-ai-skill",
-      "title": "Vercel's CEO says managing AI well is the top hiring skill",
-      "takeaway": "Rauch looks for people who know when they over-guide AI and when they under-guide it.",
-      "soWhat": "Hiring is starting to test judgment with AI, so ask candidates how they steer it.",
+      "id": "human-mathematics-association-1008",
+      "title": "1,008 mathematicians pledge to keep commercial AI out of their work",
+      "takeaway": "654 are in an AI-free caucus that does research without AI models; members won't publish AI-generated texts.",
+      "soWhat": "Not every expert field will adopt AI, and some are now organizing to refuse it.",
       "lens": "broad",
       "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-10-24T20:03:39Z",
+      "importance": 4,
+      "publishedAt": "2026-10-25T00:32:56Z",
       "source": {
-        "name": "@rauchg on X",
-        "url": "https://x.com/rauchg/status/2114085432749347086"
+        "name": "Assoc. for Human Math",
+        "url": "https://www.ahmath.org/members"
       },
       "related": [
         {
-          "name": "poteto quote post",
-          "url": "https://x.com/poteto/status/2114095305910280363"
+          "name": "New Scientist",
+          "url": "https://www.newscientist.com/article/2593621-a-thousand-human-mathematicians-pledge-to-shun-ai-in-their-research/"
         }
       ],
       "image": {
-        "src": "/img/rauch-guiding-ai-skill.jpg",
-        "alt": "Image from @rauchg on X"
-      },
-      "heat": {
-        "score": 25,
-        "level": "none",
-        "metric": "75k views"
+        "src": "/img/human-mathematics-association-1008.jpg",
+        "alt": "Assoc. for Human Math: 1,008 mathematicians pledge to keep commercial AI out of their work"
       }
     },
     {
-      "id": "pennsylvania-ai-ad-labels",
-      "title": "Pennsylvania now requires labels on AI-generated ads",
-      "takeaway": "The act covers image, video, audio and text ads airing in the state; 'significantly modified' is not defined.",
-      "soWhat": "Ads running in Pennsylvania need AI labels wherever they were made, so check your campaigns.",
+      "id": "bis-circular-ai-financing",
+      "title": "BIS: over half of AI firms' funding comes from other AI firms",
+      "takeaway": "In 2021-2025, 55.2% of investment into AI firms came from AI firms; 46.4% of AI-to-AI deal value also had supplier ties.",
+      "soWhat": "BIS warns this circular money adds opacity and macro risk, so read AI revenue claims with care.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-10-01T12:00:00Z",
+      "source": {
+        "name": "BIS Bulletin No 137",
+        "url": "https://www.bis.org/publications/bulletin-137-circular-relationships-among-ai-firms"
+      },
+      "related": [
+        {
+          "name": "BIS bulletin PDF",
+          "url": "https://www.bis.org/publications/bulletin-137-circular-relationships-among-ai-firms.pdf"
+        }
+      ],
+      "image": {
+        "src": "/img/bis-circular-ai-financing.jpg",
+        "alt": "Image from BIS Bulletin No 137"
+      }
+    },
+    {
+      "id": "arxiv-minimal-harness-mle-agents",
+      "title": "Study: elaborate agent harnesses add nothing over a minimal coding agent",
+      "takeaway": "Same model, same time budget: open-source multi-agent setups did no better than one session with read, write and bash.",
+      "soWhat": "On ML engineering tasks, the model mattered more than the machinery built around it.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-09-30T17:51:30Z",
+      "source": {
+        "name": "arXiv paper",
+        "url": "https://arxiv.org/abs/2609.40303"
+      },
+      "related": [
+        {
+          "name": "BioAI_NeuralNet summary on X",
+          "url": "https://x.com/BioAI_NeuralNet/status/2114161649183601012"
+        }
+      ],
+      "image": {
+        "src": "/img/arxiv-minimal-harness-mle-agents.jpg",
+        "alt": "Image from arXiv paper"
+      }
+    },
+    {
+      "id": "apricitas-creative-jobs-ai",
+      "title": "US creative industries lost over 200k jobs in four years",
+      "takeaway": "Politano says every digital arts subsector is shrinking while live entertainment grows; AI's exact share is hard to prove.",
+      "soWhat": "The losses sit in digital work while live entertainment grows, a pattern worth watching in your workforce.",
       "lens": "broad",
       "momentum": "new",
       "importance": 6,
-      "publishedAt": "2026-10-24T18:32:21Z",
+      "publishedAt": "2026-09-27T12:00:00Z",
       "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
-      },
-      "image": {
-        "src": "/img/pennsylvania-ai-ad-labels.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
-      "id": "claude-team-feedback-directory",
-      "title": "Anthropic lists which staff to tag for Claude product feedback",
-      "takeaway": "Alex Albert names contacts for Claude Code, Chat/Cowork, Duet, Tag, API/Platform and community.",
-      "soWhat": "Teams building on Claude now have named people to route bugs and requests to directly.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-10-24T17:54:23Z",
-      "source": {
-        "name": "@alexalbert__ on X",
-        "url": "https://x.com/alexalbert__/status/2114052900045590580"
-      },
-      "image": {
-        "src": "/img/claude-team-feedback-directory.jpg",
-        "alt": "Profile image of @alexalbert__"
-      },
-      "heat": {
-        "score": 23,
-        "level": "none",
-        "metric": "48k views"
-      }
-    },
-    {
-      "id": "apollo-no-ai-payoff-outside-tech",
-      "title": "Apollo finds no AI payoff yet outside the tech giants",
-      "takeaway": "Slok: revenue per worker and margins rise for the Mag 7 but stay flat for the S&P 493.",
-      "soWhat": "Outside tech, token spend is being treated as a cost, so tie each AI budget to measurable returns.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 9,
-      "publishedAt": "2026-10-24T12:00:00Z",
-      "source": {
-        "name": "Apollo Daily Spark",
-        "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+        "name": "Apricitas Economics",
+        "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
       },
       "related": [
         {
           "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50224463"
+          "url": "https://news.ycombinator.com/item?id=50226419"
         }
       ],
       "image": {
-        "src": "/img/apollo-no-ai-payoff-outside-tech.jpg",
-        "alt": "Image from Apollo Daily Spark"
+        "src": "/img/apricitas-creative-jobs-ai.jpg",
+        "alt": "Image from Apricitas Economics"
       }
     }
   ],
   "voices": [],
   "hotOnX": [
     {
-      "url": "https://x.com/rauchg/status/2114085432749347086",
-      "handle": "rauchg",
-      "text": "How well you manage this superpower is the #0 skill I look for.",
-      "metric": "1.2k likes",
-      "note": "A well-known CEO names judgment with AI as his first hiring filter."
+      "url": "https://x.com/elonmusk/status/2114167331056140414",
+      "handle": "elonmusk",
+      "text": "A fuller list of the limitations of supercomputer buildout. If anything is missing, however seemingly trivial, the compute doesn't work.",
+      "metric": "5.1k likes",
+      "note": "It frames AI compute as a physical supply problem, not just a chip problem."
     },
     {
-      "url": "https://x.com/alexalbert__/status/2114052900045590580",
-      "handle": "alexalbert__",
-      "text": "Anthropic staff to tag with product feedback, grouped by Claude Code, Chat/Cowork, Duet, Tag and API.",
-      "metric": "822 likes",
-      "note": "Builders want a direct line to the people who ship Claude."
+      "url": "https://x.com/theo/status/2114166439813017873",
+      "handle": "theo",
+      "text": "All Agents SDK usage will drain your 5h limits faster than using Claude Code directly.",
+      "metric": "2k likes",
+      "note": "Builders on Claude plans want to know if agent workloads cost more than they should."
     },
     {
-      "url": "https://x.com/LynAldenContact/status/2114112871177314422",
-      "handle": "LynAldenContact",
-      "text": "Fascinating to watch this term go from niche to normal, both within institution and sovereigns.",
-      "metric": "165 likes",
-      "note": "Investors see fiscal dominance becoming the mainstream frame for government debt."
-    },
-    {
-      "url": "https://x.com/a16z/status/2114122274467102926",
-      "handle": "a16z",
-      "text": "OpenRouter token demand is up about 27x since November; open-weight models handle about 72% of tokens.",
-      "metric": "122 likes",
-      "note": "It suggests open models now carry most real usage on one big router."
-    },
-    {
-      "url": "https://x.com/RayDalio/status/2114118358299779148",
-      "handle": "RayDalio",
-      "text": "An idea meritocracy is harder to run than an autocracy, but believable people learning together decide better.",
-      "metric": "106 likes",
-      "note": "Dalio's view on running teams through disagreement keeps drawing interest."
+      "url": "https://x.com/MengTo/status/2114201416655049138",
+      "handle": "MengTo",
+      "text": "A fully playable Le Petit Prince game, made with GPT Image 2.5, Tripo, and Opus 5.5 driving Blender and Unity.",
+      "metric": "95 likes",
+      "note": "People want proof that AI tools can carry a whole game from concept to play."
     }
   ]
 }

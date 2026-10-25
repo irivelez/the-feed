@@ -1,0 +1,227 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-10-25-0700",
+  "date": "2026-10-25",
+  "publishedAt": "2026-10-25T12:05:19Z",
+  "edition": "Morning",
+  "top3": [
+    {
+      "itemId": "bis-circular-ai-financing",
+      "headline": "Over half of AI firms' funding comes from other AI firms",
+      "whyItMatters": "BIS says these circular deals raise opacity and macro risk, so test vendor revenue claims."
+    },
+    {
+      "itemId": "arxiv-minimal-harness-mle-agents",
+      "headline": "A minimal coding agent matched elaborate harnesses on ML engineering",
+      "whyItMatters": "The model drove results, so question costly custom agent machinery before funding more of it."
+    },
+    {
+      "itemId": "apricitas-creative-jobs-ai",
+      "headline": "US creative industries lost over 200k jobs in four years",
+      "whyItMatters": "Every digital arts subsector is shrinking while in-person work grows, though AI's share is unproven."
+    }
+  ],
+  "items": [
+    {
+      "id": "petit-prince-ai-game",
+      "title": "A playable Le Petit Prince game built by chaining AI tools",
+      "takeaway": "Meng To says Sac made it with GPT Image 2.5, Tripo, and Opus 5.5 driving Blender and Unity.",
+      "soWhat": "One maker chained image, 3D and coding models into a playable game and shared the prompts.",
+      "lens": "design",
+      "momentum": "new",
+      "importance": 3,
+      "publishedAt": "2026-10-25T03:44:32Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2114201416655049138"
+      },
+      "related": [
+        {
+          "name": "Sac's breakdown on X",
+          "url": "https://x.com/Saccc_c/status/2109962425512734739"
+        }
+      ],
+      "image": {
+        "src": "/img/petit-prince-ai-game.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 80,
+        "level": "hot",
+        "metric": "8k views"
+      }
+    },
+    {
+      "id": "musk-supercomputer-buildout-limits",
+      "title": "Musk: every missing input stalls a supercomputer build",
+      "takeaway": "He endorsed a list running from land, permits and grid access to transformers, lathes and community politics.",
+      "soWhat": "Compute plans depend on physical inputs, so check power and equipment lead times, not just chips.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-10-25T01:29:05Z",
+      "source": {
+        "name": "@elonmusk on X",
+        "url": "https://x.com/elonmusk/status/2114167331056140414"
+      },
+      "related": [
+        {
+          "name": "Object Zero on X (quoted list)",
+          "url": "https://x.com/Object_Zero_/status/2114100925077885381"
+        }
+      ],
+      "image": {
+        "src": "/img/musk-supercomputer-buildout-limits.jpg",
+        "alt": "Profile image of @elonmusk"
+      },
+      "heat": {
+        "score": 29,
+        "level": "none",
+        "metric": "1.5M views"
+      }
+    },
+    {
+      "id": "theo-agent-sdk-5h-limit-bug",
+      "title": "Theo says Claude Agent SDK use drains 5-hour limits faster",
+      "takeaway": "He says he confirmed the bug, weekly limits are unaffected, and he reported it to Anthropic. No Anthropic reply yet.",
+      "soWhat": "Teams running agents on Claude subscriptions may hit limits sooner until Anthropic confirms or fixes it.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-25T01:25:33Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2114166439813017873"
+      },
+      "image": {
+        "src": "/img/theo-agent-sdk-5h-limit-bug.jpg",
+        "alt": "Image from @theo on X"
+      },
+      "heat": {
+        "score": 63,
+        "level": "warm",
+        "metric": "124k views"
+      }
+    },
+    {
+      "id": "human-mathematics-association-1008",
+      "title": "1,008 mathematicians pledge to keep commercial AI out of their work",
+      "takeaway": "654 are in an AI-free caucus that does research without AI models; members won't publish AI-generated texts.",
+      "soWhat": "Not every expert field will adopt AI, and some are now organizing to refuse it.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-10-25T00:32:56Z",
+      "source": {
+        "name": "Assoc. for Human Math",
+        "url": "https://www.ahmath.org/members"
+      },
+      "related": [
+        {
+          "name": "New Scientist",
+          "url": "https://www.newscientist.com/article/2593621-a-thousand-human-mathematicians-pledge-to-shun-ai-in-their-research/"
+        }
+      ],
+      "image": {
+        "src": "/img/human-mathematics-association-1008.jpg",
+        "alt": "Assoc. for Human Math: 1,008 mathematicians pledge to keep commercial AI out of their work"
+      }
+    },
+    {
+      "id": "bis-circular-ai-financing",
+      "title": "BIS: over half of AI firms' funding comes from other AI firms",
+      "takeaway": "In 2021-2025, 55.2% of investment into AI firms came from AI firms; 46.4% of AI-to-AI deal value also had supplier ties.",
+      "soWhat": "BIS warns this circular money adds opacity and macro risk, so read AI revenue claims with care.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-10-01T12:00:00Z",
+      "source": {
+        "name": "BIS Bulletin No 137",
+        "url": "https://www.bis.org/publications/bulletin-137-circular-relationships-among-ai-firms"
+      },
+      "related": [
+        {
+          "name": "BIS bulletin PDF",
+          "url": "https://www.bis.org/publications/bulletin-137-circular-relationships-among-ai-firms.pdf"
+        }
+      ],
+      "image": {
+        "src": "/img/bis-circular-ai-financing.jpg",
+        "alt": "Image from BIS Bulletin No 137"
+      }
+    },
+    {
+      "id": "arxiv-minimal-harness-mle-agents",
+      "title": "Study: elaborate agent harnesses add nothing over a minimal coding agent",
+      "takeaway": "Same model, same time budget: open-source multi-agent setups did no better than one session with read, write and bash.",
+      "soWhat": "On ML engineering tasks, the model mattered more than the machinery built around it.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-09-30T17:51:30Z",
+      "source": {
+        "name": "arXiv paper",
+        "url": "https://arxiv.org/abs/2609.40303"
+      },
+      "related": [
+        {
+          "name": "BioAI_NeuralNet summary on X",
+          "url": "https://x.com/BioAI_NeuralNet/status/2114161649183601012"
+        }
+      ],
+      "image": {
+        "src": "/img/arxiv-minimal-harness-mle-agents.jpg",
+        "alt": "Image from arXiv paper"
+      }
+    },
+    {
+      "id": "apricitas-creative-jobs-ai",
+      "title": "US creative industries lost over 200k jobs in four years",
+      "takeaway": "Politano says every digital arts subsector is shrinking while live entertainment grows; AI's exact share is hard to prove.",
+      "soWhat": "The losses sit in digital work while live entertainment grows, a pattern worth watching in your workforce.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-09-27T12:00:00Z",
+      "source": {
+        "name": "Apricitas Economics",
+        "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50226419"
+        }
+      ],
+      "image": {
+        "src": "/img/apricitas-creative-jobs-ai.jpg",
+        "alt": "Image from Apricitas Economics"
+      }
+    }
+  ],
+  "voices": [],
+  "hotOnX": [
+    {
+      "url": "https://x.com/elonmusk/status/2114167331056140414",
+      "handle": "elonmusk",
+      "text": "A fuller list of the limitations of supercomputer buildout. If anything is missing, however seemingly trivial, the compute doesn't work.",
+      "metric": "5.1k likes",
+      "note": "It frames AI compute as a physical supply problem, not just a chip problem."
+    },
+    {
+      "url": "https://x.com/theo/status/2114166439813017873",
+      "handle": "theo",
+      "text": "All Agents SDK usage will drain your 5h limits faster than using Claude Code directly.",
+      "metric": "2k likes",
+      "note": "Builders on Claude plans want to know if agent workloads cost more than they should."
+    },
+    {
+      "url": "https://x.com/MengTo/status/2114201416655049138",
+      "handle": "MengTo",
+      "text": "A fully playable Le Petit Prince game, made with GPT Image 2.5, Tripo, and Opus 5.5 driving Blender and Unity.",
+      "metric": "95 likes",
+      "note": "People want proof that AI tools can carry a whole game from concept to play."
+    }
+  ]
+}
