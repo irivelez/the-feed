@@ -1,7 +1,38 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-26T12:05:39Z",
+  "updatedAt": "2026-10-26T18:05:11Z",
   "howtos": [
+    {
+      "id": "split-one-way-door-pr",
+      "dedupeKey": "split-one-way-door-pr-expand-contract",
+      "title": "Split a risky one-way-door PR into two stacked PRs",
+      "what": "Matt Pocock's prompt: have the agent ship a revertible PR first, then a stacked PR with the irreversible change.",
+      "kind": "prompt",
+      "copy": [
+        "Split this \"one-way door\" PR into two: 1. A PR that implements everything, except it can be easily reverted (a two-way door) 2. A followup PR (stacked on top) that actually goes through the one-way door"
+      ],
+      "whenToUse": "When an agent-written PR includes an irreversible change, such as a migration, and you want to test most of it in production first.",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2114749427889979405"
+      },
+      "author": {
+        "name": "Matt Pocock",
+        "handle": "mattpocockuk"
+      },
+      "tags": [
+        "coding-agents",
+        "prompts",
+        "deployment"
+      ],
+      "quality": 4,
+      "verbatim": true,
+      "briefItem": {
+        "briefId": "2026-10-26-1300",
+        "itemId": "pocock-one-way-door-pr-prompt"
+      },
+      "addedAt": "2026-10-26T18:05:11Z"
+    },
     {
       "id": "make-codebase-agent-ready-types-tests",
       "dedupeKey": "codebase-for-agents-types-tests-verification",

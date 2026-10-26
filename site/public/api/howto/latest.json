@@ -1,42 +1,37 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-26T12:05:39Z",
-  "runId": "2026-10-26-0700",
+  "updatedAt": "2026-10-26T18:05:11Z",
   "howtos": [
     {
-      "id": "make-codebase-agent-ready-types-tests",
-      "dedupeKey": "codebase-for-agents-types-tests-verification",
-      "title": "Make a codebase agent-ready with types and tests",
-      "what": "Yaron Minsky's talk via @poteto: give agents feedback through strict types, richer tests and verification.",
-      "kind": "steps",
+      "id": "split-one-way-door-pr",
+      "dedupeKey": "split-one-way-door-pr-expand-contract",
+      "title": "Split a risky one-way-door PR into two stacked PRs",
+      "what": "Matt Pocock's prompt: have the agent ship a revertible PR first, then a stacked PR with the irreversible change.",
+      "kind": "prompt",
       "copy": [
-        "Lean on types as feedback: agents thrive on feedback, and types are one of the best kinds.",
-        "Make illegal states unrepresentable with types so global rules are enforced across the codebase.",
-        "Add property-based tests, fuzzing, and even full-system deterministic simulation testing.",
-        "Use expect tests: print behavior out and capture it in the test, which makes behavior legible and reduces review surface.",
-        "Revisit formal methods: they used to be very expensive, but agents change the ROI."
+        "Split this \"one-way door\" PR into two: 1. A PR that implements everything, except it can be easily reverted (a two-way door) 2. A followup PR (stacked on top) that actually goes through the one-way door"
       ],
-      "whenToUse": "When agents write much of your code and you want them to catch their own mistakes before review.",
+      "whenToUse": "When an agent-written PR includes an irreversible change, such as a migration, and you want to test most of it in production first.",
       "source": {
-        "name": "@poteto on X",
-        "url": "https://x.com/poteto/status/2114626630429913383"
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2114749427889979405"
       },
       "author": {
-        "name": "poteto",
-        "handle": "poteto"
+        "name": "Matt Pocock",
+        "handle": "mattpocockuk"
       },
       "tags": [
         "coding-agents",
-        "testing",
-        "types"
+        "prompts",
+        "deployment"
       ],
-      "quality": 3,
-      "verbatim": false,
+      "quality": 4,
+      "verbatim": true,
       "briefItem": {
-        "briefId": "2026-10-26-0700",
-        "itemId": "poteto-minsky-codebase-for-agents"
+        "briefId": "2026-10-26-1300",
+        "itemId": "pocock-one-way-door-pr-prompt"
       },
-      "addedAt": "2026-10-26T12:05:39Z"
+      "addedAt": "2026-10-26T18:05:11Z"
     }
   ]
 }
