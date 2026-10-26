@@ -1,0 +1,261 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-26-1834",
+  "generatedAt": "2026-10-26T23:44:00Z",
+  "configVersions": {
+    "sources": "1.2.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-26T17:30:00Z",
+    "to": "2026-10-26T23:35:00Z"
+  },
+  "sourceNotes": [
+    "Evening Monday window (17:30Z to 23:35Z Oct 26). Lead stories: OpenAI GPT-6.1 Terra and Cursor Agent SDK; OpenAI's AI-produced proofs (ETH, Yang-Mills/QCD, local smoothing) are OpenAI's claims pending independent verification.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) timed out again; it moved to dwarkesh.com/feed. Config URL should be updated.",
+    "RSS with 0 items in the window: MIT Tech Review, OpenAI Blog, Lenny Rachitsky, Stratechery, Benedict Evans, One Useful Thing, Gary Marcus, Mitchell Hashimoto, Metaplanet Google News. Simon Willison: one quote post (Jason Koebler), not used. The Atlantic (headline only) 'How Long Until the Internet Breaks?' not used. Verge S-1 details and Kevin Roose podcast already covered or no new facts.",
+    "OpenAI pages return HTTP 403 to plain curl; read via WebFetch.",
+    "arXiv: no agent listings newer than Oct 23 in cs.AI/cs.CL/cs.MA. HN >=200 in window: GPT-6.1 Terra and OpenAI academic results used; Cohere open-weight model post likely the same story as evil-qwen-two-neurons (2026-10-25-1841), not repeated.",
+    "X howTo lane: gregisenberg 'sell AI to Main Street' video (no text facts), swyx, kloss_xyz, jxnlco, LangChain promos, mattpocockuk talk heart rate, NousResearch hackathon, tibo_maker: not used. AlexFinn Terra post duplicates the OpenAI primary.",
+    "X bigPicture lane: elonmusk posts are partisan politics, Starlink/FSD or no-text; beffjezos neolab/crypto analogy is opinion without facts; a16z OpenAI interview clips folded into Terra as related; ycombinator W27 deadline promo not used.",
+    "X frontierCapital lane: TaviCosta 'A note on Brazil' (link only, not read), nathanbenaich on Cohere reasoning-monitor finding (covered earlier), RayDalio and bhorowitz quotes: not used. Design lane (MengTo): no posts in window.",
+    "X queries lane: mostly reposts of the Cursor Agent SDK launch; orca_build claims an Agent SDK chat UI metering bug burns the Claude Code 5h limit ~1.7x faster (vendor promo, no primary source, not used).",
+    "Replies checked on OpenAI Terra, cursor_ai Agent SDK and claudeai nonprofits posts: none met minFollowers 1000 and minLikes 5; no bestReply.",
+    "X calls this run: 9."
+  ],
+  "candidates": [
+    {
+      "id": "openai-gpt-6-1-terra",
+      "lens": "broad",
+      "topic": "gpt-6-1-terra",
+      "summary": "OpenAI released GPT-6.1 Terra, a fast, lower-cost model aimed at computer use, visual reasoning and writing. Standard API prices are 50% lower than GPT-5.6 Terra and GPT-6.1 Sol. It is available in ChatGPT Work and Codex for Plus, Pro, Enterprise and Edu users, and in the API as gpt-6.1-terra.",
+      "facts": [
+        "API pricing: $1 per million input tokens, $0.05 per million cached input tokens, $5 per million output tokens.",
+        "OpenAI says that on Agents' Last Exam at medium effort it scores 15 points higher than GPT-5.6 Terra at about one-third the cost, and performs on par with GPT-6 Astra at one-tenth its price per token.",
+        "OpenAI says at max effort it is over 3x as token efficient as Claude Opus 5.5 at one-fourth its price per token, about 9x lower cost per task, and completes tasks over 3x faster than GPT-6 Astra and GPT-6.1 Sol.",
+        "Terminal-Bench 4.0 at max effort: 50.3% of tasks solved vs 21.5% published for GPT-5.6 Terra; OpenAI says Sol and Astra remain better for the most complex coding.",
+        "Internal error-inducing prompt benchmark: error rate at low effort fell from 53.6% (GPT-5.6 Terra) to 16.7%; at max effort it is 4.3%.",
+        "OpenAI says it meets the Critical threshold in cybersecurity under its Preparedness Framework."
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "@OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2114780711664398349"
+        },
+        {
+          "name": "@sama on X",
+          "url": "https://x.com/sama/status/2114818620782248024"
+        },
+        {
+          "name": "Hacker News (462 points)",
+          "url": "https://news.ycombinator.com/item?id=50248124"
+        },
+        {
+          "name": "a16z clip: OpenAI's Ari Weinstein on computer use",
+          "url": "https://x.com/a16z/status/2114836977472467320"
+        }
+      ],
+      "publishedAt": "2026-10-26T18:06:27Z",
+      "metrics": {
+        "likes": 19262,
+        "reposts": 1593,
+        "replies": 1004,
+        "views": 2145917,
+        "capturedAt": "2026-10-26T23:35:00Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "firstSeen": "2026-10-26"
+    },
+    {
+      "id": "cursor-agent-sdk",
+      "lens": "practical",
+      "topic": "cursor-agent-sdk",
+      "summary": "Cursor released the Agent SDK, the framework it uses to build its own managed agents such as Bugbot, Security Reviewer and Rollouts. Agents are defined as code: prompts in Markdown, tools as TypeScript functions, with evals and event replay built in. They deploy to Cursor infrastructure with `agent-sdk deploy` or run on your own infrastructure as a single Node process.",
+      "facts": [
+        "Install: npm install --global @grok/agent-sdk (Node 22.13+); then agent-sdk init ./my-bot and agent-sdk dev. The package was previously @cursor/bdk.",
+        "Agents can respond to pull request events from GitHub, GitLab or Bitbucket, hand tasks to other specialized agents, and split work among parallel subagents.",
+        "A Cursor team built kb-reviewer, which checks every PR against a knowledge base of past lessons and cites the note behind each finding, in about a day.",
+        "PGA Tour uses it for its software development factory, per a quote from Michael Gyarmathy, Principal Engineer, PGA America.",
+        "Cursor's docs offer a paste-in prompt that has a coding agent install the CLI and scaffold a first project."
+      ],
+      "source": {
+        "name": "Cursor blog",
+        "url": "https://cursor.com/blog/agent-sdk",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Agent SDK docs",
+          "url": "https://cursor.com/docs/agent-sdk"
+        },
+        {
+          "name": "@cursor_ai on X",
+          "url": "https://x.com/cursor_ai/status/2114793714531102901"
+        }
+      ],
+      "publishedAt": "2026-10-26T18:58:07Z",
+      "metrics": {
+        "likes": 2311,
+        "reposts": 139,
+        "replies": 212,
+        "views": 164626,
+        "capturedAt": "2026-10-26T23:35:00Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://cursor.com/blog/agent-sdk",
+      "firstSeen": "2026-10-26"
+    },
+    {
+      "id": "openai-ai-proofs-eth-yang-mills",
+      "lens": "broad",
+      "topic": "openai-ai-math-proofs",
+      "summary": "OpenAI says its models produced three results: a proof of the local smoothing conjecture in every dimension (which implies the Kakeya and Stein restriction conjectures), a refutation of the Exponential Time Hypothesis, and an existence proof for QCD and pure Yang-Mills theory in four dimensions. It says the first two were formalized in Lean; outside expert groups will verify and explain the computer science and physics results.",
+      "facts": [
+        "The ETH result will be shepherded by Russell Impagliazzo and Ramamohan Paturi (UC San Diego) and Ryan Williams (MIT); Impagliazzo and Paturi originally proposed the ETH.",
+        "The physics group is led by David Gross with Michael Douglas, Arthur Jaffe, Igor Klebanov and Nikita Nekrasov; it chose to hold back the AI-produced artifacts and write the work up itself.",
+        "OpenAI says it seeks no academic credit, participants sign no NDAs and are unpaid, and it will fund a conference on the ETH result.",
+        "Dates given by OpenAI: ETH disproof found Oct 16 and formalized in Lean Oct 17; local smoothing output Oct 18; Yang-Mills proof Sep 9, QCD Sep 18, Yang-Mills Lean formalization Oct 16.",
+        "Yang-Mills existence is part of a Clay Millennium Prize problem. These are OpenAI's claims; independent verification is pending."
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Hacker News (208 points)",
+          "url": "https://news.ycombinator.com/item?id=50251344"
+        },
+        {
+          "name": "@EMostaque reaction on X",
+          "url": "https://x.com/EMostaque/status/2114848545597513745"
+        }
+      ],
+      "publishedAt": "2026-10-26T21:00:00Z",
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "firstSeen": "2026-10-26"
+    },
+    {
+      "id": "claude-for-nonprofits-plugin",
+      "lens": "practical",
+      "topic": "claude-for-nonprofits",
+      "summary": "Anthropic released a Claude for Nonprofits plugin, a set of skills and connectors built with about 30 nonprofits, covering setup with an organization's context and AI policy, fundraising from research to reporting, marketing and hiring. Anthropic says more than 25,000 nonprofits use Claude and over 75% have fewer than 10 seats.",
+      "facts": [
+        "Nonprofit discounts go up to 75%; since September, verified nonprofits in low- and middle-income countries get about 90% off, making Team seats $3/user/month.",
+        "Team plan minimum lowered to organizations with two people; Claude Code included in nonprofit plans at no extra cost.",
+        "Claude Corps is placing 1,000 early-career fellows in at least 400 US nonprofits; Anthropic plans to extend it through a partnership with Taproot.",
+        "Existing connectors: Blackbaud, Candid and Benevity."
+      ],
+      "source": {
+        "name": "Claude by Anthropic",
+        "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "@claudeai on X",
+          "url": "https://x.com/claudeai/status/2114780227465338985"
+        }
+      ],
+      "publishedAt": "2026-10-26T18:04:31Z",
+      "metrics": {
+        "likes": 4063,
+        "reposts": 177,
+        "replies": 220,
+        "views": 333477,
+        "capturedAt": "2026-10-26T23:35:00Z"
+      },
+      "care": 3,
+      "proof": 5,
+      "imageHint": "https://x.com/claudeai/status/2114780227465338985",
+      "firstSeen": "2026-10-26"
+    },
+    {
+      "id": "deepseek-v4-1-flash-in-cursor",
+      "lens": "practical",
+      "topic": "deepseek-v4-1-flash",
+      "summary": "Cursor added DeepSeek V4.1 Flash. Cursor says every effort level sits on its CursorBench cost frontier, at $0.60 to $0.98 per task, and that no model scores higher at those costs. It is enabled under Cursor Settings > Models.",
+      "facts": [
+        "CursorBench is Cursor's own benchmark; figures are Cursor's."
+      ],
+      "source": {
+        "name": "@cursor_ai on X",
+        "url": "https://x.com/cursor_ai/status/2114839997568405608",
+        "type": "x",
+        "handle": "cursor_ai"
+      },
+      "publishedAt": "2026-10-26T22:02:01Z",
+      "metrics": {
+        "likes": 1076,
+        "reposts": 52,
+        "replies": 106,
+        "views": 48522,
+        "capturedAt": "2026-10-26T23:35:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/cursor_ai/status/2114839997568405608",
+      "firstSeen": "2026-10-26"
+    },
+    {
+      "id": "verge-anthropic-s1-natural-gas",
+      "lens": "broad",
+      "topic": "anthropic-s1",
+      "summary": "The Verge reports that Anthropic's S-1 says competition for power and data center sites is intense, that some planned data centers rely on on-site natural gas turbines, and that rising gas prices and higher temperatures are risks to its costs.",
+      "facts": [
+        "S-1 quote cited: \"Competition for access to electrical supply and data center locations with adequate power availability is intense.\"",
+        "S-1 quote cited: \"This competition could drive up the price of natural gas.\"",
+        "The Verge notes Anthropic announced a $50 billion plan last year to expand data centers in Texas and New York."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+        "type": "rss"
+      },
+      "related": [
+        {
+          "name": "Anthropic S-1 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+        }
+      ],
+      "publishedAt": "2026-10-26T21:45:00Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-26"
+    },
+    {
+      "id": "nvidia-gtc-berlin-dsx-pod",
+      "lens": "broad",
+      "topic": "nvidia-gtc-berlin",
+      "summary": "Jensen Huang closed GTC Berlin saying Europe is building its AI ecosystem and economy, from AI factories to agents to robots, and pointed to DSX POD: Vera Rubin modular factories built, cabled and tested in the factory, then delivered ready to produce.",
+      "source": {
+        "name": "@JensenHuang on X",
+        "url": "https://x.com/JensenHuang/status/2114773600574279837",
+        "type": "x",
+        "handle": "JensenHuang"
+      },
+      "publishedAt": "2026-10-26T17:38:11Z",
+      "metrics": {
+        "likes": 1798,
+        "reposts": 153,
+        "replies": 129,
+        "views": 180323,
+        "capturedAt": "2026-10-26T23:35:00Z"
+      },
+      "care": 2,
+      "proof": 3,
+      "firstSeen": "2026-10-26"
+    }
+  ]
+}
