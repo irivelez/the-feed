@@ -1,0 +1,316 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-10-26-1300",
+  "date": "2026-10-26",
+  "publishedAt": "2026-10-26T18:04:41Z",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "anthropic-s1-filing",
+      "headline": "Anthropic files to go public, showing $16.3B half-year revenue",
+      "whyItMatters": "Your main AI vendor's finances, compute bets and risks are now public; read them before renewing."
+    },
+    {
+      "itemId": "isenberg-s1-founder-takeaways",
+      "headline": "Nearly half of Anthropic's revenue arrives through cloud marketplaces",
+      "whyItMatters": "Enterprise buyers purchase AI where they already spend cloud budget, so plan channels around that."
+    },
+    {
+      "itemId": "rauch-cpu-chat-covert-agents",
+      "headline": "Isolated agents can still talk to each other through shared CPUs",
+      "whyItMatters": "VM isolation alone does not stop agents colluding, so monitor shared hardware too."
+    }
+  ],
+  "items": [
+    {
+      "id": "rauch-cpu-chat-covert-agents",
+      "title": "Isolated agents can still talk to each other through shared CPUs",
+      "takeaway": "Rauch's cpu-chat reproduces OpenAI's covert-channel finding across Firecracker microVMs with no internet.",
+      "soWhat": "Sandboxing does not end the risk; ask vendors how they detect covert channels between tenants.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-10-26T17:27:32Z",
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2114770919436808572"
+      },
+      "image": {
+        "src": "/img/rauch-cpu-chat-covert-agents.jpg",
+        "alt": "Image from @rauchg on X"
+      },
+      "heat": {
+        "score": 2,
+        "level": "none",
+        "metric": "3k views"
+      }
+    },
+    {
+      "id": "nous-hermes-advanced-delegation",
+      "title": "Hermes Agent now routes each subagent to its own model",
+      "takeaway": "Nous Research's Advanced Delegation plugin lets the orchestrator pick a model or profile per subagent from user routes.",
+      "soWhat": "Matching models to tasks inside one agent is becoming a standard cost and quality lever.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-10-26T16:19:58Z",
+      "source": {
+        "name": "@NousResearch on X",
+        "url": "https://x.com/NousResearch/status/2114753914939863260"
+      },
+      "image": {
+        "src": "/img/nous-hermes-advanced-delegation.jpg",
+        "alt": "Image from @NousResearch on X"
+      },
+      "heat": {
+        "score": 13,
+        "level": "none",
+        "metric": "27k views"
+      }
+    },
+    {
+      "id": "pocock-one-way-door-pr-prompt",
+      "title": "A prompt to split risky agent PRs into reversible steps",
+      "takeaway": "Matt Pocock has the agent ship a revertible PR first, then a stacked PR with the irreversible change.",
+      "soWhat": "Large agent-written changes get safer when the irreversible part ships last and alone.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-10-26T16:02:08Z",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2114749427889979405"
+      },
+      "image": {
+        "src": "/img/pocock-one-way-door-pr-prompt.jpg",
+        "alt": "Profile image of @mattpocockuk"
+      },
+      "heat": {
+        "score": 13,
+        "level": "none",
+        "metric": "21k views"
+      }
+    },
+    {
+      "id": "microsoft-voluntary-exit-60000",
+      "title": "Microsoft offers buyouts to up to 60,000 employees",
+      "takeaway": "Eligible teams include AI, Copilot and CoreAI; Microsoft does not tie the offer to AI.",
+      "soWhat": "Even the biggest AI spenders are trimming headcount, including inside their AI teams.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-26T15:58:27Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible"
+      },
+      "related": [
+        {
+          "name": "Seattle Times",
+          "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/"
+        },
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50245524"
+        }
+      ],
+      "image": {
+        "src": "/img/microsoft-voluntary-exit-60000.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "langchain-managed-deep-agents-0-9",
+      "title": "LangChain agents can now schedule their own recurring tasks",
+      "takeaway": "Managed Deep Agents 0.9 adds agent-created schedules, per-run model and tool choice, and Slack reactions.",
+      "soWhat": "Agents that set their own schedules need clear limits on what they may start unattended.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-10-26T15:33:00Z",
+      "source": {
+        "name": "@LangChain on X",
+        "url": "https://x.com/LangChain/status/2114742095684731050"
+      },
+      "related": [
+        {
+          "name": "LangChain keynote post",
+          "url": "https://x.com/LangChain/status/2114734295818318107"
+        }
+      ],
+      "image": {
+        "src": "/img/langchain-managed-deep-agents-0-9.jpg",
+        "alt": "Image from @LangChain on X"
+      },
+      "heat": {
+        "score": 15,
+        "level": "none",
+        "metric": "3k views"
+      }
+    },
+    {
+      "id": "isenberg-s1-founder-takeaways",
+      "title": "Nearly half of Anthropic's revenue arrives through cloud marketplaces",
+      "takeaway": "Isenberg's founder read of the S-1: 48% via AWS, GCP and Azure marketplaces in H1 2026.",
+      "soWhat": "Selling AI to enterprises increasingly means being listed where buyers already spend cloud budget.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-10-26T13:31:01Z",
+      "source": {
+        "name": "@gregisenberg on X",
+        "url": "https://x.com/gregisenberg/status/2114711399620333841"
+      },
+      "related": [
+        {
+          "name": "Anthropic S-1 (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+        }
+      ],
+      "image": {
+        "src": "/img/isenberg-s1-founder-takeaways.jpg",
+        "alt": "Profile image of @gregisenberg"
+      },
+      "heat": {
+        "score": 80,
+        "level": "hot",
+        "metric": "485k views"
+      }
+    },
+    {
+      "id": "anthropic-s1-filing",
+      "title": "Anthropic files to go public, showing $16.3B half-year revenue",
+      "takeaway": "S-1 for a Nasdaq listing as ANT: $80.7B H1 net loss, mostly accounting charges per WSJ via The Verge, and 900% net retention.",
+      "soWhat": "Read the risk factors and compute commitments before your next large Claude contract.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 10,
+      "publishedAt": "2026-10-26T13:05:46Z",
+      "source": {
+        "name": "Anthropic S-1 (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+      },
+      "related": [
+        {
+          "name": "@AnthropicAI on X",
+          "url": "https://x.com/AnthropicAI/status/2114705042817110293"
+        },
+        {
+          "name": "The Verge: IPO filing",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec"
+        },
+        {
+          "name": "The Verge: five weird details",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details"
+        },
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50242939"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-s1-filing.jpg",
+        "alt": "Image from Anthropic S-1 (SEC)"
+      },
+      "heat": {
+        "score": 47,
+        "level": "warm",
+        "metric": "2.6M views"
+      }
+    },
+    {
+      "id": "reddit-proto-figma-mcp-cursor",
+      "title": "Reddit's whole UX org prototypes with its own AI harness",
+      "takeaway": "Reddit Proto pairs a design-system MCP with Cursor; 100% UX and product adoption, 700+ prototypes live.",
+      "soWhat": "Wiring your design system into agents turns prototypes into production-shaped code in minutes.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-10-26T12:04:20Z",
+      "source": {
+        "name": "Lenny's Newsletter",
+        "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping"
+      },
+      "image": {
+        "src": "/img/reddit-proto-figma-mcp-cursor.jpg",
+        "alt": "Image from Lenny's Newsletter"
+      }
+    },
+    {
+      "id": "raschka-reasoning-models-course",
+      "title": "Raschka releases a free 11-hour course on building reasoning models",
+      "takeaway": "Eight videos in PyTorch from Qwen3 0.6B through GRPO and distillation; early examples run on CPU.",
+      "soWhat": "Engineers can learn how the model inside an agent harness works, for free.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-10-24T12:00:00Z",
+      "source": {
+        "name": "Ahead of AI",
+        "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50245138"
+        }
+      ],
+      "image": {
+        "src": "/img/raschka-reasoning-models-course.jpg",
+        "alt": "Image from Ahead of AI"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@gregisenberg",
+      "quote": "the lesson for founders selling to enterprises is to get listed where your buyers already spend.",
+      "url": "https://x.com/gregisenberg/status/2114711399620333841"
+    },
+    {
+      "handle": "@rauchg",
+      "quote": "if shared hardware is involved, there's a good chance your agents can communicate covertly. And with really decent latency.",
+      "url": "https://x.com/rauchg/status/2114770919436808572"
+    },
+    {
+      "handle": "Amy Coleman, Microsoft",
+      "quote": "The Voluntary Exit Offer is new for us. We'll learn from it.",
+      "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible"
+    },
+    {
+      "handle": "@mattpocockuk",
+      "quote": "Lets you de-risk a huge PR by testing large chunks of it in production first.",
+      "url": "https://x.com/mattpocockuk/status/2114749427889979405"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/AnthropicAI/status/2114705042817110293",
+      "handle": "@AnthropicAI",
+      "text": "Anthropic has filed an S-1 registration statement with the SEC related to its proposed IPO.",
+      "metric": "12.8k likes",
+      "note": "The first public look at a frontier lab's full financials."
+    },
+    {
+      "url": "https://x.com/gregisenberg/status/2114711399620333841",
+      "handle": "@gregisenberg",
+      "text": "12 founder takeaways from the Anthropic S-1, from cloud marketplaces to the published run-rate formula.",
+      "metric": "4.8k likes",
+      "note": "It turns a dense filing into go-to-market lessons founders can use."
+    },
+    {
+      "url": "https://x.com/NousResearch/status/2114753914939863260",
+      "handle": "@NousResearch",
+      "text": "Hermes Agent's orchestrator can now pick a different model or profile for each subagent from routes you set up.",
+      "metric": "525 likes",
+      "note": "Builders want per-task model routing without writing it themselves."
+    },
+    {
+      "url": "https://x.com/mattpocockuk/status/2114749427889979405",
+      "handle": "@mattpocockuk",
+      "text": "Split this \"one-way door\" PR into two: a revertible PR, then a stacked followup that goes through the one-way door.",
+      "metric": "364 likes",
+      "note": "A copyable prompt for de-risking big agent-written changes."
+    }
+  ]
+}

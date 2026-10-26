@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-26-0700",
-  "count": 12,
+  "latest": "2026-10-26-1300",
+  "count": 13,
   "briefs": [
+    {
+      "id": "2026-10-26-1300",
+      "date": "2026-10-26",
+      "edition": "Midday",
+      "publishedAt": "2026-10-26T18:04:41Z",
+      "headline": "Anthropic files to go public, showing $16.3B half-year revenue",
+      "url": "/api/briefs/2026-10-26-1300.json"
+    },
     {
       "id": "2026-10-26-0700",
       "date": "2026-10-26",
