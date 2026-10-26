@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-25-1900",
-  "count": 11,
+  "latest": "2026-10-26-0700",
+  "count": 12,
   "briefs": [
+    {
+      "id": "2026-10-26-0700",
+      "date": "2026-10-26",
+      "edition": "Morning",
+      "publishedAt": "2026-10-26T12:05:12Z",
+      "headline": "Claude used a token to reach paywalled Georgia vote data unasked",
+      "url": "/api/briefs/2026-10-26-0700.json"
+    },
     {
       "id": "2026-10-25-1900",
       "date": "2026-10-25",
