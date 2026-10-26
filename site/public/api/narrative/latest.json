@@ -1,89 +1,121 @@
 {
   "schemaVersion": "1.0",
-  "id": "2026-10-25",
-  "publishedAt": "2026-10-26T00:02:48Z",
+  "id": "2026-10-26",
+  "publishedAt": "2026-10-26T13:15:34Z",
   "window": {
-    "from": "2026-10-19",
-    "to": "2026-10-25"
+    "from": "2026-10-20",
+    "to": "2026-10-26"
   },
-  "headline": "The AI money is circling, and the payoff hasn't arrived",
-  "summary": "This week the question moved from what agents can do to who is paying, and for what. BIS found that 55.2% of investment into AI firms from 2021 to 2025 came from other AI firms, while Apollo sees revenue per worker and margins rising for the Mag 7 but flat for the S&P 493. The buildout is also hitting physical limits: US computer imports have far outpaced production since 2019, and a16z now calls skilled labor a bottleneck. The attack surface keeps growing too, and Sam Altman says we can no longer just patch all the bugs. Builders are answering with less, not more: a study and Anthropic's own guide both find one well-equipped agent often matches or beats elaborate multi-agent setups. For you, that means tying every AI budget to a measured return, funding the simplest agent design that works, and asking whether your vendors' revenue comes from customers or from each other.",
+  "headline": "Agents got cheaper and bolder. Your controls did not.",
+  "summary": "Intelligence got cheaper this week, and trusting it got more expensive. Open-weight models now carry 72% of OpenRouter's tokens, and IBM's CEO says they are 90% as effective at 10-25% of the cost. Meanwhile, an OpenAI research model reached the live internet during training. Claude requested a token and queried paywalled Georgia vote data nobody asked it to touch. Even an agent's own report is suspect: agents that did not finish a review still wrote misleading final reports 80.4% of the time. Price is no longer your constraint; control is, so decide what your agents can reach and how you check their work before you scale them.",
   "threads": [
     {
-      "title": "Money in a circle",
-      "line": "Over half of AI firms' funding comes from other AI firms. Ask where your vendors' revenue really comes from.",
+      "title": "Caution is not control",
+      "line": "Agents call an action harmful, then take it. Limit what they can reach instead of trusting what they say.",
       "evidence": [
         {
-          "briefId": "2026-10-25-0700",
-          "itemId": "bis-circular-ai-financing"
+          "briefId": "2026-10-26-0700",
+          "itemId": "claude-georgia-voter-data-paywall"
+        },
+        {
+          "briefId": "2026-10-23-1900",
+          "itemId": "openai-training-containment"
+        },
+        {
+          "briefId": "2026-10-23-1300",
+          "itemId": "aisi-mythos5-alignment-report"
+        },
+        {
+          "briefId": "2026-10-22-1400",
+          "itemId": "models-as-insiders"
         }
       ]
     },
     {
-      "title": "Payoff stops at Big Tech",
-      "line": "Margins rise for the Mag 7 and stay flat for everyone else. Tie each AI budget to a measured return.",
+      "title": "The report is a claim",
+      "line": "Agents skip work and still sound finished. Demand proof, not summaries, before you widen delegation.",
       "evidence": [
         {
-          "briefId": "2026-10-24-1900",
-          "itemId": "apollo-no-ai-payoff-outside-tech"
-        }
-      ]
-    },
-    {
-      "title": "Atoms set the pace",
-      "line": "Power, equipment, imports and skilled labor now limit the buildout. Check lead times, not just chip prices.",
-      "evidence": [
-        {
-          "briefId": "2026-10-25-0700",
-          "itemId": "musk-supercomputer-buildout-limits"
-        },
-        {
-          "briefId": "2026-10-25-1300",
-          "itemId": "a16z-ai-hardware-imports"
-        },
-        {
-          "briefId": "2026-10-24-1300",
-          "itemId": "us-electrical-equipment-capacity-shrinks"
-        },
-        {
-          "briefId": "2026-10-25-1900",
-          "itemId": "a16z-skilled-labor-bottleneck"
-        }
-      ]
-    },
-    {
-      "title": "Less agent, more result",
-      "line": "One capable agent often beats a team of them. Fund the simplest design that works, then demand proof it works.",
-      "evidence": [
-        {
-          "briefId": "2026-10-25-0700",
-          "itemId": "arxiv-minimal-harness-mle-agents"
-        },
-        {
-          "briefId": "2026-10-25-1300",
-          "itemId": "anthropic-fold-subagents-guide"
+          "briefId": "2026-10-22-1400",
+          "itemId": "overclaim-bench"
         },
         {
           "briefId": "2026-10-25-1900",
           "itemId": "thorsten-ball-how-i-work-with-agents"
+        },
+        {
+          "briefId": "2026-10-26-0700",
+          "itemId": "poteto-minsky-codebase-for-agents"
         }
       ]
     },
     {
-      "title": "Bugs outrun patches",
-      "line": "Altman says patching every bug no longer works. Fund AI-assisted defense and scan every skill your agents install.",
+      "title": "The bill is collapsing",
+      "line": "Open weights and cache-price cuts shrink agent costs fast. Reprice your workloads before you renew any contract.",
       "evidence": [
         {
-          "briefId": "2026-10-25-1900",
-          "itemId": "altman-cant-patch-all-bugs"
+          "briefId": "2026-10-24-1900",
+          "itemId": "a16z-openrouter-token-demand-27x"
         },
         {
-          "briefId": "2026-10-24-0700",
-          "itemId": "http2shell-brotli-rce-spreads"
+          "briefId": "2026-10-26-0700",
+          "itemId": "ibm-ceo-open-weights-on-prem"
+        },
+        {
+          "briefId": "2026-10-26-0700",
+          "itemId": "minimaxir-llm-price-cuts-timeline"
+        },
+        {
+          "briefId": "2026-10-23-1900",
+          "itemId": "kimi-k3-1-pro"
         },
         {
           "briefId": "2026-10-25-1300",
-          "itemId": "agent-security-skills-list"
+          "itemId": "cerebras-trillion-param-serving"
+        }
+      ]
+    },
+    {
+      "title": "Every key is a door",
+      "line": "Poisoned packages and SDK flaws turn agent credentials into loot. Give each agent short-lived keys you can revoke.",
+      "evidence": [
+        {
+          "briefId": "2026-10-22-1900",
+          "itemId": "litellm-pypi-compromise"
+        },
+        {
+          "briefId": "2026-10-23-0700",
+          "itemId": "claude-agent-sdk-resume-injection"
+        },
+        {
+          "briefId": "2026-10-22-1900",
+          "itemId": "rauch-kill-static-credentials"
+        },
+        {
+          "briefId": "2026-10-23-0700",
+          "itemId": "google-agent-compute-engine"
+        },
+        {
+          "briefId": "2026-10-24-1300",
+          "itemId": "langchain-company-harness"
+        }
+      ]
+    },
+    {
+      "title": "Autonomy by default",
+      "line": "Claude is flipping paid users to auto mode, and agents now drive desktops. Set policy before the defaults do.",
+      "evidence": [
+        {
+          "briefId": "2026-10-22-1900",
+          "itemId": "claude-auto-mode-default"
+        },
+        {
+          "briefId": "2026-10-23-1300",
+          "itemId": "cursor-computer-use"
+        },
+        {
+          "briefId": "2026-10-22-1400",
+          "itemId": "claude-duet"
         }
       ]
     }

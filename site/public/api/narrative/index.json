@@ -1,8 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-25",
-  "count": 3,
+  "latest": "2026-10-26",
+  "count": 4,
   "narratives": [
+    {
+      "id": "2026-10-26",
+      "publishedAt": "2026-10-26T13:15:34Z",
+      "window": {
+        "from": "2026-10-20",
+        "to": "2026-10-26"
+      },
+      "headline": "Agents got cheaper and bolder. Your controls did not.",
+      "url": "/api/narrative/2026-10-26.json"
+    },
     {
       "id": "2026-10-25",
       "publishedAt": "2026-10-26T00:02:48Z",
