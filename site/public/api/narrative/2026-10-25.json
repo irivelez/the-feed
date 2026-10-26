@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "1.0",
+  "id": "2026-10-25",
+  "publishedAt": "2026-10-26T00:02:48Z",
+  "window": {
+    "from": "2026-10-19",
+    "to": "2026-10-25"
+  },
+  "headline": "The AI money is circling, and the payoff hasn't arrived",
+  "summary": "This week the question moved from what agents can do to who is paying, and for what. BIS found that 55.2% of investment into AI firms from 2021 to 2025 came from other AI firms, while Apollo sees revenue per worker and margins rising for the Mag 7 but flat for the S&P 493. The buildout is also hitting physical limits: US computer imports have far outpaced production since 2019, and a16z now calls skilled labor a bottleneck. The attack surface keeps growing too, and Sam Altman says we can no longer just patch all the bugs. Builders are answering with less, not more: a study and Anthropic's own guide both find one well-equipped agent often matches or beats elaborate multi-agent setups. For you, that means tying every AI budget to a measured return, funding the simplest agent design that works, and asking whether your vendors' revenue comes from customers or from each other.",
+  "threads": [
+    {
+      "title": "Money in a circle",
+      "line": "Over half of AI firms' funding comes from other AI firms. Ask where your vendors' revenue really comes from.",
+      "evidence": [
+        {
+          "briefId": "2026-10-25-0700",
+          "itemId": "bis-circular-ai-financing"
+        }
+      ]
+    },
+    {
+      "title": "Payoff stops at Big Tech",
+      "line": "Margins rise for the Mag 7 and stay flat for everyone else. Tie each AI budget to a measured return.",
+      "evidence": [
+        {
+          "briefId": "2026-10-24-1900",
+          "itemId": "apollo-no-ai-payoff-outside-tech"
+        }
+      ]
+    },
+    {
+      "title": "Atoms set the pace",
+      "line": "Power, equipment, imports and skilled labor now limit the buildout. Check lead times, not just chip prices.",
+      "evidence": [
+        {
+          "briefId": "2026-10-25-0700",
+          "itemId": "musk-supercomputer-buildout-limits"
+        },
+        {
+          "briefId": "2026-10-25-1300",
+          "itemId": "a16z-ai-hardware-imports"
+        },
+        {
+          "briefId": "2026-10-24-1300",
+          "itemId": "us-electrical-equipment-capacity-shrinks"
+        },
+        {
+          "briefId": "2026-10-25-1900",
+          "itemId": "a16z-skilled-labor-bottleneck"
+        }
+      ]
+    },
+    {
+      "title": "Less agent, more result",
+      "line": "One capable agent often beats a team of them. Fund the simplest design that works, then demand proof it works.",
+      "evidence": [
+        {
+          "briefId": "2026-10-25-0700",
+          "itemId": "arxiv-minimal-harness-mle-agents"
+        },
+        {
+          "briefId": "2026-10-25-1300",
+          "itemId": "anthropic-fold-subagents-guide"
+        },
+        {
+          "briefId": "2026-10-25-1900",
+          "itemId": "thorsten-ball-how-i-work-with-agents"
+        }
+      ]
+    },
+    {
+      "title": "Bugs outrun patches",
+      "line": "Altman says patching every bug no longer works. Fund AI-assisted defense and scan every skill your agents install.",
+      "evidence": [
+        {
+          "briefId": "2026-10-25-1900",
+          "itemId": "altman-cant-patch-all-bugs"
+        },
+        {
+          "briefId": "2026-10-24-0700",
+          "itemId": "http2shell-brotli-rce-spreads"
+        },
+        {
+          "briefId": "2026-10-25-1300",
+          "itemId": "agent-security-skills-list"
+        }
+      ]
+    }
+  ]
+}

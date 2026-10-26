@@ -1,8 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-23",
-  "count": 2,
+  "latest": "2026-10-25",
+  "count": 3,
   "narratives": [
+    {
+      "id": "2026-10-25",
+      "publishedAt": "2026-10-26T00:02:48Z",
+      "window": {
+        "from": "2026-10-19",
+        "to": "2026-10-25"
+      },
+      "headline": "The AI money is circling, and the payoff hasn't arrived",
+      "url": "/api/narrative/2026-10-25.json"
+    },
     {
       "id": "2026-10-23",
       "publishedAt": "2026-10-24T00:05:28Z",
