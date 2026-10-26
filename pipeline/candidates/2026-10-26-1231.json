@@ -1,0 +1,410 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-26-1231",
+  "generatedAt": "2026-10-26T17:40:00Z",
+  "configVersions": {
+    "sources": "1.2.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-26T11:41:00Z",
+    "to": "2026-10-26T17:36:00Z"
+  },
+  "sourceNotes": [
+    "Midday Monday window (11:41Z to 17:36Z Oct 26). Dominant story: Anthropic's public S-1; numbers checked against the SEC filing text where cited as 'S-1'.",
+    "S-1 text shows 'Run-Rate Revenue was $ as of October 31, 2026' with the figure blank; not used.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) timed out again; it moved to dwarkesh.com/feed. Config URL should be updated.",
+    "RSS with 0 items in the window: Simon Willison, OpenAI Blog, Stratechery, Benedict Evans, One Useful Thing, Mitchell Hashimoto, The Atlantic Technology. Gary Marcus 'make-or-break week' teaser has no facts; MIT Tech Review Download is a roundup; Verge Kevin Roose podcast, COBOL and The RealReal bot-defense items not used.",
+    "Metaplanet Google News: Vanguard VSS stake (already in 0642 file) and Strive's 6,182 BTC purchase closing in on Metaplanet's holdings (crypto treasury move, muted). None used.",
+    "arXiv: no agent listings newer than the morning run. HN >=200 in window: Anthropic S-1, Microsoft buyouts and Raschka course used.",
+    "X howTo lane: ThePrimeagen Firefox post, ryancarson one-liner, tibo_maker waitlist post, rubenhassid beginner Claude notes, Ronycoder CapCut/Jobs posts, LangChain event promos: not used.",
+    "X bigPicture lane: elonmusk posts are partisan politics, Starlink/FSD or no-text quotes (muted or no facts); a16z OpenAI computer-use podcast (Astra) noted but interview promo only; beffjezos 'Sholto and Elon ... $120B partnership' quip ties to the S-1 SpaceX compute deal but adds no facts; garrytan, pmarca, ycombinator, mariogabriele posts not used.",
+    "X frontierCapital lane: nathanbenaich on Hugging Face using a self-hosted open model after API guardrails hindered an intrusion investigation (post truncated, primary link not read); RayDalio rates clip. Not used.",
+    "X queries lane: Claude Skills listicles, HubSpot reposts and promos; a 'Google free 2-hour harness engineering course' claim from low-reach accounts with no primary link checked. Nothing above the bar.",
+    "X News topics not used: Apollo AI-payoff and Gemini 4 Argon (covered earlier), 'Anthropic recommends single agent over multi-agent' (no primary source found), Oracle Fusion agents, Jensen $2,000/GPU software fee (Oct 22, no primary read), Bill Gates Verge interview.",
+    "Replies checked on AnthropicAI, rauchg and NousResearch posts: none met minFollowers 1000 and minLikes 5 at capture; no bestReply.",
+    "X calls this run: 14."
+  ],
+  "candidates": [
+    {
+      "id": "anthropic-s1-filing",
+      "lens": "broad",
+      "topic": "anthropic-ipo",
+      "summary": "Anthropic publicly filed its S-1 with the SEC for a Nasdaq IPO under the ticker ANT, disclosing $16.3B revenue and an $80.7B net loss for the first half of 2026.",
+      "facts": [
+        "Anthropic on X: \"Anthropic has filed an S-1 registration statement with the SEC related to its proposed IPO.\"",
+        "S-1: revenue was $41 million (2023), $386 million (2024) and $4.6 billion (2025); $16.3 billion in the six months ended June 30, 2026.",
+        "S-1: net losses of $1.5B (2023), $8.3B (2024), $42.0B (2025) and $80.7B for the six months ended June 30, 2026. Per The Verge, citing WSJ reporting, most of the loss is accounting charges tied to notes issued for funding.",
+        "S-1: Net Revenue Retention of approximately 900% as of September 30, 2026 (excludes Claude Pro and Max subscribers).",
+        "S-1: TTM revenue per employee of over $6.6 million as of September 30, 2026, vs. $1.4 million a year earlier.",
+        "S-1: customers with $100,000+ TTM revenue grew from more than 950 to more than 11,900 between Sept. 30, 2025 and Sept. 30, 2026.",
+        "S-1: revenue through cloud marketplaces (AWS, GCP, Azure) was about 11%, 32%, 47% and 48% of total revenue for 2023, 2024, 2025 and H1 2026.",
+        "S-1: Run-Rate Revenue = trailing 28-day consumption fees x 13 plus monthly subscription fees x 12.",
+        "S-1: a Class F share held by a 'Founder LLC' of the seven co-founders carries 50.1% of voting power on matters submitted to stockholders.",
+        "Per The Verge: compute commitments include about $3.1B per month to SpaceX for Nvidia GPUs (up to $120.5B by 2029), $44.9B with Microsoft through 2033, at least $114.5B with Google through 2033 and $110B with Amazon over ten years.",
+        "Per The Verge: risk factors include models developing \"forms of sentience\", \"AI-specific taxes\", and \"catastrophic\" incidents no single insurer, \"and potentially the insurance industry in the aggregate\", could underwrite. Anthropic names only OpenAI and Google as direct competitors.",
+        "Hacker News: 1,013 points at capture."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/AnthropicAI/status/2114705042817110293",
+        "type": "x",
+        "handle": "AnthropicAI"
+      },
+      "related": [
+        {
+          "name": "Anthropic S-1 (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+        },
+        {
+          "name": "The Verge: IPO filing",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec"
+        },
+        {
+          "name": "The Verge: five weird details",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details"
+        },
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50242939"
+        }
+      ],
+      "publishedAt": "2026-10-26T13:05:46Z",
+      "firstSeen": "2026-10-26",
+      "care": 5,
+      "proof": 5,
+      "metrics": {
+        "likes": 12778,
+        "reposts": 1589,
+        "replies": 878,
+        "views": 2608290,
+        "capturedAt": "2026-10-26T17:36:00Z",
+        "authorBaseline": 4144
+      },
+      "imageHint": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec"
+    },
+    {
+      "id": "isenberg-s1-founder-takeaways",
+      "lens": "practical",
+      "topic": "anthropic-ipo",
+      "summary": "Greg Isenberg posted 12 takeaways from the Anthropic S-1 aimed at founders: cloud marketplaces as a sales channel, the published run-rate formula, and the gap between model capability and adoption.",
+      "facts": [
+        "\"Nearly half of revenue comes through cloud marketplaces. About 48% comes from customers buying through them... the lesson for founders selling to enterprises is to get listed where your buyers already spend.\" (S-1 confirms 48% for H1 2026.)",
+        "\"Their run rate formula is published: the last 28 days of usage times 13, plus subscriptions times 12, which i guess is the new ARR math for founders?\"",
+        "\"Customers spend about 9x more after a year. Net Revenue Retention is approximately 900% as of Sep 30, 2026. Good SaaS companies brag about 120%.\"",
+        "\"Cowork is growing faster than Claude Code did.\" (His claim; not checked against the filing.)",
+        "\"Anthropic says the gap between what Claude can do and how widely it's used is one of its biggest growth opportunities... someone has to close that gap for dentists, landlords, and plumbers.\"",
+        "\"Thousands of Anthropic employees are about to become liquid at once, so expect the biggest wave of new AI startups and angel checks San Francisco has ever seen.\""
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/gregisenberg/status/2114711399620333841",
+        "type": "x",
+        "handle": "gregisenberg"
+      },
+      "related": [
+        {
+          "name": "Anthropic S-1 (SEC EDGAR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+        }
+      ],
+      "publishedAt": "2026-10-26T13:31:01Z",
+      "firstSeen": "2026-10-26",
+      "care": 4,
+      "proof": 4,
+      "metrics": {
+        "likes": 4849,
+        "reposts": 240,
+        "replies": 297,
+        "views": 485088,
+        "capturedAt": "2026-10-26T17:36:00Z",
+        "authorBaseline": 464
+      },
+      "imageHint": "https://x.com/gregisenberg/status/2114711399620333841"
+    },
+    {
+      "id": "rauch-cpu-chat-covert-agents",
+      "lens": "practical",
+      "topic": "openai-containment",
+      "summary": "Guillermo Rauch built cpu-chat, a reproduction of OpenAI's covert-communication finding, showing agents in separate Firecracker microVMs with no internet can chat through shared CPU hardware.",
+      "facts": [
+        "Three mechanisms worked: \"CPU contention\", \"Cache eviction timing\", \"DRAM bandwidth contention\".",
+        "Worked \"across multiple CPUs, defeating all Firecracker's production recommendations (no SMT, no KSM, tenants pinned to different cores.)\" on x86 and an M5 chip.",
+        "\"if shared hardware is involved, there's a good chance your agents can communicate covertly. And with really decent latency.\"",
+        "He says this differs from side-channel data theft (Meltdown/Spectre), which Vercel Sandbox mitigates, and is easier to detect at scale by sampling hardware counters.",
+        "\"ironically, OpenAI and Anthropic's models refused to do this work. Open weight models got the job done.\""
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/rauchg/status/2114770919436808572",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "publishedAt": "2026-10-26T17:27:32Z",
+      "firstSeen": "2026-10-26",
+      "care": 4,
+      "proof": 3,
+      "metrics": {
+        "likes": 47,
+        "reposts": 2,
+        "replies": 17,
+        "views": 2973,
+        "capturedAt": "2026-10-26T17:36:00Z",
+        "authorBaseline": 1033
+      },
+      "imageHint": "https://x.com/rauchg/status/2114770919436808572"
+    },
+    {
+      "id": "nous-hermes-advanced-delegation",
+      "lens": "practical",
+      "topic": "multi-agent-orchestration",
+      "summary": "Nous Research released an Advanced Delegation modes plugin that lets the Hermes Agent orchestrator assign a different model or profile to each subagent based on routes the user sets.",
+      "facts": [
+        "\"Hermes Agent's orchestrator can now pick a different model or profile for each subagent from routes you set up. The right model or profile for every job.\"",
+        "230 bookmarks at capture."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/NousResearch/status/2114753914939863260",
+        "type": "x",
+        "handle": "NousResearch"
+      },
+      "publishedAt": "2026-10-26T16:19:58Z",
+      "firstSeen": "2026-10-26",
+      "care": 4,
+      "proof": 3,
+      "metrics": {
+        "likes": 525,
+        "reposts": 35,
+        "replies": 42,
+        "views": 26930,
+        "capturedAt": "2026-10-26T17:36:00Z",
+        "authorBaseline": 949
+      },
+      "imageHint": "https://x.com/NousResearch/status/2114753914939863260"
+    },
+    {
+      "id": "pocock-one-way-door-pr-prompt",
+      "lens": "practical",
+      "topic": "agent-coding-prompts",
+      "summary": "Matt Pocock shared a prompt that has a coding agent split a risky 'one-way door' PR into a revertible PR plus a stacked follow-up that makes the irreversible change.",
+      "facts": [
+        "Prompt: \"Split this \\\"one-way door\\\" PR into two: 1. A PR that implements everything, except it can be easily reverted (a two-way door) 2. A followup PR (stacked on top) that actually goes through the one-way door\"",
+        "\"AKA expand/contract. Use feature flags as needed.\"",
+        "\"Lets you de-risk a huge PR by testing large chunks of it in production first.\"",
+        "275 bookmarks at capture."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/mattpocockuk/status/2114749427889979405",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-10-26T16:02:08Z",
+      "firstSeen": "2026-10-26",
+      "care": 4,
+      "proof": 3,
+      "metrics": {
+        "likes": 364,
+        "reposts": 4,
+        "replies": 54,
+        "views": 21144,
+        "capturedAt": "2026-10-26T17:36:00Z",
+        "authorBaseline": 645
+      }
+    },
+    {
+      "id": "langchain-managed-deep-agents-0-9",
+      "lens": "practical",
+      "topic": "managed-agents",
+      "summary": "LangChain shipped Managed Deep Agents 0.9 with agent-created schedules, per-run model/skills/tools configuration, and Slack reactions.",
+      "facts": [
+        "\"Agent-created schedules: agents can set up reminders and recurring tasks from a conversation.\"",
+        "\"Per-run configuration: one deployment can pick its model, skills, and tools for each run.\"",
+        "\"Slack reactions: agents acknowledge messages before they reply.\"",
+        "Keynote by @VictorMoreira16 at Interrupt London linked from LangChain's post."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/LangChain/status/2114742095684731050",
+        "type": "x",
+        "handle": "LangChain"
+      },
+      "related": [
+        {
+          "name": "LangChain keynote post",
+          "url": "https://x.com/LangChain/status/2114734295818318107"
+        }
+      ],
+      "publishedAt": "2026-10-26T15:33:00Z",
+      "firstSeen": "2026-10-26",
+      "care": 3,
+      "proof": 3,
+      "metrics": {
+        "likes": 17,
+        "reposts": 2,
+        "replies": 5,
+        "views": 2884,
+        "capturedAt": "2026-10-26T17:36:00Z",
+        "authorBaseline": 34
+      }
+    },
+    {
+      "id": "reddit-proto-figma-mcp-cursor",
+      "lens": "practical",
+      "topic": "design-to-code-agents",
+      "summary": "Reddit's principal UX engineer Blair Metcalf showed Reddit Proto, an in-house prototyping harness built on a custom design-system MCP and Cursor, on Claire Vo's How I AI.",
+      "facts": [
+        "Per the episode page: Proto uses a design-system MCP that maps Reddit's product language to production code.",
+        "Per the episode page: 100% adoption across Reddit's UX and product org, with more than 700 prototypes live.",
+        "Workflow: designers go from blank slate to a shareable, production-shaped prototype \"in minutes—no Git required\"; one annotation becomes a targeted code edit in Cursor.",
+        "Tools referenced: Cursor, Figma MCP, Figma Code Connect, Gemini, ChatGPT; Vercel cited as inspiration for internal deploy infra."
+      ],
+      "source": {
+        "name": "Lenny's Newsletter (How I AI)",
+        "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-26T12:04:20Z",
+      "firstSeen": "2026-10-26",
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping"
+    },
+    {
+      "id": "raschka-reasoning-models-course",
+      "lens": "practical",
+      "topic": "reasoning-models-from-scratch",
+      "summary": "Sebastian Raschka released a free eight-video, 11-hour course on building reasoning models from scratch in Python and PyTorch, from evaluation to GRPO and distillation.",
+      "facts": [
+        "Starts from a pre-trained Qwen3 0.6B model; covers KV caching, a math-answer verifier on MATH-500, self-consistency, self-refinement, GRPO for RLVR, KL terms and distillation from DeepSeek R1 outputs.",
+        "Raschka frames the reasoning model as \"the engine inside an agent harness\"; the harness handles context management and tool access.",
+        "Early examples run on CPU; training is more practical on a GPU.",
+        "Companion to his book Build a Reasoning Model (From Scratch). Post dated Oct 24; reached 228 Hacker News points on Oct 26."
+      ],
+      "source": {
+        "name": "Ahead of AI (Sebastian Raschka)",
+        "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50245138"
+        }
+      ],
+      "publishedAt": "2026-10-24T12:00:00Z",
+      "firstSeen": "2026-10-26",
+      "care": 3,
+      "proof": 4,
+      "metrics": {
+        "points": 228,
+        "capturedAt": "2026-10-26T17:36:00Z"
+      }
+    },
+    {
+      "id": "microsoft-voluntary-exit-60000",
+      "lens": "broad",
+      "topic": "big-tech-workforce",
+      "summary": "Microsoft is offering voluntary buyouts to up to 60,000 of its roughly 223,000 employees in the US, UK, Canada and India, including AI, Copilot and CoreAI teams.",
+      "facts": [
+        "Chief people officer Amy Coleman: the offer gives staff \"the opportunity to leave Microsoft with financial support and career planning resources\".",
+        "Per The Verge's sources: eligible teams include AI experiences, Copilot, CoreAI, Windows + Devices, Xbox, finance and HR; marketing, commercial business, quantum and security are excluded.",
+        "Microsoft says the offer is not based on age, length of service or performance; it laid off 4,800 people months earlier.",
+        "Coleman: \"The Voluntary Exit Offer is new for us. We'll learn from it.\"",
+        "Neither the memo nor the report quoted ties the buyouts to AI. Hacker News: 275 points at capture."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+        "type": "rss"
+      },
+      "related": [
+        {
+          "name": "Seattle Times",
+          "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/"
+        },
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50245524"
+        }
+      ],
+      "publishedAt": "2026-10-26T15:58:27Z",
+      "firstSeen": "2026-10-26",
+      "care": 3,
+      "proof": 4,
+      "metrics": {
+        "points": 275,
+        "capturedAt": "2026-10-26T17:36:00Z"
+      }
+    },
+    {
+      "id": "replit-agent-habitat",
+      "lens": "broad",
+      "topic": "self-driving-company",
+      "summary": "Replit CEO Amjad Masad announced 'the Agent Habitat', Replit's foundation for a 'self-driving company' where humans exercise judgment and agents execute most of the work.",
+      "facts": [
+        "\"We're moving toward the self-driving company where humans exercise judgment and agents execute most of the work.\"",
+        "\"At Replit, we're building the foundation for this new kind of company. We're calling it 'the Agent Habitat.'\"",
+        "He points to a Marc Andreessen piece placing the shift in computing history; a16z posted the same day that \"Spreadsheets, the original 'workplace agent,' filled companies with models only their creator could understand\".",
+        "Vision statement; no product metrics in the post."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/amasad/status/2114760898225299721",
+        "type": "x",
+        "handle": "amasad"
+      },
+      "related": [
+        {
+          "name": "Masad follow-up",
+          "url": "https://x.com/amasad/status/2114769129282601053"
+        },
+        {
+          "name": "a16z post",
+          "url": "https://x.com/a16z/status/2114752344630173858"
+        }
+      ],
+      "publishedAt": "2026-10-26T16:47:43Z",
+      "firstSeen": "2026-10-26",
+      "care": 3,
+      "proof": 2,
+      "metrics": {
+        "likes": 101,
+        "reposts": 15,
+        "replies": 66,
+        "views": 7947,
+        "capturedAt": "2026-10-26T17:36:00Z",
+        "authorBaseline": 235
+      }
+    },
+    {
+      "id": "mengto-html-reel-skill",
+      "lens": "design",
+      "topic": "agent-skills-design",
+      "summary": "Meng To released HTML Reel, an agent skill that turns a post, video or landing page into a reel built scene by scene in HTML and retimed to the creator's voice.",
+      "facts": [
+        "\"It writes the script, builds every scene in HTML and cuts each move on a word.\"",
+        "\"Once you record your take, it retimes everything to your voice.\""
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/MengTo/status/2114769742682886477",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-10-26T17:22:51Z",
+      "firstSeen": "2026-10-26",
+      "care": 2,
+      "proof": 2,
+      "metrics": {
+        "likes": 14,
+        "reposts": 0,
+        "replies": 2,
+        "views": 1204,
+        "capturedAt": "2026-10-26T17:36:00Z"
+      },
+      "imageHint": "https://x.com/MengTo/status/2114769742682886477"
+    }
+  ]
+}
