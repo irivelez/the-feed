@@ -1,44 +1,42 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-24T18:04:02Z",
-  "runId": "2026-10-24-1300",
+  "updatedAt": "2026-10-26T12:05:39Z",
+  "runId": "2026-10-26-0700",
   "howtos": [
     {
-      "id": "company-agent-harness-five-components",
-      "dedupeKey": "company-agent-harness-five-components",
-      "title": "Set up internal agents on five shared building blocks",
-      "what": "The five parts LangChain's GTM, coding and content agents converged on, from Harrison Chase.",
+      "id": "make-codebase-agent-ready-types-tests",
+      "dedupeKey": "codebase-for-agents-types-tests-verification",
+      "title": "Make a codebase agent-ready with types and tests",
+      "what": "Yaron Minsky's talk via @poteto: give agents feedback through strict types, richer tests and verification.",
       "kind": "steps",
       "copy": [
-        "Put agents in Slack, and let them break out of a human thread into their own; use a custom UI for large review backlogs.",
-        "Set identity per tool: some actions on behalf of the user (PRs under the requester's handle, email only in DMs), others with fixed credentials (code review as the agent's own GitHub app).",
-        "Restrict fixed-credential actions, such as posting to the company account, to a whitelisted set of users.",
-        "Give memory two tiers, global and per-user, and let the agent decide which tier a fact goes to.",
-        "Run the agent outside the sandbox and connect to it to execute code, using a secret proxy to reach authenticated services.",
-        "Let runs be scheduled or event-triggered, not only invoked by a person."
+        "Lean on types as feedback: agents thrive on feedback, and types are one of the best kinds.",
+        "Make illegal states unrepresentable with types so global rules are enforced across the codebase.",
+        "Add property-based tests, fuzzing, and even full-system deterministic simulation testing.",
+        "Use expect tests: print behavior out and capture it in the test, which makes behavior legible and reduces review surface.",
+        "Revisit formal methods: they used to be very expensive, but agents change the ROI."
       ],
-      "whenToUse": "When you are rolling out several internal agents and need a common design for identity, memory and execution.",
+      "whenToUse": "When agents write much of your code and you want them to catch their own mistakes before review.",
       "source": {
-        "name": "@hwchase17 on X",
-        "url": "https://x.com/hwchase17/status/2114041443836903662"
+        "name": "@poteto on X",
+        "url": "https://x.com/poteto/status/2114626630429913383"
       },
       "author": {
-        "name": "Harrison Chase",
-        "handle": "hwchase17"
+        "name": "poteto",
+        "handle": "poteto"
       },
       "tags": [
-        "agents",
-        "identity",
-        "memory",
-        "steps"
+        "coding-agents",
+        "testing",
+        "types"
       ],
-      "quality": 4,
+      "quality": 3,
       "verbatim": false,
       "briefItem": {
-        "briefId": "2026-10-24-1300",
-        "itemId": "langchain-company-harness"
+        "briefId": "2026-10-26-0700",
+        "itemId": "poteto-minsky-codebase-for-agents"
       },
-      "addedAt": "2026-10-24T18:04:02Z"
+      "addedAt": "2026-10-26T12:05:39Z"
     }
   ]
 }

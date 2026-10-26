@@ -1,7 +1,42 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-24T18:04:02Z",
+  "updatedAt": "2026-10-26T12:05:39Z",
   "howtos": [
+    {
+      "id": "make-codebase-agent-ready-types-tests",
+      "dedupeKey": "codebase-for-agents-types-tests-verification",
+      "title": "Make a codebase agent-ready with types and tests",
+      "what": "Yaron Minsky's talk via @poteto: give agents feedback through strict types, richer tests and verification.",
+      "kind": "steps",
+      "copy": [
+        "Lean on types as feedback: agents thrive on feedback, and types are one of the best kinds.",
+        "Make illegal states unrepresentable with types so global rules are enforced across the codebase.",
+        "Add property-based tests, fuzzing, and even full-system deterministic simulation testing.",
+        "Use expect tests: print behavior out and capture it in the test, which makes behavior legible and reduces review surface.",
+        "Revisit formal methods: they used to be very expensive, but agents change the ROI."
+      ],
+      "whenToUse": "When agents write much of your code and you want them to catch their own mistakes before review.",
+      "source": {
+        "name": "@poteto on X",
+        "url": "https://x.com/poteto/status/2114626630429913383"
+      },
+      "author": {
+        "name": "poteto",
+        "handle": "poteto"
+      },
+      "tags": [
+        "coding-agents",
+        "testing",
+        "types"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-10-26-0700",
+        "itemId": "poteto-minsky-codebase-for-agents"
+      },
+      "addedAt": "2026-10-26T12:05:39Z"
+    },
     {
       "id": "company-agent-harness-five-components",
       "dedupeKey": "company-agent-harness-five-components",
