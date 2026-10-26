@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-10-25-1900",
+  "date": "2026-10-25",
+  "publishedAt": "2026-10-26T00:02:02Z",
+  "edition": "Evening",
+  "top3": [
+    {
+      "itemId": "altman-cant-patch-all-bugs",
+      "headline": "Altman says patching every bug is no longer a viable defense",
+      "whyItMatters": "Security plans built on patch cycles will lag, so plan for AI-assisted defense now."
+    },
+    {
+      "itemId": "thorsten-ball-how-i-work-with-agents",
+      "headline": "Amp's Thorsten Ball shares his rules for working with coding agents",
+      "whyItMatters": "Agent output improves when teams demand proof and let agents see production, not when they micromanage."
+    },
+    {
+      "itemId": "cnn-beats-frontier-llms-skin-cancer",
+      "headline": "An old specialist model beat frontier chatbots at spotting skin cancer",
+      "whyItMatters": "Frontier models are not automatically best for narrow tasks, so benchmark specialists before buying."
+    }
+  ],
+  "items": [
+    {
+      "id": "a16z-skilled-labor-bottleneck",
+      "title": "a16z: skilled labor is now a bottleneck for the AI buildout",
+      "takeaway": "Hours per worker outpace headcount in 7 of 10 sectors; job switchers get about 10% raises vs 5% for stayers.",
+      "soWhat": "Building data centers and factories will cost more, so budget for labor, not just chips.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-10-25T17:59:28Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2114416567639519557"
+      },
+      "image": {
+        "src": "/img/a16z-skilled-labor-bottleneck.jpg",
+        "alt": "Image from @a16z on X"
+      },
+      "heat": {
+        "score": 7,
+        "level": "none",
+        "metric": "23k views"
+      }
+    },
+    {
+      "id": "thorsten-ball-how-i-work-with-agents",
+      "title": "Amp's Thorsten Ball shares how he works with coding agents",
+      "takeaway": "Use frontier models, prompt the goal, let agents see logs and deploys, demand proof, review only high-risk code.",
+      "soWhat": "Teams get more from agents by giving them visibility and proof standards, not by micromanaging.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-10-25T15:58:12Z",
+      "source": {
+        "name": "@thorstenball on X",
+        "url": "https://x.com/thorstenball/status/2114386050638336082"
+      },
+      "related": [
+        {
+          "name": "X article: How I work with Agents",
+          "url": "https://x.com/i/article/2114385531811319808"
+        }
+      ],
+      "image": {
+        "src": "/img/thorsten-ball-how-i-work-with-agents.jpg",
+        "alt": "Profile image of @thorstenball"
+      },
+      "heat": {
+        "score": 80,
+        "level": "hot",
+        "metric": "174k views"
+      }
+    },
+    {
+      "id": "cnn-beats-frontier-llms-skin-cancer",
+      "title": "A 2015-era skin cancer model beat GPT-6 and Claude on biopsies",
+      "takeaway": "On 200 biopsied lesions the fine-tuned CNN was right first time 125 times vs 84 and 85; a small, single-run test.",
+      "soWhat": "For narrow, high-stakes tasks a cheap specialist model can beat a frontier chatbot, so test both.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-25T12:00:00Z",
+      "source": {
+        "name": "Lynch Lab",
+        "url": "https://lynchlab.net/llm-skin-cancer"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50233779"
+        }
+      ],
+      "image": {
+        "src": "/img/cnn-beats-frontier-llms-skin-cancer.jpg",
+        "alt": "Image from lynchlab.net"
+      }
+    },
+    {
+      "id": "evil-qwen-two-neurons",
+      "title": "A researcher says flipping two neurons makes an open Qwen model 'evil'",
+      "takeaway": "@_lyraaaa_ posted the neuron coordinates and dosing recipe for Qwen3.5-4B; it needs open weights and activation access.",
+      "soWhat": "Safety tuning on open-weight models can be undone cheaply, so govern who runs them internally.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-10-24T03:21:53Z",
+      "source": {
+        "name": "@_lyraaaa_ on X",
+        "url": "https://x.com/_lyraaaa_/status/2113833330429083662"
+      },
+      "related": [
+        {
+          "name": "X News story",
+          "url": "https://x.com/i/trending/2114463228033909030"
+        }
+      ],
+      "image": {
+        "src": "/img/evil-qwen-two-neurons.jpg",
+        "alt": "Profile image of @_lyraaaa_"
+      },
+      "heat": {
+        "score": 80,
+        "level": "hot",
+        "metric": "1.7M views"
+      }
+    },
+    {
+      "id": "altman-cant-patch-all-bugs",
+      "title": "Altman: we can no longer just patch all the bugs",
+      "takeaway": "At Stanford on Oct 21 he said defense must shift to an AI-based 'defense shield' as models find new kinds of flaws.",
+      "soWhat": "Patch cycles alone won't keep up, so fund AI-assisted defense and expect more critical flaws soon.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-10-23T18:40:00Z",
+      "source": {
+        "name": "Gizmodo",
+        "url": "https://gizmodo.com/sam-altman-i-no-longer-think-were-gonna-be-able-to-just-patch-all-the-bugs-2000829947"
+      },
+      "related": [
+        {
+          "name": "Interview transcript (CEOInterviews.AI)",
+          "url": "https://ceointerviews.ai/interview/3109501/"
+        },
+        {
+          "name": "OpenAI: Patch the Planet",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
+        }
+      ],
+      "image": {
+        "src": "/img/altman-cant-patch-all-bugs.jpg",
+        "alt": "Image from Gizmodo"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "Sam Altman",
+      "quote": "I no longer think we're going to be able to just patch all the bugs",
+      "url": "https://ceointerviews.ai/interview/3109501/"
+    },
+    {
+      "handle": "@thorstenball",
+      "quote": "If a model is wrong 10% of the time, you don't know which 10%, so you end up making multiple attempts.",
+      "url": "https://x.com/thorstenball/status/2114386050638336082"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/_lyraaaa_/status/2113833330429083662",
+      "handle": "@_lyraaaa_",
+      "text": "Steering two MLP neurons in Qwen3.5-4B (L14 N8949 +1, L13 N7956 -1) turns the model evil, with the dosing recipe.",
+      "metric": "13.5k likes",
+      "note": "It shows how little it takes to strip safety from an open-weight model."
+    },
+    {
+      "url": "https://x.com/thorstenball/status/2114386050638336082",
+      "handle": "@thorstenball",
+      "text": "How I work with Agents ... as of October 2026: the practices I keep sending friends in DMs.",
+      "metric": "2.3k likes",
+      "note": "Builders want concrete habits from someone who ships a coding agent daily."
+    },
+    {
+      "url": "https://x.com/emollick/status/2114337256865493250",
+      "handle": "@emollick",
+      "text": "At large organizations, AI is expanding senior managers' span of control by letting them monitor the whole firm directly.",
+      "metric": "780 likes",
+      "note": "It suggests AI may reshape management layers before it reshapes org charts."
+    },
+    {
+      "url": "https://x.com/a16z/status/2114416567639519557",
+      "handle": "@a16z",
+      "text": "Skilled labor is a bottleneck for the AI buildout: manufacturers work staff longer and pay up for new hires.",
+      "metric": "212 likes",
+      "note": "It ties AI spending to a hard limit in the labor market."
+    }
+  ]
+}

@@ -1,259 +1,201 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-10-25-1300",
+  "id": "2026-10-25-1900",
   "date": "2026-10-25",
-  "publishedAt": "2026-10-25T18:09:01Z",
-  "edition": "Midday",
+  "publishedAt": "2026-10-26T00:02:02Z",
+  "edition": "Evening",
   "top3": [
     {
-      "itemId": "anthropic-fold-subagents-guide",
-      "headline": "Anthropic says one agent with skills often beats subagent teams",
-      "whyItMatters": "Simpler agent designs can cut cost and latency, so question multi-agent builds before funding them."
+      "itemId": "altman-cant-patch-all-bugs",
+      "headline": "Altman says patching every bug is no longer a viable defense",
+      "whyItMatters": "Security plans built on patch cycles will lag, so plan for AI-assisted defense now."
     },
     {
-      "itemId": "openrouter-anthropic-token-volume",
-      "headline": "Anthropic token volume on OpenRouter jumped 3.6x since Opus 5.5",
-      "whyItMatters": "Model demand shifts within weeks, so avoid long lock-in to any single AI vendor."
+      "itemId": "thorsten-ball-how-i-work-with-agents",
+      "headline": "Amp's Thorsten Ball shares his rules for working with coding agents",
+      "whyItMatters": "Agent output improves when teams demand proof and let agents see production, not when they micromanage."
     },
     {
-      "itemId": "cerebras-trillion-param-serving",
-      "headline": "Cerebras runs a 3-trillion-parameter open model at high speed",
-      "whyItMatters": "Frontier-size open models are becoming practical to serve, adding leverage in vendor talks."
+      "itemId": "cnn-beats-frontier-llms-skin-cancer",
+      "headline": "An old specialist model beat frontier chatbots at spotting skin cancer",
+      "whyItMatters": "Frontier models are not automatically best for narrow tasks, so benchmark specialists before buying."
     }
   ],
   "items": [
     {
-      "id": "a16z-ai-hardware-imports",
-      "title": "US imports of AI hardware are outpacing US production",
-      "takeaway": "Since 2019, computer imports rose 366% vs production 46%; grid equipment output fell 7% while imports rose 69%.",
-      "soWhat": "The AI build-out leans on foreign hardware, so supply chains and tariffs shape your compute costs.",
+      "id": "a16z-skilled-labor-bottleneck",
+      "title": "a16z: skilled labor is now a bottleneck for the AI buildout",
+      "takeaway": "Hours per worker outpace headcount in 7 of 10 sectors; job switchers get about 10% raises vs 5% for stayers.",
+      "soWhat": "Building data centers and factories will cost more, so budget for labor, not just chips.",
       "lens": "broad",
       "momentum": "building",
       "importance": 4,
-      "publishedAt": "2026-10-25T16:02:00Z",
+      "publishedAt": "2026-10-25T17:59:28Z",
       "source": {
         "name": "@a16z on X",
-        "url": "https://x.com/a16z/status/2114387164226269519"
+        "url": "https://x.com/a16z/status/2114416567639519557"
       },
       "image": {
-        "src": "/img/a16z-ai-hardware-imports.jpg",
+        "src": "/img/a16z-skilled-labor-bottleneck.jpg",
         "alt": "Image from @a16z on X"
       },
       "heat": {
         "score": 7,
         "level": "none",
-        "metric": "10k views"
+        "metric": "23k views"
       }
     },
     {
-      "id": "openrouter-anthropic-token-volume",
-      "title": "Anthropic token volume on OpenRouter is up 3.6x since Opus 5.5",
-      "takeaway": "Carta's Peter Walker shared the 7-day average; it covers OpenRouter traffic across all Anthropic models only.",
-      "soWhat": "Developer demand is shifting fast toward Anthropic, so keep model contracts flexible and benchmark alternatives often.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-10-25T15:25:00Z",
-      "source": {
-        "name": "@PeterJ_Walker on X",
-        "url": "https://x.com/PeterJ_Walker/status/2114377706603429899"
-      },
-      "image": {
-        "src": "/img/openrouter-anthropic-token-volume.jpg",
-        "alt": "Image from @PeterJ_Walker on X"
-      },
-      "heat": {
-        "score": 63,
-        "level": "warm",
-        "metric": "29k views"
-      }
-    },
-    {
-      "id": "grok-calls-businesses",
-      "title": "Musk says Grok can now phone businesses for you",
-      "takeaway": "He says it makes the request, takes notes and sends a summary; no independent demo yet.",
-      "soWhat": "Consumer agents are starting to call companies, so customer service lines may soon talk to bots.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 4,
-      "publishedAt": "2026-10-25T14:35:00Z",
-      "source": {
-        "name": "@elonmusk on X",
-        "url": "https://x.com/elonmusk/status/2114365361068138990"
-      },
-      "image": {
-        "src": "/img/grok-calls-businesses.jpg",
-        "alt": "Image from @elonmusk on X"
-      },
-      "heat": {
-        "score": 33,
-        "level": "none",
-        "metric": "1.1M views"
-      }
-    },
-    {
-      "id": "agent-security-skills-list",
-      "title": "Open-source security skills for coding agents gain large followings",
-      "takeaway": "Cloudflare's audit skill has 46k GitHub stars; NVIDIA's SkillSpector scans agent skills for injection and exfiltration risks.",
-      "soWhat": "Free tools now exist to audit agent skills, so require a scan before teams install third-party ones.",
+      "id": "thorsten-ball-how-i-work-with-agents",
+      "title": "Amp's Thorsten Ball shares how he works with coding agents",
+      "takeaway": "Use frontier models, prompt the goal, let agents see logs and deploys, demand proof, review only high-risk code.",
+      "soWhat": "Teams get more from agents by giving them visibility and proof standards, not by micromanaging.",
       "lens": "practical",
       "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-10-25T14:17:00Z",
+      "importance": 7,
+      "publishedAt": "2026-10-25T15:58:12Z",
       "source": {
-        "name": "@CDGalpha on X",
-        "url": "https://x.com/CDGalpha/status/2114360682917601666"
+        "name": "@thorstenball on X",
+        "url": "https://x.com/thorstenball/status/2114386050638336082"
       },
       "related": [
         {
-          "name": "cloudflare/security-audit-skill",
-          "url": "https://github.com/cloudflare/security-audit-skill"
-        },
-        {
-          "name": "NVIDIA/SkillSpector",
-          "url": "https://github.com/NVIDIA/SkillSpector"
-        },
-        {
-          "name": "mukul975/Anthropic-Cybersecurity-Skills",
-          "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+          "name": "X article: How I work with Agents",
+          "url": "https://x.com/i/article/2114385531811319808"
         }
       ],
       "image": {
-        "src": "/img/agent-security-skills-list.jpg",
-        "alt": "Image from @CDGalpha on X"
+        "src": "/img/thorsten-ball-how-i-work-with-agents.jpg",
+        "alt": "Profile image of @thorstenball"
       },
       "heat": {
-        "score": 35,
-        "level": "none",
-        "metric": "1k views"
+        "score": 80,
+        "level": "hot",
+        "metric": "174k views"
       }
     },
     {
-      "id": "r-opensource-bans-ai",
-      "title": "r/opensource bans projects that use or are made by AI",
-      "takeaway": "New moderator rules say AI-made, AI-using or AI-targeted projects are not welcome.",
-      "soWhat": "Some developer communities are pushing back on AI, which can limit reach for AI-built open-source work.",
+      "id": "cnn-beats-frontier-llms-skin-cancer",
+      "title": "A 2015-era skin cancer model beat GPT-6 and Claude on biopsies",
+      "takeaway": "On 200 biopsied lesions the fine-tuned CNN was right first time 125 times vs 84 and 85; a small, single-run test.",
+      "soWhat": "For narrow, high-stakes tasks a cheap specialist model can beat a frontier chatbot, so test both.",
       "lens": "broad",
       "momentum": "new",
-      "importance": 3,
-      "publishedAt": "2026-10-25T13:25:32Z",
+      "importance": 6,
+      "publishedAt": "2026-10-25T12:00:00Z",
       "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+        "name": "Lynch Lab",
+        "url": "https://lynchlab.net/llm-skin-cancer"
       },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50233779"
+        }
+      ],
       "image": {
-        "src": "/img/r-opensource-bans-ai.jpg",
-        "alt": "Image from The Verge"
+        "src": "/img/cnn-beats-frontier-llms-skin-cancer.jpg",
+        "alt": "Image from lynchlab.net"
       }
     },
     {
-      "id": "anthropic-fold-subagents-guide",
-      "title": "Anthropic: one agent with skills often beats a team of subagents",
-      "takeaway": "Across enterprise deployments, a single loop often scored higher at lower cost; one customer ran about 2x faster.",
-      "soWhat": "Agent designs that mirror the org chart add cost, so challenge each subagent before your teams build one.",
-      "lens": "practical",
+      "id": "evil-qwen-two-neurons",
+      "title": "A researcher says flipping two neurons makes an open Qwen model 'evil'",
+      "takeaway": "@_lyraaaa_ posted the neuron coordinates and dosing recipe for Qwen3.5-4B; it needs open weights and activation access.",
+      "soWhat": "Safety tuning on open-weight models can be undone cheaply, so govern who runs them internally.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-10-24T03:21:53Z",
+      "source": {
+        "name": "@_lyraaaa_ on X",
+        "url": "https://x.com/_lyraaaa_/status/2113833330429083662"
+      },
+      "related": [
+        {
+          "name": "X News story",
+          "url": "https://x.com/i/trending/2114463228033909030"
+        }
+      ],
+      "image": {
+        "src": "/img/evil-qwen-two-neurons.jpg",
+        "alt": "Profile image of @_lyraaaa_"
+      },
+      "heat": {
+        "score": 80,
+        "level": "hot",
+        "metric": "1.7M views"
+      }
+    },
+    {
+      "id": "altman-cant-patch-all-bugs",
+      "title": "Altman: we can no longer just patch all the bugs",
+      "takeaway": "At Stanford on Oct 21 he said defense must shift to an AI-based 'defense shield' as models find new kinds of flaws.",
+      "soWhat": "Patch cycles alone won't keep up, so fund AI-assisted defense and expect more critical flaws soon.",
+      "lens": "broad",
       "momentum": "building",
       "importance": 8,
-      "publishedAt": "2026-10-22T12:00:00Z",
+      "publishedAt": "2026-10-23T18:40:00Z",
       "source": {
-        "name": "Claude by Anthropic",
-        "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop"
+        "name": "Gizmodo",
+        "url": "https://gizmodo.com/sam-altman-i-no-longer-think-were-gonna-be-able-to-just-patch-all-the-bugs-2000829947"
       },
       "related": [
         {
-          "name": "single-agent-loop-kit (GitHub)",
-          "url": "https://github.com/anthropics/single-agent-loop-kit"
-        }
-      ],
-      "image": {
-        "src": "/img/anthropic-fold-subagents-guide.jpg",
-        "alt": "Image from Claude by Anthropic"
-      }
-    },
-    {
-      "id": "cerebras-trillion-param-serving",
-      "title": "Cerebras serves a 3-trillion-parameter open model across 59 wafers",
-      "takeaway": "Using Kimi K3, it reports 1,000-2,000+ tokens per second by moving only activations between wafers.",
-      "soWhat": "Fast serving of frontier-size open models is arriving, which widens your options beyond closed labs.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-10-22T12:00:00Z",
-      "source": {
-        "name": "Cerebras blog",
-        "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
-      },
-      "related": [
+          "name": "Interview transcript (CEOInterviews.AI)",
+          "url": "https://ceointerviews.ai/interview/3109501/"
+        },
         {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50227356"
+          "name": "OpenAI: Patch the Planet",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
         }
       ],
       "image": {
-        "src": "/img/cerebras-trillion-param-serving.jpg",
-        "alt": "Image from Cerebras blog"
-      }
-    },
-    {
-      "id": "arxiv-ai-text-harder-to-read",
-      "title": "Study: AI-written text is harder for people to process",
-      "takeaway": "All nine models studied used more rare phrases and odd subject-verb pairings than human writers.",
-      "soWhat": "AI drafts may cost readers more effort, so edit for clarity before they reach customers or boards.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-10-21T03:54:08Z",
-      "source": {
-        "name": "arXiv",
-        "url": "https://arxiv.org/abs/2610.29162"
-      },
-      "related": [
-        {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50223647"
-        }
-      ],
-      "image": {
-        "src": "/img/arxiv-ai-text-harder-to-read.jpg",
-        "alt": "arXiv: Study: AI-written text is harder for people to process"
+        "src": "/img/altman-cant-patch-all-bugs.jpg",
+        "alt": "Image from Gizmodo"
       }
     }
   ],
   "voices": [
     {
-      "handle": "@PeterJ_Walker",
-      "quote": "New from OpenRouter: 7-day average token volume for Anthropic models is up 3.6x since the launch of Opus 5.5",
-      "url": "https://x.com/PeterJ_Walker/status/2114377706603429899"
+      "handle": "Sam Altman",
+      "quote": "I no longer think we're going to be able to just patch all the bugs",
+      "url": "https://ceointerviews.ai/interview/3109501/"
+    },
+    {
+      "handle": "@thorstenball",
+      "quote": "If a model is wrong 10% of the time, you don't know which 10%, so you end up making multiple attempts.",
+      "url": "https://x.com/thorstenball/status/2114386050638336082"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/elonmusk/status/2114365361068138990",
-      "handle": "@elonmusk",
-      "text": "Grok can now call someone or a business for you, make a request, take notes and send you a summary.",
-      "metric": "8k likes",
-      "note": "A consumer agent placing real phone calls is a visible step for agents acting offline."
+      "url": "https://x.com/_lyraaaa_/status/2113833330429083662",
+      "handle": "@_lyraaaa_",
+      "text": "Steering two MLP neurons in Qwen3.5-4B (L14 N8949 +1, L13 N7956 -1) turns the model evil, with the dosing recipe.",
+      "metric": "13.5k likes",
+      "note": "It shows how little it takes to strip safety from an open-weight model."
     },
     {
-      "url": "https://x.com/PeterJ_Walker/status/2114377706603429899",
-      "handle": "@PeterJ_Walker",
-      "text": "New from OpenRouter: 7-day average token volume for Anthropic models is up 3.6x since the launch of Opus 5.5",
-      "metric": "254 likes",
-      "note": "A hard number on how fast developers are moving to Anthropic models."
+      "url": "https://x.com/thorstenball/status/2114386050638336082",
+      "handle": "@thorstenball",
+      "text": "How I work with Agents ... as of October 2026: the practices I keep sending friends in DMs.",
+      "metric": "2.3k likes",
+      "note": "Builders want concrete habits from someone who ships a coding agent daily."
     },
     {
-      "url": "https://x.com/CDGalpha/status/2114360682917601666",
-      "handle": "@CDGalpha",
-      "text": "Ten open-source Claude skills for security auditing, led by Cloudflare's security-audit-skill and NVIDIA's SkillSpector.",
-      "metric": "90 likes",
-      "note": "Builders want ready-made ways to audit agents and the skills they install."
+      "url": "https://x.com/emollick/status/2114337256865493250",
+      "handle": "@emollick",
+      "text": "At large organizations, AI is expanding senior managers' span of control by letting them monitor the whole firm directly.",
+      "metric": "780 likes",
+      "note": "It suggests AI may reshape management layers before it reshapes org charts."
     },
     {
-      "url": "https://x.com/a16z/status/2114387164226269519",
+      "url": "https://x.com/a16z/status/2114416567639519557",
       "handle": "@a16z",
-      "text": "Since 2019, US imports of AI-related hardware have grown faster than US production in every category tracked.",
-      "metric": "49 likes",
-      "note": "It frames the AI build-out as a supply-chain and trade question."
+      "text": "Skilled labor is a bottleneck for the AI buildout: manufacturers work staff longer and pay up for new hires.",
+      "metric": "212 likes",
+      "note": "It ties AI spending to a hard limit in the labor market."
     }
   ]
 }

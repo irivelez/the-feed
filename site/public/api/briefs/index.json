@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-25-1300",
-  "count": 10,
+  "latest": "2026-10-25-1900",
+  "count": 11,
   "briefs": [
+    {
+      "id": "2026-10-25-1900",
+      "date": "2026-10-25",
+      "edition": "Evening",
+      "publishedAt": "2026-10-26T00:02:02Z",
+      "headline": "Altman says patching every bug is no longer a viable defense",
+      "url": "/api/briefs/2026-10-25-1900.json"
+    },
     {
       "id": "2026-10-25-1300",
       "date": "2026-10-25",
