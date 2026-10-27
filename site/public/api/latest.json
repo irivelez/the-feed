@@ -1,267 +1,259 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-10-26-1900",
-  "date": "2026-10-26",
-  "publishedAt": "2026-10-27T00:12:57Z",
-  "edition": "Evening",
+  "id": "2026-10-27-0700",
+  "date": "2026-10-27",
+  "publishedAt": "2026-10-27T12:02:43Z",
+  "edition": "Morning",
   "top3": [
     {
-      "itemId": "openai-gpt-6-1-terra",
-      "headline": "OpenAI cuts API prices in half with GPT-6.1 Terra",
-      "whyItMatters": "Agent tasks just got cheaper, so rerun your cost model before signing longer vendor commitments."
+      "itemId": "eth-refutation-independent-review",
+      "headline": "ETH's originators will openly test OpenAI's claimed math breakthrough",
+      "whyItMatters": "No NDAs, no pay, raw data released: this is how AI research claims should earn trust."
     },
     {
-      "itemId": "cursor-agent-sdk",
-      "headline": "Cursor releases the framework behind its own reviewer and security agents",
-      "whyItMatters": "A Cursor team built a PR reviewer in about a day; decide who owns custom agents."
+      "itemId": "verge-data-center-backlash-midterms",
+      "headline": "Data center backlash is now a campaign issue in six states",
+      "whyItMatters": "Local politics can now delay or reprice the compute your AI plans depend on."
     },
     {
-      "itemId": "openai-ai-proofs-eth-yang-mills",
-      "headline": "OpenAI claims AI-produced proofs on three major math and physics problems",
-      "whyItMatters": "Outside experts will verify them; if they hold, AI's research value moves from claim to proof."
+      "itemId": "arxiv-simple-harnesses-beat-rca-agents",
+      "headline": "Simple agent setups outdiagnose hand-built incident agents, study finds",
+      "whyItMatters": "Spend on good evidence and simple harnesses before building custom agent scaffolding."
     }
   ],
   "items": [
     {
-      "id": "deepseek-v4-1-flash-in-cursor",
-      "title": "Cursor adds DeepSeek V4.1 Flash at under $1 per task",
-      "takeaway": "Cursor says every effort level sits on its CursorBench cost frontier, at $0.60 to $0.98 per task.",
-      "soWhat": "Cursor says no model scores higher at these costs, though the benchmark is Cursor's own.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-10-26T22:02:01Z",
-      "source": {
-        "name": "@cursor_ai on X",
-        "url": "https://x.com/cursor_ai/status/2114839997568405608"
-      },
-      "image": {
-        "src": "/img/deepseek-v4-1-flash-in-cursor.jpg",
-        "alt": "Image from @cursor_ai on X"
-      },
-      "heat": {
-        "score": 18,
-        "level": "none",
-        "metric": "49k views"
-      }
-    },
-    {
-      "id": "verge-anthropic-s1-natural-gas",
-      "title": "Anthropic's S-1 flags power and natural gas as cost risks",
-      "takeaway": "The Verge reports some planned Anthropic data centers rely on on-site natural gas turbines.",
-      "soWhat": "Energy supply is now a named risk to AI vendor costs; factor it into long contracts.",
+      "id": "stratechery-anthropic-s1-cost-of-compute",
+      "title": "Stratechery: Anthropic is profitable, but competition may eat it",
+      "takeaway": "Ben Thompson says the core business is very profitable while investors face continuing dilution.",
+      "soWhat": "A profitable model vendor can still lose pricing power, so keep your contracts flexible.",
       "lens": "broad",
       "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-10-26T21:45:00Z",
+      "importance": 5,
+      "publishedAt": "2026-10-27T10:32:57Z",
       "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk"
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/"
       },
       "related": [
         {
-          "name": "Anthropic S-1 (SEC)",
-          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+          "name": "Stratechery on X",
+          "url": "https://x.com/stratechery/status/2115041096854364647"
         }
       ],
       "image": {
-        "src": "/img/verge-anthropic-s1-natural-gas.jpg",
+        "src": "/img/stratechery-anthropic-s1-cost-of-compute.jpg",
+        "alt": "Image from Stratechery"
+      }
+    },
+    {
+      "id": "pocock-domain-knowledge-steers-agents",
+      "title": "Matt Pocock: one domain term steered his coding agent",
+      "takeaway": "The word 'fricative' led his agent to phonetics and the consonants that break silence detection.",
+      "soWhat": "One anecdote, but it suggests domain experts get more out of agents than generalists.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-10-27T10:11:58Z",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2115023694942662985"
+      },
+      "related": [
+        {
+          "name": "Pocock: tasks agents are really good at",
+          "url": "https://x.com/mattpocockuk/status/2115035446627459461"
+        }
+      ],
+      "image": {
+        "src": "/img/pocock-domain-knowledge-steers-agents.jpg",
+        "alt": "Image from @mattpocockuk on X"
+      },
+      "heat": {
+        "score": 10,
+        "level": "none",
+        "metric": "19k views"
+      }
+    },
+    {
+      "id": "verge-data-center-backlash-midterms",
+      "title": "Data center backlash becomes a midterm issue in six states",
+      "takeaway": "64% of likely Pennsylvania voters say AI data centers would do more harm than good.",
+      "soWhat": "Local politics can now delay or reprice the AI buildout your vendors depend on.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 8,
+      "publishedAt": "2026-10-27T10:00:00Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections"
+      },
+      "image": {
+        "src": "/img/verge-data-center-backlash-midterms.jpg",
         "alt": "Image from The Verge"
       }
     },
     {
-      "id": "openai-ai-proofs-eth-yang-mills",
-      "title": "OpenAI says its models proved results on ETH and Yang-Mills",
-      "takeaway": "Claims include an ETH refutation and a Yang-Mills existence proof; outside expert groups will verify.",
-      "soWhat": "If experts confirm them, AI becomes a research partner; until then treat these as OpenAI's claims.",
+      "id": "mittr-solid-state-transformers",
+      "title": "Solid-state transformers could ease a five-year grid equipment wait",
+      "takeaway": "A 1 MW prototype hit about 98% efficiency; Heron Power starts production in 2027.",
+      "soWhat": "Grid hardware, not only chips, now sets how fast new AI capacity comes online.",
       "lens": "broad",
       "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-10-26T21:00:00Z",
+      "importance": 6,
+      "publishedAt": "2026-10-27T09:00:00Z",
       "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/"
       },
-      "related": [
-        {
-          "name": "Hacker News (208 points)",
-          "url": "https://news.ycombinator.com/item?id=50251344"
-        },
-        {
-          "name": "@EMostaque reaction on X",
-          "url": "https://x.com/EMostaque/status/2114848545597513745"
-        }
-      ],
       "image": {
-        "src": "/img/openai-ai-proofs-eth-yang-mills.jpg",
-        "alt": "Image from OpenAI"
+        "src": "/img/mittr-solid-state-transformers.jpg",
+        "alt": "Image from MIT Technology Review"
       }
     },
     {
-      "id": "cursor-agent-sdk",
-      "title": "Cursor opens the SDK it uses to build its own agents",
-      "takeaway": "Agents are code: Markdown prompts, TypeScript tools, built-in evals; deploy to Cursor or self-host.",
-      "soWhat": "Teams can now build review and security agents on the same framework a major vendor runs.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 9,
-      "publishedAt": "2026-10-26T18:58:07Z",
+      "id": "vitalik-airborne-disease-resistance",
+      "title": "Vitalik Buterin: AI raises the stakes for airborne disease defense",
+      "takeaway": "He lists detection, testing, filtration, UVC and better vaccines as proven tools left unused.",
+      "soWhat": "His view: resilience tools already exist, and AI makes leaving them unused more costly.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 3,
+      "publishedAt": "2026-10-27T02:30:36Z",
       "source": {
-        "name": "Cursor blog",
-        "url": "https://cursor.com/blog/agent-sdk"
+        "name": "@VitalikButerin on X",
+        "url": "https://x.com/VitalikButerin/status/2114907587057713455"
       },
-      "related": [
-        {
-          "name": "Agent SDK docs",
-          "url": "https://cursor.com/docs/agent-sdk"
-        },
-        {
-          "name": "@cursor_ai on X",
-          "url": "https://x.com/cursor_ai/status/2114793714531102901"
-        }
-      ],
       "image": {
-        "src": "/img/cursor-agent-sdk.jpg",
-        "alt": "Image from Cursor blog"
+        "src": "/img/vitalik-airborne-disease-resistance.jpg",
+        "alt": "Profile image of @VitalikButerin"
       },
       "heat": {
         "score": 23,
         "level": "none",
-        "metric": "165k views"
+        "metric": "201k views"
       }
     },
     {
-      "id": "openai-gpt-6-1-terra",
-      "title": "OpenAI's GPT-6.1 Terra halves API prices for agent work",
-      "takeaway": "$1 per million input tokens, $5 output; OpenAI says Sol and Astra stay better for the hardest coding.",
-      "soWhat": "Cheaper computer-use models make more agent workflows worth running; recheck which tasks now pay off.",
+      "id": "eth-refutation-independent-review",
+      "title": "ETH's originators to openly review OpenAI's claimed refutation",
+      "takeaway": "Three theorists, unpaid and under no NDA, got OpenAI to release its raw data and Lean code.",
+      "soWhat": "Open, unpaid outside review is the test AI research claims now have to pass.",
       "lens": "broad",
       "momentum": "building",
-      "importance": 10,
-      "publishedAt": "2026-10-26T18:06:27Z",
+      "importance": 9,
+      "publishedAt": "2026-10-26T21:35:29Z",
       "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        "name": "@rrwilliams on X",
+        "url": "https://x.com/rrwilliams/status/2114833319431209352"
       },
       "related": [
         {
-          "name": "@OpenAI on X",
-          "url": "https://x.com/OpenAI/status/2114780711664398349"
+          "name": "The Verge: OpenAI's three discoveries and external shepherds",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
         },
         {
-          "name": "@sama on X",
-          "url": "https://x.com/sama/status/2114818620782248024"
+          "name": "Message to the TCS Community on ETH (open letter)",
+          "url": "https://docs.google.com/document/d/1adB0IhJgLzsmbfCgoLrtoJTjnlPf74UnyjMo35P5JHo/edit?usp=sharing"
         },
         {
-          "name": "Hacker News (462 points)",
-          "url": "https://news.ycombinator.com/item?id=50248124"
+          "name": "ETH preprint (openai/math on GitHub)",
+          "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"
+        },
+        {
+          "name": "OpenAI: working with academic communities",
+          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
+        },
+        {
+          "name": "Hacker News: ETH preprint",
+          "url": "https://news.ycombinator.com/item?id=50251661"
         }
       ],
       "image": {
-        "src": "/img/openai-gpt-6-1-terra.jpg",
-        "alt": "Image from OpenAI"
+        "src": "/img/eth-refutation-independent-review.jpg",
+        "alt": "Image from @rrwilliams on X"
       },
       "heat": {
-        "score": 38,
-        "level": "none",
+        "score": 80,
+        "level": "hot",
         "metric": "2.1M views"
       }
     },
     {
-      "id": "claude-for-nonprofits-plugin",
-      "title": "Anthropic ships a Claude plugin built with about 30 nonprofits",
-      "takeaway": "Skills and connectors for fundraising, marketing and hiring, plus deeper discounts and a two-person Team minimum.",
-      "soWhat": "Most nonprofit users have under 10 seats, so Anthropic is courting small teams with discounts and kits.",
+      "id": "arxiv-claim-smoothing-research-agents",
+      "title": "Research agents state conclusions stronger than their sources support",
+      "takeaway": "Across 7 systems and 4 datasets, agents consistently overstated what cited evidence showed.",
+      "soWhat": "Check AI research reports against their cited sources before they drive decisions.",
       "lens": "practical",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 6,
-      "publishedAt": "2026-10-26T18:04:31Z",
+      "publishedAt": "2026-10-26T17:29:48Z",
       "source": {
-        "name": "Claude by Anthropic",
-        "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits"
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.35793"
       },
-      "related": [
-        {
-          "name": "@claudeai on X",
-          "url": "https://x.com/claudeai/status/2114780227465338985"
-        }
-      ],
       "image": {
-        "src": "/img/claude-for-nonprofits-plugin.jpg",
-        "alt": "Image from Claude by Anthropic"
-      },
-      "heat": {
-        "score": 27,
-        "level": "none",
-        "metric": "333k views"
+        "src": "/img/arxiv-claim-smoothing-research-agents.jpg",
+        "alt": "arXiv: Research agents state conclusions stronger than their sources support"
       }
     },
     {
-      "id": "nvidia-gtc-berlin-dsx-pod",
-      "title": "Nvidia pitches factory-built AI data centers to Europe",
-      "takeaway": "Huang pointed to DSX POD: Vera Rubin modules built, cabled and tested before delivery.",
-      "soWhat": "Prebuilt, pretested AI factories aim to cut the time from order to working compute.",
-      "lens": "broad",
+      "id": "arxiv-simple-harnesses-beat-rca-agents",
+      "title": "Simple agent harnesses beat custom root-cause agents on incidents",
+      "takeaway": "Simple harnesses scored 65-77% vs 16-53% for five published hand-built agents.",
+      "soWhat": "Before funding a bespoke agent, test a simple harness on your own incidents first.",
+      "lens": "practical",
       "momentum": "building",
-      "importance": 3,
-      "publishedAt": "2026-10-26T17:38:11Z",
+      "importance": 7,
+      "publishedAt": "2026-10-26T17:12:02Z",
       "source": {
-        "name": "@JensenHuang on X",
-        "url": "https://x.com/JensenHuang/status/2114773600574279837"
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.35767"
       },
       "image": {
-        "src": "/img/nvidia-gtc-berlin-dsx-pod.jpg",
-        "alt": "Image from @JensenHuang on X"
-      },
-      "heat": {
-        "score": 22,
-        "level": "none",
-        "metric": "180k views"
+        "src": "/img/arxiv-simple-harnesses-beat-rca-agents.jpg",
+        "alt": "arXiv: Simple agent harnesses beat custom root-cause agents on incidents"
       }
     }
   ],
   "voices": [
     {
-      "handle": "Anthropic S-1, via The Verge",
-      "quote": "Competition for access to electrical supply and data center locations with adequate power availability is intense.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk"
+      "handle": "@rrwilliams",
+      "quote": "We've signed no NDAs and will receive no compensation, so we are free to share our ongoing findings with the community.",
+      "url": "https://x.com/rrwilliams/status/2114833319431209352"
+    },
+    {
+      "handle": "Benjamin Boucher, Wood Mackenzie, via MIT Technology Review",
+      "quote": "Transformers have become one of the biggest bottlenecks for utilities, generation developers, and even data centers.",
+      "url": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/"
+    },
+    {
+      "handle": "Leaked NRSC memo, via The Verge",
+      "quote": "If he loses and data centers get the blame, politicians across the country will take notice.",
+      "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/OpenAI/status/2114780711664398349",
-      "handle": "@OpenAI",
-      "text": "GPT-6.1 Terra: a fast, lower-cost model for computer use, visual reasoning and writing, at 50% lower API prices.",
-      "metric": "19.3k likes",
-      "note": "A big price cut on a model built for agent work changes many cost plans."
+      "url": "https://x.com/rrwilliams/status/2114833319431209352",
+      "handle": "@rrwilliams",
+      "text": "An internal OpenAI model produced a claimed refutation of ETH; three theorists will organize an open, independent examination.",
+      "metric": "5.2k likes",
+      "note": "A decades-old assumption behind hundreds of papers may be wrong, and its originators will check it."
     },
     {
-      "url": "https://x.com/claudeai/status/2114780227465338985",
-      "handle": "@claudeai",
-      "text": "Claude for Nonprofits: a plugin of skills and connectors built with about 30 nonprofits.",
-      "metric": "4.1k likes",
-      "note": "Deep discounts and ready-made kits put Claude within reach of very small teams."
+      "url": "https://x.com/VitalikButerin/status/2114907587057713455",
+      "handle": "@VitalikButerin",
+      "text": "More airborne plagues are likely, enhanced by powerful AI; detection, filtration, UVC and better vaccines are unclaimed wins.",
+      "metric": "2k likes",
+      "note": "A widely followed builder links AI risk to practical, buildable public health defenses."
     },
     {
-      "url": "https://x.com/cursor_ai/status/2114793714531102901",
-      "handle": "@cursor_ai",
-      "text": "Cursor's Agent SDK: the framework behind Bugbot and Security Reviewer, now open for building your own agents.",
-      "metric": "2.3k likes",
-      "note": "Builders get the same agent toolkit a major coding vendor uses internally."
-    },
-    {
-      "url": "https://x.com/JensenHuang/status/2114773600574279837",
-      "handle": "@JensenHuang",
-      "text": "Europe is building its AI ecosystem, from AI factories to agents to robots; DSX POD ships factories ready to produce.",
-      "metric": "1.8k likes",
-      "note": "Europe's AI build-out is a recurring theme, and Nvidia wants to supply it."
-    },
-    {
-      "url": "https://x.com/cursor_ai/status/2114839997568405608",
-      "handle": "@cursor_ai",
-      "text": "DeepSeek V4.1 Flash is now in Cursor, on the CursorBench cost frontier at $0.60 to $0.98 per task.",
-      "metric": "1.1k likes",
-      "note": "Developers watch for cheap models that still code well."
+      "url": "https://x.com/mattpocockuk/status/2115023694942662985",
+      "handle": "@mattpocockuk",
+      "text": "The word 'fricative' is enough for my agent to start busting out full IPA. Turns out, knowing things is really valuable.",
+      "metric": "353 likes",
+      "note": "Developers debate whether expertise still matters when agents write the code."
     }
   ]
 }

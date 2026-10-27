@@ -1,0 +1,259 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-10-27-0700",
+  "date": "2026-10-27",
+  "publishedAt": "2026-10-27T12:02:43Z",
+  "edition": "Morning",
+  "top3": [
+    {
+      "itemId": "eth-refutation-independent-review",
+      "headline": "ETH's originators will openly test OpenAI's claimed math breakthrough",
+      "whyItMatters": "No NDAs, no pay, raw data released: this is how AI research claims should earn trust."
+    },
+    {
+      "itemId": "verge-data-center-backlash-midterms",
+      "headline": "Data center backlash is now a campaign issue in six states",
+      "whyItMatters": "Local politics can now delay or reprice the compute your AI plans depend on."
+    },
+    {
+      "itemId": "arxiv-simple-harnesses-beat-rca-agents",
+      "headline": "Simple agent setups outdiagnose hand-built incident agents, study finds",
+      "whyItMatters": "Spend on good evidence and simple harnesses before building custom agent scaffolding."
+    }
+  ],
+  "items": [
+    {
+      "id": "stratechery-anthropic-s1-cost-of-compute",
+      "title": "Stratechery: Anthropic is profitable, but competition may eat it",
+      "takeaway": "Ben Thompson says the core business is very profitable while investors face continuing dilution.",
+      "soWhat": "A profitable model vendor can still lose pricing power, so keep your contracts flexible.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-10-27T10:32:57Z",
+      "source": {
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/"
+      },
+      "related": [
+        {
+          "name": "Stratechery on X",
+          "url": "https://x.com/stratechery/status/2115041096854364647"
+        }
+      ],
+      "image": {
+        "src": "/img/stratechery-anthropic-s1-cost-of-compute.jpg",
+        "alt": "Image from Stratechery"
+      }
+    },
+    {
+      "id": "pocock-domain-knowledge-steers-agents",
+      "title": "Matt Pocock: one domain term steered his coding agent",
+      "takeaway": "The word 'fricative' led his agent to phonetics and the consonants that break silence detection.",
+      "soWhat": "One anecdote, but it suggests domain experts get more out of agents than generalists.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-10-27T10:11:58Z",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2115023694942662985"
+      },
+      "related": [
+        {
+          "name": "Pocock: tasks agents are really good at",
+          "url": "https://x.com/mattpocockuk/status/2115035446627459461"
+        }
+      ],
+      "image": {
+        "src": "/img/pocock-domain-knowledge-steers-agents.jpg",
+        "alt": "Image from @mattpocockuk on X"
+      },
+      "heat": {
+        "score": 10,
+        "level": "none",
+        "metric": "19k views"
+      }
+    },
+    {
+      "id": "verge-data-center-backlash-midterms",
+      "title": "Data center backlash becomes a midterm issue in six states",
+      "takeaway": "64% of likely Pennsylvania voters say AI data centers would do more harm than good.",
+      "soWhat": "Local politics can now delay or reprice the AI buildout your vendors depend on.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 8,
+      "publishedAt": "2026-10-27T10:00:00Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections"
+      },
+      "image": {
+        "src": "/img/verge-data-center-backlash-midterms.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "mittr-solid-state-transformers",
+      "title": "Solid-state transformers could ease a five-year grid equipment wait",
+      "takeaway": "A 1 MW prototype hit about 98% efficiency; Heron Power starts production in 2027.",
+      "soWhat": "Grid hardware, not only chips, now sets how fast new AI capacity comes online.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-10-27T09:00:00Z",
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/"
+      },
+      "image": {
+        "src": "/img/mittr-solid-state-transformers.jpg",
+        "alt": "Image from MIT Technology Review"
+      }
+    },
+    {
+      "id": "vitalik-airborne-disease-resistance",
+      "title": "Vitalik Buterin: AI raises the stakes for airborne disease defense",
+      "takeaway": "He lists detection, testing, filtration, UVC and better vaccines as proven tools left unused.",
+      "soWhat": "His view: resilience tools already exist, and AI makes leaving them unused more costly.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 3,
+      "publishedAt": "2026-10-27T02:30:36Z",
+      "source": {
+        "name": "@VitalikButerin on X",
+        "url": "https://x.com/VitalikButerin/status/2114907587057713455"
+      },
+      "image": {
+        "src": "/img/vitalik-airborne-disease-resistance.jpg",
+        "alt": "Profile image of @VitalikButerin"
+      },
+      "heat": {
+        "score": 23,
+        "level": "none",
+        "metric": "201k views"
+      }
+    },
+    {
+      "id": "eth-refutation-independent-review",
+      "title": "ETH's originators to openly review OpenAI's claimed refutation",
+      "takeaway": "Three theorists, unpaid and under no NDA, got OpenAI to release its raw data and Lean code.",
+      "soWhat": "Open, unpaid outside review is the test AI research claims now have to pass.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-10-26T21:35:29Z",
+      "source": {
+        "name": "@rrwilliams on X",
+        "url": "https://x.com/rrwilliams/status/2114833319431209352"
+      },
+      "related": [
+        {
+          "name": "The Verge: OpenAI's three discoveries and external shepherds",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
+        },
+        {
+          "name": "Message to the TCS Community on ETH (open letter)",
+          "url": "https://docs.google.com/document/d/1adB0IhJgLzsmbfCgoLrtoJTjnlPf74UnyjMo35P5JHo/edit?usp=sharing"
+        },
+        {
+          "name": "ETH preprint (openai/math on GitHub)",
+          "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"
+        },
+        {
+          "name": "OpenAI: working with academic communities",
+          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
+        },
+        {
+          "name": "Hacker News: ETH preprint",
+          "url": "https://news.ycombinator.com/item?id=50251661"
+        }
+      ],
+      "image": {
+        "src": "/img/eth-refutation-independent-review.jpg",
+        "alt": "Image from @rrwilliams on X"
+      },
+      "heat": {
+        "score": 80,
+        "level": "hot",
+        "metric": "2.1M views"
+      }
+    },
+    {
+      "id": "arxiv-claim-smoothing-research-agents",
+      "title": "Research agents state conclusions stronger than their sources support",
+      "takeaway": "Across 7 systems and 4 datasets, agents consistently overstated what cited evidence showed.",
+      "soWhat": "Check AI research reports against their cited sources before they drive decisions.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-10-26T17:29:48Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.35793"
+      },
+      "image": {
+        "src": "/img/arxiv-claim-smoothing-research-agents.jpg",
+        "alt": "arXiv: Research agents state conclusions stronger than their sources support"
+      }
+    },
+    {
+      "id": "arxiv-simple-harnesses-beat-rca-agents",
+      "title": "Simple agent harnesses beat custom root-cause agents on incidents",
+      "takeaway": "Simple harnesses scored 65-77% vs 16-53% for five published hand-built agents.",
+      "soWhat": "Before funding a bespoke agent, test a simple harness on your own incidents first.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-10-26T17:12:02Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.35767"
+      },
+      "image": {
+        "src": "/img/arxiv-simple-harnesses-beat-rca-agents.jpg",
+        "alt": "arXiv: Simple agent harnesses beat custom root-cause agents on incidents"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@rrwilliams",
+      "quote": "We've signed no NDAs and will receive no compensation, so we are free to share our ongoing findings with the community.",
+      "url": "https://x.com/rrwilliams/status/2114833319431209352"
+    },
+    {
+      "handle": "Benjamin Boucher, Wood Mackenzie, via MIT Technology Review",
+      "quote": "Transformers have become one of the biggest bottlenecks for utilities, generation developers, and even data centers.",
+      "url": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/"
+    },
+    {
+      "handle": "Leaked NRSC memo, via The Verge",
+      "quote": "If he loses and data centers get the blame, politicians across the country will take notice.",
+      "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/rrwilliams/status/2114833319431209352",
+      "handle": "@rrwilliams",
+      "text": "An internal OpenAI model produced a claimed refutation of ETH; three theorists will organize an open, independent examination.",
+      "metric": "5.2k likes",
+      "note": "A decades-old assumption behind hundreds of papers may be wrong, and its originators will check it."
+    },
+    {
+      "url": "https://x.com/VitalikButerin/status/2114907587057713455",
+      "handle": "@VitalikButerin",
+      "text": "More airborne plagues are likely, enhanced by powerful AI; detection, filtration, UVC and better vaccines are unclaimed wins.",
+      "metric": "2k likes",
+      "note": "A widely followed builder links AI risk to practical, buildable public health defenses."
+    },
+    {
+      "url": "https://x.com/mattpocockuk/status/2115023694942662985",
+      "handle": "@mattpocockuk",
+      "text": "The word 'fricative' is enough for my agent to start busting out full IPA. Turns out, knowing things is really valuable.",
+      "metric": "353 likes",
+      "note": "Developers debate whether expertise still matters when agents write the code."
+    }
+  ]
+}

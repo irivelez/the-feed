@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-26-1900",
-  "count": 14,
+  "latest": "2026-10-27-0700",
+  "count": 15,
   "briefs": [
+    {
+      "id": "2026-10-27-0700",
+      "date": "2026-10-27",
+      "edition": "Morning",
+      "publishedAt": "2026-10-27T12:02:43Z",
+      "headline": "ETH's originators will openly test OpenAI's claimed math breakthrough",
+      "url": "/api/briefs/2026-10-27-0700.json"
+    },
     {
       "id": "2026-10-26-1900",
       "date": "2026-10-26",
