@@ -1,0 +1,308 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-27-1834",
+  "generatedAt": "2026-10-27T23:36:00Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-27T17:40:00Z",
+    "to": "2026-10-27T23:35:00Z"
+  },
+  "sourceNotes": [
+    "Evening window (17:40Z to 23:35Z Oct 27). Leads: Anthropic drug-development results, Cursor design mode Annotate, Anthropic GSA OneGov 40% discount, Hex 4.0 plus $100M, four new arXiv agent papers.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returned HTTP 500 again; it moved to dwarkesh.com/feed. Config URL should be updated.",
+    "RSS with 0 new items: MIT Tech Review, OpenAI Blog, Lenny Rachitsky, Stratechery, Benedict Evans, One Useful Thing, Gary Marcus, Mitchell Hashimoto, The Atlantic, Metaplanet Google News. Simon Willison: one post (Game Boy Color on conference badge), not AI, not used. Verge: VisionQuest review not used.",
+    "Hacker News >=200 in window, not used: secret FISA court ruling (725), Ghostty 1.4 (651), New iMac/MacBook Pro M6. Genie 4 (654) and Stanford-Anthropic piracy story (421) already in 12:35 run. Anthropic drug post at 76 points (used via primary source); LFM3 at 105 (below threshold).",
+    "arXiv (cs.AI/cs.CL/cs.MA, agent titles): new Oct 26 batch; used 2610.35767, 2610.35541, 2610.35434, 2610.35793. Not used: EBench, Hierarchical Skill Evolution, Proof-of-Agentness, KAPPA, Infinity Machine.",
+    "X howTo lane not used: gregisenberg 'saas is becoming free' (opinion, no data), poteto tibot and kloss_xyz mattyp posts (about Grok Bot), garrytan customer-support skills link and GStack posts (promo for own project), theo T3 Code connection routing (small feature), amasad posts (opinion/jokes), NousResearch Hermes Desktop SFX, ryancarson dinner posts, startupideaspod.",
+    "X bigPicture lane not used: elonmusk posts are emoji/one-word quotes; sundarpichai Beam clip; alexandr_wang personal post; a16z Ghodsi 'context not intelligence' clips (same story as horowitz-databricks-future-of-firm in 12:35 run, topic agents-future-of-firm); patrickc 'A2A payments' one-liner quoting Stripe's 'stripe pay' B2B transfers; ycombinator Infisical $40M B and Vera Health $28.5M A; a16z Unlimited Industries; rauchg and beffjezos posts without substance.",
+    "X frontierCapital: only RayDalio generic planning advice, not used. Design lane (MengTo): no posts in window. Cursor Annotate is design-relevant but sits in the howTo lane, so tagged practical.",
+    "Futurism 'Amazon Is Gutting Its AI Division' (Nova scaled back, via Bloomberg) trended on HN at 207 points but the article is dated 2026-07-29, outside the window; dropped as stale.",
+    "X queries lane: low-engagement listicles and promo (top item 64 likes); nothing with primary proof.",
+    "Replies checked on Cursor Annotate and Anthropic drug-development threads: none met minFollowers 1000 and minLikes 5; no bestReply.",
+    "X calls this run: 11."
+  ],
+  "candidates": [
+    {
+      "id": "cursor-design-mode-annotate",
+      "lens": "practical",
+      "topic": "cursor-design-mode-annotate",
+      "summary": "Cursor added Annotate to its design mode: users give agents visual prompts by editing elements, drawing on the page, and reviewing designs at different screen sizes.",
+      "facts": [
+        "Cursor post: \"Give agents visual prompts: edit elements, draw on the page, and review your designs at different screen sizes.\"",
+        "Cursor follow-up post: \"Press Cmd+Shift+D in the browser to get started.\"",
+        "The announcement includes a 44-second demo video."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/cursor_ai/status/2115159585548021814",
+        "type": "x",
+        "handle": "cursor_ai"
+      },
+      "related": [
+        {
+          "name": "Cursor follow-up: how to start",
+          "url": "https://x.com/cursor_ai/status/2115159597489225937"
+        }
+      ],
+      "publishedAt": "2026-10-27T19:11:57Z",
+      "firstSeen": "2026-10-27",
+      "care": 4,
+      "proof": 4,
+      "metrics": {
+        "likes": 2239,
+        "reposts": 130,
+        "replies": 185,
+        "views": 118049,
+        "capturedAt": "2026-10-27T23:33:00Z",
+        "authorBaseline": 1702
+      },
+      "imageHint": "https://x.com/cursor_ai/status/2115159585548021814"
+    },
+    {
+      "id": "langsmith-agent-cache-hit-rates",
+      "lens": "practical",
+      "topic": "langsmith-cache-hit-rates",
+      "summary": "LangSmith now tracks LLM cache hit rates for agents, as an overall stat, per thread, and over time in dashboard templates.",
+      "facts": [
+        "Views listed in the post: overall hit rate as a single stat, a thread-by-thread breakdown, and a chart over time with dashboard templates."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/LangChain/status/2115156579498504576",
+        "type": "x",
+        "handle": "LangChain"
+      },
+      "related": [
+        {
+          "name": "LangSmith",
+          "url": "https://smith.langchain.com"
+        }
+      ],
+      "publishedAt": "2026-10-27T19:00:00Z",
+      "firstSeen": "2026-10-27",
+      "care": 3,
+      "proof": 4,
+      "metrics": {
+        "likes": 29,
+        "reposts": 4,
+        "replies": 13,
+        "views": 4145,
+        "capturedAt": "2026-10-27T23:33:00Z"
+      },
+      "imageHint": "https://x.com/LangChain/status/2115156579498504576"
+    },
+    {
+      "id": "hex-4-agent-native-rewrite",
+      "lens": "practical",
+      "topic": "hex-4",
+      "summary": "Hex released Hex 4.0, a from-scratch rewrite of its analytics platform for agents built on plain code instead of a proprietary YAML format, and raised $100M at a $1.2B valuation led by Peak XV and 137 Ventures.",
+      "facts": [
+        "Hex blog (CEO Barry McCardel): the old agent harness \"was becoming bloated with hundreds of tools\", and external agents had to use Hex \"through a keyhole via MCP\".",
+        "Hex blog: 4.0 was \"greatly accelerated by using agents to write all of the code\"; its core assumption is \"that everything is code\".",
+        "Hex blog: $100 million round at a $1.2B valuation led by Peak XV and 137 Ventures, with Amplify, Avra, a16z, Redpoint and Sequoia participating; Hex has over 2,500 customers.",
+        "Harrison Chase (LangChain) on X named three lessons from the launch for anyone building agents: code as the backbone, UX built for reviewing agent work, and rebuilt core infrastructure."
+      ],
+      "source": {
+        "name": "Hex blog",
+        "url": "https://hex.tech/blog/hex-new-era/",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Barry McCardel on X",
+          "url": "https://x.com/barrald/status/2115095682004726173"
+        },
+        {
+          "name": "Harrison Chase on X",
+          "url": "https://x.com/hwchase17/status/2115161782079897946"
+        }
+      ],
+      "publishedAt": "2026-10-27T14:58:00Z",
+      "firstSeen": "2026-10-27",
+      "care": 3,
+      "proof": 5,
+      "imageHint": "https://hex.tech/blog/hex-new-era/"
+    },
+    {
+      "id": "arxiv-simple-harness-beats-rca-agents",
+      "lens": "practical",
+      "topic": "simple-agent-harnesses",
+      "summary": "A paper finds that simple LLM harnesses that do not script the model's calls beat five published hand-crafted root cause analysis agents on 90 validated microservice failure cases.",
+      "facts": [
+        "Abstract: the three simple harnesses (one call over an evidence package, a SQL agent and the Codex coding agent) reach PR@1 of 65-77% on three mid-tier models, versus 16-53% for the published agents and 6-39% for non-LLM methods.",
+        "Abstract: benchmark is RCAtlas, 90 validated cases from eight public datasets, across six models and three reasoning efforts.",
+        "Abstract: more reasoning effort changes accuracy by a few points at most while multiplying the time by up to seven."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.35767",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-10-26T17:12:02Z",
+      "firstSeen": "2026-10-27",
+      "care": 4,
+      "proof": 4
+    },
+    {
+      "id": "arxiv-agent-in-the-middle-web-vulns",
+      "lens": "practical",
+      "topic": "agent-security",
+      "summary": "A security paper finds that when web services expose agent-facing interfaces, commercial AI agents carry out existing web attacks: 91% of 44 tested vulnerabilities stayed exploitable in the reference design, and interface design mattered far more than which agent was used.",
+      "facts": [
+        "Abstract: VELA benchmark covers 44 vulnerabilities across twelve web application families; three commercial agents were tested.",
+        "Abstract: \"the agent realizes every attack that direct interface invocation realizes in the reference configuration\".",
+        "Abstract: interface design moved retention from 39% to 95%, against at most 4.5 points of difference across agents; in one case the agent completed an attack by supplying calls the attacker omitted."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.35541",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-10-26T14:53:22Z",
+      "firstSeen": "2026-10-27",
+      "care": 4,
+      "proof": 4
+    },
+    {
+      "id": "arxiv-skill-infinity",
+      "lens": "practical",
+      "topic": "agent-skills-optimization",
+      "summary": "Skill-infinity is a method where a meta agent optimizes agent skills and also rewrites its own optimization skill; on 83 SkillsBench tasks it reports a 60.7% pass rate versus 56.4% for human-curated skills.",
+      "facts": [
+        "Abstract: the meta agent \"diagnoses execution traces, proposes candidates, requests independent reviews, and allocates the search budget\".",
+        "Abstract: skills at both levels are standard packages loaded through native skill discovery.",
+        "Abstract: 60.7% pass rate on 83 SkillsBench tasks, compared with 56.4% for human-curated skills and 54.5% for SkillEvolver."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.35434",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-10-26T13:37:56Z",
+      "firstSeen": "2026-10-27",
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "arxiv-research-agent-claim-smoothing",
+      "lens": "practical",
+      "topic": "research-agent-reliability",
+      "summary": "Researchers (Singha Roy, Wadhwa, Durrett) measure \"smoothing\" in deep research agents: reports that read as confident syntheses but assert conclusions stronger than their cited sources support, across 7 systems and 4 datasets.",
+      "facts": [
+        "Abstract: the model \"discards the evidential 'jaggedness' of its corpus and asserts conclusions more decisive than the citations can support.\"",
+        "Abstract: introduces SmoothScore, a claim-level scoring pipeline; code and data are released.",
+        "Abstract: \"Across 7 systems and 4 datasets, we find that agents consistently produce stronger claims than warranted.\""
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.35793",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-10-26T17:29:48Z",
+      "firstSeen": "2026-10-27",
+      "care": 3,
+      "proof": 4
+    },
+    {
+      "id": "anthropic-drug-development-progress",
+      "lens": "broad",
+      "topic": "anthropic-life-sciences",
+      "summary": "Anthropic reported early results from research partnerships with six drug developers (BigHat, Bristol Myers Squibb, Divergence Labs, Enveda, Generate Biomedicines, The Column Group), acquired the one-person company Mithril Medicine, and started its own drug programs.",
+      "facts": [
+        "Anthropic: at Enveda, Claude reviewed 1,061 pages of manufacturing documentation, caught all 11 issues human reviewers found plus 7 they missed, and cut review time by 89%, from over 25 hours to under three.",
+        "Anthropic: Claude drafted a regulatory document in four hours versus about three months by hand.",
+        "Anthropic: for Divergence Labs, Claude generated roughly 35,000 antibody designs in about a month, largely autonomously.",
+        "Anthropic: BigHat made and tested about 1,010 Claude-proposed variants in about 10 weeks; the best bound more than 10x more tightly.",
+        "Anthropic: Mithril took a muscular dystrophy treatment from idea to promising mouse results in under 18 months; human trials could start as soon as late 2028. Most of the work is still preclinical."
+      ],
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/research/early-progress-drug-development",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI/status/2115178675050307942"
+        },
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50265609"
+        }
+      ],
+      "publishedAt": "2026-10-27T20:27:48Z",
+      "firstSeen": "2026-10-27",
+      "care": 4,
+      "proof": 5,
+      "metrics": {
+        "likes": 4566,
+        "reposts": 420,
+        "replies": 336,
+        "views": 600146,
+        "capturedAt": "2026-10-27T23:33:00Z",
+        "authorBaseline": 3671
+      },
+      "imageHint": "https://www.anthropic.com/research/early-progress-drug-development"
+    },
+    {
+      "id": "anthropic-gsa-onegov-discount",
+      "lens": "broad",
+      "topic": "enterprise-ai-government",
+      "summary": "Anthropic signed a new OneGov agreement with the US GSA giving federal, state, local, tribal and territorial governments 40% off Claude Enterprise, Claude for Government and the Claude API, with no minimum spend.",
+      "facts": [
+        "Anthropic: the discount applies across every product surface for the first time, including direct purchases now and cloud providers in the coming months.",
+        "Anthropic: about 500 US federal, state and local government organizations use Claude; weekly Claude for Government active users are up about eightfold since February.",
+        "Anthropic: the discounts are estimated to save the government $1 billion.",
+        "Anthropic: a US state IT director used Claude Code to document 12 legacy repositories, mapping 467 database tables and flagging 27 risks."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/AnthropicAI/status/2115207004293853358",
+        "type": "x",
+        "handle": "AnthropicAI"
+      },
+      "related": [
+        {
+          "name": "Anthropic: Expanding our partnership with GSA",
+          "url": "https://www.anthropic.com/news/expanding-partnership-gsa"
+        }
+      ],
+      "publishedAt": "2026-10-27T22:20:23Z",
+      "firstSeen": "2026-10-27",
+      "care": 3,
+      "proof": 5,
+      "metrics": {
+        "likes": 781,
+        "reposts": 36,
+        "replies": 133,
+        "views": 67590,
+        "capturedAt": "2026-10-27T23:33:00Z",
+        "authorBaseline": 3671
+      },
+      "imageHint": "https://www.anthropic.com/news/expanding-partnership-gsa"
+    },
+    {
+      "id": "verge-openai-shepherds-gatekeeping",
+      "lens": "broad",
+      "topic": "openai-ai-math-proofs",
+      "summary": "The Verge reports researchers are frustrated that OpenAI is using hand-picked expert \"shepherds\" to control release of its new claimed results on the Kakeya conjecture, the exponential time hypothesis and Yang-Mills physics.",
+      "facts": [
+        "Verge: the math output (Kakeya conjecture in all dimensions) was released; the computer science result (a claimed disproof of the exponential time hypothesis) goes to an external group; the physics result has not been released.",
+        "Verge: Brown University's Brendan Hassett said the Kakeya claim \"looks well supported\" but he had not checked the Lean formalization.",
+        "Verge: IAS researcher Constantin Kogler: \"It doesn't make any sense that first only a few distinguished scientists can look at them.\""
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-27T20:51:04Z",
+      "firstSeen": "2026-10-26",
+      "care": 3,
+      "proof": 4
+    }
+  ]
+}
