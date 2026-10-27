@@ -1,48 +1,49 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-27T00:13:26Z",
-  "runId": "2026-10-26-1900",
+  "updatedAt": "2026-10-27T18:15:59Z",
+  "runId": "2026-10-27-1235",
   "howtos": [
     {
-      "id": "scaffold-cursor-agent-sdk",
-      "dedupeKey": "cursor-agent-sdk-scaffold-first-agent",
-      "title": "Scaffold your first agent with Cursor's Agent SDK",
-      "what": "The install-to-deploy steps for a code-defined agent on Cursor's Agent SDK.",
+      "id": "langchain-on-brand-design-agent",
+      "dedupeKey": "on-brand-design-agent-harness",
+      "title": "Build an on-brand design agent like LangChain's Content Studio",
+      "what": "LangChain's lessons from four months building its in-house Slack design agent.",
       "kind": "steps",
       "copy": [
-        "Use Node 22.13 or later.",
-        "Install the CLI: npm install --global @grok/agent-sdk",
-        "Scaffold a project: agent-sdk init ./my-bot",
-        "Run it locally: agent-sdk dev",
-        "Deploy to Cursor with agent-sdk deploy, or run it on your own infrastructure as a single Node process."
+        "Give the agent your designers' principles, guardrails against AI slop, and the reasoning behind feedback.",
+        "Give every Slack thread its own sandbox where the agent keeps the project between turns.",
+        "Let the agent work across a video engine, image tools and a shared canvas, and inspect its own renders.",
+        "Have the agent write every asset in code.",
+        "Run long jobs on async subagents; show the plan, live progress and an approval step in the thread before anything ships.",
+        "Delete rules when the model improves; rules that make up for a model's weaknesses expire."
       ],
-      "whenToUse": "When you want a custom agent, such as a PR reviewer, defined as code with prompts, tools and evals.",
+      "whenToUse": "When you want an agent to produce on-brand videos, graphics or decks for your team.",
       "source": {
-        "name": "Cursor blog",
-        "url": "https://cursor.com/blog/agent-sdk"
+        "name": "@LangChain on X",
+        "url": "https://x.com/LangChain/status/2115124503093121121"
       },
       "author": {
-        "name": "Cursor",
-        "handle": "cursor_ai"
+        "name": "LangChain",
+        "handle": "LangChain"
       },
       "alsoFrom": [
         {
-          "name": "@cursor_ai on X",
-          "url": "https://x.com/cursor_ai/status/2114793714531102901"
+          "name": "Harrison Chase on X",
+          "url": "https://x.com/hwchase17/status/2115130348187349104"
         }
       ],
       "tags": [
         "agents",
-        "sdk",
-        "coding-agents"
+        "design",
+        "harness"
       ],
       "quality": 4,
       "verbatim": false,
       "briefItem": {
-        "briefId": "2026-10-26-1900",
-        "itemId": "cursor-agent-sdk"
+        "briefId": "2026-10-27-1300",
+        "itemId": "langchain-content-studio-design-agent"
       },
-      "addedAt": "2026-10-27T00:13:26Z"
+      "addedAt": "2026-10-27T18:15:59Z"
     }
   ]
 }
