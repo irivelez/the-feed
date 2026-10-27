@@ -1,0 +1,267 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-27-0633",
+  "generatedAt": "2026-10-27T11:36:31Z",
+  "configVersions": {
+    "sources": "1.2.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-26T23:35:00Z",
+    "to": "2026-10-27T11:40:00Z"
+  },
+  "sourceNotes": [
+    "Overnight window (23:35Z Oct 26 to 11:40Z Oct 27); light news night. Lead: independent expert review of OpenAI's claimed ETH refutation (follow-up on topic openai-ai-math-proofs).",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returned HTTP 500; it moved to dwarkesh.com/feed. Config URL should be updated.",
+    "RSS with 0 new items: OpenAI Blog, Lenny Rachitsky, Benedict Evans, One Useful Thing, Gary Marcus, Mitchell Hashimoto, The Atlantic. Simon Willison: GPT-6.1 Terra note (already covered at 18:34). Metaplanet Google News: Vanguard ETF $7.5M item duplicates vanguard-vss-metaplanet-position (2026-10-26-0642).",
+    "Hacker News >=200 in window: only the two OpenAI science posts (folded into the ETH candidate). Below threshold, not used: Cloudflare postmortem 'Cross-request KV cache exposure in the GLM-5.3 Workers AI model' (142 points, https://blog.cloudflare.com/kv-cache-exposure-remediation/, 155 responses leaked other customers' data via an SGLang bug), 'The Mythical Man-Month in the Age of AI' (191).",
+    "arXiv (cs.AI/cs.CL/cs.MA, agent titles): new Oct 26 listings; used simple-harness RCA and claim-smoothing papers. Not used: EBench GPT-6-Astra robot harness report, Hierarchical Skill Evolution for coding agents (2610.35616), Infinity Machine, KAPPA Lean proof checking.",
+    "X howTo lane: steipete bun AOT test (2-3x perf claim, not agent-related), Ronycoder Pollo promo, kloss_xyz Claude Max limit complaint, swyx poll, tibo_maker intro: not used.",
+    "X bigPicture lane: elonmusk posts are no-text, politics or Cybercab clips; alexandr_wang Muse video posts lack facts; beffjezos posts are opinion or partisan politics; eastdakota and amasad quote OpenAI science news (covered); stratechery post used as related.",
+    "X frontierCapital lane: LynAldenContact book post, nathanbenaich NYC meetup: not used. Design lane (MengTo): no posts in window.",
+    "X queries lane: mostly low-engagement reposts of the Cursor Agent SDK launch (covered at 18:34); min_faves operator did not filter. Nothing new above 100 likes.",
+    "Replies checked on mattpocockuk and rrwilliams threads: none from others met minFollowers 1000 and minLikes 5; no bestReply.",
+    "X calls this run: 11."
+  ],
+  "candidates": [
+    {
+      "id": "eth-refutation-independent-review",
+      "lens": "broad",
+      "topic": "openai-ai-math-proofs",
+      "summary": "Three complexity theorists, including two who proposed the Exponential Time Hypothesis in 1999, will run an open, independent examination of an OpenAI model's claimed refutation of ETH; they signed no NDAs, take no pay, and got OpenAI to release the raw materials.",
+      "facts": [
+        "Ryan Williams on X: \"An internal model at OpenAI has produced a claimed refutation of ETH! Russell Impagliazzo, Mohan Paturi, and I have been asked to help organize an open and independent examination of this claim.\"",
+        "Williams: \"We've signed no NDAs and will receive no compensation, so we are free to share our ongoing findings with the community... We've asked OpenAI to publicly release ASAP all their raw data regarding ETH, including PDFs and Lean source.\"",
+        "Williams: \"We have also asked OpenAI to commit to sponsoring a conference for the benefit of the entire community affected by this work. They agreed to both.\"",
+        "Per The Verge: Impagliazzo and Paturi (UC San Diego) were part of the group that originally proposed ETH in 1999; the AI write-up and Lean proof were released on GitHub.",
+        "Williams, replying on X: hundreds of papers since the 1990s have assumed ETH to prove conditional lower bounds; on practical SAT solving: \"it's plausible we could see a serious update on practical SAT solving within the next 12 months. Or we might not see anything like that. I really don't know.\"",
+        "Per The Verge: OpenAI's own math advisory panel (AGMAI) said a day earlier that \"we recommend that AI companies do not adopt\" the practice of designating people to receive output first, citing unequal access, borrowed reputation and biased selection.",
+        "The open letter asks the community about early access to AI-generated results, how to credit checking and explaining work, and how to support students as research methods change.",
+        "Hacker News: the ETH preprint reached 651 points; OpenAI's announcement 951 points (at capture)."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/rrwilliams/status/2114833319431209352",
+        "type": "x",
+        "handle": "rrwilliams"
+      },
+      "related": [
+        {
+          "name": "Message to the TCS Community on ETH (open letter)",
+          "url": "https://docs.google.com/document/d/1adB0IhJgLzsmbfCgoLrtoJTjnlPf74UnyjMo35P5JHo/edit?usp=sharing"
+        },
+        {
+          "name": "OpenAI: working with academic communities",
+          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
+        },
+        {
+          "name": "The Verge: OpenAI's three discoveries and external shepherds",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics"
+        },
+        {
+          "name": "ETH preprint (openai/math on GitHub)",
+          "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"
+        },
+        {
+          "name": "Hacker News: ETH preprint",
+          "url": "https://news.ycombinator.com/item?id=50251661"
+        },
+        {
+          "name": "Scott Wu quote post",
+          "url": "https://x.com/ScottWu46/status/2114876354915381330"
+        }
+      ],
+      "publishedAt": "2026-10-26T21:35:29Z",
+      "firstSeen": "2026-10-26",
+      "care": 4,
+      "proof": 5,
+      "metrics": {
+        "likes": 5232,
+        "reposts": 530,
+        "replies": 207,
+        "views": 2103861,
+        "capturedAt": "2026-10-27T11:37:00Z",
+        "authorBaseline": 200
+      },
+      "imageHint": "https://x.com/rrwilliams/status/2114833319431209352"
+    },
+    {
+      "id": "verge-data-center-backlash-midterms",
+      "lens": "broad",
+      "topic": "data-center-backlash",
+      "summary": "The Verge reports that local opposition to data centers has become a campaign issue in 2026 races across Texas, Florida, Pennsylvania, Ohio, Michigan and Wisconsin, with candidates in both parties proposing pauses, ended tax breaks, or rules making data centers pay their own energy costs.",
+      "facts": [
+        "Leading the Future, a super PAC backed by Marc Andreessen and Greg Brockman, has spent $45 million in a year; Anthropic-backed Public First Action says it has raised $80 million.",
+        "Quinnipiac poll (early October): 64% of likely Pennsylvania voters said AI data centers in the state would do more harm than good (margin of error 3.9 points).",
+        "NBC6/Telemundo poll (October): 45% of likely Florida voters opposed data centers in the state, 38% supported; 59% opposed them in their own communities.",
+        "A leaked NRSC memo on Ohio said data centers \"are the anchor hanging around Husted's neck\" and \"If he loses and data centers get the blame, politicians across the country will take notice.\"",
+        "Ohio's Ratepayer Protection Act, requiring large-load customers like data centers to cover their own energy and grid upgrade costs, passed the House and narrowly failed in the Senate.",
+        "Pennsylvania Gov. Shapiro signed an executive order in August banning NDAs for data center developers and taking AI data center proposals off the fast-track permit program.",
+        "Both candidates for Michigan's open Senate seat support a moratorium on new data centers."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-27T10:00:00Z",
+      "firstSeen": "2026-10-27",
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections"
+    },
+    {
+      "id": "stratechery-anthropic-s1-cost-of-compute",
+      "lens": "broad",
+      "topic": "anthropic-s1",
+      "summary": "Ben Thompson's daily update on the Anthropic S-1 argues the core business is very profitable, but competition may eat the profits while investors face continuing dilution.",
+      "facts": [
+        "Feed description: \"Anthropic's IPO is finally here; the core business is very profitable, but competition may eat all of the profits, even as investors are set up for endless dilution.\"",
+        "Sections: Anthropic S-1; The Cost of Compute; Who Is Paying? (paywalled; only the feed summary was read)."
+      ],
+      "source": {
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/",
+        "type": "rss"
+      },
+      "related": [
+        {
+          "name": "Stratechery on X",
+          "url": "https://x.com/stratechery/status/2115041096854364647"
+        }
+      ],
+      "publishedAt": "2026-10-27T10:32:57Z",
+      "firstSeen": "2026-10-26",
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "mittr-solid-state-transformers",
+      "lens": "broad",
+      "topic": "grid-bottleneck",
+      "summary": "MIT Technology Review reports that solid-state transformers, now aimed first at data centers, could ease a grid equipment shortage in which large conventional transformers take up to five years to arrive.",
+      "facts": [
+        "In August, NYPA and EPRI tested a 1 MW solid-state transformer built in NC State professor Srdjan Lukic's lab: about 98% efficient vs. about 96% for an equivalent conventional transformer plus rectifier, roughly halving losses.",
+        "The prototype runs at about 15,000 volts; transmission-level voltages still need new materials and designs.",
+        "Heron Power raised $140 million in February and is building a $100 million California factory, starting production in 2027 and targeting 40 GW of transformers per year by 2029.",
+        "Wood Mackenzie: $1.7 billion invested in US power transformer supply and $1.3 billion in distribution transformers; wait times for large units stretch as long as five years.",
+        "Wood Mackenzie's Benjamin Boucher: \"Transformers have become one of the biggest bottlenecks for utilities, generation developers, and even data centers.\""
+      ],
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-27T09:00:00Z",
+      "firstSeen": "2026-10-27",
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/"
+    },
+    {
+      "id": "pocock-domain-knowledge-steers-agents",
+      "lens": "practical",
+      "topic": "agent-domain-knowledge",
+      "summary": "Matt Pocock reports that a single domain term he gave his coding agent ('fricative') was enough for it to pull in phonetics and work through which consonants break silence detection in his video editor.",
+      "facts": [
+        "Pocock: \"I know enough about phonetics to know that certain consonants can fiddle around with silence detection. I tell my agent that. The word 'fricative' is enough for it to start busting out full IPA (international phonetic alphabet) and we brainstorm which consonants are the most troublesome.\"",
+        "Pocock: \"Turns out, knowing things is really fucking valuable.\"",
+        "In a separate post the same morning he described tasks where his trust in agents is \"totally maxed-out\": where the agent \"has 100% of the data, it can run experiments, verify independently, and hill-climb towards its destination\"."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/mattpocockuk/status/2115023694942662985",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "related": [
+        {
+          "name": "Pocock: tasks agents are really good at",
+          "url": "https://x.com/mattpocockuk/status/2115035446627459461"
+        }
+      ],
+      "publishedAt": "2026-10-27T10:11:58Z",
+      "firstSeen": "2026-10-27",
+      "care": 3,
+      "proof": 2,
+      "metrics": {
+        "likes": 353,
+        "reposts": 13,
+        "replies": 41,
+        "views": 18999,
+        "capturedAt": "2026-10-27T11:37:00Z",
+        "authorBaseline": 1228
+      },
+      "imageHint": "https://x.com/mattpocockuk/status/2115023694942662985"
+    },
+    {
+      "id": "vitalik-airborne-disease-resistance",
+      "lens": "frontier-capital",
+      "topic": "biodefense",
+      "summary": "Vitalik Buterin urged people entering biology to work on airborne disease resistance, arguing AI will amplify pandemic risk and that proven tools are going unused.",
+      "facts": [
+        "Buterin: \"We're likely to get many more airborne plagues in the future due to the combination of not just extremely dense and interconnected society... but also accidents from bio research and offensive biotech... all enhanced by powerful AI.\"",
+        "He lists unclaimed wins with present-day tech: early detection, passive universal testing, filtration/ventilation/UVC, better vaccines (including open source and open science), and cryptography to keep them privacy-preserving.",
+        "Buterin: \"We can have China-level pandemic resistance with Sweden-level limited intrusion into people's lives, and then go even further.\""
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/VitalikButerin/status/2114907587057713455",
+        "type": "x",
+        "handle": "VitalikButerin"
+      },
+      "publishedAt": "2026-10-27T02:30:36Z",
+      "firstSeen": "2026-10-27",
+      "care": 2,
+      "proof": 2,
+      "metrics": {
+        "likes": 1991,
+        "reposts": 221,
+        "replies": 267,
+        "views": 200858,
+        "capturedAt": "2026-10-27T11:37:00Z"
+      }
+    },
+    {
+      "id": "arxiv-simple-harnesses-beat-rca-agents",
+      "lens": "practical",
+      "topic": "simple-agent-harness",
+      "summary": "An arXiv paper finds that simple LLM harnesses which prescribe none of the model's calls diagnose microservice failures more accurately than five published hand-crafted root-cause-analysis agents.",
+      "facts": [
+        "Benchmark RCAtlas: 90 validated cases from eight public datasets, six models, three reasoning efforts.",
+        "Three simple harnesses (one call over an evidence package, a SQL agent, and the Codex coding agent) scored PR@1 of 65-77% on three mid-tier models, vs. 16-53% for published LLM RCA agents and 6-39% for non-LLM methods.",
+        "Abstract: \"more reasoning effort changes accuracy by a few points at most while multiplying the time by up to seven.\"",
+        "Abstract: \"Among runs more accurate than the best non-LLM method, every Pareto-optimal run in cost or time uses a simple harness.\""
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.35767",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-10-26T17:12:02Z",
+      "firstSeen": "2026-10-27",
+      "care": 4,
+      "proof": 4
+    },
+    {
+      "id": "arxiv-claim-smoothing-research-agents",
+      "lens": "practical",
+      "topic": "deep-research-reliability",
+      "summary": "UT Austin researchers (Greg Durrett's group) find that deep-research agents write reports asserting conclusions stronger than their cited sources support, a failure they call smoothing.",
+      "facts": [
+        "Abstract: LLMs \"produce long-form research reports that read as confident syntheses but which fail to accurately reflect the underlying documents.\"",
+        "They introduce SmoothScore, which extracts conclusive claims, clusters the relevant evidence by aspect, and scores each claim against it.",
+        "Abstract: \"Across 7 systems and 4 datasets, we find that agents consistently produce stronger claims than warranted.\""
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.35793",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-10-26T17:29:48Z",
+      "firstSeen": "2026-10-27",
+      "care": 3,
+      "proof": 4
+    }
+  ]
+}
