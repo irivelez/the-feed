@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-26-1300",
-  "count": 13,
+  "latest": "2026-10-26-1900",
+  "count": 14,
   "briefs": [
+    {
+      "id": "2026-10-26-1900",
+      "date": "2026-10-26",
+      "edition": "Evening",
+      "publishedAt": "2026-10-27T00:12:57Z",
+      "headline": "OpenAI cuts API prices in half with GPT-6.1 Terra",
+      "url": "/api/briefs/2026-10-26-1900.json"
+    },
     {
       "id": "2026-10-26-1300",
       "date": "2026-10-26",

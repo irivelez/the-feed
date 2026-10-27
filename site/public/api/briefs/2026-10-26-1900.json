@@ -1,0 +1,267 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-10-26-1900",
+  "date": "2026-10-26",
+  "publishedAt": "2026-10-27T00:12:57Z",
+  "edition": "Evening",
+  "top3": [
+    {
+      "itemId": "openai-gpt-6-1-terra",
+      "headline": "OpenAI cuts API prices in half with GPT-6.1 Terra",
+      "whyItMatters": "Agent tasks just got cheaper, so rerun your cost model before signing longer vendor commitments."
+    },
+    {
+      "itemId": "cursor-agent-sdk",
+      "headline": "Cursor releases the framework behind its own reviewer and security agents",
+      "whyItMatters": "A Cursor team built a PR reviewer in about a day; decide who owns custom agents."
+    },
+    {
+      "itemId": "openai-ai-proofs-eth-yang-mills",
+      "headline": "OpenAI claims AI-produced proofs on three major math and physics problems",
+      "whyItMatters": "Outside experts will verify them; if they hold, AI's research value moves from claim to proof."
+    }
+  ],
+  "items": [
+    {
+      "id": "deepseek-v4-1-flash-in-cursor",
+      "title": "Cursor adds DeepSeek V4.1 Flash at under $1 per task",
+      "takeaway": "Cursor says every effort level sits on its CursorBench cost frontier, at $0.60 to $0.98 per task.",
+      "soWhat": "Cursor says no model scores higher at these costs, though the benchmark is Cursor's own.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-10-26T22:02:01Z",
+      "source": {
+        "name": "@cursor_ai on X",
+        "url": "https://x.com/cursor_ai/status/2114839997568405608"
+      },
+      "image": {
+        "src": "/img/deepseek-v4-1-flash-in-cursor.jpg",
+        "alt": "Image from @cursor_ai on X"
+      },
+      "heat": {
+        "score": 18,
+        "level": "none",
+        "metric": "49k views"
+      }
+    },
+    {
+      "id": "verge-anthropic-s1-natural-gas",
+      "title": "Anthropic's S-1 flags power and natural gas as cost risks",
+      "takeaway": "The Verge reports some planned Anthropic data centers rely on on-site natural gas turbines.",
+      "soWhat": "Energy supply is now a named risk to AI vendor costs; factor it into long contracts.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-10-26T21:45:00Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk"
+      },
+      "related": [
+        {
+          "name": "Anthropic S-1 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+        }
+      ],
+      "image": {
+        "src": "/img/verge-anthropic-s1-natural-gas.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "openai-ai-proofs-eth-yang-mills",
+      "title": "OpenAI says its models proved results on ETH and Yang-Mills",
+      "takeaway": "Claims include an ETH refutation and a Yang-Mills existence proof; outside expert groups will verify.",
+      "soWhat": "If experts confirm them, AI becomes a research partner; until then treat these as OpenAI's claims.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-10-26T21:00:00Z",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
+      },
+      "related": [
+        {
+          "name": "Hacker News (208 points)",
+          "url": "https://news.ycombinator.com/item?id=50251344"
+        },
+        {
+          "name": "@EMostaque reaction on X",
+          "url": "https://x.com/EMostaque/status/2114848545597513745"
+        }
+      ],
+      "image": {
+        "src": "/img/openai-ai-proofs-eth-yang-mills.jpg",
+        "alt": "Image from OpenAI"
+      }
+    },
+    {
+      "id": "cursor-agent-sdk",
+      "title": "Cursor opens the SDK it uses to build its own agents",
+      "takeaway": "Agents are code: Markdown prompts, TypeScript tools, built-in evals; deploy to Cursor or self-host.",
+      "soWhat": "Teams can now build review and security agents on the same framework a major vendor runs.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-10-26T18:58:07Z",
+      "source": {
+        "name": "Cursor blog",
+        "url": "https://cursor.com/blog/agent-sdk"
+      },
+      "related": [
+        {
+          "name": "Agent SDK docs",
+          "url": "https://cursor.com/docs/agent-sdk"
+        },
+        {
+          "name": "@cursor_ai on X",
+          "url": "https://x.com/cursor_ai/status/2114793714531102901"
+        }
+      ],
+      "image": {
+        "src": "/img/cursor-agent-sdk.jpg",
+        "alt": "Image from Cursor blog"
+      },
+      "heat": {
+        "score": 23,
+        "level": "none",
+        "metric": "165k views"
+      }
+    },
+    {
+      "id": "openai-gpt-6-1-terra",
+      "title": "OpenAI's GPT-6.1 Terra halves API prices for agent work",
+      "takeaway": "$1 per million input tokens, $5 output; OpenAI says Sol and Astra stay better for the hardest coding.",
+      "soWhat": "Cheaper computer-use models make more agent workflows worth running; recheck which tasks now pay off.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 10,
+      "publishedAt": "2026-10-26T18:06:27Z",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-1-terra/"
+      },
+      "related": [
+        {
+          "name": "@OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2114780711664398349"
+        },
+        {
+          "name": "@sama on X",
+          "url": "https://x.com/sama/status/2114818620782248024"
+        },
+        {
+          "name": "Hacker News (462 points)",
+          "url": "https://news.ycombinator.com/item?id=50248124"
+        }
+      ],
+      "image": {
+        "src": "/img/openai-gpt-6-1-terra.jpg",
+        "alt": "Image from OpenAI"
+      },
+      "heat": {
+        "score": 38,
+        "level": "none",
+        "metric": "2.1M views"
+      }
+    },
+    {
+      "id": "claude-for-nonprofits-plugin",
+      "title": "Anthropic ships a Claude plugin built with about 30 nonprofits",
+      "takeaway": "Skills and connectors for fundraising, marketing and hiring, plus deeper discounts and a two-person Team minimum.",
+      "soWhat": "Most nonprofit users have under 10 seats, so Anthropic is courting small teams with discounts and kits.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-26T18:04:31Z",
+      "source": {
+        "name": "Claude by Anthropic",
+        "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits"
+      },
+      "related": [
+        {
+          "name": "@claudeai on X",
+          "url": "https://x.com/claudeai/status/2114780227465338985"
+        }
+      ],
+      "image": {
+        "src": "/img/claude-for-nonprofits-plugin.jpg",
+        "alt": "Image from Claude by Anthropic"
+      },
+      "heat": {
+        "score": 27,
+        "level": "none",
+        "metric": "333k views"
+      }
+    },
+    {
+      "id": "nvidia-gtc-berlin-dsx-pod",
+      "title": "Nvidia pitches factory-built AI data centers to Europe",
+      "takeaway": "Huang pointed to DSX POD: Vera Rubin modules built, cabled and tested before delivery.",
+      "soWhat": "Prebuilt, pretested AI factories aim to cut the time from order to working compute.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 3,
+      "publishedAt": "2026-10-26T17:38:11Z",
+      "source": {
+        "name": "@JensenHuang on X",
+        "url": "https://x.com/JensenHuang/status/2114773600574279837"
+      },
+      "image": {
+        "src": "/img/nvidia-gtc-berlin-dsx-pod.jpg",
+        "alt": "Image from @JensenHuang on X"
+      },
+      "heat": {
+        "score": 22,
+        "level": "none",
+        "metric": "180k views"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "Anthropic S-1, via The Verge",
+      "quote": "Competition for access to electrical supply and data center locations with adequate power availability is intense.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/OpenAI/status/2114780711664398349",
+      "handle": "@OpenAI",
+      "text": "GPT-6.1 Terra: a fast, lower-cost model for computer use, visual reasoning and writing, at 50% lower API prices.",
+      "metric": "19.3k likes",
+      "note": "A big price cut on a model built for agent work changes many cost plans."
+    },
+    {
+      "url": "https://x.com/claudeai/status/2114780227465338985",
+      "handle": "@claudeai",
+      "text": "Claude for Nonprofits: a plugin of skills and connectors built with about 30 nonprofits.",
+      "metric": "4.1k likes",
+      "note": "Deep discounts and ready-made kits put Claude within reach of very small teams."
+    },
+    {
+      "url": "https://x.com/cursor_ai/status/2114793714531102901",
+      "handle": "@cursor_ai",
+      "text": "Cursor's Agent SDK: the framework behind Bugbot and Security Reviewer, now open for building your own agents.",
+      "metric": "2.3k likes",
+      "note": "Builders get the same agent toolkit a major coding vendor uses internally."
+    },
+    {
+      "url": "https://x.com/JensenHuang/status/2114773600574279837",
+      "handle": "@JensenHuang",
+      "text": "Europe is building its AI ecosystem, from AI factories to agents to robots; DSX POD ships factories ready to produce.",
+      "metric": "1.8k likes",
+      "note": "Europe's AI build-out is a recurring theme, and Nvidia wants to supply it."
+    },
+    {
+      "url": "https://x.com/cursor_ai/status/2114839997568405608",
+      "handle": "@cursor_ai",
+      "text": "DeepSeek V4.1 Flash is now in Cursor, on the CursorBench cost frontier at $0.60 to $0.98 per task.",
+      "metric": "1.1k likes",
+      "note": "Developers watch for cheap models that still code well."
+    }
+  ]
+}

@@ -1,316 +1,267 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-10-26-1300",
+  "id": "2026-10-26-1900",
   "date": "2026-10-26",
-  "publishedAt": "2026-10-26T18:04:41Z",
-  "edition": "Midday",
+  "publishedAt": "2026-10-27T00:12:57Z",
+  "edition": "Evening",
   "top3": [
     {
-      "itemId": "anthropic-s1-filing",
-      "headline": "Anthropic files to go public, showing $16.3B half-year revenue",
-      "whyItMatters": "Your main AI vendor's finances, compute bets and risks are now public; read them before renewing."
+      "itemId": "openai-gpt-6-1-terra",
+      "headline": "OpenAI cuts API prices in half with GPT-6.1 Terra",
+      "whyItMatters": "Agent tasks just got cheaper, so rerun your cost model before signing longer vendor commitments."
     },
     {
-      "itemId": "isenberg-s1-founder-takeaways",
-      "headline": "Nearly half of Anthropic's revenue arrives through cloud marketplaces",
-      "whyItMatters": "Enterprise buyers purchase AI where they already spend cloud budget, so plan channels around that."
+      "itemId": "cursor-agent-sdk",
+      "headline": "Cursor releases the framework behind its own reviewer and security agents",
+      "whyItMatters": "A Cursor team built a PR reviewer in about a day; decide who owns custom agents."
     },
     {
-      "itemId": "rauch-cpu-chat-covert-agents",
-      "headline": "Isolated agents can still talk to each other through shared CPUs",
-      "whyItMatters": "VM isolation alone does not stop agents colluding, so monitor shared hardware too."
+      "itemId": "openai-ai-proofs-eth-yang-mills",
+      "headline": "OpenAI claims AI-produced proofs on three major math and physics problems",
+      "whyItMatters": "Outside experts will verify them; if they hold, AI's research value moves from claim to proof."
     }
   ],
   "items": [
     {
-      "id": "rauch-cpu-chat-covert-agents",
-      "title": "Isolated agents can still talk to each other through shared CPUs",
-      "takeaway": "Rauch's cpu-chat reproduces OpenAI's covert-channel finding across Firecracker microVMs with no internet.",
-      "soWhat": "Sandboxing does not end the risk; ask vendors how they detect covert channels between tenants.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-10-26T17:27:32Z",
-      "source": {
-        "name": "@rauchg on X",
-        "url": "https://x.com/rauchg/status/2114770919436808572"
-      },
-      "image": {
-        "src": "/img/rauch-cpu-chat-covert-agents.jpg",
-        "alt": "Image from @rauchg on X"
-      },
-      "heat": {
-        "score": 2,
-        "level": "none",
-        "metric": "3k views"
-      }
-    },
-    {
-      "id": "nous-hermes-advanced-delegation",
-      "title": "Hermes Agent now routes each subagent to its own model",
-      "takeaway": "Nous Research's Advanced Delegation plugin lets the orchestrator pick a model or profile per subagent from user routes.",
-      "soWhat": "Matching models to tasks inside one agent is becoming a standard cost and quality lever.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-10-26T16:19:58Z",
-      "source": {
-        "name": "@NousResearch on X",
-        "url": "https://x.com/NousResearch/status/2114753914939863260"
-      },
-      "image": {
-        "src": "/img/nous-hermes-advanced-delegation.jpg",
-        "alt": "Image from @NousResearch on X"
-      },
-      "heat": {
-        "score": 13,
-        "level": "none",
-        "metric": "27k views"
-      }
-    },
-    {
-      "id": "pocock-one-way-door-pr-prompt",
-      "title": "A prompt to split risky agent PRs into reversible steps",
-      "takeaway": "Matt Pocock has the agent ship a revertible PR first, then a stacked PR with the irreversible change.",
-      "soWhat": "Large agent-written changes get safer when the irreversible part ships last and alone.",
+      "id": "deepseek-v4-1-flash-in-cursor",
+      "title": "Cursor adds DeepSeek V4.1 Flash at under $1 per task",
+      "takeaway": "Cursor says every effort level sits on its CursorBench cost frontier, at $0.60 to $0.98 per task.",
+      "soWhat": "Cursor says no model scores higher at these costs, though the benchmark is Cursor's own.",
       "lens": "practical",
       "momentum": "new",
       "importance": 5,
-      "publishedAt": "2026-10-26T16:02:08Z",
+      "publishedAt": "2026-10-26T22:02:01Z",
       "source": {
-        "name": "@mattpocockuk on X",
-        "url": "https://x.com/mattpocockuk/status/2114749427889979405"
+        "name": "@cursor_ai on X",
+        "url": "https://x.com/cursor_ai/status/2114839997568405608"
       },
       "image": {
-        "src": "/img/pocock-one-way-door-pr-prompt.jpg",
-        "alt": "Profile image of @mattpocockuk"
+        "src": "/img/deepseek-v4-1-flash-in-cursor.jpg",
+        "alt": "Image from @cursor_ai on X"
       },
       "heat": {
-        "score": 13,
+        "score": 18,
         "level": "none",
-        "metric": "21k views"
+        "metric": "49k views"
       }
     },
     {
-      "id": "microsoft-voluntary-exit-60000",
-      "title": "Microsoft offers buyouts to up to 60,000 employees",
-      "takeaway": "Eligible teams include AI, Copilot and CoreAI; Microsoft does not tie the offer to AI.",
-      "soWhat": "Even the biggest AI spenders are trimming headcount, including inside their AI teams.",
+      "id": "verge-anthropic-s1-natural-gas",
+      "title": "Anthropic's S-1 flags power and natural gas as cost risks",
+      "takeaway": "The Verge reports some planned Anthropic data centers rely on on-site natural gas turbines.",
+      "soWhat": "Energy supply is now a named risk to AI vendor costs; factor it into long contracts.",
       "lens": "broad",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 6,
-      "publishedAt": "2026-10-26T15:58:27Z",
+      "publishedAt": "2026-10-26T21:45:00Z",
       "source": {
         "name": "The Verge",
-        "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible"
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk"
       },
       "related": [
         {
-          "name": "Seattle Times",
-          "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/"
-        },
-        {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50245524"
-        }
-      ],
-      "image": {
-        "src": "/img/microsoft-voluntary-exit-60000.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
-      "id": "langchain-managed-deep-agents-0-9",
-      "title": "LangChain agents can now schedule their own recurring tasks",
-      "takeaway": "Managed Deep Agents 0.9 adds agent-created schedules, per-run model and tool choice, and Slack reactions.",
-      "soWhat": "Agents that set their own schedules need clear limits on what they may start unattended.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 4,
-      "publishedAt": "2026-10-26T15:33:00Z",
-      "source": {
-        "name": "@LangChain on X",
-        "url": "https://x.com/LangChain/status/2114742095684731050"
-      },
-      "related": [
-        {
-          "name": "LangChain keynote post",
-          "url": "https://x.com/LangChain/status/2114734295818318107"
-        }
-      ],
-      "image": {
-        "src": "/img/langchain-managed-deep-agents-0-9.jpg",
-        "alt": "Image from @LangChain on X"
-      },
-      "heat": {
-        "score": 15,
-        "level": "none",
-        "metric": "3k views"
-      }
-    },
-    {
-      "id": "isenberg-s1-founder-takeaways",
-      "title": "Nearly half of Anthropic's revenue arrives through cloud marketplaces",
-      "takeaway": "Isenberg's founder read of the S-1: 48% via AWS, GCP and Azure marketplaces in H1 2026.",
-      "soWhat": "Selling AI to enterprises increasingly means being listed where buyers already spend cloud budget.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-10-26T13:31:01Z",
-      "source": {
-        "name": "@gregisenberg on X",
-        "url": "https://x.com/gregisenberg/status/2114711399620333841"
-      },
-      "related": [
-        {
-          "name": "Anthropic S-1 (SEC EDGAR)",
+          "name": "Anthropic S-1 (SEC)",
           "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
         }
       ],
       "image": {
-        "src": "/img/isenberg-s1-founder-takeaways.jpg",
-        "alt": "Profile image of @gregisenberg"
-      },
-      "heat": {
-        "score": 80,
-        "level": "hot",
-        "metric": "485k views"
+        "src": "/img/verge-anthropic-s1-natural-gas.jpg",
+        "alt": "Image from The Verge"
       }
     },
     {
-      "id": "anthropic-s1-filing",
-      "title": "Anthropic files to go public, showing $16.3B half-year revenue",
-      "takeaway": "S-1 for a Nasdaq listing as ANT: $80.7B H1 net loss, mostly accounting charges per WSJ via The Verge, and 900% net retention.",
-      "soWhat": "Read the risk factors and compute commitments before your next large Claude contract.",
+      "id": "openai-ai-proofs-eth-yang-mills",
+      "title": "OpenAI says its models proved results on ETH and Yang-Mills",
+      "takeaway": "Claims include an ETH refutation and a Yang-Mills existence proof; outside expert groups will verify.",
+      "soWhat": "If experts confirm them, AI becomes a research partner; until then treat these as OpenAI's claims.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-10-26T21:00:00Z",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
+      },
+      "related": [
+        {
+          "name": "Hacker News (208 points)",
+          "url": "https://news.ycombinator.com/item?id=50251344"
+        },
+        {
+          "name": "@EMostaque reaction on X",
+          "url": "https://x.com/EMostaque/status/2114848545597513745"
+        }
+      ],
+      "image": {
+        "src": "/img/openai-ai-proofs-eth-yang-mills.jpg",
+        "alt": "Image from OpenAI"
+      }
+    },
+    {
+      "id": "cursor-agent-sdk",
+      "title": "Cursor opens the SDK it uses to build its own agents",
+      "takeaway": "Agents are code: Markdown prompts, TypeScript tools, built-in evals; deploy to Cursor or self-host.",
+      "soWhat": "Teams can now build review and security agents on the same framework a major vendor runs.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-10-26T18:58:07Z",
+      "source": {
+        "name": "Cursor blog",
+        "url": "https://cursor.com/blog/agent-sdk"
+      },
+      "related": [
+        {
+          "name": "Agent SDK docs",
+          "url": "https://cursor.com/docs/agent-sdk"
+        },
+        {
+          "name": "@cursor_ai on X",
+          "url": "https://x.com/cursor_ai/status/2114793714531102901"
+        }
+      ],
+      "image": {
+        "src": "/img/cursor-agent-sdk.jpg",
+        "alt": "Image from Cursor blog"
+      },
+      "heat": {
+        "score": 23,
+        "level": "none",
+        "metric": "165k views"
+      }
+    },
+    {
+      "id": "openai-gpt-6-1-terra",
+      "title": "OpenAI's GPT-6.1 Terra halves API prices for agent work",
+      "takeaway": "$1 per million input tokens, $5 output; OpenAI says Sol and Astra stay better for the hardest coding.",
+      "soWhat": "Cheaper computer-use models make more agent workflows worth running; recheck which tasks now pay off.",
       "lens": "broad",
       "momentum": "building",
       "importance": 10,
-      "publishedAt": "2026-10-26T13:05:46Z",
+      "publishedAt": "2026-10-26T18:06:27Z",
       "source": {
-        "name": "Anthropic S-1 (SEC)",
-        "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-1-terra/"
       },
       "related": [
         {
-          "name": "@AnthropicAI on X",
-          "url": "https://x.com/AnthropicAI/status/2114705042817110293"
+          "name": "@OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2114780711664398349"
         },
         {
-          "name": "The Verge: IPO filing",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec"
+          "name": "@sama on X",
+          "url": "https://x.com/sama/status/2114818620782248024"
         },
         {
-          "name": "The Verge: five weird details",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details"
-        },
-        {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50242939"
+          "name": "Hacker News (462 points)",
+          "url": "https://news.ycombinator.com/item?id=50248124"
         }
       ],
       "image": {
-        "src": "/img/anthropic-s1-filing.jpg",
-        "alt": "Image from Anthropic S-1 (SEC)"
+        "src": "/img/openai-gpt-6-1-terra.jpg",
+        "alt": "Image from OpenAI"
       },
       "heat": {
-        "score": 47,
-        "level": "warm",
-        "metric": "2.6M views"
+        "score": 38,
+        "level": "none",
+        "metric": "2.1M views"
       }
     },
     {
-      "id": "reddit-proto-figma-mcp-cursor",
-      "title": "Reddit's whole UX org prototypes with its own AI harness",
-      "takeaway": "Reddit Proto pairs a design-system MCP with Cursor; 100% UX and product adoption, 700+ prototypes live.",
-      "soWhat": "Wiring your design system into agents turns prototypes into production-shaped code in minutes.",
+      "id": "claude-for-nonprofits-plugin",
+      "title": "Anthropic ships a Claude plugin built with about 30 nonprofits",
+      "takeaway": "Skills and connectors for fundraising, marketing and hiring, plus deeper discounts and a two-person Team minimum.",
+      "soWhat": "Most nonprofit users have under 10 seats, so Anthropic is courting small teams with discounts and kits.",
       "lens": "practical",
       "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-10-26T12:04:20Z",
+      "importance": 6,
+      "publishedAt": "2026-10-26T18:04:31Z",
       "source": {
-        "name": "Lenny's Newsletter",
-        "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping"
-      },
-      "image": {
-        "src": "/img/reddit-proto-figma-mcp-cursor.jpg",
-        "alt": "Image from Lenny's Newsletter"
-      }
-    },
-    {
-      "id": "raschka-reasoning-models-course",
-      "title": "Raschka releases a free 11-hour course on building reasoning models",
-      "takeaway": "Eight videos in PyTorch from Qwen3 0.6B through GRPO and distillation; early examples run on CPU.",
-      "soWhat": "Engineers can learn how the model inside an agent harness works, for free.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-10-24T12:00:00Z",
-      "source": {
-        "name": "Ahead of AI",
-        "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models"
+        "name": "Claude by Anthropic",
+        "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits"
       },
       "related": [
         {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50245138"
+          "name": "@claudeai on X",
+          "url": "https://x.com/claudeai/status/2114780227465338985"
         }
       ],
       "image": {
-        "src": "/img/raschka-reasoning-models-course.jpg",
-        "alt": "Image from Ahead of AI"
+        "src": "/img/claude-for-nonprofits-plugin.jpg",
+        "alt": "Image from Claude by Anthropic"
+      },
+      "heat": {
+        "score": 27,
+        "level": "none",
+        "metric": "333k views"
+      }
+    },
+    {
+      "id": "nvidia-gtc-berlin-dsx-pod",
+      "title": "Nvidia pitches factory-built AI data centers to Europe",
+      "takeaway": "Huang pointed to DSX POD: Vera Rubin modules built, cabled and tested before delivery.",
+      "soWhat": "Prebuilt, pretested AI factories aim to cut the time from order to working compute.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 3,
+      "publishedAt": "2026-10-26T17:38:11Z",
+      "source": {
+        "name": "@JensenHuang on X",
+        "url": "https://x.com/JensenHuang/status/2114773600574279837"
+      },
+      "image": {
+        "src": "/img/nvidia-gtc-berlin-dsx-pod.jpg",
+        "alt": "Image from @JensenHuang on X"
+      },
+      "heat": {
+        "score": 22,
+        "level": "none",
+        "metric": "180k views"
       }
     }
   ],
   "voices": [
     {
-      "handle": "@gregisenberg",
-      "quote": "the lesson for founders selling to enterprises is to get listed where your buyers already spend.",
-      "url": "https://x.com/gregisenberg/status/2114711399620333841"
-    },
-    {
-      "handle": "@rauchg",
-      "quote": "if shared hardware is involved, there's a good chance your agents can communicate covertly. And with really decent latency.",
-      "url": "https://x.com/rauchg/status/2114770919436808572"
-    },
-    {
-      "handle": "Amy Coleman, Microsoft",
-      "quote": "The Voluntary Exit Offer is new for us. We'll learn from it.",
-      "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible"
-    },
-    {
-      "handle": "@mattpocockuk",
-      "quote": "Lets you de-risk a huge PR by testing large chunks of it in production first.",
-      "url": "https://x.com/mattpocockuk/status/2114749427889979405"
+      "handle": "Anthropic S-1, via The Verge",
+      "quote": "Competition for access to electrical supply and data center locations with adequate power availability is intense.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/AnthropicAI/status/2114705042817110293",
-      "handle": "@AnthropicAI",
-      "text": "Anthropic has filed an S-1 registration statement with the SEC related to its proposed IPO.",
-      "metric": "12.8k likes",
-      "note": "The first public look at a frontier lab's full financials."
+      "url": "https://x.com/OpenAI/status/2114780711664398349",
+      "handle": "@OpenAI",
+      "text": "GPT-6.1 Terra: a fast, lower-cost model for computer use, visual reasoning and writing, at 50% lower API prices.",
+      "metric": "19.3k likes",
+      "note": "A big price cut on a model built for agent work changes many cost plans."
     },
     {
-      "url": "https://x.com/gregisenberg/status/2114711399620333841",
-      "handle": "@gregisenberg",
-      "text": "12 founder takeaways from the Anthropic S-1, from cloud marketplaces to the published run-rate formula.",
-      "metric": "4.8k likes",
-      "note": "It turns a dense filing into go-to-market lessons founders can use."
+      "url": "https://x.com/claudeai/status/2114780227465338985",
+      "handle": "@claudeai",
+      "text": "Claude for Nonprofits: a plugin of skills and connectors built with about 30 nonprofits.",
+      "metric": "4.1k likes",
+      "note": "Deep discounts and ready-made kits put Claude within reach of very small teams."
     },
     {
-      "url": "https://x.com/NousResearch/status/2114753914939863260",
-      "handle": "@NousResearch",
-      "text": "Hermes Agent's orchestrator can now pick a different model or profile for each subagent from routes you set up.",
-      "metric": "525 likes",
-      "note": "Builders want per-task model routing without writing it themselves."
+      "url": "https://x.com/cursor_ai/status/2114793714531102901",
+      "handle": "@cursor_ai",
+      "text": "Cursor's Agent SDK: the framework behind Bugbot and Security Reviewer, now open for building your own agents.",
+      "metric": "2.3k likes",
+      "note": "Builders get the same agent toolkit a major coding vendor uses internally."
     },
     {
-      "url": "https://x.com/mattpocockuk/status/2114749427889979405",
-      "handle": "@mattpocockuk",
-      "text": "Split this \"one-way door\" PR into two: a revertible PR, then a stacked followup that goes through the one-way door.",
-      "metric": "364 likes",
-      "note": "A copyable prompt for de-risking big agent-written changes."
+      "url": "https://x.com/JensenHuang/status/2114773600574279837",
+      "handle": "@JensenHuang",
+      "text": "Europe is building its AI ecosystem, from AI factories to agents to robots; DSX POD ships factories ready to produce.",
+      "metric": "1.8k likes",
+      "note": "Europe's AI build-out is a recurring theme, and Nvidia wants to supply it."
+    },
+    {
+      "url": "https://x.com/cursor_ai/status/2114839997568405608",
+      "handle": "@cursor_ai",
+      "text": "DeepSeek V4.1 Flash is now in Cursor, on the CursorBench cost frontier at $0.60 to $0.98 per task.",
+      "metric": "1.1k likes",
+      "note": "Developers watch for cheap models that still code well."
     }
   ]
 }
