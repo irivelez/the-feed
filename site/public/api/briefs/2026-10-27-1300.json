@@ -1,0 +1,353 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-10-27-1300",
+  "date": "2026-10-27",
+  "publishedAt": "2026-10-27T18:15:18Z",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "replit-cloud-agents-company-codebase",
+      "headline": "Non-engineers can now propose tested code changes to company repos",
+      "whyItMatters": "Code review becomes the main control as more of your staff can change software."
+    },
+    {
+      "itemId": "arxiv-conflict-of-skills-attack",
+      "headline": "Agent skills that are safe alone broke policy when combined",
+      "whyItMatters": "Approving skills one by one leaves gaps; a harness guard cut violations from 65% to 7%."
+    },
+    {
+      "itemId": "genie-4-world-model",
+      "headline": "Google DeepMind's Genie 4 simulates worlds for training robots and agents",
+      "whyItMatters": "Simulated training environments for robots and agents are heading to developers, with stated limits."
+    }
+  ],
+  "items": [
+    {
+      "id": "replit-cloud-agents-company-codebase",
+      "title": "Replit lets non-engineers send tested changes into company codebases",
+      "takeaway": "Cloud Agents test a plain-language change in a sandbox and open a PR that engineers approve.",
+      "soWhat": "Product and design staff can now propose real code changes, so code review becomes your control point.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-10-27T17:10:39Z",
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2115129060267262190"
+      },
+      "related": [
+        {
+          "name": "Replit blog: Anyone can bring ideas to the company codebase",
+          "url": "https://replit.com/blog/anyone-can-bring-ideas-to-company-codebase"
+        },
+        {
+          "name": "Replit announcement on X",
+          "url": "https://x.com/Replit/status/2115109663993966737"
+        }
+      ],
+      "image": {
+        "src": "/img/replit-cloud-agents-company-codebase.jpg",
+        "alt": "Image from @amasad on X"
+      },
+      "heat": {
+        "score": 6,
+        "level": "none",
+        "metric": "5k views"
+      }
+    },
+    {
+      "id": "langchain-content-studio-design-agent",
+      "title": "LangChain open-sources Content Studio, its in-house Slack design agent",
+      "takeaway": "The agent makes on-brand videos, graphics and decks as code, with approval before anything ships.",
+      "soWhat": "On-brand output comes from giving agents your designers' rules and feedback, not only a better model.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-10-27T16:52:33Z",
+      "source": {
+        "name": "@LangChain on X",
+        "url": "https://x.com/LangChain/status/2115124503093121121"
+      },
+      "related": [
+        {
+          "name": "Harrison Chase on X",
+          "url": "https://x.com/hwchase17/status/2115130348187349104"
+        }
+      ],
+      "image": {
+        "src": "/img/langchain-content-studio-design-agent.jpg",
+        "alt": "Image from @LangChain on X"
+      },
+      "heat": {
+        "score": 24,
+        "level": "none",
+        "metric": "4k views"
+      }
+    },
+    {
+      "id": "verge-anthropic-ipo-governance",
+      "title": "Anthropic's IPO plan leaves ordinary shareholders little say over the board",
+      "takeaway": "A trust picks four of seven directors; a founder LLC holds 50.1% of shareholder votes.",
+      "soWhat": "If you depend on Anthropic, its direction rests with founders and a trust, not public shareholders.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-10-27T16:51:22Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety"
+      },
+      "image": {
+        "src": "/img/verge-anthropic-ipo-governance.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "genie-4-world-model",
+      "title": "DeepMind's Genie 4 generates interactive worlds with sound and dialogue",
+      "takeaway": "Research preview for trusted testers now, with Gemini API early access to follow.",
+      "soWhat": "Simulated worlds for training robots and agents are moving from labs toward Gemini API early access.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-10-27T16:10:55Z",
+      "source": {
+        "name": "@GoogleDeepMind on X",
+        "url": "https://x.com/GoogleDeepMind/status/2115114028338962672"
+      },
+      "related": [
+        {
+          "name": "Google DeepMind blog: Genie 4",
+          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+        },
+        {
+          "name": "Sundar Pichai on X",
+          "url": "https://x.com/sundarpichai/status/2115115252690145519"
+        },
+        {
+          "name": "The Verge: Google's next Genie AI model",
+          "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model"
+        },
+        {
+          "name": "Hacker News: Genie 4",
+          "url": "https://news.ycombinator.com/item?id=50261319"
+        }
+      ],
+      "image": {
+        "src": "/img/genie-4-world-model.jpg",
+        "alt": "Image from @GoogleDeepMind on X"
+      },
+      "heat": {
+        "score": 68,
+        "level": "warm",
+        "metric": "240k views"
+      }
+    },
+    {
+      "id": "mengto-3d-worlds-from-images",
+      "title": "Meng To builds explorable 3D worlds from single images",
+      "takeaway": "One image per world; Claude Code drove the camera through an MCP connection.",
+      "soWhat": "Explorable 3D scenes for landing pages or demos now take one image and an agent.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-10-27T15:30:30Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2115103854895517714"
+      },
+      "image": {
+        "src": "/img/mengto-3d-worlds-from-images.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 77,
+        "level": "hot",
+        "metric": "4k views"
+      }
+    },
+    {
+      "id": "horowitz-databricks-future-of-firm",
+      "title": "Horowitz: agents need new systems of record, everyone becomes a manager",
+      "takeaway": "He cites Databricks, an a16z portfolio company, seeing more queries from agents than people.",
+      "soWhat": "If agents query your data more than people do, your data systems and org chart need rethinking.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-27T14:10:28Z",
+      "source": {
+        "name": "@bhorowitz on X",
+        "url": "https://x.com/bhorowitz/status/2115083713512091917"
+      },
+      "related": [
+        {
+          "name": "a16z clip: Ali Ghodsi on turning down an acquisition",
+          "url": "https://x.com/a16z/status/2115103896976912832"
+        }
+      ],
+      "image": {
+        "src": "/img/horowitz-databricks-future-of-firm.jpg",
+        "alt": "Image from @bhorowitz on X"
+      },
+      "heat": {
+        "score": 34,
+        "level": "none",
+        "metric": "78k views"
+      }
+    },
+    {
+      "id": "apple-iwork-ai-assistant-mcp",
+      "title": "Apple's Pages, Keynote and Numbers open to outside AI agents via MCP",
+      "takeaway": "An Apple and OpenAI-built assistant arrives in beta; the apps support MCP on macOS 27.",
+      "soWhat": "MCP support in everyday office apps makes it a standard your agent tools should speak.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-10-27T13:50:51Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update"
+      },
+      "image": {
+        "src": "/img/apple-iwork-ai-assistant-mcp.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "stanford-authors-sue-anthropic",
+      "title": "Stanford authors skip Anthropic's $1.5B settlement to sue separately",
+      "takeaway": "They seek a jury trial and up to $150,000 per work in Cruz v. Anthropic.",
+      "soWhat": "Training-data liability is not settled, so ask vendors how their models' data was obtained.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-10-27T09:46:17Z",
+      "source": {
+        "name": "The Stanford Daily",
+        "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50260814"
+        }
+      ],
+      "image": {
+        "src": "/img/stanford-authors-sue-anthropic.jpg",
+        "alt": "Image from The Stanford Daily"
+      }
+    },
+    {
+      "id": "ai-promised-less-work",
+      "title": "Parallel coding agents pushed one VP back to record workloads",
+      "takeaway": "His 2026 GitHub activity already beats every full year from 2021 to 2025.",
+      "soWhat": "Agents can raise output and fatigue together, so budget for review and context switching.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-27T00:00:00Z",
+      "source": {
+        "name": "oioannou.com",
+        "url": "https://oioannou.com/blog/ai-promised-less-work/"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50257325"
+        }
+      ],
+      "image": {
+        "src": "/img/ai-promised-less-work.jpg",
+        "alt": "Image from oioannou.com"
+      }
+    },
+    {
+      "id": "arxiv-skilllifebench",
+      "title": "Models that tie on tasks split widely managing skill versions",
+      "takeaway": "Two models at 82% on runtime tasks scored 96.7% and 56.7% on lifecycle tasks.",
+      "soWhat": "Test agents on how they handle skill updates, not only on task scores.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-10-26T11:07:04Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.35215"
+      },
+      "image": {
+        "src": "/img/arxiv-skilllifebench.jpg",
+        "alt": "arXiv: Models that tie on tasks split widely managing skill versions"
+      }
+    },
+    {
+      "id": "arxiv-conflict-of-skills-attack",
+      "title": "Safe agent skills can break policy once combined, paper finds",
+      "takeaway": "Violations rose from 35.02% to 58.45%; a harness guard cut them sharply.",
+      "soWhat": "Vetting each agent skill alone is not enough; check actions at the harness level too.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-10-26T09:25:38Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.35082"
+      },
+      "image": {
+        "src": "/img/arxiv-conflict-of-skills-attack.jpg",
+        "alt": "arXiv: Safe agent skills can break policy once combined, paper finds"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "Ann Lipton, via The Verge",
+      "quote": "Anthropic is entirely insulated from profit seeking pressures, in the sense that ordinary shareholders have no ability to select the board or make business decisions.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety"
+    },
+    {
+      "handle": "@LangChain",
+      "quote": "Taste comes from context. Models already write good code, but they need your designers' principles, guardrails against AI slop, and the reasoning behind feedback.",
+      "url": "https://x.com/LangChain/status/2115124503093121121"
+    },
+    {
+      "handle": "@bhorowitz",
+      "quote": "The long-term impact isn't necessarily 'everyone is an engineer.' It might be closer to, 'Everyone is a manager.'",
+      "url": "https://x.com/bhorowitz/status/2115083713512091917"
+    },
+    {
+      "handle": "oioannou.com",
+      "quote": "Each agent eventually comes back with a question, a plan to approve, a diff to read or a result to make sense of.",
+      "url": "https://oioannou.com/blog/ai-promised-less-work/"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/GoogleDeepMind/status/2115114028338962672",
+      "handle": "@GoogleDeepMind",
+      "text": "Genie 4: a real-time interactive world model with native audio and dialogue, steered by text prompts.",
+      "metric": "4.2k likes",
+      "note": "A major lab is pitching simulated worlds as training grounds for robots and agents."
+    },
+    {
+      "url": "https://x.com/bhorowitz/status/2115083713512091917",
+      "handle": "@bhorowitz",
+      "text": "Databricks sees more queries from agents than people; the long-term impact might be 'Everyone is a manager.'",
+      "metric": "294 likes",
+      "note": "A top investor reframes how agents change the shape of companies."
+    },
+    {
+      "url": "https://x.com/amasad/status/2115129060267262190",
+      "handle": "@amasad",
+      "text": "Replit Cloud Agents: describe a change in plain language; the agent tests it and opens a PR engineers approve.",
+      "metric": "76 likes",
+      "note": "Non-engineers changing production code tests how far agents can go inside companies."
+    },
+    {
+      "url": "https://x.com/MengTo/status/2115103854895517714",
+      "handle": "@MengTo",
+      "text": "Seven explorable 3D worlds in the browser, one picture per world, with Claude Code directing the camera.",
+      "metric": "45 likes",
+      "note": "Designers see a fast path from one image to an interactive scene."
+    }
+  ]
+}
