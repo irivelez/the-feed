@@ -1,0 +1,371 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-27-1235",
+  "generatedAt": "2026-10-27T17:39:15Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-27T11:40:00Z",
+    "to": "2026-10-27T17:40:00Z"
+  },
+  "sourceNotes": [
+    "Midday window (11:40Z to 17:40Z Oct 27). Leads: Genie 4 (DeepMind), Replit Cloud Agents for company repos, LangChain open-sourced Content Studio, two agent-skills security papers.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returned HTTP 500 again; it moved to dwarkesh.com/feed. Config URL should be updated.",
+    "RSS with 0 new items: Simon Willison, OpenAI Blog, Lenny Rachitsky, Stratechery, Benedict Evans, One Useful Thing, Gary Marcus, Mitchell Hashimoto, The Atlantic. MIT Tech Review: only The Download newsletter (Anthropic IPO, grids), not used. Verge not used: Firefox Smart Window AI form filling, VisionQuest review.",
+    "Metaplanet Google News: two items (Bitcoin Magazine BoJ liquidity piece, TronWeekly Vanguard $7.5M) are crypto price/market coverage (muted topic) or duplicates of vanguard-vss-metaplanet-position; not used.",
+    "Hacker News >=200 in window, not used: Wikipedia's cleanup of AI-generated content (295), Python experimental JIT removal (307), Roblox model scraping (415), Mythical Man-Month in the Age of AI (362). Claude privacy page 'Is my data used for model training?' at 173 (below threshold).",
+    "arXiv (cs.AI/cs.CL/cs.MA, agent titles): no new listings since Oct 26 batch; used CoSA (2610.35082) and SkillLifeBench (2610.35215), boosted for agent security and Skills.",
+    "X howTo lane not used: swyx bag-fumble post, startupideaspod, kloss_xyz, rubenhassid GDPR steps, Ronycoder sponsored post, tibo_maker MRR post, AlexFinn Claude Duet tips (promo framing), NousResearch Hermes Agent plan revamp (pricing change only), theo, poteto and mattyp posts about Grok Bot features.",
+    "X bigPicture lane not used: elonmusk posts are no-text or reposts; AravSrinivas Perplexity Computer clip; a16z Alpha School and agent task-length clips (no primary data in post); ycombinator RFS-style post; garrytan agent-swarm opinion; beffjezos manufacturing.",
+    "X frontierCapital: nathanbenaich 'geek squad for AI' clip, not used. Design lane: MengTo used.",
+    "X queries lane: mostly low-engagement promo and listicles; the min_likes operator is ignored by X search. Nothing above 100 likes with primary proof beyond posts already covered.",
+    "Replies checked on Genie 4, Databricks, Replit and LangChain threads: none met minFollowers 1000 and minLikes 5; no bestReply.",
+    "X calls this run: 13."
+  ],
+  "candidates": [
+    {
+      "id": "genie-4-world-model",
+      "lens": "broad",
+      "topic": "genie-4",
+      "summary": "Google DeepMind announced Genie 4, a real-time interactive world model with native audio and dialogue, steered by text prompts and paired with Gemini models; it is in research preview for trusted testers, with Google AI Ultra and Gemini API early access to follow.",
+      "facts": [
+        "DeepMind blog: \"Genie 4 is natively multimodal, enabling audio-like music, ambient noises, and interactive dialogue to be simultaneously generated with the world.\"",
+        "DeepMind blog: \"Gemini 3.8 Flash serves as a guiding agent in the loop\": it observes the scene, breaks goals into steps and checks incoming frames to verify each step succeeded.",
+        "DeepMind blog: Genie 4 is pitched for \"developing training environments for robots and agents\"; a demo pairs Gemini 4 Argon with Genie 4 to simulate Apptronik's Apollo humanoid playing checkers.",
+        "Availability per the blog: research preview for trusted testers now; \"coming soon to Google AI Ultra subscribers in Project Genie and early access partners in the Gemini API and Google AI Studio.\"",
+        "Stated limits: visual details and object permanence \"can still shift or drift over time\"; legible text, spatial accuracy and long-term consistency are open research areas. Output carries SynthID watermarks.",
+        "Hacker News: 242 points at capture."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/GoogleDeepMind/status/2115114028338962672",
+        "type": "x",
+        "handle": "GoogleDeepMind"
+      },
+      "related": [
+        {
+          "name": "Google DeepMind blog: Genie 4",
+          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+        },
+        {
+          "name": "Sundar Pichai on X",
+          "url": "https://x.com/sundarpichai/status/2115115252690145519"
+        },
+        {
+          "name": "The Verge: Google's next Genie AI model",
+          "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model"
+        },
+        {
+          "name": "Hacker News: Genie 4",
+          "url": "https://news.ycombinator.com/item?id=50261319"
+        }
+      ],
+      "publishedAt": "2026-10-27T16:10:55Z",
+      "firstSeen": "2026-10-27",
+      "care": 3,
+      "proof": 5,
+      "metrics": {
+        "likes": 4177,
+        "reposts": 502,
+        "replies": 274,
+        "views": 239981,
+        "capturedAt": "2026-10-27T17:38:00Z",
+        "authorBaseline": 642
+      },
+      "imageHint": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+    },
+    {
+      "id": "replit-cloud-agents-company-codebase",
+      "lens": "practical",
+      "topic": "self-driving-company",
+      "summary": "Replit launched Cloud Agents for existing company repos: non-engineers describe a change in plain language, the agent tests it in a cloud sandbox, attaches screenshots and video, and opens a GitHub PR or GitLab MR that engineers approve.",
+      "facts": [
+        "Replit blog: Cloud Agents \"open your running app in a browser and click through the change the way a customer would\", fix failures, then attach screenshots and video to the pull request.",
+        "Replit on X: \"Our own design team used Replit to safely ship over 250k lines of code in the last 6 months, reviewed and approved by engineers.\"",
+        "Review feedback can become team skills: the agent proposes updates to \"the written instructions agents follow in your codebase\" and engineers approve each update (early access).",
+        "Replit says workspace memory cut its own token usage by 51% and a common data task from 16 minutes to 1 minute.",
+        "Shared environments: an admin sets up one VM with repos, runtimes and dependencies that updates from main; credentials come from external secrets managers through a credential broker.",
+        "Available to Pro and Enterprise customers; Slack integration for all customers; Microsoft Teams \"coming soon\"."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/amasad/status/2115129060267262190",
+        "type": "x",
+        "handle": "amasad"
+      },
+      "related": [
+        {
+          "name": "Replit blog: Anyone can bring ideas to the company codebase",
+          "url": "https://replit.com/blog/anyone-can-bring-ideas-to-company-codebase"
+        },
+        {
+          "name": "Replit announcement on X",
+          "url": "https://x.com/Replit/status/2115109663993966737"
+        }
+      ],
+      "publishedAt": "2026-10-27T17:10:39Z",
+      "firstSeen": "2026-10-27",
+      "care": 4,
+      "proof": 4,
+      "metrics": {
+        "likes": 76,
+        "reposts": 5,
+        "replies": 24,
+        "views": 5406,
+        "capturedAt": "2026-10-27T17:38:00Z",
+        "authorBaseline": 425
+      },
+      "imageHint": "https://replit.com/blog/anyone-can-bring-ideas-to-company-codebase"
+    },
+    {
+      "id": "langchain-content-studio-design-agent",
+      "lens": "practical",
+      "topic": "content-studio-design-agent",
+      "summary": "LangChain open-sourced Content Studio, its in-house design agent in Slack that produces on-brand videos, graphics and decks as code, and published how it built the harness over four months.",
+      "facts": [
+        "LangChain article: \"Taste comes from context. Models already write good code, but they need your designers' principles, guardrails against AI slop, and the reasoning behind feedback.\"",
+        "\"Every Slack thread gets its own sandbox where the agent keeps the project between turns, works across a video engine, image tools, and a shared canvas, and inspects its own renders.\"",
+        "\"Delete rules when the model improves. Rules that make up for a model's weaknesses expire.\"",
+        "Long jobs run for hours on async subagents; the Slack thread shows the plan, live progress and an approval step before anything ships.",
+        "\"Every asset the agent produces is written in code.\" Built on Managed Deep Agents; the repo can be forked with your own brand tokens, fonts and skills."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/LangChain/status/2115124503093121121",
+        "type": "x",
+        "handle": "LangChain"
+      },
+      "related": [
+        {
+          "name": "Harrison Chase on X",
+          "url": "https://x.com/hwchase17/status/2115130348187349104"
+        }
+      ],
+      "publishedAt": "2026-10-27T16:52:33Z",
+      "firstSeen": "2026-10-27",
+      "care": 4,
+      "proof": 4,
+      "metrics": {
+        "likes": 18,
+        "reposts": 5,
+        "replies": 7,
+        "views": 3827,
+        "capturedAt": "2026-10-27T17:38:00Z",
+        "authorBaseline": 24
+      },
+      "imageHint": "https://x.com/LangChain/status/2115124503093121121"
+    },
+    {
+      "id": "arxiv-conflict-of-skills-attack",
+      "lens": "practical",
+      "topic": "agent-skills-security",
+      "summary": "A paper shows that Agent Skills that are safe one by one can break policy when combined: adding locally admitted Skills (capped at 5% of a pool) raised policy-violation rates from 35.02% to 58.45% across five LLMs and three harnesses; a harness-level guard cut violations sharply.",
+      "facts": [
+        "Abstract: \"checking each Skill in isolation cannot rule out policy violations when they are composed.\"",
+        "CoSA-Bench: 288 tasks across recruiting, finance, IT and business, covering data leakage, unauthorized state modification and unsafe execution, built from real-world Skills.",
+        "The attack \"leaves existing Skills and runtime permissions unchanged\".",
+        "A lightweight guard that \"checks information flow and authorization before consequential actions\" reduced violations on OpenClaw recruiting tasks from 65.28% to 6.67%, while benign task completion went from 66.67% to 65.00%."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.35082",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-10-26T09:25:38Z",
+      "firstSeen": "2026-10-27",
+      "care": 4,
+      "proof": 4
+    },
+    {
+      "id": "arxiv-skilllifebench",
+      "lens": "practical",
+      "topic": "agent-skills-security",
+      "summary": "SkillLifeBench tests what happens when an agent's stored, selected and loaded skill versions drift apart: models that tie on runtime tasks split widely once they manage the skill lifecycle themselves, and execution provenance improves recovery.",
+      "facts": [
+        "388 paired scenarios spanning implementation, interface, runtime, composition and version changes; 14 models evaluated.",
+        "Abstract: \"GPT-5.6-Sol and Sonnet 4.6 both achieve 82.0% on runtime tasks, but reach 96.7% and 56.7% on lifecycle tasks.\"",
+        "Across lifecycle evaluations, challenged task success is 77.5% while joint success (task done without the attack goal) is 65.2%; \"103 runs complete the task and the attack goal.\"",
+        "Adding execution provenance raised joint success from 49.35% (logs and metadata) to 65.58%."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.35215",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-10-26T11:07:04Z",
+      "firstSeen": "2026-10-27",
+      "care": 3,
+      "proof": 4
+    },
+    {
+      "id": "apple-iwork-ai-assistant-mcp",
+      "lens": "broad",
+      "topic": "apple-iwork-ai",
+      "summary": "Apple is adding an AI assistant built on Apple and OpenAI models to Pages, Keynote and Numbers, and the three apps now support the Model Context Protocol on macOS 27 so third-party agents can plug in.",
+      "facts": [
+        "The Verge: the assistant \"is built on AI models from Apple and OpenAI\" and \"can understand a document's context to perform tasks like designing, animating, and refining slides in Keynote.\"",
+        "The Verge: \"Keynote, Pages, and Numbers now support the Model Context Protocol on macOS 27 or later, allowing third-party AI agents to plug into the apps.\"",
+        "Rolling out in beta to Apple Intelligence devices on iOS 27, iPadOS 27 or macOS 27 or later.",
+        "Logic Pro gets an AI assistant that can \"set up a vocal track from a single prompt\"; Pixelmator Pro adds Generate Fill."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-27T13:50:51Z",
+      "firstSeen": "2026-10-27",
+      "care": 3,
+      "proof": 4
+    },
+    {
+      "id": "verge-anthropic-ipo-governance",
+      "lens": "broad",
+      "topic": "anthropic-ipo",
+      "summary": "The Verge laid out how Anthropic's proposed IPO governance limits shareholder power: its Long-Term Benefit Trust picks four of seven directors through Class T stock, and a Founder LLC of seven co-founders holds 50.1% of shareholder voting power.",
+      "facts": [
+        "Per The Verge: four of the board's seven directors will be chosen by the long-term benefit trust, made up of \"five financially disinterested voting trustees\".",
+        "Founder LLC will control 50.1 percent of the voting power on shareholder matters; its initial members are Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish and Christopher Olah. Co-founder Ben Mann is not listed.",
+        "Ann Lipton (University of Colorado Law School): \"Anthropic is entirely insulated from profit seeking pressures, in the sense that ordinary shareholders have no ability to select the board or make business decisions.\"",
+        "Lipton also: \"It's not clear to me that any governance structure will protect against the market reality that unless Anthropic takes advantage of profit making opportunities at a faster pace than its competitors, it will not be able to fund its operations.\"",
+        "Anthropic did not respond to The Verge's request for comment."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-27T16:51:22Z",
+      "firstSeen": "2026-10-26",
+      "care": 3,
+      "proof": 4
+    },
+    {
+      "id": "stanford-authors-sue-anthropic",
+      "lens": "broad",
+      "topic": "ai-training-copyright",
+      "summary": "Stanford professors Tobias Wolff and Chang-rae Lee opted out of the $1.5B Bartz v. Anthropic settlement and are suing separately (Cruz v. Anthropic), seeking a jury trial and up to $150,000 in statutory damages per work.",
+      "facts": [
+        "Stanford Daily: the Bartz settlement paid authors and publishers of nearly 500,000 registered works, about $3,000 per work.",
+        "Cruz v. Anthropic was filed in May 2026; Wolff and 27 other authors say the settlement isn't enough.",
+        "Plaintiffs allege Anthropic downloaded and stored books from shadow libraries such as LibGen and PiLiMi.",
+        "Judge William Alsup earlier held that training on lawfully acquired books was fair use, but pirating books for a permanent central library was not.",
+        "Wolff: \"[The settlement] still gives Anthropic pretty free rein to roam through our literature and basically take what they think will be useful and profitable for them.\""
+      ],
+      "source": {
+        "name": "The Stanford Daily",
+        "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50260814"
+        }
+      ],
+      "publishedAt": "2026-10-27T09:46:17Z",
+      "firstSeen": "2026-10-27",
+      "care": 2,
+      "proof": 4
+    },
+    {
+      "id": "ai-promised-less-work",
+      "lens": "broad",
+      "topic": "agent-workload",
+      "summary": "An engineering VP's GitHub data shows running parallel coding agents pushed his 2026 activity back to his busiest individual-contributor levels, and he describes the constant context switching between agents as a new kind of fatigue.",
+      "facts": [
+        "Author is VP of Technology at Bold.org; contributions by October 27, 2026: 2,102, \"already more than any full year from 2021 to 2025\".",
+        "August 2026 was his busiest month on record: 427 contributions vs a previous high of 319 in April 2020.",
+        "Days with 24+ contributions: exactly one per year 2022-2025; 16 so far in 2026.",
+        "\"Each agent eventually comes back with a question, a plan to approve, a diff to read or a result to make sense of. Responding means switching contexts: reloading a different problem, a different repository and a different set of decisions.\"",
+        "Hacker News: 580 points at capture."
+      ],
+      "source": {
+        "name": "oioannou.com",
+        "url": "https://oioannou.com/blog/ai-promised-less-work/",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50257325"
+        }
+      ],
+      "publishedAt": "2026-10-27T00:00:00Z",
+      "firstSeen": "2026-10-27",
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "horowitz-databricks-future-of-firm",
+      "lens": "frontier-capital",
+      "topic": "agents-future-of-firm",
+      "summary": "Ben Horowitz argues agents need a new kind of system of record and that work shifts toward \"everyone is a manager\"; he cites Databricks, an a16z portfolio company, as seeing more queries from agents than from people.",
+      "facts": [
+        "Horowitz: Databricks has \"surpassed a $7 billion run rate, growing 80% y/y\".",
+        "Horowitz: \"Today, the company is seeing more queries from agents than people, and more than 17 million databases are launched by agents every day.\"",
+        "He frames two shifts: agentic automation, and employees closest to a problem acting \"without waiting for information and authority to travel through layers of hierarchy\".",
+        "\"The long-term impact isn't necessarily 'everyone is an engineer.' It might be closer to, 'Everyone is a manager.'\"",
+        "Disclosure context: a16z is a Databricks investor; the figures are the company's as relayed by Horowitz, not audited numbers."
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/bhorowitz/status/2115083713512091917",
+        "type": "x",
+        "handle": "bhorowitz"
+      },
+      "related": [
+        {
+          "name": "a16z clip: Ali Ghodsi on turning down an acquisition",
+          "url": "https://x.com/a16z/status/2115103896976912832"
+        }
+      ],
+      "publishedAt": "2026-10-27T14:10:28Z",
+      "firstSeen": "2026-10-27",
+      "care": 3,
+      "proof": 3,
+      "metrics": {
+        "likes": 294,
+        "reposts": 37,
+        "replies": 10,
+        "views": 78110,
+        "capturedAt": "2026-10-27T17:38:00Z",
+        "authorBaseline": 162
+      },
+      "imageHint": "https://x.com/bhorowitz/status/2115083713512091917"
+    },
+    {
+      "id": "mengto-3d-worlds-from-images",
+      "lens": "design",
+      "topic": "image-to-3d-worlds",
+      "summary": "Meng To built seven small browser-based 3D worlds, each from a single image, using Viggle's JST-2 world model for Gaussian-splat scenes and rigged characters, then had Claude Code drive the camera through the PINOC MCP.",
+      "facts": [
+        "Meng To: \"One picture per world, one per character.\"",
+        "Viggle PINOC on the JST-2 world model \"turned them into Gaussian splat worlds and rigged characters that run in the browser.\"",
+        "\"Then Claude Code, connected to the PINOC MCP, walked Fern through every world and directed the camera.\"",
+        "\"Imagine it as a landing page, a game or a demo people can explore.\""
+      ],
+      "source": {
+        "name": "X",
+        "url": "https://x.com/MengTo/status/2115103854895517714",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-10-27T15:30:30Z",
+      "firstSeen": "2026-10-27",
+      "care": 3,
+      "proof": 3,
+      "metrics": {
+        "likes": 45,
+        "reposts": 4,
+        "replies": 14,
+        "views": 3633,
+        "capturedAt": "2026-10-27T17:38:00Z",
+        "authorBaseline": 6
+      },
+      "imageHint": "https://x.com/MengTo/status/2115103854895517714"
+    }
+  ]
+}
