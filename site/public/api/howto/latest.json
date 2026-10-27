@@ -1,37 +1,48 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-26T18:05:11Z",
+  "updatedAt": "2026-10-27T00:13:26Z",
+  "runId": "2026-10-26-1900",
   "howtos": [
     {
-      "id": "split-one-way-door-pr",
-      "dedupeKey": "split-one-way-door-pr-expand-contract",
-      "title": "Split a risky one-way-door PR into two stacked PRs",
-      "what": "Matt Pocock's prompt: have the agent ship a revertible PR first, then a stacked PR with the irreversible change.",
-      "kind": "prompt",
+      "id": "scaffold-cursor-agent-sdk",
+      "dedupeKey": "cursor-agent-sdk-scaffold-first-agent",
+      "title": "Scaffold your first agent with Cursor's Agent SDK",
+      "what": "The install-to-deploy steps for a code-defined agent on Cursor's Agent SDK.",
+      "kind": "steps",
       "copy": [
-        "Split this \"one-way door\" PR into two: 1. A PR that implements everything, except it can be easily reverted (a two-way door) 2. A followup PR (stacked on top) that actually goes through the one-way door"
+        "Use Node 22.13 or later.",
+        "Install the CLI: npm install --global @grok/agent-sdk",
+        "Scaffold a project: agent-sdk init ./my-bot",
+        "Run it locally: agent-sdk dev",
+        "Deploy to Cursor with agent-sdk deploy, or run it on your own infrastructure as a single Node process."
       ],
-      "whenToUse": "When an agent-written PR includes an irreversible change, such as a migration, and you want to test most of it in production first.",
+      "whenToUse": "When you want a custom agent, such as a PR reviewer, defined as code with prompts, tools and evals.",
       "source": {
-        "name": "@mattpocockuk on X",
-        "url": "https://x.com/mattpocockuk/status/2114749427889979405"
+        "name": "Cursor blog",
+        "url": "https://cursor.com/blog/agent-sdk"
       },
       "author": {
-        "name": "Matt Pocock",
-        "handle": "mattpocockuk"
+        "name": "Cursor",
+        "handle": "cursor_ai"
       },
+      "alsoFrom": [
+        {
+          "name": "@cursor_ai on X",
+          "url": "https://x.com/cursor_ai/status/2114793714531102901"
+        }
+      ],
       "tags": [
-        "coding-agents",
-        "prompts",
-        "deployment"
+        "agents",
+        "sdk",
+        "coding-agents"
       ],
       "quality": 4,
-      "verbatim": true,
+      "verbatim": false,
       "briefItem": {
-        "briefId": "2026-10-26-1300",
-        "itemId": "pocock-one-way-door-pr-prompt"
+        "briefId": "2026-10-26-1900",
+        "itemId": "cursor-agent-sdk"
       },
-      "addedAt": "2026-10-26T18:05:11Z"
+      "addedAt": "2026-10-27T00:13:26Z"
     }
   ]
 }

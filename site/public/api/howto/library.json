@@ -1,7 +1,48 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-26T18:05:11Z",
+  "updatedAt": "2026-10-27T00:13:26Z",
   "howtos": [
+    {
+      "id": "scaffold-cursor-agent-sdk",
+      "dedupeKey": "cursor-agent-sdk-scaffold-first-agent",
+      "title": "Scaffold your first agent with Cursor's Agent SDK",
+      "what": "The install-to-deploy steps for a code-defined agent on Cursor's Agent SDK.",
+      "kind": "steps",
+      "copy": [
+        "Use Node 22.13 or later.",
+        "Install the CLI: npm install --global @grok/agent-sdk",
+        "Scaffold a project: agent-sdk init ./my-bot",
+        "Run it locally: agent-sdk dev",
+        "Deploy to Cursor with agent-sdk deploy, or run it on your own infrastructure as a single Node process."
+      ],
+      "whenToUse": "When you want a custom agent, such as a PR reviewer, defined as code with prompts, tools and evals.",
+      "source": {
+        "name": "Cursor blog",
+        "url": "https://cursor.com/blog/agent-sdk"
+      },
+      "author": {
+        "name": "Cursor",
+        "handle": "cursor_ai"
+      },
+      "alsoFrom": [
+        {
+          "name": "@cursor_ai on X",
+          "url": "https://x.com/cursor_ai/status/2114793714531102901"
+        }
+      ],
+      "tags": [
+        "agents",
+        "sdk",
+        "coding-agents"
+      ],
+      "quality": 4,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-10-26-1900",
+        "itemId": "cursor-agent-sdk"
+      },
+      "addedAt": "2026-10-27T00:13:26Z"
+    },
     {
       "id": "split-one-way-door-pr",
       "dedupeKey": "split-one-way-door-pr-expand-contract",
