@@ -1,0 +1,264 @@
+{
+ "schemaVersion": "1.1",
+ "runId": "2026-10-28-0635",
+ "generatedAt": "2026-10-28T11:42:00Z",
+ "configVersions": {
+  "sources": "1.3.0",
+  "preferences": "1.1.0"
+ },
+ "window": {
+  "from": "2026-10-27T23:35:00Z",
+  "to": "2026-10-28T11:40:00Z"
+ },
+ "sourceNotes": [
+  "Overnight window (23:35Z Oct 27 to 11:40Z Oct 28), quiet. Leads: Anthropic study on AI agents shaping experts' judgment calls, Axiom's Lean formalization of the finite simple groups classification (announced Oct 27 14:34Z, missed by earlier runs), Artificial Analysis Intelligence Index v5, four arXiv agent papers.",
+  "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returned HTTP 500 again; it moved to dwarkesh.com/feed. Config URL should be updated.",
+  "RSS with 0 new items: MIT Tech Review, OpenAI Blog, Lenny Rachitsky, Stratechery, Benedict Evans, One Useful Thing, Gary Marcus, Mitchell Hashimoto, The Atlantic, Metaplanet Google News. Simon Willison: one quote post, not used. Verge: Meta 'AI pet journal' app, not used.",
+  "Hacker News >=150 since 17:00Z Oct 27, not used: Survival LLM offline assistant (378), Discord public messages in Google (305), Tailscale SSH remediation (299), Git for the US Code (298), wealth inequality (207), UEFI flaw (164). Anthropic drug-development post (240) already in 18:34 run.",
+  "arXiv (cs.AI/cs.CL/cs.MA, agent titles): Oct 27 batch; used 2610.37461, 2610.37434, 2610.37224, 2610.37201. Not used: Blindfold audit-coin secrecy (2610.37055), Evolving Agent Teams (2610.36848), commit-boundary guardrail (conceptual, no evaluation), scaffold-evolution eval budget, GEPA-Curator and others.",
+  "X howTo lane not used: steipete OpenClaw offline web UI and Disney bug jab; rubenhassid Claude Motion how-to (motion story covered Oct 24-25); kunchenguid claim that agent sessions are sold ('magma ai'), no primary proof; mattpocockuk pit-of-success post and /pr skill example; Ronycoder sponsored posts; theo Mac vs PC, t3os and other small T3 Code updates; poteto domain post.",
+  "X bigPicture lane not used: elonmusk posts are promo one-liners (Grok Bot, Starship, Starlink); alexandr_wang Muse tour posts; beffjezos opinion posts; stratechery daily update (Meta earnings, Muse) is paywalled, no primary source read. Demis Hassabis Genie 4 post (3,333 likes) is the same story as genie-4-world-model in the 12:35 Oct 27 run (topic genie-4).",
+  "X News: Instinct agent in iMessage group chats (Noah Shinn) and Trump post on banning the term 'AI' in government documents (partisan politics, muted) seen but not used; Amazon Nova scale-back story is stale (dropped last run).",
+  "X frontierCapital: TaviCosta gold-miner valuations (market commentary), LynAldenContact novel promo, nathanbenaich one-liners; none used. Design lane (MengTo): no posts in window.",
+  "X queries lane: min_likes operator did not filter; top item 71 likes, listicles and promo, nothing with primary proof.",
+  "Replies: not checked this run (quiet window, small X budget used); no bestReply.",
+  "authorBaseline omitted for all X candidates (not read this run).",
+  "X calls this run: 13.",
+  "anthropic-agents-shape-expert-judgment: the page gives only the date (Oct 27, 2026); publishedAt is set to midnight UTC of that date."
+ ],
+ "candidates": [
+  {
+   "id": "anthropic-agents-shape-expert-judgment",
+   "lens": "broad",
+   "topic": "agent-influence-on-experts",
+   "summary": "Anthropic ran a study in which 50 causal-inference analysts did a statistical analysis with Claude Code whose agent had a hidden, coin-flipped lean on each judgment call; analysts went with the agent's lean 86% of the time and mostly still called the result their own.",
+   "facts": [
+    "Anthropic: across four analytical choices, analysts went with their agent's lean 86% of the time, against about 50% expected if the agent made no difference (92% outcome measure, 82% comparison method, 81% farms covered, 90% weighting).",
+    "Anthropic: when analysts had stated a preference first, they switched 60% of the time if the agent disagreed versus 6% if it agreed; this rests on 38 cases, 95% CI 24 to 82 points.",
+    "Anthropic: 77% repeated their agent's argument in at least one explanation, sometimes word for word; only 15% credited the agent.",
+    "Anthropic: on the final recommendation, 54% recommended rollout when the agent leaned rollout versus 36% when it leaned the other way.",
+    "Anthropic: of 11 participants who worked without the agent, 6 (55%) made serious methodological errors versus 3 of 50 (6%) with it; median time 90 versus 65 minutes; the groups were not directly comparable.",
+    "Setup per Anthropic: 61 analysts recruited, Claude Code in a web VS Code running Claude Opus 4.8 at High effort; the agent was told to argue its lean honestly, change its mind if evidence demanded, and never mislead.",
+    "Anthropic: \"We don't know how much this tells us about the real world\"; leans were strengthened on purpose."
+   ],
+   "source": {
+    "name": "Anthropic Research",
+    "url": "https://www.anthropic.com/research/agents-judgment-calls",
+    "type": "blog"
+   },
+   "related": [
+    {
+     "name": "Paper (PDF)",
+     "url": "https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf"
+    }
+   ],
+   "publishedAt": "2026-10-27T00:00:00Z",
+   "firstSeen": "2026-10-28",
+   "care": 5,
+   "proof": 5,
+   "imageHint": "https://www.anthropic.com/research/agents-judgment-calls"
+  },
+  {
+   "id": "axiom-cfsg-lean-formalization",
+   "lens": "broad",
+   "topic": "axiom-cfsg-formalization",
+   "summary": "Axiom Math released a complete Lean formalization of the Classification of Finite Simple Groups, produced over 24 days by engineers and mathematicians directing swarms of dozens of AI agents, about 43.1 million lines of Lean.",
+   "facts": [
+    "Axiom blog: the original proof spans roughly 15,000 pages in more than 500 articles by about 100 mathematicians.",
+    "Axiom blog: \"Over 24 days, engineers and mathematicians at Axiom Math directed swarms of dozens of AI agents in a project that produced approximately 43.1 million lines of code in the Lean proof assistant.\"",
+    "Axiom blog: translating the proof exposed 34 noteworthy deviations from the published record, the most substantial related to the Unbalanced Group Theorem; the work also produced a new result in group theory.",
+    "Axiom published an errata page, an interactive proof map and the code on GitHub."
+   ],
+   "source": {
+    "name": "X",
+    "url": "https://x.com/axiommathai/status/2115089794867040584",
+    "type": "x",
+    "handle": "axiommathai"
+   },
+   "related": [
+    {
+     "name": "Axiom blog: Formalizing the Enormous Theorem",
+     "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/"
+    },
+    {
+     "name": "CFSG proof map",
+     "url": "https://cfsg.axiommath.ai/proof-map"
+    },
+    {
+     "name": "CFSG errata",
+     "url": "https://cfsg.axiommath.ai/errata"
+    },
+    {
+     "name": "Axiom on GitHub",
+     "url": "https://github.com/AxiomMath"
+    }
+   ],
+   "publishedAt": "2026-10-27T14:34:38Z",
+   "firstSeen": "2026-10-28",
+   "care": 3,
+   "proof": 5,
+   "metrics": {
+    "likes": 6273,
+    "reposts": 1569,
+    "replies": 387,
+    "views": 3292444,
+    "capturedAt": "2026-10-28T11:41:00Z"
+   },
+   "imageHint": "https://x.com/axiommathai/status/2115089794867040584"
+  },
+  {
+   "id": "artificial-analysis-index-v5",
+   "lens": "broad",
+   "topic": "artificial-analysis-index-v5",
+   "summary": "Artificial Analysis launched Intelligence Index v5, now 60% based on private or held-out test sets; Claude Opus 5.5 leads at 58, the open-weights gap widened from 3 to 12 points, and cost per task varies more than 13x among top models.",
+   "facts": [
+    "Artificial Analysis: \"With v5, 60% of the Index is now based on evaluations with private test sets or held-out answers.\"",
+    "New: FrontierCode 2.0 (Cognition's private benchmark graded on whether a maintainer would merge the agent's change) and Terminal-Bench-Science (70 agentic research tasks).",
+    "Results: Claude Opus 5.5 (max) 58, GPT-6 Astra (max) 57, GPT-6.1 Sol (max) 55; Gemini 4 Argon (high) 50.",
+    "Open weights: Kimi K3.1 Pro (weights not yet released) 46; among released weights DeepSeek V4.1 Flash 1017 and GLM-5.3 lead at 32, below Claude Haiku 5.5 (36).",
+    "Cost: among the 10 highest-scoring models, GPT-6.1 Terra (max) is cheapest at $0.96 per Index task and Claude Fable 5.1 (max) most expensive at $13.04.",
+    "Also launched: Artificial Analysis Progress Index v1, tracking capability over time on one scale."
+   ],
+   "source": {
+    "name": "X",
+    "url": "https://x.com/ArtificialAnlys/status/2115265133467635877",
+    "type": "x",
+    "handle": "ArtificialAnlys"
+   },
+   "publishedAt": "2026-10-28T02:11:22Z",
+   "firstSeen": "2026-10-28",
+   "care": 4,
+   "proof": 4,
+   "metrics": {
+    "likes": 4058,
+    "reposts": 333,
+    "replies": 422,
+    "views": 849922,
+    "capturedAt": "2026-10-28T11:41:00Z"
+   },
+   "imageHint": "https://x.com/ArtificialAnlys/status/2115265133467635877"
+  },
+  {
+   "id": "arxiv-concordat-typed-sessions",
+   "lens": "practical",
+   "topic": "agent-security",
+   "summary": "Concordat, an open-source Python library, enforces a finite-state protocol on an LLM agent at run time, offering only the tools legal in the current state; on tau-bench airline tasks with pressuring customers it made no unconfirmed changes while the standard agent did.",
+   "facts": [
+    "Paper: the standard tau-bench agent made changes without the required \"yes\" in 13 of 50 tasks with gpt-4.1 and in 29 of 128 task-runs with Claude Haiku 5.5; the Concordat agent made none, with no significant difference in task success.",
+    "Paper: \"tau-bench's own reward did not detect most of these violations.\"",
+    "Calls outside the legal tool set are rejected before side effects; decisions reserved for humans can only be requested; token and tool-call budgets are split across handoffs."
+   ],
+   "source": {
+    "name": "arXiv",
+    "url": "https://arxiv.org/abs/2610.37461",
+    "type": "arxiv"
+   },
+   "publishedAt": "2026-10-27T16:00:26Z",
+   "firstSeen": "2026-10-28",
+   "care": 4,
+   "proof": 4
+  },
+  {
+   "id": "arxiv-featurearc-evolving-features",
+   "lens": "practical",
+   "topic": "coding-agent-evals",
+   "summary": "FeatureArc benchmarks coding agents on features that evolve over 2 to 10 stages in one session; pooled success drops from 62.7% at the first stage to 28.5% when the whole feature is tested at the end.",
+   "facts": [
+    "Paper: 10 coding agents on 73 manually reviewed tasks across four languages, one persistent session, no external test feedback or rollback.",
+    "Paper: inherited defects appear in 72.9% of failed later stages; agents leave the earlier error unnoticed about 95% of the time.",
+    "Authors include Tencent researchers; the pipeline is used for internal evaluations guiding Hunyuan."
+   ],
+   "source": {
+    "name": "arXiv",
+    "url": "https://arxiv.org/abs/2610.37434",
+    "type": "arxiv"
+   },
+   "publishedAt": "2026-10-27T15:45:50Z",
+   "firstSeen": "2026-10-28",
+   "care": 4,
+   "proof": 4
+  },
+  {
+   "id": "arxiv-spine-subtask-context",
+   "lens": "practical",
+   "topic": "agent-context-management",
+   "summary": "Spine lets a coding agent declare subtask scopes and compiles a subtask tree into its context, keeping unfinished work and replacing finished subtasks with their results; built into Codex it raised SWE-Milestone score 11.8% while cutting cost 32.4%.",
+   "facts": [
+    "Paper: SpineCodex with GPT-5.6 Sol vs native Codex: +11.8% SWE-Milestone Score, -32.4% total cost, +17.3% average ProgramBench test-pass rate.",
+    "Paper: comparable SWE-Milestone score to recursive subagent delegation at 73.7% lower total cost.",
+    "Paper: integrated into Pi as a package, +9.5 to 17.5% SWE-Milestone with Gemini 3.8 Flash and Qwen 3.8 27B."
+   ],
+   "source": {
+    "name": "arXiv",
+    "url": "https://arxiv.org/abs/2610.37224",
+    "type": "arxiv"
+   },
+   "publishedAt": "2026-10-27T13:33:23Z",
+   "firstSeen": "2026-10-28",
+   "care": 4,
+   "proof": 4
+  },
+  {
+   "id": "arxiv-bipa-skill-optimizers",
+   "lens": "practical",
+   "topic": "agent-skills-optimization",
+   "summary": "A study of three automatic skill optimizers finds the learned skills succeed about as often as the hand-written seed (+0.1 points on average) while reading about 16% more input tokens; dev-set gains vanish on test.",
+   "facts": [
+    "Paper: picking the best of several candidates on at most 30 tasks reports gains this large even when no candidate changed.",
+    "Paper: optimizers almost always add rules, half to re-check work, which the agent follows as extra turns.",
+    "Paper's four principles: accept an edit only if its gain exceeds what selection alone reports; charge it for turns added; let the editor delete and merge rules; show it what earlier rules cost.",
+    "Code: github.com/valleysprings/BiPA."
+   ],
+   "source": {
+    "name": "arXiv",
+    "url": "https://arxiv.org/abs/2610.37201",
+    "type": "arxiv"
+   },
+   "related": [
+    {
+     "name": "BiPA code",
+     "url": "https://github.com/valleysprings/BiPA"
+    }
+   ],
+   "publishedAt": "2026-10-27T13:21:09Z",
+   "firstSeen": "2026-10-28",
+   "care": 4,
+   "proof": 4
+  },
+  {
+   "id": "t3-code-triage-command",
+   "lens": "practical",
+   "topic": "t3-code",
+   "summary": "T3 Code added a cmd+k \"triage\" command that clones the app's source for your exact version, hands your agent a debugging playbook, and files an issue if the bug is T3 Code's.",
+   "facts": [
+    "Theo's post: \"Clone the T3 Code source for your exact version\"; \"Give context with a playbook to your agent of choice\"; \"Let you debug and fix the problems with your agent\"; \"Cut an issue if it's our fault\".",
+    "Theo's later post (Day 28) says multi-machine orchestration was \"achieved internally\": \"One thread, multi-model, multi-harness, multi-app, multi-os, multi-machine, multi-network.\"",
+    "The triage post includes a demo video."
+   ],
+   "source": {
+    "name": "X",
+    "url": "https://x.com/theo/status/2115386888630813034",
+    "type": "x",
+    "handle": "theo"
+   },
+   "related": [
+    {
+     "name": "Theo: multi-machine orchestration",
+     "url": "https://x.com/theo/status/2115398275385921844"
+    }
+   ],
+   "publishedAt": "2026-10-28T10:15:10Z",
+   "firstSeen": "2026-10-28",
+   "care": 3,
+   "proof": 3,
+   "metrics": {
+    "likes": 171,
+    "reposts": 2,
+    "replies": 39,
+    "views": 18321,
+    "capturedAt": "2026-10-28T11:41:00Z"
+   },
+   "imageHint": "https://x.com/theo/status/2115386888630813034"
+  }
+ ]
+}
