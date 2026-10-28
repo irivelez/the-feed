@@ -1,275 +1,263 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-10-27-1900",
-  "date": "2026-10-27",
-  "publishedAt": "2026-10-28T00:05:45Z",
-  "edition": "Evening",
+  "id": "2026-10-28-0700",
+  "date": "2026-10-28",
+  "publishedAt": "2026-10-28T12:14:15Z",
+  "edition": "Morning",
   "top3": [
     {
-      "itemId": "anthropic-drug-development-progress",
-      "headline": "Claude caught issues human reviewers missed in drug manufacturing documents",
-      "whyItMatters": "Regulated review work is where agents now show measurable time savings, with humans still checking."
+      "itemId": "anthropic-agents-shape-expert-judgment",
+      "headline": "Experts sided with Claude's hidden lean on 86% of judgment calls",
+      "whyItMatters": "Agent-assisted decisions can carry the agent's lean while people believe the call was theirs."
     },
     {
-      "itemId": "arxiv-agent-in-the-middle-web-vulns",
-      "headline": "Agent-facing web interfaces kept 91% of tested attacks exploitable",
-      "whyItMatters": "Review interface design before exposing systems to agents; it swung exploitability from 39% to 95%."
+      "itemId": "artificial-analysis-index-v5",
+      "headline": "Claude Opus 5.5 tops a harder, mostly private AI benchmark",
+      "whyItMatters": "Cost per task varies more than 13x among top models, so price belongs in model choices."
     },
     {
-      "itemId": "cursor-design-mode-annotate",
-      "headline": "Cursor turns drawing on a web page into agent instructions",
-      "whyItMatters": "Non-engineers can now direct coding agents with visual edits instead of written specs."
+      "itemId": "arxiv-concordat-typed-sessions",
+      "headline": "A state machine stopped agents changing bookings without customer consent",
+      "whyItMatters": "Hard limits on agent actions caught violations the benchmark's own scoring missed."
     }
   ],
   "items": [
     {
-      "id": "anthropic-gsa-onegov-discount",
-      "title": "Anthropic gives US governments 40% off Claude, no minimum spend",
-      "takeaway": "The OneGov deal covers Claude Enterprise, Claude for Government and the API; Anthropic estimates $1B in savings.",
-      "soWhat": "Steep public-sector discounts show vendors buying adoption; use them as a benchmark in your own deals.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-10-27T22:20:23Z",
-      "source": {
-        "name": "@AnthropicAI on X",
-        "url": "https://x.com/AnthropicAI/status/2115207004293853358"
-      },
-      "related": [
-        {
-          "name": "Anthropic: Expanding our partnership with GSA",
-          "url": "https://www.anthropic.com/news/expanding-partnership-gsa"
-        }
-      ],
-      "image": {
-        "src": "/img/anthropic-gsa-onegov-discount.jpg",
-        "alt": "Image from @AnthropicAI on X"
-      },
-      "heat": {
-        "score": 16,
-        "level": "none",
-        "metric": "68k views"
-      }
-    },
-    {
-      "id": "verge-openai-shepherds-gatekeeping",
-      "title": "Researchers object to OpenAI gating its claimed math breakthroughs",
-      "takeaway": "OpenAI released the Kakeya result but routes others through hand-picked expert shepherds; physics is unreleased.",
-      "soWhat": "Big AI claims released to a chosen few are hard to verify, so treat them as unconfirmed.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-10-27T20:51:04Z",
-      "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics"
-      },
-      "image": {
-        "src": "/img/verge-openai-shepherds-gatekeeping.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
-      "id": "anthropic-drug-development-progress",
-      "title": "Anthropic reports early drug-development gains with six partners",
-      "takeaway": "Partners include Bristol Myers Squibb; Anthropic also bought Mithril Medicine and started its own drug programs.",
-      "soWhat": "Claude cut one manufacturing review by 89% while catching more issues, though most work is still preclinical.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 9,
-      "publishedAt": "2026-10-27T20:27:48Z",
-      "source": {
-        "name": "Anthropic",
-        "url": "https://www.anthropic.com/research/early-progress-drug-development"
-      },
-      "related": [
-        {
-          "name": "Anthropic on X",
-          "url": "https://x.com/AnthropicAI/status/2115178675050307942"
-        },
-        {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50265609"
-        }
-      ],
-      "image": {
-        "src": "/img/anthropic-drug-development-progress.jpg",
-        "alt": "Image from Anthropic"
-      },
-      "heat": {
-        "score": 28,
-        "level": "none",
-        "metric": "600k views"
-      }
-    },
-    {
-      "id": "cursor-design-mode-annotate",
-      "title": "Cursor lets you prompt agents by drawing on the page",
-      "takeaway": "Annotate in design mode: edit elements, draw, and check screen sizes; Cmd+Shift+D starts it.",
-      "soWhat": "Designers and PMs can steer coding agents visually, shortening the handoff from mockup to code.",
+      "id": "t3-code-triage-command",
+      "title": "T3 Code's triage command hands bugs to your own agent",
+      "takeaway": "The cmd+k command clones the source for your exact version, gives your agent a playbook, and files an issue if the bug is T3 Code's.",
+      "soWhat": "Tools can now ship playbooks so customers' own agents debug them and file issues.",
       "lens": "practical",
       "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-10-27T19:11:57Z",
-      "source": {
-        "name": "@cursor_ai on X",
-        "url": "https://x.com/cursor_ai/status/2115159585548021814"
-      },
-      "related": [
-        {
-          "name": "Cursor follow-up: how to start",
-          "url": "https://x.com/cursor_ai/status/2115159597489225937"
-        }
-      ],
-      "image": {
-        "src": "/img/cursor-design-mode-annotate.jpg",
-        "alt": "Image from @cursor_ai on X"
-      },
-      "heat": {
-        "score": 26,
-        "level": "none",
-        "metric": "118k views"
-      }
-    },
-    {
-      "id": "langsmith-agent-cache-hit-rates",
-      "title": "LangSmith now tracks LLM cache hit rates for agents",
-      "takeaway": "Hit rate shows overall, per thread, and over time in dashboard templates.",
-      "soWhat": "Cache hits drive agent cost, so teams now get a direct number to watch spend.",
-      "lens": "practical",
-      "momentum": "building",
       "importance": 5,
-      "publishedAt": "2026-10-27T19:00:00Z",
+      "publishedAt": "2026-10-28T10:15:10Z",
       "source": {
-        "name": "@LangChain on X",
-        "url": "https://x.com/LangChain/status/2115156579498504576"
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2115386888630813034"
       },
       "related": [
         {
-          "name": "LangSmith",
-          "url": "https://smith.langchain.com"
+          "name": "Theo: multi-machine orchestration",
+          "url": "https://x.com/theo/status/2115398275385921844"
         }
       ],
       "image": {
-        "src": "/img/langsmith-agent-cache-hit-rates.jpg",
-        "alt": "Profile image of @LangChain"
+        "src": "/img/t3-code-triage-command.jpg",
+        "alt": "Image from @theo on X"
       },
       "heat": {
-        "score": 0,
+        "score": 5,
         "level": "none",
-        "metric": "4k views"
+        "metric": "18k views"
       }
     },
     {
-      "id": "hex-4-agent-native-rewrite",
-      "title": "Hex rebuilds its analytics platform for agents and raises $100M",
-      "takeaway": "Hex 4.0 is a from-scratch rewrite built on plain code; the round values Hex at $1.2B.",
-      "soWhat": "Hex says its old agent harness bloated with hundreds of tools, so it rebuilt everything as code.",
-      "lens": "practical",
+      "id": "artificial-analysis-index-v5",
+      "title": "Artificial Analysis Index v5: Claude Opus 5.5 leads at 58",
+      "takeaway": "60% of the index now uses private or held-out tests; the open-weights gap widened from 3 to 12 points.",
+      "soWhat": "Cost per task varies more than 13x among top models, so price belongs in every model choice.",
+      "lens": "broad",
       "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-10-27T14:58:00Z",
+      "importance": 8,
+      "publishedAt": "2026-10-28T02:11:22Z",
       "source": {
-        "name": "Hex blog",
-        "url": "https://hex.tech/blog/hex-new-era/"
+        "name": "@ArtificialAnlys on X",
+        "url": "https://x.com/ArtificialAnlys/status/2115265133467635877"
       },
-      "related": [
-        {
-          "name": "Barry McCardel on X",
-          "url": "https://x.com/barrald/status/2115095682004726173"
-        },
-        {
-          "name": "Harrison Chase on X",
-          "url": "https://x.com/hwchase17/status/2115161782079897946"
-        }
-      ],
       "image": {
-        "src": "/img/hex-4-agent-native-rewrite.jpg",
-        "alt": "Image from Hex blog"
+        "src": "/img/artificial-analysis-index-v5.jpg",
+        "alt": "Image from @ArtificialAnlys on X"
+      },
+      "heat": {
+        "score": 27,
+        "level": "none",
+        "metric": "850k views"
       }
     },
     {
-      "id": "arxiv-agent-in-the-middle-web-vulns",
-      "title": "Agent-facing web interfaces let AI agents carry out known attacks",
-      "takeaway": "91% of 44 tested vulnerabilities stayed exploitable; interface design moved retention from 39% to 95%.",
-      "soWhat": "How you design agent interfaces matters far more for security than which agent vendor you pick.",
+      "id": "arxiv-concordat-typed-sessions",
+      "title": "Concordat stopped agents from making unconfirmed changes on airline tasks",
+      "takeaway": "Standard agents changed bookings without a required yes in up to 13 of 50 tasks; Concordat agents made none.",
+      "soWhat": "Enforcing allowed actions in code, not prompts, blocked risky agent moves without hurting task success.",
       "lens": "practical",
       "momentum": "building",
       "importance": 8,
-      "publishedAt": "2026-10-26T14:53:22Z",
+      "publishedAt": "2026-10-27T16:00:26Z",
       "source": {
         "name": "arXiv",
-        "url": "https://arxiv.org/abs/2610.35541"
+        "url": "https://arxiv.org/abs/2610.37461"
       },
       "image": {
-        "src": "/img/arxiv-agent-in-the-middle-web-vulns.jpg",
-        "alt": "arXiv: Agent-facing web interfaces let AI agents carry out known attacks"
+        "src": "/img/arxiv-concordat-typed-sessions.jpg",
+        "alt": "arXiv: Concordat stopped agents from making unconfirmed changes on airline tasks"
       }
     },
     {
-      "id": "arxiv-skill-infinity",
-      "title": "A self-improving meta agent writes skills that beat human-curated ones",
-      "takeaway": "60.7% pass rate on 83 SkillsBench tasks, versus 56.4% for human-curated skills.",
-      "soWhat": "Agent skills may soon be tuned by agents, though the reported gain is modest at about four points.",
+      "id": "arxiv-featurearc-evolving-features",
+      "title": "Coding agents' success falls from 63% to 29% as features evolve",
+      "takeaway": "Across 10 agents and 73 tasks, inherited defects appeared in 72.9% of failed later stages.",
+      "soWhat": "Long agent sessions compound hidden defects, so test the whole feature, not just the latest change.",
       "lens": "practical",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-10-26T13:37:56Z",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-10-27T15:45:50Z",
       "source": {
         "name": "arXiv",
-        "url": "https://arxiv.org/abs/2610.35434"
+        "url": "https://arxiv.org/abs/2610.37434"
       },
       "image": {
-        "src": "/img/arxiv-skill-infinity.jpg",
-        "alt": "arXiv: A self-improving meta agent writes skills that beat human-curated ones"
+        "src": "/img/arxiv-featurearc-evolving-features.jpg",
+        "alt": "arXiv: Coding agents' success falls from 63% to 29% as features evolve"
+      }
+    },
+    {
+      "id": "axiom-cfsg-lean-formalization",
+      "title": "AI agent swarms formalized a 15,000-page math proof in 24 days",
+      "takeaway": "Axiom Math produced about 43.1 million lines of Lean and found 34 noteworthy deviations from the published record.",
+      "soWhat": "Agent swarms can now check massive expert work and surface deviations humans published and missed.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-10-27T14:34:38Z",
+      "source": {
+        "name": "@axiommathai on X",
+        "url": "https://x.com/axiommathai/status/2115089794867040584"
+      },
+      "related": [
+        {
+          "name": "Axiom blog: Formalizing the Enormous Theorem",
+          "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/"
+        },
+        {
+          "name": "CFSG errata",
+          "url": "https://cfsg.axiommath.ai/errata"
+        }
+      ],
+      "image": {
+        "src": "/img/axiom-cfsg-lean-formalization.jpg",
+        "alt": "Image from @axiommathai on X"
+      },
+      "heat": {
+        "score": 32,
+        "level": "none",
+        "metric": "3.3M views"
+      }
+    },
+    {
+      "id": "arxiv-spine-subtask-context",
+      "title": "Spine cut a coding agent's cost 32% while raising its score",
+      "takeaway": "Built into Codex, it raised SWE-Milestone score 11.8%; it matched subagent delegation at 73.7% lower cost.",
+      "soWhat": "Better context management made the agent both cheaper and better, not a tradeoff between them.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-10-27T13:33:23Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.37224"
+      },
+      "image": {
+        "src": "/img/arxiv-spine-subtask-context.jpg",
+        "alt": "arXiv: Spine cut a coding agent's cost 32% while raising its score"
+      }
+    },
+    {
+      "id": "arxiv-bipa-skill-optimizers",
+      "title": "Automatic skill optimizers added tokens but no real accuracy gains",
+      "takeaway": "Learned skills scored +0.1 points over the hand-written seed on average while reading about 16% more input tokens.",
+      "soWhat": "Test any auto-tuned agent instructions on held-out tasks before trusting reported gains.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-10-27T13:21:09Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.37201"
+      },
+      "related": [
+        {
+          "name": "BiPA code",
+          "url": "https://github.com/valleysprings/BiPA"
+        }
+      ],
+      "image": {
+        "src": "/img/arxiv-bipa-skill-optimizers.jpg",
+        "alt": "Image from arXiv"
+      }
+    },
+    {
+      "id": "anthropic-agents-shape-expert-judgment",
+      "title": "Analysts followed a coding agent's hidden lean 86% of the time",
+      "takeaway": "In Anthropic's study of 50 analysts, only 15% credited the agent; Anthropic says real-world relevance is unknown.",
+      "soWhat": "Experts using agents may adopt the agent's judgment as their own; check who really decided.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-10-27T00:00:00Z",
+      "source": {
+        "name": "Anthropic Research",
+        "url": "https://www.anthropic.com/research/agents-judgment-calls"
+      },
+      "related": [
+        {
+          "name": "Paper (PDF)",
+          "url": "https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-agents-shape-expert-judgment.jpg",
+        "alt": "Image from Anthropic Research"
       }
     }
   ],
   "voices": [
     {
-      "handle": "Constantin Kogler, via The Verge",
-      "quote": "It doesn't make any sense that first only a few distinguished scientists can look at them.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics"
+      "handle": "Anthropic Research",
+      "quote": "We don't know how much this tells us about the real world",
+      "url": "https://www.anthropic.com/research/agents-judgment-calls"
     },
     {
-      "handle": "@cursor_ai",
-      "quote": "Give agents visual prompts: edit elements, draw on the page, and review your designs at different screen sizes.",
-      "url": "https://x.com/cursor_ai/status/2115159585548021814"
+      "handle": "@ArtificialAnlys",
+      "quote": "With v5, 60% of the Index is now based on evaluations with private test sets or held-out answers.",
+      "url": "https://x.com/ArtificialAnlys/status/2115265133467635877"
     },
     {
-      "handle": "VELA paper, arXiv",
-      "quote": "The agent realizes every attack that direct interface invocation realizes in the reference configuration.",
-      "url": "https://arxiv.org/abs/2610.35541"
+      "handle": "Concordat paper, arXiv",
+      "quote": "tau-bench's own reward did not detect most of these violations.",
+      "url": "https://arxiv.org/abs/2610.37461"
+    },
+    {
+      "handle": "Axiom Math blog",
+      "quote": "Over 24 days, engineers and mathematicians at Axiom Math directed swarms of dozens of AI agents",
+      "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/"
+    },
+    {
+      "handle": "@theo",
+      "quote": "Cut an issue if it's our fault",
+      "url": "https://x.com/theo/status/2115386888630813034"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/AnthropicAI/status/2115178675050307942",
-      "handle": "@AnthropicAI",
-      "text": "Early results from Claude research partnerships with six drug developers, plus Anthropic's own drug programs.",
-      "metric": "4.6k likes",
-      "note": "A frontier lab shows hard numbers from regulated, high-stakes scientific work."
+      "url": "https://x.com/axiommathai/status/2115089794867040584",
+      "handle": "@axiommathai",
+      "text": "A complete Lean formalization of the Classification of Finite Simple Groups, built with swarms of AI agents over 24 days.",
+      "metric": "6.3k likes",
+      "note": "A famously huge proof, checked by machine, shows agents doing deep expert work."
     },
     {
-      "url": "https://x.com/cursor_ai/status/2115159585548021814",
-      "handle": "@cursor_ai",
-      "text": "Give agents visual prompts: edit elements, draw on the page, and review your designs at different screen sizes.",
-      "metric": "2.2k likes",
-      "note": "Builders want to steer coding agents by pointing, not writing long specs."
+      "url": "https://x.com/ArtificialAnlys/status/2115265133467635877",
+      "handle": "@ArtificialAnlys",
+      "text": "Intelligence Index v5: 60% private or held-out tests; Claude Opus 5.5 leads at 58.",
+      "metric": "4.1k likes",
+      "note": "A widely cited model ranking reshuffled with harder tests and wide cost gaps."
     },
     {
-      "url": "https://x.com/AnthropicAI/status/2115207004293853358",
-      "handle": "@AnthropicAI",
-      "text": "New OneGov deal with the US GSA: 40% off Claude Enterprise, Claude for Government and the API, no minimum spend.",
-      "metric": "781 likes",
-      "note": "Government AI pricing is now a competitive battleground among labs."
-    },
-    {
-      "url": "https://x.com/LangChain/status/2115156579498504576",
-      "handle": "@LangChain",
-      "text": "LangSmith now tracks LLM cache hit rates for agents: overall, per thread, and over time.",
-      "metric": "29 likes",
-      "note": "Agent teams are hunting for ways to see and cut token costs."
+      "url": "https://x.com/theo/status/2115386888630813034",
+      "handle": "@theo",
+      "text": "T3 Code's new cmd+k triage clones the source for your version and hands your agent a debugging playbook.",
+      "metric": "171 likes",
+      "note": "Developers want tools that let their own agents debug and report bugs."
     }
   ]
 }
