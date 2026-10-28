@@ -1,0 +1,302 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-28-1237",
+  "generatedAt": "2026-10-28T17:45:00Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-28T11:40:00Z",
+    "to": "2026-10-28T17:40:00Z"
+  },
+  "sourceNotes": [
+    "Midday window (11:40Z to 17:40Z Oct 28). Leads: Gemini 4 Carbon launch, GitHub Universe (Copilot projects, Fusion, Enterprise bundling), Octoverse 2026 agent stats, Simon Willison on vibe-coded games, Claude for Legal artifacts, LangChain on cron-driven proactive agents.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returned HTTP 500 again; it moved to dwarkesh.com/feed. Config URL should be updated.",
+    "RSS with 0 new items: OpenAI Blog, Stratechery, Benedict Evans, One Useful Thing, Gary Marcus, Mitchell Hashimoto, The Atlantic, Metaplanet Google News. Not used: Verge Chrome autofill from Gmail, Verge Meta business terms delay, Verge Texas data-center voters (data-center midterms covered Oct 27), MIT Tech Review Download and sponsored industrial AI piece, Lenny's assistant comparison (Grok vs Dot vs Muse vs Claude Duet; opinion, not read in full).",
+    "Hacker News >=150 in window: Gemini 4 Carbon (176) used as related; not used: Apple git eMudhra certs (800), ICE surveillance (969, partisan), humanist AI exemption (261), Emacs at 50, Amazon Leo/Globalstar, others off-topic.",
+    "arXiv: no new agent-titled submissions since the Oct 27 batch already reviewed in the 06:35 run.",
+    "Skipped as already covered: bcherny's Utah Claude Code pilot numbers come from Anthropic's GSA OneGov post (in the 2026-10-27-1834 run); Cursor Agent SDK (Oct 26); T3 Code multi-machine MCP (theo, T3 Code covered).",
+    "X howTo lane not used: mattpocockuk useState and /drill-me posts, theo agent analogy, rubenhassid Claude in Google Docs setup steps (feature not new), Ronycoder sponsored posts, NousResearch joke, rowancheung newsletter milestone, kloss_xyz memes.",
+    "X bigPicture lane not used: AravSrinivas Perplexity voice mode for Pro/Max (163 likes, small update) and GTA mission demo; a16z clips (Bain estimate on cyberattack time is secondhand), Formation Bio $600M fund (a16z post only, not checked at source); elonmusk one-word replies; garrytan SF politics (muted); beffjezos commentary; YC FluxCap launch.",
+    "X frontierCapital: nathanbenaich one-liners and State of AI clip, TaviCosta precious-metals call (market tip); none used. Design lane: MengTo Dola launch-visuals workflow thread (vendor promo, steps not read); not used.",
+    "X queries lane: mostly low-engagement echoes of Cursor Agent SDK and GitHub Copilot app, plus promo accounts; nothing new with primary proof.",
+    "Replies: not checked this run; no bestReply.",
+    "authorBaseline omitted for all X candidates (not read this run).",
+    "X calls this run: 6.",
+    "gemini-4-carbon publishedAt uses the Sundar Pichai post time; the blog page shows only the date."
+  ],
+  "candidates": [
+    {
+      "id": "gemini-4-carbon",
+      "lens": "broad",
+      "topic": "gemini-4-carbon",
+      "summary": "Google announced Gemini 4 Carbon, two weeks after Gemini 4 Argon; it ranks #1 on Artificial Analysis Intelligence Index v5.0 at 59 and leads on cybersecurity benchmarks, but goes first only to a subset of cyber defenders, with wider access later.",
+      "facts": [
+        "Google: 88.2% on SEC-bench Pro (finding vulnerabilities), 54.8% on ExploitGym (exploitation), 71.0% on CWE-bench (patching).",
+        "Google: #1 on Artificial Analysis Intelligence Index v5.0 at 59; +89 Elo to #4 (1769) on WebDev Arena.",
+        "Google: internal teams saw Carbon run for days on multi-step engineering tasks such as root-causing and patching bugs across large codebases.",
+        "Google: more than 2x success rate generating secure code versus Argon; Chrome team reported more than 10x better patches than another lab's large frontier model.",
+        "Google: successful cheating on Terminal-Bench 4.0 cut to 0.0% (attempts 0.4%); high-severity misalignment alerts in live coding down almost 80%; unsupported claims cut about 2x versus Argon.",
+        "Rollout: subset of cyber defenders this week, then trusted partners via the Fairwind Program, before developers, businesses and consumers; Google says it takes part in the US government's voluntary pre-release testing.",
+        "Introductory price same as Argon: $2 per million input tokens, $10 per million output tokens, cached input 95% off."
+      ],
+      "source": {
+        "name": "Google blog (Koray Kavukcuoglu)",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Sundar Pichai on X",
+          "url": "https://x.com/sundarpichai/status/2115489219804352921"
+        },
+        {
+          "name": "Google DeepMind on X",
+          "url": "https://x.com/GoogleDeepMind/status/2115489356437651654"
+        },
+        {
+          "name": "Demis Hassabis on X",
+          "url": "https://x.com/demishassabis/status/2115489550256746502"
+        },
+        {
+          "name": "Hacker News thread (176 points)",
+          "url": "https://news.ycombinator.com/item?id=50276792"
+        }
+      ],
+      "publishedAt": "2026-10-28T17:01:48Z",
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "firstSeen": "2026-10-28"
+    },
+    {
+      "id": "gemini-4-carbon-sundar-post",
+      "lens": "broad",
+      "topic": "gemini-4-carbon",
+      "summary": "Sundar Pichai's launch post for Gemini 4 Carbon repeats the Artificial Analysis v5.0 #1 ranking at 59 and the three cyber benchmark scores, and says some trusted cyber defenders get access starting this week.",
+      "source": {
+        "name": "Sundar Pichai",
+        "url": "https://x.com/sundarpichai/status/2115489219804352921",
+        "type": "x",
+        "handle": "sundarpichai"
+      },
+      "publishedAt": "2026-10-28T17:01:48Z",
+      "metrics": {
+        "likes": 5276,
+        "reposts": 457,
+        "replies": 434,
+        "views": 217011,
+        "capturedAt": "2026-10-28T17:39:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://x.com/sundarpichai/status/2115489219804352921",
+      "firstSeen": "2026-10-28"
+    },
+    {
+      "id": "github-universe-copilot-projects-fusion",
+      "lens": "practical",
+      "topic": "github-universe-2026",
+      "summary": "At GitHub Universe, GitHub launched Copilot projects (goal-driven agent work across multiple repos in managed parallel sessions), Copilot Fusion (picks one or more models per task), cross-surface session continuity, self-improving Copilot automations, and Copilot code review Max; Enterprise customers now get all Copilot features without a separate subscription and pay for AI credits used.",
+      "facts": [
+        "GitHub: in the Artificial Analysis Coding Agent Index, Fusion Max scored within two points of Opus 5.5 Max at half the cost and 40% less time per task.",
+        "GitHub: Copilot projects are available natively in the GitHub Copilot app starting today.",
+        "GitHub: Copilot automations run in the cloud on manual, event or schedule triggers, and can now propose improvements from their outcomes for review.",
+        "GitHub: Copilot code review Max posted the highest F1 score on ReviewBench for high-severity issues.",
+        "GitHub: this year added 4 million CPU cores, 160 PB of storage and 50 Tb/s network capacity; migration to multi-region Azure expected to finish early next year.",
+        "Satya Nadella on X: Copilot Fusion delivers frontier-level quality 40% faster and at up to 77% lower cost; the unified Copilot harness is now in Foundry for building long-running agents."
+      ],
+      "source": {
+        "name": "GitHub Blog (Jay Parikh)",
+        "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Satya Nadella on X",
+          "url": "https://x.com/satyanadella/status/2115490856685990244"
+        }
+      ],
+      "publishedAt": "2026-10-28T16:09:28Z",
+      "care": 5,
+      "proof": 4,
+      "imageHint": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+      "firstSeen": "2026-10-28"
+    },
+    {
+      "id": "satya-github-universe-post",
+      "lens": "practical",
+      "topic": "github-universe-2026",
+      "summary": "Satya Nadella summarized the GitHub Universe launches: Copilot Fusion, the Copilot harness in Foundry for long-running agents, and Copilot Projects as an orchestration loop across repos.",
+      "source": {
+        "name": "Satya Nadella",
+        "url": "https://x.com/satyanadella/status/2115490856685990244",
+        "type": "x",
+        "handle": "satyanadella"
+      },
+      "publishedAt": "2026-10-28T17:08:18Z",
+      "metrics": {
+        "likes": 116,
+        "reposts": 18,
+        "replies": 35,
+        "views": 18154,
+        "capturedAt": "2026-10-28T17:39:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/satyanadella/status/2115490856685990244",
+      "firstSeen": "2026-10-28"
+    },
+    {
+      "id": "github-octoverse-2026",
+      "lens": "broad",
+      "topic": "github-octoverse-2026",
+      "summary": "GitHub's Octoverse 2026 report says activity bent sharply upward this year as agents moved into daily work: 17.9 billion pushes in 12 months, more than 2024 and 2025 combined, and over 40% of pull requests now started with an agent.",
+      "facts": [
+        "GitHub: commits across public and private repos reached 34.3 billion, more than three times two years ago; merged pull requests more than tripled to 1.3 billion, about 3.5 million a day.",
+        "GitHub: as of September, developers start more than 40% of pull requests with an agent, up from 17% in March.",
+        "GitHub: among repos created this year, the average repo with an agent configuration file logged eight times as many commits as one without.",
+        "GitHub: in September, 61% of Copilot users used more than one model.",
+        "Simon Willison, quoting the Universe keynote: merged PRs tripled in less than a year to 220 million per month; commits more than tripled to 7.38 billion per month; new repos doubled to 30.3 million per month."
+      ],
+      "source": {
+        "name": "GitHub Blog (Octoverse)",
+        "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/"
+        }
+      ],
+      "publishedAt": "2026-10-28T16:07:40Z",
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "firstSeen": "2026-10-28"
+    },
+    {
+      "id": "simonw-vibe-game-inflection",
+      "lens": "practical",
+      "topic": "vibe-game-development",
+      "summary": "Simon Willison argues October 2026 is an inflection point for vibe-coding games: with Claude Opus 5.5 he built four browser games (HTML, JavaScript, three.js) he genuinely enjoys, without looking at the code, and publishes the prompts.",
+      "facts": [
+        "Willison: Opus 5.5 shows meaningful gains in 3D modeling, music generation and game design.",
+        "Willison: 'Tree Appreciator' came from a single prompt in regular Claude chat, no follow-up; 'Emberwick' took several prompts plus playtesting and has a story of about 15 minutes.",
+        "Willison: telling models to use three.js works really well; prompts like 'Make it a LOT more fun' worked.",
+        "Willison: his impression is GPT-6 Astra can build a game but its sense of fun doesn't match Opus 5.5; not an exhaustive study."
+      ],
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://x.com/simonw/status/2115444742595260551",
+        "type": "x",
+        "handle": "simonw"
+      },
+      "related": [
+        {
+          "name": "Blog post",
+          "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
+        }
+      ],
+      "publishedAt": "2026-10-28T14:05:04Z",
+      "metrics": {
+        "likes": 602,
+        "reposts": 39,
+        "replies": 241,
+        "views": 33371,
+        "capturedAt": "2026-10-28T17:39:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+      "firstSeen": "2026-10-28"
+    },
+    {
+      "id": "claude-for-legal-artifact-gallery",
+      "lens": "practical",
+      "topic": "claude-for-legal",
+      "summary": "Anthropic added a gallery of ready-made artifacts to Claude for Legal, covering contract review, regulatory horizon scans, cite checks and more; users start from the built-in example, add their own documents and connectors, and share it across the business.",
+      "source": {
+        "name": "Claude",
+        "url": "https://x.com/claudeai/status/2115467192276025500",
+        "type": "x",
+        "handle": "claudeai"
+      },
+      "publishedAt": "2026-10-28T15:34:16Z",
+      "metrics": {
+        "likes": 9294,
+        "reposts": 482,
+        "replies": 362,
+        "views": 661811,
+        "capturedAt": "2026-10-28T17:39:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/claudeai/status/2115467192276025500",
+      "firstSeen": "2026-10-28"
+    },
+    {
+      "id": "langchain-proactive-agents-crons",
+      "lens": "practical",
+      "topic": "proactive-agents-crons",
+      "summary": "LangChain published a guide arguing nearly every proactive agent is a cron job with a prompt, and showed static and agent-created schedules in Managed Deep Agents; it says over 70% of Managed Deep Agents runs on LangSmith now come from schedules rather than a human message.",
+      "facts": [
+        "LangChain: crons power memory 'dreaming' (daily condensing of conversations), proactiveness, smart triage of event streams, follow-up reminders and orchestrators that wake themselves to check on subtasks.",
+        "LangChain: the two parts needed are a robust cron server (with jitter for load) and a governed, agent-friendly interface to create, list and delete schedules.",
+        "LangChain: dynamic scheduling for Managed Deep Agents launched in September; the 70% figure is LangChain's own, unaudited."
+      ],
+      "source": {
+        "name": "LangChain",
+        "url": "https://x.com/LangChain/status/2115478384855625930",
+        "type": "x",
+        "handle": "LangChain"
+      },
+      "related": [
+        {
+          "name": "Article: Why aren't you building proactive agents yet?",
+          "url": "https://x.com/ndrezn/status/2115477935482118345"
+        },
+        {
+          "name": "Harrison Chase on X",
+          "url": "https://x.com/hwchase17/status/2115479787145929060"
+        }
+      ],
+      "publishedAt": "2026-10-28T16:18:45Z",
+      "metrics": {
+        "likes": 19,
+        "reposts": 0,
+        "replies": 4,
+        "views": 2454,
+        "capturedAt": "2026-10-28T17:39:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://x.com/ndrezn/status/2115477935482118345",
+      "firstSeen": "2026-10-28"
+    },
+    {
+      "id": "xai-southaven-home-buyouts",
+      "lens": "broad",
+      "topic": "data-center-backlash",
+      "summary": "The Verge, citing The Guardian and Mississippi Free Press, reports an xAI subsidiary (MZX) is offering to buy homes near its Southaven, Mississippi data center and power plant in exchange for releasing claims in a noise and vibration lawsuit.",
+      "facts": [
+        "Verge/Guardian: a realtor told a resident xAI plans to buy 418 homes and 18 homeowners already plan to sell; renters report 60 days' notice.",
+        "Mississippi Free Press letter quoted: by signing the release, sellers give up claims tied to the Southaven Plant, including the Haley action.",
+        "Verge: SpaceXAI reported up to $6.1 million in potential civil penalties for environmental violations and more than $220 million in claims of unpaid bills at the Memphis and Southaven sites; the NAACP separately sued over unpermitted methane turbines.",
+        "Verge: Memphis City Council voted down a one-year moratorium on AI data centers and adopted a 135-day construction pause instead."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-28T14:44:00Z",
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+      "firstSeen": "2026-10-28"
+    }
+  ]
+}
