@@ -1,0 +1,261 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-10-28-1300",
+  "date": "2026-10-28",
+  "publishedAt": "2026-10-28T18:10:40Z",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "gemini-4-carbon",
+      "headline": "Google's new top model goes to cyber defenders before anyone else",
+      "whyItMatters": "Your team's access to the strongest coding model now depends on Google's staged rollout, not price."
+    },
+    {
+      "itemId": "github-universe-copilot-projects-fusion",
+      "headline": "GitHub bundles all of Copilot into Enterprise and bills by credits",
+      "whyItMatters": "Agent usage now drives your GitHub bill, so budget owners need visibility into it."
+    },
+    {
+      "itemId": "github-octoverse-2026",
+      "headline": "Agents now start over 40% of pull requests on GitHub",
+      "whyItMatters": "Your engineers increasingly direct and review agent work, so train and measure them for that."
+    }
+  ],
+  "items": [
+    {
+      "id": "gemini-4-carbon",
+      "title": "Gemini 4 Carbon takes #1 on Artificial Analysis, defenders first",
+      "takeaway": "Google reports 59 on Index v5.0 and top cyber scores; price matches Argon at $2 and $10 per million tokens.",
+      "soWhat": "Google is gating its top model to cyber defenders first, so access, not just quality, shapes your options.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-10-28T17:01:48Z",
+      "source": {
+        "name": "Google blog",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+      },
+      "related": [
+        {
+          "name": "Sundar Pichai on X",
+          "url": "https://x.com/sundarpichai/status/2115489219804352921"
+        },
+        {
+          "name": "Google DeepMind on X",
+          "url": "https://x.com/GoogleDeepMind/status/2115489356437651654"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50276792"
+        }
+      ],
+      "image": {
+        "src": "/img/gemini-4-carbon.jpg",
+        "alt": "Image from Google blog"
+      }
+    },
+    {
+      "id": "langchain-proactive-agents-crons",
+      "title": "LangChain: over 70% of its managed agent runs start on a schedule",
+      "takeaway": "LangChain argues most proactive agents are a cron job with a prompt; the 70% figure is its own and unaudited.",
+      "soWhat": "Proactive agents need governed schedules, so decide who may create, list and delete them.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-10-28T16:18:45Z",
+      "source": {
+        "name": "@LangChain on X",
+        "url": "https://x.com/LangChain/status/2115478384855625930"
+      },
+      "related": [
+        {
+          "name": "Why aren't you building proactive agents yet?",
+          "url": "https://x.com/ndrezn/status/2115477935482118345"
+        },
+        {
+          "name": "Harrison Chase on X",
+          "url": "https://x.com/hwchase17/status/2115479787145929060"
+        }
+      ],
+      "image": {
+        "src": "/img/langchain-proactive-agents-crons.jpg",
+        "alt": "Image from @LangChain on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "2k views"
+      }
+    },
+    {
+      "id": "github-universe-copilot-projects-fusion",
+      "title": "GitHub's Copilot now runs goal-driven agents across many repos at once",
+      "takeaway": "Copilot Fusion picks models per task; Enterprise gets every Copilot feature and pays for AI credits used.",
+      "soWhat": "Enterprise Copilot is now billed by AI credits used, so heavier agent use means a bigger bill.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-10-28T16:09:28Z",
+      "source": {
+        "name": "GitHub Blog",
+        "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/"
+      },
+      "related": [
+        {
+          "name": "Satya Nadella on X",
+          "url": "https://x.com/satyanadella/status/2115490856685990244"
+        }
+      ],
+      "image": {
+        "src": "/img/github-universe-copilot-projects-fusion.jpg",
+        "alt": "Image from GitHub Blog"
+      }
+    },
+    {
+      "id": "github-octoverse-2026",
+      "title": "Over 40% of GitHub pull requests now start with an agent",
+      "takeaway": "Up from 17% in March; 17.9 billion pushes in 12 months, more than 2024 and 2025 combined.",
+      "soWhat": "Agents now write the first draft of much code, so review is where your engineers add value.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-10-28T16:07:40Z",
+      "source": {
+        "name": "GitHub Blog (Octoverse)",
+        "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/"
+      },
+      "related": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/"
+        }
+      ],
+      "image": {
+        "src": "/img/github-octoverse-2026.jpg",
+        "alt": "Image from GitHub Blog (Octoverse)"
+      }
+    },
+    {
+      "id": "claude-for-legal-artifact-gallery",
+      "title": "Claude for Legal adds ready-made artifacts for contract review",
+      "takeaway": "Gallery also covers regulatory scans and cite checks; teams add their own documents and connectors, then share.",
+      "soWhat": "Legal teams can start from vendor templates instead of building agent workflows from scratch.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-10-28T15:34:16Z",
+      "source": {
+        "name": "@claudeai on X",
+        "url": "https://x.com/claudeai/status/2115467192276025500"
+      },
+      "image": {
+        "src": "/img/claude-for-legal-artifact-gallery.jpg",
+        "alt": "Profile image of @claudeai"
+      },
+      "heat": {
+        "score": 32,
+        "level": "none",
+        "metric": "662k views"
+      }
+    },
+    {
+      "id": "xai-southaven-home-buyouts",
+      "title": "xAI unit offers to buy homes near its Mississippi data center",
+      "takeaway": "Sellers would release claims in a noise and vibration lawsuit; a realtor told a resident 418 homes are planned.",
+      "soWhat": "Data center neighbors are now a legal and cost line item in AI infrastructure plans.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-10-28T14:44:00Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit"
+      },
+      "image": {
+        "src": "/img/xai-southaven-home-buyouts.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "simonw-vibe-game-inflection",
+      "title": "Simon Willison: Opus 5.5 can now vibe-code games that are fun",
+      "takeaway": "He built four browser games without reading the code and published the prompts.",
+      "soWhat": "Interactive prototypes now come from a few plain prompts, lowering the cost of testing product ideas.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-10-28T14:05:04Z",
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2115444742595260551"
+      },
+      "related": [
+        {
+          "name": "Blog: vibe game development",
+          "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
+        }
+      ],
+      "image": {
+        "src": "/img/simonw-vibe-game-inflection.jpg",
+        "alt": "Image from @simonw on X"
+      },
+      "heat": {
+        "score": 15,
+        "level": "none",
+        "metric": "33k views"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "GitHub Octoverse 2026",
+      "quote": "For a growing share of work, the first move is now directing an agent, and review is how developers shape what comes back.",
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/"
+    },
+    {
+      "handle": "Google blog",
+      "quote": "Starting this week, we will make Carbon available to a subset of cyber defenders and will gradually phase access to additional trusted partners through our Fairwind Program.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    },
+    {
+      "handle": "GitHub Blog (Jay Parikh)",
+      "quote": "In a couple of years, we’ve gone from writing every line of code to working with AI assistants to orchestrating fleets of agents.",
+      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/"
+    },
+    {
+      "handle": "@simonw",
+      "quote": "I think we’ve reached a new inflection point in October 2026, and this time it’s for vibe coding computer games.",
+      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/claudeai/status/2115467192276025500",
+      "handle": "@claudeai",
+      "text": "Claude for Legal adds a gallery of ready-made artifacts: contract review, regulatory horizon scans, cite checks and more.",
+      "metric": "9.3k likes",
+      "note": "Ready-made legal workflows lower the barrier for firms trying Claude."
+    },
+    {
+      "url": "https://x.com/sundarpichai/status/2115489219804352921",
+      "handle": "@sundarpichai",
+      "text": "Gemini 4 Carbon: #1 on Artificial Analysis Index v5.0 at 59; trusted cyber defenders get access starting this week.",
+      "metric": "5.3k likes",
+      "note": "A new #1 model two weeks after Argon, with access gated to defenders first."
+    },
+    {
+      "url": "https://x.com/simonw/status/2115444742595260551",
+      "handle": "@simonw",
+      "text": "October 2026 is an inflection point for vibe-coding games: four browser games built with Opus 5.5, prompts included.",
+      "metric": "602 likes",
+      "note": "A trusted builder says models now make games people enjoy, with prompts to copy."
+    },
+    {
+      "url": "https://x.com/satyanadella/status/2115490856685990244",
+      "handle": "@satyanadella",
+      "text": "Copilot Fusion, the Copilot harness in Foundry for long-running agents, and Copilot Projects across repos.",
+      "metric": "116 likes",
+      "note": "Microsoft's CEO frames GitHub's launches as a platform for orchestrating agents."
+    }
+  ]
+}
