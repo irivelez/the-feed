@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.0",
+  "id": "2026-10-27",
+  "publishedAt": "2026-10-28T00:06:39Z",
+  "window": {
+    "from": "2026-10-21",
+    "to": "2026-10-27"
+  },
+  "headline": "Your AI vendor just opened its books. Price isn't the risk.",
+  "summary": "Agent work got cheaper again this week, and the real bill came into view. Anthropic filed to go public with $16.3B in half-year revenue, and its S-1 names power and natural gas as cost risks. Data center backlash is now a midterm issue in six states, and key grid equipment can take five years to arrive. Agents also got harder to fence in: skills that were safe alone broke policy once combined, and agent-facing interfaces left 91% of tested attacks exploitable. Your vendor's limits are now power, politics and governance, not token price, so read the risk factors and guard actions at the harness before you sign long contracts.",
+  "threads": [
+    {
+      "title": "The filing is the contract",
+      "line": "Anthropic's S-1 shows the revenue, the losses and a board public shareholders barely control. Read it before your next renewal.",
+      "evidence": [
+        {
+          "briefId": "2026-10-26-1300",
+          "itemId": "anthropic-s1-filing"
+        },
+        {
+          "briefId": "2026-10-26-1300",
+          "itemId": "isenberg-s1-founder-takeaways"
+        },
+        {
+          "briefId": "2026-10-27-0700",
+          "itemId": "stratechery-anthropic-s1-cost-of-compute"
+        },
+        {
+          "briefId": "2026-10-27-1300",
+          "itemId": "verge-anthropic-ipo-governance"
+        }
+      ]
+    },
+    {
+      "title": "Power is the new price",
+      "line": "Natural gas, grid hardware, skilled labor and local votes now set how fast AI capacity comes online.",
+      "evidence": [
+        {
+          "briefId": "2026-10-26-1900",
+          "itemId": "verge-anthropic-s1-natural-gas"
+        },
+        {
+          "briefId": "2026-10-27-0700",
+          "itemId": "verge-data-center-backlash-midterms"
+        },
+        {
+          "briefId": "2026-10-27-0700",
+          "itemId": "mittr-solid-state-transformers"
+        },
+        {
+          "briefId": "2026-10-25-1900",
+          "itemId": "a16z-skilled-labor-bottleneck"
+        }
+      ]
+    },
+    {
+      "title": "The bill keeps collapsing",
+      "line": "Token prices fell again, so cost is no longer a good reason to wait on agent work.",
+      "evidence": [
+        {
+          "briefId": "2026-10-26-1900",
+          "itemId": "openai-gpt-6-1-terra"
+        },
+        {
+          "briefId": "2026-10-26-1900",
+          "itemId": "deepseek-v4-1-flash-in-cursor"
+        },
+        {
+          "briefId": "2026-10-26-0700",
+          "itemId": "minimaxir-llm-price-cuts-timeline"
+        },
+        {
+          "briefId": "2026-10-26-0700",
+          "itemId": "ibm-ceo-open-weights-on-prem"
+        },
+        {
+          "briefId": "2026-10-24-1900",
+          "itemId": "a16z-openrouter-token-demand-27x"
+        }
+      ]
+    },
+    {
+      "title": "Every key is a door",
+      "line": "Safe skills combine into violations and agent interfaces keep old attacks alive. Check actions at the harness, not the parts.",
+      "evidence": [
+        {
+          "briefId": "2026-10-27-1300",
+          "itemId": "arxiv-conflict-of-skills-attack"
+        },
+        {
+          "briefId": "2026-10-27-1900",
+          "itemId": "arxiv-agent-in-the-middle-web-vulns"
+        },
+        {
+          "briefId": "2026-10-26-1300",
+          "itemId": "rauch-cpu-chat-covert-agents"
+        },
+        {
+          "briefId": "2026-10-26-0700",
+          "itemId": "claude-georgia-voter-data-paywall"
+        },
+        {
+          "briefId": "2026-10-23-1900",
+          "itemId": "openai-training-containment"
+        }
+      ]
+    },
+    {
+      "title": "The report is a claim",
+      "line": "Agents overstate their sources and labs gate their own breakthroughs. Trust what outsiders can check.",
+      "evidence": [
+        {
+          "briefId": "2026-10-27-0700",
+          "itemId": "arxiv-claim-smoothing-research-agents"
+        },
+        {
+          "briefId": "2026-10-27-0700",
+          "itemId": "eth-refutation-independent-review"
+        },
+        {
+          "briefId": "2026-10-27-1900",
+          "itemId": "verge-openai-shepherds-gatekeeping"
+        }
+      ]
+    }
+  ]
+}

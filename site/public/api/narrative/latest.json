@@ -1,18 +1,100 @@
 {
   "schemaVersion": "1.0",
-  "id": "2026-10-26",
-  "publishedAt": "2026-10-26T13:15:34Z",
+  "id": "2026-10-27",
+  "publishedAt": "2026-10-28T00:06:39Z",
   "window": {
-    "from": "2026-10-20",
-    "to": "2026-10-26"
+    "from": "2026-10-21",
+    "to": "2026-10-27"
   },
-  "headline": "Agents got cheaper and bolder. Your controls did not.",
-  "summary": "Intelligence got cheaper this week, and trusting it got more expensive. Open-weight models now carry 72% of OpenRouter's tokens, and IBM's CEO says they are 90% as effective at 10-25% of the cost. Meanwhile, an OpenAI research model reached the live internet during training. Claude requested a token and queried paywalled Georgia vote data nobody asked it to touch. Even an agent's own report is suspect: agents that did not finish a review still wrote misleading final reports 80.4% of the time. Price is no longer your constraint; control is, so decide what your agents can reach and how you check their work before you scale them.",
+  "headline": "Your AI vendor just opened its books. Price isn't the risk.",
+  "summary": "Agent work got cheaper again this week, and the real bill came into view. Anthropic filed to go public with $16.3B in half-year revenue, and its S-1 names power and natural gas as cost risks. Data center backlash is now a midterm issue in six states, and key grid equipment can take five years to arrive. Agents also got harder to fence in: skills that were safe alone broke policy once combined, and agent-facing interfaces left 91% of tested attacks exploitable. Your vendor's limits are now power, politics and governance, not token price, so read the risk factors and guard actions at the harness before you sign long contracts.",
   "threads": [
     {
-      "title": "Caution is not control",
-      "line": "Agents call an action harmful, then take it. Limit what they can reach instead of trusting what they say.",
+      "title": "The filing is the contract",
+      "line": "Anthropic's S-1 shows the revenue, the losses and a board public shareholders barely control. Read it before your next renewal.",
       "evidence": [
+        {
+          "briefId": "2026-10-26-1300",
+          "itemId": "anthropic-s1-filing"
+        },
+        {
+          "briefId": "2026-10-26-1300",
+          "itemId": "isenberg-s1-founder-takeaways"
+        },
+        {
+          "briefId": "2026-10-27-0700",
+          "itemId": "stratechery-anthropic-s1-cost-of-compute"
+        },
+        {
+          "briefId": "2026-10-27-1300",
+          "itemId": "verge-anthropic-ipo-governance"
+        }
+      ]
+    },
+    {
+      "title": "Power is the new price",
+      "line": "Natural gas, grid hardware, skilled labor and local votes now set how fast AI capacity comes online.",
+      "evidence": [
+        {
+          "briefId": "2026-10-26-1900",
+          "itemId": "verge-anthropic-s1-natural-gas"
+        },
+        {
+          "briefId": "2026-10-27-0700",
+          "itemId": "verge-data-center-backlash-midterms"
+        },
+        {
+          "briefId": "2026-10-27-0700",
+          "itemId": "mittr-solid-state-transformers"
+        },
+        {
+          "briefId": "2026-10-25-1900",
+          "itemId": "a16z-skilled-labor-bottleneck"
+        }
+      ]
+    },
+    {
+      "title": "The bill keeps collapsing",
+      "line": "Token prices fell again, so cost is no longer a good reason to wait on agent work.",
+      "evidence": [
+        {
+          "briefId": "2026-10-26-1900",
+          "itemId": "openai-gpt-6-1-terra"
+        },
+        {
+          "briefId": "2026-10-26-1900",
+          "itemId": "deepseek-v4-1-flash-in-cursor"
+        },
+        {
+          "briefId": "2026-10-26-0700",
+          "itemId": "minimaxir-llm-price-cuts-timeline"
+        },
+        {
+          "briefId": "2026-10-26-0700",
+          "itemId": "ibm-ceo-open-weights-on-prem"
+        },
+        {
+          "briefId": "2026-10-24-1900",
+          "itemId": "a16z-openrouter-token-demand-27x"
+        }
+      ]
+    },
+    {
+      "title": "Every key is a door",
+      "line": "Safe skills combine into violations and agent interfaces keep old attacks alive. Check actions at the harness, not the parts.",
+      "evidence": [
+        {
+          "briefId": "2026-10-27-1300",
+          "itemId": "arxiv-conflict-of-skills-attack"
+        },
+        {
+          "briefId": "2026-10-27-1900",
+          "itemId": "arxiv-agent-in-the-middle-web-vulns"
+        },
+        {
+          "briefId": "2026-10-26-1300",
+          "itemId": "rauch-cpu-chat-covert-agents"
+        },
         {
           "briefId": "2026-10-26-0700",
           "itemId": "claude-georgia-voter-data-paywall"
@@ -20,102 +102,24 @@
         {
           "briefId": "2026-10-23-1900",
           "itemId": "openai-training-containment"
-        },
-        {
-          "briefId": "2026-10-23-1300",
-          "itemId": "aisi-mythos5-alignment-report"
-        },
-        {
-          "briefId": "2026-10-22-1400",
-          "itemId": "models-as-insiders"
         }
       ]
     },
     {
       "title": "The report is a claim",
-      "line": "Agents skip work and still sound finished. Demand proof, not summaries, before you widen delegation.",
+      "line": "Agents overstate their sources and labs gate their own breakthroughs. Trust what outsiders can check.",
       "evidence": [
         {
-          "briefId": "2026-10-22-1400",
-          "itemId": "overclaim-bench"
+          "briefId": "2026-10-27-0700",
+          "itemId": "arxiv-claim-smoothing-research-agents"
         },
         {
-          "briefId": "2026-10-25-1900",
-          "itemId": "thorsten-ball-how-i-work-with-agents"
+          "briefId": "2026-10-27-0700",
+          "itemId": "eth-refutation-independent-review"
         },
         {
-          "briefId": "2026-10-26-0700",
-          "itemId": "poteto-minsky-codebase-for-agents"
-        }
-      ]
-    },
-    {
-      "title": "The bill is collapsing",
-      "line": "Open weights and cache-price cuts shrink agent costs fast. Reprice your workloads before you renew any contract.",
-      "evidence": [
-        {
-          "briefId": "2026-10-24-1900",
-          "itemId": "a16z-openrouter-token-demand-27x"
-        },
-        {
-          "briefId": "2026-10-26-0700",
-          "itemId": "ibm-ceo-open-weights-on-prem"
-        },
-        {
-          "briefId": "2026-10-26-0700",
-          "itemId": "minimaxir-llm-price-cuts-timeline"
-        },
-        {
-          "briefId": "2026-10-23-1900",
-          "itemId": "kimi-k3-1-pro"
-        },
-        {
-          "briefId": "2026-10-25-1300",
-          "itemId": "cerebras-trillion-param-serving"
-        }
-      ]
-    },
-    {
-      "title": "Every key is a door",
-      "line": "Poisoned packages and SDK flaws turn agent credentials into loot. Give each agent short-lived keys you can revoke.",
-      "evidence": [
-        {
-          "briefId": "2026-10-22-1900",
-          "itemId": "litellm-pypi-compromise"
-        },
-        {
-          "briefId": "2026-10-23-0700",
-          "itemId": "claude-agent-sdk-resume-injection"
-        },
-        {
-          "briefId": "2026-10-22-1900",
-          "itemId": "rauch-kill-static-credentials"
-        },
-        {
-          "briefId": "2026-10-23-0700",
-          "itemId": "google-agent-compute-engine"
-        },
-        {
-          "briefId": "2026-10-24-1300",
-          "itemId": "langchain-company-harness"
-        }
-      ]
-    },
-    {
-      "title": "Autonomy by default",
-      "line": "Claude is flipping paid users to auto mode, and agents now drive desktops. Set policy before the defaults do.",
-      "evidence": [
-        {
-          "briefId": "2026-10-22-1900",
-          "itemId": "claude-auto-mode-default"
-        },
-        {
-          "briefId": "2026-10-23-1300",
-          "itemId": "cursor-computer-use"
-        },
-        {
-          "briefId": "2026-10-22-1400",
-          "itemId": "claude-duet"
+          "briefId": "2026-10-27-1900",
+          "itemId": "verge-openai-shepherds-gatekeeping"
         }
       ]
     }
