@@ -1,49 +1,44 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-27T18:15:59Z",
-  "runId": "2026-10-27-1235",
+  "updatedAt": "2026-10-28T18:11:09Z",
+  "runId": "2026-10-28-1237",
   "howtos": [
     {
-      "id": "langchain-on-brand-design-agent",
-      "dedupeKey": "on-brand-design-agent-harness",
-      "title": "Build an on-brand design agent like LangChain's Content Studio",
-      "what": "LangChain's lessons from four months building its in-house Slack design agent.",
-      "kind": "steps",
+      "id": "simonw-one-prompt-threejs-game",
+      "dedupeKey": "one-prompt-threejs-fun-game",
+      "title": "Build a fun three.js browser game from one prompt",
+      "what": "Simon Willison's single prompt that produced his 'Tree Appreciator' game with Claude Opus 5.5, no follow-ups.",
+      "kind": "prompt",
       "copy": [
-        "Give the agent your designers' principles, guardrails against AI slop, and the reasoning behind feedback.",
-        "Give every Slack thread its own sandbox where the agent keeps the project between turns.",
-        "Let the agent work across a video engine, image tools and a shared canvas, and inspect its own renders.",
-        "Have the agent write every asset in code.",
-        "Run long jobs on async subagents; show the plan, live progress and an approval step in the thread before anything ships.",
-        "Delete rules when the model improves; rules that make up for a model's weaknesses expire."
+        "Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechanics is about appreciating the differences between them. Think hard about how to make sure it is both fun and beautiful."
       ],
-      "whenToUse": "When you want an agent to produce on-brand videos, graphics or decks for your team.",
+      "whenToUse": "When you want a quick playable prototype; swap in your own game idea and keep the three.js and fun instructions.",
       "source": {
-        "name": "@LangChain on X",
-        "url": "https://x.com/LangChain/status/2115124503093121121"
+        "name": "Simon Willison's blog",
+        "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
       },
       "author": {
-        "name": "LangChain",
-        "handle": "LangChain"
+        "name": "Simon Willison",
+        "handle": "simonw"
       },
       "alsoFrom": [
         {
-          "name": "Harrison Chase on X",
-          "url": "https://x.com/hwchase17/status/2115130348187349104"
+          "name": "@simonw on X",
+          "url": "https://x.com/simonw/status/2115444742595260551"
         }
       ],
       "tags": [
-        "agents",
-        "design",
-        "harness"
+        "prompts",
+        "prototyping",
+        "games"
       ],
       "quality": 4,
-      "verbatim": false,
+      "verbatim": true,
       "briefItem": {
-        "briefId": "2026-10-27-1300",
-        "itemId": "langchain-content-studio-design-agent"
+        "briefId": "2026-10-28-1300",
+        "itemId": "simonw-vibe-game-inflection"
       },
-      "addedAt": "2026-10-27T18:15:59Z"
+      "addedAt": "2026-10-28T18:11:09Z"
     }
   ]
 }
