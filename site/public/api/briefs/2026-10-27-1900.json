@@ -1,0 +1,275 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-10-27-1900",
+  "date": "2026-10-27",
+  "publishedAt": "2026-10-28T00:05:45Z",
+  "edition": "Evening",
+  "top3": [
+    {
+      "itemId": "anthropic-drug-development-progress",
+      "headline": "Claude caught issues human reviewers missed in drug manufacturing documents",
+      "whyItMatters": "Regulated review work is where agents now show measurable time savings, with humans still checking."
+    },
+    {
+      "itemId": "arxiv-agent-in-the-middle-web-vulns",
+      "headline": "Agent-facing web interfaces kept 91% of tested attacks exploitable",
+      "whyItMatters": "Review interface design before exposing systems to agents; it swung exploitability from 39% to 95%."
+    },
+    {
+      "itemId": "cursor-design-mode-annotate",
+      "headline": "Cursor turns drawing on a web page into agent instructions",
+      "whyItMatters": "Non-engineers can now direct coding agents with visual edits instead of written specs."
+    }
+  ],
+  "items": [
+    {
+      "id": "anthropic-gsa-onegov-discount",
+      "title": "Anthropic gives US governments 40% off Claude, no minimum spend",
+      "takeaway": "The OneGov deal covers Claude Enterprise, Claude for Government and the API; Anthropic estimates $1B in savings.",
+      "soWhat": "Steep public-sector discounts show vendors buying adoption; use them as a benchmark in your own deals.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-10-27T22:20:23Z",
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2115207004293853358"
+      },
+      "related": [
+        {
+          "name": "Anthropic: Expanding our partnership with GSA",
+          "url": "https://www.anthropic.com/news/expanding-partnership-gsa"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-gsa-onegov-discount.jpg",
+        "alt": "Image from @AnthropicAI on X"
+      },
+      "heat": {
+        "score": 16,
+        "level": "none",
+        "metric": "68k views"
+      }
+    },
+    {
+      "id": "verge-openai-shepherds-gatekeeping",
+      "title": "Researchers object to OpenAI gating its claimed math breakthroughs",
+      "takeaway": "OpenAI released the Kakeya result but routes others through hand-picked expert shepherds; physics is unreleased.",
+      "soWhat": "Big AI claims released to a chosen few are hard to verify, so treat them as unconfirmed.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-10-27T20:51:04Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics"
+      },
+      "image": {
+        "src": "/img/verge-openai-shepherds-gatekeeping.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "anthropic-drug-development-progress",
+      "title": "Anthropic reports early drug-development gains with six partners",
+      "takeaway": "Partners include Bristol Myers Squibb; Anthropic also bought Mithril Medicine and started its own drug programs.",
+      "soWhat": "Claude cut one manufacturing review by 89% while catching more issues, though most work is still preclinical.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-10-27T20:27:48Z",
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/research/early-progress-drug-development"
+      },
+      "related": [
+        {
+          "name": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI/status/2115178675050307942"
+        },
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50265609"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-drug-development-progress.jpg",
+        "alt": "Image from Anthropic"
+      },
+      "heat": {
+        "score": 28,
+        "level": "none",
+        "metric": "600k views"
+      }
+    },
+    {
+      "id": "cursor-design-mode-annotate",
+      "title": "Cursor lets you prompt agents by drawing on the page",
+      "takeaway": "Annotate in design mode: edit elements, draw, and check screen sizes; Cmd+Shift+D starts it.",
+      "soWhat": "Designers and PMs can steer coding agents visually, shortening the handoff from mockup to code.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-10-27T19:11:57Z",
+      "source": {
+        "name": "@cursor_ai on X",
+        "url": "https://x.com/cursor_ai/status/2115159585548021814"
+      },
+      "related": [
+        {
+          "name": "Cursor follow-up: how to start",
+          "url": "https://x.com/cursor_ai/status/2115159597489225937"
+        }
+      ],
+      "image": {
+        "src": "/img/cursor-design-mode-annotate.jpg",
+        "alt": "Image from @cursor_ai on X"
+      },
+      "heat": {
+        "score": 26,
+        "level": "none",
+        "metric": "118k views"
+      }
+    },
+    {
+      "id": "langsmith-agent-cache-hit-rates",
+      "title": "LangSmith now tracks LLM cache hit rates for agents",
+      "takeaway": "Hit rate shows overall, per thread, and over time in dashboard templates.",
+      "soWhat": "Cache hits drive agent cost, so teams now get a direct number to watch spend.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-10-27T19:00:00Z",
+      "source": {
+        "name": "@LangChain on X",
+        "url": "https://x.com/LangChain/status/2115156579498504576"
+      },
+      "related": [
+        {
+          "name": "LangSmith",
+          "url": "https://smith.langchain.com"
+        }
+      ],
+      "image": {
+        "src": "/img/langsmith-agent-cache-hit-rates.jpg",
+        "alt": "Profile image of @LangChain"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "4k views"
+      }
+    },
+    {
+      "id": "hex-4-agent-native-rewrite",
+      "title": "Hex rebuilds its analytics platform for agents and raises $100M",
+      "takeaway": "Hex 4.0 is a from-scratch rewrite built on plain code; the round values Hex at $1.2B.",
+      "soWhat": "Hex says its old agent harness bloated with hundreds of tools, so it rebuilt everything as code.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-10-27T14:58:00Z",
+      "source": {
+        "name": "Hex blog",
+        "url": "https://hex.tech/blog/hex-new-era/"
+      },
+      "related": [
+        {
+          "name": "Barry McCardel on X",
+          "url": "https://x.com/barrald/status/2115095682004726173"
+        },
+        {
+          "name": "Harrison Chase on X",
+          "url": "https://x.com/hwchase17/status/2115161782079897946"
+        }
+      ],
+      "image": {
+        "src": "/img/hex-4-agent-native-rewrite.jpg",
+        "alt": "Image from Hex blog"
+      }
+    },
+    {
+      "id": "arxiv-agent-in-the-middle-web-vulns",
+      "title": "Agent-facing web interfaces let AI agents carry out known attacks",
+      "takeaway": "91% of 44 tested vulnerabilities stayed exploitable; interface design moved retention from 39% to 95%.",
+      "soWhat": "How you design agent interfaces matters far more for security than which agent vendor you pick.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-10-26T14:53:22Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.35541"
+      },
+      "image": {
+        "src": "/img/arxiv-agent-in-the-middle-web-vulns.jpg",
+        "alt": "arXiv: Agent-facing web interfaces let AI agents carry out known attacks"
+      }
+    },
+    {
+      "id": "arxiv-skill-infinity",
+      "title": "A self-improving meta agent writes skills that beat human-curated ones",
+      "takeaway": "60.7% pass rate on 83 SkillsBench tasks, versus 56.4% for human-curated skills.",
+      "soWhat": "Agent skills may soon be tuned by agents, though the reported gain is modest at about four points.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-10-26T13:37:56Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2610.35434"
+      },
+      "image": {
+        "src": "/img/arxiv-skill-infinity.jpg",
+        "alt": "arXiv: A self-improving meta agent writes skills that beat human-curated ones"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "Constantin Kogler, via The Verge",
+      "quote": "It doesn't make any sense that first only a few distinguished scientists can look at them.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics"
+    },
+    {
+      "handle": "@cursor_ai",
+      "quote": "Give agents visual prompts: edit elements, draw on the page, and review your designs at different screen sizes.",
+      "url": "https://x.com/cursor_ai/status/2115159585548021814"
+    },
+    {
+      "handle": "VELA paper, arXiv",
+      "quote": "The agent realizes every attack that direct interface invocation realizes in the reference configuration.",
+      "url": "https://arxiv.org/abs/2610.35541"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/AnthropicAI/status/2115178675050307942",
+      "handle": "@AnthropicAI",
+      "text": "Early results from Claude research partnerships with six drug developers, plus Anthropic's own drug programs.",
+      "metric": "4.6k likes",
+      "note": "A frontier lab shows hard numbers from regulated, high-stakes scientific work."
+    },
+    {
+      "url": "https://x.com/cursor_ai/status/2115159585548021814",
+      "handle": "@cursor_ai",
+      "text": "Give agents visual prompts: edit elements, draw on the page, and review your designs at different screen sizes.",
+      "metric": "2.2k likes",
+      "note": "Builders want to steer coding agents by pointing, not writing long specs."
+    },
+    {
+      "url": "https://x.com/AnthropicAI/status/2115207004293853358",
+      "handle": "@AnthropicAI",
+      "text": "New OneGov deal with the US GSA: 40% off Claude Enterprise, Claude for Government and the API, no minimum spend.",
+      "metric": "781 likes",
+      "note": "Government AI pricing is now a competitive battleground among labs."
+    },
+    {
+      "url": "https://x.com/LangChain/status/2115156579498504576",
+      "handle": "@LangChain",
+      "text": "LangSmith now tracks LLM cache hit rates for agents: overall, per thread, and over time.",
+      "metric": "29 likes",
+      "note": "Agent teams are hunting for ways to see and cut token costs."
+    }
+  ]
+}
