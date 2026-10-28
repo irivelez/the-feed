@@ -1,0 +1,346 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-28-1837",
+  "generatedAt": "2026-10-28T23:40:00Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-28T17:40:00Z",
+    "to": "2026-10-28T23:37:00Z"
+  },
+  "sourceNotes": [
+    "Evening window (17:40Z to 23:37Z Oct 28). Leads: Alphabet Q3 and Microsoft quarterly results (both agent-heavy), Vercel CI beta and AI Gateway virtual models, Kun Chen on CI at agent speed, Particle launch, a16z CISO survey, Surge DAYJOB: Tax benchmark, anti-LLM obfuscation in a fingerprinting script.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returned HTTP 500 again; it moved to dwarkesh.com/feed. Config URL should be updated.",
+    "RSS with 0 new items: MIT Tech Review, OpenAI Blog, Lenny Rachitsky, Stratechery, Benedict Evans, One Useful Thing, Gary Marcus, Mitchell Hashimoto, Metaplanet Google News. Not used: Simon Willison quoting Ted Sanders on OpenAI model naming (commentary); Verge Gemini 4 Carbon (covered at 12:37), Microsoft ending Copilot on smart TVs (minor), Texas data-center voters (covered Oct 27), Akai open-source MPC with vibe-coded mods (product not formally announced); The Atlantic 'There Are Too Many Apps for That' on vibe-coded app-store slop and 'What Should You Do With Your Money in the Age of AI?' (headline-only feed, not read).",
+    "Hacker News: Surge DAYJOB: Tax (182) and fingerprinting script (682) used. Not used: DHS worker leak (243) and ICE surveillance (1077) off-topic/partisan, Meta No Kings account (partisan), MacBook Pro PROLED display, Gemini 4 Carbon (already covered), others off-topic.",
+    "arXiv: no agent-titled submissions newer than the Oct 27 batch already reviewed in the 06:35 run.",
+    "X howTo lane not used: mattpocockuk course announcement (promo), amasad ViBench 2.0 claim (result only in an image, not verified), theo posts (quote of an Artificial Analysis v5 re-ranking video already covered; jokes), poteto, jxnlco, kloss_xyz memes, LangChain re:Invent booth and memory quote-post, Ronycoder sponsored post.",
+    "X bigPicture lane not used: elonmusk one-word posts and Robotaxi Houston clip, a16z Mark Cuban clips and cyberattack-steps chart (secondhand), YC Broccoli $52M raise (YC post only), AravSrinivas voice and explainer posts, beffjezos commentary (one muted as partisan), mariogabriele on Apple, garrytan on Particle (used as context only).",
+    "X frontierCapital lane: RayDalio life-principles posts, nathanbenaich and bhorowitz anecdotes; nothing with substance for the section. Design lane (MengTo): no posts in window.",
+    "X queries lane: low-engagement echoes of the Cursor Agent SDK (covered Oct 26) plus promo and token accounts; one real item, Sydney Runkle noting 'the art of loop engineering' is now a DeepLearning.AI course (62 likes), not used.",
+    "Replies: not checked this run; no bestReply.",
+    "authorBaseline omitted for all X candidates (not read this run).",
+    "X calls this run: 8.",
+    "surge-dayjob-tax-benchmark: the blog shows only the date (Oct 27); publishedAt is set to midday UTC that day. anti-llm-fingerprinting-script publishedAt uses the HN submission time; the post shows only the date.",
+    "Vercel candidates' metrics are from @vercel's launch posts, not the blog."
+  ],
+  "candidates": [
+    {
+      "id": "alphabet-q3-2026",
+      "lens": "broad",
+      "topic": "alphabet-q3-2026",
+      "summary": "Sundar Pichai posted Alphabet's Q3 results: a half-trillion-dollar annual revenue run rate, revenue growing 25%, and Google Cloud revenue up 103% on AI infrastructure and AI solutions demand.",
+      "facts": [
+        "Pichai: Alphabet is on a half-trillion annual revenue run rate, with revenues growing 25%.",
+        "Pichai: Search YoY query growth rate is the highest in the last five years, including commercial queries, which he attributes to AI investments.",
+        "Pichai: Google Cloud revenue grew 103%.",
+        "Pichai: Google's first-party model APIs now process nearly 32B tokens per minute, up 40% QoQ.",
+        "Pichai names Gemini Argon and Carbon and the Genie 4 world model as model momentum."
+      ],
+      "source": {
+        "name": "Sundar Pichai on X",
+        "url": "https://x.com/sundarpichai/status/2115535455156642066",
+        "type": "x",
+        "handle": "sundarpichai"
+      },
+      "publishedAt": "2026-10-28T20:05:31Z",
+      "metrics": {
+        "likes": 5712,
+        "reposts": 370,
+        "replies": 348,
+        "views": 376216,
+        "capturedAt": "2026-10-28T23:37:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://x.com/sundarpichai/status/2115535455156642066",
+      "firstSeen": "2026-10-28"
+    },
+    {
+      "id": "microsoft-earnings-agents",
+      "lens": "broad",
+      "topic": "microsoft-earnings-2026-10",
+      "summary": "Satya Nadella posted Microsoft's quarterly highlights: Microsoft Cloud revenue passed $63B with growth accelerating to 30% YoY, Foundry revenue more than tripled, and over 50M agents now run in Agent 365.",
+      "facts": [
+        "Nadella: Microsoft Cloud revenue surpassed $63B, growth accelerating to 30% YoY.",
+        "Nadella: Copilot daily users grew nearly 50% QoQ and more than 5X YoY; customers with more than 50K Copilot seats up 8X YoY.",
+        "Nadella: Foundry revenue more than tripled YoY; customers building with multiple models grew 5X; revenue from open source models increased 10X YoY.",
+        "Nadella: over 50M agents are now in A365 (Agent 365), up 30% QoQ; OpenAI Codex, Anthropic Claude Code and Meta Muse are adopting Windows + Agent 365 on-device boundaries (MXC).",
+        "Nadella: with Perception, Microsoft enforces identity, permissions, monitoring and containment outside the model itself.",
+        "Nadella: nearly 60K customers access context across Microsoft IQ, up 25% QoQ."
+      ],
+      "source": {
+        "name": "Satya Nadella on X",
+        "url": "https://x.com/satyanadella/status/2115577764300693644",
+        "type": "x",
+        "handle": "satyanadella"
+      },
+      "related": [
+        {
+          "name": "Nadella thread: agents and governance",
+          "url": "https://x.com/satyanadella/status/2115577770533368135"
+        },
+        {
+          "name": "Nadella thread: Foundry",
+          "url": "https://x.com/satyanadella/status/2115577768159416765"
+        },
+        {
+          "name": "Nadella thread: Copilot",
+          "url": "https://x.com/satyanadella/status/2115577765995123084"
+        }
+      ],
+      "publishedAt": "2026-10-28T22:53:39Z",
+      "metrics": {
+        "likes": 603,
+        "reposts": 58,
+        "replies": 64,
+        "views": 54209,
+        "capturedAt": "2026-10-28T23:37:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://x.com/satyanadella/status/2115577764300693644",
+      "firstSeen": "2026-10-28"
+    },
+    {
+      "id": "vercel-ci-beta",
+      "lens": "practical",
+      "topic": "agentic-ci",
+      "summary": "Vercel launched Vercel CI in beta on all plans: it runs only the tasks a change affects (via Turborepo), gives each task its own machine, and lets agents inspect, trigger and read CI through the Vercel CLI and MCP.",
+      "facts": [
+        "Vercel: time from git push to CI passed is 2-6x faster in its internal repositories.",
+        "Vercel: reads turbo.json; tagging a task with \"tags\": [\"ci\"] is enough to start; no workflow YAML; Remote Cache on by default.",
+        "Vercel: setup prompt for coding agents uses `npx skills use vercel/ci@setup`.",
+        "CLI commands include vc ci ls, vc ci inspect, vc ci logs.",
+        "Vercel post: after nearly 8 million tasks; in beta on all plans."
+      ],
+      "source": {
+        "name": "Vercel blog",
+        "url": "https://vercel.com/blog/introducing-vercel-ci",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Vercel on X",
+          "url": "https://x.com/vercel/status/2115526935636021696"
+        },
+        {
+          "name": "Guillermo Rauch on agentic CI",
+          "url": "https://x.com/rauchg/status/2115539426684408300"
+        }
+      ],
+      "publishedAt": "2026-10-28T19:31:40Z",
+      "metrics": {
+        "likes": 772,
+        "reposts": 47,
+        "replies": 69,
+        "views": 89116,
+        "capturedAt": "2026-10-28T23:37:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://vercel.com/blog/introducing-vercel-ci",
+      "firstSeen": "2026-10-28"
+    },
+    {
+      "id": "kunchenguid-ci-at-agent-speed",
+      "lens": "practical",
+      "topic": "agentic-ci",
+      "summary": "Kun Chen argues CI is the next bottleneck once teams stop reviewing most agent code, and lists three fixes: move checks from CI to CD, modularize so CI runs only touched modules, and invest in test selection.",
+      "facts": [
+        "Kun Chen: skipping most mac and windows tests in CI (Linux covered the same functionality) made his CI pipeline 15x faster, at the cost of occasionally catching OS-only bugs in CD.",
+        "Kun Chen: a nightly loop audits past test runs and tunes test selection; on a big codebase that gave 20x faster CI than running all tests, \"and almost never miss any real problem\"."
+      ],
+      "source": {
+        "name": "Kun Chen on X",
+        "url": "https://x.com/kunchenguid/status/2115565245293039814",
+        "type": "x",
+        "handle": "kunchenguid"
+      },
+      "publishedAt": "2026-10-28T22:03:54Z",
+      "metrics": {
+        "likes": 207,
+        "reposts": 11,
+        "replies": 24,
+        "views": 10449,
+        "capturedAt": "2026-10-28T23:37:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-10-28"
+    },
+    {
+      "id": "vercel-ai-gateway-virtual-models",
+      "lens": "practical",
+      "topic": "vercel-virtual-models",
+      "summary": "Vercel added Virtual Models to AI Gateway: one model ID per agent task whose underlying model, fallbacks and Zero Data Retention setting are changed centrally, with no code change or redeploy.",
+      "facts": [
+        "Vercel: 125 new models from more than 10 labs became available on AI Gateway in the last 90 days, about 10 a week.",
+        "Example: `vercel ai-gateway virtual-models create coding-agent --model anthropic/claude-opus-5.5`, then call model 'vmc/coding-agent'; apps pick up an edited model within a few minutes.",
+        "Works with coding agents such as Claude Code and Codex via `vercel ai-gateway setup`."
+      ],
+      "source": {
+        "name": "Vercel blog",
+        "url": "https://vercel.com/blog/ai-gateway-virtual-models",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Vercel on X",
+          "url": "https://x.com/vercel/status/2115571121622073355"
+        },
+        {
+          "name": "Guillermo Rauch on X",
+          "url": "https://x.com/rauchg/status/2115573969369845855"
+        }
+      ],
+      "publishedAt": "2026-10-28T22:27:15Z",
+      "metrics": {
+        "likes": 128,
+        "reposts": 6,
+        "replies": 16,
+        "views": 15270,
+        "capturedAt": "2026-10-28T23:37:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://vercel.com/blog/ai-gateway-virtual-models",
+      "firstSeen": "2026-10-28"
+    },
+    {
+      "id": "particle-launch-suhail",
+      "lens": "broad",
+      "topic": "particle-launch",
+      "summary": "Suhail announced Particle, a new inference company for open-weight models; its first model, particle-1, keeps performance parity while using about 45% fewer tokens, per the founder.",
+      "facts": [
+        "Suhail: particle-1 focused on token efficiency, \"managed to keep parity in performance while using ~45% fewer tokens\" (no benchmark named in the post).",
+        "Particle site: an AI inference layer for open weight models, offered as an API.",
+        "Aravind Srinivas says Perplexity worked with Particle ahead of launch and plans to work with it on search and model orchestration; Vercel's Guillermo Rauch says Particle models will be served via Vercel AI Gateway."
+      ],
+      "source": {
+        "name": "Suhail on X",
+        "url": "https://x.com/Suhail/status/2115497949421883648",
+        "type": "x",
+        "handle": "Suhail"
+      },
+      "related": [
+        {
+          "name": "Particle",
+          "url": "https://particle.ai"
+        },
+        {
+          "name": "Aravind Srinivas on X",
+          "url": "https://x.com/AravSrinivas/status/2115510517871890511"
+        },
+        {
+          "name": "Guillermo Rauch on X",
+          "url": "https://x.com/rauchg/status/2115566139447382115"
+        }
+      ],
+      "publishedAt": "2026-10-28T17:36:29Z",
+      "metrics": {
+        "likes": 1364,
+        "reposts": 79,
+        "replies": 181,
+        "views": 192834,
+        "capturedAt": "2026-10-28T23:37:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/Suhail/status/2115497949421883648",
+      "firstSeen": "2026-10-28"
+    },
+    {
+      "id": "a16z-ciso-ai-survey",
+      "lens": "broad",
+      "topic": "ciso-ai-security-survey",
+      "summary": "An a16z survey of 100 CISOs at companies with 1,000+ employees finds 55% already run MCPs or agent-to-app integrations in production and 34% run autonomous agents with tool access or write permissions.",
+      "facts": [
+        "In production: employee generative AI tools 92%, AI coding assistants or agents 83%, MCPs or agent-to-app integrations 55%, autonomous agents with tool access or write permissions 34%.",
+        "Top concerns: AI attacks outpacing their team 55%, employees leaking data into AI tools 47%, AI agents exceeding permissions or getting compromised 46%.",
+        "a16z: 18% of CISOs run most offensive testing continuously today, 52% expect to within a year; 70% would use AI to retest and confirm fixes."
+      ],
+      "source": {
+        "name": "a16z on X",
+        "url": "https://x.com/a16z/status/2115537851601551491",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "related": [
+        {
+          "name": "a16z on continuous security testing",
+          "url": "https://x.com/a16z/status/2115554206878966216"
+        }
+      ],
+      "publishedAt": "2026-10-28T20:15:03Z",
+      "metrics": {
+        "likes": 98,
+        "reposts": 9,
+        "replies": 23,
+        "views": 14053,
+        "capturedAt": "2026-10-28T23:37:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-10-28"
+    },
+    {
+      "id": "surge-dayjob-tax-benchmark",
+      "lens": "practical",
+      "topic": "dayjob-tax-benchmark",
+      "summary": "Surge AI released DAYJOB: Tax, 50 expert-built tax assignments (1,789 files) testing whether agents can take a client request to a finished deliverable; the best model passes 10.8%.",
+      "facts": [
+        "Leaderboard (pass@1 at a 95% rubric threshold): Claude Sonnet 5.5 10.8%, Claude Fable 5.1 9.6%, Claude Opus 5.5 9.2%.",
+        "Workspaces: 1,789 files, median 30 per assignment, up to 123; 1,487 PDFs, 117 Excel workbooks, 38 Word documents, plus emails, images and CSVs.",
+        "Eight areas, from individual tax to international tax and disputes; each task gets a three-layer expert review.",
+        "Case study: across five attempts Astra never flagged a home-sale exclusion deadline that Opus caught in all five; in another, Opus assumed a couple was unmarried in all five attempts while Astra checked marital status in four of five."
+      ],
+      "source": {
+        "name": "Surge AI blog",
+        "url": "https://surgehq.ai/blog/dayjob-tax",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Hacker News thread (182 points)",
+          "url": "https://news.ycombinator.com/item?id=50275626"
+        }
+      ],
+      "publishedAt": "2026-10-27T12:00:00Z",
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://surgehq.ai/blog/dayjob-tax",
+      "firstSeen": "2026-10-28"
+    },
+    {
+      "id": "anti-llm-fingerprinting-script",
+      "lens": "practical",
+      "topic": "anti-llm-obfuscation",
+      "summary": "A researcher crawling 10,000 sites found a fingerprinting script stuffed with fake weapons and self-harm function names and hidden jailbreak text, apparently to make AI models refuse to deobfuscate it; it also tries to read secrets files when run under Node with a specific env flag.",
+      "facts": [
+        "The script was served from servicepipe.tech; its hidden payload was encoded in invisible Unicode tag characters.",
+        "Author: Astra refused to deobfuscate it, citing biological safety risks; GLM-5.3 complied with the same prompt.",
+        "Under Node with env var METRICS_AGENT_8BFD_ACTIVE set, code targets files including .npmrc, .env, .docker/config.json, .kube/config and .git/config, and tries to download a binary from a private IP.",
+        "Crawl used Playwright on the Tranco top-sites list, hooking canvas toDataURL and navigator.webdriver; results published at fingerprint.garden."
+      ],
+      "source": {
+        "name": "nullpt.rs",
+        "url": "https://nullpt.rs/fingerprinting-bioweapons",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Hacker News thread (682 points)",
+          "url": "https://news.ycombinator.com/item?id=50276998"
+        }
+      ],
+      "publishedAt": "2026-10-28T17:13:29Z",
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://nullpt.rs/fingerprinting-bioweapons",
+      "firstSeen": "2026-10-28"
+    }
+  ]
+}
