@@ -1,0 +1,335 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-10-28-1900",
+  "date": "2026-10-28",
+  "publishedAt": "2026-10-29T00:05:34Z",
+  "edition": "Evening",
+  "top3": [
+    {
+      "itemId": "microsoft-earnings-agents",
+      "headline": "Microsoft now counts over 50 million agents under its governance layer",
+      "whyItMatters": "Agent control is becoming a platform purchase, so decide who governs yours before a vendor does."
+    },
+    {
+      "itemId": "alphabet-q3-2026",
+      "headline": "Google Cloud revenue doubles as AI demand reaches the income statement",
+      "whyItMatters": "AI is now paying off in Google's revenue, so expect its AI investment push to continue."
+    },
+    {
+      "itemId": "surge-dayjob-tax-benchmark",
+      "headline": "On real tax work, the best agent passes one in ten",
+      "whyItMatters": "End-to-end professional work still needs expert review, whatever the model leaderboards say."
+    }
+  ],
+  "items": [
+    {
+      "id": "microsoft-earnings-agents",
+      "title": "Microsoft says over 50M agents now run in Agent 365",
+      "takeaway": "Microsoft Cloud passed $63B, up 30%; Foundry revenue more than tripled, per Nadella.",
+      "soWhat": "Microsoft is selling agent governance outside the model, so ask how your agents are permissioned.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-10-28T22:53:39Z",
+      "source": {
+        "name": "Satya Nadella on X",
+        "url": "https://x.com/satyanadella/status/2115577764300693644"
+      },
+      "related": [
+        {
+          "name": "Nadella thread: agents and governance",
+          "url": "https://x.com/satyanadella/status/2115577770533368135"
+        },
+        {
+          "name": "Nadella thread: Foundry",
+          "url": "https://x.com/satyanadella/status/2115577768159416765"
+        },
+        {
+          "name": "Nadella thread: Copilot",
+          "url": "https://x.com/satyanadella/status/2115577765995123084"
+        }
+      ],
+      "image": {
+        "src": "/img/microsoft-earnings-agents.jpg",
+        "alt": "Image from Satya Nadella on X"
+      },
+      "heat": {
+        "score": 14,
+        "level": "none",
+        "metric": "54k views"
+      }
+    },
+    {
+      "id": "vercel-ai-gateway-virtual-models",
+      "title": "Vercel lets teams swap an agent's model without changing code",
+      "takeaway": "Virtual Models give each agent task one model ID; model, fallbacks and data retention change centrally.",
+      "soWhat": "With about 10 new models a week, central model switching keeps agents current without redeploys.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-28T22:27:15Z",
+      "source": {
+        "name": "Vercel blog",
+        "url": "https://vercel.com/blog/ai-gateway-virtual-models"
+      },
+      "related": [
+        {
+          "name": "Vercel on X",
+          "url": "https://x.com/vercel/status/2115571121622073355"
+        },
+        {
+          "name": "Guillermo Rauch on X",
+          "url": "https://x.com/rauchg/status/2115573969369845855"
+        }
+      ],
+      "image": {
+        "src": "/img/vercel-ai-gateway-virtual-models.jpg",
+        "alt": "Image from Vercel blog"
+      },
+      "heat": {
+        "score": 3,
+        "level": "none",
+        "metric": "15k views"
+      }
+    },
+    {
+      "id": "kunchenguid-ci-at-agent-speed",
+      "title": "Kun Chen: CI is the next bottleneck once agents write the code",
+      "takeaway": "Smarter test selection gave him 20x faster CI on a big codebase; trimming OS tests gave 15x.",
+      "soWhat": "If agents ship faster than CI can check, your test pipeline sets the real delivery speed.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-28T22:03:54Z",
+      "source": {
+        "name": "Kun Chen on X",
+        "url": "https://x.com/kunchenguid/status/2115565245293039814"
+      },
+      "image": {
+        "src": "/img/kunchenguid-ci-at-agent-speed.jpg",
+        "alt": "Profile image of @kunchenguid"
+      },
+      "heat": {
+        "score": 16,
+        "level": "none",
+        "metric": "10k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "a16z-ciso-ai-survey",
+      "title": "A third of large-company CISOs run autonomous agents with write access",
+      "takeaway": "a16z surveyed 100 CISOs; 55% run MCPs or agent-to-app links in production.",
+      "soWhat": "Agents with write access are already in production, so permissions and monitoring can't wait.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 7,
+      "publishedAt": "2026-10-28T20:15:03Z",
+      "source": {
+        "name": "a16z on X",
+        "url": "https://x.com/a16z/status/2115537851601551491"
+      },
+      "related": [
+        {
+          "name": "a16z on continuous security testing",
+          "url": "https://x.com/a16z/status/2115554206878966216"
+        }
+      ],
+      "image": {
+        "src": "/img/a16z-ciso-ai-survey.jpg",
+        "alt": "Image from a16z on X"
+      },
+      "heat": {
+        "score": 2,
+        "level": "none",
+        "metric": "14k views"
+      }
+    },
+    {
+      "id": "alphabet-q3-2026",
+      "title": "Alphabet hits a half-trillion run rate as Google Cloud doubles",
+      "takeaway": "Revenue up 25%, Cloud up 103%; first-party model APIs near 32B tokens a minute, per Pichai.",
+      "soWhat": "AI demand now shows up in Google's revenue, not just its spending plans.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-10-28T20:05:31Z",
+      "source": {
+        "name": "Sundar Pichai on X",
+        "url": "https://x.com/sundarpichai/status/2115535455156642066"
+      },
+      "image": {
+        "src": "/img/alphabet-q3-2026.jpg",
+        "alt": "Image from Sundar Pichai on X"
+      },
+      "heat": {
+        "score": 29,
+        "level": "none",
+        "metric": "376k views"
+      }
+    },
+    {
+      "id": "vercel-ci-beta",
+      "title": "Vercel CI runs only affected tasks and lets agents drive it",
+      "takeaway": "In beta on all plans; Vercel reports 2-6x faster push-to-pass internally.",
+      "soWhat": "CI built for agents to trigger and read cuts the wait between an agent's change and a merge.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-10-28T19:31:40Z",
+      "source": {
+        "name": "Vercel blog",
+        "url": "https://vercel.com/blog/introducing-vercel-ci"
+      },
+      "related": [
+        {
+          "name": "Vercel on X",
+          "url": "https://x.com/vercel/status/2115526935636021696"
+        },
+        {
+          "name": "Guillermo Rauch on agentic CI",
+          "url": "https://x.com/rauchg/status/2115539426684408300"
+        }
+      ],
+      "image": {
+        "src": "/img/vercel-ci-beta.jpg",
+        "alt": "Image from Vercel blog"
+      },
+      "heat": {
+        "score": 26,
+        "level": "none",
+        "metric": "89k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "particle-launch-suhail",
+      "title": "Particle launches inference for open models, claiming 45% fewer tokens",
+      "takeaway": "Founder's claim, no benchmark named; Perplexity and Vercel AI Gateway are early partners.",
+      "soWhat": "Token efficiency is becoming a selling point, so compare cost per finished task, not per token.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-10-28T17:36:29Z",
+      "source": {
+        "name": "Suhail on X",
+        "url": "https://x.com/Suhail/status/2115497949421883648"
+      },
+      "related": [
+        {
+          "name": "Particle",
+          "url": "https://particle.ai"
+        },
+        {
+          "name": "Aravind Srinivas on X",
+          "url": "https://x.com/AravSrinivas/status/2115510517871890511"
+        },
+        {
+          "name": "Guillermo Rauch on X",
+          "url": "https://x.com/rauchg/status/2115566139447382115"
+        }
+      ],
+      "image": {
+        "src": "/img/particle-launch-suhail.jpg",
+        "alt": "Image from Suhail on X"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "193k views"
+      }
+    },
+    {
+      "id": "anti-llm-fingerprinting-script",
+      "title": "A tracking script hides jailbreak text to make AI refuse analysis",
+      "takeaway": "Found in a 10,000-site crawl; under Node it also tries to read .env and other secrets files.",
+      "soWhat": "Attackers now design code to stop AI reviewers, so keep humans and sandboxes in security review.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-10-28T17:13:29Z",
+      "source": {
+        "name": "nullpt.rs",
+        "url": "https://nullpt.rs/fingerprinting-bioweapons"
+      },
+      "related": [
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50276998"
+        }
+      ],
+      "image": {
+        "src": "/img/anti-llm-fingerprinting-script.jpg",
+        "alt": "nullpt.rs: A tracking script hides jailbreak text to make AI refuse analysis"
+      }
+    },
+    {
+      "id": "surge-dayjob-tax-benchmark",
+      "title": "Best AI agent passes 10.8% of expert tax assignments",
+      "takeaway": "Surge's DAYJOB: Tax has 50 real-style client assignments across 1,789 files.",
+      "soWhat": "Agents still fail most end-to-end professional deliverables, so keep experts signing off.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-10-27T12:00:00Z",
+      "source": {
+        "name": "Surge AI blog",
+        "url": "https://surgehq.ai/blog/dayjob-tax"
+      },
+      "related": [
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50275626"
+        }
+      ],
+      "image": {
+        "src": "/img/surge-dayjob-tax-benchmark.jpg",
+        "alt": "Image from Surge AI blog"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@Suhail",
+      "quote": "managed to keep parity in performance while using ~45% fewer tokens",
+      "url": "https://x.com/Suhail/status/2115497949421883648"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/sundarpichai/status/2115535455156642066",
+      "handle": "@sundarpichai",
+      "text": "Alphabet Q3: half-trillion annual revenue run rate, revenue up 25%, Google Cloud up 103%.",
+      "metric": "5.7k likes",
+      "note": "Hard numbers showing AI demand turning into revenue at Google's scale."
+    },
+    {
+      "url": "https://x.com/Suhail/status/2115497949421883648",
+      "handle": "@Suhail",
+      "text": "Particle launches: inference for open-weight models; particle-1 keeps parity using ~45% fewer tokens.",
+      "metric": "1.4k likes",
+      "note": "A new inference company promising cheaper open models, with Perplexity on board."
+    },
+    {
+      "url": "https://x.com/vercel/status/2115526935636021696",
+      "handle": "@vercel",
+      "text": "Vercel CI in beta: runs only the tasks a change affects, and agents can inspect and trigger it.",
+      "metric": "772 likes",
+      "note": "Builders want CI that keeps pace with agent-written code."
+    },
+    {
+      "url": "https://x.com/satyanadella/status/2115577764300693644",
+      "handle": "@satyanadella",
+      "text": "Microsoft Cloud passed $63B, up 30%; over 50M agents now in Agent 365.",
+      "metric": "603 likes",
+      "note": "Microsoft's CEO puts agent counts next to revenue as a headline metric."
+    },
+    {
+      "url": "https://x.com/kunchenguid/status/2115565245293039814",
+      "handle": "@kunchenguid",
+      "text": "Once teams stop reviewing most agent code, CI is the bottleneck: move checks to CD, modularize, select tests.",
+      "metric": "207 likes",
+      "note": "A concrete playbook for speeding CI, with 15x and 20x results."
+    }
+  ]
+}

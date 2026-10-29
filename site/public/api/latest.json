@@ -1,261 +1,335 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-10-28-1300",
+  "id": "2026-10-28-1900",
   "date": "2026-10-28",
-  "publishedAt": "2026-10-28T18:10:40Z",
-  "edition": "Midday",
+  "publishedAt": "2026-10-29T00:05:34Z",
+  "edition": "Evening",
   "top3": [
     {
-      "itemId": "gemini-4-carbon",
-      "headline": "Google's new top model goes to cyber defenders before anyone else",
-      "whyItMatters": "Your team's access to the strongest coding model now depends on Google's staged rollout, not price."
+      "itemId": "microsoft-earnings-agents",
+      "headline": "Microsoft now counts over 50 million agents under its governance layer",
+      "whyItMatters": "Agent control is becoming a platform purchase, so decide who governs yours before a vendor does."
     },
     {
-      "itemId": "github-universe-copilot-projects-fusion",
-      "headline": "GitHub bundles all of Copilot into Enterprise and bills by credits",
-      "whyItMatters": "Agent usage now drives your GitHub bill, so budget owners need visibility into it."
+      "itemId": "alphabet-q3-2026",
+      "headline": "Google Cloud revenue doubles as AI demand reaches the income statement",
+      "whyItMatters": "AI is now paying off in Google's revenue, so expect its AI investment push to continue."
     },
     {
-      "itemId": "github-octoverse-2026",
-      "headline": "Agents now start over 40% of pull requests on GitHub",
-      "whyItMatters": "Your engineers increasingly direct and review agent work, so train and measure them for that."
+      "itemId": "surge-dayjob-tax-benchmark",
+      "headline": "On real tax work, the best agent passes one in ten",
+      "whyItMatters": "End-to-end professional work still needs expert review, whatever the model leaderboards say."
     }
   ],
   "items": [
     {
-      "id": "gemini-4-carbon",
-      "title": "Gemini 4 Carbon takes #1 on Artificial Analysis, defenders first",
-      "takeaway": "Google reports 59 on Index v5.0 and top cyber scores; price matches Argon at $2 and $10 per million tokens.",
-      "soWhat": "Google is gating its top model to cyber defenders first, so access, not just quality, shapes your options.",
+      "id": "microsoft-earnings-agents",
+      "title": "Microsoft says over 50M agents now run in Agent 365",
+      "takeaway": "Microsoft Cloud passed $63B, up 30%; Foundry revenue more than tripled, per Nadella.",
+      "soWhat": "Microsoft is selling agent governance outside the model, so ask how your agents are permissioned.",
       "lens": "broad",
       "momentum": "building",
       "importance": 9,
-      "publishedAt": "2026-10-28T17:01:48Z",
+      "publishedAt": "2026-10-28T22:53:39Z",
       "source": {
-        "name": "Google blog",
-        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        "name": "Satya Nadella on X",
+        "url": "https://x.com/satyanadella/status/2115577764300693644"
       },
       "related": [
         {
-          "name": "Sundar Pichai on X",
-          "url": "https://x.com/sundarpichai/status/2115489219804352921"
+          "name": "Nadella thread: agents and governance",
+          "url": "https://x.com/satyanadella/status/2115577770533368135"
         },
         {
-          "name": "Google DeepMind on X",
-          "url": "https://x.com/GoogleDeepMind/status/2115489356437651654"
+          "name": "Nadella thread: Foundry",
+          "url": "https://x.com/satyanadella/status/2115577768159416765"
         },
+        {
+          "name": "Nadella thread: Copilot",
+          "url": "https://x.com/satyanadella/status/2115577765995123084"
+        }
+      ],
+      "image": {
+        "src": "/img/microsoft-earnings-agents.jpg",
+        "alt": "Image from Satya Nadella on X"
+      },
+      "heat": {
+        "score": 14,
+        "level": "none",
+        "metric": "54k views"
+      }
+    },
+    {
+      "id": "vercel-ai-gateway-virtual-models",
+      "title": "Vercel lets teams swap an agent's model without changing code",
+      "takeaway": "Virtual Models give each agent task one model ID; model, fallbacks and data retention change centrally.",
+      "soWhat": "With about 10 new models a week, central model switching keeps agents current without redeploys.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-28T22:27:15Z",
+      "source": {
+        "name": "Vercel blog",
+        "url": "https://vercel.com/blog/ai-gateway-virtual-models"
+      },
+      "related": [
+        {
+          "name": "Vercel on X",
+          "url": "https://x.com/vercel/status/2115571121622073355"
+        },
+        {
+          "name": "Guillermo Rauch on X",
+          "url": "https://x.com/rauchg/status/2115573969369845855"
+        }
+      ],
+      "image": {
+        "src": "/img/vercel-ai-gateway-virtual-models.jpg",
+        "alt": "Image from Vercel blog"
+      },
+      "heat": {
+        "score": 3,
+        "level": "none",
+        "metric": "15k views"
+      }
+    },
+    {
+      "id": "kunchenguid-ci-at-agent-speed",
+      "title": "Kun Chen: CI is the next bottleneck once agents write the code",
+      "takeaway": "Smarter test selection gave him 20x faster CI on a big codebase; trimming OS tests gave 15x.",
+      "soWhat": "If agents ship faster than CI can check, your test pipeline sets the real delivery speed.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-28T22:03:54Z",
+      "source": {
+        "name": "Kun Chen on X",
+        "url": "https://x.com/kunchenguid/status/2115565245293039814"
+      },
+      "image": {
+        "src": "/img/kunchenguid-ci-at-agent-speed.jpg",
+        "alt": "Profile image of @kunchenguid"
+      },
+      "heat": {
+        "score": 16,
+        "level": "none",
+        "metric": "10k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "a16z-ciso-ai-survey",
+      "title": "A third of large-company CISOs run autonomous agents with write access",
+      "takeaway": "a16z surveyed 100 CISOs; 55% run MCPs or agent-to-app links in production.",
+      "soWhat": "Agents with write access are already in production, so permissions and monitoring can't wait.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 7,
+      "publishedAt": "2026-10-28T20:15:03Z",
+      "source": {
+        "name": "a16z on X",
+        "url": "https://x.com/a16z/status/2115537851601551491"
+      },
+      "related": [
+        {
+          "name": "a16z on continuous security testing",
+          "url": "https://x.com/a16z/status/2115554206878966216"
+        }
+      ],
+      "image": {
+        "src": "/img/a16z-ciso-ai-survey.jpg",
+        "alt": "Image from a16z on X"
+      },
+      "heat": {
+        "score": 2,
+        "level": "none",
+        "metric": "14k views"
+      }
+    },
+    {
+      "id": "alphabet-q3-2026",
+      "title": "Alphabet hits a half-trillion run rate as Google Cloud doubles",
+      "takeaway": "Revenue up 25%, Cloud up 103%; first-party model APIs near 32B tokens a minute, per Pichai.",
+      "soWhat": "AI demand now shows up in Google's revenue, not just its spending plans.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-10-28T20:05:31Z",
+      "source": {
+        "name": "Sundar Pichai on X",
+        "url": "https://x.com/sundarpichai/status/2115535455156642066"
+      },
+      "image": {
+        "src": "/img/alphabet-q3-2026.jpg",
+        "alt": "Image from Sundar Pichai on X"
+      },
+      "heat": {
+        "score": 29,
+        "level": "none",
+        "metric": "376k views"
+      }
+    },
+    {
+      "id": "vercel-ci-beta",
+      "title": "Vercel CI runs only affected tasks and lets agents drive it",
+      "takeaway": "In beta on all plans; Vercel reports 2-6x faster push-to-pass internally.",
+      "soWhat": "CI built for agents to trigger and read cuts the wait between an agent's change and a merge.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-10-28T19:31:40Z",
+      "source": {
+        "name": "Vercel blog",
+        "url": "https://vercel.com/blog/introducing-vercel-ci"
+      },
+      "related": [
+        {
+          "name": "Vercel on X",
+          "url": "https://x.com/vercel/status/2115526935636021696"
+        },
+        {
+          "name": "Guillermo Rauch on agentic CI",
+          "url": "https://x.com/rauchg/status/2115539426684408300"
+        }
+      ],
+      "image": {
+        "src": "/img/vercel-ci-beta.jpg",
+        "alt": "Image from Vercel blog"
+      },
+      "heat": {
+        "score": 26,
+        "level": "none",
+        "metric": "89k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "particle-launch-suhail",
+      "title": "Particle launches inference for open models, claiming 45% fewer tokens",
+      "takeaway": "Founder's claim, no benchmark named; Perplexity and Vercel AI Gateway are early partners.",
+      "soWhat": "Token efficiency is becoming a selling point, so compare cost per finished task, not per token.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-10-28T17:36:29Z",
+      "source": {
+        "name": "Suhail on X",
+        "url": "https://x.com/Suhail/status/2115497949421883648"
+      },
+      "related": [
+        {
+          "name": "Particle",
+          "url": "https://particle.ai"
+        },
+        {
+          "name": "Aravind Srinivas on X",
+          "url": "https://x.com/AravSrinivas/status/2115510517871890511"
+        },
+        {
+          "name": "Guillermo Rauch on X",
+          "url": "https://x.com/rauchg/status/2115566139447382115"
+        }
+      ],
+      "image": {
+        "src": "/img/particle-launch-suhail.jpg",
+        "alt": "Image from Suhail on X"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "193k views"
+      }
+    },
+    {
+      "id": "anti-llm-fingerprinting-script",
+      "title": "A tracking script hides jailbreak text to make AI refuse analysis",
+      "takeaway": "Found in a 10,000-site crawl; under Node it also tries to read .env and other secrets files.",
+      "soWhat": "Attackers now design code to stop AI reviewers, so keep humans and sandboxes in security review.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-10-28T17:13:29Z",
+      "source": {
+        "name": "nullpt.rs",
+        "url": "https://nullpt.rs/fingerprinting-bioweapons"
+      },
+      "related": [
         {
           "name": "Hacker News thread",
-          "url": "https://news.ycombinator.com/item?id=50276792"
+          "url": "https://news.ycombinator.com/item?id=50276998"
         }
       ],
       "image": {
-        "src": "/img/gemini-4-carbon.jpg",
-        "alt": "Image from Google blog"
+        "src": "/img/anti-llm-fingerprinting-script.jpg",
+        "alt": "nullpt.rs: A tracking script hides jailbreak text to make AI refuse analysis"
       }
     },
     {
-      "id": "langchain-proactive-agents-crons",
-      "title": "LangChain: over 70% of its managed agent runs start on a schedule",
-      "takeaway": "LangChain argues most proactive agents are a cron job with a prompt; the 70% figure is its own and unaudited.",
-      "soWhat": "Proactive agents need governed schedules, so decide who may create, list and delete them.",
+      "id": "surge-dayjob-tax-benchmark",
+      "title": "Best AI agent passes 10.8% of expert tax assignments",
+      "takeaway": "Surge's DAYJOB: Tax has 50 real-style client assignments across 1,789 files.",
+      "soWhat": "Agents still fail most end-to-end professional deliverables, so keep experts signing off.",
       "lens": "practical",
       "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-10-28T16:18:45Z",
-      "source": {
-        "name": "@LangChain on X",
-        "url": "https://x.com/LangChain/status/2115478384855625930"
-      },
-      "related": [
-        {
-          "name": "Why aren't you building proactive agents yet?",
-          "url": "https://x.com/ndrezn/status/2115477935482118345"
-        },
-        {
-          "name": "Harrison Chase on X",
-          "url": "https://x.com/hwchase17/status/2115479787145929060"
-        }
-      ],
-      "image": {
-        "src": "/img/langchain-proactive-agents-crons.jpg",
-        "alt": "Image from @LangChain on X"
-      },
-      "heat": {
-        "score": 0,
-        "level": "none",
-        "metric": "2k views"
-      }
-    },
-    {
-      "id": "github-universe-copilot-projects-fusion",
-      "title": "GitHub's Copilot now runs goal-driven agents across many repos at once",
-      "takeaway": "Copilot Fusion picks models per task; Enterprise gets every Copilot feature and pays for AI credits used.",
-      "soWhat": "Enterprise Copilot is now billed by AI credits used, so heavier agent use means a bigger bill.",
-      "lens": "practical",
-      "momentum": "new",
       "importance": 8,
-      "publishedAt": "2026-10-28T16:09:28Z",
+      "publishedAt": "2026-10-27T12:00:00Z",
       "source": {
-        "name": "GitHub Blog",
-        "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/"
+        "name": "Surge AI blog",
+        "url": "https://surgehq.ai/blog/dayjob-tax"
       },
       "related": [
         {
-          "name": "Satya Nadella on X",
-          "url": "https://x.com/satyanadella/status/2115490856685990244"
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50275626"
         }
       ],
       "image": {
-        "src": "/img/github-universe-copilot-projects-fusion.jpg",
-        "alt": "Image from GitHub Blog"
-      }
-    },
-    {
-      "id": "github-octoverse-2026",
-      "title": "Over 40% of GitHub pull requests now start with an agent",
-      "takeaway": "Up from 17% in March; 17.9 billion pushes in 12 months, more than 2024 and 2025 combined.",
-      "soWhat": "Agents now write the first draft of much code, so review is where your engineers add value.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-10-28T16:07:40Z",
-      "source": {
-        "name": "GitHub Blog (Octoverse)",
-        "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/"
-      },
-      "related": [
-        {
-          "name": "Simon Willison",
-          "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/"
-        }
-      ],
-      "image": {
-        "src": "/img/github-octoverse-2026.jpg",
-        "alt": "Image from GitHub Blog (Octoverse)"
-      }
-    },
-    {
-      "id": "claude-for-legal-artifact-gallery",
-      "title": "Claude for Legal adds ready-made artifacts for contract review",
-      "takeaway": "Gallery also covers regulatory scans and cite checks; teams add their own documents and connectors, then share.",
-      "soWhat": "Legal teams can start from vendor templates instead of building agent workflows from scratch.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-10-28T15:34:16Z",
-      "source": {
-        "name": "@claudeai on X",
-        "url": "https://x.com/claudeai/status/2115467192276025500"
-      },
-      "image": {
-        "src": "/img/claude-for-legal-artifact-gallery.jpg",
-        "alt": "Profile image of @claudeai"
-      },
-      "heat": {
-        "score": 32,
-        "level": "none",
-        "metric": "662k views"
-      }
-    },
-    {
-      "id": "xai-southaven-home-buyouts",
-      "title": "xAI unit offers to buy homes near its Mississippi data center",
-      "takeaway": "Sellers would release claims in a noise and vibration lawsuit; a realtor told a resident 418 homes are planned.",
-      "soWhat": "Data center neighbors are now a legal and cost line item in AI infrastructure plans.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-10-28T14:44:00Z",
-      "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit"
-      },
-      "image": {
-        "src": "/img/xai-southaven-home-buyouts.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
-      "id": "simonw-vibe-game-inflection",
-      "title": "Simon Willison: Opus 5.5 can now vibe-code games that are fun",
-      "takeaway": "He built four browser games without reading the code and published the prompts.",
-      "soWhat": "Interactive prototypes now come from a few plain prompts, lowering the cost of testing product ideas.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-10-28T14:05:04Z",
-      "source": {
-        "name": "@simonw on X",
-        "url": "https://x.com/simonw/status/2115444742595260551"
-      },
-      "related": [
-        {
-          "name": "Blog: vibe game development",
-          "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
-        }
-      ],
-      "image": {
-        "src": "/img/simonw-vibe-game-inflection.jpg",
-        "alt": "Image from @simonw on X"
-      },
-      "heat": {
-        "score": 15,
-        "level": "none",
-        "metric": "33k views"
+        "src": "/img/surge-dayjob-tax-benchmark.jpg",
+        "alt": "Image from Surge AI blog"
       }
     }
   ],
   "voices": [
     {
-      "handle": "GitHub Octoverse 2026",
-      "quote": "For a growing share of work, the first move is now directing an agent, and review is how developers shape what comes back.",
-      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/"
-    },
-    {
-      "handle": "Google blog",
-      "quote": "Starting this week, we will make Carbon available to a subset of cyber defenders and will gradually phase access to additional trusted partners through our Fairwind Program.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
-    },
-    {
-      "handle": "GitHub Blog (Jay Parikh)",
-      "quote": "In a couple of years, we’ve gone from writing every line of code to working with AI assistants to orchestrating fleets of agents.",
-      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/"
-    },
-    {
-      "handle": "@simonw",
-      "quote": "I think we’ve reached a new inflection point in October 2026, and this time it’s for vibe coding computer games.",
-      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
+      "handle": "@Suhail",
+      "quote": "managed to keep parity in performance while using ~45% fewer tokens",
+      "url": "https://x.com/Suhail/status/2115497949421883648"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/claudeai/status/2115467192276025500",
-      "handle": "@claudeai",
-      "text": "Claude for Legal adds a gallery of ready-made artifacts: contract review, regulatory horizon scans, cite checks and more.",
-      "metric": "9.3k likes",
-      "note": "Ready-made legal workflows lower the barrier for firms trying Claude."
-    },
-    {
-      "url": "https://x.com/sundarpichai/status/2115489219804352921",
+      "url": "https://x.com/sundarpichai/status/2115535455156642066",
       "handle": "@sundarpichai",
-      "text": "Gemini 4 Carbon: #1 on Artificial Analysis Index v5.0 at 59; trusted cyber defenders get access starting this week.",
-      "metric": "5.3k likes",
-      "note": "A new #1 model two weeks after Argon, with access gated to defenders first."
+      "text": "Alphabet Q3: half-trillion annual revenue run rate, revenue up 25%, Google Cloud up 103%.",
+      "metric": "5.7k likes",
+      "note": "Hard numbers showing AI demand turning into revenue at Google's scale."
     },
     {
-      "url": "https://x.com/simonw/status/2115444742595260551",
-      "handle": "@simonw",
-      "text": "October 2026 is an inflection point for vibe-coding games: four browser games built with Opus 5.5, prompts included.",
-      "metric": "602 likes",
-      "note": "A trusted builder says models now make games people enjoy, with prompts to copy."
+      "url": "https://x.com/Suhail/status/2115497949421883648",
+      "handle": "@Suhail",
+      "text": "Particle launches: inference for open-weight models; particle-1 keeps parity using ~45% fewer tokens.",
+      "metric": "1.4k likes",
+      "note": "A new inference company promising cheaper open models, with Perplexity on board."
     },
     {
-      "url": "https://x.com/satyanadella/status/2115490856685990244",
+      "url": "https://x.com/vercel/status/2115526935636021696",
+      "handle": "@vercel",
+      "text": "Vercel CI in beta: runs only the tasks a change affects, and agents can inspect and trigger it.",
+      "metric": "772 likes",
+      "note": "Builders want CI that keeps pace with agent-written code."
+    },
+    {
+      "url": "https://x.com/satyanadella/status/2115577764300693644",
       "handle": "@satyanadella",
-      "text": "Copilot Fusion, the Copilot harness in Foundry for long-running agents, and Copilot Projects across repos.",
-      "metric": "116 likes",
-      "note": "Microsoft's CEO frames GitHub's launches as a platform for orchestrating agents."
+      "text": "Microsoft Cloud passed $63B, up 30%; over 50M agents now in Agent 365.",
+      "metric": "603 likes",
+      "note": "Microsoft's CEO puts agent counts next to revenue as a headline metric."
+    },
+    {
+      "url": "https://x.com/kunchenguid/status/2115565245293039814",
+      "handle": "@kunchenguid",
+      "text": "Once teams stop reviewing most agent code, CI is the bottleneck: move checks to CD, modularize, select tests.",
+      "metric": "207 likes",
+      "note": "A concrete playbook for speeding CI, with 15x and 20x results."
     }
   ]
 }

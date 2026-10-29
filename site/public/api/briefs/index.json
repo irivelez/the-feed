@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-28-1300",
-  "count": 19,
+  "latest": "2026-10-28-1900",
+  "count": 20,
   "briefs": [
+    {
+      "id": "2026-10-28-1900",
+      "date": "2026-10-28",
+      "edition": "Evening",
+      "publishedAt": "2026-10-29T00:05:34Z",
+      "headline": "Microsoft now counts over 50 million agents under its governance layer",
+      "url": "/api/briefs/2026-10-28-1900.json"
+    },
     {
       "id": "2026-10-28-1300",
       "date": "2026-10-28",
