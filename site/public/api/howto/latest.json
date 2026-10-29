@@ -1,44 +1,40 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-28T18:11:09Z",
-  "runId": "2026-10-28-1237",
+  "updatedAt": "2026-10-29T00:06:20Z",
+  "runId": "2026-10-28-1900",
   "howtos": [
     {
-      "id": "simonw-one-prompt-threejs-game",
-      "dedupeKey": "one-prompt-threejs-fun-game",
-      "title": "Build a fun three.js browser game from one prompt",
-      "what": "Simon Willison's single prompt that produced his 'Tree Appreciator' game with Claude Opus 5.5, no follow-ups.",
-      "kind": "prompt",
+      "id": "kunchenguid-speed-up-ci-for-agent-code",
+      "dedupeKey": "speed-up-ci-for-agent-speed",
+      "title": "Speed up CI so it keeps pace with agent code",
+      "what": "Kun Chen's three fixes for CI once agents write most code, with 15x and 20x speedups he reports.",
+      "kind": "steps",
       "copy": [
-        "Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechanics is about appreciating the differences between them. Think hard about how to make sure it is both fun and beautiful."
+        "Move checks from CI to CD where you can, for example skip most mac and Windows tests in CI when Linux covers the same functionality.",
+        "Modularize the codebase so CI runs only the modules a change touches.",
+        "Invest in test selection, with a nightly loop that audits past test runs and tunes which tests run."
       ],
-      "whenToUse": "When you want a quick playable prototype; swap in your own game idea and keep the three.js and fun instructions.",
+      "whenToUse": "When agents produce changes faster than your CI pipeline can check them.",
       "source": {
-        "name": "Simon Willison's blog",
-        "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/"
+        "name": "Kun Chen on X",
+        "url": "https://x.com/kunchenguid/status/2115565245293039814"
       },
       "author": {
-        "name": "Simon Willison",
-        "handle": "simonw"
+        "name": "Kun Chen",
+        "handle": "kunchenguid"
       },
-      "alsoFrom": [
-        {
-          "name": "@simonw on X",
-          "url": "https://x.com/simonw/status/2115444742595260551"
-        }
-      ],
       "tags": [
-        "prompts",
-        "prototyping",
-        "games"
+        "ci",
+        "testing",
+        "agents"
       ],
-      "quality": 4,
-      "verbatim": true,
+      "quality": 3,
+      "verbatim": false,
       "briefItem": {
-        "briefId": "2026-10-28-1300",
-        "itemId": "simonw-vibe-game-inflection"
+        "briefId": "2026-10-28-1900",
+        "itemId": "kunchenguid-ci-at-agent-speed"
       },
-      "addedAt": "2026-10-28T18:11:09Z"
+      "addedAt": "2026-10-29T00:06:20Z"
     }
   ]
 }
