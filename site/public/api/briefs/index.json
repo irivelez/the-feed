@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-29-0700",
-  "count": 21,
+  "latest": "2026-10-29-1300",
+  "count": 22,
   "briefs": [
+    {
+      "id": "2026-10-29-1300",
+      "date": "2026-10-29",
+      "edition": "Midday",
+      "publishedAt": "2026-10-29T18:04:58Z",
+      "headline": "OpenAI reverses its Codex cut and doubles Pro usage limits",
+      "url": "/api/briefs/2026-10-29-1300.json"
+    },
     {
       "id": "2026-10-29-0700",
       "date": "2026-10-29",

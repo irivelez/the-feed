@@ -1,303 +1,273 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-10-29-0700",
+  "id": "2026-10-29-1300",
   "date": "2026-10-29",
-  "publishedAt": "2026-10-29T12:02:12Z",
-  "edition": "Morning",
+  "publishedAt": "2026-10-29T18:04:58Z",
+  "edition": "Midday",
   "top3": [
     {
-      "itemId": "spawn-agent-fleet-playbook",
-      "headline": "A ten-person company says its agents ship 108 changes an hour",
-      "whyItMatters": "Agent fleets can replace review queues with tests and rollback, but it takes heavy token spend."
+      "itemId": "codex-pro-limits-doubled",
+      "headline": "OpenAI reverses its Codex cut and doubles Pro usage limits",
+      "whyItMatters": "Vendor plan terms can flip within a day, so avoid locking agent budgets to one seat type."
     },
     {
-      "itemId": "claude-code-agent-summary-token-cost",
-      "headline": "Hidden Claude Code summaries ate 16% of one team's AI spend",
-      "whyItMatters": "Agent tools carry default costs you never asked for, so measure where tokens actually go."
+      "itemId": "mistral-large-4-open-weights",
+      "headline": "Mistral releases open weights for a trillion-parameter coding model",
+      "whyItMatters": "A European open model near the coding frontier gives you a credible self-hosted fallback."
     },
     {
-      "itemId": "meta-muse-personal-agent-launch",
-      "headline": "Meta puts a personal agent with approvals and audit trails in WhatsApp",
-      "whyItMatters": "Agents that buy and book are reaching mass consumer apps, with approval gates as the default."
+      "itemId": "anthropic-ai-for-science-institutions",
+      "headline": "Anthropic expands free Claude credits to 20 science institutions",
+      "whyItMatters": "Anthropic says agents turn months of lab data analysis into hours, a pace worth testing."
     }
   ],
   "items": [
     {
-      "id": "pocock-codex-subagent-fork-fix",
-      "title": "Codex subagents inherit parent context, hurting clean-context skills",
-      "takeaway": "Pocock found Codex forks the parent's context into most subagents; a fix shipped in his skills repo.",
-      "soWhat": "Review and spec agents need a clean context, so check how your harness spawns them.",
-      "lens": "practical",
+      "id": "claude-ipad-side-by-side",
+      "title": "Claude on iPad now opens its work beside the chat",
+      "takeaway": "On iPad and iPhone Duo, what Claude makes opens next to the conversation and can go full screen.",
+      "soWhat": "Putting output beside the chat lets people review AI work without losing the thread.",
+      "lens": "design",
       "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-10-29T10:25:35Z",
+      "importance": 3,
+      "publishedAt": "2026-10-29T17:32:41Z",
       "source": {
-        "name": "@mattpocockuk on X",
-        "url": "https://x.com/mattpocockuk/status/2115751897558614073"
+        "name": "@claudeai on X",
+        "url": "https://x.com/claudeai/status/2115859377488072879"
       },
-      "related": [
-        {
-          "name": "mattpocock/skills PR #1341",
-          "url": "https://github.com/mattpocock/skills/pull/1341"
-        }
-      ],
       "image": {
-        "src": "/img/pocock-codex-subagent-fork-fix.jpg",
-        "alt": "Image from @mattpocockuk on X"
+        "src": "/img/claude-ipad-side-by-side.jpg",
+        "alt": "Image from @claudeai on X"
       },
       "heat": {
-        "score": 5,
+        "score": 12,
         "level": "none",
-        "metric": "12k views"
+        "metric": "26k views"
       }
     },
     {
-      "id": "verge-arizona-water-data-centers",
-      "title": "Arizona water fight turns voters against new data centers",
-      "takeaway": "Arizona will lose nearly 30% of its Colorado River water; TSMC's fab uses nearly 5M gallons a day.",
-      "soWhat": "Water is now a siting risk for AI compute, so factor local opposition into capacity plans.",
-      "lens": "broad",
-      "momentum": "shift",
-      "importance": 6,
-      "publishedAt": "2026-10-29T10:00:04Z",
-      "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc"
-      },
-      "image": {
-        "src": "/img/verge-arizona-water-data-centers.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
-      "id": "stratechery-palantir-sankar-interview",
-      "title": "Palantir's CTO says the AI industry underweights diffusion",
-      "takeaway": "Sankar argues companies focused on the top line adopt AI more successfully; full interview is paywalled.",
-      "soWhat": "Sankar sees adoption as the gap, not models, so point AI at revenue work first.",
-      "lens": "broad",
-      "momentum": "new",
+      "id": "langchain-managed-deep-agents-0-10",
+      "title": "LangChain's hosted agents can now use a browser",
+      "takeaway": "Managed Deep Agents 0.10, in public beta, adds browser use and async subagents for long background tasks.",
+      "soWhat": "Agents can now work on sites with no API, with users signing in when needed.",
+      "lens": "practical",
+      "momentum": "building",
       "importance": 5,
-      "publishedAt": "2026-10-29T10:00:00Z",
+      "publishedAt": "2026-10-29T17:11:57Z",
       "source": {
-        "name": "Stratechery",
-        "url": "https://stratechery.com/2026/an-interview-with-palantir-cto-shyam-sankar-about-the-ai-religious-war/"
+        "name": "@LangChain on X",
+        "url": "https://x.com/LangChain/status/2115854162202444119"
       },
       "related": [
         {
-          "name": "Stratechery on X",
-          "url": "https://x.com/stratechery/status/2115745467640197345"
+          "name": "LangChain docs: browser use",
+          "url": "https://docs.langchain.com/langsmith/python/managed-deep-agents-browser-use"
+        },
+        {
+          "name": "@hwchase17 on X",
+          "url": "https://x.com/hwchase17/status/2115854759991369840"
         }
       ],
       "image": {
-        "src": "/img/stratechery-palantir-sankar-interview.jpg",
-        "alt": "Image from Stratechery"
+        "src": "/img/langchain-managed-deep-agents-0-10.jpg",
+        "alt": "Image from @LangChain on X"
       },
       "heat": {
         "score": 0,
         "level": "none",
-        "metric": "5k views"
+        "metric": "1k views"
       }
     },
     {
-      "id": "codex-pro-limits-halved-oct30",
-      "title": "Users report OpenAI halves Codex limits on $200 Pro plans",
-      "takeaway": "Per users citing OpenAI's email, from Oct 30 Pro drops from 20x to 10x Plus usage at the same price.",
-      "soWhat": "If teams code on Pro seats, budget for tighter limits or compare other plans now.",
+      "id": "codex-pro-limits-doubled",
+      "title": "OpenAI doubles Pro limits and drops the planned Codex cut",
+      "takeaway": "Per @thsottiaux, limits double for Pro and Business Premium from Oct 29; Pro 200 Codex usage stays the same.",
+      "soWhat": "Teams coding on Pro seats keep their allowance, so revisit plan changes prompted by the reported cut.",
       "lens": "practical",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-10-29T05:02:59Z",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-10-29T16:56:07Z",
       "source": {
-        "name": "@kunchenguid on X",
-        "url": "https://x.com/kunchenguid/status/2115670709779513720"
+        "name": "@thsottiaux on X",
+        "url": "https://x.com/thsottiaux/status/2115850175868727621"
       },
       "related": [
         {
-          "name": "jackcorleone19 on X citing the OpenAI email",
-          "url": "https://x.com/jackcorleone19/status/2115340593417044260"
-        },
-        {
-          "name": "Zach Moskow on X",
-          "url": "https://x.com/zachmoskow/status/2115242952830095705"
+          "name": "OpenAIDevs: API credits for Pro and Business",
+          "url": "https://x.com/OpenAIDevs/status/2115583698074755078"
         }
       ],
       "image": {
-        "src": "/img/codex-pro-limits-halved-oct30.jpg",
-        "alt": "Profile image of @kunchenguid"
+        "src": "/img/codex-pro-limits-doubled.jpg",
+        "alt": "Image from @thsottiaux on X"
       },
       "heat": {
-        "score": 8,
+        "score": 36,
         "level": "none",
-        "metric": "12k views"
+        "metric": "455k views"
       }
     },
     {
-      "id": "claude-code-agent-summary-token-cost",
-      "title": "Claude Code status lines took 16% of one team's spend",
-      "takeaway": "Background agent summaries resend full transcripts every 30 seconds; a preload hook turns them off.",
-      "soWhat": "Audit default agent overhead; in one team's measurement it was a sixth of spend.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 9,
-      "publishedAt": "2026-10-29T03:33:42Z",
+      "id": "anthropic-ai-for-science-institutions",
+      "title": "Anthropic hands free Claude credits to 20 science funders and institutes",
+      "takeaway": "Partners include NSF, Sloan and the Crick Institute; a new draft standard lets agents run lab instruments.",
+      "soWhat": "Science funders are now routing AI access through grants, not only individual lab budgets.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-10-29T15:18:40Z",
       "source": {
-        "name": "Flamerix AI gist",
-        "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce"
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
       },
       "related": [
+        {
+          "name": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI/status/2115825653539025142"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-ai-for-science-institutions.jpg",
+        "alt": "Image from Anthropic"
+      },
+      "heat": {
+        "score": 23,
+        "level": "none",
+        "metric": "141k views"
+      }
+    },
+    {
+      "id": "mistral-large-4-open-weights",
+      "title": "Mistral opens the weights of its trillion-parameter Large 4",
+      "takeaway": "After more training, Mistral says it scores 41% on Terminal-Bench 4.0 and ties GLM-5.3 on coding agents.",
+      "soWhat": "Teams that need self-hosted or European models now have a frontier-class option for agentic coding.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-10-29T14:13:21Z",
+      "source": {
+        "name": "Mistral AI",
+        "url": "https://mistral.ai/news/mistral-large-4-oss/"
+      },
+      "related": [
+        {
+          "name": "Mistral AI on X",
+          "url": "https://x.com/MistralAI/status/2115811242556137820"
+        },
         {
           "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50284255"
-        },
-        {
-          "name": "anthropics/claude-code issue #86879",
-          "url": "https://github.com/anthropics/claude-code/issues/86879"
+          "url": "https://news.ycombinator.com/item?id=50289418"
         }
       ],
       "image": {
-        "src": "/img/claude-code-agent-summary-token-cost.jpg",
-        "alt": "Image from Flamerix AI gist"
-      }
-    },
-    {
-      "id": "meta-muse-personal-agent-launch",
-      "title": "Meta launches Muse, a personal agent that acts for you",
-      "takeaway": "Runs tasks on a cloud computer with a browser, via app or WhatsApp; asks before emails or purchases.",
-      "soWhat": "Muse's approvals, audit trail and one-time cards are a useful template for enterprise agents.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-10-29T01:57:53Z",
-      "source": {
-        "name": "@alexandr_wang on X",
-        "url": "https://x.com/alexandr_wang/status/2115624129080725720"
-      },
-      "related": [
-        {
-          "name": "Muse product page",
-          "url": "https://muse.ai/"
-        },
-        {
-          "name": "Artificial Analysis PersonalityBench",
-          "url": "https://x.com/ArtificialAnlys/status/2115558752648933831"
-        }
-      ],
-      "image": {
-        "src": "/img/meta-muse-personal-agent-launch.jpg",
-        "alt": "Image from @alexandr_wang on X"
+        "src": "/img/mistral-large-4-open-weights.jpg",
+        "alt": "Image from Mistral AI"
       },
       "heat": {
         "score": 27,
         "level": "none",
-        "metric": "1.4M views"
+        "metric": "239k views"
       }
     },
     {
-      "id": "spawn-agent-fleet-playbook",
-      "title": "Ten-person Spawn says agents shipped 77,000 changes in 30 days",
-      "takeaway": "$3.1M on tokens last month, no pull requests, hourly deploys, AI judges built from past decisions.",
-      "soWhat": "Spawn trades code review for constant tests and fast rollback; weigh that against your controls.",
+      "id": "cursor-agents-rebuilt-slack-video",
+      "title": "Cursor agents rebuilt Slack as a video by watching the app",
+      "takeaway": "@mattyp's 10-minute walkthrough covers computer use, inner and outer loops, skills and feedback loops.",
+      "soWhat": "A worked example of agents learning from a live app, useful when designing agent workflows.",
       "lens": "practical",
       "momentum": "building",
-      "importance": 9,
-      "publishedAt": "2026-10-29T01:54:55Z",
+      "importance": 5,
+      "publishedAt": "2026-10-29T14:00:02Z",
       "source": {
-        "name": "@jsnnsa on X",
-        "url": "https://x.com/jsnnsa/status/2115623382721126826"
+        "name": "@mattyp on X",
+        "url": "https://x.com/mattyp/status/2115805862837264832"
       },
-      "related": [
-        {
-          "name": "Matt Shumer on X",
-          "url": "https://x.com/mattshumer_/status/2115624109841539465"
-        }
-      ],
       "image": {
-        "src": "/img/spawn-agent-fleet-playbook.jpg",
-        "alt": "Profile image of @jsnnsa"
+        "src": "/img/cursor-agents-rebuilt-slack-video.jpg",
+        "alt": "Image from @mattyp on X"
       },
       "heat": {
-        "score": 17,
+        "score": 14,
         "level": "none",
-        "metric": "193k views"
+        "metric": "27k views"
       }
     },
     {
-      "id": "mirendil-agent-pretrained-base-model",
-      "title": "Investor says one researcher pretrained a model using agents",
-      "takeaway": "Mamoon Hamid claims agents did almost all engineering on Mirendil-Base in 3.5 months; no technical report.",
-      "soWhat": "If confirmed, model building needs far fewer people; treat it as an unverified claim.",
-      "lens": "broad",
+      "id": "amp-macos-satellites",
+      "title": "Amp: coding agents need a Mac only about 35% of the time",
+      "takeaway": "@sqs says the finding shaped Amp's macOS Satellites, making Mac dev work faster and cheaper.",
+      "soWhat": "Run most agent work on cheaper Linux machines and use Macs only for steps that need them.",
+      "lens": "practical",
       "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-10-29T00:36:33Z",
+      "importance": 5,
+      "publishedAt": "2026-10-29T06:29:52Z",
       "source": {
-        "name": "@EMostaque on X",
-        "url": "https://x.com/EMostaque/status/2115603660852150571"
+        "name": "@sqs on X",
+        "url": "https://x.com/sqs/status/2115692575730610618"
       },
-      "related": [
-        {
-          "name": "Mamoon Hamid on X",
-          "url": "https://x.com/mamoonha/status/2115561593870459064"
-        }
-      ],
       "image": {
-        "src": "/img/mirendil-agent-pretrained-base-model.jpg",
-        "alt": "Profile image of @EMostaque"
+        "src": "/img/amp-macos-satellites.jpg",
+        "alt": "Image from @sqs on X"
       },
       "heat": {
-        "score": 8,
+        "score": 5,
         "level": "none",
-        "metric": "19k views"
+        "metric": "9k views"
       }
     }
   ],
   "voices": [
     {
-      "handle": "@jsnnsa",
-      "quote": "How I Built the Most AI-Pilled Company in the World",
-      "url": "https://x.com/jsnnsa/status/2115623382721126826"
+      "handle": "@thsottiaux",
+      "quote": "won't be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same",
+      "url": "https://x.com/thsottiaux/status/2115850175868727621"
     },
     {
-      "handle": "@EMostaque",
-      "quote": "there is no need for AI teams to build good models any more. Can do it all with latest AI better.",
-      "url": "https://x.com/EMostaque/status/2115603660852150571"
+      "handle": "@hwchase17",
+      "quote": "a lot of the challenges in harness engineering are now best solved by closer integration of harness and infra",
+      "url": "https://x.com/hwchase17/status/2115854759991369840"
+    },
+    {
+      "handle": "@sqs",
+      "quote": "Even for macOS-heavy dev, your agent only needs a Mac for ~35% of the time.",
+      "url": "https://x.com/sqs/status/2115692575730610618"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/alexandr_wang/status/2115624129080725720",
-      "handle": "@alexandr_wang",
-      "text": "Muse just dropped: Meta's personal agent runs tasks on a cloud computer, in its app or WhatsApp.",
-      "metric": "4.3k likes",
-      "note": "A mass-market agent from Meta that can shop and send email with your approval."
+      "url": "https://x.com/thsottiaux/status/2115850175868727621",
+      "handle": "@thsottiaux",
+      "text": "OpenAI doubles usage limits for Pro and Business Premium and won't reduce Pro 200 Work and Codex limits.",
+      "metric": "12.5k likes",
+      "note": "Heavy Codex users keep the allowance they expected to lose tomorrow."
     },
     {
-      "url": "https://x.com/jsnnsa/status/2115623382721126826",
-      "handle": "@jsnnsa",
-      "text": "How I Built the Most AI-Pilled Company in the World: ten people, $3.1M in tokens, 77,000 changes in 30 days.",
-      "metric": "886 likes",
-      "note": "Rare hard numbers on running a company through a permanent agent fleet."
+      "url": "https://x.com/MistralAI/status/2115811242556137820",
+      "handle": "@MistralAI",
+      "text": "Mistral Large 4 is now open weight: a 1-trillion-parameter multimodal model aimed at agentic coding.",
+      "metric": "3.5k likes",
+      "note": "A frontier-scale open model from Europe that anyone can download and run."
     },
     {
-      "url": "https://x.com/EMostaque/status/2115603660852150571",
-      "handle": "@EMostaque",
-      "text": "There is no need for AI teams to build good models any more. Can do it all with latest AI better.",
-      "metric": "261 likes",
-      "note": "A bold claim that agents can now do the work of a model lab."
+      "url": "https://x.com/AnthropicAI/status/2115825653539025142",
+      "handle": "@AnthropicAI",
+      "text": "AI for Science expands from individual teams to 20 foundations, institutions and research groups.",
+      "metric": "2.1k likes",
+      "note": "Free Claude access is now flowing to scientists through major funders."
     },
     {
-      "url": "https://x.com/kunchenguid/status/2115670709779513720",
-      "handle": "@kunchenguid",
-      "text": "Pro Codex usage drops from 20x to 10x Plus on Oct 30, per users citing OpenAI's email.",
-      "metric": "228 likes",
-      "note": "Heavy coders on $200 plans lose half their allowance at the same price."
+      "url": "https://x.com/mattyp/status/2115805862837264832",
+      "handle": "@mattyp",
+      "text": "How Cursor agents with computer use rebuilt Slack as a video, written as code, by looking at the real app.",
+      "metric": "603 likes",
+      "note": "A concrete look at agents that learn by watching a real interface."
     },
     {
-      "url": "https://x.com/mattpocockuk/status/2115751897558614073",
-      "handle": "@mattpocockuk",
-      "text": "Codex was biasing most subagents to fork the parent's context, hurting code review and implement-spec skills.",
-      "metric": "163 likes",
-      "note": "A subtle harness default that quietly weakens agent review quality."
+      "url": "https://x.com/claudeai/status/2115859377488072879",
+      "handle": "@claudeai",
+      "text": "On iPad and iPhone Duo, what Claude makes now opens beside the chat and can go full screen.",
+      "metric": "446 likes",
+      "note": "A small layout change that makes AI output easier to work with."
     }
   ]
 }
