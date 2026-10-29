@@ -1,0 +1,345 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-29-0633",
+  "generatedAt": "2026-10-29T11:40:00Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-28T23:30:00Z",
+    "to": "2026-10-29T11:36:00Z"
+  },
+  "sourceNotes": [
+    "Overnight window (23:30Z Oct 28 to 11:36Z Oct 29), a quiet stretch. Leads: Spawn's 10-person agent-fleet playbook, Claude Code agent_summary token overhead, Meta's Muse personal agent launch, Codex Pro limits halving Oct 30.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returned HTTP 500 again; it moved to dwarkesh.com/feed. Config URL should be updated.",
+    "RSS with 0 new items: Simon Willison, MIT Tech Review, OpenAI Blog, Lenny Rachitsky, Stratechery feed (interview found via X), Benedict Evans, One Useful Thing, Gary Marcus, Mitchell Hashimoto, Metaplanet Google News. The Atlantic: three Pizzagate pieces (off-topic) and 'Why Wouldn't Google Tell Me Who Won the 2020 Election?' (headline-only, partisan-adjacent, not used).",
+    "Hacker News: used Claude Code transcript summaries (416) and Stack Overflow decline (516). Not used: Qwenputer RISC-V CPU inside Qwen3.5 (514, research curiosity), Android zero-click DoS (125) and GitLab CVE incident (190) off-topic. Stack Exchange Data Explorer blocks scripted reads (Cloudflare 403).",
+    "arXiv: no agent-titled submissions newer than the Oct 27 batch reviewed in earlier runs.",
+    "X howTo lane not used: theo on 'secure secret passing to agents' (product not named, image only), theo hot takes and T3 Code poll, GeoffreyHuntley CI/CD teaser (image only, blog post pending; recheck), swyx on Gemini AAv5 (covered), gregisenberg video, mattpocockuk Gergely Orosz podcast anecdote (secondhand), poteto and kloss_xyz memes, tibo_maker affiliate promo, rubenhassid Claude certificate tip (promo-style).",
+    "X bigPicture lane not used: elonmusk one-word and promo posts, AravSrinivas question, beffjezos commentary, garrytan school-budget quote, eastdakota personal post. Trend summaries (Anthropic judgment study, AA Index v5, Axiom proof) already covered in earlier runs.",
+    "X frontierCapital lane: TaviCosta Fed/Warsh chart (macro market call, skipped), nathanbenaich meetup promo; no candidates. Design lane: MengTo D&D game built with Opus 5.5 (personal demo, low proof); no candidates.",
+    "X queries lane: results were low-follower promo or generic threads; nothing cleared proof. No replies on lead posts cleared the reply filter (minFollowers 1000, minLikes 5).",
+    "X calls this run: 11."
+  ],
+  "candidates": [
+    {
+      "id": "spawn-agent-fleet-playbook",
+      "lens": "practical",
+      "topic": "spawn-agent-fleet",
+      "summary": "Spawn founder Jacob Sansbury (@jsnnsa) published an X article on how his 10-person company runs a permanent fleet of AI agents: 77,000 substantial changes shipped in 30 days, $3.1M spent on tokens last month, no pull requests, hourly deploys, and AI 'judges' that answer taste questions from two years of recorded decisions.",
+      "facts": [
+        "Spawn says it is ten people and spends 30x payroll on AI tokens; $3.1 million on tokens last month.",
+        "Claims 77,000 substantial changes shipped in the last 30 days, about 108 per hour.",
+        "Agents are permanent, named, have memory and real permissions, and each owns an area (engine, finance, bug triage, deploys); they spawn helper agents.",
+        "Spawn killed pull requests; agents change code directly, the full test suite runs every 15 minutes, and changes are reviewed by helper agents that did not write them.",
+        "Only 1,055 of 123,548 changes were reverted over the last year, about 0.9% (per the article).",
+        "An hour without a ship is treated as a SEV-0 incident; rollback of a broken change takes 30 seconds.",
+        "AI judges built from recorded decisions returned more than 11,000 verdicts in eight days: 7,296 decided, 2,213 sent back, 1,863 held for a human.",
+        "Irreversible actions such as payments go through hard-coded gates.",
+        "The author says only Anthropic's Fable model made this work; other labs' models failed in their tests."
+      ],
+      "source": {
+        "name": "Jacob Sansbury (@jsnnsa) on X: How I Built the Most AI-Pilled Company in the World",
+        "url": "https://x.com/jsnnsa/status/2115623382721126826",
+        "type": "x",
+        "handle": "jsnnsa"
+      },
+      "related": [
+        {
+          "name": "Matt Shumer on X",
+          "url": "https://x.com/mattshumer_/status/2115624109841539465"
+        }
+      ],
+      "publishedAt": "2026-10-29T01:54:55Z",
+      "metrics": {
+        "likes": 886,
+        "reposts": 73,
+        "replies": 92,
+        "views": 193144,
+        "capturedAt": "2026-10-29T11:34:30Z"
+      },
+      "care": 5,
+      "proof": 4,
+      "imageHint": "https://x.com/jsnnsa/status/2115623382721126826",
+      "firstSeen": "2026-10-29"
+    },
+    {
+      "id": "claude-code-agent-summary-token-cost",
+      "lens": "practical",
+      "topic": "claude-code-agent-summary",
+      "summary": "A Flamerix AI write-up, at 416 points on Hacker News, says Claude Code sends each background agent's full transcript to its model about every 30 seconds to generate a 3-5 word status line, and measured it at 16.4% of their Claude Code spend in one week. It ships an opt-out preload hook.",
+      "facts": [
+        "Per the gist: every ~30 seconds, for every background agent, Claude Code sends the agent's entire transcript to the agent's model and asks it to describe its most recent action in 3-5 words.",
+        "Measured via Claude Code's OpenTelemetry export: agent_summary was 16.4% of Claude Code spend (main conversation 15.7%) and 19.7% of API requests in the week before the hook; 96% of that spend on Opus.",
+        "Spend is Claude Code's own per-request cost estimate, not an invoice; on a subscription the loss is rate-limit headroom.",
+        "The gist says the behavior is on by default since version 2.1.232 (August 2026) with no setting to turn it off.",
+        "It cites GitHub issue anthropics/claude-code#86879 collecting four independent measurements of 18-26%.",
+        "The fix is an ~80-line Bun preload loaded via BUN_OPTIONS that suppresses the summary timer; an update can silently undo it.",
+        "An HN commenter questioned whether prompt caching makes these calls cheap."
+      ],
+      "source": {
+        "name": "Flamerix AI gist (GitHub)",
+        "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50284255"
+        },
+        {
+          "name": "anthropics/claude-code issue #86879",
+          "url": "https://github.com/anthropics/claude-code/issues/86879"
+        }
+      ],
+      "publishedAt": "2026-10-29T03:33:42Z",
+      "metrics": {
+        "points": 416,
+        "capturedAt": "2026-10-29T11:35:00Z"
+      },
+      "care": 5,
+      "proof": 4,
+      "firstSeen": "2026-10-29"
+    },
+    {
+      "id": "pocock-codex-subagent-fork-fix",
+      "lens": "practical",
+      "topic": "codex-subagent-context",
+      "summary": "Matt Pocock shipped a fix to his skills repo after finding that Codex biased most of its subagents to inherit (fork) the parent agent's context window, which hurt skills that need a clean context such as code review and implement-spec.",
+      "facts": [
+        "Pocock: Codex was biasing most of its subagents to inherit its context window from the parent agent, i.e. forking it.",
+        "He says this has a big negative impact on skills that rely on a clean context window (code review, implement-spec).",
+        "Fix published as mattpocock/skills pull request #1341."
+      ],
+      "source": {
+        "name": "Matt Pocock on X",
+        "url": "https://x.com/mattpocockuk/status/2115751897558614073",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "related": [
+        {
+          "name": "mattpocock/skills PR #1341",
+          "url": "https://github.com/mattpocock/skills/pull/1341"
+        }
+      ],
+      "publishedAt": "2026-10-29T10:25:35Z",
+      "metrics": {
+        "likes": 163,
+        "reposts": 1,
+        "replies": 37,
+        "views": 11822,
+        "capturedAt": "2026-10-29T11:34:30Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-29"
+    },
+    {
+      "id": "codex-pro-limits-halved-oct30",
+      "lens": "practical",
+      "topic": "openai-pro-limits-cut",
+      "summary": "Starting Oct 30, grandfathered $200 ChatGPT Pro subscribers see Codex and Work usage drop from 20x to 10x the Plus allowance and GPT-6 Pro chat from 200 to 100 messages a week at the same price, per users citing OpenAI's email. Kun Chen argues it pushes coding-heavy users toward Claude.",
+      "facts": [
+        "Multiple X users citing OpenAI's subscriber email: from Oct 30, Codex and Work usage for existing Pro $200 subscribers drops from 20x to 10x the Plus allowance.",
+        "Same reports: GPT-6 Pro chat messages drop from 200 to 100 per week; price stays $200/month.",
+        "Some posts mention a one-time 62,500-credit grant expiring at year-end as an offset.",
+        "Kun Chen speculates OpenAI is conceding consumer coding and focusing on ChatGPT, non-technical work and enterprise API deals.",
+        "No primary OpenAI page was read this run; details come from secondhand posts."
+      ],
+      "source": {
+        "name": "Kun Chen on X",
+        "url": "https://x.com/kunchenguid/status/2115670709779513720",
+        "type": "x",
+        "handle": "kunchenguid"
+      },
+      "related": [
+        {
+          "name": "Zach Moskow on X (Oct 28)",
+          "url": "https://x.com/zachmoskow/status/2115242952830095705"
+        },
+        {
+          "name": "jackcorleone19 on X citing the OpenAI email",
+          "url": "https://x.com/jackcorleone19/status/2115340593417044260"
+        }
+      ],
+      "publishedAt": "2026-10-29T05:02:59Z",
+      "metrics": {
+        "likes": 228,
+        "reposts": 9,
+        "replies": 61,
+        "views": 11697,
+        "capturedAt": "2026-10-29T11:34:30Z"
+      },
+      "care": 4,
+      "proof": 2,
+      "firstSeen": "2026-10-29"
+    },
+    {
+      "id": "meta-muse-personal-agent-launch",
+      "lens": "broad",
+      "topic": "meta-muse-agent",
+      "summary": "Meta's Alexandr Wang posted that Muse 'just dropped': a personal AI agent at muse.ai that runs tasks on a persistent cloud Linux VM with a browser, works through a mobile and Mac app and WhatsApp, asks approval before sending emails or buying, and uses one-time card numbers at checkout.",
+      "facts": [
+        "muse.ai: 'Muse, AI that gets it done for you': sorts email, books reservations, shops, manages calendars, builds fitness plans.",
+        "Every Muse user shares a persistent, isolated Linux computer in the cloud (Muse Secure VM) with a full browser; the user can intervene at any point.",
+        "Available in the Muse app on mobile and Mac, or directly in WhatsApp.",
+        "Users approve actions such as sending emails and purchases before they happen and get a full audit trail.",
+        "Logins go to a credential store Muse can't see (1Password integration 'coming soon'); a one-time card number is generated at checkout, and eligible purchases are covered by Link's purchase protections.",
+        "Meta says conversations are not shared with Meta's ad systems; a Muse for Business offering for small businesses is listed.",
+        "Page footer: © Meta 2026.",
+        "Separately, Artificial Analysis' PersonalityBench ranked Meta's Muse models most 'Friendly' (Muse Spark 1.3 scored 100)."
+      ],
+      "source": {
+        "name": "Alexandr Wang on X",
+        "url": "https://x.com/alexandr_wang/status/2115624129080725720",
+        "type": "x",
+        "handle": "alexandr_wang"
+      },
+      "related": [
+        {
+          "name": "Muse product page",
+          "url": "https://muse.ai/"
+        },
+        {
+          "name": "Artificial Analysis PersonalityBench post",
+          "url": "https://x.com/ArtificialAnlys/status/2115558752648933831"
+        }
+      ],
+      "publishedAt": "2026-10-29T01:57:53Z",
+      "metrics": {
+        "likes": 4321,
+        "reposts": 87,
+        "replies": 436,
+        "views": 1415579,
+        "capturedAt": "2026-10-29T11:34:30Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://muse.ai/",
+      "firstSeen": "2026-10-29"
+    },
+    {
+      "id": "verge-arizona-water-data-centers",
+      "lens": "broad",
+      "topic": "data-center-backlash",
+      "summary": "The Verge reports a bipartisan grassroots backlash against new hyperscale data centers in Arizona over water, as the state faces losing nearly 30% of its Colorado River water while TSMC's fab complex uses nearly 5 million gallons a day.",
+      "facts": [
+        "TSMC's Arizona complex uses nearly 5 million gallons of water a day from Phoenix's municipal supply.",
+        "TSMC's projected Arizona spending grew from $12 billion to $265 billion.",
+        "Arizona has 172 data centers; newer proposed developments from Phoenix to Tucson face mass, bipartisan opposition.",
+        "Some hyperscale data centers, like Google's in The Dalles, Oregon, use about 1.5 million gallons a day.",
+        "Arizona will soon lose access to nearly 30% of the water it receives from the Colorado River."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-29T10:00:04Z",
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+      "firstSeen": "2026-10-29"
+    },
+    {
+      "id": "stratechery-palantir-sankar-interview",
+      "lens": "broad",
+      "topic": "palantir-ai-diffusion",
+      "summary": "Ben Thompson interviewed Palantir CTO Shyam Sankar on why the industry under-focuses on AI diffusion, why top-line-focused companies adopt AI better, his frustration that labs don't take a systems-engineering approach to safety, forward-deployed engineering, and Anthropic's fight with the U.S. government.",
+      "facts": [
+        "Stratechery's intro: Sankar thinks the industry is insufficiently focused on AI diffusion.",
+        "Topics listed: companies focused on the top line have more success adopting AI; labs' refusal to take a systems engineering approach to AI safety; what Palantir learned from AI; preserving alpha instead of the median; whether more models are needed; what a forward-deployed engineer is; Anthropic vs. the U.S. government.",
+        "Full interview is behind the Stratechery subscription; only the free intro was read."
+      ],
+      "source": {
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/an-interview-with-palantir-cto-shyam-sankar-about-the-ai-religious-war/",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Stratechery on X",
+          "url": "https://x.com/stratechery/status/2115745467640197345"
+        }
+      ],
+      "publishedAt": "2026-10-29T10:00:00Z",
+      "metrics": {
+        "likes": 22,
+        "reposts": 4,
+        "replies": 0,
+        "views": 5320,
+        "capturedAt": "2026-10-29T11:34:30Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-10-29"
+    },
+    {
+      "id": "stackoverflow-under-1000-questions",
+      "lens": "broad",
+      "topic": "stackoverflow-decline",
+      "summary": "A Hacker News post at 516 points says Stack Overflow now gets fewer than 1,000 questions a month, linking a Stack Exchange Data Explorer query; the underlying graph could not be read this run.",
+      "facts": [
+        "HN title: 'StackOverflow now gets fewer than 1000 questions a month' (516 points).",
+        "Links to Stack Exchange Data Explorer query 1926661; the page returned a Cloudflare challenge (HTTP 403) so the number was not independently checked.",
+        "An HN commenter linked a related thread from three months ago, 'What AI did to stackoverflow in a graph' (483 points)."
+      ],
+      "source": {
+        "name": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50282454",
+        "type": "hn"
+      },
+      "related": [
+        {
+          "name": "Stack Exchange Data Explorer query",
+          "url": "https://data.stackexchange.com/stackoverflow/query/1926661"
+        }
+      ],
+      "publishedAt": "2026-10-28T23:35:02Z",
+      "metrics": {
+        "points": 516,
+        "capturedAt": "2026-10-29T11:35:00Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-10-29"
+    },
+    {
+      "id": "mirendil-agent-pretrained-base-model",
+      "lens": "broad",
+      "topic": "agents-train-models",
+      "summary": "Emad Mostaque says AI teams no longer need to build good models by hand because the latest AI can do it better, quoting investor Mamoon Hamid's claim that one Mirendil researcher pretrained Mirendil-Base in 3.5 months with agents doing almost all of the engineering.",
+      "facts": [
+        "Mamoon Hamid: one researcher pretrained Mirendil-Base in 3.5 months, with agents doing almost all of the engineering; that researcher now uses Mirendil's product Lor 100% of the time.",
+        "Hamid describes Lor as the product Mirendil is building 'to do the work of an entire AI lab'.",
+        "Emad Mostaque: 'there is no need for AI teams to build good models any more. Can do it all with latest AI better.'",
+        "These are claims from an investor and a commentator; no technical report was read."
+      ],
+      "source": {
+        "name": "Emad Mostaque on X",
+        "url": "https://x.com/EMostaque/status/2115603660852150571",
+        "type": "x",
+        "handle": "EMostaque"
+      },
+      "related": [
+        {
+          "name": "Mamoon Hamid on X",
+          "url": "https://x.com/mamoonha/status/2115561593870459064"
+        }
+      ],
+      "publishedAt": "2026-10-29T00:36:33Z",
+      "metrics": {
+        "likes": 261,
+        "reposts": 21,
+        "replies": 27,
+        "views": 18513,
+        "capturedAt": "2026-10-29T11:34:30Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-10-29"
+    }
+  ]
+}
