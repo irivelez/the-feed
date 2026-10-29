@@ -1,0 +1,325 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-29-1235",
+  "generatedAt": "2026-10-29T17:40:00Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-29T11:30:00Z",
+    "to": "2026-10-29T17:38:00Z"
+  },
+  "sourceNotes": [
+    "Midday window (11:30Z to 17:38Z Oct 29). Leads: OpenAI doubling Pro and Business Premium limits and dropping the Pro 200 cut (same topic as this morning's 'limits halved' candidate, now superseded), Mistral Large 4 open weights, Microsoft's 60,000-employee voluntary exit offer.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returned HTTP 500 again; it moved to dwarkesh.com/feed. Config URL should be updated.",
+    "RSS with 0 new items: OpenAI Blog, Lenny Rachitsky, Stratechery, Benedict Evans, One Useful Thing, Gary Marcus, Mitchell Hashimoto, The Atlantic, Metaplanet Google News. Simon Willison's new items are the Spawn article (covered this morning) and a Ben Hylak quote; Verge NYT Cooking AI test skipped (low relevance); MIT Tech Review Download links a Partnership on AI op-ed on real-time agent monitoring (opinion, no new data; not used).",
+    "Hacker News: used Mistral Large 4 (646). Not used: DoorDash to acquire Instacart (228, off-topic), Google Search under 50% of Alphabet revenue (136, below 200 and covered by Alphabet Q3 candidate), Android zero-click DoS and PHP exploit (off-topic). Earlier items already covered.",
+    "arXiv (cs.AI, cs.CL, cs.MA, agent titles): no submissions newer than the Oct 27 batch.",
+    "X howTo lane not used: NousResearch event teaser, rubenhassid Claude tips (promo-style), mattpocockuk joke, rowancheung newsletter learnings (off-topic), tibo_maker giveaway, kloss_xyz promos, Ronycoder promos, LangChain/Eon misalignment benchmark (announced, no results yet).",
+    "X bigPicture lane not used: elonmusk quote of Stan Druckenmiller on trade(xyz) perps (crypto/markets, muted) and Von Neumann probes post, alexandr_wang Muse post (covered this morning), a16z American Dynamism 50 (defense/industrial list, low agent relevance), AravSrinivas Perplexity teardown skill (promo), mariogabriele Jaan Tallinn clip (secondhand).",
+    "X frontierCapital lane: RayDalio life-principles clip, nathanbenaich Odyssey world-model clip and Jack & Jill promo; no candidates. Design lane: no MengTo posts in window.",
+    "X queries lane: low-follower promo or generic threads; nothing cleared proof. Replies on the Codex limits post were all low-follower, zero-like; none cleared the reply filter (minFollowers 1000, minLikes 5).",
+    "X calls this run: 13."
+  ],
+  "candidates": [
+    {
+      "id": "codex-pro-limits-doubled",
+      "lens": "practical",
+      "topic": "openai-pro-limits-cut",
+      "summary": "@thsottiaux posted that OpenAI is doubling all usage limits for Pro 100/200/500 and Business Premium, effective today, and will not go ahead with the planned reduction of Pro 200 Work and Codex limits.",
+      "facts": [
+        "Usage limits doubled for all Pro 100, 200 and 500 tiers and Business Premium, effective Oct 29 (per the post).",
+        "The post says OpenAI 'won't be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same', reversing the cut reported for Oct 30.",
+        "Extended limits for 'dots' continue for now, and dot usage stays separate from default usage.",
+        "Separately, @OpenAIDevs posted on Oct 28 that eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents."
+      ],
+      "source": {
+        "name": "@thsottiaux on X",
+        "url": "https://x.com/thsottiaux/status/2115850175868727621",
+        "type": "x",
+        "handle": "thsottiaux"
+      },
+      "related": [
+        {
+          "name": "OpenAIDevs: up to $500/month API credits for Pro and Business",
+          "url": "https://x.com/OpenAIDevs/status/2115583698074755078"
+        },
+        {
+          "name": "@AlexFinn on X",
+          "url": "https://x.com/AlexFinn/status/2115857254880780550"
+        }
+      ],
+      "publishedAt": "2026-10-29T16:56:07Z",
+      "metrics": {
+        "likes": 12511,
+        "reposts": 953,
+        "replies": 2815,
+        "views": 455351,
+        "capturedAt": "2026-10-29T17:37:11Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://x.com/thsottiaux/status/2115850175868727621",
+      "firstSeen": "2026-10-29"
+    },
+    {
+      "id": "mistral-large-4-open-weights",
+      "lens": "practical",
+      "topic": "mistral-large-4",
+      "summary": "Mistral released the open weights of an improved Mistral Large 4 ('Le Chonk'), a 1-trillion-parameter natively multimodal model, after three more weeks of reinforcement learning since its public preview earlier this month; Mistral positions it for agentic coding and defensive cybersecurity.",
+      "facts": [
+        "Mistral says it leads Cognition's private FrontierCode 2.0 among the models shown with 19.7%.",
+        "On the Artificial Analysis Coding Agent Index it scores 48%, effectively tied with GLM-5.3, using 47% fewer tokens per task on average (per Mistral).",
+        "Terminal-Bench 4.0: 41%, up 13 points from the preview, with 30% fewer output tokens (per Mistral).",
+        "Three reasoning modes: Low, Medium and High (default).",
+        "Mistral reports a 96.6% average refusal rate on malicious cyber requests, the highest it measured among open models.",
+        "Trained from scratch on European infrastructure; weights on Hugging Face, customizable with Mistral Forge.",
+        "Hacker News front page: 646 points, 165 comments."
+      ],
+      "source": {
+        "name": "Mistral AI: Mistral Large 4 (Le Chonk) is now open weight",
+        "url": "https://mistral.ai/news/mistral-large-4-oss/",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Mistral AI on X",
+          "url": "https://x.com/MistralAI/status/2115811242556137820"
+        },
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50289418"
+        }
+      ],
+      "publishedAt": "2026-10-29T14:13:21Z",
+      "metrics": {
+        "likes": 3483,
+        "reposts": 447,
+        "replies": 251,
+        "views": 239404,
+        "points": 646,
+        "capturedAt": "2026-10-29T17:37:11Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://mistral.ai/news/mistral-large-4-oss/",
+      "firstSeen": "2026-10-29"
+    },
+    {
+      "id": "langchain-managed-deep-agents-0-10",
+      "lens": "practical",
+      "topic": "managed-deep-agents",
+      "summary": "LangChain put Managed Deep Agents 0.10 in public beta, adding browser use and async subagents to its hosted agent harness.",
+      "facts": [
+        "Browser use lets an agent act on sites with no API, test an app end to end through its UI, and hand the browser to the user to sign in, then continue.",
+        "Async subagents run long tasks in the background while the agent keeps talking.",
+        "Also adds thread origins and stopping runs.",
+        "@hwchase17: 'a lot of the challenges in harness engineering are now best solved by closer integration of harness and infra'."
+      ],
+      "source": {
+        "name": "LangChain on X: Managed Deep Agents 0.10",
+        "url": "https://x.com/LangChain/status/2115854162202444119",
+        "type": "x",
+        "handle": "LangChain"
+      },
+      "related": [
+        {
+          "name": "LangChain docs: browser use",
+          "url": "https://docs.langchain.com/langsmith/python/managed-deep-agents-browser-use"
+        },
+        {
+          "name": "@hwchase17 on X",
+          "url": "https://x.com/hwchase17/status/2115854759991369840"
+        },
+        {
+          "name": "LangChain on X: browser use",
+          "url": "https://x.com/LangChain/status/2115823226786140420"
+        }
+      ],
+      "publishedAt": "2026-10-29T17:11:57Z",
+      "metrics": {
+        "likes": 7,
+        "reposts": 0,
+        "replies": 1,
+        "views": 1354,
+        "capturedAt": "2026-10-29T17:37:11Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/LangChain/status/2115823226786140420",
+      "firstSeen": "2026-10-29"
+    },
+    {
+      "id": "cursor-agents-rebuilt-slack-video",
+      "lens": "practical",
+      "topic": "cursor-agents-computer-use",
+      "summary": "@mattyp posted a 10-minute video on how Cursor agents with computer use rebuilt Slack as a video, written as code, by looking at the real app; chapters cover inner and outer loops, skills and feedback loops.",
+      "facts": [
+        "Chapters: Cursor agents and computer use, video as code, Slack, 'a chat, an agent, a computer', inner loop and outer loop, the ladder, skills, feedback loops.",
+        "490 bookmarks at capture time."
+      ],
+      "source": {
+        "name": "@mattyp on X",
+        "url": "https://x.com/mattyp/status/2115805862837264832",
+        "type": "x",
+        "handle": "mattyp"
+      },
+      "publishedAt": "2026-10-29T14:00:02Z",
+      "metrics": {
+        "likes": 603,
+        "reposts": 44,
+        "replies": 89,
+        "views": 27085,
+        "capturedAt": "2026-10-29T17:37:11Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/mattyp/status/2115805862837264832",
+      "firstSeen": "2026-10-29"
+    },
+    {
+      "id": "amp-macos-satellites",
+      "lens": "practical",
+      "topic": "amp-macos-satellites",
+      "summary": "@sqs of Amp said Amp built macOS 'Satellites' for its cloud agents after finding that, even for macOS-heavy development, an agent only needs a Mac about 35% of the time; the rest runs on Linux.",
+      "facts": [
+        "Quote: 'Even for macOS-heavy dev, your agent only needs a Mac for ~35% of the time.'",
+        "He says the finding changed how Amp built macOS Satellites so Amp is 'faster *and* cheaper for macOS dev work'."
+      ],
+      "source": {
+        "name": "@sqs on X",
+        "url": "https://x.com/sqs/status/2115692575730610618",
+        "type": "x",
+        "handle": "sqs"
+      },
+      "publishedAt": "2026-10-29T06:29:52Z",
+      "metrics": {
+        "likes": 176,
+        "reposts": 3,
+        "replies": 19,
+        "views": 8596,
+        "capturedAt": "2026-10-29T17:37:47Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/sqs/status/2115692575730610618",
+      "firstSeen": "2026-10-29"
+    },
+    {
+      "id": "microsoft-voluntary-exit-60k",
+      "lens": "broad",
+      "topic": "microsoft-ai-headcount",
+      "summary": "The Verge reports Microsoft is offering voluntary buyouts to about 60,000 employees in the US, UK, Canada and India, part of an effort to cut operating costs and headcount without reducing AI infrastructure investment.",
+      "facts": [
+        "First time Microsoft has made such an offer to so many employees; an earlier retirement offer covered about 9,000, and more than 30% of them accepted.",
+        "Headcount is about 223,000 as of June 30, down 5,000 from 228,000 in 2025, the first year-over-year drop in a decade.",
+        "Microsoft laid off 4,800 employees a few months earlier, mostly in Xbox and commercial sales.",
+        "Per sources cited by The Verge, the terms mirror regular severance (cash by tenure, accelerated vesting, subsidized health coverage, career services); eligible staff have until December to decide.",
+        "Nadella, quoted from a podcast about two years ago: 'Our total people costs will go down, our cost per head will go up, and my GPU per researcher will go up.'"
+      ],
+      "source": {
+        "name": "The Verge: Microsoft's AI future has fewer jobs",
+        "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-29T16:00:00Z",
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+      "firstSeen": "2026-10-29"
+    },
+    {
+      "id": "verge-anthropic-s1-compute-bet",
+      "lens": "broad",
+      "topic": "anthropic-ipo",
+      "summary": "The Verge's Elizabeth Lopatto reads Anthropic's S-1 as a bet that requires dramatic growth to cover huge fixed compute costs, while noting the underlying business is already profitable on an adjusted basis.",
+      "facts": [
+        "Revenue grew about 14x to $16.3B in H1 2026 versus H1 2025 (per the article).",
+        "Excluding the mostly accounting-driven $80B loss and other charges including employee compensation, adjusted income was $1.62B in H1 2026 (per the article).",
+        "Net revenue retention is 900% and about three-quarters of H1 2026 customers spend at least $100,000 a year (per the article).",
+        "The S-1 names only OpenAI and Google as rivals.",
+        "Same day, The Verge's Decoder ran an interview with SemiAnalysis analyst Joey Brookhart on the filing."
+      ],
+      "source": {
+        "name": "The Verge: Anthropic's business plan: Build God or die trying",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+        "type": "rss"
+      },
+      "related": [
+        {
+          "name": "Decoder: Anthropic is asking Wall Street to believe in AGI",
+          "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview"
+        }
+      ],
+      "publishedAt": "2026-10-29T13:30:00Z",
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+      "firstSeen": "2026-10-23"
+    },
+    {
+      "id": "anthropic-ai-for-science-institutions",
+      "lens": "broad",
+      "topic": "anthropic-ai-for-science",
+      "summary": "Anthropic expanded its AI for Science program, which gives free Claude credits to researchers, from individual teams to 20 foundations, institutions and research groups.",
+      "facts": [
+        "Funders distributing credits include the Sloan Foundation, Simons Foundation, Schmidt Sciences, Renaissance Philanthropy's Open Source for Science Fund, the US National Science Foundation and CAS (American Chemical Society).",
+        "Institutions using credits internally include the Space Telescope Science Institute, Wellcome Sanger Institute and the Francis Crick Institute.",
+        "With HHMI Janelia, Anthropic developed the Model Hardware Standard (MHS), a shared spec that lets AI agents safely operate lab instruments; it is in research preview.",
+        "The Allen Institute is building teams of AI agents to analyze its open datasets, which Anthropic says turns months of manual analysis into hours.",
+        "The program started in May 2025."
+      ],
+      "source": {
+        "name": "Anthropic: AI for Science expands to foundations and institutions",
+        "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI/status/2115825653539025142"
+        }
+      ],
+      "publishedAt": "2026-10-29T15:18:40Z",
+      "metrics": {
+        "likes": 2084,
+        "reposts": 160,
+        "replies": 277,
+        "views": 140829,
+        "capturedAt": "2026-10-29T17:37:11Z"
+      },
+      "care": 3,
+      "proof": 5,
+      "imageHint": "https://x.com/AnthropicAI/status/2115825653539025142",
+      "firstSeen": "2026-10-29"
+    },
+    {
+      "id": "claude-ipad-side-by-side",
+      "lens": "design",
+      "topic": "claude-mobile-ui",
+      "summary": "Claude's mobile apps got an interface change this week: on iPad and iPhone Duo, what Claude makes now opens beside the chat instead of over it, and can go full screen.",
+      "facts": [
+        "Posted by @claudeai as 'a few upgrades to the Claude mobile apps this week'."
+      ],
+      "source": {
+        "name": "Claude (@claudeai) on X",
+        "url": "https://x.com/claudeai/status/2115859377488072879",
+        "type": "x",
+        "handle": "claudeai"
+      },
+      "publishedAt": "2026-10-29T17:32:41Z",
+      "metrics": {
+        "likes": 446,
+        "reposts": 22,
+        "replies": 57,
+        "views": 26270,
+        "capturedAt": "2026-10-29T17:37:11Z"
+      },
+      "care": 2,
+      "proof": 4,
+      "imageHint": "https://x.com/claudeai/status/2115859377488072879",
+      "firstSeen": "2026-10-29"
+    }
+  ]
+}
