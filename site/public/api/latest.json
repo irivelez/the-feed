@@ -1,335 +1,303 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-10-28-1900",
-  "date": "2026-10-28",
-  "publishedAt": "2026-10-29T00:05:34Z",
-  "edition": "Evening",
+  "id": "2026-10-29-0700",
+  "date": "2026-10-29",
+  "publishedAt": "2026-10-29T12:02:12Z",
+  "edition": "Morning",
   "top3": [
     {
-      "itemId": "microsoft-earnings-agents",
-      "headline": "Microsoft now counts over 50 million agents under its governance layer",
-      "whyItMatters": "Agent control is becoming a platform purchase, so decide who governs yours before a vendor does."
+      "itemId": "spawn-agent-fleet-playbook",
+      "headline": "A ten-person company says its agents ship 108 changes an hour",
+      "whyItMatters": "Agent fleets can replace review queues with tests and rollback, but it takes heavy token spend."
     },
     {
-      "itemId": "alphabet-q3-2026",
-      "headline": "Google Cloud revenue doubles as AI demand reaches the income statement",
-      "whyItMatters": "AI is now paying off in Google's revenue, so expect its AI investment push to continue."
+      "itemId": "claude-code-agent-summary-token-cost",
+      "headline": "Hidden Claude Code summaries ate 16% of one team's AI spend",
+      "whyItMatters": "Agent tools carry default costs you never asked for, so measure where tokens actually go."
     },
     {
-      "itemId": "surge-dayjob-tax-benchmark",
-      "headline": "On real tax work, the best agent passes one in ten",
-      "whyItMatters": "End-to-end professional work still needs expert review, whatever the model leaderboards say."
+      "itemId": "meta-muse-personal-agent-launch",
+      "headline": "Meta puts a personal agent with approvals and audit trails in WhatsApp",
+      "whyItMatters": "Agents that buy and book are reaching mass consumer apps, with approval gates as the default."
     }
   ],
   "items": [
     {
-      "id": "microsoft-earnings-agents",
-      "title": "Microsoft says over 50M agents now run in Agent 365",
-      "takeaway": "Microsoft Cloud passed $63B, up 30%; Foundry revenue more than tripled, per Nadella.",
-      "soWhat": "Microsoft is selling agent governance outside the model, so ask how your agents are permissioned.",
+      "id": "pocock-codex-subagent-fork-fix",
+      "title": "Codex subagents inherit parent context, hurting clean-context skills",
+      "takeaway": "Pocock found Codex forks the parent's context into most subagents; a fix shipped in his skills repo.",
+      "soWhat": "Review and spec agents need a clean context, so check how your harness spawns them.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-29T10:25:35Z",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2115751897558614073"
+      },
+      "related": [
+        {
+          "name": "mattpocock/skills PR #1341",
+          "url": "https://github.com/mattpocock/skills/pull/1341"
+        }
+      ],
+      "image": {
+        "src": "/img/pocock-codex-subagent-fork-fix.jpg",
+        "alt": "Image from @mattpocockuk on X"
+      },
+      "heat": {
+        "score": 5,
+        "level": "none",
+        "metric": "12k views"
+      }
+    },
+    {
+      "id": "verge-arizona-water-data-centers",
+      "title": "Arizona water fight turns voters against new data centers",
+      "takeaway": "Arizona will lose nearly 30% of its Colorado River water; TSMC's fab uses nearly 5M gallons a day.",
+      "soWhat": "Water is now a siting risk for AI compute, so factor local opposition into capacity plans.",
       "lens": "broad",
-      "momentum": "building",
-      "importance": 9,
-      "publishedAt": "2026-10-28T22:53:39Z",
+      "momentum": "shift",
+      "importance": 6,
+      "publishedAt": "2026-10-29T10:00:04Z",
       "source": {
-        "name": "Satya Nadella on X",
-        "url": "https://x.com/satyanadella/status/2115577764300693644"
+        "name": "The Verge",
+        "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc"
       },
-      "related": [
-        {
-          "name": "Nadella thread: agents and governance",
-          "url": "https://x.com/satyanadella/status/2115577770533368135"
-        },
-        {
-          "name": "Nadella thread: Foundry",
-          "url": "https://x.com/satyanadella/status/2115577768159416765"
-        },
-        {
-          "name": "Nadella thread: Copilot",
-          "url": "https://x.com/satyanadella/status/2115577765995123084"
-        }
-      ],
       "image": {
-        "src": "/img/microsoft-earnings-agents.jpg",
-        "alt": "Image from Satya Nadella on X"
-      },
-      "heat": {
-        "score": 14,
-        "level": "none",
-        "metric": "54k views"
+        "src": "/img/verge-arizona-water-data-centers.jpg",
+        "alt": "Image from The Verge"
       }
     },
     {
-      "id": "vercel-ai-gateway-virtual-models",
-      "title": "Vercel lets teams swap an agent's model without changing code",
-      "takeaway": "Virtual Models give each agent task one model ID; model, fallbacks and data retention change centrally.",
-      "soWhat": "With about 10 new models a week, central model switching keeps agents current without redeploys.",
-      "lens": "practical",
+      "id": "stratechery-palantir-sankar-interview",
+      "title": "Palantir's CTO says the AI industry underweights diffusion",
+      "takeaway": "Sankar argues companies focused on the top line adopt AI more successfully; full interview is paywalled.",
+      "soWhat": "Sankar sees adoption as the gap, not models, so point AI at revenue work first.",
+      "lens": "broad",
       "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-10-28T22:27:15Z",
+      "importance": 5,
+      "publishedAt": "2026-10-29T10:00:00Z",
       "source": {
-        "name": "Vercel blog",
-        "url": "https://vercel.com/blog/ai-gateway-virtual-models"
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/an-interview-with-palantir-cto-shyam-sankar-about-the-ai-religious-war/"
       },
       "related": [
         {
-          "name": "Vercel on X",
-          "url": "https://x.com/vercel/status/2115571121622073355"
-        },
-        {
-          "name": "Guillermo Rauch on X",
-          "url": "https://x.com/rauchg/status/2115573969369845855"
+          "name": "Stratechery on X",
+          "url": "https://x.com/stratechery/status/2115745467640197345"
         }
       ],
       "image": {
-        "src": "/img/vercel-ai-gateway-virtual-models.jpg",
-        "alt": "Image from Vercel blog"
+        "src": "/img/stratechery-palantir-sankar-interview.jpg",
+        "alt": "Image from Stratechery"
       },
       "heat": {
-        "score": 3,
+        "score": 0,
         "level": "none",
-        "metric": "15k views"
+        "metric": "5k views"
       }
     },
     {
-      "id": "kunchenguid-ci-at-agent-speed",
-      "title": "Kun Chen: CI is the next bottleneck once agents write the code",
-      "takeaway": "Smarter test selection gave him 20x faster CI on a big codebase; trimming OS tests gave 15x.",
-      "soWhat": "If agents ship faster than CI can check, your test pipeline sets the real delivery speed.",
+      "id": "codex-pro-limits-halved-oct30",
+      "title": "Users report OpenAI halves Codex limits on $200 Pro plans",
+      "takeaway": "Per users citing OpenAI's email, from Oct 30 Pro drops from 20x to 10x Plus usage at the same price.",
+      "soWhat": "If teams code on Pro seats, budget for tighter limits or compare other plans now.",
       "lens": "practical",
       "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-10-28T22:03:54Z",
+      "importance": 5,
+      "publishedAt": "2026-10-29T05:02:59Z",
       "source": {
-        "name": "Kun Chen on X",
-        "url": "https://x.com/kunchenguid/status/2115565245293039814"
+        "name": "@kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2115670709779513720"
       },
+      "related": [
+        {
+          "name": "jackcorleone19 on X citing the OpenAI email",
+          "url": "https://x.com/jackcorleone19/status/2115340593417044260"
+        },
+        {
+          "name": "Zach Moskow on X",
+          "url": "https://x.com/zachmoskow/status/2115242952830095705"
+        }
+      ],
       "image": {
-        "src": "/img/kunchenguid-ci-at-agent-speed.jpg",
+        "src": "/img/codex-pro-limits-halved-oct30.jpg",
         "alt": "Profile image of @kunchenguid"
       },
       "heat": {
-        "score": 16,
+        "score": 8,
         "level": "none",
-        "metric": "10k views",
-        "voices": 2
+        "metric": "12k views"
       }
     },
     {
-      "id": "a16z-ciso-ai-survey",
-      "title": "A third of large-company CISOs run autonomous agents with write access",
-      "takeaway": "a16z surveyed 100 CISOs; 55% run MCPs or agent-to-app links in production.",
-      "soWhat": "Agents with write access are already in production, so permissions and monitoring can't wait.",
-      "lens": "broad",
-      "momentum": "shift",
-      "importance": 7,
-      "publishedAt": "2026-10-28T20:15:03Z",
-      "source": {
-        "name": "a16z on X",
-        "url": "https://x.com/a16z/status/2115537851601551491"
-      },
-      "related": [
-        {
-          "name": "a16z on continuous security testing",
-          "url": "https://x.com/a16z/status/2115554206878966216"
-        }
-      ],
-      "image": {
-        "src": "/img/a16z-ciso-ai-survey.jpg",
-        "alt": "Image from a16z on X"
-      },
-      "heat": {
-        "score": 2,
-        "level": "none",
-        "metric": "14k views"
-      }
-    },
-    {
-      "id": "alphabet-q3-2026",
-      "title": "Alphabet hits a half-trillion run rate as Google Cloud doubles",
-      "takeaway": "Revenue up 25%, Cloud up 103%; first-party model APIs near 32B tokens a minute, per Pichai.",
-      "soWhat": "AI demand now shows up in Google's revenue, not just its spending plans.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 9,
-      "publishedAt": "2026-10-28T20:05:31Z",
-      "source": {
-        "name": "Sundar Pichai on X",
-        "url": "https://x.com/sundarpichai/status/2115535455156642066"
-      },
-      "image": {
-        "src": "/img/alphabet-q3-2026.jpg",
-        "alt": "Image from Sundar Pichai on X"
-      },
-      "heat": {
-        "score": 29,
-        "level": "none",
-        "metric": "376k views"
-      }
-    },
-    {
-      "id": "vercel-ci-beta",
-      "title": "Vercel CI runs only affected tasks and lets agents drive it",
-      "takeaway": "In beta on all plans; Vercel reports 2-6x faster push-to-pass internally.",
-      "soWhat": "CI built for agents to trigger and read cuts the wait between an agent's change and a merge.",
+      "id": "claude-code-agent-summary-token-cost",
+      "title": "Claude Code status lines took 16% of one team's spend",
+      "takeaway": "Background agent summaries resend full transcripts every 30 seconds; a preload hook turns them off.",
+      "soWhat": "Audit default agent overhead; in one team's measurement it was a sixth of spend.",
       "lens": "practical",
       "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-10-28T19:31:40Z",
+      "importance": 9,
+      "publishedAt": "2026-10-29T03:33:42Z",
       "source": {
-        "name": "Vercel blog",
-        "url": "https://vercel.com/blog/introducing-vercel-ci"
+        "name": "Flamerix AI gist",
+        "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce"
       },
       "related": [
         {
-          "name": "Vercel on X",
-          "url": "https://x.com/vercel/status/2115526935636021696"
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50284255"
         },
         {
-          "name": "Guillermo Rauch on agentic CI",
-          "url": "https://x.com/rauchg/status/2115539426684408300"
+          "name": "anthropics/claude-code issue #86879",
+          "url": "https://github.com/anthropics/claude-code/issues/86879"
         }
       ],
       "image": {
-        "src": "/img/vercel-ci-beta.jpg",
-        "alt": "Image from Vercel blog"
-      },
-      "heat": {
-        "score": 26,
-        "level": "none",
-        "metric": "89k views",
-        "voices": 2
+        "src": "/img/claude-code-agent-summary-token-cost.jpg",
+        "alt": "Image from Flamerix AI gist"
       }
     },
     {
-      "id": "particle-launch-suhail",
-      "title": "Particle launches inference for open models, claiming 45% fewer tokens",
-      "takeaway": "Founder's claim, no benchmark named; Perplexity and Vercel AI Gateway are early partners.",
-      "soWhat": "Token efficiency is becoming a selling point, so compare cost per finished task, not per token.",
+      "id": "meta-muse-personal-agent-launch",
+      "title": "Meta launches Muse, a personal agent that acts for you",
+      "takeaway": "Runs tasks on a cloud computer with a browser, via app or WhatsApp; asks before emails or purchases.",
+      "soWhat": "Muse's approvals, audit trail and one-time cards are a useful template for enterprise agents.",
       "lens": "broad",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-10-28T17:36:29Z",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-10-29T01:57:53Z",
       "source": {
-        "name": "Suhail on X",
-        "url": "https://x.com/Suhail/status/2115497949421883648"
+        "name": "@alexandr_wang on X",
+        "url": "https://x.com/alexandr_wang/status/2115624129080725720"
       },
       "related": [
         {
-          "name": "Particle",
-          "url": "https://particle.ai"
+          "name": "Muse product page",
+          "url": "https://muse.ai/"
         },
         {
-          "name": "Aravind Srinivas on X",
-          "url": "https://x.com/AravSrinivas/status/2115510517871890511"
-        },
-        {
-          "name": "Guillermo Rauch on X",
-          "url": "https://x.com/rauchg/status/2115566139447382115"
+          "name": "Artificial Analysis PersonalityBench",
+          "url": "https://x.com/ArtificialAnlys/status/2115558752648933831"
         }
       ],
       "image": {
-        "src": "/img/particle-launch-suhail.jpg",
-        "alt": "Image from Suhail on X"
+        "src": "/img/meta-muse-personal-agent-launch.jpg",
+        "alt": "Image from @alexandr_wang on X"
       },
       "heat": {
-        "score": 20,
+        "score": 27,
+        "level": "none",
+        "metric": "1.4M views"
+      }
+    },
+    {
+      "id": "spawn-agent-fleet-playbook",
+      "title": "Ten-person Spawn says agents shipped 77,000 changes in 30 days",
+      "takeaway": "$3.1M on tokens last month, no pull requests, hourly deploys, AI judges built from past decisions.",
+      "soWhat": "Spawn trades code review for constant tests and fast rollback; weigh that against your controls.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-10-29T01:54:55Z",
+      "source": {
+        "name": "@jsnnsa on X",
+        "url": "https://x.com/jsnnsa/status/2115623382721126826"
+      },
+      "related": [
+        {
+          "name": "Matt Shumer on X",
+          "url": "https://x.com/mattshumer_/status/2115624109841539465"
+        }
+      ],
+      "image": {
+        "src": "/img/spawn-agent-fleet-playbook.jpg",
+        "alt": "Profile image of @jsnnsa"
+      },
+      "heat": {
+        "score": 17,
         "level": "none",
         "metric": "193k views"
       }
     },
     {
-      "id": "anti-llm-fingerprinting-script",
-      "title": "A tracking script hides jailbreak text to make AI refuse analysis",
-      "takeaway": "Found in a 10,000-site crawl; under Node it also tries to read .env and other secrets files.",
-      "soWhat": "Attackers now design code to stop AI reviewers, so keep humans and sandboxes in security review.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-10-28T17:13:29Z",
+      "id": "mirendil-agent-pretrained-base-model",
+      "title": "Investor says one researcher pretrained a model using agents",
+      "takeaway": "Mamoon Hamid claims agents did almost all engineering on Mirendil-Base in 3.5 months; no technical report.",
+      "soWhat": "If confirmed, model building needs far fewer people; treat it as an unverified claim.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-10-29T00:36:33Z",
       "source": {
-        "name": "nullpt.rs",
-        "url": "https://nullpt.rs/fingerprinting-bioweapons"
+        "name": "@EMostaque on X",
+        "url": "https://x.com/EMostaque/status/2115603660852150571"
       },
       "related": [
         {
-          "name": "Hacker News thread",
-          "url": "https://news.ycombinator.com/item?id=50276998"
+          "name": "Mamoon Hamid on X",
+          "url": "https://x.com/mamoonha/status/2115561593870459064"
         }
       ],
       "image": {
-        "src": "/img/anti-llm-fingerprinting-script.jpg",
-        "alt": "nullpt.rs: A tracking script hides jailbreak text to make AI refuse analysis"
-      }
-    },
-    {
-      "id": "surge-dayjob-tax-benchmark",
-      "title": "Best AI agent passes 10.8% of expert tax assignments",
-      "takeaway": "Surge's DAYJOB: Tax has 50 real-style client assignments across 1,789 files.",
-      "soWhat": "Agents still fail most end-to-end professional deliverables, so keep experts signing off.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-10-27T12:00:00Z",
-      "source": {
-        "name": "Surge AI blog",
-        "url": "https://surgehq.ai/blog/dayjob-tax"
+        "src": "/img/mirendil-agent-pretrained-base-model.jpg",
+        "alt": "Profile image of @EMostaque"
       },
-      "related": [
-        {
-          "name": "Hacker News thread",
-          "url": "https://news.ycombinator.com/item?id=50275626"
-        }
-      ],
-      "image": {
-        "src": "/img/surge-dayjob-tax-benchmark.jpg",
-        "alt": "Image from Surge AI blog"
+      "heat": {
+        "score": 8,
+        "level": "none",
+        "metric": "19k views"
       }
     }
   ],
   "voices": [
     {
-      "handle": "@Suhail",
-      "quote": "managed to keep parity in performance while using ~45% fewer tokens",
-      "url": "https://x.com/Suhail/status/2115497949421883648"
+      "handle": "@jsnnsa",
+      "quote": "How I Built the Most AI-Pilled Company in the World",
+      "url": "https://x.com/jsnnsa/status/2115623382721126826"
+    },
+    {
+      "handle": "@EMostaque",
+      "quote": "there is no need for AI teams to build good models any more. Can do it all with latest AI better.",
+      "url": "https://x.com/EMostaque/status/2115603660852150571"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/sundarpichai/status/2115535455156642066",
-      "handle": "@sundarpichai",
-      "text": "Alphabet Q3: half-trillion annual revenue run rate, revenue up 25%, Google Cloud up 103%.",
-      "metric": "5.7k likes",
-      "note": "Hard numbers showing AI demand turning into revenue at Google's scale."
+      "url": "https://x.com/alexandr_wang/status/2115624129080725720",
+      "handle": "@alexandr_wang",
+      "text": "Muse just dropped: Meta's personal agent runs tasks on a cloud computer, in its app or WhatsApp.",
+      "metric": "4.3k likes",
+      "note": "A mass-market agent from Meta that can shop and send email with your approval."
     },
     {
-      "url": "https://x.com/Suhail/status/2115497949421883648",
-      "handle": "@Suhail",
-      "text": "Particle launches: inference for open-weight models; particle-1 keeps parity using ~45% fewer tokens.",
-      "metric": "1.4k likes",
-      "note": "A new inference company promising cheaper open models, with Perplexity on board."
+      "url": "https://x.com/jsnnsa/status/2115623382721126826",
+      "handle": "@jsnnsa",
+      "text": "How I Built the Most AI-Pilled Company in the World: ten people, $3.1M in tokens, 77,000 changes in 30 days.",
+      "metric": "886 likes",
+      "note": "Rare hard numbers on running a company through a permanent agent fleet."
     },
     {
-      "url": "https://x.com/vercel/status/2115526935636021696",
-      "handle": "@vercel",
-      "text": "Vercel CI in beta: runs only the tasks a change affects, and agents can inspect and trigger it.",
-      "metric": "772 likes",
-      "note": "Builders want CI that keeps pace with agent-written code."
+      "url": "https://x.com/EMostaque/status/2115603660852150571",
+      "handle": "@EMostaque",
+      "text": "There is no need for AI teams to build good models any more. Can do it all with latest AI better.",
+      "metric": "261 likes",
+      "note": "A bold claim that agents can now do the work of a model lab."
     },
     {
-      "url": "https://x.com/satyanadella/status/2115577764300693644",
-      "handle": "@satyanadella",
-      "text": "Microsoft Cloud passed $63B, up 30%; over 50M agents now in Agent 365.",
-      "metric": "603 likes",
-      "note": "Microsoft's CEO puts agent counts next to revenue as a headline metric."
-    },
-    {
-      "url": "https://x.com/kunchenguid/status/2115565245293039814",
+      "url": "https://x.com/kunchenguid/status/2115670709779513720",
       "handle": "@kunchenguid",
-      "text": "Once teams stop reviewing most agent code, CI is the bottleneck: move checks to CD, modularize, select tests.",
-      "metric": "207 likes",
-      "note": "A concrete playbook for speeding CI, with 15x and 20x results."
+      "text": "Pro Codex usage drops from 20x to 10x Plus on Oct 30, per users citing OpenAI's email.",
+      "metric": "228 likes",
+      "note": "Heavy coders on $200 plans lose half their allowance at the same price."
+    },
+    {
+      "url": "https://x.com/mattpocockuk/status/2115751897558614073",
+      "handle": "@mattpocockuk",
+      "text": "Codex was biasing most subagents to fork the parent's context, hurting code review and implement-spec skills.",
+      "metric": "163 likes",
+      "note": "A subtle harness default that quietly weakens agent review quality."
     }
   ]
 }

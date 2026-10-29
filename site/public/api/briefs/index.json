@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-28-1900",
-  "count": 20,
+  "latest": "2026-10-29-0700",
+  "count": 21,
   "briefs": [
+    {
+      "id": "2026-10-29-0700",
+      "date": "2026-10-29",
+      "edition": "Morning",
+      "publishedAt": "2026-10-29T12:02:12Z",
+      "headline": "A ten-person company says its agents ship 108 changes an hour",
+      "url": "/api/briefs/2026-10-29-0700.json"
+    },
     {
       "id": "2026-10-28-1900",
       "date": "2026-10-28",

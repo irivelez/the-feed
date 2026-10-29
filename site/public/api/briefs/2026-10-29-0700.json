@@ -1,0 +1,303 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-10-29-0700",
+  "date": "2026-10-29",
+  "publishedAt": "2026-10-29T12:02:12Z",
+  "edition": "Morning",
+  "top3": [
+    {
+      "itemId": "spawn-agent-fleet-playbook",
+      "headline": "A ten-person company says its agents ship 108 changes an hour",
+      "whyItMatters": "Agent fleets can replace review queues with tests and rollback, but it takes heavy token spend."
+    },
+    {
+      "itemId": "claude-code-agent-summary-token-cost",
+      "headline": "Hidden Claude Code summaries ate 16% of one team's AI spend",
+      "whyItMatters": "Agent tools carry default costs you never asked for, so measure where tokens actually go."
+    },
+    {
+      "itemId": "meta-muse-personal-agent-launch",
+      "headline": "Meta puts a personal agent with approvals and audit trails in WhatsApp",
+      "whyItMatters": "Agents that buy and book are reaching mass consumer apps, with approval gates as the default."
+    }
+  ],
+  "items": [
+    {
+      "id": "pocock-codex-subagent-fork-fix",
+      "title": "Codex subagents inherit parent context, hurting clean-context skills",
+      "takeaway": "Pocock found Codex forks the parent's context into most subagents; a fix shipped in his skills repo.",
+      "soWhat": "Review and spec agents need a clean context, so check how your harness spawns them.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-29T10:25:35Z",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2115751897558614073"
+      },
+      "related": [
+        {
+          "name": "mattpocock/skills PR #1341",
+          "url": "https://github.com/mattpocock/skills/pull/1341"
+        }
+      ],
+      "image": {
+        "src": "/img/pocock-codex-subagent-fork-fix.jpg",
+        "alt": "Image from @mattpocockuk on X"
+      },
+      "heat": {
+        "score": 5,
+        "level": "none",
+        "metric": "12k views"
+      }
+    },
+    {
+      "id": "verge-arizona-water-data-centers",
+      "title": "Arizona water fight turns voters against new data centers",
+      "takeaway": "Arizona will lose nearly 30% of its Colorado River water; TSMC's fab uses nearly 5M gallons a day.",
+      "soWhat": "Water is now a siting risk for AI compute, so factor local opposition into capacity plans.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 6,
+      "publishedAt": "2026-10-29T10:00:04Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc"
+      },
+      "image": {
+        "src": "/img/verge-arizona-water-data-centers.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "stratechery-palantir-sankar-interview",
+      "title": "Palantir's CTO says the AI industry underweights diffusion",
+      "takeaway": "Sankar argues companies focused on the top line adopt AI more successfully; full interview is paywalled.",
+      "soWhat": "Sankar sees adoption as the gap, not models, so point AI at revenue work first.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-10-29T10:00:00Z",
+      "source": {
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/an-interview-with-palantir-cto-shyam-sankar-about-the-ai-religious-war/"
+      },
+      "related": [
+        {
+          "name": "Stratechery on X",
+          "url": "https://x.com/stratechery/status/2115745467640197345"
+        }
+      ],
+      "image": {
+        "src": "/img/stratechery-palantir-sankar-interview.jpg",
+        "alt": "Image from Stratechery"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "5k views"
+      }
+    },
+    {
+      "id": "codex-pro-limits-halved-oct30",
+      "title": "Users report OpenAI halves Codex limits on $200 Pro plans",
+      "takeaway": "Per users citing OpenAI's email, from Oct 30 Pro drops from 20x to 10x Plus usage at the same price.",
+      "soWhat": "If teams code on Pro seats, budget for tighter limits or compare other plans now.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-10-29T05:02:59Z",
+      "source": {
+        "name": "@kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2115670709779513720"
+      },
+      "related": [
+        {
+          "name": "jackcorleone19 on X citing the OpenAI email",
+          "url": "https://x.com/jackcorleone19/status/2115340593417044260"
+        },
+        {
+          "name": "Zach Moskow on X",
+          "url": "https://x.com/zachmoskow/status/2115242952830095705"
+        }
+      ],
+      "image": {
+        "src": "/img/codex-pro-limits-halved-oct30.jpg",
+        "alt": "Profile image of @kunchenguid"
+      },
+      "heat": {
+        "score": 8,
+        "level": "none",
+        "metric": "12k views"
+      }
+    },
+    {
+      "id": "claude-code-agent-summary-token-cost",
+      "title": "Claude Code status lines took 16% of one team's spend",
+      "takeaway": "Background agent summaries resend full transcripts every 30 seconds; a preload hook turns them off.",
+      "soWhat": "Audit default agent overhead; in one team's measurement it was a sixth of spend.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-10-29T03:33:42Z",
+      "source": {
+        "name": "Flamerix AI gist",
+        "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50284255"
+        },
+        {
+          "name": "anthropics/claude-code issue #86879",
+          "url": "https://github.com/anthropics/claude-code/issues/86879"
+        }
+      ],
+      "image": {
+        "src": "/img/claude-code-agent-summary-token-cost.jpg",
+        "alt": "Image from Flamerix AI gist"
+      }
+    },
+    {
+      "id": "meta-muse-personal-agent-launch",
+      "title": "Meta launches Muse, a personal agent that acts for you",
+      "takeaway": "Runs tasks on a cloud computer with a browser, via app or WhatsApp; asks before emails or purchases.",
+      "soWhat": "Muse's approvals, audit trail and one-time cards are a useful template for enterprise agents.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-10-29T01:57:53Z",
+      "source": {
+        "name": "@alexandr_wang on X",
+        "url": "https://x.com/alexandr_wang/status/2115624129080725720"
+      },
+      "related": [
+        {
+          "name": "Muse product page",
+          "url": "https://muse.ai/"
+        },
+        {
+          "name": "Artificial Analysis PersonalityBench",
+          "url": "https://x.com/ArtificialAnlys/status/2115558752648933831"
+        }
+      ],
+      "image": {
+        "src": "/img/meta-muse-personal-agent-launch.jpg",
+        "alt": "Image from @alexandr_wang on X"
+      },
+      "heat": {
+        "score": 27,
+        "level": "none",
+        "metric": "1.4M views"
+      }
+    },
+    {
+      "id": "spawn-agent-fleet-playbook",
+      "title": "Ten-person Spawn says agents shipped 77,000 changes in 30 days",
+      "takeaway": "$3.1M on tokens last month, no pull requests, hourly deploys, AI judges built from past decisions.",
+      "soWhat": "Spawn trades code review for constant tests and fast rollback; weigh that against your controls.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-10-29T01:54:55Z",
+      "source": {
+        "name": "@jsnnsa on X",
+        "url": "https://x.com/jsnnsa/status/2115623382721126826"
+      },
+      "related": [
+        {
+          "name": "Matt Shumer on X",
+          "url": "https://x.com/mattshumer_/status/2115624109841539465"
+        }
+      ],
+      "image": {
+        "src": "/img/spawn-agent-fleet-playbook.jpg",
+        "alt": "Profile image of @jsnnsa"
+      },
+      "heat": {
+        "score": 17,
+        "level": "none",
+        "metric": "193k views"
+      }
+    },
+    {
+      "id": "mirendil-agent-pretrained-base-model",
+      "title": "Investor says one researcher pretrained a model using agents",
+      "takeaway": "Mamoon Hamid claims agents did almost all engineering on Mirendil-Base in 3.5 months; no technical report.",
+      "soWhat": "If confirmed, model building needs far fewer people; treat it as an unverified claim.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-10-29T00:36:33Z",
+      "source": {
+        "name": "@EMostaque on X",
+        "url": "https://x.com/EMostaque/status/2115603660852150571"
+      },
+      "related": [
+        {
+          "name": "Mamoon Hamid on X",
+          "url": "https://x.com/mamoonha/status/2115561593870459064"
+        }
+      ],
+      "image": {
+        "src": "/img/mirendil-agent-pretrained-base-model.jpg",
+        "alt": "Profile image of @EMostaque"
+      },
+      "heat": {
+        "score": 8,
+        "level": "none",
+        "metric": "19k views"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@jsnnsa",
+      "quote": "How I Built the Most AI-Pilled Company in the World",
+      "url": "https://x.com/jsnnsa/status/2115623382721126826"
+    },
+    {
+      "handle": "@EMostaque",
+      "quote": "there is no need for AI teams to build good models any more. Can do it all with latest AI better.",
+      "url": "https://x.com/EMostaque/status/2115603660852150571"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/alexandr_wang/status/2115624129080725720",
+      "handle": "@alexandr_wang",
+      "text": "Muse just dropped: Meta's personal agent runs tasks on a cloud computer, in its app or WhatsApp.",
+      "metric": "4.3k likes",
+      "note": "A mass-market agent from Meta that can shop and send email with your approval."
+    },
+    {
+      "url": "https://x.com/jsnnsa/status/2115623382721126826",
+      "handle": "@jsnnsa",
+      "text": "How I Built the Most AI-Pilled Company in the World: ten people, $3.1M in tokens, 77,000 changes in 30 days.",
+      "metric": "886 likes",
+      "note": "Rare hard numbers on running a company through a permanent agent fleet."
+    },
+    {
+      "url": "https://x.com/EMostaque/status/2115603660852150571",
+      "handle": "@EMostaque",
+      "text": "There is no need for AI teams to build good models any more. Can do it all with latest AI better.",
+      "metric": "261 likes",
+      "note": "A bold claim that agents can now do the work of a model lab."
+    },
+    {
+      "url": "https://x.com/kunchenguid/status/2115670709779513720",
+      "handle": "@kunchenguid",
+      "text": "Pro Codex usage drops from 20x to 10x Plus on Oct 30, per users citing OpenAI's email.",
+      "metric": "228 likes",
+      "note": "Heavy coders on $200 plans lose half their allowance at the same price."
+    },
+    {
+      "url": "https://x.com/mattpocockuk/status/2115751897558614073",
+      "handle": "@mattpocockuk",
+      "text": "Codex was biasing most subagents to fork the parent's context, hurting code review and implement-spec skills.",
+      "metric": "163 likes",
+      "note": "A subtle harness default that quietly weakens agent review quality."
+    }
+  ]
+}
