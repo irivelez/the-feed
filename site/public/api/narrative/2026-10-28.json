@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.0",
+  "id": "2026-10-28",
+  "publishedAt": "2026-10-29T00:06:55Z",
+  "window": {
+    "from": "2026-10-22",
+    "to": "2026-10-28"
+  },
+  "headline": "Agents now write first. Your people are the last check.",
+  "summary": "Agents became the first draft of work this week. Over 40% of GitHub pull requests now start with an agent, up from 17% in March, and Microsoft says over 50M agents run in Agent 365. The human check is weaker than it looks: analysts in Anthropic's study followed an agent's hidden lean 86% of the time, and the best agent passed 10.8% of expert tax assignments. A third of large-company CISOs already run autonomous agents with write access, while skills that were safe alone broke policy once combined. Underneath it all, Anthropic's S-1 names power and natural gas as cost risks, so capacity, not token price, sets the pace. Put your next dollar into review, permissions and CI, and read your vendor's risk factors before you sign long contracts.",
+  "threads": [
+    {
+      "title": "Agents write first now",
+      "line": "Agents start over 40% of GitHub pull requests and Microsoft counts 50M agents. CI and review are the new bottleneck.",
+      "evidence": [
+        {
+          "briefId": "2026-10-28-1300",
+          "itemId": "github-octoverse-2026"
+        },
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "microsoft-earnings-agents"
+        },
+        {
+          "briefId": "2026-10-28-1300",
+          "itemId": "github-universe-copilot-projects-fusion"
+        },
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "vercel-ci-beta"
+        },
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "kunchenguid-ci-at-agent-speed"
+        }
+      ]
+    },
+    {
+      "title": "The reviewer leans too",
+      "line": "Experts follow an agent's hidden lean, and agents fail most real deliverables. Review needs its own design, not a rubber stamp.",
+      "evidence": [
+        {
+          "briefId": "2026-10-28-0700",
+          "itemId": "anthropic-agents-shape-expert-judgment"
+        },
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "surge-dayjob-tax-benchmark"
+        },
+        {
+          "briefId": "2026-10-28-0700",
+          "itemId": "arxiv-featurearc-evolving-features"
+        },
+        {
+          "briefId": "2026-10-27-0700",
+          "itemId": "arxiv-claim-smoothing-research-agents"
+        }
+      ]
+    },
+    {
+      "title": "Every key is a door",
+      "line": "A third of big-company CISOs give agents write access while attacks target agents directly. Guard actions at the harness.",
+      "evidence": [
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "a16z-ciso-ai-survey"
+        },
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "anti-llm-fingerprinting-script"
+        },
+        {
+          "briefId": "2026-10-27-1300",
+          "itemId": "arxiv-conflict-of-skills-attack"
+        },
+        {
+          "briefId": "2026-10-27-1900",
+          "itemId": "arxiv-agent-in-the-middle-web-vulns"
+        },
+        {
+          "briefId": "2026-10-28-0700",
+          "itemId": "arxiv-concordat-typed-sessions"
+        }
+      ]
+    },
+    {
+      "title": "Power is the new price",
+      "line": "Natural gas, grid hardware, skilled labor and local votes now set how fast AI capacity comes online.",
+      "evidence": [
+        {
+          "briefId": "2026-10-26-1900",
+          "itemId": "verge-anthropic-s1-natural-gas"
+        },
+        {
+          "briefId": "2026-10-27-0700",
+          "itemId": "verge-data-center-backlash-midterms"
+        },
+        {
+          "briefId": "2026-10-27-0700",
+          "itemId": "mittr-solid-state-transformers"
+        },
+        {
+          "briefId": "2026-10-25-1900",
+          "itemId": "a16z-skilled-labor-bottleneck"
+        },
+        {
+          "briefId": "2026-10-28-1300",
+          "itemId": "xai-southaven-home-buyouts"
+        }
+      ]
+    },
+    {
+      "title": "The filing is the contract",
+      "line": "Anthropic's S-1 shows the revenue, the losses and a board public shareholders barely control. Read it before your next renewal.",
+      "evidence": [
+        {
+          "briefId": "2026-10-26-1300",
+          "itemId": "anthropic-s1-filing"
+        },
+        {
+          "briefId": "2026-10-26-1300",
+          "itemId": "isenberg-s1-founder-takeaways"
+        },
+        {
+          "briefId": "2026-10-27-0700",
+          "itemId": "stratechery-anthropic-s1-cost-of-compute"
+        },
+        {
+          "briefId": "2026-10-27-1300",
+          "itemId": "verge-anthropic-ipo-governance"
+        }
+      ]
+    }
+  ]
+}

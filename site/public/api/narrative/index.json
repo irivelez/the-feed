@@ -1,8 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-27",
-  "count": 5,
+  "latest": "2026-10-28",
+  "count": 6,
   "narratives": [
+    {
+      "id": "2026-10-28",
+      "publishedAt": "2026-10-29T00:06:55Z",
+      "window": {
+        "from": "2026-10-22",
+        "to": "2026-10-28"
+      },
+      "headline": "Agents now write first. Your people are the last check.",
+      "url": "/api/narrative/2026-10-28.json"
+    },
     {
       "id": "2026-10-27",
       "publishedAt": "2026-10-28T00:06:39Z",

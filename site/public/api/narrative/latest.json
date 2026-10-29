@@ -1,33 +1,85 @@
 {
   "schemaVersion": "1.0",
-  "id": "2026-10-27",
-  "publishedAt": "2026-10-28T00:06:39Z",
+  "id": "2026-10-28",
+  "publishedAt": "2026-10-29T00:06:55Z",
   "window": {
-    "from": "2026-10-21",
-    "to": "2026-10-27"
+    "from": "2026-10-22",
+    "to": "2026-10-28"
   },
-  "headline": "Your AI vendor just opened its books. Price isn't the risk.",
-  "summary": "Agent work got cheaper again this week, and the real bill came into view. Anthropic filed to go public with $16.3B in half-year revenue, and its S-1 names power and natural gas as cost risks. Data center backlash is now a midterm issue in six states, and key grid equipment can take five years to arrive. Agents also got harder to fence in: skills that were safe alone broke policy once combined, and agent-facing interfaces left 91% of tested attacks exploitable. Your vendor's limits are now power, politics and governance, not token price, so read the risk factors and guard actions at the harness before you sign long contracts.",
+  "headline": "Agents now write first. Your people are the last check.",
+  "summary": "Agents became the first draft of work this week. Over 40% of GitHub pull requests now start with an agent, up from 17% in March, and Microsoft says over 50M agents run in Agent 365. The human check is weaker than it looks: analysts in Anthropic's study followed an agent's hidden lean 86% of the time, and the best agent passed 10.8% of expert tax assignments. A third of large-company CISOs already run autonomous agents with write access, while skills that were safe alone broke policy once combined. Underneath it all, Anthropic's S-1 names power and natural gas as cost risks, so capacity, not token price, sets the pace. Put your next dollar into review, permissions and CI, and read your vendor's risk factors before you sign long contracts.",
   "threads": [
     {
-      "title": "The filing is the contract",
-      "line": "Anthropic's S-1 shows the revenue, the losses and a board public shareholders barely control. Read it before your next renewal.",
+      "title": "Agents write first now",
+      "line": "Agents start over 40% of GitHub pull requests and Microsoft counts 50M agents. CI and review are the new bottleneck.",
       "evidence": [
         {
-          "briefId": "2026-10-26-1300",
-          "itemId": "anthropic-s1-filing"
+          "briefId": "2026-10-28-1300",
+          "itemId": "github-octoverse-2026"
         },
         {
-          "briefId": "2026-10-26-1300",
-          "itemId": "isenberg-s1-founder-takeaways"
+          "briefId": "2026-10-28-1900",
+          "itemId": "microsoft-earnings-agents"
+        },
+        {
+          "briefId": "2026-10-28-1300",
+          "itemId": "github-universe-copilot-projects-fusion"
+        },
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "vercel-ci-beta"
+        },
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "kunchenguid-ci-at-agent-speed"
+        }
+      ]
+    },
+    {
+      "title": "The reviewer leans too",
+      "line": "Experts follow an agent's hidden lean, and agents fail most real deliverables. Review needs its own design, not a rubber stamp.",
+      "evidence": [
+        {
+          "briefId": "2026-10-28-0700",
+          "itemId": "anthropic-agents-shape-expert-judgment"
+        },
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "surge-dayjob-tax-benchmark"
+        },
+        {
+          "briefId": "2026-10-28-0700",
+          "itemId": "arxiv-featurearc-evolving-features"
         },
         {
           "briefId": "2026-10-27-0700",
-          "itemId": "stratechery-anthropic-s1-cost-of-compute"
+          "itemId": "arxiv-claim-smoothing-research-agents"
+        }
+      ]
+    },
+    {
+      "title": "Every key is a door",
+      "line": "A third of big-company CISOs give agents write access while attacks target agents directly. Guard actions at the harness.",
+      "evidence": [
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "a16z-ciso-ai-survey"
+        },
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "anti-llm-fingerprinting-script"
         },
         {
           "briefId": "2026-10-27-1300",
-          "itemId": "verge-anthropic-ipo-governance"
+          "itemId": "arxiv-conflict-of-skills-attack"
+        },
+        {
+          "briefId": "2026-10-27-1900",
+          "itemId": "arxiv-agent-in-the-middle-web-vulns"
+        },
+        {
+          "briefId": "2026-10-28-0700",
+          "itemId": "arxiv-concordat-typed-sessions"
         }
       ]
     },
@@ -50,76 +102,32 @@
         {
           "briefId": "2026-10-25-1900",
           "itemId": "a16z-skilled-labor-bottleneck"
+        },
+        {
+          "briefId": "2026-10-28-1300",
+          "itemId": "xai-southaven-home-buyouts"
         }
       ]
     },
     {
-      "title": "The bill keeps collapsing",
-      "line": "Token prices fell again, so cost is no longer a good reason to wait on agent work.",
+      "title": "The filing is the contract",
+      "line": "Anthropic's S-1 shows the revenue, the losses and a board public shareholders barely control. Read it before your next renewal.",
       "evidence": [
         {
-          "briefId": "2026-10-26-1900",
-          "itemId": "openai-gpt-6-1-terra"
-        },
-        {
-          "briefId": "2026-10-26-1900",
-          "itemId": "deepseek-v4-1-flash-in-cursor"
-        },
-        {
-          "briefId": "2026-10-26-0700",
-          "itemId": "minimaxir-llm-price-cuts-timeline"
-        },
-        {
-          "briefId": "2026-10-26-0700",
-          "itemId": "ibm-ceo-open-weights-on-prem"
-        },
-        {
-          "briefId": "2026-10-24-1900",
-          "itemId": "a16z-openrouter-token-demand-27x"
-        }
-      ]
-    },
-    {
-      "title": "Every key is a door",
-      "line": "Safe skills combine into violations and agent interfaces keep old attacks alive. Check actions at the harness, not the parts.",
-      "evidence": [
-        {
-          "briefId": "2026-10-27-1300",
-          "itemId": "arxiv-conflict-of-skills-attack"
-        },
-        {
-          "briefId": "2026-10-27-1900",
-          "itemId": "arxiv-agent-in-the-middle-web-vulns"
+          "briefId": "2026-10-26-1300",
+          "itemId": "anthropic-s1-filing"
         },
         {
           "briefId": "2026-10-26-1300",
-          "itemId": "rauch-cpu-chat-covert-agents"
-        },
-        {
-          "briefId": "2026-10-26-0700",
-          "itemId": "claude-georgia-voter-data-paywall"
-        },
-        {
-          "briefId": "2026-10-23-1900",
-          "itemId": "openai-training-containment"
-        }
-      ]
-    },
-    {
-      "title": "The report is a claim",
-      "line": "Agents overstate their sources and labs gate their own breakthroughs. Trust what outsiders can check.",
-      "evidence": [
-        {
-          "briefId": "2026-10-27-0700",
-          "itemId": "arxiv-claim-smoothing-research-agents"
+          "itemId": "isenberg-s1-founder-takeaways"
         },
         {
           "briefId": "2026-10-27-0700",
-          "itemId": "eth-refutation-independent-review"
+          "itemId": "stratechery-anthropic-s1-cost-of-compute"
         },
         {
-          "briefId": "2026-10-27-1900",
-          "itemId": "verge-openai-shepherds-gatekeeping"
+          "briefId": "2026-10-27-1300",
+          "itemId": "verge-anthropic-ipo-governance"
         }
       ]
     }
