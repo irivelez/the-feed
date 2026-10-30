@@ -272,7 +272,7 @@
       "publishedAt": "2026-10-29T17:47:40Z",
       "source": {
         "name": "arXiv 2610.40588",
-        "url": "http://arxiv.org/abs/2610.40588v1"
+        "url": "https://arxiv.org/abs/2610.40588v1"
       },
       "image": {
         "src": "/img/arxiv-probe-recruited-agent-leak.jpg",
@@ -385,7 +385,7 @@
       "publishedAt": "2026-10-29T09:45:57Z",
       "source": {
         "name": "arXiv 2610.39711",
-        "url": "http://arxiv.org/abs/2610.39711v1"
+        "url": "https://arxiv.org/abs/2610.39711v1"
       },
       "image": {
         "src": "/img/arxiv-sandman-agentic-rl-sandboxes.jpg",
