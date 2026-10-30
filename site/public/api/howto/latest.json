@@ -1,40 +1,40 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-29T00:06:20Z",
-  "runId": "2026-10-28-1900",
+  "updatedAt": "2026-10-30T12:04:48Z",
+  "runId": "2026-10-30-0700",
   "howtos": [
     {
-      "id": "kunchenguid-speed-up-ci-for-agent-code",
-      "dedupeKey": "speed-up-ci-for-agent-speed",
-      "title": "Speed up CI so it keeps pace with agent code",
-      "what": "Kun Chen's three fixes for CI once agents write most code, with 15x and 20x speedups he reports.",
+      "id": "cursor-clean-up-malicious-claude-code-extension",
+      "dedupeKey": "remediate-malicious-claude-code-extension-2-1-313",
+      "title": "Clean up after the malicious Claude Code 2.1.313 extension",
+      "what": "Cursor's steps for hosts that ran the tampered extension, since uninstalling it may not be enough.",
       "kind": "steps",
       "copy": [
-        "Move checks from CI to CD where you can, for example skip most mac and Windows tests in CI when Linux covers the same functionality.",
-        "Modularize the codebase so CI runs only the modules a change touches.",
-        "Invest in test selection, with a nightly loop that audits past test runs and tunes which tests run."
+        "Check authorized_keys for an SSH key labeled svc-telemetry and remove it.",
+        "Remove persistence: the LaunchAgent on macOS or the scheduled task on Windows.",
+        "Rotate credentials accessible from affected hosts."
       ],
-      "whenToUse": "When agents produce changes faster than your CI pipeline can check them.",
+      "whenToUse": "If Anthropic.claude-code 2.1.313 was installed from Cursor's marketplace on Oct 29.",
       "source": {
-        "name": "Kun Chen on X",
-        "url": "https://x.com/kunchenguid/status/2115565245293039814"
+        "name": "Cursor security notice",
+        "url": "https://cursor.com/blog/claude-code-extension-security-notice"
       },
       "author": {
-        "name": "Kun Chen",
-        "handle": "kunchenguid"
+        "name": "Cursor",
+        "handle": "cursor_ai"
       },
       "tags": [
-        "ci",
-        "testing",
-        "agents"
+        "agent-security",
+        "claude-code",
+        "incident-response"
       ],
-      "quality": 3,
+      "quality": 4,
       "verbatim": false,
       "briefItem": {
-        "briefId": "2026-10-28-1900",
-        "itemId": "kunchenguid-ci-at-agent-speed"
+        "briefId": "2026-10-30-0700",
+        "itemId": "cursor-marketplace-malicious-claude-code-extension"
       },
-      "addedAt": "2026-10-29T00:06:20Z"
+      "addedAt": "2026-10-30T12:04:48Z"
     }
   ]
 }

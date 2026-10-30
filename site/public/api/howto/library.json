@@ -1,7 +1,40 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-29T00:06:20Z",
+  "updatedAt": "2026-10-30T12:04:48Z",
   "howtos": [
+    {
+      "id": "cursor-clean-up-malicious-claude-code-extension",
+      "dedupeKey": "remediate-malicious-claude-code-extension-2-1-313",
+      "title": "Clean up after the malicious Claude Code 2.1.313 extension",
+      "what": "Cursor's steps for hosts that ran the tampered extension, since uninstalling it may not be enough.",
+      "kind": "steps",
+      "copy": [
+        "Check authorized_keys for an SSH key labeled svc-telemetry and remove it.",
+        "Remove persistence: the LaunchAgent on macOS or the scheduled task on Windows.",
+        "Rotate credentials accessible from affected hosts."
+      ],
+      "whenToUse": "If Anthropic.claude-code 2.1.313 was installed from Cursor's marketplace on Oct 29.",
+      "source": {
+        "name": "Cursor security notice",
+        "url": "https://cursor.com/blog/claude-code-extension-security-notice"
+      },
+      "author": {
+        "name": "Cursor",
+        "handle": "cursor_ai"
+      },
+      "tags": [
+        "agent-security",
+        "claude-code",
+        "incident-response"
+      ],
+      "quality": 4,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-10-30-0700",
+        "itemId": "cursor-marketplace-malicious-claude-code-extension"
+      },
+      "addedAt": "2026-10-30T12:04:48Z"
+    },
     {
       "id": "kunchenguid-speed-up-ci-for-agent-code",
       "dedupeKey": "speed-up-ci-for-agent-speed",
