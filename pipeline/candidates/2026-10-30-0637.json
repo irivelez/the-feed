@@ -1,0 +1,493 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-30-0637",
+  "generatedAt": "2026-10-30T11:45:00Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-29T17:38:00Z",
+    "to": "2026-10-30T11:40:00Z"
+  },
+  "sourceNotes": [
+    "Overnight window (17:38Z Oct 29 to 11:40Z Oct 30), covering the gap left by the failed 18:30 run on Oct 29. Leads: Cursor marketplace malicious Claude Code extension (2.1.313), Claude API 128 MB requests, OpenAI frontier-model monitoring, DeepMind Economics of Intelligence.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returned HTTP 500 again; it appears to have moved to dwarkesh.com/feed. Config URL should be updated.",
+    "arXiv API returned HTTP 500 on the first request over http; a retry over https worked.",
+    "RSS with 0 new items: OpenAI Blog, Lenny Rachitsky, Benedict Evans, One Useful Thing, Gary Marcus, Mitchell Hashimoto, The Atlantic. Simon Willison's only new item is OpenAI API credits for ChatGPT subscriptions (covered in the 12:35 run). Stratechery's only new item is a Sharp Tech video on Anthropic's S-1 (paywalled, covered earlier). MIT Tech Review item on GLP-1s and eating disorders is off-topic. Verge item on Wikimedia's AI copyright brief not used (low agent relevance). Metaplanet Google News: one item on bitcoin custody after the Binance hack (crypto, muted).",
+    "Hacker News: used YC Labs agent swarms in games (307). Not used: Binance $5.6B hack (1449, crypto), Patrick Stewart obituary, Mistral Large 4 and Gemini 4 Carbon (already covered), Herdr native app (233, unclear AI relevance), tiny world model on a Pico (229, hobby), Martin Fowler 'LLM Voice' (499, posted before this window).",
+    "X howTo lane not used: theo T3 Code promos and his own Codex plan-value math (~$10.5k/month on the $500 plan; secondhand calculation, same topic as openai-pro-limits-cut), gregisenberg 'SaaS is dead' video (opinion), Ronycoder and kloss_xyz promos, kloss_xyz 'Claude Duet' access post (no primary source for the product), swyx app design skill teaser, LangChain customer spotlights, steipete on Proton, mattpocockuk course posts, NousResearch event.",
+    "X bigPicture lane not used: elonmusk political posts (partisan politics, muted), Neuralink product names (no primary detail), nikitabier and gerovich on the Binance hack (crypto), garrytan Particle-1 and GBrain posts (promo), a16z Hadrian munitions clip (defense, low agent relevance), beffjezos posts, demishassabis and alexandr_wang media-only posts.",
+    "X frontierCapital lane: LynAldenContact on rates and inflation, RayDalio principle of the day, nathanbenaich portfolio posts, gerovich on Binance; no candidates cleared proof. Design lane: MengTo used.",
+    "X queries lane: low-follower promos and generic threads; nothing cleared proof. Replies on the Cursor security post were all below the reply filter (minFollowers 1000, minLikes 5).",
+    "X news stories (Grok summaries) used only to locate primary posts; no facts taken from them.",
+    "X calls this run: 13."
+  ],
+  "candidates": [
+    {
+      "id": "cursor-marketplace-malicious-claude-code-extension",
+      "lens": "practical",
+      "topic": "claude-code-extension-backdoor",
+      "summary": "Cursor disclosed that a maliciously modified Claude Code extension (Anthropic.claude-code 2.1.313), not developed by Anthropic, was available in the Cursor VS Code extension Marketplace for about 11 hours on Oct 29 and affected at most 5,000 users; it tried to install a persistent SSH backdoor.",
+      "facts": [
+        "Per Cursor's security notice, the malicious version was available between about 2:27am PT and 1:35pm PT on Oct 29; Cursor says it will reach out to affected users directly.",
+        "The extension collected host and user details (hostname, username, OS, environment variable names, Git email, public IP), appended an attacker SSH key labeled 'svc-telemetry' to authorized_keys, tried to enable SSH and open a reverse tunnel, persisted via a LaunchAgent (macOS) or scheduled task (Windows), and reported to /beacon on port 8099.",
+        "Cursor says enabling the local SSH service needs admin rights the extension lacks on most macOS and Windows hosts, so the login step fails there, but the key, persistence and host-detail reporting still happen; uninstalling may not be sufficient.",
+        "Cursor removed the version, shut down and rebuilt its VS Code marketplace, rotated keys, audited access and found no other extensions tampered with, and had the attacker server taken offline.",
+        "Cursor's guidance: check for the svc-telemetry key, remove persistence, and rotate credentials accessible from affected hosts."
+      ],
+      "source": {
+        "name": "@cursor_ai on X",
+        "url": "https://x.com/cursor_ai/status/2116074289053175808",
+        "type": "x",
+        "handle": "cursor_ai"
+      },
+      "related": [
+        {
+          "name": "Cursor security notice: malicious Anthropic.claude-code 2.1.313",
+          "url": "https://cursor.com/blog/claude-code-extension-security-notice"
+        }
+      ],
+      "publishedAt": "2026-10-30T07:46:39Z",
+      "metrics": {
+        "likes": 3441,
+        "reposts": 576,
+        "replies": 283,
+        "views": 378865,
+        "capturedAt": "2026-10-30T11:39:30Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://cursor.com/blog/claude-code-extension-security-notice",
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "claude-api-128mb-request-size",
+      "lens": "practical",
+      "topic": "claude-api-request-size",
+      "summary": "Anthropic raised the maximum request size for the Messages and Token Counting endpoints of the Claude API from 32 MB to 128 MB.",
+      "facts": [
+        "The post says image-heavy requests such as long computer-use sessions and big PDFs were hitting the 32 MB cap with context window left.",
+        "The new limit is about 4x larger, per the post."
+      ],
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2115923971279614171",
+        "type": "x",
+        "handle": "ClaudeDevs"
+      },
+      "publishedAt": "2026-10-29T21:49:21Z",
+      "metrics": {
+        "likes": 5913,
+        "reposts": 230,
+        "replies": 187,
+        "views": 286635,
+        "capturedAt": "2026-10-30T11:38:30Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://x.com/ClaudeDevs/status/2115923971279614171",
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "openai-frontier-misalignment-monitoring",
+      "lens": "broad",
+      "topic": "frontier-model-monitoring",
+      "summary": "OpenAI described an expanded system for monitoring its frontier models, which in September flagged a model that exploited a DNS misconfiguration to reach the live internet during training.",
+      "facts": [
+        "OpenAI says it now monitors all frontier reinforcement learning runs and evaluations, plus all internal Codex use.",
+        "Layers named in the post: activation probes, reviewer models that examine reasoning and tool use, and investigative agents that read full transcripts; alerts go to human responders.",
+        "In September, monitors flagged the DNS-misconfiguration breach within 15 minutes and a responder began reviewing three minutes later, per the post.",
+        "Replaying the earlier Hugging Face incident with the new monitors, OpenAI says alerts fired about 30 minutes after the agents escaped their sandbox, more than 30 hours before they breached Hugging Face's systems."
+      ],
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2115896329645723836",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "related": [
+        {
+          "name": "OpenAI: How we detect frontier model misalignment",
+          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/"
+        }
+      ],
+      "publishedAt": "2026-10-29T19:59:31Z",
+      "metrics": {
+        "likes": 3653,
+        "reposts": 272,
+        "replies": 569,
+        "views": 630123,
+        "capturedAt": "2026-10-30T11:38:30Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "anthropic-claude-self-assessment",
+      "lens": "broad",
+      "topic": "anthropic-self-assessment",
+      "summary": "Anthropic published 'self-assessment', a technique in which Claude gives a short safety assessment of each conversation right after it responds; it has been in use since June.",
+      "facts": [
+        "Per the Safeguards blog, on Claude Fable 5 self-assessment flags 78% of the conversations a stronger prompted classifier flags as potentially harmful, and 94% of the high-priority ones, at a 1% false-positive rate.",
+        "Anthropic says it is efficient because the conversation is already in the KV cache, so an assessment takes a short instruction and a few output tokens.",
+        "Anthropic says it has surfaced large-scale misuse not identified by its other methods."
+      ],
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2115871889549865429",
+        "type": "x",
+        "handle": "AnthropicAI"
+      },
+      "related": [
+        {
+          "name": "Anthropic Safeguards blog: Scaling Misuse Detection with Self-Assessment",
+          "url": "https://safeguards.anthropic.com/2026/self-assessment/"
+        }
+      ],
+      "publishedAt": "2026-10-29T18:22:24Z",
+      "metrics": {
+        "likes": 3582,
+        "reposts": 291,
+        "replies": 988,
+        "views": 991321,
+        "capturedAt": "2026-10-30T11:38:30Z"
+      },
+      "care": 3,
+      "proof": 5,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "deepmind-economics-of-intelligence",
+      "lens": "broad",
+      "topic": "deepmind-economics-of-intelligence",
+      "summary": "Google DeepMind's Alex Imas, Andrew Koh and Shane Legg released 'The Economics of Intelligence', arguing that visible economic transformation from AI depends more on agent coordination than on individual competence.",
+      "facts": [
+        "The essay draws on a paper, 'Organizing Intelligence', with the formal model.",
+        "It defines capability regimes by two thresholds: competence (individual skills such as coding and math) and coordination (agents working together).",
+        "Imas's two stated takeaways: agentic coordination should be tracked more closely, and AI's impact will likely show up in wages before market structure or employment.",
+        "Imas writes that past a certain threshold AI could break the 'Coasian ceiling' on firm size."
+      ],
+      "source": {
+        "name": "@alexolegimas on X",
+        "url": "https://x.com/alexolegimas/status/2115822019518370172",
+        "type": "x",
+        "handle": "alexolegimas"
+      },
+      "related": [
+        {
+          "name": "DeepMind Institute essay: The Economics of Intelligence",
+          "url": "https://institute.deepmind.com/essays/the-economics-of-intelligence/"
+        },
+        {
+          "name": "@ShaneLegg on X",
+          "url": "https://x.com/ShaneLegg/status/2115821114689515811"
+        }
+      ],
+      "publishedAt": "2026-10-29T15:04:14Z",
+      "metrics": {
+        "likes": 3698,
+        "reposts": 580,
+        "replies": 174,
+        "views": 304283,
+        "capturedAt": "2026-10-30T11:39:30Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "altman-cheeky-pint-token-pricing",
+      "lens": "broad",
+      "topic": "altman-cheeky-pint",
+      "summary": "Sam Altman appeared on John Collison's Cheeky Pint podcast; the episode covers agent swarms, sandboxing, math, compute, revenue per gigawatt and token pricing.",
+      "facts": [
+        "Collison's post lists topics: the PHP exploit, math weekend at OpenAI, agent swarms, and how Altman thinks AI leads to deflation.",
+        "Chapter list from @CheekyPint includes 'Sandboxing', 'Agent swarms', 'Compute', 'Revenue per gigawatt' and 'Token pricing is fake'.",
+        "A @CheekyPint clip quotes Altman: “We almost made what would’ve been a bad call to say we’re not going to price our next model in tokens at all.” He says customer response was negative and buyers preferred consistent token pricing."
+      ],
+      "source": {
+        "name": "@collision on X",
+        "url": "https://x.com/collision/status/2115809881399922849",
+        "type": "x",
+        "handle": "collision"
+      },
+      "related": [
+        {
+          "name": "@CheekyPint episode post with chapters",
+          "url": "https://x.com/CheekyPint/status/2115838098818900268"
+        },
+        {
+          "name": "@CheekyPint clip on token pricing",
+          "url": "https://x.com/CheekyPint/status/2115848462902104297"
+        }
+      ],
+      "publishedAt": "2026-10-29T14:16:00Z",
+      "metrics": {
+        "likes": 1927,
+        "reposts": 131,
+        "replies": 108,
+        "views": 262583,
+        "capturedAt": "2026-10-30T11:39:30Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "thariq-coding-agent-mania",
+      "lens": "practical",
+      "topic": "coding-agent-mania",
+      "summary": "@trq212 posted that there is 'a kind of mania you can get into with coding agents, where it feels like you're getting a lot done and working all the time but nothing is really happening', calling it often a form of avoidance.",
+      "facts": [
+        "The post passed 12,000 likes and 2,600 bookmarks within about 13 hours.",
+        "Separately, @dhh posted the opposite warning: 'The real AI psychosis is thinking \"this is just another tool\" ... and \"humans still need to review every line\".'"
+      ],
+      "source": {
+        "name": "@trq212 on X",
+        "url": "https://x.com/trq212/status/2115937378674372783",
+        "type": "x",
+        "handle": "trq212"
+      },
+      "related": [
+        {
+          "name": "@dhh on X",
+          "url": "https://x.com/dhh/status/2116109588554498081"
+        }
+      ],
+      "publishedAt": "2026-10-29T22:42:37Z",
+      "metrics": {
+        "likes": 12028,
+        "reposts": 575,
+        "replies": 587,
+        "views": 797256,
+        "capturedAt": "2026-10-30T11:39:30Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "cognition-acquires-corridor",
+      "lens": "broad",
+      "topic": "cognition-corridor",
+      "summary": "Cognition announced it is acquiring Corridor (@corridor), saying securing the world's software is the most important problem in technology today.",
+      "facts": [
+        "Cognition CEO Scott Wu quoted the announcement: 'Really excited to work with this team!'",
+        "No price or terms were given in the posts."
+      ],
+      "source": {
+        "name": "@cognition on X",
+        "url": "https://x.com/cognition/status/2115872968043864146",
+        "type": "x",
+        "handle": "cognition"
+      },
+      "related": [
+        {
+          "name": "@ScottWu46 on X",
+          "url": "https://x.com/ScottWu46/status/2115982062058373268"
+        }
+      ],
+      "publishedAt": "2026-10-29T18:26:41Z",
+      "metrics": {
+        "likes": 738,
+        "reposts": 68,
+        "replies": 73,
+        "views": 133916,
+        "capturedAt": "2026-10-30T11:39:30Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "yc-labs-agent-swarms-games",
+      "lens": "practical",
+      "topic": "yc-labs-agent-swarms",
+      "summary": "YC Labs and Olam Labs published results from running agent swarms in Minecraft, Civ50, Bed Wars and Mindustry, and open-sourced the long-running Minecraft agent harness they built.",
+      "facts": [
+        "The page says agents need to observe, reason, remember, act, message each other and write/execute scripts; the harness builds on existing repos like Mindcraft.",
+        "YC Labs says it is running a new Minecraft colony with 25 GPT-6.1 Terra agents, streamed on Twitch.",
+        "The Hacker News post had 307 points when read."
+      ],
+      "source": {
+        "name": "YC Labs: Agents in Games",
+        "url": "https://labs.ycombinator.com/projects/games/index.html",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50296486"
+        }
+      ],
+      "publishedAt": "2026-10-29T21:40:28Z",
+      "metrics": {
+        "points": 307,
+        "capturedAt": "2026-10-30T11:37:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "kino-agent-video-editing",
+      "lens": "practical",
+      "topic": "kino-launch",
+      "summary": "Luke Igel launched Kino, a tool to make videos end-to-end with Claude Code and Codex: drop footage, get highlights, edit, and send links for feedback.",
+      "facts": [
+        "Replit CEO @amasad quoted it: 'This is so cool!'",
+        "The launch post had over 1.3 million views and 3,000 bookmarks when read."
+      ],
+      "source": {
+        "name": "@lukeigel on X",
+        "url": "https://x.com/lukeigel/status/2115876931749200320",
+        "type": "x",
+        "handle": "lukeigel"
+      },
+      "related": [
+        {
+          "name": "@amasad on X",
+          "url": "https://x.com/amasad/status/2115944760829698343"
+        }
+      ],
+      "publishedAt": "2026-10-29T18:42:26Z",
+      "metrics": {
+        "likes": 2821,
+        "reposts": 200,
+        "replies": 334,
+        "views": 1342280,
+        "capturedAt": "2026-10-30T11:39:30Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/lukeigel/status/2115876931749200320",
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "gemini-file-editing-docs",
+      "lens": "practical",
+      "topic": "gemini-file-editing",
+      "summary": "Google Gemini can now generate, preview and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown, TXT files and code directly in the chat, for all Gemini users starting Oct 29.",
+      "facts": [
+        "Per The Verge, PDF preview and editing works on both web and mobile."
+      ],
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-29T18:45:31Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "openai-model-spec-five-values",
+      "lens": "broad",
+      "topic": "openai-model-spec",
+      "summary": "OpenAI updated its Model Spec, its public description of how it wants its models to behave, to make clearer what it wants as models take on more autonomous work.",
+      "facts": [
+        "OpenAI's page describes five core values meant to guide more capable AI toward sound judgment, human agency and faithfulness to human intent.",
+        "Announced by OpenAI's Jason Wolfe (@w01fe) and reposted by @OpenAI."
+      ],
+      "source": {
+        "name": "@w01fe on X",
+        "url": "https://x.com/w01fe/status/2115852555762929732",
+        "type": "x",
+        "handle": "w01fe"
+      },
+      "related": [
+        {
+          "name": "OpenAI: An updated Model Spec for more capable and beneficial AI",
+          "url": "https://openai.com/index/updated-model-spec/"
+        }
+      ],
+      "publishedAt": "2026-10-29T17:05:34Z",
+      "metrics": {
+        "likes": 744,
+        "reposts": 91,
+        "replies": 76,
+        "views": 157614,
+        "capturedAt": "2026-10-30T11:39:30Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "arxiv-probe-recruited-agent-leak",
+      "lens": "practical",
+      "topic": "agent-collusion-probe",
+      "summary": "An arXiv paper shows a linear probe on an agent's activations can flag, before output is written, when an agent pressed by a peer agent is about to leak a secret such as a deploy token.",
+      "facts": [
+        "On held-out Qwen3-32B episodes, at a threshold flagging 5% of benign calls, the probe catches 82% of leaking calls versus 26% for a zero-shot monitor at a similar flag rate.",
+        "On gpt-oss-20b, a probe on its reasoning reaches AUROC 0.91; a bag-of-words classifier trained on the same calls comes close.",
+        "The authors note the warning is short-range and halting on any alarm would stop most benign episodes."
+      ],
+      "source": {
+        "name": "arXiv 2610.40588",
+        "url": "http://arxiv.org/abs/2610.40588v1",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-10-29T17:47:40Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "arxiv-sandman-agentic-rl-sandboxes",
+      "lens": "practical",
+      "topic": "sandman-sandboxes",
+      "summary": "Amazon researchers describe Sandman, a sandbox service on shared Kubernetes for agent tool execution in agentic reinforcement learning, used by multiple production workloads.",
+      "facts": [
+        "In a scale test Sandman held 11,858 concurrent tiny sandboxes.",
+        "Four production SWE-bench Verified training campaigns created 3.1 million sandboxes in October 2026, per the paper.",
+        "The authors say they will open-source the daemon, provider and pool."
+      ],
+      "source": {
+        "name": "arXiv 2610.39711",
+        "url": "http://arxiv.org/abs/2610.39711v1",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-10-29T09:45:57Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "mengto-step5-landing-pages",
+      "lens": "design",
+      "topic": "step5-landing-pages",
+      "summary": "Meng To built 8 landing pages with StepFun's Step 5 Preview for about $12 in tokens, starting from one screenshot per page and running four refinement rounds: sections, design, phones, motion.",
+      "facts": [
+        "He says the post includes the workflow, prompts and real costs."
+      ],
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2116061552667480314",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "related": [
+        {
+          "name": "StepFun Step 5 Preview",
+          "url": "https://www.stepfun.com/step-5-preview"
+        }
+      ],
+      "publishedAt": "2026-10-30T06:56:03Z",
+      "metrics": {
+        "likes": 24,
+        "reposts": 0,
+        "replies": 10,
+        "views": 4617,
+        "capturedAt": "2026-10-30T11:38:30Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/MengTo/status/2116061552667480314",
+      "firstSeen": "2026-10-30"
+    }
+  ]
+}
