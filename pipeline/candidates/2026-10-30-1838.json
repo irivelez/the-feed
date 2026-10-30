@@ -1,0 +1,217 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-30-1838",
+  "generatedAt": "2026-10-30T23:39:21Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-30T17:42:00Z",
+    "to": "2026-10-30T23:38:00Z"
+  },
+  "sourceNotes": [
+    "Window 17:42Z to 23:38Z Oct 30 (since the 12:39 run); Northflank (13:40Z) and BBC (14:50Z) predate it but were not in earlier files. Quiet evening: 7 candidates. Leads: Northflank breach with AI keys used, shared AI scraping opt-out token, a16z Rack Spread, AI capex selloff.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returned HTTP 500 again; config URL likely needs updating (dwarkesh.com/feed).",
+    "arXiv API returned HTTP 500 on the first try; the retry worked but showed no new announcements since the Oct 29 batch (already used in earlier runs).",
+    "RSS with 0 new items: MIT Tech Review, OpenAI Blog, Lenny Rachitsky, Benedict Evans, One Useful Thing, Gary Marcus, Mitchell Hashimoto, The Atlantic, Metaplanet Google News. Stratechery's only new item is the weekly roundup. Verge not used: Apple Intelligence in China (low agent relevance), Starbucks drive-thru and Suncatcher (covered at 12:39).",
+    "Hacker News not used: FT 'Anthropic may not secure investment-grade rating after IPO' (269, paywalled, could not verify facts), Proton CEO AI re-interviews and YC Labs agent swarms (covered earlier), Claude Code extension backdoor items (covered), Binance hack (crypto), partisan and non-AI items.",
+    "X howTo lane: Claude Ultra 5-hour limit posts from @alexalbert__, @theo, @kunchenguid (story covered at 12:39). Not used: mattpocockuk 'skills spec is so broken' (no detail), hwchase17 observability opinion, colemurray OpenInspect handoff (X article not readable), poteto pstack promo, kloss_xyz showreel, swyx event posts, LangChain meetup.",
+    "X bigPicture lane not used: elonmusk political and Tesla/Neuralink posts (muted or off-topic), beffjezos political posts (muted), OpenAI 'many futures' video (no detail), garrytan GBrain Cloud promo, rauchg one-liner, nikitabier spam thread, ycombinator promo.",
+    "X frontierCapital lane: TaviCosta hard-assets call (market tip, not used), LynAldenContact interview link, nathanbenaich one-liner. Design lane: nothing from MengTo this window.",
+    "X queries lane: low-follower promos and course ads. A secondhand claim that Claude Max, Ultra and Team plans now include monthly API credits (@AcceptAllHQ, 17 followers) had no primary Anthropic post on X; not used.",
+    "Replies checked on the a16z Rack Spread, Gemini 4 Carbon and OpenInspect posts: none cleared the reply filter (minFollowers 1000, minLikes 5).",
+    "X calls this run: 10."
+  ],
+  "candidates": [
+    {
+      "id": "northflank-breach-rotate-all-secrets",
+      "lens": "practical",
+      "topic": "northflank-breach",
+      "summary": "Cloud platform Northflank reported a security incident and told all users to assume their environment variables have been decrypted and to rotate every secret and credential immediately; multiple users confirmed their AI keys had been used.",
+      "facts": [
+        "Timeline on the status page: Wiz threat alert at 11:43 UTC, initial network policy patch at 12:02 UTC, Wiz CIRT support requested at 13:00 UTC.",
+        "13:58 UTC update: 'Assume all environment variables have been decrypted. Disable/rotate all keys.'",
+        "15:12 UTC update: secret rotation on Postgres and MongoDB enabled for all users; users told to disable public expose on addons; 'Multiple users are confirming that their AI keys have been used.'",
+        "19:28 UTC update: investigation ongoing, no further confirmed findings; guidance unchanged (rotate secrets in workloads, secret groups and global secrets).",
+        "At read time the status page listed Networking, Certificates, Services, Addons, Jobs, Builds, and Logs and Metrics as major outage."
+      ],
+      "source": {
+        "name": "Northflank status page",
+        "url": "https://status.northflank.com",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion (329 points)",
+          "url": "https://news.ycombinator.com/item?id=50305025"
+        }
+      ],
+      "publishedAt": "2026-10-30T13:40:00Z",
+      "metrics": {
+        "points": 329,
+        "capturedAt": "2026-10-30T23:37:00Z"
+      },
+      "care": 5,
+      "proof": 4,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "perplexity-gemini-4-carbon-wandr-sota",
+      "lens": "practical",
+      "topic": "gemini-4-carbon",
+      "summary": "Perplexity CEO Aravind Srinivas shared early evals of Gemini 4 Carbon, calling it the strongest model Perplexity has seen for long-form research and answer quality, with a new state of the art on the Wide-And-Deep-Research (WANDR) benchmark.",
+      "facts": [
+        "He said it is coming to all Perplexity Pro and Max users inside Computer once Perplexity has sufficient token capacity.",
+        "The post includes an eval chart image; no scores are given in the post text."
+      ],
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2116263856628703247",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-10-30T20:19:56Z",
+      "metrics": {
+        "likes": 926,
+        "reposts": 72,
+        "replies": 87,
+        "views": 52126,
+        "capturedAt": "2026-10-30T23:37:42Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/AravSrinivas/status/2116263856628703247",
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "nesformer-nes-cpu-in-qwen-weights",
+      "lens": "practical",
+      "topic": "nesformer",
+      "summary": "Drew Breunig baked a working emulator for the NES 6502 CPU into the weights of Qwen3.5-4B, so NES ROMs such as Super Mario Bros run (very slowly) inside the model; he built it with Claude Opus 5.5 and shared the prompts.",
+      "facts": [
+        "Inspired by 'qwenputer' by Divyansh Agrawal.",
+        "Breunig's prompt asked Opus to read the qwenputer article and source, explore emulating the NES chip and RAM this way, and build weights plus a CLI that can be pointed at a ROM.",
+        "Per Simon Willison, Opus found and used a 15-year-old collection of NES CPU conformance tests by Christopher Pow."
+      ],
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-30T21:59:22Z",
+      "care": 2,
+      "proof": 4,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "ai-labs-adopt-shared-scraping-opt-out-token",
+      "lens": "broad",
+      "topic": "ai-scraping-opt-out-standard",
+      "summary": "OpenAI, Google, Microsoft and Anthropic say they will adopt a shared robots.txt 'policy token' that lets publishers opt out of AI scraping across multiple AI companies at once, instead of setting preferences crawler by crawler.",
+      "facts": [
+        "The signal was proposed at the IETF by Kevin Kelley, a technical lead for standards at Anthropic.",
+        "Anthropic has already adopted it; Google and Microsoft plan to support it next year; OpenAI says 'coming months'.",
+        "Microsoft will offer separate opt-outs for AI training and AI grounding; sites stay in Bing search results either way.",
+        "Meta's Andy Stone signaled support but did not say whether Meta will honor it."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-30T20:26:10Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "a16z-rack-spread-gpu-up-tokens-down",
+      "lens": "broad",
+      "topic": "rack-spread",
+      "summary": "a16z says a 'Rack Spread' is unfolding: since mid-July GPU rental prices have risen while average token prices fell 58%.",
+      "facts": [
+        "Change since mid-July per a16z: B300 GPU rentals up 106%, B200 up 66%, H100 up 17%, average token prices down 58%.",
+        "In the same Charts of the Week, a16z says companies using AI now spend an average of $1,024 per employee on it, nearly 2x last year."
+      ],
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2116267009134694545",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "related": [
+        {
+          "name": "a16z Charts of the Week",
+          "url": "https://www.a16z.news/p/charts-of-the-week-job-fud-fades"
+        },
+        {
+          "name": "@a16z on AI spend per employee",
+          "url": "https://x.com/a16z/status/2116281516158599324"
+        }
+      ],
+      "publishedAt": "2026-10-30T20:32:27Z",
+      "metrics": {
+        "likes": 159,
+        "reposts": 24,
+        "replies": 24,
+        "views": 16944,
+        "capturedAt": "2026-10-30T23:37:42Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://x.com/a16z/status/2116267009134694545",
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "us-tech-stocks-fall-ai-spending",
+      "lens": "broad",
+      "topic": "ai-capex-selloff",
+      "summary": "US tech stocks fell for a second day on concerns about AI spending: Intel dropped 28% on Friday and Alphabet fell another 1.4% after a 12% plunge on Thursday, and the Nasdaq ended October with its worst monthly slide since March 2025.",
+      "facts": [
+        "BBC: Meta, Alphabet, Oracle, Amazon and Microsoft have committed to spending $800bn between them in 2026.",
+        "Alphabet lost more than $500bn in market value Thursday after saying AI summaries at the top of search were affecting its core search ad revenue; it expects to spend up to $205bn this year, almost all AI-related.",
+        "Intel said it would raise AI spending despite weaker PC demand and does not expect to bring in more cash than it spends this year.",
+        "Amazon spent more cash than it made; it has committed $220bn this year."
+      ],
+      "source": {
+        "name": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion (229 points)",
+          "url": "https://news.ycombinator.com/item?id=50306008"
+        }
+      ],
+      "publishedAt": "2026-10-30T14:50:37Z",
+      "metrics": {
+        "points": 229,
+        "capturedAt": "2026-10-30T23:37:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "altman-ram-belongs-in-datacenter",
+      "lens": "broad",
+      "topic": "local-ai-demand",
+      "summary": "Sam Altman said on the Cheeky Pint podcast that, from a global allocation perspective, it is 'quite terrible' for the world's limited DRAM to sit in personal computers for local inference rather than in data centers.",
+      "facts": [
+        "Verbatim per The Verge: \"A lot of people want local inference. And somehow, they assume that the problem is solved now because we are going to have open-source models, we're going to be able to run them on our computers, and so we're not going to need all the stuff in the data center.\"",
+        "The Verge frames it against OpenAI's buying spree squeezing global RAM supply."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-30T20:48:43Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-30"
+    }
+  ]
+}
