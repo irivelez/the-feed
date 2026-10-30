@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-30-0700",
-  "count": 23,
+  "latest": "2026-10-30-1300",
+  "count": 24,
   "briefs": [
+    {
+      "id": "2026-10-30-1300",
+      "date": "2026-10-30",
+      "edition": "Midday",
+      "publishedAt": "2026-10-30T18:15:00Z",
+      "headline": "Anthropic drops the 5-hour limit on its $200 Claude Ultra plan",
+      "url": "/api/briefs/2026-10-30-1300.json"
+    },
     {
       "id": "2026-10-30-0700",
       "date": "2026-10-30",

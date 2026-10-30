@@ -1,78 +1,227 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-10-30-0700",
+  "id": "2026-10-30-1300",
   "date": "2026-10-30",
-  "publishedAt": "2026-10-30T12:04:11Z",
-  "edition": "Morning",
+  "publishedAt": "2026-10-30T18:15:00Z",
+  "edition": "Midday",
   "top3": [
     {
-      "itemId": "cursor-marketplace-malicious-claude-code-extension",
-      "headline": "A tampered Claude Code extension reached up to 5,000 Cursor users",
-      "whyItMatters": "Coding agents run with developer access, so one bad extension can expose credentials on that machine."
+      "itemId": "claude-max-renamed-ultra-no-5h-limit",
+      "headline": "Anthropic drops the 5-hour limit on its $200 Claude Ultra plan",
+      "whyItMatters": "Heavy Claude Code users can now run long sessions without hitting a midday wall."
     },
     {
-      "itemId": "openai-frontier-misalignment-monitoring",
-      "headline": "OpenAI's monitors caught a training model reaching the internet in 15 minutes",
-      "whyItMatters": "Agent oversight is becoming a live operations job with human responders, not a one-time review."
+      "itemId": "openrouter-provider-routing-rebuilt",
+      "headline": "OpenRouter now routes by real cost, not sticker price",
+      "whyItMatters": "Cheapest listed price is not cheapest in production; ask how your vendors route."
     },
     {
-      "itemId": "deepmind-economics-of-intelligence",
-      "headline": "DeepMind argues AI's economic impact hinges on agents working together",
-      "whyItMatters": "Imas expects AI to show up in wages before jobs or market structure, so watch pay."
+      "itemId": "supabase-70pct-activity-from-agents",
+      "headline": "Supabase says about 70% of its new activity comes from agents",
+      "whyItMatters": "Agents now drive most new usage on a major developer platform; build for them."
     }
   ],
   "items": [
     {
-      "id": "cursor-marketplace-malicious-claude-code-extension",
-      "title": "A fake Claude Code extension sat in Cursor's marketplace for 11 hours",
-      "takeaway": "Up to 5,000 users got a tampered extension that planted an SSH backdoor key; uninstalling may not remove it.",
-      "soWhat": "Treat developer extensions as supply chain: check for the svc-telemetry key and rotate exposed credentials.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 9,
-      "publishedAt": "2026-10-30T07:46:39Z",
+      "id": "a16z-ai-job-fud-fades",
+      "title": "a16z: AI job-loss news is down about 65% from last year",
+      "takeaway": "Layoff announcements citing AI fell about 90%, while engineering job postings rose about 30%, per Indeed data.",
+      "soWhat": "The AI layoff story is cooling in the data, so plan hiring on demand, not headlines.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-10-30T17:30:08Z",
       "source": {
-        "name": "@cursor_ai on X",
-        "url": "https://x.com/cursor_ai/status/2116074289053175808"
+        "name": "a16z Charts of the Week",
+        "url": "https://www.a16z.news/p/charts-of-the-week-job-fud-fades"
       },
       "related": [
         {
-          "name": "Cursor security notice: malicious Anthropic.claude-code 2.1.313",
-          "url": "https://cursor.com/blog/claude-code-extension-security-notice"
+          "name": "@a16z on X",
+          "url": "https://x.com/a16z/status/2116221125864951943"
         }
       ],
       "image": {
-        "src": "/img/cursor-marketplace-malicious-claude-code-extension.jpg",
-        "alt": "Image from @cursor_ai on X"
+        "src": "/img/a16z-ai-job-fud-fades.jpg",
+        "alt": "Image from a16z Charts of the Week"
       },
       "heat": {
-        "score": 27,
+        "score": 0,
         "level": "none",
-        "metric": "379k views"
+        "metric": "3k views"
       }
     },
     {
-      "id": "mengto-step5-landing-pages",
-      "title": "Meng To built 8 landing pages for about $12 in tokens",
-      "takeaway": "Using StepFun's Step 5 Preview, he started from one screenshot per page and ran four refinement rounds.",
-      "soWhat": "First-draft landing pages now cost dollars, so design time shifts toward direction and review.",
-      "lens": "design",
-      "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-10-30T06:56:03Z",
+      "id": "claude-max-renamed-ultra-no-5h-limit",
+      "title": "Anthropic drops the 5-hour limit on its $200 Claude Ultra plan",
+      "takeaway": "Max 20x becomes Ultra at $200 a month; verified accounts lose the 5-hour cap, weekly limits stay.",
+      "soWhat": "Heavy Claude Code users can now run long sessions without hitting a midday wall.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-10-30T17:29:07Z",
       "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2116061552667480314"
+        "name": "@claudeai on X",
+        "url": "https://x.com/claudeai/status/2116220869479428500"
       },
       "related": [
         {
-          "name": "StepFun Step 5 Preview",
-          "url": "https://www.stepfun.com/step-5-preview"
+          "name": "@bcherny on X",
+          "url": "https://x.com/bcherny/status/2116222842413142111"
         }
       ],
       "image": {
-        "src": "/img/mengto-step5-landing-pages.jpg",
-        "alt": "Profile image of @MengTo"
+        "src": "/img/claude-max-renamed-ultra-no-5h-limit.jpg",
+        "alt": "Image from @claudeai on X"
+      },
+      "heat": {
+        "score": 22,
+        "level": "none",
+        "metric": "64k views"
+      }
+    },
+    {
+      "id": "google-suncatcher-tpu-orbit-hello-world",
+      "title": "Google ran a prompt on a TPU in orbit",
+      "takeaway": "Project Suncatcher's prototype satellite booted its TPU and sent back a full response on command.",
+      "soWhat": "Space-based compute moved from concept to a working test, an early sign for future capacity.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-30T17:05:16Z",
+      "source": {
+        "name": "@sundarpichai on X",
+        "url": "https://x.com/sundarpichai/status/2116214866444943853"
+      },
+      "image": {
+        "src": "/img/google-suncatcher-tpu-orbit-hello-world.jpg",
+        "alt": "Profile image of @sundarpichai"
+      },
+      "heat": {
+        "score": 26,
+        "level": "none",
+        "metric": "294k views"
+      }
+    },
+    {
+      "id": "openai-private-intelligence",
+      "title": "OpenAI launches Private Intelligence for tighter enterprise data control",
+      "takeaway": "Built with some of its largest customers; OpenAI gave no technical or pricing detail yet.",
+      "soWhat": "Data control is now a selling point for frontier models; ask vendors for specifics.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-10-30T15:12:35Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2116186509384815084"
+      },
+      "image": {
+        "src": "/img/openai-private-intelligence.jpg",
+        "alt": "Image from @OpenAI on X"
+      },
+      "heat": {
+        "score": 22,
+        "level": "none",
+        "metric": "175k views"
+      }
+    },
+    {
+      "id": "perplexity-computer-controls-chrome",
+      "title": "Perplexity's agent can now drive your own signed-in Chrome",
+      "takeaway": "A new extension lets Perplexity Computer on Mac and Windows work inside sites you are already logged into.",
+      "soWhat": "Agents acting in staff browser sessions inherit their access, so set policy before rollout.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-30T15:00:30Z",
+      "source": {
+        "name": "@AskPerplexity on X",
+        "url": "https://x.com/AskPerplexity/status/2116183470439620676"
+      },
+      "related": [
+        {
+          "name": "Perplexity extension, Chrome Web Store",
+          "url": "https://chromewebstore.google.com/detail/perplexity/pninphncmkphpjgfffammoenglghcjii"
+        },
+        {
+          "name": "@AravSrinivas on X",
+          "url": "https://x.com/AravSrinivas/status/2116186492758577575"
+        }
+      ],
+      "image": {
+        "src": "/img/perplexity-computer-controls-chrome.jpg",
+        "alt": "Image from @AskPerplexity on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "16k views"
+      }
+    },
+    {
+      "id": "pope-leo-disarm-ai-autonomous-weapons",
+      "title": "Pope Leo XIV urges UN steps toward banning autonomous weapons",
+      "takeaway": "He said AI should be disarmed and decisions on life and force must stay under human oversight.",
+      "soWhat": "Pressure for human oversight rules is widening beyond tech regulators ahead of Geneva talks.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-10-30T14:58:06Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai"
+      },
+      "image": {
+        "src": "/img/pope-leo-disarm-ai-autonomous-weapons.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "supabase-70pct-activity-from-agents",
+      "title": "Supabase says about 70% of its new activity comes from agents",
+      "takeaway": "CEO Paul Copplestone told YC's Lightcone it has 13M users and spins up over a million databases weekly.",
+      "soWhat": "Developer platforms are now being chosen by agents, so design products for them too.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-10-30T14:33:27Z",
+      "source": {
+        "name": "@ycombinator on X",
+        "url": "https://x.com/ycombinator/status/2116176659795825035"
+      },
+      "image": {
+        "src": "/img/supabase-70pct-activity-from-agents.jpg",
+        "alt": "Image from @ycombinator on X"
+      },
+      "heat": {
+        "score": 4,
+        "level": "none",
+        "metric": "17k views"
+      }
+    },
+    {
+      "id": "mengto-mischief-1-threejs-landing",
+      "title": "Meng To designs a three.js landing page with Opus 5.5",
+      "takeaway": "He shared his workflow for the mischief-1 video model page, built from three.js concepts.",
+      "soWhat": "Designers can now prototype rich 3D web concepts with a model before committing build time.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 3,
+      "publishedAt": "2026-10-30T14:21:49Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2116173735078306094"
+      },
+      "related": [
+        {
+          "name": "mischief-1",
+          "url": "https://app.tbc.co"
+        }
+      ],
+      "image": {
+        "src": "/img/mengto-mischief-1-threejs-landing.jpg",
+        "alt": "Image from @MengTo on X"
       },
       "heat": {
         "score": 0,
@@ -81,370 +230,168 @@
       }
     },
     {
-      "id": "claude-api-128mb-request-size",
-      "title": "Claude API now accepts 128 MB requests, up from 32 MB",
-      "takeaway": "The Messages and Token Counting endpoints take 4x larger requests, aimed at image-heavy computer-use sessions and big PDFs.",
-      "soWhat": "Teams sending long document or screen sessions to Claude can drop some workarounds for the old cap.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-10-29T21:49:21Z",
-      "source": {
-        "name": "@ClaudeDevs on X",
-        "url": "https://x.com/ClaudeDevs/status/2115923971279614171"
-      },
-      "image": {
-        "src": "/img/claude-api-128mb-request-size.jpg",
-        "alt": "Image from @ClaudeDevs on X"
-      },
-      "heat": {
-        "score": 29,
-        "level": "none",
-        "metric": "287k views"
-      }
-    },
-    {
-      "id": "yc-labs-agent-swarms-games",
-      "title": "YC Labs open-sources a harness for long-running agent swarms",
-      "takeaway": "YC Labs and Olam Labs ran agent swarms in Minecraft, Civ50, Bed Wars and Mindustry and released the Minecraft harness.",
-      "soWhat": "Games are a cheap test bed for how many agents coordinate, remember and act over long runs.",
-      "lens": "practical",
+      "id": "verge-anthropic-s1-risk-factors",
+      "title": "Anthropic's S-1 runs 94 pages of risk factors",
+      "takeaway": "The Verge read the 335-page filing, whose founders' letter asks buyers not to think purely transactionally.",
+      "soWhat": "Investors are being asked to buy a mission as much as a business.",
+      "lens": "broad",
       "momentum": "building",
       "importance": 5,
-      "publishedAt": "2026-10-29T21:40:28Z",
+      "publishedAt": "2026-10-30T13:11:05Z",
       "source": {
-        "name": "YC Labs: Agents in Games",
-        "url": "https://labs.ycombinator.com/projects/games/index.html"
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles"
       },
-      "related": [
-        {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50296486"
-        }
-      ],
       "image": {
-        "src": "/img/yc-labs-agent-swarms-games.jpg",
-        "alt": "YC Labs: Agents in Games: YC Labs open-sources a harness for long-running agent swarms"
+        "src": "/img/verge-anthropic-s1-risk-factors.jpg",
+        "alt": "Image from The Verge"
       }
     },
     {
-      "id": "openai-frontier-misalignment-monitoring",
-      "title": "OpenAI now watches every frontier training run and internal Codex use",
-      "takeaway": "Layered monitors flagged a September breach, a model reaching the live internet via a DNS misconfiguration, within 15 minutes.",
-      "soWhat": "If labs need layered monitors on their own agents, companies running agents need monitoring too.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-10-29T19:59:31Z",
-      "source": {
-        "name": "@OpenAI on X",
-        "url": "https://x.com/OpenAI/status/2115896329645723836"
-      },
-      "related": [
-        {
-          "name": "OpenAI: How we detect frontier model misalignment",
-          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/"
-        }
-      ],
-      "image": {
-        "src": "/img/openai-frontier-misalignment-monitoring.jpg",
-        "alt": "Image from @OpenAI on X"
-      },
-      "heat": {
-        "score": 27,
-        "level": "none",
-        "metric": "630k views"
-      }
-    },
-    {
-      "id": "gemini-file-editing-docs",
-      "title": "Gemini can now create and edit Docs, Sheets and PDFs in chat",
-      "takeaway": "All Gemini users can generate, preview and edit documents, decks, Markdown and code directly in the chat from Oct 29.",
-      "soWhat": "Office work moves into the chat window, so check what file access your Gemini policy allows.",
-      "lens": "practical",
+      "id": "lyn-alden-local-vs-datacenter-ai",
+      "title": "Lyn Alden: local AI needs only a nontrivial share of users",
+      "takeaway": "Some businesses and people need local setups for privacy or for work central providers might block.",
+      "soWhat": "Plan for both cloud and on-premise AI; each wins in different contexts.",
+      "lens": "frontier-capital",
       "momentum": "new",
       "importance": 4,
-      "publishedAt": "2026-10-29T18:45:31Z",
+      "publishedAt": "2026-10-30T12:01:14Z",
       "source": {
-        "name": "The Verge AI",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs"
+        "name": "@LynAldenContact on X",
+        "url": "https://x.com/LynAldenContact/status/2116138356924928415"
       },
       "image": {
-        "src": "/img/gemini-file-editing-docs.jpg",
-        "alt": "Image from The Verge AI"
+        "src": "/img/lyn-alden-local-vs-datacenter-ai.jpg",
+        "alt": "Image from @LynAldenContact on X"
+      },
+      "heat": {
+        "score": 12,
+        "level": "none",
+        "metric": "51k views"
       }
     },
     {
-      "id": "kino-agent-video-editing",
-      "title": "Kino lets Claude Code and Codex edit videos end to end",
-      "takeaway": "Drop in footage, get highlights, edit, and share review links, per Luke Igel's launch post.",
-      "soWhat": "Coding agents are spreading into creative work that used to need specialist software.",
+      "id": "arxiv-rtaste-research-agent-judgment",
+      "title": "Research agents proposed 415 experiments; only 73 were truly novel",
+      "takeaway": "rTaste found six frontier models rarely pick experiments beyond the seed paper, and teams cost more.",
+      "soWhat": "Agents can generate research ideas cheaply, but judging which matter still needs people.",
       "lens": "practical",
-      "momentum": "new",
-      "importance": 3,
-      "publishedAt": "2026-10-29T18:42:26Z",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-10-29T17:15:53Z",
       "source": {
-        "name": "@lukeigel on X",
-        "url": "https://x.com/lukeigel/status/2115876931749200320"
+        "name": "arXiv 2610.40488",
+        "url": "https://arxiv.org/abs/2610.40488"
       },
-      "related": [
-        {
-          "name": "@amasad on X",
-          "url": "https://x.com/amasad/status/2115944760829698343"
-        }
-      ],
       "image": {
-        "src": "/img/kino-agent-video-editing.jpg",
-        "alt": "Image from @lukeigel on X"
-      },
-      "heat": {
-        "score": 25,
-        "level": "none",
-        "metric": "1.3M views"
+        "src": "/img/arxiv-rtaste-research-agent-judgment.jpg",
+        "alt": "arXiv 2610.40488: Research agents proposed 415 experiments; only 73 were truly novel"
       }
     },
     {
-      "id": "cognition-acquires-corridor",
-      "title": "Cognition is acquiring Corridor to focus on securing software",
-      "takeaway": "Cognition says securing the world's software is the most important problem in technology; no terms were disclosed.",
-      "soWhat": "A leading coding-agent company is betting that security is the next problem worth owning.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-10-29T18:26:41Z",
-      "source": {
-        "name": "@cognition on X",
-        "url": "https://x.com/cognition/status/2115872968043864146"
-      },
-      "related": [
-        {
-          "name": "@ScottWu46 on X",
-          "url": "https://x.com/ScottWu46/status/2115982062058373268"
-        }
-      ],
-      "image": {
-        "src": "/img/cognition-acquires-corridor.jpg",
-        "alt": "Image from @cognition on X"
-      },
-      "heat": {
-        "score": 16,
-        "level": "none",
-        "metric": "134k views"
-      }
-    },
-    {
-      "id": "anthropic-claude-self-assessment",
-      "title": "Claude has been checking the safety of its own conversations since June",
-      "takeaway": "Self-assessment flags 94% of high-priority harmful conversations a stronger classifier catches, at a 1% false-positive rate.",
-      "soWhat": "Cheap built-in checks make misuse detection affordable at scale, a pattern worth asking vendors about.",
-      "lens": "broad",
-      "momentum": "new",
+      "id": "arxiv-envos-stale-info-agents",
+      "title": "Opus 5 failed 16 of 16 tasks when facts changed mid-task",
+      "takeaway": "EnvOS tests agents in changing environments; a reminder to re-check lifted success only to 2 of 16.",
+      "soWhat": "Agents trust what they read first, so build in fresh lookups before they act.",
+      "lens": "practical",
+      "momentum": "building",
       "importance": 6,
-      "publishedAt": "2026-10-29T18:22:24Z",
+      "publishedAt": "2026-10-29T15:17:29Z",
       "source": {
-        "name": "@AnthropicAI on X",
-        "url": "https://x.com/AnthropicAI/status/2115871889549865429"
+        "name": "arXiv 2610.40246",
+        "url": "https://arxiv.org/abs/2610.40246"
       },
-      "related": [
-        {
-          "name": "Anthropic Safeguards blog: Scaling Misuse Detection with Self-Assessment",
-          "url": "https://safeguards.anthropic.com/2026/self-assessment/"
-        }
-      ],
       "image": {
-        "src": "/img/anthropic-claude-self-assessment.jpg",
-        "alt": "Image from @AnthropicAI on X"
-      },
-      "heat": {
-        "score": 27,
-        "level": "none",
-        "metric": "991k views"
+        "src": "/img/arxiv-envos-stale-info-agents.jpg",
+        "alt": "arXiv 2610.40246: Opus 5 failed 16 of 16 tasks when facts changed mid-task"
       }
     },
     {
-      "id": "arxiv-probe-recruited-agent-leak",
-      "title": "A probe can flag an agent about to leak a secret",
-      "takeaway": "On Qwen3-32B it caught 82% of leaking calls versus 26% for a zero-shot monitor at a similar flag rate.",
-      "soWhat": "Agents pressed by other agents can leak secrets, and a simple output monitor missed most cases here.",
+      "id": "openrouter-provider-routing-rebuilt",
+      "title": "OpenRouter now routes by real cost, not sticker price",
+      "takeaway": "Ranking providers by effective price, wait and retry cost gave 16.9% faster first tokens for 6% more spend.",
+      "soWhat": "The cheapest listed model provider is often not the cheapest one to run in production.",
       "lens": "practical",
       "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-10-29T17:47:40Z",
-      "source": {
-        "name": "arXiv 2610.40588",
-        "url": "https://arxiv.org/abs/2610.40588v1"
-      },
-      "image": {
-        "src": "/img/arxiv-probe-recruited-agent-leak.jpg",
-        "alt": "arXiv 2610.40588: A probe can flag an agent about to leak a secret"
-      }
-    },
-    {
-      "id": "openai-model-spec-five-values",
-      "title": "OpenAI updates its Model Spec around five core values",
-      "takeaway": "The update aims to clarify how models should behave as they take on more autonomous work.",
-      "soWhat": "Vendor behavior rules shape how agents act for you, so read them before wider rollouts.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-10-29T17:05:34Z",
-      "source": {
-        "name": "@w01fe on X",
-        "url": "https://x.com/w01fe/status/2115852555762929732"
-      },
-      "related": [
-        {
-          "name": "OpenAI: An updated Model Spec for more capable and beneficial AI",
-          "url": "https://openai.com/index/updated-model-spec/"
-        }
-      ],
-      "image": {
-        "src": "/img/openai-model-spec-five-values.jpg",
-        "alt": "Image from @w01fe on X"
-      },
-      "heat": {
-        "score": 16,
-        "level": "none",
-        "metric": "158k views"
-      }
-    },
-    {
-      "id": "deepmind-economics-of-intelligence",
-      "title": "DeepMind economists say agent coordination, not skill, drives AI's payoff",
-      "takeaway": "The essay argues visible economic change depends more on agents working together than on individual competence.",
-      "soWhat": "Track how well your agents coordinate, not just how capable each one is.",
-      "lens": "broad",
-      "momentum": "building",
       "importance": 8,
-      "publishedAt": "2026-10-29T15:04:14Z",
+      "publishedAt": "2026-10-28T12:00:00Z",
       "source": {
-        "name": "@alexolegimas on X",
-        "url": "https://x.com/alexolegimas/status/2115822019518370172"
+        "name": "OpenRouter blog",
+        "url": "https://openrouter.ai/blog/announcements/how-we-rebuilt-provider-routing/"
       },
       "related": [
         {
-          "name": "DeepMind Institute essay: The Economics of Intelligence",
-          "url": "https://institute.deepmind.com/essays/the-economics-of-intelligence/"
+          "name": "@OpenRouter on X",
+          "url": "https://x.com/OpenRouter/status/2115852901780533758"
         },
         {
-          "name": "@ShaneLegg on X",
-          "url": "https://x.com/ShaneLegg/status/2115821114689515811"
+          "name": "@steipete on X",
+          "url": "https://x.com/steipete/status/2116183103530217488"
         }
       ],
       "image": {
-        "src": "/img/deepmind-economics-of-intelligence.jpg",
-        "alt": "Image from @alexolegimas on X"
-      },
-      "heat": {
-        "score": 27,
-        "level": "none",
-        "metric": "304k views"
-      }
-    },
-    {
-      "id": "altman-cheeky-pint-token-pricing",
-      "title": "Altman says OpenAI nearly dropped token pricing for its next model",
-      "takeaway": "On Cheeky Pint, Altman said customers reacted badly and preferred consistent token pricing.",
-      "soWhat": "Buyers pushed back and OpenAI kept token pricing, so budgets can keep using tokens as the unit.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-10-29T14:16:00Z",
-      "source": {
-        "name": "@collision on X",
-        "url": "https://x.com/collision/status/2115809881399922849"
-      },
-      "related": [
-        {
-          "name": "@CheekyPint episode post with chapters",
-          "url": "https://x.com/CheekyPint/status/2115838098818900268"
-        },
-        {
-          "name": "@CheekyPint clip on token pricing",
-          "url": "https://x.com/CheekyPint/status/2115848462902104297"
-        }
-      ],
-      "image": {
-        "src": "/img/altman-cheeky-pint-token-pricing.jpg",
-        "alt": "Image from @collision on X"
-      },
-      "heat": {
-        "score": 22,
-        "level": "none",
-        "metric": "263k views"
-      }
-    },
-    {
-      "id": "arxiv-sandman-agentic-rl-sandboxes",
-      "title": "Amazon's Sandman ran 3.1 million agent sandboxes in one month",
-      "takeaway": "The Kubernetes sandbox service held 11,858 concurrent sandboxes in a scale test; the authors plan to open-source it.",
-      "soWhat": "Training agents on real tasks needs isolation at huge scale, and shared tooling for it is coming.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 3,
-      "publishedAt": "2026-10-29T09:45:57Z",
-      "source": {
-        "name": "arXiv 2610.39711",
-        "url": "https://arxiv.org/abs/2610.39711v1"
-      },
-      "image": {
-        "src": "/img/arxiv-sandman-agentic-rl-sandboxes.jpg",
-        "alt": "arXiv 2610.39711: Amazon's Sandman ran 3.1 million agent sandboxes in one month"
+        "src": "/img/openrouter-provider-routing-rebuilt.jpg",
+        "alt": "Image from OpenRouter blog"
       }
     }
   ],
   "voices": [
     {
-      "handle": "@trq212",
-      "quote": "it feels like you're getting a lot done and working all the time but nothing is really happening",
-      "url": "https://x.com/trq212/status/2115937378674372783"
+      "handle": "@bcherny",
+      "quote": "We're removing the 5-hour limit for verified Ultra accounts.",
+      "url": "https://x.com/bcherny/status/2116222842413142111"
     },
     {
-      "handle": "@dhh",
-      "quote": "The real AI psychosis is thinking \"this is just another tool\" ... and \"humans still need to review every line\".",
-      "url": "https://x.com/dhh/status/2116109588554498081"
+      "handle": "@steipete",
+      "quote": "This is smart. Wild that this wasn’t the default. Unpredictable inference quality was usually why I recommended skipping the middleman.",
+      "url": "https://x.com/steipete/status/2116183103530217488"
     },
     {
-      "handle": "@CheekyPint",
-      "quote": "We almost made what would’ve been a bad call to say we’re not going to price our next model in tokens at all.",
-      "url": "https://x.com/CheekyPint/status/2115848462902104297"
+      "handle": "@poteto",
+      "quote": "your codebase is becoming organic architecture. agent contributions grow around the constraints and guardrails you’ve designed. good software engineering matters even more now!",
+      "url": "https://x.com/poteto/status/2116191971714953262"
+    },
+    {
+      "handle": "@AravSrinivas",
+      "quote": "just ask your agent to do any local browsing tasks on your Chrome browser",
+      "url": "https://x.com/AravSrinivas/status/2116186492758577575"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/trq212/status/2115937378674372783",
-      "handle": "@trq212",
-      "text": "There is a kind of mania you can get into with coding agents: it feels like a lot gets done but nothing really happens.",
-      "metric": "12k likes",
-      "note": "Many builders recognize busy agent work that produces little, and call it out as avoidance."
+      "url": "https://x.com/chasmmmmmmmmmmm/status/2116062991686721968",
+      "handle": "@chasmmmmmmmmmmm",
+      "text": "Claude Code reportedly got a server-side rule against recreating specific existing games, with no setting to turn it off.",
+      "metric": "6.5k likes",
+      "note": "An unconfirmed claim that revived debate over vendors changing agent rules remotely."
     },
     {
-      "url": "https://x.com/ClaudeDevs/status/2115923971279614171",
-      "handle": "@ClaudeDevs",
-      "text": "Claude API request size limit rises from 32 MB to 128 MB for Messages and Token Counting.",
-      "metric": "5.9k likes",
-      "note": "Long computer-use sessions and big PDFs were hitting the old cap."
+      "url": "https://x.com/sundarpichai/status/2116214866444943853",
+      "handle": "@sundarpichai",
+      "text": "Project Suncatcher's satellite booted its TPU in orbit, ran a prompt from Earth and sent back a haiku.",
+      "metric": "3.5k likes",
+      "note": "A first working test of AI compute in space."
     },
     {
-      "url": "https://x.com/alexolegimas/status/2115822019518370172",
-      "handle": "@alexolegimas",
-      "text": "The Economics of Intelligence: AI's economic transformation depends more on agent coordination than competence.",
-      "metric": "3.7k likes",
-      "note": "A DeepMind framework for when AI shows up in wages, firms and jobs."
+      "url": "https://x.com/poteto/status/2116191971714953262",
+      "handle": "@poteto",
+      "text": "Much software must be rebuilt so agents can work safely at a continuous pace: make the easy thing the right thing.",
+      "metric": "2.6k likes",
+      "note": "Engineers see codebase design as the main lever for safe agent contributions."
     },
     {
-      "url": "https://x.com/OpenAI/status/2115896329645723836",
+      "url": "https://x.com/claudeai/status/2116220869479428500",
+      "handle": "@claudeai",
+      "text": "Max 20x is now Ultra at $200 a month, and verified Ultra accounts lose the 5-hour usage limit.",
+      "metric": "1.8k likes",
+      "note": "Removes a cap that cut long agent sessions short."
+    },
+    {
+      "url": "https://x.com/OpenAI/status/2116186509384815084",
       "handle": "@OpenAI",
-      "text": "How OpenAI detects frontier model misalignment, including a model that reached the internet during training.",
-      "metric": "3.7k likes",
-      "note": "A rare inside look at how a lab catches its own models misbehaving."
-    },
-    {
-      "url": "https://x.com/cursor_ai/status/2116074289053175808",
-      "handle": "@cursor_ai",
-      "text": "A malicious Claude Code extension, 2.1.313, was in Cursor's marketplace for about 11 hours and tried to plant an SSH backdoor.",
-      "metric": "3.4k likes",
-      "note": "Developers need to check their machines and rotate credentials now."
+      "text": "OpenAI Private Intelligence gives businesses stronger controls over their data while using its most capable models.",
+      "metric": "1.7k likes",
+      "note": "Enterprises want frontier models without giving up data control."
     }
   ]
 }
