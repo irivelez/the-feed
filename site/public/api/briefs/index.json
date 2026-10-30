@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-29-1300",
-  "count": 22,
+  "latest": "2026-10-30-0700",
+  "count": 23,
   "briefs": [
+    {
+      "id": "2026-10-30-0700",
+      "date": "2026-10-30",
+      "edition": "Morning",
+      "publishedAt": "2026-10-30T12:04:11Z",
+      "headline": "A tampered Claude Code extension reached up to 5,000 Cursor users",
+      "url": "/api/briefs/2026-10-30-0700.json"
+    },
     {
       "id": "2026-10-29-1300",
       "date": "2026-10-29",
