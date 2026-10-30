@@ -1,0 +1,485 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-30-1239",
+  "generatedAt": "2026-10-30T17:50:00Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-30T11:40:00Z",
+    "to": "2026-10-30T17:42:00Z"
+  },
+  "sourceNotes": [
+    "Window 11:40Z to 17:42Z Oct 30 (since the 06:37 run). Leads: Claude Max renamed and Ultra 5-hour limit removed, OpenRouter routing rebuild, Perplexity Computer in Chrome, OpenAI Private Intelligence, Supabase 70% agent activity.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returned HTTP 500 again; it appears to have moved to dwarkesh.com/feed. Config URL should be updated.",
+    "RSS with 0 new items: Simon Willison, MIT Tech Review, OpenAI Blog, Lenny Rachitsky, Benedict Evans, One Useful Thing, Gary Marcus, Mitchell Hashimoto, The Atlantic, Metaplanet Google News. Stratechery's only item is the weekly roundup. Verge items not used: Starbucks AI drive-thru menu (low agent relevance), Altman math interview (covered in the 06:37 run).",
+    "Hacker News: Cursor marketplace backdoor (426) used as related link. Not used: Democratic resolution opposing an AI bailout (561, partisan politics, muted), SigNoz 'AI deskilling SREs' (224, article dated Feb 28 2026, older than 28 days), Binance hack items (crypto), Herdr native app, older items seen in earlier runs.",
+    "arXiv: used EnvOS and rTaste. Not used: VeriCUA, MAServeBench and other agent papers (no headline numbers in abstract or narrow domain).",
+    "X howTo lane not used: gregisenberg SaaS-free image (opinion), rubenhassid and tibo_maker promos, mattpocockuk /pr skill anecdote (no detail), LangChain loop-engineering course promo and Interrupt London keynote, NousCon, ThePrimeagen, startupideaspod.",
+    "X bigPicture lane not used: elonmusk political posts (partisan politics, muted) and Tesla posts, alexandr_wang and rauchg one-liners with no detail, a16z Eve legal-AI interview clips (promo), stratechery roundup, mariogabriele one-liner.",
+    "X frontierCapital lane: RayDalio principle of the day and nathanbenaich event post not used. Design lane: MengTo used.",
+    "X queries lane: low-follower promos and secondhand course hype (e.g. 'Google free loop engineering course' from accounts under 500 followers with no primary link); nothing cleared proof. X min_likes operator again did not filter.",
+    "Replies checked on the Claude plans, OpenAI Private Intelligence and Suncatcher posts: none cleared the reply filter (minFollowers 1000, minLikes 5) at read time.",
+    "OpenRouter blog post is dated 10/28/2026 (no time given; publishedAt set to 12:00Z of that date). It was not in earlier candidate files.",
+    "X calls this run: 9."
+  ],
+  "candidates": [
+    {
+      "id": "claude-max-renamed-ultra-no-5h-limit",
+      "lens": "practical",
+      "topic": "claude-plans-ultra",
+      "summary": "Anthropic renamed its Claude Max plans (Max 5x becomes Max at $100/month, Max 20x becomes Ultra at $200/month) and is removing the 5-hour usage limit for verified Ultra accounts, starting today with most existing subscribers.",
+      "facts": [
+        "Prices are unchanged; existing subscribers do not need to do anything.",
+        "Newer accounts keep a temporary 5-hour limit until they are verified, which Anthropic says helps prevent fraud and abuse; they get an email when it is removed.",
+        "Weekly limits remain unchanged.",
+        "Claude Code lead @bcherny quoted the announcement: \"We're removing the 5-hour limit for verified Ultra accounts.\""
+      ],
+      "source": {
+        "name": "@claudeai on X",
+        "url": "https://x.com/claudeai/status/2116220869479428500",
+        "type": "x",
+        "handle": "claudeai"
+      },
+      "related": [
+        {
+          "name": "@bcherny on X",
+          "url": "https://x.com/bcherny/status/2116222842413142111"
+        }
+      ],
+      "publishedAt": "2026-10-30T17:29:07Z",
+      "metrics": {
+        "likes": 1838,
+        "reposts": 150,
+        "replies": 291,
+        "views": 63767,
+        "capturedAt": "2026-10-30T17:42:00Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://x.com/claudeai/status/2116220869479428500",
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "claude-code-game-recreation-rule",
+      "lens": "practical",
+      "topic": "claude-code-game-rule",
+      "summary": "An X user reported that Claude Code picked up a server-sent rule around Oct 27, under a flag called \"tengu_heron_brook\", that tells it not to build recreations of specific existing games; Peter Steinberger (@steipete) cited it as a reason to use your own agent harness.",
+      "facts": [
+        "Quoted rule per @chasmmmmmmmmmmm: \"Do build original games, games in a genre, and games from the user’s own designs and assets. Don’t build a recreation of a specific existing game, even if it is renamed or called original.\"",
+        "The post says there is no setting to turn it off. Anthropic has not commented in the posts read this run; the claim is secondhand.",
+        "@steipete: \"Another reason why you wanna use your own harness and not one where companies change what you can or can’t do at will.\""
+      ],
+      "source": {
+        "name": "@chasmmmmmmmmmmm on X",
+        "url": "https://x.com/chasmmmmmmmmmmm/status/2116062991686721968",
+        "type": "x",
+        "handle": "chasmmmmmmmmmmm"
+      },
+      "related": [
+        {
+          "name": "@steipete on X",
+          "url": "https://x.com/steipete/status/2116153238563242385"
+        }
+      ],
+      "publishedAt": "2026-10-30T07:01:46Z",
+      "metrics": {
+        "likes": 6486,
+        "reposts": 352,
+        "replies": 602,
+        "views": 1108003,
+        "capturedAt": "2026-10-30T17:42:00Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "openrouter-provider-routing-rebuilt",
+      "lens": "practical",
+      "topic": "openrouter-routing",
+      "summary": "OpenRouter rebuilt its default provider routing to rank providers by a real-time \"Routing Cost\" (effective price, wait time and retry cost) instead of input token price alone; it reports 16.9% better time to first token, 16.3% higher throughput and 46% fewer capacity errors for a 6.0% cost increase.",
+      "facts": [
+        "About 77% of OpenRouter requests go to models served by more than one provider.",
+        "Effective price is computed from measured traffic, including real cache hit rate and input/output mix, so a provider cannot win traffic with a low input price alone.",
+        "Routing stays cache-aware; price-only routing is still available via provider pinning and sorting.",
+        "@steipete quoted it: \"This is smart. Wild that this wasn’t the default. Unpredictable inference quality was usually why I recommended skipping the middleman.\""
+      ],
+      "source": {
+        "name": "OpenRouter blog: How we rebuilt provider routing",
+        "url": "https://openrouter.ai/blog/announcements/how-we-rebuilt-provider-routing/",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "@OpenRouter on X",
+          "url": "https://x.com/OpenRouter/status/2115852901780533758"
+        },
+        {
+          "name": "@steipete on X",
+          "url": "https://x.com/steipete/status/2116183103530217488"
+        }
+      ],
+      "publishedAt": "2026-10-28T12:00:00Z",
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://openrouter.ai/blog/announcements/how-we-rebuilt-provider-routing/",
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "perplexity-computer-controls-chrome",
+      "lens": "practical",
+      "topic": "perplexity-computer-chrome",
+      "summary": "Perplexity Computer's Mac and Windows apps can now drive the user's own Google Chrome through a new Perplexity extension, so the agent works in sites the user is already signed into; live now for all Computer users.",
+      "facts": [
+        "Demo in the post: the agent turns a business's reviews into a prioritized list of fixes and replies.",
+        "@AravSrinivas: set the extension up once and \"just ask your agent to do any local browsing tasks on your Chrome browser\"."
+      ],
+      "source": {
+        "name": "@AskPerplexity on X",
+        "url": "https://x.com/AskPerplexity/status/2116183470439620676",
+        "type": "x",
+        "handle": "AskPerplexity"
+      },
+      "related": [
+        {
+          "name": "@AravSrinivas on X",
+          "url": "https://x.com/AravSrinivas/status/2116186492758577575"
+        },
+        {
+          "name": "Perplexity extension, Chrome Web Store",
+          "url": "https://chromewebstore.google.com/detail/perplexity/pninphncmkphpjgfffammoenglghcjii"
+        }
+      ],
+      "publishedAt": "2026-10-30T15:00:30Z",
+      "metrics": {
+        "likes": 72,
+        "reposts": 5,
+        "replies": 6,
+        "views": 15642,
+        "capturedAt": "2026-10-30T17:42:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/AskPerplexity/status/2116183470439620676",
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "amasad-coding-agents-laptop-risk",
+      "lens": "practical",
+      "topic": "claude-code-extension-backdoor",
+      "firstSeen": "2026-10-30",
+      "summary": "Replit CEO Amjad Masad (@amasad) called the compromised Claude Code extension on the Cursor marketplace \"massively underreported\" and said coding agents on employee or contractor laptops are \"a massive cyber and national security risk\".",
+      "facts": [
+        "He asked whether it could be behind the Binance hack; that is his speculation, with no evidence offered.",
+        "The Hacker News thread on the backdoor (phorion.io write-up) had 426 points at read time."
+      ],
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2116179892991922433",
+        "type": "x",
+        "handle": "amasad"
+      },
+      "related": [
+        {
+          "name": "@amasad on X (first post)",
+          "url": "https://x.com/amasad/status/2116170090991484947"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50300683"
+        },
+        {
+          "name": "Phorion write-up",
+          "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/"
+        }
+      ],
+      "publishedAt": "2026-10-30T14:46:17Z",
+      "metrics": {
+        "likes": 300,
+        "reposts": 15,
+        "replies": 86,
+        "views": 24721,
+        "capturedAt": "2026-10-30T17:42:00Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "poteto-rebuild-software-for-agents",
+      "lens": "practical",
+      "topic": "software-for-agent-pace",
+      "summary": "@poteto argued that much software must be rebuilt so agents, especially ones with little context, can work safely at a continuous-stream pace: \"make the easy thing the right thing\", design guardrails, frameworks and languages around agent contributions.",
+      "facts": [
+        "Quote: \"your codebase is becoming organic architecture. agent contributions grow around the constraints and guardrails you’ve designed. good software engineering matters even more now!\"",
+        "He quoted a 404 Media post (@josephfcox) on a Proton CTO AI manifesto."
+      ],
+      "source": {
+        "name": "@poteto on X",
+        "url": "https://x.com/poteto/status/2116191971714953262",
+        "type": "x",
+        "handle": "poteto"
+      },
+      "related": [
+        {
+          "name": "404 Media on Proton's AI manifesto",
+          "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/"
+        }
+      ],
+      "publishedAt": "2026-10-30T15:34:17Z",
+      "metrics": {
+        "likes": 2618,
+        "reposts": 177,
+        "replies": 167,
+        "views": 94613,
+        "capturedAt": "2026-10-30T17:42:00Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "arxiv-envos-stale-info-agents",
+      "lens": "practical",
+      "topic": "envos-stale-info",
+      "summary": "EnvOS (arXiv) is a framework for testing computer-use agents in environments that change mid-task; on stale-information clinic booking tasks Claude Opus 5 succeeded 0/16 with nothing extra shown, 2/16 when reminded to re-check the source, and 15/16 when the updated value was shown.",
+      "facts": [
+        "EnvOS checks before any agent run that each change fires, the task stays solvable and the grader separates correct from incorrect behavior, then re-checks verdicts from archived evidence.",
+        "In insurance-claim approval, Opus 5 re-checked on its own and succeeded 10/10, per the abstract."
+      ],
+      "source": {
+        "name": "arXiv 2610.40246",
+        "url": "https://arxiv.org/abs/2610.40246",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-10-29T15:17:29Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "arxiv-rtaste-research-agent-judgment",
+      "lens": "practical",
+      "topic": "rtaste",
+      "summary": "rTaste (arXiv) tested whether research agents can judge which experiments are worth running: six frontier models proposed 415 minimum viable experiments on seven NLP papers; 194 were judged sound, valuable and new, but only 73 also beyond the seed paper and non-obvious.",
+      "facts": [
+        "Agents' first choices matched auditors' most valued experiment more often than random, but were not shown to beat picking the first-written experiment.",
+        "Forecasts beat a base rate but were not measurably better than a fresh instance of the same model; teams cost more without a clear quality gain."
+      ],
+      "source": {
+        "name": "arXiv 2610.40488",
+        "url": "https://arxiv.org/abs/2610.40488",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-10-29T17:15:53Z",
+      "care": 2,
+      "proof": 4,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "openai-private-intelligence",
+      "lens": "broad",
+      "topic": "openai-private-intelligence",
+      "summary": "OpenAI announced OpenAI Private Intelligence, which it says gives businesses stronger controls over their data while using its most capable models, built in close collaboration with some of its largest customers.",
+      "facts": [
+        "OpenAI's post gives no further technical or pricing detail; the announcement is a video."
+      ],
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2116186509384815084",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "publishedAt": "2026-10-30T15:12:35Z",
+      "metrics": {
+        "likes": 1739,
+        "reposts": 116,
+        "replies": 333,
+        "views": 175153,
+        "capturedAt": "2026-10-30T17:42:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://x.com/OpenAI/status/2116186509384815084",
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "google-suncatcher-tpu-orbit-hello-world",
+      "lens": "broad",
+      "topic": "project-suncatcher",
+      "summary": "Sundar Pichai said Google's Project Suncatcher prototype satellite, launched a few weeks ago, booted its TPU in orbit, ran a prompt on command from Earth and sent back a complete response (a haiku).",
+      "facts": [
+        "Pichai called it a 'hello world' milestone; the post includes a video."
+      ],
+      "source": {
+        "name": "@sundarpichai on X",
+        "url": "https://x.com/sundarpichai/status/2116214866444943853",
+        "type": "x",
+        "handle": "sundarpichai"
+      },
+      "publishedAt": "2026-10-30T17:05:16Z",
+      "metrics": {
+        "likes": 3512,
+        "reposts": 328,
+        "replies": 299,
+        "views": 294496,
+        "capturedAt": "2026-10-30T17:42:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/sundarpichai/status/2116214866444943853",
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "supabase-70pct-activity-from-agents",
+      "lens": "broad",
+      "topic": "supabase-agents",
+      "summary": "Per Y Combinator's Lightcone episode with CEO Paul Copplestone, Supabase has 13 million users, spins up more than a million databases a week, and roughly 70% of its new activity comes from agents.",
+      "facts": [
+        "The episode covers 4x revenue growth, building for personal agents and agent-first design and evals (chapter list in the post)."
+      ],
+      "source": {
+        "name": "@ycombinator on X",
+        "url": "https://x.com/ycombinator/status/2116176659795825035",
+        "type": "x",
+        "handle": "ycombinator"
+      },
+      "publishedAt": "2026-10-30T14:33:27Z",
+      "metrics": {
+        "likes": 107,
+        "reposts": 8,
+        "replies": 49,
+        "views": 16843,
+        "capturedAt": "2026-10-30T17:42:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "a16z-ai-job-fud-fades",
+      "lens": "broad",
+      "topic": "ai-jobs-data",
+      "summary": "a16z's Charts of the Week says AI job-loss panic peaked in May: news reports on AI and job loss are down about 65% to year-ago levels, and layoff announcements citing AI are down about 90%.",
+      "facts": [
+        "Citing Indeed data, it says job postings for engineers, software engineers and manufacturing are up about 30%, 26% and 13% since October last year.",
+        "It notes Microsoft's buyout offer to about 60,000 employees was not explicitly tied to AI by the company."
+      ],
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2116221125864951943",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "related": [
+        {
+          "name": "a16z Charts of the Week: Job FUD Fades",
+          "url": "https://www.a16z.news/p/charts-of-the-week-job-fud-fades"
+        }
+      ],
+      "publishedAt": "2026-10-30T17:30:08Z",
+      "metrics": {
+        "likes": 4,
+        "reposts": 2,
+        "replies": 3,
+        "views": 3464,
+        "capturedAt": "2026-10-30T17:42:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "verge-anthropic-s1-risk-factors",
+      "lens": "broad",
+      "topic": "anthropic-s1",
+      "firstSeen": "2026-10-29",
+      "summary": "The Verge read Anthropic's 335-page S-1, filed Monday, including 94 pages of risk factors and a founders' letter asking buyers \"not to think of your purchase in purely transactional terms\".",
+      "facts": [
+        "The founders' letter calls the march toward advanced AI \"one of the seminal moments in human history\", per The Verge.",
+        "The piece compares it to SpaceX's June IPO filing."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-30T13:11:05Z",
+      "care": 3,
+      "proof": 4
+    },
+    {
+      "id": "pope-leo-disarm-ai-autonomous-weapons",
+      "lens": "broad",
+      "topic": "pope-leo-ai",
+      "summary": "Pope Leo XIV said AI systems should be \"disarmed\" and urged UN member states to take concrete steps toward banning lethal autonomous weapons at their Geneva meeting next month.",
+      "facts": [
+        "Quotes per The Verge: \"Machines are tools, not persons\"; \"Decisions affecting human life, freedom, and the use of force must always remain subject to effective, informed, and responsible human oversight.\"",
+        "He warned against granting AI systems rights or legal personhood."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+        "type": "rss"
+      },
+      "publishedAt": "2026-10-30T14:58:06Z",
+      "care": 2,
+      "proof": 4,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "lyn-alden-local-vs-datacenter-ai",
+      "lens": "frontier-capital",
+      "topic": "local-ai-demand",
+      "summary": "Lyn Alden argued that demand for local AI systems does not require everyone to want them: a nontrivial share of businesses and individuals want or need local setups for data privacy or for work centralized providers might block; datacenters and local setups are both useful by context.",
+      "source": {
+        "name": "@LynAldenContact on X",
+        "url": "https://x.com/LynAldenContact/status/2116138356924928415",
+        "type": "x",
+        "handle": "LynAldenContact"
+      },
+      "publishedAt": "2026-10-30T12:01:14Z",
+      "metrics": {
+        "likes": 431,
+        "reposts": 21,
+        "replies": 63,
+        "views": 51094,
+        "capturedAt": "2026-10-30T17:42:00Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "id": "mengto-mischief-1-threejs-landing",
+      "lens": "design",
+      "topic": "mischief-1-landing",
+      "summary": "Meng To shared his workflow for the landing page of mischief-1, a video model from a lab that grows real brain cells, priced at half a cent a second; he built three.js concepts with Opus 5.5.",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2116173735078306094",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "related": [
+        {
+          "name": "mischief-1",
+          "url": "https://app.tbc.co"
+        }
+      ],
+      "publishedAt": "2026-10-30T14:21:49Z",
+      "metrics": {
+        "likes": 48,
+        "reposts": 2,
+        "replies": 12,
+        "views": 4822,
+        "capturedAt": "2026-10-30T17:42:00Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "imageHint": "https://x.com/MengTo/status/2116173735078306094",
+      "firstSeen": "2026-10-30"
+    }
+  ]
+}
