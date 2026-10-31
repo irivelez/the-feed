@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.0",
+  "id": "2026-10-30",
+  "publishedAt": "2026-10-31T00:30:00Z",
+  "window": {
+    "from": "2026-10-24",
+    "to": "2026-10-30"
+  },
+  "headline": "Your AI bill is falling. Your exposure is not.",
+  "summary": "AI got cheaper to buy this week and riskier to run. Average token prices fell 58% since mid-July while GPU rents rose, and OpenAI and Anthropic both loosened usage limits to keep heavy users. The cost moved to security: a tampered Claude Code extension reached up to 5,000 Cursor users, and Northflank told every customer to assume their secrets were exposed after users saw their AI keys used. Investors are watching the other side of the ledger, as Alphabet lost over $500bn in value in a day and Intel fell 28% on AI spending worries. Meanwhile agents keep taking the first pass at work, with Supabase saying about 70% of its new activity comes from them. This week, audit every AI key and extension your teams run, and tie each AI budget line to a result you can show your board.",
+  "threads": [
+    {
+      "title": "Cheap tokens, pricey chips",
+      "line": "Token prices fell 58% since July while GPU rents rose. Vendors now compete on usage limits and routing, not list price.",
+      "evidence": [
+        {
+          "briefId": "2026-10-30-1900",
+          "itemId": "a16z-rack-spread-gpu-up-tokens-down"
+        },
+        {
+          "briefId": "2026-10-29-1300",
+          "itemId": "codex-pro-limits-doubled"
+        },
+        {
+          "briefId": "2026-10-30-1300",
+          "itemId": "claude-max-renamed-ultra-no-5h-limit"
+        },
+        {
+          "briefId": "2026-10-30-1300",
+          "itemId": "openrouter-provider-routing-rebuilt"
+        },
+        {
+          "briefId": "2026-10-30-0700",
+          "itemId": "altman-cheeky-pint-token-pricing"
+        }
+      ]
+    },
+    {
+      "title": "Every key is a door",
+      "line": "A backdoored extension and a hosting breach turned leaked keys into someone else's AI usage. Know where your secrets live.",
+      "evidence": [
+        {
+          "briefId": "2026-10-30-0700",
+          "itemId": "cursor-marketplace-malicious-claude-code-extension"
+        },
+        {
+          "briefId": "2026-10-30-1900",
+          "itemId": "northflank-breach-rotate-all-secrets"
+        },
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "anti-llm-fingerprinting-script"
+        },
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "a16z-ciso-ai-survey"
+        }
+      ]
+    },
+    {
+      "title": "The market wants receipts",
+      "line": "Alphabet shed over $500bn and Intel fell 28% as investors questioned AI spending. Expect your AI budget to face the same test.",
+      "evidence": [
+        {
+          "briefId": "2026-10-30-1900",
+          "itemId": "us-tech-stocks-fall-ai-spending"
+        },
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "alphabet-q3-2026"
+        },
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "microsoft-earnings-agents"
+        },
+        {
+          "briefId": "2026-10-30-1300",
+          "itemId": "verge-anthropic-s1-risk-factors"
+        }
+      ]
+    },
+    {
+      "title": "Agents write first now",
+      "line": "Agents drive about 70% of new Supabase activity and start over 40% of GitHub pull requests. Review and CI set the pace.",
+      "evidence": [
+        {
+          "briefId": "2026-10-30-1300",
+          "itemId": "supabase-70pct-activity-from-agents"
+        },
+        {
+          "briefId": "2026-10-28-1300",
+          "itemId": "github-octoverse-2026"
+        },
+        {
+          "briefId": "2026-10-29-0700",
+          "itemId": "spawn-agent-fleet-playbook"
+        },
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "kunchenguid-ci-at-agent-speed"
+        }
+      ]
+    }
+  ]
+}

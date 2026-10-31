@@ -1,8 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-28",
-  "count": 6,
+  "latest": "2026-10-30",
+  "count": 7,
   "narratives": [
+    {
+      "id": "2026-10-30",
+      "publishedAt": "2026-10-31T00:30:00Z",
+      "window": {
+        "from": "2026-10-24",
+        "to": "2026-10-30"
+      },
+      "headline": "Your AI bill is falling. Your exposure is not.",
+      "url": "/api/narrative/2026-10-30.json"
+    },
     {
       "id": "2026-10-28",
       "publishedAt": "2026-10-29T00:06:55Z",
