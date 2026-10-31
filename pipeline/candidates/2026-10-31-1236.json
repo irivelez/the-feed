@@ -1,0 +1,217 @@
+{
+ "schemaVersion": "1.1",
+ "runId": "2026-10-31-1236",
+ "generatedAt": "2026-10-31T17:45:00Z",
+ "configVersions": {
+  "sources": "1.3.0",
+  "preferences": "1.1.0"
+ },
+ "window": {
+  "from": "2026-10-31T11:30:00Z",
+  "to": "2026-10-31T17:40:00Z"
+ },
+ "sourceNotes": [
+  "Window 11:30Z to 17:40Z Oct 31 (since the 06:33 run). Quiet Saturday: 6 candidates, below the brief's per-lens minimums; Editor may need to lean on earlier files. Leads: ChatGPT share-link account takeover (Parameter Labs), DeepMind PlanAssist expansion, Harrison Chase on new context engineering challenges.",
+  "ChatGPT takeover write-up is dated Oct 28 but surfaced on Hacker News Oct 31 and was not in earlier files.",
+  "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returned HTTP 500 again; config URL likely needs updating.",
+  "RSS new items: Verge 'I built an AI Tamagotchi before Meta could' (DIY Muse Charm gadget, hands-on, not used), Lenny community wisdom (not AI news), Atlantic election misinformation on X (headline-only, politics), Gary Marcus Vatican (used). No new items from other feeds.",
+  "arXiv: no new announcement batch since Oct 29 (weekend).",
+  "Hacker News not used: a16z jobs, Anthropic investment-grade rating, Proton AI re-interviews, AI bailout resolution, Northflank, Cisco tokens, BBC selloff, Vitalik digital minimalism (all covered earlier); Serbia parliament, Binance hack, Molly fork, non-AI items.",
+  "X howTo lane not used: @mattyp Grok Bot reservation anecdote, @ThePrimeagen agent-directed QA plan (no results yet), @hwchase17 meetup promo, @jxnlco and @tibo_maker jokes, @kloss_xyz teaser.",
+  "X bigPicture lane: @elonmusk posts were political or quote-only (muted); @a16z job-postings charts already covered Oct 30; @mariogabriele Revel portfolio promo; @eastdakota personal.",
+  "X frontierCapital lane: only @nathanbenaich one-liners, no substance. Design lane: @MengTo shared an interactive physics page (iamtechartist.com/every-joule) with no detail; not used.",
+  "X queries lane: mostly low-follower promos. Secondhand claim of an Andrew Ng graph-engineering course (@bottegamd) again had no primary source; OpenCode Claude Agent provider details (v2.2.3) seen secondhand, story already covered at 06:33.",
+  "Replies checked on @poteto, @GoogleDeepMind and @hwchase17 posts: none cleared the reply filter (minFollowers 1000, minLikes 5).",
+  "authorBaseline not filled this run. X calls this run: 8."
+ ],
+ "candidates": [
+  {
+   "id": "chatgpt-share-link-account-takeover",
+   "lens": "practical",
+   "topic": "chatgpt-share-takeover",
+   "summary": "Parameter Labs disclosed a now-fixed ChatGPT flaw where opening a public conversation share link let attacker JavaScript run in the victim's signed-in session and read private chats.",
+   "facts": [
+    "Write-up 'Do the Math: How We Took Over ChatGPT Accounts' by Mukul Goyal, Parameter Labs, dated Oct 28, 2026.",
+    "Report states OpenAI fixed the issue on October 26, 2026 and classified it P1.",
+    "Chain: ChatGPT's HTML Preview frame sent postMessage messages to a listener installed by the MathLive math library (loaded for an interactive graph); MathLive accepted messages from any origin and rendered the supplied keyboard layout HTML into the main chatgpt.com page.",
+    "Researchers confirmed the payload could list the victim's conversations, read a private conversation never shared with the attacker, and send it to an external server.",
+    "Victim only had to open the shared link; no app install, project join or pasted code needed.",
+    "Reached 223 points on Hacker News on Oct 31."
+   ],
+   "source": {
+    "name": "Parameter Labs",
+    "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+    "type": "blog"
+   },
+   "related": [
+    {
+     "name": "Hacker News discussion",
+     "url": "https://news.ycombinator.com/item?id=50314699"
+    }
+   ],
+   "publishedAt": "2026-10-28T00:00:00Z",
+   "metrics": {
+    "points": 223,
+    "capturedAt": "2026-10-31T17:40:00Z"
+   },
+   "care": 4,
+   "proof": 5,
+   "imageHint": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+   "firstSeen": "2026-10-31"
+  },
+  {
+   "id": "hwchase17-context-engineering-late-2026",
+   "lens": "practical",
+   "topic": "context-engineering-2026",
+   "summary": "LangChain CEO Harrison Chase published an X article, 'New context engineering challenges in late 2026', arguing agent architecture has converged but new context problems are emerging.",
+   "facts": [
+    "Post text: 'A lot of content engineering challenges have pretty standard solutions, which has lead to some engineers saying agent engineering is solved/boring. True to some extent, but there are a bunch of (fun) new ones emerging as agents evolve!'",
+    "Article preview: 'It feels like everyone is converging on the same agent architecture: an LLM, running in a loop, calling tools, running in a sandbox.'",
+    "Article links sources including LangChain posts on memory, ambient and proactive agents, Managed Deep Agents async subagents and browser use, Vercel's 'We removed 80% of our agent's tools', Anthropic's Agent Skills and multi-agent research system, and OpenAI's async tool calling guide.",
+    "Full article body could not be read through the API this run; only title, preview and link list."
+   ],
+   "source": {
+    "name": "Harrison Chase on X",
+    "url": "https://x.com/hwchase17/status/2116553654857867330",
+    "type": "x",
+    "handle": "hwchase17"
+   },
+   "publishedAt": "2026-10-31T15:31:00Z",
+   "metrics": {
+    "likes": 169,
+    "reposts": 20,
+    "replies": 90,
+    "views": 8746,
+    "capturedAt": "2026-10-31T17:40:00Z"
+   },
+   "care": 3,
+   "proof": 3,
+   "imageHint": "https://x.com/hwchase17/status/2116553654857867330",
+   "firstSeen": "2026-10-31"
+  },
+  {
+   "id": "poteto-grok-bot-team-guide",
+   "lens": "practical",
+   "topic": "agent-team-setup",
+   "summary": "@poteto posted a short guide on building a small team of Grok Bot agents: few good bots, bots that write their own skills, connectors, and onboarding a bot like an intern.",
+   "facts": [
+    "Tip (verbatim): 'you don’t need a lot of bots. a few good bots can be more useful and easier to manage than a large team'.",
+    "Tip (verbatim): 'tell your bots to create skills for itself as you give it instructions on how to do tasks. this lets them do them more consistently even over long conversations.'",
+    "Tip: give bots connectors, the vault and access to the tools you use; bots can set up their own email and accounts for separation.",
+    "Tip: describe your work to the bot as you would onboard an intern and ask how it can automate it.",
+    "Favorite tip: use voice mode or transcription to brain dump, then ask the bot to 'restate this in your own words' to confirm it understood.",
+    "Post had 1,223 bookmarks at capture."
+   ],
+   "source": {
+    "name": "poteto on X",
+    "url": "https://x.com/poteto/status/2116576229319233596",
+    "type": "x",
+    "handle": "poteto"
+   },
+   "publishedAt": "2026-10-31T17:01:00Z",
+   "metrics": {
+    "likes": 918,
+    "reposts": 62,
+    "replies": 230,
+    "views": 32223,
+    "capturedAt": "2026-10-31T17:40:00Z"
+   },
+   "care": 3,
+   "proof": 2,
+   "firstSeen": "2026-10-31"
+  },
+  {
+   "id": "rubenhassid-claude-code-remake-prompt",
+   "lens": "practical",
+   "topic": "claude-code-site-remake",
+   "summary": "@rubenhassid shared a Claude Code /goal prompt that rebuilds a chosen reference website using his public 'remake' GitHub repo, with a free guide.",
+   "facts": [
+    "Prompt (verbatim): '/goal Remake [THE WEBSITE URL YOU CHOSE] with github .com/rubenhassid1/remake until its report says REMAKE COMPLETE, or stop after 100 turns.'",
+    "Suggested setup: Claude Code desktop app, Opus 5.5 on Medium or High effort; then replace images and videos and deploy on a free Vercel account.",
+    "Guide linked at ruben.substack.com/p/claude-jacking. No independent test of the repo was done in this run."
+   ],
+   "source": {
+    "name": "Ruben Hassid on X",
+    "url": "https://x.com/rubenhassid/status/2116500437398352377",
+    "type": "x",
+    "handle": "rubenhassid"
+   },
+   "related": [
+    {
+     "name": "Ruben Hassid guide",
+     "url": "https://ruben.substack.com/p/claude-jacking"
+    }
+   ],
+   "publishedAt": "2026-10-31T12:00:00Z",
+   "metrics": {
+    "likes": 82,
+    "reposts": 4,
+    "replies": 22,
+    "views": 6647,
+    "capturedAt": "2026-10-31T17:40:00Z"
+   },
+   "care": 2,
+   "proof": 2,
+   "imageHint": "https://x.com/rubenhassid/status/2116500437398352377",
+   "firstSeen": "2026-10-31"
+  },
+  {
+   "id": "deepmind-planassist-uk-councils",
+   "lens": "broad",
+   "topic": "deepmind-planassist",
+   "summary": "Google DeepMind's Gemini-based PlanAssist, which cut planning officers' time on householder assessments by 58% in pilots, is being extended to 12 more English planning authorities.",
+   "facts": [
+    "Pilots in Barnet, Camden and Dorset councils since June; average officer time on householder assessment tasks fell 58%, per DeepMind.",
+    "Routine householder applications account for up to 70% of planning officers' workloads, per the blog.",
+    "Tool validates documents and drawings, checks heritage constraints and local and national policy, checks prior objections, and drafts cited reports officers edit; officers keep the final decision.",
+    "Built with the UK government, Google Cloud and Faculty; part of DeepMind's partnership with the UK government.",
+    "Blog by Owen Larter and David Thacker, Oct 31, 2026."
+   ],
+   "source": {
+    "name": "Google DeepMind blog",
+    "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+    "type": "blog"
+   },
+   "related": [
+    {
+     "name": "@GoogleDeepMind on X",
+     "url": "https://x.com/GoogleDeepMind/status/2116524000977285321"
+    }
+   ],
+   "publishedAt": "2026-10-31T13:33:00Z",
+   "metrics": {
+    "likes": 573,
+    "reposts": 63,
+    "replies": 186,
+    "views": 45817,
+    "capturedAt": "2026-10-31T17:40:00Z"
+   },
+   "care": 3,
+   "proof": 4,
+   "imageHint": "https://x.com/GoogleDeepMind/status/2116524000977285321",
+   "firstSeen": "2026-10-31"
+  },
+  {
+   "id": "pope-leo-ai-speech-autonomous-weapons",
+   "lens": "broad",
+   "topic": "vatican-ai",
+   "summary": "Gary Marcus reported on Pope Leo XIV's Oct 30 speech on AI, which urged states meeting in Geneva in November to move toward banning lethal autonomous weapons.",
+   "facts": [
+    "Marcus attended the speech on Oct 30, 2026 and calls the Pope 'by far the clearest thinker on AI among prominent world leaders'.",
+    "Quoted speech points: AI's future 'is not pre-determined'; 'machines are tools, not persons', opposing rights or legal personhood for AI; decisions on human life, freedom and the use of force must stay under 'effective, informed and responsible human oversight'.",
+    "Quoted: 'I encourage the States meeting in Geneva in November to take concrete steps toward banning lethal autonomous weapons.'",
+    "Speech references the encyclical Magnifica Humanitas.",
+    "Source is a contrarian commentator's blog (config marks Gary Marcus contrarian)."
+   ],
+   "source": {
+    "name": "Gary Marcus (Marcus on AI)",
+    "url": "https://garymarcus.substack.com/p/report-from-the-vatican",
+    "type": "rss"
+   },
+   "publishedAt": "2026-10-31T15:17:33Z",
+   "care": 3,
+   "proof": 3,
+   "firstSeen": "2026-10-31"
+  }
+ ]
+}
