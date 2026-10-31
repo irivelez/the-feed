@@ -1,7 +1,73 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-30T12:04:48Z",
+  "updatedAt": "2026-10-31T18:06:15Z",
   "howtos": [
+    {
+      "id": "poteto-onboard-small-bot-team",
+      "dedupeKey": "onboard-small-agent-team-like-intern",
+      "title": "Run a few well-onboarded bots, not a big team",
+      "what": "poteto's tips for setting up a small team of AI agents that work consistently.",
+      "kind": "steps",
+      "copy": [
+        "Keep a few good bots rather than a large team; they are easier to manage.",
+        "As you explain how to do tasks, tell the bots to create skills for themselves so they stay consistent.",
+        "Give bots connectors and access to the tools you use; let them set up their own email and accounts for separation.",
+        "Describe your work as you would onboard an intern, and ask how the bot can automate it.",
+        "Brain dump by voice or transcription, then ask the bot to restate it in its own words to confirm it understood."
+      ],
+      "whenToUse": "When you set up personal AI agents and want them to handle recurring work reliably.",
+      "source": {
+        "name": "@poteto on X",
+        "url": "https://x.com/poteto/status/2116576229319233596"
+      },
+      "author": {
+        "name": "poteto",
+        "handle": "poteto"
+      },
+      "tags": [
+        "agents",
+        "agent-setup",
+        "skills"
+      ],
+      "quality": 4,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-10-31-1300",
+        "itemId": "poteto-grok-bot-team-guide"
+      },
+      "addedAt": "2026-10-31T18:06:15Z"
+    },
+    {
+      "id": "rubenhassid-claude-code-remake-site",
+      "dedupeKey": "claude-code-goal-remake-reference-site",
+      "title": "Rebuild a reference website with a Claude Code /goal prompt",
+      "what": "One prompt that has Claude Code remake a chosen site using Ruben Hassid's public remake repo.",
+      "kind": "prompt",
+      "copy": [
+        "/goal Remake [THE WEBSITE URL YOU CHOSE] with github .com/rubenhassid1/remake until its report says REMAKE COMPLETE, or stop after 100 turns."
+      ],
+      "whenToUse": "When you want a quick prototype modeled on a site you admire; the repo was not independently tested.",
+      "source": {
+        "name": "@rubenhassid on X",
+        "url": "https://x.com/rubenhassid/status/2116500437398352377"
+      },
+      "author": {
+        "name": "Ruben Hassid",
+        "handle": "rubenhassid"
+      },
+      "tags": [
+        "claude-code",
+        "prototyping",
+        "web-design"
+      ],
+      "quality": 2,
+      "verbatim": true,
+      "briefItem": {
+        "briefId": "2026-10-31-1300",
+        "itemId": "rubenhassid-claude-code-remake-prompt"
+      },
+      "addedAt": "2026-10-31T18:06:15Z"
+    },
     {
       "id": "cursor-clean-up-malicious-claude-code-extension",
       "dedupeKey": "remediate-malicious-claude-code-extension-2-1-313",
