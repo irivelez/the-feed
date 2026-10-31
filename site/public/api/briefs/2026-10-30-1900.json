@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-10-30-1900",
+  "date": "2026-10-30",
+  "publishedAt": "2026-10-31T00:20:00Z",
+  "edition": "Evening",
+  "top3": [
+    {
+      "itemId": "northflank-breach-rotate-all-secrets",
+      "headline": "Northflank tells every user to rotate all secrets after a breach",
+      "whyItMatters": "Stolen AI keys turn into real bills and data exposure; check every hosting vendor today."
+    },
+    {
+      "itemId": "us-tech-stocks-fall-ai-spending",
+      "headline": "Investors turn on AI spending as Alphabet sheds over $500bn",
+      "whyItMatters": "Boards will ask harder questions about AI returns, including about your own budget."
+    },
+    {
+      "itemId": "ai-labs-adopt-shared-scraping-opt-out-token",
+      "headline": "Four major AI labs back a single opt-out from AI scraping",
+      "whyItMatters": "Content owners get one switch for AI training and grounding access across major labs."
+    }
+  ],
+  "items": [
+    {
+      "id": "nesformer-nes-cpu-in-qwen-weights",
+      "title": "Drew Breunig and Claude Opus put an NES chip inside Qwen's weights",
+      "takeaway": "Super Mario Bros runs, very slowly, inside Qwen3.5-4B; Opus found and used 15-year-old CPU conformance tests.",
+      "soWhat": "Agents can take on deep, odd engineering work when good tests exist, so invest in test suites.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-10-30T21:59:22Z",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Oct/30/nesformer/"
+      },
+      "image": {
+        "src": "/img/nesformer-nes-cpu-in-qwen-weights.jpg",
+        "alt": "Simon Willison: Drew Breunig and Claude Opus put an NES chip inside Qwen's weights"
+      }
+    },
+    {
+      "id": "altman-ram-belongs-in-datacenter",
+      "title": "Altman: scarce RAM belongs in data centers, not personal computers",
+      "takeaway": "On Cheeky Pint, Altman called it 'quite terrible' for the world's limited DRAM to sit in PCs for local inference.",
+      "soWhat": "OpenAI's CEO argues against local AI, so check how much your plans depend on cloud capacity.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-10-30T20:48:43Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers"
+      },
+      "image": {
+        "src": "/img/altman-ram-belongs-in-datacenter.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "a16z-rack-spread-gpu-up-tokens-down",
+      "title": "a16z: GPU rents rose while token prices fell 58% since July",
+      "takeaway": "Since mid-July, B300 rentals rose 106% and H100 17%, while average token prices fell 58%.",
+      "soWhat": "Buying AI as tokens keeps getting cheaper while renting GPUs gets pricier; weigh that in build decisions.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-10-30T20:32:27Z",
+      "source": {
+        "name": "a16z Charts of the Week",
+        "url": "https://www.a16z.news/p/charts-of-the-week-job-fud-fades"
+      },
+      "related": [
+        {
+          "name": "@a16z on X",
+          "url": "https://x.com/a16z/status/2116267009134694545"
+        },
+        {
+          "name": "@a16z on AI spend per employee",
+          "url": "https://x.com/a16z/status/2116281516158599324"
+        }
+      ],
+      "image": {
+        "src": "/img/a16z-rack-spread-gpu-up-tokens-down.jpg",
+        "alt": "Image from a16z Charts of the Week"
+      },
+      "heat": {
+        "score": 6,
+        "level": "none",
+        "metric": "17k views"
+      }
+    },
+    {
+      "id": "ai-labs-adopt-shared-scraping-opt-out-token",
+      "title": "OpenAI, Google, Microsoft and Anthropic back one AI scraping opt-out",
+      "takeaway": "A shared robots.txt policy token lets publishers opt out of AI scraping across companies at once; Anthropic already supports it.",
+      "soWhat": "Publishers will soon set AI access once for all major labs, so decide what your content allows.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-10-30T20:26:10Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+      },
+      "image": {
+        "src": "/img/ai-labs-adopt-shared-scraping-opt-out-token.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "perplexity-gemini-4-carbon-wandr-sota",
+      "title": "Perplexity says Gemini 4 Carbon sets a new deep-research high",
+      "takeaway": "Aravind Srinivas called it the strongest research model Perplexity has seen, coming to Pro and Max users when capacity allows.",
+      "soWhat": "Gemini 4 Carbon now has an outside endorsement for research work; test it against your current default.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-10-30T20:19:56Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2116263856628703247"
+      },
+      "image": {
+        "src": "/img/perplexity-gemini-4-carbon-wandr-sota.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 17,
+        "level": "none",
+        "metric": "52k views"
+      }
+    },
+    {
+      "id": "us-tech-stocks-fall-ai-spending",
+      "title": "Investors punish AI spending: Intel falls 28%, Nasdaq ends October down",
+      "takeaway": "Alphabet lost over $500bn in value Thursday after saying AI search summaries hit ad revenue; Intel dropped 28% Friday.",
+      "soWhat": "Markets now question AI spending, so expect pressure to show returns on your own AI budget.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-10-30T14:50:37Z",
+      "source": {
+        "name": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50306008"
+        }
+      ],
+      "image": {
+        "src": "/img/us-tech-stocks-fall-ai-spending.jpg",
+        "alt": "Image from BBC News"
+      }
+    },
+    {
+      "id": "northflank-breach-rotate-all-secrets",
+      "title": "Northflank breach: users told to rotate every secret now",
+      "takeaway": "Northflank told all users to assume environment variables were decrypted; several users confirmed their AI keys were used.",
+      "soWhat": "If any team runs on Northflank, rotate every key today, starting with AI provider keys.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-10-30T13:40:00Z",
+      "source": {
+        "name": "Northflank status page",
+        "url": "https://status.northflank.com"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50305025"
+        }
+      ],
+      "image": {
+        "src": "/img/northflank-breach-rotate-all-secrets.jpg",
+        "alt": "Image from Northflank status page"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "Northflank status page",
+      "quote": "Assume all environment variables have been decrypted. Disable/rotate all keys.",
+      "url": "https://status.northflank.com"
+    },
+    {
+      "handle": "Sam Altman, via The Verge",
+      "quote": "they assume that the problem is solved now because we are going to have open-source models, we're going to be able to run them on our computers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers"
+    }
+  ]
+}

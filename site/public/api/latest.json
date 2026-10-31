@@ -1,36 +1,72 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-10-30-1300",
+  "id": "2026-10-30-1900",
   "date": "2026-10-30",
-  "publishedAt": "2026-10-30T18:15:00Z",
-  "edition": "Midday",
+  "publishedAt": "2026-10-31T00:20:00Z",
+  "edition": "Evening",
   "top3": [
     {
-      "itemId": "claude-max-renamed-ultra-no-5h-limit",
-      "headline": "Anthropic drops the 5-hour limit on its $200 Claude Ultra plan",
-      "whyItMatters": "Heavy Claude Code users can now run long sessions without hitting a midday wall."
+      "itemId": "northflank-breach-rotate-all-secrets",
+      "headline": "Northflank tells every user to rotate all secrets after a breach",
+      "whyItMatters": "Stolen AI keys turn into real bills and data exposure; check every hosting vendor today."
     },
     {
-      "itemId": "openrouter-provider-routing-rebuilt",
-      "headline": "OpenRouter now routes by real cost, not sticker price",
-      "whyItMatters": "Cheapest listed price is not cheapest in production; ask how your vendors route."
+      "itemId": "us-tech-stocks-fall-ai-spending",
+      "headline": "Investors turn on AI spending as Alphabet sheds over $500bn",
+      "whyItMatters": "Boards will ask harder questions about AI returns, including about your own budget."
     },
     {
-      "itemId": "supabase-70pct-activity-from-agents",
-      "headline": "Supabase says about 70% of its new activity comes from agents",
-      "whyItMatters": "Agents now drive most new usage on a major developer platform; build for them."
+      "itemId": "ai-labs-adopt-shared-scraping-opt-out-token",
+      "headline": "Four major AI labs back a single opt-out from AI scraping",
+      "whyItMatters": "Content owners get one switch for AI training and grounding access across major labs."
     }
   ],
   "items": [
     {
-      "id": "a16z-ai-job-fud-fades",
-      "title": "a16z: AI job-loss news is down about 65% from last year",
-      "takeaway": "Layoff announcements citing AI fell about 90%, while engineering job postings rose about 30%, per Indeed data.",
-      "soWhat": "The AI layoff story is cooling in the data, so plan hiring on demand, not headlines.",
-      "lens": "broad",
+      "id": "nesformer-nes-cpu-in-qwen-weights",
+      "title": "Drew Breunig and Claude Opus put an NES chip inside Qwen's weights",
+      "takeaway": "Super Mario Bros runs, very slowly, inside Qwen3.5-4B; Opus found and used 15-year-old CPU conformance tests.",
+      "soWhat": "Agents can take on deep, odd engineering work when good tests exist, so invest in test suites.",
+      "lens": "practical",
       "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-10-30T17:30:08Z",
+      "importance": 4,
+      "publishedAt": "2026-10-30T21:59:22Z",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Oct/30/nesformer/"
+      },
+      "image": {
+        "src": "/img/nesformer-nes-cpu-in-qwen-weights.jpg",
+        "alt": "Simon Willison: Drew Breunig and Claude Opus put an NES chip inside Qwen's weights"
+      }
+    },
+    {
+      "id": "altman-ram-belongs-in-datacenter",
+      "title": "Altman: scarce RAM belongs in data centers, not personal computers",
+      "takeaway": "On Cheeky Pint, Altman called it 'quite terrible' for the world's limited DRAM to sit in PCs for local inference.",
+      "soWhat": "OpenAI's CEO argues against local AI, so check how much your plans depend on cloud capacity.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-10-30T20:48:43Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers"
+      },
+      "image": {
+        "src": "/img/altman-ram-belongs-in-datacenter.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "a16z-rack-spread-gpu-up-tokens-down",
+      "title": "a16z: GPU rents rose while token prices fell 58% since July",
+      "takeaway": "Since mid-July, B300 rentals rose 106% and H100 17%, while average token prices fell 58%.",
+      "soWhat": "Buying AI as tokens keeps getting cheaper while renting GPUs gets pricier; weigh that in build decisions.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-10-30T20:32:27Z",
       "source": {
         "name": "a16z Charts of the Week",
         "url": "https://www.a16z.news/p/charts-of-the-week-job-fud-fades"
@@ -38,360 +74,123 @@
       "related": [
         {
           "name": "@a16z on X",
-          "url": "https://x.com/a16z/status/2116221125864951943"
+          "url": "https://x.com/a16z/status/2116267009134694545"
+        },
+        {
+          "name": "@a16z on AI spend per employee",
+          "url": "https://x.com/a16z/status/2116281516158599324"
         }
       ],
       "image": {
-        "src": "/img/a16z-ai-job-fud-fades.jpg",
+        "src": "/img/a16z-rack-spread-gpu-up-tokens-down.jpg",
         "alt": "Image from a16z Charts of the Week"
       },
       "heat": {
-        "score": 0,
-        "level": "none",
-        "metric": "3k views"
-      }
-    },
-    {
-      "id": "claude-max-renamed-ultra-no-5h-limit",
-      "title": "Anthropic drops the 5-hour limit on its $200 Claude Ultra plan",
-      "takeaway": "Max 20x becomes Ultra at $200 a month; verified accounts lose the 5-hour cap, weekly limits stay.",
-      "soWhat": "Heavy Claude Code users can now run long sessions without hitting a midday wall.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 9,
-      "publishedAt": "2026-10-30T17:29:07Z",
-      "source": {
-        "name": "@claudeai on X",
-        "url": "https://x.com/claudeai/status/2116220869479428500"
-      },
-      "related": [
-        {
-          "name": "@bcherny on X",
-          "url": "https://x.com/bcherny/status/2116222842413142111"
-        }
-      ],
-      "image": {
-        "src": "/img/claude-max-renamed-ultra-no-5h-limit.jpg",
-        "alt": "Image from @claudeai on X"
-      },
-      "heat": {
-        "score": 22,
-        "level": "none",
-        "metric": "64k views"
-      }
-    },
-    {
-      "id": "google-suncatcher-tpu-orbit-hello-world",
-      "title": "Google ran a prompt on a TPU in orbit",
-      "takeaway": "Project Suncatcher's prototype satellite booted its TPU and sent back a full response on command.",
-      "soWhat": "Space-based compute moved from concept to a working test, an early sign for future capacity.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-10-30T17:05:16Z",
-      "source": {
-        "name": "@sundarpichai on X",
-        "url": "https://x.com/sundarpichai/status/2116214866444943853"
-      },
-      "image": {
-        "src": "/img/google-suncatcher-tpu-orbit-hello-world.jpg",
-        "alt": "Profile image of @sundarpichai"
-      },
-      "heat": {
-        "score": 26,
-        "level": "none",
-        "metric": "294k views"
-      }
-    },
-    {
-      "id": "openai-private-intelligence",
-      "title": "OpenAI launches Private Intelligence for tighter enterprise data control",
-      "takeaway": "Built with some of its largest customers; OpenAI gave no technical or pricing detail yet.",
-      "soWhat": "Data control is now a selling point for frontier models; ask vendors for specifics.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-10-30T15:12:35Z",
-      "source": {
-        "name": "@OpenAI on X",
-        "url": "https://x.com/OpenAI/status/2116186509384815084"
-      },
-      "image": {
-        "src": "/img/openai-private-intelligence.jpg",
-        "alt": "Image from @OpenAI on X"
-      },
-      "heat": {
-        "score": 22,
-        "level": "none",
-        "metric": "175k views"
-      }
-    },
-    {
-      "id": "perplexity-computer-controls-chrome",
-      "title": "Perplexity's agent can now drive your own signed-in Chrome",
-      "takeaway": "A new extension lets Perplexity Computer on Mac and Windows work inside sites you are already logged into.",
-      "soWhat": "Agents acting in staff browser sessions inherit their access, so set policy before rollout.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-10-30T15:00:30Z",
-      "source": {
-        "name": "@AskPerplexity on X",
-        "url": "https://x.com/AskPerplexity/status/2116183470439620676"
-      },
-      "related": [
-        {
-          "name": "Perplexity extension, Chrome Web Store",
-          "url": "https://chromewebstore.google.com/detail/perplexity/pninphncmkphpjgfffammoenglghcjii"
-        },
-        {
-          "name": "@AravSrinivas on X",
-          "url": "https://x.com/AravSrinivas/status/2116186492758577575"
-        }
-      ],
-      "image": {
-        "src": "/img/perplexity-computer-controls-chrome.jpg",
-        "alt": "Image from @AskPerplexity on X"
-      },
-      "heat": {
-        "score": 0,
-        "level": "none",
-        "metric": "16k views"
-      }
-    },
-    {
-      "id": "pope-leo-disarm-ai-autonomous-weapons",
-      "title": "Pope Leo XIV urges UN steps toward banning autonomous weapons",
-      "takeaway": "He said AI should be disarmed and decisions on life and force must stay under human oversight.",
-      "soWhat": "Pressure for human oversight rules is widening beyond tech regulators ahead of Geneva talks.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-10-30T14:58:06Z",
-      "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai"
-      },
-      "image": {
-        "src": "/img/pope-leo-disarm-ai-autonomous-weapons.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
-      "id": "supabase-70pct-activity-from-agents",
-      "title": "Supabase says about 70% of its new activity comes from agents",
-      "takeaway": "CEO Paul Copplestone told YC's Lightcone it has 13M users and spins up over a million databases weekly.",
-      "soWhat": "Developer platforms are now being chosen by agents, so design products for them too.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-10-30T14:33:27Z",
-      "source": {
-        "name": "@ycombinator on X",
-        "url": "https://x.com/ycombinator/status/2116176659795825035"
-      },
-      "image": {
-        "src": "/img/supabase-70pct-activity-from-agents.jpg",
-        "alt": "Image from @ycombinator on X"
-      },
-      "heat": {
-        "score": 4,
+        "score": 6,
         "level": "none",
         "metric": "17k views"
       }
     },
     {
-      "id": "mengto-mischief-1-threejs-landing",
-      "title": "Meng To designs a three.js landing page with Opus 5.5",
-      "takeaway": "He shared his workflow for the mischief-1 video model page, built from three.js concepts.",
-      "soWhat": "Designers can now prototype rich 3D web concepts with a model before committing build time.",
-      "lens": "design",
-      "momentum": "building",
-      "importance": 3,
-      "publishedAt": "2026-10-30T14:21:49Z",
-      "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2116173735078306094"
-      },
-      "related": [
-        {
-          "name": "mischief-1",
-          "url": "https://app.tbc.co"
-        }
-      ],
-      "image": {
-        "src": "/img/mengto-mischief-1-threejs-landing.jpg",
-        "alt": "Image from @MengTo on X"
-      },
-      "heat": {
-        "score": 0,
-        "level": "none",
-        "metric": "5k views"
-      }
-    },
-    {
-      "id": "verge-anthropic-s1-risk-factors",
-      "title": "Anthropic's S-1 runs 94 pages of risk factors",
-      "takeaway": "The Verge read the 335-page filing, whose founders' letter asks buyers not to think purely transactionally.",
-      "soWhat": "Investors are being asked to buy a mission as much as a business.",
+      "id": "ai-labs-adopt-shared-scraping-opt-out-token",
+      "title": "OpenAI, Google, Microsoft and Anthropic back one AI scraping opt-out",
+      "takeaway": "A shared robots.txt policy token lets publishers opt out of AI scraping across companies at once; Anthropic already supports it.",
+      "soWhat": "Publishers will soon set AI access once for all major labs, so decide what your content allows.",
       "lens": "broad",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-10-30T13:11:05Z",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-10-30T20:26:10Z",
       "source": {
         "name": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles"
+        "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
       },
       "image": {
-        "src": "/img/verge-anthropic-s1-risk-factors.jpg",
+        "src": "/img/ai-labs-adopt-shared-scraping-opt-out-token.jpg",
         "alt": "Image from The Verge"
       }
     },
     {
-      "id": "lyn-alden-local-vs-datacenter-ai",
-      "title": "Lyn Alden: local AI needs only a nontrivial share of users",
-      "takeaway": "Some businesses and people need local setups for privacy or for work central providers might block.",
-      "soWhat": "Plan for both cloud and on-premise AI; each wins in different contexts.",
-      "lens": "frontier-capital",
-      "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-10-30T12:01:14Z",
+      "id": "perplexity-gemini-4-carbon-wandr-sota",
+      "title": "Perplexity says Gemini 4 Carbon sets a new deep-research high",
+      "takeaway": "Aravind Srinivas called it the strongest research model Perplexity has seen, coming to Pro and Max users when capacity allows.",
+      "soWhat": "Gemini 4 Carbon now has an outside endorsement for research work; test it against your current default.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-10-30T20:19:56Z",
       "source": {
-        "name": "@LynAldenContact on X",
-        "url": "https://x.com/LynAldenContact/status/2116138356924928415"
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2116263856628703247"
       },
       "image": {
-        "src": "/img/lyn-alden-local-vs-datacenter-ai.jpg",
-        "alt": "Image from @LynAldenContact on X"
+        "src": "/img/perplexity-gemini-4-carbon-wandr-sota.jpg",
+        "alt": "Image from @AravSrinivas on X"
       },
       "heat": {
-        "score": 12,
+        "score": 17,
         "level": "none",
-        "metric": "51k views"
+        "metric": "52k views"
       }
     },
     {
-      "id": "arxiv-rtaste-research-agent-judgment",
-      "title": "Research agents proposed 415 experiments; only 73 were truly novel",
-      "takeaway": "rTaste found six frontier models rarely pick experiments beyond the seed paper, and teams cost more.",
-      "soWhat": "Agents can generate research ideas cheaply, but judging which matter still needs people.",
-      "lens": "practical",
+      "id": "us-tech-stocks-fall-ai-spending",
+      "title": "Investors punish AI spending: Intel falls 28%, Nasdaq ends October down",
+      "takeaway": "Alphabet lost over $500bn in value Thursday after saying AI search summaries hit ad revenue; Intel dropped 28% Friday.",
+      "soWhat": "Markets now question AI spending, so expect pressure to show returns on your own AI budget.",
+      "lens": "broad",
       "momentum": "building",
-      "importance": 4,
-      "publishedAt": "2026-10-29T17:15:53Z",
-      "source": {
-        "name": "arXiv 2610.40488",
-        "url": "https://arxiv.org/abs/2610.40488"
-      },
-      "image": {
-        "src": "/img/arxiv-rtaste-research-agent-judgment.jpg",
-        "alt": "arXiv 2610.40488: Research agents proposed 415 experiments; only 73 were truly novel"
-      }
-    },
-    {
-      "id": "arxiv-envos-stale-info-agents",
-      "title": "Opus 5 failed 16 of 16 tasks when facts changed mid-task",
-      "takeaway": "EnvOS tests agents in changing environments; a reminder to re-check lifted success only to 2 of 16.",
-      "soWhat": "Agents trust what they read first, so build in fresh lookups before they act.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-10-29T15:17:29Z",
-      "source": {
-        "name": "arXiv 2610.40246",
-        "url": "https://arxiv.org/abs/2610.40246"
-      },
-      "image": {
-        "src": "/img/arxiv-envos-stale-info-agents.jpg",
-        "alt": "arXiv 2610.40246: Opus 5 failed 16 of 16 tasks when facts changed mid-task"
-      }
-    },
-    {
-      "id": "openrouter-provider-routing-rebuilt",
-      "title": "OpenRouter now routes by real cost, not sticker price",
-      "takeaway": "Ranking providers by effective price, wait and retry cost gave 16.9% faster first tokens for 6% more spend.",
-      "soWhat": "The cheapest listed model provider is often not the cheapest one to run in production.",
-      "lens": "practical",
-      "momentum": "new",
       "importance": 8,
-      "publishedAt": "2026-10-28T12:00:00Z",
+      "publishedAt": "2026-10-30T14:50:37Z",
       "source": {
-        "name": "OpenRouter blog",
-        "url": "https://openrouter.ai/blog/announcements/how-we-rebuilt-provider-routing/"
+        "name": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo"
       },
       "related": [
         {
-          "name": "@OpenRouter on X",
-          "url": "https://x.com/OpenRouter/status/2115852901780533758"
-        },
-        {
-          "name": "@steipete on X",
-          "url": "https://x.com/steipete/status/2116183103530217488"
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50306008"
         }
       ],
       "image": {
-        "src": "/img/openrouter-provider-routing-rebuilt.jpg",
-        "alt": "Image from OpenRouter blog"
+        "src": "/img/us-tech-stocks-fall-ai-spending.jpg",
+        "alt": "Image from BBC News"
+      }
+    },
+    {
+      "id": "northflank-breach-rotate-all-secrets",
+      "title": "Northflank breach: users told to rotate every secret now",
+      "takeaway": "Northflank told all users to assume environment variables were decrypted; several users confirmed their AI keys were used.",
+      "soWhat": "If any team runs on Northflank, rotate every key today, starting with AI provider keys.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-10-30T13:40:00Z",
+      "source": {
+        "name": "Northflank status page",
+        "url": "https://status.northflank.com"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50305025"
+        }
+      ],
+      "image": {
+        "src": "/img/northflank-breach-rotate-all-secrets.jpg",
+        "alt": "Image from Northflank status page"
       }
     }
   ],
   "voices": [
     {
-      "handle": "@bcherny",
-      "quote": "We're removing the 5-hour limit for verified Ultra accounts.",
-      "url": "https://x.com/bcherny/status/2116222842413142111"
+      "handle": "Northflank status page",
+      "quote": "Assume all environment variables have been decrypted. Disable/rotate all keys.",
+      "url": "https://status.northflank.com"
     },
     {
-      "handle": "@steipete",
-      "quote": "This is smart. Wild that this wasn’t the default. Unpredictable inference quality was usually why I recommended skipping the middleman.",
-      "url": "https://x.com/steipete/status/2116183103530217488"
-    },
-    {
-      "handle": "@poteto",
-      "quote": "your codebase is becoming organic architecture. agent contributions grow around the constraints and guardrails you’ve designed. good software engineering matters even more now!",
-      "url": "https://x.com/poteto/status/2116191971714953262"
-    },
-    {
-      "handle": "@AravSrinivas",
-      "quote": "just ask your agent to do any local browsing tasks on your Chrome browser",
-      "url": "https://x.com/AravSrinivas/status/2116186492758577575"
-    }
-  ],
-  "hotOnX": [
-    {
-      "url": "https://x.com/chasmmmmmmmmmmm/status/2116062991686721968",
-      "handle": "@chasmmmmmmmmmmm",
-      "text": "Claude Code reportedly got a server-side rule against recreating specific existing games, with no setting to turn it off.",
-      "metric": "6.5k likes",
-      "note": "An unconfirmed claim that revived debate over vendors changing agent rules remotely."
-    },
-    {
-      "url": "https://x.com/sundarpichai/status/2116214866444943853",
-      "handle": "@sundarpichai",
-      "text": "Project Suncatcher's satellite booted its TPU in orbit, ran a prompt from Earth and sent back a haiku.",
-      "metric": "3.5k likes",
-      "note": "A first working test of AI compute in space."
-    },
-    {
-      "url": "https://x.com/poteto/status/2116191971714953262",
-      "handle": "@poteto",
-      "text": "Much software must be rebuilt so agents can work safely at a continuous pace: make the easy thing the right thing.",
-      "metric": "2.6k likes",
-      "note": "Engineers see codebase design as the main lever for safe agent contributions."
-    },
-    {
-      "url": "https://x.com/claudeai/status/2116220869479428500",
-      "handle": "@claudeai",
-      "text": "Max 20x is now Ultra at $200 a month, and verified Ultra accounts lose the 5-hour usage limit.",
-      "metric": "1.8k likes",
-      "note": "Removes a cap that cut long agent sessions short."
-    },
-    {
-      "url": "https://x.com/OpenAI/status/2116186509384815084",
-      "handle": "@OpenAI",
-      "text": "OpenAI Private Intelligence gives businesses stronger controls over their data while using its most capable models.",
-      "metric": "1.7k likes",
-      "note": "Enterprises want frontier models without giving up data control."
+      "handle": "Sam Altman, via The Verge",
+      "quote": "they assume that the problem is solved now because we are going to have open-source models, we're going to be able to run them on our computers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers"
     }
   ]
 }
