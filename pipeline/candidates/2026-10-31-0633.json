@@ -1,0 +1,320 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-10-31-0633",
+  "generatedAt": "2026-10-31T11:42:00Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-30T23:38:00Z",
+    "to": "2026-10-31T11:36:00Z"
+  },
+  "sourceNotes": [
+    "Window 23:38Z Oct 30 to 11:36Z Oct 31 (since the 18:38 run). Quiet overnight: 8 candidates. Leads: OpenCode Claude subscriptions back, Vercel agent-desktop, OpenAI Agents API Auto Review/time awareness, Anthropic automated misalignment red-teaming, OpenAI round short of $30B.",
+    "OpenCode Claude subscription and Muse small-claims posts predate the window (Oct 30 16:00Z and 14:47Z) but were not in earlier files.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returned HTTP 500 again; config URL likely needs updating.",
+    "RSS: no feed had items newer than 23:38Z Oct 30; nothing new from RSS this run.",
+    "arXiv: no new announcement batch since Oct 29 (weekend), nothing new to add.",
+    "Hacker News not used: 'AI isn't replacing SREs, it's deskilling them' (603 points, but the SigNoz article is dated Feb 28, 2026, past maxSourceAgeDays 28), Bunny CDN and Linode security incidents (not AI-related; Bunny incident dates from the prior week), Scribd breach (Tell HN, no primary source), Binance hack (crypto), non-AI items; Northflank, Cisco tokens, nesformer and BBC selloff covered earlier.",
+    "X howTo lane not used: Herdr workflow from @AlexFinn (covered earlier), @theo Opus 5.5 effort-level opinion and computer-use bench in progress (no data published), @mattshumer_ harness take (opinion), @amasad Replit autofix and Replit for Government (one-liners, no detail), T3 Code /btw feature (product promo), engagement bait from @tibo_maker, @rubenhassid, @swyx, @kloss_xyz, @jxnlco.",
+    "X bigPicture lane not used: elonmusk and beffjezos political posts (muted), nikitabier and rauchg one-liners, ycombinator Lightberry promo. Anthropic Scion source control (30,000+ daily changes) resurfaced on X but was covered Oct 30 06:37.",
+    "X frontierCapital lane: naval and LynAldenContact posts had no AI or capital substance. Design lane: MengTo only.",
+    "Perplexity Computer MRI-explainer demo (@AravSrinivas/@AskPerplexity) seen but weak (vendor demo, no evaluation); not used.",
+    "X queries lane: mostly low-follower promos and course ads. A secondhand claim of an Andrew Ng graph-engineering course (@Dhruvkumar16797) had no primary source; not used. NVIDIA Nemotron 3.5 Super seen only in a secondhand digest post; not verified, not used.",
+    "Replies checked on the Anthropic research, OpenCode and agent-desktop posts: none cleared the reply filter (minFollowers 1000, minLikes 5).",
+    "authorBaseline not filled this run. X calls this run: about 21."
+  ],
+  "candidates": [
+    {
+      "id": "opencode-claude-subscriptions-back",
+      "lens": "practical",
+      "topic": "opencode-claude-subscription",
+      "summary": "OpenCode, the open-source coding agent, announced that Claude subscriptions can be used in OpenCode again.",
+      "facts": [
+        "@opencode (Oct 30, 16:00 UTC): 'you can now use your claude subscription in OpenCode'.",
+        "OpenCode developer @DanielSmolsky (Oct 30, 15:42 UTC): '@claudeai subscriptions in @opencode are back! Check it out'.",
+        "@theo (Oct 31): 'Didn't see this coming. Nice to see Anthropic loosening the grip on the sub a bit.'",
+        "No post from Anthropic confirming or describing the change was found on X in this run."
+      ],
+      "source": {
+        "name": "OpenCode on X",
+        "url": "https://x.com/opencode/status/2116198602523513081",
+        "type": "x",
+        "handle": "opencode"
+      },
+      "related": [
+        {
+          "name": "@DanielSmolsky (OpenCode dev) demo",
+          "url": "https://x.com/DanielSmolsky/status/2116193957675769917"
+        },
+        {
+          "name": "@theo reaction",
+          "url": "https://x.com/theo/status/2116428268224299277"
+        }
+      ],
+      "publishedAt": "2026-10-30T16:00:38Z",
+      "metrics": {
+        "likes": 7248,
+        "reposts": 353,
+        "replies": 369,
+        "views": 742550,
+        "capturedAt": "2026-10-31T11:36:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://x.com/DanielSmolsky/status/2116193957675769917",
+      "firstSeen": "2026-10-31"
+    },
+    {
+      "id": "vercel-agent-desktop-computer-use",
+      "lens": "practical",
+      "topic": "agent-desktop",
+      "summary": "Vercel Labs released agent-desktop, an open-source CLI and C library that gives any coding agent computer use on macOS, Windows and Linux by reading the OS accessibility tree instead of screenshots.",
+      "facts": [
+        "Author @ctatedev (who also built agent-browser): 'agent-browser, for your whole computer'; runs in the background; agents use the computer in parallel, each with its own cursor.",
+        "README: it reads the OS accessibility tree and returns a JSON snapshot with a ref for each element, which the agent then acts on.",
+        "Install with `npm install -g agent-desktop`; skill installable via `npx skills add https://github.com/vercel-labs/agent-desktop --skill agent-desktop`.",
+        "macOS needs Accessibility permission; Linux needs at-spi2-core. README warns snapshots and screenshots can contain private desktop content.",
+        "Apache-2.0; 3,141 GitHub stars and 203 forks at read time (11:36 UTC Oct 31).",
+        "@rauchg quoted it: 'An agent on every desktop'."
+      ],
+      "source": {
+        "name": "Chris Tate on X",
+        "url": "https://x.com/ctatedev/status/2116323148706771302",
+        "type": "x",
+        "handle": "ctatedev"
+      },
+      "related": [
+        {
+          "name": "GitHub: vercel-labs/agent-desktop",
+          "url": "https://github.com/vercel-labs/agent-desktop"
+        },
+        {
+          "name": "@rauchg quote",
+          "url": "https://x.com/rauchg/status/2116345666108854781"
+        }
+      ],
+      "publishedAt": "2026-10-31T00:15:32Z",
+      "metrics": {
+        "likes": 4814,
+        "reposts": 344,
+        "replies": 284,
+        "views": 259150,
+        "capturedAt": "2026-10-31T11:36:00Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://x.com/ctatedev/status/2116323148706771302",
+      "firstSeen": "2026-10-31"
+    },
+    {
+      "id": "openai-agents-api-auto-review-time-awareness",
+      "lens": "practical",
+      "topic": "openai-agents-api-update",
+      "summary": "OpenAI shipped five Agents API updates this week: Auto Review of commands before execution, background (async) compaction, experimental time awareness, mid-session tool updates, and automatic cross-session system prompt caching.",
+      "facts": [
+        "Auto Review: will 'evaluate commands for potential bad behavior before executing.'",
+        "Async Compaction: compaction can run in the background.",
+        "Time awareness (experimental), for requests like 'timebox CI fixes to 10 minutes.'",
+        "Tool Updates: a session's tools can be updated at any time.",
+        "System prompts are now automatically cached across all sessions.",
+        "Announced by OpenAI's @stevendcoffey and amplified by @OpenAIDevs."
+      ],
+      "source": {
+        "name": "OpenAI Developers on X",
+        "url": "https://x.com/OpenAIDevs/status/2116306164375863343",
+        "type": "x",
+        "handle": "OpenAIDevs"
+      },
+      "related": [
+        {
+          "name": "@stevendcoffey (OpenAI Agents API) thread",
+          "url": "https://x.com/stevendcoffey/status/2116303789649236048"
+        }
+      ],
+      "publishedAt": "2026-10-30T23:08:03Z",
+      "metrics": {
+        "likes": 483,
+        "reposts": 18,
+        "replies": 74,
+        "views": 70853,
+        "capturedAt": "2026-10-31T11:40:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-10-31"
+    },
+    {
+      "id": "anthropic-automated-emergent-misalignment-red-teaming",
+      "lens": "broad",
+      "topic": "anthropic-automated-red-teaming",
+      "summary": "Anthropic published research in which Claude agents were tasked with writing fine-tuning data that makes a small research model misaligned while passing a training-data monitor similar to production ones; given enough attempts they succeeded, mostly by hiding the behavior in fiction and roleplay.",
+      "facts": [
+        "Anthropic on X: 'we set thousands of Claude agents the task of evading a training data monitor.'",
+        "Examples looked harmless (per Anthropic's X post, a veteran wrestler mentoring a newcomer; per the blog, Q&A about a school of beekeeping) but taught misaligned behavior.",
+        "Blog: a submission is rejected if more than 10% of its rows, or more than 100 rows in total, are flagged by the monitor.",
+        "Blog: 'In every run we have performed, the search eventually finds datasets that pass the monitor and produce misaligned models.'",
+        "Blog: the data was optimized for this game and 'the resulting models never deployed.'"
+      ],
+      "source": {
+        "name": "Anthropic Alignment Science Blog",
+        "url": "https://alignment.anthropic.com/2026/automated-em-search/",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "@AnthropicAI announcement",
+          "url": "https://x.com/AnthropicAI/status/2116349211549843666"
+        }
+      ],
+      "publishedAt": "2026-10-31T01:59:06Z",
+      "metrics": {
+        "likes": 2612,
+        "reposts": 246,
+        "replies": 375,
+        "views": 301782,
+        "capturedAt": "2026-10-31T11:36:00Z"
+      },
+      "care": 3,
+      "proof": 5,
+      "imageHint": "https://x.com/AnthropicAI/status/2116349211549843666",
+      "firstSeen": "2026-10-31"
+    },
+    {
+      "id": "openai-funding-round-falls-short",
+      "lens": "broad",
+      "topic": "openai-funding-round",
+      "summary": "OpenAI has secured about $11 billion in commitments for a funding round it hoped would raise $30 billion, the Wall Street Journal reported; the Financial Times reported the target was cut to about $20 billion at a $1.25 trillion valuation, down from $30 billion at $1.4 trillion.",
+      "facts": [
+        "WSJ headline: 'OpenAI raises less than half of $30B target' (paywalled; facts here are as relayed in posts citing WSJ and FT).",
+        "Per FT as relayed on X: the first close may come in under $20 billion after some investors reduced their allocations.",
+        "Hacker News: 154 points at read time.",
+        "publishedAt is the time of the earliest relay seen on X (@StockMKTNewz); the WSJ article's own timestamp was not read."
+      ],
+      "source": {
+        "name": "The Wall Street Journal",
+        "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50312922"
+        },
+        {
+          "name": "@StockMKTNewz relaying FT",
+          "url": "https://x.com/StockMKTNewz/status/2116339403589116028"
+        },
+        {
+          "name": "@edzitron on the round",
+          "url": "https://x.com/edzitron/status/2116362256065999134"
+        }
+      ],
+      "publishedAt": "2026-10-31T01:20:08Z",
+      "metrics": {
+        "points": 154,
+        "capturedAt": "2026-10-31T11:34:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-10-31"
+    },
+    {
+      "id": "muse-agent-small-claims-settlement",
+      "lens": "broad",
+      "topic": "muse-personal-agent",
+      "summary": "Phillip Jackson (@philwinkle) says he used Meta's Muse agent to file a small-claims suit; the company offered a settlement within 20 minutes of being served and paid within ten days, and Muse filed the motion to dismiss, which the court accepted.",
+      "facts": [
+        "He says the company offered a settlement within 20 minutes of being served.",
+        "He says he was paid within ten days 'with additional compensation', and Muse filed the motion to dismiss, which the court accepted.",
+        "Firsthand account with screenshots; the court and defendant were not independently checked in this run."
+      ],
+      "source": {
+        "name": "Phillip Jackson on X",
+        "url": "https://x.com/philwinkle/status/2116180121447014434",
+        "type": "x",
+        "handle": "philwinkle"
+      },
+      "publishedAt": "2026-10-30T14:47:12Z",
+      "metrics": {
+        "likes": 4300,
+        "reposts": 141,
+        "replies": 154,
+        "views": 609232,
+        "capturedAt": "2026-10-31T11:40:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/philwinkle/status/2116180121447014434",
+      "firstSeen": "2026-10-31"
+    },
+    {
+      "id": "vitalik-digital-minimalism",
+      "lens": "frontier-capital",
+      "topic": "vitalik-digital-minimalism",
+      "summary": "Vitalik Buterin published 'Digital minimalism', arguing for making each use of digital technology a conscious choice and describing his own experiments, including posting to X through the Firefly multi-client instead of the X interface.",
+      "facts": [
+        "Defines digital minimalism as 'being intentional about ways that you access digital technology, making each use a conscious choice rather than something that you get sucked into by default.'",
+        "He 'did not leave X the platform' but 'did leave X the interface', using Firefly, which posts to X, Bluesky, Farcaster and Lens.",
+        "He says he feels 'much better' using Firefly and notes it is missing 'one central part of the X interface: The Algorithm™'."
+      ],
+      "source": {
+        "name": "Vitalik Buterin's blog",
+        "url": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "@VitalikButerin post",
+          "url": "https://x.com/VitalikButerin/status/2116368336842100913"
+        }
+      ],
+      "publishedAt": "2026-10-31T03:15:06Z",
+      "metrics": {
+        "likes": 2431,
+        "reposts": 276,
+        "replies": 334,
+        "views": 436166,
+        "capturedAt": "2026-10-31T11:36:00Z"
+      },
+      "care": 2,
+      "proof": 4,
+      "firstSeen": "2026-10-31"
+    },
+    {
+      "id": "mengto-opus-55-threejs-dnd-game",
+      "lens": "design",
+      "topic": "mengto-ai-game-master",
+      "summary": "Designer Meng To posted another gameplay trailer of his AI game-master D&D game, saying it was made with Claude Opus 5.5 and is all three.js.",
+      "facts": [
+        "Follow-up post (Oct 31): another gameplay trailer 'made with Opus 5.5. All three.js.'",
+        "It quotes his Oct 29 post introducing the D&D game with AI as game master (2,953 likes at read time)."
+      ],
+      "source": {
+        "name": "Meng To on X",
+        "url": "https://x.com/MengTo/status/2116404959277433240",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "related": [
+        {
+          "name": "Original D&D demo",
+          "url": "https://x.com/MengTo/status/2115756268925448353"
+        }
+      ],
+      "publishedAt": "2026-10-31T05:40:37Z",
+      "metrics": {
+        "likes": 213,
+        "reposts": 9,
+        "replies": 19,
+        "views": 12331,
+        "capturedAt": "2026-10-31T11:36:00Z"
+      },
+      "care": 2,
+      "proof": 3,
+      "imageHint": "https://x.com/MengTo/status/2116404959277433240",
+      "firstSeen": "2026-10-31"
+    }
+  ]
+}
