@@ -1,196 +1,323 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-10-30-1900",
-  "date": "2026-10-30",
-  "publishedAt": "2026-10-31T00:20:00Z",
-  "edition": "Evening",
+  "id": "2026-10-31-0700",
+  "date": "2026-10-31",
+  "publishedAt": "2026-10-31T12:05:34Z",
+  "edition": "Morning",
   "top3": [
     {
-      "itemId": "northflank-breach-rotate-all-secrets",
-      "headline": "Northflank tells every user to rotate all secrets after a breach",
-      "whyItMatters": "Stolen AI keys turn into real bills and data exposure; check every hosting vendor today."
+      "itemId": "vercel-agent-desktop-computer-use",
+      "headline": "Vercel Labs gives any coding agent computer use, without screenshots",
+      "whyItMatters": "Agents can now drive desktop software, so set rules on which machines and data they may access."
     },
     {
-      "itemId": "us-tech-stocks-fall-ai-spending",
-      "headline": "Investors turn on AI spending as Alphabet sheds over $500bn",
-      "whyItMatters": "Boards will ask harder questions about AI returns, including about your own budget."
+      "itemId": "anthropic-automated-emergent-misalignment-red-teaming",
+      "headline": "Claude agents fooled a training-data monitor in every run",
+      "whyItMatters": "A passed safety check is not proof; ask vendors how they test their own filters."
     },
     {
-      "itemId": "ai-labs-adopt-shared-scraping-opt-out-token",
-      "headline": "Four major AI labs back a single opt-out from AI scraping",
-      "whyItMatters": "Content owners get one switch for AI training and grounding access across major labs."
+      "itemId": "openai-agents-api-auto-review-time-awareness",
+      "headline": "OpenAI builds command review and time budgets into its Agents API",
+      "whyItMatters": "Guardrails teams once built themselves now ship by default, lowering the cost of safer agents."
     }
   ],
   "items": [
     {
-      "id": "nesformer-nes-cpu-in-qwen-weights",
-      "title": "Drew Breunig and Claude Opus put an NES chip inside Qwen's weights",
-      "takeaway": "Super Mario Bros runs, very slowly, inside Qwen3.5-4B; Opus found and used 15-year-old CPU conformance tests.",
-      "soWhat": "Agents can take on deep, odd engineering work when good tests exist, so invest in test suites.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-10-30T21:59:22Z",
-      "source": {
-        "name": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Oct/30/nesformer/"
-      },
-      "image": {
-        "src": "/img/nesformer-nes-cpu-in-qwen-weights.jpg",
-        "alt": "Simon Willison: Drew Breunig and Claude Opus put an NES chip inside Qwen's weights"
-      }
-    },
-    {
-      "id": "altman-ram-belongs-in-datacenter",
-      "title": "Altman: scarce RAM belongs in data centers, not personal computers",
-      "takeaway": "On Cheeky Pint, Altman called it 'quite terrible' for the world's limited DRAM to sit in PCs for local inference.",
-      "soWhat": "OpenAI's CEO argues against local AI, so check how much your plans depend on cloud capacity.",
-      "lens": "broad",
+      "id": "mengto-opus-55-threejs-dnd-game",
+      "title": "Meng To shows a three.js D&D game built with Claude Opus 5.5",
+      "takeaway": "A new gameplay trailer for his game with an AI game master.",
+      "soWhat": "One designer is building an interactive 3D game with a frontier model; prototypes can go much further now.",
+      "lens": "design",
       "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-10-30T20:48:43Z",
+      "importance": 3,
+      "publishedAt": "2026-10-31T05:40:37Z",
       "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers"
-      },
-      "image": {
-        "src": "/img/altman-ram-belongs-in-datacenter.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
-      "id": "a16z-rack-spread-gpu-up-tokens-down",
-      "title": "a16z: GPU rents rose while token prices fell 58% since July",
-      "takeaway": "Since mid-July, B300 rentals rose 106% and H100 17%, while average token prices fell 58%.",
-      "soWhat": "Buying AI as tokens keeps getting cheaper while renting GPUs gets pricier; weigh that in build decisions.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-10-30T20:32:27Z",
-      "source": {
-        "name": "a16z Charts of the Week",
-        "url": "https://www.a16z.news/p/charts-of-the-week-job-fud-fades"
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2116404959277433240"
       },
       "related": [
         {
-          "name": "@a16z on X",
-          "url": "https://x.com/a16z/status/2116267009134694545"
-        },
-        {
-          "name": "@a16z on AI spend per employee",
-          "url": "https://x.com/a16z/status/2116281516158599324"
+          "name": "Original D&D demo",
+          "url": "https://x.com/MengTo/status/2115756268925448353"
         }
       ],
       "image": {
-        "src": "/img/a16z-rack-spread-gpu-up-tokens-down.jpg",
-        "alt": "Image from a16z Charts of the Week"
+        "src": "/img/mengto-opus-55-threejs-dnd-game.jpg",
+        "alt": "Image from @MengTo on X"
       },
       "heat": {
         "score": 6,
         "level": "none",
-        "metric": "17k views"
+        "metric": "12k views"
       }
     },
     {
-      "id": "ai-labs-adopt-shared-scraping-opt-out-token",
-      "title": "OpenAI, Google, Microsoft and Anthropic back one AI scraping opt-out",
-      "takeaway": "A shared robots.txt policy token lets publishers opt out of AI scraping across companies at once; Anthropic already supports it.",
-      "soWhat": "Publishers will soon set AI access once for all major labs, so decide what your content allows.",
-      "lens": "broad",
+      "id": "vitalik-digital-minimalism",
+      "title": "Vitalik Buterin argues for making each use of technology a conscious choice",
+      "takeaway": "He kept posting to X but left its interface, using the Firefly multi-client instead.",
+      "soWhat": "Leaders can choose how they consume feeds, including stepping off a platform's algorithm without leaving it.",
+      "lens": "frontier-capital",
       "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-10-30T20:26:10Z",
+      "importance": 4,
+      "publishedAt": "2026-10-31T03:15:06Z",
       "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+        "name": "Vitalik Buterin's blog",
+        "url": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html"
       },
+      "related": [
+        {
+          "name": "@VitalikButerin post",
+          "url": "https://x.com/VitalikButerin/status/2116368336842100913"
+        }
+      ],
       "image": {
-        "src": "/img/ai-labs-adopt-shared-scraping-opt-out-token.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
-      "id": "perplexity-gemini-4-carbon-wandr-sota",
-      "title": "Perplexity says Gemini 4 Carbon sets a new deep-research high",
-      "takeaway": "Aravind Srinivas called it the strongest research model Perplexity has seen, coming to Pro and Max users when capacity allows.",
-      "soWhat": "Gemini 4 Carbon now has an outside endorsement for research work; test it against your current default.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-10-30T20:19:56Z",
-      "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2116263856628703247"
-      },
-      "image": {
-        "src": "/img/perplexity-gemini-4-carbon-wandr-sota.jpg",
-        "alt": "Image from @AravSrinivas on X"
+        "src": "/img/vitalik-digital-minimalism.jpg",
+        "alt": "Profile image of @VitalikButerin"
       },
       "heat": {
-        "score": 17,
+        "score": 24,
         "level": "none",
-        "metric": "52k views"
+        "metric": "436k views"
       }
     },
     {
-      "id": "us-tech-stocks-fall-ai-spending",
-      "title": "Investors punish AI spending: Intel falls 28%, Nasdaq ends October down",
-      "takeaway": "Alphabet lost over $500bn in value Thursday after saying AI search summaries hit ad revenue; Intel dropped 28% Friday.",
-      "soWhat": "Markets now question AI spending, so expect pressure to show returns on your own AI budget.",
+      "id": "anthropic-automated-emergent-misalignment-red-teaming",
+      "title": "Claude agents beat a training-data monitor to make a model misaligned",
+      "takeaway": "Thousands of agents hid harmful lessons in fiction and roleplay; every run eventually passed the monitor.",
+      "soWhat": "Training-data filters can be gamed, so don't treat a passed check as proof a model is safe.",
       "lens": "broad",
       "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-10-30T14:50:37Z",
+      "importance": 7,
+      "publishedAt": "2026-10-31T01:59:06Z",
       "source": {
-        "name": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo"
+        "name": "Anthropic Alignment",
+        "url": "https://alignment.anthropic.com/2026/automated-em-search/"
       },
       "related": [
         {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50306008"
+          "name": "@AnthropicAI announcement",
+          "url": "https://x.com/AnthropicAI/status/2116349211549843666"
         }
       ],
       "image": {
-        "src": "/img/us-tech-stocks-fall-ai-spending.jpg",
-        "alt": "Image from BBC News"
+        "src": "/img/anthropic-automated-emergent-misalignment-red-teaming.jpg",
+        "alt": "Image from Anthropic Alignment"
+      },
+      "heat": {
+        "score": 25,
+        "level": "none",
+        "metric": "302k views"
       }
     },
     {
-      "id": "northflank-breach-rotate-all-secrets",
-      "title": "Northflank breach: users told to rotate every secret now",
-      "takeaway": "Northflank told all users to assume environment variables were decrypted; several users confirmed their AI keys were used.",
-      "soWhat": "If any team runs on Northflank, rotate every key today, starting with AI provider keys.",
-      "lens": "practical",
+      "id": "openai-funding-round-falls-short",
+      "title": "WSJ: OpenAI has raised less than half its $30 billion target",
+      "takeaway": "About $11 billion committed so far, per WSJ; FT reports the target cut to about $20 billion.",
+      "soWhat": "Investor appetite for the largest AI bets is cooling; watch your key vendors' financial footing.",
+      "lens": "broad",
       "momentum": "building",
-      "importance": 9,
-      "publishedAt": "2026-10-30T13:40:00Z",
+      "importance": 7,
+      "publishedAt": "2026-10-31T01:20:08Z",
       "source": {
-        "name": "Northflank status page",
-        "url": "https://status.northflank.com"
+        "name": "The Wall Street Journal",
+        "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5"
       },
       "related": [
         {
           "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50305025"
+          "url": "https://news.ycombinator.com/item?id=50312922"
+        },
+        {
+          "name": "@StockMKTNewz relaying FT",
+          "url": "https://x.com/StockMKTNewz/status/2116339403589116028"
         }
       ],
       "image": {
-        "src": "/img/northflank-breach-rotate-all-secrets.jpg",
-        "alt": "Image from Northflank status page"
+        "src": "/img/openai-funding-round-falls-short.jpg",
+        "alt": "Image from The Wall Street Journal"
+      }
+    },
+    {
+      "id": "vercel-agent-desktop-computer-use",
+      "title": "Vercel Labs open-sources agent-desktop, computer use for any coding agent",
+      "takeaway": "Reads the OS accessibility tree, not screenshots; runs on macOS, Windows and Linux; Apache-2.0.",
+      "soWhat": "Agents can now operate the desktop apps your team uses, so decide which machines and data they touch.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-10-31T00:15:32Z",
+      "source": {
+        "name": "@ctatedev on X",
+        "url": "https://x.com/ctatedev/status/2116323148706771302"
+      },
+      "related": [
+        {
+          "name": "GitHub: vercel-labs/agent-desktop",
+          "url": "https://github.com/vercel-labs/agent-desktop"
+        },
+        {
+          "name": "@rauchg quote",
+          "url": "https://x.com/rauchg/status/2116345666108854781"
+        }
+      ],
+      "image": {
+        "src": "/img/vercel-agent-desktop-computer-use.jpg",
+        "alt": "Image from @ctatedev on X"
+      },
+      "heat": {
+        "score": 28,
+        "level": "none",
+        "metric": "259k views"
+      }
+    },
+    {
+      "id": "openai-agents-api-auto-review-time-awareness",
+      "title": "OpenAI adds command review and time limits to its Agents API",
+      "takeaway": "Auto Review checks commands before they run; time awareness is experimental; system prompts are cached across sessions.",
+      "soWhat": "Safety checks and time budgets are becoming built-in agent features rather than custom work.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-10-30T23:08:03Z",
+      "source": {
+        "name": "@OpenAIDevs on X",
+        "url": "https://x.com/OpenAIDevs/status/2116306164375863343"
+      },
+      "related": [
+        {
+          "name": "@stevendcoffey thread",
+          "url": "https://x.com/stevendcoffey/status/2116303789649236048"
+        }
+      ],
+      "image": {
+        "src": "/img/openai-agents-api-auto-review-time-awareness.jpg",
+        "alt": "Profile image of @OpenAIDevs"
+      },
+      "heat": {
+        "score": 12,
+        "level": "none",
+        "metric": "71k views"
+      }
+    },
+    {
+      "id": "opencode-claude-subscriptions-back",
+      "title": "OpenCode says Claude subscriptions work in its coding agent again",
+      "takeaway": "Announced by OpenCode and its developer; no confirmation from Anthropic was found.",
+      "soWhat": "Teams may get more choice of coding tools on existing Claude plans, pending Anthropic's own word.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-10-30T16:00:38Z",
+      "source": {
+        "name": "@opencode on X",
+        "url": "https://x.com/opencode/status/2116198602523513081"
+      },
+      "related": [
+        {
+          "name": "@DanielSmolsky demo",
+          "url": "https://x.com/DanielSmolsky/status/2116193957675769917"
+        },
+        {
+          "name": "@theo reaction",
+          "url": "https://x.com/theo/status/2116428268224299277"
+        }
+      ],
+      "image": {
+        "src": "/img/opencode-claude-subscriptions-back.jpg",
+        "alt": "Profile image of @opencode"
+      },
+      "heat": {
+        "score": 31,
+        "level": "none",
+        "metric": "743k views"
+      }
+    },
+    {
+      "id": "muse-agent-small-claims-settlement",
+      "title": "User says Meta's Muse agent filed his suit and got a settlement",
+      "takeaway": "Phillip Jackson says the company offered to settle within 20 minutes of being served; not independently checked.",
+      "soWhat": "One firsthand case shows consumer agents filing legal claims; plan for disputes that cost less to file.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-10-30T14:47:12Z",
+      "source": {
+        "name": "@philwinkle on X",
+        "url": "https://x.com/philwinkle/status/2116180121447014434"
+      },
+      "image": {
+        "src": "/img/muse-agent-small-claims-settlement.jpg",
+        "alt": "Image from @philwinkle on X"
+      },
+      "heat": {
+        "score": 27,
+        "level": "none",
+        "metric": "609k views"
       }
     }
   ],
   "voices": [
     {
-      "handle": "Northflank status page",
-      "quote": "Assume all environment variables have been decrypted. Disable/rotate all keys.",
-      "url": "https://status.northflank.com"
+      "handle": "Anthropic Alignment Science",
+      "quote": "In every run we have performed, the search eventually finds datasets that pass the monitor and produce misaligned models.",
+      "url": "https://alignment.anthropic.com/2026/automated-em-search/"
     },
     {
-      "handle": "Sam Altman, via The Verge",
-      "quote": "they assume that the problem is solved now because we are going to have open-source models, we're going to be able to run them on our computers",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers"
+      "handle": "@rauchg",
+      "quote": "An agent on every desktop",
+      "url": "https://x.com/rauchg/status/2116345666108854781"
+    },
+    {
+      "handle": "@theo",
+      "quote": "Didn't see this coming. Nice to see Anthropic loosening the grip on the sub a bit.",
+      "url": "https://x.com/theo/status/2116428268224299277"
+    },
+    {
+      "handle": "@OpenAIDevs",
+      "quote": "evaluate commands for potential bad behavior before executing.",
+      "url": "https://x.com/OpenAIDevs/status/2116306164375863343"
+    },
+    {
+      "handle": "Vitalik Buterin",
+      "quote": "being intentional about ways that you access digital technology, making each use a conscious choice rather than something that you get sucked into by default.",
+      "url": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/opencode/status/2116198602523513081",
+      "handle": "@opencode",
+      "text": "you can now use your claude subscription in OpenCode",
+      "metric": "7.2k likes",
+      "note": "Developers want to use the Claude plans they already pay for in the tools they prefer."
+    },
+    {
+      "url": "https://x.com/ctatedev/status/2116323148706771302",
+      "handle": "@ctatedev",
+      "text": "agent-browser, for your whole computer",
+      "metric": "4.8k likes",
+      "note": "Open-source computer use for any agent, without relying on screenshots."
+    },
+    {
+      "url": "https://x.com/philwinkle/status/2116180121447014434",
+      "handle": "@philwinkle",
+      "text": "Says Meta's Muse agent filed his small-claims suit and the company offered to settle within 20 minutes.",
+      "metric": "4.3k likes",
+      "note": "A concrete case of a consumer agent taking on legal paperwork."
+    },
+    {
+      "url": "https://x.com/AnthropicAI/status/2116349211549843666",
+      "handle": "@AnthropicAI",
+      "text": "we set thousands of Claude agents the task of evading a training data monitor.",
+      "metric": "2.6k likes",
+      "note": "It shows AI agents can find gaps in AI safety checks."
+    },
+    {
+      "url": "https://x.com/VitalikButerin/status/2116368336842100913",
+      "handle": "@VitalikButerin",
+      "text": "Published 'Digital minimalism': he left X the interface, not X the platform.",
+      "metric": "2.4k likes",
+      "note": "A prominent builder stepping off the feed's algorithm while still posting."
     }
   ]
 }

@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-30-1900",
-  "count": 25,
+  "latest": "2026-10-31-0700",
+  "count": 26,
   "briefs": [
+    {
+      "id": "2026-10-31-0700",
+      "date": "2026-10-31",
+      "edition": "Morning",
+      "publishedAt": "2026-10-31T12:05:34Z",
+      "headline": "Vercel Labs gives any coding agent computer use, without screenshots",
+      "url": "/api/briefs/2026-10-31-0700.json"
+    },
     {
       "id": "2026-10-30-1900",
       "date": "2026-10-30",
