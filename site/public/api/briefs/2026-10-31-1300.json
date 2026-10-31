@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-10-31-1300",
+  "date": "2026-10-31",
+  "publishedAt": "2026-10-31T18:05:49Z",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "chatgpt-share-link-account-takeover",
+      "headline": "Opening one shared ChatGPT link could leak a user's private chats",
+      "whyItMatters": "AI chat histories hold company secrets, so treat them as sensitive data and limit shared links."
+    },
+    {
+      "itemId": "deepmind-planassist-uk-councils",
+      "headline": "DeepMind's planning assistant cut officer time 58% and now expands",
+      "whyItMatters": "A measured public-sector win on routine casework shows where agents pay off first."
+    },
+    {
+      "itemId": "hwchase17-context-engineering-late-2026",
+      "headline": "Harrison Chase: agent design has converged, context problems have not",
+      "whyItMatters": "The edge is moving from agent architecture to how teams manage what agents see."
+    }
+  ],
+  "items": [
+    {
+      "id": "poteto-grok-bot-team-guide",
+      "title": "poteto: a few well-onboarded bots beat a large team",
+      "takeaway": "Give bots tools, onboard them like an intern, and have them write their own skills.",
+      "soWhat": "Treat agents like new hires: brief them well and have them write down how they work.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-10-31T17:01:00Z",
+      "source": {
+        "name": "@poteto on X",
+        "url": "https://x.com/poteto/status/2116576229319233596"
+      },
+      "image": {
+        "src": "/img/poteto-grok-bot-team-guide.jpg",
+        "alt": "Image from @poteto on X"
+      },
+      "heat": {
+        "score": 18,
+        "level": "none",
+        "metric": "32k views"
+      }
+    },
+    {
+      "id": "hwchase17-context-engineering-late-2026",
+      "title": "Harrison Chase maps new context engineering challenges for agents",
+      "takeaway": "He argues teams have converged on one agent architecture while new context problems emerge.",
+      "soWhat": "Competitive advantage is shifting from agent design to managing what agents see and remember.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-10-31T15:31:00Z",
+      "source": {
+        "name": "@hwchase17 on X",
+        "url": "https://x.com/hwchase17/status/2116553654857867330"
+      },
+      "image": {
+        "src": "/img/hwchase17-context-engineering-late-2026.jpg",
+        "alt": "Profile image of @hwchase17"
+      },
+      "heat": {
+        "score": 8,
+        "level": "none",
+        "metric": "9k views"
+      }
+    },
+    {
+      "id": "deepmind-planassist-uk-councils",
+      "title": "DeepMind extends its planning assistant to 12 more English councils",
+      "takeaway": "Pilots in three councils cut officer time on householder assessments by 58%; officers keep the decision.",
+      "soWhat": "Routine, rule-heavy casework is where agents show measurable gains first, with humans signing off.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-10-31T13:33:00Z",
+      "source": {
+        "name": "Google DeepMind blog",
+        "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
+      },
+      "related": [
+        {
+          "name": "@GoogleDeepMind on X",
+          "url": "https://x.com/GoogleDeepMind/status/2116524000977285321"
+        }
+      ],
+      "image": {
+        "src": "/img/deepmind-planassist-uk-councils.jpg",
+        "alt": "Image from Google DeepMind blog"
+      },
+      "heat": {
+        "score": 15,
+        "level": "none",
+        "metric": "46k views"
+      }
+    },
+    {
+      "id": "rubenhassid-claude-code-remake-prompt",
+      "title": "Ruben Hassid shares a Claude Code prompt to rebuild a reference site",
+      "takeaway": "A /goal prompt points Claude Code at his public remake repo; the repo was not independently tested.",
+      "soWhat": "Copying a site's look is becoming a single prompt, so differentiate on substance, not surface.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 3,
+      "publishedAt": "2026-10-31T12:00:00Z",
+      "source": {
+        "name": "@rubenhassid on X",
+        "url": "https://x.com/rubenhassid/status/2116500437398352377"
+      },
+      "related": [
+        {
+          "name": "Ruben Hassid guide",
+          "url": "https://ruben.substack.com/p/claude-jacking"
+        }
+      ],
+      "image": {
+        "src": "/img/rubenhassid-claude-code-remake-prompt.jpg",
+        "alt": "Image from @rubenhassid on X"
+      },
+      "heat": {
+        "score": 1,
+        "level": "none",
+        "metric": "7k views"
+      }
+    },
+    {
+      "id": "chatgpt-share-link-account-takeover",
+      "title": "Opening a shared ChatGPT link could leak a user's private chats",
+      "takeaway": "Parameter Labs found the flaw; OpenAI fixed it on Oct 26 and rated it P1.",
+      "soWhat": "AI chat histories hold company secrets, so treat them as sensitive data and limit shared links.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-10-28T00:00:00Z",
+      "source": {
+        "name": "Parameter Labs",
+        "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50314699"
+        }
+      ],
+      "image": {
+        "src": "/img/chatgpt-share-link-account-takeover.jpg",
+        "alt": "Image from Parameter Labs"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@hwchase17",
+      "quote": "It feels like everyone is converging on the same agent architecture: an LLM, running in a loop, calling tools, running in a sandbox.",
+      "url": "https://x.com/hwchase17/status/2116553654857867330"
+    },
+    {
+      "handle": "@poteto",
+      "quote": "you don’t need a lot of bots. a few good bots can be more useful and easier to manage than a large team",
+      "url": "https://x.com/poteto/status/2116576229319233596"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/poteto/status/2116576229319233596",
+      "handle": "@poteto",
+      "text": "you don’t need a lot of bots. a few good bots can be more useful and easier to manage than a large team",
+      "metric": "918 likes",
+      "note": "A practical playbook for running a small team of AI agents, saved by over 1,200 people."
+    },
+    {
+      "url": "https://x.com/GoogleDeepMind/status/2116524000977285321",
+      "handle": "@GoogleDeepMind",
+      "text": "PlanAssist, which cut planners' time on householder assessments by 58% in pilots, expands to 12 more authorities.",
+      "metric": "573 likes",
+      "note": "A rare measured result for AI in government casework."
+    },
+    {
+      "url": "https://x.com/hwchase17/status/2116553654857867330",
+      "handle": "@hwchase17",
+      "text": "New context engineering challenges in late 2026",
+      "metric": "169 likes",
+      "note": "Builders debate whether agent engineering is solved or just entering a new phase."
+    },
+    {
+      "url": "https://x.com/rubenhassid/status/2116500437398352377",
+      "handle": "@rubenhassid",
+      "text": "A Claude Code /goal prompt that remakes a chosen website using his public remake repo.",
+      "metric": "82 likes",
+      "note": "People want one-prompt ways to clone a site's design."
+    }
+  ]
+}

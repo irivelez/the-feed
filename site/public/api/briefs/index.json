@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-10-31-0700",
-  "count": 26,
+  "latest": "2026-10-31-1300",
+  "count": 27,
   "briefs": [
+    {
+      "id": "2026-10-31-1300",
+      "date": "2026-10-31",
+      "edition": "Midday",
+      "publishedAt": "2026-10-31T18:05:49Z",
+      "headline": "Opening one shared ChatGPT link could leak a user's private chats",
+      "url": "/api/briefs/2026-10-31-1300.json"
+    },
     {
       "id": "2026-10-31-0700",
       "date": "2026-10-31",
