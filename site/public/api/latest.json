@@ -1,196 +1,212 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-10-31-1300",
+  "id": "2026-10-31-1900",
   "date": "2026-10-31",
-  "publishedAt": "2026-10-31T18:05:49Z",
-  "edition": "Midday",
+  "publishedAt": "2026-11-01T00:07:54Z",
+  "edition": "Evening",
   "top3": [
     {
-      "itemId": "chatgpt-share-link-account-takeover",
-      "headline": "Opening one shared ChatGPT link could leak a user's private chats",
-      "whyItMatters": "AI chat histories hold company secrets, so treat them as sensitive data and limit shared links."
+      "itemId": "karpathy-hackertube-opus-build",
+      "headline": "Karpathy built a full video site with Opus in about two hours",
+      "whyItMatters": "Small internal tools that once took a team sprint can now be a weekend task."
     },
     {
-      "itemId": "deepmind-planassist-uk-councils",
-      "headline": "DeepMind's planning assistant cut officer time 58% and now expands",
-      "whyItMatters": "A measured public-sector win on routine casework shows where agents pay off first."
+      "itemId": "patrickc-liquid-software-improvements-box",
+      "headline": "Patrick Collison lets app users request changes an agent then builds",
+      "whyItMatters": "Software that users can reshape on request raises new questions about security and upkeep."
     },
     {
-      "itemId": "hwchase17-context-engineering-late-2026",
-      "headline": "Harrison Chase: agent design has converged, context problems have not",
-      "whyItMatters": "The edge is moving from agent architecture to how teams manage what agents see."
+      "itemId": "anthropic-messages-api-rust-rewrite-claude",
+      "headline": "Anthropic rebuilt its Messages API in Rust, with Claude writing the code",
+      "whyItMatters": "A core production system was rewritten by AI, with humans owning plan, architecture and checks."
     }
   ],
   "items": [
     {
-      "id": "poteto-grok-bot-team-guide",
-      "title": "poteto: a few well-onboarded bots beat a large team",
-      "takeaway": "Give bots tools, onboard them like an intern, and have them write their own skills.",
-      "soWhat": "Treat agents like new hires: brief them well and have them write down how they work.",
+      "id": "swyx-low-effort-critique-loop-babysit-runs",
+      "title": "swyx: low reasoning effort plus a critique loop beats max effort",
+      "takeaway": "For throughput-bound work, run cheaper settings and check outputs with a stronger model.",
+      "soWhat": "Unattended agent runs need quality spot-checks, since valid output formats do not prove good work.",
       "lens": "practical",
       "momentum": "new",
       "importance": 5,
-      "publishedAt": "2026-10-31T17:01:00Z",
+      "publishedAt": "2026-10-31T21:24:52Z",
       "source": {
-        "name": "@poteto on X",
-        "url": "https://x.com/poteto/status/2116576229319233596"
+        "name": "swyxio/skills on GitHub",
+        "url": "https://github.com/swyxio/skills/tree/main/babysit-runs"
+      },
+      "related": [
+        {
+          "name": "@swyx on X",
+          "url": "https://x.com/swyx/status/2116642586387730593"
+        }
+      ],
+      "image": {
+        "src": "/img/swyx-low-effort-critique-loop-babysit-runs.jpg",
+        "alt": "Image from swyxio/skills on GitHub"
+      },
+      "heat": {
+        "score": 3,
+        "level": "none",
+        "metric": "5k views"
+      }
+    },
+    {
+      "id": "patrickc-liquid-software-improvements-box",
+      "title": "Patrick Collison lets app users request changes an agent then builds",
+      "takeaway": "One user of his personal apps shipped 150 improvements in a few days through an agent-backed box.",
+      "soWhat": "Expect users to want software they can change themselves, and plan for the security and upkeep cost.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-10-31T21:02:32Z",
+      "source": {
+        "name": "@patrickc on X",
+        "url": "https://x.com/patrickc/status/2116636967517798672"
       },
       "image": {
-        "src": "/img/poteto-grok-bot-team-guide.jpg",
-        "alt": "Image from @poteto on X"
+        "src": "/img/patrickc-liquid-software-improvements-box.jpg",
+        "alt": "Image from @patrickc on X"
       },
       "heat": {
         "score": 18,
         "level": "none",
-        "metric": "32k views"
+        "metric": "69k views"
       }
     },
     {
-      "id": "hwchase17-context-engineering-late-2026",
-      "title": "Harrison Chase maps new context engineering challenges for agents",
-      "takeaway": "He argues teams have converged on one agent architecture while new context problems emerge.",
-      "soWhat": "Competitive advantage is shifting from agent design to managing what agents see and remember.",
-      "lens": "practical",
+      "id": "kunchenguid-chat-wrong-ux-for-creating",
+      "title": "Kun Chen: chatting with agents is the wrong way to create",
+      "takeaway": "His son prefers drawing and recording by hand, disliking the wait and not feeling ownership.",
+      "soWhat": "Chat boxes may limit adoption when people want to feel the work is theirs.",
+      "lens": "design",
       "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-10-31T15:31:00Z",
+      "importance": 4,
+      "publishedAt": "2026-10-31T18:34:02Z",
       "source": {
-        "name": "@hwchase17 on X",
-        "url": "https://x.com/hwchase17/status/2116553654857867330"
+        "name": "@kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2116599592703918305"
       },
       "image": {
-        "src": "/img/hwchase17-context-engineering-late-2026.jpg",
-        "alt": "Profile image of @hwchase17"
+        "src": "/img/kunchenguid-chat-wrong-ux-for-creating.jpg",
+        "alt": "Profile image of @kunchenguid"
       },
       "heat": {
-        "score": 8,
+        "score": 12,
         "level": "none",
-        "metric": "9k views"
+        "metric": "25k views"
       }
     },
     {
-      "id": "deepmind-planassist-uk-councils",
-      "title": "DeepMind extends its planning assistant to 12 more English councils",
-      "takeaway": "Pilots in three councils cut officer time on householder assessments by 58%; officers keep the decision.",
-      "soWhat": "Routine, rule-heavy casework is where agents show measurable gains first, with humans signing off.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-10-31T13:33:00Z",
-      "source": {
-        "name": "Google DeepMind blog",
-        "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
-      },
-      "related": [
-        {
-          "name": "@GoogleDeepMind on X",
-          "url": "https://x.com/GoogleDeepMind/status/2116524000977285321"
-        }
-      ],
-      "image": {
-        "src": "/img/deepmind-planassist-uk-councils.jpg",
-        "alt": "Image from Google DeepMind blog"
-      },
-      "heat": {
-        "score": 15,
-        "level": "none",
-        "metric": "46k views"
-      }
-    },
-    {
-      "id": "rubenhassid-claude-code-remake-prompt",
-      "title": "Ruben Hassid shares a Claude Code prompt to rebuild a reference site",
-      "takeaway": "A /goal prompt points Claude Code at his public remake repo; the repo was not independently tested.",
-      "soWhat": "Copying a site's look is becoming a single prompt, so differentiate on substance, not surface.",
+      "id": "karpathy-hackertube-opus-build",
+      "title": "Karpathy built a full video site with Opus in about two hours",
+      "takeaway": "HackerTube indexes 6,454 YouTube videos recommended in Hacker News comments from 2007 to 2026.",
+      "soWhat": "Data-heavy internal tools that once took a team sprint are now a two-hour build.",
       "lens": "practical",
       "momentum": "new",
-      "importance": 3,
-      "publishedAt": "2026-10-31T12:00:00Z",
-      "source": {
-        "name": "@rubenhassid on X",
-        "url": "https://x.com/rubenhassid/status/2116500437398352377"
-      },
-      "related": [
-        {
-          "name": "Ruben Hassid guide",
-          "url": "https://ruben.substack.com/p/claude-jacking"
-        }
-      ],
-      "image": {
-        "src": "/img/rubenhassid-claude-code-remake-prompt.jpg",
-        "alt": "Image from @rubenhassid on X"
-      },
-      "heat": {
-        "score": 1,
-        "level": "none",
-        "metric": "7k views"
-      }
-    },
-    {
-      "id": "chatgpt-share-link-account-takeover",
-      "title": "Opening a shared ChatGPT link could leak a user's private chats",
-      "takeaway": "Parameter Labs found the flaw; OpenAI fixed it on Oct 26 and rated it P1.",
-      "soWhat": "AI chat histories hold company secrets, so treat them as sensitive data and limit shared links.",
-      "lens": "practical",
-      "momentum": "building",
       "importance": 8,
-      "publishedAt": "2026-10-28T00:00:00Z",
+      "publishedAt": "2026-10-31T00:00:00Z",
       "source": {
-        "name": "Parameter Labs",
-        "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai"
+        "name": "karpathy blog",
+        "url": "https://karpathy.bearblog.dev/hacker-tube/"
       },
       "related": [
+        {
+          "name": "HackerTube",
+          "url": "https://hackertube.org"
+        },
         {
           "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50314699"
+          "url": "https://news.ycombinator.com/item?id=50319510"
         }
       ],
       "image": {
-        "src": "/img/chatgpt-share-link-account-takeover.jpg",
-        "alt": "Image from Parameter Labs"
+        "src": "/img/karpathy-hackertube-opus-build.jpg",
+        "alt": "karpathy blog: Karpathy built a full video site with Opus in about two hours"
+      }
+    },
+    {
+      "id": "anthropic-messages-api-rust-rewrite-claude",
+      "title": "Anthropic rebuilt its Messages API in Rust, with Claude writing the code",
+      "takeaway": "Platform lead Katelyn Lesse describes the Python-to-Rust rebuild on the Latent Space podcast.",
+      "soWhat": "AI can now rewrite core production systems when humans own the design and verification.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-10-30T23:05:31Z",
+      "source": {
+        "name": "Latent Space podcast",
+        "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands"
+      },
+      "related": [
+        {
+          "name": "@swyx on X",
+          "url": "https://x.com/swyx/status/2116305528330785190"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-messages-api-rust-rewrite-claude.jpg",
+        "alt": "Image from Latent Space podcast"
+      },
+      "heat": {
+        "score": 24,
+        "level": "none",
+        "metric": "230k views"
       }
     }
   ],
   "voices": [
     {
-      "handle": "@hwchase17",
-      "quote": "It feels like everyone is converging on the same agent architecture: an LLM, running in a loop, calling tools, running in a sandbox.",
-      "url": "https://x.com/hwchase17/status/2116553654857867330"
+      "handle": "@patrickc",
+      "quote": "This pattern feels like a new kind of tool -- liquid software? -- and every application that doesn't have this feature now has a slightly rigid and anachronistic flavor.",
+      "url": "https://x.com/patrickc/status/2116636967517798672"
     },
     {
-      "handle": "@poteto",
-      "quote": "you don’t need a lot of bots. a few good bots can be more useful and easier to manage than a large team",
-      "url": "https://x.com/poteto/status/2116576229319233596"
+      "handle": "@swyx",
+      "quote": "its true, Anthropic really vibecoded their entire backend to Rust and none of you noticed",
+      "url": "https://x.com/swyx/status/2116305528330785190"
+    },
+    {
+      "handle": "@kunchenguid",
+      "quote": "i'm now fully convinced that chatting with agents is absolutely the wrong UX",
+      "url": "https://x.com/kunchenguid/status/2116599592703918305"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/poteto/status/2116576229319233596",
-      "handle": "@poteto",
-      "text": "you don’t need a lot of bots. a few good bots can be more useful and easier to manage than a large team",
-      "metric": "918 likes",
-      "note": "A practical playbook for running a small team of AI agents, saved by over 1,200 people."
+      "url": "https://x.com/swyx/status/2116305528330785190",
+      "handle": "@swyx",
+      "text": "its true, Anthropic really vibecoded their entire backend to Rust and none of you noticed",
+      "metric": "2.6k likes",
+      "note": "People are surprised a top lab let AI rewrite a core production API."
     },
     {
-      "url": "https://x.com/GoogleDeepMind/status/2116524000977285321",
-      "handle": "@GoogleDeepMind",
-      "text": "PlanAssist, which cut planners' time on householder assessments by 58% in pilots, expands to 12 more authorities.",
-      "metric": "573 likes",
-      "note": "A rare measured result for AI in government casework."
+      "url": "https://x.com/patrickc/status/2116636967517798672",
+      "handle": "@patrickc",
+      "text": "An 'improvements' box in his apps: users type a change and an agent implements it. One user shipped 150.",
+      "metric": "1.2k likes",
+      "note": "A concrete picture of software users can reshape themselves."
     },
     {
-      "url": "https://x.com/hwchase17/status/2116553654857867330",
-      "handle": "@hwchase17",
-      "text": "New context engineering challenges in late 2026",
-      "metric": "169 likes",
-      "note": "Builders debate whether agent engineering is solved or just entering a new phase."
+      "url": "https://x.com/kunchenguid/status/2116599592703918305",
+      "handle": "@kunchenguid",
+      "text": "i'm now fully convinced that chatting with agents is absolutely the wrong UX",
+      "metric": "410 likes",
+      "note": "Many builders share doubts that chat is the right interface for creating."
     },
     {
-      "url": "https://x.com/rubenhassid/status/2116500437398352377",
-      "handle": "@rubenhassid",
-      "text": "A Claude Code /goal prompt that remakes a chosen website using his public remake repo.",
-      "metric": "82 likes",
-      "note": "People want one-prompt ways to clone a site's design."
+      "url": "https://x.com/a16z/status/2116598588172374141",
+      "handle": "@a16z",
+      "text": "Cheaper tokens don't mean cheaper bills. Since May: token prices down 67%; token spend up more than 120%.",
+      "metric": "177 likes",
+      "note": "AI bills keep rising even as unit prices fall."
+    },
+    {
+      "url": "https://x.com/kloss_xyz/status/2116602089166319806",
+      "handle": "@kloss_xyz",
+      "text": "I just ran this on 60+ skills across my Grok Bot, Claude, and Codex. Not a single one passed as-is.",
+      "metric": "147 likes",
+      "note": "Teams suspect their agent skills quietly rot without audits."
     }
   ]
 }
