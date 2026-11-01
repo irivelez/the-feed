@@ -1,0 +1,229 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-01-0640",
+  "generatedAt": "2026-11-01T11:42:00Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-10-31T23:30:00Z",
+    "to": "2026-11-01T11:40:00Z"
+  },
+  "sourceNotes": [
+    "Window 23:30Z Oct 31 to 11:40Z Nov 1 (since the 18:30 run). Quiet Sunday morning: 6 candidates; broad lens has 1 new item and frontier-capital none, so Editor will need earlier files for per-lens minimums.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returned HTTP 500 again; config URL likely needs updating.",
+    "RSS new items: only Simon Willison linking the ChatGPT share-link takeover write-up (topic chatgpt-share-takeover, already in 2026-10-31-1236). No new items from other feeds.",
+    "arXiv: cs.MA RSS empty (weekend, no announcement batch).",
+    "Hacker News >=200 points: Memdoor used; HackerTube (covered), Linux TCP CVE (not AI), others off-topic. Below threshold and not used: 'ChatGPT and Codex usage limits merging' (155 pts; help.openai.com blocked our fetch with 403 and no OpenAI post found on X), 'Brazilian court sanctions lawyers for prompt injection in court filing' (147 pts, Latin America plus agent security; worth a look if it crosses 200).",
+    "X howTo lane not used: @kloss_xyz 5-step pstack guide (pstack covered earlier), @rubenhassid Claude masterclass promo, @theo image and link-only posts, @ThePrimeagen, @GeoffreyHuntley, @systematicls and @jxnlco off-topic posts.",
+    "X bigPicture lane: @alexandr_wang and @sundarpichai off-topic or image-only; @beffjezos opinion one-liners (incl. a call for ~$10B/yr in alternative computing substrate research, no data); @nikitabier drone post (not AI); @rauchg image only.",
+    "X frontierCapital lane: only @RayDalio principle of the day. Design lane: @MengTo used.",
+    "X queries lane: low-follower promos; claim that Agent SDK use outside Claude Code is charged 1.6x-2.3x on 5h limits (@thegenioo) has no primary source.",
+    "X news also showed: AI stock selloff incl. Shanghai STAR 50 down ~40% from July peak (secondhand, AI-capex topic covered Oct 30-31), Basmajian productivity chart (secondhand), Altman visit to Samsung (secondhand), Claude self-assessment backlash (topic covered Oct 30), shared AI-training opt-out (covered Oct 30), AI art authenticity debates; none used.",
+    "Replies checked on @mattpocockuk, @kunchenguid and @MengTo posts: none cleared the reply filter (all under 5 likes).",
+    "authorBaseline not filled this run. X calls this run: 10."
+  ],
+  "candidates": [
+    {
+      "id": "memdoor-team-solve-qwen-livecodebench",
+      "lens": "practical",
+      "topic": "memdoor-team-solve",
+      "summary": "Memdoor, an open-source single-binary coding agent, published a 'team-solve' workflow where five Qwen3.8-27B agents (planner, two ideators, solver, manager, plus a repair worker) solve programming problems by talking only through files on disk; on the first ten LiveCodeBench Hard problems it scored a mean 9.8 of 10 over five passes, versus 9.6 for the original GVS5H harness and 8.0 for Fable 5 in a single call.",
+      "facts": [
+        "Each agent starts from a fresh context and communicates only through files; a script running the sample tests decides success, not a model.",
+        "The workflow is eight YAML files with no code and no model named; it rebuilds the method of GVS5H (Lee, 2026) with the authors' prompts, loop and 128K reply cap.",
+        "All 50 runs are published with every request, reply, program and grader output; median run took 40 minutes and $0.39, and the 50 runs cost $35.79.",
+        "The README states the limits: ten problems not the authors' 100, so 9.8 vs 9.6 is parity not a gain; contamination cannot be ruled out; the Fable 5 column was one call from the authors' files, not run in this harness.",
+        "Model ran on OpenRouter; the workflow can point at a local open-weight model.",
+        "Hacker News: 259 points (front page, Oct 31)."
+      ],
+      "source": {
+        "name": "Memdoor team-solve README (GitHub)",
+        "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+        "type": "hn"
+      },
+      "related": [
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50320995"
+        },
+        {
+          "name": "Memdoor result page",
+          "url": "https://memdoor.ai/docs/team-solve"
+        }
+      ],
+      "publishedAt": "2026-10-31T22:46:12Z",
+      "metrics": {
+        "points": 259,
+        "capturedAt": "2026-11-01T11:36:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-01"
+    },
+    {
+      "id": "mattpocock-sandcastle-v1-software-factory",
+      "lens": "practical",
+      "topic": "sandcastle-v1",
+      "summary": "Matt Pocock says he is reworking his open-source Sandcastle tool for v1 and floated a pitch: a 'software factory' with six built-in harnesses (Claude Code, Codex and others) or your own, integrations with sandbox providers (Daytona, Vercel, E2B), Inngest/Trigger.dev templates for durable runs, human-in-the-loop over Slack and Discord, and every skill in his repo exposed as an Agent() function such as CodeReview(), ImplementSpec() and Retro().",
+      "facts": [
+        "Posted as a draft pitch asking for feedback ('How does this sound as a pitch'), not a release.",
+        "Repliers pushed back that 'software factory' reads like a deck and suggested leading with the Agent()-per-skill idea; others raised default-deny egress for AFK runs and timeouts for Slack approvals."
+      ],
+      "source": {
+        "name": "Matt Pocock on X",
+        "url": "https://x.com/mattpocockuk/status/2116805878187794740",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-01T08:13:44Z",
+      "metrics": {
+        "likes": 496,
+        "reposts": 20,
+        "replies": 119,
+        "views": 32136,
+        "capturedAt": "2026-11-01T11:39:00Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-01"
+    },
+    {
+      "id": "kunchenguid-github-rate-limit-agents",
+      "lens": "practical",
+      "topic": "agent-scale-github-limits",
+      "summary": "Kun Chen reports that after removing code review and CI bottlenecks for his agent fleet, the next limit is GitHub's API rate limit of 5,000 requests per user per hour, which he says is not enough when one user means hundreds of agents working for a human.",
+      "facts": [
+        "Quote: 'TIL github limits 5000 request per user per hour. that's not enough when \"a user\" means \"hundreds of agents working for a human\"'.",
+        "GitHub's REST API docs set the primary rate limit for authenticated users at 5,000 requests per hour."
+      ],
+      "source": {
+        "name": "Kun Chen on X",
+        "url": "https://x.com/kunchenguid/status/2116770835944157243",
+        "type": "x",
+        "handle": "kunchenguid"
+      },
+      "related": [
+        {
+          "name": "GitHub REST API rate limits docs",
+          "url": "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api"
+        }
+      ],
+      "publishedAt": "2026-11-01T05:54:29Z",
+      "metrics": {
+        "likes": 147,
+        "reposts": 4,
+        "replies": 49,
+        "views": 14475,
+        "capturedAt": "2026-11-01T11:39:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-01"
+    },
+    {
+      "id": "karpathy-hackertube-medium-effort",
+      "lens": "practical",
+      "topic": "karpathy-hackertube",
+      "summary": "swyx points out that Andrej Karpathy used the 'medium' effort setting on Opus 5.5 for HackerTube, his project launched Oct 31, and argues effort-level choice is a matter of taste.",
+      "facts": [
+        "Quote: 'btw @karpathy uses medium on opus 5.5 on his latest project (Hackertube launched today).'",
+        "HackerTube is on the Hacker News front page with 1,431 points as of this run."
+      ],
+      "source": {
+        "name": "swyx on X",
+        "url": "https://x.com/swyx/status/2116773135668404286",
+        "type": "x",
+        "handle": "swyx"
+      },
+      "related": [
+        {
+          "name": "Karpathy: HackerTube",
+          "url": "https://karpathy.bearblog.dev/hacker-tube/"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50319510"
+        }
+      ],
+      "publishedAt": "2026-11-01T06:03:37Z",
+      "metrics": {
+        "likes": 365,
+        "reposts": 14,
+        "replies": 165,
+        "views": 32758,
+        "capturedAt": "2026-11-01T11:39:00Z"
+      },
+      "care": 2,
+      "proof": 3,
+      "firstSeen": "2026-10-31"
+    },
+    {
+      "id": "nvidia-seti-agentic-allen-telescope",
+      "lens": "broad",
+      "topic": "agentic-seti-telescope",
+      "summary": "NVIDIA, Breakthrough Listen and the SETI Institute say AI agents at the Allen Telescope Array in Northern California can now steer the instrument, calibrate it, correct incoming data and run models on the live stream from a single natural-language request.",
+      "facts": [
+        "Stack: NVIDIA Holoscan with the DAQIRI library pulls terabits per second of sensor data into GPU memory; CyberEther (SETI Institute) does signal processing on CUDA-X; Nexus, a web-based observatory orchestrator, acts as the agent harness.",
+        "The system handles 2.4 terabits per second on RTX PRO 6000 Blackwell GPUs, with inference on premises next to the instrument.",
+        "NVIDIA says the pipeline achieved the first real-time AI detection of a pulsar, in the Crab Nebula.",
+        "X news summary notes no alien signals are confirmed and scientists check candidates manually.",
+        "Surfaced as an X trending story on Nov 1; NVIDIA's post is dated Oct 30."
+      ],
+      "source": {
+        "name": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "X trending story",
+          "url": "https://x.com/i/trending/2116710780255060426"
+        }
+      ],
+      "publishedAt": "2026-10-30T15:00:10Z",
+      "care": 2,
+      "proof": 4,
+      "imageHint": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+      "firstSeen": "2026-11-01"
+    },
+    {
+      "id": "epic-unreal-engine-claude-code-plugin",
+      "lens": "design",
+      "topic": "unreal-claude-code-plugin",
+      "summary": "Meng To highlighted Epic Games' official 'Unreal Engine Skills for Claude Code' plugin, which lets Claude Code control the Unreal Editor over MCP, calling it his next step into game dev.",
+      "facts": [
+        "The EpicGames GitHub repo README says it exposes hundreds of tools via Unreal's ToolsetRegistry across 30+ toolsets: actors, blueprints, materials, Niagara, Control Rigs, Sequencer, State Trees, widgets, Gameplay Ability System, automation testing.",
+        "It ships an unreal-mcp skill and a SessionStart hook that tells Claude to default to Unreal conventions.",
+        "The README says it is published in Anthropic's official Claude Code plugin marketplace (claude-plugins-official).",
+        "Requires the Unreal Editor running with the ModelContextProtocol and AllToolsets plugins enabled.",
+        "GitHub: 1,794 stars; last push Oct 27, 2026 (read this run)."
+      ],
+      "source": {
+        "name": "Meng To on X",
+        "url": "https://x.com/MengTo/status/2116694299043840075",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "related": [
+        {
+          "name": "EpicGames/unreal-engine-skills-for-claude-code-plugin",
+          "url": "https://github.com/EpicGames/unreal-engine-skills-for-claude-code-plugin"
+        }
+      ],
+      "publishedAt": "2026-11-01T00:50:21Z",
+      "metrics": {
+        "likes": 493,
+        "reposts": 19,
+        "replies": 42,
+        "views": 30300,
+        "capturedAt": "2026-11-01T11:39:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/MengTo/status/2116694299043840075",
+      "firstSeen": "2026-11-01"
+    }
+  ]
+}
