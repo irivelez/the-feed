@@ -1,0 +1,212 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-01-1236",
+  "generatedAt": "2026-11-01T17:40:06Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-01T11:40:00Z",
+    "to": "2026-11-01T17:40:00Z"
+  },
+  "sourceNotes": [
+    "Window 11:40Z to 17:40Z Nov 1 (since the 06:40 run). Quiet Sunday midday: 5 candidates (2 practical, 2 broad, 1 design, 0 frontier-capital); Editor will need earlier files for per-lens minimums.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returned HTTP 500 again; config URL likely needs updating.",
+    "RSS new items: Simon Willison quoting Kyle Kingsbury (used as related on Jepsen), Lenny Rachitsky podcast on Wispr Flow's paid-UGC growth program (growth, not AI agents; not used). No new items from the other feeds.",
+    "arXiv: no new announcement batch since Oct 29 (weekend).",
+    "Hacker News >=200 points: Jepsen ParticleDB and 'Anthropic blocks users' used. 'Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing' crossed 200 (247 pts) but the source article is dated July 1, 2026, beyond the 28-day source age limit, so dropped. 'ChatGPT and Codex usage limits merging' now 206 pts, but help.openai.com still returns 403 to our fetch and no OpenAI post found; not used. Memdoor, HackerTube, ChatGPT share-link takeover already covered.",
+    "X news also showed: Lamis Mukta (Anthropic) agent memory and 'dreaming' talk circulating, but the YouTube original is from AI Native DevCon June 2026 (beyond the 28-day limit), so dropped; Shopify monorepo for agents (Tobi Lutke's post does not mention agents and the quoted Burke Libbey post was unreadable), FT productivity charts and AI stock selloff (secondhand, topic covered), Altman on PC RAM (covered), shared AI-training opt-out (covered), Canada Cohere stake (covered Oct 26), Germany AI value tax idea (mid-October); none used.",
+    "X howTo lane: only off-topic or promo posts (@gregisenberg, @jxnlco, @ryancarson, @Ronycoder, @rubenhassid website guide promo, @tibo_maker, @GeoffreyHuntley); @mattpocockuk on AI reply bots (opinion, no data).",
+    "X bigPicture lane: @elonmusk, @rauchg and @garrytan one-liners or image posts; nothing from labs in the window.",
+    "X frontierCapital lane: @RayDalio principle of the day, @TaviCosta report link (gold, muted topic), @nathanbenaich personal posts; none used. Design lane: @MengTo share used via Stageshow.",
+    "X queries lane: low-follower promos and listicles; nothing with primary proof.",
+    "Replies checked on the Ronacher, Shao and Benji Taylor posts: none cleared the reply filter (>=1000 followers and >=5 likes).",
+    "authorBaseline not filled this run. X calls this run: 14."
+  ],
+  "candidates": [
+    {
+      "id": "jepsen-particledb-llm-tradeoffs",
+      "lens": "practical",
+      "topic": "jepsen-particledb",
+      "summary": "Jepsen (Kyle Kingsbury) published its analysis of ParticleDB, a multi-model database for AI workloads built by a small Orkes team with heavy LLM assistance, reporting 96 issues and a dedicated section on the tradeoffs of LLM-built software.",
+      "facts": [
+        "Jepsen tested ParticleDB 1.1.4 through 1.1.18.11.rc-22 and found its 'Full ACID' claims 'somewhat premature', presenting 96 issues from crashes, deadlocks and data loss to dropped tables re-emerging and strings turning into integers.",
+        "Report: 'LLM tooling repeatedly claimed that bugs had been fixed when, in fact, they had not.'",
+        "Report: Orkes 'seemed unable to explain the causes or resolutions of nearly every issue we found in ParticleDB'; new builds arrived without changelogs.",
+        "Report: 'the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them.'",
+        "As of 1.1.18.11.rc-22, append and rw workloads still found anomalies in every transaction mode; ParticleDB claimed to be '1087x faster than PostgreSQL', but Jepsen saw throughput decline linearly over an hour.",
+        "Simon Willison quoted the LLM passage on Nov 1; Hacker News thread at 310 points."
+      ],
+      "source": {
+        "name": "Jepsen: ParticleDB 1.1.4",
+        "url": "https://jepsen.io/analyses/particledb-1.1.4",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Simon Willison: Quoting Kyle Kingsbury",
+          "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50316100"
+        }
+      ],
+      "publishedAt": "2026-10-31T13:39:52Z",
+      "metrics": {
+        "points": 310,
+        "capturedAt": "2026-11-01T17:37:30Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://jepsen.io/analyses/particledb-1.1.4",
+      "firstSeen": "2026-11-01"
+    },
+    {
+      "id": "ronacher-opus-cpython-reimplementation",
+      "lens": "practical",
+      "topic": "agent-reimplementation-tests",
+      "summary": "Armin Ronacher (@mitsuhiko, creator of Flask) posted that he believes an Opus 5.5 agent could re-implement all of CPython in about two weeks without human input, working only against the tests, and in a follow-up argued agents do better building their own test suite for porting than relying on an existing one.",
+      "facts": [
+        "Post: 'you could have an Opus 5.5 agent re-implement all of CPython probably within two weeks without any human input, against just the tests, and probably with full compatibility with including ABI, no GIL, a jit'.",
+        "Follow-up: 'you don't actually need a test suite to rebuild something. In fact, you're probably better off having the agent builds its own test suite specifically for porting'; he says pre-existing tests are often bad for hill climbing.",
+        "He cites a recent case where an agent re-implemented Excel's formula engine and built its own test suite from scratch.",
+        "This is an opinion and prediction, not a completed project."
+      ],
+      "source": {
+        "name": "Armin Ronacher on X",
+        "url": "https://x.com/mitsuhiko/status/2116861021927227421",
+        "type": "x",
+        "handle": "mitsuhiko"
+      },
+      "related": [
+        {
+          "name": "Ronacher follow-up on test suites",
+          "url": "https://x.com/mitsuhiko/status/2116895016249434134"
+        }
+      ],
+      "publishedAt": "2026-11-01T11:52:51Z",
+      "metrics": {
+        "likes": 1555,
+        "reposts": 53,
+        "replies": 154,
+        "views": 91701,
+        "capturedAt": "2026-11-01T17:40:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://x.com/mitsuhiko/status/2116861021927227421",
+      "firstSeen": "2026-11-01"
+    },
+    {
+      "id": "anthropic-blocks-researcher-training",
+      "lens": "broad",
+      "topic": "anthropic-training-block",
+      "summary": "An HKUST PhD student, Jiahao Shao, posted that Anthropic flagged his account for 'training a competitor' and now blocks anything touching RFT, SFT or training larger models, although he says Claude only helped submit jobs and run analysis and he never distilled Claude.",
+      "facts": [
+        "Post text: 'I never distilled Claude—rollouts came from a strong open-source model; Claude just helped submit jobs and run analysis. Still got tagged for \"training a competitor,\" and now anything touching RFT, SFT, or training larger models gets me blocked'.",
+        "The post reached 3,467 likes and about 255K views; the Hacker News thread 'Anthropic blocks users for anything touching training larger models' reached 429 points.",
+        "Single first-hand account; no public Anthropic response found on X at capture time."
+      ],
+      "source": {
+        "name": "Jiahao Shao on X",
+        "url": "https://x.com/jiahaoshao1/status/2116475922190922088",
+        "type": "x",
+        "handle": "jiahaoshao1"
+      },
+      "related": [
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50319358"
+        }
+      ],
+      "publishedAt": "2026-10-31T10:22:36Z",
+      "metrics": {
+        "likes": 3467,
+        "reposts": 201,
+        "replies": 115,
+        "views": 254693,
+        "points": 429,
+        "capturedAt": "2026-11-01T17:37:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://x.com/jiahaoshao1/status/2116475922190922088",
+      "firstSeen": "2026-11-01"
+    },
+    {
+      "id": "openai-post-midterm-policy-push",
+      "lens": "broad",
+      "topic": "openai-midterm-policy",
+      "summary": "Axios reported that right after Tuesday's U.S. midterm elections, OpenAI will launch a policy and PR push to get in sync with the new Washington, including rebranding data centers as 'AI compute campuses'.",
+      "facts": [
+        "Axios post: 'Right after Tuesday's midterms, OpenAI will unleash a policy and PR blitz to try to get in sync with the new Washington, including an effort to rebrand data centers as \"AI compute campuses.\"'",
+        "Full Axios article blocked our fetch (HTTP 403); details beyond the Axios post are not verified here."
+      ],
+      "source": {
+        "name": "Axios on X",
+        "url": "https://x.com/axios/status/2116889969432150442",
+        "type": "x",
+        "handle": "axios"
+      },
+      "related": [
+        {
+          "name": "Axios scoop",
+          "url": "https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy"
+        }
+      ],
+      "publishedAt": "2026-11-01T13:47:53Z",
+      "metrics": {
+        "likes": 75,
+        "reposts": 31,
+        "replies": 18,
+        "views": 44675,
+        "capturedAt": "2026-11-01T17:40:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-01"
+    },
+    {
+      "id": "stageshow-faux-ui-skill",
+      "lens": "design",
+      "topic": "stageshow-skill",
+      "summary": "Designer Benji Taylor released Stageshow, an open agent skill that helps coding agents make better faux UI stills, animations and bento grids; Meng To shared it on Nov 1 saying it will help avoid AI slop.",
+      "facts": [
+        "Install: 'npx skills add benjitaylor/skills --skill stageshow'; the page says it works with Grok Build, Claude Code, Codex, Gemini and other agents.",
+        "The skill contains SKILL.md (five ways faux UI fails, a seven-step workflow), reference docs on craft, motion and framing, dozens of gold examples, a small React kit, and scripts that film a demo and check frames and layout.",
+        "Output is an ordinary React component; the author says most demos still take a few rounds of feedback.",
+        "Launch post: 9,997 likes and 17,093 bookmarks; Meng To's share: 416 likes and 616 bookmarks."
+      ],
+      "source": {
+        "name": "Benji Taylor on X",
+        "url": "https://x.com/benjitaylor/status/2116593247854453244",
+        "type": "x",
+        "handle": "benjitaylor"
+      },
+      "related": [
+        {
+          "name": "Stageshow page",
+          "url": "https://benji.org/stageshow"
+        },
+        {
+          "name": "Meng To share",
+          "url": "https://x.com/MengTo/status/2116914312250040786"
+        }
+      ],
+      "publishedAt": "2026-10-31T18:08:49Z",
+      "metrics": {
+        "likes": 9997,
+        "reposts": 456,
+        "replies": 353,
+        "views": 762792,
+        "capturedAt": "2026-11-01T17:38:30Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://benji.org/stageshow",
+      "firstSeen": "2026-11-01"
+    }
+  ]
+}
