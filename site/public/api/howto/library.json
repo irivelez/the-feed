@@ -1,7 +1,42 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-31T18:06:15Z",
+  "updatedAt": "2026-11-01T00:08:16Z",
   "howtos": [
+    {
+      "id": "swyx-babysit-unattended-agent-runs",
+      "dedupeKey": "babysit-unattended-agent-runs-spot-check",
+      "title": "Babysit long unattended agent runs to completion",
+      "what": "swyx's open skill: run at low effort, then watch traces and spot-check output with a stronger model.",
+      "kind": "steps",
+      "copy": [
+        "Detach the runs so they continue without you.",
+        "Keep a continuation brief.",
+        "Schedule a temporary monitor.",
+        "Inspect traces and output quality, not just process health or valid schemas.",
+        "Periodically spot-check outputs with a stronger model."
+      ],
+      "whenToUse": "When throughput matters more than per-call quality and agent runs go unattended for long stretches.",
+      "source": {
+        "name": "swyxio/skills on GitHub",
+        "url": "https://github.com/swyxio/skills/tree/main/babysit-runs"
+      },
+      "author": {
+        "name": "swyx",
+        "handle": "swyx"
+      },
+      "tags": [
+        "agents",
+        "skills",
+        "evals"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "addedAt": "2026-11-01T00:08:19Z",
+      "briefItem": {
+        "briefId": "2026-10-31-1900",
+        "itemId": "swyx-low-effort-critique-loop-babysit-runs"
+      }
+    },
     {
       "id": "poteto-onboard-small-bot-team",
       "dedupeKey": "onboard-small-agent-team-like-intern",
