@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-01-1839",
+  "generatedAt": "2026-11-01T23:50:00Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-01T17:40:00Z",
+    "to": "2026-11-01T23:45:00Z"
+  },
+  "sourceNotes": [
+    "Window 17:40Z to 23:45Z Nov 1 (since the 12:36 run). Quiet Sunday evening: 3 candidates (2 practical, 1 broad, 0 frontier-capital, 0 design); Editor will need earlier files for per-lens minimums.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returned HTTP 500 again; config URL likely needs updating.",
+    "RSS new items: Simon Willison 'If in doubt, delete the uv.lock file' (Python 3.15 dependency tip, not AI; not used). No new items from the other feeds.",
+    "arXiv: no new announcement batch since Oct 29 (weekend).",
+    "Hacker News >=200 points: 'The AI cost of JavaScript frameworks' (277 pts) used. HackerTube, HackerBooks spin-off, Jepsen ParticleDB, Anthropic training block, Memdoor, ChatGPT share-link takeover already covered; 'Brazilian Court Sanctions Lawyers for Prompt Injection' still beyond the 28-day source age limit; 'ChatGPT and Codex usage limits merging' (215 pts) still only on help.openai.com, which blocks our fetch.",
+    "DeepSeek dsh-superagent repo was created Oct 31 09:32Z but not in earlier candidate files; added now. The X news summary's claim of task times cut from 29.5 to 15.7 minutes was not found in the README, so not used.",
+    "X news also showed: Jun Song rejecting a hacker group's offer to train on exploit data (original post not found by search; not used), Vangrid crypto-paid mapping (crypto, muted adjacent), harness-engineering trend summaries (no single primary source), OpenAI fundraising cut and post-midterm push (covered), shared AI-training opt-out (covered), NVIDIA SETI agents (covered).",
+    "X howTo lane: @theo product posts and opinion, @poteto Day 28 game built with Grok Bot and Cursor (4,924 likes; game demo, not a technique), @mattpocockuk 'Redux-like framework for agents' (opinion, no data), @amasad 'subsidized AI subscription rug pull' quoting a post on Grok Bot usage limits (one-liner), @amasad Replit feedback-widget-to-prompt toggle (product promo), @LangChain community spotlight; none used.",
+    "X bigPicture lane: @elonmusk mostly reposts and Grok Bot promotion; his 'SpaceX is already achieving ours' quoted a third-party claim that Colossus 2 is about 1.11 million H100 equivalents (secondhand, not used). @karpathy HackerTube already covered. @beffjezos, @a16z defense clip, @AravSrinivas demo not used.",
+    "X frontierCapital lane: @LynAldenContact on fiction cycles, @nathanbenaich personal posts; none used. Design lane: no @MengTo posts in the window.",
+    "X queries lane: low-follower promos and HackerTube rewrites; Japanese posts about a Cursor Agent SDK GA (covered in Oct 26-28 files).",
+    "Replies checked on the Rauch post: none cleared the reply filter (>=1000 followers and >=5 likes).",
+    "authorBaseline not filled this run. X calls this run: 10."
+  ],
+  "candidates": [
+    {
+      "id": "nolan-lawson-ai-cost-js-frameworks",
+      "lens": "practical",
+      "topic": "ai-cost-js-frameworks",
+      "summary": "Nolan Lawson benchmarked 12 JavaScript frameworks by having Opus 5.5 build the same small Pokémon app five times in each, then measuring cost, lines of code, Lighthouse scores and JavaScript shipped, to test 'better for agents' claims with evidence.",
+      "facts": [
+        "Setup: same spec given to Opus 5.5 (high effort) in a sandbox, each framework's official MCP or skills installed, output tested against a conformance suite based on the accessibility tree; median of 5 runs (3 for Angular, which twice failed to produce a measurable app).",
+        "Median API-priced cost per build ranged from $2.67 (Hono+htmx), $2.76 (Astro) and $2.82 (Nuxt) up to $4.28 (SvelteKit), $4.65 (Gracile+Lit) and $4.97 (Angular); Next.js was $3.14.",
+        "Median lines of code ranged from 1,370 (Hono+htmx) to 2,009 (Angular).",
+        "Lighthouse performance and accessibility were near-saturated for all frameworks (performance 97 to 100, accessibility 100); JavaScript shipped ranged from 0 KiB (Astro) to 93 KiB (Angular).",
+        "Agents often ignored installed tooling: the Nuxt MCP was never used, and Next.js agents read the skill file in 1 of 5 runs. Lawson: 'I have a strong suspicion, for example, that the current crop of MCPs and skills may be doing more harm than good.'",
+        "The benchmark is on GitHub for others to rerun; Hacker News thread reached 277 points."
+      ],
+      "source": {
+        "name": "Nolan Lawson: The AI cost of JavaScript frameworks",
+        "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50323088"
+        }
+      ],
+      "publishedAt": "2026-10-28T14:31:03Z",
+      "metrics": {
+        "points": 277,
+        "capturedAt": "2026-11-01T23:41:00Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "firstSeen": "2026-11-01"
+    },
+    {
+      "id": "deepseek-dsh-superagent-prototype",
+      "lens": "practical",
+      "topic": "deepseek-dsh-superagent",
+      "summary": "DeepSeek open-sourced dsh-superagent, an MIT-licensed research prototype of a proactive coding agent that watches one GitHub repository (and optionally Feishu), takes work from allowed people, does it in its own isolated session and answers with results such as a pull request.",
+      "facts": [
+        "README: 'Research prototype for reference only, not an official DeepSeek product'; much of the engineering was done by coding agents, and it differs from DeepSeek's internal version.",
+        "It is packaged as a bundle for DeepSeek Harness; a web panel shows what needs a person.",
+        "Stated principle: 'take as little human attention as possible, and give as much value as possible'; it acts only when asked or when a rule the team wrote allows it.",
+        "Setup is done by asking your coding agent to read SETUP.md and set it up with you.",
+        "Repo created Oct 31, 2026; 7,155 GitHub stars at capture."
+      ],
+      "source": {
+        "name": "deepseek-ai/dsh-superagent-prototype on GitHub",
+        "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Teortaxes on dsh-superagent",
+          "url": "https://x.com/teortaxesTex/status/2116545243508039888"
+        }
+      ],
+      "publishedAt": "2026-10-31T09:32:46Z",
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "firstSeen": "2026-11-01"
+    },
+    {
+      "id": "rauch-own-your-intelligence",
+      "lens": "broad",
+      "topic": "own-your-intelligence",
+      "summary": "Vercel CEO Guillermo Rauch posted 'Own your intelligence', arguing that local models need to keep proliferating and that builders should own their harness, data, connections and runtime rather than rent them.",
+      "facts": [
+        "Post: 'Own your intelligence. Anyone that opposes this has something to sell you (perhaps your own intelligence back to you.)'",
+        "Post: 'Own your harness, data, connections, runtime: your agents. Embrace open source.'",
+        "He notes the largest models 'may be out of reach for now locally', so the best option is to keep options open.",
+        "Opinion post, no data."
+      ],
+      "source": {
+        "name": "Guillermo Rauch on X",
+        "url": "https://x.com/rauchg/status/2117000819623243925",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "publishedAt": "2026-11-01T21:08:22Z",
+      "metrics": {
+        "likes": 1047,
+        "reposts": 96,
+        "replies": 132,
+        "views": 42322,
+        "capturedAt": "2026-11-01T23:41:00Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "imageHint": "https://x.com/rauchg/status/2117000819623243925",
+      "firstSeen": "2026-11-01"
+    }
+  ]
+}
