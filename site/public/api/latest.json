@@ -1,195 +1,221 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-01-0700",
+  "id": "2026-11-01-1300",
   "date": "2026-11-01",
-  "publishedAt": "2026-11-01T12:10:00Z",
-  "edition": "Morning",
+  "publishedAt": "2026-11-01T18:10:00Z",
+  "edition": "Midday",
   "top3": [
     {
-      "itemId": "memdoor-team-solve-qwen-livecodebench",
-      "headline": "Five small open models matched a frontier harness on hard coding tests",
-      "whyItMatters": "Teams can get strong agent results from cheap open models, with every run logged for audit."
+      "itemId": "jepsen-particledb-llm-tradeoffs",
+      "headline": "Jepsen finds 96 issues in a database built with heavy LLM help",
+      "whyItMatters": "Code that agents write still needs independent testing before you trust it with your data."
     },
     {
-      "itemId": "epic-unreal-engine-claude-code-plugin",
-      "headline": "Epic ships an official plugin letting Claude Code drive Unreal Editor",
-      "whyItMatters": "Major creative tools now ship agent control themselves, so agent skills become a vendor feature."
+      "itemId": "anthropic-blocks-researcher-training",
+      "headline": "A researcher says Anthropic blocked him over model-training work",
+      "whyItMatters": "Vendor usage rules can cut off teams doing legitimate model work, so check your terms now."
     },
     {
-      "itemId": "kunchenguid-github-rate-limit-agents",
-      "headline": "Agent fleets now hit GitHub's 5,000 requests per hour user limit",
-      "whyItMatters": "Platform limits built for one human per account will cap how far your agents can scale."
+      "itemId": "stageshow-faux-ui-skill",
+      "headline": "Stageshow, an open skill, teaches coding agents product demo craft",
+      "whyItMatters": "Design taste is being packaged as installable skills any coding agent can use."
     }
   ],
   "items": [
     {
-      "id": "mattpocock-sandcastle-v1-software-factory",
-      "title": "Matt Pocock pitches Sandcastle v1 as an agent software factory",
-      "takeaway": "Draft pitch, not a release: harnesses, sandboxes, durable runs, Slack approvals, skills as functions.",
-      "soWhat": "Builders want agent tooling that packages review, specs and approvals as reusable parts.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-11-01T08:13:44Z",
+      "id": "openai-post-midterm-policy-push",
+      "title": "OpenAI plans a policy push right after the U.S. midterms",
+      "takeaway": "Per Axios, includes rebranding data centers as AI compute campuses.",
+      "soWhat": "AI infrastructure is now a political fight, and labs are reshaping the story for Washington.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-01T13:47:53Z",
       "source": {
-        "name": "@mattpocockuk on X",
-        "url": "https://x.com/mattpocockuk/status/2116805878187794740"
+        "name": "Axios",
+        "url": "https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy"
       },
+      "related": [
+        {
+          "name": "Axios on X",
+          "url": "https://x.com/axios/status/2116889969432150442"
+        }
+      ],
       "image": {
-        "src": "/img/mattpocock-sandcastle-v1-software-factory.jpg",
-        "alt": "Profile image of @mattpocockuk"
+        "src": "/img/openai-post-midterm-policy-push.jpg",
+        "alt": "Image from Axios"
       },
       "heat": {
-        "score": 13,
+        "score": 3,
         "level": "none",
-        "metric": "32k views"
+        "metric": "45k views"
       }
     },
     {
-      "id": "kunchenguid-github-rate-limit-agents",
-      "title": "Agent fleets now hit GitHub's 5,000 requests per hour user limit",
-      "takeaway": "After clearing review and CI bottlenecks, Kun Chen says GitHub's per-user API limit is the next wall.",
-      "soWhat": "Plan for platform rate limits before scaling agents that all act under one account.",
+      "id": "ronacher-opus-cpython-reimplementation",
+      "title": "Armin Ronacher bets an agent could rebuild CPython in two weeks",
+      "takeaway": "A prediction, not a project; he says agents port better with their own test suites.",
+      "soWhat": "Senior builders now see whole-system rewrites by agents as near, with tests as the key lever.",
       "lens": "practical",
       "momentum": "building",
       "importance": 6,
-      "publishedAt": "2026-11-01T05:54:29Z",
+      "publishedAt": "2026-11-01T11:52:51Z",
       "source": {
-        "name": "@kunchenguid on X",
-        "url": "https://x.com/kunchenguid/status/2116770835944157243"
+        "name": "@mitsuhiko on X",
+        "url": "https://x.com/mitsuhiko/status/2116861021927227421"
       },
       "related": [
         {
-          "name": "GitHub REST API rate limits",
-          "url": "https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api"
+          "name": "Ronacher follow-up on test suites",
+          "url": "https://x.com/mitsuhiko/status/2116895016249434134"
         }
       ],
       "image": {
-        "src": "/img/kunchenguid-github-rate-limit-agents.jpg",
-        "alt": "Profile image of @kunchenguid"
+        "src": "/img/ronacher-opus-cpython-reimplementation.jpg",
+        "alt": "Profile image of @mitsuhiko"
       },
       "heat": {
-        "score": 5,
+        "score": 20,
         "level": "none",
-        "metric": "14k views"
+        "metric": "92k views"
       }
     },
     {
-      "id": "epic-unreal-engine-claude-code-plugin",
-      "title": "Epic ships an official plugin letting Claude Code drive Unreal Editor",
-      "takeaway": "Hundreds of editor tools over MCP across 30+ toolsets, listed in Anthropic's official plugin marketplace.",
-      "soWhat": "Creative software makers are building agent control in, not waiting for third parties.",
+      "id": "stageshow-faux-ui-skill",
+      "title": "Stageshow, an open skill, teaches coding agents product demo craft",
+      "takeaway": "Install with npx; works with Claude Code, Codex, Gemini and others.",
+      "soWhat": "Teams can raise the quality of agent-made demos without hiring for every visual.",
       "lens": "design",
       "momentum": "building",
       "importance": 7,
-      "publishedAt": "2026-11-01T00:50:21Z",
+      "publishedAt": "2026-10-31T18:08:49Z",
       "source": {
-        "name": "EpicGames on GitHub",
-        "url": "https://github.com/EpicGames/unreal-engine-skills-for-claude-code-plugin"
+        "name": "Stageshow page",
+        "url": "https://benji.org/stageshow"
       },
       "related": [
         {
-          "name": "@MengTo on X",
-          "url": "https://x.com/MengTo/status/2116694299043840075"
+          "name": "Benji Taylor on X",
+          "url": "https://x.com/benjitaylor/status/2116593247854453244"
+        },
+        {
+          "name": "Meng To share",
+          "url": "https://x.com/MengTo/status/2116914312250040786"
         }
       ],
       "image": {
-        "src": "/img/epic-unreal-engine-claude-code-plugin.jpg",
-        "alt": "Image from EpicGames on GitHub"
+        "src": "/img/stageshow-faux-ui-skill.jpg",
+        "alt": "Image from Stageshow page"
       },
       "heat": {
-        "score": 12,
+        "score": 33,
         "level": "none",
-        "metric": "30k views"
+        "metric": "763k views"
       }
     },
     {
-      "id": "memdoor-team-solve-qwen-livecodebench",
-      "title": "Five small open models matched a frontier harness on hard coding tests",
-      "takeaway": "Memdoor's file-based team of Qwen agents scored 9.8 of 10 on ten hard problems, at about $0.39 per run.",
-      "soWhat": "Multi-agent setups on open models can rival costly ones, though ten problems is a small test.",
+      "id": "jepsen-particledb-llm-tradeoffs",
+      "title": "Jepsen finds 96 issues in a database built with heavy LLM help",
+      "takeaway": "LLM tools claimed bugs were fixed when they were not; the vendor could not explain most issues.",
+      "soWhat": "Speed from agents is worthless if nobody on the team understands or can verify the code.",
       "lens": "practical",
       "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-10-31T22:46:12Z",
+      "importance": 9,
+      "publishedAt": "2026-10-31T13:39:52Z",
       "source": {
-        "name": "Memdoor on GitHub",
-        "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve"
+        "name": "Jepsen",
+        "url": "https://jepsen.io/analyses/particledb-1.1.4"
       },
       "related": [
         {
-          "name": "Memdoor result page",
-          "url": "https://memdoor.ai/docs/team-solve"
+          "name": "Simon Willison: Quoting Kyle Kingsbury",
+          "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/"
         },
         {
           "name": "Hacker News thread",
-          "url": "https://news.ycombinator.com/item?id=50320995"
+          "url": "https://news.ycombinator.com/item?id=50316100"
         }
       ],
       "image": {
-        "src": "/img/memdoor-team-solve-qwen-livecodebench.jpg",
-        "alt": "Image from Memdoor on GitHub"
+        "src": "/img/jepsen-particledb-llm-tradeoffs.jpg",
+        "alt": "Jepsen: Jepsen finds 96 issues in a database built with heavy LLM help"
       }
     },
     {
-      "id": "nvidia-seti-agentic-allen-telescope",
-      "title": "AI agents now steer a radio telescope from plain-language requests",
-      "takeaway": "NVIDIA and SETI Institute agents calibrate and analyze 2.4 Tbps of live data on site at the Allen Telescope Array.",
-      "soWhat": "Agents are moving from software tasks to running physical instruments in real time.",
+      "id": "anthropic-blocks-researcher-training",
+      "title": "A researcher says Anthropic blocked him over model-training work",
+      "takeaway": "Single first-hand account; he says he never distilled Claude. No Anthropic response yet.",
+      "soWhat": "Teams training their own models should read vendor terms before routing that work through them.",
       "lens": "broad",
       "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-10-30T15:00:10Z",
+      "importance": 7,
+      "publishedAt": "2026-10-31T10:22:36Z",
       "source": {
-        "name": "NVIDIA Blog",
-        "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/"
+        "name": "@jiahaoshao1 on X",
+        "url": "https://x.com/jiahaoshao1/status/2116475922190922088"
       },
+      "related": [
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50319358"
+        }
+      ],
       "image": {
-        "src": "/img/nvidia-seti-agentic-allen-telescope.jpg",
-        "alt": "Image from NVIDIA Blog"
+        "src": "/img/anthropic-blocks-researcher-training.jpg",
+        "alt": "Profile image of @jiahaoshao1"
+      },
+      "heat": {
+        "score": 26,
+        "level": "none",
+        "metric": "255k views"
       }
     }
   ],
   "voices": [
     {
-      "handle": "@kunchenguid",
-      "quote": "TIL github limits 5000 request per user per hour. that's not enough when \"a user\" means \"hundreds of agents working for a human\"",
-      "url": "https://x.com/kunchenguid/status/2116770835944157243"
+      "handle": "Kyle Kingsbury (Jepsen)",
+      "quote": "LLM tooling repeatedly claimed that bugs had been fixed when, in fact, they had not.",
+      "url": "https://jepsen.io/analyses/particledb-1.1.4"
     },
     {
-      "handle": "@swyx",
-      "quote": "btw @karpathy uses medium on opus 5.5 on his latest project (Hackertube launched today).",
-      "url": "https://x.com/swyx/status/2116773135668404286"
+      "handle": "@mitsuhiko",
+      "quote": "you're probably better off having the agent builds its own test suite specifically for porting",
+      "url": "https://x.com/mitsuhiko/status/2116895016249434134"
+    },
+    {
+      "handle": "@jiahaoshao1",
+      "quote": "I never distilled Claude—rollouts came from a strong open-source model; Claude just helped submit jobs and run analysis.",
+      "url": "https://x.com/jiahaoshao1/status/2116475922190922088"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/mattpocockuk/status/2116805878187794740",
-      "handle": "@mattpocockuk",
-      "text": "Pitch for Sandcastle v1: a 'software factory' with built-in harnesses, sandboxes, Slack approvals and skills as Agent() calls.",
-      "metric": "496 likes",
-      "note": "Builders are debating what a packaged agent factory should look like."
+      "url": "https://x.com/benjitaylor/status/2116593247854453244",
+      "handle": "@benjitaylor",
+      "text": "Stageshow: an open agent skill for better faux UI stills, animations and bento grids.",
+      "metric": "10k likes",
+      "note": "Designers want agents to stop producing generic, sloppy product visuals."
     },
     {
-      "url": "https://x.com/MengTo/status/2116694299043840075",
-      "handle": "@MengTo",
-      "text": "Epic's official Unreal Engine Skills plugin lets Claude Code control the Unreal Editor over MCP.",
-      "metric": "493 likes",
-      "note": "Designers see agents reaching into professional game tools."
+      "url": "https://x.com/jiahaoshao1/status/2116475922190922088",
+      "handle": "@jiahaoshao1",
+      "text": "Tagged for \"training a competitor\"; now anything touching RFT, SFT, or training larger models gets me blocked.",
+      "metric": "3.5k likes",
+      "note": "Researchers fear vendor rules can lock them out of legitimate work."
     },
     {
-      "url": "https://x.com/swyx/status/2116773135668404286",
-      "handle": "@swyx",
-      "text": "btw @karpathy uses medium on opus 5.5 on his latest project (Hackertube launched today).",
-      "metric": "365 likes",
-      "note": "People want to know which effort settings top builders actually use."
+      "url": "https://x.com/mitsuhiko/status/2116861021927227421",
+      "handle": "@mitsuhiko",
+      "text": "You could have an Opus 5.5 agent re-implement all of CPython probably within two weeks without any human input.",
+      "metric": "1.6k likes",
+      "note": "A respected builder putting a timeline on agents rewriting core software."
     },
     {
-      "url": "https://x.com/kunchenguid/status/2116770835944157243",
-      "handle": "@kunchenguid",
-      "text": "TIL github limits 5000 request per user per hour. that's not enough when \"a user\" means \"hundreds of agents\"",
-      "metric": "147 likes",
-      "note": "Agent-heavy teams are running into limits designed for single humans."
+      "url": "https://x.com/axios/status/2116889969432150442",
+      "handle": "@axios",
+      "text": "Right after Tuesday's midterms, OpenAI will unleash a policy and PR blitz, including rebranding data centers.",
+      "metric": "75 likes",
+      "note": "Data center politics is shaping how labs talk to Washington."
     }
   ]
 }
