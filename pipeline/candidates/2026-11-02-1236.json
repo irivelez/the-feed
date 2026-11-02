@@ -1,0 +1,278 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-02-1236",
+  "generatedAt": "2026-11-02T17:41:00Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-02T11:41:00Z",
+    "to": "2026-11-02T17:40:00Z"
+  },
+  "sourceNotes": [
+    "Window 11:41Z to 17:40Z Nov 2 (since the 06:38 run). 9 candidates (1 practical, 7 broad, 0 frontier-capital, 1 design). Practical lane is thin; Editor will need earlier files for the practical minimum.",
+    "The Atlantic 'America Can't Afford an AI Recession' publishedAt not available from the page; the feed's 09:32 -05:00 timestamp is 14:32Z, used as publishedAt. Feed is headline-only.",
+    "Abu Dhabi/OpenAI deals were published 05:29Z, inside the previous run's window, but were not in 2026-11-02-0638; added now.",
+    "Anthropic S-1/A is a follow-up to the original S-1 covered in late-October files; shares topic 'anthropic-s1'.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) now returns HTTP 301 to http://dwarkesh.com/feed, which returns HTTP 500; config URL likely needs updating to the dwarkesh.com feed once it works.",
+    "RSS new items: Simon Willison Census post (used), The Atlantic AI recession (used, headline only); Atlantic X election lies and Pizzagate pieces off-topic. No new items from the other feeds.",
+    "arXiv: no new announcement batch since Oct 30 in cs.AI/cs.CL/cs.MA agent results.",
+    "Hacker News >=200 points since last run: nothing new on AI; Anthropic S-1/A (187) and Trigger.dev incident (156) used below threshold because their primary sources are strong.",
+    "X howTo lane: @theo claims T3 Code does ~2x the token throughput of all of OpenAI last year (no data; not used); @rubenhassid 22 rules for Claude limits (tips, low proof); @gregisenberg video-editing tips with Opus 5.5 (link only); @LangChain workshop promo; @mattyp Grok Bot release video (product promo); none used.",
+    "X bigPicture lane: @elonmusk Starlink (off-topic), @garrytan CEQA (partisan-adjacent policy, not AI), @a16z Tutor Intelligence Series B (robotics funding; not used).",
+    "X frontierCapital lane: @nathanbenaich 'robotics is having its gpt-2 moment' (opinion, 17 likes) and Profluent clip, @RayDalio principle of the day; none used. Design lane: @MengTo Figma Weave workflow (used).",
+    "X queries lane: low-follower promos and roadmaps; no posts cleared quality. X news: Meituan LongCat-2.5 (1.6T params, Terminal Bench v2.1 88.4) trending but no primary post found with >=20 likes; not used. Calacanis '$2M returns from $40K AI spend' (claim, not verified); not used.",
+    "Replies checked on OpenAI LifeVal, Meng To and Ed Ludlow posts: none cleared the reply filter (>=1000 followers and >=5 likes).",
+    "authorBaseline not filled this run. X calls this run: 11."
+  ],
+  "candidates": [
+    {
+      "id": "anthropic-s1a-q3-17b-revenue",
+      "lens": "broad",
+      "topic": "anthropic-s1",
+      "summary": "Anthropic filed an amended S-1 with Q3 financials: about $17B revenue in the quarter, up about 1,127% year over year, and about $895.4B of committed spend, substantially all for compute and infrastructure.",
+      "facts": [
+        "Revenue for the nine months ended Sept. 30 was $33.24B, up roughly 1,200% year over year (CNBC).",
+        "Q3 revenue grew about 47% quarter over quarter, down from 144% growth in Q2 and 132% in Q1 (CNBC).",
+        "Q3 net loss was $23.29B; the nine-month net loss of $104B was mostly from the change in fair value of convertible notes and derivative liabilities (CNBC).",
+        "Purchase commitments and lease agreements total about $895.4B, \"substantially all of which is related to compute and infrastructure\" (filing, quoted by CNBC).",
+        "Compute and infrastructure expenses rose $14.4B for the nine months, up 329% year over year (CNBC).",
+        "Ed Ludlow (Bloomberg) on X: Q3 GAAP operating margin -3%, adjusted operating margin +15%; $447.5B of the commitments expected through 2030 and $69.8B due in the next 12 months."
+      ],
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Ed Ludlow on X",
+          "url": "https://x.com/EdLudlow/status/2117273729319452862"
+        },
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50337439"
+        }
+      ],
+      "publishedAt": "2026-11-02T14:32:13Z",
+      "metrics": {
+        "points": 187,
+        "capturedAt": "2026-11-02T17:37:00Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "abu-dhabi-openai-ai-native-government",
+      "lens": "broad",
+      "topic": "abu-dhabi-openai-deals",
+      "summary": "Abu Dhabi entities signed four agreements with OpenAI spanning government, energy and investment, including a Machine-Readable Government initiative that turns a defined set of policies into AI-readable form for routine compliance checks.",
+      "facts": [
+        "ADNOC, G42 (via Inception42) and OpenAI signed a deal making ADNOC the first energy company to deploy OpenAI's frontier technology, on GPT models using in-country inference in the UAE.",
+        "The Machine-Readable Government initiative's first pilot is already in production with the Abu Dhabi Agriculture and Food Safety Authority, focused on food imports; each assessment is traceable to the governing rule and officials keep final decisions.",
+        "Mubadala, Inception42 and OpenAI signed an agreement on AI for investment analysis, opportunity identification and risk assessment.",
+        "Inception42 and OpenAI signed a five-year agreement on frontier AI adoption across UAE government, enterprise and education.",
+        "Signed after Crown Prince Sheikh Khaled bin Mohamed bin Zayed met Sam Altman on Nov 2."
+      ],
+      "source": {
+        "name": "Abu Dhabi Media Office",
+        "url": "https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "WAM",
+          "url": "https://www.wam.ae/en/article/17i6xki-khaled-bin-mohamed-bin-zayed-meets-sam-altman"
+        },
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/news/uae/2026/11/02/abu-dhabi-agrees-openai-deals-to-boost-government-services-and-education/"
+        }
+      ],
+      "publishedAt": "2026-11-02T05:29:27Z",
+      "care": 4,
+      "proof": 5,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "census-btos-ai-adoption-super-intelligence",
+      "lens": "broad",
+      "topic": "us-census-ai-adoption",
+      "summary": "Simon Willison re-ran the US Census Bureau business survey numbers on AI adoption and found large-company 'yes' answers near 40% in October 2026, and that the survey now asks about 'Super Intelligence or SI' because of Executive Order 14434.",
+      "facts": [
+        "In September 2025, companies with 250+ employees answered yes about 12% of the time to using AI 'in producing goods or services'.",
+        "The question changed on Nov 17, 2025 to AI use 'in any of its business functions'; under that wording large companies were around 30% by February 2026 and around 40% by October 2026. Willison notes the before and after numbers are not directly comparable.",
+        "From the Oct 19, 2026 collection the question reads 'Super Intelligence or SI (formerly referred to as Artificial Intelligence or AI)', per the BTOS about page, due to Executive Order 14434; the first results with the new wording are due Thursday.",
+        "The Business Trends and Outlook Survey goes to 200,000 of 1.2 million businesses every two weeks."
+      ],
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-02T13:31:26Z",
+      "care": 4,
+      "proof": 5,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "openai-lifeval-benchmark",
+      "lens": "broad",
+      "topic": "openai-lifeval",
+      "summary": "OpenAI announced LifeVal, a benchmark shaped by feedback from thousands of ChatGPT users on everyday tasks they want a personal assistant to help with, such as finding childcare, accessing government services and managing personal finances.",
+      "facts": [
+        "OpenAI says it has used LifeVal over the past year to measure and improve how its models handle these everyday tasks."
+      ],
+      "source": {
+        "name": "OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2117307611338997846",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "publishedAt": "2026-11-02T17:27:26Z",
+      "metrics": {
+        "likes": 597,
+        "reposts": 54,
+        "replies": 110,
+        "views": 46669,
+        "capturedAt": "2026-11-02T17:38:30Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/OpenAI/status/2117307611338997846",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "a16z-enterprise-llm-spend-rules",
+      "lens": "broad",
+      "topic": "a16z-ai-app-moats",
+      "summary": "a16z says 94% of enterprise LLM buyers expect their spend to rise, and lays out three rules for AI apps to win that spend over building in-house, in a piece by Tugce Erten.",
+      "facts": [
+        "Rules: operate the workflow better than the customer can; make context cheaper to rent than to rebuild; prove the value, then price to capture it.",
+        "Examples cited: Harvey beat a general-purpose AI assistant and Repsol's in-house tool in a blind test; Notion bought Decagon's AI support agents instead of building its own.",
+        "Quote from the post: \"Model progress continually improves the customer's alternative. Your advantage must widen faster for the application to keep earning its premium.\""
+      ],
+      "source": {
+        "name": "a16z on X",
+        "url": "https://x.com/a16z/status/2117308274433511930",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "publishedAt": "2026-11-02T17:30:04Z",
+      "metrics": {
+        "likes": 9,
+        "reposts": 1,
+        "replies": 2,
+        "views": 3849,
+        "capturedAt": "2026-11-02T17:38:30Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "blacksmith-ci-bottleneck-yc",
+      "lens": "broad",
+      "topic": "blacksmith-ci",
+      "summary": "YC profiled Blacksmith (W24), a faster CI cloud, framing testing and validation as the new bottleneck as AI coding tools generate more code.",
+      "facts": [
+        "YC says Blacksmith grew 20x over the last year and recently raised a $66M Series C at a $1B valuation.",
+        "The company runs on high-performance gaming-class CPUs with a team of 30 people, per YC."
+      ],
+      "source": {
+        "name": "Y Combinator on X",
+        "url": "https://x.com/ycombinator/status/2117283089294520638",
+        "type": "x",
+        "handle": "ycombinator"
+      },
+      "publishedAt": "2026-11-02T15:50:00Z",
+      "metrics": {
+        "likes": 85,
+        "reposts": 11,
+        "replies": 28,
+        "views": 12050,
+        "capturedAt": "2026-11-02T17:38:30Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "atlantic-ai-recession",
+      "lens": "broad",
+      "topic": "ai-capex-economy",
+      "summary": "The Atlantic published 'America Can't Afford an AI Recession' on AI data center spending and the economy (headline only; feed is headline-only).",
+      "source": {
+        "name": "The Atlantic Technology",
+        "url": "https://www.theatlantic.com/technology/2026/11/ai-data-center-spending-economy/689237/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-02T14:32:13Z",
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "trigger-dev-env-vars-exposed",
+      "lens": "practical",
+      "topic": "trigger-dev-incident",
+      "summary": "Trigger.dev disclosed a security incident in which an attacker gained unauthorized access to environment variables for a subset of customer organizations.",
+      "facts": [
+        "Trigger.dev says it blocked the exploit and emailed all impacted account owners with mitigation steps.",
+        "Updates are to be published on its status page."
+      ],
+      "source": {
+        "name": "Trigger.dev blog",
+        "url": "https://trigger.dev/blog/security-incident-nov-2026",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50331784"
+        }
+      ],
+      "publishedAt": "2026-11-01T22:33:00Z",
+      "metrics": {
+        "points": 156,
+        "capturedAt": "2026-11-02T17:37:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "mengto-figma-weave-to-claude-code",
+      "lens": "design",
+      "topic": "figma-weave-claude-code",
+      "summary": "Meng To shows a page designed in Figma Weave (one canvas making the same frame in four seasons, depth maps and motion studies), then handed the folder to Claude Code to build it, sharing the prompt and the Weave workflow.",
+      "source": {
+        "name": "Meng To on X",
+        "url": "https://x.com/MengTo/status/2117298331361915188",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "related": [
+        {
+          "name": "Weave workflow",
+          "url": "https://app.weavy.ai/flow/6yKBise7YHoG20h7oJCHIE/"
+        }
+      ],
+      "publishedAt": "2026-11-02T16:50:34Z",
+      "metrics": {
+        "likes": 36,
+        "reposts": 5,
+        "replies": 9,
+        "views": 3178,
+        "capturedAt": "2026-11-02T17:38:30Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/MengTo/status/2117298331361915188",
+      "firstSeen": "2026-11-02"
+    }
+  ]
+}
