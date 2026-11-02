@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-01-1300",
-  "count": 30,
+  "latest": "2026-11-01-1900",
+  "count": 31,
   "briefs": [
+    {
+      "id": "2026-11-01-1900",
+      "date": "2026-11-01",
+      "edition": "Evening",
+      "publishedAt": "2026-11-02T00:06:55Z",
+      "headline": "Agents built one app in 12 frameworks; costs varied nearly twofold",
+      "url": "/api/briefs/2026-11-01-1900.json"
+    },
     {
       "id": "2026-11-01-1300",
       "date": "2026-11-01",

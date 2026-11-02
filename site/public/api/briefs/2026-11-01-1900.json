@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-01-1900",
+  "date": "2026-11-01",
+  "publishedAt": "2026-11-02T00:06:55Z",
+  "edition": "Evening",
+  "top3": [
+    {
+      "itemId": "nolan-lawson-ai-cost-js-frameworks",
+      "headline": "Agents built one app in 12 frameworks; costs varied nearly twofold",
+      "whyItMatters": "Test what your agents actually use; Lawson suspects many MCPs and skills do more harm than good."
+    },
+    {
+      "itemId": "deepseek-dsh-superagent-prototype",
+      "headline": "DeepSeek open-sources a proactive coding agent that watches your repo",
+      "whyItMatters": "Always-on agents need written rules for when they act, so decide those rules before you adopt one."
+    },
+    {
+      "itemId": "rauch-own-your-intelligence",
+      "headline": "Vercel's Guillermo Rauch urges builders to own their AI stack",
+      "whyItMatters": "Know which parts of your agent stack you could move or run yourself if terms change."
+    }
+  ],
+  "items": [
+    {
+      "id": "rauch-own-your-intelligence",
+      "title": "Vercel's Guillermo Rauch urges builders to own their AI stack",
+      "takeaway": "Opinion post: own your harness, data, connections and runtime; embrace open source.",
+      "soWhat": "Lock-in on rented models and agent platforms is becoming a strategic question for leaders.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-01T21:08:22Z",
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2117000819623243925"
+      },
+      "image": {
+        "src": "/img/rauch-own-your-intelligence.jpg",
+        "alt": "Profile image of @rauchg"
+      },
+      "heat": {
+        "score": 18,
+        "level": "none",
+        "metric": "42k views"
+      }
+    },
+    {
+      "id": "deepseek-dsh-superagent-prototype",
+      "title": "DeepSeek open-sources a proactive coding agent that watches your repo",
+      "takeaway": "MIT-licensed research prototype; takes allowed requests and replies with results like a pull request.",
+      "soWhat": "Agents that pick up work on their own are moving from demos to open code teams can inspect.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-10-31T09:32:46Z",
+      "source": {
+        "name": "DeepSeek on GitHub",
+        "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+      },
+      "related": [
+        {
+          "name": "Teortaxes on dsh-superagent",
+          "url": "https://x.com/teortaxesTex/status/2116545243508039888"
+        }
+      ],
+      "image": {
+        "src": "/img/deepseek-dsh-superagent-prototype.jpg",
+        "alt": "Image from DeepSeek on GitHub"
+      }
+    },
+    {
+      "id": "nolan-lawson-ai-cost-js-frameworks",
+      "title": "Agents built one app in 12 frameworks; costs varied nearly twofold",
+      "takeaway": "Opus 5.5 built the same app five times per framework; median cost ran $2.67 to $4.97.",
+      "soWhat": "Framework choice now shows up in your agent bill, and installed MCPs and skills often went unused.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-10-28T14:31:03Z",
+      "source": {
+        "name": "Nolan Lawson's blog",
+        "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/"
+      },
+      "related": [
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50323088"
+        }
+      ],
+      "image": {
+        "src": "/img/nolan-lawson-ai-cost-js-frameworks.jpg",
+        "alt": "Image from Nolan Lawson's blog"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "Nolan Lawson",
+      "quote": "I have a strong suspicion, for example, that the current crop of MCPs and skills may be doing more harm than good.",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/"
+    },
+    {
+      "handle": "@rauchg",
+      "quote": "Own your harness, data, connections, runtime: your agents. Embrace open source.",
+      "url": "https://x.com/rauchg/status/2117000819623243925"
+    },
+    {
+      "handle": "DeepSeek README",
+      "quote": "take as little human attention as possible, and give as much value as possible",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+    }
+  ]
+}

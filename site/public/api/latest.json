@@ -1,221 +1,114 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-01-1300",
+  "id": "2026-11-01-1900",
   "date": "2026-11-01",
-  "publishedAt": "2026-11-01T18:10:00Z",
-  "edition": "Midday",
+  "publishedAt": "2026-11-02T00:06:55Z",
+  "edition": "Evening",
   "top3": [
     {
-      "itemId": "jepsen-particledb-llm-tradeoffs",
-      "headline": "Jepsen finds 96 issues in a database built with heavy LLM help",
-      "whyItMatters": "Code that agents write still needs independent testing before you trust it with your data."
+      "itemId": "nolan-lawson-ai-cost-js-frameworks",
+      "headline": "Agents built one app in 12 frameworks; costs varied nearly twofold",
+      "whyItMatters": "Test what your agents actually use; Lawson suspects many MCPs and skills do more harm than good."
     },
     {
-      "itemId": "anthropic-blocks-researcher-training",
-      "headline": "A researcher says Anthropic blocked him over model-training work",
-      "whyItMatters": "Vendor usage rules can cut off teams doing legitimate model work, so check your terms now."
+      "itemId": "deepseek-dsh-superagent-prototype",
+      "headline": "DeepSeek open-sources a proactive coding agent that watches your repo",
+      "whyItMatters": "Always-on agents need written rules for when they act, so decide those rules before you adopt one."
     },
     {
-      "itemId": "stageshow-faux-ui-skill",
-      "headline": "Stageshow, an open skill, teaches coding agents product demo craft",
-      "whyItMatters": "Design taste is being packaged as installable skills any coding agent can use."
+      "itemId": "rauch-own-your-intelligence",
+      "headline": "Vercel's Guillermo Rauch urges builders to own their AI stack",
+      "whyItMatters": "Know which parts of your agent stack you could move or run yourself if terms change."
     }
   ],
   "items": [
     {
-      "id": "openai-post-midterm-policy-push",
-      "title": "OpenAI plans a policy push right after the U.S. midterms",
-      "takeaway": "Per Axios, includes rebranding data centers as AI compute campuses.",
-      "soWhat": "AI infrastructure is now a political fight, and labs are reshaping the story for Washington.",
+      "id": "rauch-own-your-intelligence",
+      "title": "Vercel's Guillermo Rauch urges builders to own their AI stack",
+      "takeaway": "Opinion post: own your harness, data, connections and runtime; embrace open source.",
+      "soWhat": "Lock-in on rented models and agent platforms is becoming a strategic question for leaders.",
       "lens": "broad",
       "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-11-01T13:47:53Z",
+      "importance": 4,
+      "publishedAt": "2026-11-01T21:08:22Z",
       "source": {
-        "name": "Axios",
-        "url": "https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy"
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2117000819623243925"
       },
-      "related": [
-        {
-          "name": "Axios on X",
-          "url": "https://x.com/axios/status/2116889969432150442"
-        }
-      ],
       "image": {
-        "src": "/img/openai-post-midterm-policy-push.jpg",
-        "alt": "Image from Axios"
+        "src": "/img/rauch-own-your-intelligence.jpg",
+        "alt": "Profile image of @rauchg"
       },
       "heat": {
-        "score": 3,
+        "score": 18,
         "level": "none",
-        "metric": "45k views"
+        "metric": "42k views"
       }
     },
     {
-      "id": "ronacher-opus-cpython-reimplementation",
-      "title": "Armin Ronacher bets an agent could rebuild CPython in two weeks",
-      "takeaway": "A prediction, not a project; he says agents port better with their own test suites.",
-      "soWhat": "Senior builders now see whole-system rewrites by agents as near, with tests as the key lever.",
+      "id": "deepseek-dsh-superagent-prototype",
+      "title": "DeepSeek open-sources a proactive coding agent that watches your repo",
+      "takeaway": "MIT-licensed research prototype; takes allowed requests and replies with results like a pull request.",
+      "soWhat": "Agents that pick up work on their own are moving from demos to open code teams can inspect.",
       "lens": "practical",
       "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-01T11:52:51Z",
-      "source": {
-        "name": "@mitsuhiko on X",
-        "url": "https://x.com/mitsuhiko/status/2116861021927227421"
-      },
-      "related": [
-        {
-          "name": "Ronacher follow-up on test suites",
-          "url": "https://x.com/mitsuhiko/status/2116895016249434134"
-        }
-      ],
-      "image": {
-        "src": "/img/ronacher-opus-cpython-reimplementation.jpg",
-        "alt": "Profile image of @mitsuhiko"
-      },
-      "heat": {
-        "score": 20,
-        "level": "none",
-        "metric": "92k views"
-      }
-    },
-    {
-      "id": "stageshow-faux-ui-skill",
-      "title": "Stageshow, an open skill, teaches coding agents product demo craft",
-      "takeaway": "Install with npx; works with Claude Code, Codex, Gemini and others.",
-      "soWhat": "Teams can raise the quality of agent-made demos without hiring for every visual.",
-      "lens": "design",
-      "momentum": "building",
       "importance": 7,
-      "publishedAt": "2026-10-31T18:08:49Z",
+      "publishedAt": "2026-10-31T09:32:46Z",
       "source": {
-        "name": "Stageshow page",
-        "url": "https://benji.org/stageshow"
+        "name": "DeepSeek on GitHub",
+        "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
       },
       "related": [
         {
-          "name": "Benji Taylor on X",
-          "url": "https://x.com/benjitaylor/status/2116593247854453244"
-        },
-        {
-          "name": "Meng To share",
-          "url": "https://x.com/MengTo/status/2116914312250040786"
+          "name": "Teortaxes on dsh-superagent",
+          "url": "https://x.com/teortaxesTex/status/2116545243508039888"
         }
       ],
       "image": {
-        "src": "/img/stageshow-faux-ui-skill.jpg",
-        "alt": "Image from Stageshow page"
-      },
-      "heat": {
-        "score": 33,
-        "level": "none",
-        "metric": "763k views"
+        "src": "/img/deepseek-dsh-superagent-prototype.jpg",
+        "alt": "Image from DeepSeek on GitHub"
       }
     },
     {
-      "id": "jepsen-particledb-llm-tradeoffs",
-      "title": "Jepsen finds 96 issues in a database built with heavy LLM help",
-      "takeaway": "LLM tools claimed bugs were fixed when they were not; the vendor could not explain most issues.",
-      "soWhat": "Speed from agents is worthless if nobody on the team understands or can verify the code.",
+      "id": "nolan-lawson-ai-cost-js-frameworks",
+      "title": "Agents built one app in 12 frameworks; costs varied nearly twofold",
+      "takeaway": "Opus 5.5 built the same app five times per framework; median cost ran $2.67 to $4.97.",
+      "soWhat": "Framework choice now shows up in your agent bill, and installed MCPs and skills often went unused.",
       "lens": "practical",
       "momentum": "new",
-      "importance": 9,
-      "publishedAt": "2026-10-31T13:39:52Z",
+      "importance": 8,
+      "publishedAt": "2026-10-28T14:31:03Z",
       "source": {
-        "name": "Jepsen",
-        "url": "https://jepsen.io/analyses/particledb-1.1.4"
-      },
-      "related": [
-        {
-          "name": "Simon Willison: Quoting Kyle Kingsbury",
-          "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/"
-        },
-        {
-          "name": "Hacker News thread",
-          "url": "https://news.ycombinator.com/item?id=50316100"
-        }
-      ],
-      "image": {
-        "src": "/img/jepsen-particledb-llm-tradeoffs.jpg",
-        "alt": "Jepsen: Jepsen finds 96 issues in a database built with heavy LLM help"
-      }
-    },
-    {
-      "id": "anthropic-blocks-researcher-training",
-      "title": "A researcher says Anthropic blocked him over model-training work",
-      "takeaway": "Single first-hand account; he says he never distilled Claude. No Anthropic response yet.",
-      "soWhat": "Teams training their own models should read vendor terms before routing that work through them.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-10-31T10:22:36Z",
-      "source": {
-        "name": "@jiahaoshao1 on X",
-        "url": "https://x.com/jiahaoshao1/status/2116475922190922088"
+        "name": "Nolan Lawson's blog",
+        "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/"
       },
       "related": [
         {
           "name": "Hacker News thread",
-          "url": "https://news.ycombinator.com/item?id=50319358"
+          "url": "https://news.ycombinator.com/item?id=50323088"
         }
       ],
       "image": {
-        "src": "/img/anthropic-blocks-researcher-training.jpg",
-        "alt": "Profile image of @jiahaoshao1"
-      },
-      "heat": {
-        "score": 26,
-        "level": "none",
-        "metric": "255k views"
+        "src": "/img/nolan-lawson-ai-cost-js-frameworks.jpg",
+        "alt": "Image from Nolan Lawson's blog"
       }
     }
   ],
   "voices": [
     {
-      "handle": "Kyle Kingsbury (Jepsen)",
-      "quote": "LLM tooling repeatedly claimed that bugs had been fixed when, in fact, they had not.",
-      "url": "https://jepsen.io/analyses/particledb-1.1.4"
+      "handle": "Nolan Lawson",
+      "quote": "I have a strong suspicion, for example, that the current crop of MCPs and skills may be doing more harm than good.",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/"
     },
     {
-      "handle": "@mitsuhiko",
-      "quote": "you're probably better off having the agent builds its own test suite specifically for porting",
-      "url": "https://x.com/mitsuhiko/status/2116895016249434134"
+      "handle": "@rauchg",
+      "quote": "Own your harness, data, connections, runtime: your agents. Embrace open source.",
+      "url": "https://x.com/rauchg/status/2117000819623243925"
     },
     {
-      "handle": "@jiahaoshao1",
-      "quote": "I never distilled Claude—rollouts came from a strong open-source model; Claude just helped submit jobs and run analysis.",
-      "url": "https://x.com/jiahaoshao1/status/2116475922190922088"
-    }
-  ],
-  "hotOnX": [
-    {
-      "url": "https://x.com/benjitaylor/status/2116593247854453244",
-      "handle": "@benjitaylor",
-      "text": "Stageshow: an open agent skill for better faux UI stills, animations and bento grids.",
-      "metric": "10k likes",
-      "note": "Designers want agents to stop producing generic, sloppy product visuals."
-    },
-    {
-      "url": "https://x.com/jiahaoshao1/status/2116475922190922088",
-      "handle": "@jiahaoshao1",
-      "text": "Tagged for \"training a competitor\"; now anything touching RFT, SFT, or training larger models gets me blocked.",
-      "metric": "3.5k likes",
-      "note": "Researchers fear vendor rules can lock them out of legitimate work."
-    },
-    {
-      "url": "https://x.com/mitsuhiko/status/2116861021927227421",
-      "handle": "@mitsuhiko",
-      "text": "You could have an Opus 5.5 agent re-implement all of CPython probably within two weeks without any human input.",
-      "metric": "1.6k likes",
-      "note": "A respected builder putting a timeline on agents rewriting core software."
-    },
-    {
-      "url": "https://x.com/axios/status/2116889969432150442",
-      "handle": "@axios",
-      "text": "Right after Tuesday's midterms, OpenAI will unleash a policy and PR blitz, including rebranding data centers.",
-      "metric": "75 likes",
-      "note": "Data center politics is shaping how labs talk to Washington."
+      "handle": "DeepSeek README",
+      "quote": "take as little human attention as possible, and give as much value as possible",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
     }
   ]
 }
