@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.0",
+  "id": "2026-11-02",
+  "publishedAt": "2026-11-02T13:20:00Z",
+  "window": {
+    "from": "2026-10-27",
+    "to": "2026-11-02"
+  },
+  "headline": "Agents now make work faster than anyone can check it.",
+  "summary": "The bottleneck moved from making work to checking it. Over 40% of GitHub pull requests now start with an agent, and Postgres 19 is shipping late because AI bug reports outpace the people who review them. Speed without understanding gets expensive: Jepsen found 96 issues in a database built with heavy LLM help, where the tools claimed fixes that never happened. And the work still needs checking, since the best model passed 12% of SemiAnalysis's expert tasks and the best agent 10.8% of Surge's tax assignments. The answers on show this week were not more agents but stronger tests, faster CI and open outside review. Before you add another agent, name the person who will verify what it ships.",
+  "threads": [
+    {
+      "title": "Review is the new ceiling",
+      "line": "Agents start over 40% of pull requests and Postgres slipped as review lagged. Your speed is set by checking, not writing.",
+      "evidence": [
+        {
+          "briefId": "2026-10-28-1300",
+          "itemId": "github-octoverse-2026"
+        },
+        {
+          "briefId": "2026-11-02-0700",
+          "itemId": "postgres-19-late-ai-bug-reports"
+        },
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "kunchenguid-ci-at-agent-speed"
+        },
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "vercel-ci-beta"
+        },
+        {
+          "briefId": "2026-11-01-0700",
+          "itemId": "kunchenguid-github-rate-limit-agents"
+        },
+        {
+          "briefId": "2026-11-02-0700",
+          "itemId": "deepseek-super-agent-design-article"
+        }
+      ]
+    },
+    {
+      "title": "Shipped fast, understood by no one",
+      "line": "LLM tools claimed fixes that weren't real, and agent success halves as features evolve. Code nobody understands is a liability.",
+      "evidence": [
+        {
+          "briefId": "2026-11-01-1300",
+          "itemId": "jepsen-particledb-llm-tradeoffs"
+        },
+        {
+          "briefId": "2026-10-28-0700",
+          "itemId": "arxiv-featurearc-evolving-features"
+        },
+        {
+          "briefId": "2026-10-30-1300",
+          "itemId": "arxiv-envos-stale-info-agents"
+        },
+        {
+          "briefId": "2026-10-29-0700",
+          "itemId": "spawn-agent-fleet-playbook"
+        }
+      ]
+    },
+    {
+      "title": "Twelve percent of expert work",
+      "line": "Top agents pass about one in ten expert tasks and overstate their sources. Keep experts signing off on what matters.",
+      "evidence": [
+        {
+          "briefId": "2026-11-02-0700",
+          "itemId": "semianalysis-gdpx-benchmark"
+        },
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "surge-dayjob-tax-benchmark"
+        },
+        {
+          "briefId": "2026-10-27-0700",
+          "itemId": "arxiv-claim-smoothing-research-agents"
+        },
+        {
+          "briefId": "2026-10-30-1300",
+          "itemId": "arxiv-rtaste-research-agent-judgment"
+        }
+      ]
+    },
+    {
+      "title": "Claims need open referees",
+      "line": "OpenAI's math claims now face open, unpaid outside review. Hold any vendor claim to that test before it drives a decision.",
+      "evidence": [
+        {
+          "briefId": "2026-10-27-0700",
+          "itemId": "eth-refutation-independent-review"
+        },
+        {
+          "briefId": "2026-10-27-1900",
+          "itemId": "verge-openai-shepherds-gatekeeping"
+        },
+        {
+          "briefId": "2026-10-28-0700",
+          "itemId": "axiom-cfsg-lean-formalization"
+        },
+        {
+          "briefId": "2026-11-02-0700",
+          "itemId": "calegari-mathematics-has-changed"
+        },
+        {
+          "briefId": "2026-10-31-0700",
+          "itemId": "anthropic-automated-emergent-misalignment-red-teaming"
+        }
+      ]
+    },
+    {
+      "title": "Tests are the real lever",
+      "line": "Where good tests existed, agents did deep work, from an NES chip inside Qwen to a Rust API rewrite. Fund tests first.",
+      "evidence": [
+        {
+          "briefId": "2026-10-30-1900",
+          "itemId": "nesformer-nes-cpu-in-qwen-weights"
+        },
+        {
+          "briefId": "2026-11-01-1300",
+          "itemId": "ronacher-opus-cpython-reimplementation"
+        },
+        {
+          "briefId": "2026-10-31-1900",
+          "itemId": "anthropic-messages-api-rust-rewrite-claude"
+        },
+        {
+          "briefId": "2026-10-28-0700",
+          "itemId": "arxiv-concordat-typed-sessions"
+        }
+      ]
+    }
+  ]
+}

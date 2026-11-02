@@ -1,103 +1,133 @@
 {
   "schemaVersion": "1.0",
-  "id": "2026-10-30",
-  "publishedAt": "2026-10-31T00:30:00Z",
+  "id": "2026-11-02",
+  "publishedAt": "2026-11-02T13:20:00Z",
   "window": {
-    "from": "2026-10-24",
-    "to": "2026-10-30"
+    "from": "2026-10-27",
+    "to": "2026-11-02"
   },
-  "headline": "Your AI bill is falling. Your exposure is not.",
-  "summary": "AI got cheaper to buy this week and riskier to run. Average token prices fell 58% since mid-July while GPU rents rose, and OpenAI and Anthropic both loosened usage limits to keep heavy users. The cost moved to security: a tampered Claude Code extension reached up to 5,000 Cursor users, and Northflank told every customer to assume their secrets were exposed after users saw their AI keys used. Investors are watching the other side of the ledger, as Alphabet lost over $500bn in value in a day and Intel fell 28% on AI spending worries. Meanwhile agents keep taking the first pass at work, with Supabase saying about 70% of its new activity comes from them. This week, audit every AI key and extension your teams run, and tie each AI budget line to a result you can show your board.",
+  "headline": "Agents now make work faster than anyone can check it.",
+  "summary": "The bottleneck moved from making work to checking it. Over 40% of GitHub pull requests now start with an agent, and Postgres 19 is shipping late because AI bug reports outpace the people who review them. Speed without understanding gets expensive: Jepsen found 96 issues in a database built with heavy LLM help, where the tools claimed fixes that never happened. And the work still needs checking, since the best model passed 12% of SemiAnalysis's expert tasks and the best agent 10.8% of Surge's tax assignments. The answers on show this week were not more agents but stronger tests, faster CI and open outside review. Before you add another agent, name the person who will verify what it ships.",
   "threads": [
     {
-      "title": "Cheap tokens, pricey chips",
-      "line": "Token prices fell 58% since July while GPU rents rose. Vendors now compete on usage limits and routing, not list price.",
+      "title": "Review is the new ceiling",
+      "line": "Agents start over 40% of pull requests and Postgres slipped as review lagged. Your speed is set by checking, not writing.",
       "evidence": [
-        {
-          "briefId": "2026-10-30-1900",
-          "itemId": "a16z-rack-spread-gpu-up-tokens-down"
-        },
-        {
-          "briefId": "2026-10-29-1300",
-          "itemId": "codex-pro-limits-doubled"
-        },
-        {
-          "briefId": "2026-10-30-1300",
-          "itemId": "claude-max-renamed-ultra-no-5h-limit"
-        },
-        {
-          "briefId": "2026-10-30-1300",
-          "itemId": "openrouter-provider-routing-rebuilt"
-        },
-        {
-          "briefId": "2026-10-30-0700",
-          "itemId": "altman-cheeky-pint-token-pricing"
-        }
-      ]
-    },
-    {
-      "title": "Every key is a door",
-      "line": "A backdoored extension and a hosting breach turned leaked keys into someone else's AI usage. Know where your secrets live.",
-      "evidence": [
-        {
-          "briefId": "2026-10-30-0700",
-          "itemId": "cursor-marketplace-malicious-claude-code-extension"
-        },
-        {
-          "briefId": "2026-10-30-1900",
-          "itemId": "northflank-breach-rotate-all-secrets"
-        },
-        {
-          "briefId": "2026-10-28-1900",
-          "itemId": "anti-llm-fingerprinting-script"
-        },
-        {
-          "briefId": "2026-10-28-1900",
-          "itemId": "a16z-ciso-ai-survey"
-        }
-      ]
-    },
-    {
-      "title": "The market wants receipts",
-      "line": "Alphabet shed over $500bn and Intel fell 28% as investors questioned AI spending. Expect your AI budget to face the same test.",
-      "evidence": [
-        {
-          "briefId": "2026-10-30-1900",
-          "itemId": "us-tech-stocks-fall-ai-spending"
-        },
-        {
-          "briefId": "2026-10-28-1900",
-          "itemId": "alphabet-q3-2026"
-        },
-        {
-          "briefId": "2026-10-28-1900",
-          "itemId": "microsoft-earnings-agents"
-        },
-        {
-          "briefId": "2026-10-30-1300",
-          "itemId": "verge-anthropic-s1-risk-factors"
-        }
-      ]
-    },
-    {
-      "title": "Agents write first now",
-      "line": "Agents drive about 70% of new Supabase activity and start over 40% of GitHub pull requests. Review and CI set the pace.",
-      "evidence": [
-        {
-          "briefId": "2026-10-30-1300",
-          "itemId": "supabase-70pct-activity-from-agents"
-        },
         {
           "briefId": "2026-10-28-1300",
           "itemId": "github-octoverse-2026"
         },
         {
-          "briefId": "2026-10-29-0700",
-          "itemId": "spawn-agent-fleet-playbook"
+          "briefId": "2026-11-02-0700",
+          "itemId": "postgres-19-late-ai-bug-reports"
         },
         {
           "briefId": "2026-10-28-1900",
           "itemId": "kunchenguid-ci-at-agent-speed"
+        },
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "vercel-ci-beta"
+        },
+        {
+          "briefId": "2026-11-01-0700",
+          "itemId": "kunchenguid-github-rate-limit-agents"
+        },
+        {
+          "briefId": "2026-11-02-0700",
+          "itemId": "deepseek-super-agent-design-article"
+        }
+      ]
+    },
+    {
+      "title": "Shipped fast, understood by no one",
+      "line": "LLM tools claimed fixes that weren't real, and agent success halves as features evolve. Code nobody understands is a liability.",
+      "evidence": [
+        {
+          "briefId": "2026-11-01-1300",
+          "itemId": "jepsen-particledb-llm-tradeoffs"
+        },
+        {
+          "briefId": "2026-10-28-0700",
+          "itemId": "arxiv-featurearc-evolving-features"
+        },
+        {
+          "briefId": "2026-10-30-1300",
+          "itemId": "arxiv-envos-stale-info-agents"
+        },
+        {
+          "briefId": "2026-10-29-0700",
+          "itemId": "spawn-agent-fleet-playbook"
+        }
+      ]
+    },
+    {
+      "title": "Twelve percent of expert work",
+      "line": "Top agents pass about one in ten expert tasks and overstate their sources. Keep experts signing off on what matters.",
+      "evidence": [
+        {
+          "briefId": "2026-11-02-0700",
+          "itemId": "semianalysis-gdpx-benchmark"
+        },
+        {
+          "briefId": "2026-10-28-1900",
+          "itemId": "surge-dayjob-tax-benchmark"
+        },
+        {
+          "briefId": "2026-10-27-0700",
+          "itemId": "arxiv-claim-smoothing-research-agents"
+        },
+        {
+          "briefId": "2026-10-30-1300",
+          "itemId": "arxiv-rtaste-research-agent-judgment"
+        }
+      ]
+    },
+    {
+      "title": "Claims need open referees",
+      "line": "OpenAI's math claims now face open, unpaid outside review. Hold any vendor claim to that test before it drives a decision.",
+      "evidence": [
+        {
+          "briefId": "2026-10-27-0700",
+          "itemId": "eth-refutation-independent-review"
+        },
+        {
+          "briefId": "2026-10-27-1900",
+          "itemId": "verge-openai-shepherds-gatekeeping"
+        },
+        {
+          "briefId": "2026-10-28-0700",
+          "itemId": "axiom-cfsg-lean-formalization"
+        },
+        {
+          "briefId": "2026-11-02-0700",
+          "itemId": "calegari-mathematics-has-changed"
+        },
+        {
+          "briefId": "2026-10-31-0700",
+          "itemId": "anthropic-automated-emergent-misalignment-red-teaming"
+        }
+      ]
+    },
+    {
+      "title": "Tests are the real lever",
+      "line": "Where good tests existed, agents did deep work, from an NES chip inside Qwen to a Rust API rewrite. Fund tests first.",
+      "evidence": [
+        {
+          "briefId": "2026-10-30-1900",
+          "itemId": "nesformer-nes-cpu-in-qwen-weights"
+        },
+        {
+          "briefId": "2026-11-01-1300",
+          "itemId": "ronacher-opus-cpython-reimplementation"
+        },
+        {
+          "briefId": "2026-10-31-1900",
+          "itemId": "anthropic-messages-api-rust-rewrite-claude"
+        },
+        {
+          "briefId": "2026-10-28-0700",
+          "itemId": "arxiv-concordat-typed-sessions"
         }
       ]
     }
