@@ -1,0 +1,262 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-02-1300",
+  "date": "2026-11-02",
+  "publishedAt": "2026-11-02T18:20:00Z",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "anthropic-s1a-q3-17b-revenue",
+      "headline": "Anthropic's Q3 revenue hit about $17B as growth slowed to 47%",
+      "whyItMatters": "Anthropic's growth is cooling while it carries about $895B in compute commitments, a risk Claude buyers should track."
+    },
+    {
+      "itemId": "abu-dhabi-openai-ai-native-government",
+      "headline": "Abu Dhabi puts government rules into AI-readable form with OpenAI",
+      "whyItMatters": "A live food-import pilot shows AI compliance checks running with traceable rules and human sign-off."
+    },
+    {
+      "itemId": "census-btos-ai-adoption-super-intelligence",
+      "headline": "US Census renames AI as 'Super Intelligence' in its business survey",
+      "whyItMatters": "About 40% of large US firms report using AI, but changing wording makes the trend hard to compare."
+    }
+  ],
+  "items": [
+    {
+      "id": "a16z-enterprise-llm-spend-rules",
+      "title": "a16z: 94% of enterprise LLM buyers expect to spend more",
+      "takeaway": "Three rules for AI apps to beat in-house builds: run the workflow, rent context cheaply, price on proven value.",
+      "soWhat": "Before building AI tools in-house, test vendors that can prove they run the workflow better than you.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-02T17:30:04Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2117308274433511930"
+      },
+      "image": {
+        "src": "/img/a16z-enterprise-llm-spend-rules.jpg",
+        "alt": "Image from @a16z on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "4k views"
+      }
+    },
+    {
+      "id": "openai-lifeval-benchmark",
+      "title": "OpenAI unveils LifeVal, a benchmark for everyday assistant tasks",
+      "takeaway": "Built from ChatGPT user feedback on tasks like childcare, government services and personal finances.",
+      "soWhat": "OpenAI is grading models on everyday life tasks, a sign consumer assistants will compete on errands.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-02T17:27:26Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2117307611338997846"
+      },
+      "image": {
+        "src": "/img/openai-lifeval-benchmark.jpg",
+        "alt": "Image from @OpenAI on X"
+      },
+      "heat": {
+        "score": 15,
+        "level": "none",
+        "metric": "47k views"
+      }
+    },
+    {
+      "id": "mengto-figma-weave-to-claude-code",
+      "title": "Meng To designs in Figma Weave, then Claude Code builds it",
+      "takeaway": "One canvas makes a frame in four seasons, depth maps and motion studies; he shared the workflow.",
+      "soWhat": "Designers can hand a finished visual folder to a coding agent, shortening the design-to-build handoff.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-02T16:50:34Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2117298331361915188"
+      },
+      "related": [
+        {
+          "name": "Weave workflow",
+          "url": "https://app.weavy.ai/flow/6yKBise7YHoG20h7oJCHIE/"
+        }
+      ],
+      "image": {
+        "src": "/img/mengto-figma-weave-to-claude-code.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "3k views"
+      }
+    },
+    {
+      "id": "blacksmith-ci-bottleneck-yc",
+      "title": "YC: Blacksmith grew 20x as testing becomes AI coding's bottleneck",
+      "takeaway": "The faster CI cloud raised a $66M Series C at a $1B valuation, per YC, with a team of 30.",
+      "soWhat": "As AI writes more code, budget for faster testing, or CI will cap how fast you deliver.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-02T15:50:00Z",
+      "source": {
+        "name": "@ycombinator on X",
+        "url": "https://x.com/ycombinator/status/2117283089294520638"
+      },
+      "image": {
+        "src": "/img/blacksmith-ci-bottleneck-yc.jpg",
+        "alt": "Image from @ycombinator on X"
+      },
+      "heat": {
+        "score": 2,
+        "level": "none",
+        "metric": "12k views"
+      }
+    },
+    {
+      "id": "anthropic-s1a-q3-17b-revenue",
+      "title": "Anthropic's amended S-1 shows $17B Q3 revenue, growth slowing",
+      "takeaway": "Q3 revenue rose 47% on Q2, down from 144%; about $895.4B committed, mostly to compute.",
+      "soWhat": "If Claude is core to your stack, note its maker carries about $895B in compute commitments.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 9,
+      "publishedAt": "2026-11-02T14:32:13Z",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+      },
+      "related": [
+        {
+          "name": "Ed Ludlow on X",
+          "url": "https://x.com/EdLudlow/status/2117273729319452862"
+        },
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50337439"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-s1a-q3-17b-revenue.jpg",
+        "alt": "Image from CNBC"
+      }
+    },
+    {
+      "id": "census-btos-ai-adoption-super-intelligence",
+      "title": "Census survey now asks firms about 'Super Intelligence,' not AI",
+      "takeaway": "Large-firm AI use near 40% in October under new wording; question renamed under Executive Order 14434.",
+      "soWhat": "Official AI adoption numbers keep changing definitions, so compare trend lines carefully before citing them.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-02T13:31:26Z",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
+      },
+      "image": {
+        "src": "/img/census-btos-ai-adoption-super-intelligence.jpg",
+        "alt": "Image from Simon Willison"
+      }
+    },
+    {
+      "id": "abu-dhabi-openai-ai-native-government",
+      "title": "Abu Dhabi signs four OpenAI deals, including machine-readable rules",
+      "takeaway": "First pilot checks food imports against AI-readable rules; officials keep final decisions.",
+      "soWhat": "AI rule-checking is moving into live government services, with every assessment traced to a rule.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-02T05:29:27Z",
+      "source": {
+        "name": "Abu Dhabi Media Office",
+        "url": "https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/"
+      },
+      "related": [
+        {
+          "name": "WAM",
+          "url": "https://www.wam.ae/en/article/17i6xki-khaled-bin-mohamed-bin-zayed-meets-sam-altman"
+        },
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/news/uae/2026/11/02/abu-dhabi-agrees-openai-deals-to-boost-government-services-and-education/"
+        }
+      ],
+      "image": {
+        "src": "/img/abu-dhabi-openai-ai-native-government.jpg",
+        "alt": "Image from Abu Dhabi Media Office"
+      }
+    },
+    {
+      "id": "trigger-dev-env-vars-exposed",
+      "title": "Trigger.dev says an attacker accessed some customers' environment variables",
+      "takeaway": "Exploit blocked; impacted account owners were emailed mitigation steps.",
+      "soWhat": "If your team uses Trigger.dev, check for its email and rotate any secrets stored there.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-01T22:33:00Z",
+      "source": {
+        "name": "Trigger.dev blog",
+        "url": "https://trigger.dev/blog/security-incident-nov-2026"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50331784"
+        }
+      ],
+      "image": {
+        "src": "/img/trigger-dev-env-vars-exposed.jpg",
+        "alt": "Image from Trigger.dev blog"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@a16z",
+      "quote": "Model progress continually improves the customer's alternative. Your advantage must widen faster for the application to keep earning its premium.",
+      "url": "https://x.com/a16z/status/2117308274433511930"
+    },
+    {
+      "handle": "Anthropic S-1/A",
+      "quote": "substantially all of which is related to compute and infrastructure",
+      "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+    },
+    {
+      "handle": "US Census Bureau",
+      "quote": "Super Intelligence or SI (formerly referred to as Artificial Intelligence or AI)",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/OpenAI/status/2117307611338997846",
+      "handle": "@OpenAI",
+      "text": "LifeVal: a benchmark shaped by thousands of ChatGPT users on everyday tasks they want help with",
+      "metric": "597 likes",
+      "note": "People want to know if assistants can handle real errands like childcare and finances."
+    },
+    {
+      "url": "https://x.com/ycombinator/status/2117283089294520638",
+      "handle": "@ycombinator",
+      "text": "Blacksmith: as AI writes more code, testing and validation become the bottleneck",
+      "metric": "85 likes",
+      "note": "Builders feel CI slowing them down as agents ship more code."
+    },
+    {
+      "url": "https://x.com/MengTo/status/2117298331361915188",
+      "handle": "@MengTo",
+      "text": "Designed a page in Figma Weave, then handed the folder to Claude Code to build it",
+      "metric": "36 likes",
+      "note": "Designers see a shareable path from visual canvas to working page."
+    }
+  ]
+}

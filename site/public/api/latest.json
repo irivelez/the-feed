@@ -1,259 +1,262 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-02-0700",
+  "id": "2026-11-02-1300",
   "date": "2026-11-02",
-  "publishedAt": "2026-11-02T12:07:04Z",
-  "edition": "Morning",
+  "publishedAt": "2026-11-02T18:20:00Z",
+  "edition": "Midday",
   "top3": [
     {
-      "itemId": "deepseek-super-agent-design-article",
-      "headline": "DeepSeek lays out its blueprint for an always-on super-agent",
-      "whyItMatters": "Its design separates a dispatching router from workers, a pattern worth testing before buying agent platforms."
+      "itemId": "anthropic-s1a-q3-17b-revenue",
+      "headline": "Anthropic's Q3 revenue hit about $17B as growth slowed to 47%",
+      "whyItMatters": "Anthropic's growth is cooling while it carries about $895B in compute commitments, a risk Claude buyers should track."
     },
     {
-      "itemId": "postgres-19-late-ai-bug-reports",
-      "headline": "AI-found bugs delay Postgres 19 as human reviewers fall behind",
-      "whyItMatters": "Budget reviewer time for AI-found bugs, because drafting fixes is cheap and verifying them is not."
+      "itemId": "abu-dhabi-openai-ai-native-government",
+      "headline": "Abu Dhabi puts government rules into AI-readable form with OpenAI",
+      "whyItMatters": "A live food-import pilot shows AI compliance checks running with traceable rules and human sign-off."
     },
     {
-      "itemId": "semianalysis-gdpx-benchmark",
-      "headline": "Top AI model scores 12% on a new expert-work benchmark",
-      "whyItMatters": "SemiAnalysis expects early AI revenue to cluster in sectors with high-return uses, not spread evenly."
+      "itemId": "census-btos-ai-adoption-super-intelligence",
+      "headline": "US Census renames AI as 'Super Intelligence' in its business survey",
+      "whyItMatters": "About 40% of large US firms report using AI, but changing wording makes the trend hard to compare."
     }
   ],
   "items": [
     {
-      "id": "mit-tr-agentic-web-is-here",
-      "title": "MIT Technology Review: the agentic web has arrived",
-      "takeaway": "Agents browse and act for people without the Semantic Web's tags; the essay weighs effects on the human web.",
-      "soWhat": "Agents now act on websites without special markup, so your site's users increasingly include software.",
+      "id": "a16z-enterprise-llm-spend-rules",
+      "title": "a16z: 94% of enterprise LLM buyers expect to spend more",
+      "takeaway": "Three rules for AI apps to beat in-house builds: run the workflow, rent context cheaply, price on proven value.",
+      "soWhat": "Before building AI tools in-house, test vendors that can prove they run the workflow better than you.",
       "lens": "broad",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-02T09:35:19Z",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-02T17:30:04Z",
       "source": {
-        "name": "MIT Technology Review",
-        "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/"
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2117308274433511930"
       },
       "image": {
-        "src": "/img/mit-tr-agentic-web-is-here.jpg",
-        "alt": "Image from MIT Technology Review"
+        "src": "/img/a16z-enterprise-llm-spend-rules.jpg",
+        "alt": "Image from @a16z on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "4k views"
       }
     },
     {
-      "id": "semianalysis-gdpx-benchmark",
-      "title": "Best model scores 12% on SemiAnalysis's new expert-task benchmark",
-      "takeaway": "206 tasks across 11 domains; Claude Opus 5.5 leads at 12.0%, and finance and legal sit near zero.",
-      "soWhat": "Frontier agents still fail most high-value expert work, so pilot narrow tasks before promising broad savings.",
+      "id": "openai-lifeval-benchmark",
+      "title": "OpenAI unveils LifeVal, a benchmark for everyday assistant tasks",
+      "takeaway": "Built from ChatGPT user feedback on tasks like childcare, government services and personal finances.",
+      "soWhat": "OpenAI is grading models on everyday life tasks, a sign consumer assistants will compete on errands.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-02T17:27:26Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2117307611338997846"
+      },
+      "image": {
+        "src": "/img/openai-lifeval-benchmark.jpg",
+        "alt": "Image from @OpenAI on X"
+      },
+      "heat": {
+        "score": 15,
+        "level": "none",
+        "metric": "47k views"
+      }
+    },
+    {
+      "id": "mengto-figma-weave-to-claude-code",
+      "title": "Meng To designs in Figma Weave, then Claude Code builds it",
+      "takeaway": "One canvas makes a frame in four seasons, depth maps and motion studies; he shared the workflow.",
+      "soWhat": "Designers can hand a finished visual folder to a coding agent, shortening the design-to-build handoff.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-02T16:50:34Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2117298331361915188"
+      },
+      "related": [
+        {
+          "name": "Weave workflow",
+          "url": "https://app.weavy.ai/flow/6yKBise7YHoG20h7oJCHIE/"
+        }
+      ],
+      "image": {
+        "src": "/img/mengto-figma-weave-to-claude-code.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "3k views"
+      }
+    },
+    {
+      "id": "blacksmith-ci-bottleneck-yc",
+      "title": "YC: Blacksmith grew 20x as testing becomes AI coding's bottleneck",
+      "takeaway": "The faster CI cloud raised a $66M Series C at a $1B valuation, per YC, with a team of 30.",
+      "soWhat": "As AI writes more code, budget for faster testing, or CI will cap how fast you deliver.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-02T15:50:00Z",
+      "source": {
+        "name": "@ycombinator on X",
+        "url": "https://x.com/ycombinator/status/2117283089294520638"
+      },
+      "image": {
+        "src": "/img/blacksmith-ci-bottleneck-yc.jpg",
+        "alt": "Image from @ycombinator on X"
+      },
+      "heat": {
+        "score": 2,
+        "level": "none",
+        "metric": "12k views"
+      }
+    },
+    {
+      "id": "anthropic-s1a-q3-17b-revenue",
+      "title": "Anthropic's amended S-1 shows $17B Q3 revenue, growth slowing",
+      "takeaway": "Q3 revenue rose 47% on Q2, down from 144%; about $895.4B committed, mostly to compute.",
+      "soWhat": "If Claude is core to your stack, note its maker carries about $895B in compute commitments.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 9,
+      "publishedAt": "2026-11-02T14:32:13Z",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+      },
+      "related": [
+        {
+          "name": "Ed Ludlow on X",
+          "url": "https://x.com/EdLudlow/status/2117273729319452862"
+        },
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50337439"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-s1a-q3-17b-revenue.jpg",
+        "alt": "Image from CNBC"
+      }
+    },
+    {
+      "id": "census-btos-ai-adoption-super-intelligence",
+      "title": "Census survey now asks firms about 'Super Intelligence,' not AI",
+      "takeaway": "Large-firm AI use near 40% in October under new wording; question renamed under Executive Order 14434.",
+      "soWhat": "Official AI adoption numbers keep changing definitions, so compare trend lines carefully before citing them.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-02T13:31:26Z",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
+      },
+      "image": {
+        "src": "/img/census-btos-ai-adoption-super-intelligence.jpg",
+        "alt": "Image from Simon Willison"
+      }
+    },
+    {
+      "id": "abu-dhabi-openai-ai-native-government",
+      "title": "Abu Dhabi signs four OpenAI deals, including machine-readable rules",
+      "takeaway": "First pilot checks food imports against AI-readable rules; officials keep final decisions.",
+      "soWhat": "AI rule-checking is moving into live government services, with every assessment traced to a rule.",
       "lens": "broad",
       "momentum": "new",
       "importance": 8,
-      "publishedAt": "2026-11-02T02:06:42Z",
+      "publishedAt": "2026-11-02T05:29:27Z",
       "source": {
-        "name": "SemiAnalysis on X",
-        "url": "https://x.com/SemiAnalysis_/status/2117075900575477855"
+        "name": "Abu Dhabi Media Office",
+        "url": "https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/"
       },
       "related": [
         {
-          "name": "SemiAnalysis blog: GDPx",
-          "url": "https://semianalysis.substack.com/p/gdpx-measuring-frontier-model-capabilities"
+          "name": "WAM",
+          "url": "https://www.wam.ae/en/article/17i6xki-khaled-bin-mohamed-bin-zayed-meets-sam-altman"
         },
         {
-          "name": "GDPx leaderboard",
-          "url": "https://gdpx.semianalysis.com/"
-        },
-        {
-          "name": "Sundar Pichai quote post",
-          "url": "https://x.com/sundarpichai/status/2117113121102045347"
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/news/uae/2026/11/02/abu-dhabi-agrees-openai-deals-to-boost-government-services-and-education/"
         }
       ],
       "image": {
-        "src": "/img/semianalysis-gdpx-benchmark.jpg",
-        "alt": "Image from SemiAnalysis on X"
-      },
-      "heat": {
-        "score": 23,
-        "level": "none",
-        "metric": "927k views"
+        "src": "/img/abu-dhabi-openai-ai-native-government.jpg",
+        "alt": "Image from Abu Dhabi Media Office"
       }
     },
     {
-      "id": "occupysaas-clean-room-ai-rebuilds",
-      "title": "A protest project uses AI agents to rebuild Auth0 and Salesforce",
-      "takeaway": "Apache-2.0 clean-room replacements written from public API docs and tested against the vendors' own SDKs.",
-      "soWhat": "If agents can rebuild a vendor from its public docs, switching costs for SaaS buyers may fall.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-02T00:17:27Z",
-      "source": {
-        "name": "OccupySaaS",
-        "url": "https://occupysaas.com/"
-      },
-      "related": [
-        {
-          "name": "occupysaas/zeroauthy",
-          "url": "https://github.com/occupysaas/zeroauthy"
-        },
-        {
-          "name": "occupysaas/salescompel",
-          "url": "https://github.com/occupysaas/salescompel"
-        },
-        {
-          "name": "Hacker News thread",
-          "url": "https://news.ycombinator.com/item?id=50331402"
-        }
-      ],
-      "image": {
-        "src": "/img/occupysaas-clean-room-ai-rebuilds.jpg",
-        "alt": "Image from OccupySaaS"
-      }
-    },
-    {
-      "id": "calegari-mathematics-has-changed",
-      "title": "Calegari: AI has changed mathematics, so act like it",
-      "takeaway": "Guest post calls OpenAI's 700-plus papers a watershed, despite poor writing and attribution.",
-      "soWhat": "When AI output floods a field, leverage shifts to whoever sets the standards for credit and review.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-01T18:28:00Z",
-      "source": {
-        "name": "Terence Tao's blog",
-        "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/"
-      },
-      "related": [
-        {
-          "name": "Hacker News thread",
-          "url": "https://news.ycombinator.com/item?id=50328251"
-        }
-      ],
-      "image": {
-        "src": "/img/calegari-mathematics-has-changed.jpg",
-        "alt": "Terence Tao's blog: Calegari: AI has changed mathematics, so act like it"
-      }
-    },
-    {
-      "id": "deepseek-super-agent-design-article",
-      "title": "DeepSeek details how it built an always-on agent system",
-      "takeaway": "A router dispatches to isolated workers; in early tests it finished tasks faster than one session.",
-      "soWhat": "Human attention, not agent count, caps how much parallel agent work a team can run.",
+      "id": "trigger-dev-env-vars-exposed",
+      "title": "Trigger.dev says an attacker accessed some customers' environment variables",
+      "takeaway": "Exploit blocked; impacted account owners were emailed mitigation steps.",
+      "soWhat": "If your team uses Trigger.dev, check for its email and rotate any secrets stored there.",
       "lens": "practical",
-      "momentum": "building",
-      "importance": 9,
-      "publishedAt": "2026-11-01T11:37:54Z",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-01T22:33:00Z",
       "source": {
-        "name": "@DeepSeekHarness on X",
-        "url": "https://x.com/DeepSeekHarness/status/2116857257245987236"
+        "name": "Trigger.dev blog",
+        "url": "https://trigger.dev/blog/security-incident-nov-2026"
       },
       "related": [
         {
-          "name": "deepseek-ai/dsh-superagent-prototype",
-          "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
-        },
-        {
-          "name": "Article",
-          "url": "https://x.com/i/article/2116829218935857152"
-        },
-        {
-          "name": "@AlexFinn summary",
-          "url": "https://x.com/AlexFinn/status/2117127095038218733"
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50331784"
         }
       ],
       "image": {
-        "src": "/img/deepseek-super-agent-design-article.jpg",
-        "alt": "Image from github.com"
-      },
-      "heat": {
-        "score": 35,
-        "level": "none",
-        "metric": "2.1M views"
-      }
-    },
-    {
-      "id": "postgres-19-late-ai-bug-reports",
-      "title": "Postgres 19 ships late as AI bug reports outpace human review",
-      "takeaway": "Back-patched commits rose from 724 to 1,169 year on year; the release likely lands in November.",
-      "soWhat": "AI finds bugs faster than people can fix them, so review capacity is now the bottleneck.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 9,
-      "publishedAt": "2026-10-30T15:53:00Z",
-      "source": {
-        "name": "Robert Haas's blog",
-        "url": "https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html"
-      },
-      "related": [
-        {
-          "name": "Neon blog (original)",
-          "url": "https://neon.com/blog/postgres-19-is-late-and-its-ais-fault"
-        },
-        {
-          "name": "Hacker News thread",
-          "url": "https://news.ycombinator.com/item?id=50312408"
-        }
-      ],
-      "image": {
-        "src": "/img/postgres-19-late-ai-bug-reports.jpg",
-        "alt": "Image from Robert Haas's blog"
+        "src": "/img/trigger-dev-env-vars-exposed.jpg",
+        "alt": "Image from Trigger.dev blog"
       }
     }
   ],
   "voices": [
     {
-      "handle": "Robert Haas",
-      "quote": "Every feature that we write from now until the end of our careers will be scrutinized by AI.",
-      "url": "https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html"
+      "handle": "@a16z",
+      "quote": "Model progress continually improves the customer's alternative. Your advantage must widen faster for the application to keep earning its premium.",
+      "url": "https://x.com/a16z/status/2117308274433511930"
     },
     {
-      "handle": "@SemiAnalysis_",
-      "quote": "We believe the first trillion dollars of AI revenue will be concentrated in sectors that can deploy frontier intelligence at high ROI, not broadly diffused throughout the whole economy.",
-      "url": "https://semianalysis.substack.com/p/gdpx-measuring-frontier-model-capabilities"
+      "handle": "Anthropic S-1/A",
+      "quote": "substantially all of which is related to compute and infrastructure",
+      "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
     },
     {
-      "handle": "@DeepSeekHarness",
-      "quote": "a person can usually follow only 3 to 5 active sessions at once",
-      "url": "https://x.com/DeepSeekHarness/status/2116857257245987236"
-    },
-    {
-      "handle": "Frank Calegari",
-      "quote": "are atrociously written and violate our community expectations of attribution. Some of them are even wrong.",
-      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/"
-    },
-    {
-      "handle": "@sundarpichai",
-      "quote": "look at that cost line for Carbon",
-      "url": "https://x.com/sundarpichai/status/2117113121102045347"
+      "handle": "US Census Bureau",
+      "quote": "Super Intelligence or SI (formerly referred to as Artificial Intelligence or AI)",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/DeepSeekHarness/status/2116857257245987236",
-      "handle": "@DeepSeekHarness",
-      "text": "Exploring Super-agent Design: Towards a More Autonomous Agent System",
-      "metric": "11k likes",
-      "note": "Builders see a concrete blueprint for always-on agents from a major lab."
+      "url": "https://x.com/OpenAI/status/2117307611338997846",
+      "handle": "@OpenAI",
+      "text": "LifeVal: a benchmark shaped by thousands of ChatGPT users on everyday tasks they want help with",
+      "metric": "597 likes",
+      "note": "People want to know if assistants can handle real errands like childcare and finances."
     },
     {
-      "url": "https://x.com/sundarpichai/status/2117113121102045347",
-      "handle": "@sundarpichai",
-      "text": "look at that cost line for Carbon",
-      "metric": "2.7k likes",
-      "note": "Google's CEO points at cost per score, not just raw benchmark rank."
+      "url": "https://x.com/ycombinator/status/2117283089294520638",
+      "handle": "@ycombinator",
+      "text": "Blacksmith: as AI writes more code, testing and validation become the bottleneck",
+      "metric": "85 likes",
+      "note": "Builders feel CI slowing them down as agents ship more code."
     },
     {
-      "url": "https://x.com/SemiAnalysis_/status/2117075900575477855",
-      "handle": "@SemiAnalysis_",
-      "text": "GDPx: 206 agentic tasks across 11 high-value domains; the best model scores 12.0%",
-      "metric": "2.2k likes",
-      "note": "A hard, expert-built benchmark gives a sober read on what agents can do."
-    },
-    {
-      "url": "https://x.com/AlexFinn/status/2117127095038218733",
-      "handle": "@AlexFinn",
-      "text": "Summarizes DeepSeek's Super-agent article as a guide to building agents",
-      "metric": "581 likes",
-      "note": "The article is spreading among builders as a practical how-to."
+      "url": "https://x.com/MengTo/status/2117298331361915188",
+      "handle": "@MengTo",
+      "text": "Designed a page in Figma Weave, then handed the folder to Claude Code to build it",
+      "metric": "36 likes",
+      "note": "Designers see a shareable path from visual canvas to working page."
     }
   ]
 }
