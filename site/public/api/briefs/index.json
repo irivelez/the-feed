@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-01-1900",
-  "count": 31,
+  "latest": "2026-11-02-0700",
+  "count": 32,
   "briefs": [
+    {
+      "id": "2026-11-02-0700",
+      "date": "2026-11-02",
+      "edition": "Morning",
+      "publishedAt": "2026-11-02T12:07:04Z",
+      "headline": "DeepSeek lays out its blueprint for an always-on super-agent",
+      "url": "/api/briefs/2026-11-02-0700.json"
+    },
     {
       "id": "2026-11-01-1900",
       "date": "2026-11-01",

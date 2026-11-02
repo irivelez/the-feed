@@ -1,114 +1,259 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-01-1900",
-  "date": "2026-11-01",
-  "publishedAt": "2026-11-02T00:06:55Z",
-  "edition": "Evening",
+  "id": "2026-11-02-0700",
+  "date": "2026-11-02",
+  "publishedAt": "2026-11-02T12:07:04Z",
+  "edition": "Morning",
   "top3": [
     {
-      "itemId": "nolan-lawson-ai-cost-js-frameworks",
-      "headline": "Agents built one app in 12 frameworks; costs varied nearly twofold",
-      "whyItMatters": "Test what your agents actually use; Lawson suspects many MCPs and skills do more harm than good."
+      "itemId": "deepseek-super-agent-design-article",
+      "headline": "DeepSeek lays out its blueprint for an always-on super-agent",
+      "whyItMatters": "Its design separates a dispatching router from workers, a pattern worth testing before buying agent platforms."
     },
     {
-      "itemId": "deepseek-dsh-superagent-prototype",
-      "headline": "DeepSeek open-sources a proactive coding agent that watches your repo",
-      "whyItMatters": "Always-on agents need written rules for when they act, so decide those rules before you adopt one."
+      "itemId": "postgres-19-late-ai-bug-reports",
+      "headline": "AI-found bugs delay Postgres 19 as human reviewers fall behind",
+      "whyItMatters": "Budget reviewer time for AI-found bugs, because drafting fixes is cheap and verifying them is not."
     },
     {
-      "itemId": "rauch-own-your-intelligence",
-      "headline": "Vercel's Guillermo Rauch urges builders to own their AI stack",
-      "whyItMatters": "Know which parts of your agent stack you could move or run yourself if terms change."
+      "itemId": "semianalysis-gdpx-benchmark",
+      "headline": "Top AI model scores 12% on a new expert-work benchmark",
+      "whyItMatters": "SemiAnalysis expects early AI revenue to cluster in sectors with high-return uses, not spread evenly."
     }
   ],
   "items": [
     {
-      "id": "rauch-own-your-intelligence",
-      "title": "Vercel's Guillermo Rauch urges builders to own their AI stack",
-      "takeaway": "Opinion post: own your harness, data, connections and runtime; embrace open source.",
-      "soWhat": "Lock-in on rented models and agent platforms is becoming a strategic question for leaders.",
+      "id": "mit-tr-agentic-web-is-here",
+      "title": "MIT Technology Review: the agentic web has arrived",
+      "takeaway": "Agents browse and act for people without the Semantic Web's tags; the essay weighs effects on the human web.",
+      "soWhat": "Agents now act on websites without special markup, so your site's users increasingly include software.",
       "lens": "broad",
       "momentum": "building",
-      "importance": 4,
-      "publishedAt": "2026-11-01T21:08:22Z",
+      "importance": 6,
+      "publishedAt": "2026-11-02T09:35:19Z",
       "source": {
-        "name": "@rauchg on X",
-        "url": "https://x.com/rauchg/status/2117000819623243925"
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/"
       },
       "image": {
-        "src": "/img/rauch-own-your-intelligence.jpg",
-        "alt": "Profile image of @rauchg"
-      },
-      "heat": {
-        "score": 18,
-        "level": "none",
-        "metric": "42k views"
+        "src": "/img/mit-tr-agentic-web-is-here.jpg",
+        "alt": "Image from MIT Technology Review"
       }
     },
     {
-      "id": "deepseek-dsh-superagent-prototype",
-      "title": "DeepSeek open-sources a proactive coding agent that watches your repo",
-      "takeaway": "MIT-licensed research prototype; takes allowed requests and replies with results like a pull request.",
-      "soWhat": "Agents that pick up work on their own are moving from demos to open code teams can inspect.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-10-31T09:32:46Z",
+      "id": "semianalysis-gdpx-benchmark",
+      "title": "Best model scores 12% on SemiAnalysis's new expert-task benchmark",
+      "takeaway": "206 tasks across 11 domains; Claude Opus 5.5 leads at 12.0%, and finance and legal sit near zero.",
+      "soWhat": "Frontier agents still fail most high-value expert work, so pilot narrow tasks before promising broad savings.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-02T02:06:42Z",
       "source": {
-        "name": "DeepSeek on GitHub",
-        "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+        "name": "SemiAnalysis on X",
+        "url": "https://x.com/SemiAnalysis_/status/2117075900575477855"
       },
       "related": [
         {
-          "name": "Teortaxes on dsh-superagent",
-          "url": "https://x.com/teortaxesTex/status/2116545243508039888"
+          "name": "SemiAnalysis blog: GDPx",
+          "url": "https://semianalysis.substack.com/p/gdpx-measuring-frontier-model-capabilities"
+        },
+        {
+          "name": "GDPx leaderboard",
+          "url": "https://gdpx.semianalysis.com/"
+        },
+        {
+          "name": "Sundar Pichai quote post",
+          "url": "https://x.com/sundarpichai/status/2117113121102045347"
         }
       ],
       "image": {
-        "src": "/img/deepseek-dsh-superagent-prototype.jpg",
-        "alt": "Image from DeepSeek on GitHub"
+        "src": "/img/semianalysis-gdpx-benchmark.jpg",
+        "alt": "Image from SemiAnalysis on X"
+      },
+      "heat": {
+        "score": 23,
+        "level": "none",
+        "metric": "927k views"
       }
     },
     {
-      "id": "nolan-lawson-ai-cost-js-frameworks",
-      "title": "Agents built one app in 12 frameworks; costs varied nearly twofold",
-      "takeaway": "Opus 5.5 built the same app five times per framework; median cost ran $2.67 to $4.97.",
-      "soWhat": "Framework choice now shows up in your agent bill, and installed MCPs and skills often went unused.",
-      "lens": "practical",
+      "id": "occupysaas-clean-room-ai-rebuilds",
+      "title": "A protest project uses AI agents to rebuild Auth0 and Salesforce",
+      "takeaway": "Apache-2.0 clean-room replacements written from public API docs and tested against the vendors' own SDKs.",
+      "soWhat": "If agents can rebuild a vendor from its public docs, switching costs for SaaS buyers may fall.",
+      "lens": "broad",
       "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-10-28T14:31:03Z",
+      "importance": 6,
+      "publishedAt": "2026-11-02T00:17:27Z",
       "source": {
-        "name": "Nolan Lawson's blog",
-        "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/"
+        "name": "OccupySaaS",
+        "url": "https://occupysaas.com/"
+      },
+      "related": [
+        {
+          "name": "occupysaas/zeroauthy",
+          "url": "https://github.com/occupysaas/zeroauthy"
+        },
+        {
+          "name": "occupysaas/salescompel",
+          "url": "https://github.com/occupysaas/salescompel"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50331402"
+        }
+      ],
+      "image": {
+        "src": "/img/occupysaas-clean-room-ai-rebuilds.jpg",
+        "alt": "Image from OccupySaaS"
+      }
+    },
+    {
+      "id": "calegari-mathematics-has-changed",
+      "title": "Calegari: AI has changed mathematics, so act like it",
+      "takeaway": "Guest post calls OpenAI's 700-plus papers a watershed, despite poor writing and attribution.",
+      "soWhat": "When AI output floods a field, leverage shifts to whoever sets the standards for credit and review.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-01T18:28:00Z",
+      "source": {
+        "name": "Terence Tao's blog",
+        "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/"
       },
       "related": [
         {
           "name": "Hacker News thread",
-          "url": "https://news.ycombinator.com/item?id=50323088"
+          "url": "https://news.ycombinator.com/item?id=50328251"
         }
       ],
       "image": {
-        "src": "/img/nolan-lawson-ai-cost-js-frameworks.jpg",
-        "alt": "Image from Nolan Lawson's blog"
+        "src": "/img/calegari-mathematics-has-changed.jpg",
+        "alt": "Terence Tao's blog: Calegari: AI has changed mathematics, so act like it"
+      }
+    },
+    {
+      "id": "deepseek-super-agent-design-article",
+      "title": "DeepSeek details how it built an always-on agent system",
+      "takeaway": "A router dispatches to isolated workers; in early tests it finished tasks faster than one session.",
+      "soWhat": "Human attention, not agent count, caps how much parallel agent work a team can run.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-01T11:37:54Z",
+      "source": {
+        "name": "@DeepSeekHarness on X",
+        "url": "https://x.com/DeepSeekHarness/status/2116857257245987236"
+      },
+      "related": [
+        {
+          "name": "deepseek-ai/dsh-superagent-prototype",
+          "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+        },
+        {
+          "name": "Article",
+          "url": "https://x.com/i/article/2116829218935857152"
+        },
+        {
+          "name": "@AlexFinn summary",
+          "url": "https://x.com/AlexFinn/status/2117127095038218733"
+        }
+      ],
+      "image": {
+        "src": "/img/deepseek-super-agent-design-article.jpg",
+        "alt": "Image from github.com"
+      },
+      "heat": {
+        "score": 35,
+        "level": "none",
+        "metric": "2.1M views"
+      }
+    },
+    {
+      "id": "postgres-19-late-ai-bug-reports",
+      "title": "Postgres 19 ships late as AI bug reports outpace human review",
+      "takeaway": "Back-patched commits rose from 724 to 1,169 year on year; the release likely lands in November.",
+      "soWhat": "AI finds bugs faster than people can fix them, so review capacity is now the bottleneck.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-10-30T15:53:00Z",
+      "source": {
+        "name": "Robert Haas's blog",
+        "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html"
+      },
+      "related": [
+        {
+          "name": "Neon blog (original)",
+          "url": "https://neon.com/blog/postgres-19-is-late-and-its-ais-fault"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50312408"
+        }
+      ],
+      "image": {
+        "src": "/img/postgres-19-late-ai-bug-reports.jpg",
+        "alt": "Image from Robert Haas's blog"
       }
     }
   ],
   "voices": [
     {
-      "handle": "Nolan Lawson",
-      "quote": "I have a strong suspicion, for example, that the current crop of MCPs and skills may be doing more harm than good.",
-      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/"
+      "handle": "Robert Haas",
+      "quote": "Every feature that we write from now until the end of our careers will be scrutinized by AI.",
+      "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html"
     },
     {
-      "handle": "@rauchg",
-      "quote": "Own your harness, data, connections, runtime: your agents. Embrace open source.",
-      "url": "https://x.com/rauchg/status/2117000819623243925"
+      "handle": "@SemiAnalysis_",
+      "quote": "We believe the first trillion dollars of AI revenue will be concentrated in sectors that can deploy frontier intelligence at high ROI, not broadly diffused throughout the whole economy.",
+      "url": "https://semianalysis.substack.com/p/gdpx-measuring-frontier-model-capabilities"
     },
     {
-      "handle": "DeepSeek README",
-      "quote": "take as little human attention as possible, and give as much value as possible",
-      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+      "handle": "@DeepSeekHarness",
+      "quote": "a person can usually follow only 3 to 5 active sessions at once",
+      "url": "https://x.com/DeepSeekHarness/status/2116857257245987236"
+    },
+    {
+      "handle": "Frank Calegari",
+      "quote": "are atrociously written and violate our community expectations of attribution. Some of them are even wrong.",
+      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/"
+    },
+    {
+      "handle": "@sundarpichai",
+      "quote": "look at that cost line for Carbon",
+      "url": "https://x.com/sundarpichai/status/2117113121102045347"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/DeepSeekHarness/status/2116857257245987236",
+      "handle": "@DeepSeekHarness",
+      "text": "Exploring Super-agent Design: Towards a More Autonomous Agent System",
+      "metric": "11k likes",
+      "note": "Builders see a concrete blueprint for always-on agents from a major lab."
+    },
+    {
+      "url": "https://x.com/sundarpichai/status/2117113121102045347",
+      "handle": "@sundarpichai",
+      "text": "look at that cost line for Carbon",
+      "metric": "2.7k likes",
+      "note": "Google's CEO points at cost per score, not just raw benchmark rank."
+    },
+    {
+      "url": "https://x.com/SemiAnalysis_/status/2117075900575477855",
+      "handle": "@SemiAnalysis_",
+      "text": "GDPx: 206 agentic tasks across 11 high-value domains; the best model scores 12.0%",
+      "metric": "2.2k likes",
+      "note": "A hard, expert-built benchmark gives a sober read on what agents can do."
+    },
+    {
+      "url": "https://x.com/AlexFinn/status/2117127095038218733",
+      "handle": "@AlexFinn",
+      "text": "Summarizes DeepSeek's Super-agent article as a guide to building agents",
+      "metric": "581 likes",
+      "note": "The article is spreading among builders as a practical how-to."
     }
   ]
 }
