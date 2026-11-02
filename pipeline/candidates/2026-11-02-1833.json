@@ -1,0 +1,337 @@
+{
+ "schemaVersion": "1.1",
+ "runId": "2026-11-02-1833",
+ "generatedAt": "2026-11-02T23:45:00Z",
+ "configVersions": {
+  "sources": "1.3.0",
+  "preferences": "1.1.0"
+ },
+ "window": {
+  "from": "2026-11-02T17:40:00Z",
+  "to": "2026-11-02T23:40:00Z"
+ },
+ "sourceNotes": [
+  "Window 17:40Z to 23:40Z Nov 2 (since the 12:36 run). 11 candidates (4 practical, 7 broad, 0 frontier-capital, 0 design).",
+  "RSS new items: The Verge (Claude Code game clones, OpenAI Grid Protectors, NYT v. Brave; all used). The Atlantic Pizzagate pieces off-topic. No new items from Simon Willison (Census post already in 2026-11-02-1236), MIT TR, OpenAI Blog, Lenny, Stratechery, Benedict Evans, Mollick, Gary Marcus, Mitchell Hashimoto or Metaplanet Google News.",
+  "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) still returns HTTP 500 after the redirect to dwarkesh.com/feed; dead for many runs now.",
+  "OpenAI announcement page (openai.com/index/grid-protectors-program/) returns HTTP 403 to scripted fetches; facts taken from The Verge.",
+  "Hacker News: Astra weight-space post (1,647) used; Oracle (135), Tao (93) and agentic-backdoors paper (80) used below the 200-point threshold because their primary sources are strong. 'Anthropic's growth just flattened' (72) and TechPolicy 'SEC should block Anthropic's IPO' (72) are opinion pieces on topic 'anthropic-s1'; not used. Momentic Launch HN (107) not used.",
+  "arXiv: no new announcement batch since Oct 30 in cs.AI/cs.CL/cs.MA; agentic-backdoors paper (cs.CR, cross-listed cs.CL) found via HN.",
+  "X howTo lane: @gregisenberg and @poteto Grok Bot business posts (product promo, not used); @swyx AIE YouTube stats, @hwchase17/@LangChain Interrupt conference promo, @jxnlco personal update, @theo and @NousResearch quote posts; none used beyond Astra and Claude threads.",
+  "X bigPicture lane: @rauchg Vercel npm blocking (used via @vercel_dev) and sandbox comment; @a16z Tutor Intelligence and Northwood clips (robotics/space, not used); @ycombinator W27 deadline; no posts from @sama, @karpathy or the labs except @AnthropicAI Residency. @elonmusk AI-filtered search returned 0.",
+  "X frontierCapital lane: @LynAldenContact bond-market posts (market views, light on substance) and an aviation anecdote; @nathanbenaich quote posts and State of AI Paris event; none used. Design lane: no @MengTo posts this window.",
+  "X queries lane: low-follower listicles and promos (Claude skills repos, '50 things Claude does'); nothing cleared quality.",
+  "X news: Altman ADIPEC 'next GPT' claim used with proof 3 (secondary clip only). Steam AI-disclosure analysis (49.9% in Oct) trending but no primary source found; not used. LongCat-2.5 already noted in the previous run.",
+  "Replies checked on @ClaudeDevs threads and @rikiyatakehi Astra posts: none cleared the reply filter (>=1000 followers and >=5 likes) in the returned set.",
+  "Vercel npm candidate has no metrics: the post was read via its web page, which shows rounded counts only. authorBaseline not filled this run. X calls this run: 12."
+ ],
+ "candidates": [
+  {
+   "id": "weight-space-programming-astra-qwen",
+   "lens": "broad",
+   "topic": "weight-space-programming",
+   "summary": "MIT CSAIL researchers report that GPT-6 Astra can read and directly edit neural network weights in natural-language reasoning, without gradients or training loops; editing 0.016% of Qwen3.5-0.8B's weights raised MATH-500 from 7.9% to 48.1%.",
+   "facts": [
+    "Authors: Rikiya Takehi, Jayden Teoh, Alex Zhang, Omar Khattab (MIT CSAIL); post published November 2, 2026.",
+    "The weight edit fixed a reasoning-loop issue that Qwen's own model card warns about, per the post, and raised IFEval by 3x.",
+    "Astra identified which game a 17,253-weight network was trained on (Breakout, 99% confident) from raw weights with no tools.",
+    "Astra wrote small game-playing networks from scratch that outplayed networks trained with PPO for 100 million steps, per the post.",
+    "The authors call the technique Weight-Space Programming.",
+    "Hacker News front page at 1,647 points; @theo, @garrytan and @nathanbenaich quoted the announcement on X."
+   ],
+   "source": {
+    "name": "Sparks of Weight-Space Programming (MIT CSAIL)",
+    "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+    "type": "web"
+   },
+   "related": [
+    {
+     "name": "Rikiya Takehi on X",
+     "url": "https://x.com/rikiyatakehi/status/2117313742891327994"
+    },
+    {
+     "name": "Hacker News discussion",
+     "url": "https://news.ycombinator.com/item?id=50341174"
+    },
+    {
+     "name": "Garry Tan on X",
+     "url": "https://x.com/garrytan/status/2117384926052135106"
+    }
+   ],
+   "publishedAt": "2026-11-02T17:51:48Z",
+   "metrics": {
+    "likes": 29904,
+    "reposts": 3453,
+    "replies": 1271,
+    "views": 2566655,
+    "capturedAt": "2026-11-02T23:36:30Z"
+   },
+   "care": 4,
+   "proof": 5,
+   "imageHint": "https://x.com/rikiyatakehi/status/2117313742891327994",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "claude-messages-api-threads-beta",
+   "lens": "practical",
+   "topic": "claude-messages-api-threads",
+   "summary": "Anthropic put message threads in public beta on the Claude Messages API: the API caches the conversation server-side between turns, so clients send only new messages plus the previous message ID.",
+   "facts": [
+    "Per @ClaudeDevs, Claude starts responding sooner because the full conversation is no longer resent each turn.",
+    "Announced with a demo video on X."
+   ],
+   "source": {
+    "name": "Claude Devs on X",
+    "url": "https://x.com/ClaudeDevs/status/2117332449382510884",
+    "type": "x",
+    "handle": "ClaudeDevs"
+   },
+   "publishedAt": "2026-11-02T19:06:08Z",
+   "metrics": {
+    "likes": 4699,
+    "reposts": 157,
+    "replies": 181,
+    "views": 306894,
+    "capturedAt": "2026-11-02T23:36:30Z"
+   },
+   "care": 5,
+   "proof": 5,
+   "imageHint": "https://x.com/ClaudeDevs/status/2117332449382510884",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "agentic-backdoors-pretraining-poisoning",
+   "lens": "practical",
+   "topic": "agentic-backdoors-poisoning",
+   "summary": "A paper with Nicholas Carlini among the authors shows that poisoning 0.1% of a pretraining corpus can plant a remote-code-execution backdoor in a CLI agent that survives a clean post-training pipeline.",
+   "facts": [
+    "The authors pretrained Qwen3 models from scratch at 0.6B, 1.7B and 4B, then post-trained each into a CLI agent.",
+    "Attack success rate rises with scale; the 4B model reached roughly 92% at a 0.1% poison rate and stayed positive at 0.0005%.",
+    "The backdoored agent executes the attacker's command when the trigger is present and behaves normally on clean inputs.",
+    "Submitted to arXiv Oct 27, 2026 (cs.CR); on the Hacker News front page Nov 2 with 80 points."
+   ],
+   "source": {
+    "name": "arXiv 2610.37741",
+    "url": "https://arxiv.org/abs/2610.37741",
+    "type": "arxiv"
+   },
+   "related": [
+    {
+     "name": "Hacker News discussion",
+     "url": "https://news.ycombinator.com/item?id=50341334"
+    }
+   ],
+   "publishedAt": "2026-10-27T16:53:52Z",
+   "metrics": {
+    "points": 80,
+    "capturedAt": "2026-11-02T23:35:00Z"
+   },
+   "care": 4,
+   "proof": 5,
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "claude-code-blocks-game-clones",
+   "lens": "practical",
+   "topic": "claude-code-game-clones",
+   "summary": "Anthropic added two sentences to Claude Code's system prompt on Opus 5.5 to steer it away from recreating specific existing video games; original and genre games are meant to keep working.",
+   "facts": [
+    "Anthropic's Addy Osmani, replying on X: \"We added two sentences to Claude Code's prompt on Opus 5.5 to steer it away from recreating someone else's specific game because using Claude to infringe IP is against our usage policy.\" (as quoted by The Verge)",
+    "A user's screenshot showed the alleged new lines: \"Do build original games, games in a genre, and games from the user's own designs and assets. Don't build a recreation of a specific existing game, even if it is named or called original.\" Osmani did not confirm that exact wording.",
+    "Context per The Verge: retro gaming is seeing a wave of AI-made decompilations, recompilations and ports."
+   ],
+   "source": {
+    "name": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-02T18:56:02Z",
+   "care": 3,
+   "proof": 4,
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "vercel-blocks-malicious-npm-packages",
+   "lens": "practical",
+   "topic": "npm-supply-chain",
+   "summary": "Vercel now automatically blocks known malicious npm packages in builds before their install scripts can run, with no action required from users.",
+   "facts": [
+    "Guillermo Rauch: \"When npm packages get hijacked, our system blocks their deployment, protecting your code and secrets from exfiltration.\"",
+    "Blocking covers packages already known to be malicious, per the announcement wording."
+   ],
+   "source": {
+    "name": "Vercel Developers on X",
+    "url": "https://x.com/vercel_dev/status/2117325624344035671",
+    "type": "x",
+    "handle": "vercel_dev"
+   },
+   "related": [
+    {
+     "name": "Guillermo Rauch on X",
+     "url": "https://x.com/rauchg/status/2117328043228471552"
+    }
+   ],
+   "publishedAt": "2026-11-02T18:39:01Z",
+   "care": 3,
+   "proof": 4,
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "oracle-20b-stock-bonds-ai-buildout",
+   "lens": "broad",
+   "topic": "ai-capex-financing",
+   "summary": "Oracle filed to sell $10B in common stock and $10B in senior notes to finance its AI buildout; shares fell 8.8% on Monday.",
+   "facts": [
+    "The raise was previewed at last week's investor day, where Oracle forecast at least $225B revenue for fiscal 2030 and capped additional capital-market funding for FY2027-2030 at $20B (CNBC).",
+    "Oracle shares are down 33% in 2026 and 50% over 12 months; five-year CDS spread at 292, up 265% in a year (CNBC).",
+    "Oracle had $125.34B of debt as of Aug. 31 and was downgraded by S&P to BBB- in July (CNBC).",
+    "Oracle expects positive free cash flow in the second half of 2028, using vendor financing, customer-provided hardware and prepayments (CNBC)."
+   ],
+   "source": {
+    "name": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+    "type": "web"
+   },
+   "related": [
+    {
+     "name": "Hacker News discussion",
+     "url": "https://news.ycombinator.com/item?id=50342284"
+    }
+   ],
+   "publishedAt": "2026-11-02T14:03:44Z",
+   "metrics": {
+    "points": 135,
+    "capturedAt": "2026-11-02T23:35:00Z"
+   },
+   "care": 4,
+   "proof": 5,
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "nyt-sues-brave-ai-scraping",
+   "lens": "broad",
+   "topic": "publisher-ai-lawsuits",
+   "summary": "The New York Times and, separately, the New York Daily News, Chicago Tribune and Orlando Sentinel sued Brave Software, alleging it scraped their sites, sold access to its index to AI companies, and lets users bypass paywalls.",
+   "facts": [
+    "The complaint says Brave provided paid access to \"real-time online content from the Brave Index\" to AI companies including Anthropic, Perplexity, Mistral, xAI and Cohere (The Verge, citing Reuters).",
+    "Brave promotes \"hundreds of top publishers\" as accessible through its \"Paywall blocker\" feature, per the complaint.",
+    "Perplexity's Jesse Dwyer: \"The New York Times is overpaying its attorneys and underpaying its journalists.\""
+   ],
+   "source": {
+    "name": "The Verge",
+    "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-02T17:51:19Z",
+   "care": 4,
+   "proof": 4,
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "openai-grid-protectors-program",
+   "lens": "broad",
+   "topic": "openai-compute-campuses",
+   "summary": "OpenAI will pilot a \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, promising to free up to 1,000 MW for the grid during extreme weather or emergencies.",
+   "facts": [
+    "OpenAI says 1,000 MW is enough to power air conditioners in around 700,000 homes (The Verge).",
+    "OpenAI's announcement: \"Our compute campuses need power year-round. With the right agreements, that steady demand can help spread the grid's fixed costs across more electricity sales, while flexibility lets us reduce demand when the system is busiest.\" (quoted by The Verge)",
+    "Several states, including Tennessee, Florida, Oklahoma and Oregon, have laws to stop AI companies passing energy costs to residents (The Verge)."
+   ],
+   "source": {
+    "name": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+    "type": "rss"
+   },
+   "related": [
+    {
+     "name": "OpenAI announcement",
+     "url": "https://openai.com/index/grid-protectors-program/"
+    }
+   ],
+   "publishedAt": "2026-11-02T18:01:30Z",
+   "care": 3,
+   "proof": 4,
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "altman-next-gpt-navier-stokes-model",
+   "lens": "broad",
+   "topic": "openai-navier-stokes",
+   "summary": "At the ADIPEC opening in Abu Dhabi, Sam Altman said the internal model behind OpenAI's September Navier-Stokes result is the next GPT and will be released soon, according to clips of the talk shared on X.",
+   "facts": [
+    "Posts sharing the clip report Altman said OpenAI ran about 10,000 agents of that model for about four days on the problem.",
+    "OpenAI announced the Navier-Stokes result in September 2026; outlets including the FT reported competing claims around it at the time.",
+    "R&D World headline Nov 2: \"Altman: $10M Navier-Stokes proof could cost 1/100th by 2027\".",
+    "No primary OpenAI post or transcript found this run; claim rests on the video clip."
+   ],
+   "source": {
+    "name": "Clip of Altman at ADIPEC on X",
+    "url": "https://x.com/chetaslua/status/2117311977085370753",
+    "type": "x",
+    "handle": "chetaslua"
+   },
+   "related": [
+    {
+     "name": "LuminaBench on X",
+     "url": "https://x.com/LuminaBench/status/2117316366302618055"
+    }
+   ],
+   "publishedAt": "2026-11-02T17:44:47Z",
+   "care": 4,
+   "proof": 3,
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "tao-egoless-mathematics-ai-era",
+   "lens": "broad",
+   "topic": "ai-mathematics",
+   "summary": "Terence Tao published an essay arguing that how mathematicians respond to AI depends on whether they see the worth of their work in results and individual ability or in understanding truths that exist independently of them.",
+   "facts": [
+    "Tao frames two views of mathematics, invention versus discovery, and leans on the discovery view to describe an 'egoless' practice.",
+    "On the Hacker News front page Nov 2."
+   ],
+   "source": {
+    "name": "Terence Tao's blog",
+    "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+    "type": "blog"
+   },
+   "related": [
+    {
+     "name": "Hacker News discussion",
+     "url": "https://news.ycombinator.com/item?id=50341736"
+    }
+   ],
+   "publishedAt": "2026-11-02T18:54:00Z",
+   "metrics": {
+    "points": 93,
+    "capturedAt": "2026-11-02T23:35:00Z"
+   },
+   "care": 2,
+   "proof": 4,
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "anthropic-residency-applications",
+   "lens": "broad",
+   "topic": "anthropic-residency",
+   "summary": "Anthropic opened applications for the Anthropic Residency, a paid, fixed-term research program for academics, technical founders and staff-level engineers; no ML background is required. Deadline November 22.",
+   "source": {
+    "name": "Anthropic on X",
+    "url": "https://x.com/AnthropicAI/status/2117343929960112486",
+    "type": "x",
+    "handle": "AnthropicAI"
+   },
+   "publishedAt": "2026-11-02T19:51:45Z",
+   "metrics": {
+    "likes": 8767,
+    "reposts": 533,
+    "replies": 351,
+    "views": 1088936,
+    "capturedAt": "2026-11-02T23:36:30Z"
+   },
+   "care": 2,
+   "proof": 5,
+   "firstSeen": "2026-11-02"
+  }
+ ]
+}
