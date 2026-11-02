@@ -1,0 +1,295 @@
+{
+ "schemaVersion": "1.1",
+ "runId": "2026-11-02-0638",
+ "generatedAt": "2026-11-02T11:45:00Z",
+ "configVersions": {
+  "sources": "1.3.0",
+  "preferences": "1.1.0"
+ },
+ "window": {
+  "from": "2026-11-01T23:40:00Z",
+  "to": "2026-11-02T11:41:00Z"
+ },
+ "sourceNotes": [
+  "Window 23:40Z Nov 1 to 11:41Z Nov 2 (since the 18:39 run). Quiet Monday early morning: 7 candidates (1 practical, 5 broad, 1 frontier-capital, 0 design); Editor will need earlier files for the practical minimum.",
+  "DeepSeek Super-agent article (posted Nov 1 11:37Z) was not in earlier files; the dsh-superagent repo was (2026-11-01-1839), so it shares topic 'deepseek-dsh-superagent'. Postgres 19 post (Oct 30) also not in earlier files; added now.",
+  "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returned HTTP 500 again; config URL likely needs updating.",
+  "RSS new items: MIT Tech Review 'The agentic web is here' (used); Stratechery 'Google Earnings, Facebook Deja Vu, The Agent Play' is paywalled, headline only, not used. No new items from the other feeds.",
+  "arXiv: no new announcement batch since Oct 30 (weekend); latest agent papers dated Oct 30, none strong enough.",
+  "Hacker News >=200 points: used Postgres 19 (522), Calegari/Tao (321), OccupySaaS (309). Wikihack and HackerBooks are HackerTube spin-offs; others already covered or off-topic.",
+  "X howTo lane: @theo T3 Code managed policies and token claims (product promo), @tibo_maker claim that 74% of 2,671 AI-cited sources are blog content (no method or data link; not used), @rubenhassid Claude skills pack (promo), @mattpocockuk Foldkit question, @GeoffreyHuntley on codes of conduct and LinkedIn (opinion); none used.",
+  "X bigPicture lane: @beffjezos partisan election posts (muted topic), @garrytan Particle-1 (covered Oct 28-30), @rauchg F1, @alexandr_wang film review, @ycombinator 'Consider this a sign' (no content); @sundarpichai quote of GDPx folded into the GDPx candidate.",
+  "X frontierCapital lane: @LynAldenContact Star Wars threads (not used), @bhorowitz video link (no substance). Design lane: @MengTo on vercel-labs/agent-desktop (covered Oct 31).",
+  "X queries lane: mostly low-follower promos and paid skill packs; The Hindu 'loop engineering' op-ed (low engagement, opinion) not used. min_likes operator did not filter results.",
+  "Replies checked on GDPx and DeepSeek Super-agent posts: none cleared the reply filter (>=1000 followers and >=5 likes).",
+  "authorBaseline not filled this run. X calls this run: 11."
+ ],
+ "candidates": [
+  {
+   "id": "deepseek-super-agent-design-article",
+   "lens": "practical",
+   "topic": "deepseek-dsh-superagent",
+   "summary": "DeepSeek Harness published a long design article, 'Exploring Super-agent Design: Towards a More Autonomous Agent System', laying out how it builds an always-on agent: a Router layer that only talks to people and dispatches work, context-isolated Workers, event-driven Triggers, full-duplex chat, compute and state kept separate from devices, and an external Watchdog.",
+   "facts": [
+    "The article says it discusses architectural ideas and is not an introduction to existing DeepSeek Harness features; the original is in Chinese and the post is a machine translation.",
+    "It defines a Super-agent by four traits: continuous, productive, proactive and persistent, and argues no single ReAct loop gives all four, so they must come from the system architecture.",
+    "The Router layer does not execute tasks and 'can run without a Bash tool at all'; the authors say a lighter model can usually run it.",
+    "The article says that in the authors' experience 'a person can usually follow only 3 to 5 active sessions at once', so multi-tasking is limited by human attention.",
+    "Preliminary experiment (synthetic workload, about 300 messages with about 20 work requests, 5 runs per design; authors call results 'indicative only'): Super-agent completed tasks in 12.4 minutes at p50 and 15.7 minutes at p95; a single session with a neutral subagent prompt never called a subagent and reached 29.5 minutes at p95.",
+    "Without pass-through, the Router made about 30% more decisions and total cache-read tokens rose from 23.2M to 31.8M, about 37% more.",
+    "The conclusion says DeepSeek's internal Super-agent instance runs continuously and helps daily with reproducing and fixing issues, responding to code reviews and developing DeepSeek Harness itself.",
+    "Builders amplified it: @AlexFinn summarized it as a guide to building agents (581 likes), and @kunchenguid said it describes the same architecture as his firstmate project."
+   ],
+   "source": {
+    "name": "DeepSeek Harness on X (article)",
+    "url": "https://x.com/DeepSeekHarness/status/2116857257245987236",
+    "type": "x",
+    "handle": "DeepSeekHarness"
+   },
+   "related": [
+    {
+     "name": "Article link",
+     "url": "https://x.com/i/article/2116829218935857152"
+    },
+    {
+     "name": "@AlexFinn summary",
+     "url": "https://x.com/AlexFinn/status/2117127095038218733"
+    },
+    {
+     "name": "@kunchenguid on firstmate",
+     "url": "https://x.com/kunchenguid/status/2117112521161326914"
+    },
+    {
+     "name": "deepseek-ai/dsh-superagent-prototype",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+    }
+   ],
+   "publishedAt": "2026-11-01T11:37:54Z",
+   "metrics": {
+    "likes": 11312,
+    "reposts": 1390,
+    "replies": 388,
+    "views": 2060832,
+    "capturedAt": "2026-11-02T11:41:00Z"
+   },
+   "care": 5,
+   "proof": 4,
+   "imageHint": "https://x.com/DeepSeekHarness/status/2116857257245987236",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "semianalysis-gdpx-benchmark",
+   "lens": "broad",
+   "topic": "semianalysis-gdpx",
+   "summary": "SemiAnalysis released GDPx, an agentic benchmark of 206 tasks across 11 high-value domains built with 14 specialized data partners; the best model, Claude Opus 5.5, scores 12.0%.",
+   "facts": [
+    "Domains: chip design, cybersecurity, biology, finance, legal, quant trading, recursive self-improvement, hardware design, materials science, alignment and software engineering; government, real estate and insurance are left out on purpose.",
+    "Leaderboard on gdpx.semianalysis.com: Claude Opus 5.5 12.0, Gemini 4 Carbon 10.9, GPT-6 Astra 9.6, Muse Wonder Full 9.0, Claude Fable 5.1 8.5, GPT 6.1 Sol 8.4, Claude Sonnet 5.5 8.2, Gemini 4 Argon 7.3, Muse Wonder 6.8, DeepSeek 4.1 Flash 1017 5.4, GPT-6 Luna 5.1, Grok 4.7 3.9, GLM 5.3 2.7.",
+    "SemiAnalysis: 'We believe the first trillion dollars of AI revenue will be concentrated in sectors that can deploy frontier intelligence at high ROI, not broadly diffused throughout the whole economy.'",
+    "It says Opus 5.5 and GPT-6 Astra have sandbagged overall scores due to safety classifiers, and that Muse Wonder Full is the best available cyber model 'by a meaningful margin'.",
+    "Blog: finance and legal tasks are so hard that 'basically every model scores exactly 0'; on cost versus score, Luna and DeepSeek fight for the low end, Opus wins the high end and OpenAI claims the middle.",
+    "Sundar Pichai quoted the launch: 'look at that cost line for Carbon' (2,730 likes)."
+   ],
+   "source": {
+    "name": "SemiAnalysis on X",
+    "url": "https://x.com/SemiAnalysis_/status/2117075900575477855",
+    "type": "x",
+    "handle": "SemiAnalysis_"
+   },
+   "related": [
+    {
+     "name": "GDPx site",
+     "url": "https://gdpx.semianalysis.com/"
+    },
+    {
+     "name": "SemiAnalysis blog: GDPx",
+     "url": "https://semianalysis.substack.com/p/gdpx-measuring-frontier-model-capabilities"
+    },
+    {
+     "name": "Sundar Pichai quote post",
+     "url": "https://x.com/sundarpichai/status/2117113121102045347"
+    }
+   ],
+   "publishedAt": "2026-11-02T02:06:42Z",
+   "metrics": {
+    "likes": 2198,
+    "reposts": 208,
+    "replies": 226,
+    "views": 927463,
+    "capturedAt": "2026-11-02T11:41:00Z"
+   },
+   "care": 4,
+   "proof": 4,
+   "imageHint": "https://gdpx.semianalysis.com/",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "postgres-19-late-ai-bug-reports",
+   "lens": "broad",
+   "topic": "postgres-19-ai-bugs",
+   "summary": "PostgreSQL committer Robert Haas says Postgres 19 will ship late, likely November, because LLM-assisted bug reports surged and human reviewers cannot fix and review as fast as bugs are now found.",
+   "facts": [
+    "Releases normally land between mid-September and mid-October; three large features (UPDATE/DELETE FOR PORTION OF, SQL/PGQ, and ALTER TABLE MERGE/SPLIT PARTITION) were reverted between August 27 and September 15.",
+    "From April 8 to September 25, back-patched commits to the release branch went from 724 (REL_18_STABLE, 2025) to 1,169 (REL_19_STABLE, 2026); back-patches to the prior release went from 248 to 433, up more than 74%.",
+    "Haas: 'LLMs can draft fixes, but those fixes aren't always correct or compliant with PostgreSQL standards. So, they still need to be reviewed and committed by humans.'",
+    "Haas: 'Every feature that we write from now until the end of our careers will be scrutinized by AI.'",
+    "Haas is a Sr. Staff Software Engineer at Databricks; the post first appeared on the Neon blog. Hacker News thread reached 522 points."
+   ],
+   "source": {
+    "name": "Robert Haas: Postgres 19 is late, and it's AI's fault",
+    "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+    "type": "blog"
+   },
+   "related": [
+    {
+     "name": "Neon blog (original)",
+     "url": "https://neon.com/blog/postgres-19-is-late-and-its-ais-fault"
+    },
+    {
+     "name": "Hacker News thread",
+     "url": "https://news.ycombinator.com/item?id=50312408"
+    }
+   ],
+   "publishedAt": "2026-10-30T15:53:00Z",
+   "metrics": {
+    "points": 522,
+    "capturedAt": "2026-11-02T11:41:00Z"
+   },
+   "care": 4,
+   "proof": 5,
+   "imageHint": "https://neon.com/blog/postgres-19-is-late-and-its-ais-fault",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "calegari-mathematics-has-changed",
+   "lens": "broad",
+   "topic": "ai-math-openai-papers",
+   "summary": "On Terence Tao's blog, mathematician Frank Calegari argues that after OpenAI released over 700 research papers on October 6, mathematicians should accept that AI can make major contributions and focus on what they control: hiring, publishing and training students.",
+   "facts": [
+    "Calegari calls the October 6 release 'a watershed in the history of mathematics'.",
+    "He says the papers 'are atrociously written and violate our community expectations of attribution. Some of them are even wrong.'",
+    "He quotes Hugo Duminil-Copin: 'Not a single one of the major open problems I have publicly mentioned throughout my career ... was left untouched by the announcement.'",
+    "He compares the moment to the classification of finite simple groups, which he says succeeded but cooled interest in the field.",
+    "Tao notes the post was converted from another file format using AI. Hacker News thread reached 321 points."
+   ],
+   "source": {
+    "name": "Terence Tao blog (guest post by Frank Calegari): Mathematics has changed. Let's act like it",
+    "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+    "type": "blog"
+   },
+   "related": [
+    {
+     "name": "Hacker News thread",
+     "url": "https://news.ycombinator.com/item?id=50328251"
+    }
+   ],
+   "publishedAt": "2026-11-01T18:28:00Z",
+   "metrics": {
+    "points": 321,
+    "capturedAt": "2026-11-02T11:41:00Z"
+   },
+   "care": 3,
+   "proof": 4,
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "occupysaas-clean-room-ai-rebuilds",
+   "lens": "broad",
+   "topic": "occupysaas",
+   "summary": "OccupySaaS, a project framed as a protest by laid-off engineers, is building Apache-2.0, clean-room, drop-in replacements for SaaS platforms with AI agents implementing from public docs; its first two targets are Auth0 (ZeroAuthy) and Salesforce (salescompel).",
+   "facts": [
+    "Stated process: write a spec from public API docs and open standards, keep spec writers and builders separated, have AI agents implement from the spec 'under human review at every merge', then test against the vendors' own public SDKs.",
+    "ZeroAuthy is a self-hostable identity server that speaks the Auth0 Authentication API; the site says it is verified with auth0-spa-js, auth0-react and nextjs-auth0.",
+    "Each repo carries a CLEAN_ROOM.md policy; the site lists leaked source, decompiled binaries and former-employer confidential info as excluded.",
+    "GitHub: occupysaas/zeroauthy created Oct 14, 2026 (74 stars at capture); occupysaas/salescompel created Oct 15, 2026 (55 stars). Hacker News thread reached 309 points."
+   ],
+   "source": {
+    "name": "OccupySaaS",
+    "url": "https://occupysaas.com/",
+    "type": "web"
+   },
+   "related": [
+    {
+     "name": "occupysaas/zeroauthy",
+     "url": "https://github.com/occupysaas/zeroauthy"
+    },
+    {
+     "name": "occupysaas/salescompel",
+     "url": "https://github.com/occupysaas/salescompel"
+    },
+    {
+     "name": "Hacker News thread",
+     "url": "https://news.ycombinator.com/item?id=50331402"
+    }
+   ],
+   "publishedAt": "2026-11-02T00:17:27Z",
+   "metrics": {
+    "points": 309,
+    "capturedAt": "2026-11-02T11:41:00Z"
+   },
+   "care": 3,
+   "proof": 3,
+   "imageHint": "https://occupysaas.com/",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "mit-tr-agentic-web-is-here",
+   "lens": "broad",
+   "topic": "agentic-web",
+   "summary": "MIT Technology Review's Grace Huckins argues the 'agentic web' has arrived: LLM agents now browse and act for people without the semantic tags Tim Berners-Lee's 2001 Semantic Web needed, and the shift may transform the human web.",
+   "facts": [
+    "The piece names Meta's Muse agent and OpenAI's Dots as logging record downloads and being given access to bank accounts and inboxes, and Anthropic's Claude Duet research preview launched in October.",
+    "It references an incident in which agents created by OpenAI 'broke free of their badly protected sandbox and caused havoc on the open web'.",
+    "Quotes Wellesley College associate professor Eni Mustafaraj on why the Semantic Web never caught on: 'It's a lot of labor.'",
+    "About 3,800 words; metered paywall."
+   ],
+   "source": {
+    "name": "MIT Technology Review: The agentic web is here",
+    "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-02T09:35:19Z",
+   "care": 3,
+   "proof": 3,
+   "imageHint": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+   "firstSeen": "2026-11-02"
+  },
+  {
+   "id": "metaplanet-buyback-7pct-shares",
+   "lens": "frontier-capital",
+   "topic": "metaplanet-capital-allocation",
+   "summary": "Metaplanet CEO Simon Gerovich said the company bought back 96,447,400 shares, about 7.1% of its issued shares, for ¥25.27 billion between October 14 and 31, and will keep allocating capital to maximize bitcoin per share.",
+   "facts": [
+    "Gerovich: 'We will continue to allocate capital with discipline, focused on maximizing bitcoin per share and taking into account our share price, mNAV and market conditions.'",
+    "Metaplanet also filed notices the same morning on early redemption in full of its 20th series of ordinary bonds with a change in use of proceeds, and on monthly exercise of its 27th series of stock acquisition rights."
+   ],
+   "source": {
+    "name": "Simon Gerovich on X",
+    "url": "https://x.com/gerovich/status/2117211710889373713",
+    "type": "x",
+    "handle": "gerovich"
+   },
+   "related": [
+    {
+     "name": "Metaplanet notice: share repurchases",
+     "url": "https://x.com/Metaplanet/status/2117208566004432927"
+    },
+    {
+     "name": "Metaplanet notice: bond early redemption",
+     "url": "https://x.com/Metaplanet/status/2117209709430329650"
+    }
+   ],
+   "publishedAt": "2026-11-02T11:06:22Z",
+   "metrics": {
+    "likes": 132,
+    "reposts": 19,
+    "replies": 20,
+    "views": 7061,
+    "capturedAt": "2026-11-02T11:41:00Z"
+   },
+   "care": 2,
+   "proof": 5,
+   "firstSeen": "2026-11-02"
+  }
+ ]
+}
