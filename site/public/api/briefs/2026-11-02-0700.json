@@ -181,7 +181,7 @@
       "publishedAt": "2026-10-30T15:53:00Z",
       "source": {
         "name": "Robert Haas's blog",
-        "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html"
+        "url": "https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html"
       },
       "related": [
         {
@@ -203,7 +203,7 @@
     {
       "handle": "Robert Haas",
       "quote": "Every feature that we write from now until the end of our careers will be scrutinized by AI.",
-      "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html"
+      "url": "https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html"
     },
     {
       "handle": "@SemiAnalysis_",
