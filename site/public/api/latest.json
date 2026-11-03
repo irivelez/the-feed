@@ -1,259 +1,379 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-02-1900",
-  "date": "2026-11-02",
-  "publishedAt": "2026-11-03T00:20:00Z",
-  "edition": "Evening",
+  "id": "2026-11-03-0700",
+  "date": "2026-11-03",
+  "publishedAt": "2026-11-03T12:20:00Z",
+  "edition": "Morning",
   "top3": [
     {
-      "itemId": "claude-messages-api-threads-beta",
-      "headline": "Claude's API now keeps conversation threads on Anthropic's servers",
-      "whyItMatters": "Agent apps send only new messages each turn, so Claude starts responding sooner."
+      "itemId": "goldman-restricts-ai-coding-tools",
+      "headline": "Goldman Sachs pulls AI coding tools from most bankers and traders",
+      "whyItMatters": "Regulated firms are narrowing AI coding to engineers, so review who in your company runs agents."
     },
     {
-      "itemId": "weight-space-programming-astra-qwen",
-      "headline": "MIT team shows GPT-6 Astra editing model weights directly, no training",
-      "whyItMatters": "Fixing a model by editing a sliver of its weights could cut the cost of tuning models."
+      "itemId": "openai-pando-git-backend",
+      "headline": "Codex agents pushed OpenAI's Git below 90% reliability, so it rebuilt",
+      "whyItMatters": "If agents multiply your branches and pushes, source control becomes the bottleneck."
     },
     {
-      "itemId": "oracle-20b-stock-bonds-ai-buildout",
-      "headline": "Oracle raises $20B in stock and bonds for its AI buildout",
-      "whyItMatters": "A major AI cloud vendor is leaning on capital markets, so weigh its balance sheet in contracts."
+      "itemId": "anthropic-internal-ai-use-exceeds-pay",
+      "headline": "Anthropic's internal Claude use, at list prices, topped its monthly payroll",
+      "whyItMatters": "AI usage may soon rival headcount cost, so leaders need a budget line for it."
     }
   ],
   "items": [
     {
-      "id": "claude-messages-api-threads-beta",
-      "title": "Claude Messages API adds server-side threads in public beta",
-      "takeaway": "Clients send only new messages plus the previous message ID.",
-      "soWhat": "Teams building on Claude can cut resent context and get faster first responses in long sessions.",
+      "id": "memharmbench-cross-session-injection",
+      "title": "Poisoned agent memory steers decisions in later sessions, benchmark finds",
+      "takeaway": "Agents finish the real task with no visible anomaly while serving the attacker.",
+      "soWhat": "Treat persistent agent memory as an attack surface and audit what gets stored.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 6,
+      "publishedAt": "2026-11-03T05:00:00Z",
+      "source": {
+        "name": "arXiv 2611.01700",
+        "url": "https://arxiv.org/abs/2611.01700"
+      },
+      "image": {
+        "src": "/img/memharmbench-cross-session-injection.jpg",
+        "alt": "arXiv 2611.01700: Poisoned agent memory steers decisions in later sessions, benchmark finds"
+      }
+    },
+    {
+      "id": "quantization-coding-agents",
+      "title": "4-bit coding agents keep accuracy but change how they solve problems",
+      "takeaway": "AWQ cut Qwen-7B one-shot solves from 17 to 0; loop-based solves rose to 25.",
+      "soWhat": "If you run cheaper quantized agents, test their tool use and failure modes, not just scores.",
       "lens": "practical",
       "momentum": "new",
-      "importance": 9,
-      "publishedAt": "2026-11-02T19:06:08Z",
+      "importance": 5,
+      "publishedAt": "2026-11-03T05:00:00Z",
       "source": {
-        "name": "@ClaudeDevs on X",
-        "url": "https://x.com/ClaudeDevs/status/2117332449382510884"
+        "name": "arXiv 2611.02368",
+        "url": "https://arxiv.org/abs/2611.02368"
       },
       "image": {
-        "src": "/img/claude-messages-api-threads-beta.jpg",
-        "alt": "Profile image of @ClaudeDevs"
+        "src": "/img/quantization-coding-agents.jpg",
+        "alt": "arXiv 2611.02368: 4-bit coding agents keep accuracy but change how they solve problems"
+      }
+    },
+    {
+      "id": "mengto-threejs-floorplan-prompt",
+      "title": "Shared prompt turns a flat floor plan into a 3D house",
+      "takeaway": "Made with Opus 5.5 and three.js; prompt and code are public.",
+      "soWhat": "Design teams can study a public prompt for turning static plans into 3D web pages.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 3,
+      "publishedAt": "2026-11-03T02:40:48Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2117446870033445104"
+      },
+      "related": [
+        {
+          "name": "casa-serra repo",
+          "url": "https://github.com/Sam1983Aing/casa-serra"
+        }
+      ],
+      "image": {
+        "src": "/img/mengto-threejs-floorplan-prompt.jpg",
+        "alt": "Image from @MengTo on X"
       },
       "heat": {
-        "score": 27,
+        "score": 8,
         "level": "none",
-        "metric": "307k views"
+        "metric": "19k views"
       }
     },
     {
-      "id": "claude-code-blocks-game-clones",
-      "title": "Claude Code now steers away from cloning specific existing games",
-      "takeaway": "Anthropic added two prompt sentences on Opus 5.5; original and genre games still work.",
-      "soWhat": "Coding agents now enforce IP policy in the prompt, so expect refusals on clone-style requests.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-02T18:56:02Z",
+      "id": "openai-security-sprint-cathedral-bounty",
+      "title": "OpenAI raises critical bug bounties up to $172,000, plans security sprint",
+      "takeaway": "Cathedral Systems researchers will use OpenAI models to attack OpenAI's defenses.",
+      "soWhat": "AI-driven attacks are expected, so budget for AI-assisted red teaming of your own systems.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-03T02:29:35Z",
       "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
+        "name": "OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2117444048227123277"
       },
       "image": {
-        "src": "/img/claude-code-blocks-game-clones.jpg",
-        "alt": "Image from The Verge"
+        "src": "/img/openai-security-sprint-cathedral-bounty.jpg",
+        "alt": "Image from OpenAI on X"
+      },
+      "heat": {
+        "score": 25,
+        "level": "none",
+        "metric": "498k views"
       }
     },
     {
-      "id": "vercel-blocks-malicious-npm-packages",
-      "title": "Vercel now blocks known malicious npm packages during builds",
-      "takeaway": "Blocking happens before install scripts run, with no setup needed.",
-      "soWhat": "Supply-chain defense is moving into the platform, but it only covers packages already known as malicious.",
+      "id": "poteto-adversarial-review-tokens",
+      "title": "Builder finds adversarial AI code reviews mostly waste tokens",
+      "takeaway": "@poteto favors empirical and formal verification and is cutting the review skill.",
+      "soWhat": "Spend agent budget on tests and verification before adding AI reviewers.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-03T02:04:00Z",
+      "source": {
+        "name": "@poteto on X",
+        "url": "https://x.com/poteto/status/2117437607940681849"
+      },
+      "image": {
+        "src": "/img/poteto-adversarial-review-tokens.jpg",
+        "alt": "Profile image of @poteto"
+      },
+      "heat": {
+        "score": 30,
+        "level": "none",
+        "metric": "366k views"
+      }
+    },
+    {
+      "id": "wterm-webmcp-terminals",
+      "title": "wterm lets agents drive web terminals through WebMCP",
+      "takeaway": "Opt-in per terminal, with a read-only mode, and no DOM scraping or fake keystrokes.",
+      "soWhat": "Standard agent access to web apps is arriving, so plan which surfaces to expose.",
       "lens": "practical",
       "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-02T18:39:01Z",
+      "importance": 5,
+      "publishedAt": "2026-11-03T00:50:51Z",
       "source": {
-        "name": "@vercel_dev on X",
-        "url": "https://x.com/vercel_dev/status/2117325624344035671"
+        "name": "@ctatedev on X",
+        "url": "https://x.com/ctatedev/status/2117419200528671059"
       },
       "related": [
         {
-          "name": "Guillermo Rauch on X",
-          "url": "https://x.com/rauchg/status/2117328043228471552"
+          "name": "@rauchg on X",
+          "url": "https://x.com/rauchg/status/2117419661654720671"
         }
       ],
       "image": {
-        "src": "/img/vercel-blocks-malicious-npm-packages.jpg",
-        "alt": "Image from @vercel_dev on X"
+        "src": "/img/wterm-webmcp-terminals.jpg",
+        "alt": "Image from @ctatedev on X"
+      },
+      "heat": {
+        "score": 9,
+        "level": "none",
+        "metric": "44k views"
       }
     },
     {
-      "id": "openai-grid-protectors-program",
-      "title": "OpenAI pledges to free up to 1,000 MW for the grid",
-      "takeaway": "Pilot at a planned data center in Effingham County, Georgia, during emergencies.",
-      "soWhat": "Power is now a public bargaining chip for AI campuses, and local approval depends on it.",
-      "lens": "broad",
-      "momentum": "shift",
-      "importance": 6,
-      "publishedAt": "2026-11-02T18:01:30Z",
+      "id": "llm-037-ai-assisted-prs",
+      "title": "LLM 0.37 ships 12 AI-assisted fixes; review was easier than expected",
+      "takeaway": "Simon Willison triages them with Opus 5.5 or GPT-6 Astra as bug reports with examples.",
+      "soWhat": "Maintainers can use models to triage AI-written contributions rather than reject them.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-02T23:49:30Z",
       "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program"
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/2/llm/"
+      },
+      "image": {
+        "src": "/img/llm-037-ai-assisted-prs.jpg",
+        "alt": "Simon Willison: LLM 0.37 ships 12 AI-assisted fixes; review was easier than expected"
+      }
+    },
+    {
+      "id": "goedecke-astra-weights-rebuttal",
+      "title": "Critic says GPT-6 Astra weight-reading results are not superhuman",
+      "takeaway": "He reproduces the game-identification task with a three-line NumPy heatmap.",
+      "soWhat": "Check claims of superhuman model abilities against simple baselines before acting on them.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-02T22:26:53Z",
+      "source": {
+        "name": "Sean Goedecke",
+        "url": "https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/"
       },
       "related": [
         {
-          "name": "OpenAI announcement",
-          "url": "https://openai.com/index/grid-protectors-program/"
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50344861"
         }
       ],
       "image": {
-        "src": "/img/openai-grid-protectors-program.jpg",
-        "alt": "Image from The Verge"
+        "src": "/img/goedecke-astra-weights-rebuttal.jpg",
+        "alt": "Sean Goedecke: Critic says GPT-6 Astra weight-reading results are not superhuman"
       }
     },
     {
-      "id": "weight-space-programming-astra-qwen",
-      "title": "GPT-6 Astra edits 0.016% of Qwen's weights, MATH-500 jumps to 48%",
-      "takeaway": "MIT CSAIL calls it Weight-Space Programming: edits in plain reasoning, no gradients.",
-      "soWhat": "If models can repair other models directly, fine-tuning may get cheaper and faster to iterate.",
-      "lens": "broad",
+      "id": "capy-captains-ga",
+      "title": "Capy makes persistent orchestrating agents generally available",
+      "takeaway": "Captains run hundreds of threads across devices; a Dock CLI runs Capy headless.",
+      "soWhat": "Long-running agent managers are becoming products, so teams can test fleets without building orchestration.",
+      "lens": "practical",
       "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-02T17:51:48Z",
+      "importance": 5,
+      "publishedAt": "2026-11-02T19:23:48Z",
       "source": {
-        "name": "MIT CSAIL blog",
-        "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+        "name": "@capydotai on X",
+        "url": "https://x.com/capydotai/status/2117336895818719548"
       },
       "related": [
         {
-          "name": "Rikiya Takehi on X",
-          "url": "https://x.com/rikiyatakehi/status/2117313742891327994"
+          "name": "Capy 0.7.0 changelog",
+          "url": "https://capy.ai/changelog/0.7.0"
         },
         {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50341174"
+          "name": "@garrytan on X",
+          "url": "https://x.com/garrytan/status/2117410016730964358"
         }
       ],
       "image": {
-        "src": "/img/weight-space-programming-astra-qwen.jpg",
-        "alt": "Image from MIT CSAIL blog"
+        "src": "/img/capy-captains-ga.jpg",
+        "alt": "Image from @capydotai on X"
       },
       "heat": {
-        "score": 41,
-        "level": "warm",
-        "metric": "2.6M views"
+        "score": 0,
+        "level": "none",
+        "metric": "32k views"
       }
     },
     {
-      "id": "nyt-sues-brave-ai-scraping",
-      "title": "NYT and three papers sue Brave over scraping sold to AI firms",
-      "takeaway": "Complaint names Anthropic, Perplexity, Mistral, xAI and Cohere as index buyers.",
-      "soWhat": "Check where your AI vendors' web data comes from, since publishers now sue the suppliers.",
+      "id": "goldman-restricts-ai-coding-tools",
+      "title": "Goldman Sachs limits Claude Code and GitHub coding tools to engineers",
+      "takeaway": "Most bankers and traders lost access; strats are exempt, per Bloomberg.",
+      "soWhat": "Expect tighter rules on who may run coding agents, especially in regulated firms.",
       "lens": "broad",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-02T17:51:19Z",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-11-02T15:55:19Z",
       "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
-      },
-      "image": {
-        "src": "/img/nyt-sues-brave-ai-scraping.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
-      "id": "oracle-20b-stock-bonds-ai-buildout",
-      "title": "Oracle files to sell $20B in stock and notes for AI",
-      "takeaway": "Shares fell 8.8%; debt was $125.34B as of Aug. 31.",
-      "soWhat": "If Oracle hosts your AI workloads, track its financing, since its credit risk has risen sharply.",
-      "lens": "broad",
-      "momentum": "shift",
-      "importance": 8,
-      "publishedAt": "2026-11-02T14:03:44Z",
-      "source": {
-        "name": "CNBC",
-        "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
+        "name": "Bloomberg",
+        "url": "https://news.bloomberglaw.com/capital-markets/goldman-restricts-traders-and-bankers-from-using-some-ai-tools"
       },
       "related": [
         {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50342284"
+          "name": "Quartz",
+          "url": "https://qz.com/goldman-sachs-restricts-ai-coding-tools-traders-bankers-110226"
+        },
+        {
+          "name": "@amasad on X",
+          "url": "https://x.com/amasad/status/2117481616943820843"
         }
       ],
       "image": {
-        "src": "/img/oracle-20b-stock-bonds-ai-buildout.jpg",
-        "alt": "Image from CNBC"
+        "src": "/img/goldman-restricts-ai-coding-tools.jpg",
+        "alt": "Image from Bloomberg"
+      },
+      "heat": {
+        "score": 33,
+        "level": "none",
+        "metric": "4.7M views"
       }
     },
     {
-      "id": "agentic-backdoors-pretraining-poisoning",
-      "title": "Poisoning 0.1% of pretraining data plants a backdoor in CLI agents",
-      "takeaway": "The backdoor survived clean post-training; the 4B model hit about 92% attack success.",
-      "soWhat": "Ask model vendors how they vet pretraining data before giving agents shell access.",
+      "id": "openai-pando-git-backend",
+      "title": "OpenAI rebuilt its Git backend because Codex agents overloaded it",
+      "takeaway": "Pando cut median push latency nearly 5x; built with Codex in 10 weeks.",
+      "soWhat": "Agent volume breaks developer infrastructure, so stress-test source control before scaling coding agents.",
       "lens": "practical",
       "momentum": "shift",
-      "importance": 8,
-      "publishedAt": "2026-10-27T16:53:52Z",
+      "importance": 9,
+      "publishedAt": "2026-11-02T00:00:00Z",
       "source": {
-        "name": "arXiv 2610.37741",
-        "url": "https://arxiv.org/abs/2610.37741"
+        "name": "OpenAI blog",
+        "url": "https://openai.com/index/scaling-git-at-openai/"
       },
       "related": [
         {
           "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50341334"
+          "url": "https://news.ycombinator.com/item?id=50345924"
         }
       ],
       "image": {
-        "src": "/img/agentic-backdoors-pretraining-poisoning.jpg",
-        "alt": "arXiv 2610.37741: Poisoning 0.1% of pretraining data plants a backdoor in CLI agents"
+        "src": "/img/openai-pando-git-backend.jpg",
+        "alt": "OpenAI blog: OpenAI rebuilt its Git backend because Codex agents overloaded it"
+      }
+    },
+    {
+      "id": "anthropic-internal-ai-use-exceeds-pay",
+      "title": "Anthropic's internal Claude use outvalued its monthly payroll in April",
+      "takeaway": "Valued at retail prices against pay excluding stock; usage up 250-fold since January.",
+      "soWhat": "Start tracking AI usage against labor cost, because leading AI companies already do.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 8,
+      "publishedAt": "2026-11-01T15:00:01Z",
+      "source": {
+        "name": "Business Insider",
+        "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50339494"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-internal-ai-use-exceeds-pay.jpg",
+        "alt": "Image from Business Insider"
       }
     }
   ],
   "voices": [
     {
-      "handle": "@rauchg",
-      "quote": "When npm packages get hijacked, our system blocks their deployment, protecting your code and secrets from exfiltration.",
-      "url": "https://x.com/rauchg/status/2117328043228471552"
-    },
-    {
-      "handle": "Addy Osmani, Anthropic",
-      "quote": "using Claude to infringe IP is against our usage policy",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
-    },
-    {
       "handle": "OpenAI",
-      "quote": "Our compute campuses need power year-round.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program"
+      "quote": "As AI becomes more capable at finding vulnerabilities, defenders need to put it to work before attackers do.",
+      "url": "https://x.com/OpenAI/status/2117444048227123277"
     },
     {
-      "handle": "Jesse Dwyer, Perplexity",
-      "quote": "The New York Times is overpaying its attorneys and underpaying its journalists.",
-      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
+      "handle": "@amasad",
+      "quote": "This is widespread in finance. The ban hammer is coming down.",
+      "url": "https://x.com/amasad/status/2117481616943820843"
+    },
+    {
+      "handle": "Nick Carcaterra, Goldman Sachs",
+      "quote": "we put them in the hands of those who are best suited to leverage them for the long term.",
+      "url": "https://news.bloomberglaw.com/capital-markets/goldman-restricts-traders-and-bankers-from-using-some-ai-tools"
+    },
+    {
+      "handle": "@poteto",
+      "quote": "i have found very little value with code review in the abstract, agents tend to just get lost in the nitpicks and yagnis",
+      "url": "https://x.com/poteto/status/2117437607940681849"
+    },
+    {
+      "handle": "@garrytan",
+      "quote": "Capy Captains increased my issue fixing throughput by about 5X overnight.",
+      "url": "https://x.com/garrytan/status/2117410016730964358"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/rikiyatakehi/status/2117313742891327994",
-      "handle": "@rikiyatakehi",
-      "text": "GPT-6 Astra reads and edits neural network weights directly; editing 0.016% of Qwen's weights lifted MATH-500 to 48.1%",
-      "metric": "29.9k likes",
-      "note": "People are startled that a model can repair another model without any training run."
+      "url": "https://x.com/poteto/status/2117437607940681849",
+      "handle": "@poteto",
+      "text": "Adversarial AI code reviews are mostly a waste of tokens; empirical and formal verification are a better use of them",
+      "metric": "6.3k likes",
+      "note": "Builders spending heavily on AI reviewers want to know if the tokens pay off."
     },
     {
-      "url": "https://x.com/AnthropicAI/status/2117343929960112486",
-      "handle": "@AnthropicAI",
-      "text": "Applications open for the Anthropic Residency, a paid research program; no ML background required",
-      "metric": "8.8k likes",
-      "note": "A paid route into frontier research without an ML background draws wide interest."
+      "url": "https://x.com/OpenAI/status/2117444048227123277",
+      "handle": "@OpenAI",
+      "text": "Next security sprint with Cathedral Systems, and critical bug bounty rewards up to $172,000 including bonuses",
+      "metric": "2.6k likes",
+      "note": "A fourfold jump in top bounties signals how seriously labs take AI-found vulnerabilities."
     },
     {
-      "url": "https://x.com/ClaudeDevs/status/2117332449382510884",
-      "handle": "@ClaudeDevs",
-      "text": "Message threads in public beta on the Claude Messages API: send only new messages plus the previous message ID",
-      "metric": "4.7k likes",
-      "note": "Builders want faster, cheaper long conversations without resending history every turn."
+      "url": "https://x.com/ctatedev/status/2117419200528671059",
+      "handle": "@ctatedev",
+      "text": "wterm now supports WebMCP: agents can list, read, type into and press keys in terminals on a web page",
+      "metric": "286 likes",
+      "note": "Developers want agents to use web apps through a standard, not screen scraping."
+    },
+    {
+      "url": "https://x.com/MengTo/status/2117446870033445104",
+      "handle": "@MengTo",
+      "text": "A flat floor plan builds into a 3D house in three.js, made with Opus 5.5; prompt and repo shared",
+      "metric": "246 likes",
+      "note": "Designers like seeing a full prompt and code behind a polished 3D page."
     }
   ]
 }

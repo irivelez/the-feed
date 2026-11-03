@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-02-1900",
-  "count": 34,
+  "latest": "2026-11-03-0700",
+  "count": 35,
   "briefs": [
+    {
+      "id": "2026-11-03-0700",
+      "date": "2026-11-03",
+      "edition": "Morning",
+      "publishedAt": "2026-11-03T12:20:00Z",
+      "headline": "Goldman Sachs pulls AI coding tools from most bankers and traders",
+      "url": "/api/briefs/2026-11-03-0700.json"
+    },
     {
       "id": "2026-11-02-1900",
       "date": "2026-11-02",
