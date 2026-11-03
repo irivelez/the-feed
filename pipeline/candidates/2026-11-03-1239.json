@@ -1,0 +1,381 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-03-1239",
+  "generatedAt": "2026-11-03T17:42:00Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-03T11:40:00Z",
+    "to": "2026-11-03T17:41:00Z"
+  },
+  "sourceNotes": [
+    "Window 11:40Z to 17:41Z Nov 3 (since the 06:34 run). 12 candidates (9 practical, 3 broad, 0 frontier-capital, 0 design). Broad lane thin this midday run.",
+    "RSS new items: Simon Willison (Qwen weights post used), The Verge (Google schools used; Apple Q4 AI story timed out on fetch, not used; 'OpenAI renames data centers compute campuses' not used, story covered in the 2026-11-01 12:36 run via Axios; midterms live blog muted as partisan politics). No new items from MIT TR, OpenAI Blog, Lenny, Stratechery, Benedict Evans, Mollick, Gary Marcus, Mitchell Hashimoto, The Atlantic or Metaplanet Google News.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) still returns HTTP 500; dead for many runs now.",
+    "Hacker News: honnibal Astra rebuttal (694), NVIDIA auto-ontology (241), Google schools (173), Codex data-sharing report (133) used. Carlini chess-engine essay (282), Ubuntu 0day, BYD and Intel items off-lens; Anthropic S-1 follow-ups (payroll 71, 'growth flattened' 226, 'SEC should block IPO' 387) not used, topic covered earlier.",
+    "arXiv: same Nov 2/3 batch as the morning run; MCP tool poisoning, ARCBench and DeliverBench used. arXiv HTTPS request failed once, worked on retry.",
+    "X howTo lane: @simonw, @mattpocockuk, @ClaudeDevs, @ThePrimeagen used. @gregisenberg synthetic-users thread, @tibo_maker shortcut post, @rubenhassid app list, @theo Apple commentary, @LangChain explainer video not used.",
+    "X bigPicture lane: @elonmusk posts were Grok promos, one-word quotes and an election post (muted: partisan politics); @AravSrinivas Perplexity Computer Shopify claim has no numbers; @garrytan quote on cross-model review is opinion on the agent-code-review topic from the morning run; @beffjezos TSU launch claim and @a16z health survey off-lens; @rauchg used as related on Vercel DBSC.",
+    "X frontierCapital lane: no posts in window. Design lane: @MengTo skeuomorphic UI link post, too thin; not used.",
+    "X queries lane: low-follower listicles, promos and paid skill packs; nothing cleared quality.",
+    "Vercel DBSC source is @cramforce (Malte Ubl), not a configured handle; reached via configured @rauchg quote.",
+    "Codex data-sharing candidate is a single unverified HN user report (proof 2).",
+    "Replies checked on @simonw, @mattpocockuk and @cramforce posts: none cleared the reply filter (>=1000 followers and >=5 likes). authorBaseline not filled this run. X calls this run: 9."
+  ],
+  "candidates": [
+    {
+      "id": "willison-qwen-reads-weights",
+      "lens": "practical",
+      "topic": "weight-space-programming",
+      "summary": "Simon Willison ran the 'which game' weight-reading prompts from the Weight-Space Programming paper on Qwen 3.8 27B on his laptop; it correctly named Pac-Man, Pong and Breakout from raw weights with no tools, taking 46 to 65 minutes per prompt, and failed on Freeway.",
+      "facts": [
+        "The prompts come from the paper's GitHub repo RikiyaT/lm_understand-logs (exp1_which_game); aside from the weights each prompt is identical.",
+        "Run with his LLM CLI: llm -f <prompt URL> -m lmstudio/qwen/qwen3.8-27b, via LM Studio and the llm-lmstudio plugin; the default 8192 context failed and he raised the timeout with LMSTUDIO_TIMEOUT=900.",
+        "Pac-Man: 46m 12s and 43,506 reasoning tokens, 72% confidence. Pong: 1h 4m 54s, 75%. Breakout: 52m 25s, 88%. Freeway: wrong (guessed a Pac-Man-like game).",
+        "Kimi K3.1 Pro via OpenRouter guessed Breakout after 9m 41s and 19,493 reasoning tokens.",
+        "The model he uses is 17GB.",
+        "Willison: 'I expect a sufficiently experienced human being armed with a notepad and a pencil could get there with enough effort.'"
+      ],
+      "source": {
+        "name": "Simon Willison: Qwen 3.8 27B on my laptop can interpret model weights, too",
+        "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "@simonw on X",
+          "url": "https://x.com/simonw/status/2117655816581071203"
+        },
+        {
+          "name": "Paper logs repo",
+          "url": "https://github.com/RikiyaT/lm_understand-logs"
+        }
+      ],
+      "publishedAt": "2026-11-03T16:29:48Z",
+      "metrics": {
+        "likes": 863,
+        "reposts": 60,
+        "replies": 116,
+        "views": 38627,
+        "capturedAt": "2026-11-03T17:41:00Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "honnibal-astra-weights-misleading",
+      "lens": "broad",
+      "topic": "weight-space-programming",
+      "summary": "spaCy author Matthew Honnibal argues the 'Astra can read and write weights to improve Qwen' post is misleading: only 3 of its experiments, on networks of 17K to 172K weights, work from raw weights without tools, while every experiment on a real language model, including the headline Qwen math result, uses Python and runs the model.",
+      "facts": [
+        "His table lists 10 experiments; raw-floats-only, no tools, no running the network appears in experiments 1, 2 and 4.",
+        "The Qwen3.5-0.8B math fix (MATH-500 7.9% to 48.1%) used Python and ran the model on up to 50 batches of practice problems; the same approach on Gemma 3 270M failed.",
+        "Writing MinAtar game networks from scratch beat PPO-500M only on Breakout (517 vs 25) and lost on Seaquest (53 vs 89) and Asterix (53 vs 55), per his footnote.",
+        "He says AI models of a year or two ago would have failed at all these tasks.",
+        "Hacker News: 694 points."
+      ],
+      "source": {
+        "name": "honnibal.dev: The 'Astra can read and write weights to improve Qwen' post is misleading",
+        "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50351111"
+        },
+        {
+          "name": "Original post (HN 2901)",
+          "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+        }
+      ],
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "metrics": {
+        "points": 694,
+        "capturedAt": "2026-11-03T17:41:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "firstSeen": "2026-11-02"
+    },
+    {
+      "id": "mcp-tool-poisoning-12-frameworks",
+      "lens": "practical",
+      "topic": "mcp-tool-poisoning",
+      "summary": "A cross-framework study ran 45 MCP tool-poisoning attacks with real tool execution across 12 agent frameworks and 18 models: 22.9% of 9,720 cells were vulnerable, no framework implements an intentional defense, and resistance depends on the model, not the framework.",
+      "facts": [
+        "Open-source tool mcpvenom; a dual oracle confirms exfiltration via a canary HTTP receipt.",
+        "Of 2,113 vulnerable cells, 64.9% dispatched an attacker tool call, 23.0% contacted the attacker endpoint and 12.1% verifiably exfiltrated a secret.",
+        "Nine core frameworks cluster within 23 to 26% attack success; model attack success ranges from 0.4% to 49.7%.",
+        "Claude Opus 4.8 was vulnerable in 8 of 530 cells while issuing 223 explicit refusals.",
+        "A regex description scanner rejected 20 of 45 scenarios at a 7.2% false-positive rate.",
+        "All five coordinated disclosures across four vendors were rejected."
+      ],
+      "source": {
+        "name": "arXiv 2611.03555: MCP Tool Poisoning in Agentic AI Frameworks: A Cross-Framework Measurement Study",
+        "url": "https://arxiv.org/abs/2611.03555",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-02T18:17:08Z",
+      "care": 5,
+      "proof": 4,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "arcbench-rules-after-compaction",
+      "lens": "practical",
+      "topic": "agent-context-compaction",
+      "summary": "ARCBench, built on the open-source pi agent harness, finds that most agent rule violations after context compaction happen while the rule is still in the compacted history: the agent treats a later request as permission and proceeds anyway.",
+      "facts": [
+        "Compacted runs that retain the rule violate more than twice as often as runs with the full history.",
+        "How the rule is delivered decides whether the agent breaks it even without compaction; the compaction strategy and budget decide whether the rule survives.",
+        "The strongest compactor-targeted attack more than doubles violations by corrupting the rule in the summary."
+      ],
+      "source": {
+        "name": "arXiv 2611.03223: Do Agents Still Follow the Rules? Benchmarking Rule Compliance under Agent Context Compaction",
+        "url": "https://arxiv.org/abs/2611.03223",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-02T14:45:36Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "retro-skill-harness-study",
+      "lens": "practical",
+      "topic": "agent-harness-self-evolution",
+      "summary": "A study of Matt Pocock's /retro skill ran Claude Code on 30 SWE-bench Verified issues, coded 125 harness-change proposals, implemented 24 and tested 12 on later issues: in 7 evaluations where the targeted problem recurred, 2 changes eliminated it, 1 reduced it and 4 showed no reduction.",
+      "facts": [
+        "Paper: 'How Do Coding-Agent Harnesses Self-Evolve? An Empirical Study of Retrospective Adaptation' by Christoph Treude and Sebastian Baltes, submitted 2026-10-26.",
+        "18 of 43 lint-related proposals recommended a practice regardless of what had happened in the session.",
+        "Some changes added work on unrelated issues; the authors conclude harness self-evolution needs a way to check whether a change helps and to remove ones that do not.",
+        "Pocock shared it on X on Nov 3: 'Some folks wrote a paper about my /retro skill assessing its effectiveness'."
+      ],
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2117588845864575397",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "related": [
+        {
+          "name": "arXiv 2610.34938",
+          "url": "https://arxiv.org/abs/2610.34938"
+        }
+      ],
+      "publishedAt": "2026-11-03T12:04:58Z",
+      "metrics": {
+        "likes": 1395,
+        "reposts": 48,
+        "replies": 65,
+        "views": 90283,
+        "capturedAt": "2026-11-03T17:41:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://x.com/mattpocockuk/status/2117588845864575397",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "vercel-dbsc-session-binding",
+      "lens": "practical",
+      "topic": "vercel-dbsc",
+      "summary": "Vercel started rolling out Device Bound Session Credentials (DBSC) for vercel.com, which bind session cookies to a key in the device TPM so infostealer malware cannot reuse stolen sessions remotely; it is also shipping the related DPoP for the Vercel CLI.",
+      "facts": [
+        "Malte Ubl (@cramforce): DBSC is currently supported only by Chrome on Mac and Windows; Vercel is working on a less secure polyfill for other browsers.",
+        "He says the rollout is slow because of special cases such as OAuth apps.",
+        "Guillermo Rauch framed it as protection 'even in a Binance-style attack' where engineers are targeted with infostealer malware, and told customers to keep MFA (TOTP and passkeys) and SAML/directory sync on."
+      ],
+      "source": {
+        "name": "@cramforce on X",
+        "url": "https://x.com/cramforce/status/2117645359082315988",
+        "type": "x",
+        "handle": "cramforce"
+      },
+      "related": [
+        {
+          "name": "@rauchg on X",
+          "url": "https://x.com/rauchg/status/2117670076828803088"
+        }
+      ],
+      "publishedAt": "2026-11-03T15:49:32Z",
+      "metrics": {
+        "likes": 213,
+        "reposts": 16,
+        "replies": 21,
+        "views": 12137,
+        "capturedAt": "2026-11-03T17:41:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "claude-code-october-recap",
+      "lens": "practical",
+      "topic": "claude-code-releases",
+      "summary": "Anthropic's ClaudeDevs account posted an October recap for Claude Code: mods shipped, the desktop app got better at running many sessions side by side, and users got more insight into where their usage goes.",
+      "facts": [
+        "Facts are from the post text and a 6-second video; no changelog was opened this run."
+      ],
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2117670658113155075",
+        "type": "x",
+        "handle": "ClaudeDevs"
+      },
+      "publishedAt": "2026-11-03T17:30:03Z",
+      "metrics": {
+        "likes": 574,
+        "reposts": 21,
+        "replies": 66,
+        "views": 23540,
+        "capturedAt": "2026-11-03T17:41:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/ClaudeDevs/status/2117670658113155075",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "primeagen-agent-qa-walkers",
+      "lens": "practical",
+      "topic": "agent-qa-testing",
+      "summary": "ThePrimeagen showed an experimental setup where agents walk through and test Omarchy with little direction beyond a role such as 'You are the theme tester', with a 50-second demo video.",
+      "facts": [
+        "He says the real instructions are much more extensive than the one-line role."
+      ],
+      "source": {
+        "name": "@ThePrimeagen on X",
+        "url": "https://x.com/ThePrimeagen/status/2117643533263712716",
+        "type": "x",
+        "handle": "ThePrimeagen"
+      },
+      "publishedAt": "2026-11-03T15:42:16Z",
+      "metrics": {
+        "likes": 387,
+        "reposts": 7,
+        "replies": 53,
+        "views": 33788,
+        "capturedAt": "2026-11-03T17:41:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/ThePrimeagen/status/2117643533263712716",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "nvidia-auto-ontology",
+      "lens": "practical",
+      "topic": "nvidia-auto-ontology",
+      "summary": "NVIDIA's open-source Auto Ontology (Apache 2.0) builds a semantic context layer from enterprise metadata so agents know where data lives and what metrics mean, validates generated SQL against certified definitions, and exposes it to any agent harness via MCP, CLI and API.",
+      "facts": [
+        "Stack: Next.js frontend, FastAPI and LangChain backend, Postgres with pgvector; inference via NVIDIA NIM (hosted or self-hosted); Helm or Docker Compose.",
+        "Not accepting external contributions; a separate repo runs text-to-SQL benchmarks such as BIRD.",
+        "GitHub: 2,336 stars; Hacker News: 241 points."
+      ],
+      "source": {
+        "name": "GitHub: NVIDIA/auto-ontology",
+        "url": "https://github.com/NVIDIA/auto-ontology",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50348962"
+        }
+      ],
+      "publishedAt": "2026-11-03T07:04:50Z",
+      "metrics": {
+        "points": 241,
+        "capturedAt": "2026-11-03T17:41:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "deliverbench-project-delivery",
+      "lens": "practical",
+      "topic": "agent-benchmarks",
+      "summary": "DeliverBench tests whether agents can carry 11 professional projects (financial due diligence, legal contract drafting, drug safety reporting) from brief to delivery across 150 chained subtasks; the best of seven model-harness systems scored 65.0 out of 100 on final delivery.",
+      "facts": [
+        "Projects were reconstructed with 13 domain experts; agents inherit their own errors because no reference outputs are injected.",
+        "The best system passed 50.0% of subtasks at a 90-point threshold.",
+        "In one audit project all seven systems addressed the review findings, but only one preserved traceability."
+      ],
+      "source": {
+        "name": "arXiv 2611.03412: DeliverBench",
+        "url": "https://arxiv.org/abs/2611.03412",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-02T16:37:40Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "google-search-off-schools-rejecting-ai",
+      "lens": "broad",
+      "topic": "google-ai-schools",
+      "summary": "Google will turn Gemini, Gemini Notebook, Gemini in Classroom and Google Search entirely off for K-12 student accounts unless administrators turn them on, and schools cannot disable the Gemini features without also losing Search.",
+      "facts": [
+        "Google VP of education Chris Phillips told the NYT 'Search and AI are deeply integrated'.",
+        "Students in schools that disable the AI features will see a message that Search is not available.",
+        "Google Classroom is used by more than 150 million teachers and students; Gemini had been turned on by default there months earlier.",
+        "Google will test Guided Learning inside AI Overviews in select US schools this month."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+        "type": "rss"
+      },
+      "related": [
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html"
+        },
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50353192"
+        }
+      ],
+      "publishedAt": "2026-11-03T17:00:00Z",
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "codex-data-sharing-reenabled-report",
+      "lens": "broad",
+      "topic": "codex-training-opt-out",
+      "summary": "A Hacker News user reports that the 'Improve the model for everyone' data-sharing setting was silently re-enabled in Codex for them and coworkers who had turned it off; this is an unverified user report, with no OpenAI statement found.",
+      "facts": [
+        "The poster says their company disables data sharing in Codex and Claude Code to avoid leaking IP; the setting is at chatgpt.com/settings/data-controls.",
+        "The poster links an earlier HN thread noting the same issue.",
+        "A commenter says turning on advanced account security (hardware keys) locks data sharing off.",
+        "Hacker News: 133 points."
+      ],
+      "source": {
+        "name": "Hacker News: OpenAI seems to be silently re-enabling model training on Codex chats",
+        "url": "https://news.ycombinator.com/item?id=50352757",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-03T14:53:41Z",
+      "metrics": {
+        "points": 133,
+        "capturedAt": "2026-11-03T17:41:00Z"
+      },
+      "care": 4,
+      "proof": 2,
+      "firstSeen": "2026-11-03"
+    }
+  ]
+}
