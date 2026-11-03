@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-03-0700",
-  "count": 35,
+  "latest": "2026-11-03-1300",
+  "count": 36,
   "briefs": [
+    {
+      "id": "2026-11-03-1300",
+      "date": "2026-11-03",
+      "edition": "Midday",
+      "publishedAt": "2026-11-03T18:20:00Z",
+      "headline": "Poisoned MCP tools fooled agents in 23% of tests across 12 frameworks",
+      "url": "/api/briefs/2026-11-03-1300.json"
+    },
     {
       "id": "2026-11-03-0700",
       "date": "2026-11-03",
