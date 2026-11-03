@@ -1,262 +1,259 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-02-1300",
+  "id": "2026-11-02-1900",
   "date": "2026-11-02",
-  "publishedAt": "2026-11-02T18:20:00Z",
-  "edition": "Midday",
+  "publishedAt": "2026-11-03T00:20:00Z",
+  "edition": "Evening",
   "top3": [
     {
-      "itemId": "anthropic-s1a-q3-17b-revenue",
-      "headline": "Anthropic's Q3 revenue hit about $17B as growth slowed to 47%",
-      "whyItMatters": "Anthropic's growth is cooling while it carries about $895B in compute commitments, a risk Claude buyers should track."
+      "itemId": "claude-messages-api-threads-beta",
+      "headline": "Claude's API now keeps conversation threads on Anthropic's servers",
+      "whyItMatters": "Agent apps send only new messages each turn, so Claude starts responding sooner."
     },
     {
-      "itemId": "abu-dhabi-openai-ai-native-government",
-      "headline": "Abu Dhabi puts government rules into AI-readable form with OpenAI",
-      "whyItMatters": "A live food-import pilot shows AI compliance checks running with traceable rules and human sign-off."
+      "itemId": "weight-space-programming-astra-qwen",
+      "headline": "MIT team shows GPT-6 Astra editing model weights directly, no training",
+      "whyItMatters": "Fixing a model by editing a sliver of its weights could cut the cost of tuning models."
     },
     {
-      "itemId": "census-btos-ai-adoption-super-intelligence",
-      "headline": "US Census renames AI as 'Super Intelligence' in its business survey",
-      "whyItMatters": "About 40% of large US firms report using AI, but changing wording makes the trend hard to compare."
+      "itemId": "oracle-20b-stock-bonds-ai-buildout",
+      "headline": "Oracle raises $20B in stock and bonds for its AI buildout",
+      "whyItMatters": "A major AI cloud vendor is leaning on capital markets, so weigh its balance sheet in contracts."
     }
   ],
   "items": [
     {
-      "id": "a16z-enterprise-llm-spend-rules",
-      "title": "a16z: 94% of enterprise LLM buyers expect to spend more",
-      "takeaway": "Three rules for AI apps to beat in-house builds: run the workflow, rent context cheaply, price on proven value.",
-      "soWhat": "Before building AI tools in-house, test vendors that can prove they run the workflow better than you.",
-      "lens": "broad",
+      "id": "claude-messages-api-threads-beta",
+      "title": "Claude Messages API adds server-side threads in public beta",
+      "takeaway": "Clients send only new messages plus the previous message ID.",
+      "soWhat": "Teams building on Claude can cut resent context and get faster first responses in long sessions.",
+      "lens": "practical",
       "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-02T17:30:04Z",
+      "importance": 9,
+      "publishedAt": "2026-11-02T19:06:08Z",
       "source": {
-        "name": "@a16z on X",
-        "url": "https://x.com/a16z/status/2117308274433511930"
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2117332449382510884"
       },
       "image": {
-        "src": "/img/a16z-enterprise-llm-spend-rules.jpg",
-        "alt": "Image from @a16z on X"
+        "src": "/img/claude-messages-api-threads-beta.jpg",
+        "alt": "Profile image of @ClaudeDevs"
       },
       "heat": {
-        "score": 0,
+        "score": 27,
         "level": "none",
-        "metric": "4k views"
+        "metric": "307k views"
       }
     },
     {
-      "id": "openai-lifeval-benchmark",
-      "title": "OpenAI unveils LifeVal, a benchmark for everyday assistant tasks",
-      "takeaway": "Built from ChatGPT user feedback on tasks like childcare, government services and personal finances.",
-      "soWhat": "OpenAI is grading models on everyday life tasks, a sign consumer assistants will compete on errands.",
-      "lens": "broad",
+      "id": "claude-code-blocks-game-clones",
+      "title": "Claude Code now steers away from cloning specific existing games",
+      "takeaway": "Anthropic added two prompt sentences on Opus 5.5; original and genre games still work.",
+      "soWhat": "Coding agents now enforce IP policy in the prompt, so expect refusals on clone-style requests.",
+      "lens": "practical",
       "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-11-02T17:27:26Z",
+      "importance": 6,
+      "publishedAt": "2026-11-02T18:56:02Z",
       "source": {
-        "name": "@OpenAI on X",
-        "url": "https://x.com/OpenAI/status/2117307611338997846"
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
       },
       "image": {
-        "src": "/img/openai-lifeval-benchmark.jpg",
-        "alt": "Image from @OpenAI on X"
-      },
-      "heat": {
-        "score": 15,
-        "level": "none",
-        "metric": "47k views"
+        "src": "/img/claude-code-blocks-game-clones.jpg",
+        "alt": "Image from The Verge"
       }
     },
     {
-      "id": "mengto-figma-weave-to-claude-code",
-      "title": "Meng To designs in Figma Weave, then Claude Code builds it",
-      "takeaway": "One canvas makes a frame in four seasons, depth maps and motion studies; he shared the workflow.",
-      "soWhat": "Designers can hand a finished visual folder to a coding agent, shortening the design-to-build handoff.",
-      "lens": "design",
+      "id": "vercel-blocks-malicious-npm-packages",
+      "title": "Vercel now blocks known malicious npm packages during builds",
+      "takeaway": "Blocking happens before install scripts run, with no setup needed.",
+      "soWhat": "Supply-chain defense is moving into the platform, but it only covers packages already known as malicious.",
+      "lens": "practical",
       "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-11-02T16:50:34Z",
+      "importance": 6,
+      "publishedAt": "2026-11-02T18:39:01Z",
       "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2117298331361915188"
+        "name": "@vercel_dev on X",
+        "url": "https://x.com/vercel_dev/status/2117325624344035671"
       },
       "related": [
         {
-          "name": "Weave workflow",
-          "url": "https://app.weavy.ai/flow/6yKBise7YHoG20h7oJCHIE/"
+          "name": "Guillermo Rauch on X",
+          "url": "https://x.com/rauchg/status/2117328043228471552"
         }
       ],
       "image": {
-        "src": "/img/mengto-figma-weave-to-claude-code.jpg",
-        "alt": "Image from @MengTo on X"
-      },
-      "heat": {
-        "score": 0,
-        "level": "none",
-        "metric": "3k views"
+        "src": "/img/vercel-blocks-malicious-npm-packages.jpg",
+        "alt": "Image from @vercel_dev on X"
       }
     },
     {
-      "id": "blacksmith-ci-bottleneck-yc",
-      "title": "YC: Blacksmith grew 20x as testing becomes AI coding's bottleneck",
-      "takeaway": "The faster CI cloud raised a $66M Series C at a $1B valuation, per YC, with a team of 30.",
-      "soWhat": "As AI writes more code, budget for faster testing, or CI will cap how fast you deliver.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-02T15:50:00Z",
-      "source": {
-        "name": "@ycombinator on X",
-        "url": "https://x.com/ycombinator/status/2117283089294520638"
-      },
-      "image": {
-        "src": "/img/blacksmith-ci-bottleneck-yc.jpg",
-        "alt": "Image from @ycombinator on X"
-      },
-      "heat": {
-        "score": 2,
-        "level": "none",
-        "metric": "12k views"
-      }
-    },
-    {
-      "id": "anthropic-s1a-q3-17b-revenue",
-      "title": "Anthropic's amended S-1 shows $17B Q3 revenue, growth slowing",
-      "takeaway": "Q3 revenue rose 47% on Q2, down from 144%; about $895.4B committed, mostly to compute.",
-      "soWhat": "If Claude is core to your stack, note its maker carries about $895B in compute commitments.",
+      "id": "openai-grid-protectors-program",
+      "title": "OpenAI pledges to free up to 1,000 MW for the grid",
+      "takeaway": "Pilot at a planned data center in Effingham County, Georgia, during emergencies.",
+      "soWhat": "Power is now a public bargaining chip for AI campuses, and local approval depends on it.",
       "lens": "broad",
       "momentum": "shift",
-      "importance": 9,
-      "publishedAt": "2026-11-02T14:32:13Z",
+      "importance": 6,
+      "publishedAt": "2026-11-02T18:01:30Z",
       "source": {
-        "name": "CNBC",
-        "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program"
       },
       "related": [
         {
-          "name": "Ed Ludlow on X",
-          "url": "https://x.com/EdLudlow/status/2117273729319452862"
+          "name": "OpenAI announcement",
+          "url": "https://openai.com/index/grid-protectors-program/"
+        }
+      ],
+      "image": {
+        "src": "/img/openai-grid-protectors-program.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "weight-space-programming-astra-qwen",
+      "title": "GPT-6 Astra edits 0.016% of Qwen's weights, MATH-500 jumps to 48%",
+      "takeaway": "MIT CSAIL calls it Weight-Space Programming: edits in plain reasoning, no gradients.",
+      "soWhat": "If models can repair other models directly, fine-tuning may get cheaper and faster to iterate.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-02T17:51:48Z",
+      "source": {
+        "name": "MIT CSAIL blog",
+        "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+      },
+      "related": [
+        {
+          "name": "Rikiya Takehi on X",
+          "url": "https://x.com/rikiyatakehi/status/2117313742891327994"
         },
         {
           "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50337439"
+          "url": "https://news.ycombinator.com/item?id=50341174"
         }
       ],
       "image": {
-        "src": "/img/anthropic-s1a-q3-17b-revenue.jpg",
+        "src": "/img/weight-space-programming-astra-qwen.jpg",
+        "alt": "Image from MIT CSAIL blog"
+      },
+      "heat": {
+        "score": 41,
+        "level": "warm",
+        "metric": "2.6M views"
+      }
+    },
+    {
+      "id": "nyt-sues-brave-ai-scraping",
+      "title": "NYT and three papers sue Brave over scraping sold to AI firms",
+      "takeaway": "Complaint names Anthropic, Perplexity, Mistral, xAI and Cohere as index buyers.",
+      "soWhat": "Check where your AI vendors' web data comes from, since publishers now sue the suppliers.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-02T17:51:19Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
+      },
+      "image": {
+        "src": "/img/nyt-sues-brave-ai-scraping.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "oracle-20b-stock-bonds-ai-buildout",
+      "title": "Oracle files to sell $20B in stock and notes for AI",
+      "takeaway": "Shares fell 8.8%; debt was $125.34B as of Aug. 31.",
+      "soWhat": "If Oracle hosts your AI workloads, track its financing, since its credit risk has risen sharply.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 8,
+      "publishedAt": "2026-11-02T14:03:44Z",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50342284"
+        }
+      ],
+      "image": {
+        "src": "/img/oracle-20b-stock-bonds-ai-buildout.jpg",
         "alt": "Image from CNBC"
       }
     },
     {
-      "id": "census-btos-ai-adoption-super-intelligence",
-      "title": "Census survey now asks firms about 'Super Intelligence,' not AI",
-      "takeaway": "Large-firm AI use near 40% in October under new wording; question renamed under Executive Order 14434.",
-      "soWhat": "Official AI adoption numbers keep changing definitions, so compare trend lines carefully before citing them.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-11-02T13:31:26Z",
-      "source": {
-        "name": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
-      },
-      "image": {
-        "src": "/img/census-btos-ai-adoption-super-intelligence.jpg",
-        "alt": "Image from Simon Willison"
-      }
-    },
-    {
-      "id": "abu-dhabi-openai-ai-native-government",
-      "title": "Abu Dhabi signs four OpenAI deals, including machine-readable rules",
-      "takeaway": "First pilot checks food imports against AI-readable rules; officials keep final decisions.",
-      "soWhat": "AI rule-checking is moving into live government services, with every assessment traced to a rule.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-11-02T05:29:27Z",
-      "source": {
-        "name": "Abu Dhabi Media Office",
-        "url": "https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/"
-      },
-      "related": [
-        {
-          "name": "WAM",
-          "url": "https://www.wam.ae/en/article/17i6xki-khaled-bin-mohamed-bin-zayed-meets-sam-altman"
-        },
-        {
-          "name": "The National",
-          "url": "https://www.thenationalnews.com/news/uae/2026/11/02/abu-dhabi-agrees-openai-deals-to-boost-government-services-and-education/"
-        }
-      ],
-      "image": {
-        "src": "/img/abu-dhabi-openai-ai-native-government.jpg",
-        "alt": "Image from Abu Dhabi Media Office"
-      }
-    },
-    {
-      "id": "trigger-dev-env-vars-exposed",
-      "title": "Trigger.dev says an attacker accessed some customers' environment variables",
-      "takeaway": "Exploit blocked; impacted account owners were emailed mitigation steps.",
-      "soWhat": "If your team uses Trigger.dev, check for its email and rotate any secrets stored there.",
+      "id": "agentic-backdoors-pretraining-poisoning",
+      "title": "Poisoning 0.1% of pretraining data plants a backdoor in CLI agents",
+      "takeaway": "The backdoor survived clean post-training; the 4B model hit about 92% attack success.",
+      "soWhat": "Ask model vendors how they vet pretraining data before giving agents shell access.",
       "lens": "practical",
-      "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-11-01T22:33:00Z",
+      "momentum": "shift",
+      "importance": 8,
+      "publishedAt": "2026-10-27T16:53:52Z",
       "source": {
-        "name": "Trigger.dev blog",
-        "url": "https://trigger.dev/blog/security-incident-nov-2026"
+        "name": "arXiv 2610.37741",
+        "url": "https://arxiv.org/abs/2610.37741"
       },
       "related": [
         {
           "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50331784"
+          "url": "https://news.ycombinator.com/item?id=50341334"
         }
       ],
       "image": {
-        "src": "/img/trigger-dev-env-vars-exposed.jpg",
-        "alt": "Image from Trigger.dev blog"
+        "src": "/img/agentic-backdoors-pretraining-poisoning.jpg",
+        "alt": "arXiv 2610.37741: Poisoning 0.1% of pretraining data plants a backdoor in CLI agents"
       }
     }
   ],
   "voices": [
     {
-      "handle": "@a16z",
-      "quote": "Model progress continually improves the customer's alternative. Your advantage must widen faster for the application to keep earning its premium.",
-      "url": "https://x.com/a16z/status/2117308274433511930"
+      "handle": "@rauchg",
+      "quote": "When npm packages get hijacked, our system blocks their deployment, protecting your code and secrets from exfiltration.",
+      "url": "https://x.com/rauchg/status/2117328043228471552"
     },
     {
-      "handle": "Anthropic S-1/A",
-      "quote": "substantially all of which is related to compute and infrastructure",
-      "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+      "handle": "Addy Osmani, Anthropic",
+      "quote": "using Claude to infringe IP is against our usage policy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
     },
     {
-      "handle": "US Census Bureau",
-      "quote": "Super Intelligence or SI (formerly referred to as Artificial Intelligence or AI)",
-      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
+      "handle": "OpenAI",
+      "quote": "Our compute campuses need power year-round.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program"
+    },
+    {
+      "handle": "Jesse Dwyer, Perplexity",
+      "quote": "The New York Times is overpaying its attorneys and underpaying its journalists.",
+      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/OpenAI/status/2117307611338997846",
-      "handle": "@OpenAI",
-      "text": "LifeVal: a benchmark shaped by thousands of ChatGPT users on everyday tasks they want help with",
-      "metric": "597 likes",
-      "note": "People want to know if assistants can handle real errands like childcare and finances."
+      "url": "https://x.com/rikiyatakehi/status/2117313742891327994",
+      "handle": "@rikiyatakehi",
+      "text": "GPT-6 Astra reads and edits neural network weights directly; editing 0.016% of Qwen's weights lifted MATH-500 to 48.1%",
+      "metric": "29.9k likes",
+      "note": "People are startled that a model can repair another model without any training run."
     },
     {
-      "url": "https://x.com/ycombinator/status/2117283089294520638",
-      "handle": "@ycombinator",
-      "text": "Blacksmith: as AI writes more code, testing and validation become the bottleneck",
-      "metric": "85 likes",
-      "note": "Builders feel CI slowing them down as agents ship more code."
+      "url": "https://x.com/AnthropicAI/status/2117343929960112486",
+      "handle": "@AnthropicAI",
+      "text": "Applications open for the Anthropic Residency, a paid research program; no ML background required",
+      "metric": "8.8k likes",
+      "note": "A paid route into frontier research without an ML background draws wide interest."
     },
     {
-      "url": "https://x.com/MengTo/status/2117298331361915188",
-      "handle": "@MengTo",
-      "text": "Designed a page in Figma Weave, then handed the folder to Claude Code to build it",
-      "metric": "36 likes",
-      "note": "Designers see a shareable path from visual canvas to working page."
+      "url": "https://x.com/ClaudeDevs/status/2117332449382510884",
+      "handle": "@ClaudeDevs",
+      "text": "Message threads in public beta on the Claude Messages API: send only new messages plus the previous message ID",
+      "metric": "4.7k likes",
+      "note": "Builders want faster, cheaper long conversations without resending history every turn."
     }
   ]
 }

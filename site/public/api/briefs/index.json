@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-02-1300",
-  "count": 33,
+  "latest": "2026-11-02-1900",
+  "count": 34,
   "briefs": [
+    {
+      "id": "2026-11-02-1900",
+      "date": "2026-11-02",
+      "edition": "Evening",
+      "publishedAt": "2026-11-03T00:20:00Z",
+      "headline": "Claude's API now keeps conversation threads on Anthropic's servers",
+      "url": "/api/briefs/2026-11-02-1900.json"
+    },
     {
       "id": "2026-11-02-1300",
       "date": "2026-11-02",
