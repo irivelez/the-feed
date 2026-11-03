@@ -1,0 +1,427 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-03-0634",
+  "generatedAt": "2026-11-03T11:45:00Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-02T23:30:00Z",
+    "to": "2026-11-03T11:40:00Z"
+  },
+  "sourceNotes": [
+    "Window 23:30Z Nov 2 to 11:40Z Nov 3 (since the 18:33 run). 13 candidates (7 practical, 5 broad, 0 frontier-capital, 1 design).",
+    "RSS new items: Simon Willison (llm 0.37 used; YouTube link post on location-leaking sound and the sponsors newsletter not used). No new items from The Verge, MIT TR, OpenAI Blog (Scaling Git found via HN and fetched directly), Lenny, Stratechery, Benedict Evans, Mollick, Gary Marcus, Mitchell Hashimoto, The Atlantic or Metaplanet Google News.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) still returns HTTP 500; dead for many runs now.",
+    "openai.com returns a JS/cookie challenge to curl; Scaling Git page read via WebFetch. OpenAI Cathedral Systems link in the X post was not opened; facts from the post only.",
+    "Hacker News: Scaling Git (236), Anthropic internal AI use (331), Goedecke rebuttal (66) and Revolut (87) used. Goldman story reached HN via X only. 'SEC should block Anthropic IPO' (365) and 'Anthropic's growth just flattened' (212) are opinion pieces on topic anthropic-s1; not used. GPT-Rosalind-6 system card addendum (67) and WorkOS breach (70, no link) not used. Ubuntu kernel 0day items off-lens.",
+    "arXiv: new Nov 3 batch; MemHarmBench and quantization-on-coding-agents used. Also relevant but not used: 'Predictive Safety Guardrails Do Not Always Make LLM Agents Safer' (2611.02815), 'Optimize the Harness, Not the Model' (2611.03434), 'Learning by Doing: compiling agent skills from verified traces' (2611.01386).",
+    "X howTo lane: @theo posts mostly commentary (Claude Ultra rename already covered in earlier runs); @AlexFinn 'we've achieved AGI' opinion; @hwchase17 question on memory vs skills; @mattpocockuk orchestrator musing; @kunchenguid failure-moving-right post; none used beyond @poteto.",
+    "X bigPicture lane: @beffjezos political posts (muted: partisan politics) and Palantir open model rumor without source; @alexandr_wang teaser; @a16z robot valuation clip; @stratechery paywalled daily update. @elonmusk AI posts were Grok promo quotes; not used.",
+    "X frontierCapital lane: @TaviCosta US dollar positioning chart (market call, not used per 'views not market tips'); @LynAldenContact quote post; @nathanbenaich State of AI Paris event. Design lane: @MengTo three.js post used.",
+    "X queries lane: low-follower listicles and promos; nothing cleared quality.",
+    "Revolut candidate is secondhand (proof 2); no primary Revolut or David Abitbol source found.",
+    "Replies checked on @poteto post: none cleared the reply filter (>=1000 followers and >=5 likes). authorBaseline not filled this run. X calls this run: 13."
+  ],
+  "candidates": [
+    {
+      "id": "openai-pando-git-backend",
+      "lens": "practical",
+      "topic": "openai-pando-git",
+      "summary": "OpenAI built Pando, a new Git-compatible backend for its monorepo, because Codex-driven parallel work (more branches, pushes and fetches per engineer) pushed its old source control below 90% reliability at times; Pando cut median push latency by nearly 5x and now serves nearly a petabyte of Git data per day.",
+      "facts": [
+        "Post 'Scaling Git at OpenAI' by Aaron Friel, Taylor Blau and Ted Nyman, dated November 2, 2026.",
+        "Pando uses per-branch (causal) consistency instead of repository-wide consistency, so pushes to unrelated branches do not wait on each other, and it reuses stored packfiles across fetches instead of building one per client.",
+        "Built with Codex from kickoff to production in 10 weeks: core designed by a single engineer, implemented by teams of agents, deployed by a handful of engineers; in production since April 2026.",
+        "Agents using GPT-6 Astra wrote Lean and TLA+ to formalize a 'theory of Pando' used to find and fix bugs; written in Rust with a Git conformance test suite and deterministic simulation testing.",
+        "OpenAI says Pando has served more than 57 TB of Git packs in one hour, over 99% from local disk cache, and clone/fetch saturates 10 Gbps links on standard cloud VMs.",
+        "OpenAI says it is exploring ways to share the technology with users and is upstreaming Git client fixes (packfile-uri, parallel pack indexing).",
+        "Hacker News: 236 points."
+      ],
+      "source": {
+        "name": "OpenAI: Scaling Git at OpenAI",
+        "url": "https://openai.com/index/scaling-git-at-openai/",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50345924"
+        }
+      ],
+      "publishedAt": "2026-11-02T00:00:00Z",
+      "metrics": {
+        "points": 236,
+        "capturedAt": "2026-11-03T11:36:00Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://openai.com/index/scaling-git-at-openai/",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "goldman-restricts-ai-coding-tools",
+      "lens": "broad",
+      "topic": "goldman-ai-coding-restriction",
+      "summary": "Goldman Sachs limited Anthropic's Claude Code and Microsoft's GitHub coding tools to engineers under internal guidance updated in October, ending months of access for most bankers and traders; 'strats' are exempt, per Bloomberg.",
+      "facts": [
+        "Goldman spokesperson Nick Carcaterra, per Bloomberg via Quartz: 'After a period of experimentation where we assess a variety of factors including productivity and risk management, we put them in the hands of those who are best suited to leverage them for the long term.'",
+        "Traders had used the tools to monitor client trading flows, model market moves and positions, and create written and graphic content; the change frustrated some of them, per Bloomberg.",
+        "In July, Goldman CIO Marco Argenti spoke favorably of 'vibe coding' by non-technical staff, who handed prototypes to the bank's pool of 12,000 engineers, per Quartz citing Bloomberg.",
+        "Goldman earlier restricted Hong Kong staff from using Anthropic's Claude.",
+        "Replit CEO Amjad Masad (@amasad) on X: 'This is widespread in finance. The ban hammer is coming down.' He later linked a security advisory on AI agents running on employee endpoints."
+      ],
+      "source": {
+        "name": "Bloomberg Law (Bloomberg News)",
+        "url": "https://news.bloomberglaw.com/capital-markets/goldman-restricts-traders-and-bankers-from-using-some-ai-tools",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Quartz",
+          "url": "https://qz.com/goldman-sachs-restricts-ai-coding-tools-traders-bankers-110226"
+        },
+        {
+          "name": "@exec_sum on X",
+          "url": "https://x.com/exec_sum/status/2117284426128179638"
+        },
+        {
+          "name": "@amasad on X",
+          "url": "https://x.com/amasad/status/2117481616943820843"
+        },
+        {
+          "name": "@amasad security advisory post",
+          "url": "https://x.com/amasad/status/2117504072416890937"
+        }
+      ],
+      "publishedAt": "2026-11-02T15:55:19Z",
+      "metrics": {
+        "likes": 9817,
+        "reposts": 812,
+        "replies": 207,
+        "views": 4748177,
+        "capturedAt": "2026-11-03T11:41:00Z"
+      },
+      "care": 5,
+      "proof": 4,
+      "imageHint": "https://x.com/exec_sum/status/2117284426128179638",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "openai-security-sprint-cathedral-bounty",
+      "lens": "broad",
+      "topic": "openai-security-sprint",
+      "summary": "OpenAI says it is planning its next internal security sprint with Cathedral Systems, whose researchers will use OpenAI models alongside its teams to attack its defenses, and is raising bug bounty rewards, more than quadrupling rewards for critical findings, up to $172,000 including bonuses.",
+      "facts": [
+        "Post text: 'As AI becomes more capable at finding vulnerabilities, defenders need to put it to work before attackers do.'",
+        "OpenAI says it will keep using its models to strengthen its own systems and expand access for trusted defenders."
+      ],
+      "source": {
+        "name": "OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2117444048227123277",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "publishedAt": "2026-11-03T02:29:35Z",
+      "metrics": {
+        "likes": 2643,
+        "reposts": 255,
+        "replies": 390,
+        "views": 498256,
+        "capturedAt": "2026-11-03T11:38:30Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://x.com/OpenAI/status/2117444048227123277",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "anthropic-internal-ai-use-exceeds-pay",
+      "lens": "broad",
+      "topic": "anthropic-s1",
+      "summary": "Anthropic's IPO filing shows the value of its internal Claude usage, priced at what it charges customers, exceeded its monthly employee compensation (excluding stock awards) in April; by September internal usage was up more than 250-fold since January, Business Insider reports.",
+      "facts": [
+        "Business Insider notes this is usage valued at retail prices, not cash spending exceeding salaries.",
+        "More than 90% of the code added to Anthropic's software in September was written by Claude, per the article.",
+        "Hacker News: 331 points."
+      ],
+      "source": {
+        "name": "Business Insider",
+        "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50339494"
+        }
+      ],
+      "publishedAt": "2026-11-01T15:00:01Z",
+      "metrics": {
+        "points": 331,
+        "capturedAt": "2026-11-03T11:36:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "revolut-self-hosted-glm-claim",
+      "lens": "broad",
+      "topic": "revolut-self-hosted-glm",
+      "summary": "An X post says Revolut moved about 2,000 engineers onto self-hosted GLM for coding, with Claude Code and Codex as exceptions, citing David Abitbol, who leads AI ops there: 56 Nvidia B200s, a blended 30 cents per million tokens, roughly a tenth of its previous API cost, and 70% better engineering lead time.",
+      "facts": [
+        "Secondhand: the post is by @guilleflorvs (h/t @OliverMolander); no primary Revolut source was found this run. Treat the numbers as unverified.",
+        "Hacker News: 87 points."
+      ],
+      "source": {
+        "name": "@guilleflorvs on X",
+        "url": "https://x.com/guilleflorvs/status/2117379073785696395",
+        "type": "x",
+        "handle": "guilleflorvs"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50350004"
+        }
+      ],
+      "publishedAt": "2026-11-02T22:11:24Z",
+      "metrics": {
+        "likes": 2623,
+        "reposts": 220,
+        "replies": 111,
+        "views": 173451,
+        "capturedAt": "2026-11-03T11:38:30Z"
+      },
+      "care": 4,
+      "proof": 2,
+      "imageHint": "https://x.com/guilleflorvs/status/2117379073785696395",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "poteto-adversarial-review-tokens",
+      "lens": "practical",
+      "topic": "agent-code-review",
+      "summary": "@poteto says adversarial AI code reviews are mostly a waste of tokens and that empirical plus formal verification is a better use of them; they have updated their pstack to use its interrogate skill less and may remove it.",
+      "facts": [
+        "Quote: 'i have found very little value with code review in the abstract, agents tend to just get lost in the nitpicks and yagnis'"
+      ],
+      "source": {
+        "name": "@poteto on X",
+        "url": "https://x.com/poteto/status/2117437607940681849",
+        "type": "x",
+        "handle": "poteto"
+      },
+      "publishedAt": "2026-11-03T02:04:00Z",
+      "metrics": {
+        "likes": 6277,
+        "reposts": 224,
+        "replies": 481,
+        "views": 366254,
+        "capturedAt": "2026-11-03T11:38:30Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "capy-captains-ga",
+      "lens": "practical",
+      "topic": "capy-captains",
+      "summary": "Capy 0.7.0 makes Captains and Issues generally available: Captains are persistent agents that orchestrate hundreds of threads across devices, and a Dock CLI runs Capy headless on Linux, macOS or Windows.",
+      "facts": [
+        "Issues adds filters, full-text search, labels and due dates.",
+        "Garry Tan (@garrytan): 'Capy Captains increased my issue fixing throughput by about 5X overnight.'"
+      ],
+      "source": {
+        "name": "@capydotai on X",
+        "url": "https://x.com/capydotai/status/2117336895818719548",
+        "type": "x",
+        "handle": "capydotai"
+      },
+      "related": [
+        {
+          "name": "Capy 0.7.0 changelog",
+          "url": "https://capy.ai/changelog/0.7.0"
+        },
+        {
+          "name": "@garrytan on X",
+          "url": "https://x.com/garrytan/status/2117410016730964358"
+        }
+      ],
+      "publishedAt": "2026-11-02T19:23:48Z",
+      "metrics": {
+        "likes": 86,
+        "reposts": 5,
+        "replies": 2,
+        "views": 31649,
+        "capturedAt": "2026-11-03T11:41:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/capydotai/status/2117336895818719548",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "wterm-webmcp-terminals",
+      "lens": "practical",
+      "topic": "webmcp",
+      "summary": "wterm now supports WebMCP, letting agents list, read, type into and press keys in terminals embedded on a web page, opt-in per terminal with a read-only mode, for React, Vue, Svelte and vanilla JS, without DOM scraping or fake key events.",
+      "facts": [
+        "Demo: five agents launching each other across four browser terminals.",
+        "Guillermo Rauch (@rauchg) quoted it: 'So bullish on WebMCP'."
+      ],
+      "source": {
+        "name": "@ctatedev on X",
+        "url": "https://x.com/ctatedev/status/2117419200528671059",
+        "type": "x",
+        "handle": "ctatedev"
+      },
+      "related": [
+        {
+          "name": "@rauchg on X",
+          "url": "https://x.com/rauchg/status/2117419661654720671"
+        }
+      ],
+      "publishedAt": "2026-11-03T00:50:51Z",
+      "metrics": {
+        "likes": 286,
+        "reposts": 31,
+        "replies": 36,
+        "views": 43897,
+        "capturedAt": "2026-11-03T11:41:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/ctatedev/status/2117419200528671059",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "llm-037-ai-assisted-prs",
+      "lens": "practical",
+      "topic": "llm-cli-release",
+      "summary": "Simon Willison released LLM 0.37 with fixes from 12 contributors, almost all AI-assisted, and says reviewing them was not the burden he expected because he uses Opus 5.5 or GPT-6 Astra to triage them, treating them as bug reports with attached examples.",
+      "facts": [
+        "Adds gpt-6.1-sol and gpt-6.1-terra and an 'llm openai endpoint add' command for OpenAI-compatible endpoints.",
+        "Default model switched to gpt-6-luna, half the price of the previous default gpt-5.6-luna.",
+        "Embeddings now accept per-item content types, needed for multimodal models like Gemini Embedding 2."
+      ],
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/2/llm/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-02T23:49:30Z",
+      "care": 3,
+      "proof": 5,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "goedecke-astra-weights-rebuttal",
+      "lens": "broad",
+      "topic": "weight-space-programming",
+      "summary": "Sean Goedecke argues the MIT CSAIL GPT-6 Astra weight-editing results are not superhuman: he shows the game-identification task can be reproduced with a three-line NumPy heatmap of first-layer weight norms, because input channels are labeled and map to grid cells.",
+      "facts": [
+        "He writes that a smart human ML researcher could perform all of the paper's tasks.",
+        "Hacker News: 66 points."
+      ],
+      "source": {
+        "name": "Sean Goedecke",
+        "url": "https://www.seangoedecke.com/llms-are-not-superhuman-at-reading-and-writing-neural-network-weights/",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50344861"
+        }
+      ],
+      "publishedAt": "2026-11-02T22:26:53Z",
+      "metrics": {
+        "points": 66,
+        "capturedAt": "2026-11-03T11:36:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "memharmbench-cross-session-injection",
+      "lens": "practical",
+      "topic": "agent-memory-injection",
+      "summary": "MemHarmBench tests cross-session prompt injection in agents with persistent memory: malicious instructions are stored, the attack content is removed, and in a new session agents often complete the legitimate task with no visible anomalies while still making decisions aligned with the attacker.",
+      "facts": [
+        "Victims are grouped as users, workspace or project owners, and external stakeholders.",
+        "The benchmark is publicly released, per the abstract."
+      ],
+      "source": {
+        "name": "arXiv 2611.01700",
+        "url": "https://arxiv.org/abs/2611.01700",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-03T05:00:00Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "quantization-coding-agents",
+      "lens": "practical",
+      "topic": "quantized-coding-agents",
+      "summary": "A study comparing BF16 with 4-bit AWQ and GPTQ on Qwen2.5-Coder (7B, 14B, 32B) and Devstral-Small coding agents on OJBench found no statistically significant accuracy loss, but large behavior shifts: AWQ cut Qwen-7B one-shot solves from 17 to 0 while loop-based solves rose from 10 to 25.",
+      "facts": [
+        "All Qwen-32B successes involved tool use; Devstral rarely made a valid executor call.",
+        "Authors recommend judging quantized coding agents by trajectories, tool use and failure modes, not final accuracy alone."
+      ],
+      "source": {
+        "name": "arXiv 2611.02368",
+        "url": "https://arxiv.org/abs/2611.02368",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-03T05:00:00Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "mengto-threejs-floorplan-prompt",
+      "lens": "design",
+      "topic": "threejs-architecture-web",
+      "summary": "Meng To shared a prompt and repo for a web page where a flat floor plan builds into a 3D house in three.js, made with Opus 5.5, mixing architecture, web design and 3D.",
+      "facts": [
+        "Prompt and code: github.com/Sam1983Aing/casa-serra.",
+        "Quotes @SammmAing's original post, which says it got over 60K views on Threads and LinkedIn overnight."
+      ],
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2117446870033445104",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "related": [
+        {
+          "name": "casa-serra repo",
+          "url": "https://github.com/Sam1983Aing/casa-serra"
+        },
+        {
+          "name": "@SammmAing on X",
+          "url": "https://x.com/SammmAing/status/2109708195031900310"
+        }
+      ],
+      "publishedAt": "2026-11-03T02:40:48Z",
+      "metrics": {
+        "likes": 246,
+        "reposts": 20,
+        "replies": 9,
+        "views": 18755,
+        "capturedAt": "2026-11-03T11:38:30Z"
+      },
+      "care": 2,
+      "proof": 3,
+      "imageHint": "https://x.com/MengTo/status/2117446870033445104",
+      "firstSeen": "2026-11-03"
+    }
+  ]
+}
