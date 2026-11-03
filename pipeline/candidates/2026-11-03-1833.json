@@ -1,0 +1,500 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-03-1833",
+  "generatedAt": "2026-11-03T23:36:00Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-03T17:41:00Z",
+    "to": "2026-11-03T23:33:00Z"
+  },
+  "sourceNotes": [
+    "Window 17:41Z to 23:33Z Nov 3 (since the 12:39 run). 15 candidates (8 practical, 7 broad, 0 frontier-capital, 0 design).",
+    "RSS new items: The Verge (Siri third-party apps, ChatGPT search share used; Google schools item already in the 12:39 run; Bezos photo debunk, watchOS audio, Steam backlog off-lens; midterms live blog muted as partisan politics). Metaplanet Google News: CryptoRank stock/buyback item, muted as a price move. No new items from Simon Willison, MIT TR, OpenAI Blog, Lenny, Stratechery, Benedict Evans, Mollick, Gary Marcus, Mitchell Hashimoto or The Atlantic.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) still returns HTTP 500; dead for many runs now.",
+    "Hacker News (>=100 points since 11:00Z): Postman plugin auto-install (939) and Nikkei AI debt (104) used. Willison Qwen post (439) already in the 12:39 run. Stringman robot, Safari dark mode, Flipper One, GitBook breach (140, no URL, unverified), Apple word list, GenAI math primer off-lens or thin. First Algolia request failed (HTTP 400, unencoded filter), worked on retry.",
+    "arXiv: no new agent papers since the morning batch (newest Nov 2 18:57Z); nothing added.",
+    "X howTo lane: @ClaudeDevs/@bcherny, @gregisenberg, @kunchenguid used. @theo T3 Code changelog and secrets-tool quote, @steipete and @ryancarson link-only posts, @kloss_xyz and @AlexFinn Grok Bot promos, @poteto @bot promo, @swyx AIE lineup, @NousResearch NousCon recap, @ThePrimeagen jokes, @mattshumer_ promo, @LangChain browser-tools post and LangSmith BYOC (low engagement) not used. @ScottWu46 pointed to a @jackhcable security guide (X article, not readable via API); not used.",
+    "X bigPicture lane: @AnthropicAI, @OpenAI, @rauchg, @AravSrinivas used; @beffjezos and @eastdakota as related. @alexandr_wang Muse feature posts, @elonmusk Grok promo, @a16z health/wearable surveys and Huberman clips, @garrytan politics (muted) and podcast plug off-lens.",
+    "X frontierCapital lane: only two @RayDalio general-principles posts, no new view; not used. Design lane (@MengTo): no posts in window.",
+    "X queries lane: low-follower listicles, promos and paid skill packs; nothing cleared quality.",
+    "Vercel Security Review blog is dated 2 Nov; launch posts on X are Nov 3. Anthropic FlashProve research page is dated Nov 2; announced on X Nov 3.",
+    "Postman candidate: HN title claims data sharing; the GitHub issue explicitly does not claim exfiltration. Summary follows the issue.",
+    "SemiAnalysis and Nikkei are paywalled; facts are from the free portions only.",
+    "Replies checked on @AnthropicAI FlashProve, @ClaudeDevs auto-connect and @rauchg Security Review posts: none cleared the reply filter (>=1000 followers and >=5 likes). authorBaseline not filled this run. X calls this run: 9."
+  ],
+  "candidates": [
+    {
+      "id": "postman-auto-installs-agent-plugins",
+      "lens": "practical",
+      "topic": "postman-agent-plugin-autoinstall",
+      "summary": "A GitHub issue on Postman's support repo reports that Postman desktop 12.33.4 auto-installed Postman plugins into Codex and Claude Code, added a session-start hook telling the agent to route API work through Postman skills, and that the installer code attempts to approve its own hook. It reached 939 points on Hacker News.",
+      "facts": [
+        "Issue #14370 on postmanlabs/postman-app-support, titled '[SEVERE] Desktop auto-installs Codex/Claude plugins; installer attempts to trust its own startup hook', opened Oct 25, 2026.",
+        "Postman's own log line quoted in the issue: PostmanAgentPluginService~install with source 'auto-existing-upgrade' and results 'claude-code:installed','codex:installed'.",
+        "The reporter found changes to ~/.codex/config.toml (Postman marketplace, plugin enabled, hook trusted_hash), ~/.claude/settings.json enabling postman@claude-plugins-official, and a Postman CLI in ~/.local/bin.",
+        "The installed hook prints: 'Before responding to any non-trivial API engineering task ... load the postman:api-engineer skill and follow it.'",
+        "The issue cites installer/src/hosts/codex-hooks.ts, which calls config/batchWrite to upsert hooks.state with trusted_hash; source comment: 'Approves only Postman's current hook after installation'.",
+        "The reporter says the report 'does not claim to establish data exfiltration'; the HN title says Postman 'attempts to share all API data', which the issue itself does not claim."
+      ],
+      "source": {
+        "name": "Hacker News: Postman silently auto-installs AI plugins",
+        "url": "https://news.ycombinator.com/item?id=50354960",
+        "type": "hn"
+      },
+      "related": [
+        {
+          "name": "GitHub issue #14370",
+          "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
+        }
+      ],
+      "publishedAt": "2026-11-03T17:22:37Z",
+      "metrics": {
+        "points": 939,
+        "capturedAt": "2026-11-03T23:32:00Z"
+      },
+      "care": 5,
+      "proof": 4,
+      "imageHint": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "claude-plugins-auto-connect",
+      "lens": "practical",
+      "topic": "agent-plugins",
+      "summary": "Claude users can now auto-connect plugins at login, using MCP servers that accept Claude as a trusted issuer. Team and Enterprise admins set plugins up and teammates are connected automatically the first time they use them.",
+      "facts": [
+        "@ClaudeDevs: 'Users can now auto-connect plugins when they log in to Claude, with MCP servers that accept Claude as a trusted issuer.'",
+        "@ClaudeDevs to plugin builders: 'add support so users get started faster and stay connected without re-authorizing.'",
+        "@bcherny: 'Team and Enterprise admins can set them up, and teammates are connected automatically the first time they use the plugins.'"
+      ],
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2117680635561312732",
+        "type": "x",
+        "handle": "ClaudeDevs"
+      },
+      "related": [
+        {
+          "name": "@bcherny on X",
+          "url": "https://x.com/bcherny/status/2117693181651542387"
+        }
+      ],
+      "publishedAt": "2026-11-03T18:09:42Z",
+      "metrics": {
+        "likes": 4037,
+        "reposts": 176,
+        "replies": 154,
+        "views": 363555,
+        "capturedAt": "2026-11-03T23:33:00Z"
+      },
+      "care": 5,
+      "proof": 4,
+      "imageHint": "https://x.com/ClaudeDevs/status/2117680635561312732",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "vercel-security-review-beta",
+      "lens": "practical",
+      "topic": "agent-code-security",
+      "summary": "Vercel launched Security Review in public beta inside Vercel Agent: it scans the diff of every push to connected GitHub repos for vulnerabilities, posts findings as PR comments, a GitHub check and a dashboard, and can push fixes. Guillermo Rauch says it is the internal security agent Vercel's own security team built and that it works whether or not you host on Vercel.",
+      "facts": [
+        "Vercel blog: reviews are triggered by GitHub push events, including direct pushes to the production branch; in monorepos they are scoped to the project's root directory.",
+        "Each review covers only what changed versus a base (for deployments, the branch's previous deployment), so it 'finishes in seconds'.",
+        "Findings appear in the Security dashboard and via CLI; on private and internal repos it also adds a GitHub check and a PR comment. 'Fix with Vercel Agent' or your own coding agent can implement fixes.",
+        "Example classes named: missing authorization checks, exposed secrets.",
+        "@rauchg: 'you cannot just bank on your engineers having a skill installed, prompting \"please make secure\", or rolling the weights' dice'.",
+        "Blog post is dated 2 Nov 2026; the @vercel launch post went out Nov 3."
+      ],
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2117734833824948373",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "related": [
+        {
+          "name": "Vercel blog: Introducing Vercel Security Review",
+          "url": "https://vercel.com/blog/vercel-security-review"
+        },
+        {
+          "name": "@vercel launch post",
+          "url": "https://x.com/vercel/status/2117726156992753721"
+        }
+      ],
+      "publishedAt": "2026-11-03T21:45:04Z",
+      "metrics": {
+        "likes": 275,
+        "reposts": 9,
+        "replies": 57,
+        "views": 23151,
+        "capturedAt": "2026-11-03T23:33:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://vercel.com/blog/vercel-security-review",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "anthropic-flashprove-provable-inference",
+      "lens": "broad",
+      "topic": "provable-inference",
+      "summary": "Anthropic released FlashProve, an open-source zkSNARK system that lets a provider commit to a model and cryptographically prove each response came from it. On Llama 4 Maverick (400B MoE, 4-bit) a single H100 generates proofs at about 110 tokens/second, roughly 70-95x the GPU time of running the model on vLLM.",
+      "facts": [
+        "Proof size about 19 MB per 1,024-token request.",
+        "Anthropic says Claude produced the zkSNARK improvements; top-level security claims are stated in Lean for auditing.",
+        "Released: blog post, technical report, a Claude-written protocol spec, a prover plus a fast C++ verifier and a provably correct Lean verifier, and Lean proofs, under Apache 2.0.",
+        "Proofs hide model weights; hiding the architecture is not a goal.",
+        "Named uses: detecting a model secretly substituted by a routing service, making chat hijacking harder, letting safety evaluators verify the tested model is the one served.",
+        "Research post dated Nov 2, 2026 (Frontier Red Team); announced on X Nov 3. Anthropic calls it intermediate progress."
+      ],
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2117710942826123294",
+        "type": "x",
+        "handle": "AnthropicAI"
+      },
+      "related": [
+        {
+          "name": "Anthropic: Progress on provable inference",
+          "url": "https://www.anthropic.com/research/provable-inference"
+        },
+        {
+          "name": "anthropics/FlashProve on GitHub",
+          "url": "https://github.com/anthropics/FlashProve"
+        }
+      ],
+      "publishedAt": "2026-11-03T20:10:08Z",
+      "metrics": {
+        "likes": 2646,
+        "reposts": 220,
+        "replies": 251,
+        "views": 180385,
+        "capturedAt": "2026-11-03T23:33:00Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://www.anthropic.com/research/provable-inference",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "semianalysis-spacex-13gw-ai-cloud",
+      "lens": "broad",
+      "topic": "spacex-ai-datacenters",
+      "summary": "SemiAnalysis says SpaceX has 3.6GW of datacenter capacity under construction and has revised its 2027 target to about 13GW, which it calls roughly equal to all of Google's datacenter capacity from 1999-2026; SemiAnalysis says it has already identified more than 9GW.",
+      "facts": [
+        "Headline: 'Elon Is Doing It Again: SpaceX Will Be The World's Biggest AI Cloud', by Reyk Knuhtsen, Jeremie Eliahou Ontiveros and Dylan Patel; paid post, facts here are from the free section.",
+        "SemiAnalysis: power under Elon's management (>8GW) is less than total datacenter power coming online (>9GW).",
+        "Colossus 2 may house the largest battery storage deployment in the world, with 5.9GWh already being installed.",
+        "SemiAnalysis says Colossus 2 adds nearly two Stargate Abilenes (2GW) in just under one year."
+      ],
+      "source": {
+        "name": "SemiAnalysis newsletter",
+        "url": "https://newsletter.semianalysis.com/p/elon-is-doing-it-again-spacex-will",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "@beffjezos on X (quote of the SemiAnalysis post)",
+          "url": "https://x.com/beffjezos/status/2117731959325741539"
+        },
+        {
+          "name": "@SemiAnalysis_ on X",
+          "url": "https://x.com/SemiAnalysis_/status/2117720668145852429"
+        }
+      ],
+      "publishedAt": "2026-11-03T20:44:53Z",
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://newsletter.semianalysis.com/p/elon-is-doing-it-again-spacex-will",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "canva-cuts-22-percent",
+      "lens": "broad",
+      "topic": "canva-layoffs",
+      "summary": "Canva will cut or relocate 1,271 roles, 22% of its workforce, in its first company-wide redundancy round after growth slowed this year for the first time in a decade. CEO Melanie Perkins said the company must 'refound Canva' around small, empowered teams.",
+      "facts": [
+        "Product, growth and platform teams merge into one product organisation; management layers are cut.",
+        "Perkins: 'This is without doubt the hardest moment in our thirteen-year history.'",
+        "Perkins did not directly link the cuts to AI, but wrote that new technology is transforming what people create and expect.",
+        "SMH: Figma shares are down 44% this year; Atlassian cut 1,600 jobs in March.",
+        "Canva says it has more than 265 million monthly users."
+      ],
+      "source": {
+        "name": "Sydney Morning Herald",
+        "url": "https://www.smh.com.au/technology/canva-unveils-mass-job-cuts-in-hardest-moment-of-its-history-20261104-p61b62.html",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "@GeoffreyHuntley on X",
+          "url": "https://x.com/GeoffreyHuntley/status/2117726241528955264"
+        }
+      ],
+      "publishedAt": "2026-11-03T20:51:00Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "chatgpt-search-fifth-of-google",
+      "lens": "broad",
+      "topic": "chatgpt-search-share",
+      "summary": "OpenAI says the volume of search queries run through ChatGPT now equals 20% of Google's, counting any query that triggers a web search. Consumer product lead Adam Fry announced it at a press event; he did not give a source for the Google figure.",
+      "facts": [
+        "Defined as any user input that results in a web search, not tasks like defining a term or simple how-to explanations.",
+        "Reported by Hayden Field, The Verge, Nov 3, 2026."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-03T18:30:00Z",
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "apple-siri-ai-third-party-apps",
+      "lens": "broad",
+      "topic": "apple-siri-app-skills",
+      "summary": "Apple's iOS 27.3 developer preview lets developers integrate Siri AI in all apps, so Siri can use personal context, natural-language requests and on-screen awareness to act inside third-party apps, and adds 'app skills' that chain several tasks into one action.",
+      "facts": [
+        "Per Apple's developer documentation, users won't need to name the app when it is in the foreground, in a Live Activity, or in a Siri conversation about the app.",
+        "Rolling out Nov 3 as part of a Developer Preview (The Verge, Emma Roth)."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-03T20:16:00Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "isenberg-agent-run-company-stack",
+      "lens": "practical",
+      "topic": "agent-run-company-stack",
+      "summary": "Greg Isenberg posted the full agent stack he says runs product work at his 50+ person company, from idea intake to build, user testing, bug fixing and analytics, naming specific tools and rules.",
+      "facts": [
+        "Build: t3code as control surface, stablyai/orca running parallel agents each in its own git worktree, LSP plugins, a security guidance hook, GitHub MCP opening PRs and Vercel previews.",
+        "Testing: Lightpanda headless browser with personas (impatient, confused, on a phone); Playwright plus Chrome DevTools MCP for regressions.",
+        "Bugs: Sentry MCP catches the error and an agent opens a fix PR; 'human just approves'.",
+        "Rules: one agent per platform; cheap model for triage, Opus for anything that ships; outputs scored 1-10 by an LLM judge and anything under 8 goes back; every agent mistake becomes a new skill.",
+        "Self-reported; no metrics on output or quality."
+      ],
+      "source": {
+        "name": "@gregisenberg on X",
+        "url": "https://x.com/gregisenberg/status/2117734977312047537",
+        "type": "x",
+        "handle": "gregisenberg"
+      },
+      "publishedAt": "2026-11-03T21:45:38Z",
+      "metrics": {
+        "likes": 653,
+        "reposts": 31,
+        "replies": 119,
+        "views": 46591,
+        "capturedAt": "2026-11-03T23:33:00Z"
+      },
+      "care": 4,
+      "proof": 2,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "cloudflare-zero-wire",
+      "lens": "practical",
+      "topic": "vulnerability-volume",
+      "summary": "Cloudflare launched Zero Wire, a free public vulnerability briefing feed on Cloudflare Radar: each critical disclosure gets a plain-language card with who should investigate, recommended actions, evidence links and a pre-compiled prompt to have your agent assess impact on your infrastructure.",
+      "facts": [
+        "Cloudflare says AI is changing the volume and speed of critical vulnerability discovery.",
+        "Useful whether or not you are a Cloudflare customer, per the blog.",
+        "@eastdakota (Matthew Prince): 'a very important resource for everyone managing any technology infrastructure to bookmark.'"
+      ],
+      "source": {
+        "name": "Cloudflare blog: Introducing Zero Wire",
+        "url": "https://blog.cloudflare.com/zero-wire",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "@eastdakota on X",
+          "url": "https://x.com/eastdakota/status/2117749317150630207"
+        },
+        {
+          "name": "@Cloudflare on X",
+          "url": "https://x.com/Cloudflare/status/2117619065514512463"
+        }
+      ],
+      "publishedAt": "2026-11-03T14:05:03Z",
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://blog.cloudflare.com/zero-wire",
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "perplexity-computer-agent-plugins",
+      "lens": "practical",
+      "topic": "agent-plugins",
+      "summary": "Perplexity's Computer agent harness now supports Agent Plugins that package app connections and skills; users can browse plugins or import their own from GitHub or a .zip, and Perplexity says they are compatible across other agents.",
+      "facts": [
+        "@AravSrinivas: plugins let you 'operate at an abstraction level above individual connectors to app bundles and their corresponding skills.'",
+        "Plugin directory: perplexity.ai/computer/plugins."
+      ],
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2117725519982784940",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "related": [
+        {
+          "name": "@AskPerplexity launch post",
+          "url": "https://x.com/AskPerplexity/status/2117714189674586114"
+        },
+        {
+          "name": "Perplexity Computer plugins",
+          "url": "https://perplexity.ai/computer/plugins"
+        }
+      ],
+      "publishedAt": "2026-11-03T21:08:04Z",
+      "metrics": {
+        "likes": 67,
+        "reposts": 3,
+        "replies": 49,
+        "views": 9885,
+        "capturedAt": "2026-11-03T23:33:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "kunchenguid-runner-up-self-hosted-ci",
+      "lens": "practical",
+      "topic": "self-hosted-ci-runners",
+      "summary": "Kun Chen open-sourced runner-up, his setup for self-hosting GitHub Actions runners across his own machines. He says he runs thousands of CI jobs a day on private repos that would cost about $5,000-$9,000 a month on cloud runners.",
+      "facts": [
+        "Repo: github.com/kunchenguid/runner-up.",
+        "His comparison: that monthly cloud cost is 'a new mac studio every month'; owning hardware was 'an order of magnitude more economical'. Cost figures are self-reported."
+      ],
+      "source": {
+        "name": "@kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2117756472432148784",
+        "type": "x",
+        "handle": "kunchenguid"
+      },
+      "related": [
+        {
+          "name": "runner-up on GitHub",
+          "url": "https://github.com/kunchenguid/runner-up"
+        }
+      ],
+      "publishedAt": "2026-11-03T23:11:03Z",
+      "metrics": {
+        "likes": 31,
+        "reposts": 0,
+        "replies": 9,
+        "views": 1283,
+        "capturedAt": "2026-11-03T23:33:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "vercel-ai-cli",
+      "lens": "practical",
+      "topic": "ai-cli",
+      "summary": "Vercel's ai-cli (npm i -g ai-cli) gives any coding agent a CLI for image, video, audio and text generation with any model, routed through AI Gateway with cost and zero-data-retention controls; 'ai decide' adds decision models.",
+      "facts": [
+        "Examples from @ctatedev: Claude Code + Opus + Flux; Codex + GPT + Gemini; opencode + DeepSeek + MAI.",
+        "@rauchg: 'Gives every agent access to video, voice, image, text generation.'"
+      ],
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2117719672951095772",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "related": [
+        {
+          "name": "@ctatedev on X",
+          "url": "https://x.com/ctatedev/status/2117686362329473293"
+        }
+      ],
+      "publishedAt": "2026-11-03T20:44:50Z",
+      "metrics": {
+        "likes": 255,
+        "reposts": 14,
+        "replies": 60,
+        "views": 19400,
+        "capturedAt": "2026-11-03T23:33:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "nikkei-hidden-ai-debt-3-2t",
+      "lens": "broad",
+      "topic": "ai-capex-debt",
+      "summary": "Nikkei Asia reports US tech giants' off-balance-sheet AI-related commitments and obligations nearly doubled in six months to about $3.2 trillion, reaching 80% of assets for Google, Meta and others.",
+      "facts": [
+        "Headline and subhead: 'US tech giants' hidden AI debt swells 90% to $3.2tn in 6 months'; 'Google, Meta, others' commitments and obligations reach 80% of assets'.",
+        "Paywalled; only headline and opening paragraph read. 104 points on Hacker News at capture."
+      ],
+      "source": {
+        "name": "Nikkei Asia",
+        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50358422"
+        }
+      ],
+      "publishedAt": "2026-11-03T20:02:00Z",
+      "metrics": {
+        "points": 104,
+        "capturedAt": "2026-11-03T23:32:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "id": "openai-codex-physical-engineering",
+      "lens": "broad",
+      "topic": "ai-hardware-engineering",
+      "summary": "OpenAI says ChatGPT and Codex are helping engineers build for the physical world, sharing progress across mechanical design, electrical engineering and simulation, both inside its hardware teams and with industry collaborators.",
+      "facts": [
+        "Announcement is a video post; no numbers or named collaborators in the post text."
+      ],
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2117692475775258785",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "publishedAt": "2026-11-03T18:56:45Z",
+      "metrics": {
+        "likes": 3958,
+        "reposts": 295,
+        "replies": 343,
+        "views": 395870,
+        "capturedAt": "2026-11-03T23:33:00Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-03"
+    }
+  ]
+}
