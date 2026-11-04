@@ -1,0 +1,430 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-04-1235",
+  "generatedAt": "2026-11-04T17:45:00Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-04T11:33:00Z",
+    "to": "2026-11-04T17:40:00Z"
+  },
+  "sourceNotes": [
+    "Window 11:33Z to 17:40Z Nov 4 (since the 06:33 run). 14 candidates (8 practical, 5 broad, 0 frontier-capital, 1 design). Post-election news dominated; partisan items muted.",
+    "RSS new items: The Verge (Uber agent rides, data centers lost the midterms, Altman RAM comments) used; Verge Bezos photo story off-lens. No new items from Simon Willison, MIT TR, OpenAI Blog, Lenny, Stratechery, Benedict Evans, Mollick, Gary Marcus, Mitchell Hashimoto, The Atlantic or Metaplanet Google News.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returns HTTP 500 again; dead for many runs now.",
+    "Hacker News (minPoints 200, since 18:00Z Nov 3): used PHP2Shell/IEEE (664), Gemini training (447), RTX Spark Linux (440), Hinton (268), data centers (247). Nikkei hidden AI debt (394) already in the 18:33 Nov 3 file. Kimi K3.1 Pro (116) included below threshold as a lab release. GitHub incident (202), Safari, C++26, Jelly Sheet, PostgreSQL, Binance heist, Kitty off-lens.",
+    "arXiv: no new batch since the 06:33 run (latest submissions Nov 3). Used ScamWorld (2611.04879); AutoResearch continual-learning and Meta^2 harness papers not used. First arXiv API query with nested parentheses returned malformed XML; a simpler query worked.",
+    "IEEE Spectrum page lists the date as 02 Nov 2026 without a time; publishedAt set to 12:00Z. MindStudio post dated Nov 1 without a time; publishedAt set to 12:00Z.",
+    "X howTo lane: @mattpocockuk (readability, skills repo) and @poteto used. @gregisenberg 'How to not write AI slop' video and voice-notes quote, @kloss_xyz promos, @ThePrimeagen Dell hardware shoutout, @mattyp Grok Bot Pages video (product promo), @NousResearch image-only post, @tibo_maker Outrank promos, @jxnlco personal posts, @rubenhassid setup list, @LangChain re:Invent dinner not used.",
+    "X bigPicture lane: @a16z Assistant Benchmark episode used. @elonmusk posts were product plugs (Starlink, Qualcomm, Grok Bot shopping); @AravSrinivas emoji quote; @ycombinator, @mariogabriele, a16z Phaze investment not used. No posts in window from @sama, @AnthropicAI, @OpenAI, @GoogleDeepMind, @deepseek_ai and most others.",
+    "X frontierCapital lane: only @nathanbenaich quote posts ('serve inference' on Mistral/Cohere sovereign inference; 'europe in managed decline'), no original argument; not used. Design lane: @MengTo used.",
+    "X queries lane: listicles, promos and tiny accounts; nothing cleared quality. X news summary cited NBC exit-poll figures (57% say AI will harm society); not verified at a primary source, so only the 76% figure reported by The Verge is used.",
+    "Replies checked on @mattpocockuk readability post and @poteto slides post: none cleared the reply filter (>=1000 followers and >=5 likes). authorBaseline not filled this run. X calls this run: 10."
+  ],
+  "candidates": [
+    {
+      "id": "mattpocock-readability-is-verifiability",
+      "lens": "practical",
+      "topic": "code-without-human-reading",
+      "summary": "Matt Pocock argues that with agents writing and reading most code, readability matters less than verifiability: what counts is whether a human can jump in when needed, whether the code uses the same domain language people use to describe it, and how easily an agent can run and test it.",
+      "facts": [
+        "Post: 'readability is now a nicety, not a necessity.'",
+        "Post argues readability to agents really means verifiability.",
+        "His takeaways include: design the codebase so modules can be tested and verified independently, feel free to sacrifice a bit of readability for performance, and 'Cyclomatic complexity and function size don't matter to agents'.",
+        "Opinion post; no benchmark is cited."
+      ],
+      "source": {
+        "name": "Matt Pocock on X",
+        "url": "https://x.com/mattpocockuk/status/2117953152376799498",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-04T12:12:35Z",
+      "metrics": {
+        "likes": 1252,
+        "reposts": 55,
+        "replies": 187,
+        "views": 102844,
+        "capturedAt": "2026-11-04T17:39:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://x.com/mattpocockuk/status/2117953152376799498",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "poteto-30x-code-without-reading",
+      "lens": "practical",
+      "topic": "code-without-human-reading",
+      "summary": "@poteto, listed by AI Engineer as a Principal Engineer at SpaceX, posted slides from an upcoming AIE Code Summit talk saying the team ships about 30 times more code without reading it while performance is as good as or better than at launch, and that about 230 people landed at least one PR to Grok Bot in October.",
+      "facts": [
+        "Post: 'how we ship crazy amounts of code (30x'd) without reading it, yet perf is as good if not better then when we launched'.",
+        "Post: '~230 people landed at least 1 PR to grok bot in october!'",
+        "The talk is at the AIE Code Summit, Nov 10-12 in San Francisco.",
+        "Numbers are self-reported on slide images; the slides were not independently checked."
+      ],
+      "source": {
+        "name": "poteto on X",
+        "url": "https://x.com/poteto/status/2118017093677494706",
+        "type": "x",
+        "handle": "poteto"
+      },
+      "publishedAt": "2026-11-04T16:26:40Z",
+      "metrics": {
+        "likes": 413,
+        "reposts": 8,
+        "replies": 70,
+        "views": 24480,
+        "capturedAt": "2026-11-04T17:39:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://x.com/poteto/status/2118017093677494706",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "mattpocock-skills-repo-npm",
+      "lens": "practical",
+      "topic": "agent-skills-distribution",
+      "summary": "Matt Pocock's mattpocock/skills repo, his own agent skills folder, is close to becoming the most-starred skills repo, and he says he is thinking about publishing his skills to npm and other registries so teams can pin versions and load them per agent.",
+      "facts": [
+        "GitHub API showed 312,813 stars on mattpocock/skills at 17:40 UTC on Nov 4.",
+        "Post: '15 stars until we become the most-starred skills repo in the world... and the 13th most starred repo of all time.' (his claim).",
+        "Second post: 'Thinking about shipping a version of my skills to npm/other registries to allow you to use them in software factories. This lets me make them dynamic per agent, and also lets you pin to the version you like.'"
+      ],
+      "source": {
+        "name": "mattpocock/skills on GitHub",
+        "url": "https://github.com/mattpocock/skills",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Matt Pocock: most-starred skills repo",
+          "url": "https://x.com/mattpocockuk/status/2117947025354539286"
+        },
+        {
+          "name": "Matt Pocock: skills on npm",
+          "url": "https://x.com/mattpocockuk/status/2117948553381515721"
+        }
+      ],
+      "publishedAt": "2026-11-04T11:48:15Z",
+      "metrics": {
+        "likes": 1216,
+        "reposts": 38,
+        "replies": 81,
+        "views": 58790,
+        "capturedAt": "2026-11-04T17:39:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://github.com/mattpocock/skills",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "php2shell-ai-found-exploit",
+      "lens": "practical",
+      "topic": "php2shell",
+      "summary": "IEEE Spectrum reports that PHP2Shell, a critical PHP flaw affecting sites on WordPress, Drupal and others, started as a 2024 out-of-memory crash report that sat unfixed until an OpenAI-sponsored audit by Calif used AI tools to turn it into remote code execution within two weeks; a patch shipped before any known exploitation.",
+      "facts": [
+        "The underlying bug was reported to the PHP Foundation in 2024 and left unaddressed because it only caused crashes.",
+        "A Calif researcher, aided by AI tools, found a way to run arbitrary code with it within two weeks of an audit sponsored by OpenAI; Wiz confirmed and expanded the findings.",
+        "A team of four engineers spent two months developing the patch.",
+        "Matt Suiche (Tolmo): 'all the legacy software that was written by humans over the last 40 years is being exposed'.",
+        "Suman Jana (Columbia): 'There is a fundamental asymmetry in finding bugs and fixing bugs.'",
+        "Hacker News thread reached 664 points on Nov 4."
+      ],
+      "source": {
+        "name": "IEEE Spectrum",
+        "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50364336"
+        }
+      ],
+      "publishedAt": "2026-11-02T12:00:00Z",
+      "metrics": {
+        "points": 664,
+        "capturedAt": "2026-11-04T17:38:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "gemini-trains-on-paid-chats",
+      "lens": "practical",
+      "topic": "ai-training-opt-out",
+      "summary": "A Hacker News post with 448 points points to Google's own Gemini help pages: for personal accounts, including paid AI subscriptions, saved Gemini chats can be used to train models unless Keep Activity is turned off, which also deletes chats after 72 hours; a subset of chats is read by human reviewers and kept up to three years.",
+      "facts": [
+        "Per the post, Google's help pages say Gemini app activity is used to train generative AI models when Keep Activity is on.",
+        "Per the post, turning off Keep Activity means chat sessions are lost after 72 hours.",
+        "Per the post, chats reviewed by human reviewers are retained for up to three years even if activity is deleted."
+      ],
+      "source": {
+        "name": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50363461",
+        "type": "hn"
+      },
+      "related": [
+        {
+          "name": "Google Gemini privacy help",
+          "url": "https://support.google.com/gemini/answer/13594961"
+        }
+      ],
+      "publishedAt": "2026-11-04T10:10:27Z",
+      "metrics": {
+        "points": 448,
+        "capturedAt": "2026-11-04T17:38:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "kimi-k3-1-pro-open-weights",
+      "lens": "practical",
+      "topic": "kimi-k3-1-pro",
+      "summary": "Moonshot AI published open weights for Kimi K3.1 Pro on Hugging Face: a 2.8T-parameter mixture-of-experts model with 104B active parameters, a 1M-token context and OpenAI/Anthropic-compatible API endpoints, with vendor-reported agentic coding scores close to Claude Opus 5.5.",
+      "facts": [
+        "Model card: 2.8T total parameters, 104B activated, 1M-token context, MXFP4 weights.",
+        "Vendor-reported Terminal-Bench 4.0: Kimi K3.1 Pro 65.7 vs Claude Opus 5.5 66.4.",
+        "Vendor-reported SWE Marathon v1.1: 51.7, the highest in its comparison table.",
+        "Vendor-reported ExploitBench: 74.7 vs GPT-6 Astra 100.",
+        "Many evaluations were run with the Claude Code harness, per the model card.",
+        "API offers OpenAI- and Anthropic-compatible endpoints. Hacker News post had 116 points (below the 200 threshold; included as a lab release)."
+      ],
+      "source": {
+        "name": "Hugging Face model card",
+        "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50366999"
+        }
+      ],
+      "publishedAt": "2026-11-04T15:30:30Z",
+      "metrics": {
+        "points": 116,
+        "capturedAt": "2026-11-04T17:38:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "scamworld-web-agents-fraud",
+      "lens": "practical",
+      "topic": "agent-security-fraud",
+      "summary": "ScamWorld, a new arXiv benchmark, rebuilds reported scam websites to test web agents; agents powered by six frontier LLMs were deceived 11% to 35% of the time, and were more willing to make payments than to hand over credentials.",
+      "facts": [
+        "Baseline deception rates ranged from 11% to 35% across the six models.",
+        "Agents proceeded more readily with payments than with requests for credentials or wallet information.",
+        "Some agents acknowledged suspicious conditions yet proceeded, at times treating the user's instructions as authorisation to accept extra terms imposed by the site."
+      ],
+      "source": {
+        "name": "arXiv 2611.04879",
+        "url": "https://arxiv.org/abs/2611.04879",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-03T13:31:11Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "rtx-spark-linux-throttled",
+      "lens": "practical",
+      "topic": "rtx-spark-linux",
+      "summary": "A MindStudio hands-on test found Nvidia RTX Spark laptops run local models about five times slower on native Linux than on Windows when plugged in, because a Windows-only Nvidia power controller reads an encrypted firmware power table; WSL keeps full speed.",
+      "facts": [
+        "GPT-OSS-120B: Windows 65.4 tokens/s, WSL 65.1, DGX Spark 61, native Linux on the same laptop 13.9.",
+        "GPU clock on Linux when plugged in: about 780 MHz vs roughly 2.2 GHz on Windows.",
+        "vLLM with eight concurrent clients: WSL 127 tokens/s vs native Linux 39.5.",
+        "Tested on an MSI Prestige N16. Hacker News post reached 440 points."
+      ],
+      "source": {
+        "name": "MindStudio blog",
+        "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50362905"
+        }
+      ],
+      "publishedAt": "2026-11-01T12:00:00Z",
+      "metrics": {
+        "points": 440,
+        "capturedAt": "2026-11-04T17:38:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "uber-four-agent-rides-q3",
+      "lens": "broad",
+      "topic": "agent-commerce-disintermediation",
+      "summary": "Uber said on its Q3 earnings call that third-party AI agents arranged only four rides in the quarter and around 500 Uber Eats orders in Halloween week, out of 320 million rides and deliveries; it is the first time Uber has disclosed agent volume.",
+      "facts": [
+        "Four rides arranged by third-party AI agents in Q3 2026.",
+        "Around 500 Uber Eats orders via agents in the week of Halloween, against 320 million rides and deliveries.",
+        "Dara Khosrowshahi: 'It is just very, very early, and we want to make sure we are not dependent on any one player.'"
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-04T15:58:00Z",
+      "care": 5,
+      "proof": 4,
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "data-centers-lost-midterms",
+      "lens": "broad",
+      "topic": "data-centers-midterms",
+      "summary": "Results show data center opposition won broadly in the US midterms: 33 of 45 local ballot measures will restrict development, 76% of voters in NBC polling opposed data centers in their communities, and several local bans and moratoriums passed.",
+      "facts": [
+        "45 local data center ballot measures; 33 will restrict development, per a Redbud Consulting tracker cited by The Verge.",
+        "NBC polling: 76% opposed data centers in their communities.",
+        "Examples: Wells, Maine passed a 180-day moratorium; several Ohio cities banned data centers over 25MW; El Dorado, Kansas banned those over 10MW for 10 years.",
+        "Texas Governor-elect Gina Hinojosa supports a data center moratorium.",
+        "Semafor headline 'US voters roundly reject data centers in ballot measures' reached 247 points on Hacker News."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
+        "type": "rss"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion (Semafor)",
+          "url": "https://news.ycombinator.com/item?id=50365982"
+        }
+      ],
+      "publishedAt": "2026-11-04T16:05:39Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "hinton-chornobyl-warning",
+      "lens": "broad",
+      "topic": "hinton-ai-risk",
+      "summary": "Geoffrey Hinton told the Guardian humanity might have been better off never building AI, predicted a 'Chornobyl'-scale AI incident such as a power brownout or a week-long financial outage this year or next, and backed FDA-style mandatory testing of frontier models.",
+      "facts": [
+        "Hinton: 'it might be that we would have been better off never developing it'.",
+        "Hinton: 'Either later this year or next year we'll see Chornobyl'.",
+        "He said he does not trust Sam Altman 'at all'.",
+        "He backs a plan endorsed by Finland's president and 32 other countries for mandatory testing and independent evaluation of frontier models.",
+        "Hacker News thread reached 268 points."
+      ],
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50363554"
+        }
+      ],
+      "publishedAt": "2026-11-03T21:35:00Z",
+      "metrics": {
+        "points": 268,
+        "capturedAt": "2026-11-04T17:38:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "altman-ram-shortage-comments",
+      "lens": "broad",
+      "topic": "dram-shortage",
+      "summary": "Sam Altman walked back a podcast remark that it is 'quite terrible' for people to keep scarce DRAM in their own computers, saying on X he wants people to have as much memory as they want and has long argued for more memory production; AI data centers are driving a RAM shortage that Intel expects to last through next year.",
+      "facts": [
+        "Original Cheeky Pint podcast quote: 'it's quite terrible to have everybody have a bunch of the world's limited supply of DRAM sitting in their own computer and being used five percent of the time.'",
+        "Altman on X: 'i have been arguing for the world to ramp up memory production for a long time.'",
+        "Intel expects the RAM shortage to last through at least next year; SK Hynix said it could drag on until 2030 (per The Verge)."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-04T14:46:00Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "a16z-agent-trust-top-fear",
+      "lens": "broad",
+      "topic": "agent-trust",
+      "summary": "On an a16z podcast, Assistant Benchmark's David Pawlan says he has tracked 147 AI assistants and that trust is the top fear, appearing in 22% of roughly 3,600 messages.",
+      "facts": [
+        "147 AI assistants tracked so far.",
+        "Trust comes up in 22% of roughly 3,600 messages, per the post.",
+        "Figures are from his own community, not a survey."
+      ],
+      "source": {
+        "name": "a16z on X",
+        "url": "https://x.com/a16z/status/2118018019498529177",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "publishedAt": "2026-11-04T16:30:21Z",
+      "metrics": {
+        "likes": 26,
+        "reposts": 1,
+        "replies": 18,
+        "views": 9687,
+        "capturedAt": "2026-11-04T17:39:00Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "mengto-3d-site-dream-loop",
+      "lens": "design",
+      "topic": "claude-code-3d-web",
+      "summary": "Meng To published a 13-minute video building a 3D website with Claude Code and Opus 5.5, using a loop where the model screenshots its own build and scores it against a target; he says the first round scored 4.6 and the loop took it past 8.",
+      "facts": [
+        "Uses a 'dream loop' where Opus screenshots its build and scores it against a target.",
+        "Post: 'Round 1 scored 4.6. The dream loop took it past 8.' (self-reported score)."
+      ],
+      "source": {
+        "name": "Meng To on X",
+        "url": "https://x.com/MengTo/status/2117993128133296426",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-04T14:51:26Z",
+      "metrics": {
+        "likes": 51,
+        "reposts": 2,
+        "replies": 21,
+        "views": 4727,
+        "capturedAt": "2026-11-04T17:39:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/MengTo/status/2117993128133296426",
+      "firstSeen": "2026-11-04"
+    }
+  ]
+}
