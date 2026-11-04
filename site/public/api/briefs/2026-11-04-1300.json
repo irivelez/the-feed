@@ -1,0 +1,362 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-04-1300",
+  "date": "2026-11-04",
+  "publishedAt": "2026-11-04T18:20:00Z",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "uber-four-agent-rides-q3",
+      "headline": "AI agents booked just four Uber rides last quarter",
+      "whyItMatters": "Agent commerce is still tiny, so don't rebuild sales channels around it yet."
+    },
+    {
+      "itemId": "php2shell-ai-found-exploit",
+      "headline": "AI turned an ignored PHP crash into a critical exploit",
+      "whyItMatters": "AI makes old, unpatched bugs exploitable fast, so legacy code now carries fresh risk."
+    },
+    {
+      "itemId": "gemini-trains-on-paid-chats",
+      "headline": "Gemini can train on paid personal chats unless activity is off",
+      "whyItMatters": "Staff using personal Gemini accounts may be feeding company data into model training."
+    }
+  ],
+  "items": [
+    {
+      "id": "data-centers-lost-midterms",
+      "title": "33 of 45 local data center ballot measures will restrict building",
+      "takeaway": "NBC polling found 76% oppose data centers locally; Ohio and Kansas towns passed size bans.",
+      "soWhat": "Local votes now shape where compute gets built, so stress-test capacity plans against delays.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 7,
+      "publishedAt": "2026-11-04T16:05:39Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion (Semafor)",
+          "url": "https://news.ycombinator.com/item?id=50365982"
+        }
+      ],
+      "image": {
+        "src": "/img/data-centers-lost-midterms.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "uber-four-agent-rides-q3",
+      "title": "AI agents booked just four Uber rides last quarter",
+      "takeaway": "Uber's first agent disclosure: about 500 Eats orders in Halloween week, against 320 million trips and deliveries.",
+      "soWhat": "Agent commerce is still tiny, so don't rebuild sales channels around it yet.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-04T15:58:00Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation"
+      },
+      "image": {
+        "src": "/img/uber-four-agent-rides-q3.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "kimi-k3-1-pro-open-weights",
+      "title": "Moonshot releases open weights for Kimi K3.1 Pro",
+      "takeaway": "2.8T-parameter model, 1M-token context; vendor reports Terminal-Bench 65.7 vs Claude Opus 5.5's 66.4.",
+      "soWhat": "Near-frontier coding models you can host yourself give you leverage in vendor pricing talks.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 7,
+      "publishedAt": "2026-11-04T15:30:30Z",
+      "source": {
+        "name": "Hugging Face model card",
+        "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50366999"
+        }
+      ],
+      "image": {
+        "src": "/img/kimi-k3-1-pro-open-weights.jpg",
+        "alt": "Image from Hugging Face model card"
+      }
+    },
+    {
+      "id": "mengto-3d-site-dream-loop",
+      "title": "Meng To has Claude score screenshots of its own 3D site",
+      "takeaway": "A 13-minute video; he says the self-review loop lifted a 4.6 score past 8.",
+      "soWhat": "Letting the model check its own output against a target is a cheap way to raise design quality.",
+      "lens": "design",
+      "momentum": "shift",
+      "importance": 3,
+      "publishedAt": "2026-11-04T14:51:26Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2117993128133296426"
+      },
+      "image": {
+        "src": "/img/mengto-3d-site-dream-loop.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "5k views"
+      }
+    },
+    {
+      "id": "altman-ram-shortage-comments",
+      "title": "Altman walks back his remark about RAM in personal computers",
+      "takeaway": "He now says people should have as much memory as they want; Intel expects the shortage through next year.",
+      "soWhat": "AI data centers are absorbing memory supply, so expect pricier laptops and servers into 2027.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-04T14:46:00Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments"
+      },
+      "image": {
+        "src": "/img/altman-ram-shortage-comments.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "mattpocock-readability-is-verifiability",
+      "title": "Builders argue agent-written code needs verifiability more than readability",
+      "takeaway": "Pocock: make modules testable on their own; poteto says his team ships 30x more code unread.",
+      "soWhat": "Invest in tests and checks agents can run, since fewer people will read the code.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-04T12:12:35Z",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2117953152376799498"
+      },
+      "related": [
+        {
+          "name": "@poteto talk slides on X",
+          "url": "https://x.com/poteto/status/2118017093677494706"
+        }
+      ],
+      "image": {
+        "src": "/img/mattpocock-readability-is-verifiability.jpg",
+        "alt": "Image from @mattpocockuk on X"
+      },
+      "heat": {
+        "score": 29,
+        "level": "none",
+        "metric": "103k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "mattpocock-skills-repo-npm",
+      "title": "Matt Pocock weighs shipping his agent skills as versioned npm packages",
+      "takeaway": "His skills repo had 312,813 GitHub stars; npm would let teams pin versions per agent.",
+      "soWhat": "Agent skills are becoming dependencies, so manage them with version pinning and review.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-04T11:48:15Z",
+      "source": {
+        "name": "mattpocock/skills GitHub",
+        "url": "https://github.com/mattpocock/skills"
+      },
+      "related": [
+        {
+          "name": "@mattpocockuk: skills on npm",
+          "url": "https://x.com/mattpocockuk/status/2117948553381515721"
+        },
+        {
+          "name": "@mattpocockuk: most-starred skills repo",
+          "url": "https://x.com/mattpocockuk/status/2117947025354539286"
+        }
+      ],
+      "image": {
+        "src": "/img/mattpocock-skills-repo-npm.jpg",
+        "alt": "Image from mattpocock/skills GitHub"
+      },
+      "heat": {
+        "score": 18,
+        "level": "none",
+        "metric": "59k views"
+      }
+    },
+    {
+      "id": "gemini-trains-on-paid-chats",
+      "title": "Gemini can train on paid personal chats unless activity is off",
+      "takeaway": "Turning off Keep Activity deletes chats after 72 hours; human-reviewed chats are kept up to three years.",
+      "soWhat": "Staff using personal Gemini accounts may be feeding company data into model training.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-04T10:10:27Z",
+      "source": {
+        "name": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50363461"
+      },
+      "related": [
+        {
+          "name": "Google Gemini privacy help",
+          "url": "https://support.google.com/gemini/answer/13594961"
+        }
+      ],
+      "image": {
+        "src": "/img/gemini-trains-on-paid-chats.jpg",
+        "alt": "Hacker News: Gemini can train on paid personal chats unless activity is off"
+      }
+    },
+    {
+      "id": "hinton-chornobyl-warning",
+      "title": "Hinton predicts a Chornobyl-scale AI incident by next year",
+      "takeaway": "He cites a power brownout or week-long financial outage and backs mandatory testing of frontier models.",
+      "soWhat": "Calls for mandatory model testing are growing, so plan for audits of the AI you deploy.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-03T21:35:00Z",
+      "source": {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50363554"
+        }
+      ],
+      "image": {
+        "src": "/img/hinton-chornobyl-warning.jpg",
+        "alt": "Image from The Guardian"
+      }
+    },
+    {
+      "id": "scamworld-web-agents-fraud",
+      "title": "Scam websites fooled web agents 11% to 35% of the time",
+      "takeaway": "ScamWorld tested agents on six frontier models; they paid more readily than they gave credentials.",
+      "soWhat": "Don't let agents make payments without a human check or strict spending limits.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-03T13:31:11Z",
+      "source": {
+        "name": "arXiv 2611.04879",
+        "url": "https://arxiv.org/abs/2611.04879"
+      },
+      "image": {
+        "src": "/img/scamworld-web-agents-fraud.jpg",
+        "alt": "arXiv 2611.04879: Scam websites fooled web agents 11% to 35% of the time"
+      }
+    },
+    {
+      "id": "php2shell-ai-found-exploit",
+      "title": "AI turned an ignored PHP crash into a critical exploit",
+      "takeaway": "A 2024 crash report sat unfixed until an AI-aided audit made it remote code execution in two weeks.",
+      "soWhat": "AI makes old, unpatched bugs exploitable fast, so legacy code now carries fresh risk.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 8,
+      "publishedAt": "2026-11-02T12:00:00Z",
+      "source": {
+        "name": "IEEE Spectrum",
+        "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50364336"
+        }
+      ],
+      "image": {
+        "src": "/img/php2shell-ai-found-exploit.jpg",
+        "alt": "Image from IEEE Spectrum"
+      }
+    },
+    {
+      "id": "rtx-spark-linux-throttled",
+      "title": "RTX Spark laptops run local models five times slower on Linux",
+      "takeaway": "MindStudio measured 13.9 tokens/s on native Linux vs 65.4 on Windows; WSL keeps full speed.",
+      "soWhat": "Benchmark local AI hardware on the operating system your team will actually use.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 3,
+      "publishedAt": "2026-11-01T12:00:00Z",
+      "source": {
+        "name": "MindStudio blog",
+        "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50362905"
+        }
+      ],
+      "image": {
+        "src": "/img/rtx-spark-linux-throttled.jpg",
+        "alt": "Image from MindStudio blog"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@mattpocockuk",
+      "quote": "readability is now a nicety, not a necessity.",
+      "url": "https://x.com/mattpocockuk/status/2117953152376799498"
+    },
+    {
+      "handle": "@poteto",
+      "quote": "how we ship crazy amounts of code (30x'd) without reading it, yet perf is as good if not better then when we launched",
+      "url": "https://x.com/poteto/status/2118017093677494706"
+    },
+    {
+      "handle": "@mattpocockuk",
+      "quote": "This lets me make them dynamic per agent, and also lets you pin to the version you like.",
+      "url": "https://x.com/mattpocockuk/status/2117948553381515721"
+    },
+    {
+      "handle": "@MengTo",
+      "quote": "Round 1 scored 4.6. The dream loop took it past 8.",
+      "url": "https://x.com/MengTo/status/2117993128133296426"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/mattpocockuk/status/2117953152376799498",
+      "handle": "@mattpocockuk",
+      "text": "readability is now a nicety, not a necessity.",
+      "metric": "1.3k likes",
+      "note": "Builders are rethinking code review now that agents write and read most code."
+    },
+    {
+      "url": "https://x.com/poteto/status/2118017093677494706",
+      "handle": "@poteto",
+      "text": "how we ship crazy amounts of code (30x'd) without reading it, yet perf is as good if not better then when we launched",
+      "metric": "413 likes",
+      "note": "A concrete claim that unread agent code can hold performance draws both interest and doubt."
+    },
+    {
+      "url": "https://x.com/MengTo/status/2117993128133296426",
+      "handle": "@MengTo",
+      "text": "Round 1 scored 4.6. The dream loop took it past 8.",
+      "metric": "51 likes",
+      "note": "Self-scoring loops promise better AI design output without a human in each round."
+    },
+    {
+      "url": "https://x.com/a16z/status/2118018019498529177",
+      "handle": "@a16z",
+      "text": "Assistant Benchmark tracked 147 AI assistants; trust is the top fear, in 22% of about 3,600 messages.",
+      "metric": "26 likes",
+      "note": "Trust, not capability, is what users raise most about AI assistants."
+    }
+  ]
+}
