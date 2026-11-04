@@ -12,15 +12,15 @@
   },
   "sourceNotes": [
     "Window 11:33Z to 17:40Z Nov 4 (since the 06:33 run). 14 candidates (8 practical, 5 broad, 0 frontier-capital, 1 design). Post-election news dominated; partisan items muted.",
-    "RSS new items: The Verge (Uber agent rides, data centers lost the midterms, Altman RAM comments) used; Verge Bezos photo story off-lens. No new items from Simon Willison, MIT TR, OpenAI Blog, Lenny, Stratechery, Benedict Evans, Mollick, Gary Marcus, Mitchell Hashimoto, The Atlantic or Metaplanet Google News.",
+    "RSS: The Verge items used (Uber agent rides, data centers lost the midterms, Altman RAM comments); other feeds had nothing on-lens in the window.",
     "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returns HTTP 500 again; dead for many runs now.",
-    "Hacker News (minPoints 200, since 18:00Z Nov 3): used PHP2Shell/IEEE (664), Gemini training (447), RTX Spark Linux (440), Hinton (268), data centers (247). Nikkei hidden AI debt (394) already in the 18:33 Nov 3 file. Kimi K3.1 Pro (116) included below threshold as a lab release. GitHub incident (202), Safari, C++26, Jelly Sheet, PostgreSQL, Binance heist, Kitty off-lens.",
-    "arXiv: no new batch since the 06:33 run (latest submissions Nov 3). Used ScamWorld (2611.04879); AutoResearch continual-learning and Meta^2 harness papers not used. First arXiv API query with nested parentheses returned malformed XML; a simpler query worked.",
+    "Hacker News (minPoints 200, AI filter): used PHP2Shell/IEEE (664), Gemini training (448), RTX Spark Linux (440), Hinton (268), data centers via Semafor (247). Kimi K3.1 Pro (116) included below threshold as a lab release. AMD outselling Intel (142), GitHub incident (202) and a North Korea-linked Binance heist (325) off-lens. Algolia numericFilters needed URL-encoded operators.",
+    "arXiv: no new batch since the 06:33 run. Used ScamWorld (2611.04879). First arXiv API query failed to parse; a simpler query worked.",
     "IEEE Spectrum page lists the date as 02 Nov 2026 without a time; publishedAt set to 12:00Z. MindStudio post dated Nov 1 without a time; publishedAt set to 12:00Z.",
     "X howTo lane: @mattpocockuk (readability, skills repo) and @poteto used. @gregisenberg 'How to not write AI slop' video and voice-notes quote, @kloss_xyz promos, @ThePrimeagen Dell hardware shoutout, @mattyp Grok Bot Pages video (product promo), @NousResearch image-only post, @tibo_maker Outrank promos, @jxnlco personal posts, @rubenhassid setup list, @LangChain re:Invent dinner not used.",
-    "X bigPicture lane: @a16z Assistant Benchmark episode used. @elonmusk posts were product plugs (Starlink, Qualcomm, Grok Bot shopping); @AravSrinivas emoji quote; @ycombinator, @mariogabriele, a16z Phaze investment not used. No posts in window from @sama, @AnthropicAI, @OpenAI, @GoogleDeepMind, @deepseek_ai and most others.",
-    "X frontierCapital lane: only @nathanbenaich quote posts ('serve inference' on Mistral/Cohere sovereign inference; 'europe in managed decline'), no original argument; not used. Design lane: @MengTo used.",
-    "X queries lane: listicles, promos and tiny accounts; nothing cleared quality. X news summary cited NBC exit-poll figures (57% say AI will harm society); not verified at a primary source, so only the 76% figure reported by The Verge is used.",
+    "X bigPicture lane: @a16z Assistant Benchmark episode used. @elonmusk posts were product plugs (Starlink, Qualcomm, Grok Bot purchases); @AravSrinivas emoji quote; @ycombinator, @mariogabriele and a16z's Phaze investment not used.",
+    "X frontierCapital lane: only a thin @nathanbenaich quote post ('serve inference', on Mistral and Cohere moving into sovereign inference); not used. Design lane: @MengTo used.",
+    "X queries lane: listicles and small accounts; nothing cleared quality. X news trending summaries are not primary sources and were not used.",
     "Replies checked on @mattpocockuk readability post and @poteto slides post: none cleared the reply filter (>=1000 followers and >=5 likes). authorBaseline not filled this run. X calls this run: 10."
   ],
   "candidates": [
