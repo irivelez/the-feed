@@ -1,7 +1,41 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-03T18:30:00Z",
+  "updatedAt": "2026-11-04T00:15:00Z",
   "howtos": [
+    {
+      "id": "isenberg-agent-team-operating-rules",
+      "dedupeKey": "agent-team-operating-rules-judge-and-skills",
+      "title": "Four operating rules for a team of product agents",
+      "what": "Greg Isenberg's rules for the agent stack he says runs product work at his 50+ person company.",
+      "kind": "steps",
+      "copy": [
+        "Give each platform its own agent.",
+        "Use a cheap model for triage and Opus for anything that ships.",
+        "Have an LLM judge score outputs 1-10 and send anything under 8 back.",
+        "Turn every agent mistake into a new skill."
+      ],
+      "whenToUse": "When you run several agents on product work and need simple rules for cost and quality.",
+      "source": {
+        "name": "@gregisenberg on X",
+        "url": "https://x.com/gregisenberg/status/2117734977312047537"
+      },
+      "author": {
+        "name": "Greg Isenberg",
+        "handle": "gregisenberg"
+      },
+      "tags": [
+        "multi-agent",
+        "quality-control",
+        "workflows"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-03-1900",
+        "itemId": "isenberg-agent-run-company-stack"
+      },
+      "addedAt": "2026-11-04T00:15:00Z"
+    },
     {
       "id": "simonw-run-weight-reading-prompts-locally",
       "dedupeKey": "run-weight-reading-prompts-local-llm-cli",
