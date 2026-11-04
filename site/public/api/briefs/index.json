@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-03-1300",
-  "count": 36,
+  "latest": "2026-11-03-1900",
+  "count": 37,
   "briefs": [
+    {
+      "id": "2026-11-03-1900",
+      "date": "2026-11-03",
+      "edition": "Evening",
+      "publishedAt": "2026-11-04T00:09:00Z",
+      "headline": "Postman desktop quietly installed its plugins into Claude Code and Codex",
+      "url": "/api/briefs/2026-11-03-1900.json"
+    },
     {
       "id": "2026-11-03-1300",
       "date": "2026-11-03",

@@ -1,306 +1,448 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-03-1300",
+  "id": "2026-11-03-1900",
   "date": "2026-11-03",
-  "publishedAt": "2026-11-03T18:20:00Z",
-  "edition": "Midday",
+  "publishedAt": "2026-11-04T00:09:00Z",
+  "edition": "Evening",
   "top3": [
     {
-      "itemId": "mcp-tool-poisoning-12-frameworks",
-      "headline": "Poisoned MCP tools fooled agents in 23% of tests across 12 frameworks",
-      "whyItMatters": "No agent framework defends against poisoned tools, so your model choice is the main safeguard."
+      "itemId": "postman-auto-installs-agent-plugins",
+      "headline": "Postman desktop quietly installed its plugins into Claude Code and Codex",
+      "whyItMatters": "Any desktop app can now rewrite your coding agents' instructions, so audit agent configs on company machines."
     },
     {
-      "itemId": "willison-qwen-reads-weights",
-      "headline": "A 17GB model on a laptop read games from raw neural weights",
-      "whyItMatters": "Contested frontier-lab claims about reading model weights can now be tested on a laptop."
+      "itemId": "claude-plugins-auto-connect",
+      "headline": "Claude plugins now connect automatically when teammates log in",
+      "whyItMatters": "Rolling out agent tools to a whole team now takes one admin setup instead of per-user logins."
     },
     {
-      "itemId": "nvidia-auto-ontology",
-      "headline": "NVIDIA open-sources a layer that tells agents what your data means",
-      "whyItMatters": "Agents querying company data need certified metric definitions, and NVIDIA now ships one for free."
+      "itemId": "anthropic-flashprove-provable-inference",
+      "headline": "Anthropic open-sources a way to prove which model answered you",
+      "whyItMatters": "Buyers may soon be able to verify a vendor isn't quietly swapping in a cheaper model."
     }
   ],
   "items": [
     {
-      "id": "google-search-off-schools-rejecting-ai",
-      "title": "Schools that switch off Google's Gemini lose Google Search too",
-      "takeaway": "Google bundles Search with Gemini for K-12 student accounts; both are off unless admins turn them on.",
-      "soWhat": "Vendors are tying AI to core tools, so check what you lose before opting out.",
-      "lens": "broad",
+      "id": "kunchenguid-runner-up-self-hosted-ci",
+      "title": "A developer open-sources his setup for running CI on his own machines",
+      "takeaway": "Kun Chen says cloud runners would cost him $5,000-$9,000 a month; figures are self-reported.",
+      "soWhat": "Agent-heavy teams run far more CI, so price owned hardware against cloud bills.",
+      "lens": "practical",
       "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-03T17:00:00Z",
+      "importance": 4,
+      "publishedAt": "2026-11-03T23:11:03Z",
       "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features"
+        "name": "runner-up on GitHub",
+        "url": "https://github.com/kunchenguid/runner-up"
       },
       "related": [
         {
-          "name": "The New York Times",
-          "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html"
-        },
-        {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50353192"
+          "name": "@kunchenguid on X",
+          "url": "https://x.com/kunchenguid/status/2117756472432148784"
         }
       ],
       "image": {
-        "src": "/img/google-search-off-schools-rejecting-ai.jpg",
-        "alt": "Image from The Verge"
+        "src": "/img/kunchenguid-runner-up-self-hosted-ci.jpg",
+        "alt": "Image from runner-up on GitHub"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "1k views"
       }
     },
     {
-      "id": "willison-qwen-reads-weights",
-      "title": "A 17GB model on a laptop read games from raw neural weights",
-      "takeaway": "Qwen 3.8 27B named Pac-Man, Pong and Breakout from weights alone, taking about an hour each, and missed Freeway.",
-      "soWhat": "Weight-reading claims can now be checked on a laptop, not only in frontier labs.",
+      "id": "isenberg-agent-run-company-stack",
+      "title": "Greg Isenberg shares the agent stack running product work at his company",
+      "takeaway": "Parallel agents in git worktrees, persona testing, Sentry-triggered fix PRs; self-reported, no output metrics.",
+      "soWhat": "A useful blueprint to compare against, but ask for results before copying it.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-03T21:45:38Z",
+      "source": {
+        "name": "@gregisenberg on X",
+        "url": "https://x.com/gregisenberg/status/2117734977312047537"
+      },
+      "image": {
+        "src": "/img/isenberg-agent-run-company-stack.jpg",
+        "alt": "Profile image of @gregisenberg"
+      },
+      "heat": {
+        "score": 15,
+        "level": "none",
+        "metric": "47k views"
+      }
+    },
+    {
+      "id": "vercel-security-review-beta",
+      "title": "Vercel's security agent now reviews every code push in seconds",
+      "takeaway": "Security Review scans each push's diff, flags issues like exposed secrets, and works even off Vercel hosting.",
+      "soWhat": "As agents write more code, security checks need to run on every change, not on request.",
       "lens": "practical",
       "momentum": "building",
       "importance": 7,
-      "publishedAt": "2026-11-03T16:29:48Z",
+      "publishedAt": "2026-11-03T21:45:04Z",
       "source": {
-        "name": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
-      },
-      "related": [
-        {
-          "name": "@simonw on X",
-          "url": "https://x.com/simonw/status/2117655816581071203"
-        },
-        {
-          "name": "Paper logs repo",
-          "url": "https://github.com/RikiyaT/lm_understand-logs"
-        }
-      ],
-      "image": {
-        "src": "/img/willison-qwen-reads-weights.jpg",
-        "alt": "Image from github.com"
-      },
-      "heat": {
-        "score": 27,
-        "level": "none",
-        "metric": "39k views",
-        "voices": 2
-      }
-    },
-    {
-      "id": "vercel-dbsc-session-binding",
-      "title": "Vercel binds login sessions to devices to stop stolen-cookie attacks",
-      "takeaway": "Device Bound Session Credentials tie vercel.com sessions to the device TPM; Chrome on Mac and Windows only for now.",
-      "soWhat": "Ask your critical vendors whether stolen session cookies still work from another machine.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-11-03T15:49:32Z",
-      "source": {
-        "name": "@cramforce on X",
-        "url": "https://x.com/cramforce/status/2117645359082315988"
+        "name": "Vercel blog",
+        "url": "https://vercel.com/blog/vercel-security-review"
       },
       "related": [
         {
           "name": "@rauchg on X",
-          "url": "https://x.com/rauchg/status/2117670076828803088"
-        }
-      ],
-      "image": {
-        "src": "/img/vercel-dbsc-session-binding.jpg",
-        "alt": "Profile image of @cramforce"
-      },
-      "heat": {
-        "score": 7,
-        "level": "none",
-        "metric": "12k views"
-      }
-    },
-    {
-      "id": "retro-skill-harness-study",
-      "title": "Study: agents rewriting their own rules fixed few recurring problems",
-      "takeaway": "Of 7 tests of Matt Pocock's /retro changes where the problem recurred, 2 removed it and 4 did nothing.",
-      "soWhat": "Self-improving agent setups need a test that proves each change helps, or they drift.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-03T12:04:58Z",
-      "source": {
-        "name": "@mattpocockuk on X",
-        "url": "https://x.com/mattpocockuk/status/2117588845864575397"
-      },
-      "related": [
-        {
-          "name": "arXiv 2610.34938",
-          "url": "https://arxiv.org/abs/2610.34938"
-        }
-      ],
-      "image": {
-        "src": "/img/retro-skill-harness-study.jpg",
-        "alt": "Profile image of @mattpocockuk"
-      },
-      "heat": {
-        "score": 19,
-        "level": "none",
-        "metric": "90k views"
-      }
-    },
-    {
-      "id": "nvidia-auto-ontology",
-      "title": "NVIDIA open-sources a layer that tells agents what your data means",
-      "takeaway": "Auto Ontology maps enterprise metadata, checks generated SQL against certified definitions and serves agents via MCP.",
-      "soWhat": "Agents answering data questions need shared metric definitions before anyone trusts their numbers.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-11-03T07:04:50Z",
-      "source": {
-        "name": "GitHub: NVIDIA",
-        "url": "https://github.com/NVIDIA/auto-ontology"
-      },
-      "related": [
-        {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50348962"
-        }
-      ],
-      "image": {
-        "src": "/img/nvidia-auto-ontology.jpg",
-        "alt": "Image from GitHub: NVIDIA"
-      }
-    },
-    {
-      "id": "honnibal-astra-weights-misleading",
-      "title": "spaCy's author says the Astra weight-editing claims are overstated",
-      "takeaway": "Only 3 of 10 experiments worked from raw weights alone; the Qwen math result used Python and ran the model.",
-      "soWhat": "Read the method behind headline AI results before you plan around them.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-11-03T00:00:00Z",
-      "source": {
-        "name": "honnibal.dev",
-        "url": "https://honnibal.dev/blog/astra-read-write-misleading"
-      },
-      "related": [
-        {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50351111"
+          "url": "https://x.com/rauchg/status/2117734833824948373"
         },
         {
-          "name": "Original post",
-          "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+          "name": "@vercel launch post",
+          "url": "https://x.com/vercel/status/2117726156992753721"
         }
       ],
       "image": {
-        "src": "/img/honnibal-astra-weights-misleading.jpg",
-        "alt": "Image from honnibal.dev"
+        "src": "/img/vercel-security-review-beta.jpg",
+        "alt": "Image from Vercel blog"
+      },
+      "heat": {
+        "score": 9,
+        "level": "none",
+        "metric": "23k views"
       }
     },
     {
-      "id": "mcp-tool-poisoning-12-frameworks",
-      "title": "Poisoned MCP tools fooled agents in 23% of tests across 12 frameworks",
-      "takeaway": "Across 9,720 tests, resistance depended on the model, from 0.4% to 49.7% attack success; vendors rejected all disclosures.",
-      "soWhat": "Vet every MCP tool your agents load, because the framework will not stop a poisoned one.",
+      "id": "perplexity-computer-agent-plugins",
+      "title": "Perplexity's Computer agent adds plugins that bundle apps and skills",
+      "takeaway": "Browse a directory or import plugins from GitHub or a .zip; Perplexity says they work across agents.",
+      "soWhat": "Plugins are becoming the shared unit for agent tools, so expect your vendors to ship them.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-03T21:08:04Z",
+      "source": {
+        "name": "Perplexity plugins",
+        "url": "https://perplexity.ai/computer/plugins"
+      },
+      "related": [
+        {
+          "name": "@AravSrinivas on X",
+          "url": "https://x.com/AravSrinivas/status/2117725519982784940"
+        }
+      ],
+      "image": {
+        "src": "/img/perplexity-computer-agent-plugins.jpg",
+        "alt": "Image from Perplexity plugins"
+      },
+      "heat": {
+        "score": 11,
+        "level": "none",
+        "metric": "10k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "canva-cuts-22-percent",
+      "title": "Canva cuts or relocates 22% of staff as growth slows",
+      "takeaway": "1,271 roles affected; product, growth and platform teams merge and management layers are cut.",
+      "soWhat": "Even AI-era design leaders are rebuilding around small teams, so expect peers to follow.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-03T20:51:00Z",
+      "source": {
+        "name": "Sydney Morning Herald",
+        "url": "https://www.smh.com.au/technology/canva-unveils-mass-job-cuts-in-hardest-moment-of-its-history-20261104-p61b62.html"
+      },
+      "related": [
+        {
+          "name": "@GeoffreyHuntley on X",
+          "url": "https://x.com/GeoffreyHuntley/status/2117726241528955264"
+        }
+      ],
+      "image": {
+        "src": "/img/canva-cuts-22-percent.jpg",
+        "alt": "Image from Sydney Morning Herald"
+      }
+    },
+    {
+      "id": "semianalysis-spacex-13gw-ai-cloud",
+      "title": "SemiAnalysis says SpaceX targets about 13GW of AI datacenters by 2027",
+      "takeaway": "3.6GW is under construction; SemiAnalysis compares 13GW to all Google datacenter capacity built 1999-2026.",
+      "soWhat": "Compute supply is concentrating in a few builders, which shapes who sets AI prices.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-03T20:44:53Z",
+      "source": {
+        "name": "SemiAnalysis",
+        "url": "https://newsletter.semianalysis.com/p/elon-is-doing-it-again-spacex-will"
+      },
+      "related": [
+        {
+          "name": "@SemiAnalysis_ on X",
+          "url": "https://x.com/SemiAnalysis_/status/2117720668145852429"
+        }
+      ],
+      "image": {
+        "src": "/img/semianalysis-spacex-13gw-ai-cloud.jpg",
+        "alt": "Image from SemiAnalysis"
+      }
+    },
+    {
+      "id": "vercel-ai-cli",
+      "title": "Vercel's ai-cli lets any coding agent generate images, video and audio",
+      "takeaway": "One CLI routes to any model through AI Gateway, with cost and zero-data-retention controls.",
+      "soWhat": "Teams can add media generation to agent workflows without wiring each model separately.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-03T20:44:50Z",
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2117719672951095772"
+      },
+      "related": [
+        {
+          "name": "@ctatedev on X",
+          "url": "https://x.com/ctatedev/status/2117686362329473293"
+        }
+      ],
+      "image": {
+        "src": "/img/vercel-ai-cli.jpg",
+        "alt": "Image from @rauchg on X"
+      },
+      "heat": {
+        "score": 9,
+        "level": "none",
+        "metric": "19k views"
+      }
+    },
+    {
+      "id": "apple-siri-ai-third-party-apps",
+      "title": "Apple opens Siri's AI to act inside any third-party app",
+      "takeaway": "iOS 27.3 developer preview adds on-screen awareness in apps and 'app skills' that chain tasks.",
+      "soWhat": "If your company has an iPhone app, Siri may soon be a front door to it.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-03T20:16:00Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps"
+      },
+      "image": {
+        "src": "/img/apple-siri-ai-third-party-apps.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "anthropic-flashprove-provable-inference",
+      "title": "Anthropic open-sources a way to prove which model answered you",
+      "takeaway": "FlashProve proofs show a response came from a committed model, at roughly 70-95x the GPU time of serving it.",
+      "soWhat": "Buyers may soon be able to verify a vendor isn't quietly swapping in a cheaper model.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-03T20:10:08Z",
+      "source": {
+        "name": "Anthropic research",
+        "url": "https://www.anthropic.com/research/provable-inference"
+      },
+      "related": [
+        {
+          "name": "@AnthropicAI on X",
+          "url": "https://x.com/AnthropicAI/status/2117710942826123294"
+        },
+        {
+          "name": "anthropics/FlashProve on GitHub",
+          "url": "https://github.com/anthropics/FlashProve"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-flashprove-provable-inference.jpg",
+        "alt": "Image from Anthropic research"
+      },
+      "heat": {
+        "score": 24,
+        "level": "none",
+        "metric": "180k views"
+      }
+    },
+    {
+      "id": "nikkei-hidden-ai-debt-3-2t",
+      "title": "Big Tech's off-balance-sheet AI commitments near $3.2 trillion",
+      "takeaway": "Nikkei Asia says they rose about 90% in six months, reaching 80% of assets at Google, Meta and others.",
+      "soWhat": "AI spending carries long obligations, so watch for pullbacks that hit your vendors' pricing.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-03T20:02:00Z",
+      "source": {
+        "name": "Nikkei Asia",
+        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50358422"
+        }
+      ],
+      "image": {
+        "src": "/img/nikkei-hidden-ai-debt-3-2t.jpg",
+        "alt": "Image from Nikkei Asia"
+      }
+    },
+    {
+      "id": "chatgpt-search-fifth-of-google",
+      "title": "OpenAI says ChatGPT search volume now equals 20% of Google's",
+      "takeaway": "Counts any query that triggers a web search; OpenAI gave no source for the Google figure.",
+      "soWhat": "If customers search inside ChatGPT, check how your brand shows up in its answers.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-03T18:30:00Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search"
+      },
+      "image": {
+        "src": "/img/chatgpt-search-fifth-of-google.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "claude-plugins-auto-connect",
+      "title": "Claude plugins now connect automatically when teammates log in",
+      "takeaway": "Team and Enterprise admins set plugins up once; MCP servers that trust Claude skip re-authorization.",
+      "soWhat": "Rolling out agent tools to a whole team now takes one admin setup instead of per-user logins.",
       "lens": "practical",
       "momentum": "building",
       "importance": 9,
-      "publishedAt": "2026-11-02T18:17:08Z",
+      "publishedAt": "2026-11-03T18:09:42Z",
       "source": {
-        "name": "arXiv 2611.03555",
-        "url": "https://arxiv.org/abs/2611.03555"
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2117680635561312732"
       },
+      "related": [
+        {
+          "name": "@bcherny on X",
+          "url": "https://x.com/bcherny/status/2117693181651542387"
+        }
+      ],
       "image": {
-        "src": "/img/mcp-tool-poisoning-12-frameworks.jpg",
-        "alt": "arXiv 2611.03555: Poisoned MCP tools fooled agents in 23% of tests across 12 frameworks"
+        "src": "/img/claude-plugins-auto-connect.jpg",
+        "alt": "Profile image of @ClaudeDevs"
+      },
+      "heat": {
+        "score": 37,
+        "level": "none",
+        "metric": "364k views",
+        "voices": 2
       }
     },
     {
-      "id": "deliverbench-project-delivery",
-      "title": "Best AI agent scored 65 of 100 delivering full professional projects",
-      "takeaway": "DeliverBench chains 150 subtasks across 11 projects such as due diligence and contract drafting.",
-      "soWhat": "Agents still need human checkpoints on multi-step professional work where errors compound.",
+      "id": "postman-auto-installs-agent-plugins",
+      "title": "Postman desktop quietly installed its plugins into Claude Code and Codex",
+      "takeaway": "A GitHub issue says Postman 12.33.4 added agent plugins and a startup hook, and its installer tries to trust that hook.",
+      "soWhat": "Any desktop app can now rewrite your coding agents' instructions, so audit agent configs on company machines.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-03T17:22:37Z",
+      "source": {
+        "name": "GitHub issue #14370",
+        "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50354960"
+        }
+      ],
+      "image": {
+        "src": "/img/postman-auto-installs-agent-plugins.jpg",
+        "alt": "Image from GitHub issue #14370"
+      }
+    },
+    {
+      "id": "cloudflare-zero-wire",
+      "title": "Cloudflare launches a free plain-language feed of critical vulnerabilities",
+      "takeaway": "Zero Wire cards say who should investigate, what to do, and include a prompt for your agent.",
+      "soWhat": "Point your security lead at it; it is free whether or not you use Cloudflare.",
       "lens": "practical",
       "momentum": "building",
       "importance": 6,
-      "publishedAt": "2026-11-02T16:37:40Z",
+      "publishedAt": "2026-11-03T14:05:03Z",
       "source": {
-        "name": "arXiv 2611.03412",
-        "url": "https://arxiv.org/abs/2611.03412"
+        "name": "Cloudflare blog",
+        "url": "https://blog.cloudflare.com/zero-wire"
       },
+      "related": [
+        {
+          "name": "@eastdakota on X",
+          "url": "https://x.com/eastdakota/status/2117749317150630207"
+        }
+      ],
       "image": {
-        "src": "/img/deliverbench-project-delivery.jpg",
-        "alt": "arXiv 2611.03412: Best AI agent scored 65 of 100 delivering full professional projects"
-      }
-    },
-    {
-      "id": "arcbench-rules-after-compaction",
-      "title": "Agents break rules after context compaction even when rules survive",
-      "takeaway": "Compacted runs that keep the rule violate it more than twice as often as full-history runs.",
-      "soWhat": "Long-running agents need rules enforced outside the conversation, not just written into it.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-02T14:45:36Z",
-      "source": {
-        "name": "arXiv 2611.03223",
-        "url": "https://arxiv.org/abs/2611.03223"
-      },
-      "image": {
-        "src": "/img/arcbench-rules-after-compaction.jpg",
-        "alt": "arXiv 2611.03223: Agents break rules after context compaction even when rules survive"
+        "src": "/img/cloudflare-zero-wire.jpg",
+        "alt": "Image from Cloudflare blog"
       }
     }
   ],
   "voices": [
     {
-      "handle": "@simonw",
-      "quote": "I expect a sufficiently experienced human being armed with a notepad and a pencil could get there with enough effort.",
-      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+      "handle": "@rauchg",
+      "quote": "you cannot just bank on your engineers having a skill installed, prompting \"please make secure\", or rolling the weights' dice",
+      "url": "https://x.com/rauchg/status/2117734833824948373"
     },
     {
-      "handle": "@mattpocockuk",
-      "quote": "Some folks wrote a paper about my /retro skill assessing its effectiveness",
-      "url": "https://x.com/mattpocockuk/status/2117588845864575397"
+      "handle": "Melanie Perkins, Canva",
+      "quote": "This is without doubt the hardest moment in our thirteen-year history.",
+      "url": "https://www.smh.com.au/technology/canva-unveils-mass-job-cuts-in-hardest-moment-of-its-history-20261104-p61b62.html"
     },
     {
-      "handle": "Chris Phillips, Google",
-      "quote": "Search and AI are deeply integrated",
-      "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features"
+      "handle": "@eastdakota",
+      "quote": "a very important resource for everyone managing any technology infrastructure to bookmark.",
+      "url": "https://x.com/eastdakota/status/2117749317150630207"
+    },
+    {
+      "handle": "@bcherny",
+      "quote": "Team and Enterprise admins can set them up, and teammates are connected automatically the first time they use the plugins.",
+      "url": "https://x.com/bcherny/status/2117693181651542387"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/mattpocockuk/status/2117588845864575397",
-      "handle": "@mattpocockuk",
-      "text": "Some folks wrote a paper about my /retro skill assessing its effectiveness",
-      "metric": "1.4k likes",
-      "note": "Builders want proof that agents tuning their own harness actually get better."
-    },
-    {
-      "url": "https://x.com/simonw/status/2117655816581071203",
-      "handle": "@simonw",
-      "text": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-      "metric": "863 likes",
-      "note": "A laptop reproduction tests a contested frontier-lab claim in public."
-    },
-    {
-      "url": "https://x.com/ClaudeDevs/status/2117670658113155075",
+      "url": "https://x.com/ClaudeDevs/status/2117680635561312732",
       "handle": "@ClaudeDevs",
-      "text": "October in Claude Code: mods, better side-by-side sessions in the desktop app, and clearer usage insight",
-      "metric": "574 likes",
-      "note": "Heavy Claude Code users track every change to sessions and usage limits."
+      "text": "Users can now auto-connect plugins when they log in to Claude, with MCP servers that accept Claude as a trusted issuer.",
+      "metric": "4k likes",
+      "note": "Teams want agent tools that work on day one without everyone re-authorizing."
     },
     {
-      "url": "https://x.com/ThePrimeagen/status/2117643533263712716",
-      "handle": "@ThePrimeagen",
-      "text": "Experimental agents walk through and test Omarchy from a simple role like 'You are the theme tester'",
-      "metric": "387 likes",
-      "note": "Developers are curious whether role-based agents can replace manual QA passes."
+      "url": "https://x.com/OpenAI/status/2117692475775258785",
+      "handle": "@OpenAI",
+      "text": "ChatGPT and Codex are helping engineers build for the physical world: mechanical, electrical and simulation work",
+      "metric": "4k likes",
+      "note": "People want to see coding agents move beyond software into hardware design."
     },
     {
-      "url": "https://x.com/cramforce/status/2117645359082315988",
-      "handle": "@cramforce",
-      "text": "Vercel is rolling out Device Bound Session Credentials so stolen session cookies cannot be reused remotely",
-      "metric": "213 likes",
-      "note": "Infostealer attacks on engineers make session theft a live worry for teams."
+      "url": "https://x.com/AnthropicAI/status/2117710942826123294",
+      "handle": "@AnthropicAI",
+      "text": "FlashProve: open-source proofs that a response came from a specific committed model",
+      "metric": "2.6k likes",
+      "note": "Verifying which model you are actually served has been a long-standing trust gap."
+    },
+    {
+      "url": "https://x.com/gregisenberg/status/2117734977312047537",
+      "handle": "@gregisenberg",
+      "text": "The full agent stack running product work at a 50+ person company, from idea intake to bug fixes",
+      "metric": "653 likes",
+      "note": "Builders crave concrete, named stacks over abstract agent advice."
+    },
+    {
+      "url": "https://x.com/rauchg/status/2117734833824948373",
+      "handle": "@rauchg",
+      "text": "Vercel Security Review: the internal security agent, now in public beta, works whether or not you host on Vercel",
+      "metric": "275 likes",
+      "note": "Security for agent-written code is a growing worry for engineering leaders."
     }
   ]
 }
