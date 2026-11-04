@@ -1,0 +1,451 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-04-1834",
+  "generatedAt": "2026-11-04T23:39:00Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-04T17:40:00Z",
+    "to": "2026-11-04T23:38:00Z"
+  },
+  "sourceNotes": [
+    "Window 17:40Z to 23:38Z Nov 4 (since the 12:35 run). 12 candidates (6 practical, 5 broad, 0 frontier-capital, 1 design). Post-election posts flooded the bigPicture lane; partisan items muted.",
+    "RSS: used OpenAI Blog (Pierre), MIT Tech Review (Texas data centers), The Verge (Images 2.6, as related). Simon Willison (datasette-llm alpha), Verge Qualcomm/Nothing/Musk items, Atlantic and Stratechery election pieces were off-lens or already covered. Lenny, Benedict Evans, Mollick, Gary Marcus, Hashimoto: nothing in the window.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returns HTTP 500 again; dead for many runs now.",
+    "Metaplanet Google News: one item (planned bitcoin purchases raised after bond redemption), a capital-markets move, not a view; not used.",
+    "Hacker News (minPoints 200, AI filter): IEEE PHP2Shell (1007), Gemini training (617), RTX Spark (577), Kimi K3.1 Pro (314) were already in the 12:35 file. Ripple-65B (189) and OpenAI/Pierre (151) included below threshold as lab releases. Anthropic provable inference (162) already covered on Nov 3. Tencent Hy4 (162) page returned no readable text; not used. Residential proxies on White House network (475), AMD vs Intel (432) off-lens.",
+    "arXiv: no new batch since the 06:33 run (latest submissions Nov 3); nothing new used.",
+    "X howTo lane: @ClaudeDevs, @NousResearch used; @swyx Ripple quote and @theo Conductor quote kept as related. @gregisenberg '8 kinds of businesses' video, @kunchenguid OSS-growth list, @LangChain meetups/demo, @kloss_xyz promo, @Ronycoder ad, @poteto and @GeoffreyHuntley jokes, @theo T3 Code throughput claim (3x, no data) not used.",
+    "X bigPicture lane: @OpenAI (cyber pipeline, Images 2.6), @AnthropicAI, @AravSrinivas Decisions API used. @beffjezos, @patrickc posts were election reactions (muted). @elonmusk posts were a one-word reply and a Grok Bot plug. @a16z buyout-returns and Casado clips not used.",
+    "X frontierCapital lane: @TaviCosta silver-miners call is a market tip (excluded by contract); @RayDalio principle-of-the-day and thin @nathanbenaich quotes not used (one Benaich line quoted as a fact on Ripple). Design lane: @MengTo had no posts in the window.",
+    "Non-lane sources used because a lane voice pointed to them: @markgurman (quoted by @steipete), @charlieholtz (quoted by @theo), @perplexitydevs (quoted by @AravSrinivas), @fr0gger_ (from the queries lane).",
+    "X queries lane: mostly small-account skill listicles and promos; only the malicious-repos report cleared quality.",
+    "Replies checked on @ClaudeDevs subagent post and @OpenAI cyber post: none cleared the reply filter (>=1000 followers and >=5 likes). authorBaseline not filled this run. X calls this run: 10."
+  ],
+  "candidates": [
+    {
+      "id": "claude-code-subagent-status-99pct-cheaper",
+      "lens": "practical",
+      "topic": "claude-code-usage-limits",
+      "summary": "Anthropic's Claude Code team says background subagents now use less of the usage limit: status-line updates every 30 seconds used to re-read the subagent's whole conversation, and are now written by Haiku 5.5 from short notes, cutting each update's cost by about 99%.",
+      "facts": [
+        "Post: 'A running subagent updates its status line every 30 seconds, and each update used to re-read its whole conversation.'",
+        "Post: 'Now Haiku 5.5 writes it from short notes instead, so each update costs about 99% less.'",
+        "Announced with a video; no changelog link in the post."
+      ],
+      "source": {
+        "name": "Claude Devs on X",
+        "url": "https://x.com/ClaudeDevs/status/2118063143167693011",
+        "type": "x",
+        "handle": "ClaudeDevs"
+      },
+      "publishedAt": "2026-11-04T19:29:39Z",
+      "metrics": {
+        "likes": 12103,
+        "reposts": 414,
+        "replies": 351,
+        "views": 622159,
+        "capturedAt": "2026-11-04T23:37:00Z"
+      },
+      "care": 5,
+      "proof": 4,
+      "imageHint": "https://x.com/ClaudeDevs/status/2118063143167693011",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "openai-autonomous-cyber-pipeline-948-linux-lpe",
+      "lens": "practical",
+      "topic": "ai-vulnerability-discovery",
+      "summary": "OpenAI says its security researchers built an autonomous pipeline that discovers, exploits and patches vulnerabilities; in a single run with an upcoming cyber model it validated and generated patches for 948 local privilege escalation vulnerabilities in the Linux kernel at a total API cost of $1.2 million.",
+      "facts": [
+        "948 local privilege escalation vulnerabilities in the Linux kernel validated and patched in a single run.",
+        "Total API cost stated: $1.2 million.",
+        "Uses an upcoming, unreleased cyber model.",
+        "Announced in an X post with an image; no technical write-up linked in the post, and the patches' upstream status is not stated."
+      ],
+      "source": {
+        "name": "OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2118119451401048497",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "related": [
+        {
+          "name": "IEEE Spectrum: AI is forcing us to pay off 40 years of technical debt (HN 1007)",
+          "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
+        }
+      ],
+      "publishedAt": "2026-11-04T23:13:24Z",
+      "metrics": {
+        "likes": 886,
+        "reposts": 94,
+        "replies": 100,
+        "views": 68379,
+        "capturedAt": "2026-11-04T23:37:00Z"
+      },
+      "care": 5,
+      "proof": 3,
+      "imageHint": "https://x.com/OpenAI/status/2118119451401048497",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "ripple-65b-open-weight-agentic-coding",
+      "lens": "practical",
+      "topic": "ripple-65b",
+      "summary": "Ricursive Intelligence released Ripple-65B Preview, a dense open-weight model it says scores 80.52 on TerminalBench 2.1, a new U.S. open-weight high for agentic coding, trained for a stated $32M full R&D cost and available on Hugging Face, Together AI, GMI Cloud and OpenRouter.",
+      "facts": [
+        "Pretrained on 12 trillion tokens; up to 1M context.",
+        "Self-reported TerminalBench 2.1: 80.52, vs Reflection Beam 501B (80.1), Meta Muse Spark Open 816B (76.4), Thinking Machines Inkling 975B (63.8), NVIDIA Nemotron 3 Ultra 550B (56.4).",
+        "$32M is described as full R&D cost from scratch, about one-tenth of the previous open-weight SOTA on agentic coding by the company's estimate.",
+        "Reached 80.5 with 1.4M RL rollouts, roughly 70x fewer than Reflection Beam per the company.",
+        "Says the dense 65B size runs efficiently on local devices such as NVIDIA DGX Spark.",
+        "Nathan Benaich on X: 'the whole “we’re sota for american open weight models” when you’re still worse than china is quite odd energy'.",
+        "Hacker News: 189 points."
+      ],
+      "source": {
+        "name": "Ricursive Intelligence",
+        "url": "https://www.ricursive.com/ripple",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "swyx on X",
+          "url": "https://x.com/swyx/status/2118073650356384239"
+        },
+        {
+          "name": "Nathan Benaich on X",
+          "url": "https://x.com/nathanbenaich/status/2118072213790244895"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50369925"
+        }
+      ],
+      "publishedAt": "2026-11-04T18:53:29Z",
+      "metrics": {
+        "points": 189
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://www.ricursive.com/ripple",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "malicious-agent-tool-repos-smartloader",
+      "lens": "practical",
+      "topic": "agent-supply-chain",
+      "summary": "A security researcher reports finding 73 GitHub repos posing as AI agent tools (Claude skills, Codex, MCP servers, OpenClaw) that deliver malware ZIP 'installers'; 51 were still live the morning of the post.",
+      "facts": [
+        "Payload: SmartLoader, a Lua loader that usually drops the StealC infostealer.",
+        "Post says the thread includes IOCs.",
+        "Single-researcher report on X (@SecurityBreakAI mentioned); not independently verified here."
+      ],
+      "source": {
+        "name": "@fr0gger_ on X",
+        "url": "https://x.com/fr0gger_/status/2118075954740547684",
+        "type": "x",
+        "handle": "fr0gger_"
+      },
+      "publishedAt": "2026-11-04T20:20:34Z",
+      "metrics": {
+        "likes": 37,
+        "reposts": 13,
+        "replies": 8,
+        "views": 1634,
+        "capturedAt": "2026-11-04T23:37:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://x.com/fr0gger_/status/2118075954740547684",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "hermes-agent-marketplace",
+      "lens": "practical",
+      "topic": "agent-plugin-marketplaces",
+      "summary": "Nous Research unified plugins, connectors and skills for Hermes Agent into one marketplace, and opened a 7-day Hermes Agent Plugin Hackathon with $20,000 in cash prizes.",
+      "facts": [
+        "Marketplace: hermes-agent.nousresearch.com/marketplace.",
+        "Hackathon runs 7 days with $20,000 in cash prizes.",
+        "Post: 'A plugin can change anything from the model Hermes runs on'."
+      ],
+      "source": {
+        "name": "Nous Research on X",
+        "url": "https://x.com/NousResearch/status/2118058453415371119",
+        "type": "x",
+        "handle": "NousResearch"
+      },
+      "related": [
+        {
+          "name": "Hermes Marketplace",
+          "url": "https://hermes-agent.nousresearch.com/marketplace"
+        },
+        {
+          "name": "Hackathon post",
+          "url": "https://x.com/NousResearch/status/2118094256438936062"
+        }
+      ],
+      "publishedAt": "2026-11-04T19:11:01Z",
+      "metrics": {
+        "likes": 728,
+        "reposts": 53,
+        "replies": 56,
+        "views": 55895,
+        "capturedAt": "2026-11-04T23:37:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/NousResearch/status/2118058453415371119",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "perplexity-decisions-api-web-grounding",
+      "lens": "practical",
+      "topic": "perplexity-decisions-api",
+      "summary": "Perplexity added web grounding to its Decisions API: setting \"mode\": \"web_grounding\" runs one Fast Search query per question so the pplx-decider-v1.2 model answers from the current web, for batch-mode decisions.",
+      "facts": [
+        "Aravind Srinivas: search costs $0.001 per request and the Decisions API costs $0.02 per 1M input tokens.",
+        "Perplexity Developers: a decision model returns a probability but otherwise only knows its training data and your state."
+      ],
+      "source": {
+        "name": "Aravind Srinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2118093720243560711",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "related": [
+        {
+          "name": "Perplexity Developers on X",
+          "url": "https://x.com/perplexitydevs/status/2118086413854150890"
+        }
+      ],
+      "publishedAt": "2026-11-04T21:31:09Z",
+      "metrics": {
+        "likes": 76,
+        "reposts": 3,
+        "replies": 37,
+        "views": 7145,
+        "capturedAt": "2026-11-04T23:37:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/perplexitydevs/status/2118086413854150890",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "apple-cuts-employee-ai-budgets",
+      "lens": "broad",
+      "topic": "enterprise-ai-spend-limits",
+      "summary": "Bloomberg's Mark Gurman reports Apple is cutting employee AI spending budgets while pushing staff to use AI more: engineers' daily limits went from $300 to $200, with $100 planned, and some teams could fall to $25.",
+      "facts": [
+        "MacRumors, citing Bloomberg: many non-engineering groups already have a $100 daily limit.",
+        "Apple is asking some teams to use cheaper models or on-device AI; employees can ask executives for more budget.",
+        "Apple lets employees use Claude, ChatGPT, Gemini and other models.",
+        "Some employees told Bloomberg few used their full $300 daily limit, so savings may be small.",
+        "Peter Steinberger quoting the report: 'Do individual limits still make sense?'"
+      ],
+      "source": {
+        "name": "Mark Gurman on X",
+        "url": "https://x.com/markgurman/status/2118068667103453360",
+        "type": "x",
+        "handle": "markgurman"
+      },
+      "related": [
+        {
+          "name": "MacRumors summary",
+          "url": "https://www.macrumors.com/2026/11/04/apple-reducing-employee-ai-spending/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/apple-cuts-internal-ai-usage-budgets-in-move-to-reduce-spending"
+        },
+        {
+          "name": "steipete on X",
+          "url": "https://x.com/steipete/status/2118116514700386439"
+        }
+      ],
+      "publishedAt": "2026-11-04T19:51:36Z",
+      "metrics": {
+        "likes": 1851,
+        "reposts": 115,
+        "replies": 142,
+        "views": 313856,
+        "capturedAt": "2026-11-04T23:37:00Z"
+      },
+      "care": 5,
+      "proof": 4,
+      "imageHint": "https://x.com/markgurman/status/2118068667103453360",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "conductor-joins-meta-msl",
+      "lens": "broad",
+      "topic": "coding-agent-acquihires",
+      "summary": "Charlie Holtz announced that Conductor, a coding-agent app, is joining Meta to work with Nat Friedman and Alexandr Wang at Meta Superintelligence Labs on 'the next interface'.",
+      "facts": [
+        "Holtz: 'I’m convinced MSL has the highest talent density of all the labs.'",
+        "Theo (T3 Code): 'T3 Code’s best competitor just joined Meta'.",
+        "Deal terms not disclosed."
+      ],
+      "source": {
+        "name": "Charlie Holtz on X",
+        "url": "https://x.com/charlieholtz/status/2118045232218743264",
+        "type": "x",
+        "handle": "charlieholtz"
+      },
+      "related": [
+        {
+          "name": "Theo on X",
+          "url": "https://x.com/theo/status/2118069196638834708"
+        }
+      ],
+      "publishedAt": "2026-11-04T18:18:29Z",
+      "metrics": {
+        "likes": 3295,
+        "reposts": 110,
+        "replies": 596,
+        "views": 321538,
+        "capturedAt": "2026-11-04T23:37:00Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://x.com/charlieholtz/status/2118045232218743264",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "openai-to-acquire-pierre",
+      "lens": "broad",
+      "topic": "coding-agent-acquihires",
+      "summary": "OpenAI will acquire Pierre Computer Company, maker of Code Storage and the Trees and Diffs libraries already used in the Codex app, to build Git and code-review workflows for teams working with coding agents.",
+      "facts": [
+        "Pierre's open-source projects stay open source; Code Storage customers can keep using it while features move into Codex.",
+        "OpenAI links it to Pando, its in-house source control backend for engineers and agents, shared earlier this week.",
+        "Closing is subject to regulatory approvals.",
+        "Hacker News: 151 points."
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/openai-to-acquire-pierre/",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50366863"
+        }
+      ],
+      "publishedAt": "2026-11-04T14:30:00Z",
+      "metrics": {
+        "points": 151
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://openai.com/index/openai-to-acquire-pierre/",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "anthropic-claude-vault-particles",
+      "lens": "broad",
+      "topic": "ai-for-science",
+      "summary": "Anthropic's biology lab used Claude to help map the first 3D structure of a vault particle found in prokaryotic cells, a large protein shell of unknown function first discovered in 1986; a preprint has been submitted to bioRxiv.",
+      "facts": [
+        "Claude helped search sequence literature, optimize particle isolation, and map the structure.",
+        "Anthropic: manual structure determination would have taken weeks to months; here it took days.",
+        "Anthropic says Claude made some simple mistakes that its ML researchers helped address.",
+        "Function of vaults remains unknown."
+      ],
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI/status/2118073665296228863"
+        }
+      ],
+      "publishedAt": "2026-11-04T20:11:28Z",
+      "metrics": {
+        "likes": 2407,
+        "reposts": 246,
+        "replies": 253,
+        "views": 192332,
+        "capturedAt": "2026-11-04T23:37:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/AnthropicAI/status/2118073665296228863",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "texas-data-center-buildout-at-risk",
+      "lens": "broad",
+      "topic": "data-centers-midterms",
+      "summary": "MIT Technology Review reports that Texas, the fastest-growing US data center market, may slow AI buildouts after the election, as the governor-elect pushed for a data center moratorium during the campaign.",
+      "facts": [
+        "On September 21 the outgoing governor directed a state regulator to halt data center permits.",
+        "Stargate Frontier in Shackelford County is projected at 1,820 MW.",
+        "Nexus Hubbard, intended mostly to serve Anthropic, has a planned size of 6,400 MW.",
+        "Industry panelists at DCD in Ashburn expected existing projects to slow and new ones to be halted."
+      ],
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+        "type": "rss"
+      },
+      "related": [
+        {
+          "name": "Stratechery: AI on the Ballot",
+          "url": "https://stratechery.com/2026/ai-on-the-ballot/"
+        },
+        {
+          "name": "The Atlantic: Silicon Valley’s Very Bad Night",
+          "url": "https://www.theatlantic.com/technology/2026/11/americans-really-dont-like-data-centers-elections/689284/"
+        }
+      ],
+      "publishedAt": "2026-11-04T18:50:55Z",
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "chatgpt-images-2-6-gifs",
+      "lens": "design",
+      "topic": "chatgpt-images-2-6",
+      "summary": "OpenAI introduced ChatGPT Images 2.6 with animated GIFs and reference images, and said two new image models are coming to the API with 50% faster image generation.",
+      "facts": [
+        "Features: GIFs and reference images.",
+        "Two new API models, 50% faster image generation (per OpenAI).",
+        "The Verge covered the GIF feature the same day."
+      ],
+      "source": {
+        "name": "OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2118124944928432327",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "related": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6"
+        }
+      ],
+      "publishedAt": "2026-11-04T23:35:14Z",
+      "metrics": {
+        "likes": 216,
+        "reposts": 40,
+        "replies": 15,
+        "views": 18148,
+        "capturedAt": "2026-11-04T23:37:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/OpenAI/status/2118124944928432327",
+      "firstSeen": "2026-11-04"
+    }
+  ]
+}
