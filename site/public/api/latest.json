@@ -1,448 +1,396 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-03-1900",
-  "date": "2026-11-03",
-  "publishedAt": "2026-11-04T00:09:00Z",
-  "edition": "Evening",
+  "id": "2026-11-04-0700",
+  "date": "2026-11-04",
+  "publishedAt": "2026-11-04T12:15:00Z",
+  "edition": "Morning",
   "top3": [
     {
-      "itemId": "postman-auto-installs-agent-plugins",
-      "headline": "Postman desktop quietly installed its plugins into Claude Code and Codex",
-      "whyItMatters": "Any desktop app can now rewrite your coding agents' instructions, so audit agent configs on company machines."
+      "itemId": "stratechery-data-centers-on-ballot",
+      "headline": "Data centers lost at the ballot box in the US midterms",
+      "whyItMatters": "If US opposition to building lasts, AI compute plans face delays and higher costs."
     },
     {
-      "itemId": "claude-plugins-auto-connect",
-      "headline": "Claude plugins now connect automatically when teammates log in",
-      "whyItMatters": "Rolling out agent tools to a whole team now takes one admin setup instead of per-user logins."
+      "itemId": "claude-code-2-1-317-fail-closed-hooks",
+      "headline": "Claude Code lets failed safety hooks block agent actions",
+      "whyItMatters": "Agent guardrails can now fail closed, so a broken check stops the action instead of allowing it."
     },
     {
-      "itemId": "anthropic-flashprove-provable-inference",
-      "headline": "Anthropic open-sources a way to prove which model answered you",
-      "whyItMatters": "Buyers may soon be able to verify a vendor isn't quietly swapping in a cheaper model."
+      "itemId": "agent-leaderboard-grader-errors",
+      "headline": "Grading errors silently reorder popular AI agent leaderboards",
+      "whyItMatters": "Leaderboard ranks can be wrong by double digits, so test agents on your own work."
     }
   ],
   "items": [
     {
-      "id": "kunchenguid-runner-up-self-hosted-ci",
-      "title": "A developer open-sources his setup for running CI on his own machines",
-      "takeaway": "Kun Chen says cloud runners would cost him $5,000-$9,000 a month; figures are self-reported.",
-      "soWhat": "Agent-heavy teams run far more CI, so price owned hardware against cloud bills.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-11-03T23:11:03Z",
+      "id": "stratechery-data-centers-on-ballot",
+      "title": "Data centers lost at the ballot box in the US midterms",
+      "takeaway": "Thompson: anti-data-center ads ran in Wisconsin; Texas governor-elect pledged a construction moratorium.",
+      "soWhat": "Texas holds over a quarter of planned US capacity, so build-out timelines face real political risk.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 8,
+      "publishedAt": "2026-11-04T11:00:00Z",
       "source": {
-        "name": "runner-up on GitHub",
-        "url": "https://github.com/kunchenguid/runner-up"
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/ai-on-the-ballot/"
       },
       "related": [
         {
-          "name": "@kunchenguid on X",
-          "url": "https://x.com/kunchenguid/status/2117756472432148784"
+          "name": "@stratechery on X",
+          "url": "https://x.com/stratechery/status/2117934887336612160"
+        },
+        {
+          "name": "@elonmusk on X",
+          "url": "https://x.com/elonmusk/status/2117862462976594112"
         }
       ],
       "image": {
-        "src": "/img/kunchenguid-runner-up-self-hosted-ci.jpg",
-        "alt": "Image from runner-up on GitHub"
+        "src": "/img/stratechery-data-centers-on-ballot.jpg",
+        "alt": "Image from Stratechery"
+      }
+    },
+    {
+      "id": "chatgpt-recommends-t3-code-scam-clone",
+      "title": "ChatGPT keeps pointing users to a scam clone of T3 Code",
+      "takeaway": "A user asked for the T3 Code download and got t33.codes; founder Theo says it happens constantly.",
+      "soWhat": "AI answers can send staff to fake download sites, so verify domains before installing tools.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-04T06:00:09Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2117859423641272589"
+      },
+      "related": [
+        {
+          "name": "@doriandeacu original report",
+          "url": "https://x.com/doriandeacu/status/2117698026089185753"
+        }
+      ],
+      "image": {
+        "src": "/img/chatgpt-recommends-t3-code-scam-clone.jpg",
+        "alt": "Image from @theo on X"
+      },
+      "heat": {
+        "score": 17,
+        "level": "none",
+        "metric": "60k views"
+      }
+    },
+    {
+      "id": "claude-code-game-rule-updated",
+      "title": "Claude Code loosens its rule against recreating existing games",
+      "takeaway": "Naming a game to describe mechanics now yields an original game in that genre, per Addy Osmani.",
+      "soWhat": "Vendors are tuning hidden prompt rules on the fly, which can change what your agents will build.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-04T05:17:01Z",
+      "source": {
+        "name": "@addyosmani on X",
+        "url": "https://x.com/addyosmani/status/2117848568535106001"
+      },
+      "related": [
+        {
+          "name": "@theo quote post",
+          "url": "https://x.com/theo/status/2117866501420237075"
+        }
+      ],
+      "image": {
+        "src": "/img/claude-code-game-rule-updated.jpg",
+        "alt": "Profile image of @addyosmani"
+      },
+      "heat": {
+        "score": 17,
+        "level": "none",
+        "metric": "146k views"
+      }
+    },
+    {
+      "id": "tavi-costa-copper-supply",
+      "title": "Tavi Costa sees opportunity as top copper miners' output falls 16%",
+      "takeaway": "He says the largest miners face their lowest annual production in nearly 15 years; chart source not named.",
+      "soWhat": "Power and data center build-outs need copper, so supply limits could raise infrastructure costs.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 3,
+      "publishedAt": "2026-11-04T03:56:58Z",
+      "source": {
+        "name": "@TaviCosta on X",
+        "url": "https://x.com/TaviCosta/status/2117828426627461305"
+      },
+      "image": {
+        "src": "/img/tavi-costa-copper-supply.jpg",
+        "alt": "Image from @TaviCosta on X"
+      },
+      "heat": {
+        "score": 10,
+        "level": "none",
+        "metric": "20k views"
+      }
+    },
+    {
+      "id": "altman-people-control-future",
+      "title": "Altman says the need for human control should constrain AI progress",
+      "takeaway": "OpenAI's CEO says people should not cede control of the future to superintelligence.",
+      "soWhat": "Watch whether OpenAI's products and policy asks match this stated limit on its own progress.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-04T01:40:12Z",
+      "source": {
+        "name": "@sama on X",
+        "url": "https://x.com/sama/status/2117794005165748448"
+      },
+      "image": {
+        "src": "/img/altman-people-control-future.jpg",
+        "alt": "Profile image of @sama"
+      },
+      "heat": {
+        "score": 36,
+        "level": "none",
+        "metric": "5.5M views"
+      }
+    },
+    {
+      "id": "mengto-geist-anti-slop-font",
+      "title": "Meng To calls Vercel's Geist the anti-slop font",
+      "takeaway": "He points to vercel.com/font and Vercel's Oct 30 launch of Geist Serif.",
+      "soWhat": "A distinct, well-made typeface is a cheap way to keep AI-built interfaces from looking generic.",
+      "lens": "design",
+      "momentum": "new",
+      "importance": 2,
+      "publishedAt": "2026-11-04T01:20:37Z",
+      "source": {
+        "name": "Geist font (Vercel)",
+        "url": "https://vercel.com/font"
+      },
+      "related": [
+        {
+          "name": "@MengTo on X",
+          "url": "https://x.com/MengTo/status/2117789077709922728"
+        },
+        {
+          "name": "@vercel Geist Serif post",
+          "url": "https://x.com/vercel/status/2116191290216124567"
+        }
+      ],
+      "image": {
+        "src": "/img/mengto-geist-anti-slop-font.jpg",
+        "alt": "Image from Geist font (Vercel)"
       },
       "heat": {
         "score": 0,
         "level": "none",
-        "metric": "1k views"
+        "metric": "7k views"
       }
     },
     {
-      "id": "isenberg-agent-run-company-stack",
-      "title": "Greg Isenberg shares the agent stack running product work at his company",
-      "takeaway": "Parallel agents in git worktrees, persona testing, Sentry-triggered fix PRs; self-reported, no output metrics.",
-      "soWhat": "A useful blueprint to compare against, but ask for results before copying it.",
-      "lens": "practical",
+      "id": "cloudflare-athenian-election-newsrooms",
+      "title": "Cloudflare embedded security engineers in US newsrooms on election night",
+      "takeaway": "Matthew Prince says the Athenian Project helped critical news outlets report results without cyber disruption.",
+      "soWhat": "High-stakes nights now get on-site security support, a model for any critical launch or event.",
+      "lens": "broad",
       "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-03T21:45:38Z",
+      "importance": 3,
+      "publishedAt": "2026-11-04T00:11:00Z",
       "source": {
-        "name": "@gregisenberg on X",
-        "url": "https://x.com/gregisenberg/status/2117734977312047537"
+        "name": "@eastdakota on X",
+        "url": "https://x.com/eastdakota/status/2117771796019659118"
       },
       "image": {
-        "src": "/img/isenberg-agent-run-company-stack.jpg",
-        "alt": "Profile image of @gregisenberg"
+        "src": "/img/cloudflare-athenian-election-newsrooms.jpg",
+        "alt": "Image from @eastdakota on X"
       },
       "heat": {
-        "score": 15,
+        "score": 1,
         "level": "none",
-        "metric": "47k views"
+        "metric": "109 likes"
       }
     },
     {
-      "id": "vercel-security-review-beta",
-      "title": "Vercel's security agent now reviews every code push in seconds",
-      "takeaway": "Security Review scans each push's diff, flags issues like exposed secrets, and works even off Vercel hosting.",
-      "soWhat": "As agents write more code, security checks need to run on every change, not on request.",
+      "id": "claude-code-2-1-318",
+      "title": "Claude Code 2.1.318 warns before stored sign-ins expire",
+      "takeaway": "Also lets side jobs run at low effort and fixes compaction and resumed-workflow bugs.",
+      "soWhat": "Unattended agent jobs fail quietly when logins lapse, so this early warning saves broken runs.",
       "lens": "practical",
       "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-03T21:45:04Z",
+      "importance": 4,
+      "publishedAt": "2026-11-04T00:00:44Z",
       "source": {
-        "name": "Vercel blog",
-        "url": "https://vercel.com/blog/vercel-security-review"
+        "name": "Claude Code changelog",
+        "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
+      },
+      "image": {
+        "src": "/img/claude-code-2-1-318.jpg",
+        "alt": "Image from Claude Code changelog"
+      }
+    },
+    {
+      "id": "vercel-doctor-cli",
+      "title": "Vercel ships a doctor command so agents can fix CLI setup",
+      "takeaway": "vercel doctor lists fix commands, needs no login, never prompts, and outputs JSON.",
+      "soWhat": "Tools built for agents to self-repair cut support load, so ask vendors for the same.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-03T21:06:11Z",
+      "source": {
+        "name": "Vercel changelog",
+        "url": "https://vercel.com/changelog/vercel-cli-now-diagnoses-setup-problems-with-vercel-doctor"
       },
       "related": [
         {
           "name": "@rauchg on X",
-          "url": "https://x.com/rauchg/status/2117734833824948373"
+          "url": "https://x.com/rauchg/status/2117802827519250568"
         },
         {
-          "name": "@vercel launch post",
-          "url": "https://x.com/vercel/status/2117726156992753721"
+          "name": "@vercel_dev on X",
+          "url": "https://x.com/vercel_dev/status/2117725049713308146"
         }
       ],
       "image": {
-        "src": "/img/vercel-security-review-beta.jpg",
-        "alt": "Image from Vercel blog"
+        "src": "/img/vercel-doctor-cli.jpg",
+        "alt": "Image from Vercel changelog"
       },
       "heat": {
-        "score": 9,
+        "score": 7,
         "level": "none",
-        "metric": "23k views"
+        "metric": "17k views"
       }
     },
     {
-      "id": "perplexity-computer-agent-plugins",
-      "title": "Perplexity's Computer agent adds plugins that bundle apps and skills",
-      "takeaway": "Browse a directory or import plugins from GitHub or a .zip; Perplexity says they work across agents.",
-      "soWhat": "Plugins are becoming the shared unit for agent tools, so expect your vendors to ship them.",
+      "id": "latenttriad-malicious-skill-detection",
+      "title": "Researchers screen agent skills for malware by reading model hidden states",
+      "takeaway": "LatentTriad reports 99% F1 across 5,830 skill packages without running any skill code.",
+      "soWhat": "Skill marketplaces are an attack surface, and cheap pre-install scanning is becoming feasible.",
       "lens": "practical",
       "momentum": "building",
       "importance": 5,
-      "publishedAt": "2026-11-03T21:08:04Z",
+      "publishedAt": "2026-11-03T15:46:00Z",
       "source": {
-        "name": "Perplexity plugins",
-        "url": "https://perplexity.ai/computer/plugins"
+        "name": "arXiv 2611.05088",
+        "url": "https://arxiv.org/abs/2611.05088"
       },
-      "related": [
-        {
-          "name": "@AravSrinivas on X",
-          "url": "https://x.com/AravSrinivas/status/2117725519982784940"
-        }
-      ],
       "image": {
-        "src": "/img/perplexity-computer-agent-plugins.jpg",
-        "alt": "Image from Perplexity plugins"
-      },
-      "heat": {
-        "score": 11,
-        "level": "none",
-        "metric": "10k views",
-        "voices": 2
+        "src": "/img/latenttriad-malicious-skill-detection.jpg",
+        "alt": "arXiv 2611.05088: Researchers screen agent skills for malware by reading model hidden states"
       }
     },
     {
-      "id": "canva-cuts-22-percent",
-      "title": "Canva cuts or relocates 22% of staff as growth slows",
-      "takeaway": "1,271 roles affected; product, growth and platform teams merge and management layers are cut.",
-      "soWhat": "Even AI-era design leaders are rebuilding around small teams, so expect peers to follow.",
-      "lens": "broad",
+      "id": "agent-leaderboard-grader-errors",
+      "title": "Grading errors silently reorder popular AI agent leaderboards",
+      "takeaway": "An audit of HAL and tau2-bench found ungraded episodes stored as failures; maintainers confirmed three errors.",
+      "soWhat": "Don't pick an agent vendor on leaderboard rank alone; ask how results were graded.",
+      "lens": "practical",
       "momentum": "new",
       "importance": 7,
-      "publishedAt": "2026-11-03T20:51:00Z",
+      "publishedAt": "2026-11-03T06:34:00Z",
       "source": {
-        "name": "Sydney Morning Herald",
-        "url": "https://www.smh.com.au/technology/canva-unveils-mass-job-cuts-in-hardest-moment-of-its-history-20261104-p61b62.html"
+        "name": "arXiv 2611.04399",
+        "url": "https://arxiv.org/abs/2611.04399"
       },
-      "related": [
-        {
-          "name": "@GeoffreyHuntley on X",
-          "url": "https://x.com/GeoffreyHuntley/status/2117726241528955264"
-        }
-      ],
       "image": {
-        "src": "/img/canva-cuts-22-percent.jpg",
-        "alt": "Image from Sydney Morning Herald"
+        "src": "/img/agent-leaderboard-grader-errors.jpg",
+        "alt": "arXiv 2611.04399: Grading errors silently reorder popular AI agent leaderboards"
       }
     },
     {
-      "id": "semianalysis-spacex-13gw-ai-cloud",
-      "title": "SemiAnalysis says SpaceX targets about 13GW of AI datacenters by 2027",
-      "takeaway": "3.6GW is under construction; SemiAnalysis compares 13GW to all Google datacenter capacity built 1999-2026.",
-      "soWhat": "Compute supply is concentrating in a few builders, which shapes who sets AI prices.",
-      "lens": "broad",
+      "id": "voluntary-servitude-agent-attack",
+      "title": "Fake hazard warnings steer agents past injection filters",
+      "takeaway": "A fabricated review steered agents 60% of the time; requiring corroboration cut exposure about 95%.",
+      "soWhat": "Tell agents to corroborate warnings before acting, since detectors miss this attack.",
+      "lens": "practical",
       "momentum": "building",
       "importance": 6,
-      "publishedAt": "2026-11-03T20:44:53Z",
+      "publishedAt": "2026-11-03T06:26:00Z",
       "source": {
-        "name": "SemiAnalysis",
-        "url": "https://newsletter.semianalysis.com/p/elon-is-doing-it-again-spacex-will"
+        "name": "arXiv 2611.04393",
+        "url": "https://arxiv.org/abs/2611.04393"
       },
-      "related": [
-        {
-          "name": "@SemiAnalysis_ on X",
-          "url": "https://x.com/SemiAnalysis_/status/2117720668145852429"
-        }
-      ],
       "image": {
-        "src": "/img/semianalysis-spacex-13gw-ai-cloud.jpg",
-        "alt": "Image from SemiAnalysis"
+        "src": "/img/voluntary-servitude-agent-attack.jpg",
+        "alt": "arXiv 2611.04393: Fake hazard warnings steer agents past injection filters"
       }
     },
     {
-      "id": "vercel-ai-cli",
-      "title": "Vercel's ai-cli lets any coding agent generate images, video and audio",
-      "takeaway": "One CLI routes to any model through AI Gateway, with cost and zero-data-retention controls.",
-      "soWhat": "Teams can add media generation to agent workflows without wiring each model separately.",
+      "id": "claude-code-2-1-317-fail-closed-hooks",
+      "title": "Claude Code lets failed safety hooks block agent actions",
+      "takeaway": "2.1.317 adds onFailure block for Agent SDK hooks and asks before tools send the account email out.",
+      "soWhat": "Guardrails that fail open are not guardrails, so switch critical hooks to block.",
       "lens": "practical",
-      "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-11-03T20:44:50Z",
-      "source": {
-        "name": "@rauchg on X",
-        "url": "https://x.com/rauchg/status/2117719672951095772"
-      },
-      "related": [
-        {
-          "name": "@ctatedev on X",
-          "url": "https://x.com/ctatedev/status/2117686362329473293"
-        }
-      ],
-      "image": {
-        "src": "/img/vercel-ai-cli.jpg",
-        "alt": "Image from @rauchg on X"
-      },
-      "heat": {
-        "score": 9,
-        "level": "none",
-        "metric": "19k views"
-      }
-    },
-    {
-      "id": "apple-siri-ai-third-party-apps",
-      "title": "Apple opens Siri's AI to act inside any third-party app",
-      "takeaway": "iOS 27.3 developer preview adds on-screen awareness in apps and 'app skills' that chain tasks.",
-      "soWhat": "If your company has an iPhone app, Siri may soon be a front door to it.",
-      "lens": "broad",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 7,
-      "publishedAt": "2026-11-03T20:16:00Z",
+      "publishedAt": "2026-11-03T01:25:28Z",
       "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps"
+        "name": "Claude Code changelog",
+        "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md"
       },
       "image": {
-        "src": "/img/apple-siri-ai-third-party-apps.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
-      "id": "anthropic-flashprove-provable-inference",
-      "title": "Anthropic open-sources a way to prove which model answered you",
-      "takeaway": "FlashProve proofs show a response came from a committed model, at roughly 70-95x the GPU time of serving it.",
-      "soWhat": "Buyers may soon be able to verify a vendor isn't quietly swapping in a cheaper model.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-11-03T20:10:08Z",
-      "source": {
-        "name": "Anthropic research",
-        "url": "https://www.anthropic.com/research/provable-inference"
-      },
-      "related": [
-        {
-          "name": "@AnthropicAI on X",
-          "url": "https://x.com/AnthropicAI/status/2117710942826123294"
-        },
-        {
-          "name": "anthropics/FlashProve on GitHub",
-          "url": "https://github.com/anthropics/FlashProve"
-        }
-      ],
-      "image": {
-        "src": "/img/anthropic-flashprove-provable-inference.jpg",
-        "alt": "Image from Anthropic research"
-      },
-      "heat": {
-        "score": 24,
-        "level": "none",
-        "metric": "180k views"
-      }
-    },
-    {
-      "id": "nikkei-hidden-ai-debt-3-2t",
-      "title": "Big Tech's off-balance-sheet AI commitments near $3.2 trillion",
-      "takeaway": "Nikkei Asia says they rose about 90% in six months, reaching 80% of assets at Google, Meta and others.",
-      "soWhat": "AI spending carries long obligations, so watch for pullbacks that hit your vendors' pricing.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-03T20:02:00Z",
-      "source": {
-        "name": "Nikkei Asia",
-        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months"
-      },
-      "related": [
-        {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50358422"
-        }
-      ],
-      "image": {
-        "src": "/img/nikkei-hidden-ai-debt-3-2t.jpg",
-        "alt": "Image from Nikkei Asia"
-      }
-    },
-    {
-      "id": "chatgpt-search-fifth-of-google",
-      "title": "OpenAI says ChatGPT search volume now equals 20% of Google's",
-      "takeaway": "Counts any query that triggers a web search; OpenAI gave no source for the Google figure.",
-      "soWhat": "If customers search inside ChatGPT, check how your brand shows up in its answers.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-03T18:30:00Z",
-      "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search"
-      },
-      "image": {
-        "src": "/img/chatgpt-search-fifth-of-google.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
-      "id": "claude-plugins-auto-connect",
-      "title": "Claude plugins now connect automatically when teammates log in",
-      "takeaway": "Team and Enterprise admins set plugins up once; MCP servers that trust Claude skip re-authorization.",
-      "soWhat": "Rolling out agent tools to a whole team now takes one admin setup instead of per-user logins.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 9,
-      "publishedAt": "2026-11-03T18:09:42Z",
-      "source": {
-        "name": "@ClaudeDevs on X",
-        "url": "https://x.com/ClaudeDevs/status/2117680635561312732"
-      },
-      "related": [
-        {
-          "name": "@bcherny on X",
-          "url": "https://x.com/bcherny/status/2117693181651542387"
-        }
-      ],
-      "image": {
-        "src": "/img/claude-plugins-auto-connect.jpg",
-        "alt": "Profile image of @ClaudeDevs"
-      },
-      "heat": {
-        "score": 37,
-        "level": "none",
-        "metric": "364k views",
-        "voices": 2
-      }
-    },
-    {
-      "id": "postman-auto-installs-agent-plugins",
-      "title": "Postman desktop quietly installed its plugins into Claude Code and Codex",
-      "takeaway": "A GitHub issue says Postman 12.33.4 added agent plugins and a startup hook, and its installer tries to trust that hook.",
-      "soWhat": "Any desktop app can now rewrite your coding agents' instructions, so audit agent configs on company machines.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 9,
-      "publishedAt": "2026-11-03T17:22:37Z",
-      "source": {
-        "name": "GitHub issue #14370",
-        "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
-      },
-      "related": [
-        {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50354960"
-        }
-      ],
-      "image": {
-        "src": "/img/postman-auto-installs-agent-plugins.jpg",
-        "alt": "Image from GitHub issue #14370"
-      }
-    },
-    {
-      "id": "cloudflare-zero-wire",
-      "title": "Cloudflare launches a free plain-language feed of critical vulnerabilities",
-      "takeaway": "Zero Wire cards say who should investigate, what to do, and include a prompt for your agent.",
-      "soWhat": "Point your security lead at it; it is free whether or not you use Cloudflare.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-03T14:05:03Z",
-      "source": {
-        "name": "Cloudflare blog",
-        "url": "https://blog.cloudflare.com/zero-wire"
-      },
-      "related": [
-        {
-          "name": "@eastdakota on X",
-          "url": "https://x.com/eastdakota/status/2117749317150630207"
-        }
-      ],
-      "image": {
-        "src": "/img/cloudflare-zero-wire.jpg",
-        "alt": "Image from Cloudflare blog"
+        "src": "/img/claude-code-2-1-317-fail-closed-hooks.jpg",
+        "alt": "Image from Claude Code changelog"
       }
     }
   ],
   "voices": [
     {
+      "handle": "@stratechery",
+      "quote": "what does it mean if American opposition to building is permanent?",
+      "url": "https://x.com/stratechery/status/2117934887336612160"
+    },
+    {
+      "handle": "@sama",
+      "quote": "People should not cede control of the future to superintelligence, and that requirement should ultimately constrain AI progress.",
+      "url": "https://x.com/sama/status/2117794005165748448"
+    },
+    {
+      "handle": "@theo",
+      "quote": "their fake T3 Code scam clone gets recommended by ChatGPT constantly.",
+      "url": "https://x.com/theo/status/2117859423641272589"
+    },
+    {
       "handle": "@rauchg",
-      "quote": "you cannot just bank on your engineers having a skill installed, prompting \"please make secure\", or rolling the weights' dice",
-      "url": "https://x.com/rauchg/status/2117734833824948373"
-    },
-    {
-      "handle": "Melanie Perkins, Canva",
-      "quote": "This is without doubt the hardest moment in our thirteen-year history.",
-      "url": "https://www.smh.com.au/technology/canva-unveils-mass-job-cuts-in-hardest-moment-of-its-history-20261104-p61b62.html"
-    },
-    {
-      "handle": "@eastdakota",
-      "quote": "a very important resource for everyone managing any technology infrastructure to bookmark.",
-      "url": "https://x.com/eastdakota/status/2117749317150630207"
-    },
-    {
-      "handle": "@bcherny",
-      "quote": "Team and Enterprise admins can set them up, and teammates are connected automatically the first time they use the plugins.",
-      "url": "https://x.com/bcherny/status/2117693181651542387"
+      "quote": "recommend you ship doctor subcommands in your CLIs!",
+      "url": "https://x.com/rauchg/status/2117802827519250568"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/ClaudeDevs/status/2117680635561312732",
-      "handle": "@ClaudeDevs",
-      "text": "Users can now auto-connect plugins when they log in to Claude, with MCP servers that accept Claude as a trusted issuer.",
-      "metric": "4k likes",
-      "note": "Teams want agent tools that work on day one without everyone re-authorizing."
+      "url": "https://x.com/elonmusk/status/2117862462976594112",
+      "handle": "@elonmusk",
+      "text": "Data centers in space looking pretty appealing right now",
+      "metric": "99k likes",
+      "note": "Data center opposition was on the midterm ballot, and builders are feeling it."
     },
     {
-      "url": "https://x.com/OpenAI/status/2117692475775258785",
-      "handle": "@OpenAI",
-      "text": "ChatGPT and Codex are helping engineers build for the physical world: mechanical, electrical and simulation work",
-      "metric": "4k likes",
-      "note": "People want to see coding agents move beyond software into hardware design."
+      "url": "https://x.com/sama/status/2117794005165748448",
+      "handle": "@sama",
+      "text": "People should not cede control of the future to superintelligence, and that should ultimately constrain AI progress.",
+      "metric": "14k likes",
+      "note": "A frontier lab CEO saying progress should be constrained invites scrutiny."
     },
     {
-      "url": "https://x.com/AnthropicAI/status/2117710942826123294",
-      "handle": "@AnthropicAI",
-      "text": "FlashProve: open-source proofs that a response came from a specific committed model",
-      "metric": "2.6k likes",
-      "note": "Verifying which model you are actually served has been a long-standing trust gap."
+      "url": "https://x.com/theo/status/2117859423641272589",
+      "handle": "@theo",
+      "text": "Their fake T3 Code scam clone gets recommended by ChatGPT constantly.",
+      "metric": "1k likes",
+      "note": "AI search sending users to phishing sites is a fresh, concrete risk."
     },
     {
-      "url": "https://x.com/gregisenberg/status/2117734977312047537",
-      "handle": "@gregisenberg",
-      "text": "The full agent stack running product work at a 50+ person company, from idea intake to bug fixes",
-      "metric": "653 likes",
-      "note": "Builders crave concrete, named stacks over abstract agent advice."
+      "url": "https://x.com/addyosmani/status/2117848568535106001",
+      "handle": "@addyosmani",
+      "text": "We've updated that rule in 2.1.317. You can name a game to describe what you want.",
+      "metric": "872 likes",
+      "note": "Builders are frustrated by hidden prompt rules that block legitimate requests."
     },
     {
-      "url": "https://x.com/rauchg/status/2117734833824948373",
-      "handle": "@rauchg",
-      "text": "Vercel Security Review: the internal security agent, now in public beta, works whether or not you host on Vercel",
-      "metric": "275 likes",
-      "note": "Security for agent-written code is a growing worry for engineering leaders."
+      "url": "https://x.com/TaviCosta/status/2117828426627461305",
+      "handle": "@TaviCosta",
+      "text": "The largest copper miners are expected to report their lowest annual production in nearly 15 years.",
+      "metric": "314 likes",
+      "note": "Copper supply sits under every power and data center build-out."
     }
   ]
 }
