@@ -1,0 +1,408 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-04-0633",
+  "generatedAt": "2026-11-04T11:36:00Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-03T23:33:00Z",
+    "to": "2026-11-04T11:33:00Z"
+  },
+  "sourceNotes": [
+    "Window 23:33Z Nov 3 to 11:33Z Nov 4 (since the 18:33 run). Election night in the US dominated X; partisan posts muted. 14 candidates (7 practical, 5 broad, 1 frontier-capital, 1 design).",
+    "RSS new items: Stratechery 'AI on the Ballot' used. The Verge (Nexus Mods AI disclosures, AI bubble/bonds piece) dated before the window and not used. Metaplanet Google News: Strive BTC holdings item, muted as a crypto price/holdings item. No new items from Simon Willison, MIT TR, OpenAI Blog, Lenny, Benedict Evans, Mollick, Gary Marcus, Mitchell Hashimoto or The Atlantic.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) still returns HTTP 500; dead for many runs now.",
+    "Hacker News (config minPoints 200, since 18:00Z Nov 3): only C++26 (319) and Jelly Sheet (270) cleared 200, both off-lens. Nvidia RTX Spark encrypted firmware slowing Linux inference (104) below threshold.",
+    "arXiv: first export.arxiv.org request over http returned empty; https worked. Used three Nov 3 agent papers (leaderboard grading errors, fabricated-hazard attack, LatentTriad); Vibetrace trace-steering paper not used.",
+    "X howTo lane: @theo (scam clone, game-rule quote) used; @theo also posted his last day at Anthropic and a rate-limit video on an Oct 29 OpenAI change (not new); @AlexFinn Qwen 3.8 local promo, @kloss_xyz prompt, @rubenhassid, @Ronycoder Riverside promo, @tibo_maker, @ThePrimeagen, @amasad (election joke; enterprise-agents quote of an Oct 26 @pmarca article), @GeoffreyHuntley and @kunchenguid opinion posts, @mattpocockuk follow rec not used.",
+    "X bigPicture lane: @sama, @elonmusk, @stratechery, @rauchg, @eastdakota used. @beffjezos posted ~25 partisan election posts that filled one search page (muted); @nikitabier one-liners and other @elonmusk posts off-lens. No posts in window from @AnthropicAI, @OpenAI, @GoogleDeepMind, @deepseek_ai and most others.",
+    "X frontierCapital lane: @TaviCosta used; @naval aphorism and two @nathanbenaich link-only quote posts (one pointing to @jackhcable's security guide, an X article not readable via the API) not used. Design lane: @MengTo used.",
+    "X queries lane: Claude Code 2.1.317 explainer posts from small accounts (used only to locate the changelog), promos and listicles; nothing else cleared quality. Mistral Voxtral 3 claim from a small account not verified on mistral.ai; not used.",
+    "Replies checked on @sama and @addyosmani posts: none cleared the reply filter (>=1000 followers and >=5 likes). authorBaseline not filled this run. X calls this run: 13."
+  ],
+  "candidates": [
+    {
+      "id": "claude-code-2-1-317-fail-closed-hooks",
+      "lens": "practical",
+      "topic": "claude-code-2-1-317",
+      "summary": "Claude Code 2.1.317 adds onFailure: \"block\" for Agent SDK hook callbacks, so a hook callback that fails blocks the action instead of letting it run. The same release asks before a web or shell tool call sends the account email address to the network, and warns when a new /schedule cloud task gets connectors the user did not ask for.",
+      "facts": [
+        "Changelog line: 'Added `onFailure: \"block\"` for Agent SDK hook callbacks, so a callback that fails blocks the action instead of letting it run'.",
+        "Changelog line: 'Added a check that asks before a web or shell tool call sends your account email address to the network'.",
+        "Changelog line: 'Added a warning to `/schedule` when a new cloud scheduled task gets connectors you did not ask for, with how to remove them'.",
+        "The CHANGELOG.md commit carrying 2.1.317 is dated 2026-11-03T01:25Z on GitHub.",
+        "Posts on X describing the change say the default is still 'continue'; that detail is from those posts, not the changelog line."
+      ],
+      "source": {
+        "name": "Claude Code CHANGELOG (GitHub)",
+        "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+        "type": "web"
+      },
+      "publishedAt": "2026-11-03T01:25:28Z",
+      "care": 4,
+      "proof": 5,
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "claude-code-game-rule-updated",
+      "lens": "practical",
+      "topic": "claude-code-game-clone-rule",
+      "summary": "Addy Osmani (Claude Code, Anthropic) says a rule added to the Opus 5.5 prompt to steer Claude away from recreating specific existing games was also triggering when users named a game only to describe mechanics. Claude Code 2.1.317 updates the rule: naming a game should now produce an original game in that genre, while a request for a copy gets an offer to build something similar.",
+      "facts": [
+        "Quote: 'We'd added a short rule to the Opus 5.5 prompt to steer Claude away from recreating specific existing games, but it was also kicking in when you referenced one just to describe the mechanics you wanted.'",
+        "Quote: 'We've updated that rule in 2.1.317. You can name a game to describe what you want and Claude should now build an original game in that genre.'",
+        "@theo quoted it: 'I think this whole arc of system prompt changes to steer away from \"copyright issues\" is lame as hell.' (885 likes at capture)."
+      ],
+      "source": {
+        "name": "Addy Osmani on X",
+        "url": "https://x.com/addyosmani/status/2117848568535106001",
+        "type": "x",
+        "handle": "addyosmani"
+      },
+      "related": [
+        {
+          "name": "@theo quote post",
+          "url": "https://x.com/theo/status/2117866501420237075"
+        }
+      ],
+      "publishedAt": "2026-11-04T05:17:01Z",
+      "metrics": {
+        "likes": 872,
+        "reposts": 43,
+        "replies": 253,
+        "capturedAt": "2026-11-04T11:32:00Z",
+        "views": 145569
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/addyosmani/status/2117848568535106001",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "claude-code-2-1-318",
+      "lens": "practical",
+      "topic": "claude-code-2-1-318",
+      "summary": "Claude Code 2.1.318 adds an effort option to a mod's $.model.fork so a side job can run at low effort regardless of the session, reports when a stored claude.ai sign-in expires (claude auth status and claude -p JSON), and warns on stderr 10 days before it ends. It also fixes idle compaction replacing a conversation with a reply that was not a summary, and workflows re-running finished agents when resumed after a usage limit.",
+      "facts": [
+        "Changelog line: 'Added an `effort` option to a mod's `$.model.fork`, so a quick side job can run at `low` whatever effort the session uses'.",
+        "Changelog line: 'Added a one-line stderr warning to `claude -p` text output, starting 10 days before a stored claude.ai sign-in ends'.",
+        "Changelog line: 'Fixed idle compaction replacing a conversation with a reply that was not a summary'.",
+        "Changelog line: 'Fixed workflows re-running finished agents when resumed after a usage limit'.",
+        "The CHANGELOG.md commit carrying 2.1.318 is dated 2026-11-04T00:00Z on GitHub."
+      ],
+      "source": {
+        "name": "Claude Code CHANGELOG (GitHub)",
+        "url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+        "type": "web"
+      },
+      "publishedAt": "2026-11-04T00:00:44Z",
+      "care": 3,
+      "proof": 5,
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "agent-leaderboard-grader-errors",
+      "lens": "practical",
+      "topic": "agent-eval-instrument-errors",
+      "summary": "An arXiv paper audits the HAL and tau2-bench agent leaderboards from their published artifacts and finds grading and logging errors that change rankings. In one case a general agent trailed a specialized scaffold by 13 points because only about half its episodes were graded and the rest stored as failures; the HAL maintainers confirmed three errors within five weeks.",
+      "facts": [
+        "Abstract: a general agent 'trails a scaffold built for an airline customer-service benchmark by 13 points'; 'only about half of its episodes were scored and the rest were stored as failures'.",
+        "Other errors found: a cost column counting nested model calls twice; archived trajectories recording grader-written actions as agent actions; a mode check that misreads four files collapsing their scores by 59 to 82 points with no error.",
+        "Abstract: 'the HAL maintainers confirmed their three within five weeks.'",
+        "Proposed checks: report the graded fraction, aggregate cost from root spans, tag provenance of every recorded action, pin evaluator versions with a published re-grade diff."
+      ],
+      "source": {
+        "name": "arXiv 2611.04399: Silent Instrument Errors Reorder Agent Leaderboards",
+        "url": "https://arxiv.org/abs/2611.04399",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-03T06:34:00Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "voluntary-servitude-agent-attack",
+      "lens": "practical",
+      "topic": "agent-security-fabricated-hazard",
+      "summary": "An arXiv paper shows agents can be steered by a fabricated hazard written as an ordinary review, which makes the agent disqualify legitimate options through its own harm-avoidance with no command for injection detectors to catch. The authors report a corroboration requirement in the agent's instructions removes roughly 95% of the exposure against a non-adaptive attacker.",
+      "facts": [
+        "Abstract: payloads steer agents 'about as often as instruction injection (60.4% vs. 66.0%)', and deployed injection detectors score them as benign, so behind a filter they are '1.7-4.4x more effective'.",
+        "Measured across six models and ten consumer-service domains; transfers to production browser agents and a retrieval pipeline (1.0-57.0% end-to-end success depending on the retriever).",
+        "Abstract: 'a corroboration requirement added to the agent's instructions removes roughly 95% of the exposure against a non-adaptive attacker without retraining.'"
+      ],
+      "source": {
+        "name": "arXiv 2611.04393: Voluntary Servitude",
+        "url": "https://arxiv.org/abs/2611.04393",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-03T06:26:00Z",
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "latenttriad-malicious-skill-detection",
+      "lens": "practical",
+      "topic": "agent-skill-security",
+      "summary": "An arXiv paper introduces LatentTriad, which screens agent skill packages for malicious content by reading the model's hidden states during prefill, without generating tokens, calling tools or running skill code. Across 5,830 skill packages from five sources and seven backbones it reports 99.0-99.2% pooled F1.",
+      "facts": [
+        "Abstract: '5,830 skill packages from five sources and seven backbones'; '99.0-99.2% pooled F1 and 93.0-94.6% source-macro F1'.",
+        "Abstract: a compact implementation completes prefill and detection in a median of 259-284 ms.",
+        "Detection 'generates no output tokens, invokes no tools, and executes no skill code'."
+      ],
+      "source": {
+        "name": "arXiv 2611.05088: LatentTriad",
+        "url": "https://arxiv.org/abs/2611.05088",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-03T15:46:00Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "vercel-doctor-cli",
+      "lens": "practical",
+      "topic": "vercel-doctor",
+      "summary": "Vercel shipped vercel doctor, a CLI subcommand that lets an agent find and fix Vercel CLI setup issues: it shows the fix command per issue, runs without a login or linked project, never prompts, and outputs structured results with --json. Guillermo Rauch recommended that other CLIs ship doctor subcommands.",
+      "facts": [
+        "@vercel_dev: 'Shows the fix command for each issue', 'Runs without a login or linked project', 'Never prompts, logs in, or links', 'Outputs structured results with --json'.",
+        "@rauchg: 'recommend you ship doctor subcommands in your CLIs!' (166 likes, 93 replies at capture)."
+      ],
+      "source": {
+        "name": "Vercel changelog: vercel doctor",
+        "url": "https://vercel.com/changelog/vercel-cli-now-diagnoses-setup-problems-with-vercel-doctor",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "@rauchg on X",
+          "url": "https://x.com/rauchg/status/2117802827519250568"
+        },
+        {
+          "name": "@vercel_dev on X",
+          "url": "https://x.com/vercel_dev/status/2117725049713308146"
+        }
+      ],
+      "publishedAt": "2026-11-03T21:06:11Z",
+      "metrics": {
+        "likes": 166,
+        "reposts": 5,
+        "replies": 93,
+        "capturedAt": "2026-11-04T11:32:00Z",
+        "views": 16870
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/rauchg/status/2117802827519250568",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "stratechery-data-centers-on-ballot",
+      "lens": "broad",
+      "topic": "data-centers-midterms",
+      "summary": "Ben Thompson writes that data centers were on the ballot in the US midterms and 'lost in a major way', noting both parties in Wisconsin ran anti-data-center ads. In Texas, governor-elect Gina Hinojosa has pledged a moratorium on data center construction; the state accounts for more than 25% of planned US capacity by 2030, and incumbent Greg Abbott already declared a moratorium on new data-center permits in September.",
+      "facts": [
+        "Stratechery post 'AI on the Ballot', Nov 4, 2026.",
+        "Quoted from Yahoo Finance in the post: Hinojosa 'has pledged to impose a moratorium on data center construction in Texas, which accounts for more than 25% of planned US capacity by 2030.'",
+        "Thompson: 'Republican incumbent Greg Abbott, I would note, already declared a moratorium on new data-center permits in September'.",
+        "@stratechery post: 'what does it mean if American opposition to building is permanent?'",
+        "@elonmusk posted the same night: 'Data centers in space looking pretty appealing right now' (98,820 likes at capture)."
+      ],
+      "source": {
+        "name": "Stratechery: AI on the Ballot",
+        "url": "https://stratechery.com/2026/ai-on-the-ballot/",
+        "type": "rss"
+      },
+      "related": [
+        {
+          "name": "@stratechery on X",
+          "url": "https://x.com/stratechery/status/2117934887336612160"
+        },
+        {
+          "name": "@elonmusk on X",
+          "url": "https://x.com/elonmusk/status/2117862462976594112"
+        }
+      ],
+      "publishedAt": "2026-11-04T11:00:00Z",
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://stratechery.com/2026/ai-on-the-ballot/",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "elon-space-data-centers-post",
+      "lens": "broad",
+      "topic": "data-centers-midterms",
+      "summary": "Elon Musk posted 'Data centers in space looking pretty appealing right now' on election night, as data center opposition featured in the US midterms.",
+      "source": {
+        "name": "Elon Musk on X",
+        "url": "https://x.com/elonmusk/status/2117862462976594112",
+        "type": "x",
+        "handle": "elonmusk"
+      },
+      "publishedAt": "2026-11-04T06:12:13Z",
+      "metrics": {
+        "likes": 98820,
+        "capturedAt": "2026-11-04T11:32:00Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "altman-people-control-future",
+      "lens": "broad",
+      "topic": "altman-superintelligence-control",
+      "summary": "Sam Altman posted that OpenAI is against people being relegated to doing things that 'AI systems think makes sense to reward in humans', and that people should not cede control of the future to superintelligence, a requirement that 'should ultimately constrain AI progress'.",
+      "facts": [
+        "Full text: 'People should always be in control of the future. OpenAI is against the notion that it would be acceptable for people to be relegated to a role of doing things that “AI systems think makes sense to reward in humans”. People should not cede control of the future to superintelligence, and that requirement should ultimately constrain AI progress.'",
+        "The post does not say whom the quoted phrase comes from."
+      ],
+      "source": {
+        "name": "Sam Altman on X",
+        "url": "https://x.com/sama/status/2117794005165748448",
+        "type": "x",
+        "handle": "sama"
+      },
+      "publishedAt": "2026-11-04T01:40:12Z",
+      "metrics": {
+        "likes": 14004,
+        "reposts": 690,
+        "replies": 2979,
+        "capturedAt": "2026-11-04T11:32:00Z",
+        "views": 5539013
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/sama/status/2117794005165748448",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "chatgpt-recommends-t3-code-scam-clone",
+      "lens": "broad",
+      "topic": "ai-search-phishing-t3-code",
+      "summary": "A user reported ChatGPT returned t33.codes, a near pixel-perfect clone of the T3 Code site, when asked for the T3 Code download; the real site is t3.codes. T3 Code founder Theo said the 'fake T3 Code scam clone gets recommended by ChatGPT constantly' and that he does not know what causes it.",
+      "facts": [
+        "@doriandeacu: 'asked for the T3 Code download → got t33.codes', 'almost pixel-perfect clone, registered 2 weeks ago' (registration age is the poster's claim, not verified here).",
+        "@doriandeacu: 'AI search is the new phishing vector' (420 likes, 93,783 views at capture).",
+        "@theo: 'I have no idea what these crypto scammers did, but their fake T3 Code scam clone gets recommended by ChatGPT constantly.'"
+      ],
+      "source": {
+        "name": "Theo on X",
+        "url": "https://x.com/theo/status/2117859423641272589",
+        "type": "x",
+        "handle": "theo"
+      },
+      "related": [
+        {
+          "name": "@doriandeacu original report",
+          "url": "https://x.com/doriandeacu/status/2117698026089185753"
+        }
+      ],
+      "publishedAt": "2026-11-04T06:00:09Z",
+      "metrics": {
+        "likes": 1002,
+        "reposts": 22,
+        "replies": 117,
+        "capturedAt": "2026-11-04T11:32:00Z",
+        "views": 59709
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://x.com/doriandeacu/status/2117698026089185753",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "cloudflare-athenian-election-newsrooms",
+      "lens": "broad",
+      "topic": "cloudflare-election-security",
+      "summary": "Matthew Prince said Cloudflare, through its Athenian Project, embedded security engineers with critical US news organizations so they could report election-night results without disruption by cyber attack.",
+      "source": {
+        "name": "Matthew Prince on X",
+        "url": "https://x.com/eastdakota/status/2117771796019659118",
+        "type": "x",
+        "handle": "eastdakota"
+      },
+      "publishedAt": "2026-11-04T00:11:00Z",
+      "metrics": {
+        "likes": 109,
+        "replies": 5,
+        "capturedAt": "2026-11-04T11:32:00Z"
+      },
+      "care": 2,
+      "proof": 3,
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "tavi-costa-copper-supply",
+      "lens": "frontier-capital",
+      "topic": "copper-supply-decline",
+      "summary": "Tavi Costa posted that the largest copper miners are expected to report their lowest annual production in nearly 15 years, a 16% decline from 2024, and argued recent weakness in mining hides the real opportunity given supply constraints.",
+      "facts": [
+        "Quote: 'The largest copper miners are expected to report their lowest annual production in nearly 15 years. A 16% decline from 2024.'",
+        "Quote: 'Recent weakness in the mining industry hides the real opportunity.'",
+        "The post includes a chart; no data source is named in the text."
+      ],
+      "source": {
+        "name": "Tavi Costa on X",
+        "url": "https://x.com/TaviCosta/status/2117828426627461305",
+        "type": "x",
+        "handle": "TaviCosta"
+      },
+      "publishedAt": "2026-11-04T03:56:58Z",
+      "metrics": {
+        "likes": 314,
+        "reposts": 54,
+        "replies": 13,
+        "capturedAt": "2026-11-04T11:32:00Z",
+        "views": 19997
+      },
+      "care": 2,
+      "proof": 2,
+      "imageHint": "https://x.com/TaviCosta/status/2117828426627461305",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "mengto-geist-anti-slop-font",
+      "lens": "design",
+      "topic": "geist-serif",
+      "summary": "Meng To called Geist 'the anti-slop font', pointing to vercel.com/font and to Vercel's Oct 30 post introducing Geist Serif.",
+      "facts": [
+        "@MengTo: 'geist is the anti-slop font.' with link vercel.com/font.",
+        "Quoted @vercel post (Oct 30): 'Introducing Geist Serif.' (6,614 likes at capture)."
+      ],
+      "source": {
+        "name": "Meng To on X",
+        "url": "https://x.com/MengTo/status/2117789077709922728",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "related": [
+        {
+          "name": "Geist font",
+          "url": "https://vercel.com/font"
+        },
+        {
+          "name": "@vercel Geist Serif post",
+          "url": "https://x.com/vercel/status/2116191290216124567"
+        }
+      ],
+      "publishedAt": "2026-11-04T01:20:37Z",
+      "metrics": {
+        "likes": 68,
+        "reposts": 3,
+        "replies": 14,
+        "capturedAt": "2026-11-04T11:32:00Z",
+        "views": 7403
+      },
+      "care": 2,
+      "proof": 3,
+      "imageHint": "https://x.com/vercel/status/2116191290216124567",
+      "firstSeen": "2026-11-04"
+    }
+  ]
+}
