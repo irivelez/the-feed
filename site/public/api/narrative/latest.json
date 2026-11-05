@@ -1,133 +1,117 @@
 {
   "schemaVersion": "1.0",
-  "id": "2026-11-02",
-  "publishedAt": "2026-11-02T13:20:00Z",
+  "id": "2026-11-04",
+  "publishedAt": "2026-11-05T00:09:43Z",
   "window": {
-    "from": "2026-10-27",
-    "to": "2026-11-02"
+    "from": "2026-10-29",
+    "to": "2026-11-04"
   },
-  "headline": "Agents now make work faster than anyone can check it.",
-  "summary": "The bottleneck moved from making work to checking it. Over 40% of GitHub pull requests now start with an agent, and Postgres 19 is shipping late because AI bug reports outpace the people who review them. Speed without understanding gets expensive: Jepsen found 96 issues in a database built with heavy LLM help, where the tools claimed fixes that never happened. And the work still needs checking, since the best model passed 12% of SemiAnalysis's expert tasks and the best agent 10.8% of Surge's tax assignments. The answers on show this week were not more agents but stronger tests, faster CI and open outside review. Before you add another agent, name the person who will verify what it ships.",
+  "headline": "AI hit three walls this week: voters, budgets and trust",
+  "summary": "The limits on AI moved outside the code this week. Voters turned on data centers: 33 of 45 local ballot measures will restrict building, and Texas, the fastest-growing market, may slow its buildout. Budgets tightened too, as Apple cut engineers' daily AI limits from $300 to $200 and Goldman Sachs pulled coding tools from most bankers. The agent toolbox became an attack surface, with poisoned MCP tools fooling agents in 23% of tests and 73 fake agent repos spreading malware. Monday's checking problem still holds, and OpenAI is buying Pierre to build code review for agent-written work. Before you scale agents, know where your compute comes from, what each seat may spend, and who vets every tool they load.",
   "threads": [
     {
-      "title": "Review is the new ceiling",
-      "line": "Agents start over 40% of pull requests and Postgres slipped as review lagged. Your speed is set by checking, not writing.",
+      "title": "Ballot box meets the grid",
+      "line": "Voters and Texas's governor-elect are turning against data centers. Your compute supply now depends on local politics.",
       "evidence": [
         {
-          "briefId": "2026-10-28-1300",
-          "itemId": "github-octoverse-2026"
+          "briefId": "2026-11-04-0700",
+          "itemId": "stratechery-data-centers-on-ballot"
         },
         {
-          "briefId": "2026-11-02-0700",
-          "itemId": "postgres-19-late-ai-bug-reports"
+          "briefId": "2026-11-04-1300",
+          "itemId": "data-centers-lost-midterms"
         },
         {
-          "briefId": "2026-10-28-1900",
-          "itemId": "kunchenguid-ci-at-agent-speed"
+          "briefId": "2026-11-04-1900",
+          "itemId": "texas-data-center-buildout-at-risk"
         },
         {
-          "briefId": "2026-10-28-1900",
-          "itemId": "vercel-ci-beta"
-        },
-        {
-          "briefId": "2026-11-01-0700",
-          "itemId": "kunchenguid-github-rate-limit-agents"
-        },
-        {
-          "briefId": "2026-11-02-0700",
-          "itemId": "deepseek-super-agent-design-article"
+          "briefId": "2026-11-02-1900",
+          "itemId": "openai-grid-protectors-program"
         }
       ]
     },
     {
-      "title": "Shipped fast, understood by no one",
-      "line": "LLM tools claimed fixes that weren't real, and agent success halves as features evolve. Code nobody understands is a liability.",
+      "title": "Every seat gets a meter",
+      "line": "Apple and Goldman are rationing AI tools as usage soars. Expect per-person budgets, and decide what an agent is worth.",
       "evidence": [
         {
-          "briefId": "2026-11-01-1300",
-          "itemId": "jepsen-particledb-llm-tradeoffs"
+          "briefId": "2026-11-04-1900",
+          "itemId": "apple-cuts-employee-ai-budgets"
         },
         {
-          "briefId": "2026-10-28-0700",
-          "itemId": "arxiv-featurearc-evolving-features"
+          "briefId": "2026-11-03-0700",
+          "itemId": "goldman-restricts-ai-coding-tools"
         },
         {
-          "briefId": "2026-10-30-1300",
-          "itemId": "arxiv-envos-stale-info-agents"
+          "briefId": "2026-11-03-0700",
+          "itemId": "anthropic-internal-ai-use-exceeds-pay"
         },
         {
-          "briefId": "2026-10-29-0700",
-          "itemId": "spawn-agent-fleet-playbook"
+          "briefId": "2026-11-04-1900",
+          "itemId": "claude-code-subagent-status-99pct-cheaper"
         }
       ]
     },
     {
-      "title": "Twelve percent of expert work",
-      "line": "Top agents pass about one in ten expert tasks and overstate their sources. Keep experts signing off on what matters.",
+      "title": "The toolbox is the attack",
+      "line": "Poisoned tools, fake repos and silent plugin installs show agents inherit every risk in what they load.",
       "evidence": [
         {
-          "briefId": "2026-11-02-0700",
-          "itemId": "semianalysis-gdpx-benchmark"
+          "briefId": "2026-11-03-1300",
+          "itemId": "mcp-tool-poisoning-12-frameworks"
         },
         {
-          "briefId": "2026-10-28-1900",
-          "itemId": "surge-dayjob-tax-benchmark"
+          "briefId": "2026-11-04-1900",
+          "itemId": "malicious-agent-tool-repos-smartloader"
         },
         {
-          "briefId": "2026-10-27-0700",
-          "itemId": "arxiv-claim-smoothing-research-agents"
+          "briefId": "2026-11-03-1900",
+          "itemId": "postman-auto-installs-agent-plugins"
         },
         {
-          "briefId": "2026-10-30-1300",
-          "itemId": "arxiv-rtaste-research-agent-judgment"
+          "briefId": "2026-11-03-0700",
+          "itemId": "memharmbench-cross-session-injection"
+        },
+        {
+          "briefId": "2026-11-02-1900",
+          "itemId": "agentic-backdoors-pretraining-poisoning"
+        },
+        {
+          "briefId": "2026-11-04-1300",
+          "itemId": "scamworld-web-agents-fraud"
         }
       ]
     },
     {
-      "title": "Claims need open referees",
-      "line": "OpenAI's math claims now face open, unpaid outside review. Hold any vendor claim to that test before it drives a decision.",
+      "title": "Found faster than fixed",
+      "line": "AI made an old PHP crash exploitable and generated patches for 948 kernel flaws in one run. Patch speed is now strategy.",
       "evidence": [
         {
-          "briefId": "2026-10-27-0700",
-          "itemId": "eth-refutation-independent-review"
+          "briefId": "2026-11-04-1300",
+          "itemId": "php2shell-ai-found-exploit"
         },
         {
-          "briefId": "2026-10-27-1900",
-          "itemId": "verge-openai-shepherds-gatekeeping"
-        },
-        {
-          "briefId": "2026-10-28-0700",
-          "itemId": "axiom-cfsg-lean-formalization"
-        },
-        {
-          "briefId": "2026-11-02-0700",
-          "itemId": "calegari-mathematics-has-changed"
-        },
-        {
-          "briefId": "2026-10-31-0700",
-          "itemId": "anthropic-automated-emergent-misalignment-red-teaming"
+          "briefId": "2026-11-04-1900",
+          "itemId": "openai-autonomous-cyber-pipeline-948-linux-lpe"
         }
       ]
     },
     {
-      "title": "Tests are the real lever",
-      "line": "Where good tests existed, agents did deep work, from an NES chip inside Qwen to a Rust API rewrite. Fund tests first.",
+      "title": "Labs buy the review layer",
+      "line": "OpenAI rebuilt Git for agents and is buying Pierre; Meta took Conductor. Checking agent work is where labs now compete.",
       "evidence": [
         {
-          "briefId": "2026-10-30-1900",
-          "itemId": "nesformer-nes-cpu-in-qwen-weights"
+          "briefId": "2026-11-04-1900",
+          "itemId": "openai-to-acquire-pierre"
         },
         {
-          "briefId": "2026-11-01-1300",
-          "itemId": "ronacher-opus-cpython-reimplementation"
+          "briefId": "2026-11-03-0700",
+          "itemId": "openai-pando-git-backend"
         },
         {
-          "briefId": "2026-10-31-1900",
-          "itemId": "anthropic-messages-api-rust-rewrite-claude"
-        },
-        {
-          "briefId": "2026-10-28-0700",
-          "itemId": "arxiv-concordat-typed-sessions"
+          "briefId": "2026-11-04-1900",
+          "itemId": "conductor-joins-meta-msl"
         }
       ]
     }

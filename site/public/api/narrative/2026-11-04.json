@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "1.0",
+  "id": "2026-11-04",
+  "publishedAt": "2026-11-05T00:09:43Z",
+  "window": {
+    "from": "2026-10-29",
+    "to": "2026-11-04"
+  },
+  "headline": "AI hit three walls this week: voters, budgets and trust",
+  "summary": "The limits on AI moved outside the code this week. Voters turned on data centers: 33 of 45 local ballot measures will restrict building, and Texas, the fastest-growing market, may slow its buildout. Budgets tightened too, as Apple cut engineers' daily AI limits from $300 to $200 and Goldman Sachs pulled coding tools from most bankers. The agent toolbox became an attack surface, with poisoned MCP tools fooling agents in 23% of tests and 73 fake agent repos spreading malware. Monday's checking problem still holds, and OpenAI is buying Pierre to build code review for agent-written work. Before you scale agents, know where your compute comes from, what each seat may spend, and who vets every tool they load.",
+  "threads": [
+    {
+      "title": "Ballot box meets the grid",
+      "line": "Voters and Texas's governor-elect are turning against data centers. Your compute supply now depends on local politics.",
+      "evidence": [
+        {
+          "briefId": "2026-11-04-0700",
+          "itemId": "stratechery-data-centers-on-ballot"
+        },
+        {
+          "briefId": "2026-11-04-1300",
+          "itemId": "data-centers-lost-midterms"
+        },
+        {
+          "briefId": "2026-11-04-1900",
+          "itemId": "texas-data-center-buildout-at-risk"
+        },
+        {
+          "briefId": "2026-11-02-1900",
+          "itemId": "openai-grid-protectors-program"
+        }
+      ]
+    },
+    {
+      "title": "Every seat gets a meter",
+      "line": "Apple and Goldman are rationing AI tools as usage soars. Expect per-person budgets, and decide what an agent is worth.",
+      "evidence": [
+        {
+          "briefId": "2026-11-04-1900",
+          "itemId": "apple-cuts-employee-ai-budgets"
+        },
+        {
+          "briefId": "2026-11-03-0700",
+          "itemId": "goldman-restricts-ai-coding-tools"
+        },
+        {
+          "briefId": "2026-11-03-0700",
+          "itemId": "anthropic-internal-ai-use-exceeds-pay"
+        },
+        {
+          "briefId": "2026-11-04-1900",
+          "itemId": "claude-code-subagent-status-99pct-cheaper"
+        }
+      ]
+    },
+    {
+      "title": "The toolbox is the attack",
+      "line": "Poisoned tools, fake repos and silent plugin installs show agents inherit every risk in what they load.",
+      "evidence": [
+        {
+          "briefId": "2026-11-03-1300",
+          "itemId": "mcp-tool-poisoning-12-frameworks"
+        },
+        {
+          "briefId": "2026-11-04-1900",
+          "itemId": "malicious-agent-tool-repos-smartloader"
+        },
+        {
+          "briefId": "2026-11-03-1900",
+          "itemId": "postman-auto-installs-agent-plugins"
+        },
+        {
+          "briefId": "2026-11-03-0700",
+          "itemId": "memharmbench-cross-session-injection"
+        },
+        {
+          "briefId": "2026-11-02-1900",
+          "itemId": "agentic-backdoors-pretraining-poisoning"
+        },
+        {
+          "briefId": "2026-11-04-1300",
+          "itemId": "scamworld-web-agents-fraud"
+        }
+      ]
+    },
+    {
+      "title": "Found faster than fixed",
+      "line": "AI made an old PHP crash exploitable and generated patches for 948 kernel flaws in one run. Patch speed is now strategy.",
+      "evidence": [
+        {
+          "briefId": "2026-11-04-1300",
+          "itemId": "php2shell-ai-found-exploit"
+        },
+        {
+          "briefId": "2026-11-04-1900",
+          "itemId": "openai-autonomous-cyber-pipeline-948-linux-lpe"
+        }
+      ]
+    },
+    {
+      "title": "Labs buy the review layer",
+      "line": "OpenAI rebuilt Git for agents and is buying Pierre; Meta took Conductor. Checking agent work is where labs now compete.",
+      "evidence": [
+        {
+          "briefId": "2026-11-04-1900",
+          "itemId": "openai-to-acquire-pierre"
+        },
+        {
+          "briefId": "2026-11-03-0700",
+          "itemId": "openai-pando-git-backend"
+        },
+        {
+          "briefId": "2026-11-04-1900",
+          "itemId": "conductor-joins-meta-msl"
+        }
+      ]
+    }
+  ]
+}
