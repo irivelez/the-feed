@@ -1,0 +1,342 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-05-0700",
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-05T12:07:21Z",
+  "edition": "Morning",
+  "top3": [
+    {
+      "itemId": "cat-wu-joins-openai-core-products",
+      "headline": "Claude Code's product lead leaves Anthropic for OpenAI",
+      "whyItMatters": "The person who shipped Claude Code now shapes OpenAI's core products, including agents."
+    },
+    {
+      "itemId": "openai-national-community-compact",
+      "headline": "OpenAI vows to pay its own way on future compute campuses",
+      "whyItMatters": "After midterm backlash on data centers, OpenAI is writing the local deal terms itself."
+    },
+    {
+      "itemId": "tencent-hy4-vision-computer-use",
+      "headline": "Tencent's Hy4 adds vision and computer use at preview prices",
+      "whyItMatters": "Another lab ships CLI and GUI computer use, so agent desktop work is no longer a niche bet."
+    }
+  ],
+  "items": [
+    {
+      "id": "stratechery-intuit-ceo-ai-accounting",
+      "title": "Intuit's CEO maps AI into accounting and mid-market ERP",
+      "takeaway": "Goodarzi says earlier AI agents worked in slices but failed end-to-end; Intuit now builds system-level workflows.",
+      "soWhat": "If accountants are the retention layer, AI that only answers questions will not keep mid-market customers.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-05T11:00:00Z",
+      "source": {
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/"
+      },
+      "related": [
+        {
+          "name": "@stratechery on X",
+          "url": "https://x.com/stratechery/status/2118297286983774589"
+        }
+      ],
+      "image": {
+        "src": "/img/stratechery-intuit-ceo-ai-accounting.jpg",
+        "alt": "Image from Stratechery"
+      }
+    },
+    {
+      "id": "mit-permitting-reform-baaja",
+      "title": "Senate set to vote on technology-neutral permitting reform",
+      "takeaway": "BAAJA could unlock hundreds of gigawatts of energy and transmission while also speeding natural-gas plants for AI load.",
+      "soWhat": "Grid capacity for AI campuses now hinges on a November 9 Senate vote with post-midterm uncertainty.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 7,
+      "publishedAt": "2026-11-05T10:00:00Z",
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/"
+      },
+      "image": {
+        "src": "/img/mit-permitting-reform-baaja.jpg",
+        "alt": "Image from MIT Technology Review"
+      }
+    },
+    {
+      "id": "geoffrey-huntley-overalls-antithesis",
+      "title": "Overalls slips weeks to run Antithesis verification on Firecracker",
+      "takeaway": "Huntley is delaying overalls.dev while prototyping distributed builds and content-addressable cache on Firecracker.",
+      "soWhat": "Self-hosted agent machines are being held to production reliability bars before public launch.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-05T09:33:24Z",
+      "source": {
+        "name": "@GeoffreyHuntley on X",
+        "url": "https://x.com/GeoffreyHuntley/status/2118275477433364606"
+      },
+      "related": [
+        {
+          "name": "Overalls",
+          "url": "https://overalls.dev"
+        }
+      ],
+      "image": {
+        "src": "/img/geoffrey-huntley-overalls-antithesis.jpg",
+        "alt": "Image from @GeoffreyHuntley on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "2k views"
+      }
+    },
+    {
+      "id": "openai-national-community-compact",
+      "title": "OpenAI publishes a National Community Compact for compute campuses",
+      "takeaway": "Owned campuses will pay full electricity costs, publish water and energy use, limit official NDAs, and report hiring.",
+      "soWhat": "Communities now have OpenAI's own checklist to demand when a campus comes to town.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 9,
+      "publishedAt": "2026-11-05T02:00:00Z",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
+      },
+      "image": {
+        "src": "/img/openai-national-community-compact.jpg",
+        "alt": "OpenAI Blog: OpenAI publishes a National Community Compact for compute campuses"
+      }
+    },
+    {
+      "id": "cat-wu-joins-openai-core-products",
+      "title": "Claude Code's product lead Cat Wu joins OpenAI for Core Products",
+      "takeaway": "OpenAI confirmed Wu will work with Nick Turley and Ashley Alexander and report to Codex lead Thibault Sottiaux.",
+      "soWhat": "OpenAI is buying Anthropic product talent just as Claude Code defined the agent coding category.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-05T00:25:34Z",
+      "source": {
+        "name": "@_catwu on X",
+        "url": "https://x.com/_catwu/status/2118137612577968402"
+      },
+      "related": [
+        {
+          "name": "Business Insider",
+          "url": "https://www.businessinsider.com/cat-wu-joins-openai-from-anthropic-product-lead-coup-2026-11"
+        },
+        {
+          "name": "@thsottiaux welcome",
+          "url": "https://x.com/thsottiaux/status/2118138648214585591"
+        }
+      ],
+      "image": {
+        "src": "/img/cat-wu-joins-openai-core-products.jpg",
+        "alt": "Image from @_catwu on X"
+      },
+      "heat": {
+        "score": 36,
+        "level": "none",
+        "metric": "2.5M views"
+      }
+    },
+    {
+      "id": "nathan-benaich-american-open-weights-china",
+      "title": "Nathan Benaich calls 'US SOTA' open-weight framing odd energy",
+      "takeaway": "He argues crowning a model SOTA among American open weights while it trails Chinese open models is a weak win.",
+      "soWhat": "Investors are judging open weights on a global ladder, not a US-only bracket.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-04T20:05:42Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2118072213790244895"
+      },
+      "image": {
+        "src": "/img/nathan-benaich-american-open-weights-china.jpg",
+        "alt": "Profile image of @nathanbenaich"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "4k views"
+      }
+    },
+    {
+      "id": "speccompact-slot-parallel-compaction",
+      "title": "SpecCompact drafts agent memory summaries with a small model first",
+      "takeaway": "A small model drafts structured summary slots in parallel; a larger model verifies them to cut compaction latency.",
+      "soWhat": "Long-running agents hit context limits; faster compaction is a direct cost and latency lever.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-04T18:34:41Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.06876"
+      },
+      "image": {
+        "src": "/img/speccompact-slot-parallel-compaction.jpg",
+        "alt": "arXiv: SpecCompact drafts agent memory summaries with a small model first"
+      }
+    },
+    {
+      "id": "turn-level-best-of-n-agents",
+      "title": "Paper tests turn-level best-of-N sampling for long-horizon agents",
+      "takeaway": "At each turn a generator proposes N actions and a selector picks one for complex agent tasks.",
+      "soWhat": "Teams can raise agent quality with more samples per step before training a bigger model.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-04T18:23:14Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.06868"
+      },
+      "image": {
+        "src": "/img/turn-level-best-of-n-agents.jpg",
+        "alt": "arXiv: Paper tests turn-level best-of-N sampling for long-horizon agents"
+      }
+    },
+    {
+      "id": "compressionbench-coding-agents-compress",
+      "title": "CompressionBench asks coding agents to shrink model weights alone",
+      "takeaway": "Agents get a checkpoint, storage limit, and time budget, then must keep pretrained behavior in smaller weights.",
+      "soWhat": "If agents can compress models reliably, inference cost becomes an automated engineering loop.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-04T18:14:50Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.06858"
+      },
+      "image": {
+        "src": "/img/compressionbench-coding-agents-compress.jpg",
+        "alt": "arXiv: CompressionBench asks coding agents to shrink model weights alone"
+      }
+    },
+    {
+      "id": "serverbench-agent-llm-serving",
+      "title": "ServerBench has agents design full LLM serving stacks for dollars",
+      "takeaway": "The benchmark scores specialized serving systems on a dollars-per-dollar objective across latency and correctness.",
+      "soWhat": "Serving infrastructure is becoming something agents can experiment on, not only humans.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-04T17:59:07Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.06841"
+      },
+      "image": {
+        "src": "/img/serverbench-agent-llm-serving.jpg",
+        "alt": "arXiv: ServerBench has agents design full LLM serving stacks for dollars"
+      }
+    },
+    {
+      "id": "ask-hn-agentic-setups-nov2026",
+      "title": "Ask HN maps today's agent stacks: Claude Code, Codex, OpenClaw",
+      "takeaway": "A 354-point thread shows Claude IDE with Opus 5.5, Codex subs, cheap OpenRouter routes, and harnesses like Pi.",
+      "soWhat": "Real agent stacks are consolidating around a few paid harnesses plus cheap overflow models.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 6,
+      "publishedAt": "2026-11-04T14:37:22Z",
+      "source": {
+        "name": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50366117"
+      },
+      "image": {
+        "src": "/img/ask-hn-agentic-setups-nov2026.jpg",
+        "alt": "Hacker News: Ask HN maps today's agent stacks: Claude Code, Codex, OpenClaw"
+      }
+    },
+    {
+      "id": "tencent-hy4-vision-computer-use",
+      "title": "Tencent Hy4 ships vision plus CLI and GUI computer use",
+      "takeaway": "API is live on Tencent Cloud and OpenRouter at preview prices; weights and a system card are planned.",
+      "soWhat": "Computer-use agents now have another production API option besides the usual US labs.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-04T09:57:15Z",
+      "source": {
+        "name": "Tencent Hunyuan",
+        "url": "https://hy.tencent.ai/research/hy4"
+      },
+      "related": [
+        {
+          "name": "Hacker News (253)",
+          "url": "https://news.ycombinator.com/item?id=50365780"
+        }
+      ],
+      "image": {
+        "src": "/img/tencent-hy4-vision-computer-use.jpg",
+        "alt": "Tencent Hunyuan: Tencent Hy4 ships vision plus CLI and GUI computer use"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@_catwu",
+      "quote": "Some news: I'm joining OpenAI to lead product management for Core Products!",
+      "url": "https://x.com/_catwu/status/2118137612577968402"
+    },
+    {
+      "handle": "@thsottiaux",
+      "quote": "Welcome Cat. Stoked to be building together soon.",
+      "url": "https://x.com/thsottiaux/status/2118138648214585591"
+    },
+    {
+      "handle": "@GeoffreyHuntley",
+      "quote": "pushing overalls.dev back by a couple weeks whilst i do verification runs with @AntithesisHQ to shake out defects.",
+      "url": "https://x.com/GeoffreyHuntley/status/2118275477433364606"
+    },
+    {
+      "handle": "@garrytan",
+      "quote": "GStack's /review skill is actually useful for preventing bugs still",
+      "url": "https://x.com/garrytan/status/2118221083233206736"
+    },
+    {
+      "handle": "@nathanbenaich",
+      "quote": "the whole \"we're sota for american open weight models\" when you're still worse than china is quite odd energy",
+      "url": "https://x.com/nathanbenaich/status/2118072213790244895"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/_catwu/status/2118137612577968402",
+      "handle": "@_catwu",
+      "text": "Some news: I'm joining OpenAI to lead product management for Core Products!",
+      "metric": "14.3k likes",
+      "note": "Claude Code's product lead moving to OpenAI is a rare public talent coup."
+    },
+    {
+      "url": "https://x.com/garrytan/status/2118221083233206736",
+      "handle": "@garrytan",
+      "text": "GStack's /review skill is actually useful for preventing bugs still",
+      "metric": "102 likes",
+      "note": "Builders keep sharing review skills that catch bugs before merge."
+    },
+    {
+      "url": "https://x.com/GeoffreyHuntley/status/2118275477433364606",
+      "handle": "@GeoffreyHuntley",
+      "text": "pushing overalls.dev back by a couple weeks whilst i do verification runs with @AntithesisHQ",
+      "metric": "28 likes",
+      "note": "Self-hosted agent infra is delaying launch to prove reliability first."
+    },
+    {
+      "url": "https://x.com/nathanbenaich/status/2118072213790244895",
+      "handle": "@nathanbenaich",
+      "text": "the whole \"we're sota for american open weight models\" when you're still worse than china is quite odd energy",
+      "metric": "21 likes",
+      "note": "Open-weight bragging rights are being scored against Chinese models."
+    }
+  ]
+}

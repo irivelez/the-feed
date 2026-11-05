@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-04-1900",
-  "count": 40,
+  "latest": "2026-11-05-0700",
+  "count": 41,
   "briefs": [
+    {
+      "id": "2026-11-05-0700",
+      "date": "2026-11-05",
+      "edition": "Morning",
+      "publishedAt": "2026-11-05T12:07:21Z",
+      "headline": "Claude Code's product lead leaves Anthropic for OpenAI",
+      "url": "/api/briefs/2026-11-05-0700.json"
+    },
     {
       "id": "2026-11-04-1900",
       "date": "2026-11-04",

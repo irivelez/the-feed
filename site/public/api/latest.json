@@ -1,130 +1,91 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-04-1900",
-  "date": "2026-11-04",
-  "publishedAt": "2026-11-05T00:08:25Z",
-  "edition": "Evening",
+  "id": "2026-11-05-0700",
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-05T12:07:21Z",
+  "edition": "Morning",
   "top3": [
     {
-      "itemId": "apple-cuts-employee-ai-budgets",
-      "headline": "Apple cuts staff AI budgets while pushing employees to use more AI",
-      "whyItMatters": "If Apple caps AI spend per person, your teams will need clear budgets for agent use."
+      "itemId": "cat-wu-joins-openai-core-products",
+      "headline": "Claude Code's product lead leaves Anthropic for OpenAI",
+      "whyItMatters": "The person who shipped Claude Code now shapes OpenAI's core products, including agents."
     },
     {
-      "itemId": "claude-code-subagent-status-99pct-cheaper",
-      "headline": "Claude Code subagent status updates now cost about 99% less",
-      "whyItMatters": "Cheaper background agents mean more work per seat before teams hit usage limits."
+      "itemId": "openai-national-community-compact",
+      "headline": "OpenAI vows to pay its own way on future compute campuses",
+      "whyItMatters": "After midterm backlash on data centers, OpenAI is writing the local deal terms itself."
     },
     {
-      "itemId": "openai-to-acquire-pierre",
-      "headline": "OpenAI will acquire Pierre to build Git workflows for coding agents",
-      "whyItMatters": "Reviewing agent-written code is now a platform contest, and OpenAI wants to own that workflow."
+      "itemId": "tencent-hy4-vision-computer-use",
+      "headline": "Tencent's Hy4 adds vision and computer use at preview prices",
+      "whyItMatters": "Another lab ships CLI and GUI computer use, so agent desktop work is no longer a niche bet."
     }
   ],
   "items": [
     {
-      "id": "chatgpt-images-2-6-gifs",
-      "title": "ChatGPT Images 2.6 adds animated GIFs and reference images",
-      "takeaway": "OpenAI says two new image models are coming to the API with 50% faster generation.",
-      "soWhat": "Teams can now make simple animations inside ChatGPT without a separate design tool.",
-      "lens": "design",
+      "id": "stratechery-intuit-ceo-ai-accounting",
+      "title": "Intuit's CEO maps AI into accounting and mid-market ERP",
+      "takeaway": "Goodarzi says earlier AI agents worked in slices but failed end-to-end; Intuit now builds system-level workflows.",
+      "soWhat": "If accountants are the retention layer, AI that only answers questions will not keep mid-market customers.",
+      "lens": "broad",
       "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-11-04T23:35:14Z",
+      "importance": 7,
+      "publishedAt": "2026-11-05T11:00:00Z",
       "source": {
-        "name": "@OpenAI on X",
-        "url": "https://x.com/OpenAI/status/2118124944928432327"
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/"
       },
       "related": [
         {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6"
+          "name": "@stratechery on X",
+          "url": "https://x.com/stratechery/status/2118297286983774589"
         }
       ],
       "image": {
-        "src": "/img/chatgpt-images-2-6-gifs.jpg",
-        "alt": "Image from @OpenAI on X"
-      },
-      "heat": {
-        "score": 8,
-        "level": "none",
-        "metric": "18k views"
+        "src": "/img/stratechery-intuit-ceo-ai-accounting.jpg",
+        "alt": "Image from Stratechery"
       }
     },
     {
-      "id": "openai-autonomous-cyber-pipeline-948-linux-lpe",
-      "title": "OpenAI's autonomous pipeline generated patches for 948 Linux kernel flaws",
-      "takeaway": "One run with an unreleased cyber model cost $1.2 million in API fees; upstream status not stated.",
-      "soWhat": "Bug discovery is scaling with AI, so budget for faster patching across your own stack.",
-      "lens": "practical",
+      "id": "mit-permitting-reform-baaja",
+      "title": "Senate set to vote on technology-neutral permitting reform",
+      "takeaway": "BAAJA could unlock hundreds of gigawatts of energy and transmission while also speeding natural-gas plants for AI load.",
+      "soWhat": "Grid capacity for AI campuses now hinges on a November 9 Senate vote with post-midterm uncertainty.",
+      "lens": "broad",
       "momentum": "shift",
-      "importance": 8,
-      "publishedAt": "2026-11-04T23:13:24Z",
+      "importance": 7,
+      "publishedAt": "2026-11-05T10:00:00Z",
       "source": {
-        "name": "@OpenAI on X",
-        "url": "https://x.com/OpenAI/status/2118119451401048497"
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/"
       },
-      "related": [
-        {
-          "name": "IEEE Spectrum on AI-found exploits",
-          "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
-        }
-      ],
       "image": {
-        "src": "/img/openai-autonomous-cyber-pipeline-948-linux-lpe.jpg",
-        "alt": "Image from @OpenAI on X"
-      },
-      "heat": {
-        "score": 17,
-        "level": "none",
-        "metric": "68k views"
+        "src": "/img/mit-permitting-reform-baaja.jpg",
+        "alt": "Image from MIT Technology Review"
       }
     },
     {
-      "id": "perplexity-decisions-api-web-grounding",
-      "title": "Perplexity's Decisions API can now ground answers in the live web",
-      "takeaway": "Setting mode to web_grounding runs one Fast Search query per question, at $0.001 per search.",
-      "soWhat": "Automated batch decisions can now use current facts for a fraction of a cent each.",
+      "id": "geoffrey-huntley-overalls-antithesis",
+      "title": "Overalls slips weeks to run Antithesis verification on Firecracker",
+      "takeaway": "Huntley is delaying overalls.dev while prototyping distributed builds and content-addressable cache on Firecracker.",
+      "soWhat": "Self-hosted agent machines are being held to production reliability bars before public launch.",
       "lens": "practical",
       "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-11-04T21:31:09Z",
+      "importance": 5,
+      "publishedAt": "2026-11-05T09:33:24Z",
       "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2118093720243560711"
+        "name": "@GeoffreyHuntley on X",
+        "url": "https://x.com/GeoffreyHuntley/status/2118275477433364606"
       },
       "related": [
         {
-          "name": "@perplexitydevs on X",
-          "url": "https://x.com/perplexitydevs/status/2118086413854150890"
+          "name": "Overalls",
+          "url": "https://overalls.dev"
         }
       ],
       "image": {
-        "src": "/img/perplexity-decisions-api-web-grounding.jpg",
-        "alt": "Image from @AravSrinivas on X"
-      },
-      "heat": {
-        "score": 1,
-        "level": "none",
-        "metric": "7k views"
-      }
-    },
-    {
-      "id": "malicious-agent-tool-repos-smartloader",
-      "title": "Researcher finds 73 fake AI agent tool repos spreading malware",
-      "takeaway": "They posed as Claude skills, Codex and MCP servers; 51 were still live. Single report.",
-      "soWhat": "Install skills and MCP servers only from vetted sources, since fake ones are spreading.",
-      "lens": "practical",
-      "momentum": "shift",
-      "importance": 6,
-      "publishedAt": "2026-11-04T20:20:34Z",
-      "source": {
-        "name": "@fr0gger_ on X",
-        "url": "https://x.com/fr0gger_/status/2118075954740547684"
-      },
-      "image": {
-        "src": "/img/malicious-agent-tool-repos-smartloader.jpg",
-        "alt": "Image from @fr0gger_ on X"
+        "src": "/img/geoffrey-huntley-overalls-antithesis.jpg",
+        "alt": "Image from @GeoffreyHuntley on X"
       },
       "heat": {
         "score": 0,
@@ -133,288 +94,249 @@
       }
     },
     {
-      "id": "anthropic-claude-vault-particles",
-      "title": "Anthropic used Claude to map a vault particle's structure in days",
-      "takeaway": "Manual work would have taken weeks to months; researchers had to fix some simple mistakes.",
-      "soWhat": "AI is shortening lab research timelines, but experts still need to check its work.",
+      "id": "openai-national-community-compact",
+      "title": "OpenAI publishes a National Community Compact for compute campuses",
+      "takeaway": "Owned campuses will pay full electricity costs, publish water and energy use, limit official NDAs, and report hiring.",
+      "soWhat": "Communities now have OpenAI's own checklist to demand when a campus comes to town.",
       "lens": "broad",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-04T20:11:28Z",
+      "momentum": "shift",
+      "importance": 9,
+      "publishedAt": "2026-11-05T02:00:00Z",
       "source": {
-        "name": "Anthropic",
-        "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude"
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
       },
-      "related": [
-        {
-          "name": "@AnthropicAI on X",
-          "url": "https://x.com/AnthropicAI/status/2118073665296228863"
-        }
-      ],
       "image": {
-        "src": "/img/anthropic-claude-vault-particles.jpg",
-        "alt": "Image from Anthropic"
-      },
-      "heat": {
-        "score": 24,
-        "level": "none",
-        "metric": "192k views"
+        "src": "/img/openai-national-community-compact.jpg",
+        "alt": "OpenAI Blog: OpenAI publishes a National Community Compact for compute campuses"
       }
     },
     {
-      "id": "apple-cuts-employee-ai-budgets",
-      "title": "Apple cuts staff AI budgets while pushing employees to use more AI",
-      "takeaway": "Engineers' daily limit fell from $300 to $200, with $100 planned; some teams could drop to $25.",
-      "soWhat": "Per-person AI spending caps are arriving, so decide now how you will budget agent use.",
+      "id": "cat-wu-joins-openai-core-products",
+      "title": "Claude Code's product lead Cat Wu joins OpenAI for Core Products",
+      "takeaway": "OpenAI confirmed Wu will work with Nick Turley and Ashley Alexander and report to Codex lead Thibault Sottiaux.",
+      "soWhat": "OpenAI is buying Anthropic product talent just as Claude Code defined the agent coding category.",
       "lens": "broad",
       "momentum": "building",
       "importance": 9,
-      "publishedAt": "2026-11-04T19:51:36Z",
+      "publishedAt": "2026-11-05T00:25:34Z",
       "source": {
-        "name": "@markgurman on X",
-        "url": "https://x.com/markgurman/status/2118068667103453360"
+        "name": "@_catwu on X",
+        "url": "https://x.com/_catwu/status/2118137612577968402"
       },
       "related": [
         {
-          "name": "MacRumors summary",
-          "url": "https://www.macrumors.com/2026/11/04/apple-reducing-employee-ai-spending/"
+          "name": "Business Insider",
+          "url": "https://www.businessinsider.com/cat-wu-joins-openai-from-anthropic-product-lead-coup-2026-11"
         },
         {
-          "name": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-04/apple-cuts-internal-ai-usage-budgets-in-move-to-reduce-spending"
+          "name": "@thsottiaux welcome",
+          "url": "https://x.com/thsottiaux/status/2118138648214585591"
         }
       ],
       "image": {
-        "src": "/img/apple-cuts-employee-ai-budgets.jpg",
-        "alt": "Image from @markgurman on X"
-      },
-      "heat": {
-        "score": 22,
-        "level": "none",
-        "metric": "314k views"
-      }
-    },
-    {
-      "id": "claude-code-subagent-status-99pct-cheaper",
-      "title": "Claude Code subagent status updates now cost about 99% less",
-      "takeaway": "Haiku 5.5 now writes the 30-second status line from short notes instead of rereading the conversation.",
-      "soWhat": "Background agents are getting cheaper to run, which stretches every team's usage limits.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-04T19:29:39Z",
-      "source": {
-        "name": "@ClaudeDevs on X",
-        "url": "https://x.com/ClaudeDevs/status/2118063143167693011"
-      },
-      "image": {
-        "src": "/img/claude-code-subagent-status-99pct-cheaper.jpg",
-        "alt": "Image from @ClaudeDevs on X"
-      },
-      "heat": {
-        "score": 34,
-        "level": "none",
-        "metric": "622k views"
-      }
-    },
-    {
-      "id": "hermes-agent-marketplace",
-      "title": "Nous Research puts Hermes Agent plugins and skills in one marketplace",
-      "takeaway": "A 7-day plugin hackathon offers $20,000 in cash prizes.",
-      "soWhat": "Agent platforms now compete on extensions, so favor ones with a vetted plugin catalog.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 4,
-      "publishedAt": "2026-11-04T19:11:01Z",
-      "source": {
-        "name": "@NousResearch on X",
-        "url": "https://x.com/NousResearch/status/2118058453415371119"
-      },
-      "related": [
-        {
-          "name": "Hermes Marketplace",
-          "url": "https://hermes-agent.nousresearch.com/marketplace"
-        }
-      ],
-      "image": {
-        "src": "/img/hermes-agent-marketplace.jpg",
-        "alt": "Image from @NousResearch on X"
-      },
-      "heat": {
-        "score": 15,
-        "level": "none",
-        "metric": "56k views"
-      }
-    },
-    {
-      "id": "ripple-65b-open-weight-agentic-coding",
-      "title": "Ripple-65B claims the top US open-weight score for agentic coding",
-      "takeaway": "Self-reported 80.52 on TerminalBench 2.1 at a stated $32M full R&D cost; Benaich notes China still leads.",
-      "soWhat": "Smaller open models that run locally keep closing in, lowering the cost of in-house agents.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-04T18:53:29Z",
-      "source": {
-        "name": "Ricursive Intelligence",
-        "url": "https://www.ricursive.com/ripple"
-      },
-      "related": [
-        {
-          "name": "@nathanbenaich on X",
-          "url": "https://x.com/nathanbenaich/status/2118072213790244895"
-        },
-        {
-          "name": "Hacker News thread",
-          "url": "https://news.ycombinator.com/item?id=50369925"
-        }
-      ],
-      "image": {
-        "src": "/img/ripple-65b-open-weight-agentic-coding.jpg",
-        "alt": "Image from Ricursive Intelligence"
-      }
-    },
-    {
-      "id": "texas-data-center-buildout-at-risk",
-      "title": "Texas, the fastest-growing data center market, may slow AI buildouts",
-      "takeaway": "The governor-elect backed a moratorium; Nexus Hubbard, mostly for Anthropic, is planned at 6,400 MW.",
-      "soWhat": "Plan for compute delays, since even Texas may halt new data center projects.",
-      "lens": "broad",
-      "momentum": "shift",
-      "importance": 7,
-      "publishedAt": "2026-11-04T18:50:55Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
-      },
-      "related": [
-        {
-          "name": "Stratechery: AI on the Ballot",
-          "url": "https://stratechery.com/2026/ai-on-the-ballot/"
-        }
-      ],
-      "image": {
-        "src": "/img/texas-data-center-buildout-at-risk.jpg",
-        "alt": "Image from MIT Technology Review"
-      }
-    },
-    {
-      "id": "conductor-joins-meta-msl",
-      "title": "Coding-agent app Conductor joins Meta Superintelligence Labs",
-      "takeaway": "Charlie Holtz says the team will work on 'the next interface' with Nat Friedman and Alexandr Wang; terms undisclosed.",
-      "soWhat": "Big labs are absorbing coding-agent teams, so expect fewer independent tools to choose from.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-11-04T18:18:29Z",
-      "source": {
-        "name": "@charlieholtz on X",
-        "url": "https://x.com/charlieholtz/status/2118045232218743264"
-      },
-      "related": [
-        {
-          "name": "@theo on X",
-          "url": "https://x.com/theo/status/2118069196638834708"
-        }
-      ],
-      "image": {
-        "src": "/img/conductor-joins-meta-msl.jpg",
-        "alt": "Image from @charlieholtz on X"
+        "src": "/img/cat-wu-joins-openai-core-products.jpg",
+        "alt": "Image from @_catwu on X"
       },
       "heat": {
         "score": 36,
         "level": "none",
-        "metric": "322k views",
-        "voices": 2
+        "metric": "2.5M views"
       }
     },
     {
-      "id": "openai-to-acquire-pierre",
-      "title": "OpenAI will acquire Pierre to build Git workflows for coding agents",
-      "takeaway": "Pierre's libraries already power the Codex app; its open-source projects stay open; closing needs approval.",
-      "soWhat": "Reviewing agent-written code is becoming a core platform, not a side tool.",
-      "lens": "broad",
+      "id": "nathan-benaich-american-open-weights-china",
+      "title": "Nathan Benaich calls 'US SOTA' open-weight framing odd energy",
+      "takeaway": "He argues crowning a model SOTA among American open weights while it trails Chinese open models is a weak win.",
+      "soWhat": "Investors are judging open weights on a global ladder, not a US-only bracket.",
+      "lens": "frontier-capital",
       "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-04T14:30:00Z",
+      "importance": 5,
+      "publishedAt": "2026-11-04T20:05:42Z",
       "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/openai-to-acquire-pierre/"
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2118072213790244895"
+      },
+      "image": {
+        "src": "/img/nathan-benaich-american-open-weights-china.jpg",
+        "alt": "Profile image of @nathanbenaich"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "4k views"
+      }
+    },
+    {
+      "id": "speccompact-slot-parallel-compaction",
+      "title": "SpecCompact drafts agent memory summaries with a small model first",
+      "takeaway": "A small model drafts structured summary slots in parallel; a larger model verifies them to cut compaction latency.",
+      "soWhat": "Long-running agents hit context limits; faster compaction is a direct cost and latency lever.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-04T18:34:41Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.06876"
+      },
+      "image": {
+        "src": "/img/speccompact-slot-parallel-compaction.jpg",
+        "alt": "arXiv: SpecCompact drafts agent memory summaries with a small model first"
+      }
+    },
+    {
+      "id": "turn-level-best-of-n-agents",
+      "title": "Paper tests turn-level best-of-N sampling for long-horizon agents",
+      "takeaway": "At each turn a generator proposes N actions and a selector picks one for complex agent tasks.",
+      "soWhat": "Teams can raise agent quality with more samples per step before training a bigger model.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-04T18:23:14Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.06868"
+      },
+      "image": {
+        "src": "/img/turn-level-best-of-n-agents.jpg",
+        "alt": "arXiv: Paper tests turn-level best-of-N sampling for long-horizon agents"
+      }
+    },
+    {
+      "id": "compressionbench-coding-agents-compress",
+      "title": "CompressionBench asks coding agents to shrink model weights alone",
+      "takeaway": "Agents get a checkpoint, storage limit, and time budget, then must keep pretrained behavior in smaller weights.",
+      "soWhat": "If agents can compress models reliably, inference cost becomes an automated engineering loop.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-04T18:14:50Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.06858"
+      },
+      "image": {
+        "src": "/img/compressionbench-coding-agents-compress.jpg",
+        "alt": "arXiv: CompressionBench asks coding agents to shrink model weights alone"
+      }
+    },
+    {
+      "id": "serverbench-agent-llm-serving",
+      "title": "ServerBench has agents design full LLM serving stacks for dollars",
+      "takeaway": "The benchmark scores specialized serving systems on a dollars-per-dollar objective across latency and correctness.",
+      "soWhat": "Serving infrastructure is becoming something agents can experiment on, not only humans.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-04T17:59:07Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.06841"
+      },
+      "image": {
+        "src": "/img/serverbench-agent-llm-serving.jpg",
+        "alt": "arXiv: ServerBench has agents design full LLM serving stacks for dollars"
+      }
+    },
+    {
+      "id": "ask-hn-agentic-setups-nov2026",
+      "title": "Ask HN maps today's agent stacks: Claude Code, Codex, OpenClaw",
+      "takeaway": "A 354-point thread shows Claude IDE with Opus 5.5, Codex subs, cheap OpenRouter routes, and harnesses like Pi.",
+      "soWhat": "Real agent stacks are consolidating around a few paid harnesses plus cheap overflow models.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 6,
+      "publishedAt": "2026-11-04T14:37:22Z",
+      "source": {
+        "name": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50366117"
+      },
+      "image": {
+        "src": "/img/ask-hn-agentic-setups-nov2026.jpg",
+        "alt": "Hacker News: Ask HN maps today's agent stacks: Claude Code, Codex, OpenClaw"
+      }
+    },
+    {
+      "id": "tencent-hy4-vision-computer-use",
+      "title": "Tencent Hy4 ships vision plus CLI and GUI computer use",
+      "takeaway": "API is live on Tencent Cloud and OpenRouter at preview prices; weights and a system card are planned.",
+      "soWhat": "Computer-use agents now have another production API option besides the usual US labs.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-04T09:57:15Z",
+      "source": {
+        "name": "Tencent Hunyuan",
+        "url": "https://hy.tencent.ai/research/hy4"
       },
       "related": [
         {
-          "name": "Hacker News thread",
-          "url": "https://news.ycombinator.com/item?id=50366863"
+          "name": "Hacker News (253)",
+          "url": "https://news.ycombinator.com/item?id=50365780"
         }
       ],
       "image": {
-        "src": "/img/openai-to-acquire-pierre.jpg",
-        "alt": "OpenAI: OpenAI will acquire Pierre to build Git workflows for coding agents"
+        "src": "/img/tencent-hy4-vision-computer-use.jpg",
+        "alt": "Tencent Hunyuan: Tencent Hy4 ships vision plus CLI and GUI computer use"
       }
     }
   ],
   "voices": [
     {
-      "handle": "@ClaudeDevs",
-      "quote": "A running subagent updates its status line every 30 seconds, and each update used to re-read its whole conversation.",
-      "url": "https://x.com/ClaudeDevs/status/2118063143167693011"
+      "handle": "@_catwu",
+      "quote": "Some news: I'm joining OpenAI to lead product management for Core Products!",
+      "url": "https://x.com/_catwu/status/2118137612577968402"
     },
     {
-      "handle": "@steipete",
-      "quote": "Do individual limits still make sense?",
-      "url": "https://x.com/steipete/status/2118116514700386439"
+      "handle": "@thsottiaux",
+      "quote": "Welcome Cat. Stoked to be building together soon.",
+      "url": "https://x.com/thsottiaux/status/2118138648214585591"
     },
     {
-      "handle": "@charlieholtz",
-      "quote": "I’m convinced MSL has the highest talent density of all the labs.",
-      "url": "https://x.com/charlieholtz/status/2118045232218743264"
+      "handle": "@GeoffreyHuntley",
+      "quote": "pushing overalls.dev back by a couple weeks whilst i do verification runs with @AntithesisHQ to shake out defects.",
+      "url": "https://x.com/GeoffreyHuntley/status/2118275477433364606"
     },
     {
-      "handle": "@theo",
-      "quote": "T3 Code’s best competitor just joined Meta",
-      "url": "https://x.com/theo/status/2118069196638834708"
+      "handle": "@garrytan",
+      "quote": "GStack's /review skill is actually useful for preventing bugs still",
+      "url": "https://x.com/garrytan/status/2118221083233206736"
     },
     {
       "handle": "@nathanbenaich",
-      "quote": "the whole “we’re sota for american open weight models” when you’re still worse than china is quite odd energy",
+      "quote": "the whole \"we're sota for american open weight models\" when you're still worse than china is quite odd energy",
       "url": "https://x.com/nathanbenaich/status/2118072213790244895"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/ClaudeDevs/status/2118063143167693011",
-      "handle": "@ClaudeDevs",
-      "text": "Now Haiku 5.5 writes it from short notes instead, so each update costs about 99% less.",
-      "metric": "12.1k likes",
-      "note": "Usage limits are a top Claude Code pain point, so any cost cut spreads fast."
+      "url": "https://x.com/_catwu/status/2118137612577968402",
+      "handle": "@_catwu",
+      "text": "Some news: I'm joining OpenAI to lead product management for Core Products!",
+      "metric": "14.3k likes",
+      "note": "Claude Code's product lead moving to OpenAI is a rare public talent coup."
     },
     {
-      "url": "https://x.com/charlieholtz/status/2118045232218743264",
-      "handle": "@charlieholtz",
-      "text": "Conductor is joining Meta to work with Nat Friedman and Alexandr Wang at MSL on the next interface.",
-      "metric": "3.3k likes",
-      "note": "Another independent coding-agent team folding into a big lab worries the tools' users."
+      "url": "https://x.com/garrytan/status/2118221083233206736",
+      "handle": "@garrytan",
+      "text": "GStack's /review skill is actually useful for preventing bugs still",
+      "metric": "102 likes",
+      "note": "Builders keep sharing review skills that catch bugs before merge."
     },
     {
-      "url": "https://x.com/AnthropicAI/status/2118073665296228863",
-      "handle": "@AnthropicAI",
-      "text": "Claude helped map the first 3D structure of a prokaryotic vault particle; preprint submitted to bioRxiv.",
-      "metric": "2.4k likes",
-      "note": "A concrete case of AI speeding up real lab science, with its mistakes disclosed."
+      "url": "https://x.com/GeoffreyHuntley/status/2118275477433364606",
+      "handle": "@GeoffreyHuntley",
+      "text": "pushing overalls.dev back by a couple weeks whilst i do verification runs with @AntithesisHQ",
+      "metric": "28 likes",
+      "note": "Self-hosted agent infra is delaying launch to prove reliability first."
     },
     {
-      "url": "https://x.com/markgurman/status/2118068667103453360",
-      "handle": "@markgurman",
-      "text": "Apple is cutting employee AI budgets: engineers' daily limits went from $300 to $200.",
-      "metric": "1.9k likes",
-      "note": "Even the richest companies are now rationing AI spend per employee."
-    },
-    {
-      "url": "https://x.com/OpenAI/status/2118119451401048497",
-      "handle": "@OpenAI",
-      "text": "Autonomous pipeline validated and generated patches for 948 Linux kernel privilege escalation bugs in one run.",
-      "metric": "886 likes",
-      "note": "AI finding kernel bugs at this scale changes the economics of security work."
+      "url": "https://x.com/nathanbenaich/status/2118072213790244895",
+      "handle": "@nathanbenaich",
+      "text": "the whole \"we're sota for american open weight models\" when you're still worse than china is quite odd energy",
+      "metric": "21 likes",
+      "note": "Open-weight bragging rights are being scored against Chinese models."
     }
   ]
 }
