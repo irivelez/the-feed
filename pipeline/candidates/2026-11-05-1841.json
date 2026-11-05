@@ -1,0 +1,369 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-05-1841",
+  "generatedAt": "2026-11-05T23:41:13Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-05T17:38:00Z",
+    "to": "2026-11-05T23:41:13Z"
+  },
+  "sourceNotes": [
+    "Window 17:38Z to 23:41Z Nov 5 (since the 12:37 run). 10 candidates (5 practical, 3 broad, 2 frontier-capital, 0 design). Evening led by Cursor live-app deploy, Claude Personal Finance, Perplexity Teammates (+ Arav 10k internal), Claude Code email-in-User-Agent leak (HN 201), Hermes Agent v0.23 Hearth, LangChain async subagents, theo agent-UI tokens video, Meta Muse voice, and Naval/Lyn Alden frontier views.",
+    "RSS: Verge used for Perplexity Teammates, Claude Personal Finance, and Meta Muse voice. OpenAI Blog still GPT-6 Cyber / Merge / infrastructure (Cyber already covered midday; Merge customer story skipped as thin/out-of-window). Stratechery Intuit interview already in 06:37. Simon Quoting Paul Ford thin. Lenny/Benedict Evans/Mollick/Hashimoto: nothing new in-window. Gary Marcus 'Mayhem in the market' market-crash commentary — skipped (mute-adjacent). Atlantic Google Chromebooks / election Musk pieces off-lens or partisan; not used. MIT Download Texas/energy overlaps prior BAAJA/Texas items.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returns HTTP 500 again; still dead.",
+    "Metaplanet Google News: Bitcoin treasury / share-buyback / MSCI capital-markets items only; not a view; not used. TaviCosta quiet this window.",
+    "Hacker News (minPoints ~150+, AI filter): Claude Code email User-Agent (201) used. GPT-6 Astra covert underperformance (274) and MCP Explained already in midday file. MS Paint RCE and Hungary communist 'agents' off-lens.",
+    "arXiv (cs.AI/CL/MA, agents): Airlock / SpecCompact / ServerBench / BoN / CompressionBench already in earlier Nov 5 files; no new in-window agent paper used.",
+    "X howTo: @cursor_ai live apps, @NousResearch Hermes v0.23, @LangChain/@hwchase17 async subagents, @theo agent-UI tokens used. Query lane still mostly low-quality Claude Code listicles; none cleared quality bar. @mattpocockuk/@steipete replies thin.",
+    "X bigPicture: @claudeai Personal Finance, @perplexity_ai/@AravSrinivas Teammates used. @a16z ransomware/patch-gap follow-up and Figma CFO recruiting clip overlap midday exploit essay — not re-added. @beffjezos/@garrytan partisan midterms posts muted. @rauchg Vercel/Cursor/Grok loop folded as related on Cursor live apps.",
+    "X frontierCapital: @naval hard-to-build-tech / capitalism view and @LynAldenContact air-gapped critical systems (FAA/nuclear/banking) in AI-hacking era used. @nathanbenaich Alta Ares NATO win / Quest seed are portfolio news — not used. @RayDalio/@VitalikButerin/@bhorowitz/@gerovich quiet or thin.",
+    "X design: @MengTo REA-for-Growth already in 12:37 file; no new design post in-window. Section empty this run.",
+    "Non-lane primaries: Cursor changelog (live apps), Anthropic Personal Finance article, LangChain 'Agents Are Going Async' blog, Hermes GitHub release notes, Claude Code GitHub issue #107757.",
+    "Replies not separately harvested this run (budget). authorBaseline not filled. X calls this run: 7."
+  ],
+  "candidates": [
+    {
+      "id": "cursor-live-apps-deploy",
+      "lens": "practical",
+      "topic": "cursor-live-apps",
+      "summary": "Cursor shipped Build Live Apps: cloud agents can scaffold a web app, provision Postgres and Cursor-SSO auth, run deterministic plus agentic security checks, and publish a shareable link so tools leave localhost; available on all paid plans with cloud agents enabled.",
+      "facts": [
+        "Cursor changelog and @cursor_ai (2026-11-05): describe the tool; Cursor builds, sets up a database, configures auth, and deploys; publish picks a unique domain and returns a live link.",
+        "Guardrails: deterministic and agentic security checks catch secrets in app files / exposed credentials; nothing goes live until checks pass and the user explicitly publishes; team admins can see every app and secret, add review rules, approve blocked publishes, and unpublish.",
+        "Sharing: specific people, groups, or entire team behind Cursor sign-in; individual plans can also share publicly; Cursor API key can let a script or Grok Bot call the app.",
+        "Repos/GitHub supported; GitLab coming; @rauchg and Vercel noted one-click deploy built on Vercel for Platforms; internal Cursor teams already using it for ops tools, customer demos, onboarding, sales dashboards, and engineering portals."
+      ],
+      "source": {
+        "name": "Cursor",
+        "url": "https://cursor.com/changelog",
+        "type": "web",
+        "handle": "cursor_ai"
+      },
+      "related": [
+        {
+          "name": "Cursor on X",
+          "url": "https://x.com/cursor_ai/status/2118458629091426304"
+        },
+        {
+          "name": "Guillermo Rauch on the build-deploy-distribute loop",
+          "url": "https://x.com/rauchg/status/2118474519925158186"
+        }
+      ],
+      "publishedAt": "2026-11-05T21:41:10Z",
+      "metrics": {
+        "likes": 1263,
+        "reposts": 109,
+        "replies": 138,
+        "views": 94777,
+        "capturedAt": "2026-11-05T23:41:00Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://cursor.com/changelog",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "claude-personal-finance-plaid",
+      "lens": "broad",
+      "topic": "claude-personal-finance",
+      "summary": "Anthropic launched Personal Finance in Claude (US beta on Pro/Max/Ultra): users connect bank and card accounts via Plaid for read-only balances and up to two years of transactions, and Claude answers money questions in everyday language without moving funds or giving investment advice.",
+      "facts": [
+        "Anthropic article and @claudeai (2026-11-05): access is read-only; Claude cannot move, manage, or invest money; no ads or sponsored recommendations; not designed to give investment advice.",
+        "Via Plaid the user signs into the bank; Claude does not see banking passwords; for connected accounts Claude sees bank name, account name/type/last four digits, balances and credit limits, and up to two years of transactions.",
+        "Example flows: 'Where did my money go this month?' with category breakdown; bills left before payday; whether a trip is affordable; charts and calendars the user can adjust.",
+        "Personal Finance hub chats are not used to train models; accounts can be unlinked anytime; Anthropic says it is exploring working alongside licensed professionals and wants banks/wealth managers to help shape next steps. Verge coverage same day."
+      ],
+      "source": {
+        "name": "Anthropic / Claude",
+        "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
+        "type": "web",
+        "handle": "claudeai"
+      },
+      "related": [
+        {
+          "name": "Claude on X",
+          "url": "https://x.com/claudeai/status/2118403114890137895"
+        },
+        {
+          "name": "The Verge: Claude + Plaid",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance"
+        }
+      ],
+      "publishedAt": "2026-11-05T18:00:35Z",
+      "metrics": {
+        "likes": 22561,
+        "reposts": 1023,
+        "replies": 801,
+        "views": 2929056,
+        "capturedAt": "2026-11-05T23:41:00Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "perplexity-teammates-launch",
+      "lens": "broad",
+      "topic": "perplexity-teammates",
+      "summary": "Perplexity launched Teammates — always-on work agents that take jobs using Computer projects/skills/memory, collaborate with other teammates, and message coworkers in Slack; Max ($200/mo) web preview today, with CEO Aravind Srinivas saying ~10,000 teammates ran internally in 30 days (~20× headcount).",
+      "facts": [
+        "@perplexity_ai (2026-11-05): Teammates work proactively from existing Projects, skills, and memory in Computer; each gets its own thread; available now for Max subscribers on the web.",
+        "@AravSrinivas: about 10,000 teammates in Perplexity's internal workspace in the last 30 days (~20× headcount); about 1,000 active yesterday; 'Headcount growth and planning will be done very differently in the coming years.'",
+        "Verge: positioned against OpenAI Dots and Claude Duet; builds on Perplexity Computer for ongoing large-scale work; Slack interaction supported; more expensive because it requires Max.",
+        "Quoted Johnny Hwin note: research preview for Max; intended for deep research, data analysis, QA, triaging tickets, reviewing code; teammates close their own loops rather than needing repeated session steering."
+      ],
+      "source": {
+        "name": "Perplexity",
+        "url": "https://x.com/perplexity_ai/status/2118389326459670825",
+        "type": "x",
+        "handle": "perplexity_ai"
+      },
+      "related": [
+        {
+          "name": "Aravind Srinivas on internal Teammates count",
+          "url": "https://x.com/AravSrinivas/status/2118396712775819430"
+        },
+        {
+          "name": "The Verge: Perplexity Teammates",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
+        }
+      ],
+      "publishedAt": "2026-11-05T17:05:47Z",
+      "metrics": {
+        "likes": 711,
+        "reposts": 69,
+        "replies": 85,
+        "views": 91513,
+        "capturedAt": "2026-11-05T23:41:00Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://x.com/perplexity_ai/status/2118389326459670825",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "claude-code-email-user-agent-leak",
+      "lens": "practical",
+      "topic": "claude-code-email-leak",
+      "summary": "A Claude Code GitHub issue (HN 201) reports the harness put the user's email in the User-Agent header on web requests during searches; an Anthropic commenter says built-in mod cc-plugin-privacy in v2.1.317+ blocks the behavior by default (toggleable via /plugins).",
+      "facts": [
+        "GitHub issue #107757 opened 2026-11-05 by taylor-edwards against anthropics/claude-code (labels bug, area:security, area:tools); reporter on macOS Claude Code 2.1.318 says email was sent to third parties in User-Agent during web searches without permission.",
+        "HN discussion 'Claude Code sends your email address to websites' reached 201 points the same evening.",
+        "Comment from poteat (2026-11-05): built-in mod cc-plugin-privacy introduced to deterministically block this in v2.1.317 and later; enabled by default; can be turned off via /plugins; plans to publish the mod source like other built-ins.",
+        "Issue also references #101659 about a subagent sending the user's email from session context in a User-Agent header."
+      ],
+      "source": {
+        "name": "GitHub / Claude Code",
+        "url": "https://github.com/anthropics/claude-code/issues/107757",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Hacker News (201)",
+          "url": "https://news.ycombinator.com/item?id=50385272"
+        }
+      ],
+      "publishedAt": "2026-11-05T22:17:15Z",
+      "metrics": {
+        "points": 201,
+        "capturedAt": "2026-11-05T23:41:00Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://github.com/anthropics/claude-code/issues/107757",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "hermes-agent-v023-hearth",
+      "lens": "practical",
+      "topic": "hermes-hearth",
+      "summary": "Nous Research released Hermes Agent v0.23.0 (Hearth): Desktop workspace in a browser tab from your own gateway, one gateway owning every conversation across CLI/TUI/Desktop/bots/cron, /Rewind, Group Chats with automatic routing, spend limits on paid MCP tools, and latency/memory work for long-lived gateways.",
+      "facts": [
+        "GitHub release and @NousResearch (2026-11-05): since v0.22.0 ~10,080 commits, ~1,950 merged PRs, ~850 issues closed, 666 contributors; rolls up v0.22.1–v0.22.7 patch notes.",
+        "Webapp serves full Desktop workspace from the gateway (off by default; webapp.enabled / Web Access); one gateway per machine owns sessions so surfaces stop double-writing.",
+        "Other highlights: Esc Esc or /Rewind to edit/fork earlier prompts; Group Chat lead-bot or auto router; paid MCP tools show price and chat spend limits even in YOLO; plugin catalog ~600 → 1,050+ with a Verified tier; pluggable delegation including advanced-delegation plugin.",
+        "Breaking: old browser_* tools removed in favor of browser_exec; Desktop needs macOS 13+ / 64-bit Windows (Electron 44); hermes mcp serve → hermes mcp-serve plugin."
+      ],
+      "source": {
+        "name": "Nous Research",
+        "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0",
+        "type": "web",
+        "handle": "NousResearch"
+      },
+      "related": [
+        {
+          "name": "Nous Research on X",
+          "url": "https://x.com/NousResearch/status/2118479744979079669"
+        }
+      ],
+      "publishedAt": "2026-11-05T21:32:33Z",
+      "metrics": {
+        "likes": 379,
+        "reposts": 22,
+        "replies": 37,
+        "views": 16933,
+        "capturedAt": "2026-11-05T23:41:00Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "langchain-async-subagents",
+      "lens": "practical",
+      "topic": "async-subagents",
+      "summary": "LangChain published Agents Are Going Async and shipped async subagents in Deep Agents (Python/JS) and Managed Deep Agents: an orchestrator stays responsive while background subagents run long work and report back, with start/check/update/cancel/list tools and interrupt vs enqueue steering.",
+      "facts": [
+        "LangChain blog by Sydney Runkle and Thushanth Bengre (2026-11-05); promoted by @LangChain and @hwchase17 (Harrison: most agents LangChain builds internally already leverage async subagents).",
+        "Pattern framed against blocked ReAct loops; cites Claude Code background subagents, OpenAI Dots background workers, and DeepSeek Harness router + workers.",
+        "Orchestrator tools: start_async_task, check_async_task, update_async_task, cancel_async_task, list_async_tasks; update_strategy interrupt (default) vs enqueue.",
+        "Managed Deep Agents: set \"async\": True on a subagent; every served agent also gets an async general-purpose subagent; task notifications in beta; sample repo async-deep-agents."
+      ],
+      "source": {
+        "name": "LangChain",
+        "url": "https://blog.langchain.com/agents-are-going-async",
+        "type": "blog",
+        "handle": "LangChain"
+      },
+      "related": [
+        {
+          "name": "LangChain on X",
+          "url": "https://x.com/LangChain/status/2118438264009114101"
+        },
+        {
+          "name": "Harrison Chase on X",
+          "url": "https://x.com/hwchase17/status/2118464263497142576"
+        }
+      ],
+      "publishedAt": "2026-11-05T20:05:12Z",
+      "metrics": {
+        "likes": 125,
+        "reposts": 11,
+        "replies": 9,
+        "views": 15381,
+        "capturedAt": "2026-11-05T23:41:00Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://blog.langchain.com/agents-are-going-async",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "theo-agents-ui-token-burn",
+      "lens": "practical",
+      "topic": "agent-ui-tokens",
+      "summary": "Theo (t3.gg) posted a long how-to video arguing agents can be made good at UI work if you spend enough tokens on the loop, saying the clip has already helped many developers.",
+      "facts": [
+        "@theo post 2026-11-05: 'Turns out you can make agents good at UI if you burn enough tokens' with an attached ~31-minute video; asks viewers to say if it helps.",
+        "Engagement at capture: 492 likes, 11 reposts, 60 replies, ~21k views; howTo-lane account."
+      ],
+      "source": {
+        "name": "Theo",
+        "url": "https://x.com/theo/status/2118465321032106235",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-05T22:07:46Z",
+      "metrics": {
+        "likes": 492,
+        "reposts": 11,
+        "replies": 60,
+        "views": 21035,
+        "capturedAt": "2026-11-05T23:41:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/theo/status/2118465321032106235",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "naval-hard-to-build-technology",
+      "lens": "frontier-capital",
+      "topic": "naval-progress-capitalism",
+      "summary": "Naval argues actual progress comes from hard-to-build technology, which comes from competitive creative free-market capitalism in one small precarious area that then diffuses worldwide — and that snuffing that out means global stagnation for a very long time.",
+      "facts": [
+        "@naval post 2026-11-05: 'Actual progress comes from hard-to-build technology. Which comes from competitive, creative, free-market capitalism. Which comes from one small, precarious area and then diffuses to the rest of the world. Snuff that out, and it’s global stagnation for an extremely long time.'",
+        "Frontier-capital lane; original view post (not a market tip)."
+      ],
+      "source": {
+        "name": "Naval",
+        "url": "https://x.com/naval/status/2118479933530063135",
+        "type": "x",
+        "handle": "naval"
+      },
+      "publishedAt": "2026-11-05T23:05:50Z",
+      "metrics": {
+        "likes": 1670,
+        "reposts": 157,
+        "replies": 92,
+        "views": 78150,
+        "capturedAt": "2026-11-05T23:41:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://x.com/naval/status/2118479933530063135",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "lyn-alden-airgapped-critical-systems",
+      "lens": "frontier-capital",
+      "topic": "airgapped-critical-systems",
+      "summary": "Lyn Alden, tying to recent AI hacking news, argues that keeping nuclear codes, air-traffic, and core bank systems on offline rarely updated media is not the worst design — security and maintenance beat frequent innovation for existential systems she saw firsthand at the FAA.",
+      "facts": [
+        "@LynAldenContact thread 2026-11-05: TL;DR that nuclear codes, air traffic, and core bank systems on offline floppy drives that never updated is 'not the worst thing, given the increasing era of hacking.'",
+        "Earlier in thread: nuclear systems stayed on that tech until ~2019; FAA is phasing out now; 'Super-secure slow-update tech like nuclear, air traffic, or banking, doesn't want to touch the outside world for as long as possible.'",
+        "Source note: she worked 12 years at the FAA simulation division for new technology; when existential systems update it needs extreme vetting; old isolated maintained tech can be good.",
+        "Explicitly frames the view against recent AI hacking headlines."
+      ],
+      "source": {
+        "name": "Lyn Alden",
+        "url": "https://x.com/LynAldenContact/status/2118465141658284239",
+        "type": "x",
+        "handle": "LynAldenContact"
+      },
+      "related": [
+        {
+          "name": "Lyn Alden thread root",
+          "url": "https://x.com/LynAldenContact/status/2118462852268691665"
+        }
+      ],
+      "publishedAt": "2026-11-05T22:07:03Z",
+      "metrics": {
+        "likes": 335,
+        "reposts": 16,
+        "replies": 24,
+        "views": 33075,
+        "capturedAt": "2026-11-05T23:41:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://x.com/LynAldenContact/status/2118465141658284239",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "meta-muse-voice-mode",
+      "lens": "broad",
+      "topic": "meta-muse-voice",
+      "summary": "The Verge reports Meta's Muse AI now has a two-way voice mode with a more expressive avatar, extending Muse beyond text chat.",
+      "facts": [
+        "The Verge (Jay Peters, 2026-11-05 ~19:03 UTC-5): 'Muse has a voice mode now' covering Meta Muse AI voice mode and expressive avatar.",
+        "Also echoed on X by Meta-adjacent accounts in-window (e.g. Alexandr Wang quote of Muse voice live). Primary detail kept to Verge headline-level confirmation."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-05T22:03:00Z",
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+      "firstSeen": "2026-11-05"
+    }
+  ]
+}
