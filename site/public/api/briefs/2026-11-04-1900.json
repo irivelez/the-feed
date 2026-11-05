@@ -1,0 +1,420 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-04-1900",
+  "date": "2026-11-04",
+  "publishedAt": "2026-11-05T00:08:25Z",
+  "edition": "Evening",
+  "top3": [
+    {
+      "itemId": "apple-cuts-employee-ai-budgets",
+      "headline": "Apple cuts staff AI budgets while pushing employees to use more AI",
+      "whyItMatters": "If Apple caps AI spend per person, your teams will need clear budgets for agent use."
+    },
+    {
+      "itemId": "claude-code-subagent-status-99pct-cheaper",
+      "headline": "Claude Code subagent status updates now cost about 99% less",
+      "whyItMatters": "Cheaper background agents mean more work per seat before teams hit usage limits."
+    },
+    {
+      "itemId": "openai-to-acquire-pierre",
+      "headline": "OpenAI will acquire Pierre to build Git workflows for coding agents",
+      "whyItMatters": "Reviewing agent-written code is now a platform contest, and OpenAI wants to own that workflow."
+    }
+  ],
+  "items": [
+    {
+      "id": "chatgpt-images-2-6-gifs",
+      "title": "ChatGPT Images 2.6 adds animated GIFs and reference images",
+      "takeaway": "OpenAI says two new image models are coming to the API with 50% faster generation.",
+      "soWhat": "Teams can now make simple animations inside ChatGPT without a separate design tool.",
+      "lens": "design",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-04T23:35:14Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2118124944928432327"
+      },
+      "related": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6"
+        }
+      ],
+      "image": {
+        "src": "/img/chatgpt-images-2-6-gifs.jpg",
+        "alt": "Image from @OpenAI on X"
+      },
+      "heat": {
+        "score": 8,
+        "level": "none",
+        "metric": "18k views"
+      }
+    },
+    {
+      "id": "openai-autonomous-cyber-pipeline-948-linux-lpe",
+      "title": "OpenAI's autonomous pipeline generated patches for 948 Linux kernel flaws",
+      "takeaway": "One run with an unreleased cyber model cost $1.2 million in API fees; upstream status not stated.",
+      "soWhat": "Bug discovery is scaling with AI, so budget for faster patching across your own stack.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 8,
+      "publishedAt": "2026-11-04T23:13:24Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2118119451401048497"
+      },
+      "related": [
+        {
+          "name": "IEEE Spectrum on AI-found exploits",
+          "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
+        }
+      ],
+      "image": {
+        "src": "/img/openai-autonomous-cyber-pipeline-948-linux-lpe.jpg",
+        "alt": "Image from @OpenAI on X"
+      },
+      "heat": {
+        "score": 17,
+        "level": "none",
+        "metric": "68k views"
+      }
+    },
+    {
+      "id": "perplexity-decisions-api-web-grounding",
+      "title": "Perplexity's Decisions API can now ground answers in the live web",
+      "takeaway": "Setting mode to web_grounding runs one Fast Search query per question, at $0.001 per search.",
+      "soWhat": "Automated batch decisions can now use current facts for a fraction of a cent each.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-04T21:31:09Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2118093720243560711"
+      },
+      "related": [
+        {
+          "name": "@perplexitydevs on X",
+          "url": "https://x.com/perplexitydevs/status/2118086413854150890"
+        }
+      ],
+      "image": {
+        "src": "/img/perplexity-decisions-api-web-grounding.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 1,
+        "level": "none",
+        "metric": "7k views"
+      }
+    },
+    {
+      "id": "malicious-agent-tool-repos-smartloader",
+      "title": "Researcher finds 73 fake AI agent tool repos spreading malware",
+      "takeaway": "They posed as Claude skills, Codex and MCP servers; 51 were still live. Single report.",
+      "soWhat": "Install skills and MCP servers only from vetted sources, since fake ones are spreading.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 6,
+      "publishedAt": "2026-11-04T20:20:34Z",
+      "source": {
+        "name": "@fr0gger_ on X",
+        "url": "https://x.com/fr0gger_/status/2118075954740547684"
+      },
+      "image": {
+        "src": "/img/malicious-agent-tool-repos-smartloader.jpg",
+        "alt": "Image from @fr0gger_ on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "2k views"
+      }
+    },
+    {
+      "id": "anthropic-claude-vault-particles",
+      "title": "Anthropic used Claude to map a vault particle's structure in days",
+      "takeaway": "Manual work would have taken weeks to months; researchers had to fix some simple mistakes.",
+      "soWhat": "AI is shortening lab research timelines, but experts still need to check its work.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-04T20:11:28Z",
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude"
+      },
+      "related": [
+        {
+          "name": "@AnthropicAI on X",
+          "url": "https://x.com/AnthropicAI/status/2118073665296228863"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-claude-vault-particles.jpg",
+        "alt": "Image from Anthropic"
+      },
+      "heat": {
+        "score": 24,
+        "level": "none",
+        "metric": "192k views"
+      }
+    },
+    {
+      "id": "apple-cuts-employee-ai-budgets",
+      "title": "Apple cuts staff AI budgets while pushing employees to use more AI",
+      "takeaway": "Engineers' daily limit fell from $300 to $200, with $100 planned; some teams could drop to $25.",
+      "soWhat": "Per-person AI spending caps are arriving, so decide now how you will budget agent use.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-04T19:51:36Z",
+      "source": {
+        "name": "@markgurman on X",
+        "url": "https://x.com/markgurman/status/2118068667103453360"
+      },
+      "related": [
+        {
+          "name": "MacRumors summary",
+          "url": "https://www.macrumors.com/2026/11/04/apple-reducing-employee-ai-spending/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/apple-cuts-internal-ai-usage-budgets-in-move-to-reduce-spending"
+        }
+      ],
+      "image": {
+        "src": "/img/apple-cuts-employee-ai-budgets.jpg",
+        "alt": "Image from @markgurman on X"
+      },
+      "heat": {
+        "score": 22,
+        "level": "none",
+        "metric": "314k views"
+      }
+    },
+    {
+      "id": "claude-code-subagent-status-99pct-cheaper",
+      "title": "Claude Code subagent status updates now cost about 99% less",
+      "takeaway": "Haiku 5.5 now writes the 30-second status line from short notes instead of rereading the conversation.",
+      "soWhat": "Background agents are getting cheaper to run, which stretches every team's usage limits.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-04T19:29:39Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2118063143167693011"
+      },
+      "image": {
+        "src": "/img/claude-code-subagent-status-99pct-cheaper.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      },
+      "heat": {
+        "score": 34,
+        "level": "none",
+        "metric": "622k views"
+      }
+    },
+    {
+      "id": "hermes-agent-marketplace",
+      "title": "Nous Research puts Hermes Agent plugins and skills in one marketplace",
+      "takeaway": "A 7-day plugin hackathon offers $20,000 in cash prizes.",
+      "soWhat": "Agent platforms now compete on extensions, so favor ones with a vetted plugin catalog.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-04T19:11:01Z",
+      "source": {
+        "name": "@NousResearch on X",
+        "url": "https://x.com/NousResearch/status/2118058453415371119"
+      },
+      "related": [
+        {
+          "name": "Hermes Marketplace",
+          "url": "https://hermes-agent.nousresearch.com/marketplace"
+        }
+      ],
+      "image": {
+        "src": "/img/hermes-agent-marketplace.jpg",
+        "alt": "Image from @NousResearch on X"
+      },
+      "heat": {
+        "score": 15,
+        "level": "none",
+        "metric": "56k views"
+      }
+    },
+    {
+      "id": "ripple-65b-open-weight-agentic-coding",
+      "title": "Ripple-65B claims the top US open-weight score for agentic coding",
+      "takeaway": "Self-reported 80.52 on TerminalBench 2.1 at a stated $32M full R&D cost; Benaich notes China still leads.",
+      "soWhat": "Smaller open models that run locally keep closing in, lowering the cost of in-house agents.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-04T18:53:29Z",
+      "source": {
+        "name": "Ricursive Intelligence",
+        "url": "https://www.ricursive.com/ripple"
+      },
+      "related": [
+        {
+          "name": "@nathanbenaich on X",
+          "url": "https://x.com/nathanbenaich/status/2118072213790244895"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50369925"
+        }
+      ],
+      "image": {
+        "src": "/img/ripple-65b-open-weight-agentic-coding.jpg",
+        "alt": "Image from Ricursive Intelligence"
+      }
+    },
+    {
+      "id": "texas-data-center-buildout-at-risk",
+      "title": "Texas, the fastest-growing data center market, may slow AI buildouts",
+      "takeaway": "The governor-elect backed a moratorium; Nexus Hubbard, mostly for Anthropic, is planned at 6,400 MW.",
+      "soWhat": "Plan for compute delays, since even Texas may halt new data center projects.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 7,
+      "publishedAt": "2026-11-04T18:50:55Z",
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
+      },
+      "related": [
+        {
+          "name": "Stratechery: AI on the Ballot",
+          "url": "https://stratechery.com/2026/ai-on-the-ballot/"
+        }
+      ],
+      "image": {
+        "src": "/img/texas-data-center-buildout-at-risk.jpg",
+        "alt": "Image from MIT Technology Review"
+      }
+    },
+    {
+      "id": "conductor-joins-meta-msl",
+      "title": "Coding-agent app Conductor joins Meta Superintelligence Labs",
+      "takeaway": "Charlie Holtz says the team will work on 'the next interface' with Nat Friedman and Alexandr Wang; terms undisclosed.",
+      "soWhat": "Big labs are absorbing coding-agent teams, so expect fewer independent tools to choose from.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-04T18:18:29Z",
+      "source": {
+        "name": "@charlieholtz on X",
+        "url": "https://x.com/charlieholtz/status/2118045232218743264"
+      },
+      "related": [
+        {
+          "name": "@theo on X",
+          "url": "https://x.com/theo/status/2118069196638834708"
+        }
+      ],
+      "image": {
+        "src": "/img/conductor-joins-meta-msl.jpg",
+        "alt": "Image from @charlieholtz on X"
+      },
+      "heat": {
+        "score": 36,
+        "level": "none",
+        "metric": "322k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "openai-to-acquire-pierre",
+      "title": "OpenAI will acquire Pierre to build Git workflows for coding agents",
+      "takeaway": "Pierre's libraries already power the Codex app; its open-source projects stay open; closing needs approval.",
+      "soWhat": "Reviewing agent-written code is becoming a core platform, not a side tool.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-04T14:30:00Z",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/openai-to-acquire-pierre/"
+      },
+      "related": [
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50366863"
+        }
+      ],
+      "image": {
+        "src": "/img/openai-to-acquire-pierre.jpg",
+        "alt": "OpenAI: OpenAI will acquire Pierre to build Git workflows for coding agents"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@ClaudeDevs",
+      "quote": "A running subagent updates its status line every 30 seconds, and each update used to re-read its whole conversation.",
+      "url": "https://x.com/ClaudeDevs/status/2118063143167693011"
+    },
+    {
+      "handle": "@steipete",
+      "quote": "Do individual limits still make sense?",
+      "url": "https://x.com/steipete/status/2118116514700386439"
+    },
+    {
+      "handle": "@charlieholtz",
+      "quote": "I’m convinced MSL has the highest talent density of all the labs.",
+      "url": "https://x.com/charlieholtz/status/2118045232218743264"
+    },
+    {
+      "handle": "@theo",
+      "quote": "T3 Code’s best competitor just joined Meta",
+      "url": "https://x.com/theo/status/2118069196638834708"
+    },
+    {
+      "handle": "@nathanbenaich",
+      "quote": "the whole “we’re sota for american open weight models” when you’re still worse than china is quite odd energy",
+      "url": "https://x.com/nathanbenaich/status/2118072213790244895"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/ClaudeDevs/status/2118063143167693011",
+      "handle": "@ClaudeDevs",
+      "text": "Now Haiku 5.5 writes it from short notes instead, so each update costs about 99% less.",
+      "metric": "12.1k likes",
+      "note": "Usage limits are a top Claude Code pain point, so any cost cut spreads fast."
+    },
+    {
+      "url": "https://x.com/charlieholtz/status/2118045232218743264",
+      "handle": "@charlieholtz",
+      "text": "Conductor is joining Meta to work with Nat Friedman and Alexandr Wang at MSL on the next interface.",
+      "metric": "3.3k likes",
+      "note": "Another independent coding-agent team folding into a big lab worries the tools' users."
+    },
+    {
+      "url": "https://x.com/AnthropicAI/status/2118073665296228863",
+      "handle": "@AnthropicAI",
+      "text": "Claude helped map the first 3D structure of a prokaryotic vault particle; preprint submitted to bioRxiv.",
+      "metric": "2.4k likes",
+      "note": "A concrete case of AI speeding up real lab science, with its mistakes disclosed."
+    },
+    {
+      "url": "https://x.com/markgurman/status/2118068667103453360",
+      "handle": "@markgurman",
+      "text": "Apple is cutting employee AI budgets: engineers' daily limits went from $300 to $200.",
+      "metric": "1.9k likes",
+      "note": "Even the richest companies are now rationing AI spend per employee."
+    },
+    {
+      "url": "https://x.com/OpenAI/status/2118119451401048497",
+      "handle": "@OpenAI",
+      "text": "Autonomous pipeline validated and generated patches for 948 Linux kernel privilege escalation bugs in one run.",
+      "metric": "886 likes",
+      "note": "AI finding kernel bugs at this scale changes the economics of security work."
+    }
+  ]
+}

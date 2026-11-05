@@ -1,362 +1,420 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-04-1300",
+  "id": "2026-11-04-1900",
   "date": "2026-11-04",
-  "publishedAt": "2026-11-04T18:20:00Z",
-  "edition": "Midday",
+  "publishedAt": "2026-11-05T00:08:25Z",
+  "edition": "Evening",
   "top3": [
     {
-      "itemId": "uber-four-agent-rides-q3",
-      "headline": "AI agents booked just four Uber rides last quarter",
-      "whyItMatters": "Agent commerce is still tiny, so don't rebuild sales channels around it yet."
+      "itemId": "apple-cuts-employee-ai-budgets",
+      "headline": "Apple cuts staff AI budgets while pushing employees to use more AI",
+      "whyItMatters": "If Apple caps AI spend per person, your teams will need clear budgets for agent use."
     },
     {
-      "itemId": "php2shell-ai-found-exploit",
-      "headline": "AI turned an ignored PHP crash into a critical exploit",
-      "whyItMatters": "AI makes old, unpatched bugs exploitable fast, so legacy code now carries fresh risk."
+      "itemId": "claude-code-subagent-status-99pct-cheaper",
+      "headline": "Claude Code subagent status updates now cost about 99% less",
+      "whyItMatters": "Cheaper background agents mean more work per seat before teams hit usage limits."
     },
     {
-      "itemId": "gemini-trains-on-paid-chats",
-      "headline": "Gemini can train on paid personal chats unless activity is off",
-      "whyItMatters": "Staff using personal Gemini accounts may be feeding company data into model training."
+      "itemId": "openai-to-acquire-pierre",
+      "headline": "OpenAI will acquire Pierre to build Git workflows for coding agents",
+      "whyItMatters": "Reviewing agent-written code is now a platform contest, and OpenAI wants to own that workflow."
     }
   ],
   "items": [
     {
-      "id": "data-centers-lost-midterms",
-      "title": "33 of 45 local data center ballot measures will restrict building",
-      "takeaway": "NBC polling found 76% oppose data centers locally; Ohio and Kansas towns passed size bans.",
-      "soWhat": "Local votes now shape where compute gets built, so stress-test capacity plans against delays.",
-      "lens": "broad",
-      "momentum": "shift",
-      "importance": 7,
-      "publishedAt": "2026-11-04T16:05:39Z",
+      "id": "chatgpt-images-2-6-gifs",
+      "title": "ChatGPT Images 2.6 adds animated GIFs and reference images",
+      "takeaway": "OpenAI says two new image models are coming to the API with 50% faster generation.",
+      "soWhat": "Teams can now make simple animations inside ChatGPT without a separate design tool.",
+      "lens": "design",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-04T23:35:14Z",
       "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results"
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2118124944928432327"
       },
       "related": [
         {
-          "name": "Hacker News discussion (Semafor)",
-          "url": "https://news.ycombinator.com/item?id=50365982"
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6"
         }
       ],
       "image": {
-        "src": "/img/data-centers-lost-midterms.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
-      "id": "uber-four-agent-rides-q3",
-      "title": "AI agents booked just four Uber rides last quarter",
-      "takeaway": "Uber's first agent disclosure: about 500 Eats orders in Halloween week, against 320 million trips and deliveries.",
-      "soWhat": "Agent commerce is still tiny, so don't rebuild sales channels around it yet.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-11-04T15:58:00Z",
-      "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation"
+        "src": "/img/chatgpt-images-2-6-gifs.jpg",
+        "alt": "Image from @OpenAI on X"
       },
-      "image": {
-        "src": "/img/uber-four-agent-rides-q3.jpg",
-        "alt": "Image from The Verge"
+      "heat": {
+        "score": 8,
+        "level": "none",
+        "metric": "18k views"
       }
     },
     {
-      "id": "kimi-k3-1-pro-open-weights",
-      "title": "Moonshot releases open weights for Kimi K3.1 Pro",
-      "takeaway": "2.8T-parameter model, 1M-token context; vendor reports Terminal-Bench 65.7 vs Claude Opus 5.5's 66.4.",
-      "soWhat": "Near-frontier coding models you can host yourself give you leverage in vendor pricing talks.",
+      "id": "openai-autonomous-cyber-pipeline-948-linux-lpe",
+      "title": "OpenAI's autonomous pipeline generated patches for 948 Linux kernel flaws",
+      "takeaway": "One run with an unreleased cyber model cost $1.2 million in API fees; upstream status not stated.",
+      "soWhat": "Bug discovery is scaling with AI, so budget for faster patching across your own stack.",
       "lens": "practical",
       "momentum": "shift",
-      "importance": 7,
-      "publishedAt": "2026-11-04T15:30:30Z",
+      "importance": 8,
+      "publishedAt": "2026-11-04T23:13:24Z",
       "source": {
-        "name": "Hugging Face model card",
-        "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2118119451401048497"
       },
       "related": [
         {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50366999"
+          "name": "IEEE Spectrum on AI-found exploits",
+          "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
         }
       ],
       "image": {
-        "src": "/img/kimi-k3-1-pro-open-weights.jpg",
-        "alt": "Image from Hugging Face model card"
+        "src": "/img/openai-autonomous-cyber-pipeline-948-linux-lpe.jpg",
+        "alt": "Image from @OpenAI on X"
+      },
+      "heat": {
+        "score": 17,
+        "level": "none",
+        "metric": "68k views"
       }
     },
     {
-      "id": "mengto-3d-site-dream-loop",
-      "title": "Meng To has Claude score screenshots of its own 3D site",
-      "takeaway": "A 13-minute video; he says the self-review loop lifted a 4.6 score past 8.",
-      "soWhat": "Letting the model check its own output against a target is a cheap way to raise design quality.",
-      "lens": "design",
-      "momentum": "shift",
-      "importance": 3,
-      "publishedAt": "2026-11-04T14:51:26Z",
+      "id": "perplexity-decisions-api-web-grounding",
+      "title": "Perplexity's Decisions API can now ground answers in the live web",
+      "takeaway": "Setting mode to web_grounding runs one Fast Search query per question, at $0.001 per search.",
+      "soWhat": "Automated batch decisions can now use current facts for a fraction of a cent each.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-04T21:31:09Z",
       "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2117993128133296426"
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2118093720243560711"
+      },
+      "related": [
+        {
+          "name": "@perplexitydevs on X",
+          "url": "https://x.com/perplexitydevs/status/2118086413854150890"
+        }
+      ],
+      "image": {
+        "src": "/img/perplexity-decisions-api-web-grounding.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 1,
+        "level": "none",
+        "metric": "7k views"
+      }
+    },
+    {
+      "id": "malicious-agent-tool-repos-smartloader",
+      "title": "Researcher finds 73 fake AI agent tool repos spreading malware",
+      "takeaway": "They posed as Claude skills, Codex and MCP servers; 51 were still live. Single report.",
+      "soWhat": "Install skills and MCP servers only from vetted sources, since fake ones are spreading.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 6,
+      "publishedAt": "2026-11-04T20:20:34Z",
+      "source": {
+        "name": "@fr0gger_ on X",
+        "url": "https://x.com/fr0gger_/status/2118075954740547684"
       },
       "image": {
-        "src": "/img/mengto-3d-site-dream-loop.jpg",
-        "alt": "Image from @MengTo on X"
+        "src": "/img/malicious-agent-tool-repos-smartloader.jpg",
+        "alt": "Image from @fr0gger_ on X"
       },
       "heat": {
         "score": 0,
         "level": "none",
-        "metric": "5k views"
+        "metric": "2k views"
       }
     },
     {
-      "id": "altman-ram-shortage-comments",
-      "title": "Altman walks back his remark about RAM in personal computers",
-      "takeaway": "He now says people should have as much memory as they want; Intel expects the shortage through next year.",
-      "soWhat": "AI data centers are absorbing memory supply, so expect pricier laptops and servers into 2027.",
+      "id": "anthropic-claude-vault-particles",
+      "title": "Anthropic used Claude to map a vault particle's structure in days",
+      "takeaway": "Manual work would have taken weeks to months; researchers had to fix some simple mistakes.",
+      "soWhat": "AI is shortening lab research timelines, but experts still need to check its work.",
       "lens": "broad",
-      "momentum": "building",
-      "importance": 4,
-      "publishedAt": "2026-11-04T14:46:00Z",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-04T20:11:28Z",
       "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments"
-      },
-      "image": {
-        "src": "/img/altman-ram-shortage-comments.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
-      "id": "mattpocock-readability-is-verifiability",
-      "title": "Builders argue agent-written code needs verifiability more than readability",
-      "takeaway": "Pocock: make modules testable on their own; poteto says his team ships 30x more code unread.",
-      "soWhat": "Invest in tests and checks agents can run, since fewer people will read the code.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-04T12:12:35Z",
-      "source": {
-        "name": "@mattpocockuk on X",
-        "url": "https://x.com/mattpocockuk/status/2117953152376799498"
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude"
       },
       "related": [
         {
-          "name": "@poteto talk slides on X",
-          "url": "https://x.com/poteto/status/2118017093677494706"
+          "name": "@AnthropicAI on X",
+          "url": "https://x.com/AnthropicAI/status/2118073665296228863"
         }
       ],
       "image": {
-        "src": "/img/mattpocock-readability-is-verifiability.jpg",
-        "alt": "Image from @mattpocockuk on X"
+        "src": "/img/anthropic-claude-vault-particles.jpg",
+        "alt": "Image from Anthropic"
       },
       "heat": {
-        "score": 29,
+        "score": 24,
         "level": "none",
-        "metric": "103k views",
+        "metric": "192k views"
+      }
+    },
+    {
+      "id": "apple-cuts-employee-ai-budgets",
+      "title": "Apple cuts staff AI budgets while pushing employees to use more AI",
+      "takeaway": "Engineers' daily limit fell from $300 to $200, with $100 planned; some teams could drop to $25.",
+      "soWhat": "Per-person AI spending caps are arriving, so decide now how you will budget agent use.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-04T19:51:36Z",
+      "source": {
+        "name": "@markgurman on X",
+        "url": "https://x.com/markgurman/status/2118068667103453360"
+      },
+      "related": [
+        {
+          "name": "MacRumors summary",
+          "url": "https://www.macrumors.com/2026/11/04/apple-reducing-employee-ai-spending/"
+        },
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/apple-cuts-internal-ai-usage-budgets-in-move-to-reduce-spending"
+        }
+      ],
+      "image": {
+        "src": "/img/apple-cuts-employee-ai-budgets.jpg",
+        "alt": "Image from @markgurman on X"
+      },
+      "heat": {
+        "score": 22,
+        "level": "none",
+        "metric": "314k views"
+      }
+    },
+    {
+      "id": "claude-code-subagent-status-99pct-cheaper",
+      "title": "Claude Code subagent status updates now cost about 99% less",
+      "takeaway": "Haiku 5.5 now writes the 30-second status line from short notes instead of rereading the conversation.",
+      "soWhat": "Background agents are getting cheaper to run, which stretches every team's usage limits.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-04T19:29:39Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2118063143167693011"
+      },
+      "image": {
+        "src": "/img/claude-code-subagent-status-99pct-cheaper.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      },
+      "heat": {
+        "score": 34,
+        "level": "none",
+        "metric": "622k views"
+      }
+    },
+    {
+      "id": "hermes-agent-marketplace",
+      "title": "Nous Research puts Hermes Agent plugins and skills in one marketplace",
+      "takeaway": "A 7-day plugin hackathon offers $20,000 in cash prizes.",
+      "soWhat": "Agent platforms now compete on extensions, so favor ones with a vetted plugin catalog.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-04T19:11:01Z",
+      "source": {
+        "name": "@NousResearch on X",
+        "url": "https://x.com/NousResearch/status/2118058453415371119"
+      },
+      "related": [
+        {
+          "name": "Hermes Marketplace",
+          "url": "https://hermes-agent.nousresearch.com/marketplace"
+        }
+      ],
+      "image": {
+        "src": "/img/hermes-agent-marketplace.jpg",
+        "alt": "Image from @NousResearch on X"
+      },
+      "heat": {
+        "score": 15,
+        "level": "none",
+        "metric": "56k views"
+      }
+    },
+    {
+      "id": "ripple-65b-open-weight-agentic-coding",
+      "title": "Ripple-65B claims the top US open-weight score for agentic coding",
+      "takeaway": "Self-reported 80.52 on TerminalBench 2.1 at a stated $32M full R&D cost; Benaich notes China still leads.",
+      "soWhat": "Smaller open models that run locally keep closing in, lowering the cost of in-house agents.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-04T18:53:29Z",
+      "source": {
+        "name": "Ricursive Intelligence",
+        "url": "https://www.ricursive.com/ripple"
+      },
+      "related": [
+        {
+          "name": "@nathanbenaich on X",
+          "url": "https://x.com/nathanbenaich/status/2118072213790244895"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50369925"
+        }
+      ],
+      "image": {
+        "src": "/img/ripple-65b-open-weight-agentic-coding.jpg",
+        "alt": "Image from Ricursive Intelligence"
+      }
+    },
+    {
+      "id": "texas-data-center-buildout-at-risk",
+      "title": "Texas, the fastest-growing data center market, may slow AI buildouts",
+      "takeaway": "The governor-elect backed a moratorium; Nexus Hubbard, mostly for Anthropic, is planned at 6,400 MW.",
+      "soWhat": "Plan for compute delays, since even Texas may halt new data center projects.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 7,
+      "publishedAt": "2026-11-04T18:50:55Z",
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
+      },
+      "related": [
+        {
+          "name": "Stratechery: AI on the Ballot",
+          "url": "https://stratechery.com/2026/ai-on-the-ballot/"
+        }
+      ],
+      "image": {
+        "src": "/img/texas-data-center-buildout-at-risk.jpg",
+        "alt": "Image from MIT Technology Review"
+      }
+    },
+    {
+      "id": "conductor-joins-meta-msl",
+      "title": "Coding-agent app Conductor joins Meta Superintelligence Labs",
+      "takeaway": "Charlie Holtz says the team will work on 'the next interface' with Nat Friedman and Alexandr Wang; terms undisclosed.",
+      "soWhat": "Big labs are absorbing coding-agent teams, so expect fewer independent tools to choose from.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-04T18:18:29Z",
+      "source": {
+        "name": "@charlieholtz on X",
+        "url": "https://x.com/charlieholtz/status/2118045232218743264"
+      },
+      "related": [
+        {
+          "name": "@theo on X",
+          "url": "https://x.com/theo/status/2118069196638834708"
+        }
+      ],
+      "image": {
+        "src": "/img/conductor-joins-meta-msl.jpg",
+        "alt": "Image from @charlieholtz on X"
+      },
+      "heat": {
+        "score": 36,
+        "level": "none",
+        "metric": "322k views",
         "voices": 2
       }
     },
     {
-      "id": "mattpocock-skills-repo-npm",
-      "title": "Matt Pocock weighs shipping his agent skills as versioned npm packages",
-      "takeaway": "His skills repo had 312,813 GitHub stars; npm would let teams pin versions per agent.",
-      "soWhat": "Agent skills are becoming dependencies, so manage them with version pinning and review.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-11-04T11:48:15Z",
-      "source": {
-        "name": "mattpocock/skills GitHub",
-        "url": "https://github.com/mattpocock/skills"
-      },
-      "related": [
-        {
-          "name": "@mattpocockuk: skills on npm",
-          "url": "https://x.com/mattpocockuk/status/2117948553381515721"
-        },
-        {
-          "name": "@mattpocockuk: most-starred skills repo",
-          "url": "https://x.com/mattpocockuk/status/2117947025354539286"
-        }
-      ],
-      "image": {
-        "src": "/img/mattpocock-skills-repo-npm.jpg",
-        "alt": "Image from mattpocock/skills GitHub"
-      },
-      "heat": {
-        "score": 18,
-        "level": "none",
-        "metric": "59k views"
-      }
-    },
-    {
-      "id": "gemini-trains-on-paid-chats",
-      "title": "Gemini can train on paid personal chats unless activity is off",
-      "takeaway": "Turning off Keep Activity deletes chats after 72 hours; human-reviewed chats are kept up to three years.",
-      "soWhat": "Staff using personal Gemini accounts may be feeding company data into model training.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-11-04T10:10:27Z",
-      "source": {
-        "name": "Hacker News",
-        "url": "https://news.ycombinator.com/item?id=50363461"
-      },
-      "related": [
-        {
-          "name": "Google Gemini privacy help",
-          "url": "https://support.google.com/gemini/answer/13594961"
-        }
-      ],
-      "image": {
-        "src": "/img/gemini-trains-on-paid-chats.jpg",
-        "alt": "Hacker News: Gemini can train on paid personal chats unless activity is off"
-      }
-    },
-    {
-      "id": "hinton-chornobyl-warning",
-      "title": "Hinton predicts a Chornobyl-scale AI incident by next year",
-      "takeaway": "He cites a power brownout or week-long financial outage and backs mandatory testing of frontier models.",
-      "soWhat": "Calls for mandatory model testing are growing, so plan for audits of the AI you deploy.",
+      "id": "openai-to-acquire-pierre",
+      "title": "OpenAI will acquire Pierre to build Git workflows for coding agents",
+      "takeaway": "Pierre's libraries already power the Codex app; its open-source projects stay open; closing needs approval.",
+      "soWhat": "Reviewing agent-written code is becoming a core platform, not a side tool.",
       "lens": "broad",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-03T21:35:00Z",
-      "source": {
-        "name": "The Guardian",
-        "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai"
-      },
-      "related": [
-        {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50363554"
-        }
-      ],
-      "image": {
-        "src": "/img/hinton-chornobyl-warning.jpg",
-        "alt": "Image from The Guardian"
-      }
-    },
-    {
-      "id": "scamworld-web-agents-fraud",
-      "title": "Scam websites fooled web agents 11% to 35% of the time",
-      "takeaway": "ScamWorld tested agents on six frontier models; they paid more readily than they gave credentials.",
-      "soWhat": "Don't let agents make payments without a human check or strict spending limits.",
-      "lens": "practical",
       "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-03T13:31:11Z",
-      "source": {
-        "name": "arXiv 2611.04879",
-        "url": "https://arxiv.org/abs/2611.04879"
-      },
-      "image": {
-        "src": "/img/scamworld-web-agents-fraud.jpg",
-        "alt": "arXiv 2611.04879: Scam websites fooled web agents 11% to 35% of the time"
-      }
-    },
-    {
-      "id": "php2shell-ai-found-exploit",
-      "title": "AI turned an ignored PHP crash into a critical exploit",
-      "takeaway": "A 2024 crash report sat unfixed until an AI-aided audit made it remote code execution in two weeks.",
-      "soWhat": "AI makes old, unpatched bugs exploitable fast, so legacy code now carries fresh risk.",
-      "lens": "practical",
-      "momentum": "shift",
       "importance": 8,
-      "publishedAt": "2026-11-02T12:00:00Z",
+      "publishedAt": "2026-11-04T14:30:00Z",
       "source": {
-        "name": "IEEE Spectrum",
-        "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/openai-to-acquire-pierre/"
       },
       "related": [
         {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50364336"
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50366863"
         }
       ],
       "image": {
-        "src": "/img/php2shell-ai-found-exploit.jpg",
-        "alt": "Image from IEEE Spectrum"
-      }
-    },
-    {
-      "id": "rtx-spark-linux-throttled",
-      "title": "RTX Spark laptops run local models five times slower on Linux",
-      "takeaway": "MindStudio measured 13.9 tokens/s on native Linux vs 65.4 on Windows; WSL keeps full speed.",
-      "soWhat": "Benchmark local AI hardware on the operating system your team will actually use.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 3,
-      "publishedAt": "2026-11-01T12:00:00Z",
-      "source": {
-        "name": "MindStudio blog",
-        "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop"
-      },
-      "related": [
-        {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50362905"
-        }
-      ],
-      "image": {
-        "src": "/img/rtx-spark-linux-throttled.jpg",
-        "alt": "Image from MindStudio blog"
+        "src": "/img/openai-to-acquire-pierre.jpg",
+        "alt": "OpenAI: OpenAI will acquire Pierre to build Git workflows for coding agents"
       }
     }
   ],
   "voices": [
     {
-      "handle": "@mattpocockuk",
-      "quote": "readability is now a nicety, not a necessity.",
-      "url": "https://x.com/mattpocockuk/status/2117953152376799498"
+      "handle": "@ClaudeDevs",
+      "quote": "A running subagent updates its status line every 30 seconds, and each update used to re-read its whole conversation.",
+      "url": "https://x.com/ClaudeDevs/status/2118063143167693011"
     },
     {
-      "handle": "@poteto",
-      "quote": "how we ship crazy amounts of code (30x'd) without reading it, yet perf is as good if not better then when we launched",
-      "url": "https://x.com/poteto/status/2118017093677494706"
+      "handle": "@steipete",
+      "quote": "Do individual limits still make sense?",
+      "url": "https://x.com/steipete/status/2118116514700386439"
     },
     {
-      "handle": "@mattpocockuk",
-      "quote": "This lets me make them dynamic per agent, and also lets you pin to the version you like.",
-      "url": "https://x.com/mattpocockuk/status/2117948553381515721"
+      "handle": "@charlieholtz",
+      "quote": "I’m convinced MSL has the highest talent density of all the labs.",
+      "url": "https://x.com/charlieholtz/status/2118045232218743264"
     },
     {
-      "handle": "@MengTo",
-      "quote": "Round 1 scored 4.6. The dream loop took it past 8.",
-      "url": "https://x.com/MengTo/status/2117993128133296426"
+      "handle": "@theo",
+      "quote": "T3 Code’s best competitor just joined Meta",
+      "url": "https://x.com/theo/status/2118069196638834708"
+    },
+    {
+      "handle": "@nathanbenaich",
+      "quote": "the whole “we’re sota for american open weight models” when you’re still worse than china is quite odd energy",
+      "url": "https://x.com/nathanbenaich/status/2118072213790244895"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/mattpocockuk/status/2117953152376799498",
-      "handle": "@mattpocockuk",
-      "text": "readability is now a nicety, not a necessity.",
-      "metric": "1.3k likes",
-      "note": "Builders are rethinking code review now that agents write and read most code."
+      "url": "https://x.com/ClaudeDevs/status/2118063143167693011",
+      "handle": "@ClaudeDevs",
+      "text": "Now Haiku 5.5 writes it from short notes instead, so each update costs about 99% less.",
+      "metric": "12.1k likes",
+      "note": "Usage limits are a top Claude Code pain point, so any cost cut spreads fast."
     },
     {
-      "url": "https://x.com/poteto/status/2118017093677494706",
-      "handle": "@poteto",
-      "text": "how we ship crazy amounts of code (30x'd) without reading it, yet perf is as good if not better then when we launched",
-      "metric": "413 likes",
-      "note": "A concrete claim that unread agent code can hold performance draws both interest and doubt."
+      "url": "https://x.com/charlieholtz/status/2118045232218743264",
+      "handle": "@charlieholtz",
+      "text": "Conductor is joining Meta to work with Nat Friedman and Alexandr Wang at MSL on the next interface.",
+      "metric": "3.3k likes",
+      "note": "Another independent coding-agent team folding into a big lab worries the tools' users."
     },
     {
-      "url": "https://x.com/MengTo/status/2117993128133296426",
-      "handle": "@MengTo",
-      "text": "Round 1 scored 4.6. The dream loop took it past 8.",
-      "metric": "51 likes",
-      "note": "Self-scoring loops promise better AI design output without a human in each round."
+      "url": "https://x.com/AnthropicAI/status/2118073665296228863",
+      "handle": "@AnthropicAI",
+      "text": "Claude helped map the first 3D structure of a prokaryotic vault particle; preprint submitted to bioRxiv.",
+      "metric": "2.4k likes",
+      "note": "A concrete case of AI speeding up real lab science, with its mistakes disclosed."
     },
     {
-      "url": "https://x.com/a16z/status/2118018019498529177",
-      "handle": "@a16z",
-      "text": "Assistant Benchmark tracked 147 AI assistants; trust is the top fear, in 22% of about 3,600 messages.",
-      "metric": "26 likes",
-      "note": "Trust, not capability, is what users raise most about AI assistants."
+      "url": "https://x.com/markgurman/status/2118068667103453360",
+      "handle": "@markgurman",
+      "text": "Apple is cutting employee AI budgets: engineers' daily limits went from $300 to $200.",
+      "metric": "1.9k likes",
+      "note": "Even the richest companies are now rationing AI spend per employee."
+    },
+    {
+      "url": "https://x.com/OpenAI/status/2118119451401048497",
+      "handle": "@OpenAI",
+      "text": "Autonomous pipeline validated and generated patches for 948 Linux kernel privilege escalation bugs in one run.",
+      "metric": "886 likes",
+      "note": "AI finding kernel bugs at this scale changes the economics of security work."
     }
   ]
 }
