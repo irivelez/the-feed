@@ -1,7 +1,77 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-04T00:15:00Z",
+  "updatedAt": "2026-11-05T18:25:00Z",
   "howtos": [
+    {
+      "id": "make-agent-change-fully-verifiable",
+      "dedupeKey": "verifiable-change-prompt-coding-agent",
+      "title": "Ask how to make the change fully verifiable",
+      "what": "Matt Pocock's one-line prompt that forces coding agents to prove changes end-to-end, including real signups and UI clicks.",
+      "kind": "prompt",
+      "copy": [
+        "How do we make this change fully verifiable?"
+      ],
+      "whenToUse": "When a coding agent claims a fix is done and you want it to verify behavior for real, not just assert success.",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2118313863917564136"
+      },
+      "author": {
+        "name": "Matt Pocock",
+        "handle": "mattpocockuk"
+      },
+      "tags": [
+        "coding-agents",
+        "prompts",
+        "verification"
+      ],
+      "quality": 5,
+      "verbatim": true,
+      "briefItem": {
+        "briefId": "2026-11-05-1300",
+        "itemId": "mattpocock-verifiable-change-prompt"
+      },
+      "addedAt": "2026-11-05T18:25:00Z"
+    },
+    {
+      "id": "patch-alpine-musl-ssh-password-bug",
+      "dedupeKey": "alpine-musl-ssh-long-password-mitigation",
+      "title": "Patch Alpine musl SSH password auth now",
+      "what": "Mitigate the musl OpenSSH bug where locked accounts accept any password longer than 256 characters on Alpine cloud images.",
+      "kind": "steps",
+      "copy": [
+        "On Alpine or other musl boxes running OpenSSH without PAM, upgrade openssh: apk upgrade openssh (OpenSSH 10.6p2 fixes the bug).",
+        "Or disable password auth: set PasswordAuthentication no in sshd_config and reload sshd.",
+        "Treat default alpine users on official AWS/Azure images as exposed until upgraded; they are '*'-locked with passwordless doas."
+      ],
+      "whenToUse": "When you run agent boxes, Docker hosts, or cloud VMs on Alpine/musl with password SSH enabled.",
+      "source": {
+        "name": "@GeoffreyHuntley on X",
+        "url": "https://x.com/GeoffreyHuntley/status/2118327433828999652"
+      },
+      "author": {
+        "name": "Geoffrey Huntley",
+        "handle": "GeoffreyHuntley"
+      },
+      "alsoFrom": [
+        {
+          "name": "sshhole.com",
+          "url": "https://sshhole.com/"
+        }
+      ],
+      "tags": [
+        "security",
+        "agents",
+        "infrastructure"
+      ],
+      "quality": 5,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-05-1300",
+        "itemId": "sshhole-alpine-musl-password-auth"
+      },
+      "addedAt": "2026-11-05T18:25:00Z"
+    },
     {
       "id": "isenberg-agent-team-operating-rules",
       "dedupeKey": "agent-team-operating-rules-judge-and-skills",
