@@ -1,0 +1,412 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-05-0637",
+  "generatedAt": "2026-11-05T11:38:00Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-04T23:40:00Z",
+    "to": "2026-11-05T11:38:00Z"
+  },
+  "sourceNotes": [
+    "Window 23:40Z Nov 4 to 11:38Z Nov 5 (since the 18:34 run). 14 candidates (7 practical, 5 broad, 1 frontier-capital, 1 design). Overnight quiet on howTo lane accounts; most signal from OpenAI/Anthropic talent move, OpenAI community compact, Tencent Hy4 (readable this run), arXiv agent papers, and Stratechery/MIT RSS.",
+    "RSS: used OpenAI Blog (National Community Compact), Stratechery (Intuit CEO AI interview), MIT Tech Review (BAAJA permitting reform). Simon Willison, Lenny, Benedict Evans, Mollick, Gary Marcus, Hashimoto: nothing new in the window. Verge Qualcomm/Musk and Atlantic election pieces off-lens or already covered. Texas data-center piece already in 18:34.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returns HTTP 500 again; dead for many runs now.",
+    "Metaplanet Google News: capital-markets Bitcoin/share moves only; not a view; not used.",
+    "Hacker News (minPoints 200, AI filter): Ask HN agentic setups (354) used. Tencent Hy4 (253) used via official research page (prior evening run could not read the page). IEEE PHP2Shell, Gemini training, RTX Spark, Hinton already covered. Residential-proxy / AMD vs Intel off-lens.",
+    "arXiv (cs.AI/CL/MA, agents filter): SpecCompact, turn-level best-of-N, CompressionBench, ServerBench used (submitted ~18:00Z Nov 4). FrontierPhysics and Task-Efficient Agent Evaluation noted but not used.",
+    "X howTo lane: overnight posts from @theo/@swyx/@mattpocockuk/@poteto/@kunchenguid/@NousResearch were mostly replies, jokes, or event notes; @GeoffreyHuntley Overalls/Antithesis delay used. @ClaudeDevs/@simonw/@cursor_ai/@claudeai/@OpenAI/@AnthropicAI had no substantive howTo posts in-window.",
+    "X bigPicture lane: @stratechery Intuit interview used as related on the RSS item. @garrytan GStack /review used (builder tip). @beffjezos flood of election/foreign-influence posts muted (partisan politics). @OpenAI had no X post for the Community Compact in this search; used the blog URL.",
+    "X frontierCapital: @nathanbenaich American-open-weights line used. @TaviCosta silver-miners tip and copper chart are market tips (excluded). @RayDalio principle-of-the-day and thin @LynAldenContact reply not used.",
+    "X design: @MengTo only a short reply about Inter font misuse; used as a thin design note. No other design posts.",
+    "X queries lane: mostly small-account Claude Code listicles and promos; none cleared quality. Cloudflare security-audit-skill was recirculated but GitHub last push is 2026-09-14 (outside fresh window); not used.",
+    "Non-lane primary sources: @_catwu (Claude Code product lead) joining OpenAI, confirmed by Business Insider and welcomed by @thsottiaux; Austin Lau (@helloitsaustin) also posted joining OpenAI (kept as related on the Cat Wu item).",
+    "Replies not separately harvested this run (budget). authorBaseline not filled. X calls this run: 13."
+  ],
+  "candidates": [
+    {
+      "id": "cat-wu-joins-openai-core-products",
+      "lens": "broad",
+      "topic": "anthropic-openai-talent",
+      "summary": "Cat Wu, who led product for Claude Code and Cowork at Anthropic until last week, announced she is joining OpenAI to lead product management for Core Products; OpenAI confirmed the hire to Business Insider, and Codex lead Thibault Sottiaux welcomed her on X within minutes.",
+      "facts": [
+        "Wu's X post (2026-11-05): 'Some news: I'm joining OpenAI to lead product management for Core Products!'",
+        "Post: 'Together, we'll build agents that have your back and your team's, and keep you in control…'",
+        "Business Insider: OpenAI confirmed Wu is joining; she will work with Nick Turley on enterprise and Ashley Alexander on consumer products, and report to Tibo Sottiaux; Anthropic declined to comment.",
+        "BI: Wu announced her Anthropic departure earlier in the week, saying she had left the prior week; exit comes weeks before Anthropic's planned IPO.",
+        "Thibault Sottiaux quoted her: 'Welcome Cat. Stoked to be building together soon.' and followed with 'CatGPT'.",
+        "Austin Lau separately posted that he recently joined OpenAI after helping build Anthropic's growth function."
+      ],
+      "source": {
+        "name": "Cat Wu on X",
+        "url": "https://x.com/_catwu/status/2118137612577968402",
+        "type": "x",
+        "handle": "_catwu"
+      },
+      "related": [
+        {
+          "name": "Business Insider: Cat Wu joins OpenAI from Anthropic",
+          "url": "https://www.businessinsider.com/cat-wu-joins-openai-from-anthropic-product-lead-coup-2026-11"
+        },
+        {
+          "name": "Thibault Sottiaux welcome",
+          "url": "https://x.com/thsottiaux/status/2118138648214585591"
+        },
+        {
+          "name": "Austin Lau joins OpenAI",
+          "url": "https://x.com/helloitsaustin/status/2118161804463595931"
+        }
+      ],
+      "publishedAt": "2026-11-05T00:25:34Z",
+      "metrics": {
+        "likes": 14316,
+        "reposts": 628,
+        "replies": 1659,
+        "views": 2544958,
+        "capturedAt": "2026-11-05T11:37:00Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://x.com/_catwu/status/2118137612577968402",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "openai-national-community-compact",
+      "lens": "broad",
+      "topic": "openai-community-compact",
+      "summary": "OpenAI published a National Community Compact for future compute campuses it owns and operates, plus a Compute Campus Policy Blueprint asking policymakers to require large electricity customers to cover their own grid costs, limit NDAs with public officials, and publish water, energy, noise and hiring data.",
+      "facts": [
+        "Announced 2026-11-05 on openai.com.",
+        "Compact commitments for OpenAI-owned campuses: pay the full cost of electricity and supporting infrastructure; provide financial assurances before major spending; water plan with closed-loop or low-water cooling preferred; publish site-level water and electricity use; publish construction plans and independent noise studies; no NDAs with public officials except narrow security/trade-secret cases; publish expected jobs and report annually on hiring and apprenticeships.",
+        "Example local priorities cited: $4.8M free school meals grant in Effingham County, Georgia; $6M childcare commitment with SB Energy in Pike County, Ohio.",
+        "Blueprint asks state utility commissions to make large customers cover added grid costs; cites Effingham agreement allowing Georgia Power to cut OpenAI supply by up to 1,000 MW at peak demand.",
+        "Builds on January Stargate Community commitments to pay its own way on energy."
+      ],
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-05T02:00:00Z",
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "tencent-hy4-vision-computer-use",
+      "lens": "practical",
+      "topic": "tencent-hy4",
+      "summary": "Tencent released Hy4, adding vision and computer use (CLI and GUI) for the first time versus Hy4 preview; the API is live on Tencent Cloud and OpenRouter at the same price as preview, and Tencent says model weights plus a system card are planned.",
+      "facts": [
+        "Research post dated November 4, 2026: 'Today, we're releasing Hy4… It adds vision capabilities for the first time…'",
+        "First-time computer use across CLI and GUI; training includes Blender, CAD and multi-application long-horizon workflows.",
+        "GameDev +19.1% and GameLogic +9.8% vs Hy4 preview (Tencent figures); engines cited: Unreal, Unity, Godot.",
+        "Available on Tencent Cloud and OpenRouter and in CodeBuddy, WorkBuddy, Yuanbao and ima; API price listed at $0.834 / $2.501 per million input/output tokens (cached input $0.042).",
+        "Weights not released yet: 'We plan to open-source Hy4's model weights' with vLLM and SGLang ecosystem support and a system card.",
+        "HN discussion of the research page reached 253 points."
+      ],
+      "source": {
+        "name": "Tencent Hunyuan research",
+        "url": "https://hy.tencent.ai/research/hy4",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Hacker News: Tencent Hy4 (253)",
+          "url": "https://news.ycombinator.com/item?id=50365780"
+        }
+      ],
+      "publishedAt": "2026-11-04T09:57:15Z",
+      "metrics": {
+        "points": 253,
+        "capturedAt": "2026-11-05T11:37:00Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://hy.tencent.ai/research/hy4",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "stratechery-intuit-ceo-ai-accounting",
+      "lens": "broad",
+      "topic": "enterprise-ai-accounting",
+      "summary": "Ben Thompson interviewed Intuit CEO Sasan Goodarzi about how a 40-plus-year software company is shifting accountants and mid-market customers onto an AI-native financial platform, including agentic books close, Intuit Intelligence chat, and Enterprise Suite meant to stop customers outgrowing QuickBooks for NetSuite.",
+      "facts": [
+        "Stratechery Daily Update interview published 2026-11-05.",
+        "Goodarzi: Intuit rolled out Intuit Accountant Suite (accountants as customers, supporting non-QuickBooks ledgers), Intuit Intelligence chat, agentic books close from firm SOPs, and industry-specific mid-market ERP (construction, manufacturing, nonprofit).",
+        "Goodarzi: 65%+ of Intuit customers are attached to an accountant; retention is higher with accountants; he expects 'many fewer' accountants in five years as PE consolidation and AI automation accelerate.",
+        "Goodarzi on earlier AI agents: payments/payroll/accounting agents 'did everything in slices very well' but 'didn't actually deliver a great experience end-to-end' because they were not designed as systems thinkers.",
+        "He says Intuit is integrated with Muse, ChatGPT and Anthropic so LLMs can call Credit Karma/TurboTax for financial actions, not just answers."
+      ],
+      "source": {
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/",
+        "type": "rss"
+      },
+      "related": [
+        {
+          "name": "Stratechery on X",
+          "url": "https://x.com/stratechery/status/2118297286983774589"
+        }
+      ],
+      "publishedAt": "2026-11-05T11:00:00Z",
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "mit-permitting-reform-baaja",
+      "lens": "broad",
+      "topic": "energy-permitting-reform",
+      "summary": "MIT Technology Review reports the Senate is set to vote November 9 on the Bipartisan American Affordability and Jobs Act (BAAJA), a technology-neutral permitting-reform bill that could speed energy and transmission buildout while also making new natural-gas plants easier as AI data centers add grid demand.",
+      "facts": [
+        "Published 2026-11-05; Senate vote scheduled for November 9.",
+        "Bill narrows which projects need federal permits and adds deadlines; American Clean Power Association analysis cited saying it could unlock 350 GW of new clean energy.",
+        "Rhodium Group best case cited: −4% economy-wide emissions, −$78/year household energy bills, +200 GW clean energy by 2040; worst case emissions flat.",
+        "Purdue's Kevin Kircher modeling cited: if BAAJA had applied in 2025, energy-sector emissions would have been higher than baseline as gas plants also accelerate.",
+        "MIT notes midterm Democratic gains create uncertainty about whether the bill still clears before the next Congress."
+      ],
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-05T10:00:00Z",
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "speccompact-slot-parallel-compaction",
+      "lens": "practical",
+      "topic": "agent-context-compaction",
+      "summary": "SpecCompact (arXiv) accelerates LLM-agent context compaction by drafting structured summary slots in parallel with a small model and verifying them with speculative semantic checks, aiming to cut the latency of summarizing long agent histories.",
+      "facts": [
+        "arXiv 2611.06876, submitted 2026-11-04.",
+        "Authors: Yulu An, Yifei Feng, Xiangyang Yin.",
+        "Problem stated: summarizing long agent histories with large models introduces substantial delays; compaction must balance retention vs latency.",
+        "Method: slot-parallel semantic speculation — structured summary slots generated independently, drafted by a small model, then verified."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.06876",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-04T18:34:41Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "serverbench-agent-llm-serving",
+      "lens": "practical",
+      "topic": "agent-serving-systems",
+      "summary": "ServerBench asks coding agents to design complete specialized LLM serving systems under a dollars-per-dollar objective that covers latency, session dependencies and correctness, treating serving infrastructure as something agents can experiment on themselves.",
+      "facts": [
+        "arXiv 2611.06841, submitted 2026-11-04.",
+        "Authors include Xinrui Zhong, Zhiming Wang, Yongqi Liu and others.",
+        "Benchmark for agentic design of complete specialized LLM serving systems.",
+        "Stated objective: 'dollars per dollar' coordinating implementation and operating decisions under session dependencies, latency constraints and correctness requirements."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.06841",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-04T17:59:07Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "turn-level-best-of-n-agents",
+      "lens": "practical",
+      "topic": "agent-inference-scaling",
+      "summary": "An arXiv paper evaluates turn-level best-of-N sampling for LLM agents on long-horizon tasks: at each turn a generator model proposes N candidate actions and a selector model picks one to execute.",
+      "facts": [
+        "arXiv 2611.06868, submitted 2026-11-04.",
+        "Authors include Jalaj Bhandari, Dhawal Gupta, Hongli Zhan and others.",
+        "Inference-time scaling via turn-level best-of-N with a generator-selector pair of LLMs.",
+        "Targeted at complex, long-horizon agent tasks."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.06868",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-04T18:23:14Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "compressionbench-coding-agents-compress",
+      "lens": "practical",
+      "topic": "agent-harness-self-evolution",
+      "summary": "CompressionBench tests whether coding agents can autonomously compress a pretrained LLM into a smaller storage budget while retaining behavior, framing model compression as a terminal recursive-self-improvement step.",
+      "facts": [
+        "arXiv 2611.06858, submitted 2026-11-04.",
+        "Authors include Xinrui Zhong, Zhifeng Li, Zhiming Wang and others.",
+        "Agent receives a source checkpoint, storage limit, inference environment and time budget, then must produce compressed weights.",
+        "Stated goal: retain pretrained behavior within a smaller model storage budget."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.06858",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-04T18:14:50Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "ask-hn-agentic-setups-nov2026",
+      "lens": "practical",
+      "topic": "agent-setups-2026",
+      "summary": "Ask HN 'What's your current AI agentic setup?' drew 354 points and hundreds of comments; recurring answers center on Claude Code / Claude IDE with Opus 5.5, Codex subscriptions, OpenRouter/DeepSeek for cheaper calls, and harnesses such as Pi and OpenClaw.",
+      "facts": [
+        "Posted 2026-11-04; 354 points, 400+ comments at capture.",
+        "Sample setups from top comments: Claude IDE on medium with Opus 5.5 after dropping Cursor/Codex; Pi with GPT-5.6-line and open-weight models; OpenClaw for event-driven agents plus Claude/Codex subs; Claude Code CLI inside OpenShell with custom skills; Claude Ultra/Max plus Codex $100/mo.",
+        "Thread is primary-source practitioner inventory, not a product launch."
+      ],
+      "source": {
+        "name": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50366117",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-04T14:37:22Z",
+      "metrics": {
+        "points": 354,
+        "capturedAt": "2026-11-05T11:37:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "garrytan-gstack-review-skill",
+      "lens": "practical",
+      "topic": "agent-code-review",
+      "summary": "Garry Tan posted that GStack's /review skill is 'actually useful for preventing bugs still,' with a screenshot, pointing builders at a review skill rather than a new model.",
+      "facts": [
+        "Post text: 'GStack’s /review skill is actually useful for preventing bugs still' with an attached image.",
+        "Posted 2026-11-05 by @garrytan; no separate changelog link in the post."
+      ],
+      "source": {
+        "name": "Garry Tan on X",
+        "url": "https://x.com/garrytan/status/2118221083233206736",
+        "type": "x",
+        "handle": "garrytan"
+      },
+      "publishedAt": "2026-11-05T05:57:15Z",
+      "metrics": {
+        "likes": 102,
+        "reposts": 6,
+        "replies": 61,
+        "views": 14443,
+        "capturedAt": "2026-11-05T11:37:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/garrytan/status/2118221083233206736",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "geoffrey-huntley-overalls-antithesis",
+      "lens": "practical",
+      "topic": "overalls-platform",
+      "summary": "Geoffrey Huntley is pushing Overalls (self-hosted Firecracker machines for AI agents) back a couple of weeks to run verification with Antithesis, and says he is prototyping distributed builds (RBE/Buck2/Nix) and content-addressable cache on the same Firecracker primitives.",
+      "facts": [
+        "Post: 'pushing overalls.dev back by a couple weeks whilst i do verification runs with @AntithesisHQ to shake out defects.'",
+        "Also prototyping distributed builds (rbe/buck2/nix) and content-addressable cache (nix-store, rbe) reusing Firecracker VM primitives; may add GitHub Actions runner support.",
+        "Overalls described on its site as an open-source, self-hosted platform for persistent Firecracker development machines and the AI agents that work on them."
+      ],
+      "source": {
+        "name": "Geoffrey Huntley on X",
+        "url": "https://x.com/GeoffreyHuntley/status/2118275477433364606",
+        "type": "x",
+        "handle": "GeoffreyHuntley"
+      },
+      "related": [
+        {
+          "name": "Overalls",
+          "url": "https://overalls.dev"
+        }
+      ],
+      "publishedAt": "2026-11-05T09:33:24Z",
+      "metrics": {
+        "likes": 28,
+        "reposts": 1,
+        "replies": 9,
+        "views": 1977,
+        "capturedAt": "2026-11-05T11:37:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/GeoffreyHuntley/status/2118275477433364606",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "nathan-benaich-american-open-weights-china",
+      "lens": "frontier-capital",
+      "topic": "american-open-weights",
+      "summary": "Nathan Benaich posted that calling a model 'SOTA for American open weight models' while it is still worse than Chinese open-weight models is 'quite odd energy,' a view on how the open-weights race is framed rather than a trade tip.",
+      "facts": [
+        "Post: 'the whole \"we're sota for american open weight models\" when you're still worse than china is quite odd energy'",
+        "Follow-up: 'once you create sub-categories of sota, it's not looking good brav'",
+        "No ticker or buy/sell recommendation in the posts used."
+      ],
+      "source": {
+        "name": "Nathan Benaich on X",
+        "url": "https://x.com/nathanbenaich/status/2118072213790244895",
+        "type": "x",
+        "handle": "nathanbenaich"
+      },
+      "publishedAt": "2026-11-04T20:05:42Z",
+      "metrics": {
+        "likes": 21,
+        "reposts": 3,
+        "replies": 5,
+        "views": 3621,
+        "capturedAt": "2026-11-05T11:37:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/nathanbenaich/status/2118072213790244895",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "mengto-inter-font-ai-misuse",
+      "lens": "design",
+      "topic": "ai-slop-typography",
+      "summary": "Meng To replied that 'great fonts like inter get misused by ai,' agreeing with a comment that blame for AI-looking sites often falls on typefaces when the real tell is generic marketing copy.",
+      "facts": [
+        "Meng To reply: 'yep, great fonts like inter get misused by ai'",
+        "Context reply he answered argued that rebuilt client sites that read as generated were set in good typefaces and that the giveaway was copy promising 'seamless solutions'."
+      ],
+      "source": {
+        "name": "Meng To on X",
+        "url": "https://x.com/MengTo/status/2118128894075367814",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-04T23:50:55Z",
+      "metrics": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 66,
+        "capturedAt": "2026-11-05T11:37:00Z"
+      },
+      "care": 2,
+      "proof": 3,
+      "firstSeen": "2026-11-05"
+    }
+  ]
+}
