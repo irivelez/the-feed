@@ -1,0 +1,383 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-06-1300",
+  "date": "2026-11-06",
+  "publishedAt": "2026-11-06T13:20:00-05:00",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "deepmind-rsa-agent-cryptanalysis",
+      "headline": "DeepMind agents crack legacy RSA-1024 assumptions",
+      "whyItMatters": "Human-guided agents found padding forgery shortcuts and about 30× cheaper batch factoring on 1024-bit keys."
+    },
+    {
+      "itemId": "a16z-defense-machine-speed",
+      "headline": "a16z: rebuild defense so you stop needing patches",
+      "whyItMatters": "AI-cheap exploits make live fixes and short-lived credentials the product, not faster patch cycles."
+    },
+    {
+      "itemId": "subagent-lossy-summaries",
+      "headline": "Builders measure why subagent handoffs fail",
+      "whyItMatters": "Lossy summary handoffs underperformed; most work may need serial retrieval or fresh sessions."
+    }
+  ],
+  "items": [
+    {
+      "id": "deepmind-rsa-agent-cryptanalysis",
+      "title": "DeepMind agents find two legacy RSA-1024 weaknesses",
+      "takeaway": "Human-guided agents found signature-padding forgery shortcuts and a batch NFS method about 30× cheaper per extra 1024-bit key; DeepMind says 2048-bit+ RSA stays safe.",
+      "soWhat": "AI is now stress-testing crypto assumptions leaders still run in long-lived systems.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 10,
+      "publishedAt": "2026-11-06T17:20:31Z",
+      "source": {
+        "name": "@GoogleDeepMind on X",
+        "url": "https://x.com/GoogleDeepMind/status/2118755418675765656"
+      },
+      "related": [
+        {
+          "name": "Signature paper (PDF)",
+          "url": "https://storage.googleapis.com/deepmind-media/papers/Faster_Affine_Root_and_a_1024bit%20Computation.pdf"
+        },
+        {
+          "name": "Batch NFS paper (PDF)",
+          "url": "https://storage.googleapis.com/deepmind-media/papers/Fan_Factories_Multiple_Number_Fields_in_Factorization_Factories_and_Batch_NFS.pdf"
+        },
+        {
+          "name": "@pushmeet on X",
+          "url": "https://x.com/pushmeet/status/2118752095859794390"
+        }
+      ],
+      "image": {
+        "src": "/img/deepmind-rsa-agent-cryptanalysis.jpg",
+        "alt": "Profile image of @GoogleDeepMind"
+      },
+      "heat": {
+        "score": 5,
+        "level": "none",
+        "metric": "12k views"
+      }
+    },
+    {
+      "id": "nilay-patel-ai-product-costs",
+      "title": "Nilay Patel: AI products do not justify local costs yet",
+      "takeaway": "On The Vergecast after midterm data-center pushback, Nilay said agents are not real for how people want them, labs spend more than they make, and backlash ends only when products obviously help without ads.",
+      "soWhat": "Leaders selling AI buildouts need product proof neighbors can see, not campaign spin.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-06T17:13:12Z",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/"
+      },
+      "related": [
+        {
+          "name": "The Vergecast episode",
+          "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast"
+        }
+      ],
+      "image": {
+        "src": "/img/nilay-patel-ai-product-costs.jpg",
+        "alt": "Image from Simon Willison"
+      }
+    },
+    {
+      "id": "a16z-defense-machine-speed",
+      "title": "a16z: rebuild defense in depth for machine speed",
+      "takeaway": "Asaf Ezra and Steph Zhang argue AI-cheap exploits mean products should make patching unnecessary; they list six openings from live fixes to long-tail managed security.",
+      "soWhat": "Security roadmaps that only accelerate patch SLAs will lose to AI-paced attackers.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-06T17:07:26Z",
+      "source": {
+        "name": "a16z",
+        "url": "https://www.a16z.news/p/defense-in-depth-rebuilt-for-machine"
+      },
+      "related": [
+        {
+          "name": "@a16z on X",
+          "url": "https://x.com/a16z/status/2118752443089780837"
+        }
+      ],
+      "image": {
+        "src": "/img/a16z-defense-machine-speed.jpg",
+        "alt": "Image from a16z"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "6k views"
+      }
+    },
+    {
+      "id": "akai-moog-vibe-coded-mods",
+      "title": "Akai and Moog open paths for vibe-coded firmware mods",
+      "takeaway": "inMusic will open-source device code, ship an SDK and reset paths, and run a Creator Lab at NAMM after vibe-coded mods forced the issue onto the roadmap in five weeks.",
+      "soWhat": "Hardware brands that ignore AI mods now face open-source demands from their own users.",
+      "lens": "design",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-06T16:34:39Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai"
+      },
+      "image": {
+        "src": "/img/akai-moog-vibe-coded-mods.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "mengto-threejs-portfolio-opus",
+      "title": "Meng To flags three.js portfolios pushed with Opus",
+      "takeaway": "Meng To highlighted Brice Deguigne's interactive 3D portfolio (bricelab.dev) as proof of how far portfolio sites can go with three.js and Claude Opus 5.5.",
+      "soWhat": "Design hiring bars now include AI-built interactive 3D craft, not static case-study pages.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-06T15:10:16Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2118722640693330082"
+      },
+      "related": [
+        {
+          "name": "bricelab.dev",
+          "url": "https://www.bricelab.dev/"
+        }
+      ],
+      "image": {
+        "src": "/img/mengto-threejs-portfolio-opus.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "5k views"
+      }
+    },
+    {
+      "id": "amazon-alexa-text-shopping",
+      "title": "Amazon rolls out texting for Alexa shopping",
+      "takeaway": "US customers can message Amazon Alexa with product descriptions or photos, get recommendations, and let it order; invite group today, then millions more in coming weeks.",
+      "soWhat": "Commerce agents are moving into SMS, where OpenAI Dot and DoorDash already compete.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-06T14:00:00Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders"
+      },
+      "image": {
+        "src": "/img/amazon-alexa-text-shopping.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "nathan-benaich-agent-interviews",
+      "title": "Nathan Benaich: agents ran 12 expert interviews",
+      "takeaway": "Benaich said his agents on lato.ai framed questions, found experts, ran 12 interviews in 2.5 days, updated beliefs, and refined the study from his State of AI talk.",
+      "soWhat": "Quiet investors are testing agent loops that replace early diligence interview grunt work.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-06T12:00:04Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2118674775744888834"
+      },
+      "image": {
+        "src": "/img/nathan-benaich-agent-interviews.jpg",
+        "alt": "Image from @nathanbenaich on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "2k views"
+      }
+    },
+    {
+      "id": "microsoft-amsterdam-dc-protest",
+      "title": "Protesters break into Microsoft Amsterdam data-center site",
+      "takeaway": "About 100 Geef Tegengas protesters entered a Pure Data Centres site for three Microsoft towers, scaled a crane with a 'fuck AI' banner, amid a wider European protest week.",
+      "soWhat": "Data-center siting risk is physical and political now, not only a grid or CapEx story.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-06T11:55:19Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam"
+      },
+      "image": {
+        "src": "/img/microsoft-amsterdam-dc-protest.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "naval-loved-and-hated",
+      "title": "Naval: be loved and hated, or merely tolerated",
+      "takeaway": "Naval posted that you can be loved and hated, or merely liked and tolerated; the line drew more than 7.5k likes within hours.",
+      "soWhat": "Investor taste still prizes sharp positioning over broad likability.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-06T11:40:14Z",
+      "source": {
+        "name": "@naval on X",
+        "url": "https://x.com/naval/status/2118669784535761032"
+      },
+      "image": {
+        "src": "/img/naval-loved-and-hated.jpg",
+        "alt": "Profile image of @naval"
+      },
+      "heat": {
+        "score": 31,
+        "level": "none",
+        "metric": "566k views"
+      }
+    },
+    {
+      "id": "subagent-lossy-summaries",
+      "title": "Alexander Yue: lossy subagent handoffs are a top failure",
+      "takeaway": "On a 137k-token Opus 5.5 session, checkpoint forks and classic subagents both lagged a solo agent; he argues most work should be serial with retrieval or fresh parallel sessions.",
+      "soWhat": "Agent org charts that delegate via summaries may burn cost without better outcomes.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-06T01:35:04Z",
+      "source": {
+        "name": "@Alezander9 on X",
+        "url": "https://x.com/Alezander9/status/2118517491798606140"
+      },
+      "image": {
+        "src": "/img/subagent-lossy-summaries.jpg",
+        "alt": "Image from @Alezander9 on X"
+      },
+      "heat": {
+        "score": 17,
+        "level": "none",
+        "metric": "110k views"
+      }
+    },
+    {
+      "id": "conductor-alternatives-wave",
+      "title": "Builders race to replace Conductor before Nov 20 shutdown",
+      "takeaway": "After Meta set Conductor Cloud to shut Nov 20, Ryan Shea's alternatives list passed about 40 products; Garry Tan said Capy is a Conductor superset that 5×ed his efficiency.",
+      "soWhat": "Agent orchestration state needs an exit path; a git clone alone will not migrate it.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-05T21:39:01Z",
+      "source": {
+        "name": "@ryaneshea on X",
+        "url": "https://x.com/ryaneshea/status/2118458084561711301"
+      },
+      "related": [
+        {
+          "name": "Expanded list on X",
+          "url": "https://x.com/ryaneshea/status/2118749055643713542"
+        },
+        {
+          "name": "@garrytan on X",
+          "url": "https://x.com/garrytan/status/2118754097197355359"
+        }
+      ],
+      "image": {
+        "src": "/img/conductor-alternatives-wave.jpg",
+        "alt": "Image from @ryaneshea on X"
+      },
+      "heat": {
+        "score": 11,
+        "level": "none",
+        "metric": "59k views"
+      }
+    },
+    {
+      "id": "arxiv-agent-memory-fidelity",
+      "title": "arXiv: score compressed agent memory on global structure",
+      "takeaway": "Paper 2611.08341 argues compression checks that only keep nearest neighbors miss consolidate/delete/compare needs; evaluate local fidelity L and global fidelity G far apart in memory.",
+      "soWhat": "Memory compression that only preserves neighbors can break agent decisions that need contrast.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-05T17:27:08Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.08341"
+      },
+      "image": {
+        "src": "/img/arxiv-agent-memory-fidelity.jpg",
+        "alt": "arXiv: arXiv: score compressed agent memory on global structure"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@a16z",
+      "quote": "So the question isn't how to patch faster. It's how to stop needing to.",
+      "url": "https://x.com/a16z/status/2118752443089780837"
+    },
+    {
+      "handle": "@naval",
+      "quote": "You can be either loved *and* hated, or merely liked and tolerated.",
+      "url": "https://x.com/naval/status/2118669784535761032"
+    },
+    {
+      "handle": "@Alezander9",
+      "quote": "I do not think there is a place for subagent delegation at all between a pure orchestrator and a long-running retrievable agent.",
+      "url": "https://x.com/Alezander9/status/2118517491798606140"
+    },
+    {
+      "handle": "@garrytan",
+      "quote": "Capy is a superset of Conductor for me and 5Xed my efficiency.",
+      "url": "https://x.com/garrytan/status/2118754097197355359"
+    },
+    {
+      "handle": "@nathanbenaich",
+      "quote": "my agents autonomously ran 12 expert interviews in 2.5 days",
+      "url": "https://x.com/nathanbenaich/status/2118674775744888834"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/naval/status/2118669784535761032",
+      "handle": "@naval",
+      "text": "You can be either loved *and* hated, or merely liked and tolerated.",
+      "metric": "566k views",
+      "note": "A one-line Naval aphorism is dominating midday attention."
+    },
+    {
+      "url": "https://x.com/Alezander9/status/2118517491798606140",
+      "handle": "@Alezander9",
+      "text": "Lossy summary handoffs make subagents a top failure mode; checkpoint forks still lagged a solo agent on a 137k-token session.",
+      "metric": "110k views",
+      "note": "Builders are arguing hard about whether subagent delegation is worth it."
+    },
+    {
+      "url": "https://x.com/ryaneshea/status/2118458084561711301",
+      "handle": "@ryaneshea",
+      "text": "Conductor Cloud shuts Nov 20; expanding alternatives shortlist past 40 products after Meta's acquisition.",
+      "metric": "59k views",
+      "note": "The Conductor shutdown scramble is packing the replies."
+    },
+    {
+      "url": "https://x.com/GoogleDeepMind/status/2118755418675765656",
+      "handle": "@GoogleDeepMind",
+      "text": "Human-guided AI agents found two major weaknesses in legacy 1024-bit RSA; modern 2048-bit+ remains safe from these exploits.",
+      "metric": "12k views",
+      "note": "DeepMind's cryptanalysis agent result is the serious research spike."
+    },
+    {
+      "url": "https://x.com/MengTo/status/2118722640693330082",
+      "handle": "@MengTo",
+      "text": "I love how much we can push portfolio sites with three.js and opus 5.5.",
+      "metric": "50 likes",
+      "note": "Design builders keep amplifying Opus-driven three.js craft."
+    }
+  ]
+}
