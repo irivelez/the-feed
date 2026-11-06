@@ -1,0 +1,362 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-06-0700",
+  "date": "2026-11-06",
+  "publishedAt": "2026-11-06T07:10:00-05:00",
+  "edition": "Morning",
+  "top3": [
+    {
+      "itemId": "inkling-2-small",
+      "headline": "Thinking Machines ships Inkling 2 Small on Tinker",
+      "whyItMatters": "A 594B MoE with 17B active scores 31 on AA and targets long-horizon agent work."
+    },
+    {
+      "itemId": "deepfinance-pe-ib-bench",
+      "headline": "Julius DeepFinance grades models on real PE deals",
+      "whyItMatters": "Top models clear only about half of multi-day diligence rubrics leaders actually use."
+    },
+    {
+      "itemId": "airbnb-ai-travel-agent",
+      "headline": "Airbnb plans an AI trip agent for first-half 2027",
+      "whyItMatters": "A major travel platform is betting on composed travel UI, not a chatbot, for booking."
+    }
+  ],
+  "items": [
+    {
+      "id": "mit-tau-humanoid-cleaning",
+      "title": "MIT reviewer books Tau's teleoperated cleaning robots",
+      "takeaway": "Tau's SF humanoids are remote-piloted via head and wrist cameras; pricing moved from about $30/hour to $60/week for two.",
+      "soWhat": "Home humanoids are selling teleop data collection today, not autonomy you can trust yet.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-06T10:00:00Z",
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/"
+      },
+      "image": {
+        "src": "/img/mit-tau-humanoid-cleaning.jpg",
+        "alt": "Image from MIT Technology Review"
+      }
+    },
+    {
+      "id": "poteto-no-software-factory",
+      "title": "Cursor's poteto: skip the software-factory pitch",
+      "takeaway": "poteto says factories are marketing; spend tokens where work is deterministic. Huntley still drives loops by hand at about $43k/week of inference.",
+      "soWhat": "Agent ROI may come from disciplined token spend and determinism, not a new factory product category.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-06T07:54:47Z",
+      "source": {
+        "name": "@poteto on X",
+        "url": "https://x.com/poteto/status/2118613050462728659"
+      },
+      "related": [
+        {
+          "name": "@thdxr on X",
+          "url": "https://x.com/thdxr/status/2118604739428426223"
+        },
+        {
+          "name": "@GeoffreyHuntley on X",
+          "url": "https://x.com/GeoffreyHuntley/status/2118668987269611937"
+        }
+      ],
+      "image": {
+        "src": "/img/poteto-no-software-factory.jpg",
+        "alt": "Image from @poteto on X"
+      },
+      "heat": {
+        "score": 24,
+        "level": "none",
+        "metric": "80k views"
+      }
+    },
+    {
+      "id": "mengto-threejs-opus-rpg",
+      "title": "Meng To builds a BG3-style game in three.js with Opus",
+      "takeaway": "A month on and off with Claude Opus 5.5 and three.js; about $10k in tokens; Tripo3D for character rigs; local Mac app over a 100MB+ browser build.",
+      "soWhat": "Serious AI game craft is becoming a token budget and tooling problem, not a demo weekend.",
+      "lens": "design",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-06T06:24:38Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2118590363225210899"
+      },
+      "image": {
+        "src": "/img/mengto-threejs-opus-rpg.jpg",
+        "alt": "Profile image of @MengTo"
+      },
+      "heat": {
+        "score": 6,
+        "level": "none",
+        "metric": "11k views"
+      }
+    },
+    {
+      "id": "naval-attention-currency",
+      "title": "Naval: attention, not money or time, is life's currency",
+      "takeaway": "Naval amplified his line that what you choose to notice and act on is the scarce resource that compounds.",
+      "soWhat": "Investor framing of scarcity still starts with attention allocation before capital or calendars.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-06T06:23:51Z",
+      "source": {
+        "name": "@naval on X",
+        "url": "https://x.com/naval/status/2118590165023338927"
+      },
+      "related": [
+        {
+          "name": "@akirathedon on X",
+          "url": "https://x.com/akirathedon/status/2118585012677157365"
+        }
+      ],
+      "image": {
+        "src": "/img/naval-attention-currency.jpg",
+        "alt": "Image from @naval on X"
+      },
+      "heat": {
+        "score": 25,
+        "level": "none",
+        "metric": "130k views"
+      }
+    },
+    {
+      "id": "arav-teammates-agent-hours",
+      "title": "Perplexity staff get 7x more Teammates agent-hours",
+      "takeaway": "Aravind Srinivas says median weekly agent-hours from Teammates are 7x September; one in five staff already hit 40+ hours.",
+      "soWhat": "Internal agent load is compounding weekly; headcount plans need an agent-hours line, not only seats.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-06T03:41:32Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2118549314746429552"
+      },
+      "related": [
+        {
+          "name": "Arav on git orchestration",
+          "url": "https://x.com/AravSrinivas/status/2118572536300699764"
+        }
+      ],
+      "image": {
+        "src": "/img/arav-teammates-agent-hours.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 6,
+        "level": "none",
+        "metric": "19k views"
+      }
+    },
+    {
+      "id": "airbnb-ai-travel-agent",
+      "title": "Airbnb plans an AI-native trip agent for 1H 2027",
+      "takeaway": "Q3 letter: agent composes maps, photos, comparisons, calendars, and itineraries in real time, then books inside Airbnb with co-travelers.",
+      "soWhat": "Consumer agents that ship will look like product UI assemblers, not chat boxes bolted onto search.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-06T00:06:12Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings"
+      },
+      "image": {
+        "src": "/img/airbnb-ai-travel-agent.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "inkling-2-small",
+      "title": "Thinking Machines launches Inkling 2 Small multimodal MoE",
+      "takeaway": "594B total / 17B active; AA Index 31; live on Tinker now; Apache 2.0 weights planned next week after safety testing.",
+      "soWhat": "Another lab is shipping a long-horizon agent model you can fine-tune today, with open weights promised soon.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-11-05T23:43:57Z",
+      "source": {
+        "name": "Thinking Machines Lab",
+        "url": "https://thinkingmachines.ai/news/inkling-2-small/"
+      },
+      "related": [
+        {
+          "name": "@thinkymachines on X",
+          "url": "https://x.com/thinkymachines/status/2118489527362912566"
+        },
+        {
+          "name": "@ArtificialAnlys on X",
+          "url": "https://x.com/ArtificialAnlys/status/2118493376186388530"
+        },
+        {
+          "name": "@mercor on X",
+          "url": "https://x.com/mercor/status/2118491171077116252"
+        }
+      ],
+      "image": {
+        "src": "/img/inkling-2-small.jpg",
+        "alt": "Image from Thinking Machines Lab"
+      },
+      "heat": {
+        "score": 27,
+        "level": "none",
+        "metric": "760k views"
+      }
+    },
+    {
+      "id": "deepfinance-pe-ib-bench",
+      "title": "Julius DeepFinance tests models on real PE and IB deals",
+      "takeaway": "21 multi-day diligence tasks; Opus 5.5 max leads at 54.8% mean rubric; GPT-6 Astra close behind; Inkling 2 Small at 29.8%.",
+      "soWhat": "Finance automation still stalls near half marks on the workflows that decide real deals.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-11-05T22:41:57Z",
+      "source": {
+        "name": "Julius Research",
+        "url": "https://www.juliusresearch.ai/deep-finance"
+      },
+      "related": [
+        {
+          "name": "@0interestrates on X",
+          "url": "https://x.com/0interestrates/status/2118473925902635507"
+        },
+        {
+          "name": "@garrytan on X",
+          "url": "https://x.com/garrytan/status/2118527182092071179"
+        }
+      ],
+      "image": {
+        "src": "/img/deepfinance-pe-ib-bench.jpg",
+        "alt": "Image from Julius Research"
+      },
+      "heat": {
+        "score": 13,
+        "level": "none",
+        "metric": "78k views"
+      }
+    },
+    {
+      "id": "multimodal-sea-agent-security",
+      "title": "Multimodal-SEA benchmarks agents against social-engineering fraud",
+      "takeaway": "608 expert tasks from real fraud cases across 14 domains score agents on tool-execution outcomes, not free-text judgments.",
+      "soWhat": "Personal agents that can act need multimodal red-team scores before you trust them with money or access.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-05T16:46:31Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.08281"
+      },
+      "image": {
+        "src": "/img/multimodal-sea-agent-security.jpg",
+        "alt": "arXiv: Multimodal-SEA benchmarks agents against social-engineering fraud"
+      }
+    },
+    {
+      "id": "nvidia-no-long-context",
+      "title": "NVIDIA paper: short contexts via compaction keep accuracy",
+      "takeaway": "Belcak et al. find frontier models lose little on long-horizon tasks when contexts stay short; later tokens can cost up to about 7x earlier ones.",
+      "soWhat": "Agent stacks may win more from frequent compaction than from ever-longer context windows.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-03T18:17:23Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.05306"
+      },
+      "related": [
+        {
+          "name": "@askalphaxiv on X",
+          "url": "https://x.com/askalphaxiv/status/2118576609603252583"
+        }
+      ],
+      "image": {
+        "src": "/img/nvidia-no-long-context.jpg",
+        "alt": "Image from arXiv"
+      },
+      "heat": {
+        "score": 7,
+        "level": "none",
+        "metric": "11k views"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@poteto",
+      "quote": "you don't need a software factory, and i don't love the term. it's just marketing. all you need is good software engineering.",
+      "url": "https://x.com/poteto/status/2118613050462728659",
+      "bestReply": {
+        "handle": "@GeoffreyHuntley",
+        "quote": "i still drive my loops by hand. $43k USD a week in inferencing. factories not needed. good engineering is.",
+        "url": "https://x.com/GeoffreyHuntley/status/2118668987269611937"
+      }
+    },
+    {
+      "handle": "@naval",
+      "quote": "Not money, not time - but attention.",
+      "url": "https://x.com/naval/status/2118590165023338927"
+    },
+    {
+      "handle": "@AravSrinivas",
+      "quote": "The median Perplexity employee now gets 7x more agent-hours per week from teammates than in September.",
+      "url": "https://x.com/AravSrinivas/status/2118549314746429552"
+    },
+    {
+      "handle": "@MengTo",
+      "quote": "Always wanted to make a turn-based game like baldur's gate 3. / This is all done with three.js and opus 5.5",
+      "url": "https://x.com/MengTo/status/2118590363225210899"
+    },
+    {
+      "handle": "@garrytan",
+      "quote": "This is the first long horizon benchmark for PE/IB work / Solving high finance is on the path to AGI.",
+      "url": "https://x.com/garrytan/status/2118527182092071179"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/thinkymachines/status/2118489527362912566",
+      "handle": "@thinkymachines",
+      "text": "Inkling 2 Small is live on Tinker: multimodal MoE, 594B total / 17B active, AA Index 31, weights planned next week.",
+      "metric": "760k views",
+      "note": "A new open-weight-bound agent model launch is drawing huge attention."
+    },
+    {
+      "url": "https://x.com/naval/status/2118590165023338927",
+      "handle": "@naval",
+      "text": "Not money, not time - but attention.",
+      "metric": "2.9k likes",
+      "note": "A short scarcity take from Naval is spreading again."
+    },
+    {
+      "url": "https://x.com/poteto/status/2118613050462728659",
+      "handle": "@poteto",
+      "text": "hot take: you don't need a software factory, and i don't love the term. it's just marketing.",
+      "metric": "2.7k likes",
+      "note": "Builders are arguing hard against the software-factory category."
+    },
+    {
+      "url": "https://x.com/0interestrates/status/2118473925902635507",
+      "handle": "@0interestrates",
+      "text": "DeepFinance: 21 real PE/IB deal workflows, ~27 hours average human time, 84 rubric criteria.",
+      "metric": "494 likes",
+      "note": "A finance diligence bench is becoming the AGI yardstick of the week."
+    },
+    {
+      "url": "https://x.com/askalphaxiv/status/2118576609603252583",
+      "handle": "@askalphaxiv",
+      "text": "NVIDIA: frontier models keep accuracy on long-horizon tasks with short contexts via frequent compaction.",
+      "metric": "219 likes",
+      "note": "Compaction vs long context is the practical debate resurfacing."
+    }
+  ]
+}
