@@ -1,7 +1,79 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-05T18:25:00Z",
+  "updatedAt": "2026-11-06T00:10:00Z",
   "howtos": [
+    {
+      "id": "enable-langchain-async-subagents",
+      "dedupeKey": "langchain-async-subagents-deep-agents",
+      "title": "Run LangChain subagents in the background",
+      "what": "Make a Deep Agents subagent async so the orchestrator stays responsive while long work runs in the background.",
+      "kind": "steps",
+      "copy": [
+        "In Managed Deep Agents, set \"async\": True on the subagent definition (or use Deep Agents Python/JS async subagents).",
+        "Start work with start_async_task; it returns immediately while the subagent runs on its own thread.",
+        "Poll with check_async_task or list_async_tasks; cancel with cancel_async_task when needed.",
+        "Steer a running task with update_async_task: update_strategy \"interrupt\" (default) restarts with the new instruction; \"enqueue\" waits until the current run finishes.",
+        "Every served Managed Deep Agent also gets an async general-purpose subagent for runtime background delegation."
+      ],
+      "whenToUse": "When an agent must keep chatting with the user while research, coding, or other long tasks finish in parallel.",
+      "source": {
+        "name": "LangChain blog",
+        "url": "https://blog.langchain.com/agents-are-going-async"
+      },
+      "author": {
+        "name": "LangChain",
+        "handle": "LangChain"
+      },
+      "tags": [
+        "async-agents",
+        "deep-agents",
+        "orchestration",
+        "langchain"
+      ],
+      "quality": 5,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-05-1900",
+        "itemId": "langchain-async-subagents"
+      },
+      "addedAt": "2026-11-06T00:10:00Z"
+    },
+    {
+      "id": "publish-cursor-live-app",
+      "dedupeKey": "cursor-build-live-apps-publish",
+      "title": "Publish a live app from Cursor agents",
+      "what": "Have Cursor scaffold a web app with Postgres and SSO, pass security checks, and return a shareable live link.",
+      "kind": "steps",
+      "copy": [
+        "On a paid Cursor plan with cloud agents enabled, describe the tool you want built.",
+        "Let Cursor build the app, provision a database, and configure Cursor-SSO auth.",
+        "Wait for deterministic and agentic security checks; nothing goes live until checks pass.",
+        "Explicitly publish; Cursor picks a unique domain and returns a live link.",
+        "Share with specific people, groups, or your team behind Cursor sign-in (individual plans can also share publicly)."
+      ],
+      "whenToUse": "When an internal demo, ops tool, or dashboard is stuck on localhost and you want a reviewed shareable URL.",
+      "source": {
+        "name": "Cursor changelog",
+        "url": "https://cursor.com/changelog"
+      },
+      "author": {
+        "name": "Cursor",
+        "handle": "cursor_ai"
+      },
+      "tags": [
+        "cursor",
+        "deploy",
+        "cloud-agents",
+        "internal-tools"
+      ],
+      "quality": 4,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-05-1900",
+        "itemId": "cursor-live-apps-deploy"
+      },
+      "addedAt": "2026-11-06T00:10:00Z"
+    },
     {
       "id": "make-agent-change-fully-verifiable",
       "dedupeKey": "verifiable-change-prompt-coding-agent",
