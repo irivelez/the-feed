@@ -1,0 +1,382 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-06-0638",
+  "generatedAt": "2026-11-06T11:38:44Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-05T23:41:00Z",
+    "to": "2026-11-06T11:38:44Z"
+  },
+  "sourceNotes": [
+    "Window 23:41Z Nov 5 to 11:38Z Nov 6 (since the 18:41 run). 11 candidates (5 practical, 4 broad, 1 frontier-capital, 1 design). Morning led by Thinking Machines Inkling 2 Small, Julius DeepFinance PE/IB bench, OpenAI NDA/community data-center commitments (Verge), Airbnb AI travel agent for 1H 2027, poteto anti-software-factory take, NVIDIA 'You don't need long context', Multimodal-SEA agent security arXiv, MIT Tau teleoperated humanoid cleaners, Naval attention-as-currency, MengTo three.js+Opus BG3-style game, and Lyn Alden quiet on new views (prior air-gapped item stands).",
+    "RSS: Verge used for OpenAI NDA step-back and Airbnb AI travel agent. MIT Tech Review used for Tau Robotics humanoid cleaning. Stratechery Sharp Tech video (data centers / Google AI) is paywalled subscriber audio — noted, not used as a primary. OpenAI Blog: Australian universities / Cult.fit Codex customer stories thin vs. Verge NDA piece; GPT-6 Cyber already covered midday Nov 5. Simon Quoting Paul Ford already thin in prior. Lenny/Benedict Evans/Mollick/Hashimoto: nothing new in-window. Gary Marcus 'Mayhem in the market' skipped (mute-adjacent market commentary). Atlantic: no fresh in-window tech item used.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returns HTTP 500 again; still dead.",
+    "Metaplanet Google News: still Bitcoin treasury / share-buyback / MSCI capital-markets items only; not a view; not used. Metaplanet X quiet this window.",
+    "Hacker News (minPoints ~200, AI filter): Claude Code email User-Agent (1208) already in 18:41 file. Inkling 2 Small on front page (~213) used via Thinking Machines primary. Mark Cuban / Meta deepfake Yahoo piece is older Oct 6 story resurfaced — skipped as not fresh. sshole / MS Paint RCE off-lens.",
+    "arXiv (cs.AI/CL/MA, agents): Multimodal-SEA (2611.08281) used. Trilemma honesty/confidentiality (2611.08312), SwarmEvolve, Terminal-Bench continuous benchmarks noted but not dual-listed. NVIDIA 'You don't need long context' (2611.05306, Belcak et al., submitted Nov 3; X resurfaced Nov 6) used for practical compaction angle.",
+    "X howTo: @poteto no-software-factory (+ @GeoffreyHuntley $43k/week inference reply) used. @mattpocockuk React-still-matters thin. @theo T3 Code / inbox replies thin. Query lane not separately swept (budget); listicle risk high. @NousResearch Hermes 'doesn't do that' reply is Claude-email-leak adjacent — not re-added.",
+    "X bigPicture: OpenAI itself quiet on NDA post in this window (0 hits on from:OpenAI NDA/compact query); Verge primary used. @AravSrinivas Teammates agent-hours 7x follow-up folded as related on prior Teammates topic, not a new primary. @garrytan DeepFinance quote and midterms/Big Tech posts: DeepFinance covered via Julius; partisan midterms muted. @a16z ransomware/patch-gap already midday Nov 5. @rauchg Cursor/Vercel loop already related on live apps.",
+    "X frontierCapital: @naval attention-as-currency (quoting Akira The Don track of his line) used. @LynAldenContact mostly Iran/admin replies this window — no new quiet-investor view used. @RayDalio/@VitalikButerin/@bhorowitz/@nathanbenaich/@TaviCosta/@gerovich quiet or thin.",
+    "X design: @MengTo Baldur's Gate 3-style turn-based game in three.js + Opus 5.5 (replies cite ~$10k token spend / month on-off) used.",
+    "Non-lane primaries: thinkingmachines.ai Inkling 2 Small post, juliusresearch.ai/deep-finance leaderboard, Verge NDA + Airbnb pages, MIT Technology Review Tau piece, arXiv 2611.05306 and 2611.08281.",
+    "Replies not separately harvested beyond quoted threads already in search results (budget). authorBaseline not filled. X calls this run: 12."
+  ],
+  "candidates": [
+    {
+      "id": "inkling-2-small",
+      "lens": "practical",
+      "topic": "inkling-2-small",
+      "summary": "Thinking Machines Lab launched Inkling 2 Small: a multimodal MoE with 594B total / 17B active parameters, scoring 31 on the Artificial Analysis Intelligence Index, available now for inference and fine-tuning on Tinker with closed weights and an intended Apache 2.0 weight release next week after external safety testing.",
+      "facts": [
+        "thinkingmachines.ai and @thinkymachines (2026-11-05): second Inkling generation; image inputs and variable effort; gains attributed to more efficient pre-training and a large unified RL run; try on Tinker Playground today; checkpoints downloadable when weights ship.",
+        "Positioned for long-horizon autonomous work: vision-in-the-loop for websites/games/3D, agentic coding and autoresearch (incl. GPU kernel optimization and autonomous post-training). Example: autonomously trained Qwen3.5-4B on Tinker for time-series forecasting in 4.5 hours / $426 spend.",
+        "@ArtificialAnlys: AA Index 31; would be highest-scoring open-weights model developed outside China on current rankings once weights ship; token prices cited $0.30/$1.00/$0.03 per 1M input/output/cache-hit; ~150K output tokens/task vs ~37K for Inkling Small.",
+        "@mercor APEX-Agents eval help: 46.8% Pass@1 / 60.9% mean; domain Pass@1 Law 62.2%, Management Consulting 40.3%, Investment Banking 37.8%. DeepFinance leaderboard lists Inkling 2 Small (max) at 29.8% mean rubric."
+      ],
+      "source": {
+        "name": "Thinking Machines Lab",
+        "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+        "type": "web",
+        "handle": "thinkymachines"
+      },
+      "related": [
+        {
+          "name": "Thinking Machines on X",
+          "url": "https://x.com/thinkymachines/status/2118489527362912566"
+        },
+        {
+          "name": "Artificial Analysis on Inkling 2 Small",
+          "url": "https://x.com/ArtificialAnlys/status/2118493376186388530"
+        },
+        {
+          "name": "Mercor APEX eval note",
+          "url": "https://x.com/mercor/status/2118491171077116252"
+        }
+      ],
+      "publishedAt": "2026-11-05T23:43:57Z",
+      "metrics": {
+        "likes": 3653,
+        "reposts": 382,
+        "replies": 180,
+        "views": 760388,
+        "capturedAt": "2026-11-06T11:38:00Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "deepfinance-pe-ib-bench",
+      "lens": "practical",
+      "topic": "deepfinance-bench",
+      "summary": "Julius Research released DeepFinance, an ultra-long-horizon benchmark of 21 real PE/IB deal workflows (~27.1 hours average human time, 84 rubric criteria, ~19 files per data room); Claude Opus 5.5 (max) leads at 54.8% mean rubric with top models clustered near half-marks on multi-day diligence.",
+      "facts": [
+        "@0interestrates / Julius Research (2026-11-05): problems built from real deal data by experts with Evercore, JPM, UBS, HBS and Wharton backgrounds; aimed at end-to-end diligence with assumptions and conflicting evidence rather than financial-doc QA or simple model numerics; leaderboard at juliusresearch.ai/deep-finance.",
+        "Leaderboard (updated 2026-11-05): Claude Opus 5.5 max 54.8% ($8.63/task), Claude Sonnet 5.5 max 54.6% ($6.94), GPT-6 Astra xhigh 54.2% ($4.55), GPT-6.1 Sol xhigh 52.9% ($0.81); Inkling 2 Small max 29.8% ($0.50). Mean over 21 tasks × 10 attempts; 95% CIs reported.",
+        "Rahul clarified they intentionally did not use the Julius product harness — native model CLIs — so the bench is a research measurement, not a product demo.",
+        "@garrytan: 'This is the first long horizon benchmark for PE/IB work / Solving high finance is on the path to AGI.'"
+      ],
+      "source": {
+        "name": "Julius Research",
+        "url": "https://www.juliusresearch.ai/deep-finance",
+        "type": "web",
+        "handle": "0interestrates"
+      },
+      "related": [
+        {
+          "name": "Rahul announcement on X",
+          "url": "https://x.com/0interestrates/status/2118473925902635507"
+        },
+        {
+          "name": "Garry Tan on DeepFinance",
+          "url": "https://x.com/garrytan/status/2118527182092071179"
+        }
+      ],
+      "publishedAt": "2026-11-05T22:41:57Z",
+      "metrics": {
+        "likes": 494,
+        "reposts": 46,
+        "replies": 84,
+        "views": 77748,
+        "capturedAt": "2026-11-06T11:38:00Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://www.juliusresearch.ai/deep-finance",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "openai-nda-data-centers",
+      "lens": "broad",
+      "topic": "openai-community-compact",
+      "summary": "After midterm pushback on data centers, OpenAI said it will not use NDAs with public officials on data-center projects (only narrow protections for security/trade secrets), will pay the full cost of electricity and serving infrastructure, publish expected jobs and hiring, and put a local compact on every future owned-and-operated 'compute campus'.",
+      "facts": [
+        "The Verge (Jay Peters, 2026-11-06 00:37 UTC): commitments framed as response to midterm opposition to data-center expansion; Amazon had already said in October it would stop NDAs with government agencies on data-center work.",
+        "OpenAI wording via Verge: allowing 'only narrow protections covering legitimate security information, trade secrets, or proprietary or competitively sensitive information.'",
+        "Additional commitments: pay 'the full cost' of electricity used and 'infrastructure needed to serve us'; publish jobs expected and report on hiring; every future owned/operated compute campus gets a local compact reflecting local priorities.",
+        "Same topic family as OpenAI's National Community Compact / Compute Campus Policy Blueprint already in the 2026-11-05-0637 candidates file; this Verge piece is the NDA-specific public commitment."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+        "type": "rss"
+      },
+      "related": [
+        {
+          "name": "OpenAI responsible AI infrastructure post (403 from fetcher this run)",
+          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
+        }
+      ],
+      "publishedAt": "2026-11-06T00:37:56Z",
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "airbnb-ai-travel-agent",
+      "lens": "broad",
+      "topic": "airbnb-ai-travel-agent",
+      "summary": "Airbnb said in its Q3 2026 shareholder letter it plans an AI-native trip-planning agent in the first half of 2027 that composes travel UI elements (maps, photos, comparisons, calendars, itineraries) in real time instead of a chatbot, and can explore options, decide with co-travelers, and book inside Airbnb.",
+      "facts": [
+        "The Verge (Jay Peters, 2026-11-06 00:06 UTC) citing Airbnb Q3 2026 earnings shareholder letter: 'Today’s AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment' but 'planning a trip on Airbnb is different.'",
+        "Airbnb: custom AI-native interface draws on a library of hundreds of travel-specific UI elements and composes them to match the question; helps guests explore, decide with travel companions, and take action directly in Airbnb.",
+        "CEO Brian Chesky had previously told Skift Global Forum the 2027 agent would have an interface 'much richer than a chatbot.' Letter also called AI 'the best thing to ever happen to Airbnb' for how the company builds and operates."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-06T00:06:12Z",
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "poteto-no-software-factory",
+      "lens": "practical",
+      "topic": "software-factory-skepticism",
+      "summary": "Cursor engineer @poteto argued builders do not need a 'software factory' (calling the term marketing): what matters is good software engineering and investing tokens where work is most deterministic and token-efficient; @GeoffreyHuntley replied he still drives loops by hand at ~$43k USD/week of inference and uses inference to create deterministic outcomes.",
+      "facts": [
+        "@poteto (2026-11-06) quoting @thdxr ('all the companies selling you a software factory produce a shockingly tiny amount of software'): 'hot take: you don't need a software factory, and i don't love the term. it's just marketing / all you need is good software engineering and investing your tokens in the right places. the more deterministic the better (and token efficient)'.",
+        "@GeoffreyHuntley reply: 'i still drive my loops by hand. $43k USD a week in inferencing. factories not needed. good engineering is. use inferencing to create deterministic outcomes which don’t rely on model behavior. as model gets better you automatically get uplifted by the next model'.",
+        "Separate @poteto reply to @jamonholmgren: 'i dont know what a factory is atp lol, it's like web 2.0 but for agents'."
+      ],
+      "source": {
+        "name": "poteto",
+        "url": "https://x.com/poteto/status/2118613050462728659",
+        "type": "x",
+        "handle": "poteto"
+      },
+      "related": [
+        {
+          "name": "thdxr quoted post",
+          "url": "https://x.com/thdxr/status/2118604739428426223"
+        },
+        {
+          "name": "GeoffreyHuntley reply",
+          "url": "https://x.com/GeoffreyHuntley/status/2118668987269611937"
+        }
+      ],
+      "publishedAt": "2026-11-06T07:54:47Z",
+      "metrics": {
+        "likes": 2745,
+        "reposts": 214,
+        "replies": 181,
+        "views": 79820,
+        "capturedAt": "2026-11-06T11:38:00Z"
+      },
+      "bestReply": {
+        "handle": "GeoffreyHuntley",
+        "quote": "i still drive my loops by hand. $43k USD a week in inferencing. \n\nfactories not needed.\n\ngood engineering is.\n\nuse inferencing to create deterministic outcomes which don’t rely on model behavior. as model gets better you automatically get uplifted by the next model",
+        "url": "https://x.com/GeoffreyHuntley/status/2118668987269611937",
+        "followers": 91286
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://x.com/poteto/status/2118613050462728659",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "nvidia-no-long-context",
+      "lens": "practical",
+      "topic": "context-compaction",
+      "summary": "NVIDIA researchers (Belcak et al.) argue in arXiv 2611.05306 that frontier models lose little accuracy on long-horizon and long-input tasks when contexts stay short via frequent compaction; later tokens can cost up to ~7× earlier ones on open-weight frontiers, questioning the need for long-context LMs and outlining semantic state space models (SSSMs).",
+      "facts": [
+        "arXiv 2611.05306v1 (submitted 2026-11-03; authors include Peter Belcak, Saurav Muralidharan and NVIDIA-affiliated coauthors): 'Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may rise to as much as 7x.'",
+        "Paper: through frequent compaction, frontier LMs 'sacrifice little to no task accuracy when maintaining short contexts'; performance 'does not collapse on long-horizon software engineering tasks even when taking at most one action per context'; findings 'question the need for long-context language models.'",
+        "@askalphaxiv (2026-11-06) summarized the compaction / short-context result for agent workloads (219 likes at capture)."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.05306",
+        "type": "arxiv"
+      },
+      "related": [
+        {
+          "name": "alphaXiv summary on X",
+          "url": "https://x.com/askalphaxiv/status/2118576609603252583"
+        }
+      ],
+      "publishedAt": "2026-11-03T18:17:23Z",
+      "metrics": {
+        "likes": 219,
+        "reposts": 28,
+        "replies": 12,
+        "views": 11373,
+        "capturedAt": "2026-11-06T11:38:00Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://arxiv.org/abs/2611.05306",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "multimodal-sea-agent-security",
+      "lens": "practical",
+      "topic": "agent-social-engineering",
+      "summary": "arXiv Multimodal-SEA (2611.08281) benchmarks personal AI agents against multimodal social-engineering attacks: 608 expert-designed tasks from real fraud cases across 14 domains and 152 scenarios (Chinese and English), with verifiable tool-execution outcomes and a multimodal attack harness for controlled red teaming.",
+      "facts": [
+        "Paper (2026-11-05): argues prior agent security evals are mostly text dialogue and miss forged multimodal content; tasks span four difficulty levels reflecting Chinese and English social/cultural contexts.",
+        "Agents inspect content, verify requests, and execute actions in simulated applications; attack success is grounded in tool execution logs rather than free-text judgments.",
+        "Authors provide a multimodal attack harness integrating task information, attack progression control, and multimodal content construction for red-teaming personal agents."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.08281",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-05T16:46:31Z",
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://arxiv.org/abs/2611.08281",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "mit-tau-humanoid-cleaning",
+      "lens": "broad",
+      "topic": "tau-humanoid-cleaning",
+      "summary": "MIT Technology Review's Grace Huckins booked Tau Robotics' San Francisco humanoid home-cleaning service: robots are currently remote-piloted (cameras in head/wrists; kinematic guidance for bed/laundry), collect training data toward autonomy, and were priced about $30/hour for one robot at booking (now $60/week for two or $100 one-time).",
+      "facts": [
+        "MIT Technology Review (2026-11-06): Tau's long-term goal is autonomous cleaning; for now human pilots watch via head/wrist cameras and often use kinematic guidance where the pilot's motions are copied by the robot.",
+        "Robots ~4.5 ft tall with 3D-printed antennaed 'heads' and claw hands; grippy socks for hardwood; described as closer to radio-controlled cars than Waymos today.",
+        "Pricing: $30 for an hour with one robot at the author's booking time; later $60 per weekly cleaning with two robots or $100 one-time. Author notes they are thorough but slow."
+      ],
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-06T10:00:00Z",
+      "care": 3,
+      "proof": 5,
+      "imageHint": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "naval-attention-currency",
+      "lens": "frontier-capital",
+      "topic": "attention-as-currency",
+      "summary": "Naval amplified the line that life's real currency is attention—what you choose to pay attention to and what you do about it—by quote-posting Akira The Don's track built on that Naval quote with the caption 'Not money, not time - but attention.'",
+      "facts": [
+        "@naval (2026-11-06) quote-posted @akirathedon: 'Not money, not time - but attention.'",
+        "Quoted track text attributed to Naval: 'The real currency of life is attention / What you choose to pay attention to / And what you do about it.'",
+        "View kept as an investor/thinker framing of scarcity, separate from daily AI product news."
+      ],
+      "source": {
+        "name": "naval",
+        "url": "https://x.com/naval/status/2118590165023338927",
+        "type": "x",
+        "handle": "naval"
+      },
+      "related": [
+        {
+          "name": "Akira The Don track post",
+          "url": "https://x.com/akirathedon/status/2118585012677157365"
+        }
+      ],
+      "publishedAt": "2026-11-06T06:23:51Z",
+      "metrics": {
+        "likes": 2926,
+        "reposts": 335,
+        "replies": 153,
+        "views": 130346,
+        "capturedAt": "2026-11-06T11:38:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/naval/status/2118590165023338927",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "mengto-threejs-opus-rpg",
+      "lens": "design",
+      "topic": "mengto-ai-game-design",
+      "summary": "Designer Meng To showed a Baldur's Gate 3-style turn-based game built with three.js and Claude Opus 5.5; replies say it took about a month on-and-off, ~$10k in token usage so far, with Tripo3D for character models/rigs and a local Mac app because the browser build exceeds ~100MB.",
+      "facts": [
+        "@MengTo (2026-11-06): 'Always wanted to make a turn-based game like baldur's gate 3. / This is all done with three.js and opus 5.5' with gameplay video.",
+        "Reply thread (verbatim-adjacent facts from Meng): '@PurnenduBuilds this cost at least 10k in tokens so far'; '@YiShae3 $10k in token usage*'; '@junwatu More hours I’d like to admit. 1 month on and off while working on other things.'; recommends Tripo3D for char models/rigs because Opus still struggles there; built a Mac app for local play because browser download would be 100MB+.",
+        "Craft angle: AI-assisted game UI/3D pipeline rather than a chat demo."
+      ],
+      "source": {
+        "name": "Meng To",
+        "url": "https://x.com/MengTo/status/2118590363225210899",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-06T06:24:38Z",
+      "metrics": {
+        "likes": 194,
+        "reposts": 7,
+        "replies": 37,
+        "views": 11220,
+        "capturedAt": "2026-11-06T11:38:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/MengTo/status/2118590363225210899",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "arav-teammates-agent-hours",
+      "lens": "broad",
+      "topic": "perplexity-teammates",
+      "summary": "Perplexity CEO Aravind Srinivas said the median Perplexity employee now gets 7× more agent-hours per week from Teammates than in September, rising every week, with 1 in 5 already at 40+ agent-hours/week (a full extra workweek).",
+      "facts": [
+        "@AravSrinivas (2026-11-06): 'The median Perplexity employee now gets 7x more agent-hours per week from teammates than in September. And this has been consistently up every single week. 1 in 5 are already at 40+ agent-hours a week, which is basically a full extra workweek.'",
+        "Same-day: 'Agents are going to be used increasingly by other agents… orchestration is easier and can centralize around one compounding system of record: git. When agents run code-mode and traces are version controlled, you get to a real recursive loop.'",
+        "Follow-on metric to the 2026-11-05 Teammates launch (~10k internal teammates / ~20× headcount) already in the 18:41 candidates file."
+      ],
+      "source": {
+        "name": "Aravind Srinivas",
+        "url": "https://x.com/AravSrinivas/status/2118549314746429552",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "related": [
+        {
+          "name": "Arav on agents orchestrating agents via git",
+          "url": "https://x.com/AravSrinivas/status/2118572536300699764"
+        }
+      ],
+      "publishedAt": "2026-11-06T03:41:32Z",
+      "metrics": {
+        "likes": 172,
+        "reposts": 10,
+        "replies": 51,
+        "views": 18795,
+        "capturedAt": "2026-11-06T11:38:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://x.com/AravSrinivas/status/2118549314746429552",
+      "firstSeen": "2026-11-05"
+    }
+  ]
+}
