@@ -1,0 +1,425 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-06-1839",
+  "generatedAt": "2026-11-06T23:42:38Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-06T17:37:17Z",
+    "to": "2026-11-06T23:42:38Z"
+  },
+  "sourceNotes": [
+    "Window 17:37Z to ~23:42Z Nov 6 (since the 12:36 run). 13 candidates (5 practical, 5 broad, 1 frontier-capital, 2 design). Evening led by Anthropic agent-memory 'dreaming', Claude Code cloud session auto-env, OpenAI BioBasicsBench + FMF cyber jailbreak framework, Meta Muse Spaces + Active Memory/Focus specialized models, METR/Ajeya Cotra on Anthropic ~2× AI R&D acceleration, Nous Arete-27B Western-values post-train of Qwen3.8-27B, libghostty 1.0, theo prompt suffix + 100× engineer gap, Ray Dalio designing-precedes-doing, and arXiv signed requirement-manifest handoffs.",
+    "RSS: Verge used for Muse Spaces (also design). Simon Nilay Patel already in midday — not re-added. Stratechery Falling Leaves weekly digest noted (paywalled subscriber mix) — not primary. OpenAI Blog: BioBasicsBench + Hacktron partnership in-window (Hacktron thinner vs BioBasics + FMF). MIT Tech Review Download is Tau/Samsung follow-up already covered earlier — skipped. Lenny/Benedict Evans/Mollick: nothing new in-window. Gary Marcus markets drop skipped (mute-adjacent). Atlantic: Cybertruck teardown non-AI — skipped. Hashimoto Libghostty 1.0 used (practical + design).",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returns HTTP 500 again; still dead.",
+    "Metaplanet Google News: still Bitcoin treasury / capital-markets items only; not a quiet-investor view; not used. Metaplanet X quiet this window.",
+    "Hacker News (minPoints ~200, AI filter): front-page 'AI is dramatically accelerating AI research' (Ajeya Cotra / METR, ~153 and rising) used as broad. Anthropic IPO valuation Bloomberg (~195) markets-adjacent — skipped. No other fresh AI front-page lead clearing ~200 unique to this window beyond those already covered earlier in the day.",
+    "arXiv (cs.AI/CL/MA, agents): 2611.07483 Signed but Not Safe (requirement integrity in multi-agent handoffs) used. Last Mile agent-native primitives, Trilemma honesty/confidentiality, Agent-R2 noted but not dual-listed. Midday agent-memory fidelity not re-added.",
+    "X howTo: @ClaudeDevs cloud-session env setup used (high engagement). @theo thorough/bold prompt suffix + 100× engineer-gap used. @NousResearch Arete-27B used as broad. @hwchase17/@LangChain async already midday. Query lane not separately swept (budget).",
+    "X bigPicture: @AnthropicAI agent-memory dreaming used as lead. @OpenAI BioBasicsBench + FMF jailbreak framework used. @alexandr_wang Muse Spaces + specialized Active Memory/Focus used. @a16z defense-in-depth follow-ups thin vs midday primary. China/Nvidia spy Verge noted but geopolitics/espionage — skipped. Midterms partisan framing muted.",
+    "X frontierCapital: @RayDalio designing-precedes-doing used. @naval/@LynAldenContact/@VitalikButerin/@bhorowitz/@gerovich/@Metaplanet quiet or thin/markets. @TaviCosta gold-divide markets — skipped. @nathanbenaich thin replies only.",
+    "X design: Muse Spaces (Verge + @alexandr_wang) used. Libghostty 1.0 craft/ABI used as second design item (agentic terminals herdr/cmux cited). @MengTo quiet beyond thin reply.",
+    "Replies not separately harvested beyond threads already in search results (budget). authorBaseline not filled. X calls this run: 15."
+  ],
+  "candidates": [
+    {
+      "id": "anthropic-agent-memory-dreaming",
+      "lens": "practical",
+      "topic": "anthropic-agent-memory-dreaming",
+      "summary": "Anthropic published 'The components of agent memory,' arguing agents should capture salience in-session as notes and use offline 'dreaming' — replaying transcripts between sessions — to correct mistakes, build wiki-like memory maps, and promote a small injected header into every new session.",
+      "facts": [
+        "Anthropic research/engineering post (Lance Martin et al., 2026-11-06): frames dreaming after hippocampal replay / Letta–UC Berkeley sleep-time compute; distinguishes agent memory from weight updates, in-context learning, and compaction.",
+        "CL-Bench 1.0 database task with Managed Agents: Opus 5 was first to close a learn-from-grader loop into validated rules; Opus 5.5 / Sonnet 5.5 both closed the loop with memory. Steering 'record only failures' hurt stronger models vs free salience judgment.",
+        "Pokémon eval: Sonnet 3.7 wrote 413 memory files / 1 badge; Fable 5 wrote ~9 files + global.md / 4 badges. Dreaming corrected a wrong PokéCenter/Mt. Moon location note so Claude re-entered the cave instead of looping west.",
+        "Stainless corpus (~350k files / ~420M tokens): wiki built over 128 dreaming sessions lifted 25-question score from 13%→48%; wiki+search beat search alone (61% vs 53%). Claude Code auto memory injects only first 200 lines / 25 KB of MEMORY.md."
+      ],
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/research/components-of-agent-memory",
+        "type": "web",
+        "handle": "AnthropicAI"
+      },
+      "related": [
+        {
+          "name": "Anthropic on X",
+          "url": "https://x.com/AnthropicAI/status/2118814753154064501"
+        }
+      ],
+      "publishedAt": "2026-11-06T21:16:17Z",
+      "metrics": {
+        "likes": 3564,
+        "reposts": 256,
+        "replies": 301,
+        "views": 213625,
+        "capturedAt": "2026-11-06T23:42:00Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://www.anthropic.com/research/components-of-agent-memory",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "claude-code-cloud-sessions",
+      "lens": "practical",
+      "topic": "claude-code-cloud-sessions",
+      "summary": "ClaudeDevs said Claude Code cloud sessions on Pro, Max, and Ultra now auto-detect repo dependencies, network access, and API keys, save the environment for reuse, and keep API keys secured so Claude never sees them.",
+      "facts": [
+        "@ClaudeDevs (2026-11-06 19:58 UTC): 'We've made it easier to get your repo running in Claude Code cloud sessions on Pro, Max, and Ultra.'",
+        "Claude figures out dependencies, network access, and API keys, then saves the environment for next time; keys saved securely so the model never sees them.",
+        "X news cluster also tied the same day to Claude Duet mobile oversight of Code sessions and a prior User-Agent email privacy fix already covered earlier — not re-primary here."
+      ],
+      "source": {
+        "name": "ClaudeDevs",
+        "url": "https://x.com/ClaudeDevs/status/2118795192090386454",
+        "type": "x",
+        "handle": "ClaudeDevs"
+      },
+      "publishedAt": "2026-11-06T19:58:33Z",
+      "metrics": {
+        "likes": 4057,
+        "reposts": 151,
+        "replies": 183,
+        "views": 217216,
+        "capturedAt": "2026-11-06T23:42:00Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://x.com/ClaudeDevs/status/2118795192090386454",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "theo-prompt-thorough-bold",
+      "lens": "practical",
+      "topic": "theo-prompt-engineering",
+      "summary": "Theo shared a prompt suffix he likes — 'Be thorough in your analysis and bold in your recommendations' — and separately argued AI has widened the gap between average and best engineers from a meaningful (not quite 10×) spread to at least 100×.",
+      "facts": [
+        "@theo (2026-11-06 22:20 UTC): 'New prompt suffix I’ve been liking lately: “Be thorough in your analysis and bold in your recommendations”.'",
+        "@theo (2026-11-06 23:08 UTC): 'The gap between an average engineer and the best engineers was never quite 10x, but it was meaningful. AI has made the gap at least 100x.'"
+      ],
+      "source": {
+        "name": "Theo",
+        "url": "https://x.com/theo/status/2118830837840183628",
+        "type": "x",
+        "handle": "theo"
+      },
+      "related": [
+        {
+          "name": "100x engineer gap",
+          "url": "https://x.com/theo/status/2118842996414415220"
+        }
+      ],
+      "publishedAt": "2026-11-06T22:20:12Z",
+      "metrics": {
+        "likes": 598,
+        "reposts": 8,
+        "replies": 39,
+        "views": 15153,
+        "capturedAt": "2026-11-06T23:42:00Z"
+      },
+      "care": 3,
+      "proof": 5,
+      "imageHint": "https://x.com/theo/status/2118830837840183628",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "libghostty-1-0",
+      "lens": "practical",
+      "topic": "libghostty-1-0",
+      "summary": "Mitchell Hashimoto shipped libghostty-vt 1.0: a portable C terminal-emulation library extracted from Ghostty with a stable ABI, now powering JetBrains IDE terminals (~12.5M users), Neovim (approved PR), Vercel Turborepo's TUI, and agentic coding tools such as herdr and cmux.",
+      "facts": [
+        "mitchellh.com (2026-11-06): libghostty-vt 1.0 means library + C ABI stable under semver; CI enforces ABI via libabigail / golden manifests; ELF symbols versioned.",
+        "Consumers cited: JetBrains IDEs (JediTerm replacement), Neovim libvterm→libghostty-vt PR approved pending tagged release, KDE Konsole experiments, Turborepo TUI, devenv, Antithesis fuzzing, OrbStack, WASM ghostty-web.",
+        "MIT-licensed; runtime needs only libc (or freestanding); no copyleft in dependency tree. Docs/downloads at lib.ghostty.org."
+      ],
+      "source": {
+        "name": "Mitchell Hashimoto",
+        "url": "https://mitchellh.com/writing/libghostty-1-0",
+        "type": "rss",
+        "handle": "mitchellh"
+      },
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://mitchellh.com/writing/libghostty-1-0",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "arxiv-signed-requirement-handoffs",
+      "lens": "practical",
+      "topic": "multi-agent-handoff-integrity",
+      "summary": "arXiv 2611.07483 ('Signed but Not Safe') studies requirement integrity across multi-agent LLM handoffs and finds HMAC-signed requirement manifests with checkable predicates cut unsafe commits under attack versus free-text or structured JSON handoffs.",
+      "facts": [
+        "Submitted 2026-11-05 (cs.MA): enterprise agents split requests across subagents; each handoff can summarize away, alter, or ignore a requirement.",
+        "Preregistered study on synthetic scorable tasks: free-text vs structured JSON vs signed manifests (orchestrator extracts verbatim quote + checkable predicate; HMAC-SHA256; deterministic verification of merger decision).",
+        "With Qwen3-8B (1,440 trajectories, five threats), signed manifests cut unsafe commits under attack relative to unsigned handoffs (abstract)."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.07483",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-05T05:43:47Z",
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://arxiv.org/abs/2611.07483",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "openai-biobasicsbench",
+      "lens": "broad",
+      "topic": "openai-biobasicsbench",
+      "summary": "OpenAI introduced BioBasicsBench with biotech firm Ligo: a 100-task benchmark drawn from real experiments that measures whether AI agents can interpret raw wet-lab data and handle routine laboratory analyses.",
+      "facts": [
+        "OpenAI blog + @OpenAI (2026-11-06): 'A new way to measure how AI agents handle the routine analyses of wet-lab science—BioBasicsBench.'",
+        "Developed with Ligo (enzyme design); 100 tasks from real experiments testing whether agents can interpret raw lab data and identify issues.",
+        "RSS description: OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science."
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+        "type": "rss",
+        "handle": "OpenAI"
+      },
+      "related": [
+        {
+          "name": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2118782708767965238"
+        }
+      ],
+      "publishedAt": "2026-11-06T19:08:57Z",
+      "metrics": {
+        "likes": 2284,
+        "reposts": 154,
+        "replies": 548,
+        "views": 363773,
+        "capturedAt": "2026-11-06T23:42:00Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "fmf-jailbreak-rating-framework",
+      "lens": "broad",
+      "topic": "fmf-cyber-jailbreak-framework",
+      "summary": "The Frontier Model Forum released v1.0 of its Jailbreak Rating Framework for Frontier Cyber Threats — a shared tiered method (capability gain, scope, ease of deployment, ease of discovery) to rate when AI safeguard bypasses enable serious cyber harm — with OpenAI amplifying the launch and a public comment window through Dec 21, 2026.",
+      "facts": [
+        "FMF post (dated 2026-11-05; OpenAI X amplify 2026-11-06 19:58 UTC): Version 1.0 preliminary framework for comparative risk of successful cyber jailbreaks.",
+        "Four score categories: capability gain, capability scope, ease of deployment, ease of discovery. Members quoted include AWS, Anthropic, Google DeepMind, Microsoft, OpenAI.",
+        "OpenAI Sasha Baker (verbatim via OpenAI note): framework is 'an important step toward a common methodology for evaluating and comparing the severity of cyber jailbreaks, including the capabilities they unlock and how readily they can be used.'",
+        "Public comments open through 2026-12-21 to comments@frontiermodelforum.org."
+      ],
+      "source": {
+        "name": "Frontier Model Forum",
+        "url": "https://www.frontiermodelforum.org/updates/introducing-the-fmf-jailbreak-rating-framework-for-frontier-cyber-threats/",
+        "type": "web",
+        "handle": "OpenAI"
+      },
+      "related": [
+        {
+          "name": "OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2118795218099253606"
+        }
+      ],
+      "publishedAt": "2026-11-06T19:58:39Z",
+      "metrics": {
+        "likes": 928,
+        "reposts": 69,
+        "replies": 275,
+        "views": 168222,
+        "capturedAt": "2026-11-06T23:42:00Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://www.frontiermodelforum.org/updates/introducing-the-fmf-jailbreak-rating-framework-for-frontier-cyber-threats/",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "muse-spaces-active-memory",
+      "lens": "broad",
+      "topic": "meta-muse-spaces",
+      "summary": "Meta launched Muse 'Spaces' — describe an app-like hub (shopping, school dashboard, music tracker) and Muse builds and updates it from connected apps — and rolled specialized Muse Wonder-trained models with Active Memory (2.4× less forgetting critical info) and Active Focus (67% better at finishing tasks when roadblocks hit) into Muse and Meta AI.",
+      "facts": [
+        "The Verge (Emma Roth, 2026-11-06 18:10 UTC): Spaces let users create shopping hubs, school dashboards, music trackers, trivia games inside Muse; connect Gmail/Calendar/OpenTable/Notion etc. for background updates; pin/schedule placement in sidebar or main tab.",
+        "@alexandr_wang (2026-11-06): Spaces live; specialized models for Muse and Meta AI with Active Memory and Active Focus.",
+        "Meta AI Research blog (2026-11-06): Personal Superintelligence Index 47% vs prior 38%; Active Memory eval 90% vs 76% tasks correctly using critical context; Active Focus 67% improvement completing everyday tasks with unexpected issues."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+        "type": "rss"
+      },
+      "related": [
+        {
+          "name": "Meta AI Research blog",
+          "url": "https://research.meta.ai/blog/specialized-models-for-muse-and-metaai"
+        },
+        {
+          "name": "Alexandr Wang Spaces",
+          "url": "https://x.com/alexandr_wang/status/2118769424769663009"
+        },
+        {
+          "name": "Alexandr Wang Active Memory/Focus",
+          "url": "https://x.com/alexandr_wang/status/2118776727912755478"
+        }
+      ],
+      "publishedAt": "2026-11-06T18:10:00Z",
+      "metrics": {
+        "likes": 824,
+        "reposts": 42,
+        "replies": 107,
+        "views": 70762,
+        "capturedAt": "2026-11-06T23:42:00Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "metr-anthropic-ai-rd-acceleration",
+      "lens": "broad",
+      "topic": "anthropic-ai-rd-acceleration",
+      "summary": "Ajeya Cotra (METR) argued a deep-access report shows Anthropic’s AI capabilities progress roughly doubled Oct 2025–Oct 2026 versus the prior year, mostly from AI automating AI R&D — plausibly meeting Anthropic’s RSP 'dramatically accelerated progress' threshold — and that naive compounding could imply extreme superintelligence within about a year.",
+      "facts": [
+        "planned-obsolescence.org (Ajeya Cotra, 2026-11-06); discusses public METR report on AI R&D acceleration at Anthropic; author did not work on the project or see unredacted report.",
+        "Report findings as summarized: AECI capabilities progress ~2× Oct 2025–Oct 2026 vs prior twelve months; AI automation probably large majority of why the faster pace continues; most informative evidence redacted.",
+        "Cotra: ~2× overall capabilities via software implies ~2–3× compute-multiplier growth and roughly ~4–9× (possibly ~10× today) labor uplift; informal Anthropic staff self-reports ~12× uplift cited. Report authors did not find clear bottlenecks to compounding acceleration.",
+        "Context: Anthropic S1 said they 'may imminently meet' RSP threshold of dramatically accelerated progress due to AI."
+      ],
+      "source": {
+        "name": "Ajeya Cotra",
+        "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+        "type": "web"
+      },
+      "publishedAt": "2026-11-06T20:27:23Z",
+      "care": 5,
+      "proof": 4,
+      "imageHint": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "firstSeen": "2026-11-06",
+      "related": [
+        {
+          "name": "HN discussion",
+          "url": "https://news.ycombinator.com/item?id=50397994"
+        }
+      ]
+    },
+    {
+      "id": "nous-arete-27b",
+      "lens": "broad",
+      "topic": "nous-arete-27b",
+      "summary": "Nous Research released Arete-27B — Apache-2.0 SFT of Alibaba Qwen3.8-27B (~52.8M tokens, Inkling teacher) aimed at Western values — reporting propaganda answers on its 803-prompt eval cut from 22% to 0.9% and fact score raised 2.32→2.98/5 with Hermes Bench essentially flat.",
+      "facts": [
+        "@NousResearch (2026-11-06 21:48 UTC) + nousresearch.com/arete: post-trained Qwen3.8-27B to reinforce Western values; weights, Propaganda_Eval, and training data released.",
+        "Eval: 803 prompts across seven categories (expression, state ideology, markets, education, privacy/surveillance, democracy, environment); Grok 4.7 judge; fact mean 2.32→2.98; any-propaganda 22%→0.9% (thinking off).",
+        "Training: ~52.8M tokens / ~50k samples at 64k context, 2 epochs, 1,202 steps, SFT only (no RL/PO); teacher Inkling. Hermes Bench 65.60% vs base 65.77%; Terminal-Bench-2.1 70% vs 67% like-for-like."
+      ],
+      "source": {
+        "name": "Nous Research",
+        "url": "https://nousresearch.com/arete",
+        "type": "web",
+        "handle": "NousResearch"
+      },
+      "related": [
+        {
+          "name": "Nous on X",
+          "url": "https://x.com/NousResearch/status/2118822925445050435"
+        },
+        {
+          "name": "Hugging Face weights",
+          "url": "https://huggingface.co/NousResearch/Arete-27B"
+        }
+      ],
+      "publishedAt": "2026-11-06T21:48:45Z",
+      "metrics": {
+        "likes": 3959,
+        "reposts": 380,
+        "replies": 390,
+        "views": 143111,
+        "capturedAt": "2026-11-06T23:42:00Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://nousresearch.com/arete",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "ray-dalio-designing-precedes",
+      "lens": "frontier-capital",
+      "topic": "ray-dalio-designing-precedes",
+      "summary": "Ray Dalio posted that planning/design time determines effectiveness and warned people skip designing because they are preoccupied with execution: 'Remember: Designing precedes doing!'",
+      "facts": [
+        "@RayDalio (2026-11-06 23:29 UTC) principle of the day: 'A plan can be sketched out and refined in just hours or spread out over days or weeks. But the process is essential because it determines what you will have to do to be effective. Too many people make the mistake of spending virtually no time on designing because they are preoccupied with execution. Remember: Designing precedes doing!'"
+      ],
+      "source": {
+        "name": "Ray Dalio",
+        "url": "https://x.com/RayDalio/status/2118848152514007464",
+        "type": "x",
+        "handle": "RayDalio"
+      },
+      "publishedAt": "2026-11-06T23:29:00Z",
+      "metrics": {
+        "likes": 35,
+        "reposts": 1,
+        "replies": 5,
+        "views": 10980,
+        "capturedAt": "2026-11-06T23:42:00Z"
+      },
+      "care": 3,
+      "proof": 5,
+      "imageHint": "https://x.com/RayDalio/status/2118848152514007464",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "muse-spaces-design",
+      "lens": "design",
+      "topic": "meta-muse-spaces",
+      "summary": "Meta’s Muse Spaces let users describe a custom app-like surface (shopping hub, school dashboard, music tracker, trivia) that Muse builds inside the chat app, keeps updated from connected services, and lets users rearrange or schedule in the nav.",
+      "facts": [
+        "The Verge (Emma Roth, 2026-11-06): create a space by describing it; connected apps (Gmail, Google Calendar, OpenTable, Notion, others) continuously update pricing/dates; check off items, add notes, edit elements.",
+        "Placement controls: sidebar, main tab, or scheduled swap (e.g. weekday planner → weekend plans). Rolling out to all Muse users; sharing/collaboration under exploration.",
+        "@alexandr_wang demoed personal spaces pinned to the nav bar the same afternoon."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+        "type": "rss"
+      },
+      "related": [
+        {
+          "name": "Alexandr Wang",
+          "url": "https://x.com/alexandr_wang/status/2118769424769663009"
+        }
+      ],
+      "publishedAt": "2026-11-06T18:10:00Z",
+      "care": 3,
+      "proof": 5,
+      "imageHint": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "libghostty-design-craft",
+      "lens": "design",
+      "topic": "libghostty-1-0",
+      "summary": "Libghostty 1.0’s stable C ABI and packaging story positions terminal emulation as shared infrastructure — opaque handles, enum-keyed getters/setters, XCFramework/WASM builds — so new agentic TUIs inherit a correct, high-performance emulator instead of rewriting one.",
+      "facts": [
+        "Hashimoto: every object is an opaque handle; values via enum-keyed getters/setters so new fields don’t break ABI; newer headers against older libs return GHOSTTY_UNSUPPORTED.",
+        "Platform artifacts: ELF SONAME + versioned symbols, macOS/iOS XCFramework, Windows DLL+import lib, Android 16 KB pages, WASM speed/size builds under 1 MB with feature flags.",
+        "Wave of new terminals and agentic coding tools (herdr, cmux) built on libghostty rather than yet another emulator; community bindings across Rust/Go/JS/Swift/Python/.NET/etc."
+      ],
+      "source": {
+        "name": "Mitchell Hashimoto",
+        "url": "https://mitchellh.com/writing/libghostty-1-0",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "care": 3,
+      "proof": 5,
+      "imageHint": "https://mitchellh.com/writing/libghostty-1-0",
+      "firstSeen": "2026-11-06"
+    }
+  ]
+}
