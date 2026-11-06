@@ -1,0 +1,429 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-06-1236",
+  "generatedAt": "2026-11-06T17:37:17Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-06T11:38:00Z",
+    "to": "2026-11-06T17:37:17Z"
+  },
+  "sourceNotes": [
+    "Window 11:38Z to ~17:36Z Nov 6 (since the 06:38 run). 13 candidates (4 practical, 5 broad, 2 frontier-capital, 2 design). Midday led by DeepMind human-guided agents cracking legacy RSA-1024 assumptions, a16z 'Defense in Depth, Rebuilt for Machine Speed', LangChain async subagents, Alexander Yue lossy-subagent critique, Microsoft Amsterdam data-center break-in, Amazon Alexa text shopping, Nilay Patel product-costs quote via Simon, Conductor-alternatives wave post-Meta, Nathan Benaich 12 agent interviews, Naval loved-and-hated, MengTo three.js+Opus portfolios, inMusic/Akai/Moog vibe-coded mods, and arXiv agent-memory fidelity.",
+    "RSS: Verge used for Amsterdam protest, Alexa text shopping, Akai/Moog vibe mods. Simon used for Nilay Patel quote (fresh 17:13Z). Stratechery Sharp Tech video (data centers / Google AI) paywalled subscriber — noted, not primary. MIT Tech Review Download is Tau humanoid follow-up already in morning file — not re-added. OpenAI Blog: no new in-window post (Cult.fit / Australian universities still Nov 5). Lenny/Benedict Evans/Mollick/Hashimoto: nothing new in-window. Gary Marcus markets drop skipped (mute-adjacent). Atlantic: no fresh in-window tech item used.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) returns HTTP 500 again; still dead.",
+    "Metaplanet Google News: still Bitcoin treasury / capital-markets items only; not a quiet-investor view; not used. Metaplanet X quiet this window.",
+    "Hacker News (minPoints ~200, AI filter): Gemini Omni 1.2 Flash (~204) already in Nov 5 midday file. Claude Code email User-Agent (~1485) already in 18:41/morning coverage. Cuban/Meta deepfake Yahoo piece older resurfaced — skipped. No fresh AI front-page lead unique to this window beyond those.",
+    "arXiv (cs.AI/CL/MA, agents): 2611.08341 agent-memory local/global fidelity used. SwarmEvolve, XStack, Terminal-Bench continuous, SMART, PCBRouteAgent noted but not dual-listed.",
+    "X howTo: @hwchase17/@LangChain async subagents week used. @Alezander9 subagent critique used (high engagement). Conductor alternatives (@ryaneshea + @garrytan Capy) used. @theo T3 Code viz thin vs. those. @NousResearch LongCat-2.5 free week promotional — skipped. Query lane not separately swept (budget).",
+    "X bigPicture: @GoogleDeepMind RSA research used as lead. @a16z defense-in-depth used. @AravSrinivas GTABot Teammates mod is Teammates-adjacent entertainment — not a new primary. @nikitabier Russia meme / Grokbot reply off-lens or thin. @stratechery Sharp Tech $ video noted only. Midterms partisan framing muted; Nilay product-quality quote kept via Simon.",
+    "X frontierCapital: @nathanbenaich lato.ai expert-interview loop used. @naval loved-and-hated aphorism used. @LynAldenContact/@RayDalio/@VitalikButerin/@bhorowitz/@TaviCosta/@gerovich/@Metaplanet quiet or thin/markets. Quest personal-agent launch buzz noted via Nathan replies but Quest itself is not a frontierCapital handle primary.",
+    "X design: @MengTo three.js+Opus portfolio post used. Verge inMusic/Akai/Moog vibe-coded mods used as second design item.",
+    "Replies not separately harvested beyond threads already in search results (budget). authorBaseline not filled. X calls this run: 12."
+  ],
+  "candidates": [
+    {
+      "id": "deepmind-rsa-agent-cryptanalysis",
+      "lens": "broad",
+      "topic": "deepmind-rsa-cryptanalysis",
+      "summary": "Google DeepMind said human-guided AI agents uncovered two major weaknesses in legacy 1024-bit RSA cryptosystems (signature padding forgery shortcuts and ~30× cheaper batch factoring per additional same-size key), while stating modern 2048-bit and larger RSA remain safe from these specific exploits.",
+      "facts": [
+        "@GoogleDeepMind / @pushmeet (2026-11-06): research framed as AI agents accelerating cryptanalysis stress-tests; work led by Dj Dvijotham and Abhradeep Thakurta with Nadia Heninger (UC San Diego/Inria) and Emmanuel Thomé (Inria).",
+        "Signature-padding result: once an attacker controls roughly half or more of the signed block, padding adds no forgery protection; sandboxed reproduction on an already-solved 1024-bit benchmark key used 3.5× less CPU than prior, at <1/1000th the compute to break the key itself. For short 32-byte fingerprints they report a new algorithm ~1,600× better than prior best on 1024-bit (theoretical estimates).",
+        "Batch factoring: agents found a new algorithm with better asymptotic complexity, cutting average cost of factoring each additional 1024-bit key in a batch by about 30× vs prior batch NFS methods.",
+        "DeepMind: modern protocols almost universally use 2048-bit+ keys and remain secure; papers posted at storage.googleapis.com/deepmind-media/papers/ (Faster Affine Root… and Fan Factories / Batch NFS)."
+      ],
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://x.com/GoogleDeepMind/status/2118755418675765656",
+        "type": "x",
+        "handle": "GoogleDeepMind"
+      },
+      "related": [
+        {
+          "name": "Pushmeet Kohli X Article",
+          "url": "https://x.com/i/article/2118746079923437568"
+        },
+        {
+          "name": "Pushmeet announcement",
+          "url": "https://x.com/pushmeet/status/2118752095859794390"
+        },
+        {
+          "name": "Technical paper (signatures)",
+          "url": "https://storage.googleapis.com/deepmind-media/papers/Faster_Affine_Root_and_a_1024bit%20Computation.pdf"
+        },
+        {
+          "name": "Technical paper (batch NFS)",
+          "url": "https://storage.googleapis.com/deepmind-media/papers/Fan_Factories_Multiple_Number_Fields_in_Factorization_Factories_and_Batch_NFS.pdf"
+        }
+      ],
+      "publishedAt": "2026-11-06T17:20:31Z",
+      "metrics": {
+        "likes": 124,
+        "reposts": 14,
+        "replies": 44,
+        "views": 11711,
+        "capturedAt": "2026-11-06T17:36:00Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://x.com/GoogleDeepMind/status/2118755418675765656",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "a16z-defense-machine-speed",
+      "lens": "broad",
+      "topic": "a16z-cyber-exploit-patch-gap",
+      "summary": "a16z's Asaf Ezra and Steph Zhang published 'Defense in Depth, Rebuilt for Machine Speed,' arguing AI-cheap exploits mean the fix is not faster patching but products that make patching unnecessary, and listing six cybersecurity company openings from live fixes to long-tail platforms.",
+      "facts": [
+        "a16z.news (2026-11-06) follow-up to their exploit-was-the-bottleneck thesis: cites Verizon 2026 median full remediation 43 days / only 26% of known-exploited vulns fully remediated; Veracode 2025 average flaw remediation 252 days (up from 171 five years earlier).",
+        "October PHP critical bugs leaked before fix; exploit attempts began four days before public disclosure; ~2.6–4.4M installs outside CDN/hosting umbrellas stayed exposed. Anthropic reportedly had an unreleased model produce a remote no-login Linux kernel LPE in under an hour for a bug still unfixed in two major server distros.",
+        "Six openings: (1) live fixes then code fixes, (2) AI first-responder SOC without hand-written rules, (3) per-request access for people and agents with minute-lived credentials, (4) proven recovery / backup posture with insurer-grade restore records, (5) install gateway sandboxing packages/extensions/agent tools, (6) managed long-tail security for utilities/clinics lacking security teams.",
+        "@a16z summary post: 'So the question isn't how to patch faster. It's how to stop needing to.'"
+      ],
+      "source": {
+        "name": "a16z",
+        "url": "https://www.a16z.news/p/defense-in-depth-rebuilt-for-machine",
+        "type": "web",
+        "handle": "a16z"
+      },
+      "related": [
+        {
+          "name": "a16z on X",
+          "url": "https://x.com/a16z/status/2118752443089780837"
+        }
+      ],
+      "publishedAt": "2026-11-06T17:07:26Z",
+      "metrics": {
+        "likes": 23,
+        "reposts": 1,
+        "replies": 9,
+        "views": 5517,
+        "capturedAt": "2026-11-06T17:36:00Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://www.a16z.news/p/defense-in-depth-rebuilt-for-machine",
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "microsoft-amsterdam-dc-protest",
+      "lens": "broad",
+      "topic": "data-center-local-pushback",
+      "summary": "About 100 protesters from Geef Tegengas broke into a Microsoft data-center construction site in Amsterdam, scaled a crane with a 'fuck AI' banner, and joined a wider European wave of data-center protests the same week US midterm voters rejected unrestrained data-center buildouts.",
+      "facts": [
+        "The Verge (Tom Warren, 2026-11-06 11:55 UTC) citing Reuters: ~100 people entered the Pure Data Centres site for three planned 85-meter towers where Microsoft is sole tenant; banners included 'Microsoft powers genocide' and chants 'Microsoft has got to go' / 'free Palestine.'",
+        "Amsterdam banned new data centers until 2030 after a late-2023 temporary stop; this project is proceeding because it was planned as far back as 2016 and navigated loopholes.",
+        "Same week: mock Israeli military checkpoint protest outside a Microsoft data center in Dublin; Microsoft abandoned the UK's largest data-center project last month after grid officials said power would not arrive until the 2030s."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-06T11:55:19Z",
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "amazon-alexa-text-shopping",
+      "lens": "broad",
+      "topic": "amazon-alexa-text-shopping",
+      "summary": "Amazon began rolling out texting for Alexa for Shopping in the US: customers message 'Amazon Alexa' with product descriptions or photos, get recommendations, and can have the assistant order on their behalf, with preferences remembered and deal alerts.",
+      "facts": [
+        "The Verge (Jess Weatherbed, 2026-11-06 14:00 UTC): builds on Alexa for Shopping launched May 2026; small US invite group today, then 'millions more' in coming weeks per Amazon.",
+        "VP Conversational Shopping Rajiv Mehta: 'Message it what you need and Alexa goes to work on your behalf — searching, comparing, and buying.'",
+        "Context: OpenAI launched texting with personal agent Dot last month; DoorDash launched Ask DoorDash text ordering in September."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-06T14:00:00Z",
+      "care": 3,
+      "proof": 5,
+      "imageHint": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "langchain-async-subagents",
+      "lens": "practical",
+      "topic": "langchain-async-subagents",
+      "summary": "LangChain shipped async subagents for Deep Agents: an orchestrator stays responsive to the user while background subagents run long tasks, with start/check/update/cancel/list tools and interrupt vs enqueue steering; available in Python, JavaScript, and Managed Deep Agents.",
+      "facts": [
+        "LangChain blog 'Agents Are Going Async' (Sydney Runkle & Thushanth Bengre, 2026-11-05): ReAct loops block on long tool calls; async pattern mirrors Claude Code background subagents, OpenAI dots workers, and DeepSeek Harness router+workers.",
+        "Tools: start_async_task, check_async_task, update_async_task, cancel_async_task, list_async_tasks. update_strategy 'interrupt' (default) restarts with new instruction; 'enqueue' waits until current run finishes.",
+        "Notifications: unfinished tasks listed in orchestrator system prompt; busy orchestrator polls before each model call; idle orchestrator woken by finished subagent; approvals left alone until user answers. Task notifications marked beta.",
+        "@hwchase17 (2026-11-06): week's ship also includes browser-use tuning in MDA (7 toolsets; Stagehand won), LangSmith BYOC on AWS/Azure/GCP, and Interrupt conference back March 24–25 in SF."
+      ],
+      "source": {
+        "name": "LangChain",
+        "url": "https://www.langchain.com/blog/agents-are-going-async",
+        "type": "blog",
+        "handle": "hwchase17"
+      },
+      "related": [
+        {
+          "name": "Harrison Chase week summary",
+          "url": "https://x.com/hwchase17/status/2118739844696277338"
+        },
+        {
+          "name": "Browser use optimization post",
+          "url": "https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents"
+        },
+        {
+          "name": "LangSmith BYOC",
+          "url": "https://www.langchain.com/blog/langsmith-byoc-aws-gc-azure"
+        }
+      ],
+      "publishedAt": "2026-11-06T16:18:37Z",
+      "metrics": {
+        "likes": 32,
+        "reposts": 3,
+        "replies": 30,
+        "views": 2351,
+        "capturedAt": "2026-11-06T17:36:00Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://www.langchain.com/blog/agents-are-going-async",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "subagent-lossy-summaries",
+      "lens": "practical",
+      "topic": "subagent-context-forking",
+      "summary": "Alexander Yue argued lossy summary handoffs make subagents a top failure mode, measured 'checkpoint' session forks vs classic subagents on a 137k-token Opus 5.5 session, and concluded most work is better done serially with retrieval or as fresh parallel sessions rather than partial delegation.",
+      "facts": [
+        "@Alezander9 (2026-11-06 01:35 UTC): classic pattern = main agent summarizes → subagent assumes from summary → returns another summary; same flaw as compaction.",
+        "Checkpoint idea: fork the session so the worker shares identical cached prefix with the main agent; returning work keeps main-agent cache warm.",
+        "Measured 137k-token Opus 5.5 session: solo main 67s / $0.38 / +8–17k context; checkpoint 117s / $0.68 / +2k; classic subagent 123s / $0.57 / +4–5k. Concluded avoiding large input mattered more than cache, and 'I do not think there is a place for subagent delegation at all' between a pure orchestrator and a long-running retrievable agent.",
+        "Midday X news cluster 'Developers Question Subagent Delegation' cited this thread alongside Claude Code cheaper background-status updates."
+      ],
+      "source": {
+        "name": "Alexander Yue",
+        "url": "https://x.com/Alezander9/status/2118517491798606140",
+        "type": "x",
+        "handle": "Alezander9"
+      },
+      "publishedAt": "2026-11-06T01:35:04Z",
+      "metrics": {
+        "likes": 978,
+        "reposts": 58,
+        "replies": 107,
+        "views": 109855,
+        "capturedAt": "2026-11-06T17:36:00Z"
+      },
+      "care": 5,
+      "proof": 4,
+      "imageHint": "https://x.com/Alezander9/status/2118517491798606140",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "conductor-alternatives-wave",
+      "lens": "practical",
+      "topic": "conductor-meta-acquisition",
+      "summary": "After Meta acquired Conductor and set Conductor Cloud to shut down Nov 20 (read-only Nov 13), builders circulated expanding alternative lists (Ryan Shea's shortlist grew past 40 products by midday) while Garry Tan said Capy is a 'superset of Conductor' that 5×ed his efficiency.",
+      "facts": [
+        "Conductor joining Meta / MSL announced earlier this week (@charlieholtz); cloud wipe timeline circulating as read-only Nov 13, shutdown Nov 20; local models continue into early 2027 while a new Meta product is teased.",
+        "@ryaneshea alternatives shortlist (updated thread): Paradev, Tembo, Multica, Continuum, Agentastic, T3 Code, Traycer, OpenHands, Devin, Warp, and dozens more sorted by Conductor feature coverage — expanded midday list cited ~43 products.",
+        "@garrytan reply: 'Capy is a superset of Conductor for me and 5Xed my efficiency.'",
+        "Practical lesson in replies: prompts/task history/agent setup need an exit path; git clone alone does not migrate orchestration state."
+      ],
+      "source": {
+        "name": "Ryan Shea",
+        "url": "https://x.com/ryaneshea/status/2118458084561711301",
+        "type": "x",
+        "handle": "ryaneshea"
+      },
+      "related": [
+        {
+          "name": "Expanded alternatives list",
+          "url": "https://x.com/ryaneshea/status/2118749055643713542"
+        },
+        {
+          "name": "Garry Tan on Capy",
+          "url": "https://x.com/garrytan/status/2118754097197355359"
+        }
+      ],
+      "publishedAt": "2026-11-05T21:39:01Z",
+      "metrics": {
+        "likes": 312,
+        "reposts": 17,
+        "replies": 131,
+        "views": 59154,
+        "capturedAt": "2026-11-06T17:36:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://x.com/ryaneshea/status/2118458084561711301",
+      "firstSeen": "2026-11-04"
+    },
+    {
+      "id": "nilay-patel-ai-product-costs",
+      "lens": "broad",
+      "topic": "ai-product-costs-vs-benefits",
+      "summary": "On The Vergecast after midterm data-center pushback, Nilay Patel argued AI products are not good enough to justify local costs — 'agents aren't real' yet for how people want them, companies spend more than they make, and the industry exits the backlash only when products obviously improve lives without ad campaigns.",
+      "facts": [
+        "Simon Willison quoted Nilay Patel (posted 2026-11-06 17:13 UTC) from The Vergecast episode 'Big Tech lost big in the 2026 election.'",
+        "Verbatim via Simon: 'The products aren't good enough to sell people on the costs… You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history.'",
+        "Also: 'And agents aren't real and they might not be being used the way that anyone wants them to yet. All these companies are spending more than they're making on these products.' Closing: industry won't get out 'until everyone can see without needing to be convinced… that just using these products makes your life better.'"
+      ],
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+        "type": "rss",
+        "handle": "simonw"
+      },
+      "related": [
+        {
+          "name": "The Vergecast episode page",
+          "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast"
+        }
+      ],
+      "publishedAt": "2026-11-06T17:13:12Z",
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "nathan-benaich-agent-interviews",
+      "lens": "frontier-capital",
+      "topic": "nathan-benaich-lato-interviews",
+      "summary": "Nathan Benaich said his agents autonomously ran 12 expert interviews in 2.5 days on lato.ai — framing open questions, designing the study, finding and interviewing experts, updating beliefs, and refining questions — clipped from his State of AI talk with Matt Turck.",
+      "facts": [
+        "@nathanbenaich (2026-11-06 12:00 UTC): 'my agents autonomously ran 12 expert interviews in 2.5 days' with the loop on @lato_ai; from @stateofai conversation with @mattturck.",
+        "Described loop: frame open questions → design study → find/interview experts → update what we know → refine questions → repeat.",
+        "Midday replies pressed how expert quality is checked; Nathan said titles/companies plus self-described competence/background and transcripts are available at the outset."
+      ],
+      "source": {
+        "name": "Nathan Benaich",
+        "url": "https://x.com/nathanbenaich/status/2118674775744888834",
+        "type": "x",
+        "handle": "nathanbenaich"
+      },
+      "publishedAt": "2026-11-06T12:00:04Z",
+      "metrics": {
+        "likes": 11,
+        "reposts": 1,
+        "replies": 10,
+        "views": 2433,
+        "capturedAt": "2026-11-06T17:36:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://x.com/nathanbenaich/status/2118674775744888834",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "naval-loved-and-hated",
+      "lens": "frontier-capital",
+      "topic": "naval-loved-hated",
+      "summary": "Naval posted: 'You can be either loved *and* hated, or merely liked and tolerated.'",
+      "facts": [
+        "@naval (2026-11-06 11:40 UTC): single-line aphorism; 7.5k+ likes and 560k+ views within hours of posting."
+      ],
+      "source": {
+        "name": "Naval",
+        "url": "https://x.com/naval/status/2118669784535761032",
+        "type": "x",
+        "handle": "naval"
+      },
+      "publishedAt": "2026-11-06T11:40:14Z",
+      "metrics": {
+        "likes": 7537,
+        "reposts": 632,
+        "replies": 277,
+        "views": 566442,
+        "capturedAt": "2026-11-06T17:36:00Z"
+      },
+      "care": 3,
+      "proof": 5,
+      "imageHint": "https://x.com/naval/status/2118669784535761032",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "mengto-threejs-portfolio-opus",
+      "lens": "design",
+      "topic": "mengto-threejs-opus-design",
+      "summary": "Meng To highlighted how far portfolio sites can be pushed with three.js and Claude Opus 5.5, pointing to Brice Deguigne's interactive 3D portfolio (bricelab.dev) as the example.",
+      "facts": [
+        "@MengTo (2026-11-06 15:10 UTC): 'I love how much we can push portfolio sites with three.js and opus 5.5.' linking bricelab.dev.",
+        "In replies he noted Opus 5.5 and Astra 'pushing the polygons'; earlier same-day thread on his BG3-style three.js+Opus game reiterated ~$10k token spend for ambitious solo visuals (already in morning candidates)."
+      ],
+      "source": {
+        "name": "Meng To",
+        "url": "https://x.com/MengTo/status/2118722640693330082",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "related": [
+        {
+          "name": "bricelab.dev portfolio",
+          "url": "https://www.bricelab.dev/"
+        }
+      ],
+      "publishedAt": "2026-11-06T15:10:16Z",
+      "metrics": {
+        "likes": 50,
+        "reposts": 1,
+        "replies": 10,
+        "views": 4931,
+        "capturedAt": "2026-11-06T17:36:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/MengTo/status/2118722640693330082",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "akai-moog-vibe-coded-mods",
+      "lens": "design",
+      "topic": "vibe-coded-music-gear",
+      "summary": "inMusic (Akai, Moog, Native Instruments) said it will open-source device code such as the MPC Sample Key, ship an SDK and reset paths for safer mods, and run a Creator Lab at NAMM after vibe-coded firmware mods forced the issue onto the roadmap within five weeks.",
+      "facts": [
+        "The Verge (Terrence O'Brien, 2026-11-06 16:34 UTC) interview with inMusic CEO Jack O'Donnell: provide a toolbox / inner workings so people can mod; keep official stage software stable; give a reset so experimenters don't lose stock firmware.",
+        "O'Donnell: opening Moog correctly means a platform around analog circuit parts; Creator Lab at NAMM will let musicians hack 22 new products across brands.",
+        "Peers: Erica Synths LXR-02 source, Polyend Tracker open-source, Behringer announced open-source Kick/$150 MPC One clone and others. Elektron banned linking hacked firmware on forums over brick/warranty risk but is not actively thwarting discussion.",
+        "O'Donnell: 'I can tell you it wasn't on our task list five weeks ago. It just all of a sudden has to be on a task list now.'"
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-06T16:34:39Z",
+      "care": 3,
+      "proof": 5,
+      "imageHint": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai",
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "arxiv-agent-memory-fidelity",
+      "lens": "practical",
+      "topic": "agent-memory-compression",
+      "summary": "arXiv 2611.08341 proposes evaluating compressed AI-agent memory with both local nearest-neighbor fidelity and global far-apart structure, arguing agents that consolidate/delete/compare memories need the global end, not only local neighbor survival after compression.",
+      "facts": [
+        "Submitted 2026-11-05 (cs.AI agents filter): 'Enhancing Local and Global Structure in Compressed AI Agent Memory.'",
+        "Abstract: compression often accepted when nearest neighbors survive, but consolidate/delete/compare depend on which items lie far apart; evaluate local fidelity L at 10 neighbors and global fidelity G at 30–50% of memory.",
+        "At 96 bytes per passage, rescored binary codes reach L of 0.97 (abstract continues with further compression/fidelity tradeoffs)."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.08341",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-05T17:27:08Z",
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://arxiv.org/abs/2611.08341",
+      "firstSeen": "2026-11-06"
+    }
+  ]
+}
