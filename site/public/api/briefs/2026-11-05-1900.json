@@ -1,0 +1,345 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-05-1900",
+  "date": "2026-11-05",
+  "publishedAt": "2026-11-06T00:05:00Z",
+  "edition": "Evening",
+  "top3": [
+    {
+      "itemId": "cursor-live-apps-deploy",
+      "headline": "Cursor ships live apps that leave localhost",
+      "whyItMatters": "Cloud agents now scaffold, secure-check, and publish shareable tools on every paid plan."
+    },
+    {
+      "itemId": "claude-code-email-user-agent-leak",
+      "headline": "Claude Code put user email in web User-Agent",
+      "whyItMatters": "A default privacy plugin now blocks the leak; agent harnesses can expose identity without asking."
+    },
+    {
+      "itemId": "perplexity-teammates-launch",
+      "headline": "Perplexity runs 10k internal work agents",
+      "whyItMatters": "Teammates already outnumber staff twenty to one; headcount planning just changed for Max users."
+    }
+  ],
+  "items": [
+    {
+      "id": "naval-hard-to-build-technology",
+      "title": "Naval: hard-to-build tech is where progress starts",
+      "takeaway": "Naval argues progress comes from hard-to-build technology born in competitive free-market capitalism in one precarious place, then diffuses; snuffing that out means long global stagnation.",
+      "soWhat": "Leaders betting on frontier tech are also betting on the fragile ecosystems that still invent it.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-05T23:05:50Z",
+      "source": {
+        "name": "@naval on X",
+        "url": "https://x.com/naval/status/2118479933530063135"
+      },
+      "image": {
+        "src": "/img/naval-hard-to-build-technology.jpg",
+        "alt": "Profile image of @naval"
+      },
+      "heat": {
+        "score": 21,
+        "level": "none",
+        "metric": "78k views"
+      }
+    },
+    {
+      "id": "claude-code-email-user-agent-leak",
+      "title": "Claude Code sent user email in User-Agent headers",
+      "takeaway": "GitHub issue #107757 and HN (201) report Claude Code put the user's email in User-Agent on web searches; Anthropic's cc-plugin-privacy in v2.1.317+ blocks it by default.",
+      "soWhat": "Audit what your coding agent sends outbound; identity leaks can ride inside routine tool calls.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-11-05T22:17:15Z",
+      "source": {
+        "name": "Claude Code GitHub",
+        "url": "https://github.com/anthropics/claude-code/issues/107757"
+      },
+      "related": [
+        {
+          "name": "Hacker News (201)",
+          "url": "https://news.ycombinator.com/item?id=50385272"
+        }
+      ],
+      "image": {
+        "src": "/img/claude-code-email-user-agent-leak.jpg",
+        "alt": "Image from Claude Code GitHub"
+      }
+    },
+    {
+      "id": "lyn-alden-airgapped-critical-systems",
+      "title": "Lyn Alden: air-gapped critical systems still make sense",
+      "takeaway": "Lyn Alden, citing FAA experience and AI-era hacking, argues nuclear, air-traffic, and core bank systems on offline rarely updated media can be sound design, not folly.",
+      "soWhat": "For existential systems, slow updates and isolation can beat always-online innovation.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-05T22:07:03Z",
+      "source": {
+        "name": "@LynAldenContact on X",
+        "url": "https://x.com/LynAldenContact/status/2118465141658284239"
+      },
+      "related": [
+        {
+          "name": "Thread root",
+          "url": "https://x.com/LynAldenContact/status/2118462852268691665"
+        }
+      ],
+      "image": {
+        "src": "/img/lyn-alden-airgapped-critical-systems.jpg",
+        "alt": "@LynAldenContact on X: Lyn Alden: air-gapped critical systems still make sense"
+      },
+      "heat": {
+        "score": 9,
+        "level": "none",
+        "metric": "33k views"
+      }
+    },
+    {
+      "id": "meta-muse-voice-mode",
+      "title": "Meta Muse adds two-way voice and expressive avatar",
+      "takeaway": "The Verge reports Meta's Muse AI now has a two-way voice mode with a more expressive avatar, extending Muse beyond text chat.",
+      "soWhat": "Personal agents are becoming multimodal interfaces, not just chat boxes.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-05T22:03:00Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar"
+      },
+      "image": {
+        "src": "/img/meta-muse-voice-mode.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "cursor-live-apps-deploy",
+      "title": "Cursor lets cloud agents build and publish live apps",
+      "takeaway": "Build Live Apps scaffolds a web app, provisions Postgres and Cursor-SSO auth, runs security checks, and returns a shareable link; available on all paid plans with cloud agents.",
+      "soWhat": "Internal tools can leave localhost with one publish step under admin review.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 10,
+      "publishedAt": "2026-11-05T21:41:10Z",
+      "source": {
+        "name": "Cursor changelog",
+        "url": "https://cursor.com/changelog"
+      },
+      "related": [
+        {
+          "name": "@cursor_ai on X",
+          "url": "https://x.com/cursor_ai/status/2118458629091426304"
+        },
+        {
+          "name": "@rauchg on X",
+          "url": "https://x.com/rauchg/status/2118474519925158186"
+        }
+      ],
+      "image": {
+        "src": "/img/cursor-live-apps-deploy.jpg",
+        "alt": "Image from cursor.com"
+      },
+      "heat": {
+        "score": 19,
+        "level": "none",
+        "metric": "95k views"
+      }
+    },
+    {
+      "id": "hermes-agent-v023-hearth",
+      "title": "Hermes Agent v0.23 Hearth unifies every chat surface",
+      "takeaway": "Nous Research ships Desktop-in-browser, one gateway for CLI/TUI/Desktop/bots/cron, /Rewind, group-chat routing, and spend limits on paid MCP tools after ~10k commits.",
+      "soWhat": "Open agent stacks are consolidating sessions and spend controls into one local gateway.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-05T21:32:33Z",
+      "source": {
+        "name": "Nous Research GitHub",
+        "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0"
+      },
+      "related": [
+        {
+          "name": "@NousResearch on X",
+          "url": "https://x.com/NousResearch/status/2118479744979079669"
+        }
+      ],
+      "image": {
+        "src": "/img/hermes-agent-v023-hearth.jpg",
+        "alt": "Image from Nous Research GitHub"
+      },
+      "heat": {
+        "score": 11,
+        "level": "none",
+        "metric": "17k views"
+      }
+    },
+    {
+      "id": "langchain-async-subagents",
+      "title": "LangChain ships async subagents for Deep Agents",
+      "takeaway": "Orchestrators stay responsive while background subagents run long work; start/check/update/cancel/list tools plus interrupt vs enqueue steering land in Python, JS, and Managed Deep Agents.",
+      "soWhat": "Agent products that block on every tool call will feel broken next to async peers.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-05T20:05:12Z",
+      "source": {
+        "name": "LangChain blog",
+        "url": "https://blog.langchain.com/agents-are-going-async"
+      },
+      "related": [
+        {
+          "name": "@LangChain on X",
+          "url": "https://x.com/LangChain/status/2118438264009114101"
+        },
+        {
+          "name": "@hwchase17 on X",
+          "url": "https://x.com/hwchase17/status/2118464263497142576"
+        }
+      ],
+      "image": {
+        "src": "/img/langchain-async-subagents.jpg",
+        "alt": "Image from LangChain blog"
+      },
+      "heat": {
+        "score": 3,
+        "level": "none",
+        "metric": "15k views"
+      }
+    },
+    {
+      "id": "claude-personal-finance-plaid",
+      "title": "Claude Personal Finance connects banks via Plaid",
+      "takeaway": "US beta on Pro/Max/Ultra lets users link accounts read-only for up to two years of transactions; Claude cannot move funds or give investment advice, and chats are not used for training.",
+      "soWhat": "Money Q&A moves into the assistant; leaders should decide what finance data agents may see.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-05T18:00:35Z",
+      "source": {
+        "name": "Anthropic / Claude",
+        "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
+      },
+      "related": [
+        {
+          "name": "@claudeai on X",
+          "url": "https://x.com/claudeai/status/2118403114890137895"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance"
+        }
+      ],
+      "image": {
+        "src": "/img/claude-personal-finance-plaid.jpg",
+        "alt": "Image from Anthropic / Claude"
+      },
+      "heat": {
+        "score": 38,
+        "level": "none",
+        "metric": "2.9M views"
+      }
+    },
+    {
+      "id": "perplexity-teammates-launch",
+      "title": "Perplexity Teammates: always-on work agents on Max",
+      "takeaway": "Teammates use Computer projects/skills/memory, collaborate, and message Slack; Max web preview today. CEO Aravind Srinivas says ~10,000 ran internally in 30 days (~20× headcount).",
+      "soWhat": "Workforce planning now includes agent headcount, not just human seats.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-11-05T17:05:47Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work"
+      },
+      "related": [
+        {
+          "name": "@perplexity_ai on X",
+          "url": "https://x.com/perplexity_ai/status/2118389326459670825"
+        },
+        {
+          "name": "@AravSrinivas on X",
+          "url": "https://x.com/AravSrinivas/status/2118396712775819430"
+        }
+      ],
+      "image": {
+        "src": "/img/perplexity-teammates-launch.jpg",
+        "alt": "Image from The Verge"
+      },
+      "heat": {
+        "score": 16,
+        "level": "none",
+        "metric": "92k views"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@naval",
+      "quote": "Actual progress comes from hard-to-build technology. Which comes from competitive, creative, free-market capitalism. Which comes from one small, precarious area.",
+      "url": "https://x.com/naval/status/2118479933530063135"
+    },
+    {
+      "handle": "@AravSrinivas",
+      "quote": "We have about 10,000 teammates (within the last 30 days) in Perplexity's internal workspace right now. That's already 20x our headcount.",
+      "url": "https://x.com/AravSrinivas/status/2118396712775819430"
+    },
+    {
+      "handle": "@LynAldenContact",
+      "quote": "Having nuclear codes, air traffic systems, and core bank systems on offline floppy drives that never updated is not the worst thing, given the increasing era of hacking.",
+      "url": "https://x.com/LynAldenContact/status/2118465141658284239"
+    },
+    {
+      "handle": "@hwchase17",
+      "quote": "most of the agents we're building inside langchain leverage async subagents in a meaningful way",
+      "url": "https://x.com/hwchase17/status/2118464263497142576"
+    },
+    {
+      "handle": "@cursor_ai",
+      "quote": "You can now build live apps in Cursor and share them with a link. Agents have made it easier to write code, but most apps never make it off localhost.",
+      "url": "https://x.com/cursor_ai/status/2118458629091426304"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/claudeai/status/2118403114890137895",
+      "handle": "@claudeai",
+      "text": "Introducing Personal Finance in Claude, in beta in the US. Connect accounts; Claude answers money questions in everyday language.",
+      "metric": "2.9M views",
+      "note": "Bank-linked Claude finance drew massive consumer attention."
+    },
+    {
+      "url": "https://x.com/naval/status/2118479933530063135",
+      "handle": "@naval",
+      "text": "Actual progress comes from hard-to-build technology. Which comes from competitive, creative, free-market capitalism.",
+      "metric": "78k views",
+      "note": "A short progress-and-capitalism take is circulating widely."
+    },
+    {
+      "url": "https://x.com/cursor_ai/status/2118458629091426304",
+      "handle": "@cursor_ai",
+      "text": "You can now build live apps in Cursor and share them with a link. Most apps never make it off localhost.",
+      "metric": "95k views",
+      "note": "Builders are reacting to one-click app deploy from Cursor."
+    },
+    {
+      "url": "https://x.com/perplexity_ai/status/2118389326459670825",
+      "handle": "@perplexity_ai",
+      "text": "Introducing teammates. They take on jobs using Computer tasks, skills, memory, and tools, and can message coworkers in Slack.",
+      "metric": "92k views",
+      "note": "Always-on work agents hit Max users the same day."
+    },
+    {
+      "url": "https://x.com/theo/status/2118465321032106235",
+      "handle": "@theo",
+      "text": "Turns out you can make agents good at UI if you burn enough tokens",
+      "metric": "21k views",
+      "note": "A long agent-UI how-to video is spreading among builders."
+    }
+  ]
+}
