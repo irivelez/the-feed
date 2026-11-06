@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "1.0",
+  "id": "2026-11-05",
+  "publishedAt": "2026-11-06T00:15:00Z",
+  "window": {
+    "from": "2026-10-30",
+    "to": "2026-11-05"
+  },
+  "headline": "Agents left localhost and crossed into Critical cyber",
+  "summary": "The week’s walls still stand: voters blocked data centers, and Apple and Goldman metered AI seats. Then Thursday moved the story. OpenAI shipped GPT-6 Cyber at Critical preparedness after an autonomous pipeline patched 948 Linux flaws, while Alpine’s default SSH and a Claude Code User-Agent leak showed how fast agent boxes and harnesses can expose you. Perplexity said about 10,000 internal Teammates already run at roughly 20× headcount, and Cursor let cloud agents publish live apps past localhost. Claude Code’s product lead also left for OpenAI. Before you scale, treat agents as coworkers who ship and attack, not tools you simply load: know your cyber tier access, what each seat may spend, and who reviews every publish and outbound header.",
+  "threads": [
+    {
+      "title": "Critical leaves the lab",
+      "line": "GPT-6 Cyber hit Critical preparedness as AI found and patched at scale. Your defense now depends on who gets that tier.",
+      "evidence": [
+        {
+          "briefId": "2026-11-05-1300",
+          "itemId": "openai-gpt-6-cyber-launch"
+        },
+        {
+          "briefId": "2026-11-04-1900",
+          "itemId": "openai-autonomous-cyber-pipeline-948-linux-lpe"
+        },
+        {
+          "briefId": "2026-11-04-1300",
+          "itemId": "php2shell-ai-found-exploit"
+        },
+        {
+          "briefId": "2026-11-05-1300",
+          "itemId": "openai-astra-covert-safety-underperformance"
+        }
+      ]
+    },
+    {
+      "title": "Coworkers who ship",
+      "line": "Perplexity’s Teammates already outnumber staff twenty to one, and Cursor publishes live apps from agents. Headcount now includes agents that leave localhost.",
+      "evidence": [
+        {
+          "briefId": "2026-11-05-1900",
+          "itemId": "perplexity-teammates-launch"
+        },
+        {
+          "briefId": "2026-11-05-1900",
+          "itemId": "cursor-live-apps-deploy"
+        },
+        {
+          "briefId": "2026-11-05-1900",
+          "itemId": "langchain-async-subagents"
+        },
+        {
+          "briefId": "2026-11-05-0700",
+          "itemId": "cat-wu-joins-openai-core-products"
+        }
+      ]
+    },
+    {
+      "title": "The harness is the leak",
+      "line": "Poisoned tools, silent plugin installs, Alpine SSH, and Claude Code’s email User-Agent show agents inherit every risk in what they load and send.",
+      "evidence": [
+        {
+          "briefId": "2026-11-03-1300",
+          "itemId": "mcp-tool-poisoning-12-frameworks"
+        },
+        {
+          "briefId": "2026-11-04-1900",
+          "itemId": "malicious-agent-tool-repos-smartloader"
+        },
+        {
+          "briefId": "2026-11-03-1900",
+          "itemId": "postman-auto-installs-agent-plugins"
+        },
+        {
+          "briefId": "2026-11-05-1300",
+          "itemId": "sshhole-alpine-musl-password-auth"
+        },
+        {
+          "briefId": "2026-11-05-1900",
+          "itemId": "claude-code-email-user-agent-leak"
+        }
+      ]
+    },
+    {
+      "title": "Ballot box meets the grid",
+      "line": "Voters and Texas still constrain where compute can land. Your agent fleet’s supply chain starts at the local ballot.",
+      "evidence": [
+        {
+          "briefId": "2026-11-04-0700",
+          "itemId": "stratechery-data-centers-on-ballot"
+        },
+        {
+          "briefId": "2026-11-04-1300",
+          "itemId": "data-centers-lost-midterms"
+        },
+        {
+          "briefId": "2026-11-04-1900",
+          "itemId": "texas-data-center-buildout-at-risk"
+        }
+      ]
+    },
+    {
+      "title": "Every seat gets a meter",
+      "line": "Apple and Goldman ration AI as usage soars. Labs are buying the review layer because unchecked agent output does not scale.",
+      "evidence": [
+        {
+          "briefId": "2026-11-04-1900",
+          "itemId": "apple-cuts-employee-ai-budgets"
+        },
+        {
+          "briefId": "2026-11-03-0700",
+          "itemId": "goldman-restricts-ai-coding-tools"
+        },
+        {
+          "briefId": "2026-11-04-1900",
+          "itemId": "openai-to-acquire-pierre"
+        }
+      ]
+    }
+  ]
+}

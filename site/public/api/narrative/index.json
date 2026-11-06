@@ -1,8 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-04",
-  "count": 9,
+  "latest": "2026-11-05",
+  "count": 10,
   "narratives": [
+    {
+      "id": "2026-11-05",
+      "publishedAt": "2026-11-06T00:15:00Z",
+      "window": {
+        "from": "2026-10-30",
+        "to": "2026-11-05"
+      },
+      "headline": "Agents left localhost and crossed into Critical cyber",
+      "url": "/api/narrative/2026-11-05.json"
+    },
     {
       "id": "2026-11-04",
       "publishedAt": "2026-11-05T00:09:43Z",
