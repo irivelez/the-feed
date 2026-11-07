@@ -1,8 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-05",
-  "count": 10,
+  "latest": "2026-11-06",
+  "count": 11,
   "narratives": [
+    {
+      "id": "2026-11-06",
+      "publishedAt": "2026-11-06T19:25:00-05:00",
+      "window": {
+        "from": "2026-10-31",
+        "to": "2026-11-06"
+      },
+      "headline": "AI doubles its own R&D while agents learn to dream",
+      "url": "/api/narrative/2026-11-06.json"
+    },
     {
       "id": "2026-11-05",
       "publishedAt": "2026-11-06T00:15:00Z",

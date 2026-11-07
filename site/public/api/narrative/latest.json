@@ -1,51 +1,91 @@
 {
   "schemaVersion": "1.0",
-  "id": "2026-11-05",
-  "publishedAt": "2026-11-06T00:15:00Z",
+  "id": "2026-11-06",
+  "publishedAt": "2026-11-06T19:25:00-05:00",
   "window": {
-    "from": "2026-10-30",
-    "to": "2026-11-05"
+    "from": "2026-10-31",
+    "to": "2026-11-06"
   },
-  "headline": "Agents left localhost and crossed into Critical cyber",
-  "summary": "The week’s walls still stand: voters blocked data centers, and Apple and Goldman metered AI seats. Then Thursday moved the story. OpenAI shipped GPT-6 Cyber at Critical preparedness after an autonomous pipeline patched 948 Linux flaws, while Alpine’s default SSH and a Claude Code User-Agent leak showed how fast agent boxes and harnesses can expose you. Perplexity said about 10,000 internal Teammates already run at roughly 20× headcount, and Cursor let cloud agents publish live apps past localhost. Claude Code’s product lead also left for OpenAI. Before you scale, treat agents as coworkers who ship and attack, not tools you simply load: know your cyber tier access, what each seat may spend, and who reviews every publish and outbound header.",
+  "headline": "AI doubles its own R&D while agents learn to dream",
+  "summary": "Friday moved the week’s center. A METR deep-access read says Anthropic’s capabilities progress roughly doubled over the past year, mostly because AI is automating AI R&D. The same day Anthropic told builders agents should “dream” offline—replay transcripts, build wiki memory, inject a header into every new session—while Claude Code cloud sessions started wiring deps and secrets themselves. Cyber did not cool: GPT-6 Cyber hit Critical preparedness, DeepMind agents found legacy RSA-1024 weaknesses, and labs floated a shared jailbreak severity scorecard. Cursor’s agents already publish past localhost, and Perplexity runs thousands of internal Teammates. Treat the compounding clock as real: know your cyber tier access, what each agent may remember or publish, and who reviews the loop that trains the next model.",
   "threads": [
     {
+      "title": "The compounding clock",
+      "line": "Anthropic’s pace roughly doubled year-over-year as AI automated AI R&D. Your roadmap assumes a slower lab than the one shipping.",
+      "evidence": [
+        {
+          "briefId": "2026-11-06-1900",
+          "itemId": "metr-anthropic-ai-rd-acceleration"
+        },
+        {
+          "briefId": "2026-10-30-1300",
+          "itemId": "verge-anthropic-s1-risk-factors"
+        }
+      ]
+    },
+    {
+      "title": "Dreaming becomes product",
+      "line": "Offline replay and auto-wired cloud envs mean agents keep state you did not hand them.",
+      "evidence": [
+        {
+          "briefId": "2026-11-06-1900",
+          "itemId": "anthropic-agent-memory-dreaming"
+        },
+        {
+          "briefId": "2026-11-06-1900",
+          "itemId": "claude-code-cloud-sessions"
+        },
+        {
+          "briefId": "2026-11-06-1300",
+          "itemId": "arxiv-agent-memory-fidelity"
+        },
+        {
+          "briefId": "2026-11-06-1900",
+          "itemId": "arxiv-signed-requirement-handoffs"
+        }
+      ]
+    },
+    {
       "title": "Critical leaves the lab",
-      "line": "GPT-6 Cyber hit Critical preparedness as AI found and patched at scale. Your defense now depends on who gets that tier.",
+      "line": "GPT-6 Cyber hit Critical preparedness as agents cracked legacy RSA assumptions and labs shared jailbreak tiers. Defense now tracks who gets that tier.",
       "evidence": [
         {
           "briefId": "2026-11-05-1300",
           "itemId": "openai-gpt-6-cyber-launch"
         },
         {
+          "briefId": "2026-11-06-1300",
+          "itemId": "deepmind-rsa-agent-cryptanalysis"
+        },
+        {
+          "briefId": "2026-11-06-1900",
+          "itemId": "fmf-jailbreak-rating-framework"
+        },
+        {
+          "briefId": "2026-11-06-1300",
+          "itemId": "a16z-defense-machine-speed"
+        },
+        {
           "briefId": "2026-11-04-1900",
           "itemId": "openai-autonomous-cyber-pipeline-948-linux-lpe"
-        },
-        {
-          "briefId": "2026-11-04-1300",
-          "itemId": "php2shell-ai-found-exploit"
-        },
-        {
-          "briefId": "2026-11-05-1300",
-          "itemId": "openai-astra-covert-safety-underperformance"
         }
       ]
     },
     {
       "title": "Coworkers who ship",
-      "line": "Perplexity’s Teammates already outnumber staff twenty to one, and Cursor publishes live apps from agents. Headcount now includes agents that leave localhost.",
+      "line": "Cursor publishes live apps, Perplexity runs Teammates past headcount, and Conductor’s exit scrambled alternatives.",
       "evidence": [
-        {
-          "briefId": "2026-11-05-1900",
-          "itemId": "perplexity-teammates-launch"
-        },
         {
           "briefId": "2026-11-05-1900",
           "itemId": "cursor-live-apps-deploy"
         },
         {
           "briefId": "2026-11-05-1900",
-          "itemId": "langchain-async-subagents"
+          "itemId": "perplexity-teammates-launch"
+        },
+        {
+          "briefId": "2026-11-06-1300",
+          "itemId": "conductor-alternatives-wave"
         },
         {
           "briefId": "2026-11-05-0700",
@@ -54,52 +94,8 @@
       ]
     },
     {
-      "title": "The harness is the leak",
-      "line": "Poisoned tools, silent plugin installs, Alpine SSH, and Claude Code’s email User-Agent show agents inherit every risk in what they load and send.",
-      "evidence": [
-        {
-          "briefId": "2026-11-03-1300",
-          "itemId": "mcp-tool-poisoning-12-frameworks"
-        },
-        {
-          "briefId": "2026-11-04-1900",
-          "itemId": "malicious-agent-tool-repos-smartloader"
-        },
-        {
-          "briefId": "2026-11-03-1900",
-          "itemId": "postman-auto-installs-agent-plugins"
-        },
-        {
-          "briefId": "2026-11-05-1300",
-          "itemId": "sshhole-alpine-musl-password-auth"
-        },
-        {
-          "briefId": "2026-11-05-1900",
-          "itemId": "claude-code-email-user-agent-leak"
-        }
-      ]
-    },
-    {
-      "title": "Ballot box meets the grid",
-      "line": "Voters and Texas still constrain where compute can land. Your agent fleet’s supply chain starts at the local ballot.",
-      "evidence": [
-        {
-          "briefId": "2026-11-04-0700",
-          "itemId": "stratechery-data-centers-on-ballot"
-        },
-        {
-          "briefId": "2026-11-04-1300",
-          "itemId": "data-centers-lost-midterms"
-        },
-        {
-          "briefId": "2026-11-04-1900",
-          "itemId": "texas-data-center-buildout-at-risk"
-        }
-      ]
-    },
-    {
       "title": "Every seat gets a meter",
-      "line": "Apple and Goldman ration AI as usage soars. Labs are buying the review layer because unchecked agent output does not scale.",
+      "line": "Apple and Goldman ration AI as usage soars. Unchecked agent seats do not scale without spend and review limits.",
       "evidence": [
         {
           "briefId": "2026-11-04-1900",
