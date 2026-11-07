@@ -1,42 +1,38 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-06T07:20:00-05:00",
-  "runId": "2026-11-06-0700",
+  "updatedAt": "2026-11-06T19:20:00-05:00",
+  "runId": "2026-11-06-1900",
   "howtos": [
     {
-      "id": "spend-inference-on-deterministic-outcomes",
-      "dedupeKey": "inference-for-deterministic-outcomes-not-factories",
-      "title": "Spend inference on deterministic outcomes",
-      "what": "Drive agent loops by hand and use tokens to create outcomes that do not depend on model quirks, so better models lift you automatically.",
-      "kind": "steps",
+      "id": "add-thorough-bold-prompt-suffix",
+      "dedupeKey": "thorough-bold-prompt-suffix",
+      "title": "Add a thorough-and-bold prompt suffix",
+      "what": "Append one line that pushes deeper analysis and stronger recommendations on any model reply.",
+      "kind": "prompt",
       "copy": [
-        "Drive your agent loops by hand instead of buying a software-factory product.",
-        "Spend inference where you can create deterministic outcomes that do not rely on model behavior.",
-        "Prefer good software engineering and token-efficient paths over marketing categories.",
-        "As the model improves, those deterministic paths uplift automatically without a factory rewrite."
+        "Be thorough in your analysis and bold in your recommendations"
       ],
-      "whenToUse": "When a vendor pitch for an agent software factory competes with simply spending more inference on well-engineered loops.",
+      "whenToUse": "When a model hedges or stays shallow and you want sharper, more decisive output.",
       "source": {
-        "name": "@GeoffreyHuntley on X",
-        "url": "https://x.com/GeoffreyHuntley/status/2118668987269611937"
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2118830837840183628"
       },
       "author": {
-        "name": "Geoffrey Huntley",
-        "handle": "GeoffreyHuntley"
+        "name": "Theo",
+        "handle": "theo"
       },
       "tags": [
-        "agent-loops",
-        "inference-cost",
-        "determinism",
-        "software-factory"
+        "prompting",
+        "analysis",
+        "recommendations"
       ],
       "quality": 4,
-      "verbatim": false,
+      "verbatim": true,
       "briefItem": {
-        "briefId": "2026-11-06-0700",
-        "itemId": "poteto-no-software-factory"
+        "briefId": "2026-11-06-1900",
+        "itemId": "theo-prompt-thorough-bold"
       },
-      "addedAt": "2026-11-06T07:20:00-05:00"
+      "addedAt": "2026-11-06T19:20:00-05:00"
     }
   ]
 }
