@@ -1,7 +1,40 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-06T19:20:00-05:00",
+  "updatedAt": "2026-11-07T07:15:00-05:00",
   "howtos": [
+    {
+      "id": "eval-loop-retire-agent-skills",
+      "dedupeKey": "eval-driven-agent-skill-retirement",
+      "title": "Re-run skill evals on each new model and delete what it outgrew",
+      "what": "Use eval loops on your agent skills so each model upgrade shows which skills you can remove.",
+      "kind": "steps",
+      "copy": [
+        "Run eval-driven development loops on your agent skills.",
+        "When a new model ships, compare it with and without each skill.",
+        "Remove skills the model no longer needs, as Garry did with /investigate after Opus 5.5."
+      ],
+      "whenToUse": "After a model upgrade, when your agent carries custom skills that may now slow it down.",
+      "source": {
+        "name": "@garrytan on X",
+        "url": "https://x.com/garrytan/status/2118920030243139596"
+      },
+      "author": {
+        "name": "Garry Tan",
+        "handle": "garrytan"
+      },
+      "tags": [
+        "agent-skills",
+        "evals",
+        "model-upgrades"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-07-0700",
+        "itemId": "garry-eval-driven-agent-skills"
+      },
+      "addedAt": "2026-11-07T07:15:00-05:00"
+    },
     {
       "id": "add-thorough-bold-prompt-suffix",
       "dedupeKey": "thorough-bold-prompt-suffix",

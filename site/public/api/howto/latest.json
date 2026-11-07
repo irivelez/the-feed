@@ -1,38 +1,40 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-06T19:20:00-05:00",
-  "runId": "2026-11-06-1900",
+  "updatedAt": "2026-11-07T07:15:00-05:00",
+  "runId": "2026-11-07-0700",
   "howtos": [
     {
-      "id": "add-thorough-bold-prompt-suffix",
-      "dedupeKey": "thorough-bold-prompt-suffix",
-      "title": "Add a thorough-and-bold prompt suffix",
-      "what": "Append one line that pushes deeper analysis and stronger recommendations on any model reply.",
-      "kind": "prompt",
+      "id": "eval-loop-retire-agent-skills",
+      "dedupeKey": "eval-driven-agent-skill-retirement",
+      "title": "Re-run skill evals on each new model and delete what it outgrew",
+      "what": "Use eval loops on your agent skills so each model upgrade shows which skills you can remove.",
+      "kind": "steps",
       "copy": [
-        "Be thorough in your analysis and bold in your recommendations"
+        "Run eval-driven development loops on your agent skills.",
+        "When a new model ships, compare it with and without each skill.",
+        "Remove skills the model no longer needs, as Garry did with /investigate after Opus 5.5."
       ],
-      "whenToUse": "When a model hedges or stays shallow and you want sharper, more decisive output.",
+      "whenToUse": "After a model upgrade, when your agent carries custom skills that may now slow it down.",
       "source": {
-        "name": "@theo on X",
-        "url": "https://x.com/theo/status/2118830837840183628"
+        "name": "@garrytan on X",
+        "url": "https://x.com/garrytan/status/2118920030243139596"
       },
       "author": {
-        "name": "Theo",
-        "handle": "theo"
+        "name": "Garry Tan",
+        "handle": "garrytan"
       },
       "tags": [
-        "prompting",
-        "analysis",
-        "recommendations"
+        "agent-skills",
+        "evals",
+        "model-upgrades"
       ],
-      "quality": 4,
-      "verbatim": true,
+      "quality": 3,
+      "verbatim": false,
       "briefItem": {
-        "briefId": "2026-11-06-1900",
-        "itemId": "theo-prompt-thorough-bold"
+        "briefId": "2026-11-07-0700",
+        "itemId": "garry-eval-driven-agent-skills"
       },
-      "addedAt": "2026-11-06T19:20:00-05:00"
+      "addedAt": "2026-11-07T07:15:00-05:00"
     }
   ]
 }
