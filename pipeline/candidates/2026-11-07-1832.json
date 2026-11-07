@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-07-1832",
+  "generatedAt": "2026-11-07T23:32:15Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-07T17:30:00Z",
+    "to": "2026-11-07T23:30:00Z"
+  },
+  "sourceNotes": [
+    "Window ~17:30Z to ~23:30Z Nov 7 (Saturday evening, since the 12:41 run). 5 candidates (4 practical, 1 broad, 0 frontier-capital, 0 design). Very quiet weekend window; bigPicture X lane dominated by off-topic and partisan posts (Tesla, US politics), which are muted.",
+    "RSS: no items in window from Simon Willison, The Verge AI, MIT Tech Review, OpenAI Blog, Lenny, Stratechery, Benedict Evans (parsed fine this run), Mollick, Gary Marcus, Hashimoto, The Atlantic, or Metaplanet Google News.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) HTTP 500 again; still dead.",
+    "Hacker News: 'End of Microsoft Research AI Frontiers' (314) used. Claude Code 'Don't Ask Again' secrets story was 80 points (below minPoints 200) but is included from its primary source because it is agent security with a first-party response; Editor may drop it. MaxxBench DeepSWE critique (161) below threshold, not used. NFSU2, Apple grey list, Asahi, OpenStick off-lens.",
+    "Apiiro blog page is client-rendered; body text could not be read via fetch, so the Claude Code secrets candidate uses only the headline claim plus the HN thread.",
+    "arXiv API query (cs.AI/CL/MA, agents) returned no entries this run (weekend; possibly rate-limited).",
+    "LangChain 'Agents Are Going Async' (hwchase17 post in window) already covered in the 2026-11-06-1236 file; not repeated.",
+    "Frontier-capital lane: only Tavi Costa silver chart (market call, not used) and Ray Dalio meetings principle (thin); design lane (MengTo) silent in window.",
+    "X queries lane: mostly low-follower promo posts; the Xcode plugin claim from a small account was verified against GitHub before use.",
+    "X: 7 public-read calls this run. authorBaseline not read (budget)."
+  ],
+  "candidates": [
+    {
+      "id": "apple-xcode-plugin-claude-code",
+      "lens": "practical",
+      "topic": "xcode-claude-code-plugin",
+      "summary": "Apple's Xcode plugin is now listed in Anthropic's official Claude Code plugin marketplace (claude-plugins-official), with Apple Inc. as author. It exposes Xcode capabilities via MCP so Claude Code can build, run and test schemes, render SwiftUI previews, drive simulators and devices, and read build logs.",
+      "facts": [
+        "GitHub PR anthropics/claude-plugins-official#6338 'Add Xcode plugin (xcode)' merged 2026-11-06T00:55:55Z; it carries over #6259, opened 2026-09-18 by jonathanpenn.",
+        "PR description: 'This plugin exposes Xcode capabilities via MCP to enable native development for Apple platforms.'",
+        "Marketplace entry description: 'Work with Xcode projects from Claude Code: build, run, and test schemes, render SwiftUI previews, drive simulators and devices, read build logs and diagnostics, and search Apple developer documentation.'",
+        "Marketplace entry loads the plugin via the command 'xcrun agent plugin path --plugin-format claude'; homepage developer.apple.com/xcode."
+      ],
+      "source": {
+        "name": "anthropics/claude-plugins-official PR #6338",
+        "url": "https://github.com/anthropics/claude-plugins-official/pull/6338",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Original PR #6259",
+          "url": "https://github.com/anthropics/claude-plugins-official/pull/6259"
+        },
+        {
+          "name": "Marketplace manifest",
+          "url": "https://github.com/anthropics/claude-plugins-official/blob/main/.claude-plugin/marketplace.json"
+        },
+        {
+          "name": "AGTPinsights on X",
+          "url": "https://x.com/AGTPinsights/status/2119147405048234370"
+        }
+      ],
+      "publishedAt": "2026-11-06T00:55:55Z",
+      "care": 4,
+      "proof": 5,
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "id": "claude-code-settings-secrets-leak",
+      "lens": "practical",
+      "topic": "claude-code-secrets-github",
+      "summary": "Apiiro reports that approved Claude Code commands saved via 'Don't Ask Again' expose passwords in 1,122 public GitHub files. Per the HN discussion, the leaks come from developers committing .claude/settings.local.json or settings.json files that contain approved commands with secrets inline.",
+      "facts": [
+        "Headline: 'Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files' (Apiiro blog; 80 points on Hacker News).",
+        "Boris Cherny (bcherny), on HN: 'Historically Claude Code has not done secret scrubbing (there are many good tools for that), but we are looking into what we can do to prevent this.'",
+        "Same comment: '.claude/settings.local.json is meant to stay local. This is not a file you should check into source control. We automatically gitignore it when Claude creates the file'.",
+        "HN commenter Aurornis: 'If you commit your local Claude settings and in those settings you have manually approved commands containing secrets directly in the command and then you publish the repo, that's exposed.'"
+      ],
+      "source": {
+        "name": "Apiiro",
+        "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50407882"
+        },
+        {
+          "name": "Claude Code settings docs",
+          "url": "https://code.claude.com/docs/en/settings"
+        }
+      ],
+      "publishedAt": "2026-11-07T20:45:00Z",
+      "metrics": {
+        "points": 80,
+        "capturedAt": "2026-11-07T23:25:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "id": "msr-ai-frontiers-ends",
+      "lens": "broad",
+      "topic": "msr-ai-frontiers-end",
+      "summary": "John Langford writes that Microsoft Research's AI Frontiers group (~50 people, behind Autogen and the Fara computer-use agent) is over after being reorged into Microsoft AI in September; he says MAI's leadership is scaling-only and 'aggressively not research', and that he and the other founding leaders have left.",
+      "facts": [
+        "Post 'The End of AI Frontiers' on hunch.net, dated 11/6/2026; 314 points on Hacker News.",
+        "Langford: 'The core philosophy there is scaling, and aggressively not research.'",
+        "Langford: 'Every other founding AIF leadership team member seems to have come to a similar conclusion.'",
+        "He cites Bytedance experiments suggesting a Full Bandwidth Transformer variant 'might be comparable to a model of twice the size'.",
+        "No AI Frontiers internships in the coming year, per the post."
+      ],
+      "source": {
+        "name": "Machine Learning (Theory), John Langford",
+        "url": "https://hunch.net/?p=13764006",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50406563"
+        }
+      ],
+      "publishedAt": "2026-11-07T18:02:00Z",
+      "metrics": {
+        "points": 314,
+        "capturedAt": "2026-11-07T23:25:00Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "id": "theo-omarchy-remote-agents",
+      "lens": "practical",
+      "topic": "omarchy-agents",
+      "summary": "Theo (T3) says he is pausing his t3os project because, in his benchmarking, Omarchy already has almost all the agent capabilities he wanted, and recommends it for remote agents.",
+      "facts": [
+        "@theo: 'The more I benchmark, the more I realize Omarchy has almost all the agent capabilities I am trying to bake in. It's a really good choice for remote agents, and you should probably use it.'",
+        "No benchmark numbers were posted."
+      ],
+      "source": {
+        "name": "theo on X",
+        "url": "https://x.com/theo/status/2119159746393731109",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-07T20:07:10Z",
+      "metrics": {
+        "likes": 1695,
+        "reposts": 17,
+        "replies": 102,
+        "views": 65282,
+        "capturedAt": "2026-11-07T23:25:00Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "imageHint": "https://x.com/theo/status/2119159746393731109",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "id": "kloss-file-list-token-prompt",
+      "lens": "practical",
+      "topic": "agent-context-token-savings",
+      "summary": "A prompt to cut agent token use: make the coding agent list and justify the exact files it needs before opening any, get approval, then make the smallest change.",
+      "facts": [
+        "Prompt (verbatim): \"Before opening any files, list the exact files you need for this task and why. Check the file tree or search to find them, but don't open anything else. If you need more, stop and ask me first. Then, after I approve the list, make the smallest, highest-confidence change that fully solves our problem.\"",
+        "@kloss_xyz: 'AI agents tend to over-read because more context feels safer for them.'",
+        "No measured token numbers given."
+      ],
+      "source": {
+        "name": "kloss_xyz on X",
+        "url": "https://x.com/kloss_xyz/status/2119202949234897134",
+        "type": "x",
+        "handle": "kloss_xyz"
+      },
+      "publishedAt": "2026-11-07T22:58:50Z",
+      "metrics": {
+        "likes": 14,
+        "reposts": 0,
+        "replies": 10,
+        "views": 680,
+        "capturedAt": "2026-11-07T23:25:00Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-07"
+    }
+  ]
+}
