@@ -1,0 +1,345 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-07-1241",
+  "generatedAt": "2026-11-07T17:45:00Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-07T11:38:00Z",
+    "to": "2026-11-07T17:45:00Z"
+  },
+  "sourceNotes": [
+    "Window ~11:38Z to ~17:45Z Nov 7 (Saturday, since the 06:37 run). 10 candidates (4 practical, 5 broad, 0 frontier-capital, 1 design). Quiet weekend window; trusted X lanes mostly off-topic (Starship, politics).",
+    "Theo/Adam max-vs-high telemetry posts are from ~01:00-02:30Z, inside the previous window but unused then; included now.",
+    "RSS: The Verge used for Nvidia/China; NYT Cooking AI review off-lens. Simon Willison, MIT TR, OpenAI Blog, Lenny, Stratechery, Mollick, Gary Marcus, Hashimoto, Atlantic: nothing new in window.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) HTTP 500 again; still dead.",
+    "Benedict Evans RSS returns HTTP 200 but malformed XML (unclosed CDATA); unparseable this run.",
+    "Metaplanet Google News: nothing new in window. Frontier-capital X lane quiet (only a non-substantive nathanbenaich post).",
+    "Hacker News: Apple knowledge graph (413) used; Hightouch, Firecracker, Libghostty already in earlier files; Cybertruck, NFSU2, FAA off-lens.",
+    "arXiv (cs.AI/CL/MA, agents): no submissions newer than 2026-11-05 visible (weekend); used Terminal-Bench 2.1 paper from that batch.",
+    "X queries lane: noisy, low-follower posts only; nothing cleared the bar. Opus 5.5 'nerfed' chatter seen in X news summary and small accounts only; no primary evidence beyond the T3 telemetry, so not a separate candidate.",
+    "Replies: karpathy thread replies checked; none met minFollowers 1000 and minLikes 5. authorBaseline not read this run (budget).",
+    "X: ~12 public-read calls this run."
+  ],
+  "candidates": [
+    {
+      "id": "thoughtworks-radar-agentic-tools",
+      "lens": "practical",
+      "topic": "thoughtworks-radar-nov-2026",
+      "summary": "Thoughtworks' November 2026 Technology Radar put mattpocock/skills (\"Skills For Real Engineers\") in the Trial ring for agentic software engineering, while flagging 'agent skill cognitive surrender' as a Caution technique: evaluate individual skills instead of adopting whole libraries.",
+      "facts": [
+        "Radar blip (published Nov 4, 2026): the skills are 'explicitly designed to be small, easy to adapt, and composable' and Thoughtworks found them valuable for applying sound engineering practice to agentic coding and for AI-assisted analysis of requirements and assumptions ('grilling').",
+        "Same Radar: Agent sandboxing listed in Adopt; Linear moved to Trial because agents (Cursor, OpenAI Codex, Devin) join workspaces as members and take assigned issues; OpenSpec moved to Trial for spec-anchored agent workflows; Git AI in Trial for tracking AI-written lines.",
+        "Matt Pocock (@mattpocockuk) on X: 'Markdown files in the Thoughtworks Technology Radar, who'd have thunk'."
+      ],
+      "source": {
+        "name": "Thoughtworks Technology Radar",
+        "url": "https://www.thoughtworks.com/radar/tools/mattpocock-skills",
+        "type": "web",
+        "handle": "mattpocockuk"
+      },
+      "related": [
+        {
+          "name": "mattpocockuk on X",
+          "url": "https://x.com/mattpocockuk/status/2119067549438542226"
+        },
+        {
+          "name": "Radar tools quadrant",
+          "url": "https://www.thoughtworks.com/radar/tools"
+        },
+        {
+          "name": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills"
+        }
+      ],
+      "publishedAt": "2026-11-07T14:00:48Z",
+      "metrics": {
+        "likes": 157,
+        "reposts": 2,
+        "replies": 30,
+        "views": 17536,
+        "capturedAt": "2026-11-07T17:40:00Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "imageHint": "https://x.com/mattpocockuk/status/2119067549438542226",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "id": "max-reasoning-fails-more",
+      "lens": "practical",
+      "topic": "reasoning-effort-max-vs-high",
+      "summary": "T3 Code anonymized telemetry, analyzed by Adam Holter with Theo's access: Opus 5.5 fails twice as many T3 Code turns on 'max' reasoning as on 'high', in every turn-length bucket, with most extra failures in the first 30 seconds; Sol shows the same pattern at 1.4x.",
+      "facts": [
+        "Adam Holter (@AdamHoltererer), verbatim: 'Opus 5.5 fails twice as many T3 turns on max as on high'.",
+        "He ruled out turn length: 'max fails more in every turn-length bucket, and most of the extra failures happen in the first 30 seconds.' Cause unexplained.",
+        "Theo (@theo): 'I gave Adam access to the T3 Code anonymized telemetry data to make more posts like this :) Anyways, more reasons to never use \"max\" reasoning'.",
+        "Separate small-account claim quoted by Theo (@aarondelasy, ~450 followers): T3 Code saving 'around ~40% of usage on avg' in his tests; single-user, unverified."
+      ],
+      "source": {
+        "name": "theo on X",
+        "url": "https://x.com/theo/status/2118894224733249655",
+        "type": "x",
+        "handle": "theo"
+      },
+      "related": [
+        {
+          "name": "AdamHoltererer on X (telemetry chart)",
+          "url": "https://x.com/AdamHoltererer/status/2118871687848477030"
+        },
+        {
+          "name": "theo: T3 Code token usage",
+          "url": "https://x.com/theo/status/2118831869567647810"
+        }
+      ],
+      "publishedAt": "2026-11-07T02:32:04Z",
+      "metrics": {
+        "likes": 773,
+        "reposts": 7,
+        "replies": 53,
+        "views": 62263,
+        "capturedAt": "2026-11-07T17:42:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://x.com/AdamHoltererer/status/2118871687848477030",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "id": "claude-cfo-prompt",
+      "lens": "practical",
+      "topic": "claude-personal-finance-prompt",
+      "summary": "Ruben Hassid posted a step-by-step workflow for auditing personal and business spending with Claude without giving it account access: export 12 months of bank CSVs, open the folder in Claude on Opus 5.5 'High', and run a 'be my CFO' prompt. He says it found a Stripe fee renegotiation worth $10,200 a year (self-reported).",
+      "facts": [
+        "Steps: download 12 months of transactions from every bank as CSV, put them in one folder, set Claude to Opus 5.5 on 'High', open the folder, send the prompt.",
+        "Prompt excerpt, verbatim: 'Be my CFO. Find every place I lose money, biggest first. ... Remove transfers between my own accounts so nothing counts twice. List every recurring charge, with its price and next renewal. Ask me 5 to 10 questions before you give advice. Then tell me what to CUT, KEEP, or RENEGOTIATE, with yearly savings. Use code for every number. Never ask for a password or account number.'",
+        "He says Claude drafted 21 cancel/renegotiation emails in Gmail, including one to Stripe to cut his fee from 2% to 1%; the full prompt sits behind his free guide link."
+      ],
+      "source": {
+        "name": "rubenhassid on X",
+        "url": "https://x.com/rubenhassid/status/2119037157129994515",
+        "type": "x",
+        "handle": "rubenhassid"
+      },
+      "publishedAt": "2026-11-07T12:00:02Z",
+      "metrics": {
+        "likes": 44,
+        "reposts": 3,
+        "replies": 10,
+        "views": 2996,
+        "capturedAt": "2026-11-07T17:40:00Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "id": "terminal-bench-2-1-maintenance-debt",
+      "lens": "practical",
+      "topic": "agent-benchmark-maintenance",
+      "summary": "Buchanan, Zhou, Linderman and Ré (arXiv 2611.08417) audited Terminal-Bench 2.0 with a continuous-validation workflow, found issues in roughly 30% of tasks, and released Terminal-Bench 2.1; repairs raised accuracy by over 10 points and moved leaderboard positions by up to three ranks.",
+      "facts": [
+        "They call the drift 'benchmark maintenance debt': models find valid solutions verifiers reject, and infra changes break task assumptions.",
+        "Workflow combines community reports, task artifacts, agent traces, automated oracle checks and human-gated repairs.",
+        "Ranking stays highly correlated after repair (Spearman rho = 0.958).",
+        "Fixed wall-clock limits change results: extending the time limit closes a 20pp harness gap on GPT 5.4 and shrinks a 30pp gap on GPT 5.4 mini."
+      ],
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.08417",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "care": 3,
+      "proof": 5,
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "id": "karpathy-tristantube-one-shot",
+      "lens": "broad",
+      "topic": "one-shot-personal-apps",
+      "summary": "Andrej Karpathy turned Tristan Hume's published list of top YouTube channels into TristanTube, a site with 47K videos and a TV mode, and says he one-shotted it with Claude Code in 3 minutes.",
+      "facts": [
+        "Karpathy, verbatim: '47K super nerdy videos +TV mode for laid back watching. (One-shotted with Claude Code in 3 minutes)'.",
+        "Live at karpathy.ai/tristan-tube; source list is Tristan Hume's 'My YouTube tier list, six years later' (thume.ca, Nov 1, 2026).",
+        "It follows his earlier HackerTube build that he linked in the same post."
+      ],
+      "source": {
+        "name": "karpathy on X",
+        "url": "https://x.com/karpathy/status/2119114537442189652",
+        "type": "x",
+        "handle": "karpathy"
+      },
+      "related": [
+        {
+          "name": "TristanTube",
+          "url": "https://karpathy.ai/tristan-tube/"
+        },
+        {
+          "name": "Tristan Hume: YouTube tier list",
+          "url": "https://thume.ca/2026/11/01/youtube-tier-list-2026/"
+        }
+      ],
+      "publishedAt": "2026-11-07T17:07:31Z",
+      "metrics": {
+        "likes": 1147,
+        "reposts": 74,
+        "replies": 138,
+        "views": 81213,
+        "capturedAt": "2026-11-07T17:40:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/karpathy/status/2119114537442189652",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "id": "nvidia-h200-china-empty-office",
+      "lens": "broad",
+      "topic": "nvidia-china-export-vetting",
+      "summary": "The Verge, citing The New York Times: a Chinese firm approved to handle Nvidia H200 AI chips, New Matrix, lists an empty office, has owners tied to a Chinese private equity firm blacklisted by the US since 2024, and is part of a pattern of approvals for firms linked to trade-restricted entities.",
+      "facts": [
+        "NYT described the listed office as 'a hollow gray shell with wires dangling from the ceiling where lights should be'; New Matrix was created 17 months ago.",
+        "The Trump administration relaxed Biden-era limits after Nvidia agreed to give the government a 15% cut of China sales.",
+        "Concern raised that neither the Commerce Department nor Nvidia is vetting approved firms."
+      ],
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-07T15:43:45Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "id": "replit-10m-projects-250k",
+      "lens": "broad",
+      "topic": "replit-self-driving-company",
+      "summary": "Y Combinator published Paul Graham's How to Build the Future interview with Replit CEO Amjad Masad, who says enterprise teams (banks, manufacturers) are replacing software projects once scoped at $10 million with $250,000 of Replit, and lays out a 'self-driving company' where agents build and run a company's software.",
+      "facts": [
+        "YC post: Replit shipped an agent in 2024 that took plain-English requests, worked through errors and provisioned its own infrastructure; 'The model companies even reached out to ask how Replit had pulled it off.'",
+        "Chapters include '$10 million projects now for $250,000', '\"The self-driving company\"' and 'The rest of the world is two years behind'.",
+        "The $10M-to-$250K figure is Masad's claim in the interview, not an audited number."
+      ],
+      "source": {
+        "name": "ycombinator on X",
+        "url": "https://x.com/ycombinator/status/2119082449929941400",
+        "type": "x",
+        "handle": "ycombinator"
+      },
+      "publishedAt": "2026-11-07T15:00:01Z",
+      "metrics": {
+        "likes": 144,
+        "reposts": 27,
+        "replies": 45,
+        "views": 17469,
+        "capturedAt": "2026-11-07T17:40:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://x.com/ycombinator/status/2119082449929941400",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "id": "perplexity-teammate-chief-of-staff",
+      "lens": "broad",
+      "topic": "perplexity-teammates",
+      "summary": "Aravind Srinivas posted more Perplexity Teammates use cases: running it as a chief of staff / executive assistant, monitoring market orders, and identifying anonymized headhunter candidates via Perplexity's people-search SDK.",
+      "facts": [
+        "Srinivas: 'Instant PMF for that role right away in two days of usage. Calendar management, email follow ups, triaging, coordinating with vendors, daily briefs, meeting preps' set up once instead of separate Computer sessions.",
+        "Recruiting case: a Teammate uses 'Perplexity's people-search-sdk' to identify candidates described without names, score them and draft outbound; he claims it 'Works with 100% accuracy' (unverified)."
+      ],
+      "source": {
+        "name": "AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2119116378263388532",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "related": [
+        {
+          "name": "AravSrinivas: headhunter use case",
+          "url": "https://x.com/AravSrinivas/status/2119119429107917275"
+        },
+        {
+          "name": "AravSrinivas: market orders",
+          "url": "https://x.com/AravSrinivas/status/2119102346223591490"
+        }
+      ],
+      "publishedAt": "2026-11-07T17:14:50Z",
+      "metrics": {
+        "likes": 42,
+        "reposts": 4,
+        "replies": 17,
+        "views": 4421,
+        "capturedAt": "2026-11-07T17:40:00Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-05"
+    },
+    {
+      "id": "apple-personal-knowledge-graph",
+      "lens": "broad",
+      "topic": "apple-personal-knowledge-graph",
+      "summary": "Researchers Dario Pasquini and Michał Bazyli documented that every Mac since macOS 13 runs two daemons (knowledgeconstructiond, intelligenceplatformd) that build an on-device knowledge graph of the user, their contacts and relationships, including XGBoost classifiers that score who is family from 144 features; they open-sourced a local dashboard, iKnow, to inspect it.",
+      "facts": [
+        "Data sits in ~/Library/IntelligencePlatform: 51 SQLite databases in plaintext, behind TCC Full Disk Access; graph.db uses 181 entity classes and 278 predicates.",
+        "Inputs include Contacts, Photos faces, Calendar attendees, Family Sharing ages, Health Medical ID emergency contact, and Siri Suggestions from Mail and Messages.",
+        "Family models EntityTagging_Family and EntityTagging_FamilyAndFriends read 144 features: 20 identity, 40 communication, 84 from shared photos; scores recomputed daily.",
+        "Retracted rows move to an expired_stable_graph table with confidence and sources kept. Analysis on macOS 26.6.2. HN front page: 413 points, 238 comments."
+      ],
+      "source": {
+        "name": "Eighth Rank",
+        "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+        "type": "hn"
+      },
+      "related": [
+        {
+          "name": "HN discussion",
+          "url": "https://news.ycombinator.com/item?id=50403097"
+        }
+      ],
+      "publishedAt": "2026-11-07T09:46:03Z",
+      "metrics": {
+        "points": 413,
+        "replies": 238,
+        "capturedAt": "2026-11-07T17:39:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "id": "mengto-threejs-room",
+      "lens": "design",
+      "topic": "mengto-threejs-opus-design",
+      "summary": "Meng To had Opus 5.5 recreate his room in three.js so it can animate his tutorial videos, combining 3D and motion design (video demo).",
+      "facts": [
+        "Meng To, verbatim: 'I asked Opus 5.5 to recreate my room in three.js just so it can animate my tutorial videos. 3D + motion design. Insane how far we've come.'"
+      ],
+      "source": {
+        "name": "MengTo on X",
+        "url": "https://x.com/MengTo/status/2119103146974957675",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-07T16:22:15Z",
+      "metrics": {
+        "likes": 137,
+        "reposts": 7,
+        "replies": 25,
+        "views": 6432,
+        "capturedAt": "2026-11-07T17:40:00Z"
+      },
+      "care": 2,
+      "proof": 3,
+      "imageHint": "https://x.com/MengTo/status/2119103146974957675",
+      "firstSeen": "2026-11-07"
+    }
+  ]
+}
