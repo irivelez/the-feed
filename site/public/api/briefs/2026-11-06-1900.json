@@ -1,0 +1,420 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-06-1900",
+  "date": "2026-11-06",
+  "publishedAt": "2026-11-06T19:15:00-05:00",
+  "edition": "Evening",
+  "top3": [
+    {
+      "itemId": "anthropic-agent-memory-dreaming",
+      "headline": "Anthropic teaches agents to dream between sessions",
+      "whyItMatters": "Offline replay is becoming product memory, not a research footnote."
+    },
+    {
+      "itemId": "claude-code-cloud-sessions",
+      "headline": "Claude Code cloud sessions auto-set your env",
+      "whyItMatters": "Cloud coding agents stop asking you to wire deps and secrets by hand."
+    },
+    {
+      "itemId": "metr-anthropic-ai-rd-acceleration",
+      "headline": "Anthropic AI R&D pace roughly doubled in a year",
+      "whyItMatters": "If AI is compounding lab progress, your roadmap clocks are already late."
+    }
+  ],
+  "items": [
+    {
+      "id": "ray-dalio-designing-precedes",
+      "title": "Dalio: designing precedes doing, skip it and fail",
+      "takeaway": "Ray Dalio warned that planning time determines effectiveness and that people skip design because they are preoccupied with execution.",
+      "soWhat": "Leaders who skip design burn cycles executing the wrong plan.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-06T23:29:00Z",
+      "source": {
+        "name": "@RayDalio on X",
+        "url": "https://x.com/RayDalio/status/2118848152514007464"
+      },
+      "image": {
+        "src": "/img/ray-dalio-designing-precedes.jpg",
+        "alt": "Image from @RayDalio on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "11k views"
+      }
+    },
+    {
+      "id": "theo-prompt-thorough-bold",
+      "title": "Theo: AI widens the engineer gap to 100×",
+      "takeaway": "Theo shared the prompt suffix “Be thorough in your analysis and bold in your recommendations,” and said AI widened the average-to-best engineer gap to at least 100×.",
+      "soWhat": "Prompt craft and judgment, not more seats, now separate average from elite.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-06T22:20:12Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2118830837840183628"
+      },
+      "related": [
+        {
+          "name": "100× engineer gap",
+          "url": "https://x.com/theo/status/2118842996414415220"
+        }
+      ],
+      "image": {
+        "src": "/img/theo-prompt-thorough-bold.jpg",
+        "alt": "Profile image of @theo"
+      },
+      "heat": {
+        "score": 13,
+        "level": "none",
+        "metric": "15k views"
+      }
+    },
+    {
+      "id": "nous-arete-27b",
+      "title": "Nous Arete cuts propaganda answers to under 1%",
+      "takeaway": "Nous Research released Arete-27B, an Apache-2.0 SFT of Qwen3.8-27B that cut propaganda answers on an 803-prompt eval from 22% to 0.9% while lifting fact score 2.32→2.98/5.",
+      "soWhat": "Open weights can be steered on values without tanking core bench scores.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-06T21:48:45Z",
+      "source": {
+        "name": "Nous Research",
+        "url": "https://nousresearch.com/arete"
+      },
+      "related": [
+        {
+          "name": "@NousResearch on X",
+          "url": "https://x.com/NousResearch/status/2118822925445050435"
+        },
+        {
+          "name": "Hugging Face weights",
+          "url": "https://huggingface.co/NousResearch/Arete-27B"
+        }
+      ],
+      "image": {
+        "src": "/img/nous-arete-27b.jpg",
+        "alt": "Image from Nous Research"
+      },
+      "heat": {
+        "score": 27,
+        "level": "none",
+        "metric": "143k views"
+      }
+    },
+    {
+      "id": "anthropic-agent-memory-dreaming",
+      "title": "Anthropic teaches agents to dream between sessions",
+      "takeaway": "Anthropic’s agent-memory post argues agents should note salience in-session and use offline “dreaming” to replay transcripts, build wiki-like maps, and inject a small header into every new session.",
+      "soWhat": "Offline replay is becoming product memory, not a research footnote.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 10,
+      "publishedAt": "2026-11-06T21:16:17Z",
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/research/components-of-agent-memory"
+      },
+      "related": [
+        {
+          "name": "@AnthropicAI on X",
+          "url": "https://x.com/AnthropicAI/status/2118814753154064501"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-agent-memory-dreaming.jpg",
+        "alt": "Image from Anthropic"
+      },
+      "heat": {
+        "score": 26,
+        "level": "none",
+        "metric": "214k views"
+      }
+    },
+    {
+      "id": "metr-anthropic-ai-rd-acceleration",
+      "title": "Anthropic AI R&D pace roughly doubled in a year",
+      "takeaway": "Ajeya Cotra summarized a METR deep-access report: Anthropic capabilities progress roughly doubled Oct 2025–Oct 2026 vs the prior year, mostly from AI automating AI R&D.",
+      "soWhat": "If AI is compounding lab progress, your roadmap clocks are already late.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 9,
+      "publishedAt": "2026-11-06T20:27:23Z",
+      "source": {
+        "name": "Ajeya Cotra",
+        "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai"
+      },
+      "related": [
+        {
+          "name": "HN discussion",
+          "url": "https://news.ycombinator.com/item?id=50397994"
+        }
+      ],
+      "image": {
+        "src": "/img/metr-anthropic-ai-rd-acceleration.jpg",
+        "alt": "Image from Ajeya Cotra"
+      }
+    },
+    {
+      "id": "fmf-jailbreak-rating-framework",
+      "title": "Labs share a cyber jailbreak severity scorecard",
+      "takeaway": "The Frontier Model Forum released v1.0 of its Jailbreak Rating Framework for Frontier Cyber Threats, scoring capability gain, scope, ease of deployment, and discovery, with comments open through Dec 21, 2026.",
+      "soWhat": "Shared jailbreak tiers let buyers compare cyber risk across frontier labs.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-06T19:58:39Z",
+      "source": {
+        "name": "Frontier Model Forum",
+        "url": "https://www.frontiermodelforum.org/updates/introducing-the-fmf-jailbreak-rating-framework-for-frontier-cyber-threats/"
+      },
+      "related": [
+        {
+          "name": "@OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2118795218099253606"
+        }
+      ],
+      "image": {
+        "src": "/img/fmf-jailbreak-rating-framework.jpg",
+        "alt": "Image from Frontier Model Forum"
+      },
+      "heat": {
+        "score": 18,
+        "level": "none",
+        "metric": "168k views"
+      }
+    },
+    {
+      "id": "claude-code-cloud-sessions",
+      "title": "Claude Code cloud sessions auto-set your env",
+      "takeaway": "ClaudeDevs said Claude Code cloud sessions on Pro, Max, and Ultra now auto-detect dependencies, network access, and API keys, save the environment, and keep keys hidden from the model.",
+      "soWhat": "Cloud coding agents stop asking you to wire deps and secrets by hand.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-11-06T19:58:33Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2118795192090386454"
+      },
+      "image": {
+        "src": "/img/claude-code-cloud-sessions.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      },
+      "heat": {
+        "score": 27,
+        "level": "none",
+        "metric": "217k views"
+      }
+    },
+    {
+      "id": "openai-biobasicsbench",
+      "title": "OpenAI ships BioBasicsBench for wet-lab agents",
+      "takeaway": "OpenAI and Ligo introduced BioBasicsBench: 100 tasks from real experiments that measure whether AI agents can interpret raw wet-lab data and handle routine laboratory analyses.",
+      "soWhat": "Wet-lab agents now have a real-experiment scoreboard leaders can track.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-06T19:08:57Z",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+      },
+      "related": [
+        {
+          "name": "@OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2118782708767965238"
+        }
+      ],
+      "image": {
+        "src": "/img/openai-biobasicsbench.jpg",
+        "alt": "Image from OpenAI"
+      },
+      "heat": {
+        "score": 24,
+        "level": "none",
+        "metric": "364k views"
+      }
+    },
+    {
+      "id": "muse-spaces-active-memory",
+      "title": "Meta Muse Spaces turn chats into live app hubs",
+      "takeaway": "Meta launched Muse Spaces so users can describe app-like hubs Muse builds and updates from connected apps, plus Active Memory (2.4× less forgetting) and Active Focus (67% better finishing blocked tasks).",
+      "soWhat": "Consumer AI is shipping rearrangeable app surfaces, not just chat replies.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-06T18:10:00Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces"
+      },
+      "related": [
+        {
+          "name": "Meta AI Research blog",
+          "url": "https://research.meta.ai/blog/specialized-models-for-muse-and-metaai"
+        },
+        {
+          "name": "@alexandr_wang on X",
+          "url": "https://x.com/alexandr_wang/status/2118769424769663009"
+        }
+      ],
+      "image": {
+        "src": "/img/muse-spaces-active-memory.jpg",
+        "alt": "Image from The Verge"
+      },
+      "heat": {
+        "score": 16,
+        "level": "none",
+        "metric": "71k views"
+      }
+    },
+    {
+      "id": "muse-spaces-design",
+      "title": "Muse Spaces: describe a hub, Muse builds the UI",
+      "takeaway": "Users describe a shopping hub, school dashboard, or music tracker; Muse builds it inside the chat app, keeps it updated from connected services, and lets users pin or schedule it in the nav.",
+      "soWhat": "Chat UIs are becoming navigable product surfaces users pin and schedule.",
+      "lens": "design",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-06T18:10:00Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces"
+      },
+      "related": [
+        {
+          "name": "@alexandr_wang on X",
+          "url": "https://x.com/alexandr_wang/status/2118769424769663009"
+        }
+      ],
+      "image": {
+        "src": "/img/muse-spaces-design.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "libghostty-1-0",
+      "title": "Libghostty 1.0 makes terminal emulation shared infra",
+      "takeaway": "Mitchell Hashimoto shipped libghostty-vt 1.0 with a stable C ABI now powering JetBrains IDE terminals (~12.5M users), an approved Neovim PR, Vercel Turborepo’s TUI, and agentic tools like herdr and cmux.",
+      "soWhat": "Agent coding tools inherit a correct terminal instead of rewriting one.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "source": {
+        "name": "Mitchell Hashimoto",
+        "url": "https://mitchellh.com/writing/libghostty-1-0"
+      },
+      "image": {
+        "src": "/img/libghostty-1-0.jpg",
+        "alt": "Mitchell Hashimoto: Libghostty 1.0 makes terminal emulation shared infra"
+      }
+    },
+    {
+      "id": "libghostty-design-craft",
+      "title": "Libghostty’s stable ABI lets agent TUIs share craft",
+      "takeaway": "Libghostty 1.0 uses opaque handles and enum-keyed getters so new fields do not break ABI, with XCFramework and WASM builds so agentic TUIs inherit a correct emulator.",
+      "soWhat": "Design systems for agent terminals now start from a versioned C ABI.",
+      "lens": "design",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "source": {
+        "name": "Mitchell Hashimoto",
+        "url": "https://mitchellh.com/writing/libghostty-1-0"
+      },
+      "image": {
+        "src": "/img/libghostty-design-craft.jpg",
+        "alt": "Mitchell Hashimoto: Libghostty’s stable ABI lets agent TUIs share craft"
+      }
+    },
+    {
+      "id": "arxiv-signed-requirement-handoffs",
+      "title": "Signed manifests cut unsafe multi-agent handoffs",
+      "takeaway": "arXiv 2611.07483 finds HMAC-signed requirement manifests with checkable predicates cut unsafe commits under attack versus free-text or structured JSON handoffs.",
+      "soWhat": "Free-text handoffs leak requirements; signed predicates make mergers checkable.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-05T05:43:47Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.07483"
+      },
+      "image": {
+        "src": "/img/arxiv-signed-requirement-handoffs.jpg",
+        "alt": "arXiv: Signed manifests cut unsafe multi-agent handoffs"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@ClaudeDevs",
+      "quote": "We've made it easier to get your repo running in Claude Code cloud sessions on Pro, Max, and Ultra.",
+      "url": "https://x.com/ClaudeDevs/status/2118795192090386454"
+    },
+    {
+      "handle": "@theo",
+      "quote": "Be thorough in your analysis and bold in your recommendations",
+      "url": "https://x.com/theo/status/2118830837840183628"
+    },
+    {
+      "handle": "@theo",
+      "quote": "The gap between an average engineer and the best engineers was never quite 10x, but it was meaningful. AI has made the gap at least 100x.",
+      "url": "https://x.com/theo/status/2118842996414415220"
+    },
+    {
+      "handle": "@RayDalio",
+      "quote": "Too many people make the mistake of spending virtually no time on designing because they are preoccupied with execution. Remember: Designing precedes doing!",
+      "url": "https://x.com/RayDalio/status/2118848152514007464"
+    },
+    {
+      "handle": "@OpenAI",
+      "quote": "A new way to measure how AI agents handle the routine analyses of wet-lab science—BioBasicsBench.",
+      "url": "https://x.com/OpenAI/status/2118782708767965238"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/OpenAI/status/2118782708767965238",
+      "handle": "@OpenAI",
+      "text": "A new way to measure how AI agents handle the routine analyses of wet-lab science—BioBasicsBench.",
+      "metric": "364k views",
+      "note": "Wet-lab agent scoring is drawing the widest evening reach."
+    },
+    {
+      "url": "https://x.com/ClaudeDevs/status/2118795192090386454",
+      "handle": "@ClaudeDevs",
+      "text": "We've made it easier to get your repo running in Claude Code cloud sessions on Pro, Max, and Ultra.",
+      "metric": "217k views",
+      "note": "Builders are cheering auto-wired cloud coding environments."
+    },
+    {
+      "url": "https://x.com/AnthropicAI/status/2118814753154064501",
+      "handle": "@AnthropicAI",
+      "text": "Anthropic published components of agent memory, arguing agents should note salience and use offline dreaming between sessions.",
+      "metric": "214k views",
+      "note": "Agent memory “dreaming” is the research spike of the evening."
+    },
+    {
+      "url": "https://x.com/NousResearch/status/2118822925445050435",
+      "handle": "@NousResearch",
+      "text": "Nous released Arete-27B, an Apache-2.0 Western-values SFT of Qwen3.8-27B that cuts propaganda answers from 22% to 0.9%.",
+      "metric": "4.0k likes",
+      "note": "Open-weight values steering is packing the replies."
+    },
+    {
+      "url": "https://x.com/OpenAI/status/2118795218099253606",
+      "handle": "@OpenAI",
+      "text": "Frontier Model Forum v1.0 jailbreak rating framework for frontier cyber threats, with public comments through Dec 21.",
+      "metric": "168k views",
+      "note": "Shared cyber jailbreak tiers are getting serious amplify."
+    }
+  ]
+}
