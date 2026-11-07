@@ -1,40 +1,39 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-07T07:15:00-05:00",
-  "runId": "2026-11-07-0700",
+  "updatedAt": "2026-11-07T13:15:00-05:00",
+  "runId": "2026-11-07-1300",
   "howtos": [
     {
-      "id": "eval-loop-retire-agent-skills",
-      "dedupeKey": "eval-driven-agent-skill-retirement",
-      "title": "Re-run skill evals on each new model and delete what it outgrew",
-      "what": "Use eval loops on your agent skills so each model upgrade shows which skills you can remove.",
-      "kind": "steps",
+      "id": "claude-cfo-bank-csv-audit",
+      "dedupeKey": "claude-cfo-prompt-bank-csv-audit",
+      "title": "Audit bank CSVs with a Claude CFO prompt",
+      "what": "Export 12 months of bank CSVs and have Claude find cuts, keeps, and renegotiations without account access.",
+      "kind": "prompt",
       "copy": [
-        "Run eval-driven development loops on your agent skills.",
-        "When a new model ships, compare it with and without each skill.",
-        "Remove skills the model no longer needs, as Garry did with /investigate after Opus 5.5."
+        "Be my CFO. Find every place I lose money, biggest first. Remove transfers between my own accounts so nothing counts twice. List every recurring charge, with its price and next renewal. Ask me 5 to 10 questions before you give advice. Then tell me what to CUT, KEEP, or RENEGOTIATE, with yearly savings. Use code for every number. Never ask for a password or account number."
       ],
-      "whenToUse": "After a model upgrade, when your agent carries custom skills that may now slow it down.",
+      "whenToUse": "When you want a spend audit from local bank CSVs without giving Claude account logins.",
       "source": {
-        "name": "@garrytan on X",
-        "url": "https://x.com/garrytan/status/2118920030243139596"
+        "name": "@rubenhassid on X",
+        "url": "https://x.com/rubenhassid/status/2119037157129994515"
       },
       "author": {
-        "name": "Garry Tan",
-        "handle": "garrytan"
+        "name": "Ruben Hassid",
+        "handle": "rubenhassid"
       },
       "tags": [
-        "agent-skills",
-        "evals",
-        "model-upgrades"
+        "claude",
+        "personal-finance",
+        "prompt",
+        "csv"
       ],
-      "quality": 3,
-      "verbatim": false,
+      "quality": 4,
+      "verbatim": true,
       "briefItem": {
-        "briefId": "2026-11-07-0700",
-        "itemId": "garry-eval-driven-agent-skills"
+        "briefId": "2026-11-07-1300",
+        "itemId": "claude-cfo-prompt"
       },
-      "addedAt": "2026-11-07T07:15:00-05:00"
+      "addedAt": "2026-11-07T13:15:00-05:00"
     }
   ]
 }

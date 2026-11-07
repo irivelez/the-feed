@@ -1,7 +1,39 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-07T07:15:00-05:00",
+  "updatedAt": "2026-11-07T13:15:00-05:00",
   "howtos": [
+    {
+      "id": "claude-cfo-bank-csv-audit",
+      "dedupeKey": "claude-cfo-prompt-bank-csv-audit",
+      "title": "Audit bank CSVs with a Claude CFO prompt",
+      "what": "Export 12 months of bank CSVs and have Claude find cuts, keeps, and renegotiations without account access.",
+      "kind": "prompt",
+      "copy": [
+        "Be my CFO. Find every place I lose money, biggest first. Remove transfers between my own accounts so nothing counts twice. List every recurring charge, with its price and next renewal. Ask me 5 to 10 questions before you give advice. Then tell me what to CUT, KEEP, or RENEGOTIATE, with yearly savings. Use code for every number. Never ask for a password or account number."
+      ],
+      "whenToUse": "When you want a spend audit from local bank CSVs without giving Claude account logins.",
+      "source": {
+        "name": "@rubenhassid on X",
+        "url": "https://x.com/rubenhassid/status/2119037157129994515"
+      },
+      "author": {
+        "name": "Ruben Hassid",
+        "handle": "rubenhassid"
+      },
+      "tags": [
+        "claude",
+        "personal-finance",
+        "prompt",
+        "csv"
+      ],
+      "quality": 4,
+      "verbatim": true,
+      "briefItem": {
+        "briefId": "2026-11-07-1300",
+        "itemId": "claude-cfo-prompt"
+      },
+      "addedAt": "2026-11-07T13:15:00-05:00"
+    },
     {
       "id": "eval-loop-retire-agent-skills",
       "dedupeKey": "eval-driven-agent-skill-retirement",

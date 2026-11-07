@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-07-0700",
-  "count": 47,
+  "latest": "2026-11-07-1300",
+  "count": 48,
   "briefs": [
+    {
+      "id": "2026-11-07-1300",
+      "date": "2026-11-07",
+      "edition": "Midday",
+      "publishedAt": "2026-11-07T13:10:00-05:00",
+      "headline": "Thoughtworks Trials Pocock skills, Caution on skill libraries",
+      "url": "/api/briefs/2026-11-07-1300.json"
+    },
     {
       "id": "2026-11-07-0700",
       "date": "2026-11-07",
