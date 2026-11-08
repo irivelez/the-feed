@@ -1,318 +1,178 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-07-1300",
+  "id": "2026-11-07-1900",
   "date": "2026-11-07",
-  "publishedAt": "2026-11-07T13:10:00-05:00",
-  "edition": "Midday",
+  "publishedAt": "2026-11-07T19:15:00-05:00",
+  "edition": "Evening",
   "top3": [
     {
-      "itemId": "thoughtworks-radar-agentic-tools",
-      "headline": "Thoughtworks Trials Pocock skills, Caution on skill libraries",
-      "whyItMatters": "Adopt skills one by one; whole libraries can outrun your team's judgment."
+      "itemId": "apple-xcode-plugin-claude-code",
+      "headline": "Apple ships an official Xcode plugin for Claude Code",
+      "whyItMatters": "iOS teams can now let agents build, test and preview apps without custom tooling."
     },
     {
-      "itemId": "terminal-bench-2-1-maintenance-debt",
-      "headline": "Terminal-Bench repairs lift accuracy over 10 points",
-      "whyItMatters": "Broken tasks quietly skew agent scores, so treat leaderboards as provisional."
+      "itemId": "msr-ai-frontiers-ends",
+      "headline": "Microsoft's AI Frontiers lab ends under scaling-first MAI",
+      "whyItMatters": "Microsoft's AI strategy now centers on scale, not research; watch where its agent talent lands."
     },
     {
-      "itemId": "max-reasoning-fails-more",
-      "headline": "Opus 5.5 fails twice as often on max as on high",
-      "whyItMatters": "Defaulting to max reasoning can cut reliability; prefer high until the gap is explained."
+      "itemId": "claude-code-settings-secrets-leak",
+      "headline": "Approved Claude Code commands exposed secrets in 1,122 GitHub files",
+      "whyItMatters": "Agent config files now carry credentials, so add them to secret scanning today."
     }
   ],
   "items": [
     {
-      "id": "karpathy-tristantube-one-shot",
-      "title": "Karpathy one-shots TristanTube, 47K videos, in three minutes",
-      "takeaway": "Karpathy turned Tristan Hume's YouTube tier list into TristanTube with 47K videos and TV mode, one-shotted with Claude Code in 3 minutes.",
-      "soWhat": "Personal media apps are becoming weekend one-shots for people who already ship with agents.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-07T17:07:31Z",
-      "source": {
-        "name": "TristanTube",
-        "url": "https://karpathy.ai/tristan-tube/"
-      },
-      "related": [
-        {
-          "name": "@karpathy on X",
-          "url": "https://x.com/karpathy/status/2119114537442189652"
-        },
-        {
-          "name": "Tristan Hume tier list",
-          "url": "https://thume.ca/2026/11/01/youtube-tier-list-2026/"
-        }
-      ],
-      "image": {
-        "src": "/img/karpathy-tristantube-one-shot.jpg",
-        "alt": "Image from TristanTube"
-      },
-      "heat": {
-        "score": 19,
-        "level": "none",
-        "metric": "81k views"
-      }
-    },
-    {
-      "id": "mengto-threejs-room",
-      "title": "Meng To has Opus recreate his room in three.js",
-      "takeaway": "Meng To asked Opus 5.5 to recreate his room in three.js so it can animate his tutorial videos, combining 3D and motion design.",
-      "soWhat": "Creators are using coding agents as production 3D tools, not just demos.",
-      "lens": "design",
-      "momentum": "building",
+      "id": "kloss-file-list-token-prompt",
+      "title": "A prompt that makes coding agents justify every file they open",
+      "takeaway": "The agent lists the files it needs and why, waits for approval, then makes the smallest change.",
+      "soWhat": "Gating what an agent reads may cut token spend, though no savings were measured.",
+      "lens": "practical",
+      "momentum": "new",
       "importance": 4,
-      "publishedAt": "2026-11-07T16:22:15Z",
+      "publishedAt": "2026-11-07T22:58:50Z",
       "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2119103146974957675"
+        "name": "@kloss_xyz on X",
+        "url": "https://x.com/kloss_xyz/status/2119202949234897134"
       },
       "image": {
-        "src": "/img/mengto-threejs-room.jpg",
-        "alt": "Image from @MengTo on X"
-      },
-      "heat": {
-        "score": 4,
-        "level": "none",
-        "metric": "6k views"
-      }
-    },
-    {
-      "id": "nvidia-h200-china-empty-office",
-      "title": "Approved China H200 firm New Matrix shows an empty office",
-      "takeaway": "The Verge, citing NYT: New Matrix, approved for Nvidia H200 chips, lists an empty office and owners tied to a PE firm blacklisted since 2024.",
-      "soWhat": "Export approvals for AI chips may outrun vetting of who actually receives them.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-11-07T15:43:45Z",
-      "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government"
-      },
-      "image": {
-        "src": "/img/nvidia-h200-china-empty-office.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
-      "id": "replit-10m-projects-250k",
-      "title": "Replit CEO: $10M software projects shrink to $250K on Replit",
-      "takeaway": "In a YC interview with Paul Graham, Amjad Masad says banks and manufacturers replace $10M software projects with $250K of Replit; the figure is his claim, not audited.",
-      "soWhat": "Enterprise software budgets are the next battleground if agent platforms keep that promise.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-11-07T15:00:01Z",
-      "source": {
-        "name": "@ycombinator on X",
-        "url": "https://x.com/ycombinator/status/2119082449929941400"
-      },
-      "image": {
-        "src": "/img/replit-10m-projects-250k.jpg",
-        "alt": "Image from @ycombinator on X"
-      },
-      "heat": {
-        "score": 6,
-        "level": "none",
-        "metric": "17k views"
-      }
-    },
-    {
-      "id": "thoughtworks-radar-agentic-tools",
-      "title": "Thoughtworks puts Pocock skills in Trial, warns on skill libraries",
-      "takeaway": "November Radar puts mattpocock/skills in Trial, Caution on skill cognitive surrender, and Adopt for agent sandboxing; Linear, OpenSpec, and Git AI move to Trial.",
-      "soWhat": "Evaluate each agent skill on its own; do not adopt whole skill libraries blindly.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 9,
-      "publishedAt": "2026-11-07T14:00:48Z",
-      "source": {
-        "name": "Thoughtworks Radar",
-        "url": "https://www.thoughtworks.com/radar/tools/mattpocock-skills"
-      },
-      "related": [
-        {
-          "name": "@mattpocockuk on X",
-          "url": "https://x.com/mattpocockuk/status/2119067549438542226"
-        },
-        {
-          "name": "mattpocock/skills",
-          "url": "https://github.com/mattpocock/skills"
-        },
-        {
-          "name": "Radar tools",
-          "url": "https://www.thoughtworks.com/radar/tools"
-        }
-      ],
-      "image": {
-        "src": "/img/thoughtworks-radar-agentic-tools.jpg",
-        "alt": "Image from Thoughtworks Radar"
-      },
-      "heat": {
-        "score": 5,
-        "level": "none",
-        "metric": "18k views"
-      }
-    },
-    {
-      "id": "claude-cfo-prompt",
-      "title": "Claude CFO prompt audits bank CSVs without account access",
-      "takeaway": "Ruben Hassid exports 12 months of bank CSVs, opens the folder in Claude Opus 5.5 High, and runs a be-my-CFO prompt; he reports a Stripe fee cut worth $10,200 a year.",
-      "soWhat": "You can get finance-agent value from local CSVs without handing over bank logins.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-07T12:00:02Z",
-      "source": {
-        "name": "@rubenhassid on X",
-        "url": "https://x.com/rubenhassid/status/2119037157129994515"
-      },
-      "image": {
-        "src": "/img/claude-cfo-prompt.jpg",
-        "alt": "Image from @rubenhassid on X"
+        "src": "/img/kloss-file-list-token-prompt.jpg",
+        "alt": "Profile image of @kloss_xyz"
       },
       "heat": {
         "score": 0,
         "level": "none",
-        "metric": "3k views"
+        "metric": "680 views"
       }
     },
     {
-      "id": "apple-personal-knowledge-graph",
-      "title": "Macs quietly build an on-device personal knowledge graph",
-      "takeaway": "Researchers document macOS daemons building a plaintext on-device graph of you and contacts; they open-sourced iKnow to inspect it. HN: 413 points, 238 comments.",
-      "soWhat": "Leaders on Macs should assume a rich personal graph already exists on disk.",
-      "lens": "broad",
-      "momentum": "new",
+      "id": "claude-code-settings-secrets-leak",
+      "title": "Claude Code approvals leak passwords in 1,122 public GitHub files",
+      "takeaway": "Apiiro says 'Don't Ask Again' commands with inline secrets were committed in settings files; Anthropic says it is looking into prevention.",
+      "soWhat": "Agent settings files are now a secrets risk, so scan and gitignore them.",
+      "lens": "practical",
+      "momentum": "building",
       "importance": 7,
-      "publishedAt": "2026-11-07T09:46:03Z",
+      "publishedAt": "2026-11-07T20:45:00Z",
       "source": {
-        "name": "Eighth Rank",
-        "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph"
+        "name": "Apiiro",
+        "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
       },
       "related": [
         {
-          "name": "HN discussion",
-          "url": "https://news.ycombinator.com/item?id=50403097"
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50407882"
+        },
+        {
+          "name": "Claude Code settings docs",
+          "url": "https://code.claude.com/docs/en/settings"
         }
       ],
       "image": {
-        "src": "/img/apple-personal-knowledge-graph.jpg",
-        "alt": "Image from Eighth Rank"
+        "src": "/img/claude-code-settings-secrets-leak.jpg",
+        "alt": "Image from Apiiro"
       }
     },
     {
-      "id": "max-reasoning-fails-more",
-      "title": "Opus 5.5 fails twice as often on max reasoning as on high",
-      "takeaway": "T3 Code telemetry via Adam Holter: Opus 5.5 fails twice as many turns on max as on high in every turn-length bucket; most extra failures hit in the first 30 seconds.",
-      "soWhat": "Treat max reasoning as a risk setting until vendors explain the failure spike.",
+      "id": "theo-omarchy-remote-agents",
+      "title": "Theo pauses t3os and recommends Omarchy for remote agents",
+      "takeaway": "Theo says Omarchy already has almost all the agent capabilities he wanted; he posted no benchmark numbers.",
+      "soWhat": "One prominent builder says existing setups already cover most remote-agent needs.",
       "lens": "practical",
       "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-11-07T02:32:04Z",
+      "importance": 4,
+      "publishedAt": "2026-11-07T20:07:10Z",
       "source": {
         "name": "@theo on X",
-        "url": "https://x.com/theo/status/2118894224733249655"
+        "url": "https://x.com/theo/status/2119159746393731109"
       },
-      "related": [
-        {
-          "name": "Adam Holter chart",
-          "url": "https://x.com/AdamHoltererer/status/2118871687848477030"
-        }
-      ],
       "image": {
-        "src": "/img/max-reasoning-fails-more.jpg",
+        "src": "/img/theo-omarchy-remote-agents.jpg",
         "alt": "Profile image of @theo"
       },
       "heat": {
-        "score": 15,
+        "score": 20,
         "level": "none",
-        "metric": "62k views"
+        "metric": "65k views"
       }
     },
     {
-      "id": "terminal-bench-2-1-maintenance-debt",
-      "title": "Terminal-Bench 2.1 fixes show 30% of tasks had issues",
-      "takeaway": "arXiv 2611.08417 audited Terminal-Bench 2.0, found issues in ~30% of tasks, released 2.1; repairs raised accuracy over 10 points and moved ranks by up to three.",
-      "soWhat": "Budget continuous validation if you buy or sell agent performance claims.",
+      "id": "msr-ai-frontiers-ends",
+      "title": "Microsoft Research's AI Frontiers group ends after MAI reorg",
+      "takeaway": "John Langford says the roughly 50-person group behind Autogen and Fara is over, and its founding leaders have left.",
+      "soWhat": "Microsoft's AI push now favors scaling over research, and senior agent researchers are leaving.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-07T18:02:00Z",
+      "source": {
+        "name": "John Langford, hunch.net",
+        "url": "https://hunch.net/?p=13764006"
+      },
+      "related": [
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50406563"
+        }
+      ],
+      "image": {
+        "src": "/img/msr-ai-frontiers-ends.jpg",
+        "alt": "John Langford, hunch.net: Microsoft Research's AI Frontiers group ends after MAI reorg"
+      }
+    },
+    {
+      "id": "apple-xcode-plugin-claude-code",
+      "title": "Apple's Xcode plugin joins Claude Code's official marketplace",
+      "takeaway": "Apple-authored plugin exposes Xcode via MCP: build, run and test schemes, SwiftUI previews, simulators and build logs.",
+      "soWhat": "Native Apple development is now a first-party target for coding agents.",
       "lens": "practical",
       "momentum": "new",
       "importance": 8,
-      "publishedAt": "2026-11-05T00:00:00Z",
+      "publishedAt": "2026-11-06T00:55:55Z",
       "source": {
-        "name": "arXiv",
-        "url": "https://arxiv.org/abs/2611.08417"
+        "name": "anthropics GitHub PR",
+        "url": "https://github.com/anthropics/claude-plugins-official/pull/6338"
       },
+      "related": [
+        {
+          "name": "Original PR #6259",
+          "url": "https://github.com/anthropics/claude-plugins-official/pull/6259"
+        },
+        {
+          "name": "Marketplace manifest",
+          "url": "https://github.com/anthropics/claude-plugins-official/blob/main/.claude-plugin/marketplace.json"
+        },
+        {
+          "name": "AGTPinsights on X",
+          "url": "https://x.com/AGTPinsights/status/2119147405048234370"
+        }
+      ],
       "image": {
-        "src": "/img/terminal-bench-2-1-maintenance-debt.jpg",
-        "alt": "arXiv: Terminal-Bench 2.1 fixes show 30% of tasks had issues"
+        "src": "/img/apple-xcode-plugin-claude-code.jpg",
+        "alt": "Image from anthropics GitHub PR"
       }
     }
   ],
   "voices": [
     {
-      "handle": "@AdamHoltererer",
-      "quote": "Opus 5.5 fails twice as many T3 turns on max as on high.",
-      "url": "https://x.com/AdamHoltererer/status/2118871687848477030"
+      "handle": "John Langford",
+      "quote": "The core philosophy there is scaling, and aggressively not research.",
+      "url": "https://hunch.net/?p=13764006"
     },
     {
-      "handle": "@karpathy",
-      "quote": "47K super nerdy videos +TV mode for laid back watching. (One-shotted with Claude Code in 3 minutes)",
-      "url": "https://x.com/karpathy/status/2119114537442189652"
-    },
-    {
-      "handle": "@mattpocockuk",
-      "quote": "Markdown files in the Thoughtworks Technology Radar, who'd have thunk.",
-      "url": "https://x.com/mattpocockuk/status/2119067549438542226"
-    },
-    {
-      "handle": "@MengTo",
-      "quote": "I asked Opus 5.5 to recreate my room in three.js just so it can animate my tutorial videos.",
-      "url": "https://x.com/MengTo/status/2119103146974957675"
+      "handle": "bcherny on HN",
+      "quote": "Historically Claude Code has not done secret scrubbing (there are many good tools for that), but we are looking into what we can do to prevent this.",
+      "url": "https://news.ycombinator.com/item?id=50407882"
     },
     {
       "handle": "@theo",
-      "quote": "Anyways, more reasons to never use \"max\" reasoning.",
-      "url": "https://x.com/theo/status/2118894224733249655"
-    }
-  ],
-  "hotOnX": [
-    {
-      "url": "https://x.com/karpathy/status/2119114537442189652",
-      "handle": "@karpathy",
-      "text": "47K super nerdy videos +TV mode for laid back watching. (One-shotted with Claude Code in 3 minutes)",
-      "metric": "1.1k likes",
-      "note": "Another Karpathy one-shot app shows how fast personal tools ship."
+      "quote": "It's a really good choice for remote agents, and you should probably use it.",
+      "url": "https://x.com/theo/status/2119159746393731109"
     },
     {
-      "url": "https://x.com/theo/status/2118894224733249655",
-      "handle": "@theo",
-      "text": "Adam got T3 Code telemetry access. Opus 5.5 fails twice as often on max reasoning as on high.",
-      "metric": "773 likes",
-      "note": "Builders are questioning whether max reasoning is worth the fail rate."
-    },
-    {
-      "url": "https://x.com/mattpocockuk/status/2119067549438542226",
-      "handle": "@mattpocockuk",
-      "text": "Markdown files in the Thoughtworks Technology Radar, who'd have thunk.",
-      "metric": "157 likes",
-      "note": "Skills libraries hitting Radar Trial validates agent engineering practice."
-    },
-    {
-      "url": "https://x.com/ycombinator/status/2119082449929941400",
-      "handle": "@ycombinator",
-      "text": "Paul Graham interviews Replit CEO Amjad Masad on $10M projects for $250K and the self-driving company.",
-      "metric": "144 likes",
-      "note": "Enterprise cost claims for agent platforms are drawing founder attention."
-    },
-    {
-      "url": "https://x.com/MengTo/status/2119103146974957675",
-      "handle": "@MengTo",
-      "text": "I asked Opus 5.5 to recreate my room in three.js just so it can animate my tutorial videos.",
-      "metric": "137 likes",
-      "note": "Designers keep pushing Opus into production 3D and motion work."
+      "handle": "@kloss_xyz",
+      "quote": "AI agents tend to over-read because more context feels safer for them.",
+      "url": "https://x.com/kloss_xyz/status/2119202949234897134"
     }
   ]
 }

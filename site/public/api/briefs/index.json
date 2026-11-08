@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-07-1300",
-  "count": 48,
+  "latest": "2026-11-07-1900",
+  "count": 49,
   "briefs": [
+    {
+      "id": "2026-11-07-1900",
+      "date": "2026-11-07",
+      "edition": "Evening",
+      "publishedAt": "2026-11-07T19:15:00-05:00",
+      "headline": "Apple ships an official Xcode plugin for Claude Code",
+      "url": "/api/briefs/2026-11-07-1900.json"
+    },
     {
       "id": "2026-11-07-1300",
       "date": "2026-11-07",

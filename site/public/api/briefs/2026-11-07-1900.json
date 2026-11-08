@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-07-1900",
+  "date": "2026-11-07",
+  "publishedAt": "2026-11-07T19:15:00-05:00",
+  "edition": "Evening",
+  "top3": [
+    {
+      "itemId": "apple-xcode-plugin-claude-code",
+      "headline": "Apple ships an official Xcode plugin for Claude Code",
+      "whyItMatters": "iOS teams can now let agents build, test and preview apps without custom tooling."
+    },
+    {
+      "itemId": "msr-ai-frontiers-ends",
+      "headline": "Microsoft's AI Frontiers lab ends under scaling-first MAI",
+      "whyItMatters": "Microsoft's AI strategy now centers on scale, not research; watch where its agent talent lands."
+    },
+    {
+      "itemId": "claude-code-settings-secrets-leak",
+      "headline": "Approved Claude Code commands exposed secrets in 1,122 GitHub files",
+      "whyItMatters": "Agent config files now carry credentials, so add them to secret scanning today."
+    }
+  ],
+  "items": [
+    {
+      "id": "kloss-file-list-token-prompt",
+      "title": "A prompt that makes coding agents justify every file they open",
+      "takeaway": "The agent lists the files it needs and why, waits for approval, then makes the smallest change.",
+      "soWhat": "Gating what an agent reads may cut token spend, though no savings were measured.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-07T22:58:50Z",
+      "source": {
+        "name": "@kloss_xyz on X",
+        "url": "https://x.com/kloss_xyz/status/2119202949234897134"
+      },
+      "image": {
+        "src": "/img/kloss-file-list-token-prompt.jpg",
+        "alt": "Profile image of @kloss_xyz"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "680 views"
+      }
+    },
+    {
+      "id": "claude-code-settings-secrets-leak",
+      "title": "Claude Code approvals leak passwords in 1,122 public GitHub files",
+      "takeaway": "Apiiro says 'Don't Ask Again' commands with inline secrets were committed in settings files; Anthropic says it is looking into prevention.",
+      "soWhat": "Agent settings files are now a secrets risk, so scan and gitignore them.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-07T20:45:00Z",
+      "source": {
+        "name": "Apiiro",
+        "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+      },
+      "related": [
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50407882"
+        },
+        {
+          "name": "Claude Code settings docs",
+          "url": "https://code.claude.com/docs/en/settings"
+        }
+      ],
+      "image": {
+        "src": "/img/claude-code-settings-secrets-leak.jpg",
+        "alt": "Image from Apiiro"
+      }
+    },
+    {
+      "id": "theo-omarchy-remote-agents",
+      "title": "Theo pauses t3os and recommends Omarchy for remote agents",
+      "takeaway": "Theo says Omarchy already has almost all the agent capabilities he wanted; he posted no benchmark numbers.",
+      "soWhat": "One prominent builder says existing setups already cover most remote-agent needs.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-07T20:07:10Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2119159746393731109"
+      },
+      "image": {
+        "src": "/img/theo-omarchy-remote-agents.jpg",
+        "alt": "Profile image of @theo"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "65k views"
+      }
+    },
+    {
+      "id": "msr-ai-frontiers-ends",
+      "title": "Microsoft Research's AI Frontiers group ends after MAI reorg",
+      "takeaway": "John Langford says the roughly 50-person group behind Autogen and Fara is over, and its founding leaders have left.",
+      "soWhat": "Microsoft's AI push now favors scaling over research, and senior agent researchers are leaving.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-07T18:02:00Z",
+      "source": {
+        "name": "John Langford, hunch.net",
+        "url": "https://hunch.net/?p=13764006"
+      },
+      "related": [
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50406563"
+        }
+      ],
+      "image": {
+        "src": "/img/msr-ai-frontiers-ends.jpg",
+        "alt": "John Langford, hunch.net: Microsoft Research's AI Frontiers group ends after MAI reorg"
+      }
+    },
+    {
+      "id": "apple-xcode-plugin-claude-code",
+      "title": "Apple's Xcode plugin joins Claude Code's official marketplace",
+      "takeaway": "Apple-authored plugin exposes Xcode via MCP: build, run and test schemes, SwiftUI previews, simulators and build logs.",
+      "soWhat": "Native Apple development is now a first-party target for coding agents.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-06T00:55:55Z",
+      "source": {
+        "name": "anthropics GitHub PR",
+        "url": "https://github.com/anthropics/claude-plugins-official/pull/6338"
+      },
+      "related": [
+        {
+          "name": "Original PR #6259",
+          "url": "https://github.com/anthropics/claude-plugins-official/pull/6259"
+        },
+        {
+          "name": "Marketplace manifest",
+          "url": "https://github.com/anthropics/claude-plugins-official/blob/main/.claude-plugin/marketplace.json"
+        },
+        {
+          "name": "AGTPinsights on X",
+          "url": "https://x.com/AGTPinsights/status/2119147405048234370"
+        }
+      ],
+      "image": {
+        "src": "/img/apple-xcode-plugin-claude-code.jpg",
+        "alt": "Image from anthropics GitHub PR"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "John Langford",
+      "quote": "The core philosophy there is scaling, and aggressively not research.",
+      "url": "https://hunch.net/?p=13764006"
+    },
+    {
+      "handle": "bcherny on HN",
+      "quote": "Historically Claude Code has not done secret scrubbing (there are many good tools for that), but we are looking into what we can do to prevent this.",
+      "url": "https://news.ycombinator.com/item?id=50407882"
+    },
+    {
+      "handle": "@theo",
+      "quote": "It's a really good choice for remote agents, and you should probably use it.",
+      "url": "https://x.com/theo/status/2119159746393731109"
+    },
+    {
+      "handle": "@kloss_xyz",
+      "quote": "AI agents tend to over-read because more context feels safer for them.",
+      "url": "https://x.com/kloss_xyz/status/2119202949234897134"
+    }
+  ]
+}
