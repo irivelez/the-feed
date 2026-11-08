@@ -1,39 +1,38 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-07T13:15:00-05:00",
-  "runId": "2026-11-07-1300",
+  "updatedAt": "2026-11-07T19:20:00-05:00",
+  "runId": "2026-11-07-1900",
   "howtos": [
     {
-      "id": "claude-cfo-bank-csv-audit",
-      "dedupeKey": "claude-cfo-prompt-bank-csv-audit",
-      "title": "Audit bank CSVs with a Claude CFO prompt",
-      "what": "Export 12 months of bank CSVs and have Claude find cuts, keeps, and renegotiations without account access.",
+      "id": "agent-approve-file-list-first",
+      "dedupeKey": "agent-list-files-before-reading",
+      "title": "Make your coding agent list files before opening any",
+      "what": "A prompt that has the agent name and justify the files it needs, wait for approval, then make the smallest fix.",
       "kind": "prompt",
       "copy": [
-        "Be my CFO. Find every place I lose money, biggest first. Remove transfers between my own accounts so nothing counts twice. List every recurring charge, with its price and next renewal. Ask me 5 to 10 questions before you give advice. Then tell me what to CUT, KEEP, or RENEGOTIATE, with yearly savings. Use code for every number. Never ask for a password or account number."
+        "Before opening any files, list the exact files you need for this task and why. Check the file tree or search to find them, but don't open anything else. If you need more, stop and ask me first. Then, after I approve the list, make the smallest, highest-confidence change that fully solves our problem."
       ],
-      "whenToUse": "When you want a spend audit from local bank CSVs without giving Claude account logins.",
+      "whenToUse": "When an agent over-reads a large codebase and you want tighter context and smaller changes.",
       "source": {
-        "name": "@rubenhassid on X",
-        "url": "https://x.com/rubenhassid/status/2119037157129994515"
+        "name": "@kloss_xyz on X",
+        "url": "https://x.com/kloss_xyz/status/2119202949234897134"
       },
       "author": {
-        "name": "Ruben Hassid",
-        "handle": "rubenhassid"
+        "name": "kloss_xyz",
+        "handle": "kloss_xyz"
       },
       "tags": [
-        "claude",
-        "personal-finance",
-        "prompt",
-        "csv"
+        "coding-agents",
+        "context",
+        "prompt"
       ],
-      "quality": 4,
+      "quality": 3,
       "verbatim": true,
       "briefItem": {
-        "briefId": "2026-11-07-1300",
-        "itemId": "claude-cfo-prompt"
+        "briefId": "2026-11-07-1900",
+        "itemId": "kloss-file-list-token-prompt"
       },
-      "addedAt": "2026-11-07T13:15:00-05:00"
+      "addedAt": "2026-11-07T19:20:00-05:00"
     }
   ]
 }

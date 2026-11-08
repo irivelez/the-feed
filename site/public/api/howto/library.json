@@ -1,7 +1,38 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-07T13:15:00-05:00",
+  "updatedAt": "2026-11-07T19:20:00-05:00",
   "howtos": [
+    {
+      "id": "agent-approve-file-list-first",
+      "dedupeKey": "agent-list-files-before-reading",
+      "title": "Make your coding agent list files before opening any",
+      "what": "A prompt that has the agent name and justify the files it needs, wait for approval, then make the smallest fix.",
+      "kind": "prompt",
+      "copy": [
+        "Before opening any files, list the exact files you need for this task and why. Check the file tree or search to find them, but don't open anything else. If you need more, stop and ask me first. Then, after I approve the list, make the smallest, highest-confidence change that fully solves our problem."
+      ],
+      "whenToUse": "When an agent over-reads a large codebase and you want tighter context and smaller changes.",
+      "source": {
+        "name": "@kloss_xyz on X",
+        "url": "https://x.com/kloss_xyz/status/2119202949234897134"
+      },
+      "author": {
+        "name": "kloss_xyz",
+        "handle": "kloss_xyz"
+      },
+      "tags": [
+        "coding-agents",
+        "context",
+        "prompt"
+      ],
+      "quality": 3,
+      "verbatim": true,
+      "briefItem": {
+        "briefId": "2026-11-07-1900",
+        "itemId": "kloss-file-list-token-prompt"
+      },
+      "addedAt": "2026-11-07T19:20:00-05:00"
+    },
     {
       "id": "claude-cfo-bank-csv-audit",
       "dedupeKey": "claude-cfo-prompt-bank-csv-audit",
