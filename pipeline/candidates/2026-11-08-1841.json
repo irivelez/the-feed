@@ -1,0 +1,210 @@
+{
+ "schemaVersion": "1.1",
+ "runId": "2026-11-08-1841",
+ "generatedAt": "2026-11-08T23:41:10Z",
+ "configVersions": {
+  "sources": "1.3.0",
+  "preferences": "1.1.0"
+ },
+ "window": {
+  "from": "2026-11-08T17:39:00Z",
+  "to": "2026-11-08T23:41:00Z"
+ },
+ "sourceNotes": [
+  "Window ~17:39Z to ~23:41Z Nov 8 (Sunday evening Bogotá, since the 12:39 run). 7 candidates (3 practical, 3 broad, 1 frontier-capital, 0 design). Quiet Sunday window.",
+  "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) HTTP 500 again; dead across many runs.",
+  "arXiv: export.arxiv.org returned HTTP 500 on two query forms this run (no retry succeeded); no arXiv candidate. Official arXiv RSS not tried (feed skips weekends).",
+  "RSS with no new on-lens items since last run: MIT Tech Review (latest Nov 6), OpenAI Blog (Nov 6), Stratechery (Nov 6), Benedict Evans (Sep), One Useful Thing (Oct 20), Gary Marcus (Nov 6), Mitchell Hashimoto (Nov 6, libghostty, used earlier or off-lens), Lenny (Doshi already in 12:39 file), Metaplanet Google News (latest Nov 2, crypto-treasury). The Atlantic (headlineOnly): fridge hacks Nov 8, not used.",
+  "Hacker News (minPoints 200, AI): no new item since the earlier runs cleared the bar and not already used; Anthropic IPO valuation (Bloomberg, 318) and Inkling 2 Small (290) are Nov 6, not verified, not used.",
+  "X howTo lane: ThePrimeagen's post about Claude 5.5 tasks slowing from 10 to 40 minutes as a project grows (1,618 likes, 286 replies) is a question without a resolution, not used; theo posts (MCP auth complaint, PR-bot ban) are opinion; swyx/gregisenberg/GeoffreyHuntley posts were promo or links without text. X bigPicture: unused elonmusk 'Interesting' (link only), nikitabier and garrytan harness-eval chart (image only, not readable); rauchg WebGL record player demo is off-lens for bigPicture. nathanbenaich post personal. VitalikButerin, naval, RayDalio, bhorowitz, Metaplanet, MengTo: nothing in window.",
+  "bestReply not captured (budget; replies not read). authorBaseline not read (budget).",
+  "X: 3 public-read calls this run (2 searches, 1 lookup of 5 posts); the rest were RSS/web reads."
+ ],
+ "candidates": [
+  {
+   "id": "nvidia-board-investigates-jensen-huang",
+   "lens": "broad",
+   "topic": "nvidia-huang-investigation",
+   "summary": "Nvidia's board announced an independent investigation into CEO Jensen Huang's relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security. The Verge reports Huang later admitted in a memo that the relationship was romantic; Megaspeed is an Nvidia customer and the subject of a Commerce Department investigation into whether it was smuggling AI chips to China.",
+   "facts": [
+    "Board statement: \"A committee of independent directors, assisted by outside independent counsel, will oversee the investigation.\"",
+    "Board statement: it \"has no reason to believe that either national security or NVIDIA secrets were compromised\" and \"has confidence in Jensen and his leadership team\".",
+    "The New York Times reported last month that Huang had a \"close relationship\" with the Megaspeed executive, per The Verge.",
+    "Axios reported on Nov 8 that Huang admitted the affair in a draft email to employees; The Verge published the full text of Huang's memo."
+   ],
+   "source": {
+    "name": "The Verge AI",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+    "type": "rss"
+   },
+   "related": [
+    {
+     "name": "The Verge: full text of Jensen Huang's memo to Nvidia",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
+    },
+    {
+     "name": "Axios on X (1,165 likes, 234 reposts)",
+     "url": "https://x.com/axios/status/2119521779555475581"
+    }
+   ],
+   "publishedAt": "2026-11-08T20:55:35Z",
+   "care": 4,
+   "proof": 4
+  },
+  {
+   "id": "apple-siri-agentic-gurman",
+   "lens": "broad",
+   "topic": "apple-siri-agentic",
+   "summary": "The Verge, citing Bloomberg's Mark Gurman, reports Apple CEO John Ternus is pressuring AI chief Craig Federighi to speed up the Siri roadmap and deliver an agent that can compete with OpenAI's Dots or Meta's Muse. Fine-grained control of Apple's first-party apps is expected with iOS 27.3; third-party app integration is likely in spring.",
+   "facts": [
+    "Examples named: rotating and cropping images in Photos and organizing Safari tabs (first-party); placing a Grubhub order or booking an OpenTable reservation (third-party).",
+    "Gurman: Apple could make Siri more like an agent \"as early as next year\".",
+    "Gurman: Dots, Muse and Grok \"can keep track of goals, determine what needs to happen next and continue pursuing objectives without the user initiating every individual step.\""
+   ],
+   "source": {
+    "name": "The Verge AI",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-08T19:18:19Z",
+   "care": 4,
+   "proof": 3
+  },
+  {
+   "id": "patrick-collison-ai-positive-vision",
+   "lens": "broad",
+   "topic": "collison-ai-positive-scenario",
+   "summary": "Patrick Collison posted that the positive AI scenario is hard to picture beyond ingredients like cured diseases and abundance, and asked what the larger equilibrium looks like: do people work, what is scarce, are humans in control. He also argues the question of AI consciousness and moral worth is high-stakes, because even a small moral weight multiplied across quadrillions of AIs could outweigh humans in a utilitarian calculus.",
+   "facts": [
+    "Quote: \"What is the vision for AI that most people would be excited about?\"",
+    "Quote: \"Given how rapid the rate of progress in AI may be, it feels strange for the upside case to be so opaque.\"",
+    "Quote: \"Today, people argue about datacenters.\""
+   ],
+   "source": {
+    "name": "Patrick Collison on X",
+    "url": "https://x.com/patrickc/status/2119495828683530519",
+    "type": "x",
+    "handle": "patrickc"
+   },
+   "publishedAt": "2026-11-08T18:22:38Z",
+   "metrics": {
+    "likes": 2551,
+    "reposts": 223,
+    "replies": 248,
+    "views": 346447,
+    "capturedAt": "2026-11-08T23:41:00Z"
+   },
+   "care": 4,
+   "proof": 4,
+   "imageHint": "https://x.com/patrickc/status/2119495828683530519"
+  },
+  {
+   "id": "poteto-pstack-formal-verification-skills",
+   "lens": "practical",
+   "topic": "cursor-pstack-skills",
+   "summary": "Lauren (poteto, Cursor) shared two skills from the pstack plugin collection in cursor/plugins: /create-formal-verification-skill to model state machines (one skill per subsystem) and /statechart to visualize the most important user flows. She frames them as a follow-up to a prompt from steveruizok, \"find all of the implicit state machines in my app\".",
+   "facts": [
+    "Quote: \"try this next “use /create-formal-verification-skill to model these state machines, one skill per subsystem. and use /statechart to visualize my most important user flows”\"",
+    "Both skills are in https://github.com/cursor/plugins/tree/main/pstack",
+    "The quoted steveruizok post (2026-10-31) had 8,024 likes and 15,149 bookmarks when read."
+   ],
+   "source": {
+    "name": "poteto on X",
+    "url": "https://x.com/poteto/status/2119521036660314339",
+    "type": "x",
+    "handle": "poteto"
+   },
+   "publishedAt": "2026-11-08T20:02:48Z",
+   "metrics": {
+    "likes": 2069,
+    "reposts": 64,
+    "replies": 75,
+    "views": 73393,
+    "capturedAt": "2026-11-08T23:41:00Z"
+   },
+   "care": 3,
+   "proof": 4,
+   "imageHint": "https://x.com/poteto/status/2119521036660314339",
+   "related": [
+    {
+     "name": "cursor/plugins pstack",
+     "url": "https://github.com/cursor/plugins/tree/main/pstack"
+    }
+   ]
+  },
+  {
+   "id": "simonw-sqlite-parse-number-c-vs-rust",
+   "lens": "practical",
+   "topic": "sqlite-parse-number-c-rust",
+   "summary": "Simon Willison had Claude chat (Opus 5.5) build a SQLite parse_number() extension in C and in Rust and compared them. An optimized C version ran at 16-19 ns per row, about twice as fast as the Rust versions, and all versions matched across 8 million fuzz checks.",
+   "facts": [
+    "Extension size: Rust 321 KB (rusqlite) and 298 KB (sqlite-loadable-rs) versus 14 KB for C.",
+    "Net cost per row over 2 million rows, mixed data: first C 67 ns, new C 19 ns, rusqlite 46 ns, sqlite-loadable 41 ns.",
+    "Follow-up prompt: \"Try writing your own C function for parsing text into a decimal number that catches up to or beats the Rust implementation\"; he then had the model write the report in simonw/research."
+   ],
+   "source": {
+    "name": "Simon Willison",
+    "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-08T22:26:00Z",
+   "care": 2,
+   "proof": 5
+  },
+  {
+   "id": "kunchenguid-multi-machine-agent-setup",
+   "lens": "practical",
+   "topic": "multi-machine-agents-setup",
+   "summary": "Kun Chen (kunchenguid) posted a new video guide on a multi-machine setup that lets him keep coding agents running and stay productive from anywhere.",
+   "facts": [
+    "Quote: \"this time i'm sharing a guide for how to do a multi-machine setup, which allowed me to keep agents running and stay productive anywhere i go\"",
+    "Video link is in the post (YouTube); the video content was not reviewed."
+   ],
+   "source": {
+    "name": "kunchenguid on X",
+    "url": "https://x.com/kunchenguid/status/2119490886593814934",
+    "type": "x",
+    "handle": "kunchenguid"
+   },
+   "publishedAt": "2026-11-08T18:03:00Z",
+   "metrics": {
+    "likes": 189,
+    "reposts": 8,
+    "replies": 14,
+    "views": 6657,
+    "capturedAt": "2026-11-08T23:41:00Z"
+   },
+   "care": 2,
+   "proof": 2,
+   "imageHint": "https://x.com/kunchenguid/status/2119490886593814934"
+  },
+  {
+   "id": "lyn-alden-megacap-single-man-risk",
+   "lens": "frontier-capital",
+   "topic": "megacap-key-person-risk",
+   "summary": "Lyn Alden posted a view on key-person risk in mega-cap companies: investors pay a premium partly because they expect a company at this stage not to depend on one person, so either the technology and scale/structure are the moat, or it is flimsy. The post text names no company; it carries an image.",
+   "facts": [
+    "Quote: \"Realistically, if a mega cap company has too much single-man risk, it's not really worth what it is.\"",
+    "Quote: \"Either the tech and scale/structure are the moat, or it's flimsy.\"",
+    "Posted the same evening Nvidia's board announced its investigation into its CEO; the post does not mention it in text."
+   ],
+   "source": {
+    "name": "Lyn Alden on X",
+    "url": "https://x.com/LynAldenContact/status/2119557882114916662",
+    "type": "x",
+    "handle": "LynAldenContact"
+   },
+   "publishedAt": "2026-11-08T22:29:13Z",
+   "metrics": {
+    "likes": 276,
+    "reposts": 10,
+    "replies": 20,
+    "views": 33718,
+    "capturedAt": "2026-11-08T23:41:00Z"
+   },
+   "care": 2,
+   "proof": 3,
+   "imageHint": "https://x.com/LynAldenContact/status/2119557882114916662"
+  }
+ ]
+}
