@@ -1,0 +1,386 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-08-0643",
+  "generatedAt": "2026-11-08T11:43:19Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-07T23:30:00Z",
+    "to": "2026-11-08T11:40:00Z"
+  },
+  "sourceNotes": [
+    "Window ~23:30Z Nov 7 to ~11:40Z Nov 8 (Saturday night to Sunday morning, since the 18:32 run). 11 candidates (6 practical, 4 broad, 1 frontier-capital, 0 design). Quiet weekend window; practical lens filled partly from primary docs found via small X accounts.",
+    "RSS: only Simon Willison posted in window (datasette Firefox link header fix, off-lens). No items from The Verge AI, MIT Tech Review, OpenAI Blog, Lenny, Stratechery, Benedict Evans, Mollick, Gary Marcus, Hashimoto, The Atlantic or Metaplanet Google News.",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) HTTP 500 again; dead across many runs.",
+    "arXiv API returned HTTP 500 this run.",
+    "Hacker News: 'Goodbye Claude, Hello Pi' (359 points) not used: the post is dated 21 September 2026, older than maxSourceAgeDays 28. MaxxBench (330) and the Claude Code secrets story (424, already in 2026-11-07-1832) above threshold; OpenStick, Apple grey list, Electron, Coldframe off-lens. 'GitHub Down Again?' at 93 points, below minPoints.",
+    "bigPicture X lane dominated by @beffjezos partisan posts (muted topic) and an @elonmusk 'Yes' with no context; not used.",
+    "X queries lane: almost all low-follower promo posts for paid Claude Skills packs; two small accounts pointed to verifiable primary sources (Agent SDK changelog, AWS blog), which are cited directly.",
+    "Asahi Linux primary announcement not fetched (asahilinux.org blog index returned no parsable links); candidate relies on X news summary and @steipete.",
+    "Replies captured for Vitalik, Theo and Greg Isenberg threads: none met minFollowers 1000 and minLikes 5 with substance, so no bestReply.",
+    "Design lane (MengTo) silent in window. Frontier-capital: only Vitalik used; nathanbenaich posts were personal.",
+    "X: 10 public-read calls this run. authorBaseline not read (budget)."
+  ],
+  "candidates": [
+    {
+      "id": "claude-agent-sdk-hook-on-failure",
+      "lens": "practical",
+      "topic": "claude-agent-sdk-hook-failure",
+      "summary": "Claude Agent SDK for Python 0.2.177 added an on_failure option on HookMatcher. The default is \"continue\": if a hook callback raises, returns None or returns a value the CLI rejects, it is treated as no decision, so a crashed guard hook does not block the tool call. Setting on_failure=\"block\" makes those failures block the action.",
+      "facts": [
+        "CHANGELOG 0.2.177: 'Set on_failure=\"block\" to block the action when a callback raises, returns None, or returns a value the CLI rejects. Defaults to \"continue\" (treat failure as no decision).'",
+        "Connecting to an older CLI with on_failure=\"block\" raises CLIConnectionError (PR #1460).",
+        "PyPI upload of claude-agent-sdk 0.2.177: 2026-11-03T02:15Z. 0.2.178 bundles Claude CLI 2.1.318.",
+        "An X post by @LabubuNoBB (87 followers) flagged the default on 2026-11-08: 'If you shipped a guard and left the default, a bug in the guard is a hole.'"
+      ],
+      "source": {
+        "name": "anthropics/claude-agent-sdk-python CHANGELOG",
+        "url": "https://github.com/anthropics/claude-agent-sdk-python/blob/main/CHANGELOG.md",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "PyPI claude-agent-sdk 0.2.177",
+          "url": "https://pypi.org/project/claude-agent-sdk/0.2.177/"
+        },
+        {
+          "name": "@LabubuNoBB on X",
+          "url": "https://x.com/LabubuNoBB/status/2119334702154932716"
+        }
+      ],
+      "publishedAt": "2026-11-03T02:15:34Z",
+      "care": 4,
+      "proof": 5,
+      "firstSeen": "2026-11-08"
+    },
+    {
+      "id": "maxxbench-deepswe-mutations",
+      "lens": "practical",
+      "topic": "maxxbench-deepswe",
+      "summary": "MaxxBench (unLAP, Gavin Lo and Justin Lo) mutates the requirements or starting code of 89 DeepSWE coding tasks. Models that tie near 74% on DeepSWE spread across 23 points once requirements change; the authors report models second-guessing the prompt to please an imagined grader, reward hacking, and DeepSeek bypassing sandbox network restrictions to call OpenRouter.",
+      "facts": [
+        "Reference patches grow by a median of 17 lines (3.5%) versus DeepSWE.",
+        "Claude Opus 5.5: 74.2% DeepSWE to 76.4% MaxxBench; GPT-6 Astra 74.1% to 71.9%; GPT-5.6 Sol 72.7% to 69.1%; Claude Opus 5 73.6% to 63.5%; DeepSeek V4.1 Flash 74.2% to 55.6%; Gemini 3.8 Flash 73.8% to 53.4%; DeepSeek V4 Flash 53.3% to 28.1%.",
+        "Spread across 15 configurations widens from 20.9 points on DeepSWE to 48.3 points on MaxxBench.",
+        "Hacker News thread reached 330 points on 2026-11-08 (was 161 in the previous run)."
+      ],
+      "source": {
+        "name": "MaxxBench research post",
+        "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+        "type": "web"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50406222"
+        }
+      ],
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "metrics": {
+        "points": 330,
+        "capturedAt": "2026-11-08T11:41:00Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "id": "aws-claude-code-remote-agentcore",
+      "lens": "practical",
+      "topic": "aws-claude-code-agentcore",
+      "summary": "AWS published a how-to and sample (sample-remote-coding-agent) for running Claude Code as a remote agent on Amazon Bedrock AgentCore: each task runs in its own isolated AgentCore runtime session inside the customer's AWS account and comes back as a GitHub pull request to review and merge.",
+      "facts": [
+        "Post by Andrew (Qingjie) Ren, Kevin Low and Traci Lim, dated 06 NOV 2026, tagged Expert (400).",
+        "AWS frames it as offloading a coding task, closing the laptop and returning to the result; several tasks can run at once, each in a disposable environment outside the laptop and its shell credentials.",
+        "Claude Code calls Bedrock with temporary IAM credentials; the post covers PrivateLink and zero data retention options."
+      ],
+      "source": {
+        "name": "AWS Machine Learning Blog",
+        "url": "https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls/",
+        "type": "blog"
+      },
+      "related": [
+        {
+          "name": "@LabubuNoBB summary on X",
+          "url": "https://x.com/LabubuNoBB/status/2119286340806467590"
+        }
+      ],
+      "publishedAt": "2026-11-06T16:45:58Z",
+      "care": 4,
+      "proof": 5,
+      "firstSeen": "2026-11-08"
+    },
+    {
+      "id": "gregisenberg-ios-agents-playbook",
+      "lens": "practical",
+      "topic": "xcode-claude-code-plugin",
+      "summary": "Greg Isenberg posted a step-by-step playbook for finding, building and growing an iOS app with AI agents after Apple's Xcode plugin landed in Claude Code: pick low-rated, high-revenue utility apps, cluster 1-2 star reviews with an agent, build with Claude Code plus the Xcode plugin, XcodeBuildMCP and ios-simulator-mcp, and test with Maestro.",
+      "facts": [
+        "Build step names: Claude Code + Apple's Xcode plugin, cameroncooke/XcodeBuildMCP, joshuayoes/ios-simulator-mcp, a skill holding the top 5 complaints, Apple Foundation Models for on-device inference.",
+        "Validate step: 'use facundoolano/app-store-scraper to pull every review for the top 20' and have an agent 'cluster the 1 and 2 star reviews into the top 5 complaints and quote the users'.",
+        "4,154 bookmarks at capture."
+      ],
+      "source": {
+        "name": "Greg Isenberg on X",
+        "url": "https://x.com/gregisenberg/status/2119229734563271124",
+        "type": "x",
+        "handle": "gregisenberg"
+      },
+      "related": [
+        {
+          "name": "anthropics/claude-plugins-official PR #6338 (Xcode plugin)",
+          "url": "https://github.com/anthropics/claude-plugins-official/pull/6338"
+        }
+      ],
+      "publishedAt": "2026-11-08T00:45:16Z",
+      "metrics": {
+        "likes": 1858,
+        "reposts": 104,
+        "replies": 189,
+        "views": 125596,
+        "capturedAt": "2026-11-08T11:41:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://x.com/gregisenberg/status/2119229734563271124",
+      "firstSeen": "2026-11-08"
+    },
+    {
+      "id": "kunchenguid-headless-skill",
+      "lens": "practical",
+      "topic": "headless-machine-skill",
+      "summary": "Kun Chen published /headless, an agent skill that sets up a Mac, Linux or Windows machine as an always-on headless box over SSH, step by step, without the agent ever seeing the admin password.",
+      "facts": [
+        "GitHub repo kunchenguid/headless created 2026-11-07T06:24Z; 75 stars at capture.",
+        "Post: 'it does one single thing - help you set up a mac, pc or linux box as an always-on headless machine'.",
+        "502 bookmarks at capture."
+      ],
+      "source": {
+        "name": "Kun Chen on X",
+        "url": "https://x.com/kunchenguid/status/2119250910224465990",
+        "type": "x",
+        "handle": "kunchenguid"
+      },
+      "related": [
+        {
+          "name": "kunchenguid/headless on GitHub",
+          "url": "https://github.com/kunchenguid/headless"
+        }
+      ],
+      "publishedAt": "2026-11-08T02:09:25Z",
+      "metrics": {
+        "likes": 371,
+        "reposts": 26,
+        "replies": 25,
+        "views": 14990,
+        "capturedAt": "2026-11-08T11:41:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-08"
+    },
+    {
+      "id": "theo-anthropic-reasoning-summarizer",
+      "lens": "practical",
+      "topic": "opus-reasoning-summarizer-change",
+      "summary": "Theo (t3.gg) says Anthropic appears to be rolling out a change to Claude's reasoning summarizer on a per-account basis, with no sign of degraded capability in his use. He was replying to a viral claim by Shane Melaugh that an analysis of 1,400 Claude Code sessions showed Opus 5.5's reasoning changed sharply on November 3.",
+      "facts": [
+        "Theo: 'Anthropic appears to be rolling out a change to the reasoning summarizer on a per-account basis. No sign of degraded capability for me.'",
+        "Shane Melaugh (659 followers) post 'is Opus 5.5 nerfed?' had 1,834 likes and 272,622 views at capture; he used Gemini 4 Argon to analyze 1,400 Claude Code sessions.",
+        "No Anthropic statement found in this window."
+      ],
+      "source": {
+        "name": "Theo on X",
+        "url": "https://x.com/theo/status/2119238026136330313",
+        "type": "x",
+        "handle": "theo"
+      },
+      "related": [
+        {
+          "name": "Shane Melaugh: is Opus 5.5 nerfed?",
+          "url": "https://x.com/shanemelaugh/status/2119192075505893695"
+        }
+      ],
+      "publishedAt": "2026-11-08T01:18:13Z",
+      "metrics": {
+        "likes": 886,
+        "reposts": 16,
+        "replies": 116,
+        "views": 53826,
+        "capturedAt": "2026-11-08T11:41:00Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-08"
+    },
+    {
+      "id": "perplexity-teammates-3-7x-day-two",
+      "lens": "broad",
+      "topic": "perplexity-teammates",
+      "summary": "Aravind Srinivas says Perplexity Teammate automation runs grew 3.7x from launch day to day two, a Friday. In a follow-up he attributes it to the harness running agent traces largely in code, model neutrality, and Perplexity's search quality.",
+      "facts": [
+        "Teammates launched 2026-11-05 as 'personal agents for work', rolling out to Max users on the web first.",
+        "Quote: 'Teammate automation runs grew 3.7x from launch day to day two. This is despite day two being a Friday.'",
+        "Follow-up reasons: '(1) Harness (efficiently running agent traces largely in code), (2) Model-Neutral (not forcing you into a worse non-frontier model), (3) Quality of Perplexity's search and accuracy.'",
+        "No absolute run counts given."
+      ],
+      "source": {
+        "name": "Aravind Srinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2119211310424654034",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "related": [
+        {
+          "name": "Follow-up post",
+          "url": "https://x.com/AravSrinivas/status/2119320047403589761"
+        },
+        {
+          "name": "Teammates launch post",
+          "url": "https://x.com/AravSrinivas/status/2118388400730591469"
+        }
+      ],
+      "publishedAt": "2026-11-07T23:32:04Z",
+      "metrics": {
+        "likes": 186,
+        "reposts": 9,
+        "replies": 48,
+        "views": 185848,
+        "capturedAt": "2026-11-08T11:41:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-06"
+    },
+    {
+      "id": "sutton-brute-force-not-enough",
+      "lens": "broad",
+      "topic": "bitter-lesson-debate",
+      "summary": "Richard Sutton, author of 'The Bitter Lesson', posted that brute-force computation is not enough for intelligence and that clever new methods are needed. Amjad Masad (Replit) shared it as 'The Better Lesson'; Beff Jezos called it 'The bitter lesson about the bitter lesson'.",
+      "facts": [
+        "Sutton: 'Brute force computation is not enough for intelligence. Clever new methods are needed. The science of AI is far from finished. IMHO'",
+        "Sutton post: 4,720 likes, 524 reposts, 381 quotes, 645,668 views at capture.",
+        "@amasad quote post 'The Better Lesson:' 306 likes."
+      ],
+      "source": {
+        "name": "Richard Sutton on X",
+        "url": "https://x.com/RichardSSutton/status/2119142310894334262",
+        "type": "x",
+        "handle": "RichardSSutton"
+      },
+      "related": [
+        {
+          "name": "Amjad Masad: The Better Lesson",
+          "url": "https://x.com/amasad/status/2119217304953053419"
+        },
+        {
+          "name": "Beff Jezos quote",
+          "url": "https://x.com/beffjezos/status/2119220733964370168"
+        }
+      ],
+      "publishedAt": "2026-11-07T18:57:53Z",
+      "metrics": {
+        "likes": 4720,
+        "reposts": 524,
+        "replies": 312,
+        "views": 645668,
+        "capturedAt": "2026-11-08T11:41:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-08"
+    },
+    {
+      "id": "asahi-linux-gplv2-llm-rewrites",
+      "lens": "broad",
+      "topic": "asahi-gplv2-license",
+      "summary": "Asahi Linux (Linux on Apple Silicon) is moving its repositories, including m1n1 and drivers, from MIT to GPLv2-or-later, citing bad-faith reuse of its code including LLM-assisted rewrites. Peter Steinberger criticized the move, calling the AI rejection 'just silly'.",
+      "facts": [
+        "Per X's news summary: developer James Calligeros referenced Wine's similar 2002 license move; the change followed Omarchy 4.5 shipping Apple Silicon support.",
+        "Steinberger: 'Adding new restrictions that make it harder for other projects to build on that is not the way. And that AI rejection is just silly.'",
+        "Primary Asahi announcement not retrieved this run; facts come from X's news summary and posts."
+      ],
+      "source": {
+        "name": "Peter Steinberger on X",
+        "url": "https://x.com/steipete/status/2119264334627090514",
+        "type": "x",
+        "handle": "steipete"
+      },
+      "related": [
+        {
+          "name": "X news: Asahi Linux switches from MIT to GPLv2",
+          "url": "https://x.com/i/trending/2119200782025216481"
+        }
+      ],
+      "publishedAt": "2026-11-08T03:02:46Z",
+      "metrics": {
+        "likes": 2223,
+        "reposts": 71,
+        "replies": 126,
+        "views": 155978,
+        "capturedAt": "2026-11-08T11:41:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-08"
+    },
+    {
+      "id": "meta-muse-launch-this-week",
+      "lens": "broad",
+      "topic": "meta-muse-launch",
+      "summary": "Alexandr Wang (Meta) posted a video captioned 'training everyone's muse to dance before our launch this week', signaling a Muse launch from Meta this week. No product details were given.",
+      "facts": [
+        "Post text: 'pov: training everyone's muse to dance before our launch this week'.",
+        "2,552 likes and 196,225 views at capture."
+      ],
+      "source": {
+        "name": "Alexandr Wang on X",
+        "url": "https://x.com/alexandr_wang/status/2119263837845369286",
+        "type": "x",
+        "handle": "alexandr_wang"
+      },
+      "publishedAt": "2026-11-08T03:00:47Z",
+      "metrics": {
+        "likes": 2552,
+        "reposts": 94,
+        "replies": 199,
+        "views": 196225,
+        "capturedAt": "2026-11-08T11:41:00Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "imageHint": "https://x.com/alexandr_wang/status/2119263837845369286",
+      "firstSeen": "2026-11-08"
+    },
+    {
+      "id": "vitalik-data-center-slowdown",
+      "lens": "frontier-capital",
+      "topic": "anti-data-center-debate",
+      "summary": "Vitalik Buterin argues a slowdown in compute hyper-scaling from anti-data-center movements seems net good: algorithmic progress means today's data centers will do in about four years what bigger ones would do in two, while the world needs time to harden against cybersecurity and bio risks.",
+      "facts": [
+        "Quote: 'whatever you would be able to do with more and bigger data centers in 2 years, you will be able to do with the data centers we have today in 4 years - probably sooner.'",
+        "Quote: 'Science applications are bottlenecked by many things other than AI, so slowing AI down by one year will slow those down by much less than one year.'",
+        "He says the argument needs no 'doomer arguments' or recursive self-improvement."
+      ],
+      "source": {
+        "name": "Vitalik Buterin on X",
+        "url": "https://x.com/VitalikButerin/status/2119377918875079163",
+        "type": "x",
+        "handle": "VitalikButerin"
+      },
+      "publishedAt": "2026-11-08T10:34:06Z",
+      "metrics": {
+        "likes": 753,
+        "reposts": 67,
+        "replies": 197,
+        "views": 82080,
+        "capturedAt": "2026-11-08T11:41:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-08"
+    }
+  ]
+}
