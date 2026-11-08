@@ -1,0 +1,286 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-08-1239",
+  "generatedAt": "2026-11-08T17:39:27Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-08T11:30:00Z",
+    "to": "2026-11-08T17:39:00Z"
+  },
+  "sourceNotes": [
+    "Window ~11:30Z to ~17:39Z Nov 8 (Sunday midday, since the 06:43 run). 8 candidates (2 practical, 5 broad, 0 frontier-capital, 1 design). Quiet Sunday window; practical lens is thin after skipping duplicates and promo.",
+    "RSS: new items were Lenny Rachitsky (Tulsee Doshi interview, 13:31Z) and The Verge AI (Elvis/Eminem sue Suno, 17:23Z). No new on-lens items from Simon Willison (Datasette Firefox header fix, off-lens), MIT Tech Review, OpenAI Blog, Stratechery, Benedict Evans, Mollick, Gary Marcus, Hashimoto, The Atlantic (Cybertruck, headlineOnly) or Metaplanet Google News (Nov 7 item compared Strive bitcoin holdings to Strategy and Metaplanet; crypto-treasury, not used).",
+    "Dwarkesh Patel RSS (dwarkeshpatel.com/feed) HTTP 500 again; dead across many runs.",
+    "arXiv: first export.arxiv.org query HTTP 500; retry with sortBy=lastUpdatedDate succeeded. Official cs.AI RSS was empty (feed sets skipDays Saturday and Sunday). Included Han 2611.08341 (agent memory compression, submitted 2026-11-05).",
+    "Hacker News (minPoints 200, AI): 'Goodbye Claude, hello Pi' (560 points, submitted today) not used: morning run noted the article is dated 21 September 2026, older than maxSourceAgeDays 28. MaxxBench (357), Claude Code secrets (505) and Apple personal knowledge graph (807) already in prior candidate files. 'The end of Microsoft Research's AI Frontiers group' (482) already used. Llama-modchip (195) and 'Agent memory needs its OpenTelemetry moment' (124) below minPoints.",
+    "X queries lane: almost all low-follower promo posts for Claude Skills packs, paid tutorials and token tickers; no new verifiable primary source used.",
+    "bigPicture X lane: unused @DavidSacks posts on the midterms and the war (muted topic: partisan politics); unused @elonmusk posts on Texas politics, Dave Chappelle and Starlink.",
+    "Frontier-capital: Vitalik posted an ETH-as-store-of-value vs fee-burning thread (crypto tokenomics, not used); his data-center slowdown follow-up is a reply on this morning's candidate. nathanbenaich posts were personal. No new Metaplanet item in window.",
+    "Replies captured on Addy Osmani's article (conversation_id 2119332146485891501): newest page did not meet minFollowers 1000 and minLikes 5 with substance, so no bestReply.",
+    "X: 14 public-read calls this run. authorBaseline not read (budget)."
+  ],
+  "candidates": [
+    {
+      "id": "addy-osmani-coding-agents-manager",
+      "lens": "practical",
+      "topic": "coding-agents-as-management",
+      "summary": "Addy Osmani (Claude Code at Anthropic) published an X article, \"Your coding agents made you a manager\": the skills for managing agents are the skills for managing a team, and you do not need the title. He maps engineering-manager habits onto Claude Code — giving the agent a way to check its work, writing what is not in the repo, compounding corrections in CLAUDE.md, treating hooks as hard requirements, planning before building, and reviewing diffs as if you will get paged for them.",
+      "facts": [
+        "Quote: \"Every gripe you have about bad managers is a bug report for interacting with agents.\"",
+        "Quote: \"The engineers who get the most out of agents aren't necessarily the ones who are best at prompt engineering. They're the ones who learned how to manage, intentionally or otherwise.\"",
+        "He writes that prompts, CLAUDE.md and skills are requests the model can choose to act on, while hooks, deny rules and managed settings are always enforced.",
+        "On Claude Code /batch: it \"takes a big mechanical change and creates 5 to 30 tasks, displays the plan, executes them in separate worktrees (separate checkouts of the repo), and creates a PR for each one.\"",
+        "Advice: if two correction attempts fail, start a fresh session with a better prompt; \"Review the diff as if you'll get paged for it.\"",
+        "Ryan Carson quoted the gripe/bug-report line and called the article \"pure gold.\"",
+        "A related earlier essay on his site is titled \"Your AI coding agents need a manager.\""
+      ],
+      "source": {
+        "name": "Addy Osmani on X",
+        "url": "https://x.com/addyosmani/status/2119332146485891501",
+        "type": "x",
+        "handle": "addyosmani"
+      },
+      "related": [
+        {
+          "name": "Ryan Carson quote",
+          "url": "https://x.com/ryancarson/status/2119430906863849923"
+        },
+        {
+          "name": "Earlier essay: Your AI coding agents need a manager",
+          "url": "https://addyosmani.com/blog/coding-agents-manager/"
+        },
+        {
+          "name": "Claude Code best practices",
+          "url": "https://code.claude.com/docs/en/best-practices"
+        }
+      ],
+      "publishedAt": "2026-11-08T07:32:13Z",
+      "metrics": {
+        "likes": 2427,
+        "replies": 193,
+        "reposts": 250,
+        "views": 193166,
+        "capturedAt": "2026-11-08T17:39:00Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://x.com/addyosmani/status/2119332146485891501",
+      "firstSeen": "2026-11-08"
+    },
+    {
+      "id": "han-compressed-agent-memory-laq",
+      "lens": "practical",
+      "topic": "agent-memory-compression",
+      "summary": "Henry Han's arXiv paper \"Enhancing Local and Global Structure in Compressed AI Agent Memory\" (2611.08341) says a memory compression that preserves each item's nearest neighbors can still move passages across themes, which matters when agents consolidate, delete or compare memories. The author proposes locality-aware quantization (LAQ), a hinge objective on an OPQ index aimed at the far end of the memory.",
+      "facts": [
+        "Submitted 2026-11-05; author listed as Henry Han.",
+        "The paper evaluates local fidelity L at 10 neighbors and global fidelity G at 30 to 50 percent of the memory.",
+        "At 96 bytes per passage, \"rescored binary codes reach an L of 0.97 yet move 10.1 percent of passages to another theme; PCA with 8-bit codes, at an L of 0.77, moves 1.7 percent.\"",
+        "\"Reconstruction alone raises G in 0 of 52 held-out runs; the far hinge raises it in all 52.\"",
+        "\"LAQ raises G in all 52 (p=8.5×10^{-4} over 13 memory-encoder groups)\", including an external FinDER memory, and \"scales to a million passages.\""
+      ],
+      "source": {
+        "name": "arXiv 2611.08341",
+        "url": "https://arxiv.org/abs/2611.08341",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-05T17:27:00Z",
+      "care": 3,
+      "proof": 5,
+      "firstSeen": "2026-11-08"
+    },
+    {
+      "id": "swyx-cursor-1b-arr-post-acquisition",
+      "lens": "broad",
+      "topic": "cursor-arr-2025",
+      "summary": "Swyx says Cursor is \"slaying it esp post acquisition\", calling the deal probably one of Elon's best and better than Twitter, and that Twitter discourse is a \"funhouse mirror of actual reality that you can now basically look up in SEC audited financials.\" In the longer text he writes that Cursor ended 2025 at $1B ARR with enterprise growing 300% quarter over quarter.",
+      "facts": [
+        "Longer text: \"cursor ended 2025 arr 1B arr btw. enterprise growing 300% QoQ\".",
+        "The post includes a screenshot; this run did not independently read an SEC filing.",
+        "177 likes, 74 replies and 19,391 views at capture."
+      ],
+      "source": {
+        "name": "swyx on X",
+        "url": "https://x.com/swyx/status/2119429305512165838",
+        "type": "x",
+        "handle": "swyx"
+      },
+      "publishedAt": "2026-11-08T13:58:18Z",
+      "metrics": {
+        "likes": 177,
+        "replies": 74,
+        "reposts": 5,
+        "views": 19391,
+        "capturedAt": "2026-11-08T17:39:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://x.com/swyx/status/2119429305512165838",
+      "firstSeen": "2026-11-08"
+    },
+    {
+      "id": "elon-grok-bot-token-efficiency",
+      "lens": "broad",
+      "topic": "grok-bot-token-efficiency",
+      "summary": "Elon Musk posted that \"Grok Bot fixes for improved token efficiency and smarter behavior are underway.\" Matt Palmer, who lists himself as working on Cursor and Grok Bot, quoted him, said many people have built important workflows on the product, and asked users to reply with feedback he would read. Earlier the same day Musk asked whether Grok Bot offers an easy way to shift to per-token pricing, and told a user he would look into a report that a $200 plan which lasted seven days at full throttle the previous week now lasts 14 hours under moderate load.",
+      "facts": [
+        "Elon Musk, 2026-11-08T13:17:51Z: \"Grok Bot fixes for improved token efficiency and smarter behavior are underway.\" 24,587 likes and 2,495,083 views at capture.",
+        "Matt Palmer (mattyp) at 16:58Z: \"Improvements to token efficiency & behavior in Grok Bot are underway\" and \"Please reply with feedback on this post. I will read it all.\" 618 likes and 417 replies at capture.",
+        "Musk reply to teslaownersSV: \"Does it offer an easy way to shift to per token pricing?\"",
+        "dneighbors: \"Problem is last week a $200 plan lasted 7 days full throttle. This week it lasts 14hrs under moderate load.\" Musk: \"I will dig into this today.\""
+      ],
+      "source": {
+        "name": "Elon Musk on X",
+        "url": "https://x.com/elonmusk/status/2119419126045454531",
+        "type": "x",
+        "handle": "elonmusk"
+      },
+      "related": [
+        {
+          "name": "Matt Palmer asking for feedback",
+          "url": "https://x.com/mattyp/status/2119474599708827957"
+        },
+        {
+          "name": "Musk on per-token pricing",
+          "url": "https://x.com/elonmusk/status/2119406729074979035"
+        },
+        {
+          "name": "Musk reply on the $200 plan report",
+          "url": "https://x.com/elonmusk/status/2119415029812609301"
+        }
+      ],
+      "publishedAt": "2026-11-08T13:17:51Z",
+      "metrics": {
+        "likes": 24587,
+        "replies": 3471,
+        "reposts": 1608,
+        "views": 2495083,
+        "capturedAt": "2026-11-08T17:39:00Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/elonmusk/status/2119419126045454531",
+      "firstSeen": "2026-11-08"
+    },
+    {
+      "id": "lenny-tulsee-doshi-frontier-models",
+      "lens": "broad",
+      "topic": "lenny-tulsee-doshi-frontier",
+      "summary": "Lenny Rachitsky published a podcast interview with Tulsee Doshi, head of product for Google's frontier AI models, including Gemini and multimodal models such as Nano Banana, Genie, Veo and Lyria. Public show notes list Google's full-stack frontier AI strategy, what product managers do inside a frontier lab, Doshi's 60-20-20 framework for balancing what works now and what is almost working, and how to write a first eval.",
+      "facts": [
+        "Listed on Lenny's Newsletter on 2026-11-08 (feed timestamp 13:31Z); marked Paid; about 59 minutes.",
+        "Subtitle: \"Tulsee Doshi on building Google’s frontier models, why evals and vibes both matter, and her 60-20-20 framework for shipping ahead of the curve.\"",
+        "Listed discussion topics include why model development is \"not just engineering, but also like Snape’s potions class,\" Google's full-stack strategy, writing a first eval, and \"the rising value of great PMs.\"",
+        "The public page does not spell out the 60-20-20 split beyond \"balancing what works now and what’s almost working\"; the full transcript is behind the paywall."
+      ],
+      "source": {
+        "name": "Lenny Rachitsky",
+        "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-08T13:31:00Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-08"
+    },
+    {
+      "id": "larry-page-orbital-compute-five-nines",
+      "lens": "broad",
+      "topic": "orbital-compute-five-nines",
+      "summary": "Elon Musk quote-posted a summary that Larry Page \"reportedly\" said 99.999 percent (\"five nines\") of computing will end up in space, writing that Page \"has made many accurate predictions and this is one of them.\" The summary attributes the secondhand quote to Patrick O'Shaughnessy and says Martin Casado's reason it might happen is regulatory: Casado \"thinks there are 500 proposed bills to stop data center building in the US, Texas included.\"",
+      "facts": [
+        "Hosun Chung (2026-11-07T22:40:07Z), citing Invest Like the Best: \"Someone asked Larry Page how much of compute will be orbital, and he said five-nines.\"",
+        "Same post: \"@martin_casado's reason it might happen: 'It's just basically regulatory.' He thinks there are 500 proposed bills to stop data center building in the US, Texas included.\"",
+        "Musk quote-post at 16:37Z: 4,543 likes and 782,416 views at capture.",
+        "The Page figure is reported secondhand; this run did not find a primary Page recording."
+      ],
+      "source": {
+        "name": "Elon Musk on X",
+        "url": "https://x.com/elonmusk/status/2119469436092760547",
+        "type": "x",
+        "handle": "elonmusk"
+      },
+      "related": [
+        {
+          "name": "Hosun Chung summary",
+          "url": "https://x.com/hosun_chung/status/2119198237047590971"
+        }
+      ],
+      "publishedAt": "2026-11-08T16:37:46Z",
+      "metrics": {
+        "likes": 4543,
+        "replies": 608,
+        "reposts": 553,
+        "views": 782416,
+        "capturedAt": "2026-11-08T17:39:00Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-08"
+    },
+    {
+      "id": "verge-suno-elvis-eminem-lawsuits",
+      "lens": "broad",
+      "topic": "suno-elvis-eminem-lawsuit",
+      "summary": "The Verge reports that rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing AI music company Suno, claiming it illegally generates music and lyrics that mimic those artists. The Presley suit argues Suno violated Tennessee's ELVIS Act, which makes it illegal for an AI company to clone a singer's voice.",
+      "facts": [
+        "Terrence O'Brien, The Verge, 8 November 2026, 5:23 PM UTC.",
+        "Presley-suit quote: \"Suno has mechanically encoded itself with artists’ identities, hard-work, creativity, and time, and harnessed them all for a consistent conveyor belt of cold hard cash.\"",
+        "The article says the suits closely mirror one filed by Jason Isbell and others in September, which claimed Suno created imitations of the plaintiffs but did not claim copyright infringement directly.",
+        "Suno spokesperson Cat McCormack told The Verge: \"Suno exists to help people create new, original music, not to trade on anyone’s name or likeness, and we prohibit any unauthorized use of an artist’s work. To protect against this, we do not allow prompts for specific artists’ names and songs and work with third-party providers to screen uploaded audio files and lyrics for potential misuse.\"",
+        "The article says this adds to lawsuits Suno is facing from Sony, UMG, Isbell, Reservoir Media and others."
+      ],
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-08T17:23:00Z",
+      "care": 2,
+      "proof": 5,
+      "firstSeen": "2026-11-08"
+    },
+    {
+      "id": "mengto-pro-threads-macbook-wallpaper",
+      "lens": "design",
+      "topic": "macbook-pro-threads-webgl",
+      "summary": "Meng To shared an open-source WebGL animation of the MacBook touch background. The repository kubai087/pro-threads is MIT-licensed and described on GitHub as an animated wallpaper of letters woven from threads of light, inspired by the MacBook Pro PROLED XDR wallpaper, with a full A–Z thread typeface, palettes and a live shader.",
+      "facts": [
+        "Meng To, 2026-11-08T15:30:12Z: \"open-source animation of the macbook touch background.\" linking github.com/kubai087/pro-threads.",
+        "Original post by Kubai087 on 2026-10-30 described recreating the MacBook Pro PROLED XDR wallpaper in WebGL, then making all 26 letters plus presets, and adding halo, black hole, Möbius-ring and tunnel effects intended for a website hero section.",
+        "30 likes and 4,098 views on Meng To's post at capture."
+      ],
+      "source": {
+        "name": "Meng To on X",
+        "url": "https://x.com/MengTo/status/2119452436108861839",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "related": [
+        {
+          "name": "kubai087/pro-threads on GitHub",
+          "url": "https://github.com/kubai087/pro-threads"
+        },
+        {
+          "name": "Original post by Kubai087",
+          "url": "https://x.com/Kubai087/status/2116207122535035178"
+        }
+      ],
+      "publishedAt": "2026-11-08T15:30:12Z",
+      "metrics": {
+        "likes": 30,
+        "replies": 9,
+        "reposts": 1,
+        "views": 4098,
+        "capturedAt": "2026-11-08T17:39:00Z"
+      },
+      "care": 2,
+      "proof": 4,
+      "imageHint": "https://x.com/MengTo/status/2119452436108861839",
+      "firstSeen": "2026-11-08"
+    }
+  ]
+}
