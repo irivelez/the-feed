@@ -1,38 +1,44 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-07T19:20:00-05:00",
-  "runId": "2026-11-07-1900",
+  "updatedAt": "2026-11-08T07:05:26-05:00",
+  "runId": "2026-11-08-0643",
   "howtos": [
     {
-      "id": "agent-approve-file-list-first",
-      "dedupeKey": "agent-list-files-before-reading",
-      "title": "Make your coding agent list files before opening any",
-      "what": "A prompt that has the agent name and justify the files it needs, wait for approval, then make the smallest fix.",
-      "kind": "prompt",
+      "id": "ios-app-from-low-rated-reviews",
+      "dedupeKey": "ios-app-from-low-rated-reviews-agents",
+      "title": "Build an iOS app from rivals' worst reviews with agents",
+      "what": "Steps to find a weak, high-revenue utility app, mine its 1-2 star reviews with an agent, and build a better one.",
+      "kind": "steps",
       "copy": [
-        "Before opening any files, list the exact files you need for this task and why. Check the file tree or search to find them, but don't open anything else. If you need more, stop and ask me first. Then, after I approve the list, make the smallest, highest-confidence change that fully solves our problem."
+        "Pick low-rated, high-revenue utility apps.",
+        "Use facundoolano/app-store-scraper to pull every review for the top 20.",
+        "Have an agent cluster the 1 and 2 star reviews into the top 5 complaints and quote the users.",
+        "Put the top 5 complaints in a skill.",
+        "Build with Claude Code plus Apple's Xcode plugin, cameroncooke/XcodeBuildMCP and joshuayoes/ios-simulator-mcp.",
+        "Use Apple Foundation Models for on-device inference.",
+        "Test with Maestro."
       ],
-      "whenToUse": "When an agent over-reads a large codebase and you want tighter context and smaller changes.",
+      "whenToUse": "When you want to pick and build an iOS app idea grounded in real user complaints.",
       "source": {
-        "name": "@kloss_xyz on X",
-        "url": "https://x.com/kloss_xyz/status/2119202949234897134"
+        "name": "@gregisenberg on X",
+        "url": "https://x.com/gregisenberg/status/2119229734563271124"
       },
       "author": {
-        "name": "kloss_xyz",
-        "handle": "kloss_xyz"
+        "name": "Greg Isenberg",
+        "handle": "gregisenberg"
       },
       "tags": [
-        "coding-agents",
-        "context",
-        "prompt"
+        "ios",
+        "claude-code",
+        "product-discovery"
       ],
       "quality": 3,
-      "verbatim": true,
+      "verbatim": false,
       "briefItem": {
-        "briefId": "2026-11-07-1900",
-        "itemId": "kloss-file-list-token-prompt"
+        "briefId": "2026-11-08-0700",
+        "itemId": "gregisenberg-ios-agents-playbook"
       },
-      "addedAt": "2026-11-07T19:20:00-05:00"
+      "addedAt": "2026-11-08T07:05:26-05:00"
     }
   ]
 }

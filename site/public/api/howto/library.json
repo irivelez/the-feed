@@ -1,7 +1,44 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-07T19:20:00-05:00",
+  "updatedAt": "2026-11-08T07:05:26-05:00",
   "howtos": [
+    {
+      "id": "ios-app-from-low-rated-reviews",
+      "dedupeKey": "ios-app-from-low-rated-reviews-agents",
+      "title": "Build an iOS app from rivals' worst reviews with agents",
+      "what": "Steps to find a weak, high-revenue utility app, mine its 1-2 star reviews with an agent, and build a better one.",
+      "kind": "steps",
+      "copy": [
+        "Pick low-rated, high-revenue utility apps.",
+        "Use facundoolano/app-store-scraper to pull every review for the top 20.",
+        "Have an agent cluster the 1 and 2 star reviews into the top 5 complaints and quote the users.",
+        "Put the top 5 complaints in a skill.",
+        "Build with Claude Code plus Apple's Xcode plugin, cameroncooke/XcodeBuildMCP and joshuayoes/ios-simulator-mcp.",
+        "Use Apple Foundation Models for on-device inference.",
+        "Test with Maestro."
+      ],
+      "whenToUse": "When you want to pick and build an iOS app idea grounded in real user complaints.",
+      "source": {
+        "name": "@gregisenberg on X",
+        "url": "https://x.com/gregisenberg/status/2119229734563271124"
+      },
+      "author": {
+        "name": "Greg Isenberg",
+        "handle": "gregisenberg"
+      },
+      "tags": [
+        "ios",
+        "claude-code",
+        "product-discovery"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-08-0700",
+        "itemId": "gregisenberg-ios-agents-playbook"
+      },
+      "addedAt": "2026-11-08T07:05:26-05:00"
+    },
     {
       "id": "agent-approve-file-list-first",
       "dedupeKey": "agent-list-files-before-reading",
