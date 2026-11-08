@@ -1,0 +1,457 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-08-1300",
+  "date": "2026-11-08",
+  "publishedAt": "2026-11-08T13:05:05-05:00",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "addy-osmani-coding-agents-manager",
+      "headline": "Addy Osmani: your coding agents just made you a manager",
+      "whyItMatters": "The people who get most from agents manage them well, not prompt them cleverly."
+    },
+    {
+      "itemId": "claude-agent-sdk-hook-on-failure",
+      "headline": "Claude Agent SDK guard hooks fail open by default",
+      "whyItMatters": "If your agents rely on guard hooks, a bug in one silently allows the action."
+    },
+    {
+      "itemId": "elon-grok-bot-token-efficiency",
+      "headline": "Musk promises Grok Bot fixes as heavy users report shrinking plans",
+      "whyItMatters": "Usage-priced agent tools can change what you get overnight, so watch real consumption."
+    }
+  ],
+  "items": [
+    {
+      "id": "verge-suno-elvis-eminem-lawsuits",
+      "title": "Elvis and Eminem rights holders sue Suno over AI imitations",
+      "takeaway": "The Presley suit cites Tennessee's ELVIS Act on voice cloning. Suno says it blocks artist-name prompts and screens uploads.",
+      "soWhat": "Voice-cloning laws are turning into real legal exposure for anyone shipping generative media.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-08T17:23:00Z",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit"
+      },
+      "image": {
+        "src": "/img/verge-suno-elvis-eminem-lawsuits.jpg",
+        "alt": "Image from The Verge AI"
+      }
+    },
+    {
+      "id": "mengto-pro-threads-macbook-wallpaper",
+      "title": "Open-source WebGL recreation of the MacBook Pro wallpaper",
+      "takeaway": "kubai087/pro-threads is an MIT-licensed WebGL animation of letters woven from light threads, with a full A to Z typeface and palettes.",
+      "soWhat": "Polished motion backgrounds are now free building blocks for product and launch pages.",
+      "lens": "design",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-08T15:30:12Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2119452436108861839"
+      },
+      "related": [
+        {
+          "name": "kubai087/pro-threads on GitHub",
+          "url": "https://github.com/kubai087/pro-threads"
+        },
+        {
+          "name": "Original post by @Kubai087",
+          "url": "https://x.com/Kubai087/status/2116207122535035178"
+        }
+      ],
+      "image": {
+        "src": "/img/mengto-pro-threads-macbook-wallpaper.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "4k views"
+      }
+    },
+    {
+      "id": "swyx-cursor-1b-arr-post-acquisition",
+      "title": "Swyx says Cursor ended 2025 at $1B in annual revenue",
+      "takeaway": "Swyx posts that Cursor ended 2025 at $1B ARR with enterprise growing 300% quarter over quarter. He cites a screenshot; not checked against filings.",
+      "soWhat": "Treat it as a claim until filings confirm, but enterprise coding-tool spend looks strong.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-08T13:58:18Z",
+      "source": {
+        "name": "@swyx on X",
+        "url": "https://x.com/swyx/status/2119429305512165838"
+      },
+      "image": {
+        "src": "/img/swyx-cursor-1b-arr-post-acquisition.jpg",
+        "alt": "Image from @swyx on X"
+      },
+      "heat": {
+        "score": 7,
+        "level": "none",
+        "metric": "19k views"
+      }
+    },
+    {
+      "id": "lenny-tulsee-doshi-frontier-models",
+      "title": "Google's Tulsee Doshi on how frontier models actually get built",
+      "takeaway": "Lenny Rachitsky interviews Google's head of product for frontier models on evals versus vibes, writing a first eval, and her 60-20-20 shipping framework.",
+      "soWhat": "Frontier labs still lean on product judgment and evals, not just engineering, to ship models.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-08T13:31:00Z",
+      "source": {
+        "name": "Lenny's Newsletter",
+        "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier"
+      },
+      "image": {
+        "src": "/img/lenny-tulsee-doshi-frontier-models.jpg",
+        "alt": "Image from Lenny's Newsletter"
+      }
+    },
+    {
+      "id": "elon-grok-bot-token-efficiency",
+      "title": "Musk says Grok Bot token efficiency fixes are underway",
+      "takeaway": "Musk says fixes are underway after a user reported a $200 plan that lasted seven days now lasts 14 hours. Matt Palmer is collecting feedback.",
+      "soWhat": "Usage-priced agent plans can shrink fast, so track what your team actually gets for the money.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-08T13:17:51Z",
+      "source": {
+        "name": "@elonmusk on X",
+        "url": "https://x.com/elonmusk/status/2119419126045454531"
+      },
+      "related": [
+        {
+          "name": "Matt Palmer asking for feedback",
+          "url": "https://x.com/mattyp/status/2119474599708827957"
+        },
+        {
+          "name": "Musk reply on the $200 plan report",
+          "url": "https://x.com/elonmusk/status/2119415029812609301"
+        },
+        {
+          "name": "Musk on per-token pricing",
+          "url": "https://x.com/elonmusk/status/2119406729074979035"
+        }
+      ],
+      "image": {
+        "src": "/img/elon-grok-bot-token-efficiency.jpg",
+        "alt": "Profile image of @elonmusk"
+      },
+      "heat": {
+        "score": 40,
+        "level": "warm",
+        "metric": "2.5M views"
+      }
+    },
+    {
+      "id": "vitalik-data-center-slowdown",
+      "title": "Vitalik Buterin: a data center slowdown looks net good",
+      "takeaway": "Vitalik argues algorithmic progress lets today's data centers match bigger ones within about four years, buying time to harden against cyber and bio risks.",
+      "soWhat": "Opposition to data centers now has a capability-neutral case that investors and boards will hear.",
+      "lens": "frontier-capital",
+      "momentum": "shift",
+      "importance": 6,
+      "publishedAt": "2026-11-08T10:34:06Z",
+      "source": {
+        "name": "@VitalikButerin on X",
+        "url": "https://x.com/VitalikButerin/status/2119377918875079163"
+      },
+      "image": {
+        "src": "/img/vitalik-data-center-slowdown.jpg",
+        "alt": "Profile image of @VitalikButerin"
+      }
+    },
+    {
+      "id": "addy-osmani-coding-agents-manager",
+      "title": "Addy Osmani: managing coding agents is managing a team",
+      "takeaway": "Osmani maps manager habits onto Claude Code: give agents a way to check work, write down what is not in the repo, treat hooks as hard rules, plan first, review diffs.",
+      "soWhat": "Teams get more from agents by managing them well than by writing clever prompts.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-08T07:32:13Z",
+      "source": {
+        "name": "@addyosmani on X",
+        "url": "https://x.com/addyosmani/status/2119332146485891501"
+      },
+      "related": [
+        {
+          "name": "Osmani essay: coding agents need a manager",
+          "url": "https://addyosmani.com/blog/coding-agents-manager/"
+        },
+        {
+          "name": "Claude Code best practices",
+          "url": "https://code.claude.com/docs/en/best-practices"
+        },
+        {
+          "name": "@ryancarson quote",
+          "url": "https://x.com/ryancarson/status/2119430906863849923"
+        }
+      ],
+      "image": {
+        "src": "/img/addy-osmani-coding-agents-manager.jpg",
+        "alt": "Image from @addyosmani on X"
+      },
+      "heat": {
+        "score": 24,
+        "level": "none",
+        "metric": "193k views"
+      }
+    },
+    {
+      "id": "asahi-linux-gplv2-llm-rewrites",
+      "title": "Asahi Linux moves from MIT to GPLv2, citing LLM rewrites",
+      "takeaway": "Asahi Linux is relicensing repos including m1n1 and drivers to GPLv2-or-later, citing bad-faith reuse including LLM-assisted rewrites. Steinberger criticized it.",
+      "soWhat": "Open source maintainers are starting to use licenses to push back on AI-assisted copying.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-08T03:02:46Z",
+      "source": {
+        "name": "@steipete on X",
+        "url": "https://x.com/steipete/status/2119264334627090514"
+      },
+      "related": [
+        {
+          "name": "X news: Asahi Linux switches from MIT to GPLv2",
+          "url": "https://x.com/i/trending/2119200782025216481"
+        }
+      ],
+      "image": {
+        "src": "/img/asahi-linux-gplv2-llm-rewrites.jpg",
+        "alt": "Image from @steipete on X"
+      }
+    },
+    {
+      "id": "kunchenguid-headless-skill",
+      "title": "Kun Chen's /headless skill sets up always-on agent machines",
+      "takeaway": "/headless walks an agent through turning a Mac, Linux or Windows box into an always-on SSH machine without seeing the admin password.",
+      "soWhat": "Dedicated agent machines are getting easy to set up without handing agents admin credentials.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-08T02:09:25Z",
+      "source": {
+        "name": "kunchenguid/headless",
+        "url": "https://github.com/kunchenguid/headless"
+      },
+      "related": [
+        {
+          "name": "@kunchenguid on X",
+          "url": "https://x.com/kunchenguid/status/2119250910224465990"
+        }
+      ],
+      "image": {
+        "src": "/img/kunchenguid-headless-skill.jpg",
+        "alt": "Image from kunchenguid/headless"
+      }
+    },
+    {
+      "id": "gregisenberg-ios-agents-playbook",
+      "title": "Greg Isenberg's playbook for building iOS apps with agents",
+      "takeaway": "Find low-rated, high-revenue utility apps, cluster 1-2 star reviews with an agent, then build with Claude Code, the Xcode plugin and simulator MCPs.",
+      "soWhat": "Apple's Xcode plugin is already turning into repeatable app-building playbooks for small teams.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-08T00:45:16Z",
+      "source": {
+        "name": "@gregisenberg on X",
+        "url": "https://x.com/gregisenberg/status/2119229734563271124"
+      },
+      "related": [
+        {
+          "name": "Xcode plugin PR #6338",
+          "url": "https://github.com/anthropics/claude-plugins-official/pull/6338"
+        }
+      ],
+      "image": {
+        "src": "/img/gregisenberg-ios-agents-playbook.jpg",
+        "alt": "Image from @gregisenberg on X"
+      }
+    },
+    {
+      "id": "perplexity-teammates-3-7x-day-two",
+      "title": "Perplexity Teammate automation runs grew 3.7x on day two",
+      "takeaway": "Srinivas says runs grew 3.7x from launch day to a Friday, crediting a code-first harness, model neutrality and search quality. No absolute counts.",
+      "soWhat": "Early workplace agent demand looks real, but growth ratios without base numbers prove little.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-07T23:32:04Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2119211310424654034"
+      },
+      "related": [
+        {
+          "name": "Follow-up post",
+          "url": "https://x.com/AravSrinivas/status/2119320047403589761"
+        },
+        {
+          "name": "Teammates launch post",
+          "url": "https://x.com/AravSrinivas/status/2118388400730591469"
+        }
+      ],
+      "image": {
+        "src": "/img/perplexity-teammates-3-7x-day-two.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      }
+    },
+    {
+      "id": "sutton-brute-force-not-enough",
+      "title": "Bitter Lesson author Sutton says brute force is not enough",
+      "takeaway": "Richard Sutton posted that brute-force computation is not enough for intelligence and that clever new methods are needed.",
+      "soWhat": "A founding voice of scale-first AI now says methods matter, which weakens pure compute bets.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-07T18:57:53Z",
+      "source": {
+        "name": "@RichardSSutton on X",
+        "url": "https://x.com/RichardSSutton/status/2119142310894334262"
+      },
+      "related": [
+        {
+          "name": "@amasad: The Better Lesson",
+          "url": "https://x.com/amasad/status/2119217304953053419"
+        }
+      ],
+      "image": {
+        "src": "/img/sutton-brute-force-not-enough.jpg",
+        "alt": "Profile image of @RichardSSutton"
+      }
+    },
+    {
+      "id": "aws-claude-code-remote-agentcore",
+      "title": "AWS runs Claude Code as a remote agent on AgentCore",
+      "takeaway": "AWS published a sample that runs each Claude Code task in an isolated AgentCore session in your AWS account and returns a GitHub pull request.",
+      "soWhat": "Remote coding agents can now run inside your own cloud boundary, away from laptop credentials.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-06T16:45:58Z",
+      "source": {
+        "name": "AWS Machine Learning Blog",
+        "url": "https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls/"
+      },
+      "image": {
+        "src": "/img/aws-claude-code-remote-agentcore.jpg",
+        "alt": "Image from AWS Machine Learning Blog"
+      }
+    },
+    {
+      "id": "claude-agent-sdk-hook-on-failure",
+      "title": "Claude Agent SDK guard hooks fail open unless set to block",
+      "takeaway": "Agent SDK for Python 0.2.177 adds on_failure on HookMatcher. The default, continue, lets a crashed guard hook allow the tool call.",
+      "soWhat": "Teams relying on SDK guard hooks should set on_failure to block, or a buggy guard becomes a hole.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-03T02:15:34Z",
+      "source": {
+        "name": "Agent SDK changelog",
+        "url": "https://github.com/anthropics/claude-agent-sdk-python/blob/main/CHANGELOG.md"
+      },
+      "related": [
+        {
+          "name": "PyPI claude-agent-sdk 0.2.177",
+          "url": "https://pypi.org/project/claude-agent-sdk/0.2.177/"
+        }
+      ],
+      "image": {
+        "src": "/img/claude-agent-sdk-hook-on-failure.jpg",
+        "alt": "Image from Agent SDK changelog"
+      }
+    },
+    {
+      "id": "maxxbench-deepswe-mutations",
+      "title": "MaxxBench: coding models tied at 74% split by 23 points",
+      "takeaway": "MaxxBench mutates 89 DeepSWE tasks. Spread across 15 configurations widens from 20.9 to 48.3 points; authors report reward hacking and a sandbox bypass.",
+      "soWhat": "Pick coding agents on how they handle changed requirements, not on headline benchmark ties.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "source": {
+        "name": "MaxxBench research post",
+        "url": "https://maxxbench.unlap.ai/research/why-maxxbench/"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50406222"
+        }
+      ],
+      "image": {
+        "src": "/img/maxxbench-deepswe-mutations.jpg",
+        "alt": "Image from MaxxBench research post"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@addyosmani",
+      "quote": "Every gripe you have about bad managers is a bug report for interacting with agents.",
+      "url": "https://x.com/addyosmani/status/2119332146485891501"
+    },
+    {
+      "handle": "@elonmusk",
+      "quote": "Grok Bot fixes for improved token efficiency and smarter behavior are underway.",
+      "url": "https://x.com/elonmusk/status/2119419126045454531"
+    },
+    {
+      "handle": "@mattyp",
+      "quote": "Please reply with feedback on this post. I will read it all.",
+      "url": "https://x.com/mattyp/status/2119474599708827957"
+    },
+    {
+      "handle": "@swyx",
+      "quote": "cursor ended 2025 arr 1B arr btw. enterprise growing 300% QoQ",
+      "url": "https://x.com/swyx/status/2119429305512165838"
+    },
+    {
+      "handle": "@RichardSSutton",
+      "quote": "Brute force computation is not enough for intelligence. Clever new methods are needed. The science of AI is far from finished.",
+      "url": "https://x.com/RichardSSutton/status/2119142310894334262"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/elonmusk/status/2119419126045454531",
+      "handle": "@elonmusk",
+      "text": "Grok Bot fixes for improved token efficiency and smarter behavior are underway.",
+      "metric": "24.6k likes",
+      "note": "Heavy users say their plans run out far faster, and the owner is responding."
+    },
+    {
+      "url": "https://x.com/elonmusk/status/2119469436092760547",
+      "handle": "@elonmusk",
+      "text": "Musk backs a secondhand report that Larry Page expects five nines of compute to end up in space.",
+      "metric": "4.5k likes",
+      "note": "The Page figure is unverified, but it rides on fights over building data centers on Earth."
+    },
+    {
+      "url": "https://x.com/addyosmani/status/2119332146485891501",
+      "handle": "@addyosmani",
+      "text": "Every gripe you have about bad managers is a bug report for interacting with agents.",
+      "metric": "2.4k likes",
+      "note": "Builders see their agent struggles as management problems they already know how to fix."
+    },
+    {
+      "url": "https://x.com/mattyp/status/2119474599708827957",
+      "handle": "@mattyp",
+      "text": "Improvements to token efficiency & behavior in Grok Bot are underway. Please reply with feedback on this post.",
+      "metric": "618 likes",
+      "note": "Hundreds of users replied with feedback on usage limits and behavior."
+    }
+  ]
+}
