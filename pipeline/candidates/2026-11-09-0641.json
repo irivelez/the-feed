@@ -1,0 +1,538 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-09-0641",
+  "generatedAt": "2026-11-09T06:40:53-05:00",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-08T11:00:00Z",
+    "to": "2026-11-09T11:41:00Z"
+  },
+  "sourceNotes": [
+    "Dwarkesh Patel RSS: HTTP 500 on first fetch; retry followed a 301 to dwarkesh.com/feed and returned HTTP 500 again. Dead or flaky; a human should check or remove.",
+    "arXiv: the combined cs.AI/cs.CL/cs.MA agents query over http returned HTTP 500; a retry on https with cs.MA only returned results, but none were newer than 3 days with a clear practical angle, so no arXiv candidates this run.",
+    "Metaplanet Google News RSS: reachable, but newest item is dated 2026-10-19 (older than the lane's usefulness; no fresh items). @Metaplanet had no posts in the window.",
+    "X search API ignores min_likes/min_reposts filters (stripped from the query) so lane searches were unfiltered; results capped at 25 per call. Noisy: @elonmusk (mostly non-AI political/culture quote posts) and @beffjezos (mostly personal/politics). Ben Evans and Mollick feeds had nothing newer than 2026-10-20; Mitchell Hashimoto nothing newer than Nov 6 (Libghostty 1.0, already seen).",
+    "X replies were not captured this run (no bestReply); authorBaseline is the median likes of the 20 most recent posts returned by get_users_posts (includes replies) for simonw, theo, mattpocockuk, garrytan, LynAldenContact, VitalikButerin, MengTo, elonmusk only.",
+    "Hacker News items carry only the title and points from the Algolia API; linked articles were not read, so those candidates state headline facts only.",
+    "The Verge, MIT TR, Stratechery, Atlantic, Gary Marcus items are headline-level only (feed titles); bodies not fetched."
+  ],
+  "candidates": [
+    {
+      "id": "simonw-details-summary-pr",
+      "lens": "practical",
+      "summary": "Simon Willison says he now hides the bulk of his AI-generated GitHub PR descriptions behind a collapsed <details><summary> HTML tag, which GitHub Markdown supports, to make 'PR slop' less exhausting to read. He follows up that Twitter preview cards cannot handle HTML tags in post titles.",
+      "source": {
+        "name": "Simon Willison on X",
+        "url": "https://x.com/simonw/status/2119650353142747181",
+        "type": "x",
+        "handle": "simonw"
+      },
+      "publishedAt": "2026-11-09T04:36:40Z",
+      "metrics": {
+        "likes": 946,
+        "reposts": 35,
+        "replies": 223,
+        "views": 60003,
+        "capturedAt": "2026-11-09T11:01:00Z",
+        "authorBaseline": 105
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://x.com/simonw/status/2119650353142747181",
+      "related": [
+        {
+          "name": "Simon Willison blog: Hide your slop PR descriptions behind <details><summary>",
+          "url": "https://simonwillison.net/2026/Nov/9/details-summary/"
+        }
+      ],
+      "topic": "pr-description-details",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "mattpocock-software-factory-defense",
+      "lens": "practical",
+      "summary": "Matt Pocock defends the term 'Software Factory': calls it bullshit-sounding and a bandwagon people use to hype VCs, but says it refers to a real change from earlier this year (post text is cut off in the read).",
+      "source": {
+        "name": "Matt Pocock on X",
+        "url": "https://x.com/mattpocockuk/status/2119748545691402733",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-09T11:06:50Z",
+      "metrics": {
+        "likes": 157,
+        "reposts": 4,
+        "replies": 28,
+        "views": 9866,
+        "capturedAt": "2026-11-09T11:01:00Z",
+        "authorBaseline": 431
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://x.com/mattpocockuk/status/2119748545691402733",
+      "topic": "software-factory",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "garrytan-software-factory-quote",
+      "lens": "practical",
+      "summary": "Garry Tan quote-posts a DeepMind CEO clip (about one AI-fluent person outperforming a startup team) with: \"You're really going to want your own software factory\". Separately he says Apple should redo its software team with people spun up on software factories and 'a hundred codegen agents'.",
+      "source": {
+        "name": "Garry Tan on X",
+        "url": "https://x.com/garrytan/status/2119615647592395037",
+        "type": "x",
+        "handle": "garrytan"
+      },
+      "publishedAt": "2026-11-09T02:18:45Z",
+      "metrics": {
+        "likes": 515,
+        "reposts": 35,
+        "replies": 46,
+        "views": 45213,
+        "capturedAt": "2026-11-09T11:01:00Z",
+        "authorBaseline": 256
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/garrytan/status/2119615647592395037",
+      "related": [
+        {
+          "name": "Garry Tan on Apple software team and software factories",
+          "url": "https://x.com/garrytan/status/2119611628752945301"
+        }
+      ],
+      "topic": "software-factory",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "garrytan-jev-engineering-replicates",
+      "lens": "practical",
+      "summary": "Garry Tan says his gstack-evals project tried to replicate a Jev Engineering article (on cutting agent bills, article titled 'How to Cut Your Agent Bill by 90% With Jev Engineering and Kimi K3'), and reports the article replicates and that particle-1 is even better.",
+      "source": {
+        "name": "Garry Tan on X",
+        "url": "https://x.com/garrytan/status/2119624260675350605",
+        "type": "x",
+        "handle": "garrytan"
+      },
+      "publishedAt": "2026-11-09T02:52:59Z",
+      "metrics": {
+        "likes": 225,
+        "reposts": 14,
+        "replies": 37,
+        "views": 23791,
+        "capturedAt": "2026-11-09T11:01:00Z",
+        "authorBaseline": 256
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://x.com/garrytan/status/2119624260675350605",
+      "related": [
+        {
+          "name": "Quoted article: How to Cut Your Agent Bill by 90% With Jev Engineering and Kimi K3",
+          "url": "https://x.com/Mr_Buzzoni/status/2104783226833186920"
+        }
+      ],
+      "topic": "jev-engineering-evals",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "theo-200-claude-plan-opus-threads",
+      "lens": "practical",
+      "summary": "Theo says he had 8 to 25 threads running most of the day, all on Opus 5.5, and used less than 20% of a $200 Claude subscription. In a follow-up he says his Codex subs are 'getting absolutely hammered' because he uses Sol for reviews while Opus reviews the same code in parallel.",
+      "source": {
+        "name": "Theo on X",
+        "url": "https://x.com/theo/status/2119632946663653740",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-09T03:27:30Z",
+      "metrics": {
+        "likes": 629,
+        "reposts": 6,
+        "replies": 75,
+        "views": 82811,
+        "capturedAt": "2026-11-09T11:01:00Z",
+        "authorBaseline": 689
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/theo/status/2119632946663653740",
+      "related": [
+        {
+          "name": "Theo: the $200 Claude sub is the best money you can spend as an engineer",
+          "url": "https://x.com/theo/status/2119633842034372809"
+        }
+      ],
+      "topic": "claude-200-plan-usage",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "theo-mcp-auth-agents-bad",
+      "lens": "practical",
+      "summary": "Theo is writing a general 'MCP the right way' guide for his agents. He says LLMs are still bad at building tools for agents: Opus makes bad assumptions when setting up an MCP authentication path and builds something that doesn't work, and he warns not to trust anything agents say about MCP.",
+      "source": {
+        "name": "Theo on X",
+        "url": "https://x.com/theo/status/2119606132775997905",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-09T01:40:57Z",
+      "metrics": {
+        "likes": 746,
+        "reposts": 10,
+        "replies": 72,
+        "views": 39731,
+        "capturedAt": "2026-11-09T11:01:00Z",
+        "authorBaseline": 689
+      },
+      "care": 4,
+      "proof": 4,
+      "imageHint": "https://x.com/theo/status/2119606132775997905",
+      "related": [
+        {
+          "name": "Theo: LLMs are still SO bad at building tools for agents",
+          "url": "https://x.com/theo/status/2119575130204717336"
+        }
+      ],
+      "topic": "mcp-auth-agents",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "hn-ai-brain-fry",
+      "lens": "practical",
+      "summary": "Blog post 'How I Fight AI Brain Fry' by Sergey Kuhne on sergeykuhne.com reached 267 points on Hacker News (title only read; article content not fetched).",
+      "source": {
+        "name": "Hacker News: How I Fight AI Brain Fry",
+        "url": "https://news.ycombinator.com/item?id=50416363",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-08T19:37:42Z",
+      "care": 2,
+      "proof": 2,
+      "metrics": {
+        "points": 267,
+        "capturedAt": "2026-11-09T11:02:00Z"
+      },
+      "related": [
+        {
+          "name": "Article",
+          "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry"
+        }
+      ],
+      "topic": "ai-brain-fry",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "verge-huang-nvidia-investigation",
+      "lens": "broad",
+      "summary": "The Verge headline: Nvidia is investigating Jensen Huang's relationship with an alleged Chinese spy. A second Verge piece publishes the full text of Huang's memo to Nvidia.",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-08T20:22:39Z",
+      "care": 4,
+      "proof": 4,
+      "related": [
+        {
+          "name": "The Verge: Here's the full text of Jensen Huang's memo to Nvidia",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
+        },
+        {
+          "name": "Stratechery: Jensen Huang's Affair, The Culper Report, Huang's Righteousness",
+          "url": "https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/"
+        },
+        {
+          "name": "Gary Marcus: The Huang Affair",
+          "url": "https://garymarcus.substack.com/p/the-huang-affair-what-did-they-know"
+        }
+      ],
+      "topic": "nvidia-huang-affair",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "beffjezos-huang-open-source-champion",
+      "lens": "broad",
+      "summary": "Beff Jezos says: \"I really hope Jensen stays, he is the champion for open source, and if Nvidia is ruled by corpo ladder climbers instead we are in for very dark days ahead\".",
+      "source": {
+        "name": "Beff (e/acc) on X",
+        "url": "https://x.com/beffjezos/status/2119578009292484861",
+        "type": "x",
+        "handle": "beffjezos"
+      },
+      "publishedAt": "2026-11-08T23:49:11Z",
+      "metrics": {
+        "likes": 1085,
+        "reposts": 126,
+        "replies": 59,
+        "views": 23329,
+        "capturedAt": "2026-11-09T11:01:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/beffjezos/status/2119578009292484861",
+      "topic": "nvidia-huang-affair",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "elon-grok-bot-overnight-fixes",
+      "lens": "broad",
+      "summary": "Elon Musk says he did a round-table review with the Grok Bot engineering team, that fixes are being implemented overnight with a 'dramatic improvement by tomorrow', and asks users to reply if issues remain. An earlier post (Nov 8) said Grok Bot fixes for improved token efficiency and smarter behavior are underway.",
+      "source": {
+        "name": "Elon Musk on X",
+        "url": "https://x.com/elonmusk/status/2119617455102333206",
+        "type": "x",
+        "handle": "elonmusk"
+      },
+      "publishedAt": "2026-11-09T02:25:56Z",
+      "metrics": {
+        "likes": 42025,
+        "reposts": 2894,
+        "replies": 6113,
+        "views": 3707500,
+        "capturedAt": "2026-11-09T11:01:00Z",
+        "authorBaseline": 27606
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/elonmusk/status/2119617455102333206",
+      "related": [
+        {
+          "name": "Elon Musk: Grok Bot fixes for improved token efficiency and smarter behavior are underway",
+          "url": "https://x.com/elonmusk/status/2119419126045454531"
+        }
+      ],
+      "topic": "grok-bot-token-efficiency",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "hn-ai-bubble-not-convinced",
+      "lens": "broad",
+      "summary": "Blog post 'I'm not convinced the AI bubble exists' (matteoraso.github.io) reached 330 points on Hacker News (title only read; article not fetched). Gary Marcus's Nov 6 post is titled 'The markets dropped $2.5 trillion yesterday. What happens next?'.",
+      "source": {
+        "name": "Hacker News: I'm not convinced the AI bubble exists",
+        "url": "https://news.ycombinator.com/item?id=50418975",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-08T23:44:36Z",
+      "care": 3,
+      "proof": 2,
+      "metrics": {
+        "points": 330,
+        "capturedAt": "2026-11-09T11:02:00Z"
+      },
+      "related": [
+        {
+          "name": "Article",
+          "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists"
+        },
+        {
+          "name": "Gary Marcus: The markets dropped $2.5 trillion yesterday",
+          "url": "https://garymarcus.substack.com/p/the-markets-dropped-25-trillion-yesterday"
+        }
+      ],
+      "topic": "ai-bubble",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "hn-anthropic-ipo-valuation",
+      "lens": "broad",
+      "summary": "Bloomberg headline (via Hacker News, 319 points): Anthropic IPO buyers see valuation as low as $1.1T. The HN title is the only content read; the Bloomberg article was not fetched.",
+      "source": {
+        "name": "Hacker News: Anthropic IPO buyers see valuation as low as $1.1T",
+        "url": "https://news.ycombinator.com/item?id=50394906",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-06T16:54:36Z",
+      "care": 4,
+      "proof": 2,
+      "metrics": {
+        "points": 319,
+        "capturedAt": "2026-11-09T11:02:00Z"
+      },
+      "related": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
+        }
+      ],
+      "topic": "anthropic-ipo",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "verge-apple-siri-agentic",
+      "lens": "broad",
+      "summary": "The Verge headline (Nov 8): Apple is racing to make Siri more agentic. Headline only; article body not read.",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-08T19:18:19Z",
+      "care": 3,
+      "proof": 2,
+      "topic": "apple-siri-agentic",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "mittr-climate-case-for-ai",
+      "lens": "broad",
+      "summary": "MIT Technology Review headline (Nov 9): 'The climate case for AI has not been made'. A Nov 4 piece is titled 'Texas was the new epicenter of the AI data center buildout. That might be kaput.' Headlines only.",
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-09T10:00:00Z",
+      "care": 3,
+      "proof": 2,
+      "related": [
+        {
+          "name": "MIT TR: Texas was the new epicenter of the AI data center buildout",
+          "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
+        }
+      ],
+      "topic": "data-center-backlash",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "vitalik-data-center-opposition",
+      "lens": "broad",
+      "summary": "Vitalik Buterin writes that he does not agree with the strong emotional reaction against anti-data-center movements he has seen this week (post text is cut off in the read; it continues about algorithmic progress and what more and bigger data centers would allow).",
+      "source": {
+        "name": "Vitalik Buterin on X",
+        "url": "https://x.com/VitalikButerin/status/2119377918875079163",
+        "type": "x",
+        "handle": "VitalikButerin"
+      },
+      "publishedAt": "2026-11-08T10:34:06Z",
+      "metrics": {
+        "likes": 3430,
+        "reposts": 269,
+        "replies": 464,
+        "views": 382437,
+        "capturedAt": "2026-11-09T11:01:00Z",
+        "authorBaseline": 2150
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/VitalikButerin/status/2119377918875079163",
+      "topic": "data-center-backlash",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "lynalden-japan-quiet-godzilla",
+      "lens": "frontier-capital",
+      "summary": "Lyn Alden: 'Japan has a quiet Godzilla.' She says it is not the carry trade but the cash Japan holds: its overall net international investment position, including its pension system and private investors.",
+      "source": {
+        "name": "Lyn Alden on X",
+        "url": "https://x.com/LynAldenContact/status/2119647141375394006",
+        "type": "x",
+        "handle": "LynAldenContact"
+      },
+      "publishedAt": "2026-11-09T04:23:54Z",
+      "metrics": {
+        "likes": 471,
+        "reposts": 43,
+        "replies": 37,
+        "views": 60052,
+        "capturedAt": "2026-11-09T11:01:00Z",
+        "authorBaseline": 569
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://x.com/LynAldenContact/status/2119647141375394006",
+      "topic": "japan-net-investment-position",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "lynalden-single-man-risk-megacap",
+      "lens": "frontier-capital",
+      "summary": "Lyn Alden: if a mega-cap company has too much single-man risk, it is not really worth what it is; investors pay up expecting it is not that at this stage of its lifecycle. Either the tech and scale/structure are the moat, or it is flimsy.",
+      "source": {
+        "name": "Lyn Alden on X",
+        "url": "https://x.com/LynAldenContact/status/2119557882114916662",
+        "type": "x",
+        "handle": "LynAldenContact"
+      },
+      "publishedAt": "2026-11-08T22:29:13Z",
+      "metrics": {
+        "likes": 688,
+        "reposts": 34,
+        "replies": 47,
+        "views": 90812,
+        "capturedAt": "2026-11-09T11:01:00Z",
+        "authorBaseline": 569
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/LynAldenContact/status/2119557882114916662",
+      "related": [
+        {
+          "name": "Lyn Alden: What if the $80 trillion US stock market actually doesn't run on one man.",
+          "url": "https://x.com/LynAldenContact/status/2119578139106152815"
+        }
+      ],
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "vitalik-eth-store-of-value",
+      "lens": "frontier-capital",
+      "summary": "Vitalik Buterin argues ETH as a store of value makes more sense to focus on than ETH as a fee-burning token, with three reasons: the fee-burning case was never as strong as it seemed; optimizing for fee burning would compromise decentralization and capture resistance; optimizing for store of value aligns with decentralization and CROPS. (Thesis post, not a price call.)",
+      "source": {
+        "name": "Vitalik Buterin on X",
+        "url": "https://x.com/VitalikButerin/status/2119401255919604064",
+        "type": "x",
+        "handle": "VitalikButerin"
+      },
+      "publishedAt": "2026-11-08T12:06:50Z",
+      "metrics": {
+        "likes": 5844,
+        "reposts": 978,
+        "replies": 765,
+        "views": 1378382,
+        "capturedAt": "2026-11-09T11:01:00Z",
+        "authorBaseline": 2150
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/VitalikButerin/status/2119401255919604064",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "mengto-apartment-threejs-opus55",
+      "lens": "design",
+      "summary": "Meng To turned his apartment into an interactive three.js scene with Opus 5.5, to record tutorial videos: walkable in the browser, adjustable lighting, different render styles, all objects defined in code.",
+      "source": {
+        "name": "Meng To on X",
+        "url": "https://x.com/MengTo/status/2119746949121495303",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-09T11:00:30Z",
+      "metrics": {
+        "likes": 48,
+        "reposts": 1,
+        "replies": 15,
+        "views": 2957,
+        "capturedAt": "2026-11-09T11:01:00Z",
+        "authorBaseline": 194
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/MengTo/status/2119746949121495303",
+      "related": [
+        {
+          "name": "Meng To: 7 landing page sites worth bookmarking",
+          "url": "https://x.com/MengTo/status/2119608503262404952"
+        }
+      ],
+      "topic": "threejs-3d-design",
+      "firstSeen": "2026-11-09"
+    }
+  ]
+}
