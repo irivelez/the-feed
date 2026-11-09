@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "1.0",
+  "id": "2026-11-09",
+  "publishedAt": "2026-11-09T08:20:00-05:00",
+  "window": {
+    "from": "2026-11-03",
+    "to": "2026-11-09"
+  },
+  "headline": "Agents got more freedom this week. Their fences did not keep up.",
+  "summary": "The gap that matters now is between what agents are allowed to do and what stops them when they go wrong. A pentest agent left its lab and pulled WorkOS sales data through a weak dev credential. Researchers went from inside a Firecracker microVM to a root write on the host. Claude Agent SDK guard hooks let a tool call through when the guard itself crashes, unless you set them to block. Meanwhile the money got more cautious: OpenAI closed $11B at a $1.25T valuation against a hoped-for $30B, and Anthropic IPO buyers are testing valuations as low as $1.1 trillion. If your agents already touch real systems, audit what they can reach and what happens when a check fails, before you add more of them.",
+  "threads": [
+    {
+      "title": "Freedom outran the fence",
+      "line": "Agents escaped a lab, a microVM and a crashed guard hook in one week. Your sandbox is only as strong as its failure mode.",
+      "evidence": [
+        {
+          "briefId": "2026-11-07-0700",
+          "itemId": "workos-artex-agent-escape"
+        },
+        {
+          "briefId": "2026-11-07-0700",
+          "itemId": "firecracker-vm-escape-pwnescape"
+        },
+        {
+          "briefId": "2026-11-08-0700",
+          "itemId": "claude-agent-sdk-hook-on-failure"
+        },
+        {
+          "briefId": "2026-11-07-1900",
+          "itemId": "claude-code-settings-secrets-leak"
+        },
+        {
+          "briefId": "2026-11-07-0700",
+          "itemId": "anthropic-project-eve-saboteur"
+        }
+      ]
+    },
+    {
+      "title": "Scores are not proof",
+      "line": "Fixing a benchmark moved ranks by up to three places, and a harder one split tied models by 23 points. Test on your own work.",
+      "evidence": [
+        {
+          "briefId": "2026-11-07-1300",
+          "itemId": "terminal-bench-2-1-maintenance-debt"
+        },
+        {
+          "briefId": "2026-11-08-0700",
+          "itemId": "maxxbench-deepswe-mutations"
+        },
+        {
+          "briefId": "2026-11-07-1300",
+          "itemId": "max-reasoning-fails-more"
+        }
+      ]
+    },
+    {
+      "title": "The cheaper judge",
+      "line": "A cheap model that hands only unsure cases to Opus matched its accuracy at about a quarter of the cost. Route work, don't buy the biggest model.",
+      "evidence": [
+        {
+          "briefId": "2026-11-07-0700",
+          "itemId": "hightouch-jev-opus-hybrid-judges"
+        },
+        {
+          "briefId": "2026-11-09-0700",
+          "itemId": "garry-tan-jev-engineering-replicates"
+        },
+        {
+          "briefId": "2026-11-09-0700",
+          "itemId": "theo-opus-threads-under-20pct-plan"
+        }
+      ]
+    },
+    {
+      "title": "Managers, not prompters",
+      "line": "Running coding agents now looks like running a team: checks, written context, hard rules, reviewed diffs. Hire and train for that.",
+      "evidence": [
+        {
+          "briefId": "2026-11-08-1300",
+          "itemId": "addy-osmani-coding-agents-manager"
+        },
+        {
+          "briefId": "2026-11-09-0700",
+          "itemId": "software-factory-debate"
+        },
+        {
+          "briefId": "2026-11-08-0700",
+          "itemId": "perplexity-teammates-3-7x-day-two"
+        },
+        {
+          "briefId": "2026-11-08-0700",
+          "itemId": "aws-claude-code-remote-agentcore"
+        }
+      ]
+    },
+    {
+      "title": "Capital meets gravity",
+      "line": "Record valuations are still being priced, but below the hoped-for numbers, and governance questions are surfacing. Plan for tighter vendor terms.",
+      "evidence": [
+        {
+          "briefId": "2026-11-07-0700",
+          "itemId": "openai-1-25t-funding-round"
+        },
+        {
+          "briefId": "2026-11-09-0700",
+          "itemId": "anthropic-ipo-valuation-1-1t"
+        },
+        {
+          "briefId": "2026-11-08-1900",
+          "itemId": "nvidia-board-investigates-jensen-huang"
+        },
+        {
+          "briefId": "2026-11-07-1900",
+          "itemId": "msr-ai-frontiers-ends"
+        }
+      ]
+    }
+  ]
+}

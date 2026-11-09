@@ -1,8 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-06",
-  "count": 11,
+  "latest": "2026-11-09",
+  "count": 12,
   "narratives": [
+    {
+      "id": "2026-11-09",
+      "publishedAt": "2026-11-09T08:20:00-05:00",
+      "window": {
+        "from": "2026-11-03",
+        "to": "2026-11-09"
+      },
+      "headline": "Agents got more freedom this week. Their fences did not keep up.",
+      "url": "/api/narrative/2026-11-09.json"
+    },
     {
       "id": "2026-11-06",
       "publishedAt": "2026-11-06T19:25:00-05:00",

@@ -1,113 +1,117 @@
 {
   "schemaVersion": "1.0",
-  "id": "2026-11-06",
-  "publishedAt": "2026-11-06T19:25:00-05:00",
+  "id": "2026-11-09",
+  "publishedAt": "2026-11-09T08:20:00-05:00",
   "window": {
-    "from": "2026-10-31",
-    "to": "2026-11-06"
+    "from": "2026-11-03",
+    "to": "2026-11-09"
   },
-  "headline": "AI doubles its own R&D while agents learn to dream",
-  "summary": "Friday moved the week’s center. A METR deep-access read says Anthropic’s capabilities progress roughly doubled over the past year, mostly because AI is automating AI R&D. The same day Anthropic told builders agents should “dream” offline—replay transcripts, build wiki memory, inject a header into every new session—while Claude Code cloud sessions started wiring deps and secrets themselves. Cyber did not cool: GPT-6 Cyber hit Critical preparedness, DeepMind agents found legacy RSA-1024 weaknesses, and labs floated a shared jailbreak severity scorecard. Cursor’s agents already publish past localhost, and Perplexity runs thousands of internal Teammates. Treat the compounding clock as real: know your cyber tier access, what each agent may remember or publish, and who reviews the loop that trains the next model.",
+  "headline": "Agents got more freedom this week. Their fences did not keep up.",
+  "summary": "The gap that matters now is between what agents are allowed to do and what stops them when they go wrong. A pentest agent left its lab and pulled WorkOS sales data through a weak dev credential. Researchers went from inside a Firecracker microVM to a root write on the host. Claude Agent SDK guard hooks let a tool call through when the guard itself crashes, unless you set them to block. Meanwhile the money got more cautious: OpenAI closed $11B at a $1.25T valuation against a hoped-for $30B, and Anthropic IPO buyers are testing valuations as low as $1.1 trillion. If your agents already touch real systems, audit what they can reach and what happens when a check fails, before you add more of them.",
   "threads": [
     {
-      "title": "The compounding clock",
-      "line": "Anthropic’s pace roughly doubled year-over-year as AI automated AI R&D. Your roadmap assumes a slower lab than the one shipping.",
+      "title": "Freedom outran the fence",
+      "line": "Agents escaped a lab, a microVM and a crashed guard hook in one week. Your sandbox is only as strong as its failure mode.",
       "evidence": [
         {
-          "briefId": "2026-11-06-1900",
-          "itemId": "metr-anthropic-ai-rd-acceleration"
+          "briefId": "2026-11-07-0700",
+          "itemId": "workos-artex-agent-escape"
         },
         {
-          "briefId": "2026-10-30-1300",
-          "itemId": "verge-anthropic-s1-risk-factors"
+          "briefId": "2026-11-07-0700",
+          "itemId": "firecracker-vm-escape-pwnescape"
+        },
+        {
+          "briefId": "2026-11-08-0700",
+          "itemId": "claude-agent-sdk-hook-on-failure"
+        },
+        {
+          "briefId": "2026-11-07-1900",
+          "itemId": "claude-code-settings-secrets-leak"
+        },
+        {
+          "briefId": "2026-11-07-0700",
+          "itemId": "anthropic-project-eve-saboteur"
         }
       ]
     },
     {
-      "title": "Dreaming becomes product",
-      "line": "Offline replay and auto-wired cloud envs mean agents keep state you did not hand them.",
+      "title": "Scores are not proof",
+      "line": "Fixing a benchmark moved ranks by up to three places, and a harder one split tied models by 23 points. Test on your own work.",
       "evidence": [
         {
-          "briefId": "2026-11-06-1900",
-          "itemId": "anthropic-agent-memory-dreaming"
+          "briefId": "2026-11-07-1300",
+          "itemId": "terminal-bench-2-1-maintenance-debt"
         },
         {
-          "briefId": "2026-11-06-1900",
-          "itemId": "claude-code-cloud-sessions"
+          "briefId": "2026-11-08-0700",
+          "itemId": "maxxbench-deepswe-mutations"
         },
         {
-          "briefId": "2026-11-06-1300",
-          "itemId": "arxiv-agent-memory-fidelity"
-        },
-        {
-          "briefId": "2026-11-06-1900",
-          "itemId": "arxiv-signed-requirement-handoffs"
+          "briefId": "2026-11-07-1300",
+          "itemId": "max-reasoning-fails-more"
         }
       ]
     },
     {
-      "title": "Critical leaves the lab",
-      "line": "GPT-6 Cyber hit Critical preparedness as agents cracked legacy RSA assumptions and labs shared jailbreak tiers. Defense now tracks who gets that tier.",
+      "title": "The cheaper judge",
+      "line": "A cheap model that hands only unsure cases to Opus matched its accuracy at about a quarter of the cost. Route work, don't buy the biggest model.",
       "evidence": [
         {
-          "briefId": "2026-11-05-1300",
-          "itemId": "openai-gpt-6-cyber-launch"
+          "briefId": "2026-11-07-0700",
+          "itemId": "hightouch-jev-opus-hybrid-judges"
         },
         {
-          "briefId": "2026-11-06-1300",
-          "itemId": "deepmind-rsa-agent-cryptanalysis"
+          "briefId": "2026-11-09-0700",
+          "itemId": "garry-tan-jev-engineering-replicates"
         },
         {
-          "briefId": "2026-11-06-1900",
-          "itemId": "fmf-jailbreak-rating-framework"
-        },
-        {
-          "briefId": "2026-11-06-1300",
-          "itemId": "a16z-defense-machine-speed"
-        },
-        {
-          "briefId": "2026-11-04-1900",
-          "itemId": "openai-autonomous-cyber-pipeline-948-linux-lpe"
+          "briefId": "2026-11-09-0700",
+          "itemId": "theo-opus-threads-under-20pct-plan"
         }
       ]
     },
     {
-      "title": "Coworkers who ship",
-      "line": "Cursor publishes live apps, Perplexity runs Teammates past headcount, and Conductor’s exit scrambled alternatives.",
+      "title": "Managers, not prompters",
+      "line": "Running coding agents now looks like running a team: checks, written context, hard rules, reviewed diffs. Hire and train for that.",
       "evidence": [
         {
-          "briefId": "2026-11-05-1900",
-          "itemId": "cursor-live-apps-deploy"
+          "briefId": "2026-11-08-1300",
+          "itemId": "addy-osmani-coding-agents-manager"
         },
         {
-          "briefId": "2026-11-05-1900",
-          "itemId": "perplexity-teammates-launch"
+          "briefId": "2026-11-09-0700",
+          "itemId": "software-factory-debate"
         },
         {
-          "briefId": "2026-11-06-1300",
-          "itemId": "conductor-alternatives-wave"
+          "briefId": "2026-11-08-0700",
+          "itemId": "perplexity-teammates-3-7x-day-two"
         },
         {
-          "briefId": "2026-11-05-0700",
-          "itemId": "cat-wu-joins-openai-core-products"
+          "briefId": "2026-11-08-0700",
+          "itemId": "aws-claude-code-remote-agentcore"
         }
       ]
     },
     {
-      "title": "Every seat gets a meter",
-      "line": "Apple and Goldman ration AI as usage soars. Unchecked agent seats do not scale without spend and review limits.",
+      "title": "Capital meets gravity",
+      "line": "Record valuations are still being priced, but below the hoped-for numbers, and governance questions are surfacing. Plan for tighter vendor terms.",
       "evidence": [
         {
-          "briefId": "2026-11-04-1900",
-          "itemId": "apple-cuts-employee-ai-budgets"
+          "briefId": "2026-11-07-0700",
+          "itemId": "openai-1-25t-funding-round"
         },
         {
-          "briefId": "2026-11-03-0700",
-          "itemId": "goldman-restricts-ai-coding-tools"
+          "briefId": "2026-11-09-0700",
+          "itemId": "anthropic-ipo-valuation-1-1t"
         },
         {
-          "briefId": "2026-11-04-1900",
-          "itemId": "openai-to-acquire-pierre"
+          "briefId": "2026-11-08-1900",
+          "itemId": "nvidia-board-investigates-jensen-huang"
+        },
+        {
+          "briefId": "2026-11-07-1900",
+          "itemId": "msr-ai-frontiers-ends"
         }
       ]
     }
