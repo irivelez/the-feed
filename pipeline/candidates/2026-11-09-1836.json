@@ -1,0 +1,421 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-09-1836",
+  "generatedAt": "2026-11-09T18:36:39-05:00",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-09T17:30:00Z",
+    "to": "2026-11-09T23:36:39Z"
+  },
+  "sourceNotes": [
+    "Dwarkesh Patel RSS: HTTP 500 again; dead or flaky, a human should check or remove.",
+    "arXiv API: HTTP 500 on two query forms (combined cs.AI/cs.CL/cs.MA agents query, then cs.MA only); no arXiv candidates this run.",
+    "Metaplanet Google News RSS: reachable, but items are third-party (Strive, Super League, older Oct items); no Metaplanet-authored view used; feed stale for Metaplanet-authored content. @Metaplanet had no posts in the window.",
+    "Ben Evans feed newest item 2026-09-03: stale. Mitchell Hashimoto newest Nov 6 (Libghostty 1.0, already seen). Simon Willison newest posts Nov 9 04:25-04:32Z (details/summary PRs, already seen in earlier runs).",
+    "X lane search used start_time 17:30Z with recency order, one call per lane (max 25 results per call, so busy lanes are truncated to the newest 25). The launch of Claude Fable 5.2 / Mythos 5.2 dominates howTo and bigPicture lanes; many posts are the same story.",
+    "X topic-query call (Claude Code / skills / multi-agent / Ralph loop / agent SDK / solo founder) was very noisy: mostly low-follower or engagement-bait accounts with 0-90 likes; none used as candidates.",
+    "@gerovich, @TaviCosta, @VitalikButerin, @LynAldenContact, @naval, @bhorowitz, @Metaplanet and @MengTo (design) had no posts in the window.",
+    "authorBaseline and replies not captured this run to stay within the rate budget. X metrics read at capturedAt; views = impression_count.",
+    "RSS/HN items (Verge, MIT TR, Stratechery, Gary Marcus, Lenny, Mollick) are headline-level; bodies not fetched except the Anthropic announcement page."
+  ],
+  "candidates": [
+    {
+      "id": "anthropic-fable-mythos-52-launch",
+      "lens": "broad",
+      "summary": "Anthropic announces Claude Fable 5.2 and Claude Mythos 5.2, available now.",
+      "source": {
+        "name": "AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2119867707546071125",
+        "type": "x",
+        "handle": "AnthropicAI"
+      },
+      "publishedAt": "2026-11-09T19:00:21Z",
+      "metrics": {
+        "likes": 11146,
+        "reposts": 721,
+        "replies": 386,
+        "views": 473867,
+        "capturedAt": "2026-11-09T18:36:39-05:00"
+      },
+      "care": 5,
+      "proof": 5,
+      "firstSeen": "2026-11-09",
+      "topic": "fable-52-launch",
+      "facts": [
+        "Anthropic page: Fable and Mythos are the same underlying model; Fable has cybersecurity and biology safeguards so it is available to all users.",
+        "Anthropic page: outputs up to 30% faster than Fable/Mythos 5.1; price $8 per million input tokens and $40 per million output tokens.",
+        "Anthropic page: optional fast mode speeds token generation up to 2.5x, at $16 / $80 per million tokens.",
+        "Anthropic page: for most coding and knowledge tasks it recommends starting with Claude Opus 5.5; Fable 5.2 can act as Advisor or Orchestrator.",
+        "Anthropic page: during prerelease testing it formalized the proof of Fermat's Last Theorem in 30 hours."
+      ],
+      "related": [
+        {
+          "name": "Anthropic announcement",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+        },
+        {
+          "name": "HN discussion (837 points)",
+          "url": "https://news.ycombinator.com/item?id=50429906"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
+        },
+        {
+          "name": "Artificial Analysis score on HN (229 points)",
+          "url": "https://news.ycombinator.com/item?id=50431144"
+        }
+      ]
+    },
+    {
+      "id": "claudedevs-which-model-guide",
+      "lens": "practical",
+      "summary": "ClaudeDevs posts a guide on which Claude model to build with: when to use Fable 5.2, Opus 5.5, Sonnet or Haiku, when to adjust effort instead of switching models, and how to save cost by putting subagents on smaller models.",
+      "source": {
+        "name": "ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2119898687803621427",
+        "type": "x",
+        "handle": "ClaudeDevs"
+      },
+      "publishedAt": "2026-11-09T21:03:27Z",
+      "metrics": {
+        "likes": 4569,
+        "reposts": 282,
+        "replies": 128,
+        "views": 302167,
+        "capturedAt": "2026-11-09T18:36:39-05:00"
+      },
+      "care": 5,
+      "proof": 4,
+      "firstSeen": "2026-11-09",
+      "topic": "fable-52-launch"
+    },
+    {
+      "id": "alexalbert-new-model-audit-prompt",
+      "lens": "practical",
+      "summary": "Alex Albert shares the prompt he runs on all his projects with every new model: \"Read this entire project and find everything that’s broken, inconsistent, inefficient, or no longer needed. Fix what you’re sure about and list the rest for me to review.\"",
+      "source": {
+        "name": "alexalbert__ on X",
+        "url": "https://x.com/alexalbert__/status/2119884951550386671",
+        "type": "x",
+        "handle": "alexalbert__"
+      },
+      "publishedAt": "2026-11-09T20:08:52Z",
+      "metrics": {
+        "likes": 2157,
+        "reposts": 89,
+        "replies": 112,
+        "views": 124335,
+        "capturedAt": "2026-11-09T18:36:39-05:00"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "mattpocock-explain-why-tip",
+      "lens": "practical",
+      "summary": "Matt Pocock's tip for AI 'grilling' sessions: explain the 'why' instead of the 'what'. Bad: \"I want to build an analytics panel for admins with graphs and filters\". Good: \"Admins can't currently see an overview of the important data in the app\".",
+      "source": {
+        "name": "mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2119888414736859356",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-09T20:22:38Z",
+      "metrics": {
+        "likes": 1061,
+        "reposts": 57,
+        "replies": 67,
+        "views": 42176,
+        "capturedAt": "2026-11-09T18:36:39-05:00"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "theo-fable-52-76-minutes-42-dollars",
+      "lens": "practical",
+      "summary": "Theo reports Fable 5.2 built a project in 76 minutes for about $42 in tokens, and says it was not significantly better than Opus 5.5 (especially for the price).",
+      "source": {
+        "name": "theo on X",
+        "url": "https://x.com/theo/status/2119926277801144695",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-09T22:53:05Z",
+      "metrics": {
+        "likes": 607,
+        "reposts": 8,
+        "replies": 65,
+        "views": 24996,
+        "capturedAt": "2026-11-09T18:36:39-05:00"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-09",
+      "topic": "fable-52-launch"
+    },
+    {
+      "id": "alexfinn-fable-52-planning-workflow",
+      "lens": "practical",
+      "summary": "Alex Finn describes using Fable 5.2 (early access) for all planning and brainstorming, iterating on an idea until it is ironed out, then having it create detailed tasks in a task manager.",
+      "source": {
+        "name": "AlexFinn on X",
+        "url": "https://x.com/AlexFinn/status/2119891924316454975",
+        "type": "x",
+        "handle": "AlexFinn"
+      },
+      "publishedAt": "2026-11-09T20:36:35Z",
+      "metrics": {
+        "likes": 527,
+        "reposts": 15,
+        "replies": 46,
+        "views": 39977,
+        "capturedAt": "2026-11-09T18:36:39-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-09",
+      "topic": "fable-52-launch"
+    },
+    {
+      "id": "kunchenguid-implicit-state-machines-prompt",
+      "lens": "practical",
+      "summary": "Kun Chen shares a prompt to try on Fable 5.2: \"audit and find implicit state machines in this <codebase/directory/module> that would drive concrete improvements if made explicit. explain before/after of each one and discuss with ...\" (post text truncated in the read).",
+      "source": {
+        "name": "kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2119924895060795492",
+        "type": "x",
+        "handle": "kunchenguid"
+      },
+      "publishedAt": "2026-11-09T22:47:35Z",
+      "metrics": {
+        "likes": 70,
+        "reposts": 4,
+        "replies": 1,
+        "views": 3366,
+        "capturedAt": "2026-11-09T18:36:39-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-09",
+      "topic": "fable-52-launch"
+    },
+    {
+      "id": "rauchg-mcp-callbacks-across-sessions",
+      "lens": "practical",
+      "summary": "Guillermo Rauch says he is bullish on MCP and that a missing piece was how to get arbitrary callbacks across sessions; post text truncated at 'MCP could read and ...'.",
+      "source": {
+        "name": "rauchg on X",
+        "url": "https://x.com/rauchg/status/2119891138450755670",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "publishedAt": "2026-11-09T20:33:27Z",
+      "metrics": {
+        "likes": 341,
+        "reposts": 22,
+        "replies": 67,
+        "views": 21880,
+        "capturedAt": "2026-11-09T18:36:39-05:00"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "meta-muse-ember-launch",
+      "lens": "broad",
+      "summary": "Alexandr Wang announces Meta's smallest model yet, Muse Ember: 'nearly Muse Spark 1.3 (max) intelligence at a 17x cheaper price point (per AA)'; first model trained using Muse Wonder Full; available via API and muse code. Follow-up posts: matches Haiku at 3x cheaper cost per task; $0.10 / $0.50 per Mtok.",
+      "source": {
+        "name": "alexandr_wang on X",
+        "url": "https://x.com/alexandr_wang/status/2119857909098283406",
+        "type": "x",
+        "handle": "alexandr_wang"
+      },
+      "publishedAt": "2026-11-09T18:21:25Z",
+      "metrics": {
+        "likes": 1780,
+        "reposts": 121,
+        "replies": 128,
+        "views": 141999,
+        "capturedAt": "2026-11-09T18:36:39-05:00"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-09",
+      "topic": "muse-ember",
+      "related": [
+        {
+          "name": "Meta research blog",
+          "url": "https://research.meta.ai/blog/muse-ember"
+        },
+        {
+          "name": "HN (217 points)",
+          "url": "https://news.ycombinator.com/item?id=50429024"
+        }
+      ]
+    },
+    {
+      "id": "openai-control-room",
+      "lens": "broad",
+      "summary": "OpenAI says it built Control Room, a central system to track model workloads across its research infrastructure and stop them quickly when safety or security concerns arise; it connects every research inference workload including agentic sampling for model training and evaluation.",
+      "source": {
+        "name": "OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2119913172039868579",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "publishedAt": "2026-11-09T22:01:00Z",
+      "metrics": {
+        "likes": 1997,
+        "reposts": 125,
+        "replies": 339,
+        "views": 238677,
+        "capturedAt": "2026-11-09T18:36:39-05:00"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-09",
+      "related": [
+        {
+          "name": "OpenAI blog",
+          "url": "https://openai.com/index/control-room"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-huang-spy-scandal",
+      "lens": "broad",
+      "summary": "The Verge runs an explainer, 'Everything we know so far about the Nvidia spy scandal targeting CEO Jensen Huang'. Same story is covered today by Stratechery ('Jensen Huang's Affair, The Culper Report, Huang's Righteousness'), Gary Marcus ('Jensen is cooked'), MIT Technology Review ('an Nvidia investigation') and a second Verge piece. Bodies not read; headline-level.",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-09T23:07:59Z",
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-09",
+      "topic": "nvidia-huang-affair",
+      "related": [
+        {
+          "name": "Stratechery",
+          "url": "https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/"
+        },
+        {
+          "name": "Gary Marcus",
+          "url": "https://garymarcus.substack.com/p/jensen-is-cooked"
+        },
+        {
+          "name": "MIT Technology Review The Download",
+          "url": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/"
+        }
+      ]
+    },
+    {
+      "id": "mollick-fable-52-jagged-agi",
+      "lens": "broad",
+      "summary": "Ethan Mollick publishes 'Fable 5.2 and Jagged AGI' on One Useful Thing. Headline-level; body not read.",
+      "source": {
+        "name": "One Useful Thing (Ethan Mollick)",
+        "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-09T19:04:26Z",
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-09",
+      "topic": "fable-52-launch"
+    },
+    {
+      "id": "mit-tr-data-center-backlash-electricity",
+      "lens": "broad",
+      "summary": "MIT Technology Review: 'The backlash about data centers might really just be about electricity'. Headline-level; body not read.",
+      "source": {
+        "name": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-09T19:35:33Z",
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-09",
+      "topic": "data-center-backlash"
+    },
+    {
+      "id": "hn-gemini-drive-files-human-annotators",
+      "lens": "broad",
+      "summary": "Hacker News (276 points): 'Google Gemini routes personal Drive files and emails to human annotators', linking a GitHub repo (thisisme6598/gemini_files). Claim comes from that repo; not independently verified.",
+      "source": {
+        "name": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50429426",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-09T18:24:38Z",
+      "care": 4,
+      "proof": 2,
+      "firstSeen": "2026-11-09",
+      "metrics": {
+        "points": 276,
+        "capturedAt": "2026-11-09T18:36:39-05:00"
+      },
+      "topic": "gemini-annotators",
+      "related": [
+        {
+          "name": "GitHub repo",
+          "url": "https://github.com/thisisme6598/gemini_files/"
+        }
+      ]
+    },
+    {
+      "id": "nathanbenaich-open-cyber-models",
+      "lens": "frontier-capital",
+      "summary": "Nathan Benaich: 'open cyber models can put more powerful tools in attackers’ hands. defenders need those capabilities too.' He says Hugging Face reported commercial API guardrails hindered its investigation of an intrusion, leading it to use a self-hosted open model (post text truncated in the read).",
+      "source": {
+        "name": "nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2119822323650076803",
+        "type": "x",
+        "handle": "nathanbenaich"
+      },
+      "publishedAt": "2026-11-09T16:00:01Z",
+      "metrics": {
+        "likes": 1,
+        "reposts": 1,
+        "replies": 6,
+        "views": 967,
+        "capturedAt": "2026-11-09T18:36:39-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "raydalio-midterm-results-article",
+      "lens": "frontier-capital",
+      "summary": "Ray Dalio posts an article titled 'What I Think of The Results of the U.S. Midterm Elections' (article body not read). Same account earlier posted on listening and expression in conversation.",
+      "source": {
+        "name": "RayDalio on X",
+        "url": "https://x.com/RayDalio/status/2119913074844987405",
+        "type": "x",
+        "handle": "RayDalio"
+      },
+      "publishedAt": "2026-11-09T22:00:37Z",
+      "metrics": {
+        "likes": 144,
+        "reposts": 12,
+        "replies": 11,
+        "views": 40200,
+        "capturedAt": "2026-11-09T18:36:39-05:00"
+      },
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-11-09"
+    }
+  ]
+}
