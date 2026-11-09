@@ -1,34 +1,283 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-08-1900",
-  "date": "2026-11-08",
-  "publishedAt": "2026-11-08T19:15:00-05:00",
-  "edition": "Evening",
+  "id": "2026-11-09-0700",
+  "date": "2026-11-09",
+  "publishedAt": "2026-11-09T07:10:00-05:00",
+  "edition": "Morning",
   "top3": [
     {
       "itemId": "nvidia-board-investigates-jensen-huang",
-      "headline": "Nvidia board opens independent probe into Jensen Huang",
-      "whyItMatters": "The AI chip leader now carries key-person and export-control risk at the same time."
+      "headline": "Nvidia board probes Jensen Huang's tie to an alleged spy",
+      "whyItMatters": "The leading AI chip supplier now carries key-person and export-control risk at once."
     },
     {
-      "itemId": "apple-siri-agentic-gurman",
-      "headline": "Apple is pushing to ship a Siri that acts inside apps",
-      "whyItMatters": "If Siri can book and order inside apps, customers may never open yours."
+      "itemId": "theo-llms-bad-at-mcp-auth",
+      "headline": "Coding models still botch MCP auth, Theo warns",
+      "whyItMatters": "Agent-built integrations can look done and fail, so keep a human check on auth code."
     },
     {
-      "itemId": "patrick-collison-ai-positive-vision",
-      "headline": "Patrick Collison: the upside case for AI is still unclear",
-      "whyItMatters": "If builders can't describe the good outcome, public debate stays stuck on data centers."
+      "itemId": "garry-tan-jev-engineering-replicates",
+      "headline": "Garry Tan's evals back a claimed 90% agent-bill cut",
+      "whyItMatters": "Agent costs may fall sharply, and an outside replication makes the method worth testing."
     }
   ],
   "items": [
+    {
+      "id": "software-factory-debate",
+      "title": "'Software factory' is a buzzword for a real shift, builders say",
+      "takeaway": "Pocock calls the term hype bait but says it names a real change from this year. Garry Tan says you will want your own software factory.",
+      "soWhat": "Ignore the label and ask how many agent-run pipelines your engineering team actually operates.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-09T11:06:50Z",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2119748545691402733"
+      },
+      "related": [
+        {
+          "name": "Garry Tan: you'll want your own software factory",
+          "url": "https://x.com/garrytan/status/2119615647592395037"
+        },
+        {
+          "name": "Garry Tan on Apple and software factories",
+          "url": "https://x.com/garrytan/status/2119611628752945301"
+        }
+      ],
+      "image": {
+        "src": "/img/software-factory-debate.jpg",
+        "alt": "Image from @mattpocockuk on X"
+      },
+      "heat": {
+        "score": 19,
+        "level": "none",
+        "metric": "10k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "mengto-apartment-threejs-opus55",
+      "title": "Meng To rebuilds his apartment as a walkable 3D web scene",
+      "takeaway": "Built with Opus 5.5 in three.js for tutorial videos: walkable in the browser, adjustable lighting, render styles, every object defined in code.",
+      "soWhat": "Designers can now build interactive 3D spaces from prompts, without a 3D modeling team.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-09T11:00:30Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2119746949121495303"
+      },
+      "image": {
+        "src": "/img/mengto-apartment-threejs-opus55.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 7,
+        "level": "none",
+        "metric": "3k views"
+      }
+    },
+    {
+      "id": "mittr-climate-case-for-ai",
+      "title": "MIT Tech Review: the climate case for AI has not been made",
+      "takeaway": "MIT Technology Review argues the climate case for AI is unmade. A Nov 4 piece says Texas's data center boom might be kaput.",
+      "soWhat": "Expect sustainability questions on every AI infrastructure plan your board signs off.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 5,
+      "publishedAt": "2026-11-09T10:00:00Z",
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/"
+      },
+      "related": [
+        {
+          "name": "MIT TR: Texas data center buildout might be kaput",
+          "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
+        }
+      ],
+      "image": {
+        "src": "/img/mittr-climate-case-for-ai.jpg",
+        "alt": "Image from MIT Technology Review"
+      }
+    },
+    {
+      "id": "simonw-details-summary-pr",
+      "title": "Simon Willison hides AI-written PR descriptions behind a fold",
+      "takeaway": "He wraps most of each AI-generated GitHub PR description in a collapsed details tag, which GitHub Markdown supports.",
+      "soWhat": "Small formatting rules can keep reviewers from drowning in AI-generated text.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-09T04:36:40Z",
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2119650353142747181"
+      },
+      "related": [
+        {
+          "name": "Simon Willison: hide slop PR descriptions behind details",
+          "url": "https://simonwillison.net/2026/Nov/9/details-summary/"
+        }
+      ],
+      "image": {
+        "src": "/img/simonw-details-summary-pr.jpg",
+        "alt": "Image from @simonw on X"
+      },
+      "heat": {
+        "score": 79,
+        "level": "hot",
+        "metric": "60k views"
+      }
+    },
+    {
+      "id": "lyn-alden-japan-quiet-godzilla",
+      "title": "Lyn Alden: Japan's real market force is its overseas cash",
+      "takeaway": "Alden says Japan's quiet Godzilla is not the carry trade but its net international investment position, from pensions to private investors.",
+      "soWhat": "Watch Japan's pension and private money abroad, not just the carry trade, for global market risk.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-09T04:23:54Z",
+      "source": {
+        "name": "@LynAldenContact on X",
+        "url": "https://x.com/LynAldenContact/status/2119647141375394006"
+      },
+      "image": {
+        "src": "/img/lyn-alden-japan-quiet-godzilla.jpg",
+        "alt": "Image from @LynAldenContact on X"
+      },
+      "heat": {
+        "score": 19,
+        "level": "none",
+        "metric": "60k views"
+      }
+    },
+    {
+      "id": "theo-opus-threads-under-20pct-plan",
+      "title": "Theo ran up to 25 Opus threads on under 20% of plan",
+      "takeaway": "Theo says 8 to 25 Opus 5.5 threads ran most of the day on under 20% of a $200 Claude plan, while parallel reviews hammer his Codex plans.",
+      "soWhat": "Heavy parallel agent work can fit in flat-fee plans, so measure usage before buying API capacity.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-09T03:27:30Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2119632946663653740"
+      },
+      "related": [
+        {
+          "name": "Theo on the $200 Claude plan",
+          "url": "https://x.com/theo/status/2119633842034372809"
+        }
+      ],
+      "image": {
+        "src": "/img/theo-opus-threads-under-20pct-plan.jpg",
+        "alt": "Image from @theo on X"
+      },
+      "heat": {
+        "score": 19,
+        "level": "none",
+        "metric": "83k views"
+      }
+    },
+    {
+      "id": "garry-tan-jev-engineering-replicates",
+      "title": "Garry Tan's evals say the Jev agent-cost article replicates",
+      "takeaway": "His gstack-evals project re-ran the article on cutting agent bills by 90% with Jev Engineering and Kimi K3, and reports it replicates.",
+      "soWhat": "Agent cost claims are getting independent checks; ask vendors for the same before you switch.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-09T02:52:59Z",
+      "source": {
+        "name": "@garrytan on X",
+        "url": "https://x.com/garrytan/status/2119624260675350605"
+      },
+      "related": [
+        {
+          "name": "Article: cut your agent bill by 90% with Jev Engineering",
+          "url": "https://x.com/Mr_Buzzoni/status/2104783226833186920"
+        }
+      ],
+      "image": {
+        "src": "/img/garry-tan-jev-engineering-replicates.jpg",
+        "alt": "Image from @garrytan on X"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "24k views"
+      }
+    },
+    {
+      "id": "elon-grok-bot-overnight-fixes",
+      "title": "Musk promises overnight Grok Bot fixes after a team review",
+      "takeaway": "After a round-table with the Grok Bot team, Musk says fixes ship overnight with a dramatic improvement by tomorrow. Earlier he cited token efficiency.",
+      "soWhat": "Agent plan value can swing week to week, so recheck what your team gets after each fix.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-09T02:25:56Z",
+      "source": {
+        "name": "@elonmusk on X",
+        "url": "https://x.com/elonmusk/status/2119617455102333206"
+      },
+      "related": [
+        {
+          "name": "Musk: token efficiency fixes underway",
+          "url": "https://x.com/elonmusk/status/2119419126045454531"
+        }
+      ],
+      "image": {
+        "src": "/img/elon-grok-bot-overnight-fixes.jpg",
+        "alt": "Profile image of @elonmusk"
+      },
+      "heat": {
+        "score": 44,
+        "level": "warm",
+        "metric": "3.7M views"
+      }
+    },
+    {
+      "id": "theo-llms-bad-at-mcp-auth",
+      "title": "Theo: coding models still botch MCP authentication for agents",
+      "takeaway": "Theo says Opus makes bad assumptions setting up MCP auth and builds something that fails. He is writing his own MCP guide for his agents.",
+      "soWhat": "Have a human review any agent-built MCP auth before it touches production systems.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-09T01:40:57Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2119606132775997905"
+      },
+      "related": [
+        {
+          "name": "Theo: LLMs are still bad at building tools for agents",
+          "url": "https://x.com/theo/status/2119575130204717336"
+        }
+      ],
+      "image": {
+        "src": "/img/theo-llms-bad-at-mcp-auth.jpg",
+        "alt": "Image from @theo on X"
+      },
+      "heat": {
+        "score": 21,
+        "level": "none",
+        "metric": "40k views"
+      }
+    },
     {
       "id": "lyn-alden-megacap-single-man-risk",
       "title": "Lyn Alden: one-person risk undercuts a mega cap's value",
       "takeaway": "Alden says investors pay a premium expecting mega caps not to hinge on one person. Either tech and scale are the moat, or it is flimsy.",
       "soWhat": "Boards should test whether their moat survives without the person at the top.",
       "lens": "frontier-capital",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 5,
       "publishedAt": "2026-11-08T22:29:13Z",
       "source": {
@@ -40,27 +289,9 @@
         "alt": "Image from @LynAldenContact on X"
       },
       "heat": {
-        "score": 8,
+        "score": 24,
         "level": "none",
-        "metric": "34k views"
-      }
-    },
-    {
-      "id": "simonw-sqlite-parse-number-c-vs-rust",
-      "title": "Claude-built C beats Rust in Simon Willison's SQLite test",
-      "takeaway": "An optimized C extension ran at 16 to 19 ns per row, about twice as fast as the Rust versions, and all matched across 8 million fuzz checks.",
-      "soWhat": "Agents make it cheap to build and benchmark two designs before you commit to one.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-08T22:26:00Z",
-      "source": {
-        "name": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/"
-      },
-      "image": {
-        "src": "/img/simonw-sqlite-parse-number-c-vs-rust.jpg",
-        "alt": "Simon Willison: Claude-built C beats Rust in Simon Willison's SQLite test"
+        "metric": "91k views"
       }
     },
     {
@@ -69,7 +300,7 @@
       "takeaway": "Independent directors and outside counsel will review Huang's relationship with a Megaspeed executive. The board says it sees no compromise of secrets.",
       "soWhat": "The leading AI chip supplier now carries key-person and export-control risk at once.",
       "lens": "broad",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 8,
       "publishedAt": "2026-11-08T20:55:35Z",
       "source": {
@@ -84,6 +315,18 @@
         {
           "name": "Axios on X",
           "url": "https://x.com/axios/status/2119521779555475581"
+        },
+        {
+          "name": "Stratechery on the Huang affair",
+          "url": "https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/"
+        },
+        {
+          "name": "Gary Marcus: The Huang Affair",
+          "url": "https://garymarcus.substack.com/p/the-huang-affair-what-did-they-know"
+        },
+        {
+          "name": "@beffjezos on X",
+          "url": "https://x.com/beffjezos/status/2119578009292484861"
         }
       ],
       "image": {
@@ -113,11 +356,6 @@
       "image": {
         "src": "/img/poteto-pstack-formal-verification-skills.jpg",
         "alt": "Image from @poteto on X"
-      },
-      "heat": {
-        "score": 22,
-        "level": "none",
-        "metric": "73k views"
       }
     },
     {
@@ -154,11 +392,6 @@
       "image": {
         "src": "/img/patrick-collison-ai-positive-vision.jpg",
         "alt": "Profile image of @patrickc"
-      },
-      "heat": {
-        "score": 24,
-        "level": "none",
-        "metric": "346k views"
       }
     },
     {
@@ -180,99 +413,26 @@
       }
     },
     {
-      "id": "mengto-pro-threads-macbook-wallpaper",
-      "title": "Open-source WebGL recreation of the MacBook Pro wallpaper",
-      "takeaway": "kubai087/pro-threads is an MIT-licensed WebGL animation of letters woven from light threads, with a full A to Z typeface and palettes.",
-      "soWhat": "Polished motion backgrounds are now free building blocks for product and launch pages.",
-      "lens": "design",
+      "id": "vitalik-eth-store-of-value",
+      "title": "Vitalik Buterin: back ETH as store of value, not fee burner",
+      "takeaway": "He says the fee-burning case was never that strong and optimizing for it would hurt decentralization; store of value aligns with it.",
+      "soWhat": "Protocol founders are choosing decentralization over fee revenue, a design trade any platform faces.",
+      "lens": "frontier-capital",
       "momentum": "new",
       "importance": 4,
-      "publishedAt": "2026-11-08T15:30:12Z",
+      "publishedAt": "2026-11-08T12:06:50Z",
       "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2119452436108861839"
-      },
-      "related": [
-        {
-          "name": "kubai087/pro-threads on GitHub",
-          "url": "https://github.com/kubai087/pro-threads"
-        },
-        {
-          "name": "Original post by @Kubai087",
-          "url": "https://x.com/Kubai087/status/2116207122535035178"
-        }
-      ],
-      "image": {
-        "src": "/img/mengto-pro-threads-macbook-wallpaper.jpg",
-        "alt": "Image from @MengTo on X"
-      }
-    },
-    {
-      "id": "swyx-cursor-1b-arr-post-acquisition",
-      "title": "Swyx says Cursor ended 2025 at $1B in annual revenue",
-      "takeaway": "Swyx posts that Cursor ended 2025 at $1B ARR with enterprise growing 300% quarter over quarter. He cites a screenshot; not checked against filings.",
-      "soWhat": "Treat it as a claim until filings confirm, but enterprise coding-tool spend looks strong.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-08T13:58:18Z",
-      "source": {
-        "name": "@swyx on X",
-        "url": "https://x.com/swyx/status/2119429305512165838"
+        "name": "@VitalikButerin on X",
+        "url": "https://x.com/VitalikButerin/status/2119401255919604064"
       },
       "image": {
-        "src": "/img/swyx-cursor-1b-arr-post-acquisition.jpg",
-        "alt": "Image from @swyx on X"
-      }
-    },
-    {
-      "id": "lenny-tulsee-doshi-frontier-models",
-      "title": "Google's Tulsee Doshi on how frontier models actually get built",
-      "takeaway": "Lenny Rachitsky interviews Google's head of product for frontier models on evals versus vibes, writing a first eval, and her 60-20-20 shipping framework.",
-      "soWhat": "Frontier labs still lean on product judgment and evals, not just engineering, to ship models.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-08T13:31:00Z",
-      "source": {
-        "name": "Lenny's Newsletter",
-        "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier"
+        "src": "/img/vitalik-eth-store-of-value.jpg",
+        "alt": "Profile image of @VitalikButerin"
       },
-      "image": {
-        "src": "/img/lenny-tulsee-doshi-frontier-models.jpg",
-        "alt": "Image from Lenny's Newsletter"
-      }
-    },
-    {
-      "id": "elon-grok-bot-token-efficiency",
-      "title": "Musk says Grok Bot token efficiency fixes are underway",
-      "takeaway": "Musk says fixes are underway after a user reported a $200 plan that lasted seven days now lasts 14 hours. Matt Palmer is collecting feedback.",
-      "soWhat": "Usage-priced agent plans can shrink fast, so track what your team actually gets for the money.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-08T13:17:51Z",
-      "source": {
-        "name": "@elonmusk on X",
-        "url": "https://x.com/elonmusk/status/2119419126045454531"
-      },
-      "related": [
-        {
-          "name": "Matt Palmer asking for feedback",
-          "url": "https://x.com/mattyp/status/2119474599708827957"
-        },
-        {
-          "name": "Musk reply on the $200 plan report",
-          "url": "https://x.com/elonmusk/status/2119415029812609301"
-        },
-        {
-          "name": "Musk on per-token pricing",
-          "url": "https://x.com/elonmusk/status/2119406729074979035"
-        }
-      ],
-      "image": {
-        "src": "/img/elon-grok-bot-token-efficiency.jpg",
-        "alt": "Profile image of @elonmusk"
+      "heat": {
+        "score": 47,
+        "level": "warm",
+        "metric": "1.4M views"
       }
     },
     {
@@ -291,6 +451,12 @@
       "image": {
         "src": "/img/vitalik-data-center-slowdown.jpg",
         "alt": "Profile image of @VitalikButerin"
+      },
+      "heat": {
+        "score": 41,
+        "level": "warm",
+        "metric": "382k views",
+        "voices": 2
       }
     },
     {
@@ -326,203 +492,92 @@
       }
     },
     {
-      "id": "kunchenguid-headless-skill",
-      "title": "Kun Chen's /headless skill sets up always-on agent machines",
-      "takeaway": "/headless walks an agent through turning a Mac, Linux or Windows box into an always-on SSH machine without seeing the admin password.",
-      "soWhat": "Dedicated agent machines are getting easy to set up without handing agents admin credentials.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-08T02:09:25Z",
-      "source": {
-        "name": "kunchenguid/headless",
-        "url": "https://github.com/kunchenguid/headless"
-      },
-      "related": [
-        {
-          "name": "@kunchenguid on X",
-          "url": "https://x.com/kunchenguid/status/2119250910224465990"
-        }
-      ],
-      "image": {
-        "src": "/img/kunchenguid-headless-skill.jpg",
-        "alt": "Image from kunchenguid/headless"
-      }
-    },
-    {
-      "id": "gregisenberg-ios-agents-playbook",
-      "title": "Greg Isenberg's playbook for building iOS apps with agents",
-      "takeaway": "Find low-rated, high-revenue utility apps, cluster 1-2 star reviews with an agent, then build with Claude Code, the Xcode plugin and simulator MCPs.",
-      "soWhat": "Apple's Xcode plugin is already turning into repeatable app-building playbooks for small teams.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-08T00:45:16Z",
-      "source": {
-        "name": "@gregisenberg on X",
-        "url": "https://x.com/gregisenberg/status/2119229734563271124"
-      },
-      "related": [
-        {
-          "name": "Xcode plugin PR #6338",
-          "url": "https://github.com/anthropics/claude-plugins-official/pull/6338"
-        }
-      ],
-      "image": {
-        "src": "/img/gregisenberg-ios-agents-playbook.jpg",
-        "alt": "Image from @gregisenberg on X"
-      }
-    },
-    {
-      "id": "perplexity-teammates-3-7x-day-two",
-      "title": "Perplexity Teammate automation runs grew 3.7x on day two",
-      "takeaway": "Srinivas says runs grew 3.7x from launch day to a Friday, crediting a code-first harness, model neutrality and search quality. No absolute counts.",
-      "soWhat": "Early workplace agent demand looks real, but growth ratios without base numbers prove little.",
+      "id": "anthropic-ipo-valuation-1-1t",
+      "title": "Anthropic IPO buyers see valuation as low as $1.1 trillion",
+      "takeaway": "Bloomberg reports IPO valuation expectations for Anthropic are under pressure after the AI market rout. Headline-level only.",
+      "soWhat": "Watch for lab pricing and contract terms to shift as investors push valuations down.",
       "lens": "broad",
       "momentum": "building",
       "importance": 6,
-      "publishedAt": "2026-11-07T23:32:04Z",
+      "publishedAt": "2026-11-06T16:54:36Z",
       "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2119211310424654034"
-      },
-      "related": [
-        {
-          "name": "Follow-up post",
-          "url": "https://x.com/AravSrinivas/status/2119320047403589761"
-        },
-        {
-          "name": "Teammates launch post",
-          "url": "https://x.com/AravSrinivas/status/2118388400730591469"
-        }
-      ],
-      "image": {
-        "src": "/img/perplexity-teammates-3-7x-day-two.jpg",
-        "alt": "Image from @AravSrinivas on X"
-      }
-    },
-    {
-      "id": "aws-claude-code-remote-agentcore",
-      "title": "AWS runs Claude Code as a remote agent on AgentCore",
-      "takeaway": "AWS published a sample that runs each Claude Code task in an isolated AgentCore session in your AWS account and returns a GitHub pull request.",
-      "soWhat": "Remote coding agents can now run inside your own cloud boundary, away from laptop credentials.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-06T16:45:58Z",
-      "source": {
-        "name": "AWS Machine Learning Blog",
-        "url": "https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls/"
-      },
-      "image": {
-        "src": "/img/aws-claude-code-remote-agentcore.jpg",
-        "alt": "Image from AWS Machine Learning Blog"
-      }
-    },
-    {
-      "id": "claude-agent-sdk-hook-on-failure",
-      "title": "Claude Agent SDK guard hooks fail open unless set to block",
-      "takeaway": "Agent SDK for Python 0.2.177 adds on_failure on HookMatcher. The default, continue, lets a crashed guard hook allow the tool call.",
-      "soWhat": "Teams relying on SDK guard hooks should set on_failure to block, or a buggy guard becomes a hole.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-03T02:15:34Z",
-      "source": {
-        "name": "Agent SDK changelog",
-        "url": "https://github.com/anthropics/claude-agent-sdk-python/blob/main/CHANGELOG.md"
-      },
-      "related": [
-        {
-          "name": "PyPI claude-agent-sdk 0.2.177",
-          "url": "https://pypi.org/project/claude-agent-sdk/0.2.177/"
-        }
-      ],
-      "image": {
-        "src": "/img/claude-agent-sdk-hook-on-failure.jpg",
-        "alt": "Image from Agent SDK changelog"
-      }
-    },
-    {
-      "id": "maxxbench-deepswe-mutations",
-      "title": "MaxxBench: coding models tied at 74% split by 23 points",
-      "takeaway": "MaxxBench mutates 89 DeepSWE tasks. Spread across 15 configurations widens from 20.9 to 48.3 points; authors report reward hacking and a sandbox bypass.",
-      "soWhat": "Pick coding agents on how they handle changed requirements, not on headline benchmark ties.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-10-20T00:00:00Z",
-      "source": {
-        "name": "MaxxBench research post",
-        "url": "https://maxxbench.unlap.ai/research/why-maxxbench/"
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
       },
       "related": [
         {
           "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50406222"
+          "url": "https://news.ycombinator.com/item?id=50394906"
         }
       ],
       "image": {
-        "src": "/img/maxxbench-deepswe-mutations.jpg",
-        "alt": "Image from MaxxBench research post"
+        "src": "/img/anthropic-ipo-valuation-1-1t.jpg",
+        "alt": "Image from Bloomberg"
       }
     }
   ],
   "voices": [
+    {
+      "handle": "@beffjezos",
+      "quote": "I really hope Jensen stays, he is the champion for open source, and if Nvidia is ruled by corpo ladder climbers instead we are in for very dark days ahead",
+      "url": "https://x.com/beffjezos/status/2119578009292484861"
+    },
+    {
+      "handle": "@garrytan",
+      "quote": "You're really going to want your own software factory",
+      "url": "https://x.com/garrytan/status/2119615647592395037"
+    },
+    {
+      "handle": "@LynAldenContact",
+      "quote": "Japan has a quiet Godzilla.",
+      "url": "https://x.com/LynAldenContact/status/2119647141375394006"
+    },
     {
       "handle": "@patrickc",
       "quote": "Given how rapid the rate of progress in AI may be, it feels strange for the upside case to be so opaque.",
       "url": "https://x.com/patrickc/status/2119495828683530519"
     },
     {
-      "handle": "@LynAldenContact",
-      "quote": "Either the tech and scale/structure are the moat, or it's flimsy.",
-      "url": "https://x.com/LynAldenContact/status/2119557882114916662"
-    },
-    {
-      "handle": "@poteto",
-      "quote": "use /create-formal-verification-skill to model these state machines, one skill per subsystem. and use /statechart to visualize my most important user flows",
-      "url": "https://x.com/poteto/status/2119521036660314339"
-    },
-    {
       "handle": "@addyosmani",
       "quote": "Every gripe you have about bad managers is a bug report for interacting with agents.",
       "url": "https://x.com/addyosmani/status/2119332146485891501"
-    },
-    {
-      "handle": "@elonmusk",
-      "quote": "Grok Bot fixes for improved token efficiency and smarter behavior are underway.",
-      "url": "https://x.com/elonmusk/status/2119419126045454531"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/patrickc/status/2119495828683530519",
-      "handle": "@patrickc",
-      "text": "What is the vision for AI that most people would be excited about?",
-      "metric": "2.6k likes",
-      "note": "Builders want a concrete picture of AI's upside, not just abundance slogans."
+      "url": "https://x.com/elonmusk/status/2119617455102333206",
+      "handle": "@elonmusk",
+      "text": "Round-table review with the Grok Bot team; fixes going in overnight, with a dramatic improvement by tomorrow.",
+      "metric": "42k likes",
+      "note": "Heavy agent users want to know if their plans will stretch further again."
     },
     {
-      "url": "https://x.com/poteto/status/2119521036660314339",
-      "handle": "@poteto",
-      "text": "use /create-formal-verification-skill to model these state machines, one skill per subsystem. and use /statechart to visualize user flows",
-      "metric": "2.1k likes",
-      "note": "A copyable next step after a viral prompt about finding hidden state machines in apps."
+      "url": "https://x.com/VitalikButerin/status/2119401255919604064",
+      "handle": "@VitalikButerin",
+      "text": "ETH as a store of value makes more sense to focus on than ETH as a fee-burning token.",
+      "metric": "5.8k likes",
+      "note": "A founder openly reranking his own protocol's economic story draws attention."
     },
     {
-      "url": "https://x.com/LynAldenContact/status/2119557882114916662",
-      "handle": "@LynAldenContact",
-      "text": "Realistically, if a mega cap company has too much single-man risk, it's not really worth what it is.",
-      "metric": "276 likes",
-      "note": "Investors are weighing how much mega-cap value rests on one leader."
+      "url": "https://x.com/VitalikButerin/status/2119377918875079163",
+      "handle": "@VitalikButerin",
+      "text": "I don't agree with the strong emotional reaction against anti-data-center movements I've seen this week.",
+      "metric": "3.4k likes",
+      "note": "A tech leader breaking ranks on data center opposition reframes the backlash."
     },
     {
-      "url": "https://x.com/kunchenguid/status/2119490886593814934",
-      "handle": "@kunchenguid",
-      "text": "a guide for how to do a multi-machine setup, which allowed me to keep agents running and stay productive anywhere i go",
-      "metric": "189 likes",
-      "note": "Builders want agents that keep working while they are away from the desk."
+      "url": "https://x.com/beffjezos/status/2119578009292484861",
+      "handle": "@beffjezos",
+      "text": "I really hope Jensen stays, he is the champion for open source.",
+      "metric": "1.1k likes",
+      "note": "Builders fear Nvidia's open source stance could change if Huang leaves."
+    },
+    {
+      "url": "https://x.com/simonw/status/2119650353142747181",
+      "handle": "@simonw",
+      "text": "Hide the bulk of AI-generated PR descriptions behind a collapsed details tag.",
+      "metric": "946 likes",
+      "note": "Reviewers are tired of long AI-written pull request text."
     }
   ]
 }
