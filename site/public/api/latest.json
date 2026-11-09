@@ -1,27 +1,166 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-08-1300",
+  "id": "2026-11-08-1900",
   "date": "2026-11-08",
-  "publishedAt": "2026-11-08T13:05:05-05:00",
-  "edition": "Midday",
+  "publishedAt": "2026-11-08T19:15:00-05:00",
+  "edition": "Evening",
   "top3": [
     {
-      "itemId": "addy-osmani-coding-agents-manager",
-      "headline": "Addy Osmani: your coding agents just made you a manager",
-      "whyItMatters": "The people who get most from agents manage them well, not prompt them cleverly."
+      "itemId": "nvidia-board-investigates-jensen-huang",
+      "headline": "Nvidia board opens independent probe into Jensen Huang",
+      "whyItMatters": "The AI chip leader now carries key-person and export-control risk at the same time."
     },
     {
-      "itemId": "claude-agent-sdk-hook-on-failure",
-      "headline": "Claude Agent SDK guard hooks fail open by default",
-      "whyItMatters": "If your agents rely on guard hooks, a bug in one silently allows the action."
+      "itemId": "apple-siri-agentic-gurman",
+      "headline": "Apple is pushing to ship a Siri that acts inside apps",
+      "whyItMatters": "If Siri can book and order inside apps, customers may never open yours."
     },
     {
-      "itemId": "elon-grok-bot-token-efficiency",
-      "headline": "Musk promises Grok Bot fixes as heavy users report shrinking plans",
-      "whyItMatters": "Usage-priced agent tools can change what you get overnight, so watch real consumption."
+      "itemId": "patrick-collison-ai-positive-vision",
+      "headline": "Patrick Collison: the upside case for AI is still unclear",
+      "whyItMatters": "If builders can't describe the good outcome, public debate stays stuck on data centers."
     }
   ],
   "items": [
+    {
+      "id": "lyn-alden-megacap-single-man-risk",
+      "title": "Lyn Alden: one-person risk undercuts a mega cap's value",
+      "takeaway": "Alden says investors pay a premium expecting mega caps not to hinge on one person. Either tech and scale are the moat, or it is flimsy.",
+      "soWhat": "Boards should test whether their moat survives without the person at the top.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-08T22:29:13Z",
+      "source": {
+        "name": "@LynAldenContact on X",
+        "url": "https://x.com/LynAldenContact/status/2119557882114916662"
+      },
+      "image": {
+        "src": "/img/lyn-alden-megacap-single-man-risk.jpg",
+        "alt": "Image from @LynAldenContact on X"
+      },
+      "heat": {
+        "score": 8,
+        "level": "none",
+        "metric": "34k views"
+      }
+    },
+    {
+      "id": "simonw-sqlite-parse-number-c-vs-rust",
+      "title": "Claude-built C beats Rust in Simon Willison's SQLite test",
+      "takeaway": "An optimized C extension ran at 16 to 19 ns per row, about twice as fast as the Rust versions, and all matched across 8 million fuzz checks.",
+      "soWhat": "Agents make it cheap to build and benchmark two designs before you commit to one.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-08T22:26:00Z",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/"
+      },
+      "image": {
+        "src": "/img/simonw-sqlite-parse-number-c-vs-rust.jpg",
+        "alt": "Simon Willison: Claude-built C beats Rust in Simon Willison's SQLite test"
+      }
+    },
+    {
+      "id": "nvidia-board-investigates-jensen-huang",
+      "title": "Nvidia board opens independent probe into Jensen Huang",
+      "takeaway": "Independent directors and outside counsel will review Huang's relationship with a Megaspeed executive. The board says it sees no compromise of secrets.",
+      "soWhat": "The leading AI chip supplier now carries key-person and export-control risk at once.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-08T20:55:35Z",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy"
+      },
+      "related": [
+        {
+          "name": "The Verge: full text of Jensen Huang's memo to Nvidia",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
+        },
+        {
+          "name": "Axios on X",
+          "url": "https://x.com/axios/status/2119521779555475581"
+        }
+      ],
+      "image": {
+        "src": "/img/nvidia-board-investigates-jensen-huang.jpg",
+        "alt": "Image from The Verge AI"
+      }
+    },
+    {
+      "id": "poteto-pstack-formal-verification-skills",
+      "title": "Cursor's poteto shares skills that map an app's state machines",
+      "takeaway": "In pstack, /create-formal-verification-skill models state machines per subsystem and /statechart visualizes key user flows.",
+      "soWhat": "Agents can now map the hidden logic in your app before they change it.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-08T20:02:48Z",
+      "source": {
+        "name": "@poteto on X",
+        "url": "https://x.com/poteto/status/2119521036660314339"
+      },
+      "related": [
+        {
+          "name": "cursor/plugins pstack on GitHub",
+          "url": "https://github.com/cursor/plugins/tree/main/pstack"
+        }
+      ],
+      "image": {
+        "src": "/img/poteto-pstack-formal-verification-skills.jpg",
+        "alt": "Image from @poteto on X"
+      },
+      "heat": {
+        "score": 22,
+        "level": "none",
+        "metric": "73k views"
+      }
+    },
+    {
+      "id": "apple-siri-agentic-gurman",
+      "title": "Apple pushes to ship a Siri that acts inside apps",
+      "takeaway": "Per Bloomberg's Gurman, Ternus is pressing Federighi to speed Siri up. First-party app control is expected with iOS 27.3, third-party apps likely in spring.",
+      "soWhat": "If Siri can order and book inside apps, customers may stop opening yours.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-08T19:18:19Z",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
+      },
+      "image": {
+        "src": "/img/apple-siri-agentic-gurman.jpg",
+        "alt": "Image from The Verge AI"
+      }
+    },
+    {
+      "id": "patrick-collison-ai-positive-vision",
+      "title": "Patrick Collison: the upside case for AI is still unclear",
+      "takeaway": "Collison asks what the good AI equilibrium looks like beyond cured diseases and abundance: who works, what is scarce, who is in control.",
+      "soWhat": "Without a clear upside story, public debate about AI stays stuck on data centers.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-08T18:22:38Z",
+      "source": {
+        "name": "@patrickc on X",
+        "url": "https://x.com/patrickc/status/2119495828683530519"
+      },
+      "image": {
+        "src": "/img/patrick-collison-ai-positive-vision.jpg",
+        "alt": "Profile image of @patrickc"
+      },
+      "heat": {
+        "score": 24,
+        "level": "none",
+        "metric": "346k views"
+      }
+    },
     {
       "id": "verge-suno-elvis-eminem-lawsuits",
       "title": "Elvis and Eminem rights holders sue Suno over AI imitations",
@@ -66,11 +205,6 @@
       "image": {
         "src": "/img/mengto-pro-threads-macbook-wallpaper.jpg",
         "alt": "Image from @MengTo on X"
-      },
-      "heat": {
-        "score": 0,
-        "level": "none",
-        "metric": "4k views"
       }
     },
     {
@@ -89,11 +223,6 @@
       "image": {
         "src": "/img/swyx-cursor-1b-arr-post-acquisition.jpg",
         "alt": "Image from @swyx on X"
-      },
-      "heat": {
-        "score": 7,
-        "level": "none",
-        "metric": "19k views"
       }
     },
     {
@@ -144,11 +273,6 @@
       "image": {
         "src": "/img/elon-grok-bot-token-efficiency.jpg",
         "alt": "Profile image of @elonmusk"
-      },
-      "heat": {
-        "score": 40,
-        "level": "warm",
-        "metric": "2.5M views"
       }
     },
     {
@@ -199,35 +323,6 @@
       "image": {
         "src": "/img/addy-osmani-coding-agents-manager.jpg",
         "alt": "Image from @addyosmani on X"
-      },
-      "heat": {
-        "score": 24,
-        "level": "none",
-        "metric": "193k views"
-      }
-    },
-    {
-      "id": "asahi-linux-gplv2-llm-rewrites",
-      "title": "Asahi Linux moves from MIT to GPLv2, citing LLM rewrites",
-      "takeaway": "Asahi Linux is relicensing repos including m1n1 and drivers to GPLv2-or-later, citing bad-faith reuse including LLM-assisted rewrites. Steinberger criticized it.",
-      "soWhat": "Open source maintainers are starting to use licenses to push back on AI-assisted copying.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-08T03:02:46Z",
-      "source": {
-        "name": "@steipete on X",
-        "url": "https://x.com/steipete/status/2119264334627090514"
-      },
-      "related": [
-        {
-          "name": "X news: Asahi Linux switches from MIT to GPLv2",
-          "url": "https://x.com/i/trending/2119200782025216481"
-        }
-      ],
-      "image": {
-        "src": "/img/asahi-linux-gplv2-llm-rewrites.jpg",
-        "alt": "Image from @steipete on X"
       }
     },
     {
@@ -307,30 +402,6 @@
       }
     },
     {
-      "id": "sutton-brute-force-not-enough",
-      "title": "Bitter Lesson author Sutton says brute force is not enough",
-      "takeaway": "Richard Sutton posted that brute-force computation is not enough for intelligence and that clever new methods are needed.",
-      "soWhat": "A founding voice of scale-first AI now says methods matter, which weakens pure compute bets.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-07T18:57:53Z",
-      "source": {
-        "name": "@RichardSSutton on X",
-        "url": "https://x.com/RichardSSutton/status/2119142310894334262"
-      },
-      "related": [
-        {
-          "name": "@amasad: The Better Lesson",
-          "url": "https://x.com/amasad/status/2119217304953053419"
-        }
-      ],
-      "image": {
-        "src": "/img/sutton-brute-force-not-enough.jpg",
-        "alt": "Profile image of @RichardSSutton"
-      }
-    },
-    {
       "id": "aws-claude-code-remote-agentcore",
       "title": "AWS runs Claude Code as a remote agent on AgentCore",
       "takeaway": "AWS published a sample that runs each Claude Code task in an isolated AgentCore session in your AWS account and returns a GitHub pull request.",
@@ -399,6 +470,21 @@
   ],
   "voices": [
     {
+      "handle": "@patrickc",
+      "quote": "Given how rapid the rate of progress in AI may be, it feels strange for the upside case to be so opaque.",
+      "url": "https://x.com/patrickc/status/2119495828683530519"
+    },
+    {
+      "handle": "@LynAldenContact",
+      "quote": "Either the tech and scale/structure are the moat, or it's flimsy.",
+      "url": "https://x.com/LynAldenContact/status/2119557882114916662"
+    },
+    {
+      "handle": "@poteto",
+      "quote": "use /create-formal-verification-skill to model these state machines, one skill per subsystem. and use /statechart to visualize my most important user flows",
+      "url": "https://x.com/poteto/status/2119521036660314339"
+    },
+    {
       "handle": "@addyosmani",
       "quote": "Every gripe you have about bad managers is a bug report for interacting with agents.",
       "url": "https://x.com/addyosmani/status/2119332146485891501"
@@ -407,51 +493,36 @@
       "handle": "@elonmusk",
       "quote": "Grok Bot fixes for improved token efficiency and smarter behavior are underway.",
       "url": "https://x.com/elonmusk/status/2119419126045454531"
-    },
-    {
-      "handle": "@mattyp",
-      "quote": "Please reply with feedback on this post. I will read it all.",
-      "url": "https://x.com/mattyp/status/2119474599708827957"
-    },
-    {
-      "handle": "@swyx",
-      "quote": "cursor ended 2025 arr 1B arr btw. enterprise growing 300% QoQ",
-      "url": "https://x.com/swyx/status/2119429305512165838"
-    },
-    {
-      "handle": "@RichardSSutton",
-      "quote": "Brute force computation is not enough for intelligence. Clever new methods are needed. The science of AI is far from finished.",
-      "url": "https://x.com/RichardSSutton/status/2119142310894334262"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/elonmusk/status/2119419126045454531",
-      "handle": "@elonmusk",
-      "text": "Grok Bot fixes for improved token efficiency and smarter behavior are underway.",
-      "metric": "24.6k likes",
-      "note": "Heavy users say their plans run out far faster, and the owner is responding."
+      "url": "https://x.com/patrickc/status/2119495828683530519",
+      "handle": "@patrickc",
+      "text": "What is the vision for AI that most people would be excited about?",
+      "metric": "2.6k likes",
+      "note": "Builders want a concrete picture of AI's upside, not just abundance slogans."
     },
     {
-      "url": "https://x.com/elonmusk/status/2119469436092760547",
-      "handle": "@elonmusk",
-      "text": "Musk backs a secondhand report that Larry Page expects five nines of compute to end up in space.",
-      "metric": "4.5k likes",
-      "note": "The Page figure is unverified, but it rides on fights over building data centers on Earth."
+      "url": "https://x.com/poteto/status/2119521036660314339",
+      "handle": "@poteto",
+      "text": "use /create-formal-verification-skill to model these state machines, one skill per subsystem. and use /statechart to visualize user flows",
+      "metric": "2.1k likes",
+      "note": "A copyable next step after a viral prompt about finding hidden state machines in apps."
     },
     {
-      "url": "https://x.com/addyosmani/status/2119332146485891501",
-      "handle": "@addyosmani",
-      "text": "Every gripe you have about bad managers is a bug report for interacting with agents.",
-      "metric": "2.4k likes",
-      "note": "Builders see their agent struggles as management problems they already know how to fix."
+      "url": "https://x.com/LynAldenContact/status/2119557882114916662",
+      "handle": "@LynAldenContact",
+      "text": "Realistically, if a mega cap company has too much single-man risk, it's not really worth what it is.",
+      "metric": "276 likes",
+      "note": "Investors are weighing how much mega-cap value rests on one leader."
     },
     {
-      "url": "https://x.com/mattyp/status/2119474599708827957",
-      "handle": "@mattyp",
-      "text": "Improvements to token efficiency & behavior in Grok Bot are underway. Please reply with feedback on this post.",
-      "metric": "618 likes",
-      "note": "Hundreds of users replied with feedback on usage limits and behavior."
+      "url": "https://x.com/kunchenguid/status/2119490886593814934",
+      "handle": "@kunchenguid",
+      "text": "a guide for how to do a multi-machine setup, which allowed me to keep agents running and stay productive anywhere i go",
+      "metric": "189 likes",
+      "note": "Builders want agents that keep working while they are away from the desk."
     }
   ]
 }
