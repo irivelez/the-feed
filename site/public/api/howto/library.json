@@ -1,7 +1,37 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-08T07:05:26-05:00",
+  "updatedAt": "2026-11-08T19:20:00-05:00",
   "howtos": [
+    {
+      "id": "agent-optimize-to-beat-rival-implementation",
+      "dedupeKey": "agent-optimize-to-beat-rival-implementation",
+      "title": "Have an agent tune the slower version until it beats the faster one",
+      "what": "After an agent builds the same function two ways, ask it to rewrite the slower one to match or beat the faster.",
+      "kind": "prompt",
+      "copy": [
+        "Try writing your own C function for parsing text into a decimal number that catches up to or beats the Rust implementation"
+      ],
+      "whenToUse": "When an agent has built and benchmarked two implementations and one lags on speed.",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/"
+      },
+      "author": {
+        "name": "Simon Willison",
+        "handle": "simonw"
+      },
+      "tags": [
+        "coding-agents",
+        "performance"
+      ],
+      "addedAt": "2026-11-08T19:20:00-05:00",
+      "quality": 3,
+      "verbatim": true,
+      "briefItem": {
+        "briefId": "2026-11-08-1900",
+        "itemId": "simonw-sqlite-parse-number-c-vs-rust"
+      }
+    },
     {
       "id": "ios-app-from-low-rated-reviews",
       "dedupeKey": "ios-app-from-low-rated-reviews-agents",
