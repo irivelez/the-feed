@@ -1,0 +1,315 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-09-1237",
+  "generatedAt": "2026-11-09T12:37:55-05:00",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-09T11:00:00Z",
+    "to": "2026-11-09T17:37:00Z"
+  },
+  "sourceNotes": [
+    "Dwarkesh Patel RSS: HTTP 500 again; dead or flaky, a human should check or remove.",
+    "Metaplanet Google News RSS: reachable but items are mostly third-party bitcoin treasury news (Strive, Super League); no Metaplanet-authored view, so none used. @Metaplanet had no posts in the window.",
+    "Ben Evans feed newest item 2026-09-03 and One Useful Thing newest 2026-10-20: stale. Mitchell Hashimoto newest Nov 6 (Libghostty 1.0, already seen).",
+    "X search ignores since: and min_likes filters; searches used start_time with recency order, grouped by lane (4 calls). @LangChain posts in window were low engagement and low signal (eval-driven development academy video, Airbnb trust and safety agents session); not included.",
+    "@gerovich, @TaviCosta, @VitalikButerin, @LynAldenContact, @naval, @bhorowitz had no posts in the window. @theo, @swyx, @ThePrimeagen, @gregisenberg, @mattyp posts in window were mostly non-actionable (T3 Code open source, Gmail thread, local AI hardware, mattyp feedback reply).",
+    "authorBaseline and replies not captured this run to stay within the rate budget. X metrics read at the capturedAt time.",
+    "arXiv: cs.MA agents query returned only Nov 6 papers (separation principle MARL, incentive pathologies in LLM agent arena, ReSUM, etc.); none had a clear practical angle, no arXiv candidates.",
+    "RSS/HN items (Verge, MIT TR, Stratechery, Gary Marcus, Lenny) are headline-level; bodies not fetched. HN first request returned malformed query once, succeeded after URL-encoding."
+  ],
+  "candidates": [
+    {
+      "id": "poteto-rewrite-all-software",
+      "lens": "practical",
+      "summary": "poteto (lauren) posts: 'we are entering a renaissance in programming language and runtime research, and a golden age of software testing and verification. it's time to rewrite all software.'",
+      "source": {
+        "name": "poteto on X",
+        "url": "https://x.com/poteto/status/2119824409087348984",
+        "type": "x",
+        "handle": "poteto"
+      },
+      "publishedAt": "2026-11-09T16:08:18Z",
+      "metrics": {
+        "likes": 3051,
+        "reposts": 186,
+        "replies": 260,
+        "views": 71604,
+        "capturedAt": "2026-11-09T17:37:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/poteto/status/2119824409087348984",
+      "topic": "ai-verification-rewrite",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "poteto-grok-bot-11000-prs-talk",
+      "lens": "practical",
+      "summary": "poteto announces a talk at AI Engineer this Wednesday 10:10am PT on how the Grok Bot team shipped 11,000 PRs last month without compromising on code quality.",
+      "source": {
+        "name": "poteto on X",
+        "url": "https://x.com/poteto/status/2119841446308221152",
+        "type": "x",
+        "handle": "poteto"
+      },
+      "publishedAt": "2026-11-09T17:16:00Z",
+      "metrics": {
+        "likes": 305,
+        "reposts": 17,
+        "replies": 26,
+        "views": 10895,
+        "capturedAt": "2026-11-09T17:37:00Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "imageHint": "https://x.com/poteto/status/2119841446308221152",
+      "topic": "grok-bot-pr-scale",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "mattpocock-software-factory-defense-1",
+      "lens": "practical",
+      "summary": "Matt Pocock defends the term 'Software Factory': calls it hype and a bandwagon, but says it refers to a real change in how most teams worked earlier this year versus now (post text is truncated in the read).",
+      "source": {
+        "name": "mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2119748545691402733",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-09T11:06:50Z",
+      "metrics": {
+        "likes": 1278,
+        "reposts": 51,
+        "replies": 198,
+        "views": 84547,
+        "capturedAt": "2026-11-09T17:37:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/mattpocockuk/status/2119748545691402733",
+      "topic": "software-factory",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "hn-goldman-pulls-claude-code",
+      "lens": "practical",
+      "summary": "State of AI reports Goldman Sachs is pulling Claude Code from its bankers and traders; per the article, in July Goldman's tech chief praised tools traders built with AI coding agents, and new internal guidance hands those agents back to engineers, weeks before Goldman takes Anthropic public. HN: 861 points.",
+      "source": {
+        "name": "State of AI via Hacker News",
+        "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-02T00:00:00Z",
+      "care": 5,
+      "proof": 3,
+      "topic": "goldman-claude-code",
+      "firstSeen": "2026-11-09",
+      "facts": [
+        "HN item 50415628, 861 points at read time",
+        "Article dated Nov 2, 2026"
+      ]
+    },
+    {
+      "id": "hn-opus-55-nerfed-thinking-change",
+      "lens": "practical",
+      "summary": "Hacker News thread (382 points, 78 comments) linking a user's X post asking whether Opus 5.5 is nerfed, saying its thinking patterns changed on November 3. A user report, not confirmed by Anthropic in the source.",
+      "source": {
+        "name": "Hacker News",
+        "url": "https://twitter.com/shanemelaugh/status/2119192075505893695",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-08T00:00:00Z",
+      "care": 4,
+      "proof": 2,
+      "topic": "opus-55-behavior-change",
+      "firstSeen": "2026-11-09",
+      "facts": [
+        "HN item 50422069"
+      ]
+    },
+    {
+      "id": "lenny-codex-duolingo-how-i-ai",
+      "lens": "practical",
+      "summary": "Lenny's How I AI episode with William Imoh on how he built a better Duolingo with Codex.",
+      "source": {
+        "name": "Lenny's Newsletter",
+        "url": "https://www.lennysnewsletter.com/p/how-this-founder-built-a-better-duolingo",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-09T13:04:17Z",
+      "care": 3,
+      "proof": 3,
+      "topic": "codex-build-case",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "aravind-perplexity-teammates-usage",
+      "lens": "broad",
+      "summary": "Aravind Srinivas says Perplexity Teammates usage has gone up every day since launch, today already bigger than yesterday, with sustained weekend usage; he says reference Teammates and Teammates for financial research ship this week (post text truncated in the read).",
+      "source": {
+        "name": "AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2119834786286149715",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-09T16:49:32Z",
+      "metrics": {
+        "likes": 78,
+        "reposts": 5,
+        "replies": 31,
+        "views": 7277,
+        "capturedAt": "2026-11-09T17:37:00Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "imageHint": "https://x.com/AravSrinivas/status/2119834786286149715",
+      "topic": "perplexity-teammates",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "stratechery-huang-affair-culper",
+      "lens": "broad",
+      "summary": "Stratechery daily update titled 'Jensen Huang's Affair, The Culper Report, Huang's Righteousness'.",
+      "source": {
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-09T11:00:00Z",
+      "care": 3,
+      "proof": 2,
+      "topic": "nvidia-huang-affair",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "hn-nvidia-board-statement",
+      "lens": "broad",
+      "summary": "Nvidia published 'Statement from Nvidia board of directors' (HN 486 points) and a staff letter from Jensen Huang about an affair (HN 896 points). Headline-level only; bodies not read.",
+      "source": {
+        "name": "Nvidia Newsroom via Hacker News",
+        "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "care": 4,
+      "proof": 4,
+      "topic": "nvidia-huang-affair",
+      "firstSeen": "2026-11-09",
+      "facts": [
+        "HN items 50416801 and 50418016",
+        "Staff letter: https://nvidianews.nvidia.com/news/a-message-to-our-company"
+      ]
+    },
+    {
+      "id": "garymarcus-jensen-is-cooked",
+      "lens": "broad",
+      "summary": "Gary Marcus posts 'Jensen is cooked', following 'The Huang Affair: What did they know and when did they know it?' (contrarian source).",
+      "source": {
+        "name": "Gary Marcus",
+        "url": "https://garymarcus.substack.com/p/jensen-is-cooked",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-09T12:47:02Z",
+      "care": 2,
+      "proof": 2,
+      "topic": "nvidia-huang-affair",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "verge-trump-60-minutes-ai",
+      "lens": "broad",
+      "summary": "The Verge: Trump's 60 Minutes interview touched on AI safety and a threat to arrest an AI exec (headline-level).",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-09T16:00:35Z",
+      "care": 3,
+      "proof": 3,
+      "topic": "us-ai-policy",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "mittr-pelosi-replacement-regulate-ai",
+      "lens": "broad",
+      "summary": "MIT Technology Review: Nancy Pelosi's replacement is ready to regulate AI (headline-level).",
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-09T17:05:43Z",
+      "care": 3,
+      "proof": 3,
+      "topic": "us-ai-policy",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "verge-disney-adobe-genai",
+      "lens": "broad",
+      "summary": "The Verge: Disney and Adobe are building generative AI tools together (headline-level).",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-09T15:54:52Z",
+      "care": 3,
+      "proof": 3,
+      "topic": "disney-adobe-genai",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "nathanbenaich-open-cyber-models-defenders",
+      "lens": "broad",
+      "summary": "Nathan Benaich: open cyber models can put more powerful tools in attackers' hands, and defenders need those capabilities too. He says Hugging Face said commercial API guardrails hindered its investigation of an intrusion, leading it to use a self-hosted open model.",
+      "source": {
+        "name": "nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2119822323650076803",
+        "type": "x",
+        "handle": "nathanbenaich"
+      },
+      "publishedAt": "2026-11-09T16:00:01Z",
+      "metrics": {
+        "likes": 1,
+        "reposts": 0,
+        "replies": 4,
+        "views": 619,
+        "capturedAt": "2026-11-09T17:37:00Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "imageHint": "https://x.com/nathanbenaich/status/2119822323650076803",
+      "topic": "open-cyber-models",
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "id": "mengto-apartment-threejs-opus55-2",
+      "lens": "design",
+      "summary": "MengTo turned his apartment into an interactive three.js scene with Opus 5.5 for tutorial videos; walkable in the browser, adjustable lighting and render styles.",
+      "source": {
+        "name": "MengTo on X",
+        "url": "https://x.com/MengTo/status/2119746949121495303",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-09T11:00:30Z",
+      "metrics": {
+        "likes": 898,
+        "reposts": 35,
+        "replies": 75,
+        "views": 46667,
+        "capturedAt": "2026-11-09T17:37:00Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "imageHint": "https://x.com/MengTo/status/2119746949121495303",
+      "topic": "threejs-3d-design",
+      "firstSeen": "2026-11-09"
+    }
+  ]
+}
