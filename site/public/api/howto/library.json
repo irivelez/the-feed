@@ -1,7 +1,37 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-08T19:20:00-05:00",
+  "updatedAt": "2026-11-09T07:22:00-05:00",
   "howtos": [
+    {
+      "id": "collapse-ai-pr-description-details-summary",
+      "dedupeKey": "collapse-ai-pr-description-details-summary",
+      "title": "Hide the bulk of AI-written PR descriptions behind a fold",
+      "what": "Wrap most of an AI-generated GitHub PR description in a collapsed <details><summary> block so reviewers see less slop.",
+      "kind": "steps",
+      "copy": [
+        "Put the bulk of the AI-generated PR description inside a <details><summary> HTML block, which GitHub Markdown renders collapsed."
+      ],
+      "whenToUse": "When coding agents write long PR descriptions that tire out human reviewers.",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/9/details-summary/"
+      },
+      "author": {
+        "name": "Simon Willison",
+        "handle": "simonw"
+      },
+      "tags": [
+        "coding-agents",
+        "code-review"
+      ],
+      "addedAt": "2026-11-09T07:22:00-05:00",
+      "quality": 3,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-09-0700",
+        "itemId": "simonw-details-summary-pr"
+      }
+    },
     {
       "id": "agent-optimize-to-beat-rival-implementation",
       "dedupeKey": "agent-optimize-to-beat-rival-implementation",
