@@ -1,0 +1,367 @@
+{
+ "schemaVersion": "1.1",
+ "runId": "2026-11-10-1838",
+ "generatedAt": "2026-11-10T18:38:00-05:00",
+ "configVersions": {
+  "sources": "1.3.0",
+  "preferences": "1.1.0"
+ },
+ "window": {
+  "from": "2026-11-10T17:25:00Z",
+  "to": "2026-11-10T23:38:00Z"
+ },
+ "sourceNotes": [
+  "Dwarkesh Patel RSS: HTTP 500 again (single attempt); dead or flaky, a human should check or remove.",
+  "arXiv, Hacker News, Ben Evans and Metaplanet Google News not queried this run (arXiv 500 in prior runs; Ben Evans stale since 2026-09-03; Metaplanet items third-party noise); no candidates from them.",
+  "X lane searches: three calls (howTo, bigPicture, frontierCapital+design), newest 25 each since 17:25Z, plus one post lookup to resolve authors; the first call's author field was not returned so handles were resolved by id. 25-result cap means lower-volume handles may be missing.",
+  "frontierCapital/design lane: only RayDalio, bhorowitz and a NATO-drone-related post in window, all skipped as off-lens or non-substantive; no frontier-capital or design candidates this run. MengTo, Metaplanet, naval, VitalikButerin, gerovich, nathanbenaich had no posts in window.",
+  "X topic queries, authorBaseline and reply capture not run to stay in budget; no bestReply. Views = impression_count.",
+  "Simon Willison, OpenAI Blog, Mollick, MIT Tech Review, Mitchell Hashimoto feeds fetched OK; items were already covered in earlier runs or not post-worthy this window.",
+  "Several rss items are headline-level only; bodies not read."
+ ],
+ "candidates": [
+  {
+   "id": "cursor-projects-multiplayer",
+   "lens": "practical",
+   "summary": "Cursor says Projects was rebuilt for multiplayer: teammates and their agents work together in one workspace, and agents can coordinate with teammates' agents.",
+   "source": {
+    "name": "cursor_ai on X",
+    "url": "https://x.com/cursor_ai/status/2120295553309565139",
+    "type": "x",
+    "handle": "cursor_ai"
+   },
+   "publishedAt": "2026-11-10T23:20:27Z",
+   "metrics": {
+    "likes": 397,
+    "reposts": 33,
+    "replies": 45,
+    "views": 15477,
+    "capturedAt": "2026-11-10T18:38:00-05:00"
+   },
+   "care": 4,
+   "proof": 3,
+   "firstSeen": "2026-11-10",
+   "topic": "cursor-multiplayer-projects",
+   "imageHint": "https://x.com/cursor_ai/status/2120295553309565139"
+  },
+  {
+   "id": "claudedevs-usage-reset",
+   "lens": "practical",
+   "summary": "ClaudeDevs: all Pro, Max, Ultra and Team users get one free full reset across all models and limits, usable before December 10 at 2:00PM PT. Says recent issues used more limits than intended.",
+   "source": {
+    "name": "ClaudeDevs on X",
+    "url": "https://x.com/ClaudeDevs/status/2120275296637321476",
+    "type": "x",
+    "handle": "ClaudeDevs"
+   },
+   "publishedAt": "2026-11-10T21:59:58Z",
+   "metrics": {
+    "likes": 16971,
+    "reposts": 1002,
+    "replies": 933,
+    "views": 549990,
+    "capturedAt": "2026-11-10T18:38:00-05:00"
+   },
+   "care": 3,
+   "proof": 4,
+   "firstSeen": "2026-11-10",
+   "topic": "claude-usage-reset",
+   "imageHint": "https://x.com/ClaudeDevs/status/2120275296637321476",
+   "facts": [
+    "Reset is in Settings > Usage, or at clau.de/reset."
+   ]
+  },
+  {
+   "id": "claudedevs-mcp-apps-interactive-connectors",
+   "lens": "practical",
+   "summary": "ClaudeDevs: Claude now supports more of the MCP Apps extension (app tools, embedded sites) so a full app can run inside Claude. Interactive connectors open the full tool (Adobe, Atlassian, Box) beside the conversation on web and desktop.",
+   "source": {
+    "name": "ClaudeDevs on X",
+    "url": "https://x.com/ClaudeDevs/status/2120227979041341943",
+    "type": "x",
+    "handle": "ClaudeDevs"
+   },
+   "publishedAt": "2026-11-10T18:51:56Z",
+   "metrics": {
+    "likes": 2452,
+    "reposts": 98,
+    "replies": 82,
+    "views": 176923,
+    "capturedAt": "2026-11-10T18:38:00-05:00"
+   },
+   "care": 5,
+   "proof": 4,
+   "firstSeen": "2026-11-10",
+   "topic": "claude-workspace-tools",
+   "imageHint": "https://x.com/ClaudeDevs/status/2120227979041341943"
+  },
+  {
+   "id": "mattpocock-home-repo-agents",
+   "lens": "practical",
+   "summary": "Matt Pocock describes a 'Home Repo' pattern: one repo holds skills, steering files and wiki; the agent runs there and AGENTS.md points to clones of other repos, enabling sweeping changes across repos.",
+   "source": {
+    "name": "mattpocockuk on X",
+    "url": "https://x.com/mattpocockuk/status/2120260969750540327",
+    "type": "x",
+    "handle": "mattpocockuk"
+   },
+   "publishedAt": "2026-11-10T21:03:02Z",
+   "metrics": {
+    "likes": 851,
+    "reposts": 44,
+    "replies": 84,
+    "views": 42684,
+    "capturedAt": "2026-11-10T18:38:00-05:00"
+   },
+   "care": 4,
+   "proof": 3,
+   "firstSeen": "2026-11-10",
+   "topic": "agents-multi-repo",
+   "imageHint": "https://x.com/mattpocockuk/status/2120260969750540327",
+   "facts": [
+    "Post lists three benefits: steering files and tooling in one place, one spot to run agents, sweeping changes over multiple repos."
+   ]
+  },
+  {
+   "id": "swyx-cloud-agents-untangle-talk",
+   "lens": "practical",
+   "summary": "swyx quotes notes from a talk with Adam Wathan and Scott Wu: 'If you're coding locally, stop. You really need to be coding with a cloud agent.' Talk by a founder on how they build with agents at Untangle, with Devin.",
+   "source": {
+    "name": "swyx on X",
+    "url": "https://x.com/swyx/status/2120241063193706960",
+    "type": "x",
+    "handle": "swyx"
+   },
+   "publishedAt": "2026-11-10T19:43:56Z",
+   "metrics": {
+    "likes": 70,
+    "reposts": 2,
+    "replies": 89,
+    "views": 7294,
+    "capturedAt": "2026-11-10T18:38:00-05:00"
+   },
+   "care": 3,
+   "proof": 2,
+   "firstSeen": "2026-11-10",
+   "topic": "cloud-agents",
+   "imageHint": "https://x.com/swyx/status/2120241063193706960"
+  },
+  {
+   "id": "steipete-gpt6-astra-vulnerabilities",
+   "lens": "broad",
+   "summary": "Peter Steinberger quotes a report: a company scanning about 700 systems found 10,500 vulnerabilities, then re-ran diagnostics with OpenAI's 'GPT-6 Astra' and found 35,000 new ones.",
+   "source": {
+    "name": "steipete on X",
+    "url": "https://x.com/steipete/status/2120228665946710248",
+    "type": "x",
+    "handle": "steipete"
+   },
+   "publishedAt": "2026-11-10T18:54:40Z",
+   "metrics": {
+    "likes": 798,
+    "reposts": 84,
+    "replies": 84,
+    "views": 70122,
+    "capturedAt": "2026-11-10T18:38:00-05:00"
+   },
+   "care": 4,
+   "proof": 3,
+   "firstSeen": "2026-11-10",
+   "topic": "agent-security",
+   "imageHint": "https://x.com/steipete/status/2120228665946710248",
+   "facts": [
+    "Linked source: finance.biggo.com/news/2cb8f108-49d2-4df2-a41d-d1e1663564e7. Post text is a quote of that article; original company not named in the post excerpt."
+   ]
+  },
+  {
+   "id": "openai-businesses-in-chatgpt",
+   "lens": "broad",
+   "summary": "OpenAI: Businesses in ChatGPT is in beta. Businesses can claim their profile, manage information, see engagement insights, and build a Business Agent to answer customer questions.",
+   "source": {
+    "name": "OpenAI on X",
+    "url": "https://x.com/OpenAI/status/2120216592395174382",
+    "type": "x",
+    "handle": "OpenAI"
+   },
+   "publishedAt": "2026-11-10T18:06:42Z",
+   "metrics": {
+    "likes": 10050,
+    "reposts": 713,
+    "replies": 698,
+    "views": 1901290,
+    "capturedAt": "2026-11-10T18:38:00-05:00"
+   },
+   "care": 4,
+   "proof": 5,
+   "firstSeen": "2026-11-10",
+   "topic": "agent-commerce",
+   "imageHint": "https://x.com/OpenAI/status/2120216592395174382",
+   "related": [
+    {
+     "name": "OpenAI: Introducing Businesses in ChatGPT",
+     "url": "https://openai.com/index/introducing-businesses-chatgpt"
+    },
+    {
+     "name": "The Verge: ChatGPT is getting verified AI 'Business Agents'",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub"
+    }
+   ]
+  },
+  {
+   "id": "patrickc-openrouter-stripe",
+   "lens": "broad",
+   "summary": "Patrick Collison: OpenRouter is serving about 125% more tokens per week than when the acquisition was announced in August. Stripe's own post: OpenRouter is now part of Stripe, to help businesses explore models and optimize token routing and usage.",
+   "source": {
+    "name": "patrickc on X",
+    "url": "https://x.com/patrickc/status/2120281206155853956",
+    "type": "x",
+    "handle": "patrickc"
+   },
+   "publishedAt": "2026-11-10T22:23:27Z",
+   "metrics": {
+    "likes": 191,
+    "reposts": 5,
+    "replies": 24,
+    "views": 17260,
+    "capturedAt": "2026-11-10T18:38:00-05:00"
+   },
+   "care": 4,
+   "proof": 4,
+   "firstSeen": "2026-11-10",
+   "topic": "openrouter-stripe",
+   "imageHint": "https://x.com/patrickc/status/2120281206155853956"
+  },
+  {
+   "id": "sundar-alphaproof-signal-protocol",
+   "lens": "broad",
+   "summary": "Sundar Pichai: Gemini 4 Carbon with AlphaProof Code generated over 6M lines of machine-checked Lean proofs verifying the Signal protocol down to compiled device code; about 1% of the codebase needed human review; results are being open sourced.",
+   "source": {
+    "name": "sundarpichai on X",
+    "url": "https://x.com/sundarpichai/status/2120207062655549933",
+    "type": "x",
+    "handle": "sundarpichai"
+   },
+   "publishedAt": "2026-11-10T17:28:49Z",
+   "metrics": {
+    "likes": 2181,
+    "reposts": 170,
+    "replies": 141,
+    "views": 141466,
+    "capturedAt": "2026-11-10T18:38:00-05:00"
+   },
+   "care": 5,
+   "proof": 4,
+   "firstSeen": "2026-11-10",
+   "topic": "alphaproof-code",
+   "imageHint": "https://x.com/sundarpichai/status/2120207062655549933"
+  },
+  {
+   "id": "aravind-carbon-cheaper-than-fable",
+   "lens": "broad",
+   "summary": "Aravind Srinivas: Gemini 4 Carbon is rolling out to Perplexity Pro and Max; he says it is 2.5x cheaper than Fable 5.2 with similar capabilities on agentic research tasks (his claim, no benchmark linked).",
+   "source": {
+    "name": "AravSrinivas on X",
+    "url": "https://x.com/AravSrinivas/status/2120208455965569262",
+    "type": "x",
+    "handle": "AravSrinivas"
+   },
+   "publishedAt": "2026-11-10T17:34:22Z",
+   "metrics": {
+    "likes": 428,
+    "reposts": 28,
+    "replies": 45,
+    "views": 36249,
+    "capturedAt": "2026-11-10T18:38:00-05:00"
+   },
+   "care": 4,
+   "proof": 2,
+   "firstSeen": "2026-11-10",
+   "topic": "gemini-4-carbon",
+   "imageHint": "https://x.com/AravSrinivas/status/2120208455965569262"
+  },
+  {
+   "id": "theo-reinvent-email-client",
+   "lens": "practical",
+   "summary": "Theo says now is a good time to reinvent the email client; the last attempts failed but 'things feel different rn'. Opinion only, no product or proof.",
+   "source": {
+    "name": "theo on X",
+    "url": "https://x.com/theo/status/2120284214566535383",
+    "type": "x",
+    "handle": "theo"
+   },
+   "publishedAt": "2026-11-10T22:35:24Z",
+   "metrics": {
+    "likes": 712,
+    "reposts": 6,
+    "replies": 133,
+    "views": 22825,
+    "capturedAt": "2026-11-10T18:38:00-05:00"
+   },
+   "care": 2,
+   "proof": 1,
+   "firstSeen": "2026-11-10",
+   "topic": "agent-workflow-ui",
+   "imageHint": "https://x.com/theo/status/2120284214566535383"
+  },
+  {
+   "id": "verge-anthropic-office-suite",
+   "lens": "broad",
+   "summary": "The Verge reports Anthropic now has its own AI-powered office suite (headline-level; body not read).",
+   "source": {
+    "name": "The Verge AI",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-10T15:13:38Z",
+   "care": 4,
+   "proof": 2,
+   "firstSeen": "2026-11-10",
+   "topic": "claude-workspace-tools"
+  },
+  {
+   "id": "marcus-just-say-no-anthropic-ipo",
+   "lens": "broad",
+   "summary": "Gary Marcus publishes 'Just say no to Anthropic's IPO' (contrarian view; headline-level, body not read).",
+   "source": {
+    "name": "Gary Marcus",
+    "url": "https://garymarcus.substack.com/p/just-say-no-to-anthropics-ipo",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-10T14:37:21Z",
+   "care": 3,
+   "proof": 2,
+   "firstSeen": "2026-11-10",
+   "topic": "anthropic-ipo"
+  },
+  {
+   "id": "stratechery-huang-story-gets-worse",
+   "lens": "broad",
+   "summary": "Stratechery's Tuesday update: 'The Jensen Huang Story Gets Worse, Washington vs. New York, Silicon Valley' (headline-level; body not read). The Verge ran 'The US is winning the AI race. Jensen Huang could have blown it'.",
+   "source": {
+    "name": "Ben Thompson (Stratechery)",
+    "url": "https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-10T11:00:00Z",
+   "care": 3,
+   "proof": 3,
+   "firstSeen": "2026-11-10",
+   "topic": "nvidia-huang-affair"
+  },
+  {
+   "id": "lenny-state-tech-job-market-late-2026",
+   "lens": "broad",
+   "summary": "Lenny's Newsletter: 'State of the tech job market: late 2026' (headline-level; body not read).",
+   "source": {
+    "name": "Lenny Rachitsky",
+    "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-10T15:04:03Z",
+   "care": 3,
+   "proof": 2,
+   "firstSeen": "2026-11-10",
+   "topic": "tech-job-market"
+  }
+ ]
+}
