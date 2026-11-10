@@ -1,0 +1,623 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-10-1231",
+  "generatedAt": "2026-11-10T12:31:00-05:00",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-10T11:38:00Z",
+    "to": "2026-11-10T17:31:00Z"
+  },
+  "sourceNotes": [
+    "Dwarkesh Patel RSS: HTTP 500 (single attempt); dead or flaky, a human should check or remove.",
+    "arXiv API not queried this run (500 on every query form in prior runs); no arXiv candidates.",
+    "Ben Evans and Metaplanet Google News feeds not re-fetched this run; Ben Evans was stale since 2026-09-03 and Metaplanet items were third-party and noisy in the 06:38 run.",
+    "X lane searches: three calls (howTo handles, bigPicture handles, frontierCapital + design handles), newest 25 each; max 25 results caps coverage so lower-volume handles in the long bigPicture list may be missing. @gerovich, @bhorowitz, @naval, @VitalikButerin, @Metaplanet had no posts in window; @TaviCosta posted a silver-miners chart, skipped as a market tip; @RayDalio posted a general life-choices note, skipped.",
+    "X topic queries, authorBaseline and reply capture not run this run to stay in rate budget; no bestReply. Views = impression_count.",
+    "Several rss items (Verge, Mollick, Lenny) are headline-level only; bodies not read.",
+    "HN (Algolia, >=200 points, last 36h): most hits are non-AI and ignored; AI hits used as candidates or related links."
+  ],
+  "candidates": [
+    {
+      "id": "sundarpichai-gemini-4-carbon-launch",
+      "lens": "broad",
+      "summary": "Sundar Pichai announces Gemini 4 Carbon rolling out today, built for sustained long-horizon tasks: software engineering, cybersecurity, scientific discovery.",
+      "source": {
+        "name": "sundarpichai on X",
+        "url": "https://x.com/sundarpichai/status/2120185896469496180",
+        "type": "x",
+        "handle": "sundarpichai"
+      },
+      "publishedAt": "2026-11-10T16:04:43Z",
+      "metrics": {
+        "likes": 3877,
+        "reposts": 284,
+        "replies": 318,
+        "views": 227052,
+        "capturedAt": "2026-11-10T12:31:00-05:00"
+      },
+      "care": 5,
+      "proof": 4,
+      "firstSeen": "2026-11-10",
+      "topic": "gemini-4-carbon",
+      "imageHint": "https://x.com/sundarpichai/status/2120185896469496180",
+      "facts": [
+        "Post: available globally via the Gemini API in Google AI Studio and Gemini for business, and for Ultra."
+      ],
+      "related": [
+        {
+          "name": "The Verge: Google releases Gemini 4 Carbon with agent 'swarm' feature",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
+        }
+      ]
+    },
+    {
+      "id": "cursor-gemini-4-carbon-cursorbench",
+      "lens": "practical",
+      "summary": "Cursor says Gemini 4 Carbon is available in Cursor and, at high effort, is the top model on CursorBench at 60.4%.",
+      "source": {
+        "name": "cursor_ai on X",
+        "url": "https://x.com/cursor_ai/status/2120193584670580857",
+        "type": "x",
+        "handle": "cursor_ai"
+      },
+      "publishedAt": "2026-11-10T16:35:16Z",
+      "metrics": {
+        "likes": 1766,
+        "reposts": 89,
+        "replies": 124,
+        "views": 78612,
+        "capturedAt": "2026-11-10T12:31:00-05:00"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-10",
+      "topic": "gemini-4-carbon",
+      "imageHint": "https://x.com/cursor_ai/status/2120193584670580857"
+    },
+    {
+      "id": "sundarpichai-carbon-antigravity-swarm",
+      "lens": "practical",
+      "summary": "Sundar Pichai shows a Carbon demo of long-horizon coding using the new /swarm feature in Google Antigravity: builder and critic subagents ran iterative loops across Blender and Three.js, checking their own renders to build a playable 3D game.",
+      "source": {
+        "name": "sundarpichai on X",
+        "url": "https://x.com/sundarpichai/status/2120198811297694192",
+        "type": "x",
+        "handle": "sundarpichai"
+      },
+      "publishedAt": "2026-11-10T16:56:02Z",
+      "metrics": {
+        "likes": 1080,
+        "reposts": 75,
+        "replies": 110,
+        "views": 66572,
+        "capturedAt": "2026-11-10T12:31:00-05:00"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-10",
+      "topic": "gemini-4-carbon",
+      "imageHint": "https://x.com/sundarpichai/status/2120198811297694192",
+      "related": [
+        {
+          "name": "The Verge: Gemini 4 Carbon agent swarm",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
+        }
+      ]
+    },
+    {
+      "id": "gregisenberg-gemini-4-carbon-7-days",
+      "lens": "practical",
+      "summary": "Greg Isenberg shares observations after testing Gemini 4 Carbon for 7 days, citing terminal-bench shortcut success at 0.0% and prompt injection attack success of 0.0% on Gray Swan's benchmark.",
+      "source": {
+        "name": "gregisenberg on X",
+        "url": "https://x.com/gregisenberg/status/2120188488997875828",
+        "type": "x",
+        "handle": "gregisenberg"
+      },
+      "publishedAt": "2026-11-10T16:15:01Z",
+      "metrics": {
+        "likes": 150,
+        "reposts": 6,
+        "replies": 64,
+        "views": 16894,
+        "capturedAt": "2026-11-10T12:31:00-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "gemini-4-carbon",
+      "imageHint": "https://x.com/gregisenberg/status/2120188488997875828",
+      "facts": [
+        "Numbers are the author's claims in the post; the thread was quoting Sundar Pichai's launch post."
+      ]
+    },
+    {
+      "id": "sundarpichai-alphaproof-code-signal-protocol",
+      "lens": "broad",
+      "summary": "Sundar Pichai says Google teams used Gemini 4 Carbon and AlphaProof Code to have agents mathematically verify the code underlying the Signal protocol down to compiled device code.",
+      "source": {
+        "name": "sundarpichai on X",
+        "url": "https://x.com/sundarpichai/status/2120207062655549933",
+        "type": "x",
+        "handle": "sundarpichai"
+      },
+      "publishedAt": "2026-11-10T17:28:49Z",
+      "metrics": {
+        "likes": 19,
+        "reposts": 5,
+        "replies": 4,
+        "views": 5094,
+        "capturedAt": "2026-11-10T12:31:00-05:00"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-10",
+      "topic": "alphaproof-code",
+      "imageHint": "https://x.com/sundarpichai/status/2120207062655549933",
+      "facts": [
+        "HN thread 'AlphaProof Code' reached 435 points."
+      ],
+      "related": [
+        {
+          "name": "DeepMind: Introducing AlphaProof Code",
+          "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+        },
+        {
+          "name": "HN discussion",
+          "url": "https://news.ycombinator.com/item?id=50439193"
+        }
+      ]
+    },
+    {
+      "id": "claudeai-whiteboards-sheets-data",
+      "lens": "practical",
+      "summary": "Claude announces it is rolling out Claude Whiteboards, Claude Sheets and Claude Data: plan on a board, build a tracker in a sheet, tell a story with data.",
+      "source": {
+        "name": "claudeai on X",
+        "url": "https://x.com/claudeai/status/2120206365759094857",
+        "type": "x",
+        "handle": "claudeai"
+      },
+      "publishedAt": "2026-11-10T17:26:03Z",
+      "metrics": {
+        "likes": 794,
+        "reposts": 56,
+        "replies": 60,
+        "views": 29108,
+        "capturedAt": "2026-11-10T12:31:00-05:00"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-10",
+      "topic": "claude-workspace-tools",
+      "imageHint": "https://x.com/claudeai/status/2120206365759094857"
+    },
+    {
+      "id": "claudeai-fable-52-cell-thread",
+      "lens": "broad",
+      "summary": "Claude shares a thread of early Fable 5.2 experiments, opening with a 3D model of a cell built entirely from code one organelle at a time by @kevin_t_ngo.",
+      "source": {
+        "name": "claudeai on X",
+        "url": "https://x.com/claudeai/status/2120174844822298730",
+        "type": "x",
+        "handle": "claudeai"
+      },
+      "publishedAt": "2026-11-10T15:20:48Z",
+      "metrics": {
+        "likes": 7754,
+        "reposts": 473,
+        "replies": 288,
+        "views": 367205,
+        "capturedAt": "2026-11-10T12:31:00-05:00"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-10",
+      "topic": "fable-52-launch",
+      "imageHint": "https://x.com/claudeai/status/2120174844822298730",
+      "related": [
+        {
+          "name": "Anthropic: Claude Fable 5.2 and Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+        },
+        {
+          "name": "HN: Claude Fable 5.2 and Mythos 5.2 (982 points)",
+          "url": "https://news.ycombinator.com/item?id=50429906"
+        }
+      ]
+    },
+    {
+      "id": "openai-cyber-at-the-frontier",
+      "lens": "broad",
+      "summary": "OpenAI says it is turning lessons from defending OpenAI into tools for customers, and announces a live keynote 'Cyber at the Frontier' on Thursday with new cyber announcements; says frontier models identified and resolved important vulnerabilities.",
+      "source": {
+        "name": "OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2120202353907486826",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "publishedAt": "2026-11-10T17:10:07Z",
+      "metrics": {
+        "likes": 619,
+        "reposts": 38,
+        "replies": 196,
+        "views": 65804,
+        "capturedAt": "2026-11-10T12:31:00-05:00"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "openai-cyber",
+      "imageHint": "https://x.com/OpenAI/status/2120202353907486826"
+    },
+    {
+      "id": "rauchg-vercel-security-review-week-one",
+      "lens": "practical",
+      "summary": "Guillermo Rauch reports Vercel Security Review numbers less than 1 week after launch: 57,897 vulnerabilities identified, 6,029 critical or high, 14,665 already patched by the agent.",
+      "source": {
+        "name": "rauchg on X",
+        "url": "https://x.com/rauchg/status/2120188488628977819",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "publishedAt": "2026-11-10T16:15:01Z",
+      "metrics": {
+        "likes": 159,
+        "reposts": 7,
+        "replies": 59,
+        "views": 13336,
+        "capturedAt": "2026-11-10T12:31:00-05:00"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "agent-security",
+      "imageHint": "https://x.com/rauchg/status/2120188488628977819",
+      "facts": [
+        "Numbers are from the author's post, not independently verified."
+      ]
+    },
+    {
+      "id": "aravsrinivas-perplexity-teammates-adoption",
+      "lens": "broad",
+      "summary": "Aravind Srinivas says Perplexity Teammates adoption keeps growing and automations doubled in usage yesterday; use cases listed: SEO analyst, ad campaign managers, customer support bots, data analysts, sales outbound, recruiting, security.",
+      "source": {
+        "name": "AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2120177049666982125",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-10T15:29:34Z",
+      "metrics": {
+        "likes": 83,
+        "reposts": 4,
+        "replies": 47,
+        "views": 10486,
+        "capturedAt": "2026-11-10T12:31:00-05:00"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-10",
+      "topic": "agent-adoption",
+      "imageHint": "https://x.com/AravSrinivas/status/2120177049666982125",
+      "facts": [
+        "No usage figures beyond 'doubled' given."
+      ]
+    },
+    {
+      "id": "mattpocockuk-decision-ticket-board",
+      "lens": "practical",
+      "summary": "Matt Pocock previews a shared 'decision ticket' board UI where teams talk through decisions before implementation, so alignment happens early instead of at review.",
+      "source": {
+        "name": "mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2120135880916808093",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-10T12:45:58Z",
+      "metrics": {
+        "likes": 277,
+        "reposts": 5,
+        "replies": 56,
+        "views": 21742,
+        "capturedAt": "2026-11-10T12:31:00-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "agent-workflow-ui",
+      "imageHint": "https://x.com/mattpocockuk/status/2120135880916808093"
+    },
+    {
+      "id": "theo-t3-code-popular",
+      "lens": "practical",
+      "summary": "Theo claims T3 Code is popular because it is the best coding app right now.",
+      "source": {
+        "name": "theo on X",
+        "url": "https://x.com/theo/status/2120130898150707537",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-10T12:26:10Z",
+      "metrics": {
+        "likes": 457,
+        "reposts": 6,
+        "replies": 75,
+        "views": 36854,
+        "capturedAt": "2026-11-10T12:31:00-05:00"
+      },
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-11-10",
+      "topic": "coding-apps",
+      "imageHint": "https://x.com/theo/status/2120130898150707537",
+      "facts": [
+        "Opinion/promo post; low proof."
+      ]
+    },
+    {
+      "id": "lynalden-nvidia-scandal-market",
+      "lens": "broad",
+      "summary": "Lyn Alden notes the stock market was up over 2% while Nvidia fell less than 5% on the scandal news, and says there is more risk ahead.",
+      "source": {
+        "name": "LynAldenContact on X",
+        "url": "https://x.com/LynAldenContact/status/2119944865127727239",
+        "type": "x",
+        "handle": "LynAldenContact"
+      },
+      "publishedAt": "2026-11-10T00:06:57Z",
+      "metrics": {
+        "likes": 658,
+        "reposts": 16,
+        "replies": 34,
+        "views": 53478,
+        "capturedAt": "2026-11-10T12:31:00-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "nvidia-huang-affair",
+      "imageHint": "https://x.com/LynAldenContact/status/2119944865127727239",
+      "related": [
+        {
+          "name": "Stratechery: The Jensen Huang Story Gets Worse",
+          "url": "https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/"
+        }
+      ]
+    },
+    {
+      "id": "lynalden-nvidia-gpu-demand-2027",
+      "lens": "frontier-capital",
+      "summary": "Lyn Alden says she is neutral/bearish on Jensen Huang's CEO tenure and bullish on 2027 GPU demand.",
+      "source": {
+        "name": "LynAldenContact on X",
+        "url": "https://x.com/LynAldenContact/status/2119961265099411681",
+        "type": "x",
+        "handle": "LynAldenContact"
+      },
+      "publishedAt": "2026-11-10T01:12:07Z",
+      "metrics": {
+        "likes": 1062,
+        "reposts": 37,
+        "replies": 57,
+        "views": 127049,
+        "capturedAt": "2026-11-10T12:31:00-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "nvidia-huang-affair",
+      "imageHint": "https://x.com/LynAldenContact/status/2119961265099411681",
+      "facts": [
+        "Quote-post; the quoted post was not read."
+      ]
+    },
+    {
+      "id": "mengto-flash-model-loop-landing-pages",
+      "lens": "design",
+      "summary": "Meng To says he ran a Flash model (SenseNova 6.8 Flash) in a loop for 24h: 800+ versions of three 3D landing pages, each screenshotted, critiqued and rebuilt; model bill $0.",
+      "source": {
+        "name": "MengTo on X",
+        "url": "https://x.com/MengTo/status/2120169790220468534",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-10T15:00:43Z",
+      "metrics": {
+        "likes": 24,
+        "reposts": 1,
+        "replies": 9,
+        "views": 3368,
+        "capturedAt": "2026-11-10T12:31:00-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "design-agent-loops",
+      "imageHint": "https://x.com/MengTo/status/2120169790220468534",
+      "facts": [
+        "Numbers are the author's claims; the loop itself is linked in the post."
+      ]
+    },
+    {
+      "id": "mengto-lottie-ai-landing-page",
+      "lens": "design",
+      "summary": "Meng To built a landing page with Opus 5.5 and Lottie AI from LottieFiles; the card, logo and menu icons are Lottie files, the card is 51 KB.",
+      "source": {
+        "name": "MengTo on X",
+        "url": "https://x.com/MengTo/status/2120109458638712924",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-10T11:00:59Z",
+      "metrics": {
+        "likes": 169,
+        "reposts": 12,
+        "replies": 35,
+        "views": 10822,
+        "capturedAt": "2026-11-10T12:31:00-05:00"
+      },
+      "care": 2,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "design-agent-loops",
+      "imageHint": "https://x.com/MengTo/status/2120109458638712924"
+    },
+    {
+      "id": "verge-anthropic-1-4-trillion-ipo",
+      "lens": "broad",
+      "summary": "The Verge reports Anthropic targets a $1.4 trillion IPO (headline-level; article body not read).",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-10T16:38:24Z",
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "anthropic-ipo"
+    },
+    {
+      "id": "verge-ebay-shuts-out-ai-agents",
+      "lens": "broad",
+      "summary": "The Verge reports eBay appears to have shut the door on third-party AI agents (headline-level; article body not read).",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-10T16:20:30Z",
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "agent-commerce"
+    },
+    {
+      "id": "verge-adobe-max-agentic-mcp",
+      "lens": "broad",
+      "summary": "The Verge reports Adobe is going all in on agentic AI at Adobe MAX, with MCP, Firefly assistant and agent updates (headline-level; body not read).",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-10T11:24:56Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "adobe-max-agents"
+    },
+    {
+      "id": "hn-strands-decider-sonnet-replacement",
+      "lens": "practical",
+      "summary": "Amazon's Strands blog says Amazon saves millions by replacing Sonnet 4.6 with Strands Decider; HN thread at 591 points.",
+      "source": {
+        "name": "Strands Agents blog (via HN)",
+        "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-10T06:01:08Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-10",
+      "topic": "strands-decider",
+      "related": [
+        {
+          "name": "HN discussion",
+          "url": "https://news.ycombinator.com/item?id=50436640"
+        }
+      ]
+    },
+    {
+      "id": "hn-fable-52-one-shotted-game",
+      "lens": "practical",
+      "summary": "Notes by Lex: 'Fable 5.2 one-shotted my nephew's dream game'; HN thread at 464 points.",
+      "source": {
+        "name": "notesbylex.com (via HN)",
+        "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-09T23:08:13Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "fable-52-launch",
+      "related": [
+        {
+          "name": "HN discussion",
+          "url": "https://news.ycombinator.com/item?id=50433659"
+        }
+      ]
+    },
+    {
+      "id": "hn-artificial-analysis-fable-52-score",
+      "lens": "broad",
+      "summary": "Artificial Analysis lists Claude Fable 5.2 at a score of 65, the highest so far on its index (per the HN title; HN thread 363 points).",
+      "source": {
+        "name": "Artificial Analysis (via HN)",
+        "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-09T20:04:55Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-10",
+      "topic": "fable-52-launch",
+      "related": [
+        {
+          "name": "HN discussion",
+          "url": "https://news.ycombinator.com/item?id=50431144"
+        }
+      ]
+    },
+    {
+      "id": "hn-chatgpt-desktop-ssh-agent",
+      "lens": "practical",
+      "summary": "HN thread (213 points): 'ChatGPT Desktop forwards your SSH agent to remote machines'; no linked article, discussion only.",
+      "source": {
+        "name": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50422628",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-09T08:17:49Z",
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-10",
+      "topic": "agent-security"
+    },
+    {
+      "id": "mollick-fable-52-jagged-agi",
+      "lens": "broad",
+      "summary": "Ethan Mollick published 'Fable 5.2 and Jagged AGI' (headline-level; body not read this run).",
+      "source": {
+        "name": "One Useful Thing",
+        "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-09T19:04:26Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "fable-52-launch"
+    },
+    {
+      "id": "lenny-fable-52-review",
+      "lens": "practical",
+      "summary": "Lenny's Newsletter published 'Claude Fable 5.2 review: fast, creative, and finally not annoying' (headline-level; body not read).",
+      "source": {
+        "name": "Lenny Rachitsky",
+        "url": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-09T20:37:49Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "fable-52-launch"
+    }
+  ]
+}
