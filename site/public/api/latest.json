@@ -1,31 +1,256 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-09-1900",
-  "date": "2026-11-09",
-  "publishedAt": "2026-11-09T19:20:00-05:00",
-  "edition": "Evening",
+  "id": "2026-11-10-0700",
+  "date": "2026-11-10",
+  "publishedAt": "2026-11-10T07:25:00-05:00",
+  "edition": "Morning",
   "top3": [
     {
-      "itemId": "anthropic-fable-mythos-52-launch",
-      "headline": "Anthropic launches Fable 5.2, but says start with Opus 5.5",
-      "whyItMatters": "Pick models by task: the new flagship is pitched as orchestrator, not default workhorse."
+      "itemId": "anthropic-ipo-roadshow",
+      "headline": "Anthropic launches the roadshow for its proposed IPO",
+      "whyItMatters": "A core AI vendor going public means more disclosure on the business you depend on."
     },
     {
-      "itemId": "claudedevs-which-model-guide",
-      "headline": "Anthropic's guide: smaller models for subagents, effort before upgrades",
-      "whyItMatters": "Routing subagents to smaller models is the vendor-backed way to cut agent costs."
+      "itemId": "simonw-fable-52-codebase-is-yours",
+      "headline": "One sentence makes Fable 5.2 far more willing to clean up code",
+      "whyItMatters": "Small prompt changes shift agent behavior a lot, so standardize the ones that work."
     },
     {
-      "itemId": "openai-control-room",
-      "headline": "OpenAI built a central system to stop risky AI workloads fast",
-      "whyItMatters": "Any company running agents at scale needs the same: one view, one stop button."
+      "itemId": "amazon-strands-decider-replaces-sonnet",
+      "headline": "Amazon team replaced Sonnet with a small model at 98% less cost",
+      "whyItMatters": "Routine agent tasks can often run on small models, freeing budget for hard work."
     }
   ],
   "items": [
     {
+      "id": "anthropic-ipo-roadshow",
+      "title": "Anthropic launches the roadshow for its proposed IPO",
+      "takeaway": "Anthropic says an SEC registration statement is filed but not yet effective.",
+      "soWhat": "A core enterprise AI vendor is heading to public markets, which brings public disclosure.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-10T11:33:49Z",
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2120117722230968385"
+      },
+      "image": {
+        "src": "/img/anthropic-ipo-roadshow.jpg",
+        "alt": "@AnthropicAI on X: Anthropic launches the roadshow for its proposed IPO"
+      },
+      "heat": {
+        "score": 6,
+        "level": "none",
+        "metric": "13k views"
+      }
+    },
+    {
+      "id": "mengto-lottie-landing-page-opus-55",
+      "title": "Meng To builds a landing page with Opus 5.5 and Lottie AI",
+      "takeaway": "The animated card, logo and menu icons are Lottie files, not videos; the card is 51 KB.",
+      "soWhat": "AI tools now produce rich, lightweight motion design that loads fast on any site.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-10T11:00:59Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2120109458638712924"
+      },
+      "image": {
+        "src": "/img/mengto-lottie-landing-page-opus-55.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "2k views"
+      }
+    },
+    {
+      "id": "mattpocock-agents-goodhart-pr-metrics",
+      "title": "Matt Pocock: agents game metrics, so PR counts mislead",
+      "takeaway": "An opinion post with no data: he argues tracking pull request counts breaks once agents write the code.",
+      "soWhat": "Measure agent-era engineering by outcomes, not by the volume of pull requests.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-10T10:36:47Z",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2120103371335962979"
+      },
+      "image": {
+        "src": "/img/mattpocock-agents-goodhart-pr-metrics.jpg",
+        "alt": "Profile image of @mattpocockuk"
+      },
+      "heat": {
+        "score": 5,
+        "level": "none",
+        "metric": "10k views"
+      }
+    },
+    {
+      "id": "geoffreyhuntley-model-drop-checklist",
+      "title": "Geoffrey Huntley: at each model drop, reread the card, prune skills",
+      "takeaway": "His checklist: always read the model card and consider removing old skills and AGENTS.md files.",
+      "soWhat": "Old agent instructions can hold new models back, so review them with every upgrade.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-10T07:39:36Z",
+      "source": {
+        "name": "@GeoffreyHuntley on X",
+        "url": "https://x.com/GeoffreyHuntley/status/2120058778402087333"
+      },
+      "image": {
+        "src": "/img/geoffreyhuntley-model-drop-checklist.jpg",
+        "alt": "Image from @GeoffreyHuntley on X"
+      },
+      "heat": {
+        "score": 13,
+        "level": "none",
+        "metric": "9k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "amazon-strands-decider-replaces-sonnet",
+      "title": "Amazon ticket labeling matched Sonnet at 98% lower cost",
+      "takeaway": "Vendor blog from the Strands Agents team: a small Strands Decider build on one GPU replaced Claude Sonnet 4.6 for internal labeling.",
+      "soWhat": "Narrow, high-volume agent tasks may not need frontier models, so test small ones first.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-10T06:01:08Z",
+      "source": {
+        "name": "Strands Agents blog",
+        "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/"
+      },
+      "related": [
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50436640"
+        }
+      ],
+      "image": {
+        "src": "/img/amazon-strands-decider-replaces-sonnet.jpg",
+        "alt": "Image from Strands Agents blog"
+      }
+    },
+    {
+      "id": "simonw-fable-52-codebase-is-yours",
+      "title": "Anthropic: 'This codebase is yours' makes Fable 5.2 refactor more",
+      "takeaway": "In Anthropic's tests the line led the model to merge repeated code in about half of tries, versus under a tenth without it.",
+      "soWhat": "Ownership framing in prompts measurably changes agent behavior; add it to your team's coding setup.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-10T05:42:39Z",
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2120029347948220500"
+      },
+      "related": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/"
+        }
+      ],
+      "image": {
+        "src": "/img/simonw-fable-52-codebase-is-yours.jpg",
+        "alt": "Image from @simonw on X"
+      },
+      "heat": {
+        "score": 33,
+        "level": "none",
+        "metric": "123k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "primeagen-opus-orchestrator-deepseek-implementor",
+      "title": "ThePrimeagen: Opus 5.5 orchestrating DeepSeek workers felt fast",
+      "takeaway": "He called the pairing awesome, while a pipeline QA test gave only a moderate speedup.",
+      "soWhat": "A strong planner with cheap, fast workers is becoming a common agent pattern worth piloting.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-10T01:13:27Z",
+      "source": {
+        "name": "@ThePrimeagen on X",
+        "url": "https://x.com/ThePrimeagen/status/2119961602560835686"
+      },
+      "image": {
+        "src": "/img/primeagen-opus-orchestrator-deepseek-implementor.jpg",
+        "alt": "Profile image of @ThePrimeagen"
+      },
+      "heat": {
+        "score": 35,
+        "level": "none",
+        "metric": "50k views",
+        "voices": 3
+      }
+    },
+    {
+      "id": "theo-fable-52-plan-cost",
+      "title": "Theo: the $200 Claude plan buys far less Fable than Opus",
+      "takeaway": "He estimates about $15,000 of Opus 5.5 versus about $3,000 of Fable per month, with Fable capped at half the weekly limit.",
+      "soWhat": "Reserve the premium model for planning and keep heavy building on cheaper models.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-10T01:09:30Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2119960608816988596"
+      },
+      "related": [
+        {
+          "name": "@kloss_xyz: plan with Fable, build with Opus",
+          "url": "https://x.com/kloss_xyz/status/2119951474813972984"
+        }
+      ],
+      "image": {
+        "src": "/img/theo-fable-52-plan-cost.jpg",
+        "alt": "Image from @theo on X"
+      },
+      "heat": {
+        "score": 47,
+        "level": "warm",
+        "metric": "308k views",
+        "voices": 3
+      }
+    },
+    {
+      "id": "lynalden-nvidia-scandal-market-reaction",
+      "title": "Lyn Alden: markets shrugged off Nvidia's scandal, for now",
+      "takeaway": "She notes stocks rose over 2% while Nvidia fell less than 5%, and flags more risk ahead.",
+      "soWhat": "Investors so far price Huang's scandal as company risk, not a threat to the AI trade.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-10T00:06:57Z",
+      "source": {
+        "name": "@LynAldenContact on X",
+        "url": "https://x.com/LynAldenContact/status/2119944865127727239"
+      },
+      "image": {
+        "src": "/img/lynalden-nvidia-scandal-market-reaction.jpg",
+        "alt": "@LynAldenContact on X: Lyn Alden: markets shrugged off Nvidia's scandal, for now"
+      },
+      "heat": {
+        "score": 33,
+        "level": "none",
+        "metric": "48k views",
+        "voices": 3
+      }
+    },
+    {
       "id": "nvidia-huang-spy-scandal",
       "title": "Verge: what is known about the Nvidia spy scandal targeting Huang",
-      "takeaway": "Stratechery, Gary Marcus and MIT Technology Review also covered the story today.",
+      "takeaway": "Stratechery says the story got worse today, and The Atlantic calls it a scandal at the center of the economy.",
       "soWhat": "Leadership risk at the top AI chip supplier keeps growing; watch your supply exposure.",
       "lens": "broad",
       "momentum": "building",
@@ -37,16 +262,20 @@
       },
       "related": [
         {
-          "name": "Stratechery",
-          "url": "https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/"
+          "name": "The Atlantic",
+          "url": "https://www.theatlantic.com/technology/2026/11/jensen-huang-chinese-spy/689357/"
         },
         {
-          "name": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/"
+          "name": "Stratechery",
+          "url": "https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/"
         },
         {
           "name": "Gary Marcus",
           "url": "https://garymarcus.substack.com/p/jensen-is-cooked"
+        },
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50418016"
         }
       ],
       "image": {
@@ -60,7 +289,7 @@
       "takeaway": "He says the result was not significantly better than Opus 5.5, especially for the price.",
       "soWhat": "Test new flagships on your own work before paying a premium for marginal gains.",
       "lens": "practical",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 6,
       "publishedAt": "2026-11-09T22:53:05Z",
       "source": {
@@ -70,12 +299,6 @@
       "image": {
         "src": "/img/theo-fable-52-76-minutes-42-dollars.jpg",
         "alt": "Image from @theo on X"
-      },
-      "heat": {
-        "score": 43,
-        "level": "warm",
-        "metric": "25k views",
-        "voices": 6
       }
     },
     {
@@ -84,7 +307,7 @@
       "takeaway": "It tracks every research inference workload, including agentic sampling for training and evals, from one place.",
       "soWhat": "If you run agents at scale, you need one place to see and stop them.",
       "lens": "broad",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 7,
       "publishedAt": "2026-11-09T22:01:00Z",
       "source": {
@@ -102,9 +325,9 @@
         "alt": "Image from @OpenAI on X"
       },
       "heat": {
-        "score": 23,
+        "score": 27,
         "level": "none",
-        "metric": "239k views"
+        "metric": "676k views"
       }
     },
     {
@@ -113,7 +336,7 @@
       "takeaway": "The guide also covers adjusting effort before switching models, and running subagents on smaller models to save cost.",
       "soWhat": "Tune effort first and put subagents on smaller models; that is where agent costs fall.",
       "lens": "practical",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 7,
       "publishedAt": "2026-11-09T21:03:27Z",
       "source": {
@@ -129,58 +352,6 @@
       "image": {
         "src": "/img/claudedevs-which-model-guide.jpg",
         "alt": "Image from @ClaudeDevs on X"
-      },
-      "heat": {
-        "score": 58,
-        "level": "warm",
-        "metric": "302k views",
-        "voices": 6
-      }
-    },
-    {
-      "id": "mattpocock-explain-why-tip",
-      "title": "Matt Pocock: tell the AI the problem, not the feature",
-      "takeaway": "Instead of asking for an admin analytics panel, say admins can't see an overview of the important data.",
-      "soWhat": "Teams get better agent output by framing the user problem instead of dictating the solution.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-09T20:22:38Z",
-      "source": {
-        "name": "@mattpocockuk on X",
-        "url": "https://x.com/mattpocockuk/status/2119888414736859356"
-      },
-      "image": {
-        "src": "/img/mattpocock-explain-why-tip.jpg",
-        "alt": "Profile image of @mattpocockuk"
-      },
-      "heat": {
-        "score": 18,
-        "level": "none",
-        "metric": "42k views"
-      }
-    },
-    {
-      "id": "alexalbert-new-model-audit-prompt",
-      "title": "Alex Albert's one prompt to audit projects on each new model",
-      "takeaway": "Find what is broken, inconsistent, inefficient or unneeded; fix the sure things and list the rest for review.",
-      "soWhat": "A new model release is a cheap moment to audit code your team already owns.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-09T20:08:52Z",
-      "source": {
-        "name": "@alexalbert__ on X",
-        "url": "https://x.com/alexalbert__/status/2119884951550386671"
-      },
-      "image": {
-        "src": "/img/alexalbert-new-model-audit-prompt.jpg",
-        "alt": "Profile image of @alexalbert__"
-      },
-      "heat": {
-        "score": 22,
-        "level": "none",
-        "metric": "124k views"
       }
     },
     {
@@ -202,12 +373,40 @@
       }
     },
     {
+      "id": "mollick-fable-52-jagged-agi",
+      "title": "Ethan Mollick: Fable 5.2 is 'almost' AGI, in a jagged way",
+      "takeaway": "He says its remaining gaps are no longer simple errors or hallucinations.",
+      "soWhat": "Judge the new flagship on real expert work in your business, not on benchmarks.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-09T19:04:26Z",
+      "source": {
+        "name": "One Useful Thing",
+        "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi"
+      },
+      "related": [
+        {
+          "name": "Lenny's Newsletter review",
+          "url": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative"
+        },
+        {
+          "name": "Anthropic announcement",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+        }
+      ],
+      "image": {
+        "src": "/img/mollick-fable-52-jagged-agi.jpg",
+        "alt": "Image from One Useful Thing"
+      }
+    },
+    {
       "id": "anthropic-fable-mythos-52-launch",
       "title": "Anthropic ships Fable 5.2 and Mythos 5.2, up to 30% faster",
       "takeaway": "Same model under two names; Fable adds cyber and bio safeguards so all users get it. $8/$40 per million tokens.",
       "soWhat": "Anthropic itself says start with Opus 5.5 and use Fable 5.2 as advisor or orchestrator.",
       "lens": "broad",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 9,
       "publishedAt": "2026-11-09T19:00:21Z",
       "source": {
@@ -235,21 +434,15 @@
       "image": {
         "src": "/img/anthropic-fable-mythos-52-launch.jpg",
         "alt": "Image from @AnthropicAI on X"
-      },
-      "heat": {
-        "score": 64,
-        "level": "warm",
-        "metric": "474k views",
-        "voices": 6
       }
     },
     {
       "id": "meta-muse-ember-launch",
-      "title": "Meta's small Muse Ember claims near-flagship smarts at 17x less",
-      "takeaway": "Alexandr Wang says it matches Haiku at a third of the cost per task, at $0.10/$0.50 per million tokens.",
-      "soWhat": "Cheap capable models make high-volume agent work affordable; re-price your routine workloads.",
+      "title": "Meta's Muse Ember matches GPT-6 Luna and Haiku 5.5 on price",
+      "takeaway": "Simon Willison: $0.10 per million input and $0.50 output tokens for short prompts; Fable 5.2 costs about 80x more.",
+      "soWhat": "A cheap model built for tool calls and routing could lower the cost of agent subtasks.",
       "lens": "broad",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 7,
       "publishedAt": "2026-11-09T18:21:25Z",
       "source": {
@@ -258,45 +451,21 @@
       },
       "related": [
         {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/10/muse-ember/"
+        },
+        {
           "name": "Meta research blog",
           "url": "https://research.meta.ai/blog/muse-ember"
         },
         {
-          "name": "HN discussion",
+          "name": "Hacker News discussion",
           "url": "https://news.ycombinator.com/item?id=50429024"
         }
       ],
       "image": {
         "src": "/img/meta-muse-ember-launch.jpg",
         "alt": "Image from @alexandr_wang on X"
-      },
-      "heat": {
-        "score": 21,
-        "level": "none",
-        "metric": "142k views"
-      }
-    },
-    {
-      "id": "poteto-grok-bot-11000-prs",
-      "title": "Grok Bot team says it shipped 11,000 PRs last month",
-      "takeaway": "poteto will explain at AI Engineer on Wednesday how the team kept code quality at that volume.",
-      "soWhat": "Agent-scale output is now a team claim; ask what review system keeps that quality real.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-11-09T17:16:00Z",
-      "source": {
-        "name": "@poteto on X",
-        "url": "https://x.com/poteto/status/2119841446308221152"
-      },
-      "image": {
-        "src": "/img/poteto-grok-bot-11000-prs.jpg",
-        "alt": "Image from @poteto on X"
-      },
-      "heat": {
-        "score": 9,
-        "level": "none",
-        "metric": "11k views"
       }
     },
     {
@@ -318,24 +487,6 @@
       }
     },
     {
-      "id": "trump-60-minutes-ai",
-      "title": "Trump's 60 Minutes interview turns to AI safety",
-      "takeaway": "The Verge reports the interview touched on AI safety and a threat to arrest an AI executive.",
-      "soWhat": "AI leaders now face political risk at the very top, not only regulatory risk.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-09T16:00:35Z",
-      "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai"
-      },
-      "image": {
-        "src": "/img/trump-60-minutes-ai.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
       "id": "benaich-open-cyber-models-defenders",
       "title": "Nathan Benaich: defenders need open cyber models too",
       "takeaway": "He says Hugging Face found API guardrails slowed an intrusion probe and used a self-hosted open model.",
@@ -351,29 +502,6 @@
       "image": {
         "src": "/img/benaich-open-cyber-models-defenders.jpg",
         "alt": "Image from @nathanbenaich on X"
-      },
-      "heat": {
-        "score": 0,
-        "level": "none",
-        "metric": "967 views"
-      }
-    },
-    {
-      "id": "disney-adobe-genai-tools",
-      "title": "Disney and Adobe are building generative AI tools together",
-      "takeaway": "The Verge reports a partnership on generative AI tools between the two companies.",
-      "soWhat": "Major rights holders are choosing licensed creative AI partners over fighting the tools.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-09T15:54:52Z",
-      "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership"
-      },
-      "image": {
-        "src": "/img/disney-adobe-genai-tools.jpg",
-        "alt": "Image from The Verge"
       }
     },
     {
@@ -392,11 +520,6 @@
       "image": {
         "src": "/img/mengto-apartment-threejs-opus55.jpg",
         "alt": "Image from @MengTo on X"
-      },
-      "heat": {
-        "score": 16,
-        "level": "none",
-        "metric": "47k views"
       }
     },
     {
@@ -415,54 +538,6 @@
       "image": {
         "src": "/img/lyn-alden-japan-quiet-godzilla.jpg",
         "alt": "Image from @LynAldenContact on X"
-      }
-    },
-    {
-      "id": "garry-tan-jev-engineering-replicates",
-      "title": "Garry Tan's evals say the Jev agent-cost article replicates",
-      "takeaway": "His gstack-evals project re-ran the article on cutting agent bills by 90% with Jev Engineering and Kimi K3, and reports it replicates.",
-      "soWhat": "Agent cost claims are getting independent checks; ask vendors for the same before you switch.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-09T02:52:59Z",
-      "source": {
-        "name": "@garrytan on X",
-        "url": "https://x.com/garrytan/status/2119624260675350605"
-      },
-      "related": [
-        {
-          "name": "Article: cut your agent bill by 90% with Jev Engineering",
-          "url": "https://x.com/Mr_Buzzoni/status/2104783226833186920"
-        }
-      ],
-      "image": {
-        "src": "/img/garry-tan-jev-engineering-replicates.jpg",
-        "alt": "Image from @garrytan on X"
-      }
-    },
-    {
-      "id": "theo-llms-bad-at-mcp-auth",
-      "title": "Theo: coding models still botch MCP authentication for agents",
-      "takeaway": "Theo says Opus makes bad assumptions setting up MCP auth and builds something that fails. He is writing his own MCP guide for his agents.",
-      "soWhat": "Have a human review any agent-built MCP auth before it touches production systems.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-09T01:40:57Z",
-      "source": {
-        "name": "@theo on X",
-        "url": "https://x.com/theo/status/2119606132775997905"
-      },
-      "related": [
-        {
-          "name": "Theo: LLMs are still bad at building tools for agents",
-          "url": "https://x.com/theo/status/2119575130204717336"
-        }
-      ],
-      "image": {
-        "src": "/img/theo-llms-bad-at-mcp-auth.jpg",
-        "alt": "Image from @theo on X"
       }
     },
     {
@@ -486,66 +561,66 @@
   ],
   "voices": [
     {
-      "handle": "@alexalbert__",
-      "quote": "Read this entire project and find everything that’s broken, inconsistent, inefficient, or no longer needed. Fix what you’re sure about and list the rest for me to review.",
-      "url": "https://x.com/alexalbert__/status/2119884951550386671"
+      "handle": "@theo",
+      "quote": "The $200 Claude Ultra plan gets you $15,000 of Opus 5.5 in a month, but only around $3,000 of Fable 5.5.",
+      "url": "https://x.com/theo/status/2119960608816988596"
     },
     {
-      "handle": "@nathanbenaich",
-      "quote": "open cyber models can put more powerful tools in attackers’ hands. defenders need those capabilities too.",
-      "url": "https://x.com/nathanbenaich/status/2119822323650076803"
+      "handle": "@GeoffreyHuntley",
+      "quote": "at every major model drop: - always read the model card - consider nuking skills/agentsmd",
+      "url": "https://x.com/GeoffreyHuntley/status/2120058778402087333"
     },
     {
-      "handle": "@poteto",
-      "quote": "we are entering a renaissance in programming language and runtime research, and a golden age of software testing and verification. it's time to rewrite all software.",
-      "url": "https://x.com/poteto/status/2119824409087348984"
+      "handle": "@mattpocockuk",
+      "quote": "Agents are incredibly good at gaming metrics.",
+      "url": "https://x.com/mattpocockuk/status/2120103371335962979"
     },
     {
-      "handle": "@beffjezos",
-      "quote": "I really hope Jensen stays, he is the champion for open source, and if Nvidia is ruled by corpo ladder climbers instead we are in for very dark days ahead",
-      "url": "https://x.com/beffjezos/status/2119578009292484861"
+      "handle": "@LynAldenContact",
+      "quote": "Stock market up over 2%. Nvidia down less than 5% on the scandal news. Obviously more risk ahead, but noteworthy nonetheless.",
+      "url": "https://x.com/LynAldenContact/status/2119944865127727239"
     },
     {
-      "handle": "@addyosmani",
-      "quote": "Every gripe you have about bad managers is a bug report for interacting with agents.",
-      "url": "https://x.com/addyosmani/status/2119332146485891501"
+      "handle": "@MengTo",
+      "quote": "The card, the logo and the menu icons aren't videos. They're Lottie files. The card is 51 KB.",
+      "url": "https://x.com/MengTo/status/2120109458638712924"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/AnthropicAI/status/2119867707546071125",
-      "handle": "@AnthropicAI",
-      "text": "Claude Fable 5.2 and Claude Mythos 5.2 are available now.",
-      "metric": "11.1k likes",
-      "note": "Builders are weighing its speed and price against Opus 5.5 for daily work."
-    },
-    {
-      "url": "https://x.com/ClaudeDevs/status/2119898687803621427",
-      "handle": "@ClaudeDevs",
-      "text": "Which Claude model to build with: Fable 5.2, Opus 5.5, Sonnet or Haiku, and when to adjust effort instead.",
-      "metric": "4.6k likes",
-      "note": "Teams want a clear rule for model choice and cost after the launch."
-    },
-    {
-      "url": "https://x.com/alexalbert__/status/2119884951550386671",
-      "handle": "@alexalbert__",
-      "text": "The prompt I run on every project with each new model: find what's broken, fix what you're sure about, list the rest.",
-      "metric": "2.2k likes",
-      "note": "A copyable habit that turns each model release into cleanup time."
+      "url": "https://x.com/theo/status/2119960608816988596",
+      "handle": "@theo",
+      "text": "The $200 Claude Ultra plan gets you $15,000 of Opus 5.5 in a month, but only around $3,000 of Fable.",
+      "metric": "4.1k likes",
+      "note": "Builders are working out how much of the new flagship they can afford."
     },
     {
       "url": "https://x.com/OpenAI/status/2119913172039868579",
       "handle": "@OpenAI",
-      "text": "We built Control Room to track model workloads and stop them quickly when safety or security concerns arise.",
-      "metric": "2.0k likes",
-      "note": "People want to see how a lab can halt its own agents in practice."
+      "text": "Control Room tracks model workloads across research infrastructure and stops them fast on safety concerns.",
+      "metric": "4.0k likes",
+      "note": "People want to see how a lab halts its own agents in practice."
     },
     {
-      "url": "https://x.com/alexandr_wang/status/2119857909098283406",
-      "handle": "@alexandr_wang",
-      "text": "Muse Ember: nearly Muse Spark 1.3 (max) intelligence at a 17x cheaper price point.",
-      "metric": "1.8k likes",
-      "note": "A cheap, capable model could reprice high-volume agent work."
+      "url": "https://x.com/simonw/status/2120029347948220500",
+      "handle": "@simonw",
+      "text": "Anthropic's Fable 5.2 tip: tell the model 'This codebase is yours' so it improves existing code more boldly.",
+      "metric": "2.2k likes",
+      "note": "A one-line prompt change with a measured effect is easy to copy."
+    },
+    {
+      "url": "https://x.com/RayDalio/status/2119913074844987405",
+      "handle": "@RayDalio",
+      "text": "What I Think of The Results of the U.S. Midterm Elections.",
+      "metric": "2.0k likes",
+      "note": "Readers want a macro investor's take on what the results mean."
+    },
+    {
+      "url": "https://x.com/ThePrimeagen/status/2119961602560835686",
+      "handle": "@ThePrimeagen",
+      "text": "opus 5.5 orchestrator + deepseek implementor / search... that was awesome.",
+      "metric": "773 likes",
+      "note": "Mixing a premium planner with cheap fast workers is catching on."
     }
   ]
 }

@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-09-1900",
-  "count": 55,
+  "latest": "2026-11-10-0700",
+  "count": 56,
   "briefs": [
+    {
+      "id": "2026-11-10-0700",
+      "date": "2026-11-10",
+      "edition": "Morning",
+      "publishedAt": "2026-11-10T07:25:00-05:00",
+      "headline": "Anthropic launches the roadshow for its proposed IPO",
+      "url": "/api/briefs/2026-11-10-0700.json"
+    },
     {
       "id": "2026-11-09-1900",
       "date": "2026-11-09",
