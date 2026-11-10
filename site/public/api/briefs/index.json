@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-09-1300",
-  "count": 54,
+  "latest": "2026-11-09-1900",
+  "count": 55,
   "briefs": [
+    {
+      "id": "2026-11-09-1900",
+      "date": "2026-11-09",
+      "edition": "Evening",
+      "publishedAt": "2026-11-09T19:20:00-05:00",
+      "headline": "Anthropic launches Fable 5.2, but says start with Opus 5.5",
+      "url": "/api/briefs/2026-11-09-1900.json"
+    },
     {
       "id": "2026-11-09-1300",
       "date": "2026-11-09",
