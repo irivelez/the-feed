@@ -1,7 +1,71 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-09T07:22:00-05:00",
+  "updatedAt": "2026-11-09T19:25:00-05:00",
   "howtos": [
+    {
+      "id": "new-model-full-project-audit-prompt",
+      "dedupeKey": "new-model-full-project-audit-prompt",
+      "title": "Audit every project when a new model ships",
+      "what": "One prompt that has a coding agent find broken, inconsistent, inefficient or unneeded code, fix the sure things and list the rest.",
+      "kind": "prompt",
+      "copy": [
+        "Read this entire project and find everything that’s broken, inconsistent, inefficient, or no longer needed. Fix what you’re sure about and list the rest for me to review."
+      ],
+      "whenToUse": "Right after a new model release, run it on each project you own.",
+      "source": {
+        "name": "@alexalbert__ on X",
+        "url": "https://x.com/alexalbert__/status/2119884951550386671"
+      },
+      "author": {
+        "name": "Alex Albert",
+        "handle": "alexalbert__"
+      },
+      "tags": [
+        "coding-agents",
+        "code-quality",
+        "prompts"
+      ],
+      "quality": 4,
+      "verbatim": true,
+      "briefItem": {
+        "briefId": "2026-11-09-1900",
+        "itemId": "alexalbert-new-model-audit-prompt"
+      },
+      "addedAt": "2026-11-09T19:25:00-05:00"
+    },
+    {
+      "id": "explain-the-why-in-ai-grilling",
+      "dedupeKey": "explain-the-why-in-ai-grilling",
+      "title": "Explain the why, not the what, to your AI",
+      "what": "In AI grilling sessions, describe the user problem instead of the feature you want built.",
+      "kind": "steps",
+      "copy": [
+        "State the problem, not the feature.",
+        "Bad: \"I want to build an analytics panel for admins with graphs and filters\".",
+        "Good: \"Admins can't currently see an overview of the important data in the app\"."
+      ],
+      "whenToUse": "When starting a planning or grilling session with a coding agent on a new feature.",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2119888414736859356"
+      },
+      "author": {
+        "name": "Matt Pocock",
+        "handle": "mattpocockuk"
+      },
+      "tags": [
+        "prompts",
+        "planning",
+        "coding-agents"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-09-1900",
+        "itemId": "mattpocock-explain-why-tip"
+      },
+      "addedAt": "2026-11-09T19:25:00-05:00"
+    },
     {
       "id": "collapse-ai-pr-description-details-summary",
       "dedupeKey": "collapse-ai-pr-description-details-summary",
