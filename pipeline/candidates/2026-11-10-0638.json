@@ -1,0 +1,533 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-10-0638",
+  "generatedAt": "2026-11-10T06:38:13-05:00",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-09T22:00:00Z",
+    "to": "2026-11-10T11:38:13Z"
+  },
+  "sourceNotes": [
+    "Dwarkesh Patel RSS: HTTP 500 again (single attempt); dead or flaky, a human should check or remove.",
+    "arXiv API: HTTP 500 on three query forms (combined cs.AI/cs.CL/cs.MA agents query, cs.MA only, all:agents); no arXiv candidates this run.",
+    "Ben Evans feed reachable (HTTP 200) but newest item is 2026-09-03: stale.",
+    "Metaplanet Google News RSS: reachable and has items dated Nov 9-10, but they are third-party (Quantisnow, TradingView, Crypto News about Strive/Super League/Bitcoin Japan) and mostly price/treasury news; no Metaplanet-authored view used. No longer stale in dates, but noisy for the frontier-capital lane.",
+    "X lane searches: one call per group of handles, newest 25 per call (search max_results capped at 25), window since 2026-11-09T22:00Z. @gerovich, @bhorowitz, @naval, @VitalikButerin, @Metaplanet, @nathanbenaich (one joke post only) had no usable posts; @TaviCosta posted a silver-miners chart, skipped as a market tip.",
+    "X topic-query call (Claude Skills / Claude Code workflow & tutorial / multi-agent orchestration / Ralph loop / loop engineering / agent SDK production) was very noisy: spam, promo and 0-20 like posts; none used.",
+    "HN (Algolia, >=200 points, last 2 days): used only as related links; first query with numericFilters in the URL path returned 400, succeeded with URL-encoded params.",
+    "authorBaseline and reply capture not read this run to stay in rate budget; no bestReply. Views = impression_count. Note: Mollick, Lenny, Verge, Stratechery items are headline-level except where bodies were fetched (Mollick, MIT TR, Willison, Strands).",
+    "Several X posts quote/mention product names oddly (e.g. 'Fable 5.5' in a Theo post); recorded verbatim, not corrected."
+  ],
+  "candidates": [
+    {
+      "id": "simonw-fable-52-codebase-is-yours",
+      "lens": "practical",
+      "summary": "Simon Willison highlights Anthropic's Fable 5.2 prompting guide tip: tell the model 'This codebase is yours' so it is less cautious about improving existing code.",
+      "source": {
+        "name": "simonw on X",
+        "url": "https://x.com/simonw/status/2120029347948220500",
+        "type": "x",
+        "handle": "simonw"
+      },
+      "publishedAt": "2026-11-10T05:42:39Z",
+      "metrics": {
+        "likes": 2193,
+        "reposts": 138,
+        "replies": 238,
+        "views": 123486,
+        "capturedAt": "2026-11-10T06:38:13-05:00"
+      },
+      "care": 4,
+      "proof": 5,
+      "firstSeen": "2026-11-10",
+      "topic": "fable-52-prompting",
+      "imageHint": "https://x.com/simonw/status/2120029347948220500",
+      "facts": [
+        "Anthropic docs (quoted by Simon Willison): in testing on small coding tasks, the model merged repeated code in about half of the tries with the sentence 'This codebase is yours: what it's for and how it's built are your call, and you'll keep building on it.' and in under a tenth of the tries without it."
+      ],
+      "related": [
+        {
+          "name": "Simon Willison blog quote",
+          "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/"
+        }
+      ]
+    },
+    {
+      "id": "theo-fable-52-plan-cost",
+      "lens": "practical",
+      "summary": "Theo says the $200 Claude Ultra plan gets about $15,000 of Opus 5.5 usage per month but only around $3,000 of Fable 5.5, and that Fable is restricted to 50% of the weekly limit.",
+      "source": {
+        "name": "theo on X",
+        "url": "https://x.com/theo/status/2119960608816988596",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-10T01:09:30Z",
+      "metrics": {
+        "likes": 4109,
+        "reposts": 122,
+        "replies": 220,
+        "views": 308311,
+        "capturedAt": "2026-11-10T06:38:13-05:00"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "fable-52-cost",
+      "imageHint": "https://x.com/theo/status/2119960608816988596",
+      "facts": [
+        "Post text: 'The $200 Claude Ultra plan gets you $15,000 of Opus 5.5 in a month, but only around $3,000 of Fable 5.5.' and 'Fable is restricted to 50% of your weekly limit, it burns faster per $ than Opus does.' (post says 'Fable 5.5'; the model launched this cycle is Fable 5.2)."
+      ]
+    },
+    {
+      "id": "kloss-plan-with-fable-build-with-opus",
+      "lens": "practical",
+      "summary": "klöss shares a workflow to stretch Fable 5.2 usage: use Fable only for planning and docs, audit the plan repeatedly, then hand it to Opus 5.5 to build.",
+      "source": {
+        "name": "kloss_xyz on X",
+        "url": "https://x.com/kloss_xyz/status/2119951474813972984",
+        "type": "x",
+        "handle": "kloss_xyz"
+      },
+      "publishedAt": "2026-11-10T00:33:13Z",
+      "metrics": {
+        "likes": 59,
+        "reposts": 2,
+        "replies": 8,
+        "views": 3473,
+        "capturedAt": "2026-11-10T06:38:13-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "fable-52-cost",
+      "imageHint": "https://x.com/kloss_xyz/status/2119951474813972984",
+      "facts": [
+        "Steps in post: use Fable only for planning and docs; have it audit the plan until highest confidence with no clear gaps and no overengineering; make sure it writes every step; hand off to Opus 5.5 to build."
+      ]
+    },
+    {
+      "id": "primeagen-opus-orchestrator-deepseek-implementor",
+      "lens": "practical",
+      "summary": "ThePrimeagen reports Opus 5.5 as orchestrator with DeepSeek as implementor/search was 'awesome', while a pipeline QA test was only a moderate speedup.",
+      "source": {
+        "name": "ThePrimeagen on X",
+        "url": "https://x.com/ThePrimeagen/status/2119961602560835686",
+        "type": "x",
+        "handle": "ThePrimeagen"
+      },
+      "publishedAt": "2026-11-10T01:13:27Z",
+      "metrics": {
+        "likes": 773,
+        "reposts": 12,
+        "replies": 50,
+        "views": 49595,
+        "capturedAt": "2026-11-10T06:38:13-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "fable-52-cost",
+      "imageHint": "https://x.com/ThePrimeagen/status/2119961602560835686",
+      "facts": [
+        "Post text: 'for pipeline qa stuff, kind of sucked and only moderate speed up' and 'opus 5.5 orchestrator + deepseek implementor / search... holy f, that was awesome. I want that 1ktps all day every day now.'"
+      ]
+    },
+    {
+      "id": "amazon-strands-decider-replaces-sonnet",
+      "lens": "practical",
+      "summary": "Two Amazon engineers replaced Claude Sonnet 4.6 with Strands Decider for internal ticket labeling, reporting equal performance at 98% less cost.",
+      "source": {
+        "name": "Strands Agents blog",
+        "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+        "type": "blog"
+      },
+      "publishedAt": "2026-11-10T06:01:08Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-10",
+      "topic": "decision-models-cost",
+      "facts": [
+        "Blog: Sonnet 4.6 labeled tickets into 20 category types at large scale; the Gemma 4 E4B build of Strands Decider beat production Sonnet on a separate ticket set.",
+        "Blog: ran on SageMaker ml.g5.xlarge (one A10G, 24 GB), about 19 GiB model, about 640 ms per request on one instance; says this saves millions of dollars of token costs a year.",
+        "The post is authored by the Strands Agents team (vendor blog)."
+      ],
+      "related": [
+        {
+          "name": "HN discussion (343 points)",
+          "url": "https://news.ycombinator.com/item?id=50436640"
+        }
+      ],
+      "metrics": {
+        "points": 343,
+        "capturedAt": "2026-11-10T06:38:13-05:00"
+      }
+    },
+    {
+      "id": "mattpocock-agents-goodhart-pr-metrics",
+      "lens": "practical",
+      "summary": "Matt Pocock argues agents make Goodhart's Law worse because they are good at gaming metrics, so tracking PR counts as productivity is flawed.",
+      "source": {
+        "name": "mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2120103371335962979",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-10T10:36:47Z",
+      "metrics": {
+        "likes": 155,
+        "reposts": 11,
+        "replies": 38,
+        "views": 10008,
+        "capturedAt": "2026-11-10T06:38:13-05:00"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-10",
+      "topic": "agent-productivity-metrics",
+      "imageHint": "https://x.com/mattpocockuk/status/2120103371335962979",
+      "facts": [
+        "Post text: 'Agents are incredibly good at gaming metrics. So any organisation that says \"we track your number of PR's\" is fucked.' Opinion; no data cited."
+      ]
+    },
+    {
+      "id": "theo-claude-code-doubles-keypresses",
+      "lens": "practical",
+      "summary": "Theo reports a new Claude Code bug where every key press in the input box is doubled, which happened live while filming.",
+      "source": {
+        "name": "theo on X",
+        "url": "https://x.com/theo/status/2120103631307645276",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-10T10:37:49Z",
+      "metrics": {
+        "likes": 439,
+        "reposts": 3,
+        "replies": 105,
+        "views": 23099,
+        "capturedAt": "2026-11-10T06:38:13-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "claude-code-bug-keypress",
+      "imageHint": "https://x.com/theo/status/2120103631307645276",
+      "facts": [
+        "Post text: 'It DOUBLES EVERY SINGLE KEY PRESS IN THE INPUT BOX.' Single-user report with video; no Anthropic response read."
+      ]
+    },
+    {
+      "id": "geoffreyhuntley-model-drop-checklist",
+      "lens": "practical",
+      "summary": "Geoffrey Huntley's checklist for every major model drop: read the model card and consider nuking skills and AGENTS.md.",
+      "source": {
+        "name": "GeoffreyHuntley on X",
+        "url": "https://x.com/GeoffreyHuntley/status/2120058778402087333",
+        "type": "x",
+        "handle": "GeoffreyHuntley"
+      },
+      "publishedAt": "2026-11-10T07:39:36Z",
+      "metrics": {
+        "likes": 125,
+        "reposts": 13,
+        "replies": 11,
+        "views": 9472,
+        "capturedAt": "2026-11-10T06:38:13-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "fable-52-prompting",
+      "imageHint": "https://x.com/GeoffreyHuntley/status/2120058778402087333",
+      "facts": [
+        "Post (quote of Simon Willison's prompting tip): 'at every major model drop: - always read the model card - consider nuking skills/agentsmd'."
+      ]
+    },
+    {
+      "id": "mollick-fable-52-jagged-agi",
+      "lens": "broad",
+      "summary": "Ethan Mollick argues Claude Fable 5.2 is 'almost' AGI, which he calls Jagged AGI, under his definition 'an AI as good as most human experts at most intellectual tasks you can do with a computer'.",
+      "source": {
+        "name": "One Useful Thing (Ethan Mollick)",
+        "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-09T19:04:26Z",
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "fable-52-launch",
+      "facts": [
+        "Mollick says he used Fable 5.2 before its public launch and that it follows the 'already excellent Opus 5.5'.",
+        "He says remaining jaggedness is no longer about simple errors or hallucinations.",
+        "Opinion post with his own demos."
+      ],
+      "related": [
+        {
+          "name": "Lenny's Newsletter: Claude Fable 5.2 review",
+          "url": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative"
+        },
+        {
+          "name": "Anthropic announcement",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-ipo-roadshow",
+      "lens": "broad",
+      "summary": "Anthropic says it has launched the roadshow for its proposed initial public offering.",
+      "source": {
+        "name": "AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2120117722230968385",
+        "type": "x",
+        "handle": "AnthropicAI"
+      },
+      "publishedAt": "2026-11-10T11:33:49Z",
+      "metrics": {
+        "likes": 159,
+        "reposts": 21,
+        "replies": 21,
+        "views": 12933,
+        "capturedAt": "2026-11-10T06:38:13-05:00"
+      },
+      "care": 5,
+      "proof": 4,
+      "firstSeen": "2026-11-10",
+      "topic": "anthropic-ipo",
+      "imageHint": "https://x.com/AnthropicAI/status/2120117722230968385",
+      "facts": [
+        "Post includes a legal disclaimer: a registration statement has been filed with the SEC but has not yet become effective; securities may not be sold before it does. Linked page not opened."
+      ]
+    },
+    {
+      "id": "verge-nvidia-huang-spy-scandal",
+      "lens": "broad",
+      "summary": "The Verge explainer on the Nvidia scandal targeting CEO Jensen Huang, published the evening of Nov 9.",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-10T00:46:30Z",
+      "care": 5,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "huang-affair",
+      "facts": [
+        "Headline-level: title is 'Everything we know so far about the Nvidia spy scandal targeting CEO Jensen Huang'; body not fetched.",
+        "Same-day Verge items: 'Here's what Trump said he knew about Jensen Huang' and 'What could China get from Jensen Huang?'."
+      ],
+      "related": [
+        {
+          "name": "The Atlantic: A Scandal at the Center of the Economy",
+          "url": "https://www.theatlantic.com/technology/2026/11/jensen-huang-chinese-spy/689357/"
+        },
+        {
+          "name": "Gary Marcus: Jensen is cooked",
+          "url": "https://garymarcus.substack.com/p/jensen-is-cooked"
+        },
+        {
+          "name": "HN: Nvidia CEO Jensen Huang's letter to staff about affair (959 points)",
+          "url": "https://news.ycombinator.com/item?id=50418016"
+        }
+      ]
+    },
+    {
+      "id": "stratechery-huang-story-gets-worse",
+      "lens": "broad",
+      "summary": "Stratechery's Nov 10 update, 'The Jensen Huang Story Gets Worse, Washington vs. New York, Silicon Valley'.",
+      "source": {
+        "name": "Ben Thompson (Stratechery)",
+        "url": "https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-10T11:00:00Z",
+      "care": 4,
+      "proof": 2,
+      "firstSeen": "2026-11-10",
+      "topic": "huang-affair",
+      "facts": [
+        "Headline-level; paywalled ($) per the Stratechery X post; body not read. The prior day's piece was 'Jensen Huang's Affair, The Culper Report, Huang's Righteousness'."
+      ]
+    },
+    {
+      "id": "mittr-data-center-backlash-electricity",
+      "lens": "broad",
+      "summary": "MIT Technology Review argues the US data center backlash is more about electricity than Big Tech admits.",
+      "source": {
+        "name": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-09T19:35:33Z",
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "data-center-backlash",
+      "facts": [
+        "Article: OpenAI's Chris Lehane wrote data centers 'have become a proxy for public unease about affordability, corporate power, and people losing control over their futures.'",
+        "Article: the average data center in the Virginia area it visited has a power capacity of 54 megawatts; activist Elena Schlossberg says 'It was always about power'.",
+        "Reporter's on-the-ground piece from Ashburn, Virginia; The Algorithm newsletter."
+      ],
+      "related": [
+        {
+          "name": "MIT TR: Nancy Pelosi's replacement is ready to regulate AI",
+          "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/"
+        }
+      ]
+    },
+    {
+      "id": "meta-muse-ember-launch",
+      "lens": "broad",
+      "summary": "Meta launched Muse Ember, its smallest and most efficient model, priced at $0.10 per million input and $0.50 per million output tokens for short prompts, same as GPT-6 Luna and Claude Haiku 5.5.",
+      "source": {
+        "name": "Simon Willison (Muse Ember)",
+        "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-10T07:28:21Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-10",
+      "topic": "muse-ember",
+      "facts": [
+        "Willison: above 200k prompt tokens Ember is $0.30 input / $1.50 output; Claude Fable 5.2 is $8/$40, about 80x the short-prompt price.",
+        "Willison: per Artificial Analysis, Muse Ember sits on the Pareto line of intelligence index vs cost per task; Meta says no model scores higher for less per task.",
+        "Meta describes it as built for 'tool calls, coding subtasks, routing, extraction, and long document parsing'; six reasoning levels."
+      ],
+      "related": [
+        {
+          "name": "Meta research blog",
+          "url": "https://research.meta.ai/blog/muse-ember"
+        },
+        {
+          "name": "HN discussion (309 points)",
+          "url": "https://news.ycombinator.com/item?id=50429024"
+        },
+        {
+          "name": "alexandr_wang on X: crouton-alpha was an early Muse Ember; 5T tokens processed in testing",
+          "url": "https://x.com/alexandr_wang/status/2120000217827475623"
+        }
+      ]
+    },
+    {
+      "id": "openai-control-room",
+      "lens": "broad",
+      "summary": "OpenAI introduces Control Room, a central system to track model workloads across its research infrastructure and stop them quickly when safety or security concerns arise.",
+      "source": {
+        "name": "OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2119913172039868579",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "publishedAt": "2026-11-09T22:01:00Z",
+      "metrics": {
+        "likes": 3973,
+        "reposts": 280,
+        "replies": 665,
+        "views": 676302,
+        "capturedAt": "2026-11-10T06:38:13-05:00"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-10",
+      "topic": "openai-control-room",
+      "imageHint": "https://x.com/OpenAI/status/2119913172039868579",
+      "facts": [
+        "Post: it connects every research inference workload, including agentic sampling for model training and evaluation (post text truncated in read)."
+      ],
+      "related": [
+        {
+          "name": "OpenAI blog",
+          "url": "https://openai.com/index/control-room"
+        }
+      ]
+    },
+    {
+      "id": "lynalden-nvidia-scandal-market-reaction",
+      "lens": "frontier-capital",
+      "summary": "Lyn Alden notes the stock market was up over 2% while Nvidia fell less than 5% on the scandal news, adding there is more risk ahead.",
+      "source": {
+        "name": "LynAldenContact on X",
+        "url": "https://x.com/LynAldenContact/status/2119944865127727239",
+        "type": "x",
+        "handle": "LynAldenContact"
+      },
+      "publishedAt": "2026-11-10T00:06:57Z",
+      "metrics": {
+        "likes": 578,
+        "reposts": 16,
+        "replies": 32,
+        "views": 47934,
+        "capturedAt": "2026-11-10T06:38:13-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "huang-affair",
+      "imageHint": "https://x.com/LynAldenContact/status/2119944865127727239",
+      "facts": [
+        "Post text: 'Stock market up over 2%. Nvidia down less than 5% on the scandal news. Obviously more risk ahead, but noteworthy nonetheless.' Her own view, not a tip."
+      ]
+    },
+    {
+      "id": "dalio-midterm-results-view",
+      "lens": "frontier-capital",
+      "summary": "Ray Dalio published an article, 'What I Think of The Results of the U.S. Midterm Elections'.",
+      "source": {
+        "name": "RayDalio on X",
+        "url": "https://x.com/RayDalio/status/2119913074844987405",
+        "type": "x",
+        "handle": "RayDalio"
+      },
+      "publishedAt": "2026-11-09T22:00:37Z",
+      "metrics": {
+        "likes": 2002,
+        "reposts": 260,
+        "replies": 94,
+        "views": 409939,
+        "capturedAt": "2026-11-10T06:38:13-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "midterms-dalio",
+      "imageHint": "https://x.com/RayDalio/status/2119913074844987405",
+      "facts": [
+        "X Article; text of the article not read this run, only its title."
+      ]
+    },
+    {
+      "id": "mengto-lottie-landing-page-opus-55",
+      "lens": "design",
+      "summary": "Meng To built a landing page with Opus 5.5 and Lottie AI by @LottieFiles; he says the card, logo and menu icons are Lottie files rather than videos, and the card is 51 KB.",
+      "source": {
+        "name": "MengTo on X",
+        "url": "https://x.com/MengTo/status/2120109458638712924",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-10T11:00:59Z",
+      "metrics": {
+        "likes": 33,
+        "reposts": 0,
+        "replies": 8,
+        "views": 2234,
+        "capturedAt": "2026-11-10T06:38:13-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-10",
+      "topic": "ai-design-lottie",
+      "imageHint": "https://x.com/MengTo/status/2120109458638712924",
+      "facts": [
+        "Post text: 'The card, the logo and the menu icons aren't videos. They're Lottie files. The card is 51 KB. The ring light plays live on the 3D card.' Thread of how he made them follows."
+      ]
+    }
+  ]
+}
