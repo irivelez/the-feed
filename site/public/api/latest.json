@@ -1,31 +1,277 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-10-0700",
+  "id": "2026-11-10-1300",
   "date": "2026-11-10",
-  "publishedAt": "2026-11-10T07:25:00-05:00",
-  "edition": "Morning",
+  "publishedAt": "2026-11-10T13:25:00-05:00",
+  "edition": "Midday",
   "top3": [
     {
-      "itemId": "anthropic-ipo-roadshow",
-      "headline": "Anthropic launches the roadshow for its proposed IPO",
-      "whyItMatters": "A core AI vendor going public means more disclosure on the business you depend on."
+      "itemId": "gemini-4-carbon-global-rollout",
+      "headline": "Google rolls out Gemini 4 Carbon for long-running agent work",
+      "whyItMatters": "A new top-tier model for long agent tasks is live; test it against your current vendor."
     },
     {
-      "itemId": "simonw-fable-52-codebase-is-yours",
-      "headline": "One sentence makes Fable 5.2 far more willing to clean up code",
-      "whyItMatters": "Small prompt changes shift agent behavior a lot, so standardize the ones that work."
+      "itemId": "alphaproof-code-signal-protocol",
+      "headline": "Google agents mathematically verify the Signal protocol's code",
+      "whyItMatters": "Provably correct critical code is becoming affordable, which changes what security assurance can mean."
     },
     {
-      "itemId": "amazon-strands-decider-replaces-sonnet",
-      "headline": "Amazon team replaced Sonnet with a small model at 98% less cost",
-      "whyItMatters": "Routine agent tasks can often run on small models, freeing budget for hard work."
+      "itemId": "claude-whiteboards-sheets-data",
+      "headline": "Claude adds whiteboards, sheets and data tools for everyday work",
+      "whyItMatters": "AI assistants are moving into office-suite territory; review overlap with tools you already pay for."
     }
   ],
   "items": [
     {
+      "id": "alphaproof-code-signal-protocol",
+      "title": "Google agents mathematically verify the Signal protocol's code",
+      "takeaway": "Google says Gemini 4 Carbon and AlphaProof Code checked Signal's code down to compiled device code.",
+      "soWhat": "Machine-checked proofs of critical code are becoming practical, which raises the bar for security assurance.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-10T17:28:49Z",
+      "source": {
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+      },
+      "related": [
+        {
+          "name": "@sundarpichai on X",
+          "url": "https://x.com/sundarpichai/status/2120207062655549933"
+        },
+        {
+          "name": "Hacker News discussion",
+          "url": "https://news.ycombinator.com/item?id=50439193"
+        }
+      ],
+      "image": {
+        "src": "/img/alphaproof-code-signal-protocol.jpg",
+        "alt": "Image from Google DeepMind"
+      }
+    },
+    {
+      "id": "claude-whiteboards-sheets-data",
+      "title": "Claude adds Whiteboards, Sheets and Data workspaces",
+      "takeaway": "Claude is rolling out three tools: plan on a board, build a tracker in a sheet, tell a story with data.",
+      "soWhat": "Claude now competes directly with office suites for planning and analysis work.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-10T17:26:03Z",
+      "source": {
+        "name": "@claudeai on X",
+        "url": "https://x.com/claudeai/status/2120206365759094857"
+      },
+      "image": {
+        "src": "/img/claude-whiteboards-sheets-data.jpg",
+        "alt": "Image from @claudeai on X"
+      },
+      "heat": {
+        "score": 16,
+        "level": "none",
+        "metric": "29k views"
+      }
+    },
+    {
+      "id": "openai-cyber-at-the-frontier",
+      "title": "OpenAI turns its own defenses into customer security tools",
+      "takeaway": "OpenAI says frontier models found and fixed important vulnerabilities, and will announce cyber products in a Thursday keynote.",
+      "soWhat": "Frontier labs are moving into security products; watch Thursday before renewing security tooling.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-10T17:10:07Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2120202353907486826"
+      },
+      "image": {
+        "src": "/img/openai-cyber-at-the-frontier.jpg",
+        "alt": "Image from @OpenAI on X"
+      },
+      "heat": {
+        "score": 15,
+        "level": "none",
+        "metric": "66k views"
+      }
+    },
+    {
+      "id": "gemini-carbon-antigravity-swarm",
+      "title": "Google's /swarm pairs builder and critic agents in Antigravity",
+      "takeaway": "In Google's demo, builder and critic subagents looped across Blender and Three.js, checking their own renders, to build a playable 3D game.",
+      "soWhat": "Agents that review their own output are becoming a built-in product feature, not custom plumbing.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-10T16:56:02Z",
+      "source": {
+        "name": "@sundarpichai on X",
+        "url": "https://x.com/sundarpichai/status/2120198811297694192"
+      },
+      "related": [
+        {
+          "name": "The Verge: Gemini 4 Carbon agent swarm",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
+        }
+      ],
+      "image": {
+        "src": "/img/gemini-carbon-antigravity-swarm.jpg",
+        "alt": "Image from @sundarpichai on X"
+      },
+      "heat": {
+        "score": 38,
+        "level": "none",
+        "metric": "67k views",
+        "voices": 3
+      }
+    },
+    {
+      "id": "cursor-gemini-4-carbon-cursorbench",
+      "title": "Cursor: Gemini 4 Carbon tops CursorBench at 60.4%",
+      "takeaway": "Cursor says the model is available now and, at high effort, leads its coding benchmark.",
+      "soWhat": "Your coding teams can trial Carbon today inside Cursor without new tooling.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-10T16:35:16Z",
+      "source": {
+        "name": "@cursor_ai on X",
+        "url": "https://x.com/cursor_ai/status/2120193584670580857"
+      },
+      "image": {
+        "src": "/img/cursor-gemini-4-carbon-cursorbench.jpg",
+        "alt": "Image from @cursor_ai on X"
+      },
+      "heat": {
+        "score": 41,
+        "level": "warm",
+        "metric": "79k views",
+        "voices": 3
+      }
+    },
+    {
+      "id": "verge-ebay-shuts-out-ai-agents",
+      "title": "eBay appears to shut out third-party AI shopping agents",
+      "takeaway": "The Verge reports eBay appears to have closed the door on outside AI agents.",
+      "soWhat": "Big marketplaces may block agents, so agent commerce plans need platform permission.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-10T16:20:30Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping"
+      },
+      "image": {
+        "src": "/img/verge-ebay-shuts-out-ai-agents.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "rauchg-vercel-security-review-week-one",
+      "title": "Vercel's security agent found 57,897 vulnerabilities in its first week",
+      "takeaway": "Rauch reports 6,029 critical or high findings and 14,665 already patched by the agent; numbers are Vercel's own.",
+      "soWhat": "Agent-run code review now finds flaws at a scale human teams cannot triage alone.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-10T16:15:01Z",
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2120188488628977819"
+      },
+      "image": {
+        "src": "/img/rauchg-vercel-security-review-week-one.jpg",
+        "alt": "Profile image of @rauchg"
+      },
+      "heat": {
+        "score": 16,
+        "level": "none",
+        "metric": "13k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "gemini-4-carbon-global-rollout",
+      "title": "Google rolls out Gemini 4 Carbon for long-horizon agent work",
+      "takeaway": "Built for sustained tasks in software, security and science; live in the Gemini API, AI Studio and Gemini for business.",
+      "soWhat": "Another frontier option for long-running agents is now widely available; benchmark it against your current model.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 9,
+      "publishedAt": "2026-11-10T16:04:43Z",
+      "source": {
+        "name": "@sundarpichai on X",
+        "url": "https://x.com/sundarpichai/status/2120185896469496180"
+      },
+      "related": [
+        {
+          "name": "The Verge: Gemini 4 Carbon rollout",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
+        }
+      ],
+      "image": {
+        "src": "/img/gemini-4-carbon-global-rollout.jpg",
+        "alt": "Image from @sundarpichai on X"
+      },
+      "heat": {
+        "score": 47,
+        "level": "warm",
+        "metric": "227k views",
+        "voices": 3
+      }
+    },
+    {
+      "id": "mengto-flash-model-loop-800-pages",
+      "title": "Meng To looped a cheap model through 800 page designs",
+      "takeaway": "Over 24 hours, each version was screenshotted, critiqued and rebuilt; he reports a $0 model bill.",
+      "soWhat": "Cheap models in critique loops can explore design options at near-zero cost.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-10T15:00:43Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2120169790220468534"
+      },
+      "image": {
+        "src": "/img/mengto-flash-model-loop-800-pages.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "3k views"
+      }
+    },
+    {
+      "id": "mattpocock-decision-ticket-board",
+      "title": "Matt Pocock previews a board for deciding before agents build",
+      "takeaway": "Teams talk through decision tickets before implementation, so alignment happens early instead of at review.",
+      "soWhat": "When agents write code fast, the bottleneck moves to agreeing on what to build.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-10T12:45:58Z",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2120135880916808093"
+      },
+      "image": {
+        "src": "/img/mattpocock-decision-ticket-board.jpg",
+        "alt": "Image from @mattpocockuk on X"
+      },
+      "heat": {
+        "score": 9,
+        "level": "none",
+        "metric": "22k views"
+      }
+    },
+    {
       "id": "anthropic-ipo-roadshow",
       "title": "Anthropic launches the roadshow for its proposed IPO",
-      "takeaway": "Anthropic says an SEC registration statement is filed but not yet effective.",
+      "takeaway": "Anthropic says an SEC registration statement is filed but not yet effective; The Verge reports a $1.4 trillion target.",
       "soWhat": "A core enterprise AI vendor is heading to public markets, which brings public disclosure.",
       "lens": "broad",
       "momentum": "building",
@@ -37,13 +283,19 @@
       },
       "image": {
         "src": "/img/anthropic-ipo-roadshow.jpg",
-        "alt": "@AnthropicAI on X: Anthropic launches the roadshow for its proposed IPO"
+        "alt": "Image from @AnthropicAI on X"
       },
       "heat": {
         "score": 6,
         "level": "none",
         "metric": "13k views"
-      }
+      },
+      "related": [
+        {
+          "name": "The Verge: $1.4 trillion IPO target",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion"
+        }
+      ]
     },
     {
       "id": "mengto-lottie-landing-page-opus-55",
@@ -63,56 +315,9 @@
         "alt": "Image from @MengTo on X"
       },
       "heat": {
-        "score": 0,
+        "score": 6,
         "level": "none",
-        "metric": "2k views"
-      }
-    },
-    {
-      "id": "mattpocock-agents-goodhart-pr-metrics",
-      "title": "Matt Pocock: agents game metrics, so PR counts mislead",
-      "takeaway": "An opinion post with no data: he argues tracking pull request counts breaks once agents write the code.",
-      "soWhat": "Measure agent-era engineering by outcomes, not by the volume of pull requests.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-10T10:36:47Z",
-      "source": {
-        "name": "@mattpocockuk on X",
-        "url": "https://x.com/mattpocockuk/status/2120103371335962979"
-      },
-      "image": {
-        "src": "/img/mattpocock-agents-goodhart-pr-metrics.jpg",
-        "alt": "Profile image of @mattpocockuk"
-      },
-      "heat": {
-        "score": 5,
-        "level": "none",
-        "metric": "10k views"
-      }
-    },
-    {
-      "id": "geoffreyhuntley-model-drop-checklist",
-      "title": "Geoffrey Huntley: at each model drop, reread the card, prune skills",
-      "takeaway": "His checklist: always read the model card and consider removing old skills and AGENTS.md files.",
-      "soWhat": "Old agent instructions can hold new models back, so review them with every upgrade.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-10T07:39:36Z",
-      "source": {
-        "name": "@GeoffreyHuntley on X",
-        "url": "https://x.com/GeoffreyHuntley/status/2120058778402087333"
-      },
-      "image": {
-        "src": "/img/geoffreyhuntley-model-drop-checklist.jpg",
-        "alt": "Image from @GeoffreyHuntley on X"
-      },
-      "heat": {
-        "score": 13,
-        "level": "none",
-        "metric": "9k views",
-        "voices": 2
+        "metric": "11k views"
       }
     },
     {
@@ -170,27 +375,26 @@
       }
     },
     {
-      "id": "primeagen-opus-orchestrator-deepseek-implementor",
-      "title": "ThePrimeagen: Opus 5.5 orchestrating DeepSeek workers felt fast",
-      "takeaway": "He called the pairing awesome, while a pipeline QA test gave only a moderate speedup.",
-      "soWhat": "A strong planner with cheap, fast workers is becoming a common agent pattern worth piloting.",
-      "lens": "practical",
+      "id": "lynalden-bullish-2027-gpu-demand",
+      "title": "Lyn Alden: wary of Huang's tenure, bullish on 2027 GPU demand",
+      "takeaway": "She calls herself neutral to bearish on Huang as CEO and bullish on GPU demand in 2027.",
+      "soWhat": "A respected macro voice separates Nvidia's leadership risk from the demand for AI compute.",
+      "lens": "frontier-capital",
       "momentum": "building",
       "importance": 6,
-      "publishedAt": "2026-11-10T01:13:27Z",
+      "publishedAt": "2026-11-10T01:12:07Z",
       "source": {
-        "name": "@ThePrimeagen on X",
-        "url": "https://x.com/ThePrimeagen/status/2119961602560835686"
+        "name": "@LynAldenContact on X",
+        "url": "https://x.com/LynAldenContact/status/2119961265099411681"
       },
       "image": {
-        "src": "/img/primeagen-opus-orchestrator-deepseek-implementor.jpg",
-        "alt": "Profile image of @ThePrimeagen"
+        "src": "/img/lynalden-bullish-2027-gpu-demand.jpg",
+        "alt": "Image from @LynAldenContact on X"
       },
       "heat": {
-        "score": 35,
+        "score": 17,
         "level": "none",
-        "metric": "50k views",
-        "voices": 3
+        "metric": "127k views"
       }
     },
     {
@@ -241,10 +445,9 @@
         "alt": "@LynAldenContact on X: Lyn Alden: markets shrugged off Nvidia's scandal, for now"
       },
       "heat": {
-        "score": 33,
+        "score": 14,
         "level": "none",
-        "metric": "48k views",
-        "voices": 3
+        "metric": "53k views"
       }
     },
     {
@@ -284,123 +487,6 @@
       }
     },
     {
-      "id": "theo-fable-52-76-minutes-42-dollars",
-      "title": "Theo: Fable 5.2 built a project in 76 minutes for $42",
-      "takeaway": "He says the result was not significantly better than Opus 5.5, especially for the price.",
-      "soWhat": "Test new flagships on your own work before paying a premium for marginal gains.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-09T22:53:05Z",
-      "source": {
-        "name": "@theo on X",
-        "url": "https://x.com/theo/status/2119926277801144695"
-      },
-      "image": {
-        "src": "/img/theo-fable-52-76-minutes-42-dollars.jpg",
-        "alt": "Image from @theo on X"
-      }
-    },
-    {
-      "id": "openai-control-room",
-      "title": "OpenAI builds Control Room to halt risky research workloads fast",
-      "takeaway": "It tracks every research inference workload, including agentic sampling for training and evals, from one place.",
-      "soWhat": "If you run agents at scale, you need one place to see and stop them.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-09T22:01:00Z",
-      "source": {
-        "name": "@OpenAI on X",
-        "url": "https://x.com/OpenAI/status/2119913172039868579"
-      },
-      "related": [
-        {
-          "name": "OpenAI blog",
-          "url": "https://openai.com/index/control-room"
-        }
-      ],
-      "image": {
-        "src": "/img/openai-control-room.jpg",
-        "alt": "Image from @OpenAI on X"
-      },
-      "heat": {
-        "score": 27,
-        "level": "none",
-        "metric": "676k views"
-      }
-    },
-    {
-      "id": "claudedevs-which-model-guide",
-      "title": "ClaudeDevs maps when to use Fable, Opus, Sonnet or Haiku",
-      "takeaway": "The guide also covers adjusting effort before switching models, and running subagents on smaller models to save cost.",
-      "soWhat": "Tune effort first and put subagents on smaller models; that is where agent costs fall.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-09T21:03:27Z",
-      "source": {
-        "name": "@ClaudeDevs on X",
-        "url": "https://x.com/ClaudeDevs/status/2119898687803621427"
-      },
-      "related": [
-        {
-          "name": "Anthropic announcement",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
-        }
-      ],
-      "image": {
-        "src": "/img/claudedevs-which-model-guide.jpg",
-        "alt": "Image from @ClaudeDevs on X"
-      }
-    },
-    {
-      "id": "mit-tr-data-center-backlash-electricity",
-      "title": "MIT Tech Review: data center backlash may be about electricity",
-      "takeaway": "MIT Technology Review argues the backlash about data centers might really just be about electricity.",
-      "soWhat": "Expect local power costs to shape pushback on new AI data centers.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 4,
-      "publishedAt": "2026-11-09T19:35:33Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/"
-      },
-      "image": {
-        "src": "/img/mit-tr-data-center-backlash-electricity.jpg",
-        "alt": "Image from MIT Technology Review"
-      }
-    },
-    {
-      "id": "mollick-fable-52-jagged-agi",
-      "title": "Ethan Mollick: Fable 5.2 is 'almost' AGI, in a jagged way",
-      "takeaway": "He says its remaining gaps are no longer simple errors or hallucinations.",
-      "soWhat": "Judge the new flagship on real expert work in your business, not on benchmarks.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-09T19:04:26Z",
-      "source": {
-        "name": "One Useful Thing",
-        "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi"
-      },
-      "related": [
-        {
-          "name": "Lenny's Newsletter review",
-          "url": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative"
-        },
-        {
-          "name": "Anthropic announcement",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
-        }
-      ],
-      "image": {
-        "src": "/img/mollick-fable-52-jagged-agi.jpg",
-        "alt": "Image from One Useful Thing"
-      }
-    },
-    {
       "id": "anthropic-fable-mythos-52-launch",
       "title": "Anthropic ships Fable 5.2 and Mythos 5.2, up to 30% faster",
       "takeaway": "Same model under two names; Fable adds cyber and bio safeguards so all users get it. $8/$40 per million tokens.",
@@ -429,6 +515,10 @@
         {
           "name": "HN discussion",
           "url": "https://news.ycombinator.com/item?id=50429906"
+        },
+        {
+          "name": "Artificial Analysis: Fable 5.2",
+          "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
         }
       ],
       "image": {
@@ -469,24 +559,6 @@
       }
     },
     {
-      "id": "pelosi-successor-regulate-ai",
-      "title": "Nancy Pelosi's replacement is ready to regulate AI",
-      "takeaway": "MIT Technology Review reports that Nancy Pelosi's replacement is ready to regulate AI.",
-      "soWhat": "Post-midterm Congress may push AI rules harder; plan compliance before bills arrive.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-09T17:05:43Z",
-      "source": {
-        "name": "MIT Technology Review",
-        "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/"
-      },
-      "image": {
-        "src": "/img/pelosi-successor-regulate-ai.jpg",
-        "alt": "Image from MIT Technology Review"
-      }
-    },
-    {
       "id": "benaich-open-cyber-models-defenders",
       "title": "Nathan Benaich: defenders need open cyber models too",
       "takeaway": "He says Hugging Face found API guardrails slowed an intrusion probe and used a self-hosted open model.",
@@ -520,24 +592,6 @@
       "image": {
         "src": "/img/mengto-apartment-threejs-opus55.jpg",
         "alt": "Image from @MengTo on X"
-      }
-    },
-    {
-      "id": "lyn-alden-japan-quiet-godzilla",
-      "title": "Lyn Alden: Japan's real market force is its overseas cash",
-      "takeaway": "Alden says Japan's quiet Godzilla is not the carry trade but its net international investment position, from pensions to private investors.",
-      "soWhat": "Watch Japan's pension and private money abroad, not just the carry trade, for global market risk.",
-      "lens": "frontier-capital",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-09T04:23:54Z",
-      "source": {
-        "name": "@LynAldenContact on X",
-        "url": "https://x.com/LynAldenContact/status/2119647141375394006"
-      },
-      "image": {
-        "src": "/img/lyn-alden-japan-quiet-godzilla.jpg",
-        "alt": "Image from @LynAldenContact on X"
       }
     },
     {
@@ -588,39 +642,39 @@
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/theo/status/2119960608816988596",
-      "handle": "@theo",
-      "text": "The $200 Claude Ultra plan gets you $15,000 of Opus 5.5 in a month, but only around $3,000 of Fable.",
-      "metric": "4.1k likes",
-      "note": "Builders are working out how much of the new flagship they can afford."
+      "url": "https://x.com/claudeai/status/2120174844822298730",
+      "handle": "@claudeai",
+      "text": "Early Fable 5.2 experiments, starting with a 3D model of a cell built from code one organelle at a time.",
+      "metric": "7.8k likes",
+      "note": "People want to see what the new flagship can actually build."
     },
     {
-      "url": "https://x.com/OpenAI/status/2119913172039868579",
-      "handle": "@OpenAI",
-      "text": "Control Room tracks model workloads across research infrastructure and stops them fast on safety concerns.",
-      "metric": "4.0k likes",
-      "note": "People want to see how a lab halts its own agents in practice."
+      "url": "https://x.com/sundarpichai/status/2120185896469496180",
+      "handle": "@sundarpichai",
+      "text": "Gemini 4 Carbon is rolling out today, built for sustained long-horizon tasks.",
+      "metric": "3.9k likes",
+      "note": "A second frontier launch in two days has builders comparing."
     },
     {
-      "url": "https://x.com/simonw/status/2120029347948220500",
-      "handle": "@simonw",
-      "text": "Anthropic's Fable 5.2 tip: tell the model 'This codebase is yours' so it improves existing code more boldly.",
-      "metric": "2.2k likes",
-      "note": "A one-line prompt change with a measured effect is easy to copy."
+      "url": "https://x.com/cursor_ai/status/2120193584670580857",
+      "handle": "@cursor_ai",
+      "text": "Gemini 4 Carbon is available in Cursor; at high effort it is the top model on CursorBench at 60.4%.",
+      "metric": "1.8k likes",
+      "note": "Builders want a neutral coding score, not the lab's own."
     },
     {
-      "url": "https://x.com/RayDalio/status/2119913074844987405",
-      "handle": "@RayDalio",
-      "text": "What I Think of The Results of the U.S. Midterm Elections.",
-      "metric": "2.0k likes",
-      "note": "Readers want a macro investor's take on what the results mean."
+      "url": "https://x.com/sundarpichai/status/2120198811297694192",
+      "handle": "@sundarpichai",
+      "text": "Carbon demo: /swarm in Antigravity runs builder and critic subagents to build a playable 3D game.",
+      "metric": "1.1k likes",
+      "note": "Self-checking agent teams are now a product feature."
     },
     {
-      "url": "https://x.com/ThePrimeagen/status/2119961602560835686",
-      "handle": "@ThePrimeagen",
-      "text": "opus 5.5 orchestrator + deepseek implementor / search... that was awesome.",
-      "metric": "773 likes",
-      "note": "Mixing a premium planner with cheap fast workers is catching on."
+      "url": "https://x.com/LynAldenContact/status/2119961265099411681",
+      "handle": "@LynAldenContact",
+      "text": "Neutral/bearish on Jensen Huang's CEO tenure, bullish on 2027 GPU demand.",
+      "metric": "1.1k likes",
+      "note": "Investors are splitting Nvidia's leadership risk from compute demand."
     }
   ]
 }
