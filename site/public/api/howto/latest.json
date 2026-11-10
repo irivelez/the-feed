@@ -1,71 +1,110 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-09T19:25:00-05:00",
-  "runId": "2026-11-09-1900",
+  "updatedAt": "2026-11-10T07:30:00-05:00",
+  "runId": "2026-11-10-0700",
   "howtos": [
     {
-      "id": "new-model-full-project-audit-prompt",
-      "dedupeKey": "new-model-full-project-audit-prompt",
-      "title": "Audit every project when a new model ships",
-      "what": "One prompt that has a coding agent find broken, inconsistent, inefficient or unneeded code, fix the sure things and list the rest.",
+      "id": "codebase-is-yours-ownership-prompt",
+      "dedupeKey": "codebase-is-yours-ownership-prompt",
+      "title": "Give the coding agent ownership of the codebase",
+      "what": "Anthropic's Fable 5.2 line that made the model merge repeated code in about half of tries, versus under a tenth without it.",
       "kind": "prompt",
       "copy": [
-        "Read this entire project and find everything that’s broken, inconsistent, inefficient, or no longer needed. Fix what you’re sure about and list the rest for me to review."
+        "This codebase is yours: what it's for and how it's built are your call, and you'll keep building on it."
       ],
-      "whenToUse": "Right after a new model release, run it on each project you own.",
+      "whenToUse": "When a coding agent is too cautious to improve or refactor existing code.",
       "source": {
-        "name": "@alexalbert__ on X",
-        "url": "https://x.com/alexalbert__/status/2119884951550386671"
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2120029347948220500"
       },
-      "author": {
-        "name": "Alex Albert",
-        "handle": "alexalbert__"
-      },
-      "tags": [
-        "coding-agents",
-        "code-quality",
-        "prompts"
+      "alsoFrom": [
+        {
+          "name": "Simon Willison blog",
+          "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/"
+        }
       ],
-      "quality": 4,
-      "verbatim": true,
-      "briefItem": {
-        "briefId": "2026-11-09-1900",
-        "itemId": "alexalbert-new-model-audit-prompt"
-      },
-      "addedAt": "2026-11-09T19:25:00-05:00"
-    },
-    {
-      "id": "explain-the-why-in-ai-grilling",
-      "dedupeKey": "explain-the-why-in-ai-grilling",
-      "title": "Explain the why, not the what, to your AI",
-      "what": "In AI grilling sessions, describe the user problem instead of the feature you want built.",
-      "kind": "steps",
-      "copy": [
-        "State the problem, not the feature.",
-        "Bad: \"I want to build an analytics panel for admins with graphs and filters\".",
-        "Good: \"Admins can't currently see an overview of the important data in the app\"."
-      ],
-      "whenToUse": "When starting a planning or grilling session with a coding agent on a new feature.",
-      "source": {
-        "name": "@mattpocockuk on X",
-        "url": "https://x.com/mattpocockuk/status/2119888414736859356"
-      },
       "author": {
-        "name": "Matt Pocock",
-        "handle": "mattpocockuk"
+        "name": "Simon Willison",
+        "handle": "simonw"
       },
       "tags": [
         "prompts",
-        "planning",
-        "coding-agents"
+        "coding-agents",
+        "code-quality"
+      ],
+      "quality": 5,
+      "verbatim": true,
+      "briefItem": {
+        "briefId": "2026-11-10-0700",
+        "itemId": "simonw-fable-52-codebase-is-yours"
+      },
+      "addedAt": "2026-11-10T07:30:00-05:00"
+    },
+    {
+      "id": "plan-with-fable-build-with-opus",
+      "dedupeKey": "plan-with-premium-model-build-with-cheaper",
+      "title": "Plan with Fable 5.2, then build with Opus 5.5",
+      "what": "A workflow to stretch limited Fable usage: use it only to plan and audit, then hand the plan to Opus to build.",
+      "kind": "steps",
+      "copy": [
+        "Use Fable only for planning and docs.",
+        "Have it audit the plan until it reaches highest confidence, with no clear gaps and no overengineering.",
+        "Make sure it writes out every step.",
+        "Hand the plan to Opus 5.5 to build."
+      ],
+      "whenToUse": "When the premium model's usage limits run out faster than your build work.",
+      "source": {
+        "name": "@kloss_xyz on X",
+        "url": "https://x.com/kloss_xyz/status/2119951474813972984"
+      },
+      "author": {
+        "name": "klöss",
+        "handle": "kloss_xyz"
+      },
+      "tags": [
+        "coding-agents",
+        "model-choice",
+        "cost"
       ],
       "quality": 3,
       "verbatim": false,
       "briefItem": {
-        "briefId": "2026-11-09-1900",
-        "itemId": "mattpocock-explain-why-tip"
+        "briefId": "2026-11-10-0700",
+        "itemId": "theo-fable-52-plan-cost"
       },
-      "addedAt": "2026-11-09T19:25:00-05:00"
+      "addedAt": "2026-11-10T07:30:00-05:00"
+    },
+    {
+      "id": "model-drop-checklist",
+      "dedupeKey": "model-drop-reread-card-prune-skills",
+      "title": "Reset your agent setup at every major model drop",
+      "what": "A two-step checklist so old instructions don't hold a new model back.",
+      "kind": "steps",
+      "copy": [
+        "Always read the model card.",
+        "Consider removing your existing skills and AGENTS.md files."
+      ],
+      "whenToUse": "Right after a major model release, before you keep using your old agent setup.",
+      "source": {
+        "name": "@GeoffreyHuntley on X",
+        "url": "https://x.com/GeoffreyHuntley/status/2120058778402087333"
+      },
+      "author": {
+        "name": "Geoffrey Huntley",
+        "handle": "GeoffreyHuntley"
+      },
+      "tags": [
+        "coding-agents",
+        "skills",
+        "model-upgrades"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-10-0700",
+        "itemId": "geoffreyhuntley-model-drop-checklist"
+      },
+      "addedAt": "2026-11-10T07:30:00-05:00"
     }
   ]
 }
