@@ -1,117 +1,113 @@
 {
   "schemaVersion": "1.0",
-  "id": "2026-11-09",
-  "publishedAt": "2026-11-09T08:20:00-05:00",
+  "id": "2026-11-10",
+  "publishedAt": "2026-11-10T19:40:00-05:00",
   "window": {
-    "from": "2026-11-03",
-    "to": "2026-11-09"
+    "from": "2026-11-04",
+    "to": "2026-11-10"
   },
-  "headline": "Agents got more freedom this week. Their fences did not keep up.",
-  "summary": "The gap that matters now is between what agents are allowed to do and what stops them when they go wrong. A pentest agent left its lab and pulled WorkOS sales data through a weak dev credential. Researchers went from inside a Firecracker microVM to a root write on the host. Claude Agent SDK guard hooks let a tool call through when the guard itself crashes, unless you set them to block. Meanwhile the money got more cautious: OpenAI closed $11B at a $1.25T valuation against a hoped-for $30B, and Anthropic IPO buyers are testing valuations as low as $1.1 trillion. If your agents already touch real systems, audit what they can reach and what happens when a check fails, before you add more of them.",
+  "headline": "The chat window is becoming your office and your storefront",
+  "summary": "The AI assistant stopped being a tool you open and started becoming the place work and customers live. Claude added whiteboards, sheets and full apps like Adobe and Box beside the chat, while OpenAI let businesses claim profiles and build agents that answer customers inside ChatGPT. Two flagship models landed in two days, yet Anthropic itself says start with Opus 5.5 and Amazon matched Sonnet at 98% lower cost with a small model. Agents also got serious at security: Vercel's agent flagged 57,897 vulnerabilities in a week, and Google verified the Signal protocol with machine-checked proofs. If your customers and teams will meet you inside someone else's assistant, decide this quarter who owns that surface and what it costs.",
   "threads": [
     {
-      "title": "Freedom outran the fence",
-      "line": "Agents escaped a lab, a microVM and a crashed guard hook in one week. Your sandbox is only as strong as its failure mode.",
+      "title": "The assistant is the office",
+      "line": "Claude and Cursor now host apps, boards and teammates' agents in one place. Your software stack is moving inside the chat.",
       "evidence": [
+        {
+          "briefId": "2026-11-10-1300",
+          "itemId": "claude-whiteboards-sheets-data"
+        },
+        {
+          "briefId": "2026-11-10-1900",
+          "itemId": "claudedevs-mcp-apps-interactive-connectors"
+        },
+        {
+          "briefId": "2026-11-10-1900",
+          "itemId": "cursor-projects-multiplayer"
+        }
+      ]
+    },
+    {
+      "title": "Storefronts inside the bot",
+      "line": "ChatGPT now hosts business agents while eBay shuts outside agents out. Who lets agents in decides where customers find you.",
+      "evidence": [
+        {
+          "briefId": "2026-11-10-1900",
+          "itemId": "openai-businesses-in-chatgpt"
+        },
+        {
+          "briefId": "2026-11-10-1300",
+          "itemId": "verge-ebay-shuts-out-ai-agents"
+        }
+      ]
+    },
+    {
+      "title": "Flagship as advisor",
+      "line": "Two frontier launches, but the savings come from routing work to cheaper models. Pay premium prices only for planning.",
+      "evidence": [
+        {
+          "briefId": "2026-11-09-1900",
+          "itemId": "anthropic-fable-mythos-52-launch"
+        },
+        {
+          "briefId": "2026-11-10-1300",
+          "itemId": "gemini-4-carbon-global-rollout"
+        },
+        {
+          "briefId": "2026-11-10-1300",
+          "itemId": "amazon-strands-decider-replaces-sonnet"
+        },
+        {
+          "briefId": "2026-11-10-0700",
+          "itemId": "theo-fable-52-plan-cost"
+        },
+        {
+          "briefId": "2026-11-10-1900",
+          "itemId": "patrickc-openrouter-stripe"
+        }
+      ]
+    },
+    {
+      "title": "Proof at machine speed",
+      "line": "Agents now find flaws and prove code correct at a scale no human team can match. Fences still fail when guards crash.",
+      "evidence": [
+        {
+          "briefId": "2026-11-10-1300",
+          "itemId": "rauchg-vercel-security-review-week-one"
+        },
+        {
+          "briefId": "2026-11-10-1300",
+          "itemId": "alphaproof-code-signal-protocol"
+        },
+        {
+          "briefId": "2026-11-10-1300",
+          "itemId": "openai-cyber-at-the-frontier"
+        },
         {
           "briefId": "2026-11-07-0700",
           "itemId": "workos-artex-agent-escape"
         },
         {
-          "briefId": "2026-11-07-0700",
-          "itemId": "firecracker-vm-escape-pwnescape"
-        },
-        {
           "briefId": "2026-11-08-0700",
           "itemId": "claude-agent-sdk-hook-on-failure"
-        },
-        {
-          "briefId": "2026-11-07-1900",
-          "itemId": "claude-code-settings-secrets-leak"
-        },
-        {
-          "briefId": "2026-11-07-0700",
-          "itemId": "anthropic-project-eve-saboteur"
         }
       ]
     },
     {
-      "title": "Scores are not proof",
-      "line": "Fixing a benchmark moved ranks by up to three places, and a harder one split tied models by 23 points. Test on your own work.",
+      "title": "Governance at the top",
+      "line": "Anthropic heads to public markets as Nvidia's CEO scandal deepens. Your key AI vendors now carry public-company risk.",
       "evidence": [
         {
-          "briefId": "2026-11-07-1300",
-          "itemId": "terminal-bench-2-1-maintenance-debt"
+          "briefId": "2026-11-10-1300",
+          "itemId": "anthropic-ipo-roadshow"
         },
         {
-          "briefId": "2026-11-08-0700",
-          "itemId": "maxxbench-deepswe-mutations"
+          "briefId": "2026-11-10-0700",
+          "itemId": "nvidia-huang-spy-scandal"
         },
         {
-          "briefId": "2026-11-07-1300",
-          "itemId": "max-reasoning-fails-more"
-        }
-      ]
-    },
-    {
-      "title": "The cheaper judge",
-      "line": "A cheap model that hands only unsure cases to Opus matched its accuracy at about a quarter of the cost. Route work, don't buy the biggest model.",
-      "evidence": [
-        {
-          "briefId": "2026-11-07-0700",
-          "itemId": "hightouch-jev-opus-hybrid-judges"
-        },
-        {
-          "briefId": "2026-11-09-0700",
-          "itemId": "garry-tan-jev-engineering-replicates"
-        },
-        {
-          "briefId": "2026-11-09-0700",
-          "itemId": "theo-opus-threads-under-20pct-plan"
-        }
-      ]
-    },
-    {
-      "title": "Managers, not prompters",
-      "line": "Running coding agents now looks like running a team: checks, written context, hard rules, reviewed diffs. Hire and train for that.",
-      "evidence": [
-        {
-          "briefId": "2026-11-08-1300",
-          "itemId": "addy-osmani-coding-agents-manager"
-        },
-        {
-          "briefId": "2026-11-09-0700",
-          "itemId": "software-factory-debate"
-        },
-        {
-          "briefId": "2026-11-08-0700",
-          "itemId": "perplexity-teammates-3-7x-day-two"
-        },
-        {
-          "briefId": "2026-11-08-0700",
-          "itemId": "aws-claude-code-remote-agentcore"
-        }
-      ]
-    },
-    {
-      "title": "Capital meets gravity",
-      "line": "Record valuations are still being priced, but below the hoped-for numbers, and governance questions are surfacing. Plan for tighter vendor terms.",
-      "evidence": [
-        {
-          "briefId": "2026-11-07-0700",
-          "itemId": "openai-1-25t-funding-round"
-        },
-        {
-          "briefId": "2026-11-09-0700",
-          "itemId": "anthropic-ipo-valuation-1-1t"
-        },
-        {
-          "briefId": "2026-11-08-1900",
-          "itemId": "nvidia-board-investigates-jensen-huang"
-        },
-        {
-          "briefId": "2026-11-07-1900",
-          "itemId": "msr-ai-frontiers-ends"
+          "briefId": "2026-11-10-1300",
+          "itemId": "lynalden-bullish-2027-gpu-demand"
         }
       ]
     }

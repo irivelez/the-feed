@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.0",
+  "id": "2026-11-10",
+  "publishedAt": "2026-11-10T19:40:00-05:00",
+  "window": {
+    "from": "2026-11-04",
+    "to": "2026-11-10"
+  },
+  "headline": "The chat window is becoming your office and your storefront",
+  "summary": "The AI assistant stopped being a tool you open and started becoming the place work and customers live. Claude added whiteboards, sheets and full apps like Adobe and Box beside the chat, while OpenAI let businesses claim profiles and build agents that answer customers inside ChatGPT. Two flagship models landed in two days, yet Anthropic itself says start with Opus 5.5 and Amazon matched Sonnet at 98% lower cost with a small model. Agents also got serious at security: Vercel's agent flagged 57,897 vulnerabilities in a week, and Google verified the Signal protocol with machine-checked proofs. If your customers and teams will meet you inside someone else's assistant, decide this quarter who owns that surface and what it costs.",
+  "threads": [
+    {
+      "title": "The assistant is the office",
+      "line": "Claude and Cursor now host apps, boards and teammates' agents in one place. Your software stack is moving inside the chat.",
+      "evidence": [
+        {
+          "briefId": "2026-11-10-1300",
+          "itemId": "claude-whiteboards-sheets-data"
+        },
+        {
+          "briefId": "2026-11-10-1900",
+          "itemId": "claudedevs-mcp-apps-interactive-connectors"
+        },
+        {
+          "briefId": "2026-11-10-1900",
+          "itemId": "cursor-projects-multiplayer"
+        }
+      ]
+    },
+    {
+      "title": "Storefronts inside the bot",
+      "line": "ChatGPT now hosts business agents while eBay shuts outside agents out. Who lets agents in decides where customers find you.",
+      "evidence": [
+        {
+          "briefId": "2026-11-10-1900",
+          "itemId": "openai-businesses-in-chatgpt"
+        },
+        {
+          "briefId": "2026-11-10-1300",
+          "itemId": "verge-ebay-shuts-out-ai-agents"
+        }
+      ]
+    },
+    {
+      "title": "Flagship as advisor",
+      "line": "Two frontier launches, but the savings come from routing work to cheaper models. Pay premium prices only for planning.",
+      "evidence": [
+        {
+          "briefId": "2026-11-09-1900",
+          "itemId": "anthropic-fable-mythos-52-launch"
+        },
+        {
+          "briefId": "2026-11-10-1300",
+          "itemId": "gemini-4-carbon-global-rollout"
+        },
+        {
+          "briefId": "2026-11-10-1300",
+          "itemId": "amazon-strands-decider-replaces-sonnet"
+        },
+        {
+          "briefId": "2026-11-10-0700",
+          "itemId": "theo-fable-52-plan-cost"
+        },
+        {
+          "briefId": "2026-11-10-1900",
+          "itemId": "patrickc-openrouter-stripe"
+        }
+      ]
+    },
+    {
+      "title": "Proof at machine speed",
+      "line": "Agents now find flaws and prove code correct at a scale no human team can match. Fences still fail when guards crash.",
+      "evidence": [
+        {
+          "briefId": "2026-11-10-1300",
+          "itemId": "rauchg-vercel-security-review-week-one"
+        },
+        {
+          "briefId": "2026-11-10-1300",
+          "itemId": "alphaproof-code-signal-protocol"
+        },
+        {
+          "briefId": "2026-11-10-1300",
+          "itemId": "openai-cyber-at-the-frontier"
+        },
+        {
+          "briefId": "2026-11-07-0700",
+          "itemId": "workos-artex-agent-escape"
+        },
+        {
+          "briefId": "2026-11-08-0700",
+          "itemId": "claude-agent-sdk-hook-on-failure"
+        }
+      ]
+    },
+    {
+      "title": "Governance at the top",
+      "line": "Anthropic heads to public markets as Nvidia's CEO scandal deepens. Your key AI vendors now carry public-company risk.",
+      "evidence": [
+        {
+          "briefId": "2026-11-10-1300",
+          "itemId": "anthropic-ipo-roadshow"
+        },
+        {
+          "briefId": "2026-11-10-0700",
+          "itemId": "nvidia-huang-spy-scandal"
+        },
+        {
+          "briefId": "2026-11-10-1300",
+          "itemId": "lynalden-bullish-2027-gpu-demand"
+        }
+      ]
+    }
+  ]
+}
