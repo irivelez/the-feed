@@ -1,0 +1,464 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-11-0634",
+  "generatedAt": "2026-11-11T06:35:00-05:00",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-10T23:30:00Z",
+    "to": "2026-11-11T11:35:00Z"
+  },
+  "sourceNotes": [
+    "Dwarkesh Patel RSS: HTTP 500 again; dead or flaky, a human should check or remove.",
+    "Hacker News query failed (non-JSON response from Algolia call); no HN candidates this run.",
+    "arXiv, Benedict Evans (stale since 2026-09-03), Metaplanet Google News and The Atlantic not queried this run.",
+    "X: 4 search calls (howTo and bigPicture/frontierCapital/design lanes, each with and without replies) since 23:30Z, 25 results cap; the first pair returned mostly replies, so the second pair excluded replies. Official lab accounts (OpenAI, AnthropicAI, GoogleDeepMind, sama etc.) posted no top-level posts in window; naval, VitalikButerin, RayDalio, Metaplanet, gerovich, nathanbenaich, LynAldenContact had none. authorBaseline, topic queries and reply capture not run to stay in budget; no bestReply. Views = impression_count.",
+    "Simon Willison, Verge, OpenAI Blog, MIT Tech Review, Mollick, Lenny, Stratechery, Gary Marcus, Mitchell Hashimoto feeds fetched OK; many items were already covered in earlier runs. Several rss items are headline-level only.",
+    "frontier-capital: no candidates in window. design: only a MengTo reply, low proof."
+  ],
+  "candidates": [
+    {
+      "id": "shumer-fable-52-tricks-video",
+      "lens": "practical",
+      "summary": "Matt Shumer says he burned 400B+ tokens learning to use Fable 5.2 and packed every trick into one 17-minute video.",
+      "source": {
+        "name": "mattshumer_ on X",
+        "url": "https://x.com/mattshumer_/status/2120396917016596552",
+        "type": "x",
+        "handle": "mattshumer_"
+      },
+      "publishedAt": "2026-11-11T06:03:14Z",
+      "metrics": {
+        "likes": 91,
+        "reposts": 2,
+        "replies": 44,
+        "views": 33453,
+        "capturedAt": "2026-11-11T06:35:00-05:00"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-11",
+      "topic": "fable-52-launch"
+    },
+    {
+      "id": "rubenhassid-17-claude-tips",
+      "lens": "practical",
+      "summary": "Ruben Hassid posts a 17-tip thread to go from normal to power user of Claude, starting with turning Claude Memory on.",
+      "source": {
+        "name": "rubenhassid on X",
+        "url": "https://x.com/rubenhassid/status/2120396104382677267",
+        "type": "x",
+        "handle": "rubenhassid"
+      },
+      "publishedAt": "2026-11-11T06:00:00Z",
+      "metrics": {
+        "likes": 75,
+        "reposts": 8,
+        "replies": 5,
+        "views": 5275,
+        "capturedAt": "2026-11-11T06:35:00-05:00"
+      },
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-11-11",
+      "topic": "claude-power-user-tips"
+    },
+    {
+      "id": "hwchase17-goal-engineering",
+      "lens": "practical",
+      "summary": "Harrison Chase posts that context engineering and harness engineering are now struck through and the term is 'goal engineering'.",
+      "source": {
+        "name": "hwchase17 on X",
+        "url": "https://x.com/hwchase17/status/2120330156325867529",
+        "type": "x",
+        "handle": "hwchase17"
+      },
+      "publishedAt": "2026-11-11T01:37:57Z",
+      "metrics": {
+        "likes": 462,
+        "reposts": 29,
+        "replies": 136,
+        "views": 26453,
+        "capturedAt": "2026-11-11T06:35:00-05:00"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-11",
+      "topic": "goal-engineering"
+    },
+    {
+      "id": "ryancarson-personal-software-duolingo",
+      "lens": "practical",
+      "summary": "Ryan Carson says he built a simpler, customized version of Duolingo for his wife in 1 day; her feature requests ship in 1 hour. Says personal software is here.",
+      "source": {
+        "name": "ryancarson on X",
+        "url": "https://x.com/ryancarson/status/2120357229715235151",
+        "type": "x",
+        "handle": "ryancarson"
+      },
+      "publishedAt": "2026-11-11T03:25:32Z",
+      "metrics": {
+        "likes": 82,
+        "reposts": 2,
+        "replies": 24,
+        "views": 6276,
+        "capturedAt": "2026-11-11T06:35:00-05:00"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-11",
+      "topic": "personal-software-duolingo",
+      "facts": [
+        "Lenny's Newsletter 'How I AI' episode of Nov 9 covers a founder (William Imoh) who built a better Duolingo with Codex."
+      ]
+    },
+    {
+      "id": "langchain-state-of-agent-engineering-survey",
+      "lens": "practical",
+      "summary": "Harrison Chase announces LangChain's annual 'State of Agent Engineering' survey.",
+      "source": {
+        "name": "hwchase17 on X",
+        "url": "https://x.com/hwchase17/status/2120321303572025349",
+        "type": "x",
+        "handle": "hwchase17"
+      },
+      "publishedAt": "2026-11-11T01:02:47Z",
+      "metrics": {
+        "likes": 35,
+        "reposts": 4,
+        "replies": 25,
+        "views": 5084,
+        "capturedAt": "2026-11-11T06:35:00-05:00"
+      },
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-11-11",
+      "topic": "agent-engineering-survey"
+    },
+    {
+      "id": "mengto-fable-52-blender",
+      "lens": "practical",
+      "summary": "Meng To recreated his three.js apartment in Blender with Fable 5.2, calling it faster, more accurate and token efficient than Opus 5.5.",
+      "source": {
+        "name": "MengTo on X",
+        "url": "https://x.com/MengTo/status/2120316203738829180",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-11T00:42:31Z",
+      "metrics": {
+        "likes": 292,
+        "reposts": 17,
+        "replies": 18,
+        "views": 16217,
+        "capturedAt": "2026-11-11T06:35:00-05:00"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-11",
+      "topic": "fable-52-launch"
+    },
+    {
+      "id": "theo-gemini-4-carbon-early-access",
+      "lens": "practical",
+      "summary": "Theo says he got early access to Gemini 4 Carbon and wasn't impressed overall, then did more tests, missed some things, and his video will not go as planned.",
+      "source": {
+        "name": "theo on X",
+        "url": "https://x.com/theo/status/2120350391078723649",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-11T02:58:22Z",
+      "metrics": {
+        "likes": 1474,
+        "reposts": 19,
+        "replies": 143,
+        "views": 74328,
+        "capturedAt": "2026-11-11T06:35:00-05:00"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-11",
+      "topic": "gemini-4-carbon"
+    },
+    {
+      "id": "swyx-aie-keynote-embargo",
+      "lens": "practical",
+      "summary": "swyx says he previewed a keynote for AI Engineer's Thursday livestream and had to agree to an embargo to get the talk; it is not the full story.",
+      "source": {
+        "name": "swyx on X",
+        "url": "https://x.com/swyx/status/2120372817720197357",
+        "type": "x",
+        "handle": "swyx"
+      },
+      "publishedAt": "2026-11-11T04:27:29Z",
+      "metrics": {
+        "likes": 132,
+        "reposts": 7,
+        "replies": 42,
+        "views": 11258,
+        "capturedAt": "2026-11-11T06:35:00-05:00"
+      },
+      "care": 2,
+      "proof": 1,
+      "firstSeen": "2026-11-11",
+      "topic": "aie-code-keynote"
+    },
+    {
+      "id": "simonw-carbon-pelicans",
+      "lens": "practical",
+      "summary": "Simon Willison: Google had a whole lot more fun with Carbon and pelicans on bicycles than he did (quote of a Google post). Also released llm-gemini 0.36 on Nov 10.",
+      "source": {
+        "name": "simonw on X",
+        "url": "https://x.com/simonw/status/2120387954044735980",
+        "type": "x",
+        "handle": "simonw"
+      },
+      "publishedAt": "2026-11-11T05:27:37Z",
+      "metrics": {
+        "likes": 19,
+        "reposts": 0,
+        "replies": 8,
+        "views": 4601,
+        "capturedAt": "2026-11-11T06:35:00-05:00"
+      },
+      "care": 2,
+      "proof": 3,
+      "firstSeen": "2026-11-11",
+      "topic": "gemini-4-carbon",
+      "facts": [
+        "llm-gemini 0.36: https://simonwillison.net/2026/Nov/10/llm-gemini/"
+      ]
+    },
+    {
+      "id": "poteto-cursor-multiplayer",
+      "lens": "practical",
+      "summary": "poteto: 'multiplayer is here', plus a note that the agent can make and manage projects on request. Same launch as Cursor Projects multiplayer.",
+      "source": {
+        "name": "poteto on X",
+        "url": "https://x.com/poteto/status/2120313779691168082",
+        "type": "x",
+        "handle": "poteto"
+      },
+      "publishedAt": "2026-11-11T00:32:53Z",
+      "metrics": {
+        "likes": 1585,
+        "reposts": 63,
+        "replies": 144,
+        "views": 111701,
+        "capturedAt": "2026-11-11T06:35:00-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-11",
+      "topic": "cursor-multiplayer-projects"
+    },
+    {
+      "id": "shumer-fable-game-playable",
+      "lens": "practical",
+      "summary": "Matt Shumer shows a playable game running on his Macbook, built about 13 hours in, to answer people asking if it was just a video.",
+      "source": {
+        "name": "mattshumer_ on X",
+        "url": "https://x.com/mattshumer_/status/2120308139153326225",
+        "type": "x",
+        "handle": "mattshumer_"
+      },
+      "publishedAt": "2026-11-11T00:10:28Z",
+      "metrics": {
+        "likes": 1617,
+        "reposts": 59,
+        "replies": 138,
+        "views": 362083,
+        "capturedAt": "2026-11-11T06:35:00-05:00"
+      },
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-11-11",
+      "topic": "fable-52-launch"
+    },
+    {
+      "id": "alexfinn-agent-capability-prompt",
+      "lens": "practical",
+      "summary": "Alex Finn shares a prompt he says saved him more time than any other, aimed at using agents beyond 1% of capability. Prompt text is cut off in the read.",
+      "source": {
+        "name": "AlexFinn on X",
+        "url": "https://x.com/AlexFinn/status/2120316818132984120",
+        "type": "x",
+        "handle": "AlexFinn"
+      },
+      "publishedAt": "2026-11-11T00:44:57Z",
+      "metrics": {
+        "likes": 774,
+        "reposts": 32,
+        "replies": 82,
+        "views": 63038,
+        "capturedAt": "2026-11-11T06:35:00-05:00"
+      },
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-11-11",
+      "topic": "agent-capability-prompt"
+    },
+    {
+      "id": "rowan-ai-news-roundup",
+      "lens": "broad",
+      "summary": "Rowan Cheung roundup of the past 48 hours of AI announcements from OpenAI, Anthropic, Meta and Google; first item says the AI 2027 authors moved timelines up to AI matching the best human AI researchers in 2027, after METR.",
+      "source": {
+        "name": "rowancheung on X",
+        "url": "https://x.com/rowancheung/status/2120299193868615981",
+        "type": "x",
+        "handle": "rowancheung"
+      },
+      "publishedAt": "2026-11-10T23:34:55Z",
+      "metrics": {
+        "likes": 988,
+        "reposts": 79,
+        "replies": 134,
+        "views": 137588,
+        "capturedAt": "2026-11-11T06:35:00-05:00"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-11",
+      "topic": "ai-timelines-roundup"
+    },
+    {
+      "id": "a16z-dharmesh-yellow-brick-road",
+      "lens": "broad",
+      "summary": "a16z clip: HubSpot CTO Dharmesh Shah says it is less scary to build an AI startup now than in 2023, as long as you stay off the path the frontier labs are following.",
+      "source": {
+        "name": "a16z on X",
+        "url": "https://x.com/a16z/status/2120320518419276127",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "publishedAt": "2026-11-11T00:59:39Z",
+      "metrics": {
+        "likes": 174,
+        "reposts": 12,
+        "replies": 35,
+        "views": 37020,
+        "capturedAt": "2026-11-11T06:35:00-05:00"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-11",
+      "topic": "ai-startup-vs-labs"
+    },
+    {
+      "id": "garymarcus-no-anthropic-ipo",
+      "lens": "broad",
+      "summary": "Gary Marcus publishes 'Just say no to Anthropic's IPO' (contrarian view).",
+      "source": {
+        "name": "Gary Marcus",
+        "url": "https://garymarcus.substack.com/p/just-say-no-to-anthropics-ipo",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-10T14:37:21Z",
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-11",
+      "topic": "anthropic-ipo",
+      "facts": [
+        "Headline-level; body not read."
+      ]
+    },
+    {
+      "id": "stratechery-huang-story-gets-worse",
+      "lens": "broad",
+      "summary": "Stratechery Nov 10 update: 'The Jensen Huang Story Gets Worse, Washington vs. New York, Silicon Valley'. Nov 11 edition covers Intel and AMD earnings.",
+      "source": {
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-10T11:00:00Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-11",
+      "topic": "nvidia-huang-affair",
+      "facts": [
+        "Headline-level; body paywalled."
+      ]
+    },
+    {
+      "id": "mit-pelosi-successor-ai-regulation",
+      "lens": "broad",
+      "summary": "MIT Tech Review: Nancy Pelosi's replacement is ready to regulate AI; related piece says the data-center backlash may really be about electricity.",
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-09T17:05:43Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-11",
+      "topic": "ai-regulation-data-centers",
+      "facts": [
+        "Related: https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/"
+      ]
+    },
+    {
+      "id": "mollick-fable-52-jagged-agi",
+      "lens": "broad",
+      "summary": "Ethan Mollick publishes 'Fable 5.2 and Jagged AGI' (Nov 9).",
+      "source": {
+        "name": "One Useful Thing",
+        "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-09T19:04:26Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-11",
+      "topic": "fable-52-launch",
+      "facts": [
+        "Headline-level; body not read."
+      ]
+    },
+    {
+      "id": "lenny-tech-job-market-late-2026",
+      "lens": "broad",
+      "summary": "Lenny publishes 'State of the tech job market: late 2026' (Nov 10).",
+      "source": {
+        "name": "Lenny's Newsletter",
+        "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-10T15:04:03Z",
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-11-11",
+      "topic": "tech-job-market",
+      "facts": [
+        "Headline-level; body not read."
+      ]
+    },
+    {
+      "id": "mengto-fable-vs-opus-medium-extra",
+      "lens": "design",
+      "summary": "Meng To reply: using Fable 5.2 at medium and Opus 5.5 at extra, he finished higher-quality projects faster with Fable 5.2; says it is limited experience. Lands on 3D/Blender UI and landing-page work.",
+      "source": {
+        "name": "MengTo on X",
+        "url": "https://x.com/MengTo/status/2120470678759694748",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-11T10:56:20Z",
+      "metrics": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 1,
+        "views": 14,
+        "capturedAt": "2026-11-11T06:35:00-05:00"
+      },
+      "care": 2,
+      "proof": 1,
+      "firstSeen": "2026-11-11",
+      "topic": "fable-52-launch"
+    }
+  ]
+}
