@@ -1,41 +1,34 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-10T19:35:00-05:00",
-  "runId": "2026-11-10-1838",
+  "runId": "2026-11-11-0634",
   "howtos": [
     {
-      "id": "home-repo-multi-repo-agents",
-      "dedupeKey": "home-repo-multi-repo-agents",
-      "title": "Run agents from one home repo",
-      "what": "Matt Pocock's pattern: one repo holds skills, steering files and wiki, and points the agent at your other repos.",
-      "kind": "steps",
+      "id": "lighten-cognitive-load-agent-prompt",
+      "dedupeKey": "lighten-cognitive-load-agent-prompt",
+      "title": "Ask your agent how to lighten your cognitive load",
+      "what": "Alex Finn's prompt makes your agent review what it knows about you and propose systems, subagents and routines.",
+      "kind": "prompt",
       "copy": [
-        "Create one 'Home Repo' that holds your skills, steering files and wiki.",
-        "Run the agent from inside the Home Repo.",
-        "In its AGENTS.md, point to local clones of your other repos.",
-        "Use it to make sweeping changes across multiple repos from one place."
+        "My goal for working with you is to lighten my cognitive load. I want to get more work done, but with less effort on my part. Based on what you know about me and what we do together, what are some things we can do, systems we can implement, subagents we can build, or routines we can create to accomplish this goal?"
       ],
-      "whenToUse": "When agent tooling is scattered across several repos or a change must span many codebases.",
+      "whenToUse": "When you use an agent for a few tasks and suspect it could take over much more of your recurring work.",
       "source": {
-        "name": "@mattpocockuk on X",
-        "url": "https://x.com/mattpocockuk/status/2120260969750540327"
+        "name": "@AlexFinn on X",
+        "url": "https://x.com/AlexFinn/status/2120316818132984120"
       },
       "author": {
-        "name": "Matt Pocock",
-        "handle": "mattpocockuk"
+        "name": "Alex Finn",
+        "handle": "AlexFinn"
       },
       "tags": [
-        "coding-agents",
-        "agents-md",
-        "multi-repo"
+        "agents",
+        "prompts",
+        "routines"
       ],
       "quality": 3,
-      "verbatim": false,
-      "briefItem": {
-        "briefId": "2026-11-10-1900",
-        "itemId": "mattpocock-home-repo-agents"
-      },
-      "addedAt": "2026-11-10T19:35:00-05:00"
+      "verbatim": true,
+      "addedAt": "2026-11-11T07:35:00-05:00"
     }
-  ]
+  ],
+  "updatedAt": "2026-11-11T07:35:00-05:00"
 }
