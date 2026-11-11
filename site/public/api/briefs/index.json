@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-10-1900",
-  "count": 58,
+  "latest": "2026-11-11-0700",
+  "count": 59,
   "briefs": [
+    {
+      "id": "2026-11-11-0700",
+      "date": "2026-11-11",
+      "edition": "Morning",
+      "publishedAt": "2026-11-11T07:30:00-05:00",
+      "headline": "The Jensen Huang story gets worse, says Stratechery",
+      "url": "/api/briefs/2026-11-11-0700.json"
+    },
     {
       "id": "2026-11-10-1900",
       "date": "2026-11-10",

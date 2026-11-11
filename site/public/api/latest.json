@@ -1,48 +1,201 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-10-1900",
-  "date": "2026-11-10",
-  "publishedAt": "2026-11-10T19:30:00-05:00",
-  "edition": "Evening",
+  "id": "2026-11-11-0700",
+  "date": "2026-11-11",
+  "publishedAt": "2026-11-11T07:30:00-05:00",
+  "edition": "Morning",
   "top3": [
     {
-      "itemId": "openai-businesses-in-chatgpt",
-      "headline": "OpenAI opens ChatGPT to business profiles and customer-facing agents",
-      "whyItMatters": "Customers may meet your brand inside ChatGPT first; decide who owns that profile."
+      "itemId": "stratechery-huang-story-gets-worse",
+      "headline": "The Jensen Huang story gets worse, says Stratechery",
+      "whyItMatters": "Nvidia leadership risk is still growing; know how much your AI plans depend on one supplier."
     },
     {
-      "itemId": "claudedevs-mcp-apps-interactive-connectors",
-      "headline": "Claude now runs full apps like Adobe and Box beside the chat",
-      "whyItMatters": "Your software vendors are becoming apps inside Claude; check which ones your teams already use."
+      "itemId": "rowan-ai-news-roundup",
+      "headline": "AI 2027 authors pull their top-researcher AI forecast into 2027",
+      "whyItMatters": "People closest to the labs are shortening timelines; revisit plans that assume slow change."
     },
     {
-      "itemId": "patrickc-openrouter-stripe",
-      "headline": "OpenRouter, now part of Stripe, serves 125% more weekly tokens",
-      "whyItMatters": "Model routing is consolidating under payments players, which may shape what you pay for AI."
+      "itemId": "a16z-dharmesh-yellow-brick-road",
+      "headline": "Dharmesh Shah: AI startups win by staying off the labs' path",
+      "whyItMatters": "Labs need to sell tokens, so companies with domain and distribution can profit from them."
     }
   ],
   "items": [
+    {
+      "id": "ryancarson-personal-software-duolingo",
+      "title": "Ryan Carson built a custom Duolingo for his wife in one day",
+      "takeaway": "Her feature requests ship within an hour; he says personal software is here.",
+      "soWhat": "When one person can build a bespoke tool in a day, buy-versus-build math changes.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-11T03:25:32Z",
+      "source": {
+        "name": "@ryancarson on X",
+        "url": "https://x.com/ryancarson/status/2120357229715235151"
+      },
+      "image": {
+        "src": "/img/ryancarson-personal-software-duolingo.jpg",
+        "alt": "Profile image of @ryancarson"
+      },
+      "heat": {
+        "score": 1,
+        "level": "none",
+        "metric": "6k views"
+      }
+    },
+    {
+      "id": "theo-gemini-4-carbon-early-access",
+      "title": "Theo rethinks his Gemini 4 Carbon verdict after more tests",
+      "takeaway": "He was not impressed at first with early access, then found things he had missed.",
+      "soWhat": "First impressions of new models mislead, so test on your own tasks before deciding.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-11T02:58:22Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2120350391078723649"
+      },
+      "related": [
+        {
+          "name": "Simon Willison: llm-gemini 0.36",
+          "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/"
+        }
+      ],
+      "image": {
+        "src": "/img/theo-gemini-4-carbon-early-access.jpg",
+        "alt": "Image from @theo on X"
+      },
+      "heat": {
+        "score": 30,
+        "level": "none",
+        "metric": "74k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "hwchase17-goal-engineering",
+      "title": "Harrison Chase crosses out context engineering for goal engineering",
+      "takeaway": "He struck through context engineering and harness engineering and posted 'goal engineering'.",
+      "soWhat": "Builders are moving from feeding agents context to defining the outcomes agents must reach.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-11T01:37:57Z",
+      "source": {
+        "name": "@hwchase17 on X",
+        "url": "https://x.com/hwchase17/status/2120330156325867529"
+      },
+      "image": {
+        "src": "/img/hwchase17-goal-engineering.jpg",
+        "alt": "Profile image of @hwchase17"
+      },
+      "heat": {
+        "score": 13,
+        "level": "none",
+        "metric": "26k views"
+      }
+    },
+    {
+      "id": "a16z-dharmesh-yellow-brick-road",
+      "title": "Dharmesh Shah: build AI startups off the frontier labs' road",
+      "takeaway": "He says labs must sell tokens to recoup capex, so domain players with distribution can resell inference without being margined out.",
+      "soWhat": "Your edge is domain and distribution, not the model, so build where labs are not heading.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-11T00:59:39Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2120320518419276127"
+      },
+      "related": [
+        {
+          "name": "a16z podcast on YouTube",
+          "url": "http://youtu.be/s4lXP9IuHjk"
+        }
+      ],
+      "image": {
+        "src": "/img/a16z-dharmesh-yellow-brick-road.jpg",
+        "alt": "Image from @a16z on X"
+      },
+      "heat": {
+        "score": 6,
+        "level": "none",
+        "metric": "37k views"
+      }
+    },
+    {
+      "id": "mengto-fable-52-blender",
+      "title": "Meng To: Fable 5.2 beats Opus 5.5 on a Blender rebuild",
+      "takeaway": "He recreated his three.js apartment in Blender and calls Fable 5.2 faster, more accurate and token efficient.",
+      "soWhat": "Early users report Fable 5.2 doing more per token, worth testing against your current spend.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-11T00:42:31Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2120316203738829180"
+      },
+      "image": {
+        "src": "/img/mengto-fable-52-blender.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 29,
+        "level": "none",
+        "metric": "16k views",
+        "voices": 3
+      }
+    },
+    {
+      "id": "rowan-ai-news-roundup",
+      "title": "AI 2027 authors now expect top-researcher-level AI in 2027",
+      "takeaway": "Per Rowan Cheung, they moved timelines up after METR estimated Anthropic improves about 2x as fast thanks to AI.",
+      "soWhat": "Forecasters closest to the labs are shortening timelines, so stress-test your three-year plans.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-10T23:34:55Z",
+      "source": {
+        "name": "@rowancheung on X",
+        "url": "https://x.com/rowancheung/status/2120299193868615981"
+      },
+      "image": {
+        "src": "/img/rowan-ai-news-roundup.jpg",
+        "alt": "Profile image of @rowancheung"
+      },
+      "heat": {
+        "score": 18,
+        "level": "none",
+        "metric": "138k views"
+      }
+    },
     {
       "id": "cursor-projects-multiplayer",
       "title": "Cursor rebuilds Projects so teams and their agents share one workspace",
       "takeaway": "Cursor says teammates' agents can now coordinate with each other inside a shared project.",
       "soWhat": "Agent work is becoming a team activity, so plan for shared context and permissions.",
       "lens": "practical",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 7,
       "publishedAt": "2026-11-10T23:20:27Z",
       "source": {
         "name": "@cursor_ai on X",
         "url": "https://x.com/cursor_ai/status/2120295553309565139"
       },
+      "related": [
+        {
+          "name": "@poteto on X",
+          "url": "https://x.com/poteto/status/2120313779691168082"
+        }
+      ],
       "image": {
         "src": "/img/cursor-projects-multiplayer.jpg",
         "alt": "Image from @cursor_ai on X"
-      },
-      "heat": {
-        "score": 11,
-        "level": "none",
-        "metric": "15k views"
       }
     },
     {
@@ -51,7 +204,7 @@
       "takeaway": "Patrick Collison says weekly tokens are up about 125% since the August acquisition announcement.",
       "soWhat": "Payments companies now want to own how businesses route and pay for AI models.",
       "lens": "broad",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 7,
       "publishedAt": "2026-11-10T22:23:27Z",
       "source": {
@@ -61,34 +214,6 @@
       "image": {
         "src": "/img/patrickc-openrouter-stripe.jpg",
         "alt": "Profile image of @patrickc"
-      },
-      "heat": {
-        "score": 6,
-        "level": "none",
-        "metric": "17k views"
-      }
-    },
-    {
-      "id": "claudedevs-usage-reset",
-      "title": "Anthropic gives paid Claude users one free full usage reset",
-      "takeaway": "Usable before December 10; Anthropic says recent issues consumed more limits than intended.",
-      "soWhat": "Teams that hit Claude limits recently can reclaim capacity now in Settings, Usage.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-10T21:59:58Z",
-      "source": {
-        "name": "@ClaudeDevs on X",
-        "url": "https://x.com/ClaudeDevs/status/2120275296637321476"
-      },
-      "image": {
-        "src": "/img/claudedevs-usage-reset.jpg",
-        "alt": "Profile image of @ClaudeDevs"
-      },
-      "heat": {
-        "score": 37,
-        "level": "none",
-        "metric": "550k views"
       }
     },
     {
@@ -97,7 +222,7 @@
       "takeaway": "One repo holds skills, steering files and wiki; AGENTS.md points to clones of the other repos.",
       "soWhat": "A single agent home makes sweeping changes across many codebases easier to manage.",
       "lens": "practical",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 6,
       "publishedAt": "2026-11-10T21:03:02Z",
       "source": {
@@ -107,11 +232,6 @@
       "image": {
         "src": "/img/mattpocock-home-repo-agents.jpg",
         "alt": "Image from @mattpocockuk on X"
-      },
-      "heat": {
-        "score": 16,
-        "level": "none",
-        "metric": "43k views"
       }
     },
     {
@@ -136,12 +256,6 @@
       "image": {
         "src": "/img/claudedevs-mcp-apps-interactive-connectors.jpg",
         "alt": "Image from @ClaudeDevs on X"
-      },
-      "heat": {
-        "score": 33,
-        "level": "none",
-        "metric": "177k views",
-        "voices": 2
       }
     },
     {
@@ -170,157 +284,6 @@
       "image": {
         "src": "/img/openai-businesses-in-chatgpt.jpg",
         "alt": "Image from OpenAI"
-      },
-      "heat": {
-        "score": 33,
-        "level": "none",
-        "metric": "1.9M views"
-      }
-    },
-    {
-      "id": "alphaproof-code-signal-protocol",
-      "title": "Google agents mathematically verify the Signal protocol's code",
-      "takeaway": "Google says Gemini 4 Carbon and AlphaProof Code checked Signal's code down to compiled device code.",
-      "soWhat": "Machine-checked proofs of critical code are becoming practical, which raises the bar for security assurance.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-10T17:28:49Z",
-      "source": {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
-      },
-      "related": [
-        {
-          "name": "@sundarpichai on X",
-          "url": "https://x.com/sundarpichai/status/2120207062655549933"
-        },
-        {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50439193"
-        }
-      ],
-      "image": {
-        "src": "/img/alphaproof-code-signal-protocol.jpg",
-        "alt": "Image from Google DeepMind"
-      }
-    },
-    {
-      "id": "claude-whiteboards-sheets-data",
-      "title": "Claude adds Whiteboards, Sheets and Data workspaces",
-      "takeaway": "Claude is rolling out three tools: plan on a board, build a tracker in a sheet, tell a story with data.",
-      "soWhat": "Claude now competes directly with office suites for planning and analysis work.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-10T17:26:03Z",
-      "source": {
-        "name": "@claudeai on X",
-        "url": "https://x.com/claudeai/status/2120206365759094857"
-      },
-      "heat": {
-        "score": 16,
-        "level": "none",
-        "metric": "29k views"
-      },
-      "image": {
-        "src": "/img/claude-whiteboards-sheets-data.jpg",
-        "alt": "Image from @claudeai on X"
-      }
-    },
-    {
-      "id": "openai-cyber-at-the-frontier",
-      "title": "OpenAI turns its own defenses into customer security tools",
-      "takeaway": "OpenAI says frontier models found and fixed important vulnerabilities, and will announce cyber products in a Thursday keynote.",
-      "soWhat": "Frontier labs are moving into security products; watch Thursday before renewing security tooling.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-10T17:10:07Z",
-      "source": {
-        "name": "@OpenAI on X",
-        "url": "https://x.com/OpenAI/status/2120202353907486826"
-      },
-      "heat": {
-        "score": 15,
-        "level": "none",
-        "metric": "66k views"
-      },
-      "image": {
-        "src": "/img/openai-cyber-at-the-frontier.jpg",
-        "alt": "Image from @OpenAI on X"
-      }
-    },
-    {
-      "id": "gemini-carbon-antigravity-swarm",
-      "title": "Google's /swarm pairs builder and critic agents in Antigravity",
-      "takeaway": "In Google's demo, builder and critic subagents looped across Blender and Three.js, checking their own renders, to build a playable 3D game.",
-      "soWhat": "Agents that review their own output are becoming a built-in product feature, not custom plumbing.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-10T16:56:02Z",
-      "source": {
-        "name": "@sundarpichai on X",
-        "url": "https://x.com/sundarpichai/status/2120198811297694192"
-      },
-      "related": [
-        {
-          "name": "The Verge: Gemini 4 Carbon agent swarm",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
-        }
-      ],
-      "heat": {
-        "score": 38,
-        "level": "none",
-        "metric": "67k views",
-        "voices": 3
-      },
-      "image": {
-        "src": "/img/gemini-carbon-antigravity-swarm.jpg",
-        "alt": "Image from @sundarpichai on X"
-      }
-    },
-    {
-      "id": "verge-ebay-shuts-out-ai-agents",
-      "title": "eBay appears to shut out third-party AI shopping agents",
-      "takeaway": "The Verge reports eBay appears to have closed the door on outside AI agents.",
-      "soWhat": "Big marketplaces may block agents, so agent commerce plans need platform permission.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-10T16:20:30Z",
-      "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping"
-      },
-      "image": {
-        "src": "/img/verge-ebay-shuts-out-ai-agents.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
-      "id": "rauchg-vercel-security-review-week-one",
-      "title": "Vercel's security agent found 57,897 vulnerabilities in its first week",
-      "takeaway": "Rauch reports 6,029 critical or high findings and 14,665 already patched by the agent; numbers are Vercel's own.",
-      "soWhat": "Agent-run code review now finds flaws at a scale human teams cannot triage alone.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-10T16:15:01Z",
-      "source": {
-        "name": "@rauchg on X",
-        "url": "https://x.com/rauchg/status/2120188488628977819"
-      },
-      "heat": {
-        "score": 16,
-        "level": "none",
-        "metric": "13k views",
-        "voices": 2
-      },
-      "image": {
-        "src": "/img/rauchg-vercel-security-review-week-one.jpg",
-        "alt": "Profile image of @rauchg"
       }
     },
     {
@@ -342,12 +305,6 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
         }
       ],
-      "heat": {
-        "score": 47,
-        "level": "warm",
-        "metric": "227k views",
-        "voices": 3
-      },
       "image": {
         "src": "/img/gemini-4-carbon-global-rollout.jpg",
         "alt": "Image from @sundarpichai on X"
@@ -366,14 +323,27 @@
         "name": "@MengTo on X",
         "url": "https://x.com/MengTo/status/2120169790220468534"
       },
-      "heat": {
-        "score": 0,
-        "level": "none",
-        "metric": "3k views"
-      },
       "image": {
         "src": "/img/mengto-flash-model-loop-800-pages.jpg",
         "alt": "Image from @MengTo on X"
+      }
+    },
+    {
+      "id": "garymarcus-no-anthropic-ipo",
+      "title": "Gary Marcus argues investors should say no to Anthropic's IPO",
+      "takeaway": "A contrarian essay published as Anthropic pitches investors on its IPO.",
+      "soWhat": "Expect sharper public scrutiny of AI lab finances as Anthropic heads to market.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-10T14:37:21Z",
+      "source": {
+        "name": "Gary Marcus",
+        "url": "https://garymarcus.substack.com/p/just-say-no-to-anthropics-ipo"
+      },
+      "image": {
+        "src": "/img/garymarcus-no-anthropic-ipo.jpg",
+        "alt": "Image from Gary Marcus"
       }
     },
     {
@@ -388,11 +358,6 @@
       "source": {
         "name": "@AnthropicAI on X",
         "url": "https://x.com/AnthropicAI/status/2120117722230968385"
-      },
-      "heat": {
-        "score": 6,
-        "level": "none",
-        "metric": "13k views"
       },
       "related": [
         {
@@ -410,56 +375,27 @@
       }
     },
     {
-      "id": "mengto-lottie-landing-page-opus-55",
-      "title": "Meng To builds a landing page with Opus 5.5 and Lottie AI",
-      "takeaway": "The animated card, logo and menu icons are Lottie files, not videos; the card is 51 KB.",
-      "soWhat": "AI tools now produce rich, lightweight motion design that loads fast on any site.",
-      "lens": "design",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-11-10T11:00:59Z",
-      "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2120109458638712924"
-      },
-      "heat": {
-        "score": 6,
-        "level": "none",
-        "metric": "11k views"
-      },
-      "image": {
-        "src": "/img/mengto-lottie-landing-page-opus-55.jpg",
-        "alt": "Image from @MengTo on X"
-      }
-    },
-    {
-      "id": "simonw-fable-52-codebase-is-yours",
-      "title": "Anthropic: 'This codebase is yours' makes Fable 5.2 refactor more",
-      "takeaway": "In Anthropic's tests the line led the model to merge repeated code in about half of tries, versus under a tenth without it.",
-      "soWhat": "Ownership framing in prompts measurably changes agent behavior; add it to your team's coding setup.",
-      "lens": "practical",
+      "id": "stratechery-huang-story-gets-worse",
+      "title": "Stratechery: the Jensen Huang story gets worse",
+      "takeaway": "Ben Thompson's Nov 10 update on Nvidia's CEO affair; the body is paywalled.",
+      "soWhat": "Nvidia leadership risk is not fading, so keep watching your AI chip exposure.",
+      "lens": "broad",
       "momentum": "building",
       "importance": 8,
-      "publishedAt": "2026-11-10T05:42:39Z",
+      "publishedAt": "2026-11-10T11:00:00Z",
       "source": {
-        "name": "@simonw on X",
-        "url": "https://x.com/simonw/status/2120029347948220500"
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/"
       },
       "related": [
         {
-          "name": "Simon Willison",
-          "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/"
+          "name": "The Verge: Nvidia spy scandal",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang"
         }
       ],
-      "heat": {
-        "score": 33,
-        "level": "none",
-        "metric": "123k views",
-        "voices": 2
-      },
       "image": {
-        "src": "/img/simonw-fable-52-codebase-is-yours.jpg",
-        "alt": "Image from @simonw on X"
+        "src": "/img/stratechery-huang-story-gets-worse.jpg",
+        "alt": "Image from Stratechery"
       }
     },
     {
@@ -475,50 +411,9 @@
         "name": "@LynAldenContact on X",
         "url": "https://x.com/LynAldenContact/status/2119961265099411681"
       },
-      "heat": {
-        "score": 17,
-        "level": "none",
-        "metric": "127k views"
-      },
       "image": {
         "src": "/img/lynalden-bullish-2027-gpu-demand.jpg",
         "alt": "Image from @LynAldenContact on X"
-      }
-    },
-    {
-      "id": "nvidia-huang-spy-scandal",
-      "title": "Verge: what is known about the Nvidia spy scandal targeting Huang",
-      "takeaway": "Stratechery says the story got worse today, and The Atlantic calls it a scandal at the center of the economy.",
-      "soWhat": "Leadership risk at the top AI chip supplier keeps growing; watch your supply exposure.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-09T23:07:59Z",
-      "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang"
-      },
-      "related": [
-        {
-          "name": "The Atlantic",
-          "url": "https://www.theatlantic.com/technology/2026/11/jensen-huang-chinese-spy/689357/"
-        },
-        {
-          "name": "Stratechery",
-          "url": "https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/"
-        },
-        {
-          "name": "Gary Marcus",
-          "url": "https://garymarcus.substack.com/p/jensen-is-cooked"
-        },
-        {
-          "name": "Hacker News discussion",
-          "url": "https://news.ycombinator.com/item?id=50418016"
-        }
-      ],
-      "image": {
-        "src": "/img/nvidia-huang-spy-scandal.jpg",
-        "alt": "Image from The Verge"
       }
     },
     {
@@ -542,61 +437,61 @@
   ],
   "voices": [
     {
-      "handle": "@ClaudeDevs",
-      "quote": "Interactive connectors open the full tool (Adobe, Atlassian, Box) beside the conversation on web and desktop.",
-      "url": "https://x.com/ClaudeDevs/status/2120227979041341943"
+      "handle": "@ryancarson",
+      "quote": "I built a simpler/customized/better version of @duolingo for my wife in 1 day and she loves it.",
+      "url": "https://x.com/ryancarson/status/2120357229715235151"
     },
     {
-      "handle": "@patrickc",
-      "quote": "OpenRouter is serving about 125% more tokens per week than when the acquisition was announced in August.",
-      "url": "https://x.com/patrickc/status/2120281206155853956"
+      "handle": "@theo",
+      "quote": "Got early access and wasn't super impressed overall. Did a few more tests as I was getting ready and...I missed some things.",
+      "url": "https://x.com/theo/status/2120350391078723649"
     },
     {
-      "handle": "@mattpocockuk",
-      "quote": "One repo holds skills, steering files and wiki; the agent runs there and AGENTS.md points to clones of other repos.",
-      "url": "https://x.com/mattpocockuk/status/2120260969750540327"
+      "handle": "@MengTo",
+      "quote": "I was already obsessed with Opus 5.5, but this model is something else. Faster, more accurate and token efficient.",
+      "url": "https://x.com/MengTo/status/2120316203738829180"
     },
     {
-      "handle": "@sundarpichai",
-      "quote": "Over 6M lines of machine-checked Lean proofs verifying the Signal protocol down to compiled device code.",
-      "url": "https://x.com/sundarpichai/status/2120207062655549933"
+      "handle": "@a16z",
+      "quote": "As long as you stay off the Yellow Brick Road, it is completely possible now that you're not gonna get margined out, because you have options.",
+      "url": "https://x.com/a16z/status/2120320518419276127"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/ClaudeDevs/status/2120275296637321476",
-      "handle": "@ClaudeDevs",
-      "text": "All Pro, Max, Ultra and Team users get one free full reset across all models and limits, before December 10.",
-      "metric": "17k likes",
-      "note": "Heavy users felt recent limit problems and want capacity back."
+      "url": "https://x.com/mattshumer_/status/2120308139153326225",
+      "handle": "@mattshumer_",
+      "text": "For the people asking if this is just a video... nope! Here's me playing it on my Macbook.",
+      "metric": "1.6k likes",
+      "note": "People want proof that Fable 5.2 can build a real, playable game."
     },
     {
-      "url": "https://x.com/OpenAI/status/2120216592395174382",
-      "handle": "@OpenAI",
-      "text": "Businesses in ChatGPT is in beta: claim your profile, see insights and build a Business Agent.",
-      "metric": "10k likes",
-      "note": "Brands see ChatGPT turning into a place customers find them."
+      "url": "https://x.com/poteto/status/2120313779691168082",
+      "handle": "@poteto",
+      "text": "multiplayer is here",
+      "metric": "1.6k likes",
+      "note": "Builders want agents that work alongside a whole team, not one person."
     },
     {
-      "url": "https://x.com/ClaudeDevs/status/2120227979041341943",
-      "handle": "@ClaudeDevs",
-      "text": "Claude supports more of MCP Apps; interactive connectors open Adobe, Atlassian and Box beside the chat.",
-      "metric": "2.5k likes",
-      "note": "Builders see Claude becoming a host for full apps."
+      "url": "https://x.com/theo/status/2120350391078723649",
+      "handle": "@theo",
+      "text": "Got early access to Gemini 4 Carbon, wasn't super impressed. Did a few more tests and...I missed some things.",
+      "metric": "1.5k likes",
+      "note": "A skeptic changing his mind on a new model draws attention."
     },
     {
-      "url": "https://x.com/sundarpichai/status/2120207062655549933",
-      "handle": "@sundarpichai",
-      "text": "Gemini 4 Carbon with AlphaProof Code produced 6M+ lines of Lean proofs verifying the Signal protocol.",
-      "metric": "2.2k likes",
-      "note": "Provably correct code at this scale is new."
+      "url": "https://x.com/rowancheung/status/2120299193868615981",
+      "handle": "@rowancheung",
+      "text": "The authors of AI 2027 just moved their timelines up.",
+      "metric": "988 likes",
+      "note": "Shorter timelines from forecasters near the labs raise the stakes for everyone."
     },
     {
-      "url": "https://x.com/mattpocockuk/status/2120260969750540327",
-      "handle": "@mattpocockuk",
-      "text": "The 'Home Repo' pattern: one repo for skills, steering files and wiki; AGENTS.md points to other repos.",
-      "metric": "851 likes",
-      "note": "Teams juggling many repos want one place to run agents."
+      "url": "https://x.com/AlexFinn/status/2120316818132984120",
+      "handle": "@AlexFinn",
+      "text": "A prompt asking your agent which systems, subagents or routines would lighten your cognitive load.",
+      "metric": "774 likes",
+      "note": "Most people use agents for a sliver of what they can do."
     }
   ]
 }
