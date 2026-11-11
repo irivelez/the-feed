@@ -1,110 +1,41 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-10T07:30:00-05:00",
-  "runId": "2026-11-10-0700",
+  "updatedAt": "2026-11-10T19:35:00-05:00",
+  "runId": "2026-11-10-1838",
   "howtos": [
     {
-      "id": "codebase-is-yours-ownership-prompt",
-      "dedupeKey": "codebase-is-yours-ownership-prompt",
-      "title": "Give the coding agent ownership of the codebase",
-      "what": "Anthropic's Fable 5.2 line that made the model merge repeated code in about half of tries, versus under a tenth without it.",
-      "kind": "prompt",
-      "copy": [
-        "This codebase is yours: what it's for and how it's built are your call, and you'll keep building on it."
-      ],
-      "whenToUse": "When a coding agent is too cautious to improve or refactor existing code.",
-      "source": {
-        "name": "@simonw on X",
-        "url": "https://x.com/simonw/status/2120029347948220500"
-      },
-      "alsoFrom": [
-        {
-          "name": "Simon Willison blog",
-          "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/"
-        }
-      ],
-      "author": {
-        "name": "Simon Willison",
-        "handle": "simonw"
-      },
-      "tags": [
-        "prompts",
-        "coding-agents",
-        "code-quality"
-      ],
-      "quality": 5,
-      "verbatim": true,
-      "briefItem": {
-        "briefId": "2026-11-10-0700",
-        "itemId": "simonw-fable-52-codebase-is-yours"
-      },
-      "addedAt": "2026-11-10T07:30:00-05:00"
-    },
-    {
-      "id": "plan-with-fable-build-with-opus",
-      "dedupeKey": "plan-with-premium-model-build-with-cheaper",
-      "title": "Plan with Fable 5.2, then build with Opus 5.5",
-      "what": "A workflow to stretch limited Fable usage: use it only to plan and audit, then hand the plan to Opus to build.",
+      "id": "home-repo-multi-repo-agents",
+      "dedupeKey": "home-repo-multi-repo-agents",
+      "title": "Run agents from one home repo",
+      "what": "Matt Pocock's pattern: one repo holds skills, steering files and wiki, and points the agent at your other repos.",
       "kind": "steps",
       "copy": [
-        "Use Fable only for planning and docs.",
-        "Have it audit the plan until it reaches highest confidence, with no clear gaps and no overengineering.",
-        "Make sure it writes out every step.",
-        "Hand the plan to Opus 5.5 to build."
+        "Create one 'Home Repo' that holds your skills, steering files and wiki.",
+        "Run the agent from inside the Home Repo.",
+        "In its AGENTS.md, point to local clones of your other repos.",
+        "Use it to make sweeping changes across multiple repos from one place."
       ],
-      "whenToUse": "When the premium model's usage limits run out faster than your build work.",
+      "whenToUse": "When agent tooling is scattered across several repos or a change must span many codebases.",
       "source": {
-        "name": "@kloss_xyz on X",
-        "url": "https://x.com/kloss_xyz/status/2119951474813972984"
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2120260969750540327"
       },
       "author": {
-        "name": "klöss",
-        "handle": "kloss_xyz"
+        "name": "Matt Pocock",
+        "handle": "mattpocockuk"
       },
       "tags": [
         "coding-agents",
-        "model-choice",
-        "cost"
+        "agents-md",
+        "multi-repo"
       ],
       "quality": 3,
       "verbatim": false,
       "briefItem": {
-        "briefId": "2026-11-10-0700",
-        "itemId": "theo-fable-52-plan-cost"
+        "briefId": "2026-11-10-1900",
+        "itemId": "mattpocock-home-repo-agents"
       },
-      "addedAt": "2026-11-10T07:30:00-05:00"
-    },
-    {
-      "id": "model-drop-checklist",
-      "dedupeKey": "model-drop-reread-card-prune-skills",
-      "title": "Reset your agent setup at every major model drop",
-      "what": "A two-step checklist so old instructions don't hold a new model back.",
-      "kind": "steps",
-      "copy": [
-        "Always read the model card.",
-        "Consider removing your existing skills and AGENTS.md files."
-      ],
-      "whenToUse": "Right after a major model release, before you keep using your old agent setup.",
-      "source": {
-        "name": "@GeoffreyHuntley on X",
-        "url": "https://x.com/GeoffreyHuntley/status/2120058778402087333"
-      },
-      "author": {
-        "name": "Geoffrey Huntley",
-        "handle": "GeoffreyHuntley"
-      },
-      "tags": [
-        "coding-agents",
-        "skills",
-        "model-upgrades"
-      ],
-      "quality": 3,
-      "verbatim": false,
-      "briefItem": {
-        "briefId": "2026-11-10-0700",
-        "itemId": "geoffreyhuntley-model-drop-checklist"
-      },
-      "addedAt": "2026-11-10T07:30:00-05:00"
+      "addedAt": "2026-11-10T19:35:00-05:00"
     }
   ]
 }

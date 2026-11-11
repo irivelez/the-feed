@@ -1,7 +1,41 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-10T07:30:00-05:00",
+  "updatedAt": "2026-11-10T19:35:00-05:00",
   "howtos": [
+    {
+      "id": "home-repo-multi-repo-agents",
+      "dedupeKey": "home-repo-multi-repo-agents",
+      "title": "Run agents from one home repo",
+      "what": "Matt Pocock's pattern: one repo holds skills, steering files and wiki, and points the agent at your other repos.",
+      "kind": "steps",
+      "copy": [
+        "Create one 'Home Repo' that holds your skills, steering files and wiki.",
+        "Run the agent from inside the Home Repo.",
+        "In its AGENTS.md, point to local clones of your other repos.",
+        "Use it to make sweeping changes across multiple repos from one place."
+      ],
+      "whenToUse": "When agent tooling is scattered across several repos or a change must span many codebases.",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2120260969750540327"
+      },
+      "author": {
+        "name": "Matt Pocock",
+        "handle": "mattpocockuk"
+      },
+      "tags": [
+        "coding-agents",
+        "agents-md",
+        "multi-repo"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-10-1900",
+        "itemId": "mattpocock-home-repo-agents"
+      },
+      "addedAt": "2026-11-10T19:35:00-05:00"
+    },
     {
       "id": "codebase-is-yours-ownership-prompt",
       "dedupeKey": "codebase-is-yours-ownership-prompt",
