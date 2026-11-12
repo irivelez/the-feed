@@ -1,0 +1,445 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-12-1233",
+  "generatedAt": "2026-11-12T12:40:00-05:00",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-12T11:30:00Z",
+    "to": "2026-11-12T17:35:00Z"
+  },
+  "sourceNotes": [
+    "X: 4 search_posts_all calls + 1 get_posts_by_ids (5 total) — howTo lane, bigPicture lane, frontierCapital/design lane, one topic-query search (relevancy) and a lookup of quoted posts. Top-level posts since 11:30Z; no authorBaseline, no reply capture, no bestReply. Views = impression_count.",
+    "Topic-query search (Claude Code/Skills/multi-agent/Ralph loop/agent SDK) returned mostly spam/giveaway accounts with near-zero engagement; nothing used. Noisy.",
+    "Dwarkesh RSS returned HTTP 500 (dead/erroring). arXiv export API returned 500 on the combined multi-category query (worked per-category cs.MA only).",
+    "RSS feeds (Simon Willison, Verge, MIT TR, OpenAI, Lenny, Stratechery, Mollick, Marcus, Hashimoto, Atlantic) returned nothing newer than Nov 9; Benedict Evans feed stale since 2026-09-03; Mollick last post 2026-10-20; Metaplanet Google News only third-party items, latest dated 2026-10-19 in feed.",
+    "Frontier capital: in window only nathanbenaich (emoji/link-only posts, not used); Metaplanet, gerovich, Lyn Alden, Tavi Costa, Vitalik, Dalio, naval, bhorowitz posted nothing top-level. Official labs: ClaudeDevs, cursor_ai, OpenAI, sama, karpathy posted nothing top-level in window.",
+    "Dominant clusters: Nvidia CEO transition (Huang out) and Anthropic IPO confirmed for next Wednesday per Theo. Several HN items list the HN title and linked source only; summaries are limited to headline-level facts."
+  ],
+  "candidates": [
+    {
+      "id": "nvidia-ceo-transition-announcement",
+      "lens": "broad",
+      "summary": "NVIDIA's official newsroom account posts 'NVIDIA announces CEO transition. Read the release.' with a link.",
+      "source": {
+        "name": "NVIDIA Newsroom on X",
+        "url": "https://x.com/nvidianewsroom/status/2120876571829662014",
+        "type": "x",
+        "handle": "nvidianewsroom"
+      },
+      "publishedAt": "2026-11-12T13:49:13Z",
+      "metrics": {
+        "likes": 61150,
+        "reposts": 12585,
+        "replies": 6505,
+        "views": 6964530,
+        "capturedAt": "2026-11-12T12:33:00-05:00"
+      },
+      "care": 5,
+      "proof": 5,
+      "firstSeen": "2026-11-12",
+      "topic": "nvidia-huang",
+      "facts": [
+        "Hacker News headline (Reuters live link, 373 points): 'Jensen Huang resigns as Nvidia CEO immediately'."
+      ]
+    },
+    {
+      "id": "hn-huang-resigns-reuters",
+      "lens": "broad",
+      "summary": "Hacker News thread titled 'Jensen Huang resigns as Nvidia CEO immediately', linking Reuters live coverage of the Nvidia board meeting after the affair reports.",
+      "source": {
+        "name": "Hacker News: Jensen Huang resigns as Nvidia CEO immediately",
+        "url": "https://news.ycombinator.com/item?id=50467132",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-12T14:00:00Z",
+      "care": 5,
+      "proof": 4,
+      "firstSeen": "2026-11-12",
+      "topic": "nvidia-huang",
+      "metrics": {
+        "points": 373,
+        "capturedAt": "2026-11-12T12:33:00-05:00"
+      },
+      "facts": [
+        "Reuters link: https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/"
+      ]
+    },
+    {
+      "id": "steipete-huang-ousting-rushed",
+      "lens": "broad",
+      "summary": "Peter Steinberger writes: 'If that Spy's goal was to destabilize one of the most successful American companies, they achieved their goal. Ousting Jensen feels rushed and not right.'",
+      "source": {
+        "name": "steipete on X",
+        "url": "https://x.com/steipete/status/2120903527803564397",
+        "type": "x",
+        "handle": "steipete"
+      },
+      "publishedAt": "2026-11-12T15:36:20Z",
+      "metrics": {
+        "likes": 6294,
+        "reposts": 345,
+        "replies": 246,
+        "views": 124795,
+        "capturedAt": "2026-11-12T12:33:00-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-12",
+      "topic": "nvidia-huang"
+    },
+    {
+      "id": "aravind-thanks-jensen",
+      "lens": "broad",
+      "summary": "Perplexity CEO Aravind Srinivas thanks Jensen Huang for 33 years of leadership, saying he built a small startup into America's most valuable company.",
+      "source": {
+        "name": "AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2120891190333607989",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-12T14:47:18Z",
+      "metrics": {
+        "likes": 12201,
+        "reposts": 711,
+        "replies": 156,
+        "views": 258216,
+        "capturedAt": "2026-11-12T12:33:00-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-12",
+      "topic": "nvidia-huang"
+    },
+    {
+      "id": "theo-anthropic-ipo-wednesday",
+      "lens": "broad",
+      "summary": "Theo posts: 'Anthropic's IPO is confirmed for Wednesday next week. These numbers are insane.' quoting Anthropic's IPO announcement.",
+      "source": {
+        "name": "theo on X",
+        "url": "https://x.com/theo/status/2120857265246986589",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-12T12:32:30Z",
+      "metrics": {
+        "likes": 2263,
+        "reposts": 69,
+        "replies": 89,
+        "views": 124666,
+        "capturedAt": "2026-11-12T12:33:00-05:00"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-12",
+      "topic": "anthropic-ipo",
+      "facts": [
+        "Anthropic's own post (2026-11-12T11:30Z) had 7,578 likes and about 1.14M views at capture."
+      ]
+    },
+    {
+      "id": "hn-anthropic-ipo-site",
+      "lens": "broad",
+      "summary": "Hacker News thread 'Anthropic IPO' links to Anthropic's IPO page.",
+      "source": {
+        "name": "Anthropic IPO site (ipo.anthropic.com)",
+        "url": "https://ipo.anthropic.com/us/",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-12T12:00:00Z",
+      "care": 5,
+      "proof": 4,
+      "firstSeen": "2026-11-12",
+      "topic": "anthropic-ipo",
+      "metrics": {
+        "points": 565,
+        "capturedAt": "2026-11-12T12:33:00-05:00"
+      },
+      "facts": [
+        "HN discussion: https://news.ycombinator.com/item?id=50465829"
+      ]
+    },
+    {
+      "id": "alexandr-wang-muse-phone-calls",
+      "lens": "broad",
+      "summary": "Alexandr Wang announces Muse can now make phone calls for users (insurance, cable, DMV, dinner reservations), out now to paid subscribers in the US.",
+      "source": {
+        "name": "alexandr_wang on X",
+        "url": "https://x.com/alexandr_wang/status/2120930586827391350",
+        "type": "x",
+        "handle": "alexandr_wang"
+      },
+      "publishedAt": "2026-11-12T17:23:51Z",
+      "metrics": {
+        "likes": 118,
+        "reposts": 9,
+        "replies": 20,
+        "views": 6461,
+        "capturedAt": "2026-11-12T12:33:00-05:00"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-12",
+      "topic": "muse-phone-calls"
+    },
+    {
+      "id": "patrickc-promptos",
+      "lens": "broad",
+      "summary": "Patrick Collison says a friend prompted his own Linux ABI-compatible OS for his cloud applications, claims 'PromptOS' is much faster than stock Linux in production, and suspects everyone will do this soon.",
+      "source": {
+        "name": "patrickc on X",
+        "url": "https://x.com/patrickc/status/2120907937627684940",
+        "type": "x",
+        "handle": "patrickc"
+      },
+      "publishedAt": "2026-11-12T15:53:51Z",
+      "metrics": {
+        "likes": 222,
+        "reposts": 9,
+        "replies": 36,
+        "views": 26705,
+        "capturedAt": "2026-11-12T12:33:00-05:00"
+      },
+      "care": 4,
+      "proof": 2,
+      "firstSeen": "2026-11-12",
+      "topic": "prompted-os"
+    },
+    {
+      "id": "nikitabier-domain-expert-zero-to-one",
+      "lens": "broad",
+      "summary": "Nikita Bier argues hiring a domain expert for a zero-to-one product is risky because breakout products are outliers; cites Airbnb having no hoteliers on its founding team; says best team mixes both types.",
+      "source": {
+        "name": "nikitabier on X",
+        "url": "https://x.com/nikitabier/status/2120925316273356889",
+        "type": "x",
+        "handle": "nikitabier"
+      },
+      "publishedAt": "2026-11-12T17:02:54Z",
+      "metrics": {
+        "likes": 466,
+        "reposts": 33,
+        "replies": 66,
+        "views": 32040,
+        "capturedAt": "2026-11-12T12:33:00-05:00"
+      },
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-11-12",
+      "topic": "zero-to-one-hiring"
+    },
+    {
+      "id": "hn-united-bans-ai-agents",
+      "lens": "broad",
+      "summary": "Hacker News thread (639 points): 'United Airlines bans AI agents from booking flights on behalf of travelers', linking CBS News.",
+      "source": {
+        "name": "CBS News: United Airlines bans AI agents from booking flights",
+        "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-12T10:00:00Z",
+      "care": 5,
+      "proof": 4,
+      "firstSeen": "2026-11-12",
+      "topic": "agent-traffic-access",
+      "metrics": {
+        "points": 639,
+        "capturedAt": "2026-11-12T12:33:00-05:00"
+      },
+      "facts": [
+        "HN discussion: https://news.ycombinator.com/item?id=50458900",
+        "Verge covered the same story (already in the 06:37 file)."
+      ]
+    },
+    {
+      "id": "pocock-home-repo-pattern",
+      "lens": "practical",
+      "summary": "Matt Pocock describes the 'Home Repo' pattern for working with agents across multiple repos: where to put skills, steering files and tooling. He says he has used it for months.",
+      "source": {
+        "name": "mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2120847219788308872",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-12T11:52:35Z",
+      "metrics": {
+        "likes": 986,
+        "reposts": 60,
+        "replies": 118,
+        "views": 53861,
+        "capturedAt": "2026-11-12T12:33:00-05:00"
+      },
+      "care": 5,
+      "proof": 4,
+      "firstSeen": "2026-11-12",
+      "topic": "home-repo-pattern",
+      "facts": [
+        "1,251 bookmarks at capture."
+      ]
+    },
+    {
+      "id": "theo-t3-code-too-slow",
+      "lens": "practical",
+      "summary": "Theo posts: 'T3 Code is still too slow. Working on it!'",
+      "source": {
+        "name": "theo on X",
+        "url": "https://x.com/theo/status/2120855895471260049",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-12T12:27:03Z",
+      "metrics": {
+        "likes": 786,
+        "reposts": 8,
+        "replies": 106,
+        "views": 42790,
+        "capturedAt": "2026-11-12T12:33:00-05:00"
+      },
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-11-12",
+      "topic": "t3-code"
+    },
+    {
+      "id": "primeagen-uninstalled-tab-complete",
+      "lens": "practical",
+      "summary": "ThePrimeagen posts: 'crazy day for me.... I have uninstalled tab complete'.",
+      "source": {
+        "name": "ThePrimeagen on X",
+        "url": "https://x.com/ThePrimeagen/status/2120910738034508058",
+        "type": "x",
+        "handle": "ThePrimeagen"
+      },
+      "publishedAt": "2026-11-12T16:04:59Z",
+      "metrics": {
+        "likes": 322,
+        "reposts": 3,
+        "replies": 54,
+        "views": 19539,
+        "capturedAt": "2026-11-12T12:33:00-05:00"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-12",
+      "topic": "vibe-coding-slowdown"
+    },
+    {
+      "id": "google-gemini-decisions-api",
+      "lens": "practical",
+      "summary": "Google announces the Gemini Decisions API, powered by Gemini Decision, for fast, calibrated multimodal decisions. HN thread has 533 points.",
+      "source": {
+        "name": "Google Blog: Gemini Decisions API",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+        "type": "blog"
+      },
+      "publishedAt": "2026-11-11T16:00:00Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-11",
+      "topic": "gemini-decisions-api",
+      "metrics": {
+        "points": 533,
+        "capturedAt": "2026-11-12T12:33:00-05:00"
+      },
+      "facts": [
+        "HN discussion: https://news.ycombinator.com/item?id=50456791"
+      ]
+    },
+    {
+      "id": "hn-aws-emulator",
+      "lens": "practical",
+      "summary": "Hacker News thread 'AWS emulator' (939 points) links the aws/aws-emulator GitHub repo.",
+      "source": {
+        "name": "GitHub: aws/aws-emulator",
+        "url": "https://github.com/aws/aws-emulator",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-11T18:00:00Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-12",
+      "topic": "aws-emulator",
+      "metrics": {
+        "points": 939,
+        "capturedAt": "2026-11-12T12:33:00-05:00"
+      },
+      "facts": [
+        "HN discussion: https://news.ycombinator.com/item?id=50456631"
+      ]
+    },
+    {
+      "id": "hn-lock-github-actions",
+      "lens": "practical",
+      "summary": "Hacker News thread (318 points) on a blog post titled 'Lock Your GitHub Actions'.",
+      "source": {
+        "name": "Hugo van Kemenade: Lock Your GitHub Actions",
+        "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-12T08:00:00Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-12",
+      "topic": "github-actions-pinning",
+      "metrics": {
+        "points": 318,
+        "capturedAt": "2026-11-12T12:33:00-05:00"
+      }
+    },
+    {
+      "id": "arxiv-evidence-linked-memory-agents",
+      "lens": "practical",
+      "summary": "Paper 'Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents' (cs.MA/cs.AI listing).",
+      "source": {
+        "name": "arXiv: Evidence-Linked Memory for LLM Agents",
+        "url": "http://arxiv.org/abs/2611.14320v1",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-10T16:46:59Z",
+      "care": 2,
+      "proof": 3,
+      "firstSeen": "2026-11-12",
+      "topic": "agent-memory-paper"
+    },
+    {
+      "id": "arxiv-retrace-planner-free",
+      "lens": "practical",
+      "summary": "Paper 'ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows'.",
+      "source": {
+        "name": "arXiv: ReTrace",
+        "url": "http://arxiv.org/abs/2611.14492v1",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-10T18:49:47Z",
+      "care": 2,
+      "proof": 3,
+      "firstSeen": "2026-11-12",
+      "topic": "agent-workflow-paper"
+    },
+    {
+      "id": "mengto-heygen-scroll-landing",
+      "lens": "design",
+      "summary": "Meng To shares a scroll-world landing page made with HeyGen Video 1: one 30-second 2K take (floor plan, model, house, inside, sky) that plays in reverse on scroll; he links the workflow, prompts and a free template.",
+      "source": {
+        "name": "MengTo on X",
+        "url": "https://x.com/MengTo/status/2120896116711727557",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-12T15:06:53Z",
+      "metrics": {
+        "likes": 63,
+        "reposts": 5,
+        "replies": 30,
+        "views": 5532,
+        "capturedAt": "2026-11-12T12:33:00-05:00"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-12",
+      "topic": "design-heygen-scroll"
+    }
+  ]
+}
