@@ -1,0 +1,248 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-12-1837",
+  "generatedAt": "2026-11-12T18:38:00-05:00",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-12T17:30:00Z",
+    "to": "2026-11-12T23:32:00Z"
+  },
+  "sourceNotes": [
+    "X: 3 search_posts_all calls (howTo, bigPicture, frontierCapital/design lanes), top-level posts since 17:30Z. Results carried no author usernames, so handles are omitted and source URLs are x.com/i/status/<id>; no authorBaseline, no reply capture.",
+    "Frontier capital: only one post in window (naval/bhorowitz-lane style post about measuring execution, not used as headline-light). Metaplanet, gerovich, Lyn Alden, Tavi Costa, Vitalik, Dalio posted nothing top-level; MengTo (design) nothing in window.",
+    "RSS, arXiv, HN and web pages not re-fetched this run; the previous run (12:33) found nothing newer than Nov 9 on RSS, Dwarkesh RSS 500, Benedict Evans stale since 2026-09-03.",
+    "Topic-query searches skipped this run to stay light; earlier runs found them mostly spam."
+  ],
+  "candidates": [
+    {
+      "id": "claude-meetings-launch",
+      "lens": "practical",
+      "summary": "Post: 'Introducing Claude Meetings: add Claude to your team's video call and it builds docs, whiteboards, and other artifacts with you while you're still talking.' Rolling out in beta on Team and Enterprise plans.",
+      "source": {
+        "name": "Claude launch post on X",
+        "url": "https://x.com/i/status/2120973994191094179",
+        "type": "x"
+      },
+      "publishedAt": "2026-11-12T20:16:20Z",
+      "metrics": {
+        "likes": 35378,
+        "reposts": 1941,
+        "replies": 1027,
+        "views": 1838861,
+        "capturedAt": "2026-11-12T18:36:00-05:00"
+      },
+      "care": 5,
+      "proof": 4,
+      "firstSeen": "2026-11-12",
+      "topic": "claude-meetings",
+      "facts": [
+        "A follow-up post says a lot of getting good work out of Claude is finding the missing context, and that Claude Meetings has been very useful internally."
+      ]
+    },
+    {
+      "id": "claude-meetings-context-gap",
+      "lens": "practical",
+      "summary": "Post: 'A lot of getting good work out of Claude now is just finding the context it's missing and figuring out how to close that gap. Claude Meetings is one way to bring in the remaining slices and has proved very useful internally.'",
+      "source": {
+        "name": "Post on X",
+        "url": "https://x.com/i/status/2120983722182988206",
+        "type": "x"
+      },
+      "publishedAt": "2026-11-12T20:54:59Z",
+      "metrics": {
+        "likes": 257,
+        "reposts": 4,
+        "replies": 55,
+        "views": 15643,
+        "capturedAt": "2026-11-12T18:36:00-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-12",
+      "topic": "claude-meetings"
+    },
+    {
+      "id": "claude-managed-agents-self-hosted",
+      "lens": "practical",
+      "summary": "Post: 'Self-hosted Claude Managed Agents is now in private beta. You can host the agent harness, sandboxes, and session history, in your own cloud or on-premises, and choose where requests to Claude are sent.'",
+      "source": {
+        "name": "Claude post on X",
+        "url": "https://x.com/i/status/2120938988165091693",
+        "type": "x"
+      },
+      "publishedAt": "2026-11-12T17:57:14Z",
+      "metrics": {
+        "likes": 7918,
+        "reposts": 422,
+        "replies": 226,
+        "views": 443974,
+        "capturedAt": "2026-11-12T18:36:00-05:00"
+      },
+      "care": 5,
+      "proof": 4,
+      "firstSeen": "2026-11-12",
+      "topic": "claude-managed-agents"
+    },
+    {
+      "id": "anthropic-new-model-launch-video",
+      "lens": "practical",
+      "summary": "Post: new video where two Anthropic speakers discuss how new models launch on the API and the features that ship with them, plus how to rethink your harness and measure cost per task when you upgrade to a new model.",
+      "source": {
+        "name": "Post on X",
+        "url": "https://x.com/i/status/2120962481225146636",
+        "type": "x"
+      },
+      "publishedAt": "2026-11-12T19:30:35Z",
+      "metrics": {
+        "likes": 862,
+        "reposts": 32,
+        "replies": 48,
+        "views": 86340,
+        "capturedAt": "2026-11-12T18:36:00-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-12",
+      "topic": "model-upgrade-cost"
+    },
+    {
+      "id": "gemini-4-hydrogen-launch",
+      "lens": "broad",
+      "summary": "Google launches Gemini 4 Hydrogen: 'Meet Gemini 4 Hydrogen: built for rapid coding, multimodal synthesis, and everyday workflows. It finishes tasks 2.5x faster than 3.8 Flash and surpasses Argon on the @ArtificialAnlys Intelligence Index.'",
+      "source": {
+        "name": "Google Gemini post on X",
+        "url": "https://x.com/i/status/2120940338869055788",
+        "type": "x"
+      },
+      "publishedAt": "2026-11-12T18:02:36Z",
+      "metrics": {
+        "likes": 5325,
+        "reposts": 453,
+        "replies": 259,
+        "views": 685613,
+        "capturedAt": "2026-11-12T18:36:00-05:00"
+      },
+      "care": 5,
+      "proof": 4,
+      "firstSeen": "2026-11-12",
+      "topic": "gemini-4-hydrogen",
+      "facts": [
+        "Companion post: Gemini 4 Hydrogen has 4 thinking levels, follows Carbon and Argon, and finishes tasks 2.5x faster than 3.8 Flash.",
+        "Sundar-lane post: 'Very excited to release Gemini 4 Hydrogen! Incredible speed and intelligence for everyday coding, agentic work and all-round use.'"
+      ]
+    },
+    {
+      "id": "gemini-4-hydrogen-cursorbench",
+      "lens": "practical",
+      "summary": "Post: 'Gemini 4 Hydrogen is now available in Cursor! At its default effort, it scores 54.3% on CursorBench, up from 39.6% for Gemini 3.8 Flash.'",
+      "source": {
+        "name": "Cursor post on X",
+        "url": "https://x.com/i/status/2120944639633211619",
+        "type": "x"
+      },
+      "publishedAt": "2026-11-12T18:19:41Z",
+      "metrics": {
+        "likes": 1550,
+        "reposts": 65,
+        "replies": 123,
+        "views": 102207,
+        "capturedAt": "2026-11-12T18:36:00-05:00"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-12",
+      "topic": "gemini-4-hydrogen"
+    },
+    {
+      "id": "decider-v13-open-source",
+      "lens": "practical",
+      "summary": "Post: 'We're open-sourcing our latest versions of Decision Models: Decider v1.3 and Decider Flash v1.3, and making them free on OpenRouter for a week. The new capability in v1.3 models is \"locate\".'",
+      "source": {
+        "name": "Post on X (quotes an earlier post)",
+        "url": "https://x.com/i/status/2121020114321703210",
+        "type": "x"
+      },
+      "publishedAt": "2026-11-12T23:19:36Z",
+      "metrics": {
+        "likes": 30,
+        "reposts": 4,
+        "replies": 7,
+        "views": 3467,
+        "capturedAt": "2026-11-12T18:36:00-05:00"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-12",
+      "topic": "decision-models"
+    },
+    {
+      "id": "replit-agent-buys-ads",
+      "lens": "practical",
+      "summary": "Post: 'You can now ask Replit Agent to buy stuff for your business, including buying ads to acquire new customers!'",
+      "source": {
+        "name": "Post on X",
+        "url": "https://x.com/i/status/2121018020520931712",
+        "type": "x"
+      },
+      "publishedAt": "2026-11-12T23:11:17Z",
+      "metrics": {
+        "likes": 36,
+        "reposts": 2,
+        "replies": 19,
+        "views": 6745,
+        "capturedAt": "2026-11-12T18:36:00-05:00"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-12",
+      "topic": "agents-spending"
+    },
+    {
+      "id": "vercel-ui-sdk-agents-frameworks",
+      "lens": "broad",
+      "summary": "Post: 'What happens to frameworks in the agents era? to component libraries? ... The answer is: we need to drill deeper. Delete the part, optimize, accelerate, automate. UI SDK is like the x86 instruction set for agents to build new UI components spontaneously.'",
+      "source": {
+        "name": "Post on X (quote post)",
+        "url": "https://x.com/i/status/2120966768483262648",
+        "type": "x"
+      },
+      "publishedAt": "2026-11-12T19:47:37Z",
+      "metrics": {
+        "likes": 585,
+        "reposts": 17,
+        "replies": 85,
+        "views": 31008,
+        "capturedAt": "2026-11-12T18:36:00-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-12",
+      "topic": "agent-ui-sdk"
+    },
+    {
+      "id": "cognition-big-launch-teaser",
+      "lens": "practical",
+      "summary": "Post: 'play special attention to @walden_yan's keynote rn to get a preview of {BIG LAUNCH NEXT WEEK}. if i say more @cognition will shoot me lol'",
+      "source": {
+        "name": "Post on X",
+        "url": "https://x.com/i/status/2120962735211233454",
+        "type": "x"
+      },
+      "publishedAt": "2026-11-12T19:31:36Z",
+      "metrics": {
+        "likes": 99,
+        "reposts": 4,
+        "replies": 13,
+        "views": 7574,
+        "capturedAt": "2026-11-12T18:36:00-05:00"
+      },
+      "care": 2,
+      "proof": 1,
+      "firstSeen": "2026-11-12",
+      "topic": "cognition-launch"
+    }
+  ]
+}
