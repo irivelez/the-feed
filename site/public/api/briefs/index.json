@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-11-1900",
-  "count": 61,
+  "latest": "2026-11-12-0700",
+  "count": 62,
   "briefs": [
+    {
+      "id": "2026-11-12-0700",
+      "date": "2026-11-12",
+      "edition": "Morning",
+      "publishedAt": "2026-11-12T07:15:00-05:00",
+      "headline": "Anthropic files to go public",
+      "url": "/api/briefs/2026-11-12-0700.json"
+    },
     {
       "id": "2026-11-11-1900",
       "date": "2026-11-11",
