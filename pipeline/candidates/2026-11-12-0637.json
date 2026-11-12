@@ -1,0 +1,357 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-12-0637",
+  "generatedAt": "2026-11-12T06:42:00-05:00",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-11T23:30:00Z",
+    "to": "2026-11-12T11:37:00Z"
+  },
+  "sourceNotes": [
+    "X: 2 search calls (howTo lane; bigPicture/frontierCapital/design lane), top-level posts only since 23:30Z; no authorBaseline, topic queries or reply capture to stay in budget; no bestReply. Views = impression_count.",
+    "Dwarkesh RSS returned HTTP 500 (400 Bad Request body); not covered. Hacker News, arXiv, Benedict Evans, Atlantic, Metaplanet Google News not queried this run.",
+    "Frontier-capital: only naval posted from the lane in window (others none except nathanbenaich emoji-only post). Metaplanet, gerovich, Lyn Alden, Vitalik, Dalio, bhorowitz had none.",
+    "Official lab accounts: only AnthropicAI (IPO) and GoogleDeepMind (AlphaGenome 2 podcast, skipped as repeat) posted top-level. ClaudeDevs, cursor_ai, OpenAI had none. OpenAI Blog items were customer stories and policy only.",
+    "Nvidia/Huang affair is the dominant cluster (Verge, Marcus, Naval, Amjad Masad, Stratechery Nov 9-10). elonmusk posts in window were non-AI. Several rss items are headline-level only."
+  ],
+  "candidates": [
+    {
+      "id": "anthropic-ipo-filing-post",
+      "lens": "broad",
+      "summary": "Anthropic's official account posts 'Our initial public offering' with a link, noting it has filed a registration statement (including a prospectus) with the SEC.",
+      "source": {
+        "name": "AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2120841731302154708",
+        "type": "x",
+        "handle": "AnthropicAI"
+      },
+      "publishedAt": "2026-11-12T11:30:46Z",
+      "metrics": {
+        "likes": 431,
+        "reposts": 60,
+        "replies": 59,
+        "views": 22274,
+        "capturedAt": "2026-11-12T06:40:00-05:00"
+      },
+      "care": 5,
+      "proof": 5,
+      "firstSeen": "2026-11-12",
+      "topic": "anthropic-ipo"
+    },
+    {
+      "id": "marcus-jensen-fired",
+      "lens": "broad",
+      "summary": "Gary Marcus post titled 'Jensen is reportedly about to get fired', on the Nvidia Huang affair.",
+      "source": {
+        "name": "Gary Marcus",
+        "url": "https://garymarcus.substack.com/p/jensen-is-reportedly-about-to-get",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-11T23:53:06Z",
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-12",
+      "topic": "nvidia-huang"
+    },
+    {
+      "id": "verge-nvidia-fire-huang",
+      "lens": "broad",
+      "summary": "The Verge: Nvidia is reportedly preparing to fire Jensen Huang.",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-12T10:23:25Z",
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-12",
+      "topic": "nvidia-huang"
+    },
+    {
+      "id": "naval-founder-replace",
+      "lens": "broad",
+      "summary": "Naval: 'You'd think we'd have learned from Steve Jobs and Travis Kalanick that one does not just simply replace the founder…' in the context of the Nvidia Huang reports.",
+      "source": {
+        "name": "naval on X",
+        "url": "https://x.com/naval/status/2120752211588452715",
+        "type": "x",
+        "handle": "naval"
+      },
+      "publishedAt": "2026-11-12T05:35:03Z",
+      "metrics": {
+        "likes": 14462,
+        "reposts": 1283,
+        "replies": 504,
+        "views": 589441,
+        "capturedAt": "2026-11-12T06:40:00-05:00"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-12",
+      "topic": "nvidia-huang"
+    },
+    {
+      "id": "amasad-huang-open-models",
+      "lens": "broad",
+      "summary": "Amjad Masad asks who benefits from the timing of the Jensen Huang stories, arguing that if Huang, 'the premier champion of open models', is taken out, anyone who wants AI closed gains.",
+      "source": {
+        "name": "amasad on X",
+        "url": "https://x.com/amasad/status/2120671838909194695",
+        "type": "x",
+        "handle": "amasad"
+      },
+      "publishedAt": "2026-11-12T00:15:41Z",
+      "metrics": {
+        "likes": 4568,
+        "reposts": 551,
+        "replies": 232,
+        "views": 322270,
+        "capturedAt": "2026-11-12T06:40:00-05:00"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-12",
+      "topic": "nvidia-huang"
+    },
+    {
+      "id": "verge-united-blocks-agents",
+      "lens": "broad",
+      "summary": "The Verge: United won't let your AI agent book your flight (unauthorized AI agents).",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-11T21:54:21Z",
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-12",
+      "topic": "agent-traffic-access"
+    },
+    {
+      "id": "verge-google-tabletop",
+      "lens": "practical",
+      "summary": "The Verge: Google's Tabletop AI experiment lets you build custom collaboration apps; waitlist and availability covered.",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-11T14:15:27Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-12",
+      "topic": "google-tabletop"
+    },
+    {
+      "id": "theo-open-weight-t3-traffic",
+      "lens": "broad",
+      "summary": "Theo: open weight models make up less than 0.5% of T3 Code traffic, and says a post saying so would have drawn heavy backlash three months ago but now gets 'crickets'.",
+      "source": {
+        "name": "theo on X",
+        "url": "https://x.com/theo/status/2120732020036993066",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-12T04:14:49Z",
+      "metrics": {
+        "likes": 1541,
+        "reposts": 14,
+        "replies": 180,
+        "views": 92981,
+        "capturedAt": "2026-11-12T06:40:00-05:00"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-12",
+      "topic": "open-weight-share"
+    },
+    {
+      "id": "primeagen-vibing-3-hours",
+      "lens": "practical",
+      "summary": "ThePrimeagen: 'So I have been vibing. Going hard. Now every change takes 3 hours.. wtf this sucks'.",
+      "source": {
+        "name": "ThePrimeagen on X",
+        "url": "https://x.com/ThePrimeagen/status/2120718387412185148",
+        "type": "x",
+        "handle": "ThePrimeagen"
+      },
+      "publishedAt": "2026-11-12T03:20:39Z",
+      "metrics": {
+        "likes": 1590,
+        "reposts": 15,
+        "replies": 175,
+        "views": 101809,
+        "capturedAt": "2026-11-12T06:40:00-05:00"
+      },
+      "care": 4,
+      "proof": 2,
+      "firstSeen": "2026-11-12",
+      "topic": "vibe-coding-slowdown"
+    },
+    {
+      "id": "pocock-home-repo-article",
+      "lens": "practical",
+      "summary": "Matt Pocock publishes an article on the Home Repo pattern for running agents across multiple repos, including a prompt to run on your org's repos to set it up.",
+      "source": {
+        "name": "mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2120838662254420341",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-12T11:18:35Z",
+      "metrics": {
+        "likes": 86,
+        "reposts": 5,
+        "replies": 12,
+        "views": 5093,
+        "capturedAt": "2026-11-12T06:40:00-05:00"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-12",
+      "topic": "home-repo-pattern"
+    },
+    {
+      "id": "pocock-treat-me-like-tool-call",
+      "lens": "practical",
+      "summary": "Matt Pocock: 'I just told my agent \"treat me like a tool call\". So degrading'.",
+      "source": {
+        "name": "mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2120795868509151239",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-12T08:28:32Z",
+      "metrics": {
+        "likes": 678,
+        "reposts": 19,
+        "replies": 96,
+        "views": 38199,
+        "capturedAt": "2026-11-12T06:40:00-05:00"
+      },
+      "care": 2,
+      "proof": 1,
+      "firstSeen": "2026-11-12",
+      "topic": "human-in-the-loop"
+    },
+    {
+      "id": "theo-t3-code-1000-contributors",
+      "lens": "practical",
+      "summary": "Theo: T3 Code has broken 1,000 contributors; later notes it is one of the biggest open source iPhone apps and that non-dev friends ask him how to set it up.",
+      "source": {
+        "name": "theo on X",
+        "url": "https://x.com/theo/status/2120764608390869101",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-12T06:24:19Z",
+      "metrics": {
+        "likes": 541,
+        "reposts": 4,
+        "replies": 64,
+        "views": 33681,
+        "capturedAt": "2026-11-12T06:40:00-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-12",
+      "topic": "t3-code"
+    },
+    {
+      "id": "mengto-threejs-fable-tutorial",
+      "lens": "design",
+      "summary": "Meng To posts a full tutorial on recreating his apartment in three.js with Opus 5.5 and Fable 5.2.",
+      "source": {
+        "name": "MengTo on X",
+        "url": "https://x.com/MengTo/status/2120746846402564163",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-12T05:13:44Z",
+      "metrics": {
+        "likes": 194,
+        "reposts": 12,
+        "replies": 24,
+        "views": 10166,
+        "capturedAt": "2026-11-12T06:40:00-05:00"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-12",
+      "topic": "design-threejs-fable"
+    },
+    {
+      "id": "naval-datacenters-competitive",
+      "lens": "frontier-capital",
+      "summary": "Naval: 'Datacenters are a globally competitive market. Someone, somewhere, will build them.'",
+      "source": {
+        "name": "naval on X",
+        "url": "https://x.com/naval/status/2120798325066911758",
+        "type": "x",
+        "handle": "naval"
+      },
+      "publishedAt": "2026-11-12T08:38:17Z",
+      "metrics": {
+        "likes": 1268,
+        "reposts": 104,
+        "replies": 103,
+        "views": 88504,
+        "capturedAt": "2026-11-12T06:40:00-05:00"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-12",
+      "topic": "datacenter-capex"
+    },
+    {
+      "id": "lenny-claude-code-obsidian",
+      "lens": "practical",
+      "summary": "Lenny's Newsletter: 'Claude Code + Obsidian: My family's AI brain' with Scott Farrar.",
+      "source": {
+        "name": "Lenny Rachitsky",
+        "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-11T13:04:09Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-12",
+      "topic": "claude-code-obsidian"
+    },
+    {
+      "id": "willison-aws-emulator",
+      "lens": "practical",
+      "summary": "Simon Willison post 'aws-emulator' (Nov 11).",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-11T21:18:30Z",
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-11-12",
+      "topic": "aws-emulator"
+    },
+    {
+      "id": "mitchellh-libghostty",
+      "lens": "practical",
+      "summary": "Mitchell Hashimoto: Libghostty 1.0.",
+      "source": {
+        "name": "Mitchell Hashimoto",
+        "url": "https://mitchellh.com/writing/libghostty-1-0",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "care": 2,
+      "proof": 3,
+      "firstSeen": "2026-11-12",
+      "topic": "libghostty"
+    }
+  ]
+}
