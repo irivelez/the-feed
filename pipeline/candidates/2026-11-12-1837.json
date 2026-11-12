@@ -12,7 +12,7 @@
   },
   "sourceNotes": [
     "X: 3 search_posts_all calls (howTo, bigPicture, frontierCapital/design lanes), top-level posts since 17:30Z. Results carried no author usernames, so handles are omitted and source URLs are x.com/i/status/<id>; no authorBaseline, no reply capture.",
-    "Frontier capital: only one post in window (naval/bhorowitz-lane style post about measuring execution, not used as headline-light). Metaplanet, gerovich, Lyn Alden, Tavi Costa, Vitalik, Dalio posted nothing top-level; MengTo (design) nothing in window.",
+    "Frontier capital: one top-level post in window (about measuring execution, author not shown; not used). Metaplanet, gerovich, Lyn Alden, Tavi Costa, Vitalik, Dalio posted nothing top-level; MengTo (design) nothing in window.",
     "RSS, arXiv, HN and web pages not re-fetched this run; the previous run (12:33) found nothing newer than Nov 9 on RSS, Dwarkesh RSS 500, Benedict Evans stale since 2026-09-03.",
     "Topic-query searches skipped this run to stay light; earlier runs found them mostly spam."
   ],
