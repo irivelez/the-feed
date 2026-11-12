@@ -1,0 +1,546 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-12-1300",
+  "date": "2026-11-12",
+  "publishedAt": "2026-11-12T13:15:00-05:00",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "nvidia-ceo-transition-announcement",
+      "headline": "Jensen Huang is out as Nvidia CEO",
+      "whyItMatters": "The company that sells most AI chips changes leaders overnight; review your supply exposure."
+    },
+    {
+      "itemId": "anthropic-ipo-filing-post",
+      "headline": "Anthropic files to go public",
+      "whyItMatters": "Your key AI vendor will soon publish its costs and risks; read the prospectus closely."
+    },
+    {
+      "itemId": "verge-united-blocks-agents",
+      "headline": "United shuts the door on unauthorized AI agents",
+      "whyItMatters": "Big brands can block your agents; plan agent access as a partnership, not a given."
+    }
+  ],
+  "items": [
+    {
+      "id": "alexandr-wang-muse-phone-calls",
+      "title": "Muse can now make phone calls on your behalf",
+      "takeaway": "Alexandr Wang says Muse now calls insurers, cable firms, the DMV and restaurants for paid US users.",
+      "soWhat": "Agents now reach businesses by voice; expect them on your customer service lines soon.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 7,
+      "publishedAt": "2026-11-12T17:23:51Z",
+      "source": {
+        "name": "@alexandr_wang on X",
+        "url": "https://x.com/alexandr_wang/status/2120930586827391350"
+      },
+      "image": {
+        "src": "/img/alexandr-wang-muse-phone-calls.jpg",
+        "alt": "Image from @alexandr_wang on X"
+      },
+      "heat": {
+        "score": 3,
+        "level": "none",
+        "metric": "6k views"
+      }
+    },
+    {
+      "id": "mengto-heygen-scroll-landing",
+      "title": "Meng To builds a scroll-driven landing page from one video take",
+      "takeaway": "One 30-second HeyGen Video 1 take plays in reverse on scroll; he shares workflow, prompts and a template.",
+      "soWhat": "Rich landing pages no longer need a 3D team; one prompted video can carry the story.",
+      "lens": "design",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-12T15:06:53Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2120896116711727557"
+      },
+      "image": {
+        "src": "/img/mengto-heygen-scroll-landing.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "6k views"
+      }
+    },
+    {
+      "id": "nvidia-ceo-transition-announcement",
+      "title": "Jensen Huang resigns as Nvidia CEO, effective immediately",
+      "takeaway": "Nvidia's newsroom announced a CEO transition; Reuters live coverage reports Huang resigned immediately.",
+      "soWhat": "Your biggest AI supplier changes leaders mid-boom; watch for shifts in pricing, roadmap and allocation.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 10,
+      "publishedAt": "2026-11-12T13:49:13Z",
+      "source": {
+        "name": "@nvidianewsroom on X",
+        "url": "https://x.com/nvidianewsroom/status/2120876571829662014"
+      },
+      "related": [
+        {
+          "name": "Reuters live",
+          "url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50467132"
+        }
+      ],
+      "image": {
+        "src": "/img/nvidia-ceo-transition-announcement.jpg",
+        "alt": "Profile image of @nvidianewsroom"
+      },
+      "heat": {
+        "score": 77,
+        "level": "hot",
+        "metric": "7M views",
+        "voices": 4
+      }
+    },
+    {
+      "id": "anthropic-ipo-filing-post",
+      "title": "Anthropic files its IPO registration with the SEC",
+      "takeaway": "Anthropic says it has filed a registration statement, including a prospectus, for its initial public offering.",
+      "soWhat": "A public Anthropic will disclose costs and risks; read the prospectus before your next model contract.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-12T11:30:46Z",
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2120841731302154708"
+      },
+      "related": [
+        {
+          "name": "Anthropic IPO site",
+          "url": "https://ipo.anthropic.com/us/"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50465829"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-ipo-filing-post.jpg",
+        "alt": "Image from @AnthropicAI on X"
+      }
+    },
+    {
+      "id": "pocock-home-repo-article",
+      "title": "Matt Pocock: one Home Repo to run agents across all repos",
+      "takeaway": "He publishes the Home Repo pattern for multi-repo agent work, with a setup prompt to run on your org's repos.",
+      "soWhat": "Agents stall at repo boundaries; a single home repo gives them one map of your whole codebase.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-12T11:18:35Z",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2120838662254420341"
+      },
+      "image": {
+        "src": "/img/pocock-home-repo-article.jpg",
+        "alt": "Image from @mattpocockuk on X"
+      }
+    },
+    {
+      "id": "naval-datacenters-competitive",
+      "title": "Naval: someone, somewhere, will build the datacenters",
+      "takeaway": "He calls datacenters a globally competitive market and says someone, somewhere, will build them.",
+      "soWhat": "Compute supply is global; local limits shift where capacity lands, not whether it exists.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-12T08:38:17Z",
+      "source": {
+        "name": "@naval on X",
+        "url": "https://x.com/naval/status/2120798325066911758"
+      },
+      "image": {
+        "src": "/img/naval-datacenters-competitive.jpg",
+        "alt": "Image from @naval on X"
+      }
+    },
+    {
+      "id": "theo-t3-code-1000-contributors",
+      "title": "T3 Code passes 1,000 open source contributors",
+      "takeaway": "Theo says it is one of the biggest open source iPhone apps and non-developers ask him how to set it up.",
+      "soWhat": "Coding agents are reaching non-developers; expect staff outside engineering to ask for them.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-12T06:24:19Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2120764608390869101"
+      },
+      "image": {
+        "src": "/img/theo-t3-code-1000-contributors.jpg",
+        "alt": "Image from @theo on X"
+      }
+    },
+    {
+      "id": "mengto-threejs-fable-tutorial",
+      "title": "Meng To shares a full tutorial for his three.js apartment",
+      "takeaway": "He walks through recreating his apartment in three.js with Opus 5.5 and Fable 5.2.",
+      "soWhat": "Designers can now ship interactive 3D with agents; a tutorial makes it repeatable for teams.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-12T05:13:44Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2120746846402564163"
+      },
+      "image": {
+        "src": "/img/mengto-threejs-fable-tutorial.jpg",
+        "alt": "Image from @MengTo on X"
+      }
+    },
+    {
+      "id": "theo-open-weight-t3-traffic",
+      "title": "Open-weight models are under 0.5% of T3 Code traffic",
+      "takeaway": "Theo says open-weight models are a tiny share of usage on his coding app, and the claim drew little pushback.",
+      "soWhat": "Developers are paying for closed frontier models; weigh that before betting on open-weight savings.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-12T04:14:49Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2120732020036993066"
+      },
+      "image": {
+        "src": "/img/theo-open-weight-t3-traffic.jpg",
+        "alt": "Profile image of @theo"
+      }
+    },
+    {
+      "id": "primeagen-vibing-3-hours",
+      "title": "ThePrimeagen: after weeks of vibe coding, each change takes hours",
+      "takeaway": "He says heavy vibe coding left him with a codebase where every change now takes three hours.",
+      "soWhat": "Speed without structure turns into drag; ask teams how they keep agent-written code maintainable.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-12T03:20:39Z",
+      "source": {
+        "name": "@ThePrimeagen on X",
+        "url": "https://x.com/ThePrimeagen/status/2120718387412185148"
+      },
+      "image": {
+        "src": "/img/primeagen-vibing-3-hours.jpg",
+        "alt": "Profile image of @ThePrimeagen"
+      }
+    },
+    {
+      "id": "verge-united-blocks-agents",
+      "title": "United won't let unauthorized AI agents book flights",
+      "takeaway": "The Verge reports United is refusing bookings made by unauthorized AI agents.",
+      "soWhat": "Agent access is now a business decision; check which partners will block your customer-facing agents.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-11T21:54:21Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
+      },
+      "related": [
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50458900"
+        }
+      ],
+      "image": {
+        "src": "/img/verge-united-blocks-agents.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "a16z-agent-web-traffic-8x",
+      "title": "AI agent web traffic grew 8x from August to October",
+      "takeaway": "a16z cites HUMAN Security; The Verge reports United won't let AI agents book flights.",
+      "soWhat": "Decide now whether agents are customers you serve or traffic you block.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-11T20:23:42Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2120613457481671106"
+      },
+      "related": [
+        {
+          "name": "a16z: Welcome to the B2A Economy",
+          "url": "https://www.a16z.news/p/welcome-to-the-b2a-economy"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
+        }
+      ],
+      "image": {
+        "src": "/img/a16z-agent-web-traffic-8x.jpg",
+        "alt": "Image from @a16z on X"
+      }
+    },
+    {
+      "id": "theo-gemini-4-carbon-slow",
+      "title": "Theo: Gemini 4 Carbon took 22 minutes, Opus 5.5 under 10",
+      "takeaway": "He says most of the delay is server side, with 11 seconds before the first response.",
+      "soWhat": "Benchmark scores hide latency; time models on your own tasks before switching.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-11T19:20:38Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2120597586298261543"
+      },
+      "related": [
+        {
+          "name": "@theo on X",
+          "url": "https://x.com/theo/status/2120618574834462935"
+        }
+      ],
+      "image": {
+        "src": "/img/theo-gemini-4-carbon-slow.jpg",
+        "alt": "Image from @theo on X"
+      }
+    },
+    {
+      "id": "a16z-gpu-rental-depreciation",
+      "title": "a16z: H100 rental rates run 54% above expected depreciation",
+      "takeaway": "As of Oct 19, A100s sat 9% and H100s 54% above a six-year straight-line path.",
+      "soWhat": "Compute keeps its value longer than planned, so budget for rental prices staying high.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-11T19:01:04Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2120592662353121405"
+      },
+      "image": {
+        "src": "/img/a16z-gpu-rental-depreciation.jpg",
+        "alt": "Image from @a16z on X"
+      }
+    },
+    {
+      "id": "aravind-space-red-teaming",
+      "title": "Perplexity: general models beat cyber models at breaking its agent sandbox",
+      "takeaway": "Red-teaming SPACE, GPT 5.6 Sol found exploits better than GPT 5.6 Sol Cyber.",
+      "soWhat": "Test agent sandboxes with your strongest general model, not only specialist security tools.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-11T18:41:57Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2120587855114432837"
+      },
+      "image": {
+        "src": "/img/aravind-space-red-teaming.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      }
+    },
+    {
+      "id": "sundar-gemini-decisions-api",
+      "title": "Google launches an API that scores 1,000 choices in one pass",
+      "takeaway": "Gemini Decision 1 picks from closed sets across text, images, audio, video and PDFs.",
+      "soWhat": "Triage, tagging and routing are closed-set choices; test whether this beats your current setup.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-11T18:15:20Z",
+      "source": {
+        "name": "@sundarpichai on X",
+        "url": "https://x.com/sundarpichai/status/2120581155078729728"
+      },
+      "related": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/"
+        },
+        {
+          "name": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+        }
+      ],
+      "image": {
+        "src": "/img/sundar-gemini-decisions-api.jpg",
+        "alt": "Image from @sundarpichai on X"
+      }
+    },
+    {
+      "id": "hn-aws-emulator",
+      "title": "AWS publishes an official emulator repo on GitHub",
+      "takeaway": "The aws/aws-emulator repo drew a 939-point Hacker News thread.",
+      "soWhat": "A local AWS emulator could let teams and agents test cloud code before it touches real accounts.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-11T18:00:00Z",
+      "source": {
+        "name": "GitHub: aws/aws-emulator",
+        "url": "https://github.com/aws/aws-emulator"
+      },
+      "related": [
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50456631"
+        }
+      ],
+      "image": {
+        "src": "/img/hn-aws-emulator.jpg",
+        "alt": "Image from GitHub: aws/aws-emulator"
+      }
+    },
+    {
+      "id": "lenny-claude-code-obsidian",
+      "title": "A family runs its shared AI brain on Claude Code and Obsidian",
+      "takeaway": "Lenny's Newsletter features Scott Farrar on using Claude Code with Obsidian as a family knowledge base.",
+      "soWhat": "Coding agents now manage plain notes, not just code; the pattern fits team knowledge too.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-11T13:04:09Z",
+      "source": {
+        "name": "Lenny's Newsletter",
+        "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai"
+      },
+      "image": {
+        "src": "/img/lenny-claude-code-obsidian.jpg",
+        "alt": "Image from Lenny's Newsletter"
+      }
+    },
+    {
+      "id": "hn-anthropic-vulns-tracking",
+      "title": "VulnCheck: Glasswing logged 37,966 findings, only 217 marked fixed",
+      "takeaway": "It counts 442 CVEs tied to Anthropic, two exploited; curl rejected 19 of 34 scanner reports.",
+      "soWhat": "AI finds bugs faster than people can verify and fix them, so budget for triage.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-10T22:17:56Z",
+      "source": {
+        "name": "VulnCheck",
+        "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update"
+      },
+      "image": {
+        "src": "/img/hn-anthropic-vulns-tracking.jpg",
+        "alt": "Image from VulnCheck"
+      }
+    },
+    {
+      "id": "lynalden-bullish-2027-gpu-demand",
+      "title": "Lyn Alden: wary of Huang's tenure, bullish on 2027 GPU demand",
+      "takeaway": "She calls herself neutral to bearish on Huang as CEO and bullish on GPU demand in 2027.",
+      "soWhat": "A respected macro voice separates Nvidia's leadership risk from the demand for AI compute.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-10T01:12:07Z",
+      "source": {
+        "name": "@LynAldenContact on X",
+        "url": "https://x.com/LynAldenContact/status/2119961265099411681"
+      },
+      "image": {
+        "src": "/img/lynalden-bullish-2027-gpu-demand.jpg",
+        "alt": "Image from @LynAldenContact on X"
+      }
+    },
+    {
+      "id": "benaich-open-cyber-models-defenders",
+      "title": "Nathan Benaich: defenders need open cyber models too",
+      "takeaway": "He says Hugging Face found API guardrails slowed an intrusion probe and used a self-hosted open model.",
+      "soWhat": "Closed-model guardrails can block your own security team; keep an open-model option for incidents.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-09T16:00:01Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2119822323650076803"
+      },
+      "image": {
+        "src": "/img/benaich-open-cyber-models-defenders.jpg",
+        "alt": "Image from @nathanbenaich on X"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@steipete",
+      "quote": "If that Spy's goal was to destabilize one of the most successful American companies, they achieved their goal. Ousting Jensen feels rushed and not right.",
+      "url": "https://x.com/steipete/status/2120903527803564397"
+    },
+    {
+      "handle": "@naval",
+      "quote": "You'd think we'd have learned from Steve Jobs and Travis Kalanick that one does not just simply replace the founder…",
+      "url": "https://x.com/naval/status/2120752211588452715"
+    },
+    {
+      "handle": "@naval",
+      "quote": "Datacenters are a globally competitive market. Someone, somewhere, will build them.",
+      "url": "https://x.com/naval/status/2120798325066911758"
+    },
+    {
+      "handle": "@ThePrimeagen",
+      "quote": "crazy day for me.... I have uninstalled tab complete",
+      "url": "https://x.com/ThePrimeagen/status/2120910738034508058"
+    },
+    {
+      "handle": "@mattpocockuk",
+      "quote": "I just told my agent \"treat me like a tool call\". So degrading",
+      "url": "https://x.com/mattpocockuk/status/2120795868509151239"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/nvidianewsroom/status/2120876571829662014",
+      "handle": "@nvidianewsroom",
+      "text": "NVIDIA announces CEO transition. Read the release.",
+      "metric": "61k likes",
+      "note": "The official word that Huang's era at Nvidia is over."
+    },
+    {
+      "url": "https://x.com/AravSrinivas/status/2120891190333607989",
+      "handle": "@AravSrinivas",
+      "text": "Thanks Jensen Huang for 33 years of leadership, building a small startup into America's most valuable company.",
+      "metric": "12.2k likes",
+      "note": "Founders are publicly honoring Huang as the board moves him out."
+    },
+    {
+      "url": "https://x.com/steipete/status/2120903527803564397",
+      "handle": "@steipete",
+      "text": "If that Spy's goal was to destabilize one of the most successful American companies, they achieved their goal. Ousting Jensen feels rushed.",
+      "metric": "6.3k likes",
+      "note": "Many builders think the board moved too fast."
+    },
+    {
+      "url": "https://x.com/theo/status/2120857265246986589",
+      "handle": "@theo",
+      "text": "Anthropic's IPO is confirmed for Wednesday next week. These numbers are insane.",
+      "metric": "2.3k likes",
+      "note": "Builders are reading Anthropic's numbers ahead of a listing date Anthropic has not confirmed here."
+    },
+    {
+      "url": "https://x.com/mattpocockuk/status/2120847219788308872",
+      "handle": "@mattpocockuk",
+      "text": "The Home Repo pattern: where to put skills, steering files and tooling when agents work across many repos.",
+      "metric": "986 likes",
+      "note": "Over 1,200 bookmarks: teams want a clear setup for agents across repos."
+    }
+  ]
+}

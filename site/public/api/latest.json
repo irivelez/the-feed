@@ -1,10 +1,15 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-12-0700",
+  "id": "2026-11-12-1300",
   "date": "2026-11-12",
-  "publishedAt": "2026-11-12T07:15:00-05:00",
-  "edition": "Morning",
+  "publishedAt": "2026-11-12T13:15:00-05:00",
+  "edition": "Midday",
   "top3": [
+    {
+      "itemId": "nvidia-ceo-transition-announcement",
+      "headline": "Jensen Huang is out as Nvidia CEO",
+      "whyItMatters": "The company that sells most AI chips changes leaders overnight; review your supply exposure."
+    },
     {
       "itemId": "anthropic-ipo-filing-post",
       "headline": "Anthropic files to go public",
@@ -14,14 +19,89 @@
       "itemId": "verge-united-blocks-agents",
       "headline": "United shuts the door on unauthorized AI agents",
       "whyItMatters": "Big brands can block your agents; plan agent access as a partnership, not a given."
-    },
-    {
-      "itemId": "pocock-home-repo-article",
-      "headline": "One Home Repo lets agents work across every repo",
-      "whyItMatters": "Multi-repo work is where agents stall; this pattern gives them a single map."
     }
   ],
   "items": [
+    {
+      "id": "alexandr-wang-muse-phone-calls",
+      "title": "Muse can now make phone calls on your behalf",
+      "takeaway": "Alexandr Wang says Muse now calls insurers, cable firms, the DMV and restaurants for paid US users.",
+      "soWhat": "Agents now reach businesses by voice; expect them on your customer service lines soon.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 7,
+      "publishedAt": "2026-11-12T17:23:51Z",
+      "source": {
+        "name": "@alexandr_wang on X",
+        "url": "https://x.com/alexandr_wang/status/2120930586827391350"
+      },
+      "image": {
+        "src": "/img/alexandr-wang-muse-phone-calls.jpg",
+        "alt": "Image from @alexandr_wang on X"
+      },
+      "heat": {
+        "score": 3,
+        "level": "none",
+        "metric": "6k views"
+      }
+    },
+    {
+      "id": "mengto-heygen-scroll-landing",
+      "title": "Meng To builds a scroll-driven landing page from one video take",
+      "takeaway": "One 30-second HeyGen Video 1 take plays in reverse on scroll; he shares workflow, prompts and a template.",
+      "soWhat": "Rich landing pages no longer need a 3D team; one prompted video can carry the story.",
+      "lens": "design",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-12T15:06:53Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2120896116711727557"
+      },
+      "image": {
+        "src": "/img/mengto-heygen-scroll-landing.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "6k views"
+      }
+    },
+    {
+      "id": "nvidia-ceo-transition-announcement",
+      "title": "Jensen Huang resigns as Nvidia CEO, effective immediately",
+      "takeaway": "Nvidia's newsroom announced a CEO transition; Reuters live coverage reports Huang resigned immediately.",
+      "soWhat": "Your biggest AI supplier changes leaders mid-boom; watch for shifts in pricing, roadmap and allocation.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 10,
+      "publishedAt": "2026-11-12T13:49:13Z",
+      "source": {
+        "name": "@nvidianewsroom on X",
+        "url": "https://x.com/nvidianewsroom/status/2120876571829662014"
+      },
+      "related": [
+        {
+          "name": "Reuters live",
+          "url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50467132"
+        }
+      ],
+      "image": {
+        "src": "/img/nvidia-ceo-transition-announcement.jpg",
+        "alt": "Profile image of @nvidianewsroom"
+      },
+      "heat": {
+        "score": 77,
+        "level": "hot",
+        "metric": "7M views",
+        "voices": 4
+      }
+    },
     {
       "id": "anthropic-ipo-filing-post",
       "title": "Anthropic files its IPO registration with the SEC",
@@ -35,14 +115,19 @@
         "name": "@AnthropicAI on X",
         "url": "https://x.com/AnthropicAI/status/2120841731302154708"
       },
+      "related": [
+        {
+          "name": "Anthropic IPO site",
+          "url": "https://ipo.anthropic.com/us/"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50465829"
+        }
+      ],
       "image": {
         "src": "/img/anthropic-ipo-filing-post.jpg",
         "alt": "Image from @AnthropicAI on X"
-      },
-      "heat": {
-        "score": 13,
-        "level": "none",
-        "metric": "22k views"
       }
     },
     {
@@ -61,11 +146,6 @@
       "image": {
         "src": "/img/pocock-home-repo-article.jpg",
         "alt": "Image from @mattpocockuk on X"
-      },
-      "heat": {
-        "score": 1,
-        "level": "none",
-        "metric": "5k views"
       }
     },
     {
@@ -84,11 +164,6 @@
       "image": {
         "src": "/img/naval-datacenters-competitive.jpg",
         "alt": "Image from @naval on X"
-      },
-      "heat": {
-        "score": 19,
-        "level": "none",
-        "metric": "89k views"
       }
     },
     {
@@ -107,11 +182,6 @@
       "image": {
         "src": "/img/theo-t3-code-1000-contributors.jpg",
         "alt": "Image from @theo on X"
-      },
-      "heat": {
-        "score": 13,
-        "level": "none",
-        "metric": "34k views"
       }
     },
     {
@@ -130,11 +200,6 @@
       "image": {
         "src": "/img/mengto-threejs-fable-tutorial.jpg",
         "alt": "Image from @MengTo on X"
-      },
-      "heat": {
-        "score": 6,
-        "level": "none",
-        "metric": "10k views"
       }
     },
     {
@@ -153,11 +218,6 @@
       "image": {
         "src": "/img/theo-open-weight-t3-traffic.jpg",
         "alt": "Profile image of @theo"
-      },
-      "heat": {
-        "score": 20,
-        "level": "none",
-        "metric": "93k views"
       }
     },
     {
@@ -176,43 +236,6 @@
       "image": {
         "src": "/img/primeagen-vibing-3-hours.jpg",
         "alt": "Profile image of @ThePrimeagen"
-      },
-      "heat": {
-        "score": 20,
-        "level": "none",
-        "metric": "102k views"
-      }
-    },
-    {
-      "id": "verge-nvidia-prepping-fire-huang",
-      "title": "Nvidia's board reportedly prepares to fire CEO Jensen Huang",
-      "takeaway": "The WSJ reports the board may meet today after a second alleged affair; shares fell over 7% after hours.",
-      "soWhat": "Key-person risk at the top AI chip supplier is now live; review your compute exposure.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 9,
-      "publishedAt": "2026-11-11T23:10:43Z",
-      "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor"
-      },
-      "related": [
-        {
-          "name": "@garrytan on X",
-          "url": "https://x.com/garrytan/status/2120657462353330604"
-        },
-        {
-          "name": "Stratechery",
-          "url": "https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/"
-        },
-        {
-          "name": "Gary Marcus",
-          "url": "https://garymarcus.substack.com/p/jensen-is-reportedly-about-to-get"
-        }
-      ],
-      "image": {
-        "src": "/img/verge-nvidia-prepping-fire-huang.jpg",
-        "alt": "Image from The Verge"
       }
     },
     {
@@ -228,6 +251,16 @@
         "name": "The Verge",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
       },
+      "related": [
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50458900"
+        }
+      ],
       "image": {
         "src": "/img/verge-united-blocks-agents.jpg",
         "alt": "Image from The Verge"
@@ -259,12 +292,6 @@
       "image": {
         "src": "/img/a16z-agent-web-traffic-8x.jpg",
         "alt": "Image from @a16z on X"
-      },
-      "heat": {
-        "score": 13,
-        "level": "none",
-        "metric": "14k views",
-        "voices": 2
       }
     },
     {
@@ -289,11 +316,6 @@
       "image": {
         "src": "/img/theo-gemini-4-carbon-slow.jpg",
         "alt": "Image from @theo on X"
-      },
-      "heat": {
-        "score": 14,
-        "level": "none",
-        "metric": "61k views"
       }
     },
     {
@@ -312,11 +334,6 @@
       "image": {
         "src": "/img/a16z-gpu-rental-depreciation.jpg",
         "alt": "Image from @a16z on X"
-      },
-      "heat": {
-        "score": 8,
-        "level": "none",
-        "metric": "23k views"
       }
     },
     {
@@ -335,12 +352,6 @@
       "image": {
         "src": "/img/aravind-space-red-teaming.jpg",
         "alt": "Image from @AravSrinivas on X"
-      },
-      "heat": {
-        "score": 10,
-        "level": "none",
-        "metric": "9k views",
-        "voices": 2
       }
     },
     {
@@ -360,59 +371,39 @@
         {
           "name": "Simon Willison",
           "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/"
+        },
+        {
+          "name": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
         }
       ],
       "image": {
         "src": "/img/sundar-gemini-decisions-api.jpg",
         "alt": "Image from @sundarpichai on X"
-      },
-      "heat": {
-        "score": 38,
-        "level": "none",
-        "metric": "371k views",
-        "voices": 2
       }
     },
     {
-      "id": "deepmind-alphagenome-2",
-      "title": "DeepMind's AlphaGenome 2 predicts how mutations act in specific cells",
-      "takeaway": "Trained on 100M+ cell profiles; free for academic research via API, private preview for commercial use.",
-      "soWhat": "AI for science is becoming a research tool; health and pharma teams should test access now.",
-      "lens": "broad",
+      "id": "hn-aws-emulator",
+      "title": "AWS publishes an official emulator repo on GitHub",
+      "takeaway": "The aws/aws-emulator repo drew a 939-point Hacker News thread.",
+      "soWhat": "A local AWS emulator could let teams and agents test cloud code before it touches real accounts.",
+      "lens": "practical",
       "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-11-11T17:12:24Z",
+      "importance": 6,
+      "publishedAt": "2026-11-11T18:00:00Z",
       "source": {
-        "name": "@demishassabis on X",
-        "url": "https://x.com/demishassabis/status/2120565316619284734"
+        "name": "GitHub: aws/aws-emulator",
+        "url": "https://github.com/aws/aws-emulator"
       },
       "related": [
         {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model"
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50456631"
         }
       ],
       "image": {
-        "src": "/img/deepmind-alphagenome-2.jpg",
-        "alt": "Image from @demishassabis on X"
-      }
-    },
-    {
-      "id": "verge-google-tabletop",
-      "title": "Google tests Tabletop for building custom collaboration apps",
-      "takeaway": "The Verge covers Google's Tabletop AI experiment, its waitlist and availability.",
-      "soWhat": "Teams may soon build their own shared tools; watch for shadow apps outside IT.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-11T14:15:27Z",
-      "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability"
-      },
-      "image": {
-        "src": "/img/verge-google-tabletop.jpg",
-        "alt": "Image from The Verge"
+        "src": "/img/hn-aws-emulator.jpg",
+        "alt": "Image from GitHub: aws/aws-emulator"
       }
     },
     {
@@ -431,24 +422,6 @@
       "image": {
         "src": "/img/lenny-claude-code-obsidian.jpg",
         "alt": "Image from Lenny's Newsletter"
-      }
-    },
-    {
-      "id": "mengto-fable-52-trailer",
-      "title": "Meng To turns his three.js game into a trailer with Fable 5.2",
-      "takeaway": "He shared a 60-second trailer the model made from his game.",
-      "soWhat": "Marketing assets can now come from the product itself, cutting design cycles.",
-      "lens": "design",
-      "momentum": "building",
-      "importance": 4,
-      "publishedAt": "2026-11-11T12:57:57Z",
-      "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2120501283304153438"
-      },
-      "image": {
-        "src": "/img/mengto-fable-52-trailer.jpg",
-        "alt": "Profile image of @MengTo"
       }
     },
     {
@@ -508,19 +481,24 @@
   ],
   "voices": [
     {
+      "handle": "@steipete",
+      "quote": "If that Spy's goal was to destabilize one of the most successful American companies, they achieved their goal. Ousting Jensen feels rushed and not right.",
+      "url": "https://x.com/steipete/status/2120903527803564397"
+    },
+    {
       "handle": "@naval",
       "quote": "You'd think we'd have learned from Steve Jobs and Travis Kalanick that one does not just simply replace the founder…",
       "url": "https://x.com/naval/status/2120752211588452715"
     },
     {
-      "handle": "@ThePrimeagen",
-      "quote": "So I have been vibing. Going hard. Now every change takes 3 hours.. wtf this sucks",
-      "url": "https://x.com/ThePrimeagen/status/2120718387412185148"
-    },
-    {
       "handle": "@naval",
       "quote": "Datacenters are a globally competitive market. Someone, somewhere, will build them.",
       "url": "https://x.com/naval/status/2120798325066911758"
+    },
+    {
+      "handle": "@ThePrimeagen",
+      "quote": "crazy day for me.... I have uninstalled tab complete",
+      "url": "https://x.com/ThePrimeagen/status/2120910738034508058"
     },
     {
       "handle": "@mattpocockuk",
@@ -530,39 +508,39 @@
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/naval/status/2120752211588452715",
-      "handle": "@naval",
-      "text": "You'd think we'd have learned from Steve Jobs and Travis Kalanick that one does not just simply replace the founder…",
-      "metric": "14.5k likes",
-      "note": "The Huang reports reopened the old fight over whether boards should remove founders."
+      "url": "https://x.com/nvidianewsroom/status/2120876571829662014",
+      "handle": "@nvidianewsroom",
+      "text": "NVIDIA announces CEO transition. Read the release.",
+      "metric": "61k likes",
+      "note": "The official word that Huang's era at Nvidia is over."
     },
     {
-      "url": "https://x.com/amasad/status/2120671838909194695",
-      "handle": "@amasad",
-      "text": "Who benefits from the timing of the Huang stories? Taking out the premier champion of open models helps those who want AI closed.",
-      "metric": "4.6k likes",
-      "note": "It frames the Nvidia fight as a battle over open versus closed AI."
+      "url": "https://x.com/AravSrinivas/status/2120891190333607989",
+      "handle": "@AravSrinivas",
+      "text": "Thanks Jensen Huang for 33 years of leadership, building a small startup into America's most valuable company.",
+      "metric": "12.2k likes",
+      "note": "Founders are publicly honoring Huang as the board moves him out."
     },
     {
-      "url": "https://x.com/ThePrimeagen/status/2120718387412185148",
-      "handle": "@ThePrimeagen",
-      "text": "So I have been vibing. Going hard. Now every change takes 3 hours.. wtf this sucks",
-      "metric": "1.6k likes",
-      "note": "Many builders recognize the hidden cost of fast, unstructured agent coding."
+      "url": "https://x.com/steipete/status/2120903527803564397",
+      "handle": "@steipete",
+      "text": "If that Spy's goal was to destabilize one of the most successful American companies, they achieved their goal. Ousting Jensen feels rushed.",
+      "metric": "6.3k likes",
+      "note": "Many builders think the board moved too fast."
     },
     {
-      "url": "https://x.com/theo/status/2120732020036993066",
+      "url": "https://x.com/theo/status/2120857265246986589",
       "handle": "@theo",
-      "text": "Open weight models make up less than 0.5% of T3 Code traffic, and saying so now gets crickets.",
-      "metric": "1.5k likes",
-      "note": "A rare usage number on how little developers use open models in practice."
+      "text": "Anthropic's IPO is confirmed for Wednesday next week. These numbers are insane.",
+      "metric": "2.3k likes",
+      "note": "Builders are reading Anthropic's numbers ahead of a listing date Anthropic has not confirmed here."
     },
     {
-      "url": "https://x.com/naval/status/2120798325066911758",
-      "handle": "@naval",
-      "text": "Datacenters are a globally competitive market. Someone, somewhere, will build them.",
-      "metric": "1.3k likes",
-      "note": "Investors are debating whether any single country can control where AI compute gets built."
+      "url": "https://x.com/mattpocockuk/status/2120847219788308872",
+      "handle": "@mattpocockuk",
+      "text": "The Home Repo pattern: where to put skills, steering files and tooling when agents work across many repos.",
+      "metric": "986 likes",
+      "note": "Over 1,200 bookmarks: teams want a clear setup for agents across repos."
     }
   ]
 }
