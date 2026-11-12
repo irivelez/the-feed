@@ -1,27 +1,195 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-11-1300",
+  "id": "2026-11-11-1900",
   "date": "2026-11-11",
-  "publishedAt": "2026-11-11T13:30:00-05:00",
-  "edition": "Midday",
+  "publishedAt": "2026-11-11T19:30:00-05:00",
+  "edition": "Evening",
   "top3": [
     {
-      "itemId": "hn-anthropic-vulns-tracking",
-      "headline": "VulnCheck: Anthropic's Glasswing found 37,966 bugs, fixed 217",
-      "whyItMatters": "AI finds flaws faster than teams can fix them; fund triage, not just scanning."
+      "itemId": "verge-nvidia-prepping-fire-huang",
+      "headline": "Nvidia's board reportedly moves to oust Jensen Huang",
+      "whyItMatters": "A CEO exit at the top AI chip supplier would test every compute plan; watch the board."
     },
     {
-      "itemId": "simonw-anthropic-ipo-roadshow",
-      "headline": "Anthropic says Mythos ported Claude to AMD chips in three days",
-      "whyItMatters": "Agents that port software in days weaken chip lock-in, a live risk this week."
+      "itemId": "sundar-gemini-decisions-api",
+      "headline": "Google ships an API built to choose, not write",
+      "whyItMatters": "Much enterprise AI work is picking from options; a purpose-built model can now score it in one pass."
     },
     {
-      "itemId": "deepmind-alphagenome-2",
-      "headline": "DeepMind's AlphaGenome 2 predicts how mutations act in specific cells",
-      "whyItMatters": "AI for science is now a usable research tool; health leaders should test access."
+      "itemId": "a16z-gpu-rental-depreciation",
+      "headline": "Older GPUs are holding rental value far longer than expected",
+      "whyItMatters": "Do not plan on cheap compute soon; H100 rents sit 54% above the depreciation path."
     }
   ],
   "items": [
+    {
+      "id": "verge-nvidia-prepping-fire-huang",
+      "title": "Nvidia's board reportedly prepares to fire CEO Jensen Huang",
+      "takeaway": "The WSJ reports the board may meet today after a second alleged affair; shares fell over 7% after hours.",
+      "soWhat": "Key-person risk at the top AI chip supplier is now live; review your compute exposure.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-11T23:10:43Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor"
+      },
+      "related": [
+        {
+          "name": "@garrytan on X",
+          "url": "https://x.com/garrytan/status/2120657462353330604"
+        },
+        {
+          "name": "Stratechery",
+          "url": "https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/"
+        }
+      ],
+      "image": {
+        "src": "/img/verge-nvidia-prepping-fire-huang.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "a16z-agent-web-traffic-8x",
+      "title": "AI agent web traffic grew 8x from August to October",
+      "takeaway": "a16z cites HUMAN Security; The Verge reports United won't let AI agents book flights.",
+      "soWhat": "Decide now whether agents are customers you serve or traffic you block.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-11T20:23:42Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2120613457481671106"
+      },
+      "related": [
+        {
+          "name": "a16z: Welcome to the B2A Economy",
+          "url": "https://www.a16z.news/p/welcome-to-the-b2a-economy"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
+        }
+      ],
+      "image": {
+        "src": "/img/a16z-agent-web-traffic-8x.jpg",
+        "alt": "Image from @a16z on X"
+      },
+      "heat": {
+        "score": 13,
+        "level": "none",
+        "metric": "14k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "theo-gemini-4-carbon-slow",
+      "title": "Theo: Gemini 4 Carbon took 22 minutes, Opus 5.5 under 10",
+      "takeaway": "He says most of the delay is server side, with 11 seconds before the first response.",
+      "soWhat": "Benchmark scores hide latency; time models on your own tasks before switching.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-11T19:20:38Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2120597586298261543"
+      },
+      "related": [
+        {
+          "name": "@theo on X",
+          "url": "https://x.com/theo/status/2120618574834462935"
+        }
+      ],
+      "image": {
+        "src": "/img/theo-gemini-4-carbon-slow.jpg",
+        "alt": "Image from @theo on X"
+      },
+      "heat": {
+        "score": 14,
+        "level": "none",
+        "metric": "61k views"
+      }
+    },
+    {
+      "id": "a16z-gpu-rental-depreciation",
+      "title": "a16z: H100 rental rates run 54% above expected depreciation",
+      "takeaway": "As of Oct 19, A100s sat 9% and H100s 54% above a six-year straight-line path.",
+      "soWhat": "Compute keeps its value longer than planned, so budget for rental prices staying high.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-11T19:01:04Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2120592662353121405"
+      },
+      "image": {
+        "src": "/img/a16z-gpu-rental-depreciation.jpg",
+        "alt": "Image from @a16z on X"
+      },
+      "heat": {
+        "score": 8,
+        "level": "none",
+        "metric": "23k views"
+      }
+    },
+    {
+      "id": "aravind-space-red-teaming",
+      "title": "Perplexity: general models beat cyber models at breaking its agent sandbox",
+      "takeaway": "Red-teaming SPACE, GPT 5.6 Sol found exploits better than GPT 5.6 Sol Cyber.",
+      "soWhat": "Test agent sandboxes with your strongest general model, not only specialist security tools.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-11T18:41:57Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2120587855114432837"
+      },
+      "image": {
+        "src": "/img/aravind-space-red-teaming.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 10,
+        "level": "none",
+        "metric": "9k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "sundar-gemini-decisions-api",
+      "title": "Google launches an API that scores 1,000 choices in one pass",
+      "takeaway": "Gemini Decision 1 picks from closed sets across text, images, audio, video and PDFs.",
+      "soWhat": "Triage, tagging and routing are closed-set choices; test whether this beats your current setup.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-11T18:15:20Z",
+      "source": {
+        "name": "@sundarpichai on X",
+        "url": "https://x.com/sundarpichai/status/2120581155078729728"
+      },
+      "related": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/"
+        }
+      ],
+      "image": {
+        "src": "/img/sundar-gemini-decisions-api.jpg",
+        "alt": "Image from @sundarpichai on X"
+      },
+      "heat": {
+        "score": 38,
+        "level": "none",
+        "metric": "371k views",
+        "voices": 2
+      }
+    },
     {
       "id": "deepmind-alphagenome-2",
       "title": "DeepMind's AlphaGenome 2 predicts how mutations act in specific cells",
@@ -44,41 +212,6 @@
       "image": {
         "src": "/img/deepmind-alphagenome-2.jpg",
         "alt": "Image from @demishassabis on X"
-      },
-      "heat": {
-        "score": 22,
-        "level": "none",
-        "metric": "20k views",
-        "voices": 2
-      }
-    },
-    {
-      "id": "a16z-agents-majority-web-traffic",
-      "title": "a16z: agents are now the internet's main users and customers",
-      "takeaway": "It says agents are most web traffic and most production code; business models lag.",
-      "soWhat": "If agents choose what to buy, your product must be easy for agents to find and use.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-11-11T17:07:26Z",
-      "source": {
-        "name": "@a16z on X",
-        "url": "https://x.com/a16z/status/2120564069010931746"
-      },
-      "related": [
-        {
-          "name": "a16z: Welcome to the B2A Economy",
-          "url": "https://www.a16z.news/p/welcome-to-the-b2a-economy"
-        }
-      ],
-      "image": {
-        "src": "/img/a16z-agents-majority-web-traffic.jpg",
-        "alt": "Image from @a16z on X"
-      },
-      "heat": {
-        "score": 0,
-        "level": "none",
-        "metric": "6k views"
       }
     },
     {
@@ -106,24 +239,6 @@
       }
     },
     {
-      "id": "verge-google-tabletop",
-      "title": "Google tests Tabletop, shared spaces where groups vibecode small apps",
-      "takeaway": "Prompt it to build trackers, polls or expense splitters; US-only waitlist beta for adults.",
-      "soWhat": "Custom team tools are moving from IT projects to a prompt anyone can write.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-11T14:15:27Z",
-      "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability"
-      },
-      "image": {
-        "src": "/img/verge-google-tabletop.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
       "id": "aravs-fable-52-zombie-shooter",
       "title": "A Perplexity agent on Fable 5.2 built a browser game in hours",
       "takeaway": "Aravind Srinivas says a Teammate built an endless zombie shooter, all in code, no 3D assets.",
@@ -139,12 +254,6 @@
       "image": {
         "src": "/img/aravs-fable-52-zombie-shooter.jpg",
         "alt": "Image from @AravSrinivas on X"
-      },
-      "heat": {
-        "score": 24,
-        "level": "none",
-        "metric": "43k views",
-        "voices": 2
       }
     },
     {
@@ -163,35 +272,6 @@
       "image": {
         "src": "/img/pocock-ddd-agent-course.jpg",
         "alt": "Profile image of @mattpocockuk"
-      },
-      "heat": {
-        "score": 18,
-        "level": "none",
-        "metric": "66k views"
-      }
-    },
-    {
-      "id": "lenny-claude-code-obsidian",
-      "title": "A parent runs his household from Claude Code and Obsidian",
-      "takeaway": "Scott Farrar keeps appliances, insurance and to-dos in Markdown files Claude Code reads.",
-      "soWhat": "Plain files plus an agent beat chat for memory; the same pattern fits team knowledge.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-11T13:04:09Z",
-      "source": {
-        "name": "Lenny's Newsletter",
-        "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai"
-      },
-      "related": [
-        {
-          "name": "Scott Farrar's write-up",
-          "url": "https://sfxmath.com/work/homeai-household-knowledge-base/"
-        }
-      ],
-      "image": {
-        "src": "/img/lenny-claude-code-obsidian.jpg",
-        "alt": "Image from Lenny's Newsletter"
       }
     },
     {
@@ -210,30 +290,6 @@
       "image": {
         "src": "/img/mengto-fable-52-trailer.jpg",
         "alt": "Profile image of @MengTo"
-      },
-      "heat": {
-        "score": 14,
-        "level": "none",
-        "metric": "10k views",
-        "voices": 2
-      }
-    },
-    {
-      "id": "hn-google-swe-maya-pyramid",
-      "title": "AI agents rediscovered a known Maya site in NASA lidar data",
-      "takeaway": "An engineer's 48 agents scanned 1,200 km2 of lidar; he later learned the site was already published.",
-      "soWhat": "Agents can do expert search work fast, but their literature checks still need human review.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-11T12:05:22Z",
-      "source": {
-        "name": "pietromiotti.com",
-        "url": "https://pietromiotti.com/latest/maya-site/?maya"
-      },
-      "image": {
-        "src": "/img/hn-google-swe-maya-pyramid.jpg",
-        "alt": "Image from pietromiotti.com"
       }
     },
     {
@@ -252,40 +308,6 @@
       "image": {
         "src": "/img/hwchase17-goal-engineering.jpg",
         "alt": "Profile image of @hwchase17"
-      },
-      "heat": {
-        "score": 13,
-        "level": "none",
-        "metric": "26k views"
-      }
-    },
-    {
-      "id": "a16z-dharmesh-yellow-brick-road",
-      "title": "Dharmesh Shah: build AI startups off the frontier labs' road",
-      "takeaway": "He says labs must sell tokens to recoup capex, so domain players with distribution can resell inference without being margined out.",
-      "soWhat": "Your edge is domain and distribution, not the model, so build where labs are not heading.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-11-11T00:59:39Z",
-      "source": {
-        "name": "@a16z on X",
-        "url": "https://x.com/a16z/status/2120320518419276127"
-      },
-      "related": [
-        {
-          "name": "a16z podcast on YouTube",
-          "url": "http://youtu.be/s4lXP9IuHjk"
-        }
-      ],
-      "image": {
-        "src": "/img/a16z-dharmesh-yellow-brick-road.jpg",
-        "alt": "Image from @a16z on X"
-      },
-      "heat": {
-        "score": 6,
-        "level": "none",
-        "metric": "37k views"
       }
     },
     {
@@ -304,11 +326,6 @@
       "image": {
         "src": "/img/rowan-ai-news-roundup.jpg",
         "alt": "Profile image of @rowancheung"
-      },
-      "heat": {
-        "score": 18,
-        "level": "none",
-        "metric": "138k views"
       }
     },
     {
@@ -424,30 +441,6 @@
       }
     },
     {
-      "id": "stratechery-huang-story-gets-worse",
-      "title": "Stratechery: the Jensen Huang story gets worse",
-      "takeaway": "Ben Thompson's Nov 10 update on Nvidia's CEO affair; the body is paywalled.",
-      "soWhat": "Nvidia leadership risk is not fading, so keep watching your AI chip exposure.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-10T11:00:00Z",
-      "source": {
-        "name": "Stratechery",
-        "url": "https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/"
-      },
-      "related": [
-        {
-          "name": "The Verge: Nvidia spy scandal",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang"
-        }
-      ],
-      "image": {
-        "src": "/img/stratechery-huang-story-gets-worse.jpg",
-        "alt": "Image from Stratechery"
-      }
-    },
-    {
       "id": "lynalden-bullish-2027-gpu-demand",
       "title": "Lyn Alden: wary of Huang's tenure, bullish on 2027 GPU demand",
       "takeaway": "She calls herself neutral to bearish on Huang as CEO and bullish on GPU demand in 2027.",
@@ -487,8 +480,8 @@
   "voices": [
     {
       "handle": "@mattpocockuk",
-      "quote": "It's the DDD stuff - domain-driven design. Building a ubiquitous language, using it with the agent, and refactoring the code to use it.",
-      "url": "https://x.com/mattpocockuk/status/2120503390333768170"
+      "quote": "DDD has never been more powerful.",
+      "url": "https://x.com/mattpocockuk/status/2120606575819956439"
     },
     {
       "handle": "@AravSrinivas",
@@ -508,39 +501,39 @@
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/mattpocockuk/status/2120503390333768170",
+      "url": "https://x.com/sundarpichai/status/2120581155078729728",
+      "handle": "@sundarpichai",
+      "text": "Gemini Decisions API: a new Gemini Decision 1 model scores up to 1,000 closed-set questions in a single pass.",
+      "metric": "4.5k likes",
+      "note": "A new model type, built to choose rather than write, caught builders' attention."
+    },
+    {
+      "url": "https://x.com/theo/status/2120608840593060318",
+      "handle": "@theo",
+      "text": "Anthropic's current lead over other labs is the biggest any lab has had since GPT-3.",
+      "metric": "1.1k likes",
+      "note": "Builders are debating whether one lab now sets the pace for everyone."
+    },
+    {
+      "url": "https://x.com/poteto/status/2120577296277119129",
+      "handle": "@poteto",
+      "text": "My AI Engineer talk goes live in 10 minutes.",
+      "metric": "744 likes",
+      "note": "Her keynote drew a standing-room crowd, per swyx."
+    },
+    {
+      "url": "https://x.com/theo/status/2120597586298261543",
+      "handle": "@theo",
+      "text": "Gemini 4 Carbon low: 22m21s. Opus 5.5 high: 9m33s. Unacceptably slow in real use.",
+      "metric": "610 likes",
+      "note": "Speed in real work, not benchmark scores, decides which model builders keep."
+    },
+    {
+      "url": "https://x.com/mattpocockuk/status/2120606575819956439",
       "handle": "@mattpocockuk",
-      "text": "The thing blowing people's minds most in my course is not the agentic stuff. It's the DDD stuff.",
-      "metric": "1.2k likes",
-      "note": "Builders are finding that clear domain language matters more than agent tricks."
-    },
-    {
-      "url": "https://x.com/AravSrinivas/status/2120506245131977026",
-      "handle": "@AravSrinivas",
-      "text": "A Teammate ran on Fable 5.2 for a few hours and built an endless browser zombie shooter, all in code.",
-      "metric": "534 likes",
-      "note": "People want proof that long agent runs produce something that works."
-    },
-    {
-      "url": "https://x.com/demishassabis/status/2120565316619284734",
-      "handle": "@demishassabis",
-      "text": "AlphaGenome 2 predicts the impact of DNA variants in specific cell types, available for academic research via API.",
-      "metric": "422 likes",
-      "note": "AI tackling disease biology draws attention beyond the tech crowd."
-    },
-    {
-      "url": "https://x.com/MengTo/status/2120501283304153438",
-      "handle": "@MengTo",
-      "text": "Fable 5.2 turning my three.js game into an insane trailer",
-      "metric": "151 likes",
-      "note": "Designers are testing whether new models can handle visual polish, not just code."
-    },
-    {
-      "url": "https://x.com/rubenhassid/status/2120486708387143989",
-      "handle": "@rubenhassid",
-      "text": "Claude tips: use the desktop app, default to Opus 5.5, and don't switch models mid-chat.",
-      "metric": "149 likes",
-      "note": "Fable 5.2's token cost is pushing users to swap practical cost-saving habits."
+      "text": "If you can describe business processes in clear, consistent language, you've half-built the software to automate them.",
+      "metric": "249 likes",
+      "note": "Clear business language is turning into a direct input for agent-built software."
     }
   ]
 }

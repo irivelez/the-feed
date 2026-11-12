@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-11-1300",
-  "count": 60,
+  "latest": "2026-11-11-1900",
+  "count": 61,
   "briefs": [
+    {
+      "id": "2026-11-11-1900",
+      "date": "2026-11-11",
+      "edition": "Evening",
+      "publishedAt": "2026-11-11T19:30:00-05:00",
+      "headline": "Nvidia's board reportedly moves to oust Jensen Huang",
+      "url": "/api/briefs/2026-11-11-1900.json"
+    },
     {
       "id": "2026-11-11-1300",
       "date": "2026-11-11",
