@@ -1,8 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-10",
-  "count": 13,
+  "latest": "2026-11-12",
+  "count": 14,
   "narratives": [
+    {
+      "id": "2026-11-12",
+      "publishedAt": "2026-11-12T19:45:00-05:00",
+      "window": {
+        "from": "2026-11-06",
+        "to": "2026-11-12"
+      },
+      "headline": "AI's leaders wobble as agents start spending your money",
+      "url": "/api/narrative/2026-11-12.json"
+    },
     {
       "id": "2026-11-10",
       "publishedAt": "2026-11-10T19:40:00-05:00",

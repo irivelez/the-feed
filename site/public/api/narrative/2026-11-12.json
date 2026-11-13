@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.0",
+  "id": "2026-11-12",
+  "publishedAt": "2026-11-12T19:45:00-05:00",
+  "window": {
+    "from": "2026-11-06",
+    "to": "2026-11-12"
+  },
+  "headline": "AI's leaders wobble as agents start spending your money",
+  "summary": "The week's power shifted twice: at the top of the AI industry, and at the checkout. Jensen Huang resigned as Nvidia CEO effective immediately, and Anthropic filed to go public, so your chip supplier and a key model vendor now face new scrutiny. Meanwhile agents became customers: a16z says agent web traffic grew 8x from August to October, Muse now places phone calls for users, and Replit Agent can buy ads. Some gatekeepers are pushing back, with United refusing bookings from unauthorized agents. Inside companies, Claude moved into video calls, and Anthropic now lets you host its agents in your own cloud. This quarter, decide which agents may spend or speak for your company, and which outside agents you will let in.",
+  "threads": [
+    {
+      "title": "The throne wobbles",
+      "line": "Nvidia lost its founder CEO and Anthropic filed to list. Two core AI suppliers now face public scrutiny.",
+      "evidence": [
+        {
+          "briefId": "2026-11-12-1300",
+          "itemId": "nvidia-ceo-transition-announcement"
+        },
+        {
+          "briefId": "2026-11-11-1900",
+          "itemId": "verge-nvidia-prepping-fire-huang"
+        },
+        {
+          "briefId": "2026-11-12-0700",
+          "itemId": "anthropic-ipo-filing-post"
+        },
+        {
+          "briefId": "2026-11-11-1300",
+          "itemId": "simonw-anthropic-ipo-roadshow"
+        },
+        {
+          "briefId": "2026-11-12-1900",
+          "itemId": "lynalden-bullish-2027-gpu-demand"
+        }
+      ]
+    },
+    {
+      "title": "Agents with a wallet",
+      "line": "Agents now call, book and buy ads for users. Set budgets and approvals before you switch them on.",
+      "evidence": [
+        {
+          "briefId": "2026-11-11-1900",
+          "itemId": "a16z-agent-web-traffic-8x"
+        },
+        {
+          "briefId": "2026-11-12-1300",
+          "itemId": "alexandr-wang-muse-phone-calls"
+        },
+        {
+          "briefId": "2026-11-12-1900",
+          "itemId": "replit-agent-buys-ads"
+        },
+        {
+          "briefId": "2026-11-11-0700",
+          "itemId": "openai-businesses-in-chatgpt"
+        }
+      ]
+    },
+    {
+      "title": "The bouncer at the door",
+      "line": "United refuses unauthorized agent bookings. Brands decide which agents get in, so treat agent access as a partnership.",
+      "evidence": [
+        {
+          "briefId": "2026-11-12-0700",
+          "itemId": "verge-united-blocks-agents"
+        },
+        {
+          "briefId": "2026-11-11-1300",
+          "itemId": "a16z-agents-majority-web-traffic"
+        }
+      ]
+    },
+    {
+      "title": "The assistant is the office",
+      "line": "Claude now joins calls and runs in your own cloud. Work context flows into agents, so govern what they keep.",
+      "evidence": [
+        {
+          "briefId": "2026-11-12-1900",
+          "itemId": "claude-meetings-launch"
+        },
+        {
+          "briefId": "2026-11-12-1900",
+          "itemId": "claude-managed-agents-self-hosted"
+        },
+        {
+          "briefId": "2026-11-11-0700",
+          "itemId": "cursor-projects-multiplayer"
+        },
+        {
+          "briefId": "2026-11-11-0700",
+          "itemId": "claudedevs-mcp-apps-interactive-connectors"
+        }
+      ]
+    },
+    {
+      "title": "Speed beats size",
+      "line": "Google's fast Hydrogen came a day after Theo timed Carbon as slow. Quick, cheap models take more daily work; retest defaults.",
+      "evidence": [
+        {
+          "briefId": "2026-11-12-1900",
+          "itemId": "gemini-4-hydrogen-launch"
+        },
+        {
+          "briefId": "2026-11-12-1900",
+          "itemId": "gemini-4-hydrogen-cursorbench"
+        },
+        {
+          "briefId": "2026-11-11-1900",
+          "itemId": "theo-gemini-4-carbon-slow"
+        },
+        {
+          "briefId": "2026-11-11-1900",
+          "itemId": "sundar-gemini-decisions-api"
+        },
+        {
+          "briefId": "2026-11-12-1900",
+          "itemId": "decider-v13-open-source"
+        }
+      ]
+    }
+  ]
+}
