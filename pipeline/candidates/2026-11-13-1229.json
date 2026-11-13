@@ -1,0 +1,205 @@
+{
+ "schemaVersion": "1.1",
+ "runId": "2026-11-13-1229",
+ "generatedAt": "2026-11-13T12:31:00-05:00",
+ "configVersions": {
+  "sources": "1.3.0",
+  "preferences": "1.1.0"
+ },
+ "window": {
+  "from": "2026-11-13T11:30:00Z",
+  "to": "2026-11-13T17:30:00Z"
+ },
+ "sourceNotes": [
+  "X: 3 search calls (practical handles, bigPicture+frontier+design handles, query lane by relevancy). Most handles had no new original posts since 06:30 Bogota; authorBaseline not read.",
+  "X query lane: results were low-signal accounts with 0-14 likes; none used. A claimed Claude Code 2.1.323 security fix from an unverified account and a Nadella quote clip from a 289-impression account were skipped for lack of first-hand proof.",
+  "Hacker News Algolia: HTTP 400 on the query, not read. Dwarkesh RSS: HTTP 301 (no feed body fetched). Simon Willison Atom checked: newest entry llm-gemini 0.37 (Nov 12), nothing new today.",
+  "RSS other than Simon Willison, arXiv and Metaplanet Google News not refetched this run. Nathan Benaich posts today were promo or emoji-only, skipped."
+ ],
+ "candidates": [
+  {
+   "id": "langchain-raises-300m",
+   "lens": "broad",
+   "summary": "LangChain: 'has raised $300M at a $3B valuation to advance our mission to enable every company to own its intelligence.' Post says more than 7,000 companies rely on LangSmith for agent runtime, improvement and governance.",
+   "source": {
+    "name": "@LangChain on X",
+    "url": "https://x.com/LangChain/status/2121273623658819687",
+    "type": "x",
+    "handle": "LangChain"
+   },
+   "publishedAt": "2026-11-13T16:06:57Z",
+   "metrics": {
+    "likes": 74,
+    "reposts": 18,
+    "replies": 13,
+    "views": 4255,
+    "capturedAt": "2026-11-13T12:31:00-05:00"
+   },
+   "care": 4,
+   "proof": 3,
+   "firstSeen": "2026-11-13",
+   "topic": "langchain-300m"
+  },
+  {
+   "id": "pocock-animatic-skills",
+   "lens": "practical",
+   "summary": "Matt Pocock: 'Tired of walls of markdown? Try an /animatic.' Two skills in progress: /setup-animatic (chooses tooling and sets it up locally or on a remote machine) and /animatic (creates a video ready for upload). Preview video attached.",
+   "source": {
+    "name": "@mattpocockuk on X",
+    "url": "https://x.com/mattpocockuk/status/2121211579098083668",
+    "type": "x",
+    "handle": "mattpocockuk"
+   },
+   "publishedAt": "2026-11-13T12:00:25Z",
+   "metrics": {
+    "likes": 1107,
+    "reposts": 35,
+    "replies": 113,
+    "views": 57416,
+    "capturedAt": "2026-11-13T12:31:00-05:00"
+   },
+   "care": 3,
+   "proof": 3,
+   "firstSeen": "2026-11-13",
+   "topic": "pocock-animatic"
+  },
+  {
+   "id": "rauchg-workflow-sdk-5",
+   "lens": "practical",
+   "summary": "Guillermo Rauch: 'Workflow SDK 5 and Vercel Workflows are a monumental step forward for agents.' Claims: time to first step and time between steps massively improved, doubled down on encryption and security, reliability proven at massive scale.",
+   "source": {
+    "name": "@rauchg on X",
+    "url": "https://x.com/rauchg/status/2121277727940776114",
+    "type": "x",
+    "handle": "rauchg"
+   },
+   "publishedAt": "2026-11-13T16:23:16Z",
+   "metrics": {
+    "likes": 130,
+    "reposts": 1,
+    "replies": 52,
+    "views": 8857,
+    "capturedAt": "2026-11-13T12:31:00-05:00"
+   },
+   "care": 4,
+   "proof": 3,
+   "firstSeen": "2026-11-13",
+   "topic": "vercel-workflow-sdk-5"
+  },
+  {
+   "id": "anthropic-dimon-dario-fireside",
+   "lens": "broad",
+   "summary": "Anthropic: 'Streaming live at 12 PM ET: A fireside chat with JPMorgan CEO Jamie Dimon and @DarioAmodei.' The post carries a legal notice that Anthropic has filed a registration statement (including a prospectus) with the SEC for the offering.",
+   "source": {
+    "name": "@AnthropicAI on X",
+    "url": "https://x.com/AnthropicAI/status/2121272083863011714",
+    "type": "x",
+    "handle": "AnthropicAI"
+   },
+   "publishedAt": "2026-11-13T16:00:50Z",
+   "metrics": {
+    "likes": 1349,
+    "reposts": 99,
+    "replies": 156,
+    "views": 149400,
+    "capturedAt": "2026-11-13T12:31:00-05:00"
+   },
+   "care": 4,
+   "proof": 4,
+   "firstSeen": "2026-11-13",
+   "topic": "anthropic-ipo"
+  },
+  {
+   "id": "a16z-wiz-ai-attacks-20-min",
+   "lens": "broad",
+   "summary": "a16z post: Wiz co-founder and CTO Ami Luttwak says AI can now carry out cyberattacks in 20 minutes that once took skilled attackers weeks or months; companies need to continuously attack their own systems with the latest AI models to stay secure.",
+   "source": {
+    "name": "@a16z on X",
+    "url": "https://x.com/a16z/status/2121269950816145544",
+    "type": "x",
+    "handle": "a16z"
+   },
+   "publishedAt": "2026-11-13T15:52:22Z",
+   "metrics": {
+    "likes": 53,
+    "reposts": 7,
+    "replies": 16,
+    "views": 11611,
+    "capturedAt": "2026-11-13T12:31:00-05:00"
+   },
+   "care": 3,
+   "proof": 2,
+   "firstSeen": "2026-11-13",
+   "topic": "ai-cyber-attacks"
+  },
+  {
+   "id": "aravind-perplexity-decision-model-openrouter",
+   "lens": "broad",
+   "summary": "Aravind Srinivas: 'Perplexity handling billion decision model requests a month now on Openrouter and continuing to grew steadily.'",
+   "source": {
+    "name": "@AravSrinivas on X",
+    "url": "https://x.com/AravSrinivas/status/2121294189388616070",
+    "type": "x",
+    "handle": "AravSrinivas"
+   },
+   "publishedAt": "2026-11-13T17:28:41Z",
+   "metrics": {
+    "likes": 5,
+    "reposts": 0,
+    "replies": 1,
+    "views": 1312,
+    "capturedAt": "2026-11-13T12:31:00-05:00"
+   },
+   "care": 3,
+   "proof": 2,
+   "firstSeen": "2026-11-13",
+   "topic": "perplexity-decider"
+  },
+  {
+   "id": "aravind-48-sandboxes-rendering",
+   "lens": "practical",
+   "summary": "Aravind Srinivas quotes: 'Teammate orchestrated rendering across 48 sandboxes in parallel so that the whole process took only 3 hours.' Linked item not readable from the post text.",
+   "source": {
+    "name": "@AravSrinivas on X",
+    "url": "https://x.com/AravSrinivas/status/2121272317217292390",
+    "type": "x",
+    "handle": "AravSrinivas"
+   },
+   "publishedAt": "2026-11-13T16:01:46Z",
+   "metrics": {
+    "likes": 70,
+    "reposts": 6,
+    "replies": 29,
+    "views": 8917,
+    "capturedAt": "2026-11-13T12:31:00-05:00"
+   },
+   "care": 2,
+   "proof": 2,
+   "firstSeen": "2026-11-13",
+   "topic": "parallel-sandboxes"
+  },
+  {
+   "id": "mengto-demo-skills",
+   "lens": "design",
+   "summary": "Meng To lists skills he uses to make demos: dream-loop (3D visuals with Blender, image gen and a critic agent), Hairline (isometric line drawings that answer the pointer), and Emil Kowalski's skill.",
+   "source": {
+    "name": "@MengTo on X",
+    "url": "https://x.com/MengTo/status/2121264403530293624",
+    "type": "x",
+    "handle": "MengTo"
+   },
+   "publishedAt": "2026-11-13T15:30:19Z",
+   "metrics": {
+    "likes": 266,
+    "reposts": 16,
+    "replies": 18,
+    "views": 8713,
+    "capturedAt": "2026-11-13T12:31:00-05:00"
+   },
+   "care": 2,
+   "proof": 2,
+   "firstSeen": "2026-11-13",
+   "topic": "mengto-demo-skills"
+  }
+ ]
+}
