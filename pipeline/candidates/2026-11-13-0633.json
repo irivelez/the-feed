@@ -1,0 +1,426 @@
+{
+ "schemaVersion": "1.1",
+ "runId": "2026-11-13-0633",
+ "generatedAt": "2026-11-13T06:35:00-05:00",
+ "configVersions": {
+  "sources": "1.3.0",
+  "preferences": "1.1.0"
+ },
+ "window": {
+  "from": "2026-11-12T23:30:00Z",
+  "to": "2026-11-13T11:35:00Z"
+ },
+ "sourceNotes": [
+  "X: 3 search calls (practical, bigPicture, frontier/design handle groups); not every handle returned posts in the window (e.g. ClaudeDevs, alexalbert__, bcherny, claudeai, cursor_ai, AnthropicAI, OpenAI, sama had none). authorBaseline not read (rate budget).",
+  "Dwarkesh RSS: connection failed (HTTP 000).",
+  "Hacker News Algolia: non-JSON response, not read.",
+  "arXiv, Benedict Evans, Metaplanet Google News, Mitchell Hashimoto (latest Nov 6), One Useful Thing (latest Nov 9), Gary Marcus (contrarian) checked or stale; no new items beyond those listed.",
+  "Nathan Benaich posts were emoji-only, skipped as noise."
+ ],
+ "candidates": [
+  {
+   "id": "pocock-animatic-pr-video",
+   "lens": "practical",
+   "summary": "Matt Pocock: 'My dream is for every important PR to be accompanied by a video that shows folks how it works. Working on an /animatic skill for this.'",
+   "source": {
+    "name": "@mattpocockuk on X",
+    "url": "https://x.com/mattpocockuk/status/2121156583979962734",
+    "type": "x",
+    "handle": "mattpocockuk"
+   },
+   "publishedAt": "2026-11-13T08:21:53Z",
+   "metrics": {
+    "likes": 865,
+    "reposts": 19,
+    "replies": 115,
+    "views": 37055,
+    "capturedAt": "2026-11-13T06:33:00-05:00"
+   },
+   "care": 3,
+   "proof": 3,
+   "firstSeen": "2026-11-13",
+   "topic": "pocock-animatic"
+  },
+  {
+   "id": "steipete-openai-persistent-agents",
+   "lens": "practical",
+   "summary": "Peter Steinberger: 'My team wrote about how we run persistent agents inside OpenAI.' Post links to the write-up.",
+   "source": {
+    "name": "@steipete on X",
+    "url": "https://x.com/steipete/status/2121058770767982997",
+    "type": "x",
+    "handle": "steipete"
+   },
+   "publishedAt": "2026-11-13T01:53:12Z",
+   "metrics": {
+    "likes": 883,
+    "reposts": 45,
+    "replies": 97,
+    "views": 83388,
+    "capturedAt": "2026-11-13T06:33:00-05:00"
+   },
+   "care": 4,
+   "proof": 3,
+   "firstSeen": "2026-11-13",
+   "topic": "openai-persistent-agents"
+  },
+  {
+   "id": "simonw-gemini-4-pricing",
+   "lens": "practical",
+   "summary": "Simon Willison on Gemini 4 pricing: Argon and Carbon have the same token price as each other, the new Hydrogen is only a 25% discount on that price, and Carbon/Argon will double in price on Dec 1st. He says Hydrogen's pelicans are notably worse.",
+   "source": {
+    "name": "@simonw on X",
+    "url": "https://x.com/simonw/status/2121039423441981444",
+    "type": "x",
+    "handle": "simonw"
+   },
+   "publishedAt": "2026-11-13T00:36:20Z",
+   "metrics": {
+    "likes": 260,
+    "reposts": 6,
+    "replies": 172,
+    "views": 27760,
+    "capturedAt": "2026-11-13T06:33:00-05:00"
+   },
+   "care": 4,
+   "proof": 4,
+   "firstSeen": "2026-11-13",
+   "topic": "gemini-4-pricing"
+  },
+  {
+   "id": "theo-gemini-4-carbon-speed",
+   "lens": "practical",
+   "summary": "Theo: 'Built for speed' is 'still garbage speeds compared to anything else on the market'; he ran Sol and Opus at regular tier, not fast/ultrafast.",
+   "source": {
+    "name": "@theo on X",
+    "url": "https://x.com/theo/status/2121030235248570537",
+    "type": "x",
+    "handle": "theo"
+   },
+   "publishedAt": "2026-11-12T23:59:49Z",
+   "metrics": {
+    "likes": 982,
+    "reposts": 21,
+    "replies": 116,
+    "views": 58140,
+    "capturedAt": "2026-11-13T06:33:00-05:00"
+   },
+   "care": 3,
+   "proof": 3,
+   "firstSeen": "2026-11-13",
+   "topic": "gemini-4-carbon-speed"
+  },
+  {
+   "id": "theo-t3-code-memory-guard",
+   "lens": "practical",
+   "summary": "Theo: T3 Code notices when threads cause too much memory pressure and kills them to prevent the system from running out of memory; he says it saved his machines while he was away from home.",
+   "source": {
+    "name": "@theo on X",
+    "url": "https://x.com/theo/status/2121028691455328595",
+    "type": "x",
+    "handle": "theo"
+   },
+   "publishedAt": "2026-11-12T23:53:41Z",
+   "metrics": {
+    "likes": 853,
+    "reposts": 6,
+    "replies": 94,
+    "views": 33815,
+    "capturedAt": "2026-11-13T06:33:00-05:00"
+   },
+   "care": 2,
+   "proof": 2,
+   "firstSeen": "2026-11-13",
+   "topic": "t3-code-memory"
+  },
+  {
+   "id": "steipete-agent-launch-paid-reviews",
+   "lens": "practical",
+   "summary": "Peter Steinberger: 'There's some new agent launching later this week and marketers offer a lot of money to say nice things about it on X. Keep a lookout on honest reviews.'",
+   "source": {
+    "name": "@steipete on X",
+    "url": "https://x.com/steipete/status/2121009372470067544",
+    "type": "x",
+    "handle": "steipete"
+   },
+   "publishedAt": "2026-11-12T22:36:55Z",
+   "metrics": {
+    "likes": 1572,
+    "reposts": 28,
+    "replies": 153,
+    "views": 161661,
+    "capturedAt": "2026-11-13T06:33:00-05:00"
+   },
+   "care": 3,
+   "proof": 2,
+   "firstSeen": "2026-11-13",
+   "topic": "agent-launch-paid-reviews"
+  },
+  {
+   "id": "aravind-decider-v13-open-source",
+   "lens": "practical",
+   "summary": "Aravind Srinivas: Perplexity is open-sourcing Decision Models Decider v1.3 and Decider Flash v1.3, free on OpenRouter for a week. New capability 'locate': describe what to find and the model returns the matching text.",
+   "source": {
+    "name": "@AravSrinivas on X",
+    "url": "https://x.com/AravSrinivas/status/2121020114321703210",
+    "type": "x",
+    "handle": "AravSrinivas"
+   },
+   "publishedAt": "2026-11-12T23:19:36Z",
+   "metrics": {
+    "likes": 448,
+    "reposts": 37,
+    "replies": 72,
+    "views": 56129,
+    "capturedAt": "2026-11-13T06:33:00-05:00"
+   },
+   "care": 3,
+   "proof": 3,
+   "firstSeen": "2026-11-13",
+   "topic": "decision-models"
+  },
+  {
+   "id": "aravind-decision-models-security",
+   "lens": "broad",
+   "summary": "Aravind Srinivas: 'Decision Models are the future of agentic security. They can process billions of tokens of telemetry, identify security issues, and help you patch fixes at a scale and cost structure not possible before.' Models open sourced, free on OpenRouter for a week.",
+   "source": {
+    "name": "@AravSrinivas on X",
+    "url": "https://x.com/AravSrinivas/status/2121092767665598477",
+    "type": "x",
+    "handle": "AravSrinivas"
+   },
+   "publishedAt": "2026-11-13T04:08:18Z",
+   "metrics": {
+    "likes": 292,
+    "reposts": 21,
+    "replies": 51,
+    "views": 19259,
+    "capturedAt": "2026-11-13T06:33:00-05:00"
+   },
+   "care": 3,
+   "proof": 3,
+   "firstSeen": "2026-11-13",
+   "topic": "decision-models"
+  },
+  {
+   "id": "naval-jensen-irreplaceable",
+   "lens": "broad",
+   "summary": "Naval, on the Nvidia CEO turmoil: 'Jensen Huang is the Steve Jobs of Nvidia. He is irreplaceable.' Earlier post: 'You'd think we'd have learned from Steve Jobs and Travis Kalanick that one does not just simply replace the founder...' (55,987 likes).",
+   "source": {
+    "name": "@naval on X",
+    "url": "https://x.com/naval/status/2121143697161236839",
+    "type": "x",
+    "handle": "naval"
+   },
+   "publishedAt": "2026-11-13T07:30:41Z",
+   "metrics": {
+    "likes": 22391,
+    "reposts": 1910,
+    "replies": 732,
+    "views": 426029,
+    "capturedAt": "2026-11-13T06:33:00-05:00"
+   },
+   "care": 3,
+   "proof": 2,
+   "firstSeen": "2026-11-13",
+   "topic": "nvidia-huang-transition"
+  },
+  {
+   "id": "verge-jensen-huang-scandal",
+   "lens": "broad",
+   "summary": "The Verge: 'The Jensen Huang scandal is hardly over' (chips smuggling, resignation affair).",
+   "source": {
+    "name": "The Verge AI",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-12T19:16:51Z",
+   "care": 4,
+   "proof": 3,
+   "firstSeen": "2026-11-13",
+   "topic": "nvidia-huang-transition"
+  },
+  {
+   "id": "mittr-nvidia-chip-tracking",
+   "lens": "broad",
+   "summary": "MIT Technology Review: 'Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned' the idea.",
+   "source": {
+    "name": "MIT Tech Review AI",
+    "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-12T20:16:24Z",
+   "care": 4,
+   "proof": 3,
+   "firstSeen": "2026-11-13",
+   "topic": "nvidia-huang-transition"
+  },
+  {
+   "id": "stratechery-nvidia-after-jensen",
+   "lens": "broad",
+   "summary": "Stratechery Sharp Tech: 'Nvidia After Jensen Huang, Ominous News for American AI, D.C. Gets Its Revenge'.",
+   "source": {
+    "name": "Ben Thompson (Stratechery)",
+    "url": "https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-13T03:47:52Z",
+   "care": 3,
+   "proof": 2,
+   "firstSeen": "2026-11-13",
+   "topic": "nvidia-huang-transition"
+  },
+  {
+   "id": "verge-gemini-4-hydrogen-search",
+   "lens": "broad",
+   "summary": "The Verge: Google's new Gemini model (Gemini 4 Hydrogen) is better at understanding complicated questions; ties to AI Mode in Search.",
+   "source": {
+    "name": "The Verge AI",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-12T21:55:32Z",
+   "care": 3,
+   "proof": 3,
+   "firstSeen": "2026-11-13",
+   "topic": "gemini-4-pricing"
+  },
+  {
+   "id": "simonw-llm-gemini-037",
+   "lens": "practical",
+   "summary": "Simon Willison released llm-gemini 0.37 on Nov 12 (Gemini plugin for his LLM CLI).",
+   "source": {
+    "name": "Simon Willison",
+    "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-12T22:55:19Z",
+   "care": 2,
+   "proof": 3,
+   "firstSeen": "2026-11-13",
+   "topic": "gemini-4-pricing"
+  },
+  {
+   "id": "lenny-claude-code-obsidian",
+   "lens": "practical",
+   "summary": "Lenny's Newsletter: 'Claude Code + Obsidian: My family's AI brain' with Scott Farrar (Nov 11).",
+   "source": {
+    "name": "Lenny Rachitsky",
+    "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-11T13:04:09Z",
+   "care": 3,
+   "proof": 2,
+   "firstSeen": "2026-11-13",
+   "topic": "claude-code-obsidian"
+  },
+  {
+   "id": "garymarcus-jensen-resigns",
+   "lens": "broad",
+   "summary": "Gary Marcus (contrarian feed): 'Jensen Huang resigns.' (Nov 12).",
+   "source": {
+    "name": "Gary Marcus",
+    "url": "https://garymarcus.substack.com/p/jensen-huang-resigns",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-12T14:44:04Z",
+   "care": 2,
+   "proof": 2,
+   "firstSeen": "2026-11-13",
+   "topic": "nvidia-huang-transition"
+  },
+  {
+   "id": "metaplanet-q3-2026-results",
+   "lens": "frontier-capital",
+   "summary": "Metaplanet posted its Q3 2026 earnings presentation, nine-month consolidated results to Sept 30, 2026, and a notice on treasury share acquisition status (posts link to the filings).",
+   "source": {
+    "name": "@Metaplanet on X",
+    "url": "https://x.com/Metaplanet/status/2121130733058302433",
+    "type": "x",
+    "handle": "Metaplanet"
+   },
+   "publishedAt": "2026-11-13T06:39:10Z",
+   "metrics": {
+    "likes": 82,
+    "reposts": 12,
+    "replies": 3,
+    "views": 15733,
+    "capturedAt": "2026-11-13T06:33:00-05:00"
+   },
+   "care": 3,
+   "proof": 3,
+   "firstSeen": "2026-11-13",
+   "topic": "metaplanet-q3"
+  },
+  {
+   "id": "raydalio-measure-progress",
+   "lens": "frontier-capital",
+   "summary": "Ray Dalio: 'Ideally, someone other than you should be objectively measuring and reporting on your progress. If you're not hitting your targets, that's another problem that needs to be diagnosed and solved.'",
+   "source": {
+    "name": "@RayDalio on X",
+    "url": "https://x.com/RayDalio/status/2120940389074911420",
+    "type": "x",
+    "handle": "RayDalio"
+   },
+   "publishedAt": "2026-11-12T18:02:48Z",
+   "metrics": {
+    "likes": 434,
+    "reposts": 49,
+    "replies": 26,
+    "views": 59584,
+    "capturedAt": "2026-11-13T06:33:00-05:00"
+   },
+   "care": 2,
+   "proof": 2,
+   "firstSeen": "2026-11-13",
+   "topic": "dalio-principles"
+  },
+  {
+   "id": "mengto-fable-52-three-js",
+   "lens": "design",
+   "summary": "Meng To: Fable 5.2 made a Japanese-inspired FPS game in three.js on top of his sakura valley scene; under 10 MB HTML with no image or model files.",
+   "source": {
+    "name": "@MengTo on X",
+    "url": "https://x.com/MengTo/status/2121139143615074501",
+    "type": "x",
+    "handle": "MengTo"
+   },
+   "publishedAt": "2026-11-13T07:12:35Z",
+   "metrics": {
+    "likes": 83,
+    "reposts": 9,
+    "replies": 11,
+    "views": 6836,
+    "capturedAt": "2026-11-13T06:33:00-05:00"
+   },
+   "care": 3,
+   "proof": 3,
+   "firstSeen": "2026-11-13",
+   "topic": "fable-52-design"
+  },
+  {
+   "id": "mengto-heygen-scroll-world",
+   "lens": "design",
+   "summary": "Meng To: scroll-world landing page made with HeyGen Video 1; the hero is one 30-second 2K take (floor plan, model, house, inside, sky) that plays in reverse on scroll. Workflow, prompts and a free template included.",
+   "source": {
+    "name": "@MengTo on X",
+    "url": "https://x.com/MengTo/status/2120896116711727557",
+    "type": "x",
+    "handle": "MengTo"
+   },
+   "publishedAt": "2026-11-12T15:06:53Z",
+   "metrics": {
+    "likes": 143,
+    "reposts": 14,
+    "replies": 55,
+    "views": 12603,
+    "capturedAt": "2026-11-13T06:33:00-05:00"
+   },
+   "care": 3,
+   "proof": 3,
+   "firstSeen": "2026-11-13",
+   "topic": "heygen-scroll-world"
+  }
+ ]
+}
