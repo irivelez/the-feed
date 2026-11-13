@@ -1,0 +1,610 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-13-0700",
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-13T07:20:00-05:00",
+  "edition": "Morning",
+  "top3": [
+    {
+      "itemId": "gemini-4-carbon-argon-price-doubling",
+      "headline": "Gemini 4 Carbon and Argon prices double on Dec 1",
+      "whyItMatters": "Re-cost Gemini-based agent work now; the cheaper Hydrogen is only 25% off."
+    },
+    {
+      "itemId": "openai-persistent-agents-writeup",
+      "headline": "OpenAI's persistent agents, explained by the team running them",
+      "whyItMatters": "A frontier lab's own setup is a practical benchmark for how you run agents."
+    },
+    {
+      "itemId": "nvidia-chip-tracking-confirmed",
+      "headline": "Nvidia quietly confirmed it can track chips to stop smuggling",
+      "whyItMatters": "Chip tracking is feasible, so export rules could require it; watch your hardware supply."
+    }
+  ],
+  "items": [
+    {
+      "id": "mengto-fable-52-threejs-game",
+      "title": "Meng To: Fable 5.2 builds a three.js game under 10 MB",
+      "takeaway": "A Japanese-inspired FPS on his sakura valley scene, in HTML with no image or model files.",
+      "soWhat": "Playable prototypes now fit in one file; design reviews can start from working demos.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-13T07:12:35Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2121139143615074501"
+      },
+      "image": {
+        "src": "/img/mengto-fable-52-threejs-game.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 1,
+        "level": "none",
+        "metric": "7k views"
+      }
+    },
+    {
+      "id": "openai-persistent-agents-writeup",
+      "title": "Peter Steinberger's team writes up OpenAI's persistent agents",
+      "takeaway": "He says his team wrote about how they run persistent agents inside OpenAI; his post links the write-up.",
+      "soWhat": "A frontier lab's own operating notes are a rare benchmark for your agent setup.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-13T01:53:12Z",
+      "source": {
+        "name": "@steipete on X",
+        "url": "https://x.com/steipete/status/2121058770767982997"
+      },
+      "image": {
+        "src": "/img/openai-persistent-agents-writeup.jpg",
+        "alt": "Profile image of @steipete"
+      },
+      "heat": {
+        "score": 16,
+        "level": "none",
+        "metric": "83k views"
+      }
+    },
+    {
+      "id": "gemini-4-carbon-argon-price-doubling",
+      "title": "Simon Willison: Gemini 4 Carbon and Argon prices double Dec 1",
+      "takeaway": "Argon and Carbon share one token price; the new Hydrogen is only a 25% discount on it.",
+      "soWhat": "Teams running agents on Gemini 4 should re-cost those workloads before December.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 8,
+      "publishedAt": "2026-11-13T00:36:20Z",
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2121039423441981444"
+      },
+      "related": [
+        {
+          "name": "Simon Willison: llm-gemini 0.37",
+          "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/"
+        },
+        {
+          "name": "@theo on X",
+          "url": "https://x.com/theo/status/2121030235248570537"
+        }
+      ],
+      "image": {
+        "src": "/img/gemini-4-carbon-argon-price-doubling.jpg",
+        "alt": "Image from @simonw on X"
+      },
+      "heat": {
+        "score": 30,
+        "level": "none",
+        "metric": "28k views",
+        "voices": 3
+      }
+    },
+    {
+      "id": "decider-v13-open-source",
+      "title": "Perplexity open-sources Decider v1.3 decision models",
+      "takeaway": "Decider v1.3 and Decider Flash v1.3 add a 'locate' capability and are free on OpenRouter for a week.",
+      "soWhat": "Small open decision models are a cheap option for routing and classification inside agents.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-12T23:19:36Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2121020114321703210"
+      },
+      "image": {
+        "src": "/img/decider-v13-open-source.jpg",
+        "alt": "Profile image of @AravSrinivas"
+      },
+      "heat": {
+        "score": 12,
+        "level": "none",
+        "metric": "56k views"
+      }
+    },
+    {
+      "id": "replit-agent-buys-ads",
+      "title": "Replit Agent can now buy ads for your business",
+      "takeaway": "Replit's CEO says users can ask the agent to make purchases, including ads to acquire customers.",
+      "soWhat": "Agents now spend company money; set budgets, approvals and audit trails before turning this on.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-12T23:11:17Z",
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2121018020520931712"
+      },
+      "image": {
+        "src": "/img/replit-agent-buys-ads.jpg",
+        "alt": "Image from @amasad on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "7k views"
+      }
+    },
+    {
+      "id": "agent-launch-paid-praise-warning",
+      "title": "Steinberger warns of paid praise for a coming agent launch",
+      "takeaway": "He says marketers are offering a lot of money for nice X posts about an agent launching this week.",
+      "soWhat": "Discount launch-week hype on X and wait for independent tests before you buy.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-12T22:36:55Z",
+      "source": {
+        "name": "@steipete on X",
+        "url": "https://x.com/steipete/status/2121009372470067544"
+      },
+      "image": {
+        "src": "/img/agent-launch-paid-praise-warning.jpg",
+        "alt": "Profile image of @steipete"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "162k views"
+      }
+    },
+    {
+      "id": "gemini-4-hydrogen-ai-mode",
+      "title": "The Verge: Gemini 4 Hydrogen handles harder questions in AI Mode",
+      "takeaway": "Google's new model is better at understanding complicated questions in Search's AI Mode, The Verge reports.",
+      "soWhat": "AI answers in Search keep improving; check how AI Mode describes your company.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-12T21:55:32Z",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen"
+      },
+      "image": {
+        "src": "/img/gemini-4-hydrogen-ai-mode.jpg",
+        "alt": "Image from The Verge AI"
+      }
+    },
+    {
+      "id": "nvidia-chip-tracking-confirmed",
+      "title": "Nvidia privately confirmed it could track chips against smuggling",
+      "takeaway": "MIT Technology Review reports the private confirmation came while the industry publicly questioned the idea.",
+      "soWhat": "Tracking is feasible, so export rules could require it; watch your AI hardware supply.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-12T20:16:24Z",
+      "source": {
+        "name": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/"
+      },
+      "related": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling"
+        },
+        {
+          "name": "Ben Thompson (Stratechery)",
+          "url": "https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/"
+        }
+      ],
+      "image": {
+        "src": "/img/nvidia-chip-tracking-confirmed.jpg",
+        "alt": "Image from MIT Tech Review AI"
+      }
+    },
+    {
+      "id": "claude-meetings-launch",
+      "title": "Anthropic puts Claude inside your team's video calls",
+      "takeaway": "Claude Meetings joins video calls and builds docs and whiteboards live; beta on Team and Enterprise plans.",
+      "soWhat": "Meetings become a source of agent context; set rules for what Claude may hear and keep.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-11-12T20:16:20Z",
+      "source": {
+        "name": "@claudeai on X",
+        "url": "https://x.com/claudeai/status/2120973994191094179"
+      },
+      "image": {
+        "src": "/img/claude-meetings-launch.jpg",
+        "alt": "Image from @claudeai on X"
+      },
+      "heat": {
+        "score": 52,
+        "level": "warm",
+        "metric": "1.8M views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "gemini-4-hydrogen-cursorbench",
+      "title": "Cursor: Gemini 4 Hydrogen scores 54.3% on CursorBench",
+      "takeaway": "Up from 39.6% for Gemini 3.8 Flash at default effort; now available in Cursor.",
+      "soWhat": "A vendor benchmark shows a large jump; check it against your own coding tasks before switching.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-12T18:19:41Z",
+      "source": {
+        "name": "@cursor_ai on X",
+        "url": "https://x.com/cursor_ai/status/2120944639633211619"
+      },
+      "image": {
+        "src": "/img/gemini-4-hydrogen-cursorbench.jpg",
+        "alt": "Image from @cursor_ai on X"
+      },
+      "heat": {
+        "score": 30,
+        "level": "none",
+        "metric": "102k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "dalio-outside-progress-measurement",
+      "title": "Ray Dalio: let someone else measure your progress",
+      "takeaway": "Ideally someone other than you measures and reports your progress; missed targets are a separate problem to diagnose.",
+      "soWhat": "Independent measurement keeps leaders honest; assign it outside the team that owns the target.",
+      "lens": "frontier-capital",
+      "momentum": "shift",
+      "importance": 4,
+      "publishedAt": "2026-11-12T18:02:48Z",
+      "source": {
+        "name": "@RayDalio on X",
+        "url": "https://x.com/RayDalio/status/2120940389074911420"
+      },
+      "image": {
+        "src": "/img/dalio-outside-progress-measurement.jpg",
+        "alt": "Image from @RayDalio on X"
+      },
+      "heat": {
+        "score": 12,
+        "level": "none",
+        "metric": "60k views"
+      }
+    },
+    {
+      "id": "gemini-4-hydrogen-launch",
+      "title": "Google ships Gemini 4 Hydrogen, built for speed",
+      "takeaway": "Google says it finishes tasks 2.5x faster than 3.8 Flash and beats Argon on an intelligence index.",
+      "soWhat": "Fast, cheaper models keep improving; retest your default model for everyday agent work.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-12T18:02:36Z",
+      "source": {
+        "name": "@GoogleDeepMind on X",
+        "url": "https://x.com/GoogleDeepMind/status/2120940338869055788"
+      },
+      "image": {
+        "src": "/img/gemini-4-hydrogen-launch.jpg",
+        "alt": "Image from @GoogleDeepMind on X"
+      },
+      "heat": {
+        "score": 39,
+        "level": "none",
+        "metric": "686k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "claude-managed-agents-self-hosted",
+      "title": "Claude Managed Agents can now run in your own cloud",
+      "takeaway": "Private beta: host the agent harness, sandboxes and session history on your cloud or on-premises.",
+      "soWhat": "Regulated teams can run Anthropic's agents while keeping data and logs inside their walls.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-11-12T17:57:14Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2120938988165091693"
+      },
+      "image": {
+        "src": "/img/claude-managed-agents-self-hosted.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      },
+      "heat": {
+        "score": 31,
+        "level": "none",
+        "metric": "444k views"
+      }
+    },
+    {
+      "id": "alexandr-wang-muse-phone-calls",
+      "title": "Muse can now make phone calls on your behalf",
+      "takeaway": "Alexandr Wang says Muse now calls insurers, cable firms, the DMV and restaurants for paid US users.",
+      "soWhat": "Agents now reach businesses by voice; expect them on your customer service lines soon.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 7,
+      "publishedAt": "2026-11-12T17:23:51Z",
+      "source": {
+        "name": "@alexandr_wang on X",
+        "url": "https://x.com/alexandr_wang/status/2120930586827391350"
+      },
+      "image": {
+        "src": "/img/alexandr-wang-muse-phone-calls.jpg",
+        "alt": "Image from @alexandr_wang on X"
+      }
+    },
+    {
+      "id": "mengto-heygen-scroll-landing",
+      "title": "Meng To builds a scroll-driven landing page from one video take",
+      "takeaway": "One 30-second HeyGen Video 1 take plays in reverse on scroll; he shares workflow, prompts and a template.",
+      "soWhat": "Rich landing pages no longer need a 3D team; one prompted video can carry the story.",
+      "lens": "design",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-12T15:06:53Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2120896116711727557"
+      },
+      "image": {
+        "src": "/img/mengto-heygen-scroll-landing.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 6,
+        "level": "none",
+        "metric": "13k views"
+      }
+    },
+    {
+      "id": "nvidia-ceo-transition-announcement",
+      "title": "Jensen Huang resigns as Nvidia CEO, effective immediately",
+      "takeaway": "Nvidia's newsroom announced a CEO transition; Reuters live coverage reports Huang resigned immediately.",
+      "soWhat": "Your biggest AI supplier changes leaders mid-boom; watch for shifts in pricing, roadmap and allocation.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 10,
+      "publishedAt": "2026-11-12T13:49:13Z",
+      "source": {
+        "name": "@nvidianewsroom on X",
+        "url": "https://x.com/nvidianewsroom/status/2120876571829662014"
+      },
+      "related": [
+        {
+          "name": "Reuters live",
+          "url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50467132"
+        }
+      ],
+      "image": {
+        "src": "/img/nvidia-ceo-transition-announcement.jpg",
+        "alt": "Profile image of @nvidianewsroom"
+      }
+    },
+    {
+      "id": "anthropic-ipo-filing-post",
+      "title": "Anthropic files its IPO registration with the SEC",
+      "takeaway": "Anthropic says it has filed a registration statement, including a prospectus, for its initial public offering.",
+      "soWhat": "A public Anthropic will disclose costs and risks; read the prospectus before your next model contract.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-12T11:30:46Z",
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2120841731302154708"
+      },
+      "related": [
+        {
+          "name": "Anthropic IPO site",
+          "url": "https://ipo.anthropic.com/us/"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50465829"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-ipo-filing-post.jpg",
+        "alt": "Image from @AnthropicAI on X"
+      }
+    },
+    {
+      "id": "naval-datacenters-competitive",
+      "title": "Naval: someone, somewhere, will build the datacenters",
+      "takeaway": "He calls datacenters a globally competitive market and says someone, somewhere, will build them.",
+      "soWhat": "Compute supply is global; local limits shift where capacity lands, not whether it exists.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-12T08:38:17Z",
+      "source": {
+        "name": "@naval on X",
+        "url": "https://x.com/naval/status/2120798325066911758"
+      },
+      "image": {
+        "src": "/img/naval-datacenters-competitive.jpg",
+        "alt": "Image from @naval on X"
+      }
+    },
+    {
+      "id": "verge-united-blocks-agents",
+      "title": "United won't let unauthorized AI agents book flights",
+      "takeaway": "The Verge reports United is refusing bookings made by unauthorized AI agents.",
+      "soWhat": "Agent access is now a business decision; check which partners will block your customer-facing agents.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-11T21:54:21Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
+      },
+      "related": [
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50458900"
+        }
+      ],
+      "image": {
+        "src": "/img/verge-united-blocks-agents.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "a16z-agent-web-traffic-8x",
+      "title": "AI agent web traffic grew 8x from August to October",
+      "takeaway": "a16z cites HUMAN Security; The Verge reports United won't let AI agents book flights.",
+      "soWhat": "Decide now whether agents are customers you serve or traffic you block.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-11T20:23:42Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2120613457481671106"
+      },
+      "related": [
+        {
+          "name": "a16z: Welcome to the B2A Economy",
+          "url": "https://www.a16z.news/p/welcome-to-the-b2a-economy"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
+        }
+      ],
+      "image": {
+        "src": "/img/a16z-agent-web-traffic-8x.jpg",
+        "alt": "Image from @a16z on X"
+      }
+    },
+    {
+      "id": "lynalden-bullish-2027-gpu-demand",
+      "title": "Lyn Alden: wary of Huang's tenure, bullish on 2027 GPU demand",
+      "takeaway": "She calls herself neutral to bearish on Huang as CEO and bullish on GPU demand in 2027.",
+      "soWhat": "A respected macro voice separates Nvidia's leadership risk from the demand for AI compute.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-10T01:12:07Z",
+      "source": {
+        "name": "@LynAldenContact on X",
+        "url": "https://x.com/LynAldenContact/status/2119961265099411681"
+      },
+      "image": {
+        "src": "/img/lynalden-bullish-2027-gpu-demand.jpg",
+        "alt": "Image from @LynAldenContact on X"
+      }
+    },
+    {
+      "id": "benaich-open-cyber-models-defenders",
+      "title": "Nathan Benaich: defenders need open cyber models too",
+      "takeaway": "He says Hugging Face found API guardrails slowed an intrusion probe and used a self-hosted open model.",
+      "soWhat": "Closed-model guardrails can block your own security team; keep an open-model option for incidents.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-09T16:00:01Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2119822323650076803"
+      },
+      "image": {
+        "src": "/img/benaich-open-cyber-models-defenders.jpg",
+        "alt": "Image from @nathanbenaich on X"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@naval",
+      "quote": "Jensen Huang is the Steve Jobs of Nvidia. He is irreplaceable.",
+      "url": "https://x.com/naval/status/2121143697161236839"
+    },
+    {
+      "handle": "@AravSrinivas",
+      "quote": "Decision Models are the future of agentic security. They can process billions of tokens of telemetry, identify security issues, and help you patch fixes…",
+      "url": "https://x.com/AravSrinivas/status/2121092767665598477"
+    },
+    {
+      "handle": "@mattpocockuk",
+      "quote": "My dream is for every important PR to be accompanied by a video that shows folks how it works.",
+      "url": "https://x.com/mattpocockuk/status/2121156583979962734"
+    },
+    {
+      "handle": "@theo",
+      "quote": "still garbage speeds compared to anything else on the market",
+      "url": "https://x.com/theo/status/2121030235248570537"
+    },
+    {
+      "handle": "@RayDalio",
+      "quote": "Ideally, someone other than you should be objectively measuring and reporting on your progress.",
+      "url": "https://x.com/RayDalio/status/2120940389074911420"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/naval/status/2121143697161236839",
+      "handle": "@naval",
+      "text": "Jensen Huang is the Steve Jobs of Nvidia. He is irreplaceable.",
+      "metric": "22.4k likes",
+      "note": "The founder-replacement debate at Nvidia is the loudest story this morning."
+    },
+    {
+      "url": "https://x.com/steipete/status/2121009372470067544",
+      "handle": "@steipete",
+      "text": "There's some new agent launching later this week and marketers offer a lot of money to say nice things about it on X.",
+      "metric": "1.6k likes",
+      "note": "Builders distrust paid launch hype and want honest reviews."
+    },
+    {
+      "url": "https://x.com/theo/status/2121030235248570537",
+      "handle": "@theo",
+      "text": "'Built for speed' is 'still garbage speeds compared to anything else on the market'",
+      "metric": "982 likes",
+      "note": "Developers doubt Google's speed claims for Gemini 4."
+    },
+    {
+      "url": "https://x.com/steipete/status/2121058770767982997",
+      "handle": "@steipete",
+      "text": "My team wrote about how we run persistent agents inside OpenAI.",
+      "metric": "883 likes",
+      "note": "A rare look at how a frontier lab runs agents on its own work."
+    },
+    {
+      "url": "https://x.com/mattpocockuk/status/2121156583979962734",
+      "handle": "@mattpocockuk",
+      "text": "My dream is for every important PR to be accompanied by a video that shows folks how it works.",
+      "metric": "865 likes",
+      "note": "Reviewing agent-written code is a bottleneck; video walkthroughs could ease it."
+    }
+  ]
+}

@@ -1,27 +1,107 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-12-1900",
-  "date": "2026-11-12",
-  "publishedAt": "2026-11-12T19:30:00-05:00",
-  "edition": "Evening",
+  "id": "2026-11-13-0700",
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-13T07:20:00-05:00",
+  "edition": "Morning",
   "top3": [
     {
-      "itemId": "claude-meetings-launch",
-      "headline": "Claude joins your team's video calls",
-      "whyItMatters": "Your meetings become agent context; decide now what Claude may record and reuse."
+      "itemId": "gemini-4-carbon-argon-price-doubling",
+      "headline": "Gemini 4 Carbon and Argon prices double on Dec 1",
+      "whyItMatters": "Re-cost Gemini-based agent work now; the cheaper Hydrogen is only 25% off."
     },
     {
-      "itemId": "claude-managed-agents-self-hosted",
-      "headline": "Anthropic lets you host its agents in your own cloud",
-      "whyItMatters": "Data-sensitive teams lose one big reason to wait on agents."
+      "itemId": "openai-persistent-agents-writeup",
+      "headline": "OpenAI's persistent agents, explained by the team running them",
+      "whyItMatters": "A frontier lab's own setup is a practical benchmark for how you run agents."
     },
     {
-      "itemId": "gemini-4-hydrogen-launch",
-      "headline": "Google's Gemini 4 Hydrogen bets on speed",
-      "whyItMatters": "Faster models change the cost of everyday agent work; retest your defaults."
+      "itemId": "nvidia-chip-tracking-confirmed",
+      "headline": "Nvidia quietly confirmed it can track chips to stop smuggling",
+      "whyItMatters": "Chip tracking is feasible, so export rules could require it; watch your hardware supply."
     }
   ],
   "items": [
+    {
+      "id": "mengto-fable-52-threejs-game",
+      "title": "Meng To: Fable 5.2 builds a three.js game under 10 MB",
+      "takeaway": "A Japanese-inspired FPS on his sakura valley scene, in HTML with no image or model files.",
+      "soWhat": "Playable prototypes now fit in one file; design reviews can start from working demos.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-13T07:12:35Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2121139143615074501"
+      },
+      "image": {
+        "src": "/img/mengto-fable-52-threejs-game.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 1,
+        "level": "none",
+        "metric": "7k views"
+      }
+    },
+    {
+      "id": "openai-persistent-agents-writeup",
+      "title": "Peter Steinberger's team writes up OpenAI's persistent agents",
+      "takeaway": "He says his team wrote about how they run persistent agents inside OpenAI; his post links the write-up.",
+      "soWhat": "A frontier lab's own operating notes are a rare benchmark for your agent setup.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-13T01:53:12Z",
+      "source": {
+        "name": "@steipete on X",
+        "url": "https://x.com/steipete/status/2121058770767982997"
+      },
+      "image": {
+        "src": "/img/openai-persistent-agents-writeup.jpg",
+        "alt": "Profile image of @steipete"
+      },
+      "heat": {
+        "score": 16,
+        "level": "none",
+        "metric": "83k views"
+      }
+    },
+    {
+      "id": "gemini-4-carbon-argon-price-doubling",
+      "title": "Simon Willison: Gemini 4 Carbon and Argon prices double Dec 1",
+      "takeaway": "Argon and Carbon share one token price; the new Hydrogen is only a 25% discount on it.",
+      "soWhat": "Teams running agents on Gemini 4 should re-cost those workloads before December.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 8,
+      "publishedAt": "2026-11-13T00:36:20Z",
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2121039423441981444"
+      },
+      "related": [
+        {
+          "name": "Simon Willison: llm-gemini 0.37",
+          "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/"
+        },
+        {
+          "name": "@theo on X",
+          "url": "https://x.com/theo/status/2121030235248570537"
+        }
+      ],
+      "image": {
+        "src": "/img/gemini-4-carbon-argon-price-doubling.jpg",
+        "alt": "Image from @simonw on X"
+      },
+      "heat": {
+        "score": 30,
+        "level": "none",
+        "metric": "28k views",
+        "voices": 3
+      }
+    },
     {
       "id": "decider-v13-open-source",
       "title": "Perplexity open-sources Decider v1.3 decision models",
@@ -40,9 +120,9 @@
         "alt": "Profile image of @AravSrinivas"
       },
       "heat": {
-        "score": 0,
+        "score": 12,
         "level": "none",
-        "metric": "3k views"
+        "metric": "56k views"
       }
     },
     {
@@ -66,6 +146,75 @@
         "score": 0,
         "level": "none",
         "metric": "7k views"
+      }
+    },
+    {
+      "id": "agent-launch-paid-praise-warning",
+      "title": "Steinberger warns of paid praise for a coming agent launch",
+      "takeaway": "He says marketers are offering a lot of money for nice X posts about an agent launching this week.",
+      "soWhat": "Discount launch-week hype on X and wait for independent tests before you buy.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-12T22:36:55Z",
+      "source": {
+        "name": "@steipete on X",
+        "url": "https://x.com/steipete/status/2121009372470067544"
+      },
+      "image": {
+        "src": "/img/agent-launch-paid-praise-warning.jpg",
+        "alt": "Profile image of @steipete"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "162k views"
+      }
+    },
+    {
+      "id": "gemini-4-hydrogen-ai-mode",
+      "title": "The Verge: Gemini 4 Hydrogen handles harder questions in AI Mode",
+      "takeaway": "Google's new model is better at understanding complicated questions in Search's AI Mode, The Verge reports.",
+      "soWhat": "AI answers in Search keep improving; check how AI Mode describes your company.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-12T21:55:32Z",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen"
+      },
+      "image": {
+        "src": "/img/gemini-4-hydrogen-ai-mode.jpg",
+        "alt": "Image from The Verge AI"
+      }
+    },
+    {
+      "id": "nvidia-chip-tracking-confirmed",
+      "title": "Nvidia privately confirmed it could track chips against smuggling",
+      "takeaway": "MIT Technology Review reports the private confirmation came while the industry publicly questioned the idea.",
+      "soWhat": "Tracking is feasible, so export rules could require it; watch your AI hardware supply.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-12T20:16:24Z",
+      "source": {
+        "name": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/"
+      },
+      "related": [
+        {
+          "name": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling"
+        },
+        {
+          "name": "Ben Thompson (Stratechery)",
+          "url": "https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/"
+        }
+      ],
+      "image": {
+        "src": "/img/nvidia-chip-tracking-confirmed.jpg",
+        "alt": "Image from MIT Tech Review AI"
       }
     },
     {
@@ -114,6 +263,29 @@
         "level": "none",
         "metric": "102k views",
         "voices": 2
+      }
+    },
+    {
+      "id": "dalio-outside-progress-measurement",
+      "title": "Ray Dalio: let someone else measure your progress",
+      "takeaway": "Ideally someone other than you measures and reports your progress; missed targets are a separate problem to diagnose.",
+      "soWhat": "Independent measurement keeps leaders honest; assign it outside the team that owns the target.",
+      "lens": "frontier-capital",
+      "momentum": "shift",
+      "importance": 4,
+      "publishedAt": "2026-11-12T18:02:48Z",
+      "source": {
+        "name": "@RayDalio on X",
+        "url": "https://x.com/RayDalio/status/2120940389074911420"
+      },
+      "image": {
+        "src": "/img/dalio-outside-progress-measurement.jpg",
+        "alt": "Image from @RayDalio on X"
+      },
+      "heat": {
+        "score": 12,
+        "level": "none",
+        "metric": "60k views"
       }
     },
     {
@@ -197,6 +369,11 @@
       "image": {
         "src": "/img/mengto-heygen-scroll-landing.jpg",
         "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 6,
+        "level": "none",
+        "metric": "13k views"
       }
     },
     {
@@ -256,24 +433,6 @@
       }
     },
     {
-      "id": "pocock-home-repo-article",
-      "title": "Matt Pocock: one Home Repo to run agents across all repos",
-      "takeaway": "He publishes the Home Repo pattern for multi-repo agent work, with a setup prompt to run on your org's repos.",
-      "soWhat": "Agents stall at repo boundaries; a single home repo gives them one map of your whole codebase.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-11-12T11:18:35Z",
-      "source": {
-        "name": "@mattpocockuk on X",
-        "url": "https://x.com/mattpocockuk/status/2120838662254420341"
-      },
-      "image": {
-        "src": "/img/pocock-home-repo-article.jpg",
-        "alt": "Image from @mattpocockuk on X"
-      }
-    },
-    {
       "id": "naval-datacenters-competitive",
       "title": "Naval: someone, somewhere, will build the datacenters",
       "takeaway": "He calls datacenters a globally competitive market and says someone, somewhere, will build them.",
@@ -289,24 +448,6 @@
       "image": {
         "src": "/img/naval-datacenters-competitive.jpg",
         "alt": "Image from @naval on X"
-      }
-    },
-    {
-      "id": "mengto-threejs-fable-tutorial",
-      "title": "Meng To shares a full tutorial for his three.js apartment",
-      "takeaway": "He walks through recreating his apartment in three.js with Opus 5.5 and Fable 5.2.",
-      "soWhat": "Designers can now ship interactive 3D with agents; a tutorial makes it repeatable for teams.",
-      "lens": "design",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-11-12T05:13:44Z",
-      "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2120746846402564163"
-      },
-      "image": {
-        "src": "/img/mengto-threejs-fable-tutorial.jpg",
-        "alt": "Image from @MengTo on X"
       }
     },
     {
@@ -366,88 +507,6 @@
       }
     },
     {
-      "id": "a16z-gpu-rental-depreciation",
-      "title": "a16z: H100 rental rates run 54% above expected depreciation",
-      "takeaway": "As of Oct 19, A100s sat 9% and H100s 54% above a six-year straight-line path.",
-      "soWhat": "Compute keeps its value longer than planned, so budget for rental prices staying high.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-11T19:01:04Z",
-      "source": {
-        "name": "@a16z on X",
-        "url": "https://x.com/a16z/status/2120592662353121405"
-      },
-      "image": {
-        "src": "/img/a16z-gpu-rental-depreciation.jpg",
-        "alt": "Image from @a16z on X"
-      }
-    },
-    {
-      "id": "aravind-space-red-teaming",
-      "title": "Perplexity: general models beat cyber models at breaking its agent sandbox",
-      "takeaway": "Red-teaming SPACE, GPT 5.6 Sol found exploits better than GPT 5.6 Sol Cyber.",
-      "soWhat": "Test agent sandboxes with your strongest general model, not only specialist security tools.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-11T18:41:57Z",
-      "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2120587855114432837"
-      },
-      "image": {
-        "src": "/img/aravind-space-red-teaming.jpg",
-        "alt": "Image from @AravSrinivas on X"
-      }
-    },
-    {
-      "id": "sundar-gemini-decisions-api",
-      "title": "Google launches an API that scores 1,000 choices in one pass",
-      "takeaway": "Gemini Decision 1 picks from closed sets across text, images, audio, video and PDFs.",
-      "soWhat": "Triage, tagging and routing are closed-set choices; test whether this beats your current setup.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-11-11T18:15:20Z",
-      "source": {
-        "name": "@sundarpichai on X",
-        "url": "https://x.com/sundarpichai/status/2120581155078729728"
-      },
-      "related": [
-        {
-          "name": "Simon Willison",
-          "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/"
-        },
-        {
-          "name": "Google Blog",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
-        }
-      ],
-      "image": {
-        "src": "/img/sundar-gemini-decisions-api.jpg",
-        "alt": "Image from @sundarpichai on X"
-      }
-    },
-    {
-      "id": "hn-anthropic-vulns-tracking",
-      "title": "VulnCheck: Glasswing logged 37,966 findings, only 217 marked fixed",
-      "takeaway": "It counts 442 CVEs tied to Anthropic, two exploited; curl rejected 19 of 34 scanner reports.",
-      "soWhat": "AI finds bugs faster than people can verify and fix them, so budget for triage.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-11-10T22:17:56Z",
-      "source": {
-        "name": "VulnCheck",
-        "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update"
-      },
-      "image": {
-        "src": "/img/hn-anthropic-vulns-tracking.jpg",
-        "alt": "Image from VulnCheck"
-      }
-    },
-    {
       "id": "lynalden-bullish-2027-gpu-demand",
       "title": "Lyn Alden: wary of Huang's tenure, bullish on 2027 GPU demand",
       "takeaway": "She calls herself neutral to bearish on Huang as CEO and bullish on GPU demand in 2027.",
@@ -486,66 +545,66 @@
   ],
   "voices": [
     {
-      "handle": "@alexalbert__",
-      "quote": "A lot of getting good work out of Claude now is just finding the context it's missing and figuring out how to close that gap",
-      "url": "https://x.com/alexalbert__/status/2120983722182988206"
-    },
-    {
-      "handle": "@rauchg",
-      "quote": "UI SDK is like the x86 instruction set for agents to build new UI components spontaneously.",
-      "url": "https://x.com/rauchg/status/2120966768483262648"
-    },
-    {
       "handle": "@naval",
-      "quote": "You'd think we'd have learned from Steve Jobs and Travis Kalanick that one does not just simply replace the founder…",
-      "url": "https://x.com/naval/status/2120752211588452715"
+      "quote": "Jensen Huang is the Steve Jobs of Nvidia. He is irreplaceable.",
+      "url": "https://x.com/naval/status/2121143697161236839"
     },
     {
-      "handle": "@naval",
-      "quote": "Datacenters are a globally competitive market. Someone, somewhere, will build them.",
-      "url": "https://x.com/naval/status/2120798325066911758"
+      "handle": "@AravSrinivas",
+      "quote": "Decision Models are the future of agentic security. They can process billions of tokens of telemetry, identify security issues, and help you patch fixes…",
+      "url": "https://x.com/AravSrinivas/status/2121092767665598477"
     },
     {
       "handle": "@mattpocockuk",
-      "quote": "I just told my agent \"treat me like a tool call\". So degrading",
-      "url": "https://x.com/mattpocockuk/status/2120795868509151239"
+      "quote": "My dream is for every important PR to be accompanied by a video that shows folks how it works.",
+      "url": "https://x.com/mattpocockuk/status/2121156583979962734"
+    },
+    {
+      "handle": "@theo",
+      "quote": "still garbage speeds compared to anything else on the market",
+      "url": "https://x.com/theo/status/2121030235248570537"
+    },
+    {
+      "handle": "@RayDalio",
+      "quote": "Ideally, someone other than you should be objectively measuring and reporting on your progress.",
+      "url": "https://x.com/RayDalio/status/2120940389074911420"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/claudeai/status/2120973994191094179",
-      "handle": "@claudeai",
-      "text": "Introducing Claude Meetings: add Claude to your team's video call and it builds docs, whiteboards, and other artifacts with you.",
-      "metric": "35.4k likes",
-      "note": "An AI teammate in live meetings is the day's most watched launch."
+      "url": "https://x.com/naval/status/2121143697161236839",
+      "handle": "@naval",
+      "text": "Jensen Huang is the Steve Jobs of Nvidia. He is irreplaceable.",
+      "metric": "22.4k likes",
+      "note": "The founder-replacement debate at Nvidia is the loudest story this morning."
     },
     {
-      "url": "https://x.com/ClaudeDevs/status/2120938988165091693",
-      "handle": "@ClaudeDevs",
-      "text": "Self-hosted Claude Managed Agents is now in private beta.",
-      "metric": "7.9k likes",
-      "note": "Builders want agents that run where their data already lives."
-    },
-    {
-      "url": "https://x.com/GoogleDeepMind/status/2120940338869055788",
-      "handle": "@GoogleDeepMind",
-      "text": "Meet Gemini 4 Hydrogen: built for rapid coding, multimodal synthesis, and everyday workflows.",
-      "metric": "5.3k likes",
-      "note": "A fast new Gemini lands a day after Theo found Gemini 4 Carbon slow."
-    },
-    {
-      "url": "https://x.com/cursor_ai/status/2120944639633211619",
-      "handle": "@cursor_ai",
-      "text": "Gemini 4 Hydrogen is now available in Cursor! At its default effort, it scores 54.3% on CursorBench.",
+      "url": "https://x.com/steipete/status/2121009372470067544",
+      "handle": "@steipete",
+      "text": "There's some new agent launching later this week and marketers offer a lot of money to say nice things about it on X.",
       "metric": "1.6k likes",
-      "note": "Developers get a quick benchmark to judge the new model."
+      "note": "Builders distrust paid launch hype and want honest reviews."
     },
     {
-      "url": "https://x.com/ClaudeDevs/status/2120962481225146636",
-      "handle": "@ClaudeDevs",
-      "text": "New video: how we launch new models on our API, and how to measure cost per task when you upgrade.",
-      "metric": "862 likes",
-      "note": "Teams want a method for model upgrades, not just new models."
+      "url": "https://x.com/theo/status/2121030235248570537",
+      "handle": "@theo",
+      "text": "'Built for speed' is 'still garbage speeds compared to anything else on the market'",
+      "metric": "982 likes",
+      "note": "Developers doubt Google's speed claims for Gemini 4."
+    },
+    {
+      "url": "https://x.com/steipete/status/2121058770767982997",
+      "handle": "@steipete",
+      "text": "My team wrote about how we run persistent agents inside OpenAI.",
+      "metric": "883 likes",
+      "note": "A rare look at how a frontier lab runs agents on its own work."
+    },
+    {
+      "url": "https://x.com/mattpocockuk/status/2121156583979962734",
+      "handle": "@mattpocockuk",
+      "text": "My dream is for every important PR to be accompanied by a video that shows folks how it works.",
+      "metric": "865 likes",
+      "note": "Reviewing agent-written code is a bottleneck; video walkthroughs could ease it."
     }
   ]
 }
