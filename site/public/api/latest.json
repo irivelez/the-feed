@@ -1,27 +1,168 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-12-1300",
+  "id": "2026-11-12-1900",
   "date": "2026-11-12",
-  "publishedAt": "2026-11-12T13:15:00-05:00",
-  "edition": "Midday",
+  "publishedAt": "2026-11-12T19:30:00-05:00",
+  "edition": "Evening",
   "top3": [
     {
-      "itemId": "nvidia-ceo-transition-announcement",
-      "headline": "Jensen Huang is out as Nvidia CEO",
-      "whyItMatters": "The company that sells most AI chips changes leaders overnight; review your supply exposure."
+      "itemId": "claude-meetings-launch",
+      "headline": "Claude joins your team's video calls",
+      "whyItMatters": "Your meetings become agent context; decide now what Claude may record and reuse."
     },
     {
-      "itemId": "anthropic-ipo-filing-post",
-      "headline": "Anthropic files to go public",
-      "whyItMatters": "Your key AI vendor will soon publish its costs and risks; read the prospectus closely."
+      "itemId": "claude-managed-agents-self-hosted",
+      "headline": "Anthropic lets you host its agents in your own cloud",
+      "whyItMatters": "Data-sensitive teams lose one big reason to wait on agents."
     },
     {
-      "itemId": "verge-united-blocks-agents",
-      "headline": "United shuts the door on unauthorized AI agents",
-      "whyItMatters": "Big brands can block your agents; plan agent access as a partnership, not a given."
+      "itemId": "gemini-4-hydrogen-launch",
+      "headline": "Google's Gemini 4 Hydrogen bets on speed",
+      "whyItMatters": "Faster models change the cost of everyday agent work; retest your defaults."
     }
   ],
   "items": [
+    {
+      "id": "decider-v13-open-source",
+      "title": "Perplexity open-sources Decider v1.3 decision models",
+      "takeaway": "Decider v1.3 and Decider Flash v1.3 add a 'locate' capability and are free on OpenRouter for a week.",
+      "soWhat": "Small open decision models are a cheap option for routing and classification inside agents.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-12T23:19:36Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2121020114321703210"
+      },
+      "image": {
+        "src": "/img/decider-v13-open-source.jpg",
+        "alt": "Profile image of @AravSrinivas"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "3k views"
+      }
+    },
+    {
+      "id": "replit-agent-buys-ads",
+      "title": "Replit Agent can now buy ads for your business",
+      "takeaway": "Replit's CEO says users can ask the agent to make purchases, including ads to acquire customers.",
+      "soWhat": "Agents now spend company money; set budgets, approvals and audit trails before turning this on.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-12T23:11:17Z",
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2121018020520931712"
+      },
+      "image": {
+        "src": "/img/replit-agent-buys-ads.jpg",
+        "alt": "Image from @amasad on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "7k views"
+      }
+    },
+    {
+      "id": "claude-meetings-launch",
+      "title": "Anthropic puts Claude inside your team's video calls",
+      "takeaway": "Claude Meetings joins video calls and builds docs and whiteboards live; beta on Team and Enterprise plans.",
+      "soWhat": "Meetings become a source of agent context; set rules for what Claude may hear and keep.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-11-12T20:16:20Z",
+      "source": {
+        "name": "@claudeai on X",
+        "url": "https://x.com/claudeai/status/2120973994191094179"
+      },
+      "image": {
+        "src": "/img/claude-meetings-launch.jpg",
+        "alt": "Image from @claudeai on X"
+      },
+      "heat": {
+        "score": 52,
+        "level": "warm",
+        "metric": "1.8M views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "gemini-4-hydrogen-cursorbench",
+      "title": "Cursor: Gemini 4 Hydrogen scores 54.3% on CursorBench",
+      "takeaway": "Up from 39.6% for Gemini 3.8 Flash at default effort; now available in Cursor.",
+      "soWhat": "A vendor benchmark shows a large jump; check it against your own coding tasks before switching.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-12T18:19:41Z",
+      "source": {
+        "name": "@cursor_ai on X",
+        "url": "https://x.com/cursor_ai/status/2120944639633211619"
+      },
+      "image": {
+        "src": "/img/gemini-4-hydrogen-cursorbench.jpg",
+        "alt": "Image from @cursor_ai on X"
+      },
+      "heat": {
+        "score": 30,
+        "level": "none",
+        "metric": "102k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "gemini-4-hydrogen-launch",
+      "title": "Google ships Gemini 4 Hydrogen, built for speed",
+      "takeaway": "Google says it finishes tasks 2.5x faster than 3.8 Flash and beats Argon on an intelligence index.",
+      "soWhat": "Fast, cheaper models keep improving; retest your default model for everyday agent work.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-12T18:02:36Z",
+      "source": {
+        "name": "@GoogleDeepMind on X",
+        "url": "https://x.com/GoogleDeepMind/status/2120940338869055788"
+      },
+      "image": {
+        "src": "/img/gemini-4-hydrogen-launch.jpg",
+        "alt": "Image from @GoogleDeepMind on X"
+      },
+      "heat": {
+        "score": 39,
+        "level": "none",
+        "metric": "686k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "claude-managed-agents-self-hosted",
+      "title": "Claude Managed Agents can now run in your own cloud",
+      "takeaway": "Private beta: host the agent harness, sandboxes and session history on your cloud or on-premises.",
+      "soWhat": "Regulated teams can run Anthropic's agents while keeping data and logs inside their walls.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-11-12T17:57:14Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2120938988165091693"
+      },
+      "image": {
+        "src": "/img/claude-managed-agents-self-hosted.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      },
+      "heat": {
+        "score": 31,
+        "level": "none",
+        "metric": "444k views"
+      }
+    },
     {
       "id": "alexandr-wang-muse-phone-calls",
       "title": "Muse can now make phone calls on your behalf",
@@ -38,11 +179,6 @@
       "image": {
         "src": "/img/alexandr-wang-muse-phone-calls.jpg",
         "alt": "Image from @alexandr_wang on X"
-      },
-      "heat": {
-        "score": 3,
-        "level": "none",
-        "metric": "6k views"
       }
     },
     {
@@ -61,11 +197,6 @@
       "image": {
         "src": "/img/mengto-heygen-scroll-landing.jpg",
         "alt": "Image from @MengTo on X"
-      },
-      "heat": {
-        "score": 0,
-        "level": "none",
-        "metric": "6k views"
       }
     },
     {
@@ -94,12 +225,6 @@
       "image": {
         "src": "/img/nvidia-ceo-transition-announcement.jpg",
         "alt": "Profile image of @nvidianewsroom"
-      },
-      "heat": {
-        "score": 77,
-        "level": "hot",
-        "metric": "7M views",
-        "voices": 4
       }
     },
     {
@@ -167,24 +292,6 @@
       }
     },
     {
-      "id": "theo-t3-code-1000-contributors",
-      "title": "T3 Code passes 1,000 open source contributors",
-      "takeaway": "Theo says it is one of the biggest open source iPhone apps and non-developers ask him how to set it up.",
-      "soWhat": "Coding agents are reaching non-developers; expect staff outside engineering to ask for them.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-12T06:24:19Z",
-      "source": {
-        "name": "@theo on X",
-        "url": "https://x.com/theo/status/2120764608390869101"
-      },
-      "image": {
-        "src": "/img/theo-t3-code-1000-contributors.jpg",
-        "alt": "Image from @theo on X"
-      }
-    },
-    {
       "id": "mengto-threejs-fable-tutorial",
       "title": "Meng To shares a full tutorial for his three.js apartment",
       "takeaway": "He walks through recreating his apartment in three.js with Opus 5.5 and Fable 5.2.",
@@ -200,42 +307,6 @@
       "image": {
         "src": "/img/mengto-threejs-fable-tutorial.jpg",
         "alt": "Image from @MengTo on X"
-      }
-    },
-    {
-      "id": "theo-open-weight-t3-traffic",
-      "title": "Open-weight models are under 0.5% of T3 Code traffic",
-      "takeaway": "Theo says open-weight models are a tiny share of usage on his coding app, and the claim drew little pushback.",
-      "soWhat": "Developers are paying for closed frontier models; weigh that before betting on open-weight savings.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-12T04:14:49Z",
-      "source": {
-        "name": "@theo on X",
-        "url": "https://x.com/theo/status/2120732020036993066"
-      },
-      "image": {
-        "src": "/img/theo-open-weight-t3-traffic.jpg",
-        "alt": "Profile image of @theo"
-      }
-    },
-    {
-      "id": "primeagen-vibing-3-hours",
-      "title": "ThePrimeagen: after weeks of vibe coding, each change takes hours",
-      "takeaway": "He says heavy vibe coding left him with a codebase where every change now takes three hours.",
-      "soWhat": "Speed without structure turns into drag; ask teams how they keep agent-written code maintainable.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-12T03:20:39Z",
-      "source": {
-        "name": "@ThePrimeagen on X",
-        "url": "https://x.com/ThePrimeagen/status/2120718387412185148"
-      },
-      "image": {
-        "src": "/img/primeagen-vibing-3-hours.jpg",
-        "alt": "Profile image of @ThePrimeagen"
       }
     },
     {
@@ -292,30 +363,6 @@
       "image": {
         "src": "/img/a16z-agent-web-traffic-8x.jpg",
         "alt": "Image from @a16z on X"
-      }
-    },
-    {
-      "id": "theo-gemini-4-carbon-slow",
-      "title": "Theo: Gemini 4 Carbon took 22 minutes, Opus 5.5 under 10",
-      "takeaway": "He says most of the delay is server side, with 11 seconds before the first response.",
-      "soWhat": "Benchmark scores hide latency; time models on your own tasks before switching.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-11T19:20:38Z",
-      "source": {
-        "name": "@theo on X",
-        "url": "https://x.com/theo/status/2120597586298261543"
-      },
-      "related": [
-        {
-          "name": "@theo on X",
-          "url": "https://x.com/theo/status/2120618574834462935"
-        }
-      ],
-      "image": {
-        "src": "/img/theo-gemini-4-carbon-slow.jpg",
-        "alt": "Image from @theo on X"
       }
     },
     {
@@ -383,48 +430,6 @@
       }
     },
     {
-      "id": "hn-aws-emulator",
-      "title": "AWS publishes an official emulator repo on GitHub",
-      "takeaway": "The aws/aws-emulator repo drew a 939-point Hacker News thread.",
-      "soWhat": "A local AWS emulator could let teams and agents test cloud code before it touches real accounts.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-11T18:00:00Z",
-      "source": {
-        "name": "GitHub: aws/aws-emulator",
-        "url": "https://github.com/aws/aws-emulator"
-      },
-      "related": [
-        {
-          "name": "Hacker News thread",
-          "url": "https://news.ycombinator.com/item?id=50456631"
-        }
-      ],
-      "image": {
-        "src": "/img/hn-aws-emulator.jpg",
-        "alt": "Image from GitHub: aws/aws-emulator"
-      }
-    },
-    {
-      "id": "lenny-claude-code-obsidian",
-      "title": "A family runs its shared AI brain on Claude Code and Obsidian",
-      "takeaway": "Lenny's Newsletter features Scott Farrar on using Claude Code with Obsidian as a family knowledge base.",
-      "soWhat": "Coding agents now manage plain notes, not just code; the pattern fits team knowledge too.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-11T13:04:09Z",
-      "source": {
-        "name": "Lenny's Newsletter",
-        "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai"
-      },
-      "image": {
-        "src": "/img/lenny-claude-code-obsidian.jpg",
-        "alt": "Image from Lenny's Newsletter"
-      }
-    },
-    {
       "id": "hn-anthropic-vulns-tracking",
       "title": "VulnCheck: Glasswing logged 37,966 findings, only 217 marked fixed",
       "takeaway": "It counts 442 CVEs tied to Anthropic, two exploited; curl rejected 19 of 34 scanner reports.",
@@ -481,9 +486,14 @@
   ],
   "voices": [
     {
-      "handle": "@steipete",
-      "quote": "If that Spy's goal was to destabilize one of the most successful American companies, they achieved their goal. Ousting Jensen feels rushed and not right.",
-      "url": "https://x.com/steipete/status/2120903527803564397"
+      "handle": "@alexalbert__",
+      "quote": "A lot of getting good work out of Claude now is just finding the context it's missing and figuring out how to close that gap",
+      "url": "https://x.com/alexalbert__/status/2120983722182988206"
+    },
+    {
+      "handle": "@rauchg",
+      "quote": "UI SDK is like the x86 instruction set for agents to build new UI components spontaneously.",
+      "url": "https://x.com/rauchg/status/2120966768483262648"
     },
     {
       "handle": "@naval",
@@ -496,11 +506,6 @@
       "url": "https://x.com/naval/status/2120798325066911758"
     },
     {
-      "handle": "@ThePrimeagen",
-      "quote": "crazy day for me.... I have uninstalled tab complete",
-      "url": "https://x.com/ThePrimeagen/status/2120910738034508058"
-    },
-    {
       "handle": "@mattpocockuk",
       "quote": "I just told my agent \"treat me like a tool call\". So degrading",
       "url": "https://x.com/mattpocockuk/status/2120795868509151239"
@@ -508,39 +513,39 @@
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/nvidianewsroom/status/2120876571829662014",
-      "handle": "@nvidianewsroom",
-      "text": "NVIDIA announces CEO transition. Read the release.",
-      "metric": "61k likes",
-      "note": "The official word that Huang's era at Nvidia is over."
+      "url": "https://x.com/claudeai/status/2120973994191094179",
+      "handle": "@claudeai",
+      "text": "Introducing Claude Meetings: add Claude to your team's video call and it builds docs, whiteboards, and other artifacts with you.",
+      "metric": "35.4k likes",
+      "note": "An AI teammate in live meetings is the day's most watched launch."
     },
     {
-      "url": "https://x.com/AravSrinivas/status/2120891190333607989",
-      "handle": "@AravSrinivas",
-      "text": "Thanks Jensen Huang for 33 years of leadership, building a small startup into America's most valuable company.",
-      "metric": "12.2k likes",
-      "note": "Founders are publicly honoring Huang as the board moves him out."
+      "url": "https://x.com/ClaudeDevs/status/2120938988165091693",
+      "handle": "@ClaudeDevs",
+      "text": "Self-hosted Claude Managed Agents is now in private beta.",
+      "metric": "7.9k likes",
+      "note": "Builders want agents that run where their data already lives."
     },
     {
-      "url": "https://x.com/steipete/status/2120903527803564397",
-      "handle": "@steipete",
-      "text": "If that Spy's goal was to destabilize one of the most successful American companies, they achieved their goal. Ousting Jensen feels rushed.",
-      "metric": "6.3k likes",
-      "note": "Many builders think the board moved too fast."
+      "url": "https://x.com/GoogleDeepMind/status/2120940338869055788",
+      "handle": "@GoogleDeepMind",
+      "text": "Meet Gemini 4 Hydrogen: built for rapid coding, multimodal synthesis, and everyday workflows.",
+      "metric": "5.3k likes",
+      "note": "A fast new Gemini lands a day after Theo found Gemini 4 Carbon slow."
     },
     {
-      "url": "https://x.com/theo/status/2120857265246986589",
-      "handle": "@theo",
-      "text": "Anthropic's IPO is confirmed for Wednesday next week. These numbers are insane.",
-      "metric": "2.3k likes",
-      "note": "Builders are reading Anthropic's numbers ahead of a listing date Anthropic has not confirmed here."
+      "url": "https://x.com/cursor_ai/status/2120944639633211619",
+      "handle": "@cursor_ai",
+      "text": "Gemini 4 Hydrogen is now available in Cursor! At its default effort, it scores 54.3% on CursorBench.",
+      "metric": "1.6k likes",
+      "note": "Developers get a quick benchmark to judge the new model."
     },
     {
-      "url": "https://x.com/mattpocockuk/status/2120847219788308872",
-      "handle": "@mattpocockuk",
-      "text": "The Home Repo pattern: where to put skills, steering files and tooling when agents work across many repos.",
-      "metric": "986 likes",
-      "note": "Over 1,200 bookmarks: teams want a clear setup for agents across repos."
+      "url": "https://x.com/ClaudeDevs/status/2120962481225146636",
+      "handle": "@ClaudeDevs",
+      "text": "New video: how we launch new models on our API, and how to measure cost per task when you upgrade.",
+      "metric": "862 likes",
+      "note": "Teams want a method for model upgrades, not just new models."
     }
   ]
 }

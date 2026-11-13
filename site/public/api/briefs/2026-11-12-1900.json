@@ -1,0 +1,551 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-12-1900",
+  "date": "2026-11-12",
+  "publishedAt": "2026-11-12T19:30:00-05:00",
+  "edition": "Evening",
+  "top3": [
+    {
+      "itemId": "claude-meetings-launch",
+      "headline": "Claude joins your team's video calls",
+      "whyItMatters": "Your meetings become agent context; decide now what Claude may record and reuse."
+    },
+    {
+      "itemId": "claude-managed-agents-self-hosted",
+      "headline": "Anthropic lets you host its agents in your own cloud",
+      "whyItMatters": "Data-sensitive teams lose one big reason to wait on agents."
+    },
+    {
+      "itemId": "gemini-4-hydrogen-launch",
+      "headline": "Google's Gemini 4 Hydrogen bets on speed",
+      "whyItMatters": "Faster models change the cost of everyday agent work; retest your defaults."
+    }
+  ],
+  "items": [
+    {
+      "id": "decider-v13-open-source",
+      "title": "Perplexity open-sources Decider v1.3 decision models",
+      "takeaway": "Decider v1.3 and Decider Flash v1.3 add a 'locate' capability and are free on OpenRouter for a week.",
+      "soWhat": "Small open decision models are a cheap option for routing and classification inside agents.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-12T23:19:36Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2121020114321703210"
+      },
+      "image": {
+        "src": "/img/decider-v13-open-source.jpg",
+        "alt": "Profile image of @AravSrinivas"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "3k views"
+      }
+    },
+    {
+      "id": "replit-agent-buys-ads",
+      "title": "Replit Agent can now buy ads for your business",
+      "takeaway": "Replit's CEO says users can ask the agent to make purchases, including ads to acquire customers.",
+      "soWhat": "Agents now spend company money; set budgets, approvals and audit trails before turning this on.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-12T23:11:17Z",
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2121018020520931712"
+      },
+      "image": {
+        "src": "/img/replit-agent-buys-ads.jpg",
+        "alt": "Image from @amasad on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "7k views"
+      }
+    },
+    {
+      "id": "claude-meetings-launch",
+      "title": "Anthropic puts Claude inside your team's video calls",
+      "takeaway": "Claude Meetings joins video calls and builds docs and whiteboards live; beta on Team and Enterprise plans.",
+      "soWhat": "Meetings become a source of agent context; set rules for what Claude may hear and keep.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-11-12T20:16:20Z",
+      "source": {
+        "name": "@claudeai on X",
+        "url": "https://x.com/claudeai/status/2120973994191094179"
+      },
+      "image": {
+        "src": "/img/claude-meetings-launch.jpg",
+        "alt": "Image from @claudeai on X"
+      },
+      "heat": {
+        "score": 52,
+        "level": "warm",
+        "metric": "1.8M views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "gemini-4-hydrogen-cursorbench",
+      "title": "Cursor: Gemini 4 Hydrogen scores 54.3% on CursorBench",
+      "takeaway": "Up from 39.6% for Gemini 3.8 Flash at default effort; now available in Cursor.",
+      "soWhat": "A vendor benchmark shows a large jump; check it against your own coding tasks before switching.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-12T18:19:41Z",
+      "source": {
+        "name": "@cursor_ai on X",
+        "url": "https://x.com/cursor_ai/status/2120944639633211619"
+      },
+      "image": {
+        "src": "/img/gemini-4-hydrogen-cursorbench.jpg",
+        "alt": "Image from @cursor_ai on X"
+      },
+      "heat": {
+        "score": 30,
+        "level": "none",
+        "metric": "102k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "gemini-4-hydrogen-launch",
+      "title": "Google ships Gemini 4 Hydrogen, built for speed",
+      "takeaway": "Google says it finishes tasks 2.5x faster than 3.8 Flash and beats Argon on an intelligence index.",
+      "soWhat": "Fast, cheaper models keep improving; retest your default model for everyday agent work.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-12T18:02:36Z",
+      "source": {
+        "name": "@GoogleDeepMind on X",
+        "url": "https://x.com/GoogleDeepMind/status/2120940338869055788"
+      },
+      "image": {
+        "src": "/img/gemini-4-hydrogen-launch.jpg",
+        "alt": "Image from @GoogleDeepMind on X"
+      },
+      "heat": {
+        "score": 39,
+        "level": "none",
+        "metric": "686k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "claude-managed-agents-self-hosted",
+      "title": "Claude Managed Agents can now run in your own cloud",
+      "takeaway": "Private beta: host the agent harness, sandboxes and session history on your cloud or on-premises.",
+      "soWhat": "Regulated teams can run Anthropic's agents while keeping data and logs inside their walls.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-11-12T17:57:14Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2120938988165091693"
+      },
+      "image": {
+        "src": "/img/claude-managed-agents-self-hosted.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      },
+      "heat": {
+        "score": 31,
+        "level": "none",
+        "metric": "444k views"
+      }
+    },
+    {
+      "id": "alexandr-wang-muse-phone-calls",
+      "title": "Muse can now make phone calls on your behalf",
+      "takeaway": "Alexandr Wang says Muse now calls insurers, cable firms, the DMV and restaurants for paid US users.",
+      "soWhat": "Agents now reach businesses by voice; expect them on your customer service lines soon.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 7,
+      "publishedAt": "2026-11-12T17:23:51Z",
+      "source": {
+        "name": "@alexandr_wang on X",
+        "url": "https://x.com/alexandr_wang/status/2120930586827391350"
+      },
+      "image": {
+        "src": "/img/alexandr-wang-muse-phone-calls.jpg",
+        "alt": "Image from @alexandr_wang on X"
+      }
+    },
+    {
+      "id": "mengto-heygen-scroll-landing",
+      "title": "Meng To builds a scroll-driven landing page from one video take",
+      "takeaway": "One 30-second HeyGen Video 1 take plays in reverse on scroll; he shares workflow, prompts and a template.",
+      "soWhat": "Rich landing pages no longer need a 3D team; one prompted video can carry the story.",
+      "lens": "design",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-12T15:06:53Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2120896116711727557"
+      },
+      "image": {
+        "src": "/img/mengto-heygen-scroll-landing.jpg",
+        "alt": "Image from @MengTo on X"
+      }
+    },
+    {
+      "id": "nvidia-ceo-transition-announcement",
+      "title": "Jensen Huang resigns as Nvidia CEO, effective immediately",
+      "takeaway": "Nvidia's newsroom announced a CEO transition; Reuters live coverage reports Huang resigned immediately.",
+      "soWhat": "Your biggest AI supplier changes leaders mid-boom; watch for shifts in pricing, roadmap and allocation.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 10,
+      "publishedAt": "2026-11-12T13:49:13Z",
+      "source": {
+        "name": "@nvidianewsroom on X",
+        "url": "https://x.com/nvidianewsroom/status/2120876571829662014"
+      },
+      "related": [
+        {
+          "name": "Reuters live",
+          "url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50467132"
+        }
+      ],
+      "image": {
+        "src": "/img/nvidia-ceo-transition-announcement.jpg",
+        "alt": "Profile image of @nvidianewsroom"
+      }
+    },
+    {
+      "id": "anthropic-ipo-filing-post",
+      "title": "Anthropic files its IPO registration with the SEC",
+      "takeaway": "Anthropic says it has filed a registration statement, including a prospectus, for its initial public offering.",
+      "soWhat": "A public Anthropic will disclose costs and risks; read the prospectus before your next model contract.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-12T11:30:46Z",
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2120841731302154708"
+      },
+      "related": [
+        {
+          "name": "Anthropic IPO site",
+          "url": "https://ipo.anthropic.com/us/"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50465829"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-ipo-filing-post.jpg",
+        "alt": "Image from @AnthropicAI on X"
+      }
+    },
+    {
+      "id": "pocock-home-repo-article",
+      "title": "Matt Pocock: one Home Repo to run agents across all repos",
+      "takeaway": "He publishes the Home Repo pattern for multi-repo agent work, with a setup prompt to run on your org's repos.",
+      "soWhat": "Agents stall at repo boundaries; a single home repo gives them one map of your whole codebase.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-12T11:18:35Z",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2120838662254420341"
+      },
+      "image": {
+        "src": "/img/pocock-home-repo-article.jpg",
+        "alt": "Image from @mattpocockuk on X"
+      }
+    },
+    {
+      "id": "naval-datacenters-competitive",
+      "title": "Naval: someone, somewhere, will build the datacenters",
+      "takeaway": "He calls datacenters a globally competitive market and says someone, somewhere, will build them.",
+      "soWhat": "Compute supply is global; local limits shift where capacity lands, not whether it exists.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-12T08:38:17Z",
+      "source": {
+        "name": "@naval on X",
+        "url": "https://x.com/naval/status/2120798325066911758"
+      },
+      "image": {
+        "src": "/img/naval-datacenters-competitive.jpg",
+        "alt": "Image from @naval on X"
+      }
+    },
+    {
+      "id": "mengto-threejs-fable-tutorial",
+      "title": "Meng To shares a full tutorial for his three.js apartment",
+      "takeaway": "He walks through recreating his apartment in three.js with Opus 5.5 and Fable 5.2.",
+      "soWhat": "Designers can now ship interactive 3D with agents; a tutorial makes it repeatable for teams.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-12T05:13:44Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2120746846402564163"
+      },
+      "image": {
+        "src": "/img/mengto-threejs-fable-tutorial.jpg",
+        "alt": "Image from @MengTo on X"
+      }
+    },
+    {
+      "id": "verge-united-blocks-agents",
+      "title": "United won't let unauthorized AI agents book flights",
+      "takeaway": "The Verge reports United is refusing bookings made by unauthorized AI agents.",
+      "soWhat": "Agent access is now a business decision; check which partners will block your customer-facing agents.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-11T21:54:21Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
+      },
+      "related": [
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50458900"
+        }
+      ],
+      "image": {
+        "src": "/img/verge-united-blocks-agents.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "a16z-agent-web-traffic-8x",
+      "title": "AI agent web traffic grew 8x from August to October",
+      "takeaway": "a16z cites HUMAN Security; The Verge reports United won't let AI agents book flights.",
+      "soWhat": "Decide now whether agents are customers you serve or traffic you block.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-11T20:23:42Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2120613457481671106"
+      },
+      "related": [
+        {
+          "name": "a16z: Welcome to the B2A Economy",
+          "url": "https://www.a16z.news/p/welcome-to-the-b2a-economy"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
+        }
+      ],
+      "image": {
+        "src": "/img/a16z-agent-web-traffic-8x.jpg",
+        "alt": "Image from @a16z on X"
+      }
+    },
+    {
+      "id": "a16z-gpu-rental-depreciation",
+      "title": "a16z: H100 rental rates run 54% above expected depreciation",
+      "takeaway": "As of Oct 19, A100s sat 9% and H100s 54% above a six-year straight-line path.",
+      "soWhat": "Compute keeps its value longer than planned, so budget for rental prices staying high.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-11T19:01:04Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2120592662353121405"
+      },
+      "image": {
+        "src": "/img/a16z-gpu-rental-depreciation.jpg",
+        "alt": "Image from @a16z on X"
+      }
+    },
+    {
+      "id": "aravind-space-red-teaming",
+      "title": "Perplexity: general models beat cyber models at breaking its agent sandbox",
+      "takeaway": "Red-teaming SPACE, GPT 5.6 Sol found exploits better than GPT 5.6 Sol Cyber.",
+      "soWhat": "Test agent sandboxes with your strongest general model, not only specialist security tools.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-11T18:41:57Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2120587855114432837"
+      },
+      "image": {
+        "src": "/img/aravind-space-red-teaming.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      }
+    },
+    {
+      "id": "sundar-gemini-decisions-api",
+      "title": "Google launches an API that scores 1,000 choices in one pass",
+      "takeaway": "Gemini Decision 1 picks from closed sets across text, images, audio, video and PDFs.",
+      "soWhat": "Triage, tagging and routing are closed-set choices; test whether this beats your current setup.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-11T18:15:20Z",
+      "source": {
+        "name": "@sundarpichai on X",
+        "url": "https://x.com/sundarpichai/status/2120581155078729728"
+      },
+      "related": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/"
+        },
+        {
+          "name": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+        }
+      ],
+      "image": {
+        "src": "/img/sundar-gemini-decisions-api.jpg",
+        "alt": "Image from @sundarpichai on X"
+      }
+    },
+    {
+      "id": "hn-anthropic-vulns-tracking",
+      "title": "VulnCheck: Glasswing logged 37,966 findings, only 217 marked fixed",
+      "takeaway": "It counts 442 CVEs tied to Anthropic, two exploited; curl rejected 19 of 34 scanner reports.",
+      "soWhat": "AI finds bugs faster than people can verify and fix them, so budget for triage.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-10T22:17:56Z",
+      "source": {
+        "name": "VulnCheck",
+        "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update"
+      },
+      "image": {
+        "src": "/img/hn-anthropic-vulns-tracking.jpg",
+        "alt": "Image from VulnCheck"
+      }
+    },
+    {
+      "id": "lynalden-bullish-2027-gpu-demand",
+      "title": "Lyn Alden: wary of Huang's tenure, bullish on 2027 GPU demand",
+      "takeaway": "She calls herself neutral to bearish on Huang as CEO and bullish on GPU demand in 2027.",
+      "soWhat": "A respected macro voice separates Nvidia's leadership risk from the demand for AI compute.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-10T01:12:07Z",
+      "source": {
+        "name": "@LynAldenContact on X",
+        "url": "https://x.com/LynAldenContact/status/2119961265099411681"
+      },
+      "image": {
+        "src": "/img/lynalden-bullish-2027-gpu-demand.jpg",
+        "alt": "Image from @LynAldenContact on X"
+      }
+    },
+    {
+      "id": "benaich-open-cyber-models-defenders",
+      "title": "Nathan Benaich: defenders need open cyber models too",
+      "takeaway": "He says Hugging Face found API guardrails slowed an intrusion probe and used a self-hosted open model.",
+      "soWhat": "Closed-model guardrails can block your own security team; keep an open-model option for incidents.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-09T16:00:01Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2119822323650076803"
+      },
+      "image": {
+        "src": "/img/benaich-open-cyber-models-defenders.jpg",
+        "alt": "Image from @nathanbenaich on X"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@alexalbert__",
+      "quote": "A lot of getting good work out of Claude now is just finding the context it's missing and figuring out how to close that gap",
+      "url": "https://x.com/alexalbert__/status/2120983722182988206"
+    },
+    {
+      "handle": "@rauchg",
+      "quote": "UI SDK is like the x86 instruction set for agents to build new UI components spontaneously.",
+      "url": "https://x.com/rauchg/status/2120966768483262648"
+    },
+    {
+      "handle": "@naval",
+      "quote": "You'd think we'd have learned from Steve Jobs and Travis Kalanick that one does not just simply replace the founder…",
+      "url": "https://x.com/naval/status/2120752211588452715"
+    },
+    {
+      "handle": "@naval",
+      "quote": "Datacenters are a globally competitive market. Someone, somewhere, will build them.",
+      "url": "https://x.com/naval/status/2120798325066911758"
+    },
+    {
+      "handle": "@mattpocockuk",
+      "quote": "I just told my agent \"treat me like a tool call\". So degrading",
+      "url": "https://x.com/mattpocockuk/status/2120795868509151239"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/claudeai/status/2120973994191094179",
+      "handle": "@claudeai",
+      "text": "Introducing Claude Meetings: add Claude to your team's video call and it builds docs, whiteboards, and other artifacts with you.",
+      "metric": "35.4k likes",
+      "note": "An AI teammate in live meetings is the day's most watched launch."
+    },
+    {
+      "url": "https://x.com/ClaudeDevs/status/2120938988165091693",
+      "handle": "@ClaudeDevs",
+      "text": "Self-hosted Claude Managed Agents is now in private beta.",
+      "metric": "7.9k likes",
+      "note": "Builders want agents that run where their data already lives."
+    },
+    {
+      "url": "https://x.com/GoogleDeepMind/status/2120940338869055788",
+      "handle": "@GoogleDeepMind",
+      "text": "Meet Gemini 4 Hydrogen: built for rapid coding, multimodal synthesis, and everyday workflows.",
+      "metric": "5.3k likes",
+      "note": "A fast new Gemini lands a day after Theo found Gemini 4 Carbon slow."
+    },
+    {
+      "url": "https://x.com/cursor_ai/status/2120944639633211619",
+      "handle": "@cursor_ai",
+      "text": "Gemini 4 Hydrogen is now available in Cursor! At its default effort, it scores 54.3% on CursorBench.",
+      "metric": "1.6k likes",
+      "note": "Developers get a quick benchmark to judge the new model."
+    },
+    {
+      "url": "https://x.com/ClaudeDevs/status/2120962481225146636",
+      "handle": "@ClaudeDevs",
+      "text": "New video: how we launch new models on our API, and how to measure cost per task when you upgrade.",
+      "metric": "862 likes",
+      "note": "Teams want a method for model upgrades, not just new models."
+    }
+  ]
+}
