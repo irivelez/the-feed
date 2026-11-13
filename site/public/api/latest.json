@@ -1,27 +1,165 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-13-0700",
+  "id": "2026-11-13-1300",
   "date": "2026-11-13",
-  "publishedAt": "2026-11-13T07:20:00-05:00",
-  "edition": "Morning",
+  "publishedAt": "2026-11-13T13:20:00-05:00",
+  "edition": "Midday",
   "top3": [
     {
-      "itemId": "gemini-4-carbon-argon-price-doubling",
-      "headline": "Gemini 4 Carbon and Argon prices double on Dec 1",
-      "whyItMatters": "Re-cost Gemini-based agent work now; the cheaper Hydrogen is only 25% off."
+      "itemId": "anthropic-dimon-dario-fireside",
+      "headline": "Amodei and Dimon go live as Anthropic's IPO moves ahead",
+      "whyItMatters": "Anthropic now pitches under IPO rules, so its public claims carry securities-law weight."
     },
     {
-      "itemId": "openai-persistent-agents-writeup",
-      "headline": "OpenAI's persistent agents, explained by the team running them",
-      "whyItMatters": "A frontier lab's own setup is a practical benchmark for how you run agents."
+      "itemId": "langchain-raises-300m",
+      "headline": "LangChain raises $300M at a $3B valuation",
+      "whyItMatters": "Over 7,000 companies run agents on LangSmith; check lock-in before your stack standardizes."
     },
     {
-      "itemId": "nvidia-chip-tracking-confirmed",
-      "headline": "Nvidia quietly confirmed it can track chips to stop smuggling",
-      "whyItMatters": "Chip tracking is feasible, so export rules could require it; watch your hardware supply."
+      "itemId": "rauchg-workflow-sdk-5",
+      "headline": "Vercel's Workflow SDK 5 targets faster, safer agent runs",
+      "whyItMatters": "Durable workflow runtimes are becoming the default way to run long agent jobs reliably."
     }
   ],
   "items": [
+    {
+      "id": "rauchg-workflow-sdk-5",
+      "title": "Rauch: Workflow SDK 5 makes Vercel agent steps faster",
+      "takeaway": "He claims faster time to first step and between steps, plus stronger encryption and security.",
+      "soWhat": "Durable workflow runtimes are becoming the default way to run long agent jobs reliably.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-13T16:23:16Z",
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2121277727940776114"
+      },
+      "image": {
+        "src": "/img/rauchg-workflow-sdk-5.jpg",
+        "alt": "Profile image of @rauchg"
+      },
+      "heat": {
+        "score": 4,
+        "level": "none",
+        "metric": "9k views"
+      }
+    },
+    {
+      "id": "langchain-raises-300m",
+      "title": "LangChain raises $300M at a $3B valuation",
+      "takeaway": "LangChain says more than 7,000 companies use LangSmith for agent runtime, improvement and governance.",
+      "soWhat": "Agent tooling vendors are scaling fast; check lock-in before your agent stack standardizes on one.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-13T16:06:57Z",
+      "source": {
+        "name": "@LangChain on X",
+        "url": "https://x.com/LangChain/status/2121273623658819687"
+      },
+      "image": {
+        "src": "/img/langchain-raises-300m.jpg",
+        "alt": "Image from @LangChain on X"
+      },
+      "heat": {
+        "score": 1,
+        "level": "none",
+        "metric": "4k views"
+      }
+    },
+    {
+      "id": "anthropic-dimon-dario-fireside",
+      "title": "Dario Amodei sits down live with JPMorgan's Jamie Dimon",
+      "takeaway": "Anthropic streamed the fireside at 12 PM ET; the post carries its SEC registration notice for the offering.",
+      "soWhat": "Anthropic is now pitching in public under IPO rules, so its claims carry securities-law weight.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-13T16:00:50Z",
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2121272083863011714"
+      },
+      "image": {
+        "src": "/img/anthropic-dimon-dario-fireside.jpg",
+        "alt": "@AnthropicAI on X: Dario Amodei sits down live with JPMorgan's Jamie Dimon"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "149k views"
+      }
+    },
+    {
+      "id": "a16z-wiz-ai-attacks-20-min",
+      "title": "Wiz CTO: AI runs in 20 minutes attacks that took weeks",
+      "takeaway": "Ami Luttwak says companies must keep attacking their own systems with the latest models.",
+      "soWhat": "Budget for continuous AI red-teaming; yearly penetration tests no longer match attacker speed.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 6,
+      "publishedAt": "2026-11-13T15:52:22Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2121269950816145544"
+      },
+      "image": {
+        "src": "/img/a16z-wiz-ai-attacks-20-min.jpg",
+        "alt": "Image from @a16z on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "12k views"
+      }
+    },
+    {
+      "id": "mengto-demo-skills",
+      "title": "Meng To shares the skills behind his product demos",
+      "takeaway": "dream-loop pairs Blender and image generation with a critic agent; Hairline draws pointer-aware isometric lines.",
+      "soWhat": "Design teams can package their demo craft as reusable agent skills.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-13T15:30:19Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2121264403530293624"
+      },
+      "image": {
+        "src": "/img/mengto-demo-skills.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 8,
+        "level": "none",
+        "metric": "9k views"
+      }
+    },
+    {
+      "id": "pocock-animatic-skills",
+      "title": "Matt Pocock builds skills that turn work into short videos",
+      "takeaway": "/setup-animatic sets up tooling; /animatic makes an upload-ready video. Both are in progress.",
+      "soWhat": "Video walkthroughs may replace long markdown write-ups when reviewing agent-built work.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-13T12:00:25Z",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2121211579098083668"
+      },
+      "image": {
+        "src": "/img/pocock-animatic-skills.jpg",
+        "alt": "Image from @mattpocockuk on X"
+      },
+      "heat": {
+        "score": 18,
+        "level": "none",
+        "metric": "57k views"
+      }
+    },
     {
       "id": "mengto-fable-52-threejs-game",
       "title": "Meng To: Fable 5.2 builds a three.js game under 10 MB",
@@ -117,13 +255,19 @@
       },
       "image": {
         "src": "/img/decider-v13-open-source.jpg",
-        "alt": "Profile image of @AravSrinivas"
+        "alt": "Image from @AravSrinivas on X"
       },
       "heat": {
         "score": 12,
         "level": "none",
         "metric": "56k views"
-      }
+      },
+      "related": [
+        {
+          "name": "@AravSrinivas on X",
+          "url": "https://x.com/AravSrinivas/status/2121294189388616070"
+        }
+      ]
     },
     {
       "id": "replit-agent-buys-ads",
@@ -146,47 +290,6 @@
         "score": 0,
         "level": "none",
         "metric": "7k views"
-      }
-    },
-    {
-      "id": "agent-launch-paid-praise-warning",
-      "title": "Steinberger warns of paid praise for a coming agent launch",
-      "takeaway": "He says marketers are offering a lot of money for nice X posts about an agent launching this week.",
-      "soWhat": "Discount launch-week hype on X and wait for independent tests before you buy.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-12T22:36:55Z",
-      "source": {
-        "name": "@steipete on X",
-        "url": "https://x.com/steipete/status/2121009372470067544"
-      },
-      "image": {
-        "src": "/img/agent-launch-paid-praise-warning.jpg",
-        "alt": "Profile image of @steipete"
-      },
-      "heat": {
-        "score": 20,
-        "level": "none",
-        "metric": "162k views"
-      }
-    },
-    {
-      "id": "gemini-4-hydrogen-ai-mode",
-      "title": "The Verge: Gemini 4 Hydrogen handles harder questions in AI Mode",
-      "takeaway": "Google's new model is better at understanding complicated questions in Search's AI Mode, The Verge reports.",
-      "soWhat": "AI answers in Search keep improving; check how AI Mode describes your company.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-12T21:55:32Z",
-      "source": {
-        "name": "The Verge AI",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen"
-      },
-      "image": {
-        "src": "/img/gemini-4-hydrogen-ai-mode.jpg",
-        "alt": "Image from The Verge AI"
       }
     },
     {
@@ -238,30 +341,6 @@
         "score": 52,
         "level": "warm",
         "metric": "1.8M views",
-        "voices": 2
-      }
-    },
-    {
-      "id": "gemini-4-hydrogen-cursorbench",
-      "title": "Cursor: Gemini 4 Hydrogen scores 54.3% on CursorBench",
-      "takeaway": "Up from 39.6% for Gemini 3.8 Flash at default effort; now available in Cursor.",
-      "soWhat": "A vendor benchmark shows a large jump; check it against your own coding tasks before switching.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-12T18:19:41Z",
-      "source": {
-        "name": "@cursor_ai on X",
-        "url": "https://x.com/cursor_ai/status/2120944639633211619"
-      },
-      "image": {
-        "src": "/img/gemini-4-hydrogen-cursorbench.jpg",
-        "alt": "Image from @cursor_ai on X"
-      },
-      "heat": {
-        "score": 30,
-        "level": "none",
-        "metric": "102k views",
         "voices": 2
       }
     },
@@ -333,47 +412,6 @@
         "score": 31,
         "level": "none",
         "metric": "444k views"
-      }
-    },
-    {
-      "id": "alexandr-wang-muse-phone-calls",
-      "title": "Muse can now make phone calls on your behalf",
-      "takeaway": "Alexandr Wang says Muse now calls insurers, cable firms, the DMV and restaurants for paid US users.",
-      "soWhat": "Agents now reach businesses by voice; expect them on your customer service lines soon.",
-      "lens": "broad",
-      "momentum": "shift",
-      "importance": 7,
-      "publishedAt": "2026-11-12T17:23:51Z",
-      "source": {
-        "name": "@alexandr_wang on X",
-        "url": "https://x.com/alexandr_wang/status/2120930586827391350"
-      },
-      "image": {
-        "src": "/img/alexandr-wang-muse-phone-calls.jpg",
-        "alt": "Image from @alexandr_wang on X"
-      }
-    },
-    {
-      "id": "mengto-heygen-scroll-landing",
-      "title": "Meng To builds a scroll-driven landing page from one video take",
-      "takeaway": "One 30-second HeyGen Video 1 take plays in reverse on scroll; he shares workflow, prompts and a template.",
-      "soWhat": "Rich landing pages no longer need a 3D team; one prompted video can carry the story.",
-      "lens": "design",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-12T15:06:53Z",
-      "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2120896116711727557"
-      },
-      "image": {
-        "src": "/img/mengto-heygen-scroll-landing.jpg",
-        "alt": "Image from @MengTo on X"
-      },
-      "heat": {
-        "score": 6,
-        "level": "none",
-        "metric": "13k views"
       }
     },
     {
@@ -479,34 +517,6 @@
       }
     },
     {
-      "id": "a16z-agent-web-traffic-8x",
-      "title": "AI agent web traffic grew 8x from August to October",
-      "takeaway": "a16z cites HUMAN Security; The Verge reports United won't let AI agents book flights.",
-      "soWhat": "Decide now whether agents are customers you serve or traffic you block.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-11T20:23:42Z",
-      "source": {
-        "name": "@a16z on X",
-        "url": "https://x.com/a16z/status/2120613457481671106"
-      },
-      "related": [
-        {
-          "name": "a16z: Welcome to the B2A Economy",
-          "url": "https://www.a16z.news/p/welcome-to-the-b2a-economy"
-        },
-        {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
-        }
-      ],
-      "image": {
-        "src": "/img/a16z-agent-web-traffic-8x.jpg",
-        "alt": "Image from @a16z on X"
-      }
-    },
-    {
       "id": "lynalden-bullish-2027-gpu-demand",
       "title": "Lyn Alden: wary of Huang's tenure, bullish on 2027 GPU demand",
       "takeaway": "She calls herself neutral to bearish on Huang as CEO and bullish on GPU demand in 2027.",
@@ -523,88 +533,70 @@
         "src": "/img/lynalden-bullish-2027-gpu-demand.jpg",
         "alt": "Image from @LynAldenContact on X"
       }
-    },
-    {
-      "id": "benaich-open-cyber-models-defenders",
-      "title": "Nathan Benaich: defenders need open cyber models too",
-      "takeaway": "He says Hugging Face found API guardrails slowed an intrusion probe and used a self-hosted open model.",
-      "soWhat": "Closed-model guardrails can block your own security team; keep an open-model option for incidents.",
-      "lens": "frontier-capital",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-09T16:00:01Z",
-      "source": {
-        "name": "@nathanbenaich on X",
-        "url": "https://x.com/nathanbenaich/status/2119822323650076803"
-      },
-      "image": {
-        "src": "/img/benaich-open-cyber-models-defenders.jpg",
-        "alt": "Image from @nathanbenaich on X"
-      }
     }
   ],
   "voices": [
     {
-      "handle": "@naval",
-      "quote": "Jensen Huang is the Steve Jobs of Nvidia. He is irreplaceable.",
-      "url": "https://x.com/naval/status/2121143697161236839"
+      "handle": "@mattpocockuk",
+      "quote": "Tired of walls of markdown? Try an /animatic.",
+      "url": "https://x.com/mattpocockuk/status/2121211579098083668"
+    },
+    {
+      "handle": "@rauchg",
+      "quote": "Workflow SDK 5 and Vercel Workflows are a monumental step forward for agents.",
+      "url": "https://x.com/rauchg/status/2121277727940776114"
+    },
+    {
+      "handle": "@LangChain",
+      "quote": "has raised $300M at a $3B valuation to advance our mission to enable every company to own its intelligence.",
+      "url": "https://x.com/LangChain/status/2121273623658819687"
     },
     {
       "handle": "@AravSrinivas",
-      "quote": "Decision Models are the future of agentic security. They can process billions of tokens of telemetry, identify security issues, and help you patch fixes…",
-      "url": "https://x.com/AravSrinivas/status/2121092767665598477"
+      "quote": "Perplexity handling billion decision model requests a month now on Openrouter and continuing to grew steadily.",
+      "url": "https://x.com/AravSrinivas/status/2121294189388616070"
     },
     {
-      "handle": "@mattpocockuk",
-      "quote": "My dream is for every important PR to be accompanied by a video that shows folks how it works.",
-      "url": "https://x.com/mattpocockuk/status/2121156583979962734"
-    },
-    {
-      "handle": "@theo",
-      "quote": "still garbage speeds compared to anything else on the market",
-      "url": "https://x.com/theo/status/2121030235248570537"
-    },
-    {
-      "handle": "@RayDalio",
-      "quote": "Ideally, someone other than you should be objectively measuring and reporting on your progress.",
-      "url": "https://x.com/RayDalio/status/2120940389074911420"
+      "handle": "@naval",
+      "quote": "Jensen Huang is the Steve Jobs of Nvidia. He is irreplaceable.",
+      "url": "https://x.com/naval/status/2121143697161236839"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/naval/status/2121143697161236839",
-      "handle": "@naval",
-      "text": "Jensen Huang is the Steve Jobs of Nvidia. He is irreplaceable.",
-      "metric": "22.4k likes",
-      "note": "The founder-replacement debate at Nvidia is the loudest story this morning."
+      "url": "https://x.com/AnthropicAI/status/2121272083863011714",
+      "handle": "@AnthropicAI",
+      "text": "Streaming live at 12 PM ET: A fireside chat with JPMorgan CEO Jamie Dimon and Dario Amodei.",
+      "metric": "1.3k likes",
+      "note": "The first public Wall Street stage for Anthropic since its IPO filing."
     },
     {
-      "url": "https://x.com/steipete/status/2121009372470067544",
-      "handle": "@steipete",
-      "text": "There's some new agent launching later this week and marketers offer a lot of money to say nice things about it on X.",
-      "metric": "1.6k likes",
-      "note": "Builders distrust paid launch hype and want honest reviews."
-    },
-    {
-      "url": "https://x.com/theo/status/2121030235248570537",
-      "handle": "@theo",
-      "text": "'Built for speed' is 'still garbage speeds compared to anything else on the market'",
-      "metric": "982 likes",
-      "note": "Developers doubt Google's speed claims for Gemini 4."
-    },
-    {
-      "url": "https://x.com/steipete/status/2121058770767982997",
-      "handle": "@steipete",
-      "text": "My team wrote about how we run persistent agents inside OpenAI.",
-      "metric": "883 likes",
-      "note": "A rare look at how a frontier lab runs agents on its own work."
-    },
-    {
-      "url": "https://x.com/mattpocockuk/status/2121156583979962734",
+      "url": "https://x.com/mattpocockuk/status/2121211579098083668",
       "handle": "@mattpocockuk",
-      "text": "My dream is for every important PR to be accompanied by a video that shows folks how it works.",
-      "metric": "865 likes",
-      "note": "Reviewing agent-written code is a bottleneck; video walkthroughs could ease it."
+      "text": "Tired of walls of markdown? Try an /animatic.",
+      "metric": "1.1k likes",
+      "note": "Builders are tired of reading long agent write-ups and want video instead."
+    },
+    {
+      "url": "https://x.com/MengTo/status/2121264403530293624",
+      "handle": "@MengTo",
+      "text": "The skills I use to make demos: dream-loop, Hairline, and Emil Kowalski's skill.",
+      "metric": "266 likes",
+      "note": "Designers want the exact tools behind polished AI demos."
+    },
+    {
+      "url": "https://x.com/rauchg/status/2121277727940776114",
+      "handle": "@rauchg",
+      "text": "Workflow SDK 5 and Vercel Workflows are a monumental step forward for agents.",
+      "metric": "130 likes",
+      "note": "Teams running long agent jobs want faster, more reliable runtimes."
+    },
+    {
+      "url": "https://x.com/LangChain/status/2121273623658819687",
+      "handle": "@LangChain",
+      "text": "LangChain has raised $300M at a $3B valuation.",
+      "metric": "74 likes",
+      "note": "A big round signals where agent infrastructure money is going."
     }
   ]
 }
