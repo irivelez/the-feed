@@ -1,0 +1,203 @@
+{
+ "schemaVersion": "1.1",
+ "runId": "2026-11-14-0634",
+ "generatedAt": "2026-11-14T06:34:00-05:00",
+ "configVersions": {
+  "sources": "1.3.0",
+  "preferences": "1.1.0"
+ },
+ "window": {
+  "from": "2026-11-14T00:00:00Z",
+  "to": "2026-11-14T11:34:00Z"
+ },
+ "sourceNotes": [
+  "X: 2 handle-search calls (howTo handles, bigPicture+frontier+design handles) over last 14h; authorBaseline not read. Query lane, replies, RSS, arXiv and Hacker News not refetched this run.",
+  "Skipped as weak or no first-hand proof: Theo vacation/joke posts, Amjad Masad 'Stand with Jensen' and Murphy's world posts, Garry Tan Stand with Jensen post (political letter). No frontier-capital posts in window."
+ ],
+ "candidates": [
+  {
+   "id": "theo-software-more-stable-ai",
+   "lens": "broad",
+   "summary": "theo: 'Hot take: Software will get more stable overall thanks to AI'",
+   "source": {
+    "name": "@theo on X",
+    "url": "https://x.com/theo/status/2121458046249665010",
+    "type": "x",
+    "handle": "theo"
+   },
+   "publishedAt": "2026-11-14T04:19:47Z",
+   "metrics": {
+    "likes": 2123,
+    "reposts": 58,
+    "replies": 266,
+    "views": 61052,
+    "capturedAt": "2026-11-14T06:34:00-05:00"
+   },
+   "care": 3,
+   "proof": 2,
+   "firstSeen": "2026-11-14",
+   "topic": "ai-software-stability"
+  },
+  {
+   "id": "theo-t3-code-custom-ui",
+   "lens": "practical",
+   "summary": "theo: 'T3 Code now lets you fully customize your UI in app. Ask your agent to make changes and it will update on the fly'",
+   "source": {
+    "name": "@theo on X",
+    "url": "https://x.com/theo/status/2121455838414201200",
+    "type": "x",
+    "handle": "theo"
+   },
+   "publishedAt": "2026-11-14T04:11:01Z",
+   "metrics": {
+    "likes": 3062,
+    "reposts": 59,
+    "replies": 253,
+    "views": 114781,
+    "capturedAt": "2026-11-14T06:34:00-05:00"
+   },
+   "care": 3,
+   "proof": 3,
+   "firstSeen": "2026-11-14",
+   "topic": "t3-code-custom-ui"
+  },
+  {
+   "id": "amasad-replit-visa-agentic-commerce",
+   "lens": "broad",
+   "summary": "amasad: 'It's been great partnering with @Visa on agentic commerce. More features and use cases are coming!'",
+   "source": {
+    "name": "@amasad on X",
+    "url": "https://x.com/amasad/status/2121428406764204199",
+    "type": "x",
+    "handle": "amasad"
+   },
+   "publishedAt": "2026-11-14T02:22:01Z",
+   "metrics": {
+    "likes": 127,
+    "reposts": 8,
+    "replies": 39,
+    "views": 9642,
+    "capturedAt": "2026-11-14T06:34:00-05:00"
+   },
+   "care": 3,
+   "proof": 3,
+   "firstSeen": "2026-11-14",
+   "topic": "agentic-commerce"
+  },
+  {
+   "id": "cursor-security-incident-update",
+   "lens": "broad",
+   "summary": "cursor_ai: 'We’ve published an update on our recent security incident. See a detailed overview of what happened and our remediation steps here:'",
+   "source": {
+    "name": "@cursor_ai on X",
+    "url": "https://x.com/cursor_ai/status/2121411147714970092",
+    "type": "x",
+    "handle": "cursor_ai"
+   },
+   "publishedAt": "2026-11-14T01:13:26Z",
+   "metrics": {
+    "likes": 1434,
+    "reposts": 113,
+    "replies": 136,
+    "views": 196384,
+    "capturedAt": "2026-11-14T06:34:00-05:00"
+   },
+   "care": 4,
+   "proof": 4,
+   "firstSeen": "2026-11-14",
+   "topic": "cursor-security-incident"
+  },
+  {
+   "id": "claudedevs-claude-code-desktop-mods",
+   "lens": "practical",
+   "summary": "ClaudeDevs: 'You can now build custom themes for Claude Code on desktop with mods! Change the colors, add an animated background, and make it your own. Just tell Claude how you want it to look, or get started quickly with the theme-examples plugin. We'd love to see what you make!'",
+   "source": {
+    "name": "@ClaudeDevs on X",
+    "url": "https://x.com/ClaudeDevs/status/2121392666244186327",
+    "type": "x",
+    "handle": "ClaudeDevs"
+   },
+   "publishedAt": "2026-11-13T23:59:59Z",
+   "metrics": {
+    "likes": 14966,
+    "reposts": 782,
+    "replies": 509,
+    "views": 799104,
+    "capturedAt": "2026-11-14T06:34:00-05:00"
+   },
+   "care": 4,
+   "proof": 4,
+   "firstSeen": "2026-11-14",
+   "topic": "claude-code-mods"
+  },
+  {
+   "id": "claudedevs-claude-code-projects-coordinator",
+   "lens": "practical",
+   "summary": "ClaudeDevs: 'We've made some big updates to Projects in Claude Code! In a project, Claude coordinates your tasks across parallel threads. The coordinator is now much more proactive. It answers your questions in the project chat and gives you updates on the status of your ongoing threads.'",
+   "source": {
+    "name": "@ClaudeDevs on X",
+    "url": "https://x.com/ClaudeDevs/status/2121375309287301360",
+    "type": "x",
+    "handle": "ClaudeDevs"
+   },
+   "publishedAt": "2026-11-13T22:51:01Z",
+   "metrics": {
+    "likes": 12715,
+    "reposts": 539,
+    "replies": 431,
+    "views": 722987,
+    "capturedAt": "2026-11-14T06:34:00-05:00"
+   },
+   "care": 5,
+   "proof": 4,
+   "firstSeen": "2026-11-14",
+   "topic": "claude-code-projects"
+  },
+  {
+   "id": "mengto-tripo-blender-claude-workflow",
+   "lens": "design",
+   "summary": "MengTo: 'This is such an insane workflow. 5% Tripo3D, Blender, and Claude Opus 5.5. The workflow in English, from Kamome Ashizawa's (葦沢かもめ) write-up: 1. Give Claude 3 reference images and a short backstory 2. Harness: CLAUDE.md plus subagents for planning,'",
+   "source": {
+    "name": "@MengTo on X",
+    "url": "https://x.com/MengTo/status/2121498420997419510",
+    "type": "x",
+    "handle": "MengTo"
+   },
+   "publishedAt": "2026-11-14T07:00:13Z",
+   "metrics": {
+    "likes": 168,
+    "reposts": 14,
+    "replies": 18,
+    "views": 11981,
+    "capturedAt": "2026-11-14T06:34:00-05:00"
+   },
+   "care": 3,
+   "proof": 3,
+   "firstSeen": "2026-11-14",
+   "topic": "3d-design-workflow"
+  },
+  {
+   "id": "garrytan-opus-vs-fable-eval",
+   "lens": "practical",
+   "summary": "garrytan: 'Keep Opus 5.5 as your coding default in Claude Code. On 52 coding tasks in Claude Code 2.1.322, Fable 5.2 solved about as many (82.7% vs 84.6%) but cost 2.80x as much per solved task. Opus already solves most of these tasks, though, so telling the two apart will take harder'",
+   "source": {
+    "name": "@garrytan on X",
+    "url": "https://x.com/garrytan/status/2121464508225053153",
+    "type": "x",
+    "handle": "garrytan"
+   },
+   "publishedAt": "2026-11-14T04:45:28Z",
+   "metrics": {
+    "likes": 288,
+    "reposts": 14,
+    "replies": 134,
+    "views": 24542,
+    "capturedAt": "2026-11-14T06:34:00-05:00"
+   },
+   "care": 4,
+   "proof": 4,
+   "firstSeen": "2026-11-14",
+   "topic": "claude-model-cost-eval"
+  }
+ ]
+}
