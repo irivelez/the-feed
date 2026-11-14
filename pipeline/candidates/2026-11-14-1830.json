@@ -1,0 +1,228 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-14-1830",
+  "generatedAt": "2026-11-14T23:31:46.411Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-14T03:31:18.826Z",
+    "to": "2026-11-14T23:31:46.411Z"
+  },
+  "sourceNotes": [
+    "X: 3 batched search calls only; no reply capture, no authorBaseline reads. Bigpicture lab accounts (sama, OpenAI, Anthropic, DeepMind, a16z) returned no original posts in window.",
+    "RSS fetched: Simon Willison (only datasette/llm releases new), Verge, Stratechery, Lenny, Mitchell Hashimoto (last post Nov 6), One Useful Thing (last Nov 9). Not refetched: other RSS, arXiv, HN.",
+    "Mostly weekend-quiet; Theo and swyx reposts are noise."
+  ],
+  "candidates": [
+    {
+      "id": "t3-code-customizable-ui",
+      "lens": "practical",
+      "summary": "Theo says T3 Code now lets users fully customize the in-app UI by asking their agent to make changes, which update on the fly.",
+      "source": {
+        "name": "Theo on X",
+        "url": "https://x.com/theo/status/2121455838414201200",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-14T04:11:01Z",
+      "metrics": {
+        "likes": 4514,
+        "reposts": 79,
+        "replies": 363,
+        "views": 240168,
+        "capturedAt": "2026-11-14T23:31:46.411Z"
+      },
+      "topic": "t3-code-custom-ui",
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "t3-code-nontechnical-customize",
+      "lens": "practical",
+      "summary": "Theo reports a nontechnical friend asked her agent to customize her T3 Code install after seeing the feature; he says the feature is currently on a non-stable build.",
+      "source": {
+        "name": "Theo on X",
+        "url": "https://x.com/theo/status/2121711410745061572",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-14T21:06:34Z",
+      "metrics": {
+        "likes": 813,
+        "reposts": 6,
+        "replies": 61,
+        "views": 37439,
+        "capturedAt": "2026-11-14T23:31:46.411Z"
+      },
+      "topic": "t3-code-custom-ui",
+      "care": 2,
+      "proof": 2
+    },
+    {
+      "id": "simonw-claude-auto-mode-permission",
+      "lens": "practical",
+      "summary": "Simon Willison says regular Claude chat now uses 'auto mode', so it may occasionally refuse to run something; he describes prompting a session-level permission grant.",
+      "source": {
+        "name": "Simon Willison on X",
+        "url": "https://x.com/simonw/status/2121695097674981849",
+        "type": "x",
+        "handle": "simonw"
+      },
+      "publishedAt": "2026-11-14T20:01:45Z",
+      "metrics": {
+        "likes": 253,
+        "reposts": 3,
+        "replies": 110,
+        "views": 16762,
+        "capturedAt": "2026-11-14T23:31:46.411Z"
+      },
+      "topic": "claude-auto-mode",
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "mengto-claude-blender-3d-workflow",
+      "lens": "design",
+      "summary": "MengTo shares a 3D workflow using Tripo3D, Blender and Claude Opus 5.5, from a write-up by Kamome Ashizawa; step one is giving Claude 3 reference images.",
+      "source": {
+        "name": "MengTo on X",
+        "url": "https://x.com/MengTo/status/2121498420997419510",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-14T07:00:13Z",
+      "metrics": {
+        "likes": 476,
+        "reposts": 28,
+        "replies": 18,
+        "views": 36153,
+        "capturedAt": "2026-11-14T23:31:46.411Z"
+      },
+      "topic": "ai-3d-design-workflow",
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "mengto-fable-blender-trailer",
+      "lens": "design",
+      "summary": "MengTo says he asked Fable 5.2 to recreate his three.js game trailer in Blender and got a result in a few hours.",
+      "source": {
+        "name": "MengTo on X",
+        "url": "https://x.com/MengTo/status/2121614786245104107",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-14T14:42:37Z",
+      "metrics": {
+        "likes": 263,
+        "reposts": 21,
+        "replies": 34,
+        "views": 15493,
+        "capturedAt": "2026-11-14T23:31:46.411Z"
+      },
+      "topic": "ai-3d-design-workflow",
+      "care": 2,
+      "proof": 2
+    },
+    {
+      "id": "verge-chatgpt-wallet-dots",
+      "lens": "broad",
+      "summary": "The Verge reports ChatGPT Wallet lets OpenAI's Dots agents make purchases for users.",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-13T20:45:10Z",
+      "topic": "agent-payments",
+      "care": 4,
+      "proof": 3
+    },
+    {
+      "id": "verge-claude-duet-agent",
+      "lens": "practical",
+      "summary": "The Verge published hands-on coverage of Claude's Duet agent, calling it a little neurotic and surprisingly helpful.",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-13T14:00:00Z",
+      "topic": "claude-duet-agent",
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "stratechery-end-of-jensen",
+      "lens": "broad",
+      "summary": "Stratechery 2026.46 'The End of Jensen' on Nvidia's leadership transition; The Verge also ran pieces on Jensen Huang's exit and what is at stake.",
+      "source": {
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/the-end-of-jensen/",
+        "type": "rss"
+      },
+      "related": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo"
+        }
+      ],
+      "publishedAt": "2026-11-13T18:00:00Z",
+      "topic": "nvidia-ceo-transition",
+      "care": 4,
+      "proof": 3
+    },
+    {
+      "id": "verge-amazon-product-graph",
+      "lens": "broad",
+      "summary": "The Verge reports Amazon has a plan to index the world's online shopping data (a world product graph) for AI search.",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-13T23:49:11Z",
+      "topic": "agent-commerce",
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "lenny-claude-code-obsidian",
+      "lens": "practical",
+      "summary": "Lenny's Newsletter: 'Claude Code + Obsidian: My family's AI brain' with Scott Farrar.",
+      "source": {
+        "name": "Lenny Rachitsky",
+        "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-14T21:15:46Z",
+      "topic": "claude-code-workflows",
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "nathanbenaich-ai-infra-security",
+      "lens": "frontier-capital",
+      "summary": "Nathan Benaich says the security robustness of inference providers and their bare-metal suppliers is increasingly precarious, and sees an opportunity for a company securing AI infrastructure.",
+      "source": {
+        "name": "Nathan Benaich on X",
+        "url": "https://x.com/nathanbenaich/status/2121591307156234271",
+        "type": "x",
+        "handle": "nathanbenaich"
+      },
+      "publishedAt": "2026-11-14T13:09:19Z",
+      "metrics": {
+        "likes": 12,
+        "reposts": 2,
+        "replies": 10,
+        "views": 1663,
+        "capturedAt": "2026-11-14T23:31:46.411Z"
+      },
+      "topic": "ai-infra-security",
+      "care": 3,
+      "proof": 2
+    }
+  ]
+}
