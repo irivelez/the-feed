@@ -1,27 +1,165 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-13-1900",
-  "date": "2026-11-13",
-  "publishedAt": "2026-11-13T19:10:33-05:00",
-  "edition": "Evening",
+  "id": "2026-11-14-0700",
+  "date": "2026-11-14",
+  "publishedAt": "2026-11-14T07:19:26-05:00",
+  "edition": "Morning",
   "top3": [
+    {
+      "itemId": "cursor-security-incident-update",
+      "headline": "Cursor details what happened in its security incident",
+      "whyItMatters": "Coding agents touch code and secrets, so vendor incident reports belong in your security reviews."
+    },
+    {
+      "itemId": "garrytan-opus-vs-fable-eval",
+      "headline": "Fable 5.2 costs 2.8x more than Opus 5.5 per solved task",
+      "whyItMatters": "Model choice is a budget line now; test before paying premium rates for similar results."
+    },
     {
       "itemId": "claudedevs-claude-code-projects-coordinator",
       "headline": "Claude Code Projects now update you on parallel agent threads",
       "whyItMatters": "Parallel agent work now reports status in one chat, which lowers the cost of oversight."
-    },
-    {
-      "itemId": "sundar-google-week-recap",
-      "headline": "Google ships two TPUs and two Gemini 4 models in one week",
-      "whyItMatters": "One vendor now moves chips, models and APIs at once; weigh the whole stack in reviews."
-    },
-    {
-      "itemId": "anthropic-dimon-dario-fireside",
-      "headline": "Amodei and Dimon go live as Anthropic's IPO moves ahead",
-      "whyItMatters": "Anthropic now pitches under IPO rules, so its public claims carry securities-law weight."
     }
   ],
   "items": [
+    {
+      "id": "mengto-tripo-blender-claude-workflow",
+      "title": "Meng To shares a 3D workflow using Tripo3D, Blender and Claude",
+      "takeaway": "From Kamome Ashizawa's write-up: give Claude three reference images and a backstory, with CLAUDE.md and planning subagents.",
+      "soWhat": "3D asset work now runs through agent harnesses, not only modeling tools.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-14T07:00:13Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2121498420997419510"
+      },
+      "image": {
+        "src": "/img/mengto-tripo-blender-claude-workflow.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 5,
+        "level": "none",
+        "metric": "12k views"
+      }
+    },
+    {
+      "id": "garrytan-opus-vs-fable-eval",
+      "title": "Garry Tan: Fable 5.2 costs 2.8x more per solved coding task",
+      "takeaway": "On 52 Claude Code tasks, Fable 5.2 solved 82.7% vs 84.6% for Opus 5.5, at 2.80x the cost per solved task.",
+      "soWhat": "Keep the cheaper model as default until harder tasks show a real gap.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-14T04:45:28Z",
+      "source": {
+        "name": "@garrytan on X",
+        "url": "https://x.com/garrytan/status/2121464508225053153"
+      },
+      "image": {
+        "src": "/img/garrytan-opus-vs-fable-eval.jpg",
+        "alt": "Image from @garrytan on X"
+      },
+      "heat": {
+        "score": 10,
+        "level": "none",
+        "metric": "25k views"
+      }
+    },
+    {
+      "id": "theo-t3-code-custom-ui",
+      "title": "T3 Code lets agents restyle the app's interface on the fly",
+      "takeaway": "Theo says T3 Code users can ask their agent to change the UI and see it update live.",
+      "soWhat": "Self-customizing tools let teams shape software by request instead of by ticket.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-14T04:11:01Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2121455838414201200"
+      },
+      "image": {
+        "src": "/img/theo-t3-code-custom-ui.jpg",
+        "alt": "Image from @theo on X"
+      },
+      "heat": {
+        "score": 25,
+        "level": "none",
+        "metric": "115k views"
+      }
+    },
+    {
+      "id": "amasad-replit-visa-agentic-commerce",
+      "title": "Replit CEO says Visa agentic commerce work will expand",
+      "takeaway": "Amjad Masad says partnering with Visa on agentic commerce has gone well, with more features and use cases coming.",
+      "soWhat": "Payment networks are building rails for agents to buy, so plan controls on agent spending.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-14T02:22:01Z",
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2121428406764204199"
+      },
+      "image": {
+        "src": "/img/amasad-replit-visa-agentic-commerce.jpg",
+        "alt": "Profile image of @amasad"
+      },
+      "heat": {
+        "score": 4,
+        "level": "none",
+        "metric": "10k views"
+      }
+    },
+    {
+      "id": "cursor-security-incident-update",
+      "title": "Cursor publishes its security incident report and remediation steps",
+      "takeaway": "Cursor posted an update on its recent security incident, with an overview of what happened and its remediation steps.",
+      "soWhat": "Teams using Cursor should read the report and confirm the fixes cover their setup.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-14T01:13:26Z",
+      "source": {
+        "name": "@cursor_ai on X",
+        "url": "https://x.com/cursor_ai/status/2121411147714970092"
+      },
+      "image": {
+        "src": "/img/cursor-security-incident-update.jpg",
+        "alt": "Image from @cursor_ai on X"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "196k views"
+      }
+    },
+    {
+      "id": "claudedevs-claude-code-desktop-mods",
+      "title": "Claude Code desktop adds mods for custom themes",
+      "takeaway": "Users change colors or add animated backgrounds by describing the look to Claude, or start from a theme-examples plugin.",
+      "soWhat": "Agents now reshape the tools they run in, a pattern to watch for internal software.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-13T23:59:59Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2121392666244186327"
+      },
+      "image": {
+        "src": "/img/claudedevs-claude-code-desktop-mods.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      },
+      "heat": {
+        "score": 36,
+        "level": "none",
+        "metric": "799k views"
+      }
+    },
     {
       "id": "claudedevs-claude-code-projects-coordinator",
       "title": "Claude Code Projects get a more proactive coordinator",
@@ -40,9 +178,9 @@
         "alt": "Image from @ClaudeDevs on X"
       },
       "heat": {
-        "score": 25,
+        "score": 34,
         "level": "none",
-        "metric": "113k views"
+        "metric": "723k views"
       }
     },
     {
@@ -269,42 +407,6 @@
       }
     },
     {
-      "id": "replit-agent-buys-ads",
-      "title": "Replit Agent can now buy ads for your business",
-      "takeaway": "Replit's CEO says users can ask the agent to make purchases, including ads to acquire customers.",
-      "soWhat": "Agents now spend company money; set budgets, approvals and audit trails before turning this on.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-12T23:11:17Z",
-      "source": {
-        "name": "@amasad on X",
-        "url": "https://x.com/amasad/status/2121018020520931712"
-      },
-      "image": {
-        "src": "/img/replit-agent-buys-ads.jpg",
-        "alt": "Image from @amasad on X"
-      }
-    },
-    {
-      "id": "claude-meetings-launch",
-      "title": "Anthropic puts Claude inside your team's video calls",
-      "takeaway": "Claude Meetings joins video calls and builds docs and whiteboards live; beta on Team and Enterprise plans.",
-      "soWhat": "Meetings become a source of agent context; set rules for what Claude may hear and keep.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 9,
-      "publishedAt": "2026-11-12T20:16:20Z",
-      "source": {
-        "name": "@claudeai on X",
-        "url": "https://x.com/claudeai/status/2120973994191094179"
-      },
-      "image": {
-        "src": "/img/claude-meetings-launch.jpg",
-        "alt": "Image from @claudeai on X"
-      }
-    },
-    {
       "id": "dalio-outside-progress-measurement",
       "title": "Ray Dalio: let someone else measure your progress",
       "takeaway": "Ideally someone other than you measures and reports your progress; missed targets are a separate problem to diagnose.",
@@ -320,52 +422,6 @@
       "image": {
         "src": "/img/dalio-outside-progress-measurement.jpg",
         "alt": "Image from @RayDalio on X"
-      }
-    },
-    {
-      "id": "claude-managed-agents-self-hosted",
-      "title": "Claude Managed Agents can now run in your own cloud",
-      "takeaway": "Private beta: host the agent harness, sandboxes and session history on your cloud or on-premises.",
-      "soWhat": "Regulated teams can run Anthropic's agents while keeping data and logs inside their walls.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 9,
-      "publishedAt": "2026-11-12T17:57:14Z",
-      "source": {
-        "name": "@ClaudeDevs on X",
-        "url": "https://x.com/ClaudeDevs/status/2120938988165091693"
-      },
-      "image": {
-        "src": "/img/claude-managed-agents-self-hosted.jpg",
-        "alt": "Image from @ClaudeDevs on X"
-      }
-    },
-    {
-      "id": "nvidia-ceo-transition-announcement",
-      "title": "Jensen Huang resigns as Nvidia CEO, effective immediately",
-      "takeaway": "Nvidia's newsroom announced a CEO transition; Reuters live coverage reports Huang resigned immediately.",
-      "soWhat": "Your biggest AI supplier changes leaders mid-boom; watch for shifts in pricing, roadmap and allocation.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 10,
-      "publishedAt": "2026-11-12T13:49:13Z",
-      "source": {
-        "name": "@nvidianewsroom on X",
-        "url": "https://x.com/nvidianewsroom/status/2120876571829662014"
-      },
-      "related": [
-        {
-          "name": "Reuters live",
-          "url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/"
-        },
-        {
-          "name": "Hacker News thread",
-          "url": "https://news.ycombinator.com/item?id=50467132"
-        }
-      ],
-      "image": {
-        "src": "/img/nvidia-ceo-transition-announcement.jpg",
-        "alt": "Profile image of @nvidianewsroom"
       }
     },
     {
@@ -415,34 +471,6 @@
       }
     },
     {
-      "id": "verge-united-blocks-agents",
-      "title": "United won't let unauthorized AI agents book flights",
-      "takeaway": "The Verge reports United is refusing bookings made by unauthorized AI agents.",
-      "soWhat": "Agent access is now a business decision; check which partners will block your customer-facing agents.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-11T21:54:21Z",
-      "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
-      },
-      "related": [
-        {
-          "name": "CBS News",
-          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
-        },
-        {
-          "name": "Hacker News thread",
-          "url": "https://news.ycombinator.com/item?id=50458900"
-        }
-      ],
-      "image": {
-        "src": "/img/verge-united-blocks-agents.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
       "id": "lynalden-bullish-2027-gpu-demand",
       "title": "Lyn Alden: wary of Huang's tenure, bullish on 2027 GPU demand",
       "takeaway": "She calls herself neutral to bearish on Huang as CEO and bullish on GPU demand in 2027.",
@@ -463,59 +491,66 @@
   ],
   "voices": [
     {
+      "handle": "@garrytan",
+      "quote": "On 52 coding tasks in Claude Code 2.1.322, Fable 5.2 solved about as many (82.7% vs 84.6%) but cost 2.80x as much per solved task.",
+      "url": "https://x.com/garrytan/status/2121464508225053153"
+    },
+    {
+      "handle": "@cursor_ai",
+      "quote": "We’ve published an update on our recent security incident.",
+      "url": "https://x.com/cursor_ai/status/2121411147714970092"
+    },
+    {
+      "handle": "@theo",
+      "quote": "T3 Code now lets you fully customize your UI in app. Ask your agent to make changes and it will update on the fly",
+      "url": "https://x.com/theo/status/2121455838414201200"
+    },
+    {
+      "handle": "@ClaudeDevs",
+      "quote": "Just tell Claude how you want it to look, or get started quickly with the theme-examples plugin.",
+      "url": "https://x.com/ClaudeDevs/status/2121392666244186327"
+    },
+    {
       "handle": "@ClaudeDevs",
       "quote": "In a project, Claude coordinates your tasks across parallel threads. The coordinator is now much more proactive.",
       "url": "https://x.com/ClaudeDevs/status/2121375309287301360"
-    },
-    {
-      "handle": "@AnthropicAI",
-      "quote": "Safety evaluations are critical for understanding whether a model is ready to deploy, which safeguards to build for it, and where to focus training and research.",
-      "url": "https://x.com/AnthropicAI/status/2121317227618340990"
-    },
-    {
-      "handle": "@garrytan",
-      "quote": "What if your own personal agent could recursively self improve as you use it? You can.",
-      "url": "https://x.com/garrytan/status/2121352628915593422"
-    },
-    {
-      "handle": "@rauchg",
-      "quote": "Workflow SDK 5 and Vercel Workflows are a monumental step forward for agents.",
-      "url": "https://x.com/rauchg/status/2121277727940776114"
-    },
-    {
-      "handle": "@LangChain",
-      "quote": "has raised $300M at a $3B valuation to advance our mission to enable every company to own its intelligence.",
-      "url": "https://x.com/LangChain/status/2121273623658819687"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/sundarpichai/status/2121338095664808238",
-      "handle": "@sundarpichai",
-      "text": "Google's week: two 8th-gen TPUs, Gemini 4 Carbon, Gemini Robotics 2.5, AlphaGenome 2 and Gemini 4 Hydrogen.",
-      "metric": "4.8k likes",
-      "note": "One post sums up a full week of Google chip and model launches."
+      "url": "https://x.com/ClaudeDevs/status/2121392666244186327",
+      "handle": "@ClaudeDevs",
+      "text": "You can now build custom themes for Claude Code on desktop with mods. Just tell Claude how you want it to look.",
+      "metric": "15k likes",
+      "note": "Builders like tools they can reshape by asking the agent."
     },
     {
       "url": "https://x.com/ClaudeDevs/status/2121375309287301360",
       "handle": "@ClaudeDevs",
-      "text": "We've made some big updates to Projects in Claude Code! The coordinator is now much more proactive.",
-      "metric": "3.3k likes",
-      "note": "Builders want one place to follow many agent threads at once."
+      "text": "We've made some big updates to Projects in Claude Code. The coordinator is now much more proactive.",
+      "metric": "12.7k likes",
+      "note": "One chat to follow many parallel agent threads is a clear need."
     },
     {
-      "url": "https://x.com/AnthropicAI/status/2121317227618340990",
-      "handle": "@AnthropicAI",
-      "text": "On our Engineering Blog, we offer 10 recommendations for how to design, run and report safety evaluations.",
+      "url": "https://x.com/theo/status/2121455838414201200",
+      "handle": "@theo",
+      "text": "T3 Code now lets you fully customize your UI in app. Ask your agent to make changes and it will update on the fly",
+      "metric": "3.1k likes",
+      "note": "A second coding tool ships agent-driven UI changes the same night."
+    },
+    {
+      "url": "https://x.com/theo/status/2121458046249665010",
+      "handle": "@theo",
+      "text": "Hot take: Software will get more stable overall thanks to AI",
+      "metric": "2.1k likes",
+      "note": "A contested claim; 266 replies show builders split on AI and quality."
+    },
+    {
+      "url": "https://x.com/cursor_ai/status/2121411147714970092",
+      "handle": "@cursor_ai",
+      "text": "We’ve published an update on our recent security incident, with an overview of what happened and remediation steps.",
       "metric": "1.4k likes",
-      "note": "A frontier lab is sharing how it decides a model is safe to ship."
-    },
-    {
-      "url": "https://x.com/garrytan/status/2121352628915593422",
-      "handle": "@garrytan",
-      "text": "What if your own personal agent could recursively self improve as you use it? You can.",
-      "metric": "219 likes",
-      "note": "Self-improving personal agents are a promise many builders want to test."
+      "note": "Security of coding agents is a live concern for teams that use them."
     }
   ]
 }
