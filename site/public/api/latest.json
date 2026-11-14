@@ -1,27 +1,119 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-13-1300",
+  "id": "2026-11-13-1900",
   "date": "2026-11-13",
-  "publishedAt": "2026-11-13T13:20:00-05:00",
-  "edition": "Midday",
+  "publishedAt": "2026-11-13T19:10:33-05:00",
+  "edition": "Evening",
   "top3": [
+    {
+      "itemId": "claudedevs-claude-code-projects-coordinator",
+      "headline": "Claude Code Projects now update you on parallel agent threads",
+      "whyItMatters": "Parallel agent work now reports status in one chat, which lowers the cost of oversight."
+    },
+    {
+      "itemId": "sundar-google-week-recap",
+      "headline": "Google ships two TPUs and two Gemini 4 models in one week",
+      "whyItMatters": "One vendor now moves chips, models and APIs at once; weigh the whole stack in reviews."
+    },
     {
       "itemId": "anthropic-dimon-dario-fireside",
       "headline": "Amodei and Dimon go live as Anthropic's IPO moves ahead",
       "whyItMatters": "Anthropic now pitches under IPO rules, so its public claims carry securities-law weight."
-    },
-    {
-      "itemId": "langchain-raises-300m",
-      "headline": "LangChain raises $300M at a $3B valuation",
-      "whyItMatters": "Over 7,000 companies run agents on LangSmith; check lock-in before your stack standardizes."
-    },
-    {
-      "itemId": "rauchg-workflow-sdk-5",
-      "headline": "Vercel's Workflow SDK 5 targets faster, safer agent runs",
-      "whyItMatters": "Durable workflow runtimes are becoming the default way to run long agent jobs reliably."
     }
   ],
   "items": [
+    {
+      "id": "claudedevs-claude-code-projects-coordinator",
+      "title": "Claude Code Projects get a more proactive coordinator",
+      "takeaway": "In a project, Claude coordinates tasks across parallel threads and now answers questions and posts status updates.",
+      "soWhat": "Leaders can follow parallel agent work in one project chat instead of checking each thread.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-11-13T22:51:01Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2121375309287301360"
+      },
+      "image": {
+        "src": "/img/claudedevs-claude-code-projects-coordinator.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      },
+      "heat": {
+        "score": 25,
+        "level": "none",
+        "metric": "113k views"
+      }
+    },
+    {
+      "id": "garrytan-idea-minder-skill",
+      "title": "Garry Tan's idea-minder skill lets a personal agent self-improve",
+      "takeaway": "Tan says the skill lets a personal agent recursively improve itself as you use it, and links to it.",
+      "soWhat": "Treat self-improving skills as a claim to test on low-risk work before you trust them.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-13T21:20:54Z",
+      "source": {
+        "name": "@garrytan on X",
+        "url": "https://x.com/garrytan/status/2121352628915593422"
+      },
+      "image": {
+        "src": "/img/garrytan-idea-minder-skill.jpg",
+        "alt": "Image from @garrytan on X"
+      },
+      "heat": {
+        "score": 8,
+        "level": "none",
+        "metric": "21k views"
+      }
+    },
+    {
+      "id": "sundar-google-week-recap",
+      "title": "Google's week: two new TPUs, Gemini 4 Carbon and Hydrogen",
+      "takeaway": "Pichai lists two 8th-gen TPUs, Gemini 4 Carbon and Hydrogen, Gemini Robotics 2.5, AlphaGenome 2 and a Gemini Decisions API.",
+      "soWhat": "Google now ships chips, models and developer APIs together, so vendor reviews should weigh the whole stack.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-13T20:23:09Z",
+      "source": {
+        "name": "@sundarpichai on X",
+        "url": "https://x.com/sundarpichai/status/2121338095664808238"
+      },
+      "image": {
+        "src": "/img/sundar-google-week-recap.jpg",
+        "alt": "Profile image of @sundarpichai"
+      },
+      "heat": {
+        "score": 28,
+        "level": "none",
+        "metric": "240k views"
+      }
+    },
+    {
+      "id": "anthropic-safety-evals-engineering-blog",
+      "title": "Anthropic publishes 10 recommendations for model safety evaluations",
+      "takeaway": "Anthropic's Engineering Blog offers 10 recommendations to design, run and report safety evaluations.",
+      "soWhat": "Teams deploying models can borrow a lab's checklist for deciding when a model is ready.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-13T19:00:13Z",
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2121317227618340990"
+      },
+      "image": {
+        "src": "/img/anthropic-safety-evals-engineering-blog.jpg",
+        "alt": "Image from @AnthropicAI on X"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "114k views"
+      }
+    },
     {
       "id": "rauchg-workflow-sdk-5",
       "title": "Rauch: Workflow SDK 5 makes Vercel agent steps faster",
@@ -38,11 +130,6 @@
       "image": {
         "src": "/img/rauchg-workflow-sdk-5.jpg",
         "alt": "Profile image of @rauchg"
-      },
-      "heat": {
-        "score": 4,
-        "level": "none",
-        "metric": "9k views"
       }
     },
     {
@@ -61,11 +148,6 @@
       "image": {
         "src": "/img/langchain-raises-300m.jpg",
         "alt": "Image from @LangChain on X"
-      },
-      "heat": {
-        "score": 1,
-        "level": "none",
-        "metric": "4k views"
       }
     },
     {
@@ -84,11 +166,6 @@
       "image": {
         "src": "/img/anthropic-dimon-dario-fireside.jpg",
         "alt": "@AnthropicAI on X: Dario Amodei sits down live with JPMorgan's Jamie Dimon"
-      },
-      "heat": {
-        "score": 20,
-        "level": "none",
-        "metric": "149k views"
       }
     },
     {
@@ -107,11 +184,6 @@
       "image": {
         "src": "/img/a16z-wiz-ai-attacks-20-min.jpg",
         "alt": "Image from @a16z on X"
-      },
-      "heat": {
-        "score": 0,
-        "level": "none",
-        "metric": "12k views"
       }
     },
     {
@@ -130,34 +202,6 @@
       "image": {
         "src": "/img/mengto-demo-skills.jpg",
         "alt": "Image from @MengTo on X"
-      },
-      "heat": {
-        "score": 8,
-        "level": "none",
-        "metric": "9k views"
-      }
-    },
-    {
-      "id": "pocock-animatic-skills",
-      "title": "Matt Pocock builds skills that turn work into short videos",
-      "takeaway": "/setup-animatic sets up tooling; /animatic makes an upload-ready video. Both are in progress.",
-      "soWhat": "Video walkthroughs may replace long markdown write-ups when reviewing agent-built work.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-11-13T12:00:25Z",
-      "source": {
-        "name": "@mattpocockuk on X",
-        "url": "https://x.com/mattpocockuk/status/2121211579098083668"
-      },
-      "image": {
-        "src": "/img/pocock-animatic-skills.jpg",
-        "alt": "Image from @mattpocockuk on X"
-      },
-      "heat": {
-        "score": 18,
-        "level": "none",
-        "metric": "57k views"
       }
     },
     {
@@ -176,11 +220,6 @@
       "image": {
         "src": "/img/mengto-fable-52-threejs-game.jpg",
         "alt": "Image from @MengTo on X"
-      },
-      "heat": {
-        "score": 1,
-        "level": "none",
-        "metric": "7k views"
       }
     },
     {
@@ -199,11 +238,6 @@
       "image": {
         "src": "/img/openai-persistent-agents-writeup.jpg",
         "alt": "Profile image of @steipete"
-      },
-      "heat": {
-        "score": 16,
-        "level": "none",
-        "metric": "83k views"
       }
     },
     {
@@ -232,42 +266,7 @@
       "image": {
         "src": "/img/gemini-4-carbon-argon-price-doubling.jpg",
         "alt": "Image from @simonw on X"
-      },
-      "heat": {
-        "score": 30,
-        "level": "none",
-        "metric": "28k views",
-        "voices": 3
       }
-    },
-    {
-      "id": "decider-v13-open-source",
-      "title": "Perplexity open-sources Decider v1.3 decision models",
-      "takeaway": "Decider v1.3 and Decider Flash v1.3 add a 'locate' capability and are free on OpenRouter for a week.",
-      "soWhat": "Small open decision models are a cheap option for routing and classification inside agents.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-12T23:19:36Z",
-      "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2121020114321703210"
-      },
-      "image": {
-        "src": "/img/decider-v13-open-source.jpg",
-        "alt": "Image from @AravSrinivas on X"
-      },
-      "heat": {
-        "score": 12,
-        "level": "none",
-        "metric": "56k views"
-      },
-      "related": [
-        {
-          "name": "@AravSrinivas on X",
-          "url": "https://x.com/AravSrinivas/status/2121294189388616070"
-        }
-      ]
     },
     {
       "id": "replit-agent-buys-ads",
@@ -285,39 +284,6 @@
       "image": {
         "src": "/img/replit-agent-buys-ads.jpg",
         "alt": "Image from @amasad on X"
-      },
-      "heat": {
-        "score": 0,
-        "level": "none",
-        "metric": "7k views"
-      }
-    },
-    {
-      "id": "nvidia-chip-tracking-confirmed",
-      "title": "Nvidia privately confirmed it could track chips against smuggling",
-      "takeaway": "MIT Technology Review reports the private confirmation came while the industry publicly questioned the idea.",
-      "soWhat": "Tracking is feasible, so export rules could require it; watch your AI hardware supply.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-12T20:16:24Z",
-      "source": {
-        "name": "MIT Tech Review AI",
-        "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/"
-      },
-      "related": [
-        {
-          "name": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling"
-        },
-        {
-          "name": "Ben Thompson (Stratechery)",
-          "url": "https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/"
-        }
-      ],
-      "image": {
-        "src": "/img/nvidia-chip-tracking-confirmed.jpg",
-        "alt": "Image from MIT Tech Review AI"
       }
     },
     {
@@ -336,12 +302,6 @@
       "image": {
         "src": "/img/claude-meetings-launch.jpg",
         "alt": "Image from @claudeai on X"
-      },
-      "heat": {
-        "score": 52,
-        "level": "warm",
-        "metric": "1.8M views",
-        "voices": 2
       }
     },
     {
@@ -360,35 +320,6 @@
       "image": {
         "src": "/img/dalio-outside-progress-measurement.jpg",
         "alt": "Image from @RayDalio on X"
-      },
-      "heat": {
-        "score": 12,
-        "level": "none",
-        "metric": "60k views"
-      }
-    },
-    {
-      "id": "gemini-4-hydrogen-launch",
-      "title": "Google ships Gemini 4 Hydrogen, built for speed",
-      "takeaway": "Google says it finishes tasks 2.5x faster than 3.8 Flash and beats Argon on an intelligence index.",
-      "soWhat": "Fast, cheaper models keep improving; retest your default model for everyday agent work.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-12T18:02:36Z",
-      "source": {
-        "name": "@GoogleDeepMind on X",
-        "url": "https://x.com/GoogleDeepMind/status/2120940338869055788"
-      },
-      "image": {
-        "src": "/img/gemini-4-hydrogen-launch.jpg",
-        "alt": "Image from @GoogleDeepMind on X"
-      },
-      "heat": {
-        "score": 39,
-        "level": "none",
-        "metric": "686k views",
-        "voices": 2
       }
     },
     {
@@ -407,11 +338,6 @@
       "image": {
         "src": "/img/claude-managed-agents-self-hosted.jpg",
         "alt": "Image from @ClaudeDevs on X"
-      },
-      "heat": {
-        "score": 31,
-        "level": "none",
-        "metric": "444k views"
       }
     },
     {
@@ -537,9 +463,19 @@
   ],
   "voices": [
     {
-      "handle": "@mattpocockuk",
-      "quote": "Tired of walls of markdown? Try an /animatic.",
-      "url": "https://x.com/mattpocockuk/status/2121211579098083668"
+      "handle": "@ClaudeDevs",
+      "quote": "In a project, Claude coordinates your tasks across parallel threads. The coordinator is now much more proactive.",
+      "url": "https://x.com/ClaudeDevs/status/2121375309287301360"
+    },
+    {
+      "handle": "@AnthropicAI",
+      "quote": "Safety evaluations are critical for understanding whether a model is ready to deploy, which safeguards to build for it, and where to focus training and research.",
+      "url": "https://x.com/AnthropicAI/status/2121317227618340990"
+    },
+    {
+      "handle": "@garrytan",
+      "quote": "What if your own personal agent could recursively self improve as you use it? You can.",
+      "url": "https://x.com/garrytan/status/2121352628915593422"
     },
     {
       "handle": "@rauchg",
@@ -550,53 +486,36 @@
       "handle": "@LangChain",
       "quote": "has raised $300M at a $3B valuation to advance our mission to enable every company to own its intelligence.",
       "url": "https://x.com/LangChain/status/2121273623658819687"
-    },
-    {
-      "handle": "@AravSrinivas",
-      "quote": "Perplexity handling billion decision model requests a month now on Openrouter and continuing to grew steadily.",
-      "url": "https://x.com/AravSrinivas/status/2121294189388616070"
-    },
-    {
-      "handle": "@naval",
-      "quote": "Jensen Huang is the Steve Jobs of Nvidia. He is irreplaceable.",
-      "url": "https://x.com/naval/status/2121143697161236839"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/AnthropicAI/status/2121272083863011714",
+      "url": "https://x.com/sundarpichai/status/2121338095664808238",
+      "handle": "@sundarpichai",
+      "text": "Google's week: two 8th-gen TPUs, Gemini 4 Carbon, Gemini Robotics 2.5, AlphaGenome 2 and Gemini 4 Hydrogen.",
+      "metric": "4.8k likes",
+      "note": "One post sums up a full week of Google chip and model launches."
+    },
+    {
+      "url": "https://x.com/ClaudeDevs/status/2121375309287301360",
+      "handle": "@ClaudeDevs",
+      "text": "We've made some big updates to Projects in Claude Code! The coordinator is now much more proactive.",
+      "metric": "3.3k likes",
+      "note": "Builders want one place to follow many agent threads at once."
+    },
+    {
+      "url": "https://x.com/AnthropicAI/status/2121317227618340990",
       "handle": "@AnthropicAI",
-      "text": "Streaming live at 12 PM ET: A fireside chat with JPMorgan CEO Jamie Dimon and Dario Amodei.",
-      "metric": "1.3k likes",
-      "note": "The first public Wall Street stage for Anthropic since its IPO filing."
+      "text": "On our Engineering Blog, we offer 10 recommendations for how to design, run and report safety evaluations.",
+      "metric": "1.4k likes",
+      "note": "A frontier lab is sharing how it decides a model is safe to ship."
     },
     {
-      "url": "https://x.com/mattpocockuk/status/2121211579098083668",
-      "handle": "@mattpocockuk",
-      "text": "Tired of walls of markdown? Try an /animatic.",
-      "metric": "1.1k likes",
-      "note": "Builders are tired of reading long agent write-ups and want video instead."
-    },
-    {
-      "url": "https://x.com/MengTo/status/2121264403530293624",
-      "handle": "@MengTo",
-      "text": "The skills I use to make demos: dream-loop, Hairline, and Emil Kowalski's skill.",
-      "metric": "266 likes",
-      "note": "Designers want the exact tools behind polished AI demos."
-    },
-    {
-      "url": "https://x.com/rauchg/status/2121277727940776114",
-      "handle": "@rauchg",
-      "text": "Workflow SDK 5 and Vercel Workflows are a monumental step forward for agents.",
-      "metric": "130 likes",
-      "note": "Teams running long agent jobs want faster, more reliable runtimes."
-    },
-    {
-      "url": "https://x.com/LangChain/status/2121273623658819687",
-      "handle": "@LangChain",
-      "text": "LangChain has raised $300M at a $3B valuation.",
-      "metric": "74 likes",
-      "note": "A big round signals where agent infrastructure money is going."
+      "url": "https://x.com/garrytan/status/2121352628915593422",
+      "handle": "@garrytan",
+      "text": "What if your own personal agent could recursively self improve as you use it? You can.",
+      "metric": "219 likes",
+      "note": "Self-improving personal agents are a promise many builders want to test."
     }
   ]
 }

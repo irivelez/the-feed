@@ -1,0 +1,521 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-13-1900",
+  "date": "2026-11-13",
+  "publishedAt": "2026-11-13T19:10:33-05:00",
+  "edition": "Evening",
+  "top3": [
+    {
+      "itemId": "claudedevs-claude-code-projects-coordinator",
+      "headline": "Claude Code Projects now update you on parallel agent threads",
+      "whyItMatters": "Parallel agent work now reports status in one chat, which lowers the cost of oversight."
+    },
+    {
+      "itemId": "sundar-google-week-recap",
+      "headline": "Google ships two TPUs and two Gemini 4 models in one week",
+      "whyItMatters": "One vendor now moves chips, models and APIs at once; weigh the whole stack in reviews."
+    },
+    {
+      "itemId": "anthropic-dimon-dario-fireside",
+      "headline": "Amodei and Dimon go live as Anthropic's IPO moves ahead",
+      "whyItMatters": "Anthropic now pitches under IPO rules, so its public claims carry securities-law weight."
+    }
+  ],
+  "items": [
+    {
+      "id": "claudedevs-claude-code-projects-coordinator",
+      "title": "Claude Code Projects get a more proactive coordinator",
+      "takeaway": "In a project, Claude coordinates tasks across parallel threads and now answers questions and posts status updates.",
+      "soWhat": "Leaders can follow parallel agent work in one project chat instead of checking each thread.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-11-13T22:51:01Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2121375309287301360"
+      },
+      "image": {
+        "src": "/img/claudedevs-claude-code-projects-coordinator.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      },
+      "heat": {
+        "score": 25,
+        "level": "none",
+        "metric": "113k views"
+      }
+    },
+    {
+      "id": "garrytan-idea-minder-skill",
+      "title": "Garry Tan's idea-minder skill lets a personal agent self-improve",
+      "takeaway": "Tan says the skill lets a personal agent recursively improve itself as you use it, and links to it.",
+      "soWhat": "Treat self-improving skills as a claim to test on low-risk work before you trust them.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-13T21:20:54Z",
+      "source": {
+        "name": "@garrytan on X",
+        "url": "https://x.com/garrytan/status/2121352628915593422"
+      },
+      "image": {
+        "src": "/img/garrytan-idea-minder-skill.jpg",
+        "alt": "Image from @garrytan on X"
+      },
+      "heat": {
+        "score": 8,
+        "level": "none",
+        "metric": "21k views"
+      }
+    },
+    {
+      "id": "sundar-google-week-recap",
+      "title": "Google's week: two new TPUs, Gemini 4 Carbon and Hydrogen",
+      "takeaway": "Pichai lists two 8th-gen TPUs, Gemini 4 Carbon and Hydrogen, Gemini Robotics 2.5, AlphaGenome 2 and a Gemini Decisions API.",
+      "soWhat": "Google now ships chips, models and developer APIs together, so vendor reviews should weigh the whole stack.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-13T20:23:09Z",
+      "source": {
+        "name": "@sundarpichai on X",
+        "url": "https://x.com/sundarpichai/status/2121338095664808238"
+      },
+      "image": {
+        "src": "/img/sundar-google-week-recap.jpg",
+        "alt": "Profile image of @sundarpichai"
+      },
+      "heat": {
+        "score": 28,
+        "level": "none",
+        "metric": "240k views"
+      }
+    },
+    {
+      "id": "anthropic-safety-evals-engineering-blog",
+      "title": "Anthropic publishes 10 recommendations for model safety evaluations",
+      "takeaway": "Anthropic's Engineering Blog offers 10 recommendations to design, run and report safety evaluations.",
+      "soWhat": "Teams deploying models can borrow a lab's checklist for deciding when a model is ready.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-13T19:00:13Z",
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2121317227618340990"
+      },
+      "image": {
+        "src": "/img/anthropic-safety-evals-engineering-blog.jpg",
+        "alt": "Image from @AnthropicAI on X"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "114k views"
+      }
+    },
+    {
+      "id": "rauchg-workflow-sdk-5",
+      "title": "Rauch: Workflow SDK 5 makes Vercel agent steps faster",
+      "takeaway": "He claims faster time to first step and between steps, plus stronger encryption and security.",
+      "soWhat": "Durable workflow runtimes are becoming the default way to run long agent jobs reliably.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-13T16:23:16Z",
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2121277727940776114"
+      },
+      "image": {
+        "src": "/img/rauchg-workflow-sdk-5.jpg",
+        "alt": "Profile image of @rauchg"
+      }
+    },
+    {
+      "id": "langchain-raises-300m",
+      "title": "LangChain raises $300M at a $3B valuation",
+      "takeaway": "LangChain says more than 7,000 companies use LangSmith for agent runtime, improvement and governance.",
+      "soWhat": "Agent tooling vendors are scaling fast; check lock-in before your agent stack standardizes on one.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-13T16:06:57Z",
+      "source": {
+        "name": "@LangChain on X",
+        "url": "https://x.com/LangChain/status/2121273623658819687"
+      },
+      "image": {
+        "src": "/img/langchain-raises-300m.jpg",
+        "alt": "Image from @LangChain on X"
+      }
+    },
+    {
+      "id": "anthropic-dimon-dario-fireside",
+      "title": "Dario Amodei sits down live with JPMorgan's Jamie Dimon",
+      "takeaway": "Anthropic streamed the fireside at 12 PM ET; the post carries its SEC registration notice for the offering.",
+      "soWhat": "Anthropic is now pitching in public under IPO rules, so its claims carry securities-law weight.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-13T16:00:50Z",
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2121272083863011714"
+      },
+      "image": {
+        "src": "/img/anthropic-dimon-dario-fireside.jpg",
+        "alt": "@AnthropicAI on X: Dario Amodei sits down live with JPMorgan's Jamie Dimon"
+      }
+    },
+    {
+      "id": "a16z-wiz-ai-attacks-20-min",
+      "title": "Wiz CTO: AI runs in 20 minutes attacks that took weeks",
+      "takeaway": "Ami Luttwak says companies must keep attacking their own systems with the latest models.",
+      "soWhat": "Budget for continuous AI red-teaming; yearly penetration tests no longer match attacker speed.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 6,
+      "publishedAt": "2026-11-13T15:52:22Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2121269950816145544"
+      },
+      "image": {
+        "src": "/img/a16z-wiz-ai-attacks-20-min.jpg",
+        "alt": "Image from @a16z on X"
+      }
+    },
+    {
+      "id": "mengto-demo-skills",
+      "title": "Meng To shares the skills behind his product demos",
+      "takeaway": "dream-loop pairs Blender and image generation with a critic agent; Hairline draws pointer-aware isometric lines.",
+      "soWhat": "Design teams can package their demo craft as reusable agent skills.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-13T15:30:19Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2121264403530293624"
+      },
+      "image": {
+        "src": "/img/mengto-demo-skills.jpg",
+        "alt": "Image from @MengTo on X"
+      }
+    },
+    {
+      "id": "mengto-fable-52-threejs-game",
+      "title": "Meng To: Fable 5.2 builds a three.js game under 10 MB",
+      "takeaway": "A Japanese-inspired FPS on his sakura valley scene, in HTML with no image or model files.",
+      "soWhat": "Playable prototypes now fit in one file; design reviews can start from working demos.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-13T07:12:35Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2121139143615074501"
+      },
+      "image": {
+        "src": "/img/mengto-fable-52-threejs-game.jpg",
+        "alt": "Image from @MengTo on X"
+      }
+    },
+    {
+      "id": "openai-persistent-agents-writeup",
+      "title": "Peter Steinberger's team writes up OpenAI's persistent agents",
+      "takeaway": "He says his team wrote about how they run persistent agents inside OpenAI; his post links the write-up.",
+      "soWhat": "A frontier lab's own operating notes are a rare benchmark for your agent setup.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-13T01:53:12Z",
+      "source": {
+        "name": "@steipete on X",
+        "url": "https://x.com/steipete/status/2121058770767982997"
+      },
+      "image": {
+        "src": "/img/openai-persistent-agents-writeup.jpg",
+        "alt": "Profile image of @steipete"
+      }
+    },
+    {
+      "id": "gemini-4-carbon-argon-price-doubling",
+      "title": "Simon Willison: Gemini 4 Carbon and Argon prices double Dec 1",
+      "takeaway": "Argon and Carbon share one token price; the new Hydrogen is only a 25% discount on it.",
+      "soWhat": "Teams running agents on Gemini 4 should re-cost those workloads before December.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 8,
+      "publishedAt": "2026-11-13T00:36:20Z",
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2121039423441981444"
+      },
+      "related": [
+        {
+          "name": "Simon Willison: llm-gemini 0.37",
+          "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/"
+        },
+        {
+          "name": "@theo on X",
+          "url": "https://x.com/theo/status/2121030235248570537"
+        }
+      ],
+      "image": {
+        "src": "/img/gemini-4-carbon-argon-price-doubling.jpg",
+        "alt": "Image from @simonw on X"
+      }
+    },
+    {
+      "id": "replit-agent-buys-ads",
+      "title": "Replit Agent can now buy ads for your business",
+      "takeaway": "Replit's CEO says users can ask the agent to make purchases, including ads to acquire customers.",
+      "soWhat": "Agents now spend company money; set budgets, approvals and audit trails before turning this on.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-12T23:11:17Z",
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2121018020520931712"
+      },
+      "image": {
+        "src": "/img/replit-agent-buys-ads.jpg",
+        "alt": "Image from @amasad on X"
+      }
+    },
+    {
+      "id": "claude-meetings-launch",
+      "title": "Anthropic puts Claude inside your team's video calls",
+      "takeaway": "Claude Meetings joins video calls and builds docs and whiteboards live; beta on Team and Enterprise plans.",
+      "soWhat": "Meetings become a source of agent context; set rules for what Claude may hear and keep.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-11-12T20:16:20Z",
+      "source": {
+        "name": "@claudeai on X",
+        "url": "https://x.com/claudeai/status/2120973994191094179"
+      },
+      "image": {
+        "src": "/img/claude-meetings-launch.jpg",
+        "alt": "Image from @claudeai on X"
+      }
+    },
+    {
+      "id": "dalio-outside-progress-measurement",
+      "title": "Ray Dalio: let someone else measure your progress",
+      "takeaway": "Ideally someone other than you measures and reports your progress; missed targets are a separate problem to diagnose.",
+      "soWhat": "Independent measurement keeps leaders honest; assign it outside the team that owns the target.",
+      "lens": "frontier-capital",
+      "momentum": "shift",
+      "importance": 4,
+      "publishedAt": "2026-11-12T18:02:48Z",
+      "source": {
+        "name": "@RayDalio on X",
+        "url": "https://x.com/RayDalio/status/2120940389074911420"
+      },
+      "image": {
+        "src": "/img/dalio-outside-progress-measurement.jpg",
+        "alt": "Image from @RayDalio on X"
+      }
+    },
+    {
+      "id": "claude-managed-agents-self-hosted",
+      "title": "Claude Managed Agents can now run in your own cloud",
+      "takeaway": "Private beta: host the agent harness, sandboxes and session history on your cloud or on-premises.",
+      "soWhat": "Regulated teams can run Anthropic's agents while keeping data and logs inside their walls.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-11-12T17:57:14Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2120938988165091693"
+      },
+      "image": {
+        "src": "/img/claude-managed-agents-self-hosted.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      }
+    },
+    {
+      "id": "nvidia-ceo-transition-announcement",
+      "title": "Jensen Huang resigns as Nvidia CEO, effective immediately",
+      "takeaway": "Nvidia's newsroom announced a CEO transition; Reuters live coverage reports Huang resigned immediately.",
+      "soWhat": "Your biggest AI supplier changes leaders mid-boom; watch for shifts in pricing, roadmap and allocation.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 10,
+      "publishedAt": "2026-11-12T13:49:13Z",
+      "source": {
+        "name": "@nvidianewsroom on X",
+        "url": "https://x.com/nvidianewsroom/status/2120876571829662014"
+      },
+      "related": [
+        {
+          "name": "Reuters live",
+          "url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50467132"
+        }
+      ],
+      "image": {
+        "src": "/img/nvidia-ceo-transition-announcement.jpg",
+        "alt": "Profile image of @nvidianewsroom"
+      }
+    },
+    {
+      "id": "anthropic-ipo-filing-post",
+      "title": "Anthropic files its IPO registration with the SEC",
+      "takeaway": "Anthropic says it has filed a registration statement, including a prospectus, for its initial public offering.",
+      "soWhat": "A public Anthropic will disclose costs and risks; read the prospectus before your next model contract.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-12T11:30:46Z",
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2120841731302154708"
+      },
+      "related": [
+        {
+          "name": "Anthropic IPO site",
+          "url": "https://ipo.anthropic.com/us/"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50465829"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-ipo-filing-post.jpg",
+        "alt": "Image from @AnthropicAI on X"
+      }
+    },
+    {
+      "id": "naval-datacenters-competitive",
+      "title": "Naval: someone, somewhere, will build the datacenters",
+      "takeaway": "He calls datacenters a globally competitive market and says someone, somewhere, will build them.",
+      "soWhat": "Compute supply is global; local limits shift where capacity lands, not whether it exists.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-12T08:38:17Z",
+      "source": {
+        "name": "@naval on X",
+        "url": "https://x.com/naval/status/2120798325066911758"
+      },
+      "image": {
+        "src": "/img/naval-datacenters-competitive.jpg",
+        "alt": "Image from @naval on X"
+      }
+    },
+    {
+      "id": "verge-united-blocks-agents",
+      "title": "United won't let unauthorized AI agents book flights",
+      "takeaway": "The Verge reports United is refusing bookings made by unauthorized AI agents.",
+      "soWhat": "Agent access is now a business decision; check which partners will block your customer-facing agents.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-11T21:54:21Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
+      },
+      "related": [
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50458900"
+        }
+      ],
+      "image": {
+        "src": "/img/verge-united-blocks-agents.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "lynalden-bullish-2027-gpu-demand",
+      "title": "Lyn Alden: wary of Huang's tenure, bullish on 2027 GPU demand",
+      "takeaway": "She calls herself neutral to bearish on Huang as CEO and bullish on GPU demand in 2027.",
+      "soWhat": "A respected macro voice separates Nvidia's leadership risk from the demand for AI compute.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-10T01:12:07Z",
+      "source": {
+        "name": "@LynAldenContact on X",
+        "url": "https://x.com/LynAldenContact/status/2119961265099411681"
+      },
+      "image": {
+        "src": "/img/lynalden-bullish-2027-gpu-demand.jpg",
+        "alt": "Image from @LynAldenContact on X"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@ClaudeDevs",
+      "quote": "In a project, Claude coordinates your tasks across parallel threads. The coordinator is now much more proactive.",
+      "url": "https://x.com/ClaudeDevs/status/2121375309287301360"
+    },
+    {
+      "handle": "@AnthropicAI",
+      "quote": "Safety evaluations are critical for understanding whether a model is ready to deploy, which safeguards to build for it, and where to focus training and research.",
+      "url": "https://x.com/AnthropicAI/status/2121317227618340990"
+    },
+    {
+      "handle": "@garrytan",
+      "quote": "What if your own personal agent could recursively self improve as you use it? You can.",
+      "url": "https://x.com/garrytan/status/2121352628915593422"
+    },
+    {
+      "handle": "@rauchg",
+      "quote": "Workflow SDK 5 and Vercel Workflows are a monumental step forward for agents.",
+      "url": "https://x.com/rauchg/status/2121277727940776114"
+    },
+    {
+      "handle": "@LangChain",
+      "quote": "has raised $300M at a $3B valuation to advance our mission to enable every company to own its intelligence.",
+      "url": "https://x.com/LangChain/status/2121273623658819687"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/sundarpichai/status/2121338095664808238",
+      "handle": "@sundarpichai",
+      "text": "Google's week: two 8th-gen TPUs, Gemini 4 Carbon, Gemini Robotics 2.5, AlphaGenome 2 and Gemini 4 Hydrogen.",
+      "metric": "4.8k likes",
+      "note": "One post sums up a full week of Google chip and model launches."
+    },
+    {
+      "url": "https://x.com/ClaudeDevs/status/2121375309287301360",
+      "handle": "@ClaudeDevs",
+      "text": "We've made some big updates to Projects in Claude Code! The coordinator is now much more proactive.",
+      "metric": "3.3k likes",
+      "note": "Builders want one place to follow many agent threads at once."
+    },
+    {
+      "url": "https://x.com/AnthropicAI/status/2121317227618340990",
+      "handle": "@AnthropicAI",
+      "text": "On our Engineering Blog, we offer 10 recommendations for how to design, run and report safety evaluations.",
+      "metric": "1.4k likes",
+      "note": "A frontier lab is sharing how it decides a model is safe to ship."
+    },
+    {
+      "url": "https://x.com/garrytan/status/2121352628915593422",
+      "handle": "@garrytan",
+      "text": "What if your own personal agent could recursively self improve as you use it? You can.",
+      "metric": "219 likes",
+      "note": "Self-improving personal agents are a promise many builders want to test."
+    }
+  ]
+}
