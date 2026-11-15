@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-15-1833",
+  "generatedAt": "2026-11-15T23:33:31.392Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-14T17:33:31.392Z",
+    "to": "2026-11-15T23:33:31.392Z"
+  },
+  "sourceNotes": [
+    "Sunday evening, X-only run: 2 grouped lane searches (30h window, relevancy); RSS, arXiv, HN not refetched.",
+    "Most items repeat the 12:27 run with refreshed metrics; new since then: Muse calls (alexandr_wang).",
+    "Search returned SpaceX Starship congratulation posts (demishassabis, AravSrinivas) and personal posts, skipped as off-lens. Reply capture skipped.",
+    "frontier-capital lane not in the grouped search; no candidates."
+  ],
+  "candidates": [
+    {
+      "id": "claude-auto-mode-simonw",
+      "lens": "practical",
+      "summary": "Simon Willison says regular Claude chat now uses auto mode, so it sometimes refuses to run something; prompting the session with explicit permission to run the experiment unblocked it.",
+      "facts": [
+        "Auto mode takes your messages into account (per Willison)"
+      ],
+      "source": {
+        "name": "simonw",
+        "url": "https://x.com/simonw/status/2121695097674981849",
+        "type": "x",
+        "handle": "simonw"
+      },
+      "publishedAt": "2026-11-14T20:01:45.000Z",
+      "metrics": {
+        "likes": 567,
+        "reposts": 10,
+        "replies": 242,
+        "views": 43707,
+        "capturedAt": "2026-11-15T23:33:31.392Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "claude-auto-mode"
+    },
+    {
+      "id": "t3-code-agent-fork-theo",
+      "lens": "practical",
+      "summary": "Theo says a nontechnical friend using T3 Code asked her agent to customize her install; she was on stable and the feature was nightly-only, so the agent cloned the source and she is now on a fork.",
+      "facts": [
+        "Feature only in nightly build"
+      ],
+      "source": {
+        "name": "theo",
+        "url": "https://x.com/theo/status/2121711410745061572",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-14T21:06:34.000Z",
+      "metrics": {
+        "likes": 1863,
+        "reposts": 17,
+        "replies": 138,
+        "views": 109300,
+        "capturedAt": "2026-11-15T23:33:31.392Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "t3-code-agent-fork"
+    },
+    {
+      "id": "mengto-dark-souls-fable",
+      "lens": "design",
+      "summary": "MengTo built a Dark Souls inspired browser game in 3 days with Three.js and Claude Fable 5.2: full lighting, effects and sound, no build step. Stack: Fable 5.2 + Opus 5.5 in Claude Code, Seedream 5.0 Pro, Tripo 3D. Workflow and prompts in a 10-part thread.",
+      "facts": [
+        "Built in 3 days",
+        "Thread of 10 posts with prompts"
+      ],
+      "source": {
+        "name": "MengTo",
+        "url": "https://x.com/MengTo/status/2121896633848017145",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-15T09:22:35.000Z",
+      "metrics": {
+        "likes": 745,
+        "reposts": 44,
+        "replies": 140,
+        "views": 56949,
+        "capturedAt": "2026-11-15T23:33:31.392Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "topic": "mengto-dark-souls"
+    },
+    {
+      "id": "teammate-agent-hours-aravsrinivas",
+      "lens": "broad",
+      "summary": "Aravind Srinivas says Perplexity Teammate agent hours per week are 11x after a week, growing more than 50% week over week (was 7x the prior week); employees getting an extra workday (8+ hours) and extra work week (40+ hours) more than tripled in a week since September.",
+      "facts": [
+        "11x agent hours per week",
+        "+50% week over week"
+      ],
+      "source": {
+        "name": "AravSrinivas",
+        "url": "https://x.com/AravSrinivas/status/2121803009432953255",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-15T03:10:33.000Z",
+      "metrics": {
+        "likes": 252,
+        "reposts": 16,
+        "replies": 105,
+        "views": 27500,
+        "capturedAt": "2026-11-15T23:33:31.392Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "perplexity-teammate-hours"
+    },
+    {
+      "id": "autonomous-businesses-amasad",
+      "lens": "broad",
+      "summary": "Amjad Masad posts 'Autonomous Businesses are here.' with a linked card; no details in the post text.",
+      "facts": [],
+      "source": {
+        "name": "amasad",
+        "url": "https://x.com/amasad/status/2121765647168483589",
+        "type": "x",
+        "handle": "amasad"
+      },
+      "publishedAt": "2026-11-15T00:42:05.000Z",
+      "metrics": {
+        "likes": 557,
+        "reposts": 31,
+        "replies": 111,
+        "views": 55355,
+        "capturedAt": "2026-11-15T23:33:31.392Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "autonomous-businesses"
+    },
+    {
+      "id": "muse-calls-alexandr-wang",
+      "lens": "broad",
+      "summary": "Alexandr Wang: 'who you gonna call? nobody. muse makes the calls' for paid subscribers in the US.",
+      "facts": [
+        "Paid subscribers in the US only"
+      ],
+      "source": {
+        "name": "alexandr_wang",
+        "url": "https://x.com/alexandr_wang/status/2122104505538121821",
+        "type": "x",
+        "handle": "alexandr_wang"
+      },
+      "publishedAt": "2026-11-15T23:08:35.000Z",
+      "metrics": {
+        "likes": 109,
+        "reposts": 7,
+        "replies": 20,
+        "views": 7751,
+        "capturedAt": "2026-11-15T23:33:31.392Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "muse-calls"
+    },
+    {
+      "id": "swyx-day1-livestream-100k",
+      "lens": "practical",
+      "summary": "swyx says the day 1 livestream crossed 100k in the fastest time ever, and that covering coding agent practices and landscape remains the strongest format they do.",
+      "facts": [
+        "100k crossing, fastest ever (per swyx)"
+      ],
+      "source": {
+        "name": "swyx",
+        "url": "https://x.com/swyx/status/2121896675048587765",
+        "type": "x",
+        "handle": "swyx"
+      },
+      "publishedAt": "2026-11-15T09:22:44.000Z",
+      "metrics": {
+        "likes": 176,
+        "reposts": 2,
+        "replies": 136,
+        "views": 12399,
+        "capturedAt": "2026-11-15T23:33:31.392Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "topic": "swyx-livestream"
+    }
+  ]
+}
