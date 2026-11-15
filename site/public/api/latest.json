@@ -1,10 +1,15 @@
 {
-  "schemaVersion": "1.0",
-  "id": "2026-11-14-1900",
-  "date": "2026-11-14",
-  "publishedAt": "2026-11-14T19:13:27-05:00",
-  "edition": "Evening",
+  "schemaVersion": "1.1",
+  "id": "2026-11-15-0700",
+  "date": "2026-11-15",
+  "publishedAt": "2026-11-15T07:10:00-05:00",
+  "edition": "Morning",
   "top3": [
+    {
+      "itemId": "arav-teammate-agent-hours",
+      "headline": "Perplexity says Teammate agent hours grew 11x in a week",
+      "whyItMatters": "Workplace agent use can compound in weeks, so track hours saved, not seats bought."
+    },
     {
       "itemId": "verge-chatgpt-wallet-dots",
       "headline": "ChatGPT Wallet lets OpenAI's agents buy things for users",
@@ -14,14 +19,55 @@
       "itemId": "cursor-security-incident-update",
       "headline": "Cursor details what happened in its security incident",
       "whyItMatters": "Coding agents touch code and secrets, so vendor incident reports belong in your security reviews."
-    },
-    {
-      "itemId": "garrytan-opus-vs-fable-eval",
-      "headline": "Fable 5.2 costs 2.8x more than Opus 5.5 per solved task",
-      "whyItMatters": "Model choice is a budget line now; test before paying premium rates for similar results."
     }
   ],
   "items": [
+    {
+      "id": "mengto-dark-souls-game-fable",
+      "title": "Meng To builds a Dark Souls-style browser game in 3 days",
+      "takeaway": "He used Three.js, Fable 5.2 and Opus 5.5 in Claude Code, Seedream 5.0 Pro and Tripo 3D, and shared prompts in a 10-part thread.",
+      "soWhat": "Small teams can now prototype 3D game ideas in days, with the workflow public.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-15T09:22:35Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2121896633848017145"
+      },
+      "image": {
+        "src": "/img/mengto-dark-souls-game-fable.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 7,
+        "level": "none",
+        "metric": "12k views"
+      }
+    },
+    {
+      "id": "arav-teammate-agent-hours",
+      "title": "Perplexity says Teammate agent hours grew 11x in a week",
+      "takeaway": "Aravind Srinivas says weekly agent hours rose 11x after 7x the week before, and staff gaining an extra workday more than tripled since September.",
+      "soWhat": "Workplace agent use can compound in weeks, so track hours saved, not seats bought.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-15T03:10:33Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2121803009432953255"
+      },
+      "image": {
+        "src": "/img/arav-teammate-agent-hours.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 7,
+        "level": "none",
+        "metric": "17k views"
+      }
+    },
     {
       "id": "lenny-claude-code-obsidian",
       "title": "Lenny's Newsletter: Claude Code and Obsidian as a family AI brain",
@@ -174,7 +220,7 @@
       "takeaway": "Cursor posted an update on its recent security incident, with an overview of what happened and its remediation steps.",
       "soWhat": "Teams using Cursor should read the report and confirm the fixes cover their setup.",
       "lens": "broad",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 8,
       "publishedAt": "2026-11-14T01:13:26Z",
       "source": {
@@ -187,48 +233,12 @@
       }
     },
     {
-      "id": "claudedevs-claude-code-desktop-mods",
-      "title": "Claude Code desktop adds mods for custom themes",
-      "takeaway": "Users change colors or add animated backgrounds by describing the look to Claude, or start from a theme-examples plugin.",
-      "soWhat": "Agents now reshape the tools they run in, a pattern to watch for internal software.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-13T23:59:59Z",
-      "source": {
-        "name": "@ClaudeDevs on X",
-        "url": "https://x.com/ClaudeDevs/status/2121392666244186327"
-      },
-      "image": {
-        "src": "/img/claudedevs-claude-code-desktop-mods.jpg",
-        "alt": "Image from @ClaudeDevs on X"
-      }
-    },
-    {
-      "id": "verge-amazon-product-graph",
-      "title": "Amazon plans a world product graph for AI search",
-      "takeaway": "The Verge reports Amazon plans to index the world's online shopping data for AI search.",
-      "soWhat": "Whoever holds product data may shape what AI shopping agents show your customers.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-13T23:49:11Z",
-      "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
-      },
-      "image": {
-        "src": "/img/verge-amazon-product-graph.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
       "id": "claudedevs-claude-code-projects-coordinator",
       "title": "Claude Code Projects get a more proactive coordinator",
       "takeaway": "In a project, Claude coordinates tasks across parallel threads and now answers questions and posts status updates.",
       "soWhat": "Leaders can follow parallel agent work in one project chat instead of checking each thread.",
       "lens": "practical",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 9,
       "publishedAt": "2026-11-13T22:51:01Z",
       "source": {
@@ -238,24 +248,6 @@
       "image": {
         "src": "/img/claudedevs-claude-code-projects-coordinator.jpg",
         "alt": "Image from @ClaudeDevs on X"
-      }
-    },
-    {
-      "id": "garrytan-idea-minder-skill",
-      "title": "Garry Tan's idea-minder skill lets a personal agent self-improve",
-      "takeaway": "Tan says the skill lets a personal agent recursively improve itself as you use it, and links to it.",
-      "soWhat": "Treat self-improving skills as a claim to test on low-risk work before you trust them.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-11-13T21:20:54Z",
-      "source": {
-        "name": "@garrytan on X",
-        "url": "https://x.com/garrytan/status/2121352628915593422"
-      },
-      "image": {
-        "src": "/img/garrytan-idea-minder-skill.jpg",
-        "alt": "Image from @garrytan on X"
       }
     },
     {
@@ -274,42 +266,6 @@
       "image": {
         "src": "/img/verge-chatgpt-wallet-dots.jpg",
         "alt": "Image from The Verge"
-      }
-    },
-    {
-      "id": "sundar-google-week-recap",
-      "title": "Google's week: two new TPUs, Gemini 4 Carbon and Hydrogen",
-      "takeaway": "Pichai lists two 8th-gen TPUs, Gemini 4 Carbon and Hydrogen, Gemini Robotics 2.5, AlphaGenome 2 and a Gemini Decisions API.",
-      "soWhat": "Google now ships chips, models and developer APIs together, so vendor reviews should weigh the whole stack.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-13T20:23:09Z",
-      "source": {
-        "name": "@sundarpichai on X",
-        "url": "https://x.com/sundarpichai/status/2121338095664808238"
-      },
-      "image": {
-        "src": "/img/sundar-google-week-recap.jpg",
-        "alt": "Profile image of @sundarpichai"
-      }
-    },
-    {
-      "id": "anthropic-safety-evals-engineering-blog",
-      "title": "Anthropic publishes 10 recommendations for model safety evaluations",
-      "takeaway": "Anthropic's Engineering Blog offers 10 recommendations to design, run and report safety evaluations.",
-      "soWhat": "Teams deploying models can borrow a lab's checklist for deciding when a model is ready.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-13T19:00:13Z",
-      "source": {
-        "name": "@AnthropicAI on X",
-        "url": "https://x.com/AnthropicAI/status/2121317227618340990"
-      },
-      "image": {
-        "src": "/img/anthropic-safety-evals-engineering-blog.jpg",
-        "alt": "Image from @AnthropicAI on X"
       }
     },
     {
@@ -342,7 +298,7 @@
       "takeaway": "He claims faster time to first step and between steps, plus stronger encryption and security.",
       "soWhat": "Durable workflow runtimes are becoming the default way to run long agent jobs reliably.",
       "lens": "practical",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 6,
       "publishedAt": "2026-11-13T16:23:16Z",
       "source": {
@@ -360,7 +316,7 @@
       "takeaway": "LangChain says more than 7,000 companies use LangSmith for agent runtime, improvement and governance.",
       "soWhat": "Agent tooling vendors are scaling fast; check lock-in before your agent stack standardizes on one.",
       "lens": "broad",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 7,
       "publishedAt": "2026-11-13T16:06:57Z",
       "source": {
@@ -370,24 +326,6 @@
       "image": {
         "src": "/img/langchain-raises-300m.jpg",
         "alt": "Image from @LangChain on X"
-      }
-    },
-    {
-      "id": "anthropic-dimon-dario-fireside",
-      "title": "Dario Amodei sits down live with JPMorgan's Jamie Dimon",
-      "takeaway": "Anthropic streamed the fireside at 12 PM ET; the post carries its SEC registration notice for the offering.",
-      "soWhat": "Anthropic is now pitching in public under IPO rules, so its claims carry securities-law weight.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-13T16:00:50Z",
-      "source": {
-        "name": "@AnthropicAI on X",
-        "url": "https://x.com/AnthropicAI/status/2121272083863011714"
-      },
-      "image": {
-        "src": "/img/anthropic-dimon-dario-fireside.jpg",
-        "alt": "@AnthropicAI on X: Dario Amodei sits down live with JPMorgan's Jamie Dimon"
       }
     },
     {
@@ -409,30 +347,12 @@
       }
     },
     {
-      "id": "verge-claude-duet-agent",
-      "title": "The Verge tries Claude's Duet agent: neurotic but helpful",
-      "takeaway": "The Verge's hands-on calls Claude's Duet agent a little neurotic and surprisingly helpful.",
-      "soWhat": "Independent hands-on reviews are a useful test of agent claims before a rollout.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-13T14:00:00Z",
-      "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on"
-      },
-      "image": {
-        "src": "/img/verge-claude-duet-agent.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
       "id": "openai-persistent-agents-writeup",
       "title": "Peter Steinberger's team writes up OpenAI's persistent agents",
       "takeaway": "He says his team wrote about how they run persistent agents inside OpenAI; his post links the write-up.",
       "soWhat": "A frontier lab's own operating notes are a rare benchmark for your agent setup.",
       "lens": "practical",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 7,
       "publishedAt": "2026-11-13T01:53:12Z",
       "source": {
@@ -517,24 +437,6 @@
         "src": "/img/anthropic-ipo-filing-post.jpg",
         "alt": "Image from @AnthropicAI on X"
       }
-    },
-    {
-      "id": "naval-datacenters-competitive",
-      "title": "Naval: someone, somewhere, will build the datacenters",
-      "takeaway": "He calls datacenters a globally competitive market and says someone, somewhere, will build them.",
-      "soWhat": "Compute supply is global; local limits shift where capacity lands, not whether it exists.",
-      "lens": "frontier-capital",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-11-12T08:38:17Z",
-      "source": {
-        "name": "@naval on X",
-        "url": "https://x.com/naval/status/2120798325066911758"
-      },
-      "image": {
-        "src": "/img/naval-datacenters-competitive.jpg",
-        "alt": "Image from @naval on X"
-      }
     }
   ],
   "voices": [
@@ -555,50 +457,38 @@
     },
     {
       "handle": "@ClaudeDevs",
-      "quote": "Just tell Claude how you want it to look, or get started quickly with the theme-examples plugin.",
-      "url": "https://x.com/ClaudeDevs/status/2121392666244186327"
-    },
-    {
-      "handle": "@ClaudeDevs",
       "quote": "In a project, Claude coordinates your tasks across parallel threads. The coordinator is now much more proactive.",
       "url": "https://x.com/ClaudeDevs/status/2121375309287301360"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/theo/status/2121455838414201200",
-      "handle": "@theo",
-      "text": "T3 Code now lets you fully customize your UI in app. Ask your agent to make changes and it will update on the fly",
-      "metric": "4.5k likes",
-      "note": "Builders want tools they can reshape by asking the agent."
+      "url": "https://x.com/amasad/status/2121765647168483589",
+      "handle": "@amasad",
+      "text": "Autonomous Businesses are here.",
+      "metric": "376 likes",
+      "note": "A one-line teaser with a link drew 84 replies."
     },
     {
-      "url": "https://x.com/theo/status/2121711410745061572",
-      "handle": "@theo",
-      "text": "A nontechnical friend asked her agent to customize her T3 Code install; the feature is on a non-stable build.",
-      "metric": "813 likes",
-      "note": "Agent-driven customization is reaching people who don't write code."
-    },
-    {
-      "url": "https://x.com/MengTo/status/2121498420997419510",
+      "url": "https://x.com/MengTo/status/2121896633848017145",
       "handle": "@MengTo",
-      "text": "A 3D workflow with Tripo3D, Blender and Claude Opus 5.5; step one is giving Claude 3 reference images.",
-      "metric": "476 likes",
-      "note": "Designers want concrete, repeatable AI workflows for 3D work."
+      "text": "Made a Dark Souls-inspired browser game in 3 days with Three.js and Fable 5.2; prompts in a 10-part thread.",
+      "metric": "197 likes",
+      "note": "Designers want full AI game workflows with prompts, not just demos."
     },
     {
-      "url": "https://x.com/MengTo/status/2121614786245104107",
-      "handle": "@MengTo",
-      "text": "Asked Fable 5.2 to recreate his three.js game trailer in Blender and got a result in a few hours.",
-      "metric": "263 likes",
-      "note": "Shows a model handling a long creative-tool task with little hand work."
+      "url": "https://x.com/garrytan/status/2121824006819258485",
+      "handle": "@garrytan",
+      "text": "Aside Browser is a huge unlock for every AI agent.",
+      "metric": "195 likes",
+      "note": "Builders are watching for tools that let agents use the web."
     },
     {
-      "url": "https://x.com/simonw/status/2121695097674981849",
-      "handle": "@simonw",
-      "text": "Regular Claude chat now uses auto mode, so it may occasionally refuse to run something.",
-      "metric": "253 likes",
-      "note": "110 replies show users working out how agent permission checks behave."
+      "url": "https://x.com/AravSrinivas/status/2121803009432953255",
+      "handle": "@AravSrinivas",
+      "text": "Perplexity Teammate agent hours per week grew 11x in a week, after 7x the week before.",
+      "metric": "181 likes",
+      "note": "Rare hard usage numbers for a workplace agent product."
     }
   ]
 }
