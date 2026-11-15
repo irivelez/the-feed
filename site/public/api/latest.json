@@ -1,10 +1,15 @@
 {
-  "schemaVersion": "1.1",
-  "id": "2026-11-14-0700",
+  "schemaVersion": "1.0",
+  "id": "2026-11-14-1900",
   "date": "2026-11-14",
-  "publishedAt": "2026-11-14T07:19:26-05:00",
-  "edition": "Morning",
+  "publishedAt": "2026-11-14T19:13:27-05:00",
+  "edition": "Evening",
   "top3": [
+    {
+      "itemId": "verge-chatgpt-wallet-dots",
+      "headline": "ChatGPT Wallet lets OpenAI's agents buy things for users",
+      "whyItMatters": "Agent payments are reaching mainstream apps, so decide how your business handles agent buyers."
+    },
     {
       "itemId": "cursor-security-incident-update",
       "headline": "Cursor details what happened in its security incident",
@@ -14,14 +19,73 @@
       "itemId": "garrytan-opus-vs-fable-eval",
       "headline": "Fable 5.2 costs 2.8x more than Opus 5.5 per solved task",
       "whyItMatters": "Model choice is a budget line now; test before paying premium rates for similar results."
-    },
-    {
-      "itemId": "claudedevs-claude-code-projects-coordinator",
-      "headline": "Claude Code Projects now update you on parallel agent threads",
-      "whyItMatters": "Parallel agent work now reports status in one chat, which lowers the cost of oversight."
     }
   ],
   "items": [
+    {
+      "id": "lenny-claude-code-obsidian",
+      "title": "Lenny's Newsletter: Claude Code and Obsidian as a family AI brain",
+      "takeaway": "Lenny's Newsletter publishes 'Claude Code + Obsidian: My family's AI brain' with Scott Farrar.",
+      "soWhat": "Coding agents on plain notes files are becoming personal knowledge systems, not just dev tools.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-14T21:15:46Z",
+      "source": {
+        "name": "Lenny's Newsletter",
+        "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai"
+      },
+      "image": {
+        "src": "/img/lenny-claude-code-obsidian.jpg",
+        "alt": "Image from Lenny's Newsletter"
+      }
+    },
+    {
+      "id": "simonw-claude-auto-mode-permission",
+      "title": "Simon Willison: Claude's auto mode may refuse some actions",
+      "takeaway": "Simon Willison says regular Claude chat now runs in auto mode and may refuse actions; he prompts a session-level permission grant.",
+      "soWhat": "Agent safety checks will sometimes block real work, so teach teams how to grant permission.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 6,
+      "publishedAt": "2026-11-14T20:01:45Z",
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2121695097674981849"
+      },
+      "image": {
+        "src": "/img/simonw-claude-auto-mode-permission.jpg",
+        "alt": "Profile image of @simonw"
+      },
+      "heat": {
+        "score": 9,
+        "level": "none",
+        "metric": "17k views"
+      }
+    },
+    {
+      "id": "nathanbenaich-ai-infra-security",
+      "title": "Nathan Benaich: AI infrastructure security is increasingly precarious",
+      "takeaway": "Nathan Benaich says inference providers and their bare-metal suppliers are increasingly precarious on security, and sees room for a company to fix it.",
+      "soWhat": "Ask your inference vendors how they secure the hardware layer beneath your models.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-14T13:09:19Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2121591307156234271"
+      },
+      "image": {
+        "src": "/img/nathanbenaich-ai-infra-security.jpg",
+        "alt": "Profile image of @nathanbenaich"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "2k views"
+      }
+    },
     {
       "id": "mengto-tripo-blender-claude-workflow",
       "title": "Meng To shares a 3D workflow using Tripo3D, Blender and Claude",
@@ -40,9 +104,9 @@
         "alt": "Image from @MengTo on X"
       },
       "heat": {
-        "score": 5,
+        "score": 12,
         "level": "none",
-        "metric": "12k views"
+        "metric": "36k views"
       }
     },
     {
@@ -61,11 +125,6 @@
       "image": {
         "src": "/img/garrytan-opus-vs-fable-eval.jpg",
         "alt": "Image from @garrytan on X"
-      },
-      "heat": {
-        "score": 10,
-        "level": "none",
-        "metric": "25k views"
       }
     },
     {
@@ -86,9 +145,9 @@
         "alt": "Image from @theo on X"
       },
       "heat": {
-        "score": 25,
+        "score": 27,
         "level": "none",
-        "metric": "115k views"
+        "metric": "240k views"
       }
     },
     {
@@ -107,11 +166,6 @@
       "image": {
         "src": "/img/amasad-replit-visa-agentic-commerce.jpg",
         "alt": "Profile image of @amasad"
-      },
-      "heat": {
-        "score": 4,
-        "level": "none",
-        "metric": "10k views"
       }
     },
     {
@@ -130,11 +184,6 @@
       "image": {
         "src": "/img/cursor-security-incident-update.jpg",
         "alt": "Image from @cursor_ai on X"
-      },
-      "heat": {
-        "score": 20,
-        "level": "none",
-        "metric": "196k views"
       }
     },
     {
@@ -153,11 +202,24 @@
       "image": {
         "src": "/img/claudedevs-claude-code-desktop-mods.jpg",
         "alt": "Image from @ClaudeDevs on X"
+      }
+    },
+    {
+      "id": "verge-amazon-product-graph",
+      "title": "Amazon plans a world product graph for AI search",
+      "takeaway": "The Verge reports Amazon plans to index the world's online shopping data for AI search.",
+      "soWhat": "Whoever holds product data may shape what AI shopping agents show your customers.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-13T23:49:11Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
       },
-      "heat": {
-        "score": 36,
-        "level": "none",
-        "metric": "799k views"
+      "image": {
+        "src": "/img/verge-amazon-product-graph.jpg",
+        "alt": "Image from The Verge"
       }
     },
     {
@@ -176,11 +238,6 @@
       "image": {
         "src": "/img/claudedevs-claude-code-projects-coordinator.jpg",
         "alt": "Image from @ClaudeDevs on X"
-      },
-      "heat": {
-        "score": 34,
-        "level": "none",
-        "metric": "723k views"
       }
     },
     {
@@ -199,11 +256,24 @@
       "image": {
         "src": "/img/garrytan-idea-minder-skill.jpg",
         "alt": "Image from @garrytan on X"
+      }
+    },
+    {
+      "id": "verge-chatgpt-wallet-dots",
+      "title": "ChatGPT Wallet lets OpenAI's Dots agents make purchases",
+      "takeaway": "The Verge reports ChatGPT Wallet lets OpenAI's Dots agents buy things for users.",
+      "soWhat": "Agents that can pay will reach your checkout, so decide how you serve them.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-13T20:45:10Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
       },
-      "heat": {
-        "score": 8,
-        "level": "none",
-        "metric": "21k views"
+      "image": {
+        "src": "/img/verge-chatgpt-wallet-dots.jpg",
+        "alt": "Image from The Verge"
       }
     },
     {
@@ -222,11 +292,6 @@
       "image": {
         "src": "/img/sundar-google-week-recap.jpg",
         "alt": "Profile image of @sundarpichai"
-      },
-      "heat": {
-        "score": 28,
-        "level": "none",
-        "metric": "240k views"
       }
     },
     {
@@ -245,11 +310,30 @@
       "image": {
         "src": "/img/anthropic-safety-evals-engineering-blog.jpg",
         "alt": "Image from @AnthropicAI on X"
+      }
+    },
+    {
+      "id": "stratechery-end-of-jensen",
+      "title": "Stratechery publishes 'The End of Jensen' on Nvidia's transition",
+      "takeaway": "Stratechery and The Verge publish analysis of Jensen Huang's exit as Nvidia CEO.",
+      "soWhat": "Most AI compute plans rest on Nvidia, so its leadership change deserves a close watch.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-13T18:00:00Z",
+      "source": {
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/the-end-of-jensen/"
       },
-      "heat": {
-        "score": 20,
-        "level": "none",
-        "metric": "114k views"
+      "related": [
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo"
+        }
+      ],
+      "image": {
+        "src": "/img/stratechery-end-of-jensen.jpg",
+        "alt": "Image from Stratechery"
       }
     },
     {
@@ -325,39 +409,21 @@
       }
     },
     {
-      "id": "mengto-demo-skills",
-      "title": "Meng To shares the skills behind his product demos",
-      "takeaway": "dream-loop pairs Blender and image generation with a critic agent; Hairline draws pointer-aware isometric lines.",
-      "soWhat": "Design teams can package their demo craft as reusable agent skills.",
-      "lens": "design",
-      "momentum": "building",
-      "importance": 4,
-      "publishedAt": "2026-11-13T15:30:19Z",
+      "id": "verge-claude-duet-agent",
+      "title": "The Verge tries Claude's Duet agent: neurotic but helpful",
+      "takeaway": "The Verge's hands-on calls Claude's Duet agent a little neurotic and surprisingly helpful.",
+      "soWhat": "Independent hands-on reviews are a useful test of agent claims before a rollout.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-13T14:00:00Z",
       "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2121264403530293624"
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on"
       },
       "image": {
-        "src": "/img/mengto-demo-skills.jpg",
-        "alt": "Image from @MengTo on X"
-      }
-    },
-    {
-      "id": "mengto-fable-52-threejs-game",
-      "title": "Meng To: Fable 5.2 builds a three.js game under 10 MB",
-      "takeaway": "A Japanese-inspired FPS on his sakura valley scene, in HTML with no image or model files.",
-      "soWhat": "Playable prototypes now fit in one file; design reviews can start from working demos.",
-      "lens": "design",
-      "momentum": "building",
-      "importance": 4,
-      "publishedAt": "2026-11-13T07:12:35Z",
-      "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2121139143615074501"
-      },
-      "image": {
-        "src": "/img/mengto-fable-52-threejs-game.jpg",
-        "alt": "Image from @MengTo on X"
+        "src": "/img/verge-claude-duet-agent.jpg",
+        "alt": "Image from The Verge"
       }
     },
     {
@@ -469,24 +535,6 @@
         "src": "/img/naval-datacenters-competitive.jpg",
         "alt": "Image from @naval on X"
       }
-    },
-    {
-      "id": "lynalden-bullish-2027-gpu-demand",
-      "title": "Lyn Alden: wary of Huang's tenure, bullish on 2027 GPU demand",
-      "takeaway": "She calls herself neutral to bearish on Huang as CEO and bullish on GPU demand in 2027.",
-      "soWhat": "A respected macro voice separates Nvidia's leadership risk from the demand for AI compute.",
-      "lens": "frontier-capital",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-10T01:12:07Z",
-      "source": {
-        "name": "@LynAldenContact on X",
-        "url": "https://x.com/LynAldenContact/status/2119961265099411681"
-      },
-      "image": {
-        "src": "/img/lynalden-bullish-2027-gpu-demand.jpg",
-        "alt": "Image from @LynAldenContact on X"
-      }
     }
   ],
   "voices": [
@@ -518,39 +566,39 @@
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/ClaudeDevs/status/2121392666244186327",
-      "handle": "@ClaudeDevs",
-      "text": "You can now build custom themes for Claude Code on desktop with mods. Just tell Claude how you want it to look.",
-      "metric": "15k likes",
-      "note": "Builders like tools they can reshape by asking the agent."
-    },
-    {
-      "url": "https://x.com/ClaudeDevs/status/2121375309287301360",
-      "handle": "@ClaudeDevs",
-      "text": "We've made some big updates to Projects in Claude Code. The coordinator is now much more proactive.",
-      "metric": "12.7k likes",
-      "note": "One chat to follow many parallel agent threads is a clear need."
-    },
-    {
       "url": "https://x.com/theo/status/2121455838414201200",
       "handle": "@theo",
       "text": "T3 Code now lets you fully customize your UI in app. Ask your agent to make changes and it will update on the fly",
-      "metric": "3.1k likes",
-      "note": "A second coding tool ships agent-driven UI changes the same night."
+      "metric": "4.5k likes",
+      "note": "Builders want tools they can reshape by asking the agent."
     },
     {
-      "url": "https://x.com/theo/status/2121458046249665010",
+      "url": "https://x.com/theo/status/2121711410745061572",
       "handle": "@theo",
-      "text": "Hot take: Software will get more stable overall thanks to AI",
-      "metric": "2.1k likes",
-      "note": "A contested claim; 266 replies show builders split on AI and quality."
+      "text": "A nontechnical friend asked her agent to customize her T3 Code install; the feature is on a non-stable build.",
+      "metric": "813 likes",
+      "note": "Agent-driven customization is reaching people who don't write code."
     },
     {
-      "url": "https://x.com/cursor_ai/status/2121411147714970092",
-      "handle": "@cursor_ai",
-      "text": "We’ve published an update on our recent security incident, with an overview of what happened and remediation steps.",
-      "metric": "1.4k likes",
-      "note": "Security of coding agents is a live concern for teams that use them."
+      "url": "https://x.com/MengTo/status/2121498420997419510",
+      "handle": "@MengTo",
+      "text": "A 3D workflow with Tripo3D, Blender and Claude Opus 5.5; step one is giving Claude 3 reference images.",
+      "metric": "476 likes",
+      "note": "Designers want concrete, repeatable AI workflows for 3D work."
+    },
+    {
+      "url": "https://x.com/MengTo/status/2121614786245104107",
+      "handle": "@MengTo",
+      "text": "Asked Fable 5.2 to recreate his three.js game trailer in Blender and got a result in a few hours.",
+      "metric": "263 likes",
+      "note": "Shows a model handling a long creative-tool task with little hand work."
+    },
+    {
+      "url": "https://x.com/simonw/status/2121695097674981849",
+      "handle": "@simonw",
+      "text": "Regular Claude chat now uses auto mode, so it may occasionally refuse to run something.",
+      "metric": "253 likes",
+      "note": "110 replies show users working out how agent permission checks behave."
     }
   ]
 }
