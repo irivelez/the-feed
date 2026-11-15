@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-15-0627",
+  "generatedAt": "2026-11-15T11:28:02.366Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-14T21:27:34.281Z",
+    "to": "2026-11-15T11:28:02.366Z"
+  },
+  "sourceNotes": [
+    "X: 3 batched search calls (howTo, bigPicture, frontierCapital+design lanes), 14h window, no reply capture, no authorBaseline reads. Sunday quiet: 15 original posts total; SpaceX Starship catch congratulations (Sundar, Demis, Arav) skipped as off-lens; frontier-capital lane only RayDalio principle-of-the-day (not used).",
+    "RSS, arXiv and HN not refetched this run."
+  ],
+  "candidates": [
+    {
+      "id": "amasad-autonomous-businesses",
+      "lens": "practical",
+      "summary": "Amjad Masad posts 'Autonomous Businesses are here.' with a link and no further detail in the post text.",
+      "source": {
+        "name": "amasad on X",
+        "url": "https://x.com/amasad/status/2121765647168483589",
+        "type": "x",
+        "handle": "amasad"
+      },
+      "publishedAt": "2026-11-15T00:42:05Z",
+      "metrics": {
+        "likes": 376,
+        "reposts": 19,
+        "replies": 84,
+        "views": 37875,
+        "capturedAt": "2026-11-15T11:28:02.366Z"
+      },
+      "topic": "autonomous-businesses",
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "swyx-day1-livestream-100k",
+      "lens": "practical",
+      "summary": "swyx says the day 1 livestream crossed 100k in the fastest time ever, and that coverage of coding agent practices and landscape is the strongest format he does.",
+      "source": {
+        "name": "swyx on X",
+        "url": "https://x.com/swyx/status/2121896675048587765",
+        "type": "x",
+        "handle": "swyx"
+      },
+      "publishedAt": "2026-11-15T09:22:44Z",
+      "metrics": {
+        "likes": 42,
+        "reposts": 0,
+        "replies": 65,
+        "views": 3821,
+        "capturedAt": "2026-11-15T11:28:02.366Z"
+      },
+      "topic": "coding-agent-livestream",
+      "care": 2,
+      "proof": 2
+    },
+    {
+      "id": "mengto-dark-souls-game-fable",
+      "lens": "design",
+      "summary": "MengTo says he made a Dark Souls inspired browser game in 3 days with Three.js and Claude Fable 5.2; stack is Fable 5.2 + Opus 5.5 in Claude Code, Seedream 5.0 Pro, Tripo 3D; full workflow and prompts in a 10-part thread.",
+      "source": {
+        "name": "MengTo on X",
+        "url": "https://x.com/MengTo/status/2121896633848017145",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-15T09:22:35Z",
+      "metrics": {
+        "likes": 197,
+        "reposts": 14,
+        "replies": 57,
+        "views": 12350,
+        "capturedAt": "2026-11-15T11:28:02.366Z"
+      },
+      "topic": "mengto-claude-3d-game",
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "arav-teammate-agent-hours",
+      "lens": "broad",
+      "summary": "Aravind Srinivas says Perplexity Teammate agent hours per week grew 11x in a week (7x the week before), growing over 50% week over week; employees getting an extra workday from it more than tripled since September.",
+      "source": {
+        "name": "AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2121803009432953255",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-15T03:10:33Z",
+      "metrics": {
+        "likes": 181,
+        "reposts": 11,
+        "replies": 74,
+        "views": 17460,
+        "capturedAt": "2026-11-15T11:28:02.366Z"
+      },
+      "topic": "perplexity-teammate-growth",
+      "care": 4,
+      "proof": 3
+    },
+    {
+      "id": "garrytan-aside-browser",
+      "lens": "broad",
+      "summary": "Garry Tan says Aside Browser is a huge unlock for every AI agent (link only, no details in post text).",
+      "source": {
+        "name": "garrytan on X",
+        "url": "https://x.com/garrytan/status/2121824006819258485",
+        "type": "x",
+        "handle": "garrytan"
+      },
+      "publishedAt": "2026-11-15T04:33:59Z",
+      "metrics": {
+        "likes": 195,
+        "reposts": 8,
+        "replies": 75,
+        "views": 22506,
+        "capturedAt": "2026-11-15T11:28:02.366Z"
+      },
+      "topic": "aside-browser-agents",
+      "care": 2,
+      "proof": 2
+    }
+  ]
+}
