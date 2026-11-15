@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-15-0700",
+  "id": "2026-11-15-1300",
   "date": "2026-11-15",
-  "publishedAt": "2026-11-15T07:10:00-05:00",
-  "edition": "Morning",
+  "publishedAt": "2026-11-15T13:15:00-05:00",
+  "edition": "Midday",
   "top3": [
     {
       "itemId": "arav-teammate-agent-hours",
@@ -11,14 +11,14 @@
       "whyItMatters": "Workplace agent use can compound in weeks, so track hours saved, not seats bought."
     },
     {
+      "itemId": "rauchg-agent-ship-gates",
+      "headline": "Vercel CEO outlines how agents can ship code safely",
+      "whyItMatters": "Agent output needs feature flags, automated checks and live metrics before it reaches customers."
+    },
+    {
       "itemId": "verge-chatgpt-wallet-dots",
       "headline": "ChatGPT Wallet lets OpenAI's agents buy things for users",
       "whyItMatters": "Agent payments are reaching mainstream apps, so decide how your business handles agent buyers."
-    },
-    {
-      "itemId": "cursor-security-incident-update",
-      "headline": "Cursor details what happened in its security incident",
-      "whyItMatters": "Coding agents touch code and secrets, so vendor incident reports belong in your security reviews."
     }
   ],
   "items": [
@@ -46,6 +46,29 @@
       }
     },
     {
+      "id": "rauchg-gemini-argon-web-components",
+      "title": "Rauch: two prompts built a framework-free UI with Gemini Argon",
+      "takeaway": "Using fx and Gemini Argon, the agent produced a pure Web Components interface and reused 14 UI SDK behaviors, from window dragging to typeahead.",
+      "soWhat": "Agents can assemble complex interfaces without a framework when given a library of reusable behaviors.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-15T03:15:39Z",
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2121804295381377342"
+      },
+      "image": {
+        "src": "/img/rauchg-gemini-argon-web-components.jpg",
+        "alt": "Image from @rauchg on X"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "77k views"
+      }
+    },
+    {
       "id": "arav-teammate-agent-hours",
       "title": "Perplexity says Teammate agent hours grew 11x in a week",
       "takeaway": "Aravind Srinivas says weekly agent hours rose 11x after 7x the week before, and staff gaining an extra workday more than tripled since September.",
@@ -63,27 +86,32 @@
         "alt": "Image from @AravSrinivas on X"
       },
       "heat": {
-        "score": 7,
+        "score": 9,
         "level": "none",
-        "metric": "17k views"
+        "metric": "24k views"
       }
     },
     {
-      "id": "lenny-claude-code-obsidian",
-      "title": "Lenny's Newsletter: Claude Code and Obsidian as a family AI brain",
-      "takeaway": "Lenny's Newsletter publishes 'Claude Code + Obsidian: My family's AI brain' with Scott Farrar.",
-      "soWhat": "Coding agents on plain notes files are becoming personal knowledge systems, not just dev tools.",
+      "id": "rauchg-agent-ship-gates",
+      "title": "Rauch: agents can ship behind feature flags and watch metrics",
+      "takeaway": "Guillermo Rauch describes agents writing feature-gated code, verification gates on push for proof checks and security audits, then the agent monitoring metrics.",
+      "soWhat": "Safe agent shipping rests on gates and monitoring, not on trusting the model.",
       "lens": "practical",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-11-14T21:15:46Z",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-14T21:06:13Z",
       "source": {
-        "name": "Lenny's Newsletter",
-        "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai"
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2121711321347715093"
       },
       "image": {
-        "src": "/img/lenny-claude-code-obsidian.jpg",
-        "alt": "Image from Lenny's Newsletter"
+        "src": "/img/rauchg-agent-ship-gates.jpg",
+        "alt": "Profile image of @rauchg"
+      },
+      "heat": {
+        "score": 18,
+        "level": "none",
+        "metric": "85k views"
       }
     },
     {
@@ -104,9 +132,32 @@
         "alt": "Profile image of @simonw"
       },
       "heat": {
-        "score": 9,
+        "score": 14,
         "level": "none",
-        "metric": "17k views"
+        "metric": "39k views"
+      }
+    },
+    {
+      "id": "tavicosta-us-china-yields",
+      "title": "Tavi Costa: the US-China yield gap is the key macro divergence",
+      "takeaway": "He shares a chart of US and China 10-year yields and calls the gap the most important divergence between two superpowers funding an AI arms race.",
+      "soWhat": "Borrowing costs shape how long each superpower can keep funding its AI build-out.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-14T19:33:19Z",
+      "source": {
+        "name": "@TaviCosta on X",
+        "url": "https://x.com/TaviCosta/status/2121687944155283735"
+      },
+      "image": {
+        "src": "/img/tavicosta-us-china-yields.jpg",
+        "alt": "Image from @TaviCosta on X"
+      },
+      "heat": {
+        "score": 14,
+        "level": "none",
+        "metric": "37k views"
       }
     },
     {
@@ -293,24 +344,6 @@
       }
     },
     {
-      "id": "rauchg-workflow-sdk-5",
-      "title": "Rauch: Workflow SDK 5 makes Vercel agent steps faster",
-      "takeaway": "He claims faster time to first step and between steps, plus stronger encryption and security.",
-      "soWhat": "Durable workflow runtimes are becoming the default way to run long agent jobs reliably.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-13T16:23:16Z",
-      "source": {
-        "name": "@rauchg on X",
-        "url": "https://x.com/rauchg/status/2121277727940776114"
-      },
-      "image": {
-        "src": "/img/rauchg-workflow-sdk-5.jpg",
-        "alt": "Profile image of @rauchg"
-      }
-    },
-    {
       "id": "langchain-raises-300m",
       "title": "LangChain raises $300M at a $3B valuation",
       "takeaway": "LangChain says more than 7,000 companies use LangSmith for agent runtime, improvement and governance.",
@@ -463,32 +496,39 @@
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/amasad/status/2121765647168483589",
-      "handle": "@amasad",
-      "text": "Autonomous Businesses are here.",
-      "metric": "376 likes",
-      "note": "A one-line teaser with a link drew 84 replies."
+      "url": "https://x.com/theo/status/2121711410745061572",
+      "handle": "@theo",
+      "text": "A nontechnical T3 Code user asked her agent for a nightly-only feature; it cloned the source and put her on a fork.",
+      "metric": "1.7k likes",
+      "note": "Shows an agent taking a big step for a nontechnical user unprompted."
     },
     {
-      "url": "https://x.com/MengTo/status/2121896633848017145",
-      "handle": "@MengTo",
-      "text": "Made a Dark Souls-inspired browser game in 3 days with Three.js and Fable 5.2; prompts in a 10-part thread.",
-      "metric": "197 likes",
-      "note": "Designers want full AI game workflows with prompts, not just demos."
+      "url": "https://x.com/rauchg/status/2121804295381377342",
+      "handle": "@rauchg",
+      "text": "Two prompts with fx and Gemini Argon produced a pure Web Components UI, reusing 14 UI SDK behaviors.",
+      "metric": "1.6k likes",
+      "note": "Builders want proof agents can make real interfaces without a framework."
     },
     {
-      "url": "https://x.com/garrytan/status/2121824006819258485",
-      "handle": "@garrytan",
-      "text": "Aside Browser is a huge unlock for every AI agent.",
-      "metric": "195 likes",
-      "note": "Builders are watching for tools that let agents use the web."
+      "url": "https://x.com/rauchg/status/2121711321347715093",
+      "handle": "@rauchg",
+      "text": "Agent writes feature-gated code, verification gates run on push, agent monitors metrics. Doable today with Vercel CLI.",
+      "metric": "1.1k likes",
+      "note": "A concrete answer to how teams let agents ship without breaking things."
     },
     {
-      "url": "https://x.com/AravSrinivas/status/2121803009432953255",
-      "handle": "@AravSrinivas",
-      "text": "Perplexity Teammate agent hours per week grew 11x in a week, after 7x the week before.",
-      "metric": "181 likes",
-      "note": "Rare hard usage numbers for a workplace agent product."
+      "url": "https://x.com/simonw/status/2121695097674981849",
+      "handle": "@simonw",
+      "text": "Claude chat now uses auto mode and may refuse to run things; granting permission in a message unblocked it.",
+      "metric": "534 likes",
+      "note": "229 replies show many users hitting the same new refusals."
+    },
+    {
+      "url": "https://x.com/TaviCosta/status/2121687944155283735",
+      "handle": "@TaviCosta",
+      "text": "US vs China 10-year yields: probably the most important macro divergence between two superpowers in an AI arms race.",
+      "metric": "500 likes",
+      "note": "Investors are tying bond markets to the cost of the AI race."
     }
   ]
 }
