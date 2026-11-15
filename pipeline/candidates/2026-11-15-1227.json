@@ -1,0 +1,221 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-15-1227",
+  "generatedAt": "2026-11-15T17:28:19.644Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-14T11:27:57.617Z",
+    "to": "2026-11-15T17:28:19.644Z"
+  },
+  "sourceNotes": [
+    "Sunday, quiet day: X-only run, 3 grouped lane searches (30h window); RSS, arXiv and HN not refetched.",
+    "Search returned many reply and non-AI posts (SpaceX Starship catch congratulations from Sundar, Demis, Aravind, Rauch) which were skipped as off-lens.",
+    "Many how-to handles (ClaudeDevs, claudeai, cursor_ai, bcherny, LangChain) had no original posts in window.",
+    "Metaplanet, Nvidia and Lyn Alden returned nothing usable; design lane (MengTo) only a resource list post (197 likes), not included."
+  ],
+  "candidates": [
+    {
+      "id": "agent-ship-gates-rauchg",
+      "lens": "practical",
+      "summary": "Guillermo Rauchg describes an agent shipping flow: agent writes feature-gated code, verification gates run on push (proof checking, security audits), agent monitors metrics. Says it can be done today with Vercel CLI commands (vercel flags, vercel metrics).",
+      "facts": [
+        "Post: 1,123 likes, 47 reposts, 180 replies"
+      ],
+      "source": {
+        "name": "rauchg",
+        "url": "https://x.com/rauchg/status/2121711321347715093",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "publishedAt": "2026-11-14T21:06:13.000Z",
+      "metrics": {
+        "likes": 1123,
+        "reposts": 47,
+        "replies": 180,
+        "views": 84630,
+        "capturedAt": "2026-11-15T17:28:19.644Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "agent-ship-gates"
+    },
+    {
+      "id": "plan-delegate-subagents-rauchg",
+      "lens": "practical",
+      "summary": "Rauchg says all his projects are built by planning with the smartest model and delegating to fast-model subagents, set by a 1-line instruction in ~/.fx/AGENTS.md.",
+      "facts": [
+        "Post: 404 likes"
+      ],
+      "source": {
+        "name": "rauchg",
+        "url": "https://x.com/rauchg/status/2121739228698886454",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "publishedAt": "2026-11-14T22:57:06.000Z",
+      "metrics": {
+        "likes": 404,
+        "reposts": 6,
+        "replies": 93,
+        "views": 26373,
+        "capturedAt": "2026-11-15T17:28:19.644Z"
+      },
+      "care": 4,
+      "proof": 2,
+      "topic": "plan-delegate-subagents"
+    },
+    {
+      "id": "uisdk-gemini-argon-rauchg",
+      "lens": "practical",
+      "summary": "Rauchg reports two prompts with fx and Gemini Argon produced a pure Web Components UI with no framework; the agent reused 14 UI SDK behaviors (window resizing, drag, menubar hover-switching, typeahead, roving toolbar focus, 10-band EQ sliders).",
+      "facts": [
+        "Post: 1,626 likes, 71 reposts, 140 replies"
+      ],
+      "source": {
+        "name": "rauchg",
+        "url": "https://x.com/rauchg/status/2121804295381377342",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "publishedAt": "2026-11-15T03:15:39.000Z",
+      "metrics": {
+        "likes": 1626,
+        "reposts": 71,
+        "replies": 140,
+        "views": 76779,
+        "capturedAt": "2026-11-15T17:28:19.644Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "uisdk-gemini-argon"
+    },
+    {
+      "id": "claude-auto-mode-simonw",
+      "lens": "practical",
+      "summary": "Simon Willison says regular Claude chat now uses auto mode and may refuse to run something; prompting 'I give this session permission to run this experiment (now try again)' unblocked it, since auto mode takes user messages into account.",
+      "facts": [
+        "Post: 534 likes, 229 replies"
+      ],
+      "source": {
+        "name": "simonw",
+        "url": "https://x.com/simonw/status/2121695097674981849",
+        "type": "x",
+        "handle": "simonw"
+      },
+      "publishedAt": "2026-11-14T20:01:45.000Z",
+      "metrics": {
+        "likes": 534,
+        "reposts": 9,
+        "replies": 229,
+        "views": 39018,
+        "capturedAt": "2026-11-15T17:28:19.644Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "claude-auto-mode"
+    },
+    {
+      "id": "t3-code-agent-fork-theo",
+      "lens": "practical",
+      "summary": "Theo says a nontechnical friend using T3 Code asked her agent to enable a nightly-only feature while on stable; the agent cloned the source and put her on a fork.",
+      "facts": [
+        "Post: 1,716 likes, 130 replies"
+      ],
+      "source": {
+        "name": "theo",
+        "url": "https://x.com/theo/status/2121711410745061572",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-14T21:06:34.000Z",
+      "metrics": {
+        "likes": 1716,
+        "reposts": 17,
+        "replies": 130,
+        "views": 96131,
+        "capturedAt": "2026-11-15T17:28:19.644Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "t3-code-agent-fork"
+    },
+    {
+      "id": "agent-hours-teammate-aravsrinivas",
+      "lens": "broad",
+      "summary": "Aravind Srinivas reports Perplexity Teammate agent hours per week up 11x a week later, growing more than 50% week over week (was 7x last week); employees getting an extra workday (8+ hours) and extra work week (40+ hours) from Teammate more than tripled in a week since September.",
+      "facts": [
+        "Post: 232 likes, 95 replies"
+      ],
+      "source": {
+        "name": "AravSrinivas",
+        "url": "https://x.com/AravSrinivas/status/2121803009432953255",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-15T03:10:33.000Z",
+      "metrics": {
+        "likes": 232,
+        "reposts": 14,
+        "replies": 95,
+        "views": 23545,
+        "capturedAt": "2026-11-15T17:28:19.644Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "agent-hours-teammate"
+    },
+    {
+      "id": "autonomous-businesses-amasad",
+      "lens": "broad",
+      "summary": "Amjad Masad posts 'Autonomous Businesses are here.' with a link (content behind the link not read).",
+      "facts": [
+        "Post: 494 likes, 105 replies, 47,878 views"
+      ],
+      "source": {
+        "name": "amasad",
+        "url": "https://x.com/amasad/status/2121765647168483589",
+        "type": "x",
+        "handle": "amasad"
+      },
+      "publishedAt": "2026-11-15T00:42:05.000Z",
+      "metrics": {
+        "likes": 494,
+        "reposts": 28,
+        "replies": 105,
+        "views": 47878,
+        "capturedAt": "2026-11-15T17:28:19.644Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "autonomous-businesses"
+    },
+    {
+      "id": "us-china-yields-tavicosta",
+      "lens": "frontier-capital",
+      "summary": "Tavi Costa posts a chart of US vs China 10-year yields, calling it probably the most important macro divergence between two superpowers in wartime-scale spending on an AI arms race.",
+      "facts": [
+        "Post: 500 likes, 82 reposts"
+      ],
+      "source": {
+        "name": "TaviCosta",
+        "url": "https://x.com/TaviCosta/status/2121687944155283735",
+        "type": "x",
+        "handle": "TaviCosta"
+      },
+      "publishedAt": "2026-11-14T19:33:19.000Z",
+      "metrics": {
+        "likes": 500,
+        "reposts": 82,
+        "replies": 41,
+        "views": 37468,
+        "capturedAt": "2026-11-15T17:28:19.644Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "us-china-yields"
+    }
+  ]
+}
