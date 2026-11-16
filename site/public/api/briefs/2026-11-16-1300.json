@@ -1,0 +1,526 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-16-1300",
+  "date": "2026-11-16",
+  "publishedAt": "2026-11-16T13:20:00-05:00",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "perplexity-frontier-research-10k-gpus",
+      "headline": "Perplexity bets 10,000 GPUs on building an automated researcher",
+      "whyItMatters": "Frontier research is no longer limited to big labs, so watch who publishes usable open tools."
+    },
+    {
+      "itemId": "openai-embedded-assessments",
+      "headline": "OpenAI lets outside safety labs inspect its internal models",
+      "whyItMatters": "Independent safety checks are becoming part of frontier work, giving leaders more evidence to weigh."
+    },
+    {
+      "itemId": "pocock-nuance-slop-poteto",
+      "headline": "To reduce agent slop, remove the judgment calls",
+      "whyItMatters": "Pocock argues reliable agent output comes from rules built into APIs and automated checks."
+    }
+  ],
+  "items": [
+    {
+      "id": "openai-free-access-scientists",
+      "title": "OpenAI opens free frontier model access to 200,000 scientists",
+      "takeaway": "OpenAI is expanding free access to its frontier models, with training and support, for up to 200,000 scientists worldwide. Applications open November 23; shared data is not used for training by default.",
+      "soWhat": "Research teams can test frontier models at no cost, so plan pilots before applications open November 23.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-16T17:13:42Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2122377585523126615"
+      },
+      "image": {
+        "src": "/img/openai-free-access-scientists.jpg",
+        "alt": "Image from @OpenAI on X"
+      },
+      "heat": {
+        "score": 13,
+        "level": "none",
+        "metric": "56k views"
+      }
+    },
+    {
+      "id": "openai-embedded-assessments",
+      "title": "OpenAI gives outside safety labs deep access to internal models",
+      "takeaway": "OpenAI is working with Apollo Research, METR, Transluce and Goodfire on embedded assessments, giving outside experts deep access to internal models and systems to investigate alignment and test safeguards.",
+      "soWhat": "Independent checks on frontier models are expanding, which gives buyers more evidence to weigh before trusting them.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-16T16:03:33Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2122359930628063248"
+      },
+      "image": {
+        "src": "/img/openai-embedded-assessments.jpg",
+        "alt": "Image from @OpenAI on X"
+      },
+      "heat": {
+        "score": 23,
+        "level": "none",
+        "metric": "254k views"
+      }
+    },
+    {
+      "id": "perplexity-frontier-research-10k-gpus",
+      "title": "Perplexity puts 10,000 GPUs toward an automated AI researcher",
+      "takeaway": "Perplexity's new Frontier Research effort will put at least 10,000 GPUs on multi-agent orchestration and continual learning, and says it will publish evals and papers and open source models and tooling.",
+      "soWhat": "A product company is now training its own research agents, widening frontier work beyond the big labs.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-16T15:38:17Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2122353569903128921"
+      },
+      "image": {
+        "src": "/img/perplexity-frontier-research-10k-gpus.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 14,
+        "level": "none",
+        "metric": "55k views"
+      }
+    },
+    {
+      "id": "pocock-nuance-slop-poteto",
+      "title": "Pocock: remove nuance from agents' choices to avoid slop",
+      "takeaway": "Matt Pocock highlights a talk by @poteto at AIE Code, 'nuance tends to lead to slop', and says to design APIs and automated checks that remove nuance from agent decisions, such as banning useEffect.",
+      "soWhat": "Agents do better with firm rules and automated checks than with judgment calls left open.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-16T13:11:15Z",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2122316570852487441"
+      },
+      "image": {
+        "src": "/img/pocock-nuance-slop-poteto.jpg",
+        "alt": "Image from @mattpocockuk on X"
+      },
+      "heat": {
+        "score": 19,
+        "level": "none",
+        "metric": "55k views"
+      }
+    },
+    {
+      "id": "openai-gpt6-astra-physics",
+      "title": "OpenAI: GPT-6 Astra helped draft a lattice Standard Model",
+      "takeaway": "Physicist Nathaniel Craig worked with GPT-6 Astra on a candidate lattice definition of the Standard Model, the first post on OpenAI's new science blog.",
+      "soWhat": "AI research claims are arriving fast, so ask who checked the work before acting on it.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-16T00:23:49Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2122123437141553630"
+      },
+      "image": {
+        "src": "/img/openai-gpt6-astra-physics.jpg",
+        "alt": "Image from @OpenAI on X"
+      },
+      "heat": {
+        "score": 26,
+        "level": "none",
+        "metric": "527k views"
+      }
+    },
+    {
+      "id": "mengto-dark-souls-game-fable",
+      "title": "Meng To builds a Dark Souls-style browser game in 3 days",
+      "takeaway": "He used Three.js, Fable 5.2 and Opus 5.5 in Claude Code, Seedream 5.0 Pro and Tripo 3D, and shared prompts in a 10-part thread.",
+      "soWhat": "Small teams can now prototype 3D game ideas in days, with the workflow public.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-15T09:22:35Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2121896633848017145"
+      },
+      "image": {
+        "src": "/img/mengto-dark-souls-game-fable.jpg",
+        "alt": "Image from @MengTo on X"
+      }
+    },
+    {
+      "id": "rauchg-gemini-argon-web-components",
+      "title": "Rauch: two prompts built a framework-free UI with Gemini Argon",
+      "takeaway": "Using fx and Gemini Argon, the agent produced a pure Web Components interface and reused 14 UI SDK behaviors, from window dragging to typeahead.",
+      "soWhat": "Agents can assemble complex interfaces without a framework when given a library of reusable behaviors.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-15T03:15:39Z",
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2121804295381377342"
+      },
+      "image": {
+        "src": "/img/rauchg-gemini-argon-web-components.jpg",
+        "alt": "Image from @rauchg on X"
+      }
+    },
+    {
+      "id": "arav-teammate-agent-hours",
+      "title": "Perplexity says Teammate agent hours grew 11x in a week",
+      "takeaway": "Aravind Srinivas says weekly agent hours rose 11x after 7x the week before, and staff gaining an extra workday more than tripled since September.",
+      "soWhat": "Workplace agent use can compound in weeks, so track hours saved, not seats bought.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-15T03:10:33Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2121803009432953255"
+      },
+      "image": {
+        "src": "/img/arav-teammate-agent-hours.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      }
+    },
+    {
+      "id": "rauchg-agent-ship-gates",
+      "title": "Rauch: agents can ship behind feature flags and watch metrics",
+      "takeaway": "Guillermo Rauch describes agents writing feature-gated code, verification gates on push for proof checks and security audits, then the agent monitoring metrics.",
+      "soWhat": "Safe agent shipping rests on gates and monitoring, not on trusting the model.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-14T21:06:13Z",
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2121711321347715093"
+      },
+      "image": {
+        "src": "/img/rauchg-agent-ship-gates.jpg",
+        "alt": "Profile image of @rauchg"
+      }
+    },
+    {
+      "id": "simonw-claude-auto-mode-permission",
+      "title": "Simon Willison: Claude's auto mode may refuse some actions",
+      "takeaway": "Simon Willison says regular Claude chat now runs in auto mode and may refuse actions; he prompts a session-level permission grant.",
+      "soWhat": "Agent safety checks will sometimes block real work, so teach teams how to grant permission.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 6,
+      "publishedAt": "2026-11-14T20:01:45Z",
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2121695097674981849"
+      },
+      "image": {
+        "src": "/img/simonw-claude-auto-mode-permission.jpg",
+        "alt": "Profile image of @simonw"
+      }
+    },
+    {
+      "id": "tavicosta-us-china-yields",
+      "title": "Tavi Costa: the US-China yield gap is the key macro divergence",
+      "takeaway": "He shares a chart of US and China 10-year yields and calls the gap the most important divergence between two superpowers funding an AI arms race.",
+      "soWhat": "Borrowing costs shape how long each superpower can keep funding its AI build-out.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-14T19:33:19Z",
+      "source": {
+        "name": "@TaviCosta on X",
+        "url": "https://x.com/TaviCosta/status/2121687944155283735"
+      },
+      "image": {
+        "src": "/img/tavicosta-us-china-yields.jpg",
+        "alt": "Image from @TaviCosta on X"
+      }
+    },
+    {
+      "id": "nathanbenaich-ai-infra-security",
+      "title": "Nathan Benaich: AI infrastructure security is increasingly precarious",
+      "takeaway": "Nathan Benaich says inference providers and their bare-metal suppliers are increasingly precarious on security, and sees room for a company to fix it.",
+      "soWhat": "Ask your inference vendors how they secure the hardware layer beneath your models.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-14T13:09:19Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2121591307156234271"
+      },
+      "image": {
+        "src": "/img/nathanbenaich-ai-infra-security.jpg",
+        "alt": "Profile image of @nathanbenaich"
+      }
+    },
+    {
+      "id": "mengto-tripo-blender-claude-workflow",
+      "title": "Meng To shares a 3D workflow using Tripo3D, Blender and Claude",
+      "takeaway": "From Kamome Ashizawa's write-up: give Claude three reference images and a backstory, with CLAUDE.md and planning subagents.",
+      "soWhat": "3D asset work now runs through agent harnesses, not only modeling tools.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-14T07:00:13Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2121498420997419510"
+      },
+      "image": {
+        "src": "/img/mengto-tripo-blender-claude-workflow.jpg",
+        "alt": "Image from @MengTo on X"
+      }
+    },
+    {
+      "id": "garrytan-opus-vs-fable-eval",
+      "title": "Garry Tan: Fable 5.2 costs 2.8x more per solved coding task",
+      "takeaway": "On 52 Claude Code tasks, Fable 5.2 solved 82.7% vs 84.6% for Opus 5.5, at 2.80x the cost per solved task.",
+      "soWhat": "Keep the cheaper model as default until harder tasks show a real gap.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-14T04:45:28Z",
+      "source": {
+        "name": "@garrytan on X",
+        "url": "https://x.com/garrytan/status/2121464508225053153"
+      },
+      "image": {
+        "src": "/img/garrytan-opus-vs-fable-eval.jpg",
+        "alt": "Image from @garrytan on X"
+      }
+    },
+    {
+      "id": "cursor-security-incident-update",
+      "title": "Cursor publishes its security incident report and remediation steps",
+      "takeaway": "Cursor posted an update on its recent security incident, with an overview of what happened and its remediation steps.",
+      "soWhat": "Teams using Cursor should read the report and confirm the fixes cover their setup.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-14T01:13:26Z",
+      "source": {
+        "name": "@cursor_ai on X",
+        "url": "https://x.com/cursor_ai/status/2121411147714970092"
+      },
+      "image": {
+        "src": "/img/cursor-security-incident-update.jpg",
+        "alt": "Image from @cursor_ai on X"
+      }
+    },
+    {
+      "id": "claudedevs-claude-code-projects-coordinator",
+      "title": "Claude Code Projects get a more proactive coordinator",
+      "takeaway": "In a project, Claude coordinates tasks across parallel threads and now answers questions and posts status updates.",
+      "soWhat": "Leaders can follow parallel agent work in one project chat instead of checking each thread.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-13T22:51:01Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2121375309287301360"
+      },
+      "image": {
+        "src": "/img/claudedevs-claude-code-projects-coordinator.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      }
+    },
+    {
+      "id": "verge-chatgpt-wallet-dots",
+      "title": "ChatGPT Wallet lets OpenAI's Dots agents make purchases",
+      "takeaway": "The Verge reports ChatGPT Wallet lets OpenAI's Dots agents buy things for users.",
+      "soWhat": "Agents that can pay will reach your checkout, so decide how you serve them.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-13T20:45:10Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+      },
+      "image": {
+        "src": "/img/verge-chatgpt-wallet-dots.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "langchain-raises-300m",
+      "title": "LangChain raises $300M at a $3B valuation",
+      "takeaway": "LangChain says more than 7,000 companies use LangSmith for agent runtime, improvement and governance.",
+      "soWhat": "Agent tooling vendors are scaling fast; check lock-in before your agent stack standardizes on one.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-13T16:06:57Z",
+      "source": {
+        "name": "@LangChain on X",
+        "url": "https://x.com/LangChain/status/2121273623658819687"
+      },
+      "image": {
+        "src": "/img/langchain-raises-300m.jpg",
+        "alt": "Image from @LangChain on X"
+      }
+    },
+    {
+      "id": "openai-persistent-agents-writeup",
+      "title": "Peter Steinberger's team writes up OpenAI's persistent agents",
+      "takeaway": "He says his team wrote about how they run persistent agents inside OpenAI; his post links the write-up.",
+      "soWhat": "A frontier lab's own operating notes are a rare benchmark for your agent setup.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-13T01:53:12Z",
+      "source": {
+        "name": "@steipete on X",
+        "url": "https://x.com/steipete/status/2121058770767982997"
+      },
+      "image": {
+        "src": "/img/openai-persistent-agents-writeup.jpg",
+        "alt": "Profile image of @steipete"
+      }
+    },
+    {
+      "id": "gemini-4-carbon-argon-price-doubling",
+      "title": "Simon Willison: Gemini 4 Carbon and Argon prices double Dec 1",
+      "takeaway": "Argon and Carbon share one token price; the new Hydrogen is only a 25% discount on it.",
+      "soWhat": "Teams running agents on Gemini 4 should re-cost those workloads before December.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 8,
+      "publishedAt": "2026-11-13T00:36:20Z",
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2121039423441981444"
+      },
+      "related": [
+        {
+          "name": "Simon Willison: llm-gemini 0.37",
+          "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/"
+        },
+        {
+          "name": "@theo on X",
+          "url": "https://x.com/theo/status/2121030235248570537"
+        }
+      ],
+      "image": {
+        "src": "/img/gemini-4-carbon-argon-price-doubling.jpg",
+        "alt": "Image from @simonw on X"
+      }
+    },
+    {
+      "id": "dalio-outside-progress-measurement",
+      "title": "Ray Dalio: let someone else measure your progress",
+      "takeaway": "Ideally someone other than you measures and reports your progress; missed targets are a separate problem to diagnose.",
+      "soWhat": "Independent measurement keeps leaders honest; assign it outside the team that owns the target.",
+      "lens": "frontier-capital",
+      "momentum": "shift",
+      "importance": 4,
+      "publishedAt": "2026-11-12T18:02:48Z",
+      "source": {
+        "name": "@RayDalio on X",
+        "url": "https://x.com/RayDalio/status/2120940389074911420"
+      },
+      "image": {
+        "src": "/img/dalio-outside-progress-measurement.jpg",
+        "alt": "Image from @RayDalio on X"
+      }
+    },
+    {
+      "id": "anthropic-ipo-filing-post",
+      "title": "Anthropic files its IPO registration with the SEC",
+      "takeaway": "Anthropic says it has filed a registration statement, including a prospectus, for its initial public offering.",
+      "soWhat": "A public Anthropic will disclose costs and risks; read the prospectus before your next model contract.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-12T11:30:46Z",
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2120841731302154708"
+      },
+      "related": [
+        {
+          "name": "Anthropic IPO site",
+          "url": "https://ipo.anthropic.com/us/"
+        },
+        {
+          "name": "Hacker News thread",
+          "url": "https://news.ycombinator.com/item?id=50465829"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-ipo-filing-post.jpg",
+        "alt": "Image from @AnthropicAI on X"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@garrytan",
+      "quote": "On 52 coding tasks in Claude Code 2.1.322, Fable 5.2 solved about as many (82.7% vs 84.6%) but cost 2.80x as much per solved task.",
+      "url": "https://x.com/garrytan/status/2121464508225053153"
+    },
+    {
+      "handle": "@cursor_ai",
+      "quote": "We’ve published an update on our recent security incident.",
+      "url": "https://x.com/cursor_ai/status/2121411147714970092"
+    },
+    {
+      "handle": "@theo",
+      "quote": "T3 Code now lets you fully customize your UI in app. Ask your agent to make changes and it will update on the fly",
+      "url": "https://x.com/theo/status/2121455838414201200"
+    },
+    {
+      "handle": "@ClaudeDevs",
+      "quote": "In a project, Claude coordinates your tasks across parallel threads. The coordinator is now much more proactive.",
+      "url": "https://x.com/ClaudeDevs/status/2121375309287301360"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/OpenAI/status/2122359930628063248",
+      "handle": "@OpenAI",
+      "text": "OpenAI is working with Apollo Research, METR, Transluce and Goodfire on embedded assessments of its internal models.",
+      "metric": "1.9k likes",
+      "note": "431 replies show strong interest in who gets to check frontier models."
+    },
+    {
+      "url": "https://x.com/mattpocockuk/status/2122316570852487441",
+      "handle": "@mattpocockuk",
+      "text": "Matt Pocock on @poteto's AIE Code talk: 'nuance tends to lead to slop', so remove nuance from agent decisions.",
+      "metric": "1.3k likes",
+      "note": "A short rule for agent reliability that builders can apply right away."
+    },
+    {
+      "url": "https://x.com/AravSrinivas/status/2122353569903128921",
+      "handle": "@AravSrinivas",
+      "text": "Perplexity announces Frontier Research: at least 10,000 GPUs on multi-agent orchestration and continual learning.",
+      "metric": "542 likes",
+      "note": "A product company moving into frontier research with open releases draws attention."
+    },
+    {
+      "url": "https://x.com/OpenAI/status/2122377585523126615",
+      "handle": "@OpenAI",
+      "text": "OpenAI expands free access to its frontier models for up to 200,000 scientists worldwide, with training and support.",
+      "metric": "424 likes",
+      "note": "104 replies as researchers weigh free access to frontier models."
+    },
+    {
+      "url": "https://x.com/GoogleDeepMind/status/2122366992376107167",
+      "handle": "@GoogleDeepMind",
+      "text": "Google DeepMind says researchers use Gemini 4 Carbon in Google Antigravity for multi-step science problems.",
+      "metric": "405 likes",
+      "note": "Labs are competing to show their models doing real science work."
+    }
+  ]
+}

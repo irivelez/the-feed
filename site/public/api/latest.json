@@ -1,27 +1,119 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-16-0700",
+  "id": "2026-11-16-1300",
   "date": "2026-11-16",
-  "publishedAt": "2026-11-16T07:15:00-05:00",
-  "edition": "Morning",
+  "publishedAt": "2026-11-16T13:20:00-05:00",
+  "edition": "Midday",
   "top3": [
     {
-      "itemId": "openai-gpt6-astra-physics",
-      "headline": "GPT-6 Astra helped a physicist draft a lattice Standard Model",
-      "whyItMatters": "Labs now pitch models as research partners, so expect science claims that need expert checking."
+      "itemId": "perplexity-frontier-research-10k-gpus",
+      "headline": "Perplexity bets 10,000 GPUs on building an automated researcher",
+      "whyItMatters": "Frontier research is no longer limited to big labs, so watch who publishes usable open tools."
     },
     {
-      "itemId": "arav-teammate-agent-hours",
-      "headline": "Perplexity says Teammate agent hours grew 11x in a week",
-      "whyItMatters": "Workplace agent use can compound in weeks, so track hours saved, not seats bought."
+      "itemId": "openai-embedded-assessments",
+      "headline": "OpenAI lets outside safety labs inspect its internal models",
+      "whyItMatters": "Independent safety checks are becoming part of frontier work, giving leaders more evidence to weigh."
     },
     {
-      "itemId": "rauchg-agent-ship-gates",
-      "headline": "Vercel CEO outlines how agents can ship code safely",
-      "whyItMatters": "Agent output needs feature flags, automated checks and live metrics before it reaches customers."
+      "itemId": "pocock-nuance-slop-poteto",
+      "headline": "To reduce agent slop, remove the judgment calls",
+      "whyItMatters": "Pocock argues reliable agent output comes from rules built into APIs and automated checks."
     }
   ],
   "items": [
+    {
+      "id": "openai-free-access-scientists",
+      "title": "OpenAI opens free frontier model access to 200,000 scientists",
+      "takeaway": "OpenAI is expanding free access to its frontier models, with training and support, for up to 200,000 scientists worldwide. Applications open November 23; shared data is not used for training by default.",
+      "soWhat": "Research teams can test frontier models at no cost, so plan pilots before applications open November 23.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-16T17:13:42Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2122377585523126615"
+      },
+      "image": {
+        "src": "/img/openai-free-access-scientists.jpg",
+        "alt": "Image from @OpenAI on X"
+      },
+      "heat": {
+        "score": 13,
+        "level": "none",
+        "metric": "56k views"
+      }
+    },
+    {
+      "id": "openai-embedded-assessments",
+      "title": "OpenAI gives outside safety labs deep access to internal models",
+      "takeaway": "OpenAI is working with Apollo Research, METR, Transluce and Goodfire on embedded assessments, giving outside experts deep access to internal models and systems to investigate alignment and test safeguards.",
+      "soWhat": "Independent checks on frontier models are expanding, which gives buyers more evidence to weigh before trusting them.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-16T16:03:33Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2122359930628063248"
+      },
+      "image": {
+        "src": "/img/openai-embedded-assessments.jpg",
+        "alt": "Image from @OpenAI on X"
+      },
+      "heat": {
+        "score": 23,
+        "level": "none",
+        "metric": "254k views"
+      }
+    },
+    {
+      "id": "perplexity-frontier-research-10k-gpus",
+      "title": "Perplexity puts 10,000 GPUs toward an automated AI researcher",
+      "takeaway": "Perplexity's new Frontier Research effort will put at least 10,000 GPUs on multi-agent orchestration and continual learning, and says it will publish evals and papers and open source models and tooling.",
+      "soWhat": "A product company is now training its own research agents, widening frontier work beyond the big labs.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-16T15:38:17Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2122353569903128921"
+      },
+      "image": {
+        "src": "/img/perplexity-frontier-research-10k-gpus.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 14,
+        "level": "none",
+        "metric": "55k views"
+      }
+    },
+    {
+      "id": "pocock-nuance-slop-poteto",
+      "title": "Pocock: remove nuance from agents' choices to avoid slop",
+      "takeaway": "Matt Pocock highlights a talk by @poteto at AIE Code, 'nuance tends to lead to slop', and says to design APIs and automated checks that remove nuance from agent decisions, such as banning useEffect.",
+      "soWhat": "Agents do better with firm rules and automated checks than with judgment calls left open.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-16T13:11:15Z",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2122316570852487441"
+      },
+      "image": {
+        "src": "/img/pocock-nuance-slop-poteto.jpg",
+        "alt": "Image from @mattpocockuk on X"
+      },
+      "heat": {
+        "score": 19,
+        "level": "none",
+        "metric": "55k views"
+      }
+    },
     {
       "id": "openai-gpt6-astra-physics",
       "title": "OpenAI: GPT-6 Astra helped draft a lattice Standard Model",
@@ -208,42 +300,6 @@
       }
     },
     {
-      "id": "theo-t3-code-custom-ui",
-      "title": "T3 Code lets agents restyle the app's interface on the fly",
-      "takeaway": "Theo says T3 Code users can ask their agent to change the UI and see it update live.",
-      "soWhat": "Self-customizing tools let teams shape software by request instead of by ticket.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-14T04:11:01Z",
-      "source": {
-        "name": "@theo on X",
-        "url": "https://x.com/theo/status/2121455838414201200"
-      },
-      "image": {
-        "src": "/img/theo-t3-code-custom-ui.jpg",
-        "alt": "Image from @theo on X"
-      }
-    },
-    {
-      "id": "amasad-replit-visa-agentic-commerce",
-      "title": "Replit CEO says Visa agentic commerce work will expand",
-      "takeaway": "Amjad Masad says partnering with Visa on agentic commerce has gone well, with more features and use cases coming.",
-      "soWhat": "Payment networks are building rails for agents to buy, so plan controls on agent spending.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-14T02:22:01Z",
-      "source": {
-        "name": "@amasad on X",
-        "url": "https://x.com/amasad/status/2121428406764204199"
-      },
-      "image": {
-        "src": "/img/amasad-replit-visa-agentic-commerce.jpg",
-        "alt": "Profile image of @amasad"
-      }
-    },
-    {
       "id": "cursor-security-incident-update",
       "title": "Cursor publishes its security incident report and remediation steps",
       "takeaway": "Cursor posted an update on its recent security incident, with an overview of what happened and its remediation steps.",
@@ -298,30 +354,6 @@
       }
     },
     {
-      "id": "stratechery-end-of-jensen",
-      "title": "Stratechery publishes 'The End of Jensen' on Nvidia's transition",
-      "takeaway": "Stratechery and The Verge publish analysis of Jensen Huang's exit as Nvidia CEO.",
-      "soWhat": "Most AI compute plans rest on Nvidia, so its leadership change deserves a close watch.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-13T18:00:00Z",
-      "source": {
-        "name": "Stratechery",
-        "url": "https://stratechery.com/2026/the-end-of-jensen/"
-      },
-      "related": [
-        {
-          "name": "The Verge",
-          "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo"
-        }
-      ],
-      "image": {
-        "src": "/img/stratechery-end-of-jensen.jpg",
-        "alt": "Image from Stratechery"
-      }
-    },
-    {
       "id": "langchain-raises-300m",
       "title": "LangChain raises $300M at a $3B valuation",
       "takeaway": "LangChain says more than 7,000 companies use LangSmith for agent runtime, improvement and governance.",
@@ -337,24 +369,6 @@
       "image": {
         "src": "/img/langchain-raises-300m.jpg",
         "alt": "Image from @LangChain on X"
-      }
-    },
-    {
-      "id": "a16z-wiz-ai-attacks-20-min",
-      "title": "Wiz CTO: AI runs in 20 minutes attacks that took weeks",
-      "takeaway": "Ami Luttwak says companies must keep attacking their own systems with the latest models.",
-      "soWhat": "Budget for continuous AI red-teaming; yearly penetration tests no longer match attacker speed.",
-      "lens": "broad",
-      "momentum": "shift",
-      "importance": 6,
-      "publishedAt": "2026-11-13T15:52:22Z",
-      "source": {
-        "name": "@a16z on X",
-        "url": "https://x.com/a16z/status/2121269950816145544"
-      },
-      "image": {
-        "src": "/img/a16z-wiz-ai-attacks-20-min.jpg",
-        "alt": "Image from @a16z on X"
       }
     },
     {
@@ -474,39 +488,39 @@
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/OpenAI/status/2122123437141553630",
+      "url": "https://x.com/OpenAI/status/2122359930628063248",
       "handle": "@OpenAI",
-      "text": "Physicist Nathaniel Craig worked with GPT-6 Astra on a candidate lattice definition of the Standard Model.",
-      "metric": "2.9k likes",
-      "note": "The first post on OpenAI's science blog puts AI inside frontier physics work."
+      "text": "OpenAI is working with Apollo Research, METR, Transluce and Goodfire on embedded assessments of its internal models.",
+      "metric": "1.9k likes",
+      "note": "431 replies show strong interest in who gets to check frontier models."
     },
     {
-      "url": "https://x.com/theo/status/2122201652493230343",
-      "handle": "@theo",
-      "text": "Theo pushes back on claims T3 Code is not built for real work, versus kanban-style agent UIs.",
-      "metric": "1.8k likes",
-      "note": "215 replies show builders still split on how agent coding tools should look."
+      "url": "https://x.com/mattpocockuk/status/2122316570852487441",
+      "handle": "@mattpocockuk",
+      "text": "Matt Pocock on @poteto's AIE Code talk: 'nuance tends to lead to slop', so remove nuance from agent decisions.",
+      "metric": "1.3k likes",
+      "note": "A short rule for agent reliability that builders can apply right away."
     },
     {
-      "url": "https://x.com/rauchg/status/2122184794209714368",
-      "handle": "@rauchg",
-      "text": "xeet: an X post renderer in Rust/wasm with no browser, network or filesystem access; about 1ms per PNG.",
-      "metric": "1.2k likes",
-      "note": "Sandboxed, fast rendering appeals to teams wary of what agents can reach."
+      "url": "https://x.com/AravSrinivas/status/2122353569903128921",
+      "handle": "@AravSrinivas",
+      "text": "Perplexity announces Frontier Research: at least 10,000 GPUs on multi-agent orchestration and continual learning.",
+      "metric": "542 likes",
+      "note": "A product company moving into frontier research with open releases draws attention."
     },
     {
-      "url": "https://x.com/alexandr_wang/status/2122104505538121821",
-      "handle": "@alexandr_wang",
-      "text": "Muse can now make phone calls, for paid subscribers in the US.",
-      "metric": "1.1k likes",
-      "note": "Assistants that phone businesses for users keep drawing attention."
+      "url": "https://x.com/OpenAI/status/2122377585523126615",
+      "handle": "@OpenAI",
+      "text": "OpenAI expands free access to its frontier models for up to 200,000 scientists worldwide, with training and support.",
+      "metric": "424 likes",
+      "note": "104 replies as researchers weigh free access to frontier models."
     },
     {
-      "url": "https://x.com/VitalikButerin/status/2122233780371083553",
-      "handle": "@VitalikButerin",
-      "text": "Vitalik went from thinking leanPCS was bull to being a total bull, then explains the terms.",
-      "metric": "761 likes",
-      "note": "A founder publicly reversing his view on a scaling idea draws debate."
+      "url": "https://x.com/GoogleDeepMind/status/2122366992376107167",
+      "handle": "@GoogleDeepMind",
+      "text": "Google DeepMind says researchers use Gemini 4 Carbon in Google Antigravity for multi-step science problems.",
+      "metric": "405 likes",
+      "note": "Labs are competing to show their models doing real science work."
     }
   ]
 }
