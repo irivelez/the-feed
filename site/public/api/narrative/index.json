@@ -1,8 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-12",
-  "count": 14,
+  "latest": "2026-11-16",
+  "count": 15,
   "narratives": [
+    {
+      "id": "2026-11-16",
+      "publishedAt": "2026-11-16T08:05:00-05:00",
+      "window": {
+        "from": "2026-11-10",
+        "to": "2026-11-16"
+      },
+      "headline": "Your agents are outpacing your ability to manage them",
+      "url": "/api/narrative/2026-11-16.json"
+    },
     {
       "id": "2026-11-12",
       "publishedAt": "2026-11-12T19:45:00-05:00",
