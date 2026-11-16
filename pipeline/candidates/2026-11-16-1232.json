@@ -1,0 +1,217 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-16-1232",
+  "generatedAt": "2026-11-16T17:33:21.160Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-16T10:32:58.378Z",
+    "to": "2026-11-16T17:33:21.160Z"
+  },
+  "sourceNotes": [
+    "Midday run: 3 grouped X lane searches (7h, relevancy, original posts only) plus one id lookup for full text; RSS, arXiv, HN, query lane and reply capture not fetched.",
+    "Skipped off-lens or low-proof lane posts (Geoffrey Huntley jokes, LangChain workshop promo, a16z link-only posts)."
+  ],
+  "candidates": [
+    {
+      "id": "pocock-nuance-slop-poteto",
+      "lens": "practical",
+      "summary": "Matt Pocock highlights a talk by @poteto at AIE Code: 'nuance tends to lead to slop'. His takeaway: design APIs and automated checks that remove nuance from agents' decisions, e.g. ban useEffect.",
+      "source": {
+        "name": "mattpocockuk",
+        "url": "https://x.com/mattpocockuk/status/2122316570852487441",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-16T13:11:15.000Z",
+      "metrics": {
+        "likes": 1345,
+        "reposts": 61,
+        "replies": 82,
+        "views": 55051,
+        "capturedAt": "2026-11-16T17:33:21.160Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "agent-guardrails-checks"
+    },
+    {
+      "id": "langchain-goal-engineering",
+      "lens": "practical",
+      "summary": "LangChain posts a new blog from @hwchase17 on goal engineering: agents given a goal that they work to optimize.",
+      "source": {
+        "name": "LangChain",
+        "url": "https://x.com/LangChain/status/2122334744390357410",
+        "type": "x",
+        "handle": "LangChain"
+      },
+      "publishedAt": "2026-11-16T14:23:28.000Z",
+      "metrics": {
+        "likes": 18,
+        "reposts": 1,
+        "replies": 6,
+        "views": 3805,
+        "capturedAt": "2026-11-16T17:33:21.160Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "goal-engineering"
+    },
+    {
+      "id": "fable-52-teammate-miami-game",
+      "lens": "practical",
+      "summary": "Aravind Srinivas says Perplexity Teammate on Fable 5.2 built a browser open-world driving game with its own WebGL2 renderer, no game engine, no Three.js, no external assets.",
+      "source": {
+        "name": "AravSrinivas",
+        "url": "https://x.com/AravSrinivas/status/2122338465648103676",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-16T14:38:16.000Z",
+      "metrics": {
+        "likes": 365,
+        "reposts": 27,
+        "replies": 68,
+        "views": 23385,
+        "capturedAt": "2026-11-16T17:33:21.160Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "fable-52-usage"
+    },
+    {
+      "id": "perplexity-frontier-research-10k-gpus",
+      "lens": "broad",
+      "summary": "Perplexity announces Frontier Research: at least 10,000 GPUs on multi-agent orchestration and continual learning, aiming at an automated researcher. It says it will publish evals, papers and blogs and open source models and tooling.",
+      "source": {
+        "name": "AravSrinivas",
+        "url": "https://x.com/AravSrinivas/status/2122353569903128921",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-16T15:38:17.000Z",
+      "metrics": {
+        "likes": 542,
+        "reposts": 38,
+        "replies": 80,
+        "views": 55417,
+        "capturedAt": "2026-11-16T17:33:21.160Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "perplexity-frontier-research"
+    },
+    {
+      "id": "openai-free-access-scientists",
+      "lens": "broad",
+      "summary": "OpenAI expands free access to its frontier models for up to 200,000 scientists worldwide, with training and support. Applications open Nov. 23; by default data shared is not used for training.",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://x.com/OpenAI/status/2122377585523126615",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "publishedAt": "2026-11-16T17:13:42.000Z",
+      "metrics": {
+        "likes": 424,
+        "reposts": 38,
+        "replies": 104,
+        "views": 55685,
+        "capturedAt": "2026-11-16T17:33:21.160Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "topic": "openai-science"
+    },
+    {
+      "id": "openai-embedded-assessments",
+      "lens": "broad",
+      "summary": "OpenAI is working with Apollo Research, METR, Transluce and Goodfire on embedded assessments: outside experts get deep access to internal models and systems to investigate alignment and test safeguards.",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://x.com/OpenAI/status/2122359930628063248",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "publishedAt": "2026-11-16T16:03:33.000Z",
+      "metrics": {
+        "likes": 1899,
+        "reposts": 191,
+        "replies": 431,
+        "views": 253583,
+        "capturedAt": "2026-11-16T17:33:21.160Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "topic": "openai-alignment-assessments"
+    },
+    {
+      "id": "gemini-4-carbon-antigravity-lab",
+      "lens": "broad",
+      "summary": "Google DeepMind says researchers use Gemini 4 Carbon in Google Antigravity for multi-step problems across physics, math and life sciences.",
+      "source": {
+        "name": "GoogleDeepMind",
+        "url": "https://x.com/GoogleDeepMind/status/2122366992376107167",
+        "type": "x",
+        "handle": "GoogleDeepMind"
+      },
+      "publishedAt": "2026-11-16T16:31:37.000Z",
+      "metrics": {
+        "likes": 405,
+        "reposts": 23,
+        "replies": 89,
+        "views": 34226,
+        "capturedAt": "2026-11-16T17:33:21.160Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "gemini-4-carbon"
+    },
+    {
+      "id": "metaplanet-superplanet-cio",
+      "lens": "frontier-capital",
+      "summary": "Gerovich (Metaplanet) announces Jesse Myers will join Super League and lead Bitcoin treasury strategy as CIO of Superplanet once the transaction closes and it joins the Metaplanet group.",
+      "source": {
+        "name": "gerovich",
+        "url": "https://x.com/gerovich/status/2122375217427411391",
+        "type": "x",
+        "handle": "gerovich"
+      },
+      "publishedAt": "2026-11-16T17:04:18.000Z",
+      "metrics": {
+        "likes": 168,
+        "reposts": 27,
+        "replies": 18,
+        "views": 17779,
+        "capturedAt": "2026-11-16T17:33:21.160Z"
+      },
+      "care": 2,
+      "proof": 3,
+      "topic": "metaplanet-superplanet"
+    },
+    {
+      "id": "mengto-game-mvp-24h-opus",
+      "lens": "design",
+      "summary": "Meng To says making a game MVP concept in 24 hours is now feasible with Opus 5.5, and shares a demo link.",
+      "source": {
+        "name": "MengTo",
+        "url": "https://x.com/MengTo/status/2122313799135019069",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-16T13:00:15.000Z",
+      "metrics": {
+        "likes": 53,
+        "reposts": 2,
+        "replies": 16,
+        "views": 6071,
+        "capturedAt": "2026-11-16T17:33:21.160Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "topic": "design-ai-prototyping"
+    }
+  ]
+}
