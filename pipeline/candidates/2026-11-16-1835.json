@@ -1,0 +1,328 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-16-1835",
+  "generatedAt": "2026-11-16T23:36:00.000Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-16T17:00:00.000Z",
+    "to": "2026-11-16T23:36:00.000Z"
+  },
+  "sourceNotes": [
+    "Evening run: 3 grouped X lane searches (relevancy, original posts only, since 17:00Z); RSS, arXiv, HN, query lane, reply capture and author baselines not fetched.",
+    "Skipped off-lens or low-proof lane posts (Primeagen/Theo jokes, LangChain event promos, a16z Tyler Cowen clips, Nathan Benaich 'anthropic ipo + nvidia earnings' one-liner without detail).",
+    "Design lane (MengTo) returned no posts in window."
+  ],
+  "candidates": [
+    {
+      "id": "claude-code-verification-post",
+      "lens": "practical",
+      "summary": "ClaudeDevs says Claude writes better code when it can verify its work, and that checks like tests, benchmarks and end-to-end runs are now cheap. It links a post on how the Claude Code team thinks about verification.",
+      "source": {
+        "name": "ClaudeDevs",
+        "url": "https://x.com/ClaudeDevs/status/2122457608963395586",
+        "type": "x",
+        "handle": "ClaudeDevs"
+      },
+      "publishedAt": "2026-11-16T22:31:41.000Z",
+      "metrics": {
+        "likes": 2763,
+        "reposts": 162,
+        "replies": 90,
+        "views": 116148,
+        "capturedAt": "2026-11-16T23:36:00.000Z"
+      },
+      "care": 5,
+      "proof": 3,
+      "topic": "claude-code-verification"
+    },
+    {
+      "id": "claude-code-desktop-ios-duo",
+      "lens": "practical",
+      "summary": "Claude Code on desktop now supports iPhone Duo in the iOS simulator (public beta). Per ClaudeDevs, Claude can fold and unfold the device to test each layout.",
+      "source": {
+        "name": "ClaudeDevs",
+        "url": "https://x.com/ClaudeDevs/status/2122439098740674839",
+        "type": "x",
+        "handle": "ClaudeDevs"
+      },
+      "publishedAt": "2026-11-16T21:18:08.000Z",
+      "metrics": {
+        "likes": 5840,
+        "reposts": 184,
+        "replies": 173,
+        "views": 209097,
+        "capturedAt": "2026-11-16T23:36:00.000Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "claude-code-desktop"
+    },
+    {
+      "id": "theo-fable-52-ignores-feedback",
+      "lens": "practical",
+      "summary": "Theo says Fable 5.2 is the first model that consistently ignores unimportant feedback. He reports at least a dozen cases where Opus ran in circles on a thread and Fable said to just ship it.",
+      "source": {
+        "name": "theo",
+        "url": "https://x.com/theo/status/2122429147289206976",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-16T20:38:36.000Z",
+      "metrics": {
+        "likes": 3044,
+        "reposts": 22,
+        "replies": 120,
+        "views": 102645,
+        "capturedAt": "2026-11-16T23:36:00.000Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "fable-52-usage"
+    },
+    {
+      "id": "vercel-traces-primitive",
+      "lens": "practical",
+      "summary": "Guillermo Rauch argues Traces are the essential new primitive of software development and agentic evolution, capturing upstream intent and prompts, comparing them to what Git did for code deltas.",
+      "source": {
+        "name": "rauchg",
+        "url": "https://x.com/rauchg/status/2122391135129858507",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "publishedAt": "2026-11-16T18:07:33.000Z",
+      "metrics": {
+        "likes": 695,
+        "reposts": 26,
+        "replies": 118,
+        "views": 35220,
+        "capturedAt": "2026-11-16T23:36:00.000Z"
+      },
+      "care": 4,
+      "proof": 2,
+      "topic": "vercel-agent-evals-traces"
+    },
+    {
+      "id": "vercel-agent-evals-users-are-agents",
+      "lens": "practical",
+      "summary": "Rauch contrasts the old way (users are human, run interviews) with the new way (users are agents, run evals that feed the software engineering loop) and links a post on how Vercel does evals.",
+      "source": {
+        "name": "rauchg",
+        "url": "https://x.com/rauchg/status/2122415506451841215",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "publishedAt": "2026-11-16T19:44:23.000Z",
+      "metrics": {
+        "likes": 349,
+        "reposts": 15,
+        "replies": 67,
+        "views": 19177,
+        "capturedAt": "2026-11-16T23:36:00.000Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "vercel-agent-evals-traces"
+    },
+    {
+      "id": "langsmith-agent-platform",
+      "lens": "practical",
+      "summary": "LangChain introduces the new LangSmith Agent Platform: a single place to build, run, improve and govern agents across an org. Head of Product @samecrowder walks through why it was reorganized and how the agent model works.",
+      "source": {
+        "name": "LangChain",
+        "url": "https://x.com/LangChain/status/2122399562316804228",
+        "type": "x",
+        "handle": "LangChain"
+      },
+      "publishedAt": "2026-11-16T18:41:02.000Z",
+      "metrics": {
+        "likes": 24,
+        "reposts": 5,
+        "replies": 7,
+        "views": 4823,
+        "capturedAt": "2026-11-16T23:36:00.000Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "langsmith-agent-platform"
+    },
+    {
+      "id": "perplexity-monitor-api",
+      "lens": "practical",
+      "summary": "Aravind Srinivas announces Perplexity Monitor, an API to track any event, topic or webpage change and set up webhooks. Priced at $1 per 1000 runs.",
+      "source": {
+        "name": "AravSrinivas",
+        "url": "https://x.com/AravSrinivas/status/2122411451092807926",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-16T19:28:17.000Z",
+      "metrics": {
+        "likes": 215,
+        "reposts": 11,
+        "replies": 49,
+        "views": 15152,
+        "capturedAt": "2026-11-16T23:36:00.000Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "perplexity-monitor"
+    },
+    {
+      "id": "hwchase17-goal-engineering",
+      "lens": "practical",
+      "summary": "Harrison Chase says that as models get more capable they move from doing tasks to pursuing goals, which changes what an agent does, needs and how it is built. His blog covers what LangChain sees happening.",
+      "source": {
+        "name": "hwchase17",
+        "url": "https://x.com/hwchase17/status/2122391663889039828",
+        "type": "x",
+        "handle": "hwchase17"
+      },
+      "publishedAt": "2026-11-16T18:09:39.000Z",
+      "metrics": {
+        "likes": 137,
+        "reposts": 15,
+        "replies": 59,
+        "views": 11068,
+        "capturedAt": "2026-11-16T23:36:00.000Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "goal-engineering"
+    },
+    {
+      "id": "openai-free-access-200k-scientists",
+      "lens": "broad",
+      "summary": "OpenAI is expanding free access to its frontier models for up to 200,000 scientists worldwide, with training and support. Applications open Nov. 23. By default data shared through the program is not used for training.",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://x.com/OpenAI/status/2122377585523126615",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "publishedAt": "2026-11-16T17:13:42.000Z",
+      "metrics": {
+        "likes": 2941,
+        "reposts": 232,
+        "replies": 297,
+        "views": 353208,
+        "capturedAt": "2026-11-16T23:36:00.000Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "topic": "openai-science-access"
+    },
+    {
+      "id": "openai-scientists-productivity-study",
+      "lens": "broad",
+      "summary": "OpenAI says scientists reported nearly doubling their productivity with AI in its study of more than 1,800 participants in the ChatGPT for Academic Researchers program.",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://x.com/OpenAI/status/2122380010287960095",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "publishedAt": "2026-11-16T17:23:21.000Z",
+      "metrics": {
+        "likes": 2807,
+        "reposts": 195,
+        "replies": 315,
+        "views": 264742,
+        "capturedAt": "2026-11-16T23:36:00.000Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "openai-science-access"
+    },
+    {
+      "id": "openai-chatgpt-healthcare-plugins",
+      "lens": "broad",
+      "summary": "OpenAI says ChatGPT for Healthcare now has more capable computer-use agents, stronger clinical answers and 20+ new healthcare plugins. Named adopters include Abridge, Ambience, Cigna and CVS Health.",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://x.com/OpenAI/status/2122465625109090646",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "publishedAt": "2026-11-16T23:03:33.000Z",
+      "metrics": {
+        "likes": 612,
+        "reposts": 53,
+        "replies": 127,
+        "views": 73960,
+        "capturedAt": "2026-11-16T23:36:00.000Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "chatgpt-healthcare"
+    },
+    {
+      "id": "imas-agents-coordination-bottleneck",
+      "lens": "broad",
+      "summary": "a16z quotes Google DeepMind's Alex Imas saying AI agents still struggle to coordinate, and that coordination, not just competence, is a key bottleneck to economic transformation.",
+      "source": {
+        "name": "a16z",
+        "url": "https://x.com/a16z/status/2122401706340429962",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "publishedAt": "2026-11-16T18:49:33.000Z",
+      "metrics": {
+        "likes": 103,
+        "reposts": 19,
+        "replies": 32,
+        "views": 21046,
+        "capturedAt": "2026-11-16T23:36:00.000Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "agents-economy-bottleneck"
+    },
+    {
+      "id": "rauchg-own-your-intelligence",
+      "lens": "broad",
+      "summary": "Rauch's four-point list on owning your intelligence roadmap: open SDKs and harnesses, own model choice with Gateways, own traces and data with ZDR, and own your models with private inference.",
+      "source": {
+        "name": "rauchg",
+        "url": "https://x.com/rauchg/status/2122458782294847807",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "publishedAt": "2026-11-16T22:36:21.000Z",
+      "metrics": {
+        "likes": 111,
+        "reposts": 1,
+        "replies": 20,
+        "views": 7724,
+        "capturedAt": "2026-11-16T23:36:00.000Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "own-your-intelligence"
+    },
+    {
+      "id": "metaplanet-super-league-cio",
+      "lens": "frontier-capital",
+      "summary": "Metaplanet's Gerovich welcomes Jesse Myers to Super League, to lead Bitcoin treasury strategy as Chief Investment Officer of Superplanet once the transaction closes and the company joins the Metaplanet group.",
+      "source": {
+        "name": "gerovich",
+        "url": "https://x.com/gerovich/status/2122375217427411391",
+        "type": "x",
+        "handle": "gerovich"
+      },
+      "publishedAt": "2026-11-16T17:04:18.000Z",
+      "metrics": {
+        "likes": 690,
+        "reposts": 86,
+        "replies": 56,
+        "views": 69488,
+        "capturedAt": "2026-11-16T23:36:00.000Z"
+      },
+      "care": 2,
+      "proof": 3,
+      "topic": "metaplanet-super-league"
+    }
+  ]
+}
