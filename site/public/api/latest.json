@@ -1,10 +1,15 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-15-1300",
-  "date": "2026-11-15",
-  "publishedAt": "2026-11-15T13:15:00-05:00",
-  "edition": "Midday",
+  "id": "2026-11-16-0700",
+  "date": "2026-11-16",
+  "publishedAt": "2026-11-16T07:15:00-05:00",
+  "edition": "Morning",
   "top3": [
+    {
+      "itemId": "openai-gpt6-astra-physics",
+      "headline": "GPT-6 Astra helped a physicist draft a lattice Standard Model",
+      "whyItMatters": "Labs now pitch models as research partners, so expect science claims that need expert checking."
+    },
     {
       "itemId": "arav-teammate-agent-hours",
       "headline": "Perplexity says Teammate agent hours grew 11x in a week",
@@ -14,14 +19,32 @@
       "itemId": "rauchg-agent-ship-gates",
       "headline": "Vercel CEO outlines how agents can ship code safely",
       "whyItMatters": "Agent output needs feature flags, automated checks and live metrics before it reaches customers."
-    },
-    {
-      "itemId": "verge-chatgpt-wallet-dots",
-      "headline": "ChatGPT Wallet lets OpenAI's agents buy things for users",
-      "whyItMatters": "Agent payments are reaching mainstream apps, so decide how your business handles agent buyers."
     }
   ],
   "items": [
+    {
+      "id": "openai-gpt6-astra-physics",
+      "title": "OpenAI: GPT-6 Astra helped draft a lattice Standard Model",
+      "takeaway": "Physicist Nathaniel Craig worked with GPT-6 Astra on a candidate lattice definition of the Standard Model, the first post on OpenAI's new science blog.",
+      "soWhat": "AI research claims are arriving fast, so ask who checked the work before acting on it.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-16T00:23:49Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2122123437141553630"
+      },
+      "image": {
+        "src": "/img/openai-gpt6-astra-physics.jpg",
+        "alt": "Image from @OpenAI on X"
+      },
+      "heat": {
+        "score": 26,
+        "level": "none",
+        "metric": "527k views"
+      }
+    },
     {
       "id": "mengto-dark-souls-game-fable",
       "title": "Meng To builds a Dark Souls-style browser game in 3 days",
@@ -38,11 +61,6 @@
       "image": {
         "src": "/img/mengto-dark-souls-game-fable.jpg",
         "alt": "Image from @MengTo on X"
-      },
-      "heat": {
-        "score": 7,
-        "level": "none",
-        "metric": "12k views"
       }
     },
     {
@@ -51,7 +69,7 @@
       "takeaway": "Using fx and Gemini Argon, the agent produced a pure Web Components interface and reused 14 UI SDK behaviors, from window dragging to typeahead.",
       "soWhat": "Agents can assemble complex interfaces without a framework when given a library of reusable behaviors.",
       "lens": "practical",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 6,
       "publishedAt": "2026-11-15T03:15:39Z",
       "source": {
@@ -61,11 +79,6 @@
       "image": {
         "src": "/img/rauchg-gemini-argon-web-components.jpg",
         "alt": "Image from @rauchg on X"
-      },
-      "heat": {
-        "score": 20,
-        "level": "none",
-        "metric": "77k views"
       }
     },
     {
@@ -74,7 +87,7 @@
       "takeaway": "Aravind Srinivas says weekly agent hours rose 11x after 7x the week before, and staff gaining an extra workday more than tripled since September.",
       "soWhat": "Workplace agent use can compound in weeks, so track hours saved, not seats bought.",
       "lens": "broad",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 7,
       "publishedAt": "2026-11-15T03:10:33Z",
       "source": {
@@ -84,11 +97,6 @@
       "image": {
         "src": "/img/arav-teammate-agent-hours.jpg",
         "alt": "Image from @AravSrinivas on X"
-      },
-      "heat": {
-        "score": 9,
-        "level": "none",
-        "metric": "24k views"
       }
     },
     {
@@ -97,7 +105,7 @@
       "takeaway": "Guillermo Rauch describes agents writing feature-gated code, verification gates on push for proof checks and security audits, then the agent monitoring metrics.",
       "soWhat": "Safe agent shipping rests on gates and monitoring, not on trusting the model.",
       "lens": "practical",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 7,
       "publishedAt": "2026-11-14T21:06:13Z",
       "source": {
@@ -107,11 +115,6 @@
       "image": {
         "src": "/img/rauchg-agent-ship-gates.jpg",
         "alt": "Profile image of @rauchg"
-      },
-      "heat": {
-        "score": 18,
-        "level": "none",
-        "metric": "85k views"
       }
     },
     {
@@ -130,11 +133,6 @@
       "image": {
         "src": "/img/simonw-claude-auto-mode-permission.jpg",
         "alt": "Profile image of @simonw"
-      },
-      "heat": {
-        "score": 14,
-        "level": "none",
-        "metric": "39k views"
       }
     },
     {
@@ -143,7 +141,7 @@
       "takeaway": "He shares a chart of US and China 10-year yields and calls the gap the most important divergence between two superpowers funding an AI arms race.",
       "soWhat": "Borrowing costs shape how long each superpower can keep funding its AI build-out.",
       "lens": "frontier-capital",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 5,
       "publishedAt": "2026-11-14T19:33:19Z",
       "source": {
@@ -153,11 +151,6 @@
       "image": {
         "src": "/img/tavicosta-us-china-yields.jpg",
         "alt": "Image from @TaviCosta on X"
-      },
-      "heat": {
-        "score": 14,
-        "level": "none",
-        "metric": "37k views"
       }
     },
     {
@@ -176,11 +169,6 @@
       "image": {
         "src": "/img/nathanbenaich-ai-infra-security.jpg",
         "alt": "Profile image of @nathanbenaich"
-      },
-      "heat": {
-        "score": 0,
-        "level": "none",
-        "metric": "2k views"
       }
     },
     {
@@ -199,11 +187,6 @@
       "image": {
         "src": "/img/mengto-tripo-blender-claude-workflow.jpg",
         "alt": "Image from @MengTo on X"
-      },
-      "heat": {
-        "score": 12,
-        "level": "none",
-        "metric": "36k views"
       }
     },
     {
@@ -240,11 +223,6 @@
       "image": {
         "src": "/img/theo-t3-code-custom-ui.jpg",
         "alt": "Image from @theo on X"
-      },
-      "heat": {
-        "score": 27,
-        "level": "none",
-        "metric": "240k views"
       }
     },
     {
@@ -496,39 +474,39 @@
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/theo/status/2121711410745061572",
+      "url": "https://x.com/OpenAI/status/2122123437141553630",
+      "handle": "@OpenAI",
+      "text": "Physicist Nathaniel Craig worked with GPT-6 Astra on a candidate lattice definition of the Standard Model.",
+      "metric": "2.9k likes",
+      "note": "The first post on OpenAI's science blog puts AI inside frontier physics work."
+    },
+    {
+      "url": "https://x.com/theo/status/2122201652493230343",
       "handle": "@theo",
-      "text": "A nontechnical T3 Code user asked her agent for a nightly-only feature; it cloned the source and put her on a fork.",
-      "metric": "1.7k likes",
-      "note": "Shows an agent taking a big step for a nontechnical user unprompted."
+      "text": "Theo pushes back on claims T3 Code is not built for real work, versus kanban-style agent UIs.",
+      "metric": "1.8k likes",
+      "note": "215 replies show builders still split on how agent coding tools should look."
     },
     {
-      "url": "https://x.com/rauchg/status/2121804295381377342",
+      "url": "https://x.com/rauchg/status/2122184794209714368",
       "handle": "@rauchg",
-      "text": "Two prompts with fx and Gemini Argon produced a pure Web Components UI, reusing 14 UI SDK behaviors.",
-      "metric": "1.6k likes",
-      "note": "Builders want proof agents can make real interfaces without a framework."
+      "text": "xeet: an X post renderer in Rust/wasm with no browser, network or filesystem access; about 1ms per PNG.",
+      "metric": "1.2k likes",
+      "note": "Sandboxed, fast rendering appeals to teams wary of what agents can reach."
     },
     {
-      "url": "https://x.com/rauchg/status/2121711321347715093",
-      "handle": "@rauchg",
-      "text": "Agent writes feature-gated code, verification gates run on push, agent monitors metrics. Doable today with Vercel CLI.",
+      "url": "https://x.com/alexandr_wang/status/2122104505538121821",
+      "handle": "@alexandr_wang",
+      "text": "Muse can now make phone calls, for paid subscribers in the US.",
       "metric": "1.1k likes",
-      "note": "A concrete answer to how teams let agents ship without breaking things."
+      "note": "Assistants that phone businesses for users keep drawing attention."
     },
     {
-      "url": "https://x.com/simonw/status/2121695097674981849",
-      "handle": "@simonw",
-      "text": "Claude chat now uses auto mode and may refuse to run things; granting permission in a message unblocked it.",
-      "metric": "534 likes",
-      "note": "229 replies show many users hitting the same new refusals."
-    },
-    {
-      "url": "https://x.com/TaviCosta/status/2121687944155283735",
-      "handle": "@TaviCosta",
-      "text": "US vs China 10-year yields: probably the most important macro divergence between two superpowers in an AI arms race.",
-      "metric": "500 likes",
-      "note": "Investors are tying bond markets to the cost of the AI race."
+      "url": "https://x.com/VitalikButerin/status/2122233780371083553",
+      "handle": "@VitalikButerin",
+      "text": "Vitalik went from thinking leanPCS was bull to being a total bull, then explains the terms.",
+      "metric": "761 likes",
+      "note": "A founder publicly reversing his view on a scaling idea draws debate."
     }
   ]
 }
