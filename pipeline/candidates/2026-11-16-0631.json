@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-16-0631",
+  "generatedAt": "2026-11-16T11:32:02.142Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-15T21:31:48.151Z",
+    "to": "2026-11-16T11:32:02.142Z"
+  },
+  "sourceNotes": [
+    "Monday early run: 3 grouped X lane searches (14h, relevancy, original posts only); RSS, arXiv, HN, query lane and reply capture not fetched.",
+    "Search results are thin overnight; many lane posts were personal or off-lens (Lyn Alden culture posts, swyx SpaceX) and skipped.",
+    "design lane (MengTo) had no post in the window; no design candidates."
+  ],
+  "candidates": [
+    {
+      "id": "ai-coding-history-pocock",
+      "lens": "practical",
+      "summary": "Matt Pocock posts a short timeline of AI coding since Nov 2025, from Opus 4.5 and OpenClaw to the Ralph loop in Jan 2026.",
+      "source": {
+        "name": "mattpocockuk",
+        "url": "https://x.com/mattpocockuk/status/2122287575557706226",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-16T11:16:02.000Z",
+      "metrics": {
+        "likes": 128,
+        "reposts": 16,
+        "replies": 17,
+        "views": 4919,
+        "capturedAt": "2026-11-16T11:32:02.142Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "ai-coding-timeline"
+    },
+    {
+      "id": "t3-code-real-work-theo",
+      "lens": "practical",
+      "summary": "Theo pushes back on claims that T3 Code is not optimal for real work, contrasting it with kanban-style agent UIs that waste screen space on in-progress work.",
+      "source": {
+        "name": "theo",
+        "url": "https://x.com/theo/status/2122201652493230343",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-16T05:34:37.000Z",
+      "metrics": {
+        "likes": 1751,
+        "reposts": 17,
+        "replies": 215,
+        "views": 134358,
+        "capturedAt": "2026-11-16T11:32:02.142Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "t3-code-ui"
+    },
+    {
+      "id": "xeet-renderer-rauchg",
+      "lens": "broad",
+      "summary": "Guillermo Rauch introduces xeet, an X post renderer in Rust/wasm with no browser, network or filesystem access; he says it renders a post to PNG in about 1ms.",
+      "source": {
+        "name": "rauchg",
+        "url": "https://x.com/rauchg/status/2122184794209714368",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "publishedAt": "2026-11-16T04:27:37.000Z",
+      "metrics": {
+        "likes": 1225,
+        "reposts": 63,
+        "replies": 142,
+        "views": 54970,
+        "capturedAt": "2026-11-16T11:32:02.142Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "xeet-renderer"
+    },
+    {
+      "id": "openai-gpt6-astra-physics",
+      "lens": "broad",
+      "summary": "OpenAI says physicist Nathaniel Craig worked with GPT-6 Astra on a candidate lattice definition of the Standard Model, the first post on OpenAI's new science blog.",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://x.com/OpenAI/status/2122123437141553630",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "publishedAt": "2026-11-16T00:23:49.000Z",
+      "metrics": {
+        "likes": 2931,
+        "reposts": 269,
+        "replies": 494,
+        "views": 527379,
+        "capturedAt": "2026-11-16T11:32:02.142Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "gpt6-astra-science"
+    },
+    {
+      "id": "muse-calls-alexandr-wang",
+      "lens": "broad",
+      "summary": "Alexandr Wang announces Muse can make phone calls, for paid subscribers in the US.",
+      "source": {
+        "name": "alexandr_wang",
+        "url": "https://x.com/alexandr_wang/status/2122104505538121821",
+        "type": "x",
+        "handle": "alexandr_wang"
+      },
+      "publishedAt": "2026-11-15T23:08:35.000Z",
+      "metrics": {
+        "likes": 1107,
+        "reposts": 53,
+        "replies": 111,
+        "views": 85188,
+        "capturedAt": "2026-11-16T11:32:02.142Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "muse-calls"
+    },
+    {
+      "id": "vitalik-leanpcs-bull",
+      "lens": "frontier-capital",
+      "summary": "Vitalik Buterin says he went from thinking leanPCS was bull to being a total bull, then explains the terms; the post covers hyper-scaling data.",
+      "source": {
+        "name": "VitalikButerin",
+        "url": "https://x.com/VitalikButerin/status/2122233780371083553",
+        "type": "x",
+        "handle": "VitalikButerin"
+      },
+      "publishedAt": "2026-11-16T07:42:17.000Z",
+      "metrics": {
+        "likes": 761,
+        "reposts": 97,
+        "replies": 171,
+        "views": 127057,
+        "capturedAt": "2026-11-16T11:32:02.142Z"
+      },
+      "care": 2,
+      "proof": 3,
+      "topic": "vitalik-leanpcs"
+    }
+  ]
+}
