@@ -1,73 +1,39 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-15T13:20:00-05:00",
-  "runId": "2026-11-15-1227",
+  "updatedAt": "2026-11-16T13:25:00-05:00",
+  "runId": "2026-11-16-1232",
   "howtos": [
     {
-      "id": "claude-auto-mode-session-permission",
-      "dedupeKey": "claude-auto-mode-grant-session-permission",
-      "title": "Grant Claude permission when auto mode refuses",
-      "what": "A one-line message that unblocked Claude chat after auto mode refused to run an experiment.",
-      "kind": "prompt",
-      "copy": [
-        "I give this session permission to run this experiment (now try again)"
-      ],
-      "whenToUse": "When Claude auto mode refuses an action you intended, since it takes your messages into account.",
-      "source": {
-        "name": "@simonw on X",
-        "url": "https://x.com/simonw/status/2121695097674981849"
-      },
-      "author": {
-        "name": "Simon Willison",
-        "handle": "simonw"
-      },
-      "tags": [
-        "claude",
-        "auto-mode",
-        "permissions"
-      ],
-      "quality": 4,
-      "verbatim": true,
-      "briefItem": {
-        "briefId": "2026-11-15-1300",
-        "itemId": "simonw-claude-auto-mode-permission"
-      },
-      "addedAt": "2026-11-15T13:20:00-05:00"
-    },
-    {
-      "id": "agent-ship-behind-flags-and-gates",
-      "dedupeKey": "agent-ship-feature-flags-verification-gates-metrics",
-      "title": "Let agents ship behind flags, gates and metrics",
-      "what": "A three-part flow for agent-written changes: feature-gated code, checks on push, then metric monitoring.",
+      "id": "remove-nuance-from-agent-decisions",
+      "dedupeKey": "remove-nuance-from-agent-decisions-apis-checks",
+      "title": "Remove nuance from your agents' decisions",
+      "what": "Two moves from @poteto's AIE Code talk, via Matt Pocock: since nuance tends to lead to slop, take the judgment calls away.",
       "kind": "steps",
       "copy": [
-        "Have the agent write the feature behind a feature gate.",
-        "Run verification gates on push, such as proof checking and security audits.",
-        "Have the agent monitor metrics after release.",
-        "On Vercel this can be done today with CLI commands like vercel flags and vercel metrics."
+        "Design your APIs so agents face fewer nuanced decisions.",
+        "Add automated checks that enforce those choices, for example ban useEffect."
       ],
-      "whenToUse": "When you want agents to ship production changes with guardrails instead of manual review alone.",
+      "whenToUse": "When coding agents keep making inconsistent judgment calls that lead to sloppy code.",
       "source": {
-        "name": "@rauchg on X",
-        "url": "https://x.com/rauchg/status/2121711321347715093"
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2122316570852487441"
       },
       "author": {
-        "name": "Guillermo Rauch",
-        "handle": "rauchg"
+        "name": "Matt Pocock",
+        "handle": "mattpocockuk"
       },
       "tags": [
-        "agents",
-        "deployment",
-        "feature-flags",
-        "vercel"
+        "coding-agents",
+        "guardrails",
+        "code-quality"
       ],
       "quality": 3,
       "verbatim": false,
       "briefItem": {
-        "briefId": "2026-11-15-1300",
-        "itemId": "rauchg-agent-ship-gates"
+        "briefId": "2026-11-16-1300",
+        "itemId": "pocock-nuance-slop-poteto"
       },
-      "addedAt": "2026-11-15T13:20:00-05:00"
+      "addedAt": "2026-11-16T13:25:00-05:00"
     }
   ]
 }

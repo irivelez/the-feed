@@ -1,7 +1,39 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-15T13:20:00-05:00",
+  "updatedAt": "2026-11-16T13:25:00-05:00",
   "howtos": [
+    {
+      "id": "remove-nuance-from-agent-decisions",
+      "dedupeKey": "remove-nuance-from-agent-decisions-apis-checks",
+      "title": "Remove nuance from your agents' decisions",
+      "what": "Two moves from @poteto's AIE Code talk, via Matt Pocock: since nuance tends to lead to slop, take the judgment calls away.",
+      "kind": "steps",
+      "copy": [
+        "Design your APIs so agents face fewer nuanced decisions.",
+        "Add automated checks that enforce those choices, for example ban useEffect."
+      ],
+      "whenToUse": "When coding agents keep making inconsistent judgment calls that lead to sloppy code.",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2122316570852487441"
+      },
+      "author": {
+        "name": "Matt Pocock",
+        "handle": "mattpocockuk"
+      },
+      "tags": [
+        "coding-agents",
+        "guardrails",
+        "code-quality"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-16-1300",
+        "itemId": "pocock-nuance-slop-poteto"
+      },
+      "addedAt": "2026-11-16T13:25:00-05:00"
+    },
     {
       "id": "claude-auto-mode-session-permission",
       "dedupeKey": "claude-auto-mode-grant-session-permission",
