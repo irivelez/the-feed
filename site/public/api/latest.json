@@ -1,27 +1,131 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-16-1300",
+  "id": "2026-11-16-1900",
   "date": "2026-11-16",
-  "publishedAt": "2026-11-16T13:20:00-05:00",
-  "edition": "Midday",
+  "publishedAt": "2026-11-16T19:10:47-05:00",
+  "edition": "Evening",
   "top3": [
     {
-      "itemId": "perplexity-frontier-research-10k-gpus",
-      "headline": "Perplexity bets 10,000 GPUs on building an automated researcher",
-      "whyItMatters": "Frontier research is no longer limited to big labs, so watch who publishes usable open tools."
+      "itemId": "openai-chatgpt-healthcare-plugins",
+      "headline": "OpenAI pushes agents into healthcare with Cigna and CVS on board",
+      "whyItMatters": "Agents are entering regulated work, so your sector's adoption clock may be shorter than planned."
     },
     {
-      "itemId": "openai-embedded-assessments",
-      "headline": "OpenAI lets outside safety labs inspect its internal models",
-      "whyItMatters": "Independent safety checks are becoming part of frontier work, giving leaders more evidence to weigh."
+      "itemId": "claude-code-verification-post",
+      "headline": "Claude Code team says agents code better when they check themselves",
+      "whyItMatters": "Cheap automated checks make agent output trustworthy, so invest in tests before more agents."
     },
     {
-      "itemId": "pocock-nuance-slop-poteto",
-      "headline": "To reduce agent slop, remove the judgment calls",
-      "whyItMatters": "Pocock argues reliable agent output comes from rules built into APIs and automated checks."
+      "itemId": "vercel-agent-evals-users-are-agents",
+      "headline": "Vercel's Rauch: when users are agents, evals replace interviews",
+      "whyItMatters": "Products now serve agents too, so measure them with evals the way you study customers."
     }
   ],
   "items": [
+    {
+      "id": "openai-chatgpt-healthcare-plugins",
+      "title": "ChatGPT for Healthcare adds computer-use agents and 20+ plugins",
+      "takeaway": "OpenAI says ChatGPT for Healthcare now has more capable computer-use agents, stronger clinical answers and 20+ new healthcare plugins. Abridge, Ambience, Cigna and CVS Health are named adopters.",
+      "soWhat": "Regulated industries are putting agents into daily work, so benchmark your own sector's pace.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-16T23:03:33Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2122465625109090646"
+      },
+      "image": {
+        "src": "/img/openai-chatgpt-healthcare-plugins.jpg",
+        "alt": "Profile image of @OpenAI"
+      },
+      "heat": {
+        "score": 15,
+        "level": "none",
+        "metric": "74k views"
+      }
+    },
+    {
+      "id": "claude-code-verification-post",
+      "title": "Claude Code team: let agents verify their own work",
+      "takeaway": "ClaudeDevs says Claude writes better code when it can verify its work, and that tests, benchmarks and end-to-end runs are now cheap. The team published how it thinks about verification.",
+      "soWhat": "Agent output gets more reliable when checks are built in, so budget for tests, not reviews.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-16T22:31:41Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2122457608963395586"
+      },
+      "related": [
+        {
+          "name": "Claude Code blog: verification",
+          "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/"
+        }
+      ],
+      "image": {
+        "src": "/img/claude-code-verification-post.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      },
+      "heat": {
+        "score": 24,
+        "level": "none",
+        "metric": "116k views"
+      }
+    },
+    {
+      "id": "claude-code-desktop-ios-duo",
+      "title": "Claude Code desktop can test apps on iPhone Duo's folding layouts",
+      "takeaway": "Claude Code on desktop now supports iPhone Duo in the iOS simulator, in public beta. Claude can fold and unfold the device to test each layout.",
+      "soWhat": "Agents now test layouts on new devices themselves, cutting manual QA for mobile teams.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-16T21:18:08Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2122439098740674839"
+      },
+      "image": {
+        "src": "/img/claude-code-desktop-ios-duo.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      },
+      "heat": {
+        "score": 29,
+        "level": "none",
+        "metric": "209k views"
+      }
+    },
+    {
+      "id": "vercel-agent-evals-users-are-agents",
+      "title": "Rauch: your users are now agents, so run evals",
+      "takeaway": "Guillermo Rauch says user interviews give way to evals when users are agents, with evals feeding the engineering loop. He also calls traces the new primitive of software development.",
+      "soWhat": "If agents use your product, evals become your user research, so fund them that way.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-16T19:44:23Z",
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2122415506451841215"
+      },
+      "related": [
+        {
+          "name": "@rauchg on X: traces",
+          "url": "https://x.com/rauchg/status/2122391135129858507"
+        }
+      ],
+      "image": {
+        "src": "/img/vercel-agent-evals-users-are-agents.jpg",
+        "alt": "Profile image of @rauchg"
+      },
+      "heat": {
+        "score": 10,
+        "level": "none",
+        "metric": "19k views"
+      }
+    },
     {
       "id": "openai-free-access-scientists",
       "title": "OpenAI opens free frontier model access to 200,000 scientists",
@@ -39,10 +143,16 @@
         "src": "/img/openai-free-access-scientists.jpg",
         "alt": "Image from @OpenAI on X"
       },
+      "related": [
+        {
+          "name": "@OpenAI on X: productivity study",
+          "url": "https://x.com/OpenAI/status/2122380010287960095"
+        }
+      ],
       "heat": {
-        "score": 13,
+        "score": 25,
         "level": "none",
-        "metric": "56k views"
+        "metric": "353k views"
       }
     },
     {
@@ -61,11 +171,6 @@
       "image": {
         "src": "/img/openai-embedded-assessments.jpg",
         "alt": "Image from @OpenAI on X"
-      },
-      "heat": {
-        "score": 23,
-        "level": "none",
-        "metric": "254k views"
       }
     },
     {
@@ -84,11 +189,6 @@
       "image": {
         "src": "/img/perplexity-frontier-research-10k-gpus.jpg",
         "alt": "Image from @AravSrinivas on X"
-      },
-      "heat": {
-        "score": 14,
-        "level": "none",
-        "metric": "55k views"
       }
     },
     {
@@ -107,34 +207,6 @@
       "image": {
         "src": "/img/pocock-nuance-slop-poteto.jpg",
         "alt": "Image from @mattpocockuk on X"
-      },
-      "heat": {
-        "score": 19,
-        "level": "none",
-        "metric": "55k views"
-      }
-    },
-    {
-      "id": "openai-gpt6-astra-physics",
-      "title": "OpenAI: GPT-6 Astra helped draft a lattice Standard Model",
-      "takeaway": "Physicist Nathaniel Craig worked with GPT-6 Astra on a candidate lattice definition of the Standard Model, the first post on OpenAI's new science blog.",
-      "soWhat": "AI research claims are arriving fast, so ask who checked the work before acting on it.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 4,
-      "publishedAt": "2026-11-16T00:23:49Z",
-      "source": {
-        "name": "@OpenAI on X",
-        "url": "https://x.com/OpenAI/status/2122123437141553630"
-      },
-      "image": {
-        "src": "/img/openai-gpt6-astra-physics.jpg",
-        "alt": "Image from @OpenAI on X"
-      },
-      "heat": {
-        "score": 26,
-        "level": "none",
-        "metric": "527k views"
       }
     },
     {
@@ -156,42 +228,6 @@
       }
     },
     {
-      "id": "rauchg-gemini-argon-web-components",
-      "title": "Rauch: two prompts built a framework-free UI with Gemini Argon",
-      "takeaway": "Using fx and Gemini Argon, the agent produced a pure Web Components interface and reused 14 UI SDK behaviors, from window dragging to typeahead.",
-      "soWhat": "Agents can assemble complex interfaces without a framework when given a library of reusable behaviors.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-15T03:15:39Z",
-      "source": {
-        "name": "@rauchg on X",
-        "url": "https://x.com/rauchg/status/2121804295381377342"
-      },
-      "image": {
-        "src": "/img/rauchg-gemini-argon-web-components.jpg",
-        "alt": "Image from @rauchg on X"
-      }
-    },
-    {
-      "id": "arav-teammate-agent-hours",
-      "title": "Perplexity says Teammate agent hours grew 11x in a week",
-      "takeaway": "Aravind Srinivas says weekly agent hours rose 11x after 7x the week before, and staff gaining an extra workday more than tripled since September.",
-      "soWhat": "Workplace agent use can compound in weeks, so track hours saved, not seats bought.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-15T03:10:33Z",
-      "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2121803009432953255"
-      },
-      "image": {
-        "src": "/img/arav-teammate-agent-hours.jpg",
-        "alt": "Image from @AravSrinivas on X"
-      }
-    },
-    {
       "id": "rauchg-agent-ship-gates",
       "title": "Rauch: agents can ship behind feature flags and watch metrics",
       "takeaway": "Guillermo Rauch describes agents writing feature-gated code, verification gates on push for proof checks and security audits, then the agent monitoring metrics.",
@@ -207,24 +243,6 @@
       "image": {
         "src": "/img/rauchg-agent-ship-gates.jpg",
         "alt": "Profile image of @rauchg"
-      }
-    },
-    {
-      "id": "simonw-claude-auto-mode-permission",
-      "title": "Simon Willison: Claude's auto mode may refuse some actions",
-      "takeaway": "Simon Willison says regular Claude chat now runs in auto mode and may refuse actions; he prompts a session-level permission grant.",
-      "soWhat": "Agent safety checks will sometimes block real work, so teach teams how to grant permission.",
-      "lens": "practical",
-      "momentum": "shift",
-      "importance": 6,
-      "publishedAt": "2026-11-14T20:01:45Z",
-      "source": {
-        "name": "@simonw on X",
-        "url": "https://x.com/simonw/status/2121695097674981849"
-      },
-      "image": {
-        "src": "/img/simonw-claude-auto-mode-permission.jpg",
-        "alt": "Profile image of @simonw"
       }
     },
     {
@@ -372,24 +390,6 @@
       }
     },
     {
-      "id": "openai-persistent-agents-writeup",
-      "title": "Peter Steinberger's team writes up OpenAI's persistent agents",
-      "takeaway": "He says his team wrote about how they run persistent agents inside OpenAI; his post links the write-up.",
-      "soWhat": "A frontier lab's own operating notes are a rare benchmark for your agent setup.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-13T01:53:12Z",
-      "source": {
-        "name": "@steipete on X",
-        "url": "https://x.com/steipete/status/2121058770767982997"
-      },
-      "image": {
-        "src": "/img/openai-persistent-agents-writeup.jpg",
-        "alt": "Profile image of @steipete"
-      }
-    },
-    {
       "id": "gemini-4-carbon-argon-price-doubling",
       "title": "Simon Willison: Gemini 4 Carbon and Argon prices double Dec 1",
       "takeaway": "Argon and Carbon share one token price; the new Hydrogen is only a 25% discount on it.",
@@ -466,61 +466,66 @@
   ],
   "voices": [
     {
-      "handle": "@garrytan",
-      "quote": "On 52 coding tasks in Claude Code 2.1.322, Fable 5.2 solved about as many (82.7% vs 84.6%) but cost 2.80x as much per solved task.",
-      "url": "https://x.com/garrytan/status/2121464508225053153"
+      "handle": "@ClaudeDevs",
+      "quote": "Claude writes better code when it can verify its work. Checks that used to be expensive, like tests, benchmarks, and end-to-end runs, are now cheap.",
+      "url": "https://x.com/ClaudeDevs/status/2122457608963395586"
     },
     {
-      "handle": "@cursor_ai",
-      "quote": "We’ve published an update on our recent security incident.",
-      "url": "https://x.com/cursor_ai/status/2121411147714970092"
+      "handle": "@rauchg",
+      "quote": "I believe Traces are the essential new primitive of software development and agentic evolution.",
+      "url": "https://x.com/rauchg/status/2122391135129858507"
     },
     {
       "handle": "@theo",
-      "quote": "T3 Code now lets you fully customize your UI in app. Ask your agent to make changes and it will update on the fly",
-      "url": "https://x.com/theo/status/2121455838414201200"
+      "quote": "Fable 5.2 is the first model that consistently ignores unimportant feedback.",
+      "url": "https://x.com/theo/status/2122429147289206976"
     },
     {
-      "handle": "@ClaudeDevs",
-      "quote": "In a project, Claude coordinates your tasks across parallel threads. The coordinator is now much more proactive.",
-      "url": "https://x.com/ClaudeDevs/status/2121375309287301360"
+      "handle": "@hwchase17",
+      "quote": "as models get more capable, we see them moving from doing tasks towards pursuing goals",
+      "url": "https://x.com/hwchase17/status/2122391663889039828"
+    },
+    {
+      "handle": "@garrytan",
+      "quote": "On 52 coding tasks in Claude Code 2.1.322, Fable 5.2 solved about as many (82.7% vs 84.6%) but cost 2.80x as much per solved task.",
+      "url": "https://x.com/garrytan/status/2121464508225053153"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/OpenAI/status/2122359930628063248",
-      "handle": "@OpenAI",
-      "text": "OpenAI is working with Apollo Research, METR, Transluce and Goodfire on embedded assessments of its internal models.",
-      "metric": "1.9k likes",
-      "note": "431 replies show strong interest in who gets to check frontier models."
+      "url": "https://x.com/ClaudeDevs/status/2122439098740674839",
+      "handle": "@ClaudeDevs",
+      "text": "Claude Code on desktop now supports iPhone Duo in the iOS simulator; Claude can fold and unfold it to test each layout.",
+      "metric": "5.8k likes",
+      "note": "Builders want agents that test real device layouts without manual clicking."
     },
     {
-      "url": "https://x.com/mattpocockuk/status/2122316570852487441",
-      "handle": "@mattpocockuk",
-      "text": "Matt Pocock on @poteto's AIE Code talk: 'nuance tends to lead to slop', so remove nuance from agent decisions.",
-      "metric": "1.3k likes",
-      "note": "A short rule for agent reliability that builders can apply right away."
-    },
-    {
-      "url": "https://x.com/AravSrinivas/status/2122353569903128921",
-      "handle": "@AravSrinivas",
-      "text": "Perplexity announces Frontier Research: at least 10,000 GPUs on multi-agent orchestration and continual learning.",
-      "metric": "542 likes",
-      "note": "A product company moving into frontier research with open releases draws attention."
+      "url": "https://x.com/theo/status/2122429147289206976",
+      "handle": "@theo",
+      "text": "Fable 5.2 is the first model that consistently ignores unimportant feedback.",
+      "metric": "3k likes",
+      "note": "Builders are comparing how Fable and Opus handle long agent threads."
     },
     {
       "url": "https://x.com/OpenAI/status/2122377585523126615",
       "handle": "@OpenAI",
       "text": "OpenAI expands free access to its frontier models for up to 200,000 scientists worldwide, with training and support.",
-      "metric": "424 likes",
-      "note": "104 replies as researchers weigh free access to frontier models."
+      "metric": "2.9k likes",
+      "note": "297 replies as researchers weigh free access before applications open Nov. 23."
     },
     {
-      "url": "https://x.com/GoogleDeepMind/status/2122366992376107167",
-      "handle": "@GoogleDeepMind",
-      "text": "Google DeepMind says researchers use Gemini 4 Carbon in Google Antigravity for multi-step science problems.",
-      "metric": "405 likes",
-      "note": "Labs are competing to show their models doing real science work."
+      "url": "https://x.com/OpenAI/status/2122380010287960095",
+      "handle": "@OpenAI",
+      "text": "Scientists reported nearly doubling their productivity with AI in a study of 1,800+ ChatGPT for Academic Researchers users.",
+      "metric": "2.8k likes",
+      "note": "A self-reported productivity number from a large study invites scrutiny."
+    },
+    {
+      "url": "https://x.com/ClaudeDevs/status/2122457608963395586",
+      "handle": "@ClaudeDevs",
+      "text": "Claude writes better code when it can verify its work. Checks like tests, benchmarks and end-to-end runs are now cheap.",
+      "metric": "2.8k likes",
+      "note": "A clear rule from the Claude Code team on making agent output reliable."
     }
   ]
 }
