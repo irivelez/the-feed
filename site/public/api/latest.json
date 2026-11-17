@@ -1,27 +1,142 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-16-1900",
-  "date": "2026-11-16",
-  "publishedAt": "2026-11-16T19:10:47-05:00",
-  "edition": "Evening",
+  "id": "2026-11-17-0700",
+  "date": "2026-11-17",
+  "publishedAt": "2026-11-17T07:15:00-05:00",
+  "edition": "Morning",
   "top3": [
     {
-      "itemId": "openai-chatgpt-healthcare-plugins",
-      "headline": "OpenAI pushes agents into healthcare with Cigna and CVS on board",
-      "whyItMatters": "Agents are entering regulated work, so your sector's adoption clock may be shorter than planned."
+      "itemId": "databricks-ai-index-open-models",
+      "headline": "Open models now carry about 30% of enterprise AI tokens",
+      "whyItMatters": "Most companies already use several model providers, so dependence on one lab is fading."
     },
     {
-      "itemId": "claude-code-verification-post",
-      "headline": "Claude Code team says agents code better when they check themselves",
-      "whyItMatters": "Cheap automated checks make agent output trustworthy, so invest in tests before more agents."
+      "itemId": "simonw-external-sandbox-pattern",
+      "headline": "Simon Willison's pattern keeps coding agents' code in a sandbox",
+      "whyItMatters": "A simple isolation pattern lets teams adopt coding agents with less security risk."
     },
     {
-      "itemId": "vercel-agent-evals-users-are-agents",
-      "headline": "Vercel's Rauch: when users are agents, evals replace interviews",
-      "whyItMatters": "Products now serve agents too, so measure them with evals the way you study customers."
+      "itemId": "bonta-sues-openai-safeguards",
+      "headline": "California sues OpenAI, alleging missing safeguards and monitoring",
+      "whyItMatters": "Safeguards and monitoring are now legal exposure for anyone deploying AI at scale."
     }
   ],
   "items": [
+    {
+      "id": "pocock-xstate-v6-prompt",
+      "title": "Matt Pocock's prompt: have an agent trial XState v6 in a PR",
+      "takeaway": "Matt Pocock's prompt of the day asks an agent to research the XState v6 beta, find the gnarliest problem in your app it could help with, build a proof of concept in a draft PR and verify it.",
+      "soWhat": "Agents can now trial new libraries against your real code, so evaluations get cheaper.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-17T09:11:08Z",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2122618527840354327"
+      },
+      "image": {
+        "src": "/img/pocock-xstate-v6-prompt.jpg",
+        "alt": "Profile image of @mattpocockuk"
+      },
+      "heat": {
+        "score": 8,
+        "level": "none",
+        "metric": "19k views"
+      }
+    },
+    {
+      "id": "mengto-emil-ui-skills",
+      "title": "Meng To rates Emil's skills among the best for UI design",
+      "takeaway": "Meng To points to Emil's skills as among the best for UI design, animations and interactions, with a link in his post.",
+      "soWhat": "Reusable design skills raise the floor for AI-built interfaces, so check what your team uses.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-17T05:01:12Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2122555631425221035"
+      },
+      "image": {
+        "src": "/img/mengto-emil-ui-skills.jpg",
+        "alt": "Profile image of @MengTo"
+      },
+      "heat": {
+        "score": 7,
+        "level": "none",
+        "metric": "41k views"
+      }
+    },
+    {
+      "id": "garrytan-gbrain-hosted-team-brains",
+      "title": "GBrain hosted adds team and company memory; Rust backend planned",
+      "takeaway": "Garry Tan says GBrain's hosted option lets individual employee memory roll up into team and company-level 'brains'. He says a Rust backend is planned in the next few weeks to replace postgres+pgvector or pglite.",
+      "soWhat": "Agent memory is moving from personal to company scale, so decide who owns that knowledge.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 5,
+      "publishedAt": "2026-11-17T02:30:24Z",
+      "source": {
+        "name": "@garrytan on X",
+        "url": "https://x.com/garrytan/status/2122517681740124271"
+      },
+      "image": {
+        "src": "/img/garrytan-gbrain-hosted-team-brains.jpg",
+        "alt": "Image from @garrytan on X"
+      },
+      "heat": {
+        "score": 12,
+        "level": "none",
+        "metric": "41k views"
+      }
+    },
+    {
+      "id": "simonw-external-sandbox-pattern",
+      "title": "Simon Willison: run agents locally, execute their code in a sandbox",
+      "takeaway": "Simon Willison describes an 'external sandbox' pattern: the coding agent runs on your Mac but executes code in a WebAssembly, QEMU or Apple Container sandbox. He shows demos for Claude Code and Codex.",
+      "soWhat": "Sandboxed execution lets teams say yes to coding agents without handing over the whole machine.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-17T01:21:22Z",
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2122500307557265651"
+      },
+      "image": {
+        "src": "/img/simonw-external-sandbox-pattern.jpg",
+        "alt": "Image from @simonw on X"
+      },
+      "heat": {
+        "score": 17,
+        "level": "none",
+        "metric": "42k views"
+      }
+    },
+    {
+      "id": "a16z-imas-lab-price-competition",
+      "title": "DeepMind's Alex Imas: lab price wars can keep revenue flat",
+      "takeaway": "a16z posts Google DeepMind's Alex Imas saying extreme price competition between frontier labs in recent months can keep lab revenue flat even as token usage soars.",
+      "soWhat": "Price wars favor buyers, so revisit model costs before signing long contracts.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-17T00:02:09Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2122480372713951345"
+      },
+      "image": {
+        "src": "/img/a16z-imas-lab-price-competition.jpg",
+        "alt": "Image from @a16z on X"
+      },
+      "heat": {
+        "score": 2,
+        "level": "none",
+        "metric": "21k views"
+      }
+    },
     {
       "id": "openai-chatgpt-healthcare-plugins",
       "title": "ChatGPT for Healthcare adds computer-use agents and 20+ plugins",
@@ -38,11 +153,6 @@
       "image": {
         "src": "/img/openai-chatgpt-healthcare-plugins.jpg",
         "alt": "Profile image of @OpenAI"
-      },
-      "heat": {
-        "score": 15,
-        "level": "none",
-        "metric": "74k views"
       }
     },
     {
@@ -67,11 +177,6 @@
       "image": {
         "src": "/img/claude-code-verification-post.jpg",
         "alt": "Image from @ClaudeDevs on X"
-      },
-      "heat": {
-        "score": 24,
-        "level": "none",
-        "metric": "116k views"
       }
     },
     {
@@ -90,11 +195,6 @@
       "image": {
         "src": "/img/claude-code-desktop-ios-duo.jpg",
         "alt": "Image from @ClaudeDevs on X"
-      },
-      "heat": {
-        "score": 29,
-        "level": "none",
-        "metric": "209k views"
       }
     },
     {
@@ -119,11 +219,42 @@
       "image": {
         "src": "/img/vercel-agent-evals-users-are-agents.jpg",
         "alt": "Profile image of @rauchg"
+      }
+    },
+    {
+      "id": "bonta-sues-openai-safeguards",
+      "title": "California's attorney general sues OpenAI over AI safeguards",
+      "takeaway": "California Attorney General Rob Bonta sued OpenAI, alleging it built AI models without the safeguards and monitoring needed to protect people, NBC News reports.",
+      "soWhat": "Safeguards and monitoring are becoming legal questions, so document yours before regulators ask.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-16T19:40:03Z",
+      "source": {
+        "name": "@NBCNews on X",
+        "url": "https://x.com/NBCNews/status/2122414415131607245"
       },
-      "heat": {
-        "score": 10,
-        "level": "none",
-        "metric": "19k views"
+      "image": {
+        "src": "/img/bonta-sues-openai-safeguards.jpg",
+        "alt": "Image from @NBCNews on X"
+      }
+    },
+    {
+      "id": "databricks-ai-index-open-models",
+      "title": "Databricks: open models now carry about 30% of enterprise tokens",
+      "takeaway": "Databricks' AI Index of 10,000+ companies: open-source models rose from near zero to about 30% of enterprise tokens in five months. 75% use 2+ model providers. P99 user spend is $700/week vs $2.50 at P50.",
+      "soWhat": "Multi-model is now normal, so plan open models for volume and frontier models for hard work.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-11-16T17:15:12Z",
+      "source": {
+        "name": "@pwendell on X",
+        "url": "https://x.com/pwendell/status/2122377960132940170"
+      },
+      "image": {
+        "src": "/img/databricks-ai-index-open-models.jpg",
+        "alt": "Image from @pwendell on X"
       }
     },
     {
@@ -148,12 +279,7 @@
           "name": "@OpenAI on X: productivity study",
           "url": "https://x.com/OpenAI/status/2122380010287960095"
         }
-      ],
-      "heat": {
-        "score": 25,
-        "level": "none",
-        "metric": "353k views"
-      }
+      ]
     },
     {
       "id": "openai-embedded-assessments",
@@ -316,152 +442,6 @@
         "src": "/img/garrytan-opus-vs-fable-eval.jpg",
         "alt": "Image from @garrytan on X"
       }
-    },
-    {
-      "id": "cursor-security-incident-update",
-      "title": "Cursor publishes its security incident report and remediation steps",
-      "takeaway": "Cursor posted an update on its recent security incident, with an overview of what happened and its remediation steps.",
-      "soWhat": "Teams using Cursor should read the report and confirm the fixes cover their setup.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-14T01:13:26Z",
-      "source": {
-        "name": "@cursor_ai on X",
-        "url": "https://x.com/cursor_ai/status/2121411147714970092"
-      },
-      "image": {
-        "src": "/img/cursor-security-incident-update.jpg",
-        "alt": "Image from @cursor_ai on X"
-      }
-    },
-    {
-      "id": "claudedevs-claude-code-projects-coordinator",
-      "title": "Claude Code Projects get a more proactive coordinator",
-      "takeaway": "In a project, Claude coordinates tasks across parallel threads and now answers questions and posts status updates.",
-      "soWhat": "Leaders can follow parallel agent work in one project chat instead of checking each thread.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 9,
-      "publishedAt": "2026-11-13T22:51:01Z",
-      "source": {
-        "name": "@ClaudeDevs on X",
-        "url": "https://x.com/ClaudeDevs/status/2121375309287301360"
-      },
-      "image": {
-        "src": "/img/claudedevs-claude-code-projects-coordinator.jpg",
-        "alt": "Image from @ClaudeDevs on X"
-      }
-    },
-    {
-      "id": "verge-chatgpt-wallet-dots",
-      "title": "ChatGPT Wallet lets OpenAI's Dots agents make purchases",
-      "takeaway": "The Verge reports ChatGPT Wallet lets OpenAI's Dots agents buy things for users.",
-      "soWhat": "Agents that can pay will reach your checkout, so decide how you serve them.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-13T20:45:10Z",
-      "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
-      },
-      "image": {
-        "src": "/img/verge-chatgpt-wallet-dots.jpg",
-        "alt": "Image from The Verge"
-      }
-    },
-    {
-      "id": "langchain-raises-300m",
-      "title": "LangChain raises $300M at a $3B valuation",
-      "takeaway": "LangChain says more than 7,000 companies use LangSmith for agent runtime, improvement and governance.",
-      "soWhat": "Agent tooling vendors are scaling fast; check lock-in before your agent stack standardizes on one.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-13T16:06:57Z",
-      "source": {
-        "name": "@LangChain on X",
-        "url": "https://x.com/LangChain/status/2121273623658819687"
-      },
-      "image": {
-        "src": "/img/langchain-raises-300m.jpg",
-        "alt": "Image from @LangChain on X"
-      }
-    },
-    {
-      "id": "gemini-4-carbon-argon-price-doubling",
-      "title": "Simon Willison: Gemini 4 Carbon and Argon prices double Dec 1",
-      "takeaway": "Argon and Carbon share one token price; the new Hydrogen is only a 25% discount on it.",
-      "soWhat": "Teams running agents on Gemini 4 should re-cost those workloads before December.",
-      "lens": "practical",
-      "momentum": "shift",
-      "importance": 8,
-      "publishedAt": "2026-11-13T00:36:20Z",
-      "source": {
-        "name": "@simonw on X",
-        "url": "https://x.com/simonw/status/2121039423441981444"
-      },
-      "related": [
-        {
-          "name": "Simon Willison: llm-gemini 0.37",
-          "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/"
-        },
-        {
-          "name": "@theo on X",
-          "url": "https://x.com/theo/status/2121030235248570537"
-        }
-      ],
-      "image": {
-        "src": "/img/gemini-4-carbon-argon-price-doubling.jpg",
-        "alt": "Image from @simonw on X"
-      }
-    },
-    {
-      "id": "dalio-outside-progress-measurement",
-      "title": "Ray Dalio: let someone else measure your progress",
-      "takeaway": "Ideally someone other than you measures and reports your progress; missed targets are a separate problem to diagnose.",
-      "soWhat": "Independent measurement keeps leaders honest; assign it outside the team that owns the target.",
-      "lens": "frontier-capital",
-      "momentum": "shift",
-      "importance": 4,
-      "publishedAt": "2026-11-12T18:02:48Z",
-      "source": {
-        "name": "@RayDalio on X",
-        "url": "https://x.com/RayDalio/status/2120940389074911420"
-      },
-      "image": {
-        "src": "/img/dalio-outside-progress-measurement.jpg",
-        "alt": "Image from @RayDalio on X"
-      }
-    },
-    {
-      "id": "anthropic-ipo-filing-post",
-      "title": "Anthropic files its IPO registration with the SEC",
-      "takeaway": "Anthropic says it has filed a registration statement, including a prospectus, for its initial public offering.",
-      "soWhat": "A public Anthropic will disclose costs and risks; read the prospectus before your next model contract.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 9,
-      "publishedAt": "2026-11-12T11:30:46Z",
-      "source": {
-        "name": "@AnthropicAI on X",
-        "url": "https://x.com/AnthropicAI/status/2120841731302154708"
-      },
-      "related": [
-        {
-          "name": "Anthropic IPO site",
-          "url": "https://ipo.anthropic.com/us/"
-        },
-        {
-          "name": "Hacker News thread",
-          "url": "https://news.ycombinator.com/item?id=50465829"
-        }
-      ],
-      "image": {
-        "src": "/img/anthropic-ipo-filing-post.jpg",
-        "alt": "Image from @AnthropicAI on X"
-      }
     }
   ],
   "voices": [
@@ -493,39 +473,39 @@
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/ClaudeDevs/status/2122439098740674839",
-      "handle": "@ClaudeDevs",
-      "text": "Claude Code on desktop now supports iPhone Duo in the iOS simulator; Claude can fold and unfold it to test each layout.",
-      "metric": "5.8k likes",
-      "note": "Builders want agents that test real device layouts without manual clicking."
+      "url": "https://x.com/simonw/status/2122500307557265651",
+      "handle": "@simonw",
+      "text": "An 'external sandbox' pattern: the coding agent runs on your Mac, but code executes in a WebAssembly, QEMU or Apple Container sandbox.",
+      "metric": "803 likes",
+      "note": "227 replies as builders compare safe ways to let agents run code."
     },
     {
-      "url": "https://x.com/theo/status/2122429147289206976",
-      "handle": "@theo",
-      "text": "Fable 5.2 is the first model that consistently ignores unimportant feedback.",
-      "metric": "3k likes",
-      "note": "Builders are comparing how Fable and Opus handle long agent threads."
+      "url": "https://x.com/garrytan/status/2122517681740124271",
+      "handle": "@garrytan",
+      "text": "GBrain hosted lets employee memory roll up into team and company-level 'brains'; a Rust backend is planned.",
+      "metric": "476 likes",
+      "note": "Company-wide agent memory raises questions of ownership and privacy."
     },
     {
-      "url": "https://x.com/OpenAI/status/2122377585523126615",
-      "handle": "@OpenAI",
-      "text": "OpenAI expands free access to its frontier models for up to 200,000 scientists worldwide, with training and support.",
-      "metric": "2.9k likes",
-      "note": "297 replies as researchers weigh free access before applications open Nov. 23."
+      "url": "https://x.com/AravSrinivas/status/2122490397113131027",
+      "handle": "@AravSrinivas",
+      "text": "AI for automating scientific research is the best compute investment to make.",
+      "metric": "392 likes",
+      "note": "A one-line bet from Perplexity, a day after its 10,000-GPU research push."
     },
     {
-      "url": "https://x.com/OpenAI/status/2122380010287960095",
-      "handle": "@OpenAI",
-      "text": "Scientists reported nearly doubling their productivity with AI in a study of 1,800+ ChatGPT for Academic Researchers users.",
-      "metric": "2.8k likes",
-      "note": "A self-reported productivity number from a large study invites scrutiny."
+      "url": "https://x.com/mattpocockuk/status/2122618527840354327",
+      "handle": "@mattpocockuk",
+      "text": "Prompt of the day: have an agent research the XState v6 beta, find your gnarliest problem, and prove a fix in a draft PR.",
+      "metric": "272 likes",
+      "note": "A copyable way to test a new library against real code."
     },
     {
-      "url": "https://x.com/ClaudeDevs/status/2122457608963395586",
-      "handle": "@ClaudeDevs",
-      "text": "Claude writes better code when it can verify its work. Checks like tests, benchmarks and end-to-end runs are now cheap.",
-      "metric": "2.8k likes",
-      "note": "A clear rule from the Claude Code team on making agent output reliable."
+      "url": "https://x.com/MengTo/status/2122555631425221035",
+      "handle": "@MengTo",
+      "text": "Emil's skills are among the best for UI design, animations and interactions.",
+      "metric": "237 likes",
+      "note": "Designers are trading the skills that make AI-built interfaces look crafted."
     }
   ]
 }
