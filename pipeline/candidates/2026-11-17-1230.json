@@ -1,0 +1,261 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-17-1230",
+  "generatedAt": "2026-11-17T17:30:16.990Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-17T00:00:00.000Z",
+    "to": "2026-11-17T17:30:16.990Z"
+  },
+  "sourceNotes": [
+    "Midday run: reused 06:30 candidates and added 4 grouped X lane searches (relevancy, original posts, since 11:30Z, 4 calls); RSS, arXiv, HN, query lane, reply capture and author baselines not fetched.",
+    "Skipped Jensen Huang thank-you post, a16z Boring Company clips, Pocock question post, Benaich jokes/event promo, Garry Tan/Vercel low-content posts."
+  ],
+  "candidates": [
+    {
+      "id": "pocock-xstate-v6-prompt",
+      "lens": "practical",
+      "summary": "Matt Pocock's prompt of the day: assess the XState v6 beta by researching it, finding the gnarliest problem in your app it could help with, building a proof of concept in a draft PR, and verifying it.",
+      "source": {
+        "name": "mattpocockuk",
+        "url": "https://x.com/mattpocockuk/status/2122618527840354327",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-17T09:11:08.000Z",
+      "metrics": {
+        "likes": 272,
+        "reposts": 10,
+        "replies": 37,
+        "views": 18907,
+        "capturedAt": "2026-11-17T11:29:57.429Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "pocock-prompt-xstate"
+    },
+    {
+      "id": "simonw-external-sandbox-pattern",
+      "lens": "practical",
+      "summary": "Simon Willison describes an 'external sandbox' pattern for coding agents: the agent runs on your Mac but executes code in a WebAssembly, QEMU or Apple Container sandbox, with demos for Claude Code and Codex.",
+      "source": {
+        "name": "simonw",
+        "url": "https://x.com/simonw/status/2122500307557265651",
+        "type": "x",
+        "handle": "simonw"
+      },
+      "publishedAt": "2026-11-17T01:21:22.000Z",
+      "metrics": {
+        "likes": 803,
+        "reposts": 62,
+        "replies": 227,
+        "views": 42418,
+        "capturedAt": "2026-11-17T11:29:57.429Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "topic": "agent-sandboxing"
+    },
+    {
+      "id": "garrytan-gbrain-hosted-team-brains",
+      "lens": "broad",
+      "summary": "Garry Tan says GBrain's hosted option supports individual employee memory rolling up into team and company-level 'brains'. Separately he says a Rust GBrain backend is planned in the next few weeks to replace postgres+pgvector or pglite.",
+      "source": {
+        "name": "garrytan",
+        "url": "https://x.com/garrytan/status/2122517681740124271",
+        "type": "x",
+        "handle": "garrytan"
+      },
+      "publishedAt": "2026-11-17T02:30:24.000Z",
+      "metrics": {
+        "likes": 476,
+        "reposts": 20,
+        "replies": 59,
+        "views": 40715,
+        "capturedAt": "2026-11-17T11:29:57.429Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "gbrain-memory"
+    },
+    {
+      "id": "a16z-imas-lab-price-competition",
+      "lens": "broad",
+      "summary": "a16z posts Google DeepMind's Alex Imas saying extreme price competition between frontier labs in recent months can keep lab revenue flat even as token usage soars.",
+      "source": {
+        "name": "a16z",
+        "url": "https://x.com/a16z/status/2122480372713951345",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "publishedAt": "2026-11-17T00:02:09.000Z",
+      "metrics": {
+        "likes": 87,
+        "reposts": 9,
+        "replies": 19,
+        "views": 21038,
+        "capturedAt": "2026-11-17T11:29:57.429Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "lab-price-competition"
+    },
+    {
+      "id": "aravind-ai-science-compute",
+      "lens": "broad",
+      "summary": "Aravind Srinivas says AI for automating scientific research is the best compute investment to make. A one-line opinion with a link, no data in the post text.",
+      "source": {
+        "name": "AravSrinivas",
+        "url": "https://x.com/AravSrinivas/status/2122490397113131027",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-17T00:41:59.000Z",
+      "metrics": {
+        "likes": 392,
+        "reposts": 17,
+        "replies": 46,
+        "views": 24535,
+        "capturedAt": "2026-11-17T11:29:57.429Z"
+      },
+      "care": 2,
+      "proof": 1,
+      "topic": "ai-science-compute"
+    },
+    {
+      "id": "mengto-emil-ui-skills",
+      "lens": "design",
+      "summary": "Meng To points to Emil's skills as among the best for UI design, animations and interactions (link in post).",
+      "source": {
+        "name": "MengTo",
+        "url": "https://x.com/MengTo/status/2122555631425221035",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-17T05:01:12.000Z",
+      "metrics": {
+        "likes": 237,
+        "reposts": 7,
+        "replies": 12,
+        "views": 41102,
+        "capturedAt": "2026-11-17T11:29:57.429Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "ui-design-skills"
+    },
+    {
+      "id": "pocock-constrained-tools-experiment",
+      "lens": "practical",
+      "summary": "Matt Pocock's experiment: if too much choice is bad for agents, create an extremely constrained version of the tools you like, e.g. the agent may use React but all state must live in Zustand/useReducer, stripping out the nuance.",
+      "source": {
+        "name": "mattpocockuk",
+        "url": "https://x.com/mattpocockuk/status/2122659341685694586",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-17T11:53:18.000Z",
+      "metrics": {
+        "likes": 503,
+        "reposts": 11,
+        "replies": 144,
+        "views": 39547,
+        "capturedAt": "2026-11-17T17:30:16.990Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "pocock-constrained-agent-tools"
+    },
+    {
+      "id": "sundar-gemini-tasks-expansion",
+      "lens": "broad",
+      "summary": "Sundar Pichai says Tasks in Gemini, powered by Gemini 4 Hydrogen, is expanding free of charge to hundreds of millions of people in six countries, handing off everyday life admin.",
+      "source": {
+        "name": "sundarpichai",
+        "url": "https://x.com/sundarpichai/status/2122741728247738688",
+        "type": "x",
+        "handle": "sundarpichai"
+      },
+      "publishedAt": "2026-11-17T17:20:41.000Z",
+      "metrics": {
+        "likes": 310,
+        "reposts": 21,
+        "replies": 36,
+        "views": 26404,
+        "capturedAt": "2026-11-17T17:30:16.990Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "gemini-tasks"
+    },
+    {
+      "id": "hassabis-isomorphic-5b-funding",
+      "lens": "broad",
+      "summary": "Demis Hassabis announces $5B in funding for Isomorphic Labs to accelerate AI drug design and its mission to 'Solve All Disease'.",
+      "source": {
+        "name": "demishassabis",
+        "url": "https://x.com/demishassabis/status/2122662616367853670",
+        "type": "x",
+        "handle": "demishassabis"
+      },
+      "publishedAt": "2026-11-17T12:06:19.000Z",
+      "metrics": {
+        "likes": 8561,
+        "reposts": 823,
+        "replies": 415,
+        "views": 308044,
+        "capturedAt": "2026-11-17T17:30:16.990Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "isomorphic-funding"
+    },
+    {
+      "id": "benaich-altares-nato-counter-drone",
+      "lens": "frontier-capital",
+      "summary": "Nathan Benaich says AltaAres won six of 16 lots in NATO's counter-drone framework, more than any other supplier, so allied countries can buy its systems without another tender; he says he believes the team can build a global leader in autonomous defense.",
+      "source": {
+        "name": "nathanbenaich",
+        "url": "https://x.com/nathanbenaich/status/2122691728239169990",
+        "type": "x",
+        "handle": "nathanbenaich"
+      },
+      "publishedAt": "2026-11-17T14:02:00.000Z",
+      "metrics": {
+        "likes": 1,
+        "reposts": 0,
+        "replies": 1,
+        "views": 919,
+        "capturedAt": "2026-11-17T17:30:16.990Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "topic": "altaares-nato"
+    },
+    {
+      "id": "mengto-shinjuku-threejs",
+      "lens": "design",
+      "summary": "Meng To built a Shinjuku night-scene 3D site in three.js: one HTML file, no 3D models, all built in code, walkable with WASD, with time of day and seasons.",
+      "source": {
+        "name": "MengTo",
+        "url": "https://x.com/MengTo/status/2122730333682778289",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-17T16:35:24.000Z",
+      "metrics": {
+        "likes": 25,
+        "reposts": 1,
+        "replies": 4,
+        "views": 2277,
+        "capturedAt": "2026-11-17T17:30:16.990Z"
+      },
+      "care": 2,
+      "proof": 3,
+      "topic": "threejs-shinjuku"
+    }
+  ]
+}
