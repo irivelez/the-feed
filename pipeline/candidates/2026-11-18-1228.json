@@ -1,0 +1,397 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-18-1228",
+  "generatedAt": "2026-11-18T17:28:45.450Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-18T11:25:00.000Z",
+    "to": "2026-11-18T17:28:45.450Z"
+  },
+  "sourceNotes": [
+    "10 X lane searches (relevancy, originals only, since 11:25Z). Query lane, reply capture and author baselines not fetched.",
+    "Dwarkesh RSS HTTP 500. Mollick latest item 2026-11-09 and Benedict Evans latest 2026-09-03 (stale); Mitchell Hashimoto latest 2026-11-06. arXiv and HN not fetched.",
+    "Metaplanet Google News feed returned only Yahoo quote pages and a 2026-11-14 item; nothing new. Design lane: only Meng To. Frontier-capital: Naval and Benaich only.",
+    "Skipped: Elon Musk Thucydides/'True' posts, poteto cybercab, theo GTA/Bam posts, promo/sponsored posts (CodeRabbit, Netlify, YC incubation), giveaway/course posts."
+  ],
+  "candidates": [
+    {
+      "id": "gpt62-astra-sol-review-kunchenguid",
+      "lens": "practical",
+      "summary": "kunchenguid reviews GPT-6.2 Astra and Sol after a full day on real projects: not a drop-in replacement for Fable 5.2 and Opus 5.5, but very good once you learn their strengths.",
+      "source": {
+        "name": "kunchenguid",
+        "url": "https://x.com/kunchenguid/status/2123099377946546491",
+        "type": "x",
+        "handle": "kunchenguid"
+      },
+      "publishedAt": "2026-11-18T17:01:51.000Z",
+      "metrics": {
+        "likes": 38,
+        "reposts": 0,
+        "replies": 9,
+        "views": 1559,
+        "capturedAt": "2026-11-18T17:28:45.450Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "gpt62-astra-sol"
+    },
+    {
+      "id": "openai-gpt62-astra-sol",
+      "lens": "broad",
+      "summary": "OpenAI blog post: Introducing GPT-6.2 Astra and Sol.",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-17T17:45:00.000Z",
+      "care": 5,
+      "proof": 3,
+      "topic": "gpt62-astra-sol"
+    },
+    {
+      "id": "astra-62-ultrafast-primeagen",
+      "lens": "practical",
+      "summary": "ThePrimeagen says Astra 6.2 Ultrafast is miles ahead of the competition: a 2D-to-3D transformation in 20 minutes using 4% of his weekly usage.",
+      "source": {
+        "name": "ThePrimeagen",
+        "url": "https://x.com/ThePrimeagen/status/2123084099581796693",
+        "type": "x",
+        "handle": "ThePrimeagen"
+      },
+      "publishedAt": "2026-11-18T16:01:08.000Z",
+      "metrics": {
+        "likes": 337,
+        "reposts": 3,
+        "replies": 57,
+        "views": 21519,
+        "capturedAt": "2026-11-18T17:28:45.450Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "gpt62-astra-sol"
+    },
+    {
+      "id": "astra-62-3d-mengto",
+      "lens": "design",
+      "summary": "Meng To says Astra 6.2 is strong at three.js and Blender: 3D at 1/10th the cost and 3x the speed of Fable 5.2; weird decisions and weak layout remain.",
+      "source": {
+        "name": "MengTo",
+        "url": "https://x.com/MengTo/status/2123079701384269871",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-18T15:43:40.000Z",
+      "metrics": {
+        "likes": 83,
+        "reposts": 6,
+        "replies": 18,
+        "views": 5192,
+        "capturedAt": "2026-11-18T17:28:45.450Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "gpt62-astra-sol"
+    },
+    {
+      "id": "how-to-read-cursorbench-mattyp",
+      "lens": "practical",
+      "summary": "mattyp posted a thread/video titled 'How to read CursorBench'.",
+      "source": {
+        "name": "mattyp",
+        "url": "https://x.com/mattyp/status/2123073081489113331",
+        "type": "x",
+        "handle": "mattyp"
+      },
+      "publishedAt": "2026-11-18T15:17:22.000Z",
+      "metrics": {
+        "likes": 397,
+        "reposts": 22,
+        "replies": 28,
+        "views": 20616,
+        "capturedAt": "2026-11-18T17:28:45.450Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "cursorbench-reading"
+    },
+    {
+      "id": "pocock-skills-70min-pr",
+      "lens": "practical",
+      "summary": "Matt Pocock: his skills repo is now the most-starred skills repo in the world; new 70-minute video building a 21,000-line PR, focused on DDD with /grill-with-docs.",
+      "source": {
+        "name": "mattpocockuk",
+        "url": "https://x.com/mattpocockuk/status/2123098316867051991",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-18T16:57:38.000Z",
+      "metrics": {
+        "likes": 261,
+        "reposts": 9,
+        "replies": 16,
+        "views": 10839,
+        "capturedAt": "2026-11-18T17:28:45.450Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "pocock-skills"
+    },
+    {
+      "id": "perplexity-context-api",
+      "lens": "broad",
+      "summary": "Aravind Srinivas introduces Perplexity Context API: fetches content from a list of webpages in a target format, usable in any agentic harness; claims better performance, latency and cost than alternatives.",
+      "source": {
+        "name": "AravSrinivas",
+        "url": "https://x.com/AravSrinivas/status/2123085971625476277",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-18T16:08:35.000Z",
+      "metrics": {
+        "likes": 147,
+        "reposts": 4,
+        "replies": 46,
+        "views": 14385,
+        "capturedAt": "2026-11-18T17:28:45.450Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "perplexity-context-api"
+    },
+    {
+      "id": "openai-amd-chip-design",
+      "lens": "broad",
+      "summary": "OpenAI: working with AMD, its models identified up to 14% PPA improvement on flagship GPU IP in under five months; same approach improved Jalapeño, its first custom inference chip, with gains verified.",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://x.com/OpenAI/status/2123100386638877054",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "publishedAt": "2026-11-18T17:05:52.000Z",
+      "metrics": {
+        "likes": 931,
+        "reposts": 79,
+        "replies": 106,
+        "views": 76425,
+        "capturedAt": "2026-11-18T17:28:45.450Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "openai-chip-design"
+    },
+    {
+      "id": "openai-advancing-chip-design",
+      "lens": "broad",
+      "summary": "OpenAI blog post: Advancing chip design with OpenAI models.",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "care": 4,
+      "proof": 3,
+      "topic": "openai-chip-design"
+    },
+    {
+      "id": "sama-gdb-dealbook",
+      "lens": "broad",
+      "summary": "Sam Altman on DealBook with Greg Brockman: says Greg's role has evolved from writing code 100 hours a week to a broader leadership role (tweet truncated in read).",
+      "source": {
+        "name": "sama",
+        "url": "https://x.com/sama/status/2123103873166381287",
+        "type": "x",
+        "handle": "sama"
+      },
+      "publishedAt": "2026-11-18T17:19:43.000Z",
+      "metrics": {
+        "likes": 698,
+        "reposts": 35,
+        "replies": 110,
+        "views": 65092,
+        "capturedAt": "2026-11-18T17:28:45.450Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "topic": "openai-brockman-role"
+    },
+    {
+      "id": "yc-ramp-60b",
+      "lens": "broad",
+      "summary": "Y Combinator on Ramp: a $60 billion platform running financial operations of tens of thousands of businesses, over $2 billion annual revenue, now using AI beyond its own product.",
+      "source": {
+        "name": "ycombinator",
+        "url": "https://x.com/ycombinator/status/2123070626550431817",
+        "type": "x",
+        "handle": "ycombinator"
+      },
+      "publishedAt": "2026-11-18T15:07:36.000Z",
+      "metrics": {
+        "likes": 143,
+        "reposts": 8,
+        "replies": 18,
+        "views": 28439,
+        "capturedAt": "2026-11-18T17:28:45.450Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "ramp-ai"
+    },
+    {
+      "id": "a16z-first-person-labs",
+      "lens": "broad",
+      "summary": "a16z profiles First Person Labs, building 'Second', a user-owned continuously updated model of preferences and goals that users can expose to AI agents of their choice.",
+      "source": {
+        "name": "a16z",
+        "url": "https://x.com/a16z/status/2123089603876028819",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "publishedAt": "2026-11-18T16:23:01.000Z",
+      "metrics": {
+        "likes": 59,
+        "reposts": 6,
+        "replies": 11,
+        "views": 11071,
+        "capturedAt": "2026-11-18T17:28:45.450Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "topic": "personal-context-agents"
+    },
+    {
+      "id": "naval-vibe-to-verified",
+      "lens": "frontier-capital",
+      "summary": "Naval posted 'From vibe code to verified code…' with a link (content behind the link not read).",
+      "source": {
+        "name": "naval",
+        "url": "https://x.com/naval/status/2123082164426420367",
+        "type": "x",
+        "handle": "naval"
+      },
+      "publishedAt": "2026-11-18T15:53:27.000Z",
+      "metrics": {
+        "likes": 1055,
+        "reposts": 76,
+        "replies": 101,
+        "views": 88809,
+        "capturedAt": "2026-11-18T17:28:45.450Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "verified-code"
+    },
+    {
+      "id": "benaich-uk-frontier-models",
+      "lens": "frontier-capital",
+      "summary": "Nathan Benaich: says not building frontier models is essentially saying Brits cannot and shouldn't compete at the frontier, and that he doesn't believe that is true; stresses 'trusted interdependence and access' in the statement he cites.",
+      "source": {
+        "name": "nathanbenaich",
+        "url": "https://x.com/nathanbenaich/status/2123072398169932257",
+        "type": "x",
+        "handle": "nathanbenaich"
+      },
+      "publishedAt": "2026-11-18T15:14:39.000Z",
+      "metrics": {
+        "likes": 12,
+        "reposts": 0,
+        "replies": 3,
+        "views": 936,
+        "capturedAt": "2026-11-18T17:28:45.450Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "topic": "uk-frontier-models"
+    },
+    {
+      "id": "verge-chip-companies-frontier-pause",
+      "lens": "broad",
+      "summary": "The Verge: 'Remember the frontier AI pause? Chip companies don't either' on Nvidia and AMD fall 2026 earnings.",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-18T16:25:30.000Z",
+      "care": 3,
+      "proof": 3,
+      "topic": "nvidia-earnings-nov18"
+    },
+    {
+      "id": "verge-nvidia-no-more-china-chips",
+      "lens": "broad",
+      "summary": "The Verge: Nvidia isn't selling any more AI chips to China (H200).",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-18T14:28:38.000Z",
+      "care": 4,
+      "proof": 3,
+      "topic": "nvidia-china-h200"
+    },
+    {
+      "id": "stratechery-nvidia-earnings-os-wars",
+      "lens": "broad",
+      "summary": "Stratechery: 'Nvidia Earnings; Office Convergence; OS Wars, AI Edition'.",
+      "source": {
+        "name": "Ben Thompson (Stratechery)",
+        "url": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-18T11:00:00.000Z",
+      "care": 3,
+      "proof": 2,
+      "topic": "nvidia-earnings-nov18"
+    },
+    {
+      "id": "atlantic-reluctant-winner-ai-race",
+      "lens": "broad",
+      "summary": "The Atlantic: 'The Reluctant Winner of the AI Race' (headline only; URL slug refers to Anthropic).",
+      "source": {
+        "name": "The Atlantic Technology",
+        "url": "https://www.theatlantic.com/technology/2026/11/anthropic-winner-ai-race/689479/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-18T15:32:17.000Z",
+      "care": 3,
+      "proof": 2,
+      "topic": "anthropic-ai-race"
+    },
+    {
+      "id": "simonw-external-sandboxes-coding-agents",
+      "lens": "practical",
+      "summary": "Simon Willison post: External sandboxes for coding agents.",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-17T22:52:29.000Z",
+      "care": 4,
+      "proof": 3,
+      "topic": "agent-sandboxes"
+    },
+    {
+      "id": "lenny-how-i-ai-fable52-review",
+      "lens": "practical",
+      "summary": "Lenny's Newsletter 'How I AI': Fable 5.2 review, fighting token fraud as a solo founder, and building a Claude Code family OS.",
+      "source": {
+        "name": "Lenny Rachitsky",
+        "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-16T16:02:55.000Z",
+      "care": 3,
+      "proof": 2,
+      "topic": "fable52-usage"
+    }
+  ]
+}
