@@ -1,73 +1,39 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-17T07:25:00-05:00",
-  "runId": "2026-11-17-0630",
+  "updatedAt": "2026-11-17T19:20:00-05:00",
+  "runId": "2026-11-17-1900",
   "howtos": [
     {
-      "id": "trial-new-library-in-draft-pr",
-      "dedupeKey": "agent-assess-library-beta-draft-pr-poc",
-      "title": "Have an agent trial a new library in a draft PR",
-      "what": "Matt Pocock's prompt of the day: an agent researches the XState v6 beta and proves its value on your hardest problem.",
+      "id": "enable-claude-code-code-mode",
+      "dedupeKey": "claude-code-experimental-code-mode",
+      "title": "Turn on Claude Code Code Mode",
+      "what": "Opt in to an experimental mode where Claude writes scripts that chain your tools and answers during long commands.",
       "kind": "steps",
       "copy": [
-        "Ask the agent to research the XState v6 beta.",
-        "Have it find the gnarliest problem in your app that v6 could help with.",
-        "Have it build a proof of concept in a draft PR.",
-        "Have it verify the proof of concept."
+        "Set CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1 in your environment before starting Claude Code.",
+        "Let Claude write scripts that chain your tools; it can answer you while long commands still run."
       ],
-      "whenToUse": "When deciding whether a new library or beta release is worth adopting in your codebase.",
+      "whenToUse": "When tasks need many tool calls in sequence or long-running commands you want to keep talking through.",
       "source": {
-        "name": "@mattpocockuk on X",
-        "url": "https://x.com/mattpocockuk/status/2122618527840354327"
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2122801681939234950"
       },
       "author": {
-        "name": "Matt Pocock",
-        "handle": "mattpocockuk"
+        "name": "Claude Developers",
+        "handle": "ClaudeDevs"
       },
       "tags": [
-        "coding-agents",
-        "evaluation",
-        "prompts"
+        "claude-code",
+        "tools",
+        "coding-agents"
       ],
-      "quality": 3,
+      "quality": 4,
       "verbatim": false,
       "briefItem": {
-        "briefId": "2026-11-17-0700",
-        "itemId": "pocock-xstate-v6-prompt"
+        "briefId": "2026-11-17-1900",
+        "itemId": "claudedevs-code-mode-experimental"
       },
-      "addedAt": "2026-11-17T07:25:00-05:00"
-    },
-    {
-      "id": "external-sandbox-for-coding-agents",
-      "dedupeKey": "external-sandbox-coding-agent-execution",
-      "title": "Run coding agents locally, execute code in a sandbox",
-      "what": "Simon Willison's 'external sandbox' pattern: the agent stays on your Mac, but the code it runs is isolated.",
-      "kind": "steps",
-      "copy": [
-        "Run the coding agent (Claude Code or Codex) on your Mac.",
-        "Have it execute code in an external sandbox: WebAssembly, QEMU or Apple Container."
-      ],
-      "whenToUse": "When you want coding agents to run code without access to your whole machine.",
-      "source": {
-        "name": "@simonw on X",
-        "url": "https://x.com/simonw/status/2122500307557265651"
-      },
-      "author": {
-        "name": "Simon Willison",
-        "handle": "simonw"
-      },
-      "tags": [
-        "coding-agents",
-        "agent-security",
-        "sandboxing"
-      ],
-      "quality": 3,
-      "verbatim": false,
-      "briefItem": {
-        "briefId": "2026-11-17-0700",
-        "itemId": "simonw-external-sandbox-pattern"
-      },
-      "addedAt": "2026-11-17T07:25:00-05:00"
+      "addedAt": "2026-11-17T19:20:00-05:00"
     }
   ]
 }

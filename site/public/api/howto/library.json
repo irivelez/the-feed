@@ -1,7 +1,39 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-17T07:25:00-05:00",
+  "updatedAt": "2026-11-17T19:20:00-05:00",
   "howtos": [
+    {
+      "id": "enable-claude-code-code-mode",
+      "dedupeKey": "claude-code-experimental-code-mode",
+      "title": "Turn on Claude Code Code Mode",
+      "what": "Opt in to an experimental mode where Claude writes scripts that chain your tools and answers during long commands.",
+      "kind": "steps",
+      "copy": [
+        "Set CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1 in your environment before starting Claude Code.",
+        "Let Claude write scripts that chain your tools; it can answer you while long commands still run."
+      ],
+      "whenToUse": "When tasks need many tool calls in sequence or long-running commands you want to keep talking through.",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2122801681939234950"
+      },
+      "author": {
+        "name": "Claude Developers",
+        "handle": "ClaudeDevs"
+      },
+      "tags": [
+        "claude-code",
+        "tools",
+        "coding-agents"
+      ],
+      "quality": 4,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-17-1900",
+        "itemId": "claudedevs-code-mode-experimental"
+      },
+      "addedAt": "2026-11-17T19:20:00-05:00"
+    },
     {
       "id": "trial-new-library-in-draft-pr",
       "dedupeKey": "agent-assess-library-beta-draft-pr-poc",
