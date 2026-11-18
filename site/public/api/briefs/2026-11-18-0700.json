@@ -1,0 +1,609 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-18-0700",
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-18T07:20:00-05:00",
+  "edition": "Morning",
+  "top3": [
+    {
+      "itemId": "gpt62-astra-reviews-alexfinn",
+      "headline": "GPT-6.2 Astra nears Claude Fable 5.2 at a third the price",
+      "whyItMatters": "When quality is close, price and speed decide which model your teams should use."
+    },
+    {
+      "itemId": "gpt62-cyber-deepsecbench-rauchg",
+      "headline": "OpenAI's new models lead on cybersecurity, says Vercel's Rauch",
+      "whyItMatters": "Models this capable at security work raise the bar for every company's defenses."
+    },
+    {
+      "itemId": "t3-code-31t-tokens-theo",
+      "headline": "T3 Code burned 31.7 trillion tokens in a single day",
+      "whyItMatters": "Agent coding is now a major cost line, so leaders need token budgets and tracking."
+    }
+  ],
+  "items": [
+    {
+      "id": "t3-agent-secrets-theo",
+      "title": "Theo: passing secrets to agents is now a top T3 Code feature",
+      "takeaway": "Theo says passing secrets to agents in T3 Code began as a small feature; he now uses it several times a day.",
+      "soWhat": "Agents need safe access to keys, so secret handling is becoming core agent tooling.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-18T09:40:07Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2122988211291255141"
+      },
+      "image": {
+        "src": "/img/t3-agent-secrets-theo.jpg",
+        "alt": "Image from @theo on X"
+      },
+      "heat": {
+        "score": 9,
+        "level": "none",
+        "metric": "14k views"
+      }
+    },
+    {
+      "id": "agent-ui-design-skills-mengto",
+      "title": "Meng To lists UI design skills that give coding agents taste",
+      "takeaway": "His list includes Impeccable, which critiques, audits and polishes against generic UI, plus Emil Kowalski's UI and animation skills.",
+      "soWhat": "Packaged design skills can lift agent-built interfaces above generic defaults.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-18T09:24:29Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2122984275566076395"
+      },
+      "image": {
+        "src": "/img/agent-ui-design-skills-mengto.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 5,
+        "level": "none",
+        "metric": "8k views"
+      }
+    },
+    {
+      "id": "vitalik-housing-incentives-vitalikbuterin",
+      "title": "Vitalik Buterin: investing beyond housing eases pressure for pricey homes",
+      "takeaway": "He argues that when younger generations invest in stocks and digital assets instead of housing, the perverse incentives to keep housing expensive weaken.",
+      "soWhat": "Where a generation keeps its savings shapes which housing policies it pushes for.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-18T05:51:14Z",
+      "source": {
+        "name": "@VitalikButerin on X",
+        "url": "https://x.com/VitalikButerin/status/2122930611027611873"
+      },
+      "image": {
+        "src": "/img/vitalik-housing-incentives-vitalikbuterin.jpg",
+        "alt": "Image from @VitalikButerin on X"
+      },
+      "heat": {
+        "score": 16,
+        "level": "none",
+        "metric": "119k views"
+      }
+    },
+    {
+      "id": "opus-55-pareto-aa-theo",
+      "title": "Theo: Opus 5.5 is still the best value for long coding runs",
+      "takeaway": "Artificial Analysis no longer places Opus 5.5 on its value line; Theo disagrees for long-running coding and wants behavioral benchmarks.",
+      "soWhat": "Leaderboards miss long-task behavior, so test models on your own long workflows.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-18T04:56:54Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2122916936417935419"
+      },
+      "image": {
+        "src": "/img/opus-55-pareto-aa-theo.jpg",
+        "alt": "Image from @theo on X"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "174k views"
+      }
+    },
+    {
+      "id": "nvidia-board-jensen-garrytan",
+      "title": "Nvidia's board dispute becomes a lesson in board design",
+      "takeaway": "Garry Tan: 'Only three people to remove from the board? Easy work. 15% shareholder vote coming.' Beff Jezos calls it a big lesson in board composition for founders.",
+      "soWhat": "Who sits on the board decides who holds control when a company hits a crisis.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-18T04:30:38Z",
+      "source": {
+        "name": "@garrytan on X",
+        "url": "https://x.com/garrytan/status/2122910329537728747"
+      },
+      "related": [
+        {
+          "name": "@beffjezos on X",
+          "url": "https://x.com/beffjezos/status/2122905273417556229"
+        }
+      ],
+      "image": {
+        "src": "/img/nvidia-board-jensen-garrytan.jpg",
+        "alt": "Profile image of @garrytan"
+      },
+      "heat": {
+        "score": 38,
+        "level": "none",
+        "metric": "169k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "ms-ignite-2026-satyanadella",
+      "title": "Satya Nadella opens Ignite on building a frontier AI ecosystem",
+      "takeaway": "Satya Nadella posted highlights from his Ignite keynote opening on building a frontier ecosystem to turn AI advances into real-world impact.",
+      "soWhat": "Microsoft frames AI as an ecosystem play, which shapes what reaches its enterprise customers.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-18T02:09:53Z",
+      "source": {
+        "name": "@satyanadella on X",
+        "url": "https://x.com/satyanadella/status/2122874904903397495"
+      },
+      "image": {
+        "src": "/img/ms-ignite-2026-satyanadella.jpg",
+        "alt": "Image from @satyanadella on X"
+      },
+      "heat": {
+        "score": 17,
+        "level": "none",
+        "metric": "104k views"
+      }
+    },
+    {
+      "id": "t3-code-31t-tokens-theo",
+      "title": "T3 Code processed 31.7 trillion tokens in one day",
+      "takeaway": "Theo says T3 Code hit 31.7 trillion tokens in a day, over $10M in API spend in 24 hours, and Claude's usage share held after OpenAI's release.",
+      "soWhat": "Coding agents now drive real model spend, so token budgets belong in planning.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-18T01:13:43Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2122860770329608290"
+      },
+      "related": [
+        {
+          "name": "@theo on X: Claude share",
+          "url": "https://x.com/theo/status/2122915383787290649"
+        }
+      ],
+      "image": {
+        "src": "/img/t3-code-31t-tokens-theo.jpg",
+        "alt": "Image from @theo on X"
+      },
+      "heat": {
+        "score": 21,
+        "level": "none",
+        "metric": "64k views"
+      }
+    },
+    {
+      "id": "gpt62-astra-reviews-alexfinn",
+      "title": "GPT-6.2 Astra nears Claude Fable 5.2 at a third the price",
+      "takeaway": "On Alex Finn's benchmark Astra scored 312.7/500, 0.3 behind Fable 5.2, in a third of the time and a quarter of the tokens. Theo says it improved but is 'directionally, very bad'; swyx sees a solid minor upgrade.",
+      "soWhat": "When quality is this close, model choice becomes a cost decision, so test on your own tasks.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-18T00:37:57Z",
+      "source": {
+        "name": "@AlexFinn on X",
+        "url": "https://x.com/AlexFinn/status/2122851769311236129"
+      },
+      "related": [
+        {
+          "name": "Simon Willison: GPT-6.2",
+          "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+        },
+        {
+          "name": "@theo on X: deep dive",
+          "url": "https://x.com/theo/status/2122991778622263514"
+        },
+        {
+          "name": "@swyx on X",
+          "url": "https://x.com/swyx/status/2122862646265520150"
+        },
+        {
+          "name": "@simonw on X: 3D test",
+          "url": "https://x.com/simonw/status/2122822310428279136"
+        }
+      ],
+      "image": {
+        "src": "/img/gpt62-astra-reviews-alexfinn.jpg",
+        "alt": "Image from @AlexFinn on X"
+      },
+      "heat": {
+        "score": 43,
+        "level": "warm",
+        "metric": "37k views",
+        "voices": 4
+      }
+    },
+    {
+      "id": "claude-desktop-latest-channel-claudedevs",
+      "title": "Claude Desktop adds a Latest channel for more frequent builds",
+      "takeaway": "On Windows and Mac, pick Latest in Settings > Desktop app; Stable stays the default and Latest can be less reliable.",
+      "soWhat": "Teams can trial new Claude features early while most staff stay on Stable.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-17T22:35:53Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2122821051910684824"
+      },
+      "image": {
+        "src": "/img/claude-desktop-latest-channel-claudedevs.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      },
+      "heat": {
+        "score": 23,
+        "level": "none",
+        "metric": "218k views"
+      }
+    },
+    {
+      "id": "gpt62-cyber-deepsecbench-rauchg",
+      "title": "Rauch: OpenAI's new models lead on cybersecurity skill",
+      "takeaway": "Guillermo Rauch calls OpenAI's new release the most cybersecurity-capable models in the world and points to Vercel's DeepsecBench, built on codebases no lab could train on.",
+      "soWhat": "Models this good at security cut both ways, so review your exposure before attackers do.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-17T22:00:51Z",
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2122812237169426606"
+      },
+      "image": {
+        "src": "/img/gpt62-cyber-deepsecbench-rauchg.jpg",
+        "alt": "Image from @rauchg on X"
+      },
+      "heat": {
+        "score": 9,
+        "level": "none",
+        "metric": "24k views"
+      }
+    },
+    {
+      "id": "claudedevs-code-mode-experimental",
+      "title": "Claude Code tests Code Mode: agents write scripts that chain tools",
+      "takeaway": "Claude writes scripts that chain tools and can answer while long commands run. Opt in with an env flag.",
+      "soWhat": "Agents that orchestrate your tools themselves make clean, scriptable internal tools more valuable.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-17T21:18:55Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2122801681939234950"
+      },
+      "heat": {
+        "score": 26,
+        "level": "none",
+        "metric": "218k views"
+      },
+      "image": {
+        "src": "/img/claudedevs-code-mode-experimental.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      }
+    },
+    {
+      "id": "a16z-first-person-labs-investment",
+      "title": "a16z backs First Person Labs to build agents that know you",
+      "takeaway": "a16z invests in First Person Labs, arguing personal agents need a deep, sensitive model of each user.",
+      "soWhat": "Personal agents run on intimate data, so trust and privacy become the product.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-17T18:18:34Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2122756295744983543"
+      },
+      "heat": {
+        "score": 14,
+        "level": "none",
+        "metric": "47k views"
+      },
+      "image": {
+        "src": "/img/a16z-first-person-labs-investment.jpg",
+        "alt": "Image from @a16z on X"
+      }
+    },
+    {
+      "id": "openai-gpt-62-astra-sol",
+      "title": "OpenAI releases GPT-6.2 Astra and Sol, pitched as token-efficient",
+      "takeaway": "OpenAI says GPT-6.2 Astra and Sol are now available; Sam Altman calls them very token-efficient.",
+      "soWhat": "Cheaper tokens per task change the math on which workflows are worth automating now.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-17T17:54:03Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2122750124543926515"
+      },
+      "related": [
+        {
+          "name": "@sama on X",
+          "url": "https://x.com/sama/status/2122798039899263456"
+        }
+      ],
+      "heat": {
+        "score": 71,
+        "level": "hot",
+        "metric": "4.3M views",
+        "voices": 4
+      },
+      "image": {
+        "src": "/img/openai-gpt-62-astra-sol.jpg",
+        "alt": "Image from @OpenAI on X"
+      }
+    },
+    {
+      "id": "sundar-gemini-tasks-expansion",
+      "title": "Gemini Tasks expands free to hundreds of millions in six countries",
+      "takeaway": "Sundar Pichai says Tasks in Gemini, powered by Gemini 4 Hydrogen, is expanding free of charge to hundreds of millions of people in six countries to hand off everyday life admin.",
+      "soWhat": "Consumers will soon expect agents that finish chores, and your customers will bring that expectation.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-17T17:20:41Z",
+      "source": {
+        "name": "@sundarpichai on X",
+        "url": "https://x.com/sundarpichai/status/2122741728247738688"
+      },
+      "heat": {
+        "score": 9,
+        "level": "none",
+        "metric": "26k views"
+      },
+      "image": {
+        "src": "/img/sundar-gemini-tasks-expansion.jpg",
+        "alt": "Image from @sundarpichai on X"
+      }
+    },
+    {
+      "id": "mengto-shinjuku-threejs",
+      "title": "Meng To builds a walkable Shinjuku night scene in one HTML file",
+      "takeaway": "Meng To built a Shinjuku night-scene 3D site in three.js: one HTML file, no 3D models, all built in code, walkable with WASD, with time of day and seasons.",
+      "soWhat": "Rich 3D experiences now fit in a single file, so small teams can try immersive ideas cheaply.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-17T16:35:24Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2122730333682778289"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "2k views"
+      },
+      "image": {
+        "src": "/img/mengto-shinjuku-threejs.jpg",
+        "alt": "Image from @MengTo on X"
+      }
+    },
+    {
+      "id": "benaich-altares-nato-counter-drone",
+      "title": "Nathan Benaich: AltaAres wins most lots in NATO counter-drone framework",
+      "takeaway": "Nathan Benaich says AltaAres won six of 16 lots in NATO's counter-drone framework, more than any other supplier, so allied countries can buy its systems without another tender. He believes the team can build a global leader in autonomous defense.",
+      "soWhat": "Early backers see autonomous defense as a real market, with procurement doors now opening.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-17T14:02:00Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2122691728239169990"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "919 views"
+      },
+      "image": {
+        "src": "/img/benaich-altares-nato-counter-drone.jpg",
+        "alt": "Profile image of @nathanbenaich"
+      }
+    },
+    {
+      "id": "hassabis-isomorphic-5b-funding",
+      "title": "Isomorphic Labs raises $5B to speed up AI drug design",
+      "takeaway": "Demis Hassabis announces $5B in funding for Isomorphic Labs to accelerate AI drug design and its mission to 'Solve All Disease'.",
+      "soWhat": "Capital is flowing to AI that does science, not chat, so watch your sector's research pipeline.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-17T12:06:19Z",
+      "source": {
+        "name": "@demishassabis on X",
+        "url": "https://x.com/demishassabis/status/2122662616367853670"
+      },
+      "heat": {
+        "score": 32,
+        "level": "none",
+        "metric": "308k views"
+      },
+      "image": {
+        "src": "/img/hassabis-isomorphic-5b-funding.jpg",
+        "alt": "Image from @demishassabis on X"
+      }
+    },
+    {
+      "id": "simonw-external-sandbox-pattern",
+      "title": "Simon Willison: run agents locally, execute their code in a sandbox",
+      "takeaway": "Simon Willison describes an 'external sandbox' pattern: the coding agent runs on your Mac but executes code in a WebAssembly, QEMU or Apple Container sandbox. He shows demos for Claude Code and Codex.",
+      "soWhat": "Sandboxed execution lets teams say yes to coding agents without handing over the whole machine.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-17T01:21:22Z",
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2122500307557265651"
+      },
+      "heat": {
+        "score": 17,
+        "level": "none",
+        "metric": "42k views"
+      },
+      "image": {
+        "src": "/img/simonw-external-sandbox-pattern.jpg",
+        "alt": "Image from @simonw on X"
+      },
+      "related": [
+        {
+          "name": "Simon Willison's blog",
+          "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/"
+        }
+      ]
+    },
+    {
+      "id": "claude-code-verification-post",
+      "title": "Claude Code team: let agents verify their own work",
+      "takeaway": "ClaudeDevs says Claude writes better code when it can verify its work, and that tests, benchmarks and end-to-end runs are now cheap. The team published how it thinks about verification.",
+      "soWhat": "Agent output gets more reliable when checks are built in, so budget for tests, not reviews.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-16T22:31:41Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2122457608963395586"
+      },
+      "related": [
+        {
+          "name": "Claude Code blog: verification",
+          "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/"
+        }
+      ],
+      "image": {
+        "src": "/img/claude-code-verification-post.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      }
+    },
+    {
+      "id": "bonta-sues-openai-safeguards",
+      "title": "California's attorney general sues OpenAI over AI safeguards",
+      "takeaway": "California Attorney General Rob Bonta sued OpenAI, alleging it built AI models without the safeguards and monitoring needed to protect people, NBC News reports.",
+      "soWhat": "Safeguards and monitoring are becoming legal questions, so document yours before regulators ask.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-16T19:40:03Z",
+      "source": {
+        "name": "@NBCNews on X",
+        "url": "https://x.com/NBCNews/status/2122414415131607245"
+      },
+      "image": {
+        "src": "/img/bonta-sues-openai-safeguards.jpg",
+        "alt": "Image from @NBCNews on X"
+      }
+    },
+    {
+      "id": "tavicosta-us-china-yields",
+      "title": "Tavi Costa: the US-China yield gap is the key macro divergence",
+      "takeaway": "He shares a chart of US and China 10-year yields and calls the gap the most important divergence between two superpowers funding an AI arms race.",
+      "soWhat": "Borrowing costs shape how long each superpower can keep funding its AI build-out.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-14T19:33:19Z",
+      "source": {
+        "name": "@TaviCosta on X",
+        "url": "https://x.com/TaviCosta/status/2121687944155283735"
+      },
+      "image": {
+        "src": "/img/tavicosta-us-china-yields.jpg",
+        "alt": "Image from @TaviCosta on X"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@garrytan",
+      "quote": "Only three people to remove from the board? Easy work. 15% shareholder vote coming.",
+      "url": "https://x.com/garrytan/status/2122910329537728747"
+    },
+    {
+      "handle": "@sama",
+      "quote": "These models can do amazing things and are very token-efficient; we hope people will get great value from them.",
+      "url": "https://x.com/sama/status/2122798039899263456"
+    },
+    {
+      "handle": "@ClaudeDevs",
+      "quote": "Claude writes scripts that chain your tools together in sophisticated ways, and it can answer you while long commands are still running.",
+      "url": "https://x.com/ClaudeDevs/status/2122801681939234950"
+    },
+    {
+      "handle": "@a16z",
+      "quote": "For personal agents to become useful in everyday life, they need a total understanding of you.",
+      "url": "https://x.com/a16z/status/2122756295744983543"
+    },
+    {
+      "handle": "@theo",
+      "quote": "If GPT-6.2 Astra acted more like Muse Wonder Full, it would be a great model.",
+      "url": "https://x.com/theo/status/2122831642339557794"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/garrytan/status/2122910329537728747",
+      "handle": "@garrytan",
+      "text": "Only three people to remove from the board? Easy work. 15% shareholder vote coming.",
+      "metric": "5k likes",
+      "note": "Founders watch the Nvidia board fight as a test of governance."
+    },
+    {
+      "url": "https://x.com/ClaudeDevs/status/2122821051910684824",
+      "handle": "@ClaudeDevs",
+      "text": "Claude Desktop on Windows and Mac now has a Latest release channel for more frequent builds.",
+      "metric": "2.5k likes",
+      "note": "Builders want new Claude features sooner."
+    },
+    {
+      "url": "https://x.com/theo/status/2122860770329608290",
+      "handle": "@theo",
+      "text": "T3 Code hit 31.7 trillion tokens in a day, over $10M in API spend in 24 hours.",
+      "metric": "1.8k likes",
+      "note": "A rare hard number on what agent coding costs at scale."
+    },
+    {
+      "url": "https://x.com/theo/status/2122916936417935419",
+      "handle": "@theo",
+      "text": "Opus 5.5 is still the best value for long-running coding, though it left Artificial Analysis's pareto line.",
+      "metric": "1.7k likes",
+      "note": "Developers question whether benchmarks capture long-task value."
+    },
+    {
+      "url": "https://x.com/GoogleDeepMind/status/2122807824531275826",
+      "handle": "@GoogleDeepMind",
+      "text": "Gemini 4 Hydrogen with Antigravity turned Google Sheets into a pixel-art canvas of animated scenes.",
+      "metric": "1.6k likes",
+      "note": "A playful demo of agents working inside everyday office tools."
+    }
+  ]
+}
