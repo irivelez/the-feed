@@ -1,39 +1,39 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-17T19:20:00-05:00",
-  "runId": "2026-11-17-1900",
+  "updatedAt": "2026-11-18T07:25:00-05:00",
+  "runId": "2026-11-18-0630",
   "howtos": [
     {
-      "id": "enable-claude-code-code-mode",
-      "dedupeKey": "claude-code-experimental-code-mode",
-      "title": "Turn on Claude Code Code Mode",
-      "what": "Opt in to an experimental mode where Claude writes scripts that chain your tools and answers during long commands.",
+      "id": "claude-desktop-latest-release-channel",
+      "dedupeKey": "claude-desktop-latest-release-channel",
+      "title": "Switch Claude Desktop to the Latest release channel",
+      "what": "Get more frequent Claude Desktop builds on Windows or Mac by opting in to the Latest channel.",
       "kind": "steps",
       "copy": [
-        "Set CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1 in your environment before starting Claude Code.",
-        "Let Claude write scripts that chain your tools; it can answer you while long commands still run."
+        "In Claude Desktop on Windows or Mac, open Settings > Desktop app.",
+        "Choose the Latest release channel for more frequent builds; Stable stays the default and Latest can be less reliable."
       ],
-      "whenToUse": "When tasks need many tool calls in sequence or long-running commands you want to keep talking through.",
+      "whenToUse": "When you want new Claude Desktop features sooner and can accept builds that may be less reliable.",
       "source": {
         "name": "@ClaudeDevs on X",
-        "url": "https://x.com/ClaudeDevs/status/2122801681939234950"
+        "url": "https://x.com/ClaudeDevs/status/2122821051910684824"
       },
       "author": {
         "name": "Claude Developers",
         "handle": "ClaudeDevs"
       },
       "tags": [
-        "claude-code",
-        "tools",
-        "coding-agents"
+        "claude",
+        "desktop",
+        "releases"
       ],
-      "quality": 4,
+      "quality": 3,
       "verbatim": false,
       "briefItem": {
-        "briefId": "2026-11-17-1900",
-        "itemId": "claudedevs-code-mode-experimental"
+        "briefId": "2026-11-18-0700",
+        "itemId": "claude-desktop-latest-channel-claudedevs"
       },
-      "addedAt": "2026-11-17T19:20:00-05:00"
+      "addedAt": "2026-11-18T07:25:00-05:00"
     }
   ]
 }
