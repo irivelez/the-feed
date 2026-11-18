@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-17-1300",
-  "count": 76,
+  "latest": "2026-11-17-1900",
+  "count": 77,
   "briefs": [
+    {
+      "id": "2026-11-17-1900",
+      "date": "2026-11-17",
+      "edition": "Evening",
+      "publishedAt": "2026-11-17T19:15:00-05:00",
+      "headline": "OpenAI ships GPT-6.2 Astra and Sol, sold on efficiency",
+      "url": "/api/briefs/2026-11-17-1900.json"
+    },
     {
       "id": "2026-11-17-1300",
       "date": "2026-11-17",

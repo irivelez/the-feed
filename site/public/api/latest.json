@@ -1,27 +1,127 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-17-1300",
+  "id": "2026-11-17-1900",
   "date": "2026-11-17",
-  "publishedAt": "2026-11-17T13:20:00-05:00",
-  "edition": "Midday",
+  "publishedAt": "2026-11-17T19:15:00-05:00",
+  "edition": "Evening",
   "top3": [
+    {
+      "itemId": "openai-gpt-62-astra-sol",
+      "headline": "OpenAI ships GPT-6.2 Astra and Sol, sold on efficiency",
+      "whyItMatters": "When labs compete on cost per task, the bar for what is worth automating keeps dropping."
+    },
+    {
+      "itemId": "claudedevs-code-mode-experimental",
+      "headline": "Claude Code agents can now script your tools together",
+      "whyItMatters": "Teams with clean, scriptable internal tools will get the most out of coding agents."
+    },
     {
       "itemId": "hassabis-isomorphic-5b-funding",
       "headline": "Isomorphic Labs raises $5B to put AI to work on drug design",
       "whyItMatters": "Big money now backs AI that does research, which can reshape how whole industries innovate."
-    },
-    {
-      "itemId": "sundar-gemini-tasks-expansion",
-      "headline": "Google hands free life-admin agents to hundreds of millions of people",
-      "whyItMatters": "Mass-market agents will reset what customers expect from every service they use."
-    },
-    {
-      "itemId": "databricks-ai-index-open-models",
-      "headline": "Open models now carry about 30% of enterprise AI tokens",
-      "whyItMatters": "Most companies already use several model providers, so dependence on one lab is fading."
     }
   ],
   "items": [
+    {
+      "id": "simonw-gpt-62-sol-astra-mech-test",
+      "title": "Simon Willison puts GPT-6.2 Astra and Sol through a 3D test",
+      "takeaway": "Simon Willison ran both new models on one three.js prompt using OpenStreetMap data.",
+      "soWhat": "Side-by-side tests on your own tasks beat launch claims when picking a model.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-17T22:40:53Z",
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2122822310428279136"
+      },
+      "heat": {
+        "score": 30,
+        "level": "none",
+        "metric": "8k views",
+        "voices": 4
+      },
+      "image": {
+        "src": "/img/simonw-gpt-62-sol-astra-mech-test.jpg",
+        "alt": "Image from @simonw on X"
+      }
+    },
+    {
+      "id": "claudedevs-code-mode-experimental",
+      "title": "Claude Code tests Code Mode: agents write scripts that chain tools",
+      "takeaway": "Claude writes scripts that chain tools and can answer while long commands run. Opt in with an env flag.",
+      "soWhat": "Agents that orchestrate your tools themselves make clean, scriptable internal tools more valuable.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-17T21:18:55Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2122801681939234950"
+      },
+      "heat": {
+        "score": 26,
+        "level": "none",
+        "metric": "218k views"
+      },
+      "image": {
+        "src": "/img/claudedevs-code-mode-experimental.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      }
+    },
+    {
+      "id": "a16z-first-person-labs-investment",
+      "title": "a16z backs First Person Labs to build agents that know you",
+      "takeaway": "a16z invests in First Person Labs, arguing personal agents need a deep, sensitive model of each user.",
+      "soWhat": "Personal agents run on intimate data, so trust and privacy become the product.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-17T18:18:34Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2122756295744983543"
+      },
+      "heat": {
+        "score": 14,
+        "level": "none",
+        "metric": "47k views"
+      },
+      "image": {
+        "src": "/img/a16z-first-person-labs-investment.jpg",
+        "alt": "Image from @a16z on X"
+      }
+    },
+    {
+      "id": "openai-gpt-62-astra-sol",
+      "title": "OpenAI releases GPT-6.2 Astra and Sol, pitched as token-efficient",
+      "takeaway": "OpenAI says GPT-6.2 Astra and Sol are now available; Sam Altman calls them very token-efficient.",
+      "soWhat": "Cheaper tokens per task change the math on which workflows are worth automating now.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-11-17T17:54:03Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2122750124543926515"
+      },
+      "related": [
+        {
+          "name": "@sama on X",
+          "url": "https://x.com/sama/status/2122798039899263456"
+        }
+      ],
+      "heat": {
+        "score": 71,
+        "level": "hot",
+        "metric": "4.3M views",
+        "voices": 4
+      },
+      "image": {
+        "src": "/img/openai-gpt-62-astra-sol.jpg",
+        "alt": "Image from @OpenAI on X"
+      }
+    },
     {
       "id": "sundar-gemini-tasks-expansion",
       "title": "Gemini Tasks expands free to hundreds of millions in six countries",
@@ -35,14 +135,14 @@
         "name": "@sundarpichai on X",
         "url": "https://x.com/sundarpichai/status/2122741728247738688"
       },
-      "image": {
-        "src": "/img/sundar-gemini-tasks-expansion.jpg",
-        "alt": "Image from @sundarpichai on X"
-      },
       "heat": {
         "score": 9,
         "level": "none",
         "metric": "26k views"
+      },
+      "image": {
+        "src": "/img/sundar-gemini-tasks-expansion.jpg",
+        "alt": "Image from @sundarpichai on X"
       }
     },
     {
@@ -58,14 +158,14 @@
         "name": "@MengTo on X",
         "url": "https://x.com/MengTo/status/2122730333682778289"
       },
-      "image": {
-        "src": "/img/mengto-shinjuku-threejs.jpg",
-        "alt": "Image from @MengTo on X"
-      },
       "heat": {
         "score": 0,
         "level": "none",
         "metric": "2k views"
+      },
+      "image": {
+        "src": "/img/mengto-shinjuku-threejs.jpg",
+        "alt": "Image from @MengTo on X"
       }
     },
     {
@@ -81,14 +181,14 @@
         "name": "@nathanbenaich on X",
         "url": "https://x.com/nathanbenaich/status/2122691728239169990"
       },
-      "image": {
-        "src": "/img/benaich-altares-nato-counter-drone.jpg",
-        "alt": "Profile image of @nathanbenaich"
-      },
       "heat": {
         "score": 0,
         "level": "none",
         "metric": "919 views"
+      },
+      "image": {
+        "src": "/img/benaich-altares-nato-counter-drone.jpg",
+        "alt": "Profile image of @nathanbenaich"
       }
     },
     {
@@ -104,14 +204,14 @@
         "name": "@demishassabis on X",
         "url": "https://x.com/demishassabis/status/2122662616367853670"
       },
-      "image": {
-        "src": "/img/hassabis-isomorphic-5b-funding.jpg",
-        "alt": "Image from @demishassabis on X"
-      },
       "heat": {
         "score": 32,
         "level": "none",
         "metric": "308k views"
+      },
+      "image": {
+        "src": "/img/hassabis-isomorphic-5b-funding.jpg",
+        "alt": "Image from @demishassabis on X"
       }
     },
     {
@@ -127,14 +227,14 @@
         "name": "@mattpocockuk on X",
         "url": "https://x.com/mattpocockuk/status/2122659341685694586"
       },
-      "image": {
-        "src": "/img/pocock-constrained-tools-experiment.jpg",
-        "alt": "Profile image of @mattpocockuk"
-      },
       "heat": {
         "score": 13,
         "level": "none",
         "metric": "40k views"
+      },
+      "image": {
+        "src": "/img/pocock-constrained-tools-experiment.jpg",
+        "alt": "Profile image of @mattpocockuk"
       }
     },
     {
@@ -150,14 +250,14 @@
         "name": "@mattpocockuk on X",
         "url": "https://x.com/mattpocockuk/status/2122618527840354327"
       },
-      "image": {
-        "src": "/img/pocock-xstate-v6-prompt.jpg",
-        "alt": "Profile image of @mattpocockuk"
-      },
       "heat": {
         "score": 8,
         "level": "none",
         "metric": "19k views"
+      },
+      "image": {
+        "src": "/img/pocock-xstate-v6-prompt.jpg",
+        "alt": "Profile image of @mattpocockuk"
       }
     },
     {
@@ -173,14 +273,14 @@
         "name": "@MengTo on X",
         "url": "https://x.com/MengTo/status/2122555631425221035"
       },
-      "image": {
-        "src": "/img/mengto-emil-ui-skills.jpg",
-        "alt": "Profile image of @MengTo"
-      },
       "heat": {
         "score": 7,
         "level": "none",
         "metric": "41k views"
+      },
+      "image": {
+        "src": "/img/mengto-emil-ui-skills.jpg",
+        "alt": "Profile image of @MengTo"
       }
     },
     {
@@ -196,14 +296,14 @@
         "name": "@simonw on X",
         "url": "https://x.com/simonw/status/2122500307557265651"
       },
-      "image": {
-        "src": "/img/simonw-external-sandbox-pattern.jpg",
-        "alt": "Image from @simonw on X"
-      },
       "heat": {
         "score": 17,
         "level": "none",
         "metric": "42k views"
+      },
+      "image": {
+        "src": "/img/simonw-external-sandbox-pattern.jpg",
+        "alt": "Image from @simonw on X"
       }
     },
     {
@@ -219,14 +319,14 @@
         "name": "@a16z on X",
         "url": "https://x.com/a16z/status/2122480372713951345"
       },
-      "image": {
-        "src": "/img/a16z-imas-lab-price-competition.jpg",
-        "alt": "Image from @a16z on X"
-      },
       "heat": {
         "score": 2,
         "level": "none",
         "metric": "21k views"
+      },
+      "image": {
+        "src": "/img/a16z-imas-lab-price-competition.jpg",
+        "alt": "Image from @a16z on X"
       }
     },
     {
@@ -268,24 +368,6 @@
       ],
       "image": {
         "src": "/img/claude-code-verification-post.jpg",
-        "alt": "Image from @ClaudeDevs on X"
-      }
-    },
-    {
-      "id": "claude-code-desktop-ios-duo",
-      "title": "Claude Code desktop can test apps on iPhone Duo's folding layouts",
-      "takeaway": "Claude Code on desktop now supports iPhone Duo in the iOS simulator, in public beta. Claude can fold and unfold the device to test each layout.",
-      "soWhat": "Agents now test layouts on new devices themselves, cutting manual QA for mobile teams.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-16T21:18:08Z",
-      "source": {
-        "name": "@ClaudeDevs on X",
-        "url": "https://x.com/ClaudeDevs/status/2122439098740674839"
-      },
-      "image": {
-        "src": "/img/claude-code-desktop-ios-duo.jpg",
         "alt": "Image from @ClaudeDevs on X"
       }
     },
@@ -347,60 +429,6 @@
       "image": {
         "src": "/img/databricks-ai-index-open-models.jpg",
         "alt": "Image from @pwendell on X"
-      }
-    },
-    {
-      "id": "openai-embedded-assessments",
-      "title": "OpenAI gives outside safety labs deep access to internal models",
-      "takeaway": "OpenAI is working with Apollo Research, METR, Transluce and Goodfire on embedded assessments, giving outside experts deep access to internal models and systems to investigate alignment and test safeguards.",
-      "soWhat": "Independent checks on frontier models are expanding, which gives buyers more evidence to weigh before trusting them.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-16T16:03:33Z",
-      "source": {
-        "name": "@OpenAI on X",
-        "url": "https://x.com/OpenAI/status/2122359930628063248"
-      },
-      "image": {
-        "src": "/img/openai-embedded-assessments.jpg",
-        "alt": "Image from @OpenAI on X"
-      }
-    },
-    {
-      "id": "perplexity-frontier-research-10k-gpus",
-      "title": "Perplexity puts 10,000 GPUs toward an automated AI researcher",
-      "takeaway": "Perplexity's new Frontier Research effort will put at least 10,000 GPUs on multi-agent orchestration and continual learning, and says it will publish evals and papers and open source models and tooling.",
-      "soWhat": "A product company is now training its own research agents, widening frontier work beyond the big labs.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-16T15:38:17Z",
-      "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2122353569903128921"
-      },
-      "image": {
-        "src": "/img/perplexity-frontier-research-10k-gpus.jpg",
-        "alt": "Image from @AravSrinivas on X"
-      }
-    },
-    {
-      "id": "pocock-nuance-slop-poteto",
-      "title": "Pocock: remove nuance from agents' choices to avoid slop",
-      "takeaway": "Matt Pocock highlights a talk by @poteto at AIE Code, 'nuance tends to lead to slop', and says to design APIs and automated checks that remove nuance from agent decisions, such as banning useEffect.",
-      "soWhat": "Agents do better with firm rules and automated checks than with judgment calls left open.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-16T13:11:15Z",
-      "source": {
-        "name": "@mattpocockuk on X",
-        "url": "https://x.com/mattpocockuk/status/2122316570852487441"
-      },
-      "image": {
-        "src": "/img/pocock-nuance-slop-poteto.jpg",
-        "alt": "Image from @mattpocockuk on X"
       }
     },
     {
@@ -496,24 +524,24 @@
   ],
   "voices": [
     {
-      "handle": "@ClaudeDevs",
-      "quote": "Claude writes better code when it can verify its work. Checks that used to be expensive, like tests, benchmarks, and end-to-end runs, are now cheap.",
-      "url": "https://x.com/ClaudeDevs/status/2122457608963395586"
+      "handle": "@sama",
+      "quote": "These models can do amazing things and are very token-efficient; we hope people will get great value from them.",
+      "url": "https://x.com/sama/status/2122798039899263456"
     },
     {
-      "handle": "@rauchg",
-      "quote": "I believe Traces are the essential new primitive of software development and agentic evolution.",
-      "url": "https://x.com/rauchg/status/2122391135129858507"
+      "handle": "@ClaudeDevs",
+      "quote": "Claude writes scripts that chain your tools together in sophisticated ways, and it can answer you while long commands are still running.",
+      "url": "https://x.com/ClaudeDevs/status/2122801681939234950"
+    },
+    {
+      "handle": "@a16z",
+      "quote": "For personal agents to become useful in everyday life, they need a total understanding of you.",
+      "url": "https://x.com/a16z/status/2122756295744983543"
     },
     {
       "handle": "@theo",
-      "quote": "Fable 5.2 is the first model that consistently ignores unimportant feedback.",
-      "url": "https://x.com/theo/status/2122429147289206976"
-    },
-    {
-      "handle": "@hwchase17",
-      "quote": "as models get more capable, we see them moving from doing tasks towards pursuing goals",
-      "url": "https://x.com/hwchase17/status/2122391663889039828"
+      "quote": "If GPT-6.2 Astra acted more like Muse Wonder Full, it would be a great model.",
+      "url": "https://x.com/theo/status/2122831642339557794"
     },
     {
       "handle": "@garrytan",
@@ -523,39 +551,39 @@
   ],
   "hotOnX": [
     {
+      "url": "https://x.com/OpenAI/status/2122750124543926515",
+      "handle": "@OpenAI",
+      "text": "GPT-6.2 Astra and Sol are now available. Super efficient and built to perform where it counts—the real world.",
+      "metric": "27.8k likes",
+      "note": "A major OpenAI model launch draws the day's biggest crowd by far."
+    },
+    {
       "url": "https://x.com/demishassabis/status/2122662616367853670",
       "handle": "@demishassabis",
       "text": "$5B in funding for Isomorphic Labs to accelerate AI drug design and its mission to 'Solve All Disease'.",
       "metric": "8.6k likes",
-      "note": "A $5B bet on AI-driven science draws the day's biggest crowd."
+      "note": "A $5B bet on AI-driven science keeps drawing attention."
+    },
+    {
+      "url": "https://x.com/sama/status/2122798039899263456",
+      "handle": "@sama",
+      "text": "6.2 Sol and Astra are out. These models can do amazing things and are very token-efficient.",
+      "metric": "4.7k likes",
+      "note": "Altman frames the launch around cost per task, not raw power."
+    },
+    {
+      "url": "https://x.com/ClaudeDevs/status/2122801681939234950",
+      "handle": "@ClaudeDevs",
+      "text": "Code Mode: Claude writes scripts that chain your tools together and can answer while long commands still run.",
+      "metric": "3.5k likes",
+      "note": "Builders see a new way for coding agents to work with tools."
     },
     {
       "url": "https://x.com/simonw/status/2122500307557265651",
       "handle": "@simonw",
-      "text": "An 'external sandbox' pattern: the coding agent runs on your Mac, but code executes in a WebAssembly, QEMU or Apple Container sandbox.",
+      "text": "An 'external sandbox' pattern: the agent runs on your Mac, but code executes in a WebAssembly, QEMU or Apple Container sandbox.",
       "metric": "803 likes",
-      "note": "227 replies as builders compare safe ways to let agents run code."
-    },
-    {
-      "url": "https://x.com/mattpocockuk/status/2122659341685694586",
-      "handle": "@mattpocockuk",
-      "text": "Experiment: give agents an extremely constrained version of your tools, e.g. React with all state in Zustand or useReducer.",
-      "metric": "503 likes",
-      "note": "144 replies debate whether less choice makes agents more reliable."
-    },
-    {
-      "url": "https://x.com/garrytan/status/2122517681740124271",
-      "handle": "@garrytan",
-      "text": "GBrain hosted lets employee memory roll up into team and company-level 'brains'; a Rust backend is planned.",
-      "metric": "476 likes",
-      "note": "Company-wide agent memory raises questions of ownership and privacy."
-    },
-    {
-      "url": "https://x.com/AravSrinivas/status/2122490397113131027",
-      "handle": "@AravSrinivas",
-      "text": "AI for automating scientific research is the best compute investment to make.",
-      "metric": "392 likes",
-      "note": "A one-line bet from Perplexity, a day after its 10,000-GPU research push."
+      "note": "Builders compare safe ways to let agents run code."
     }
   ]
 }
