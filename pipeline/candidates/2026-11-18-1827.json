@@ -1,0 +1,426 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-18-1827",
+  "generatedAt": "2026-11-18T23:27:40.310Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-18T17:28:00.000Z",
+    "to": "2026-11-18T23:27:40.310Z"
+  },
+  "sourceNotes": [
+    "X lanes: 8 relevancy searches (originals only, since 17:28Z). Query lane, reply capture and author baselines not fetched.",
+    "Dwarkesh RSS HTTP 500. Benedict Evans latest 2026-09-03, Mollick latest 2026-11-09, Mitchell Hashimoto latest 2026-11-06 (stale). HN Algolia returned non-JSON; arXiv not fetched. Metaplanet Google News not fetched.",
+    "Design lane: Meng To posted nothing in window (0 results). Frontier-capital: Benaich only (Horowitz post is a hiring note without substance).",
+    "Noisy: ThePrimeagen/AlexFinn GTA 6 and reply-guy posts, kloss_xyz promo posts, LangChain workshop/event promos, Elon Musk posts, giveaway/skill-promo posts skipped."
+  ],
+  "candidates": [
+    {
+      "id": "sundarpichai-125621-gemini-4-neon",
+      "lens": "broad",
+      "summary": "Sundar Pichai announces Gemini 4 Neon: frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work and science workflows. Rolling out today in the Gemini API in Google AI Studio, Gemini for business, and for paid Google AI Pro and Ultra.",
+      "source": {
+        "name": "sundarpichai",
+        "url": "https://x.com/sundarpichai/status/2123167780988125621",
+        "type": "x",
+        "handle": "sundarpichai"
+      },
+      "publishedAt": "2026-11-18T21:33:40.000Z",
+      "metrics": {
+        "likes": 5983,
+        "reposts": 461,
+        "replies": 335,
+        "views": 309811,
+        "capturedAt": "2026-11-18T23:27:40.310Z"
+      },
+      "care": 5,
+      "proof": 4,
+      "topic": "gemini-4-neon"
+    },
+    {
+      "id": "googledeepmind-077030-gemini-4-neon",
+      "lens": "broad",
+      "summary": "Google DeepMind: Gemini 4 Neon is rolling out now, sitting between Carbon and Hydrogen, for complex software engineering, knowledge work and science.",
+      "source": {
+        "name": "GoogleDeepMind",
+        "url": "https://x.com/GoogleDeepMind/status/2123167884411077030",
+        "type": "x",
+        "handle": "GoogleDeepMind"
+      },
+      "publishedAt": "2026-11-18T21:34:04.000Z",
+      "metrics": {
+        "likes": 3766,
+        "reposts": 380,
+        "replies": 143,
+        "views": 196956,
+        "capturedAt": "2026-11-18T23:27:40.310Z"
+      },
+      "care": 5,
+      "proof": 4,
+      "topic": "gemini-4-neon"
+    },
+    {
+      "id": "alexfinn-575701-gemini-4-neon",
+      "lens": "practical",
+      "summary": "AlexFinn says Google has released new frontier models four times in less than a month, each a major improvement, and calls Carbon the most intelligent model he has used.",
+      "source": {
+        "name": "AlexFinn",
+        "url": "https://x.com/AlexFinn/status/2123171176025575701",
+        "type": "x",
+        "handle": "AlexFinn"
+      },
+      "publishedAt": "2026-11-18T21:47:09.000Z",
+      "metrics": {
+        "likes": 619,
+        "reposts": 34,
+        "replies": 56,
+        "views": 52097,
+        "capturedAt": "2026-11-18T23:27:40.310Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "gemini-4-neon"
+    },
+    {
+      "id": "sundarpichai-965524-gemini-4-neon-3d",
+      "lens": "design",
+      "summary": "Sundar Pichai shows Gemini 4 Neon 3D-modeling a photorealistic lab simulation in Antigravity via Blender MCP.",
+      "source": {
+        "name": "sundarpichai",
+        "url": "https://x.com/sundarpichai/status/2123184309137965524",
+        "type": "x",
+        "handle": "sundarpichai"
+      },
+      "publishedAt": "2026-11-18T22:39:20.000Z",
+      "metrics": {
+        "likes": 1379,
+        "reposts": 85,
+        "replies": 74,
+        "views": 51860,
+        "capturedAt": "2026-11-18T23:27:40.310Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "gemini-4-neon-3d",
+      "imageHint": "https://x.com/sundarpichai/status/2123184309137965524"
+    },
+    {
+      "id": "davidsacks-323795-anthropic-ipo",
+      "lens": "broad",
+      "summary": "David Sacks says he predicted an Anthropic-Doomer split and that it has arrived; he argues Anthropic is racing toward Recursive Self-Improvement faster than any other frontier lab and has marketed 'closing the loop' on its IPO roadshow as a core advantage.",
+      "source": {
+        "name": "DavidSacks",
+        "url": "https://x.com/DavidSacks/status/2123163407780323795",
+        "type": "x",
+        "handle": "DavidSacks"
+      },
+      "publishedAt": "2026-11-18T21:16:17.000Z",
+      "metrics": {
+        "likes": 2563,
+        "reposts": 287,
+        "replies": 131,
+        "views": 178085,
+        "capturedAt": "2026-11-18T23:27:40.310Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "anthropic-ipo"
+    },
+    {
+      "id": "atlantic-anthropic-winner-ai-race",
+      "lens": "broad",
+      "summary": "The Atlantic headline: 'The Reluctant Winner of the AI Race' (about Anthropic). Headline only.",
+      "source": {
+        "name": "The Atlantic Technology",
+        "url": "https://www.theatlantic.com/technology/2026/11/anthropic-winner-ai-race/689479/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-18T15:32:17.000Z",
+      "care": 3,
+      "proof": 2,
+      "topic": "anthropic-ipo"
+    },
+    {
+      "id": "marcus-anthropic-ipo-bad-bet",
+      "lens": "broad",
+      "summary": "Gary Marcus (contrarian) asks in a new post: 'Is Anthropic's IPO a bad bet, both for investors and society?'",
+      "source": {
+        "name": "Gary Marcus",
+        "url": "https://garymarcus.substack.com/p/is-anthropics-ipo-a-bad-bet-both",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-18T21:45:04.000Z",
+      "care": 3,
+      "proof": 2,
+      "topic": "anthropic-ipo"
+    },
+    {
+      "id": "openai-248653-openai-research-acce",
+      "lens": "broad",
+      "summary": "OpenAI shares new data on how AI is changing research at OpenAI: researchers' AI use continues to rise exponentially, agents complete longer tasks, human involvement remains central, and researchers spend more time on safety.",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://x.com/OpenAI/status/2123191365983248653",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "publishedAt": "2026-11-18T23:07:23.000Z",
+      "metrics": {
+        "likes": 607,
+        "reposts": 51,
+        "replies": 51,
+        "views": 63117,
+        "capturedAt": "2026-11-18T23:27:40.310Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "topic": "openai-research-accel",
+      "related": [
+        {
+          "name": "OpenAI: Research acceleration: The jagged frontier",
+          "url": "https://openai.com/index/research-acceleration-jagged-frontier"
+        }
+      ]
+    },
+    {
+      "id": "openai-inside-codex-sandbox",
+      "lens": "practical",
+      "summary": "OpenAI blog post: Inside the Codex sandbox.",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/inside-the-codex-sandbox",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "care": 4,
+      "proof": 3,
+      "topic": "agent-sandboxes"
+    },
+    {
+      "id": "simon-external-sandboxes-coding-agents",
+      "lens": "practical",
+      "summary": "Simon Willison post: External sandboxes for coding agents.",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-17T22:52:29.000Z",
+      "care": 4,
+      "proof": 3,
+      "topic": "agent-sandboxes"
+    },
+    {
+      "id": "langchain-827504-langsmith-coding-roi",
+      "lens": "practical",
+      "summary": "LangChain ships a LangSmith dashboard to measure coding agent ROI: it pulls every traced coding agent into one view across harnesses and model providers, links pull requests to threads, and shows what a merged PR cost and how much spend never led to one.",
+      "source": {
+        "name": "LangChain",
+        "url": "https://x.com/LangChain/status/2123113924857827504",
+        "type": "x",
+        "handle": "LangChain"
+      },
+      "publishedAt": "2026-11-18T17:59:39.000Z",
+      "metrics": {
+        "likes": 47,
+        "reposts": 9,
+        "replies": 13,
+        "views": 11234,
+        "capturedAt": "2026-11-18T23:27:40.310Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "topic": "langsmith-coding-roi",
+      "related": [
+        {
+          "name": "LangChain setup steps",
+          "url": "https://x.com/LangChain/status/2123147850615808477"
+        }
+      ]
+    },
+    {
+      "id": "langchain-010762-deepagents",
+      "lens": "practical",
+      "summary": "LangChain: 50 million Deep Agents downloads and counting.",
+      "source": {
+        "name": "LangChain",
+        "url": "https://x.com/LangChain/status/2123107690776010762",
+        "type": "x",
+        "handle": "LangChain"
+      },
+      "publishedAt": "2026-11-18T17:34:53.000Z",
+      "metrics": {
+        "likes": 13,
+        "reposts": 1,
+        "replies": 3,
+        "views": 2894,
+        "capturedAt": "2026-11-18T23:27:40.310Z"
+      },
+      "care": 2,
+      "proof": 3,
+      "topic": "deepagents"
+    },
+    {
+      "id": "aravsrinivas-969597-agent-workos",
+      "lens": "broad",
+      "summary": "Aravind Srinivas: Perplexity rolls out Teammates and Multiagent effort on iOS and Android, turning the mobile app into 'a mini workOS'.",
+      "source": {
+        "name": "AravSrinivas",
+        "url": "https://x.com/AravSrinivas/status/2123129712301969597",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-18T19:02:23.000Z",
+      "metrics": {
+        "likes": 114,
+        "reposts": 6,
+        "replies": 31,
+        "views": 12114,
+        "capturedAt": "2026-11-18T23:27:40.310Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "agent-workos"
+    },
+    {
+      "id": "satyanadella-176533-agent-workos",
+      "lens": "broad",
+      "summary": "Satya Nadella: Salesforce is coming to Copilot, 'as we build Copilot as the OS for work'.",
+      "source": {
+        "name": "satyanadella",
+        "url": "https://x.com/satyanadella/status/2123119560803176533",
+        "type": "x",
+        "handle": "satyanadella"
+      },
+      "publishedAt": "2026-11-18T18:22:03.000Z",
+      "metrics": {
+        "likes": 782,
+        "reposts": 45,
+        "replies": 74,
+        "views": 104496,
+        "capturedAt": "2026-11-18T23:27:40.310Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "agent-workos"
+    },
+    {
+      "id": "stratechery-os-wars-ai-edition",
+      "lens": "broad",
+      "summary": "Stratechery update: 'Nvidia Earnings; Office Convergence; OS Wars, AI Edition'.",
+      "source": {
+        "name": "Ben Thompson (Stratechery)",
+        "url": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-18T11:00:00.000Z",
+      "care": 3,
+      "proof": 2,
+      "topic": "agent-workos"
+    },
+    {
+      "id": "amasad-008331-agent-coordination",
+      "lens": "practical",
+      "summary": "Amjad Masad notes the OpenAI/Hugging Face incident exposed message boards where agents communicate, and says Replit Missions lets you see how agents coordinate and talk.",
+      "source": {
+        "name": "amasad",
+        "url": "https://x.com/amasad/status/2123133509028008331",
+        "type": "x",
+        "handle": "amasad"
+      },
+      "publishedAt": "2026-11-18T19:17:29.000Z",
+      "metrics": {
+        "likes": 159,
+        "reposts": 5,
+        "replies": 56,
+        "views": 10612,
+        "capturedAt": "2026-11-18T23:27:40.310Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "agent-coordination"
+    },
+    {
+      "id": "theprimeagen-717013-gpt62-astra-sol",
+      "lens": "practical",
+      "summary": "ThePrimeagen describes telling Sol to use his computer to create tokens for Cloudflare, YouTube, Twitch, Kick and X and make sign-in work locally and in production; says it was done in 5 minutes.",
+      "source": {
+        "name": "ThePrimeagen",
+        "url": "https://x.com/ThePrimeagen/status/2123188274944717013",
+        "type": "x",
+        "handle": "ThePrimeagen"
+      },
+      "publishedAt": "2026-11-18T22:55:06.000Z",
+      "metrics": {
+        "likes": 113,
+        "reposts": 2,
+        "replies": 19,
+        "views": 8358,
+        "capturedAt": "2026-11-18T23:27:40.310Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "gpt62-astra-sol"
+    },
+    {
+      "id": "nathanbenaich-040741-rsi-evals",
+      "lens": "frontier-capital",
+      "summary": "Nathan Benaich says Abundant Labs launched FrontierRSI, which tests whether a model can achieve recursive self-improvement (post truncated in read).",
+      "source": {
+        "name": "nathanbenaich",
+        "url": "https://x.com/nathanbenaich/status/2123126698120040741",
+        "type": "x",
+        "handle": "nathanbenaich"
+      },
+      "publishedAt": "2026-11-18T18:50:25.000Z",
+      "metrics": {
+        "likes": 14,
+        "reposts": 2,
+        "replies": 2,
+        "views": 1542,
+        "capturedAt": "2026-11-18T23:27:40.310Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "rsi-evals"
+    },
+    {
+      "id": "nathanbenaich-568243-ai-genius-bar",
+      "lens": "frontier-capital",
+      "summary": "Nathan Benaich asks what a 'genius bar for AI' would look like: give a small business owner an hour with someone who can show them what to do with their own work; same for a busy family or healthcare provider.",
+      "source": {
+        "name": "nathanbenaich",
+        "url": "https://x.com/nathanbenaich/status/2123121308049568243",
+        "type": "x",
+        "handle": "nathanbenaich"
+      },
+      "publishedAt": "2026-11-18T18:29:00.000Z",
+      "metrics": {
+        "likes": 18,
+        "reposts": 1,
+        "replies": 9,
+        "views": 2819,
+        "capturedAt": "2026-11-18T23:27:40.310Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "ai-genius-bar"
+    },
+    {
+      "id": "theverge-nvidia-without-huang",
+      "lens": "broad",
+      "summary": "The Verge piece: 'What is Nvidia without AI's sugar daddy in charge?' on Nvidia earnings after Jensen Huang.",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-18T18:34:15.000Z",
+      "care": 3,
+      "proof": 2,
+      "topic": "nvidia-huang-transition"
+    }
+  ]
+}
