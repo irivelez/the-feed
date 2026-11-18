@@ -1,0 +1,437 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-18-0630",
+  "generatedAt": "2026-11-18T11:30:25.827Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-17T21:29:50.064Z",
+    "to": "2026-11-18T11:30:25.827Z"
+  },
+  "sourceNotes": [
+    "10 X lane searches (relevancy, originals only, last 14h). Query lane, reply capture and author baselines not fetched.",
+    "Dwarkesh RSS returned empty; Stratechery feed returned 146 bytes (likely paywalled/blocked); Mollick latest item is 2026-11-09 (stale). arXiv, HN not fetched.",
+    "Design lane: only Meng To (one post, duplicated three times). Frontier-capital: Lyn Alden bitcoin posts and Nathan Benaich conference posts skipped as weak.",
+    "Skipped: Elon Musk memes/Boring Company posts, GeoffreyHuntley noise, giveaway/promo posts."
+  ],
+  "candidates": [
+    {
+      "id": "opus-55-pareto-aa-theo",
+      "lens": "practical",
+      "summary": "Theo says Artificial Analysis no longer lists Opus 5.5 on its pareto line (best value per intelligence); he argues Opus 5.5 is still the best value for long-running coding and wants behavioral benchmarks to close the gap.",
+      "source": {
+        "name": "theo",
+        "url": "https://x.com/theo/status/2122916936417935419",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-18T04:56:54.000Z",
+      "metrics": {
+        "likes": 1650,
+        "reposts": 29,
+        "replies": 118,
+        "views": 174311,
+        "capturedAt": "2026-11-18T11:30:25.827Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "opus-55-pareto-aa"
+    },
+    {
+      "id": "t3-code-31t-tokens-theo",
+      "lens": "practical",
+      "summary": "Theo: T3 Code hit 31.7 trillion tokens in a day, over $10,000,000 in API spend in 24 hours.",
+      "source": {
+        "name": "theo",
+        "url": "https://x.com/theo/status/2122860770329608290",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-18T01:13:43.000Z",
+      "metrics": {
+        "likes": 1834,
+        "reposts": 18,
+        "replies": 123,
+        "views": 63527,
+        "capturedAt": "2026-11-18T11:30:25.827Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "t3-code-31t-tokens"
+    },
+    {
+      "id": "t3-claude-share-after-gpt62-theo",
+      "lens": "practical",
+      "summary": "Theo says Claude's dominance in T3 Code usage did not take a hit from the OpenAI release today (chart attached).",
+      "source": {
+        "name": "theo",
+        "url": "https://x.com/theo/status/2122915383787290649",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-18T04:50:44.000Z",
+      "metrics": {
+        "likes": 851,
+        "reposts": 10,
+        "replies": 70,
+        "views": 32998,
+        "capturedAt": "2026-11-18T11:30:25.827Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "t3-claude-share-after-gpt62"
+    },
+    {
+      "id": "t3-agent-secrets-theo",
+      "lens": "practical",
+      "summary": "Theo: passing secrets to agents in T3 Code started as a small feature and he now thinks it is one of the biggest; he uses it multiple times a day.",
+      "source": {
+        "name": "theo",
+        "url": "https://x.com/theo/status/2122988211291255141",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-18T09:40:07.000Z",
+      "metrics": {
+        "likes": 312,
+        "reposts": 1,
+        "replies": 55,
+        "views": 13643,
+        "capturedAt": "2026-11-18T11:30:25.827Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "t3-agent-secrets"
+    },
+    {
+      "id": "gpt62-astra-reviews-alexfinn",
+      "lens": "practical",
+      "summary": "Alex Finn ran GPT-6.2 Astra on his own benchmark: 312.7/500, Claude Fable 5.2 beat it by 0.3, while Astra finished in a third of the time, a third of the price and a quarter of the tokens.",
+      "source": {
+        "name": "AlexFinn",
+        "url": "https://x.com/AlexFinn/status/2122851769311236129",
+        "type": "x",
+        "handle": "AlexFinn"
+      },
+      "publishedAt": "2026-11-18T00:37:57.000Z",
+      "metrics": {
+        "likes": 559,
+        "reposts": 35,
+        "replies": 59,
+        "views": 37024,
+        "capturedAt": "2026-11-18T11:30:25.827Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "gpt62-astra-reviews"
+    },
+    {
+      "id": "gpt62-astra-reviews-theo",
+      "lens": "practical",
+      "summary": "Theo's second deep dive on GPT-6.2 Astra: better than when he first tested, but still 'directionally, very bad' by his own example.",
+      "source": {
+        "name": "theo",
+        "url": "https://x.com/theo/status/2122991778622263514",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-18T09:54:17.000Z",
+      "metrics": {
+        "likes": 838,
+        "reposts": 21,
+        "replies": 120,
+        "views": 70738,
+        "capturedAt": "2026-11-18T11:30:25.827Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "gpt62-astra-reviews"
+    },
+    {
+      "id": "claude-desktop-latest-channel-claudedevs",
+      "lens": "practical",
+      "summary": "ClaudeDevs: Claude Desktop on Windows and Mac now has a Latest release channel (Settings > Desktop app) for more frequent builds; Stable stays default and Latest can be less reliable.",
+      "source": {
+        "name": "ClaudeDevs",
+        "url": "https://x.com/ClaudeDevs/status/2122821051910684824",
+        "type": "x",
+        "handle": "ClaudeDevs"
+      },
+      "publishedAt": "2026-11-17T22:35:53.000Z",
+      "metrics": {
+        "likes": 2496,
+        "reposts": 84,
+        "replies": 111,
+        "views": 217797,
+        "capturedAt": "2026-11-18T11:30:25.827Z"
+      },
+      "care": 3,
+      "proof": 5,
+      "topic": "claude-desktop-latest-channel"
+    },
+    {
+      "id": "agent-ui-design-skills-mengto",
+      "lens": "design",
+      "summary": "Meng To shares his list of UI design skills that give a coding agent taste, including Impeccable (critique, audit, polish against generic UI) and Emil Kowalski's UI/animation skills.",
+      "source": {
+        "name": "MengTo",
+        "url": "https://x.com/MengTo/status/2122984275566076395",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-18T09:24:29.000Z",
+      "metrics": {
+        "likes": 167,
+        "reposts": 10,
+        "replies": 18,
+        "views": 8335,
+        "capturedAt": "2026-11-18T11:30:25.827Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "agent-ui-design-skills"
+    },
+    {
+      "id": "gpt62-cyber-deepsecbench-rauchg",
+      "lens": "broad",
+      "summary": "Guillermo Rauch: OpenAI released what he calls the most cybersecurity-capable models in the world; he points to Vercel's DeepsecBench, a cyber benchmark on codebases no lab had access to for training.",
+      "source": {
+        "name": "rauchg",
+        "url": "https://x.com/rauchg/status/2122812237169426606",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "publishedAt": "2026-11-17T22:00:51.000Z",
+      "metrics": {
+        "likes": 308,
+        "reposts": 12,
+        "replies": 45,
+        "views": 24054,
+        "capturedAt": "2026-11-18T11:30:25.827Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "gpt62-cyber-deepsecbench"
+    },
+    {
+      "id": "agent-browser-vitals-rauchg",
+      "lens": "practical",
+      "summary": "Guillermo Rauch calls agent-browser vitals a huge deal for web performance: 'self-optimizing software is here'.",
+      "source": {
+        "name": "rauchg",
+        "url": "https://x.com/rauchg/status/2122830064152899991",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "publishedAt": "2026-11-17T23:11:42.000Z",
+      "metrics": {
+        "likes": 766,
+        "reposts": 32,
+        "replies": 56,
+        "views": 50818,
+        "capturedAt": "2026-11-18T11:30:25.827Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "agent-browser-vitals"
+    },
+    {
+      "id": "gemini-4-hydrogen-googledeepmind",
+      "lens": "broad",
+      "summary": "Google DeepMind: Gemini 4 Hydrogen with Antigravity turned Google Sheets into a pixel-art canvas, shrinking thousands of cells into animated scenes.",
+      "source": {
+        "name": "GoogleDeepMind",
+        "url": "https://x.com/GoogleDeepMind/status/2122807824531275826",
+        "type": "x",
+        "handle": "GoogleDeepMind"
+      },
+      "publishedAt": "2026-11-17T21:43:19.000Z",
+      "metrics": {
+        "likes": 1612,
+        "reposts": 97,
+        "replies": 114,
+        "views": 88397,
+        "capturedAt": "2026-11-18T11:30:25.827Z"
+      },
+      "care": 2,
+      "proof": 3,
+      "topic": "gemini-4-hydrogen"
+    },
+    {
+      "id": "ms-ignite-2026-satyanadella",
+      "lens": "broad",
+      "summary": "Satya Nadella posted highlights from his Ignite keynote opening on building a frontier ecosystem to turn AI advances into real-world impact.",
+      "source": {
+        "name": "satyanadella",
+        "url": "https://x.com/satyanadella/status/2122874904903397495",
+        "type": "x",
+        "handle": "satyanadella"
+      },
+      "publishedAt": "2026-11-18T02:09:53.000Z",
+      "metrics": {
+        "likes": 800,
+        "reposts": 102,
+        "replies": 120,
+        "views": 104001,
+        "capturedAt": "2026-11-18T11:30:25.827Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "ms-ignite-2026"
+    },
+    {
+      "id": "ai-48h-roundup-rowancheung",
+      "lens": "broad",
+      "summary": "Rowan Cheung's roundup of AI news from OpenAI, Nvidia, Microsoft and Google in 48 hours; item 1: California sued OpenAI over the July incident where its AI agents hacked Hugging Face.",
+      "source": {
+        "name": "rowancheung",
+        "url": "https://x.com/rowancheung/status/2122821908680860146",
+        "type": "x",
+        "handle": "rowancheung"
+      },
+      "publishedAt": "2026-11-17T22:39:17.000Z",
+      "metrics": {
+        "likes": 491,
+        "reposts": 51,
+        "replies": 60,
+        "views": 72131,
+        "capturedAt": "2026-11-18T11:30:25.827Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "ai-48h-roundup"
+    },
+    {
+      "id": "nvidia-board-jensen-garrytan",
+      "lens": "broad",
+      "summary": "Garry Tan on the Nvidia board dispute: 'Only three people to remove from the board? Easy work. 15% shareholder vote coming.'",
+      "source": {
+        "name": "garrytan",
+        "url": "https://x.com/garrytan/status/2122910329537728747",
+        "type": "x",
+        "handle": "garrytan"
+      },
+      "publishedAt": "2026-11-18T04:30:38.000Z",
+      "metrics": {
+        "likes": 5021,
+        "reposts": 293,
+        "replies": 131,
+        "views": 168985,
+        "capturedAt": "2026-11-18T11:30:25.827Z"
+      },
+      "care": 4,
+      "proof": 2,
+      "topic": "nvidia-board-jensen"
+    },
+    {
+      "id": "nvidia-board-jensen-beffjezos",
+      "lens": "broad",
+      "summary": "Beff Jezos: the Nvidia situation is a big lesson in board composition for founders.",
+      "source": {
+        "name": "beffjezos",
+        "url": "https://x.com/beffjezos/status/2122905273417556229",
+        "type": "x",
+        "handle": "beffjezos"
+      },
+      "publishedAt": "2026-11-18T04:10:33.000Z",
+      "metrics": {
+        "likes": 1451,
+        "reposts": 69,
+        "replies": 69,
+        "views": 36427,
+        "capturedAt": "2026-11-18T11:30:25.827Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "nvidia-board-jensen"
+    },
+    {
+      "id": "vitalik-housing-incentives-vitalikbuterin",
+      "lens": "frontier-capital",
+      "summary": "Vitalik Buterin argues that younger generations investing in stocks and digital assets instead of housing reduces the perverse incentives that push to keep housing expensive.",
+      "source": {
+        "name": "VitalikButerin",
+        "url": "https://x.com/VitalikButerin/status/2122930611027611873",
+        "type": "x",
+        "handle": "VitalikButerin"
+      },
+      "publishedAt": "2026-11-18T05:51:14.000Z",
+      "metrics": {
+        "likes": 709,
+        "reposts": 72,
+        "replies": 196,
+        "views": 119484,
+        "capturedAt": "2026-11-18T11:30:25.827Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "vitalik-housing-incentives"
+    },
+    {
+      "id": "gpt62-astra-reviews-swyx",
+      "lens": "practical",
+      "summary": "swyx on GPT-6.2 Astra: the model itself is a solid minor improvement, efficiency is one of the three most important RL objectives; his critique is the launch ad.",
+      "source": {
+        "name": "swyx",
+        "url": "https://x.com/swyx/status/2122862646265520150",
+        "type": "x",
+        "handle": "swyx"
+      },
+      "publishedAt": "2026-11-18T01:21:10.000Z",
+      "metrics": {
+        "likes": 288,
+        "reposts": 5,
+        "replies": 58,
+        "views": 73535,
+        "capturedAt": "2026-11-18T11:30:25.827Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "gpt62-astra-reviews"
+    },
+    {
+      "id": "simon-willison-external-sandboxes-coding-agents",
+      "lens": "practical",
+      "summary": "Simon Willison published 'External sandboxes for coding agents' on 2026-11-17.",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-17T22:52:29.000Z",
+      "care": 4,
+      "proof": 3,
+      "topic": "coding-agent-sandboxes"
+    },
+    {
+      "id": "simon-willison-gpt62-astra-sol",
+      "lens": "broad",
+      "summary": "Simon Willison's note on GPT-6.2 Astra and GPT-6.2 Sol, published 2026-11-17.",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-17T22:38:52.000Z",
+      "care": 4,
+      "proof": 3,
+      "topic": "gpt62-astra-reviews"
+    },
+    {
+      "id": "lenny-token-fraud-solo-founder",
+      "lens": "practical",
+      "summary": "Lenny's Newsletter: 'How I fight token fraud as a solo founder' (2026-11-16).",
+      "source": {
+        "name": "Lenny Rachitsky",
+        "url": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-16T13:04:09.000Z",
+      "care": 3,
+      "proof": 2,
+      "topic": "token-fraud-solo-founder"
+    }
+  ]
+}
