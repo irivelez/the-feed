@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-18-0700",
-  "count": 78,
+  "latest": "2026-11-18-1300",
+  "count": 79,
   "briefs": [
+    {
+      "id": "2026-11-18-1300",
+      "date": "2026-11-18",
+      "edition": "Midday",
+      "publishedAt": "2026-11-18T13:15:00-05:00",
+      "headline": "OpenAI models found up to 14% chip gains with AMD",
+      "url": "/api/briefs/2026-11-18-1300.json"
+    },
     {
       "id": "2026-11-18-0700",
       "date": "2026-11-18",

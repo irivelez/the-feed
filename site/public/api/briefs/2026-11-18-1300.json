@@ -1,0 +1,697 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-18-1300",
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-18T13:15:00-05:00",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "openai-amd-chip-design",
+      "headline": "OpenAI models found up to 14% chip gains with AMD",
+      "whyItMatters": "AI that improves its own chips could cut compute costs for every AI buyer."
+    },
+    {
+      "itemId": "nvidia-h200-china-stop-verge",
+      "headline": "Nvidia stops selling H200 AI chips to China",
+      "whyItMatters": "Access to compute is now a geopolitical risk that belongs in AI plans."
+    },
+    {
+      "itemId": "gpt62-real-projects-review-kunchenguid",
+      "headline": "A day of real work with GPT-6.2: strong, not a drop-in swap",
+      "whyItMatters": "New models need a trial period on real work before teams switch."
+    }
+  ],
+  "items": [
+    {
+      "id": "openai-amd-chip-design",
+      "title": "OpenAI models found up to 14% chip gains with AMD",
+      "takeaway": "OpenAI says its models found up to 14% PPA improvement on AMD's flagship GPU IP in under five months; the same approach improved Jalapeño, its first custom inference chip.",
+      "soWhat": "AI is now improving the chips that run AI, which can lower compute costs over time.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-18T17:05:52Z",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/advancing-chip-design-with-our-models"
+      },
+      "related": [
+        {
+          "name": "@OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2123100386638877054"
+        }
+      ],
+      "image": {
+        "src": "/img/openai-amd-chip-design.jpg",
+        "alt": "Image from OpenAI Blog"
+      },
+      "heat": {
+        "score": 27,
+        "level": "none",
+        "metric": "76k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "gpt62-real-projects-review-kunchenguid",
+      "title": "A day of real work with GPT-6.2: strong, not a drop-in swap",
+      "takeaway": "After a full day on real projects, kunchenguid says Astra and Sol are not drop-in replacements for Fable 5.2 and Opus 5.5, but very good once you learn their strengths. ThePrimeagen says Astra 6.2 Ultrafast did a 2D-to-3D job in 20 minutes on 4% of his weekly usage.",
+      "soWhat": "Switching models takes learning time, so pilot new ones on real tasks before moving teams.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-18T17:01:51Z",
+      "source": {
+        "name": "@kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2123099377946546491"
+      },
+      "related": [
+        {
+          "name": "@ThePrimeagen on X",
+          "url": "https://x.com/ThePrimeagen/status/2123084099581796693"
+        }
+      ],
+      "image": {
+        "src": "/img/gpt62-real-projects-review-kunchenguid.jpg",
+        "alt": "Image from @kunchenguid on X"
+      },
+      "heat": {
+        "score": 30,
+        "level": "none",
+        "metric": "2k views",
+        "voices": 4
+      }
+    },
+    {
+      "id": "pocock-skills-21k-line-pr",
+      "title": "Matt Pocock builds a 21,000-line PR with agent skills on video",
+      "takeaway": "Matt Pocock says his skills repo is now the most-starred skills repo; his new 70-minute video builds a 21,000-line PR, focused on DDD with /grill-with-docs.",
+      "soWhat": "Shared skills let teams reuse proven agent habits instead of writing prompts from scratch.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-18T16:57:38Z",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2123098316867051991"
+      },
+      "image": {
+        "src": "/img/pocock-skills-21k-line-pr.jpg",
+        "alt": "Image from @mattpocockuk on X"
+      },
+      "heat": {
+        "score": 8,
+        "level": "none",
+        "metric": "11k views"
+      }
+    },
+    {
+      "id": "chip-earnings-frontier-pause-verge",
+      "title": "Nvidia and AMD earnings show the frontier AI pause is forgotten",
+      "takeaway": "The Verge, on Nvidia and AMD fall 2026 earnings: 'Remember the frontier AI pause? Chip companies don't either.' Stratechery also covers Nvidia earnings.",
+      "soWhat": "Chipmakers are still selling into full-speed frontier spending, so expect compute demand to stay high.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-18T16:25:30Z",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models"
+      },
+      "related": [
+        {
+          "name": "Stratechery",
+          "url": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/"
+        }
+      ],
+      "image": {
+        "src": "/img/chip-earnings-frontier-pause-verge.jpg",
+        "alt": "Image from The Verge AI"
+      }
+    },
+    {
+      "id": "perplexity-context-api-aravsrinivas",
+      "title": "Perplexity launches a Context API for agents to read webpages",
+      "takeaway": "Aravind Srinivas says the Context API fetches content from a list of webpages in a target format, works in any agent harness, and beats alternatives on performance, latency and cost.",
+      "soWhat": "Clean web reading is a core agent need, and it is becoming a paid building block.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-18T16:08:35Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2123085971625476277"
+      },
+      "image": {
+        "src": "/img/perplexity-context-api-aravsrinivas.jpg",
+        "alt": "Profile image of @AravSrinivas"
+      },
+      "heat": {
+        "score": 5,
+        "level": "none",
+        "metric": "14k views"
+      }
+    },
+    {
+      "id": "naval-vibe-to-verified-code",
+      "title": "Naval: from vibe code to verified code",
+      "takeaway": "Naval posted 'From vibe code to verified code…' with a link, pointing to a move from quickly generated code toward code that is checked.",
+      "soWhat": "As agents write more code, proving it works matters more than writing it fast.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-18T15:53:27Z",
+      "source": {
+        "name": "@naval on X",
+        "url": "https://x.com/naval/status/2123082164426420367"
+      },
+      "image": {
+        "src": "/img/naval-vibe-to-verified-code.jpg",
+        "alt": "Profile image of @naval"
+      },
+      "heat": {
+        "score": 18,
+        "level": "none",
+        "metric": "89k views"
+      }
+    },
+    {
+      "id": "astra-62-3d-mengto",
+      "title": "Meng To: Astra 6.2 does 3D at a tenth of Fable's cost",
+      "takeaway": "Meng To says Astra 6.2 is strong at three.js and Blender, at 1/10th the cost and 3x the speed of Fable 5.2, though it still makes weird decisions and weak layouts.",
+      "soWhat": "Cheaper 3D work opens new design options, but layout still needs a human eye.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-18T15:43:40Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2123079701384269871"
+      },
+      "image": {
+        "src": "/img/astra-62-3d-mengto.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 31,
+        "level": "none",
+        "metric": "5k views",
+        "voices": 4
+      }
+    },
+    {
+      "id": "benaich-uk-frontier-models",
+      "title": "Nathan Benaich: Britain can and should compete at the frontier",
+      "takeaway": "Nathan Benaich says not building frontier models amounts to saying Brits cannot and shouldn't compete at the frontier, and he doesn't believe that is true.",
+      "soWhat": "Whether mid-size nations build their own models is a live question, LATAM included.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-18T15:14:39Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2123072398169932257"
+      },
+      "image": {
+        "src": "/img/benaich-uk-frontier-models.jpg",
+        "alt": "Profile image of @nathanbenaich"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "936 views"
+      }
+    },
+    {
+      "id": "nvidia-h200-china-stop-verge",
+      "title": "Nvidia stops selling H200 AI chips to China",
+      "takeaway": "The Verge reports that Nvidia is no longer selling any more of its H200 AI chips to China.",
+      "soWhat": "Chip access now follows geopolitics, so compute supply plans need a backup route.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-18T14:28:38Z",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling"
+      },
+      "image": {
+        "src": "/img/nvidia-h200-china-stop-verge.jpg",
+        "alt": "Image from The Verge AI"
+      }
+    },
+    {
+      "id": "t3-agent-secrets-theo",
+      "title": "Theo: passing secrets to agents is now a top T3 Code feature",
+      "takeaway": "Theo says passing secrets to agents in T3 Code began as a small feature; he now uses it several times a day.",
+      "soWhat": "Agents need safe access to keys, so secret handling is becoming core agent tooling.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-18T09:40:07Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2122988211291255141"
+      },
+      "image": {
+        "src": "/img/t3-agent-secrets-theo.jpg",
+        "alt": "Image from @theo on X"
+      },
+      "heat": {
+        "score": 9,
+        "level": "none",
+        "metric": "14k views"
+      }
+    },
+    {
+      "id": "agent-ui-design-skills-mengto",
+      "title": "Meng To lists UI design skills that give coding agents taste",
+      "takeaway": "His list includes Impeccable, which critiques, audits and polishes against generic UI, plus Emil Kowalski's UI and animation skills.",
+      "soWhat": "Packaged design skills can lift agent-built interfaces above generic defaults.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-18T09:24:29Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2122984275566076395"
+      },
+      "image": {
+        "src": "/img/agent-ui-design-skills-mengto.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 5,
+        "level": "none",
+        "metric": "8k views"
+      }
+    },
+    {
+      "id": "vitalik-housing-incentives-vitalikbuterin",
+      "title": "Vitalik Buterin: investing beyond housing eases pressure for pricey homes",
+      "takeaway": "He argues that when younger generations invest in stocks and digital assets instead of housing, the perverse incentives to keep housing expensive weaken.",
+      "soWhat": "Where a generation keeps its savings shapes which housing policies it pushes for.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-18T05:51:14Z",
+      "source": {
+        "name": "@VitalikButerin on X",
+        "url": "https://x.com/VitalikButerin/status/2122930611027611873"
+      },
+      "image": {
+        "src": "/img/vitalik-housing-incentives-vitalikbuterin.jpg",
+        "alt": "Image from @VitalikButerin on X"
+      },
+      "heat": {
+        "score": 16,
+        "level": "none",
+        "metric": "119k views"
+      }
+    },
+    {
+      "id": "opus-55-pareto-aa-theo",
+      "title": "Theo: Opus 5.5 is still the best value for long coding runs",
+      "takeaway": "Artificial Analysis no longer places Opus 5.5 on its value line; Theo disagrees for long-running coding and wants behavioral benchmarks.",
+      "soWhat": "Leaderboards miss long-task behavior, so test models on your own long workflows.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-18T04:56:54Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2122916936417935419"
+      },
+      "image": {
+        "src": "/img/opus-55-pareto-aa-theo.jpg",
+        "alt": "Image from @theo on X"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "174k views"
+      }
+    },
+    {
+      "id": "nvidia-board-jensen-garrytan",
+      "title": "Nvidia's board dispute becomes a lesson in board design",
+      "takeaway": "Garry Tan: 'Only three people to remove from the board? Easy work. 15% shareholder vote coming.' Beff Jezos calls it a big lesson in board composition for founders.",
+      "soWhat": "Who sits on the board decides who holds control when a company hits a crisis.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-18T04:30:38Z",
+      "source": {
+        "name": "@garrytan on X",
+        "url": "https://x.com/garrytan/status/2122910329537728747"
+      },
+      "related": [
+        {
+          "name": "@beffjezos on X",
+          "url": "https://x.com/beffjezos/status/2122905273417556229"
+        }
+      ],
+      "image": {
+        "src": "/img/nvidia-board-jensen-garrytan.jpg",
+        "alt": "Profile image of @garrytan"
+      },
+      "heat": {
+        "score": 38,
+        "level": "none",
+        "metric": "169k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "t3-code-31t-tokens-theo",
+      "title": "T3 Code processed 31.7 trillion tokens in one day",
+      "takeaway": "Theo says T3 Code hit 31.7 trillion tokens in a day, over $10M in API spend in 24 hours, and Claude's usage share held after OpenAI's release.",
+      "soWhat": "Coding agents now drive real model spend, so token budgets belong in planning.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-18T01:13:43Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2122860770329608290"
+      },
+      "related": [
+        {
+          "name": "@theo on X: Claude share",
+          "url": "https://x.com/theo/status/2122915383787290649"
+        }
+      ],
+      "image": {
+        "src": "/img/t3-code-31t-tokens-theo.jpg",
+        "alt": "Image from @theo on X"
+      },
+      "heat": {
+        "score": 21,
+        "level": "none",
+        "metric": "64k views"
+      }
+    },
+    {
+      "id": "gpt62-astra-reviews-alexfinn",
+      "title": "GPT-6.2 Astra nears Claude Fable 5.2 at a third the price",
+      "takeaway": "On Alex Finn's benchmark Astra scored 312.7/500, 0.3 behind Fable 5.2, in a third of the time and a quarter of the tokens. Theo says it improved but is 'directionally, very bad'; swyx sees a solid minor upgrade.",
+      "soWhat": "When quality is this close, model choice becomes a cost decision, so test on your own tasks.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-18T00:37:57Z",
+      "source": {
+        "name": "@AlexFinn on X",
+        "url": "https://x.com/AlexFinn/status/2122851769311236129"
+      },
+      "related": [
+        {
+          "name": "Simon Willison: GPT-6.2",
+          "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+        },
+        {
+          "name": "@theo on X: deep dive",
+          "url": "https://x.com/theo/status/2122991778622263514"
+        },
+        {
+          "name": "@swyx on X",
+          "url": "https://x.com/swyx/status/2122862646265520150"
+        },
+        {
+          "name": "@simonw on X: 3D test",
+          "url": "https://x.com/simonw/status/2122822310428279136"
+        }
+      ],
+      "image": {
+        "src": "/img/gpt62-astra-reviews-alexfinn.jpg",
+        "alt": "Image from @AlexFinn on X"
+      },
+      "heat": {
+        "score": 43,
+        "level": "warm",
+        "metric": "37k views",
+        "voices": 4
+      }
+    },
+    {
+      "id": "gpt62-cyber-deepsecbench-rauchg",
+      "title": "Rauch: OpenAI's new models lead on cybersecurity skill",
+      "takeaway": "Guillermo Rauch calls OpenAI's new release the most cybersecurity-capable models in the world and points to Vercel's DeepsecBench, built on codebases no lab could train on.",
+      "soWhat": "Models this good at security cut both ways, so review your exposure before attackers do.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-17T22:00:51Z",
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2122812237169426606"
+      },
+      "image": {
+        "src": "/img/gpt62-cyber-deepsecbench-rauchg.jpg",
+        "alt": "Image from @rauchg on X"
+      },
+      "heat": {
+        "score": 9,
+        "level": "none",
+        "metric": "24k views"
+      }
+    },
+    {
+      "id": "claudedevs-code-mode-experimental",
+      "title": "Claude Code tests Code Mode: agents write scripts that chain tools",
+      "takeaway": "Claude writes scripts that chain tools and can answer while long commands run. Opt in with an env flag.",
+      "soWhat": "Agents that orchestrate your tools themselves make clean, scriptable internal tools more valuable.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-17T21:18:55Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2122801681939234950"
+      },
+      "heat": {
+        "score": 26,
+        "level": "none",
+        "metric": "218k views"
+      },
+      "image": {
+        "src": "/img/claudedevs-code-mode-experimental.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      }
+    },
+    {
+      "id": "openai-gpt-62-astra-sol",
+      "title": "OpenAI releases GPT-6.2 Astra and Sol, pitched as token-efficient",
+      "takeaway": "OpenAI says GPT-6.2 Astra and Sol are now available; Sam Altman calls them very token-efficient.",
+      "soWhat": "Cheaper tokens per task change the math on which workflows are worth automating now.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-17T17:54:03Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2122750124543926515"
+      },
+      "related": [
+        {
+          "name": "@sama on X",
+          "url": "https://x.com/sama/status/2122798039899263456"
+        },
+        {
+          "name": "OpenAI Blog",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+        }
+      ],
+      "heat": {
+        "score": 71,
+        "level": "hot",
+        "metric": "4.3M views",
+        "voices": 4
+      },
+      "image": {
+        "src": "/img/openai-gpt-62-astra-sol.jpg",
+        "alt": "Image from @OpenAI on X"
+      }
+    },
+    {
+      "id": "mengto-shinjuku-threejs",
+      "title": "Meng To builds a walkable Shinjuku night scene in one HTML file",
+      "takeaway": "Meng To built a Shinjuku night-scene 3D site in three.js: one HTML file, no 3D models, all built in code, walkable with WASD, with time of day and seasons.",
+      "soWhat": "Rich 3D experiences now fit in a single file, so small teams can try immersive ideas cheaply.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-17T16:35:24Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2122730333682778289"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "2k views"
+      },
+      "image": {
+        "src": "/img/mengto-shinjuku-threejs.jpg",
+        "alt": "Image from @MengTo on X"
+      }
+    },
+    {
+      "id": "benaich-altares-nato-counter-drone",
+      "title": "Nathan Benaich: AltaAres wins most lots in NATO counter-drone framework",
+      "takeaway": "Nathan Benaich says AltaAres won six of 16 lots in NATO's counter-drone framework, more than any other supplier, so allied countries can buy its systems without another tender. He believes the team can build a global leader in autonomous defense.",
+      "soWhat": "Early backers see autonomous defense as a real market, with procurement doors now opening.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-17T14:02:00Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2122691728239169990"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "919 views"
+      },
+      "image": {
+        "src": "/img/benaich-altares-nato-counter-drone.jpg",
+        "alt": "Profile image of @nathanbenaich"
+      }
+    },
+    {
+      "id": "hassabis-isomorphic-5b-funding",
+      "title": "Isomorphic Labs raises $5B to speed up AI drug design",
+      "takeaway": "Demis Hassabis announces $5B in funding for Isomorphic Labs to accelerate AI drug design and its mission to 'Solve All Disease'.",
+      "soWhat": "Capital is flowing to AI that does science, not chat, so watch your sector's research pipeline.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-17T12:06:19Z",
+      "source": {
+        "name": "@demishassabis on X",
+        "url": "https://x.com/demishassabis/status/2122662616367853670"
+      },
+      "heat": {
+        "score": 32,
+        "level": "none",
+        "metric": "308k views"
+      },
+      "image": {
+        "src": "/img/hassabis-isomorphic-5b-funding.jpg",
+        "alt": "Image from @demishassabis on X"
+      }
+    },
+    {
+      "id": "simonw-external-sandbox-pattern",
+      "title": "Simon Willison: run agents locally, execute their code in a sandbox",
+      "takeaway": "Simon Willison describes an 'external sandbox' pattern: the coding agent runs on your Mac but executes code in a WebAssembly, QEMU or Apple Container sandbox. He shows demos for Claude Code and Codex.",
+      "soWhat": "Sandboxed execution lets teams say yes to coding agents without handing over the whole machine.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-17T01:21:22Z",
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2122500307557265651"
+      },
+      "heat": {
+        "score": 17,
+        "level": "none",
+        "metric": "42k views"
+      },
+      "image": {
+        "src": "/img/simonw-external-sandbox-pattern.jpg",
+        "alt": "Image from @simonw on X"
+      },
+      "related": [
+        {
+          "name": "Simon Willison's blog",
+          "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/"
+        }
+      ]
+    },
+    {
+      "id": "tavicosta-us-china-yields",
+      "title": "Tavi Costa: the US-China yield gap is the key macro divergence",
+      "takeaway": "He shares a chart of US and China 10-year yields and calls the gap the most important divergence between two superpowers funding an AI arms race.",
+      "soWhat": "Borrowing costs shape how long each superpower can keep funding its AI build-out.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-14T19:33:19Z",
+      "source": {
+        "name": "@TaviCosta on X",
+        "url": "https://x.com/TaviCosta/status/2121687944155283735"
+      },
+      "image": {
+        "src": "/img/tavicosta-us-china-yields.jpg",
+        "alt": "Image from @TaviCosta on X"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@naval",
+      "quote": "From vibe code to verified code…",
+      "url": "https://x.com/naval/status/2123082164426420367"
+    },
+    {
+      "handle": "@garrytan",
+      "quote": "Only three people to remove from the board? Easy work. 15% shareholder vote coming.",
+      "url": "https://x.com/garrytan/status/2122910329537728747"
+    },
+    {
+      "handle": "@sama",
+      "quote": "These models can do amazing things and are very token-efficient; we hope people will get great value from them.",
+      "url": "https://x.com/sama/status/2122798039899263456"
+    },
+    {
+      "handle": "@ClaudeDevs",
+      "quote": "Claude writes scripts that chain your tools together in sophisticated ways, and it can answer you while long commands are still running.",
+      "url": "https://x.com/ClaudeDevs/status/2122801681939234950"
+    },
+    {
+      "handle": "@theo",
+      "quote": "If GPT-6.2 Astra acted more like Muse Wonder Full, it would be a great model.",
+      "url": "https://x.com/theo/status/2122831642339557794"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/naval/status/2123082164426420367",
+      "handle": "@naval",
+      "text": "From vibe code to verified code…",
+      "metric": "1.1k likes",
+      "note": "Builders debate how to trust code that agents write."
+    },
+    {
+      "url": "https://x.com/OpenAI/status/2123100386638877054",
+      "handle": "@OpenAI",
+      "text": "Working with AMD, OpenAI models found up to 14% PPA gains on flagship GPU IP in under five months.",
+      "metric": "931 likes",
+      "note": "A concrete case of AI improving the hardware it runs on."
+    },
+    {
+      "url": "https://x.com/sama/status/2123103873166381287",
+      "handle": "@sama",
+      "text": "On DealBook with Greg Brockman: Greg's role evolved from writing code 100 hours a week to broader leadership.",
+      "metric": "698 likes",
+      "note": "People watch how OpenAI's top leadership roles are changing."
+    },
+    {
+      "url": "https://x.com/mattyp/status/2123073081489113331",
+      "handle": "@mattyp",
+      "text": "How to read CursorBench",
+      "metric": "397 likes",
+      "note": "Developers want help reading coding-agent benchmarks."
+    },
+    {
+      "url": "https://x.com/ThePrimeagen/status/2123084099581796693",
+      "handle": "@ThePrimeagen",
+      "text": "Astra 6.2 Ultrafast did a 2D-to-3D transformation in 20 minutes using 4% of weekly usage.",
+      "metric": "337 likes",
+      "note": "A popular developer's hands-on verdict on OpenAI's new model."
+    }
+  ]
+}
