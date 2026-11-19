@@ -1,0 +1,408 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-19-0633",
+  "generatedAt": "2026-11-19T11:33:39.000Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-18T23:27:00.000Z",
+    "to": "2026-11-19T11:33:39.000Z"
+  },
+  "sourceNotes": [
+    "X lanes: 3 combined relevancy searches (originals only, since 23:27Z Nov 18); only a subset of handles returned posts. Query lane, reply capture and author baselines not fetched. Some Theo posts: only likes read, other metrics omitted.",
+    "Dwarkesh RSS HTTP 500. Benedict Evans latest 2026-09-03, Mollick latest 2026-11-09, Mitchell Hashimoto latest 2026-11-06 (stale). HN Algolia returned non-JSON. arXiv fetched (agents filter), only two entries used.",
+    "Noisy: Theo/GeoffreyHuntley gaming posts, swyx casting joke, nathanbenaich short reaction posts, Ray Dalio generic quote skipped. Metaplanet Google News items are aggregator headlines only."
+  ],
+  "candidates": [
+    {
+      "id": "anthropicai-196808-ipo-priced",
+      "lens": "broad",
+      "summary": "Anthropic says it priced its IPO at $83 per share, with trading expected to begin on Nasdaq the next day (Nov 19). The SEC declared the registration statement effective on November 18.",
+      "source": {
+        "name": "AnthropicAI",
+        "url": "https://x.com/AnthropicAI/status/2123196808675405860",
+        "type": "x",
+        "handle": "AnthropicAI"
+      },
+      "publishedAt": "2026-11-18T23:29:00.000Z",
+      "metrics": {
+        "likes": 14231,
+        "reposts": 1847,
+        "replies": 1023,
+        "views": 2256395,
+        "capturedAt": "2026-11-19T11:33:39.000Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "topic": "anthropic-ipo"
+    },
+    {
+      "id": "cursor-ai-198346-gemini-4-neon",
+      "lens": "practical",
+      "summary": "Cursor: Gemini 4 Neon is available in Cursor. At default effort it scores 63.7% on CursorBench 4.1, up from 57.3% for Gemini 4 Hydrogen, priced at $3/M input and $15/M output tokens.",
+      "source": {
+        "name": "cursor_ai",
+        "url": "https://x.com/cursor_ai/status/2123198346802450926",
+        "type": "x",
+        "handle": "cursor_ai"
+      },
+      "publishedAt": "2026-11-18T23:35:07.000Z",
+      "metrics": {
+        "likes": 2356,
+        "reposts": 140,
+        "replies": 156,
+        "views": 159698,
+        "capturedAt": "2026-11-19T11:33:39.000Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "topic": "gemini-4-neon"
+    },
+    {
+      "id": "theo-273253-multi-model-t3-code",
+      "lens": "practical",
+      "summary": "Theo describes his T3 Code setup: Fable leading implementation, GPT-6.2 Astra as playtester, Gemini 4 Neon as exclusive copy writer, each in its native harness and subscription.",
+      "source": {
+        "name": "theo",
+        "url": "https://x.com/theo/status/2123273253850628260",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-19T04:32:46.000Z",
+      "metrics": {
+        "likes": 2395,
+        "capturedAt": "2026-11-19T11:33:39.000Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "gemini-4-neon"
+    },
+    {
+      "id": "theo-237018-neon-so-good",
+      "lens": "practical",
+      "summary": "Theo asks why nobody is talking about Gemini 4 Neon and says the model is very good.",
+      "source": {
+        "name": "theo",
+        "url": "https://x.com/theo/status/2123237018813779970",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-19T02:08:47.000Z",
+      "metrics": {
+        "likes": 7452,
+        "capturedAt": "2026-11-19T11:33:39.000Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "gemini-4-neon"
+    },
+    {
+      "id": "simonw-305131-pelican-gemini-4",
+      "lens": "practical",
+      "summary": "Simon Willison compares the pelican-riding-a-bicycle test across Gemini 4 Carbon, the new Gemini 4 Neon, and Gemini 4 Hydrogen at low, medium and high effort, noting it illustrates differences between models in one family at different effort levels.",
+      "source": {
+        "name": "simonw",
+        "url": "https://x.com/simonw/status/2123305131206967571",
+        "type": "x",
+        "handle": "simonw"
+      },
+      "publishedAt": "2026-11-19T06:39:27.000Z",
+      "metrics": {
+        "likes": 310,
+        "reposts": 12,
+        "replies": 134,
+        "views": 26531,
+        "capturedAt": "2026-11-19T11:33:39.000Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "topic": "gemini-4-neon"
+    },
+    {
+      "id": "aravsrinivas-328640-multiagent",
+      "lens": "practical",
+      "summary": "Aravind Srinivas says Perplexity Multiagent usage doubled in a day; users seek it for tasks that split into independent parallel pieces such as assembling a deck, multi-source research, financial analysis and contact lists.",
+      "source": {
+        "name": "AravSrinivas",
+        "url": "https://x.com/AravSrinivas/status/2123328640549339612",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-19T08:12:52.000Z",
+      "metrics": {
+        "likes": 143,
+        "reposts": 6,
+        "replies": 55,
+        "views": 10345,
+        "capturedAt": "2026-11-19T11:33:39.000Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "perplexity-multiagent"
+    },
+    {
+      "id": "aravsrinivas-224126-perplexity-apis",
+      "lens": "practical",
+      "summary": "Perplexity launched three APIs in recent days: Monitor (programmable alerts on events), Orchestrator (task-based routing across frontier and open-weight models) and Context (batch-mode transformation from URLs to usable content for agents).",
+      "source": {
+        "name": "AravSrinivas",
+        "url": "https://x.com/AravSrinivas/status/2123224126248906811",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-19T01:17:33.000Z",
+      "metrics": {
+        "likes": 368,
+        "reposts": 14,
+        "replies": 53,
+        "views": 25010,
+        "capturedAt": "2026-11-19T11:33:39.000Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "topic": "perplexity-multiagent"
+    },
+    {
+      "id": "hwchase17-293504-knowledge-factory",
+      "lens": "practical",
+      "summary": "Harrison Chase: SaaS runs on software so everyone is building a software factory; the hardest part of building agents is context (the knowledge they have), so agent builders should build a knowledge factory.",
+      "source": {
+        "name": "hwchase17",
+        "url": "https://x.com/hwchase17/status/2123293504164311419",
+        "type": "x",
+        "handle": "hwchase17"
+      },
+      "publishedAt": "2026-11-19T05:53:14.000Z",
+      "metrics": {
+        "likes": 117,
+        "reposts": 9,
+        "replies": 82,
+        "views": 9350,
+        "capturedAt": "2026-11-19T11:33:39.000Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "agent-context"
+    },
+    {
+      "id": "mattpocockuk-341910-crash-course",
+      "lens": "practical",
+      "summary": "Matt Pocock says much of his AI Coding Crash Course ports directly to non-coding work.",
+      "source": {
+        "name": "mattpocockuk",
+        "url": "https://x.com/mattpocockuk/status/2123341910559318124",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-19T09:05:35.000Z",
+      "metrics": {
+        "likes": 149,
+        "reposts": 3,
+        "replies": 42,
+        "views": 17050,
+        "capturedAt": "2026-11-19T11:33:39.000Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "pocock-coding-course"
+    },
+    {
+      "id": "sundarpichai-241253-genie-4",
+      "lens": "broad",
+      "summary": "Sundar Pichai: Genie 4 lets users type new prompts while exploring a generated world (drop in characters, change the scene) with native audio adapting in real time; available in Project Genie for eligible Google AI Ultra subscribers.",
+      "source": {
+        "name": "sundarpichai",
+        "url": "https://x.com/sundarpichai/status/2123241253982916795",
+        "type": "x",
+        "handle": "sundarpichai"
+      },
+      "publishedAt": "2026-11-19T02:25:37.000Z",
+      "metrics": {
+        "likes": 3120,
+        "reposts": 223,
+        "replies": 230,
+        "views": 163104,
+        "capturedAt": "2026-11-19T11:33:39.000Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "topic": "genie-4"
+    },
+    {
+      "id": "mengto-355714-fable-game-hi3d",
+      "lens": "design",
+      "summary": "Meng To says Fable 5.2 built a turn-based three.js game in 2 days; he gave Claude Code a picture of each character plus the Hi3D MCP and it made all four 3D models on its own.",
+      "source": {
+        "name": "MengTo",
+        "url": "https://x.com/MengTo/status/2123355714693521766",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-19T10:00:27.000Z",
+      "metrics": {
+        "likes": 40,
+        "reposts": 4,
+        "replies": 15,
+        "views": 3343,
+        "capturedAt": "2026-11-19T11:33:39.000Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "mengto-3d-agents"
+    },
+    {
+      "id": "mengto-267343-kimi-house",
+      "lens": "design",
+      "summary": "Meng To gave Kimi K3.1 Pro five concept images of a house; it built the Blender model, materials and light, then a scroll-driven 3D website cut open floor by floor, with source files in the walkthrough.",
+      "source": {
+        "name": "MengTo",
+        "url": "https://x.com/MengTo/status/2123267343988248810",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-19T04:09:17.000Z",
+      "metrics": {
+        "likes": 57,
+        "reposts": 2,
+        "replies": 13,
+        "views": 5619,
+        "capturedAt": "2026-11-19T11:33:39.000Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "mengto-3d-agents"
+    },
+    {
+      "id": "tavicosta-196677-silver-miners",
+      "lens": "frontier-capital",
+      "summary": "Tavi Costa: silver miners saw their largest outflows on record from the sector's biggest ETF, down more than 50% in six months; he calls it the capitulation phase and says it is normal to question your thesis at such times.",
+      "source": {
+        "name": "TaviCosta",
+        "url": "https://x.com/TaviCosta/status/2123196677246857625",
+        "type": "x",
+        "handle": "TaviCosta"
+      },
+      "publishedAt": "2026-11-18T23:28:29.000Z",
+      "metrics": {
+        "likes": 762,
+        "reposts": 82,
+        "replies": 51,
+        "views": 42073,
+        "capturedAt": "2026-11-19T11:33:39.000Z"
+      },
+      "care": 2,
+      "proof": 3,
+      "topic": "silver-miners"
+    },
+    {
+      "id": "garymarcus-anthropic-ipo-bad-bet",
+      "lens": "broad",
+      "summary": "Gary Marcus publishes 'Is Anthropic's IPO a bad bet, both for investors and society?' (contrarian feed; headline only).",
+      "source": {
+        "name": "Gary Marcus",
+        "url": "https://garymarcus.substack.com/p/is-anthropics-ipo-a-bad-bet-both",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-18T21:45:04.000Z",
+      "care": 4,
+      "proof": 2,
+      "topic": "anthropic-ipo"
+    },
+    {
+      "id": "atlantic-reluctant-winner-ai-race",
+      "lens": "broad",
+      "summary": "The Atlantic publishes 'The Reluctant Winner of the AI Race' (headline only).",
+      "source": {
+        "name": "The Atlantic Technology",
+        "url": "https://www.theatlantic.com/technology/2026/11/anthropic-winner-ai-race/689479/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-18T15:32:17.000Z",
+      "care": 3,
+      "proof": 2,
+      "topic": "anthropic-ipo"
+    },
+    {
+      "id": "stratechery-nvidia-earnings-os-wars",
+      "lens": "broad",
+      "summary": "Stratechery: 'Nvidia Earnings; Office Convergence; OS Wars, AI Edition' (Nov 18; headline only).",
+      "source": {
+        "name": "Ben Thompson (Stratechery)",
+        "url": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-18T11:00:00.000Z",
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "openai-research-acceleration-jagged",
+      "lens": "broad",
+      "summary": "OpenAI blog post 'Research acceleration: The jagged frontier' (Nov 18; title only).",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "openai-inside-codex-sandbox",
+      "lens": "practical",
+      "summary": "OpenAI blog post 'Inside the Codex sandbox' (Nov 18; title only).",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/inside-the-codex-sandbox",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "care": 4,
+      "proof": 3,
+      "topic": "agent-security"
+    },
+    {
+      "id": "arxiv-kaer-secure-replanning",
+      "lens": "practical",
+      "summary": "arXiv paper 'Kaer: Security-Aware Replanning for Multi-Agent Systems' (title only).",
+      "source": {
+        "name": "arXiv cs.MA",
+        "url": "http://arxiv.org/abs/2611.24839v1",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-18T18:05:47.000Z",
+      "care": 3,
+      "proof": 2,
+      "topic": "agent-security"
+    },
+    {
+      "id": "arxiv-agentic-harness-engineering",
+      "lens": "practical",
+      "summary": "arXiv paper 'Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses' (title only).",
+      "source": {
+        "name": "arXiv cs.AI",
+        "url": "http://arxiv.org/abs/2611.24924v1",
+        "type": "arxiv"
+      },
+      "publishedAt": "2026-11-18T18:52:13.000Z",
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "metaplanet-vanguard-stake",
+      "lens": "frontier-capital",
+      "summary": "Headline: Vanguard lifts Metaplanet stake to 18 million shares worth $22 million (Crypto Briefing).",
+      "source": {
+        "name": "Crypto Briefing via Google News",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fZExqUFVxVThOSk9XUlZ2Mk9NVDRDV3JmeTluVDdXSnowX1JvcDdmRzVkZmFEbnVxUEh1bk1LQ2U3X2ZoSW0xRklDTjR6QzVydlM3eWVRR1V3bGgwSV85S1lmNlVTMm91cnJQTHdBR2s1Zw?oc=5",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-18T19:25:29.000Z",
+      "care": 2,
+      "proof": 2
+    }
+  ]
+}
