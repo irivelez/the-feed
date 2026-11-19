@@ -1,0 +1,420 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-18-1900",
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-18T19:20:00-05:00",
+  "edition": "Evening",
+  "top3": [
+    {
+      "itemId": "gemini-4-neon-launch",
+      "headline": "Google ships Gemini 4 Neon for engineering, knowledge work and science",
+      "whyItMatters": "Google's fourth Gemini 4 model this month keeps the price and quality race moving."
+    },
+    {
+      "itemId": "openai-research-jagged-frontier",
+      "headline": "OpenAI: AI use by its own researchers keeps rising exponentially",
+      "whyItMatters": "How a frontier lab uses agents today previews how expert teams will work next."
+    },
+    {
+      "itemId": "langsmith-coding-agent-roi",
+      "headline": "LangSmith now shows what each merged PR from coding agents costs",
+      "whyItMatters": "Leaders can finally tie coding-agent spend to shipped work, not just token bills."
+    }
+  ],
+  "items": [
+    {
+      "id": "openai-research-jagged-frontier",
+      "title": "OpenAI: AI use by its own researchers keeps rising exponentially",
+      "takeaway": "OpenAI shares new data: researchers' AI use keeps rising exponentially, agents complete longer tasks, humans stay central, and researchers spend more time on safety.",
+      "soWhat": "How a frontier lab uses agents today previews how expert teams will work next.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-18T23:07:23Z",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/research-acceleration-jagged-frontier"
+      },
+      "related": [
+        {
+          "name": "@OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2123191365983248653"
+        }
+      ],
+      "image": {
+        "src": "/img/openai-research-jagged-frontier.jpg",
+        "alt": "Image from OpenAI"
+      }
+    },
+    {
+      "id": "primeagen-sol-sign-in-five-minutes",
+      "title": "ThePrimeagen: Sol set up sign-in across five services in 5 minutes",
+      "takeaway": "ThePrimeagen told Sol to use his computer to create tokens for Cloudflare, YouTube, Twitch, Kick and X and make sign-in work locally and in production.",
+      "soWhat": "Agents that operate your computer can now clear tedious setup work in minutes.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-18T22:55:06Z",
+      "source": {
+        "name": "@ThePrimeagen on X",
+        "url": "https://x.com/ThePrimeagen/status/2123188274944717013"
+      },
+      "image": {
+        "src": "/img/primeagen-sol-sign-in-five-minutes.jpg",
+        "alt": "Image from @ThePrimeagen on X"
+      },
+      "heat": {
+        "score": 2,
+        "level": "none",
+        "metric": "8k views"
+      }
+    },
+    {
+      "id": "gemini-4-neon-3d-blender-mcp",
+      "title": "Gemini 4 Neon models a 3D lab scene through Blender MCP",
+      "takeaway": "Sundar Pichai shows Gemini 4 Neon 3D-modeling a photorealistic lab simulation in Antigravity via Blender MCP.",
+      "soWhat": "Design tools are becoming something agents drive directly, not just something people click.",
+      "lens": "design",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-18T22:39:20Z",
+      "source": {
+        "name": "@sundarpichai on X",
+        "url": "https://x.com/sundarpichai/status/2123184309137965524"
+      },
+      "image": {
+        "src": "/img/gemini-4-neon-3d-blender-mcp.jpg",
+        "alt": "Image from @sundarpichai on X"
+      },
+      "heat": {
+        "score": 19,
+        "level": "none",
+        "metric": "52k views"
+      }
+    },
+    {
+      "id": "gemini-4-neon-launch",
+      "title": "Google ships Gemini 4 Neon for engineering, knowledge work and science",
+      "takeaway": "Gemini 4 Neon sits between Carbon and Hydrogen and rolls out today in the Gemini API, Google AI Studio, Gemini for business and paid AI Pro and Ultra.",
+      "soWhat": "Google's fourth Gemini 4 model this month keeps the price and quality race moving.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-18T21:33:40Z",
+      "source": {
+        "name": "@sundarpichai on X",
+        "url": "https://x.com/sundarpichai/status/2123167780988125621"
+      },
+      "related": [
+        {
+          "name": "@GoogleDeepMind on X",
+          "url": "https://x.com/GoogleDeepMind/status/2123167884411077030"
+        },
+        {
+          "name": "@AlexFinn on X",
+          "url": "https://x.com/AlexFinn/status/2123171176025575701"
+        }
+      ],
+      "image": {
+        "src": "/img/gemini-4-neon-launch.jpg",
+        "alt": "Image from @sundarpichai on X"
+      },
+      "heat": {
+        "score": 50,
+        "level": "warm",
+        "metric": "310k views",
+        "voices": 3
+      }
+    },
+    {
+      "id": "anthropic-ipo-closing-the-loop-sacks",
+      "title": "David Sacks: Anthropic sells 'closing the loop' on its IPO roadshow",
+      "takeaway": "Sacks argues Anthropic is racing toward recursive self-improvement faster than any lab. The Atlantic calls it the reluctant winner; Gary Marcus asks if the IPO is a bad bet.",
+      "soWhat": "Anthropic's IPO is turning its safety stance into a public debate over speed and risk.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-18T21:16:17Z",
+      "source": {
+        "name": "@DavidSacks on X",
+        "url": "https://x.com/DavidSacks/status/2123163407780323795"
+      },
+      "related": [
+        {
+          "name": "The Atlantic",
+          "url": "https://www.theatlantic.com/technology/2026/11/anthropic-winner-ai-race/689479/"
+        },
+        {
+          "name": "Gary Marcus",
+          "url": "https://garymarcus.substack.com/p/is-anthropics-ipo-a-bad-bet-both"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-ipo-closing-the-loop-sacks.jpg",
+        "alt": "Image from @DavidSacks on X"
+      },
+      "heat": {
+        "score": 44,
+        "level": "warm",
+        "metric": "178k views",
+        "voices": 3
+      }
+    },
+    {
+      "id": "replit-missions-agent-coordination",
+      "title": "Amjad Masad: Replit Missions shows how your agents coordinate",
+      "takeaway": "Masad notes the OpenAI and Hugging Face incident exposed message boards where agents talk, and says Replit Missions lets you see that coordination.",
+      "soWhat": "When agents talk to each other, teams need to see those conversations to trust the work.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-18T19:17:29Z",
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2123133509028008331"
+      },
+      "image": {
+        "src": "/img/replit-missions-agent-coordination.jpg",
+        "alt": "Image from @amasad on X"
+      },
+      "heat": {
+        "score": 6,
+        "level": "none",
+        "metric": "11k views"
+      }
+    },
+    {
+      "id": "benaich-frontierrsi-evals",
+      "title": "Benaich: Abundant Labs launches a test for self-improving models",
+      "takeaway": "Nathan Benaich says Abundant Labs launched FrontierRSI, which tests whether a model can achieve recursive self-improvement.",
+      "soWhat": "Self-improvement is moving from debate to something investors want measured.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-18T18:50:25Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2123126698120040741"
+      },
+      "image": {
+        "src": "/img/benaich-frontierrsi-evals.jpg",
+        "alt": "Image from @nathanbenaich on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "2k views"
+      }
+    },
+    {
+      "id": "verge-nvidia-without-huang",
+      "title": "The Verge asks what Nvidia is without Jensen Huang in charge",
+      "takeaway": "The Verge, on Nvidia's earnings: 'What is Nvidia without AI's sugar daddy in charge?'",
+      "soWhat": "Leadership risk at the main AI chip supplier is now part of the compute story.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-18T18:34:15Z",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition"
+      },
+      "image": {
+        "src": "/img/verge-nvidia-without-huang.jpg",
+        "alt": "Image from The Verge AI"
+      }
+    },
+    {
+      "id": "benaich-ai-genius-bar",
+      "title": "Benaich: what would a genius bar for AI look like?",
+      "takeaway": "Benaich imagines giving a small business owner, a busy family or a healthcare provider an hour with someone who shows them what AI can do for their own work.",
+      "soWhat": "Adoption may hinge on hands-on help with real work, not better models alone.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-18T18:29:00Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2123121308049568243"
+      },
+      "image": {
+        "src": "/img/benaich-ai-genius-bar.jpg",
+        "alt": "Image from @nathanbenaich on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "3k views"
+      }
+    },
+    {
+      "id": "copilot-perplexity-os-for-work",
+      "title": "Microsoft and Perplexity both pitch AI as the OS for work",
+      "takeaway": "Nadella says Salesforce is coming to Copilot 'as we build Copilot as the OS for work'. Perplexity puts Teammates and Multiagent on mobile, calling it 'a mini workOS'.",
+      "soWhat": "The fight is shifting from best model to which assistant owns the daily workspace.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-18T18:22:03Z",
+      "source": {
+        "name": "@satyanadella on X",
+        "url": "https://x.com/satyanadella/status/2123119560803176533"
+      },
+      "related": [
+        {
+          "name": "@AravSrinivas on X",
+          "url": "https://x.com/AravSrinivas/status/2123129712301969597"
+        },
+        {
+          "name": "Stratechery",
+          "url": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/"
+        }
+      ],
+      "image": {
+        "src": "/img/copilot-perplexity-os-for-work.jpg",
+        "alt": "Image from @satyanadella on X"
+      },
+      "heat": {
+        "score": 36,
+        "level": "none",
+        "metric": "104k views",
+        "voices": 3
+      }
+    },
+    {
+      "id": "langsmith-coding-agent-roi",
+      "title": "LangSmith now shows what each merged PR from coding agents costs",
+      "takeaway": "A new LangSmith dashboard pulls traced coding agents into one view across harnesses and providers, links PRs to threads, and shows spend that never led to a PR.",
+      "soWhat": "Leaders can finally tie coding-agent spend to shipped work, not just token bills.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-18T17:59:39Z",
+      "source": {
+        "name": "@LangChain on X",
+        "url": "https://x.com/LangChain/status/2123113924857827504"
+      },
+      "related": [
+        {
+          "name": "LangChain setup steps",
+          "url": "https://x.com/LangChain/status/2123147850615808477"
+        }
+      ],
+      "image": {
+        "src": "/img/langsmith-coding-agent-roi.jpg",
+        "alt": "Image from @LangChain on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "11k views"
+      }
+    },
+    {
+      "id": "langchain-deepagents-50m-downloads",
+      "title": "LangChain: Deep Agents passes 50 million downloads",
+      "takeaway": "LangChain says its Deep Agents framework has passed 50 million downloads.",
+      "soWhat": "Open agent frameworks are becoming standard parts of the builder toolkit.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 4,
+      "publishedAt": "2026-11-18T17:34:53Z",
+      "source": {
+        "name": "@LangChain on X",
+        "url": "https://x.com/LangChain/status/2123107690776010762"
+      },
+      "image": {
+        "src": "/img/langchain-deepagents-50m-downloads.jpg",
+        "alt": "Image from @LangChain on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "3k views"
+      }
+    },
+    {
+      "id": "openai-codex-sandbox",
+      "title": "OpenAI explains how the Codex sandbox works",
+      "takeaway": "OpenAI published 'Inside the Codex sandbox'. Simon Willison's new post covers external sandboxes for coding agents.",
+      "soWhat": "Where agents run code decides how much damage a mistake can do.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-18T08:00:00Z",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/inside-the-codex-sandbox"
+      },
+      "related": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/"
+        }
+      ],
+      "image": {
+        "src": "/img/openai-codex-sandbox.jpg",
+        "alt": "Image from OpenAI Blog"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@satyanadella",
+      "quote": "as we build Copilot as the OS for work",
+      "url": "https://x.com/satyanadella/status/2123119560803176533"
+    },
+    {
+      "handle": "@AravSrinivas",
+      "quote": "a mini workOS",
+      "url": "https://x.com/AravSrinivas/status/2123129712301969597"
+    },
+    {
+      "handle": "@DavidSacks",
+      "quote": "closing the loop",
+      "url": "https://x.com/DavidSacks/status/2123163407780323795"
+    },
+    {
+      "handle": "@nathanbenaich",
+      "quote": "genius bar for AI",
+      "url": "https://x.com/nathanbenaich/status/2123121308049568243"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/sundarpichai/status/2123167780988125621",
+      "handle": "@sundarpichai",
+      "text": "Gemini 4 Neon: frontier-level intelligence with fast end-to-end task completion, rolling out today.",
+      "metric": "6k likes",
+      "note": "Google's newest frontier model, available the same day in its API and apps."
+    },
+    {
+      "url": "https://x.com/GoogleDeepMind/status/2123167884411077030",
+      "handle": "@GoogleDeepMind",
+      "text": "Gemini 4 Neon is rolling out now, sitting between Carbon and Hydrogen.",
+      "metric": "3.8k likes",
+      "note": "People are mapping where Neon fits in Google's model lineup."
+    },
+    {
+      "url": "https://x.com/DavidSacks/status/2123163407780323795",
+      "handle": "@DavidSacks",
+      "text": "Anthropic is racing toward recursive self-improvement and marketed 'closing the loop' on its IPO roadshow.",
+      "metric": "2.6k likes",
+      "note": "A sharp critique of Anthropic's IPO pitch draws wide attention."
+    },
+    {
+      "url": "https://x.com/sundarpichai/status/2123184309137965524",
+      "handle": "@sundarpichai",
+      "text": "Gemini 4 Neon 3D-models a photorealistic lab simulation in Antigravity via Blender MCP.",
+      "metric": "1.4k likes",
+      "note": "A visual demo of an agent driving a pro design tool."
+    },
+    {
+      "url": "https://x.com/satyanadella/status/2123119560803176533",
+      "handle": "@satyanadella",
+      "text": "Salesforce is coming to Copilot, as we build Copilot as the OS for work.",
+      "metric": "782 likes",
+      "note": "A sign of who will own the daily work screen."
+    }
+  ]
+}
