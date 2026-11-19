@@ -1,0 +1,194 @@
+{
+ "schemaVersion": "1.1",
+ "runId": "2026-11-19-1230",
+ "generatedAt": "2026-11-19T17:30:45.719Z",
+ "configVersions": {
+  "sources": "1.3.0",
+  "preferences": "1.1.0"
+ },
+ "window": {
+  "from": "2026-11-19T11:00:27.275Z",
+  "to": "2026-11-19T17:30:45.719Z"
+ },
+ "sourceNotes": [
+  "X lanes: 4 combined relevancy searches (originals only, last ~6.5h). Post text from the API is truncated; links not expanded. Design lane (MengTo) returned nothing; frontier-capital lane returned only low-signal posts (nathanbenaich funding shout-outs, Ray Dalio generic quote), none used. Query lane, reply capture, author baselines, RSS, arXiv and HN not fetched this run."
+ ],
+ "candidates": [
+  {
+   "id": "anthropicai-dario-ipo-remarks",
+   "lens": "broad",
+   "summary": "Anthropic posted remarks from CEO Dario Amodei on the company's initial public offering. The post begins: 'My co-founders and I started Anthropic because we believe that the most powerful technology of our time should be built for the...'",
+   "source": {
+    "name": "AnthropicAI",
+    "url": "https://x.com/AnthropicAI/status/2123461658890686863",
+    "type": "x",
+    "handle": "AnthropicAI"
+   },
+   "publishedAt": "2026-11-19T17:01:26.000Z",
+   "metrics": {
+    "likes": 2597,
+    "reposts": 228,
+    "replies": 249,
+    "views": 119304,
+    "capturedAt": "2026-11-19T17:30:45.719Z"
+   },
+   "care": 5,
+   "proof": 5,
+   "topic": "anthropic-ipo"
+  },
+  {
+   "id": "rauchg-congrats-anthropic-ipo",
+   "lens": "broad",
+   "summary": "Vercel CEO Guillermo Rauch congratulated Anthropic on 'a generational IPO' and on holding and deepening its lead on models.",
+   "source": {
+    "name": "rauchg",
+    "url": "https://x.com/rauchg/status/2123388870813450641",
+    "type": "x",
+    "handle": "rauchg"
+   },
+   "publishedAt": "2026-11-19T12:12:12.000Z",
+   "metrics": {
+    "likes": 292,
+    "reposts": 5,
+    "replies": 72,
+    "views": 16395,
+    "capturedAt": "2026-11-19T17:30:45.719Z"
+   },
+   "care": 3,
+   "proof": 4,
+   "topic": "anthropic-ipo"
+  },
+  {
+   "id": "theo-gemini-4-neon",
+   "lens": "practical",
+   "summary": "Theo says 'We now know what this looks like. It's called Gemini 4 Neon for some reason', with an attached link.",
+   "source": {
+    "name": "theo",
+    "url": "https://x.com/theo/status/2123431535588315626",
+    "type": "x",
+    "handle": "theo"
+   },
+   "publishedAt": "2026-11-19T15:01:44.000Z",
+   "metrics": {
+    "likes": 1588,
+    "reposts": 22,
+    "replies": 80,
+    "views": 54243,
+    "capturedAt": "2026-11-19T17:30:45.719Z"
+   },
+   "care": 4,
+   "proof": 2,
+   "topic": "gemini-4"
+  },
+  {
+   "id": "theo-primeintellect-compromised",
+   "lens": "practical",
+   "summary": "Theo reports PrimeIntellect appears to have been compromised in a 'very strange way'. He says there are no public comms from them yet, and that OpenRouter disclosed it to affected users, including him.",
+   "source": {
+    "name": "theo",
+    "url": "https://x.com/theo/status/2123430257697157587",
+    "type": "x",
+    "handle": "theo"
+   },
+   "publishedAt": "2026-11-19T14:56:39.000Z",
+   "metrics": {
+    "likes": 784,
+    "reposts": 27,
+    "replies": 56,
+    "views": 63501,
+    "capturedAt": "2026-11-19T17:30:45.719Z"
+   },
+   "care": 5,
+   "proof": 3,
+   "topic": "primeintellect-compromise"
+  },
+  {
+   "id": "aravsrinivas-perplexity-self-improving-skills",
+   "lens": "practical",
+   "summary": "Perplexity's Aravind Srinivas shared research on self-improving skills in Perplexity Computer. 'Brain', which already maintains a knowledge wiki about your work, now also writes and updates agent skills from your past sessions; an improvement agent reads the full session trajectories.",
+   "source": {
+    "name": "AravSrinivas",
+    "url": "https://x.com/AravSrinivas/status/2123451045657690627",
+    "type": "x",
+    "handle": "AravSrinivas"
+   },
+   "publishedAt": "2026-11-19T16:19:15.000Z",
+   "metrics": {
+    "likes": 115,
+    "reposts": 10,
+    "replies": 56,
+    "views": 9861,
+    "capturedAt": "2026-11-19T17:30:45.719Z"
+   },
+   "care": 4,
+   "proof": 3,
+   "topic": "perplexity-skills"
+  },
+  {
+   "id": "aravsrinivas-context-api-injection-filter",
+   "lens": "practical",
+   "summary": "Perplexity launched its Context API yesterday. Following feedback from Tobi, it shipped decision models that check fetched content for prompt injection and other filtering, described as a 'safe fetch for agents' with scores on custom criteria.",
+   "source": {
+    "name": "AravSrinivas",
+    "url": "https://x.com/AravSrinivas/status/2123464412971635018",
+    "type": "x",
+    "handle": "AravSrinivas"
+   },
+   "publishedAt": "2026-11-19T17:12:22.000Z",
+   "metrics": {
+    "likes": 32,
+    "reposts": 1,
+    "replies": 16,
+    "views": 4189,
+    "capturedAt": "2026-11-19T17:30:45.719Z"
+   },
+   "care": 4,
+   "proof": 3,
+   "topic": "perplexity-context-api"
+  },
+  {
+   "id": "rauchg-vercel-board-headless-slack",
+   "lens": "practical",
+   "summary": "Guillermo Rauch says Vercel Board has no heavyweight or opinionated UI: 'It's infra not product', likening it to 'headless Slack' for agents, where you generate and deploy a custom 'factory interface' per use case.",
+   "source": {
+    "name": "rauchg",
+    "url": "https://x.com/rauchg/status/2123468825538789380",
+    "type": "x",
+    "handle": "rauchg"
+   },
+   "publishedAt": "2026-11-19T17:29:54.000Z",
+   "metrics": {
+    "likes": 0,
+    "reposts": 0,
+    "replies": 0,
+    "views": 564,
+    "capturedAt": "2026-11-19T17:30:45.719Z"
+   },
+   "care": 3,
+   "proof": 2,
+   "topic": "vercel-board"
+  },
+  {
+   "id": "a16z-bostrom-delaying-superintelligence",
+   "lens": "broad",
+   "summary": "a16z posted that Nick Bostrom says delaying superintelligence carries risks of its own, as each year of delay could postpone medical breakthroughs.",
+   "source": {
+    "name": "a16z",
+    "url": "https://x.com/a16z/status/2123452728722833673",
+    "type": "x",
+    "handle": "a16z"
+   },
+   "publishedAt": "2026-11-19T16:25:57.000Z",
+   "metrics": {
+    "likes": 35,
+    "reposts": 6,
+    "replies": 9,
+    "views": 8177,
+    "capturedAt": "2026-11-19T17:30:45.719Z"
+   },
+   "care": 2,
+   "proof": 2,
+   "topic": "superintelligence-debate"
+  }
+ ]
+}
