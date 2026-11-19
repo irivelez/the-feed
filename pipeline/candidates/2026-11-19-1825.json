@@ -1,0 +1,260 @@
+{
+ "schemaVersion": "1.1",
+ "runId": "2026-11-19-1825",
+ "generatedAt": "2026-11-19T23:25:54.046Z",
+ "configVersions": {
+  "sources": "1.3.0",
+  "preferences": "1.1.0"
+ },
+ "window": {
+  "from": "2026-11-19T16:55:36.726Z",
+  "to": "2026-11-19T23:25:54.046Z"
+ },
+ "sourceNotes": [
+  "X lanes: 4 relevancy searches (originals only, last ~6.5h). Design lane (MengTo) returned nothing; frontier-capital returned 3 posts, one used, Ray Dalio generic quote skipped. Post text from the API is truncated; links not expanded. Query lane, reply capture, author baselines, RSS, arXiv and HN not fetched this run."
+ ],
+ "candidates": [
+  {
+   "id": "aravsrinivas-anthropic-ipo-opus-55",
+   "lens": "broad",
+   "summary": "Aravind Srinivas congratulated Anthropic on its 'historic IPO today' and said Opus 5.5 'remains the best model in the industry by a good margin'.",
+   "source": {
+    "name": "AravSrinivas",
+    "url": "https://x.com/AravSrinivas/status/2123480966459174920",
+    "type": "x",
+    "handle": "AravSrinivas"
+   },
+   "publishedAt": "2026-11-19T18:18:09.000Z",
+   "metrics": {
+    "likes": 2114,
+    "reposts": 55,
+    "replies": 50,
+    "views": 56970,
+    "capturedAt": "2026-11-19T23:25:54.046Z"
+   },
+   "care": 5,
+   "proof": 4,
+   "topic": "anthropic-ipo"
+  },
+  {
+   "id": "aravsrinivas-decider-free-openrouter",
+   "lens": "broad",
+   "summary": "Perplexity is keeping Decider-v1.3 (and Flash) free for another 3 weeks on OpenRouter; Srinivas says Perplexity's share of requests on Decision models is close to 20%.",
+   "source": {
+    "name": "AravSrinivas",
+    "url": "https://x.com/AravSrinivas/status/2123478424761368980",
+    "type": "x",
+    "handle": "AravSrinivas"
+   },
+   "publishedAt": "2026-11-19T18:08:03.000Z",
+   "metrics": {
+    "likes": 126,
+    "reposts": 6,
+    "replies": 27,
+    "views": 19902,
+    "capturedAt": "2026-11-19T23:25:54.046Z"
+   },
+   "care": 4,
+   "proof": 4,
+   "topic": "perplexity-decider"
+  },
+  {
+   "id": "theo-gemini-4-neon-long-horizon",
+   "lens": "practical",
+   "summary": "Theo says he is seeing 'insane results from Gemini 4 Neon on long horizon eng work' and will share more soon.",
+   "source": {
+    "name": "theo",
+    "url": "https://x.com/theo/status/2123523233551130896",
+    "type": "x",
+    "handle": "theo"
+   },
+   "publishedAt": "2026-11-19T21:06:06.000Z",
+   "metrics": {
+    "likes": 1502,
+    "reposts": 19,
+    "replies": 100,
+    "views": 31889,
+    "capturedAt": "2026-11-19T23:25:54.046Z"
+   },
+   "care": 4,
+   "proof": 3,
+   "topic": "gemini-4-neon"
+  },
+  {
+   "id": "theo-end-of-2026-model-take",
+   "lens": "practical",
+   "summary": "Theo post on the state of models at the end of 2026: Anthropic released a model that changed how we code, Google a pleasant general model, OpenAI the most intelligent model that is 'unpleasant to actually use' (post text paraphrased from the visible text).",
+   "source": {
+    "name": "theo",
+    "url": "https://x.com/theo/status/2123509826856878541",
+    "type": "x",
+    "handle": "theo"
+   },
+   "publishedAt": "2026-11-19T20:12:50.000Z",
+   "metrics": {
+    "likes": 2429,
+    "reposts": 47,
+    "replies": 113,
+    "views": 118047,
+    "capturedAt": "2026-11-19T23:25:54.046Z"
+   },
+   "care": 3,
+   "proof": 2,
+   "topic": "model-landscape"
+  },
+  {
+   "id": "amasad-contract-with-your-agent",
+   "lens": "practical",
+   "summary": "Amjad Masad says having a contract with your agent is a paradigm he expects many to copy from Replit, with a link.",
+   "source": {
+    "name": "amasad",
+    "url": "https://x.com/amasad/status/2123535362568134894",
+    "type": "x",
+    "handle": "amasad"
+   },
+   "publishedAt": "2026-11-19T21:54:18.000Z",
+   "metrics": {
+    "likes": 42,
+    "reposts": 4,
+    "replies": 20,
+    "views": 4016,
+    "capturedAt": "2026-11-19T23:25:54.046Z"
+   },
+   "care": 3,
+   "proof": 3,
+   "topic": "agent-contracts"
+  },
+  {
+   "id": "amasad-muse-like-agent-one-prompt",
+   "lens": "practical",
+   "summary": "Amjad Masad: 'Build your own Muse-like personal agent with one prompt', with a link.",
+   "source": {
+    "name": "amasad",
+    "url": "https://x.com/amasad/status/2123535544718418191",
+    "type": "x",
+    "handle": "amasad"
+   },
+   "publishedAt": "2026-11-19T21:55:01.000Z",
+   "metrics": {
+    "likes": 156,
+    "reposts": 5,
+    "replies": 24,
+    "views": 9971,
+    "capturedAt": "2026-11-19T23:25:54.046Z"
+   },
+   "care": 3,
+   "proof": 3,
+   "topic": "personal-agents"
+  },
+  {
+   "id": "langchain-langsmith-ai-search",
+   "lens": "practical",
+   "summary": "LangSmith AI Search now parses plain-words queries such as 'frustrated users with LLM errors this week' into structured filters plus an AI check for what a filter cannot express.",
+   "source": {
+    "name": "LangChain",
+    "url": "https://x.com/LangChain/status/2123506798875263302",
+    "type": "x",
+    "handle": "LangChain"
+   },
+   "publishedAt": "2026-11-19T20:00:48.000Z",
+   "metrics": {
+    "likes": 10,
+    "reposts": 1,
+    "replies": 2,
+    "views": 2493,
+    "capturedAt": "2026-11-19T23:25:54.046Z"
+   },
+   "care": 3,
+   "proof": 4,
+   "topic": "langsmith-ai-search"
+  },
+  {
+   "id": "rauchg-1000x-engineer-math",
+   "lens": "broad",
+   "summary": "Guillermo Rauch: an outcome-oriented, creative engineer is now a '1000x engineer'; a tabs-vs-spaces-debating one is '-10x'; the regular knowledge worker is '2x'.",
+   "source": {
+    "name": "rauchg",
+    "url": "https://x.com/rauchg/status/2123505400591106113",
+    "type": "x",
+    "handle": "rauchg"
+   },
+   "publishedAt": "2026-11-19T19:55:14.000Z",
+   "metrics": {
+    "likes": 951,
+    "reposts": 57,
+    "replies": 92,
+    "views": 40845,
+    "capturedAt": "2026-11-19T23:25:54.046Z"
+   },
+   "care": 3,
+   "proof": 2,
+   "topic": "engineer-value"
+  },
+  {
+   "id": "googledeepmind-koray-agi-less-spiky",
+   "lens": "broad",
+   "summary": "Google DeepMind: SVP Koray Kavukcuoglu believes no single test or benchmark will show AGI has arrived; progress looks like models becoming less spiky and more reliable.",
+   "source": {
+    "name": "GoogleDeepMind",
+    "url": "https://x.com/GoogleDeepMind/status/2123519772390215780",
+    "type": "x",
+    "handle": "GoogleDeepMind"
+   },
+   "publishedAt": "2026-11-19T20:52:21.000Z",
+   "metrics": {
+    "likes": 255,
+    "reposts": 27,
+    "replies": 66,
+    "views": 30456,
+    "capturedAt": "2026-11-19T23:25:54.046Z"
+   },
+   "care": 3,
+   "proof": 3,
+   "topic": "agi-measure"
+  },
+  {
+   "id": "a16z-bostrom-delay-superintelligence",
+   "lens": "broad",
+   "summary": "a16z shared Nick Bostrom saying delaying superintelligence could mean delaying breakthroughs that radically extend human life.",
+   "source": {
+    "name": "a16z",
+    "url": "https://x.com/a16z/status/2123484043996287469",
+    "type": "x",
+    "handle": "a16z"
+   },
+   "publishedAt": "2026-11-19T18:30:23.000Z",
+   "metrics": {
+    "likes": 570,
+    "reposts": 78,
+    "replies": 44,
+    "views": 92399,
+    "capturedAt": "2026-11-19T23:25:54.046Z"
+   },
+   "care": 2,
+   "proof": 3,
+   "topic": "bostrom-superintelligence"
+  },
+  {
+   "id": "nathanbenaich-robotics-shared-experience",
+   "lens": "frontier-capital",
+   "summary": "Nathan Benaich: with frontier robotic systems like Sereact, robots no longer need a custom model per customer site; experience from one site improves the model used by the rest.",
+   "source": {
+    "name": "nathanbenaich",
+    "url": "https://x.com/nathanbenaich/status/2123490994012442906",
+    "type": "x",
+    "handle": "nathanbenaich"
+   },
+   "publishedAt": "2026-11-19T18:58:00.000Z",
+   "metrics": {
+    "likes": 7,
+    "reposts": 2,
+    "replies": 2,
+    "views": 1079,
+    "capturedAt": "2026-11-19T23:25:54.046Z"
+   },
+   "care": 3,
+   "proof": 3,
+   "topic": "robotics-foundation"
+  }
+ ]
+}
