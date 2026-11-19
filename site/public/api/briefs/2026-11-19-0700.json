@@ -1,0 +1,605 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-19-0700",
+  "date": "2026-11-19",
+  "publishedAt": "2026-11-19T12:12:46.563Z",
+  "edition": "Morning",
+  "top3": [
+    {
+      "itemId": "anthropic-ipo-priced-83",
+      "headline": "Anthropic prices its IPO at $83 a share, Nasdaq trading next",
+      "whyItMatters": "A frontier lab now answers to public markets, so its pace and risk choices get priced daily."
+    },
+    {
+      "itemId": "cursor-gemini-4-neon-cursorbench",
+      "headline": "Gemini 4 Neon lifts Cursor's coding benchmark to 63.7% at mid-tier prices",
+      "whyItMatters": "Better coding at lower cost makes agent-led engineering cheaper to try at scale."
+    },
+    {
+      "itemId": "perplexity-multiagent-usage-doubles",
+      "headline": "Perplexity Multiagent usage doubles in a day on parallel work",
+      "whyItMatters": "Demand for agents that split work in parallel is showing up in everyday knowledge tasks."
+    }
+  ],
+  "items": [
+    {
+      "id": "mengto-hi3d-mcp-game-characters",
+      "title": "Meng To: Claude Code built four 3D game characters on its own",
+      "takeaway": "For a three.js game Fable 5.2 built in 2 days, he gave Claude Code a picture of each character plus the Hi3D MCP.",
+      "soWhat": "Agents with the right tool connectors can now produce design assets, not just code.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-19T10:00:27Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2123355714693521766"
+      },
+      "image": {
+        "src": "/img/mengto-hi3d-mcp-game-characters.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "3k views"
+      }
+    },
+    {
+      "id": "perplexity-multiagent-usage-doubles",
+      "title": "Perplexity says Multiagent usage doubled in a single day",
+      "takeaway": "Users pick it for work that splits into parallel pieces: decks, multi-source research, financial analysis, contact lists. Perplexity also shipped Monitor, Orchestrator and Context APIs.",
+      "soWhat": "Parallel agent work is finding real demand in everyday knowledge tasks, not just coding.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-19T08:12:52Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2123328640549339612"
+      },
+      "related": [
+        {
+          "name": "Perplexity APIs on X",
+          "url": "https://x.com/AravSrinivas/status/2123224126248906811"
+        }
+      ],
+      "image": {
+        "src": "/img/perplexity-multiagent-usage-doubles.jpg",
+        "alt": "Profile image of @AravSrinivas"
+      },
+      "heat": {
+        "score": 5,
+        "level": "none",
+        "metric": "10k views"
+      }
+    },
+    {
+      "id": "simonw-pelican-gemini-effort-levels",
+      "title": "Simon Willison's pelican test shows effort levels change results",
+      "takeaway": "He compares Gemini 4 Carbon, Neon and Hydrogen at low, medium and high effort on one drawing test.",
+      "soWhat": "Effort settings are a cost and quality dial worth testing before you standardize on a model.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-19T06:39:27Z",
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2123305131206967571"
+      },
+      "image": {
+        "src": "/img/simonw-pelican-gemini-effort-levels.jpg",
+        "alt": "Image from @simonw on X"
+      },
+      "heat": {
+        "score": 31,
+        "level": "none",
+        "metric": "27k views",
+        "voices": 3
+      }
+    },
+    {
+      "id": "theo-t3-code-model-roles",
+      "title": "Theo gives each model a role inside T3 Code",
+      "takeaway": "Fable leads implementation, GPT-6.2 Astra playtests and Gemini 4 Neon writes copy, each in its native harness and subscription.",
+      "soWhat": "Teams can assign models by strength instead of betting everything on one vendor.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-19T04:32:46Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2123273253850628260"
+      },
+      "image": {
+        "src": "/img/theo-t3-code-model-roles.jpg",
+        "alt": "Image from @theo on X"
+      },
+      "heat": {
+        "score": 42,
+        "level": "warm",
+        "metric": "2k likes",
+        "voices": 3
+      }
+    },
+    {
+      "id": "mengto-kimi-house-3d-site",
+      "title": "Kimi K3.1 Pro turns five concept images into a 3D house site",
+      "takeaway": "From five concept images it built the Blender model, materials and light, then a scroll-driven site cut open floor by floor.",
+      "soWhat": "Concept-to-client walkthrough is collapsing from weeks of studio work into one agent session.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-19T04:09:17Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2123267343988248810"
+      },
+      "related": [
+        {
+          "name": "Walkthrough on YouTube",
+          "url": "https://youtu.be/mKpwAwg90Vc"
+        }
+      ],
+      "image": {
+        "src": "/img/mengto-kimi-house-3d-site.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "6k views"
+      }
+    },
+    {
+      "id": "genie-4-prompt-while-exploring",
+      "title": "Genie 4 lets users reshape a generated world while exploring it",
+      "takeaway": "Users can type prompts mid-exploration to add characters or change the scene, with audio adapting live; available to eligible Google AI Ultra subscribers.",
+      "soWhat": "Interactive world models point to new formats for training, simulation and product demos.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-19T02:25:37Z",
+      "source": {
+        "name": "@sundarpichai on X",
+        "url": "https://x.com/sundarpichai/status/2123241253982916795"
+      },
+      "image": {
+        "src": "/img/genie-4-prompt-while-exploring.jpg",
+        "alt": "Image from @sundarpichai on X"
+      },
+      "heat": {
+        "score": 25,
+        "level": "none",
+        "metric": "163k views"
+      }
+    },
+    {
+      "id": "cursor-gemini-4-neon-cursorbench",
+      "title": "Cursor adds Gemini 4 Neon, scoring 63.7% on CursorBench 4.1",
+      "takeaway": "At default effort Neon scores 63.7% on CursorBench 4.1, up from 57.3% for Gemini 4 Hydrogen, at $3/M input and $15/M output tokens.",
+      "soWhat": "Better coding scores at mid-tier prices lower the cost of putting agents on real engineering work.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-18T23:35:07Z",
+      "source": {
+        "name": "@cursor_ai on X",
+        "url": "https://x.com/cursor_ai/status/2123198346802450926"
+      },
+      "image": {
+        "src": "/img/cursor-gemini-4-neon-cursorbench.jpg",
+        "alt": "Image from @cursor_ai on X"
+      },
+      "heat": {
+        "score": 43,
+        "level": "warm",
+        "metric": "160k views",
+        "voices": 3
+      }
+    },
+    {
+      "id": "anthropic-ipo-priced-83",
+      "title": "Anthropic prices its IPO at $83 a share, Nasdaq trading next",
+      "takeaway": "Anthropic priced its IPO at $83 per share; the SEC declared its registration effective on November 18 and Nasdaq trading is expected November 19.",
+      "soWhat": "A frontier lab now answers to public markets, so its pace and risk choices get priced daily.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 9,
+      "publishedAt": "2026-11-18T23:29:00Z",
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2123196808675405860"
+      },
+      "related": [
+        {
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+        },
+        {
+          "name": "The Atlantic",
+          "url": "https://www.theatlantic.com/technology/2026/11/anthropic-winner-ai-race/689479/"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-ipo-priced-83.jpg",
+        "alt": "@AnthropicAI on X: Anthropic prices its IPO at $83 a share, Nasdaq trading next"
+      },
+      "heat": {
+        "score": 56,
+        "level": "warm",
+        "metric": "2.3M views",
+        "voices": 3
+      }
+    },
+    {
+      "id": "tavicosta-silver-miners-capitulation",
+      "title": "Tavi Costa sees silver miners in a capitulation phase",
+      "takeaway": "Record outflows from the sector's biggest ETF, down more than 50% in six months; he says doubting your thesis is normal now.",
+      "soWhat": "A reminder that conviction is tested hardest when flows run the other way.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 3,
+      "publishedAt": "2026-11-18T23:28:29Z",
+      "source": {
+        "name": "@TaviCosta on X",
+        "url": "https://x.com/TaviCosta/status/2123196677246857625"
+      },
+      "image": {
+        "src": "/img/tavicosta-silver-miners-capitulation.jpg",
+        "alt": "Image from @TaviCosta on X"
+      },
+      "heat": {
+        "score": 16,
+        "level": "none",
+        "metric": "42k views"
+      }
+    },
+    {
+      "id": "openai-research-jagged-frontier",
+      "title": "OpenAI: AI use by its own researchers keeps rising exponentially",
+      "takeaway": "OpenAI shares new data: researchers' AI use keeps rising exponentially, agents complete longer tasks, humans stay central, and researchers spend more time on safety.",
+      "soWhat": "How a frontier lab uses agents today previews how expert teams will work next.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-18T23:07:23Z",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/research-acceleration-jagged-frontier"
+      },
+      "related": [
+        {
+          "name": "@OpenAI on X",
+          "url": "https://x.com/OpenAI/status/2123191365983248653"
+        }
+      ],
+      "image": {
+        "src": "/img/openai-research-jagged-frontier.jpg",
+        "alt": "Image from OpenAI"
+      }
+    },
+    {
+      "id": "primeagen-sol-sign-in-five-minutes",
+      "title": "ThePrimeagen: Sol set up sign-in across five services in 5 minutes",
+      "takeaway": "ThePrimeagen told Sol to use his computer to create tokens for Cloudflare, YouTube, Twitch, Kick and X and make sign-in work locally and in production.",
+      "soWhat": "Agents that operate your computer can now clear tedious setup work in minutes.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-18T22:55:06Z",
+      "source": {
+        "name": "@ThePrimeagen on X",
+        "url": "https://x.com/ThePrimeagen/status/2123188274944717013"
+      },
+      "image": {
+        "src": "/img/primeagen-sol-sign-in-five-minutes.jpg",
+        "alt": "Image from @ThePrimeagen on X"
+      }
+    },
+    {
+      "id": "gemini-4-neon-3d-blender-mcp",
+      "title": "Gemini 4 Neon models a 3D lab scene through Blender MCP",
+      "takeaway": "Sundar Pichai shows Gemini 4 Neon 3D-modeling a photorealistic lab simulation in Antigravity via Blender MCP.",
+      "soWhat": "Design tools are becoming something agents drive directly, not just something people click.",
+      "lens": "design",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-18T22:39:20Z",
+      "source": {
+        "name": "@sundarpichai on X",
+        "url": "https://x.com/sundarpichai/status/2123184309137965524"
+      },
+      "image": {
+        "src": "/img/gemini-4-neon-3d-blender-mcp.jpg",
+        "alt": "Image from @sundarpichai on X"
+      }
+    },
+    {
+      "id": "gemini-4-neon-launch",
+      "title": "Google ships Gemini 4 Neon for engineering, knowledge work and science",
+      "takeaway": "Gemini 4 Neon sits between Carbon and Hydrogen and rolls out today in the Gemini API, Google AI Studio, Gemini for business and paid AI Pro and Ultra.",
+      "soWhat": "Google's fourth Gemini 4 model this month keeps the price and quality race moving.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-18T21:33:40Z",
+      "source": {
+        "name": "@sundarpichai on X",
+        "url": "https://x.com/sundarpichai/status/2123167780988125621"
+      },
+      "related": [
+        {
+          "name": "@GoogleDeepMind on X",
+          "url": "https://x.com/GoogleDeepMind/status/2123167884411077030"
+        },
+        {
+          "name": "@AlexFinn on X",
+          "url": "https://x.com/AlexFinn/status/2123171176025575701"
+        }
+      ],
+      "image": {
+        "src": "/img/gemini-4-neon-launch.jpg",
+        "alt": "Image from @sundarpichai on X"
+      }
+    },
+    {
+      "id": "anthropic-ipo-closing-the-loop-sacks",
+      "title": "David Sacks: Anthropic sells 'closing the loop' on its IPO roadshow",
+      "takeaway": "Sacks argues Anthropic is racing toward recursive self-improvement faster than any lab. The Atlantic calls it the reluctant winner; Gary Marcus asks if the IPO is a bad bet.",
+      "soWhat": "Anthropic's IPO is turning its safety stance into a public debate over speed and risk.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-18T21:16:17Z",
+      "source": {
+        "name": "@DavidSacks on X",
+        "url": "https://x.com/DavidSacks/status/2123163407780323795"
+      },
+      "related": [
+        {
+          "name": "The Atlantic",
+          "url": "https://www.theatlantic.com/technology/2026/11/anthropic-winner-ai-race/689479/"
+        },
+        {
+          "name": "Gary Marcus",
+          "url": "https://garymarcus.substack.com/p/is-anthropics-ipo-a-bad-bet-both"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-ipo-closing-the-loop-sacks.jpg",
+        "alt": "Image from @DavidSacks on X"
+      }
+    },
+    {
+      "id": "replit-missions-agent-coordination",
+      "title": "Amjad Masad: Replit Missions shows how your agents coordinate",
+      "takeaway": "Masad notes the OpenAI and Hugging Face incident exposed message boards where agents talk, and says Replit Missions lets you see that coordination.",
+      "soWhat": "When agents talk to each other, teams need to see those conversations to trust the work.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-18T19:17:29Z",
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2123133509028008331"
+      },
+      "image": {
+        "src": "/img/replit-missions-agent-coordination.jpg",
+        "alt": "Image from @amasad on X"
+      }
+    },
+    {
+      "id": "benaich-frontierrsi-evals",
+      "title": "Benaich: Abundant Labs launches a test for self-improving models",
+      "takeaway": "Nathan Benaich says Abundant Labs launched FrontierRSI, which tests whether a model can achieve recursive self-improvement.",
+      "soWhat": "Self-improvement is moving from debate to something investors want measured.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-18T18:50:25Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2123126698120040741"
+      },
+      "image": {
+        "src": "/img/benaich-frontierrsi-evals.jpg",
+        "alt": "Image from @nathanbenaich on X"
+      }
+    },
+    {
+      "id": "verge-nvidia-without-huang",
+      "title": "The Verge asks what Nvidia is without Jensen Huang in charge",
+      "takeaway": "The Verge, on Nvidia's earnings: 'What is Nvidia without AI's sugar daddy in charge?'",
+      "soWhat": "Leadership risk at the main AI chip supplier is now part of the compute story.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-18T18:34:15Z",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition"
+      },
+      "image": {
+        "src": "/img/verge-nvidia-without-huang.jpg",
+        "alt": "Image from The Verge AI"
+      }
+    },
+    {
+      "id": "benaich-ai-genius-bar",
+      "title": "Benaich: what would a genius bar for AI look like?",
+      "takeaway": "Benaich imagines giving a small business owner, a busy family or a healthcare provider an hour with someone who shows them what AI can do for their own work.",
+      "soWhat": "Adoption may hinge on hands-on help with real work, not better models alone.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-18T18:29:00Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2123121308049568243"
+      },
+      "image": {
+        "src": "/img/benaich-ai-genius-bar.jpg",
+        "alt": "Image from @nathanbenaich on X"
+      }
+    },
+    {
+      "id": "copilot-perplexity-os-for-work",
+      "title": "Microsoft and Perplexity both pitch AI as the OS for work",
+      "takeaway": "Nadella says Salesforce is coming to Copilot 'as we build Copilot as the OS for work'. Perplexity puts Teammates and Multiagent on mobile, calling it 'a mini workOS'.",
+      "soWhat": "The fight is shifting from best model to which assistant owns the daily workspace.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-18T18:22:03Z",
+      "source": {
+        "name": "@satyanadella on X",
+        "url": "https://x.com/satyanadella/status/2123119560803176533"
+      },
+      "related": [
+        {
+          "name": "@AravSrinivas on X",
+          "url": "https://x.com/AravSrinivas/status/2123129712301969597"
+        },
+        {
+          "name": "Stratechery",
+          "url": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/"
+        }
+      ],
+      "image": {
+        "src": "/img/copilot-perplexity-os-for-work.jpg",
+        "alt": "Image from @satyanadella on X"
+      }
+    },
+    {
+      "id": "langsmith-coding-agent-roi",
+      "title": "LangSmith now shows what each merged PR from coding agents costs",
+      "takeaway": "A new LangSmith dashboard pulls traced coding agents into one view across harnesses and providers, links PRs to threads, and shows spend that never led to a PR.",
+      "soWhat": "Leaders can finally tie coding-agent spend to shipped work, not just token bills.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-18T17:59:39Z",
+      "source": {
+        "name": "@LangChain on X",
+        "url": "https://x.com/LangChain/status/2123113924857827504"
+      },
+      "related": [
+        {
+          "name": "LangChain setup steps",
+          "url": "https://x.com/LangChain/status/2123147850615808477"
+        }
+      ],
+      "image": {
+        "src": "/img/langsmith-coding-agent-roi.jpg",
+        "alt": "Image from @LangChain on X"
+      }
+    },
+    {
+      "id": "langchain-deepagents-50m-downloads",
+      "title": "LangChain: Deep Agents passes 50 million downloads",
+      "takeaway": "LangChain says its Deep Agents framework has passed 50 million downloads.",
+      "soWhat": "Open agent frameworks are becoming standard parts of the builder toolkit.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 4,
+      "publishedAt": "2026-11-18T17:34:53Z",
+      "source": {
+        "name": "@LangChain on X",
+        "url": "https://x.com/LangChain/status/2123107690776010762"
+      },
+      "image": {
+        "src": "/img/langchain-deepagents-50m-downloads.jpg",
+        "alt": "Image from @LangChain on X"
+      }
+    },
+    {
+      "id": "openai-codex-sandbox",
+      "title": "OpenAI explains how the Codex sandbox works",
+      "takeaway": "OpenAI published 'Inside the Codex sandbox'. Simon Willison's new post covers external sandboxes for coding agents.",
+      "soWhat": "Where agents run code decides how much damage a mistake can do.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-18T08:00:00Z",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/inside-the-codex-sandbox"
+      },
+      "related": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/"
+        }
+      ],
+      "image": {
+        "src": "/img/openai-codex-sandbox.jpg",
+        "alt": "Image from OpenAI Blog"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@AnthropicAI",
+      "quote": "We’ve priced our IPO at $83 per share, with trading expected to begin on Nasdaq tomorrow.",
+      "url": "https://x.com/AnthropicAI/status/2123196808675405860"
+    },
+    {
+      "handle": "@AravSrinivas",
+      "quote": "Users love Multiagent. Usage doubled in just a day.",
+      "url": "https://x.com/AravSrinivas/status/2123328640549339612"
+    },
+    {
+      "handle": "@hwchase17",
+      "quote": "if youre building agents, you should be building a knowledge factory",
+      "url": "https://x.com/hwchase17/status/2123293504164311419"
+    },
+    {
+      "handle": "@simonw",
+      "quote": "illustrating the differences between models in the same family running at different effort levels",
+      "url": "https://x.com/simonw/status/2123305131206967571"
+    },
+    {
+      "handle": "@mattpocockuk",
+      "quote": "it is insane how much of it can be directly ported to non-coding work",
+      "url": "https://x.com/mattpocockuk/status/2123341910559318124"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/AnthropicAI/status/2123196808675405860",
+      "handle": "@AnthropicAI",
+      "text": "We’ve priced our IPO at $83 per share, with trading expected to begin on Nasdaq tomorrow.",
+      "metric": "14k likes",
+      "note": "The first frontier AI lab IPO is about to trade."
+    },
+    {
+      "url": "https://x.com/theo/status/2123237018813779970",
+      "handle": "@theo",
+      "text": "Asks why nobody is talking about Gemini 4 Neon, calling the model very good.",
+      "metric": "7.5k likes",
+      "note": "Builders say Google's newest model is underrated."
+    },
+    {
+      "url": "https://x.com/sundarpichai/status/2123241253982916795",
+      "handle": "@sundarpichai",
+      "text": "Genie 4: type new prompts while exploring a generated world; native audio adapts in real time.",
+      "metric": "3.1k likes",
+      "note": "A live demo of world models people can steer."
+    },
+    {
+      "url": "https://x.com/theo/status/2123273253850628260",
+      "handle": "@theo",
+      "text": "Fable leading implementation, GPT-6.2 Astra as playtester, Gemini 4 Neon as exclusive copy writer.",
+      "metric": "2.4k likes",
+      "note": "A concrete multi-model team setup builders can copy."
+    },
+    {
+      "url": "https://x.com/cursor_ai/status/2123198346802450926",
+      "handle": "@cursor_ai",
+      "text": "Gemini 4 Neon is now available in Cursor, scoring 63.7% on CursorBench 4.1 at $3/M input.",
+      "metric": "2.4k likes",
+      "note": "Hard numbers on price and coding quality."
+    }
+  ]
+}
