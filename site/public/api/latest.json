@@ -1,27 +1,126 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-19-0700",
+  "id": "2026-11-19-1300",
   "date": "2026-11-19",
-  "publishedAt": "2026-11-19T12:12:46.563Z",
-  "edition": "Morning",
+  "publishedAt": "2026-11-19T18:10:38Z",
+  "edition": "Midday",
   "top3": [
     {
-      "itemId": "anthropic-ipo-priced-83",
-      "headline": "Anthropic prices its IPO at $83 a share, Nasdaq trading next",
-      "whyItMatters": "A frontier lab now answers to public markets, so its pace and risk choices get priced daily."
+      "itemId": "anthropic-ipo-dario-remarks",
+      "headline": "Dario Amodei shares his remarks on Anthropic's IPO",
+      "whyItMatters": "A frontier lab's CEO now speaks to public shareholders, and his framing sets expectations for the sector."
     },
     {
-      "itemId": "cursor-gemini-4-neon-cursorbench",
-      "headline": "Gemini 4 Neon lifts Cursor's coding benchmark to 63.7% at mid-tier prices",
-      "whyItMatters": "Better coding at lower cost makes agent-led engineering cheaper to try at scale."
+      "itemId": "primeintellect-compromise-openrouter",
+      "headline": "PrimeIntellect appears compromised; OpenRouter warned affected users",
+      "whyItMatters": "A breach at one model provider can reach every agent and team that routes through it."
     },
     {
-      "itemId": "perplexity-multiagent-usage-doubles",
-      "headline": "Perplexity Multiagent usage doubles in a day on parallel work",
-      "whyItMatters": "Demand for agents that split work in parallel is showing up in everyday knowledge tasks."
+      "itemId": "perplexity-brain-self-improving-skills",
+      "headline": "Perplexity Computer now writes and updates agent skills from past sessions",
+      "whyItMatters": "Agents that improve their own playbooks lower the cost of keeping AI workflows current."
     }
   ],
   "items": [
+    {
+      "id": "perplexity-context-api-safe-fetch",
+      "title": "Perplexity adds prompt-injection checks to its Context API",
+      "takeaway": "After feedback from Tobi, Perplexity shipped decision models that screen fetched content for prompt injection and score it on custom criteria.",
+      "soWhat": "Web content is a main route for attacking agents, so filtering it before use is basic hygiene.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-19T17:12:22Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2123464412971635018"
+      },
+      "image": {
+        "src": "/img/perplexity-context-api-safe-fetch.jpg",
+        "alt": "Profile image of @AravSrinivas"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "4k views"
+      }
+    },
+    {
+      "id": "anthropic-ipo-dario-remarks",
+      "title": "Dario Amodei shares his remarks on Anthropic's IPO",
+      "takeaway": "Anthropic posted CEO Dario Amodei's remarks on its IPO. He opens with why he and his co-founders started the company.",
+      "soWhat": "A frontier lab's CEO now speaks to public shareholders, so mission claims meet market scrutiny.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 9,
+      "publishedAt": "2026-11-19T17:01:26Z",
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2123461658890686863"
+      },
+      "related": [
+        {
+          "name": "@rauchg on X",
+          "url": "https://x.com/rauchg/status/2123388870813450641"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-ipo-dario-remarks.jpg",
+        "alt": "Image from @AnthropicAI on X"
+      },
+      "heat": {
+        "score": 34,
+        "level": "none",
+        "metric": "119k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "perplexity-brain-self-improving-skills",
+      "title": "Perplexity Computer now writes its own agent skills from past sessions",
+      "takeaway": "Brain, which keeps a wiki about your work, now writes and updates agent skills; an improvement agent reads full session trajectories.",
+      "soWhat": "Agents that learn from their own sessions cut the manual work of maintaining skills.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-19T16:19:15Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2123451045657690627"
+      },
+      "image": {
+        "src": "/img/perplexity-brain-self-improving-skills.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 5,
+        "level": "none",
+        "metric": "10k views"
+      }
+    },
+    {
+      "id": "primeintellect-compromise-openrouter",
+      "title": "PrimeIntellect appears compromised; OpenRouter alerted affected users",
+      "takeaway": "Theo says PrimeIntellect appears compromised in a 'very strange way'. No public word from PrimeIntellect yet; OpenRouter told affected users, him included.",
+      "soWhat": "Each model provider behind your agents is part of your security surface, so track who you depend on.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-19T14:56:39Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2123430257697157587"
+      },
+      "image": {
+        "src": "/img/primeintellect-compromise-openrouter.jpg",
+        "alt": "Image from @theo on X"
+      },
+      "heat": {
+        "score": 15,
+        "level": "none",
+        "metric": "64k views"
+      }
+    },
     {
       "id": "mengto-hi3d-mcp-game-characters",
       "title": "Meng To: Claude Code built four 3D game characters on its own",
@@ -372,24 +471,6 @@
       }
     },
     {
-      "id": "replit-missions-agent-coordination",
-      "title": "Amjad Masad: Replit Missions shows how your agents coordinate",
-      "takeaway": "Masad notes the OpenAI and Hugging Face incident exposed message boards where agents talk, and says Replit Missions lets you see that coordination.",
-      "soWhat": "When agents talk to each other, teams need to see those conversations to trust the work.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-11-18T19:17:29Z",
-      "source": {
-        "name": "@amasad on X",
-        "url": "https://x.com/amasad/status/2123133509028008331"
-      },
-      "image": {
-        "src": "/img/replit-missions-agent-coordination.jpg",
-        "alt": "Image from @amasad on X"
-      }
-    },
-    {
       "id": "benaich-frontierrsi-evals",
       "title": "Benaich: Abundant Labs launches a test for self-improving models",
       "takeaway": "Nathan Benaich says Abundant Labs launched FrontierRSI, which tests whether a model can achieve recursive self-improvement.",
@@ -470,79 +551,18 @@
         "src": "/img/copilot-perplexity-os-for-work.jpg",
         "alt": "Image from @satyanadella on X"
       }
-    },
-    {
-      "id": "langsmith-coding-agent-roi",
-      "title": "LangSmith now shows what each merged PR from coding agents costs",
-      "takeaway": "A new LangSmith dashboard pulls traced coding agents into one view across harnesses and providers, links PRs to threads, and shows spend that never led to a PR.",
-      "soWhat": "Leaders can finally tie coding-agent spend to shipped work, not just token bills.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-11-18T17:59:39Z",
-      "source": {
-        "name": "@LangChain on X",
-        "url": "https://x.com/LangChain/status/2123113924857827504"
-      },
-      "related": [
-        {
-          "name": "LangChain setup steps",
-          "url": "https://x.com/LangChain/status/2123147850615808477"
-        }
-      ],
-      "image": {
-        "src": "/img/langsmith-coding-agent-roi.jpg",
-        "alt": "Image from @LangChain on X"
-      }
-    },
-    {
-      "id": "langchain-deepagents-50m-downloads",
-      "title": "LangChain: Deep Agents passes 50 million downloads",
-      "takeaway": "LangChain says its Deep Agents framework has passed 50 million downloads.",
-      "soWhat": "Open agent frameworks are becoming standard parts of the builder toolkit.",
-      "lens": "practical",
-      "momentum": "shift",
-      "importance": 4,
-      "publishedAt": "2026-11-18T17:34:53Z",
-      "source": {
-        "name": "@LangChain on X",
-        "url": "https://x.com/LangChain/status/2123107690776010762"
-      },
-      "image": {
-        "src": "/img/langchain-deepagents-50m-downloads.jpg",
-        "alt": "Image from @LangChain on X"
-      }
-    },
-    {
-      "id": "openai-codex-sandbox",
-      "title": "OpenAI explains how the Codex sandbox works",
-      "takeaway": "OpenAI published 'Inside the Codex sandbox'. Simon Willison's new post covers external sandboxes for coding agents.",
-      "soWhat": "Where agents run code decides how much damage a mistake can do.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-18T08:00:00Z",
-      "source": {
-        "name": "OpenAI Blog",
-        "url": "https://openai.com/index/inside-the-codex-sandbox"
-      },
-      "related": [
-        {
-          "name": "Simon Willison",
-          "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/"
-        }
-      ],
-      "image": {
-        "src": "/img/openai-codex-sandbox.jpg",
-        "alt": "Image from OpenAI Blog"
-      }
     }
   ],
   "voices": [
     {
-      "handle": "@AnthropicAI",
-      "quote": "We’ve priced our IPO at $83 per share, with trading expected to begin on Nasdaq tomorrow.",
-      "url": "https://x.com/AnthropicAI/status/2123196808675405860"
+      "handle": "@theo",
+      "quote": "We now know what this looks like. It's called Gemini 4 Neon for some reason",
+      "url": "https://x.com/theo/status/2123431535588315626"
+    },
+    {
+      "handle": "@rauchg",
+      "quote": "It's infra not product",
+      "url": "https://x.com/rauchg/status/2123468825538789380"
     },
     {
       "handle": "@AravSrinivas",
@@ -555,11 +575,6 @@
       "url": "https://x.com/hwchase17/status/2123293504164311419"
     },
     {
-      "handle": "@simonw",
-      "quote": "illustrating the differences between models in the same family running at different effort levels",
-      "url": "https://x.com/simonw/status/2123305131206967571"
-    },
-    {
       "handle": "@mattpocockuk",
       "quote": "it is insane how much of it can be directly ported to non-coding work",
       "url": "https://x.com/mattpocockuk/status/2123341910559318124"
@@ -567,39 +582,39 @@
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/AnthropicAI/status/2123196808675405860",
+      "url": "https://x.com/AnthropicAI/status/2123461658890686863",
       "handle": "@AnthropicAI",
-      "text": "We’ve priced our IPO at $83 per share, with trading expected to begin on Nasdaq tomorrow.",
-      "metric": "14k likes",
-      "note": "The first frontier AI lab IPO is about to trade."
+      "text": "Remarks from Dario Amodei on Anthropic's IPO, opening with why he and his co-founders started the company.",
+      "metric": "2.6k likes",
+      "note": "Anthropic's CEO speaks directly to the IPO moment."
     },
     {
-      "url": "https://x.com/theo/status/2123237018813779970",
+      "url": "https://x.com/theo/status/2123431535588315626",
       "handle": "@theo",
-      "text": "Asks why nobody is talking about Gemini 4 Neon, calling the model very good.",
-      "metric": "7.5k likes",
-      "note": "Builders say Google's newest model is underrated."
+      "text": "We now know what this looks like. It's called Gemini 4 Neon for some reason",
+      "metric": "1.6k likes",
+      "note": "A top builder voice keeps pointing at Google's newest model."
     },
     {
-      "url": "https://x.com/sundarpichai/status/2123241253982916795",
-      "handle": "@sundarpichai",
-      "text": "Genie 4: type new prompts while exploring a generated world; native audio adapts in real time.",
-      "metric": "3.1k likes",
-      "note": "A live demo of world models people can steer."
-    },
-    {
-      "url": "https://x.com/theo/status/2123273253850628260",
+      "url": "https://x.com/theo/status/2123430257697157587",
       "handle": "@theo",
-      "text": "Fable leading implementation, GPT-6.2 Astra as playtester, Gemini 4 Neon as exclusive copy writer.",
-      "metric": "2.4k likes",
-      "note": "A concrete multi-model team setup builders can copy."
+      "text": "PrimeIntellect appears compromised in a 'very strange way'; OpenRouter told affected users.",
+      "metric": "784 likes",
+      "note": "A possible provider breach with no public statement yet."
     },
     {
-      "url": "https://x.com/cursor_ai/status/2123198346802450926",
-      "handle": "@cursor_ai",
-      "text": "Gemini 4 Neon is now available in Cursor, scoring 63.7% on CursorBench 4.1 at $3/M input.",
-      "metric": "2.4k likes",
-      "note": "Hard numbers on price and coding quality."
+      "url": "https://x.com/rauchg/status/2123388870813450641",
+      "handle": "@rauchg",
+      "text": "Congrats to Anthropic on a generational IPO, and on holding and deepening its lead on models.",
+      "metric": "292 likes",
+      "note": "Vercel's CEO reads the IPO as proof of Anthropic's model lead."
+    },
+    {
+      "url": "https://x.com/AravSrinivas/status/2123451045657690627",
+      "handle": "@AravSrinivas",
+      "text": "Perplexity Computer's Brain now writes and updates agent skills from your past sessions.",
+      "metric": "115 likes",
+      "note": "Self-improving agents are moving from research into products."
     }
   ]
 }
