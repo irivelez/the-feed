@@ -1,39 +1,41 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-18T07:25:00-05:00",
-  "runId": "2026-11-18-0630",
+  "updatedAt": "2026-11-19T12:13:25.375Z",
+  "runId": "2026-11-19-0700",
   "howtos": [
     {
-      "id": "claude-desktop-latest-release-channel",
-      "dedupeKey": "claude-desktop-latest-release-channel",
-      "title": "Switch Claude Desktop to the Latest release channel",
-      "what": "Get more frequent Claude Desktop builds on Windows or Mac by opting in to the Latest channel.",
+      "id": "assign-models-by-role-in-one-harness",
+      "dedupeKey": "assign-models-by-role-multi-model-team",
+      "title": "Assign each model a role in your coding setup",
+      "what": "Split work across models by strength: one implements, one playtests, one writes copy.",
       "kind": "steps",
       "copy": [
-        "In Claude Desktop on Windows or Mac, open Settings > Desktop app.",
-        "Choose the Latest release channel for more frequent builds; Stable stays the default and Latest can be less reliable."
+        "Fable leading implementation",
+        "GPT-6.2 Astra as a playtester",
+        "Gemini 4 Neon as the exclusive copy writer",
+        "All using their native harnesses and subscriptions"
       ],
-      "whenToUse": "When you want new Claude Desktop features sooner and can accept builds that may be less reliable.",
+      "whenToUse": "When several frontier models each beat the others at a different part of building a product.",
       "source": {
-        "name": "@ClaudeDevs on X",
-        "url": "https://x.com/ClaudeDevs/status/2122821051910684824"
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2123273253850628260"
       },
       "author": {
-        "name": "Claude Developers",
-        "handle": "ClaudeDevs"
+        "name": "Theo",
+        "handle": "theo"
       },
       "tags": [
-        "claude",
-        "desktop",
-        "releases"
+        "multi-model",
+        "coding-agents",
+        "t3-code"
       ],
       "quality": 3,
-      "verbatim": false,
+      "verbatim": true,
       "briefItem": {
-        "briefId": "2026-11-18-0700",
-        "itemId": "claude-desktop-latest-channel-claudedevs"
+        "briefId": "2026-11-19-0700",
+        "itemId": "theo-t3-code-model-roles"
       },
-      "addedAt": "2026-11-18T07:25:00-05:00"
+      "addedAt": "2026-11-19T12:13:25.375Z"
     }
   ]
 }
