@@ -1,119 +1,145 @@
 {
   "schemaVersion": "1.0",
-  "id": "2026-11-16",
-  "publishedAt": "2026-11-16T08:05:00-05:00",
+  "id": "2026-11-18",
+  "publishedAt": "2026-11-18T19:40:00-05:00",
   "window": {
-    "from": "2026-11-10",
-    "to": "2026-11-16"
+    "from": "2026-11-12",
+    "to": "2026-11-18"
   },
-  "headline": "Your agents are outpacing your ability to manage them",
-  "summary": "This week the bottleneck moved from the models to the people managing them. Vercel says its security agent flagged 57,897 vulnerabilities in its first week, while VulnCheck counted 37,966 findings from Anthropic's Glasswing with only 217 marked fixed. Agents also joined the team: Claude now sits in video calls, Claude Code Projects coordinate parallel threads, and Perplexity says Teammate agent hours grew 11x in a week. They got wallets too, with ChatGPT Wallet letting Dots agents buy things just as United refused unauthorized agents and eBay appeared to shut them out. And the smartest model is not always the best buy: Garry Tan found Fable 5.2 solved slightly fewer coding tasks than Opus 5.5 at 2.8x the cost per solve. Before you add more agents, decide who reviews their work, what they may spend, and which model each task deserves.",
+  "headline": "AI now helps build AI, and labs are fighting on price",
+  "summary": "This week the labs pointed AI at themselves. OpenAI says its models found up to 14% chip gains on AMD's flagship GPU IP, its researchers' AI use keeps rising exponentially, and Perplexity is putting 10,000 GPUs toward an automated AI researcher. At the same time, near-frontier power got cheaper: GPT-6.2 Astra came within 0.3 points of Claude Fable 5.2 on one benchmark in a third of the time, and open models now carry about 30% of enterprise tokens. Google added Gemini 4 Neon after Carbon and Hydrogen, while Microsoft calls Copilot the OS for work and Perplexity calls its app a mini workOS. Agent spend is real money now, with T3 Code passing $10M in API spend in one day. Stop betting on one model and start measuring every agent task by what it costs and what it ships.",
   "threads": [
     {
-      "title": "More bugs than hands",
-      "line": "Agents find flaws faster than teams can fix them, and attackers move at the same speed. Budget for fixing, not just scanning.",
+      "title": "AI that builds AI",
+      "line": "Labs now use their own models to improve chips, research and the next model. Expect the release clock to keep shortening.",
       "evidence": [
         {
-          "briefId": "2026-11-10-1300",
-          "itemId": "rauchg-vercel-security-review-week-one"
+          "briefId": "2026-11-18-1300",
+          "itemId": "openai-amd-chip-design"
         },
         {
-          "briefId": "2026-11-11-1300",
-          "itemId": "hn-anthropic-vulns-tracking"
+          "briefId": "2026-11-18-1900",
+          "itemId": "openai-research-jagged-frontier"
         },
         {
-          "briefId": "2026-11-13-1300",
-          "itemId": "a16z-wiz-ai-attacks-20-min"
+          "briefId": "2026-11-16-1300",
+          "itemId": "perplexity-frontier-research-10k-gpus"
         },
         {
-          "briefId": "2026-11-14-0700",
-          "itemId": "cursor-security-incident-update"
+          "briefId": "2026-11-18-1900",
+          "itemId": "benaich-frontierrsi-evals"
+        },
+        {
+          "briefId": "2026-11-18-1900",
+          "itemId": "anthropic-ipo-closing-the-loop-sacks"
         }
       ]
     },
     {
-      "title": "The agent joins standup",
-      "line": "Agents now sit in your calls and shared projects. Someone on your team has to own what they do.",
+      "title": "Close enough, for less",
+      "line": "Near-frontier models now come cheaper and from more vendors. Test each task and keep two providers in play.",
       "evidence": [
         {
-          "briefId": "2026-11-12-1900",
-          "itemId": "claude-meetings-launch"
+          "briefId": "2026-11-18-0700",
+          "itemId": "gpt62-astra-reviews-alexfinn"
         },
         {
-          "briefId": "2026-11-13-1900",
-          "itemId": "claudedevs-claude-code-projects-coordinator"
+          "briefId": "2026-11-17-0700",
+          "itemId": "databricks-ai-index-open-models"
         },
         {
-          "briefId": "2026-11-10-1900",
-          "itemId": "cursor-projects-multiplayer"
+          "briefId": "2026-11-17-0700",
+          "itemId": "a16z-imas-lab-price-competition"
+        },
+        {
+          "briefId": "2026-11-14-0700",
+          "itemId": "garrytan-opus-vs-fable-eval"
+        },
+        {
+          "briefId": "2026-11-18-1900",
+          "itemId": "gemini-4-neon-launch"
+        },
+        {
+          "briefId": "2026-11-13-0700",
+          "itemId": "gemini-4-carbon-argon-price-doubling"
+        }
+      ]
+    },
+    {
+      "title": "Who owns the workday",
+      "line": "Assistants are competing to become the screen your people work in. Choose on purpose before habits choose for you.",
+      "evidence": [
+        {
+          "briefId": "2026-11-18-1900",
+          "itemId": "copilot-perplexity-os-for-work"
         },
         {
           "briefId": "2026-11-15-0700",
           "itemId": "arav-teammate-agent-hours"
         },
         {
-          "briefId": "2026-11-12-1900",
-          "itemId": "claude-managed-agents-self-hosted"
+          "briefId": "2026-11-17-1300",
+          "itemId": "sundar-gemini-tasks-expansion"
         },
         {
-          "briefId": "2026-11-13-0700",
-          "itemId": "openai-persistent-agents-writeup"
+          "briefId": "2026-11-12-1900",
+          "itemId": "claude-meetings-launch"
+        },
+        {
+          "briefId": "2026-11-16-1900",
+          "itemId": "openai-chatgpt-healthcare-plugins"
         }
       ]
     },
     {
-      "title": "Wallets, then walls",
-      "line": "Agents can now buy, and some sellers are refusing them. Set your policy before your customers' agents show up.",
+      "title": "Price every merged PR",
+      "line": "Agent spend is large and rising. Tie it to verified, shipped work and run agents' code in sandboxes.",
       "evidence": [
+        {
+          "briefId": "2026-11-18-1900",
+          "itemId": "langsmith-coding-agent-roi"
+        },
+        {
+          "briefId": "2026-11-18-0700",
+          "itemId": "t3-code-31t-tokens-theo"
+        },
+        {
+          "briefId": "2026-11-16-1900",
+          "itemId": "claude-code-verification-post"
+        },
+        {
+          "briefId": "2026-11-16-1900",
+          "itemId": "vercel-agent-evals-users-are-agents"
+        },
+        {
+          "briefId": "2026-11-17-0700",
+          "itemId": "simonw-external-sandbox-pattern"
+        },
+        {
+          "briefId": "2026-11-18-1900",
+          "itemId": "openai-codex-sandbox"
+        }
+      ]
+    },
+    {
+      "title": "Nvidia without Jensen",
+      "line": "The main AI chip supplier lost its founder CEO while demand stays high. Treat compute supply as a strategic risk.",
+      "evidence": [
+        {
+          "briefId": "2026-11-12-1300",
+          "itemId": "nvidia-ceo-transition-announcement"
+        },
         {
           "briefId": "2026-11-14-1900",
-          "itemId": "verge-chatgpt-wallet-dots"
+          "itemId": "stratechery-end-of-jensen"
         },
         {
-          "briefId": "2026-11-12-1900",
-          "itemId": "replit-agent-buys-ads"
+          "briefId": "2026-11-18-1300",
+          "itemId": "chip-earnings-frontier-pause-verge"
         },
         {
-          "briefId": "2026-11-14-0700",
-          "itemId": "amasad-replit-visa-agentic-commerce"
-        },
-        {
-          "briefId": "2026-11-12-0700",
-          "itemId": "verge-united-blocks-agents"
-        },
-        {
-          "briefId": "2026-11-10-1300",
-          "itemId": "verge-ebay-shuts-out-ai-agents"
-        },
-        {
-          "briefId": "2026-11-10-1900",
-          "itemId": "openai-businesses-in-chatgpt"
-        }
-      ]
-    },
-    {
-      "title": "Pay for the job, not the badge",
-      "line": "The newest model can cost more per result. Test cheaper models on each task before upgrading by default.",
-      "evidence": [
-        {
-          "briefId": "2026-11-14-0700",
-          "itemId": "garrytan-opus-vs-fable-eval"
-        },
-        {
-          "briefId": "2026-11-10-0700",
-          "itemId": "theo-fable-52-plan-cost"
-        },
-        {
-          "briefId": "2026-11-10-0700",
-          "itemId": "meta-muse-ember-launch"
-        },
-        {
-          "briefId": "2026-11-10-0700",
-          "itemId": "amazon-strands-decider-replaces-sonnet"
-        },
-        {
-          "briefId": "2026-11-13-0700",
-          "itemId": "gemini-4-carbon-argon-price-doubling"
+          "briefId": "2026-11-18-1300",
+          "itemId": "nvidia-h200-china-stop-verge"
         }
       ]
     }

@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.0",
+  "id": "2026-11-18",
+  "publishedAt": "2026-11-18T19:40:00-05:00",
+  "window": {
+    "from": "2026-11-12",
+    "to": "2026-11-18"
+  },
+  "headline": "AI now helps build AI, and labs are fighting on price",
+  "summary": "This week the labs pointed AI at themselves. OpenAI says its models found up to 14% chip gains on AMD's flagship GPU IP, its researchers' AI use keeps rising exponentially, and Perplexity is putting 10,000 GPUs toward an automated AI researcher. At the same time, near-frontier power got cheaper: GPT-6.2 Astra came within 0.3 points of Claude Fable 5.2 on one benchmark in a third of the time, and open models now carry about 30% of enterprise tokens. Google added Gemini 4 Neon after Carbon and Hydrogen, while Microsoft calls Copilot the OS for work and Perplexity calls its app a mini workOS. Agent spend is real money now, with T3 Code passing $10M in API spend in one day. Stop betting on one model and start measuring every agent task by what it costs and what it ships.",
+  "threads": [
+    {
+      "title": "AI that builds AI",
+      "line": "Labs now use their own models to improve chips, research and the next model. Expect the release clock to keep shortening.",
+      "evidence": [
+        {
+          "briefId": "2026-11-18-1300",
+          "itemId": "openai-amd-chip-design"
+        },
+        {
+          "briefId": "2026-11-18-1900",
+          "itemId": "openai-research-jagged-frontier"
+        },
+        {
+          "briefId": "2026-11-16-1300",
+          "itemId": "perplexity-frontier-research-10k-gpus"
+        },
+        {
+          "briefId": "2026-11-18-1900",
+          "itemId": "benaich-frontierrsi-evals"
+        },
+        {
+          "briefId": "2026-11-18-1900",
+          "itemId": "anthropic-ipo-closing-the-loop-sacks"
+        }
+      ]
+    },
+    {
+      "title": "Close enough, for less",
+      "line": "Near-frontier models now come cheaper and from more vendors. Test each task and keep two providers in play.",
+      "evidence": [
+        {
+          "briefId": "2026-11-18-0700",
+          "itemId": "gpt62-astra-reviews-alexfinn"
+        },
+        {
+          "briefId": "2026-11-17-0700",
+          "itemId": "databricks-ai-index-open-models"
+        },
+        {
+          "briefId": "2026-11-17-0700",
+          "itemId": "a16z-imas-lab-price-competition"
+        },
+        {
+          "briefId": "2026-11-14-0700",
+          "itemId": "garrytan-opus-vs-fable-eval"
+        },
+        {
+          "briefId": "2026-11-18-1900",
+          "itemId": "gemini-4-neon-launch"
+        },
+        {
+          "briefId": "2026-11-13-0700",
+          "itemId": "gemini-4-carbon-argon-price-doubling"
+        }
+      ]
+    },
+    {
+      "title": "Who owns the workday",
+      "line": "Assistants are competing to become the screen your people work in. Choose on purpose before habits choose for you.",
+      "evidence": [
+        {
+          "briefId": "2026-11-18-1900",
+          "itemId": "copilot-perplexity-os-for-work"
+        },
+        {
+          "briefId": "2026-11-15-0700",
+          "itemId": "arav-teammate-agent-hours"
+        },
+        {
+          "briefId": "2026-11-17-1300",
+          "itemId": "sundar-gemini-tasks-expansion"
+        },
+        {
+          "briefId": "2026-11-12-1900",
+          "itemId": "claude-meetings-launch"
+        },
+        {
+          "briefId": "2026-11-16-1900",
+          "itemId": "openai-chatgpt-healthcare-plugins"
+        }
+      ]
+    },
+    {
+      "title": "Price every merged PR",
+      "line": "Agent spend is large and rising. Tie it to verified, shipped work and run agents' code in sandboxes.",
+      "evidence": [
+        {
+          "briefId": "2026-11-18-1900",
+          "itemId": "langsmith-coding-agent-roi"
+        },
+        {
+          "briefId": "2026-11-18-0700",
+          "itemId": "t3-code-31t-tokens-theo"
+        },
+        {
+          "briefId": "2026-11-16-1900",
+          "itemId": "claude-code-verification-post"
+        },
+        {
+          "briefId": "2026-11-16-1900",
+          "itemId": "vercel-agent-evals-users-are-agents"
+        },
+        {
+          "briefId": "2026-11-17-0700",
+          "itemId": "simonw-external-sandbox-pattern"
+        },
+        {
+          "briefId": "2026-11-18-1900",
+          "itemId": "openai-codex-sandbox"
+        }
+      ]
+    },
+    {
+      "title": "Nvidia without Jensen",
+      "line": "The main AI chip supplier lost its founder CEO while demand stays high. Treat compute supply as a strategic risk.",
+      "evidence": [
+        {
+          "briefId": "2026-11-12-1300",
+          "itemId": "nvidia-ceo-transition-announcement"
+        },
+        {
+          "briefId": "2026-11-14-1900",
+          "itemId": "stratechery-end-of-jensen"
+        },
+        {
+          "briefId": "2026-11-18-1300",
+          "itemId": "chip-earnings-frontier-pause-verge"
+        },
+        {
+          "briefId": "2026-11-18-1300",
+          "itemId": "nvidia-h200-china-stop-verge"
+        }
+      ]
+    }
+  ]
+}
