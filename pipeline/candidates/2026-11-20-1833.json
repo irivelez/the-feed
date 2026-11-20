@@ -1,0 +1,604 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-20-1833",
+  "generatedAt": "2026-11-20T23:33:15.000Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-20T11:30:00.000Z",
+    "to": "2026-11-20T23:33:15.000Z"
+  },
+  "sourceNotes": [
+    "X: 3 relevancy searches (originals only, since 11:30Z, top 25 per call) across howTo, bigPicture and frontierCapital+design handle groups (subsets of handles per query due to query length). Query lane, reply capture and author baselines not fetched this run. Post text truncated by API; links not expanded; no view counts guessed.",
+    "Dwarkesh Patel RSS: HTTP 500. HN Algolia API returned non-JSON; used news.ycombinator.com/front instead (no per-item point counts captured except top scores). arXiv API returned no usable results this run, not used.",
+    "Quiet/no new items in 48h: Benedict Evans, Mitchell Hashimoto, Lenny, One Useful Thing, Metaplanet Google News (no fresh items checked).",
+    "Noisy: elonmusk posts in the bigPicture lane were mostly non-AI banter and were skipped; Metaplanet Google News feed returns many items, none selected."
+  ],
+  "candidates": [
+    {
+      "id": "theo-gemini-4-neon",
+      "lens": "practical",
+      "summary": "theo says Gemini 4 Neon is an incredible model.",
+      "source": {
+        "name": "theo",
+        "url": "https://x.com/theo/status/2123880652428988683",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-20T20:46:21.000Z",
+      "metrics": {
+        "likes": 2006,
+        "reposts": 62,
+        "replies": 110,
+        "views": 72994,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "gemini-4-neon"
+    },
+    {
+      "id": "simonw-gemini-4-neon-vs-carbon",
+      "lens": "practical",
+      "summary": "simonw asks whether Gemini 4 Neon is better than Gemini 4 Carbon for some tasks, and whether Gemini 4 Argon is effectively retired since it was left out of the comparison graphic in the Neon announcement post.",
+      "source": {
+        "name": "simonw",
+        "url": "https://x.com/simonw/status/2123808432830701909",
+        "type": "x",
+        "handle": "simonw"
+      },
+      "publishedAt": "2026-11-20T15:59:23.000Z",
+      "metrics": {
+        "likes": 313,
+        "reposts": 4,
+        "replies": 94,
+        "views": 26220,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "gemini-4-neon"
+    },
+    {
+      "id": "deepmind-gemini-4-neon-ski-sim",
+      "lens": "practical",
+      "summary": "GoogleDeepMind says Gemini 4 Neon coded a ski simulator based on real Mont Blanc terrain, built in Antigravity with custom shaders and no pre-made 3D models, rendering carved snow and avalanches live.",
+      "source": {
+        "name": "GoogleDeepMind",
+        "url": "https://x.com/GoogleDeepMind/status/2123826572385833119",
+        "type": "x",
+        "handle": "GoogleDeepMind"
+      },
+      "publishedAt": "2026-11-20T17:11:28.000Z",
+      "metrics": {
+        "likes": 1857,
+        "reposts": 89,
+        "replies": 138,
+        "views": 92571,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "gemini-4-neon"
+    },
+    {
+      "id": "pocock-vector-skill",
+      "lens": "practical",
+      "summary": "mattpocockuk says he is cooking his first skill for non-devs, /vector, which guides how to delegate AI for any task in six steps, and plans to release frameworks and docs around it.",
+      "source": {
+        "name": "mattpocockuk",
+        "url": "https://x.com/mattpocockuk/status/2123810087361810663",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-20T16:05:57.000Z",
+      "metrics": {
+        "likes": 1364,
+        "reposts": 31,
+        "replies": 101,
+        "views": 47829,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "pocock-vector-skill"
+    },
+    {
+      "id": "pocock-comment-prompt",
+      "lens": "practical",
+      "summary": "mattpocockuk shares a 'prompt of the day': review every code comment in a codebase or section and categorise each (e.g. Tautology: repeats what the code shows; Excuse: lets the agent get away with a hacky solution).",
+      "source": {
+        "name": "mattpocockuk",
+        "url": "https://x.com/mattpocockuk/status/2123798388227403983",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-20T15:19:28.000Z",
+      "metrics": {
+        "likes": 2571,
+        "reposts": 95,
+        "replies": 125,
+        "views": 150698,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "pocock-comment-prompt"
+    },
+    {
+      "id": "rubenhassid-claude-7-jobs",
+      "lens": "practical",
+      "summary": "rubenhassid says to spend 20 minutes setting up Claude for 7 business jobs beyond rewriting emails, starting with Claude + small business (requires any paid plan).",
+      "source": {
+        "name": "rubenhassid",
+        "url": "https://x.com/rubenhassid/status/2123748194727215296",
+        "type": "x",
+        "handle": "rubenhassid"
+      },
+      "publishedAt": "2026-11-20T12:00:01.000Z",
+      "metrics": {
+        "likes": 33,
+        "reposts": 5,
+        "replies": 14,
+        "views": 2897,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "rubenhassid-claude-7-jobs"
+    },
+    {
+      "id": "theo-source-control-access",
+      "lens": "practical",
+      "summary": "theo argues source control with only 100% or 0% access is outdated; he wants private files in repos, private branches visible to 3 team members, and secret management without obscure third-party tools.",
+      "source": {
+        "name": "theo",
+        "url": "https://x.com/theo/status/2123901093751280052",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-20T22:07:35.000Z",
+      "metrics": {
+        "likes": 1179,
+        "reposts": 28,
+        "replies": 121,
+        "views": 49744,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "topic": "source-control-access"
+    },
+    {
+      "id": "openai-adversarial-distillation",
+      "lens": "broad",
+      "summary": "OpenAI shares new research on combating distillation of its models: distillation can reproduce powerful AI capabilities without the safeguards built around them; it describes how capabilities transfer and how it detects and disrupts coordinated attempts.",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://x.com/OpenAI/status/2123862344422088794",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "publishedAt": "2026-11-20T19:33:37.000Z",
+      "metrics": {
+        "likes": 2030,
+        "reposts": 141,
+        "replies": 324,
+        "views": 293610,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "topic": "adversarial-distillation"
+    },
+    {
+      "id": "openai-medchembench",
+      "lens": "broad",
+      "summary": "OpenAI introduces MedChemBench, a new benchmark for AI reasoning in medicinal chemistry, showing frontier-model progress in helping scientists identify promising drug candidates.",
+      "source": {
+        "name": "OpenAI",
+        "url": "https://x.com/OpenAI/status/2123856316187975756",
+        "type": "x",
+        "handle": "OpenAI"
+      },
+      "publishedAt": "2026-11-20T19:09:39.000Z",
+      "metrics": {
+        "likes": 2557,
+        "reposts": 245,
+        "replies": 145,
+        "views": 194723,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "topic": "medchembench"
+    },
+    {
+      "id": "anthropic-cofounders-story",
+      "lens": "broad",
+      "summary": "Anthropic posted a video of its co-founders (Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, Chris Olah) telling the story so far.",
+      "source": {
+        "name": "AnthropicAI",
+        "url": "https://x.com/AnthropicAI/status/2123822989154369958",
+        "type": "x",
+        "handle": "AnthropicAI"
+      },
+      "publishedAt": "2026-11-20T16:57:13.000Z",
+      "metrics": {
+        "likes": 3529,
+        "reposts": 286,
+        "replies": 291,
+        "views": 232599,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "anthropic-ipo"
+    },
+    {
+      "id": "demis-isomorphic-merck",
+      "lens": "broad",
+      "summary": "demishassabis announces a collaboration with Merck on designing a new cancer drug, calling it a proof point for Isomorphic's reimagining of drug discovery.",
+      "source": {
+        "name": "demishassabis",
+        "url": "https://x.com/demishassabis/status/2123871861843075099",
+        "type": "x",
+        "handle": "demishassabis"
+      },
+      "publishedAt": "2026-11-20T20:11:26.000Z",
+      "metrics": {
+        "likes": 1949,
+        "reposts": 138,
+        "replies": 83,
+        "views": 58662,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "isomorphic-merck"
+    },
+    {
+      "id": "sundar-math-euler-gauss",
+      "lens": "broad",
+      "summary": "sundarpichai posts 'Somewhere Euler, Gauss and Riemann in awe today!' with a link.",
+      "source": {
+        "name": "sundarpichai",
+        "url": "https://x.com/sundarpichai/status/2123869629164786137",
+        "type": "x",
+        "handle": "sundarpichai"
+      },
+      "publishedAt": "2026-11-20T20:02:33.000Z",
+      "metrics": {
+        "likes": 5956,
+        "reposts": 342,
+        "replies": 176,
+        "views": 179631,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "topic": "riemann-claude"
+    },
+    {
+      "id": "a16z-dhh-linux-agents",
+      "lens": "broad",
+      "summary": "a16z quotes DHH saying Linux's historical weaknesses (terminal-heavy, config files) now make it ideal for interfacing with agents.",
+      "source": {
+        "name": "a16z",
+        "url": "https://x.com/a16z/status/2123830231601684542",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "publishedAt": "2026-11-20T17:26:00.000Z",
+      "metrics": {
+        "likes": 296,
+        "reposts": 30,
+        "replies": 25,
+        "views": 39231,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "dhh-agents-os"
+    },
+    {
+      "id": "a16z-dhh-ai-mobile-lockin",
+      "lens": "broad",
+      "summary": "a16z quotes DHH saying AI could break the app lock-in that kept new mobile operating systems from competing, citing Microsoft's multi-billion-dollar failed Windows mobile effort.",
+      "source": {
+        "name": "a16z",
+        "url": "https://x.com/a16z/status/2123872858971705805",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "publishedAt": "2026-11-20T20:15:23.000Z",
+      "metrics": {
+        "likes": 40,
+        "reposts": 4,
+        "replies": 7,
+        "views": 9160,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "dhh-agents-os"
+    },
+    {
+      "id": "arav-perplexity-computer-chrome",
+      "lens": "practical",
+      "summary": "AravSrinivas says you can now delegate tasks to Perplexity Computer on Chrome.",
+      "source": {
+        "name": "AravSrinivas",
+        "url": "https://x.com/AravSrinivas/status/2123901958990000525",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-20T22:11:01.000Z",
+      "metrics": {
+        "likes": 47,
+        "reposts": 5,
+        "replies": 18,
+        "views": 6031,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "perplexity-computer-chrome"
+    },
+    {
+      "id": "naval-nvidia-frontier-lab",
+      "lens": "frontier-capital",
+      "summary": "naval quotes: 'NVIDIA has to become a frontier lab faster than frontier labs are becoming chip companies.'",
+      "source": {
+        "name": "naval",
+        "url": "https://x.com/naval/status/2123768555317723476",
+        "type": "x",
+        "handle": "naval"
+      },
+      "publishedAt": "2026-11-20T13:20:55.000Z",
+      "metrics": {
+        "likes": 6469,
+        "reposts": 412,
+        "replies": 195,
+        "views": 392825,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "nvidia-frontier-lab"
+    },
+    {
+      "id": "nathanbenaich-lato-expert-interviews",
+      "lens": "frontier-capital",
+      "summary": "nathanbenaich says Air Street led lato_ai's $4.7m seed; on a recent deal he got 14 hours of expert interviews in two days without taking a call, as his Codex agents and Lato ran the study, and he explains why he thinks this changes how to invest.",
+      "source": {
+        "name": "nathanbenaich",
+        "url": "https://x.com/nathanbenaich/status/2123778892427063376",
+        "type": "x",
+        "handle": "nathanbenaich"
+      },
+      "publishedAt": "2026-11-20T14:02:00.000Z",
+      "metrics": {
+        "likes": 28,
+        "reposts": 2,
+        "replies": 6,
+        "views": 3517,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "agent-expert-research"
+    },
+    {
+      "id": "lynalden-bonds-flat",
+      "lens": "frontier-capital",
+      "summary": "LynAldenContact says bonds have been basically flat since Nov 2 while stocks, gold and bitcoin all fell.",
+      "source": {
+        "name": "LynAldenContact",
+        "url": "https://x.com/LynAldenContact/status/2123890434279932102",
+        "type": "x",
+        "handle": "LynAldenContact"
+      },
+      "publishedAt": "2026-11-20T21:25:14.000Z",
+      "metrics": {
+        "likes": 544,
+        "reposts": 14,
+        "replies": 57,
+        "views": 37059,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "topic": "markets-nov-2026"
+    },
+    {
+      "id": "raydalio-failure-adventurous",
+      "lens": "frontier-capital",
+      "summary": "RayDalio says failure comes with being adventurous, and recounts a terrible market mistake in which he lost everything and had to borrow money to cover family expenses.",
+      "source": {
+        "name": "RayDalio",
+        "url": "https://x.com/RayDalio/status/2123798441314681248",
+        "type": "x",
+        "handle": "RayDalio"
+      },
+      "publishedAt": "2026-11-20T15:19:41.000Z",
+      "metrics": {
+        "likes": 483,
+        "reposts": 69,
+        "replies": 29,
+        "views": 52148,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "topic": "raydalio-failure"
+    },
+    {
+      "id": "mengto-astra-threejs",
+      "lens": "design",
+      "summary": "MengTo says Astra 6.2 is very good at three.js landing pages: with good references and about six hours of steering it combined layout, 3D scenes and animations; he open-sourced three skills (including Layout and Shaders).",
+      "source": {
+        "name": "MengTo",
+        "url": "https://x.com/MengTo/status/2123794210721804750",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-20T15:02:52.000Z",
+      "metrics": {
+        "likes": 486,
+        "reposts": 148,
+        "replies": 38,
+        "views": 16268,
+        "capturedAt": "2026-11-20T23:33:15.000Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "topic": "mengto-astra-threejs"
+    },
+    {
+      "id": "theverge-anthropic-riemann",
+      "lens": "broad",
+      "summary": "The Verge reports Anthropic mathematician Levent Alp\u00f6ge claims to have proved the Riemann hypothesis with the help of Claude; if verified it would be another major AI-in-mathematics result. Anthropic went public on November 19, 2026.",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-20T16:34:13.000Z",
+      "care": 5,
+      "proof": 3,
+      "topic": "riemann-claude",
+      "facts": [
+        "Claim is unverified per The Verge ('if verified')"
+      ]
+    },
+    {
+      "id": "simonw-alpoge-quote",
+      "lens": "broad",
+      "summary": "Simon Willison quotes Levent Alp\u00f6ge: 'I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis', adding that the method extends to the Generalized Riemann Hypothesis and that he and Claude formalized the arguments without assumptions.",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-20T16:30:48.000Z",
+      "care": 4,
+      "proof": 3,
+      "topic": "riemann-claude"
+    },
+    {
+      "id": "hn-claude-black-hole-physics",
+      "lens": "broad",
+      "summary": "Hacker News front page lists Anthropic's post 'Claude solves two open problems in the physics of black holes'.",
+      "source": {
+        "name": "Hacker News",
+        "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "care": 3,
+      "proof": 3,
+      "topic": "riemann-claude"
+    },
+    {
+      "id": "marcus-anthropic-stock",
+      "lens": "broad",
+      "summary": "Gary Marcus (contrarian) argues Anthropic's stock is crashing and that AI stocks have lost over 50% in 5 months, criticizing media pieces glorifying Anthropic's IPO.",
+      "source": {
+        "name": "Gary Marcus",
+        "url": "https://garymarcus.substack.com/p/breaking-anthropic-stock-is-crashing",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-20T14:20:06.000Z",
+      "care": 4,
+      "proof": 2,
+      "topic": "anthropic-ipo"
+    },
+    {
+      "id": "hn-anthropic-ipo-debut",
+      "lens": "broad",
+      "summary": "Reuters: 'Anthropic's Nasdaq debut' puts AI's promise and peril to a Wall Street test (listed on the Hacker News front page).",
+      "source": {
+        "name": "Hacker News",
+        "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "care": 4,
+      "proof": 4,
+      "topic": "anthropic-ipo"
+    },
+    {
+      "id": "verge-trump-data-center-tax",
+      "lens": "broad",
+      "summary": "The Verge: Trump promised a 'tremendous tax' on companies that build data centers outside the US, saying 'We're not going to allow our companies to build data centers outside of our country'.",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-20T18:50:19.000Z",
+      "care": 4,
+      "proof": 3,
+      "topic": "data-center-policy"
+    },
+    {
+      "id": "verge-signal-blocks-ai-screen",
+      "lens": "practical",
+      "summary": "The Verge: Signal is restricting screenshots on Android and iOS to prevent OS-level AI agents (Gemini, Siri) from reading users' messages and other on-screen data.",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-20T12:30:47.000Z",
+      "care": 4,
+      "proof": 3,
+      "topic": "agent-security-screen"
+    },
+    {
+      "id": "verge-apple-ai-agent",
+      "lens": "broad",
+      "summary": "The Verge: a now-removed job listing spotted by Bloomberg shows Apple is hiring an engineer to lead an agentic AI assistant that browses the web, works across apps, writes code and calls services.",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-19T22:31:41.000Z",
+      "care": 3,
+      "proof": 3,
+      "topic": "apple-agent"
+    },
+    {
+      "id": "mit-metr-time-horizon",
+      "lens": "broad",
+      "summary": "MIT Technology Review: a new METR report finds some AI capabilities keep improving exponentially, but models are less good at tasks requiring judgment than at coding; it updates METR's time horizon plot.",
+      "source": {
+        "name": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-20T18:15:15.000Z",
+      "care": 4,
+      "proof": 4,
+      "topic": "metr-time-horizon"
+    },
+    {
+      "id": "simonw-token-fraud",
+      "lens": "practical",
+      "summary": "Simon Willison links a YouTube talk 'Token fraud is here and it's BAD' with Claire Vo of ChatPRD, who has built the product in public since the GPT-4 era.",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-20T02:49:57.000Z",
+      "care": 3,
+      "proof": 2,
+      "topic": "token-fraud"
+    }
+  ]
+}
