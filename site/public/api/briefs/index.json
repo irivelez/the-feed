@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-19-1300",
-  "count": 82,
+  "latest": "2026-11-19-1900",
+  "count": 83,
   "briefs": [
+    {
+      "id": "2026-11-19-1900",
+      "date": "2026-11-19",
+      "edition": "Evening",
+      "publishedAt": "2026-11-20T00:13:24Z",
+      "headline": "On Anthropic's IPO day, Perplexity's CEO calls Opus 5.5 the best model",
+      "url": "/api/briefs/2026-11-19-1900.json"
+    },
     {
       "id": "2026-11-19-1300",
       "date": "2026-11-19",

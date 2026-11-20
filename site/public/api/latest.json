@@ -1,27 +1,211 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-19-1300",
+  "id": "2026-11-19-1900",
   "date": "2026-11-19",
-  "publishedAt": "2026-11-19T18:10:38Z",
-  "edition": "Midday",
+  "publishedAt": "2026-11-20T00:13:24Z",
+  "edition": "Evening",
   "top3": [
     {
-      "itemId": "anthropic-ipo-dario-remarks",
-      "headline": "Dario Amodei shares his remarks on Anthropic's IPO",
-      "whyItMatters": "A frontier lab's CEO now speaks to public shareholders, and his framing sets expectations for the sector."
+      "itemId": "aravsrinivas-anthropic-ipo-opus-55",
+      "headline": "On Anthropic's IPO day, Perplexity's CEO calls Opus 5.5 the best model",
+      "whyItMatters": "Even competitors name Anthropic's model the leader, which shapes vendor choices for your teams."
     },
     {
-      "itemId": "primeintellect-compromise-openrouter",
-      "headline": "PrimeIntellect appears compromised; OpenRouter warned affected users",
-      "whyItMatters": "A breach at one model provider can reach every agent and team that routes through it."
+      "itemId": "aravsrinivas-decider-free-openrouter",
+      "headline": "Perplexity keeps Decider free for 3 weeks, claims near 20% share",
+      "whyItMatters": "Teams can test decision models at no cost while vendors compete hard on price."
     },
     {
-      "itemId": "perplexity-brain-self-improving-skills",
-      "headline": "Perplexity Computer now writes and updates agent skills from past sessions",
-      "whyItMatters": "Agents that improve their own playbooks lower the cost of keeping AI workflows current."
+      "itemId": "theo-gemini-4-neon-long-horizon",
+      "headline": "Theo reports strong Gemini 4 Neon results on long engineering tasks",
+      "whyItMatters": "Long-horizon coding is where agents save the most time, so leadership there matters."
     }
   ],
   "items": [
+    {
+      "id": "amasad-muse-like-agent-one-prompt",
+      "title": "Masad: build your own Muse-like personal agent with one prompt",
+      "takeaway": "Amjad Masad posted 'Build your own Muse-like personal agent with one prompt', with a link to the details.",
+      "soWhat": "Personal agents like Muse are becoming something a small team can build, not only buy.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-19T21:55:01Z",
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2123535544718418191"
+      },
+      "image": {
+        "src": "/img/amasad-muse-like-agent-one-prompt.jpg",
+        "alt": "Image from @amasad on X"
+      },
+      "heat": {
+        "score": 4,
+        "level": "none",
+        "metric": "10k views"
+      }
+    },
+    {
+      "id": "amasad-contract-with-your-agent",
+      "title": "Replit's Amjad Masad expects others to copy its agent contracts",
+      "takeaway": "Masad says having a contract with your agent is a paradigm he expects many to copy from Replit. Details are in his linked post.",
+      "soWhat": "Setting terms with an agent before it starts work is turning into a product feature.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-19T21:54:18Z",
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2123535362568134894"
+      },
+      "image": {
+        "src": "/img/amasad-contract-with-your-agent.jpg",
+        "alt": "Image from @amasad on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "4k views"
+      }
+    },
+    {
+      "id": "theo-gemini-4-neon-long-horizon",
+      "title": "Theo reports strong Gemini 4 Neon results on long engineering tasks",
+      "takeaway": "Theo says he is seeing 'insane results from Gemini 4 Neon on long horizon eng work' and will share more soon.",
+      "soWhat": "Long-running coding work is where model choice matters most, so watch for his evidence.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-19T21:06:06Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2123523233551130896"
+      },
+      "image": {
+        "src": "/img/theo-gemini-4-neon-long-horizon.jpg",
+        "alt": "Profile image of @theo"
+      },
+      "heat": {
+        "score": 19,
+        "level": "none",
+        "metric": "32k views"
+      }
+    },
+    {
+      "id": "googledeepmind-koray-agi-less-spiky",
+      "title": "DeepMind's Koray Kavukcuoglu: no single test will show AGI arrived",
+      "takeaway": "Google DeepMind's SVP says progress will look like models becoming less spiky and more reliable, not a single benchmark moment.",
+      "soWhat": "Judge AI by how reliably it does your work, not by benchmark headlines.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-19T20:52:21Z",
+      "source": {
+        "name": "@GoogleDeepMind on X",
+        "url": "https://x.com/GoogleDeepMind/status/2123519772390215780"
+      },
+      "image": {
+        "src": "/img/googledeepmind-koray-agi-less-spiky.jpg",
+        "alt": "Image from @GoogleDeepMind on X"
+      },
+      "heat": {
+        "score": 9,
+        "level": "none",
+        "metric": "30k views"
+      }
+    },
+    {
+      "id": "langchain-langsmith-ai-search",
+      "title": "LangSmith AI Search turns plain-words questions into filters",
+      "takeaway": "Queries such as 'frustrated users with LLM errors this week' become structured filters, plus an AI check for what a filter cannot express.",
+      "soWhat": "Teams running agents in production can find failures without learning query syntax.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-19T20:00:48Z",
+      "source": {
+        "name": "@LangChain on X",
+        "url": "https://x.com/LangChain/status/2123506798875263302"
+      },
+      "image": {
+        "src": "/img/langchain-langsmith-ai-search.jpg",
+        "alt": "Image from @LangChain on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "2k views"
+      }
+    },
+    {
+      "id": "nathanbenaich-robotics-shared-experience",
+      "title": "Benaich: robots now share one model across customer sites",
+      "takeaway": "Nathan Benaich says frontier robotic systems like Sereact no longer need a custom model per site; experience at one site improves the model for the rest.",
+      "soWhat": "Shared learning across sites is what lets robotics scale more like software.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-19T18:58:00Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2123490994012442906"
+      },
+      "image": {
+        "src": "/img/nathanbenaich-robotics-shared-experience.jpg",
+        "alt": "Image from @nathanbenaich on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "1k views"
+      }
+    },
+    {
+      "id": "aravsrinivas-anthropic-ipo-opus-55",
+      "title": "On Anthropic's IPO day, Perplexity's CEO calls Opus 5.5 the best model",
+      "takeaway": "Aravind Srinivas congratulated Anthropic on its 'historic IPO today' and said Opus 5.5 'remains the best model in the industry by a good margin'.",
+      "soWhat": "Praise from a competitor's CEO on listing day supports Anthropic's model-lead story with new investors.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 9,
+      "publishedAt": "2026-11-19T18:18:09Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2123480966459174920"
+      },
+      "image": {
+        "src": "/img/aravsrinivas-anthropic-ipo-opus-55.jpg",
+        "alt": "Profile image of @AravSrinivas"
+      },
+      "heat": {
+        "score": 22,
+        "level": "none",
+        "metric": "57k views"
+      }
+    },
+    {
+      "id": "aravsrinivas-decider-free-openrouter",
+      "title": "Perplexity keeps Decider models free on OpenRouter for three more weeks",
+      "takeaway": "Decider-v1.3 and Flash stay free for another 3 weeks. Srinivas says Perplexity's share of requests on Decision models is close to 20%.",
+      "soWhat": "Free windows are how model makers buy share, so cheap tests are available now.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-19T18:08:03Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2123478424761368980"
+      },
+      "image": {
+        "src": "/img/aravsrinivas-decider-free-openrouter.jpg",
+        "alt": "Profile image of @AravSrinivas"
+      },
+      "heat": {
+        "score": 4,
+        "level": "none",
+        "metric": "20k views"
+      }
+    },
     {
       "id": "perplexity-context-api-safe-fetch",
       "title": "Perplexity adds prompt-injection checks to its Context API",
@@ -174,54 +358,6 @@
       }
     },
     {
-      "id": "simonw-pelican-gemini-effort-levels",
-      "title": "Simon Willison's pelican test shows effort levels change results",
-      "takeaway": "He compares Gemini 4 Carbon, Neon and Hydrogen at low, medium and high effort on one drawing test.",
-      "soWhat": "Effort settings are a cost and quality dial worth testing before you standardize on a model.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-11-19T06:39:27Z",
-      "source": {
-        "name": "@simonw on X",
-        "url": "https://x.com/simonw/status/2123305131206967571"
-      },
-      "image": {
-        "src": "/img/simonw-pelican-gemini-effort-levels.jpg",
-        "alt": "Image from @simonw on X"
-      },
-      "heat": {
-        "score": 31,
-        "level": "none",
-        "metric": "27k views",
-        "voices": 3
-      }
-    },
-    {
-      "id": "theo-t3-code-model-roles",
-      "title": "Theo gives each model a role inside T3 Code",
-      "takeaway": "Fable leads implementation, GPT-6.2 Astra playtests and Gemini 4 Neon writes copy, each in its native harness and subscription.",
-      "soWhat": "Teams can assign models by strength instead of betting everything on one vendor.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-19T04:32:46Z",
-      "source": {
-        "name": "@theo on X",
-        "url": "https://x.com/theo/status/2123273253850628260"
-      },
-      "image": {
-        "src": "/img/theo-t3-code-model-roles.jpg",
-        "alt": "Image from @theo on X"
-      },
-      "heat": {
-        "score": 42,
-        "level": "warm",
-        "metric": "2k likes",
-        "voices": 3
-      }
-    },
-    {
       "id": "mengto-kimi-house-3d-site",
       "title": "Kimi K3.1 Pro turns five concept images into a 3D house site",
       "takeaway": "From five concept images it built the Blender model, materials and light, then a scroll-driven site cut open floor by floor.",
@@ -271,30 +407,6 @@
         "score": 25,
         "level": "none",
         "metric": "163k views"
-      }
-    },
-    {
-      "id": "cursor-gemini-4-neon-cursorbench",
-      "title": "Cursor adds Gemini 4 Neon, scoring 63.7% on CursorBench 4.1",
-      "takeaway": "At default effort Neon scores 63.7% on CursorBench 4.1, up from 57.3% for Gemini 4 Hydrogen, at $3/M input and $15/M output tokens.",
-      "soWhat": "Better coding scores at mid-tier prices lower the cost of putting agents on real engineering work.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-18T23:35:07Z",
-      "source": {
-        "name": "@cursor_ai on X",
-        "url": "https://x.com/cursor_ai/status/2123198346802450926"
-      },
-      "image": {
-        "src": "/img/cursor-gemini-4-neon-cursorbench.jpg",
-        "alt": "Image from @cursor_ai on X"
-      },
-      "heat": {
-        "score": 43,
-        "level": "warm",
-        "metric": "160k views",
-        "voices": 3
       }
     },
     {
@@ -360,7 +472,7 @@
       "takeaway": "OpenAI shares new data: researchers' AI use keeps rising exponentially, agents complete longer tasks, humans stay central, and researchers spend more time on safety.",
       "soWhat": "How a frontier lab uses agents today previews how expert teams will work next.",
       "lens": "broad",
-      "momentum": "new",
+      "momentum": "building",
       "importance": 8,
       "publishedAt": "2026-11-18T23:07:23Z",
       "source": {
@@ -377,187 +489,23 @@
         "src": "/img/openai-research-jagged-frontier.jpg",
         "alt": "Image from OpenAI"
       }
-    },
-    {
-      "id": "primeagen-sol-sign-in-five-minutes",
-      "title": "ThePrimeagen: Sol set up sign-in across five services in 5 minutes",
-      "takeaway": "ThePrimeagen told Sol to use his computer to create tokens for Cloudflare, YouTube, Twitch, Kick and X and make sign-in work locally and in production.",
-      "soWhat": "Agents that operate your computer can now clear tedious setup work in minutes.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-11-18T22:55:06Z",
-      "source": {
-        "name": "@ThePrimeagen on X",
-        "url": "https://x.com/ThePrimeagen/status/2123188274944717013"
-      },
-      "image": {
-        "src": "/img/primeagen-sol-sign-in-five-minutes.jpg",
-        "alt": "Image from @ThePrimeagen on X"
-      }
-    },
-    {
-      "id": "gemini-4-neon-3d-blender-mcp",
-      "title": "Gemini 4 Neon models a 3D lab scene through Blender MCP",
-      "takeaway": "Sundar Pichai shows Gemini 4 Neon 3D-modeling a photorealistic lab simulation in Antigravity via Blender MCP.",
-      "soWhat": "Design tools are becoming something agents drive directly, not just something people click.",
-      "lens": "design",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-18T22:39:20Z",
-      "source": {
-        "name": "@sundarpichai on X",
-        "url": "https://x.com/sundarpichai/status/2123184309137965524"
-      },
-      "image": {
-        "src": "/img/gemini-4-neon-3d-blender-mcp.jpg",
-        "alt": "Image from @sundarpichai on X"
-      }
-    },
-    {
-      "id": "gemini-4-neon-launch",
-      "title": "Google ships Gemini 4 Neon for engineering, knowledge work and science",
-      "takeaway": "Gemini 4 Neon sits between Carbon and Hydrogen and rolls out today in the Gemini API, Google AI Studio, Gemini for business and paid AI Pro and Ultra.",
-      "soWhat": "Google's fourth Gemini 4 model this month keeps the price and quality race moving.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 9,
-      "publishedAt": "2026-11-18T21:33:40Z",
-      "source": {
-        "name": "@sundarpichai on X",
-        "url": "https://x.com/sundarpichai/status/2123167780988125621"
-      },
-      "related": [
-        {
-          "name": "@GoogleDeepMind on X",
-          "url": "https://x.com/GoogleDeepMind/status/2123167884411077030"
-        },
-        {
-          "name": "@AlexFinn on X",
-          "url": "https://x.com/AlexFinn/status/2123171176025575701"
-        }
-      ],
-      "image": {
-        "src": "/img/gemini-4-neon-launch.jpg",
-        "alt": "Image from @sundarpichai on X"
-      }
-    },
-    {
-      "id": "anthropic-ipo-closing-the-loop-sacks",
-      "title": "David Sacks: Anthropic sells 'closing the loop' on its IPO roadshow",
-      "takeaway": "Sacks argues Anthropic is racing toward recursive self-improvement faster than any lab. The Atlantic calls it the reluctant winner; Gary Marcus asks if the IPO is a bad bet.",
-      "soWhat": "Anthropic's IPO is turning its safety stance into a public debate over speed and risk.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-18T21:16:17Z",
-      "source": {
-        "name": "@DavidSacks on X",
-        "url": "https://x.com/DavidSacks/status/2123163407780323795"
-      },
-      "related": [
-        {
-          "name": "The Atlantic",
-          "url": "https://www.theatlantic.com/technology/2026/11/anthropic-winner-ai-race/689479/"
-        },
-        {
-          "name": "Gary Marcus",
-          "url": "https://garymarcus.substack.com/p/is-anthropics-ipo-a-bad-bet-both"
-        }
-      ],
-      "image": {
-        "src": "/img/anthropic-ipo-closing-the-loop-sacks.jpg",
-        "alt": "Image from @DavidSacks on X"
-      }
-    },
-    {
-      "id": "benaich-frontierrsi-evals",
-      "title": "Benaich: Abundant Labs launches a test for self-improving models",
-      "takeaway": "Nathan Benaich says Abundant Labs launched FrontierRSI, which tests whether a model can achieve recursive self-improvement.",
-      "soWhat": "Self-improvement is moving from debate to something investors want measured.",
-      "lens": "frontier-capital",
-      "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-11-18T18:50:25Z",
-      "source": {
-        "name": "@nathanbenaich on X",
-        "url": "https://x.com/nathanbenaich/status/2123126698120040741"
-      },
-      "image": {
-        "src": "/img/benaich-frontierrsi-evals.jpg",
-        "alt": "Image from @nathanbenaich on X"
-      }
-    },
-    {
-      "id": "verge-nvidia-without-huang",
-      "title": "The Verge asks what Nvidia is without Jensen Huang in charge",
-      "takeaway": "The Verge, on Nvidia's earnings: 'What is Nvidia without AI's sugar daddy in charge?'",
-      "soWhat": "Leadership risk at the main AI chip supplier is now part of the compute story.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 4,
-      "publishedAt": "2026-11-18T18:34:15Z",
-      "source": {
-        "name": "The Verge AI",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition"
-      },
-      "image": {
-        "src": "/img/verge-nvidia-without-huang.jpg",
-        "alt": "Image from The Verge AI"
-      }
-    },
-    {
-      "id": "benaich-ai-genius-bar",
-      "title": "Benaich: what would a genius bar for AI look like?",
-      "takeaway": "Benaich imagines giving a small business owner, a busy family or a healthcare provider an hour with someone who shows them what AI can do for their own work.",
-      "soWhat": "Adoption may hinge on hands-on help with real work, not better models alone.",
-      "lens": "frontier-capital",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-18T18:29:00Z",
-      "source": {
-        "name": "@nathanbenaich on X",
-        "url": "https://x.com/nathanbenaich/status/2123121308049568243"
-      },
-      "image": {
-        "src": "/img/benaich-ai-genius-bar.jpg",
-        "alt": "Image from @nathanbenaich on X"
-      }
-    },
-    {
-      "id": "copilot-perplexity-os-for-work",
-      "title": "Microsoft and Perplexity both pitch AI as the OS for work",
-      "takeaway": "Nadella says Salesforce is coming to Copilot 'as we build Copilot as the OS for work'. Perplexity puts Teammates and Multiagent on mobile, calling it 'a mini workOS'.",
-      "soWhat": "The fight is shifting from best model to which assistant owns the daily workspace.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-18T18:22:03Z",
-      "source": {
-        "name": "@satyanadella on X",
-        "url": "https://x.com/satyanadella/status/2123119560803176533"
-      },
-      "related": [
-        {
-          "name": "@AravSrinivas on X",
-          "url": "https://x.com/AravSrinivas/status/2123129712301969597"
-        },
-        {
-          "name": "Stratechery",
-          "url": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/"
-        }
-      ],
-      "image": {
-        "src": "/img/copilot-perplexity-os-for-work.jpg",
-        "alt": "Image from @satyanadella on X"
-      }
     }
   ],
   "voices": [
     {
+      "handle": "@AravSrinivas",
+      "quote": "remains the best model in the industry by a good margin",
+      "url": "https://x.com/AravSrinivas/status/2123480966459174920"
+    },
+    {
       "handle": "@theo",
-      "quote": "We now know what this looks like. It's called Gemini 4 Neon for some reason",
-      "url": "https://x.com/theo/status/2123431535588315626"
+      "quote": "insane results from Gemini 4 Neon on long horizon eng work",
+      "url": "https://x.com/theo/status/2123523233551130896"
+    },
+    {
+      "handle": "@amasad",
+      "quote": "Build your own Muse-like personal agent with one prompt",
+      "url": "https://x.com/amasad/status/2123535544718418191"
     },
     {
       "handle": "@rauchg",
@@ -565,56 +513,46 @@
       "url": "https://x.com/rauchg/status/2123468825538789380"
     },
     {
-      "handle": "@AravSrinivas",
-      "quote": "Users love Multiagent. Usage doubled in just a day.",
-      "url": "https://x.com/AravSrinivas/status/2123328640549339612"
-    },
-    {
       "handle": "@hwchase17",
       "quote": "if youre building agents, you should be building a knowledge factory",
       "url": "https://x.com/hwchase17/status/2123293504164311419"
-    },
-    {
-      "handle": "@mattpocockuk",
-      "quote": "it is insane how much of it can be directly ported to non-coding work",
-      "url": "https://x.com/mattpocockuk/status/2123341910559318124"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/AnthropicAI/status/2123461658890686863",
-      "handle": "@AnthropicAI",
-      "text": "Remarks from Dario Amodei on Anthropic's IPO, opening with why he and his co-founders started the company.",
-      "metric": "2.6k likes",
-      "note": "Anthropic's CEO speaks directly to the IPO moment."
-    },
-    {
-      "url": "https://x.com/theo/status/2123431535588315626",
+      "url": "https://x.com/theo/status/2123509826856878541",
       "handle": "@theo",
-      "text": "We now know what this looks like. It's called Gemini 4 Neon for some reason",
-      "metric": "1.6k likes",
-      "note": "A top builder voice keeps pointing at Google's newest model."
+      "text": "End of 2026: Anthropic's model changed how we code, Google's is pleasant, OpenAI's is smartest but 'unpleasant to actually use'.",
+      "metric": "2.4k likes",
+      "note": "A builder's scorecard of the three big labs draws the most replies today."
     },
     {
-      "url": "https://x.com/theo/status/2123430257697157587",
-      "handle": "@theo",
-      "text": "PrimeIntellect appears compromised in a 'very strange way'; OpenRouter told affected users.",
-      "metric": "784 likes",
-      "note": "A possible provider breach with no public statement yet."
-    },
-    {
-      "url": "https://x.com/rauchg/status/2123388870813450641",
-      "handle": "@rauchg",
-      "text": "Congrats to Anthropic on a generational IPO, and on holding and deepening its lead on models.",
-      "metric": "292 likes",
-      "note": "Vercel's CEO reads the IPO as proof of Anthropic's model lead."
-    },
-    {
-      "url": "https://x.com/AravSrinivas/status/2123451045657690627",
+      "url": "https://x.com/AravSrinivas/status/2123480966459174920",
       "handle": "@AravSrinivas",
-      "text": "Perplexity Computer's Brain now writes and updates agent skills from your past sessions.",
-      "metric": "115 likes",
-      "note": "Self-improving agents are moving from research into products."
+      "text": "Congrats to Anthropic on a historic IPO today; Opus 5.5 'remains the best model in the industry by a good margin'.",
+      "metric": "2.1k likes",
+      "note": "A competitor's CEO backs Anthropic's model lead on listing day."
+    },
+    {
+      "url": "https://x.com/theo/status/2123523233551130896",
+      "handle": "@theo",
+      "text": "Seeing 'insane results from Gemini 4 Neon on long horizon eng work'; more soon.",
+      "metric": "1.5k likes",
+      "note": "Builders are testing Google's new model on long, autonomous coding work."
+    },
+    {
+      "url": "https://x.com/rauchg/status/2123505400591106113",
+      "handle": "@rauchg",
+      "text": "Outcome-oriented, creative engineer: '1000x'. Tabs-vs-spaces debater: '-10x'. Regular knowledge worker: '2x'.",
+      "metric": "951 likes",
+      "note": "Vercel's CEO says AI widens the gap between outcome-driven engineers and the rest."
+    },
+    {
+      "url": "https://x.com/a16z/status/2123484043996287469",
+      "handle": "@a16z",
+      "text": "Nick Bostrom: delaying superintelligence could mean delaying breakthroughs that radically extend human life.",
+      "metric": "570 likes",
+      "note": "The case against slowing AI, framed as a cost to human lifespan."
     }
   ]
 }
