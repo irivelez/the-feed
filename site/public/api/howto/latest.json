@@ -1,41 +1,40 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-20T12:12:43Z",
-  "runId": "2026-11-20-0700",
+  "updatedAt": "2026-11-20T18:06:22Z",
+  "runId": "2026-11-20-1228",
   "howtos": [
     {
-      "id": "seo-listicles-ai-visibility-long-tail",
-      "dedupeKey": "seo-listicles-ai-visibility-long-tail-questions",
-      "title": "Revive SEO with listicles, AI visibility and long-tail queries",
-      "what": "Four SEO moves Tibo says have worked very well for his products over the past 2 months.",
+      "id": "audit-code-comments-with-agent",
+      "dedupeKey": "agent-review-categorise-code-comments",
+      "title": "Have an agent audit every code comment",
+      "what": "Matt Pocock's prompt of the day: an agent reviews each code comment and sorts it by category.",
       "kind": "steps",
       "copy": [
-        "Find listicles to buy",
-        "Monitor AI visibility",
-        "Find long-tail keywords",
-        "Find questions"
+        "Ask the agent to review every code comment in the codebase, or in one section of it.",
+        "Have it categorise each comment.",
+        "First category: tautology, a comment that repeats what is already visible in the code."
       ],
-      "whenToUse": "When you want a product found through search and AI assistants, not just paid channels.",
+      "whenToUse": "When a codebase has collected noisy or outdated comments and you want a quick cleanup pass.",
       "source": {
-        "name": "@tibo_maker on X",
-        "url": "https://x.com/tibo_maker/status/2123725557460324812"
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2123798388227403983"
       },
       "author": {
-        "name": "Tibo",
-        "handle": "tibo_maker"
+        "name": "Matt Pocock",
+        "handle": "mattpocockuk"
       },
       "tags": [
-        "seo",
-        "ai-visibility",
-        "growth"
+        "coding-agents",
+        "code-quality",
+        "prompts"
       ],
-      "quality": 2,
+      "quality": 3,
       "verbatim": false,
       "briefItem": {
-        "briefId": "2026-11-20-0700",
-        "itemId": "tibo-maker-seo-ai-visibility"
+        "briefId": "2026-11-20-1300",
+        "itemId": "mattpocock-code-comment-prompt"
       },
-      "addedAt": "2026-11-20T12:12:43Z"
+      "addedAt": "2026-11-20T18:06:22Z"
     }
   ]
 }

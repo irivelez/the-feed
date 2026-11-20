@@ -1,7 +1,40 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-20T12:12:43Z",
+  "updatedAt": "2026-11-20T18:06:22Z",
   "howtos": [
+    {
+      "id": "audit-code-comments-with-agent",
+      "dedupeKey": "agent-review-categorise-code-comments",
+      "title": "Have an agent audit every code comment",
+      "what": "Matt Pocock's prompt of the day: an agent reviews each code comment and sorts it by category.",
+      "kind": "steps",
+      "copy": [
+        "Ask the agent to review every code comment in the codebase, or in one section of it.",
+        "Have it categorise each comment.",
+        "First category: tautology, a comment that repeats what is already visible in the code."
+      ],
+      "whenToUse": "When a codebase has collected noisy or outdated comments and you want a quick cleanup pass.",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2123798388227403983"
+      },
+      "author": {
+        "name": "Matt Pocock",
+        "handle": "mattpocockuk"
+      },
+      "tags": [
+        "coding-agents",
+        "code-quality",
+        "prompts"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-20-1300",
+        "itemId": "mattpocock-code-comment-prompt"
+      },
+      "addedAt": "2026-11-20T18:06:22Z"
+    },
     {
       "id": "seo-listicles-ai-visibility-long-tail",
       "dedupeKey": "seo-listicles-ai-visibility-long-tail-questions",
