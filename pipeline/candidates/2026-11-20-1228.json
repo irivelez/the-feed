@@ -1,0 +1,304 @@
+{
+ "schemaVersion": "1.1",
+ "runId": "2026-11-20-1228",
+ "generatedAt": "2026-11-20T17:28:51.356Z",
+ "configVersions": {
+  "sources": "1.3.0",
+  "preferences": "1.1.0"
+ },
+ "window": {
+  "from": "2026-11-20T10:28:35.966Z",
+  "to": "2026-11-20T17:28:51.356Z"
+ },
+ "sourceNotes": [
+  "X lanes: 4 relevancy searches (originals only, last 7h, top 25 each; lane groups limited to a subset of handles per query). Query lane, reply capture, author baselines, RSS, arXiv and HN not fetched this run. Post text from the API is truncated; links not expanded."
+ ],
+ "candidates": [
+  {
+   "id": "mattpocockuk-pocock-vector-skill",
+   "lens": "practical",
+   "summary": "mattpocockuk says he is cooking his first skill for non-devs, /vector, which guides how to delegate AI for any task in six steps.",
+   "source": {
+    "name": "mattpocockuk",
+    "url": "https://x.com/mattpocockuk/status/2123810087361810663",
+    "type": "x",
+    "handle": "mattpocockuk"
+   },
+   "publishedAt": "2026-11-20T16:05:57.000Z",
+   "metrics": {
+    "likes": 419,
+    "reposts": 10,
+    "replies": 43,
+    "capturedAt": "2026-11-20T17:28:51.356Z",
+    "views": 17230
+   },
+   "care": 4,
+   "proof": 3,
+   "topic": "pocock-vector-skill"
+  },
+  {
+   "id": "mattpocockuk-pocock-comment-prompt",
+   "lens": "practical",
+   "summary": "mattpocockuk shares a 'prompt of the day': review every code comment in a codebase or section and categorise each (starting with tautology: repeats what is already visible).",
+   "source": {
+    "name": "mattpocockuk",
+    "url": "https://x.com/mattpocockuk/status/2123798388227403983",
+    "type": "x",
+    "handle": "mattpocockuk"
+   },
+   "publishedAt": "2026-11-20T15:19:28.000Z",
+   "metrics": {
+    "likes": 1175,
+    "reposts": 36,
+    "replies": 75,
+    "capturedAt": "2026-11-20T17:28:51.356Z",
+    "views": 48505
+   },
+   "care": 4,
+   "proof": 3,
+   "topic": "pocock-comment-prompt"
+  },
+  {
+   "id": "langchain-langsmith-model-usage",
+   "lens": "practical",
+   "summary": "LangChain's LangSmith Signal says gpt-6-luna (launched Sept 22) moved from #30 to #1 among models used by production teams, at 27% of production teams.",
+   "source": {
+    "name": "LangChain",
+    "url": "https://x.com/LangChain/status/2123809292012646837",
+    "type": "x",
+    "handle": "LangChain"
+   },
+   "publishedAt": "2026-11-20T16:02:48.000Z",
+   "metrics": {
+    "likes": 9,
+    "reposts": 2,
+    "replies": 3,
+    "capturedAt": "2026-11-20T17:28:51.356Z",
+    "views": 2342
+   },
+   "care": 4,
+   "proof": 4,
+   "topic": "langsmith-model-usage"
+  },
+  {
+   "id": "simonw-gemini-4-neon",
+   "lens": "practical",
+   "summary": "simonw asks whether Gemini 4 Neon is better than Gemini 4 Carbon for some tasks and whether Gemini 4 Argon is effectively retired, since it was missing from the Neon announcement comparison graphic.",
+   "source": {
+    "name": "simonw",
+    "url": "https://x.com/simonw/status/2123808432830701909",
+    "type": "x",
+    "handle": "simonw"
+   },
+   "publishedAt": "2026-11-20T15:59:23.000Z",
+   "metrics": {
+    "likes": 138,
+    "reposts": 2,
+    "replies": 63,
+    "capturedAt": "2026-11-20T17:28:51.356Z",
+    "views": 12005
+   },
+   "care": 3,
+   "proof": 3,
+   "topic": "gemini-4-neon"
+  },
+  {
+   "id": "rubenhassid-ruben-claude-seven-jobs",
+   "lens": "practical",
+   "summary": "rubenhassid urges setting up Claude for 7 jobs in 20 minutes instead of only rewriting emails, framed around the Anthropic IPO.",
+   "source": {
+    "name": "rubenhassid",
+    "url": "https://x.com/rubenhassid/status/2123748194727215296",
+    "type": "x",
+    "handle": "rubenhassid"
+   },
+   "publishedAt": "2026-11-20T12:00:01.000Z",
+   "metrics": {
+    "likes": 27,
+    "reposts": 3,
+    "replies": 13,
+    "capturedAt": "2026-11-20T17:28:51.356Z",
+    "views": 2416
+   },
+   "care": 3,
+   "proof": 2,
+   "topic": "ruben-claude-seven-jobs"
+  },
+  {
+   "id": "anthropicai-anthropic-cofounders-story",
+   "lens": "broad",
+   "summary": "AnthropicAI publishes the story so far, told by its seven co-founders (Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, Chris Olah).",
+   "source": {
+    "name": "AnthropicAI",
+    "url": "https://x.com/AnthropicAI/status/2123822989154369958",
+    "type": "x",
+    "handle": "AnthropicAI"
+   },
+   "publishedAt": "2026-11-20T16:57:13.000Z",
+   "metrics": {
+    "likes": 1688,
+    "reposts": 113,
+    "replies": 145,
+    "capturedAt": "2026-11-20T17:28:51.356Z",
+    "views": 79828
+   },
+   "care": 3,
+   "proof": 4,
+   "topic": "anthropic-cofounders-story"
+  },
+  {
+   "id": "a16z-dhh-small-teams",
+   "lens": "broad",
+   "summary": "a16z quotes DHH saying AI gives small teams a chance to compete with software ecosystems built by thousands of developers.",
+   "source": {
+    "name": "a16z",
+    "url": "https://x.com/a16z/status/2123813224504037416",
+    "type": "x",
+    "handle": "a16z"
+   },
+   "publishedAt": "2026-11-20T16:18:25.000Z",
+   "metrics": {
+    "likes": 47,
+    "reposts": 4,
+    "replies": 15,
+    "capturedAt": "2026-11-20T17:28:51.356Z",
+    "views": 10792
+   },
+   "care": 4,
+   "proof": 3,
+   "topic": "dhh-small-teams"
+  },
+  {
+   "id": "a16z-dhh-linux-agents",
+   "lens": "broad",
+   "summary": "a16z quotes DHH saying Linux's historical weaknesses (terminal-heavy) now make it ideal for interfacing with agents.",
+   "source": {
+    "name": "a16z",
+    "url": "https://x.com/a16z/status/2123830231601684542",
+    "type": "x",
+    "handle": "a16z"
+   },
+   "publishedAt": "2026-11-20T17:26:00.000Z",
+   "metrics": {
+    "likes": 5,
+    "reposts": 0,
+    "replies": 1,
+    "capturedAt": "2026-11-20T17:28:51.356Z",
+    "views": 2514
+   },
+   "care": 4,
+   "proof": 3,
+   "topic": "dhh-linux-agents"
+  },
+  {
+   "id": "aravsrinivas-perplexity-teammate",
+   "lens": "broad",
+   "summary": "AravSrinivas says setting up a teammate on Perplexity is now as easy as typing into the prompt box (Computer toggle), reusing context and memory from past sessions.",
+   "source": {
+    "name": "AravSrinivas",
+    "url": "https://x.com/AravSrinivas/status/2123811155605164259",
+    "type": "x",
+    "handle": "AravSrinivas"
+   },
+   "publishedAt": "2026-11-20T16:10:12.000Z",
+   "metrics": {
+    "likes": 67,
+    "reposts": 2,
+    "replies": 23,
+    "capturedAt": "2026-11-20T17:28:51.356Z",
+    "views": 6998
+   },
+   "care": 3,
+   "proof": 3,
+   "topic": "perplexity-teammate"
+  },
+  {
+   "id": "googledeepmind-gemini-4-neon",
+   "lens": "broad",
+   "summary": "GoogleDeepMind says Gemini 4 Neon coded a ski simulator from real Mont Blanc terrain, built in Antigravity with custom shaders and no pre-made 3D models.",
+   "source": {
+    "name": "GoogleDeepMind",
+    "url": "https://x.com/GoogleDeepMind/status/2123826572385833119",
+    "type": "x",
+    "handle": "GoogleDeepMind"
+   },
+   "publishedAt": "2026-11-20T17:11:28.000Z",
+   "metrics": {
+    "likes": 248,
+    "reposts": 11,
+    "replies": 20,
+    "capturedAt": "2026-11-20T17:28:51.356Z",
+    "views": 13285
+   },
+   "care": 3,
+   "proof": 3,
+   "topic": "gemini-4-neon"
+  },
+  {
+   "id": "naval-nvidia-frontier-lab",
+   "lens": "frontier-capital",
+   "summary": "naval quotes: 'NVIDIA has to become a frontier lab faster than frontier labs are becoming chip companies.'",
+   "source": {
+    "name": "naval",
+    "url": "https://x.com/naval/status/2123768555317723476",
+    "type": "x",
+    "handle": "naval"
+   },
+   "publishedAt": "2026-11-20T13:20:55.000Z",
+   "metrics": {
+    "likes": 4628,
+    "reposts": 279,
+    "replies": 167,
+    "capturedAt": "2026-11-20T17:28:51.356Z",
+    "views": 274693
+   },
+   "care": 4,
+   "proof": 3,
+   "topic": "nvidia-frontier-lab"
+  },
+  {
+   "id": "nathanbenaich-airstreet-lato-agents",
+   "lens": "frontier-capital",
+   "summary": "nathanbenaich says Air Street led Lato's $4.7m seed, and that on a recent deal he got 14 hours of expert interviews in two days via Codex agents and Lato running the study, without taking a call.",
+   "source": {
+    "name": "nathanbenaich",
+    "url": "https://x.com/nathanbenaich/status/2123778892427063376",
+    "type": "x",
+    "handle": "nathanbenaich"
+   },
+   "publishedAt": "2026-11-20T14:02:00.000Z",
+   "metrics": {
+    "likes": 24,
+    "reposts": 1,
+    "replies": 4,
+    "capturedAt": "2026-11-20T17:28:51.356Z",
+    "views": 2481
+   },
+   "care": 3,
+   "proof": 3,
+   "topic": "airstreet-lato-agents"
+  },
+  {
+   "id": "mengto-astra-threejs",
+   "lens": "design",
+   "summary": "MengTo says Astra 6.2 is very good at three.js landing pages: good references and about six hours of steering got the fog between layout, 3D scenes and animations.",
+   "source": {
+    "name": "MengTo",
+    "url": "https://x.com/MengTo/status/2123794210721804750",
+    "type": "x",
+    "handle": "MengTo"
+   },
+   "publishedAt": "2026-11-20T15:02:52.000Z",
+   "metrics": {
+    "likes": 146,
+    "reposts": 43,
+    "replies": 15,
+    "capturedAt": "2026-11-20T17:28:51.356Z",
+    "views": 6120
+   },
+   "care": 3,
+   "proof": 3,
+   "topic": "astra-threejs"
+  }
+ ]
+}
