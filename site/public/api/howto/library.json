@@ -1,7 +1,41 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-19T12:13:25.375Z",
+  "updatedAt": "2026-11-20T12:12:43Z",
   "howtos": [
+    {
+      "id": "seo-listicles-ai-visibility-long-tail",
+      "dedupeKey": "seo-listicles-ai-visibility-long-tail-questions",
+      "title": "Revive SEO with listicles, AI visibility and long-tail queries",
+      "what": "Four SEO moves Tibo says have worked very well for his products over the past 2 months.",
+      "kind": "steps",
+      "copy": [
+        "Find listicles to buy",
+        "Monitor AI visibility",
+        "Find long-tail keywords",
+        "Find questions"
+      ],
+      "whenToUse": "When you want a product found through search and AI assistants, not just paid channels.",
+      "source": {
+        "name": "@tibo_maker on X",
+        "url": "https://x.com/tibo_maker/status/2123725557460324812"
+      },
+      "author": {
+        "name": "Tibo",
+        "handle": "tibo_maker"
+      },
+      "tags": [
+        "seo",
+        "ai-visibility",
+        "growth"
+      ],
+      "quality": 2,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-20-0700",
+        "itemId": "tibo-maker-seo-ai-visibility"
+      },
+      "addedAt": "2026-11-20T12:12:43Z"
+    },
     {
       "id": "assign-models-by-role-in-one-harness",
       "dedupeKey": "assign-models-by-role-multi-model-team",

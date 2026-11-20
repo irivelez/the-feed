@@ -1,41 +1,41 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-19T12:13:25.375Z",
-  "runId": "2026-11-19-0700",
+  "updatedAt": "2026-11-20T12:12:43Z",
+  "runId": "2026-11-20-0700",
   "howtos": [
     {
-      "id": "assign-models-by-role-in-one-harness",
-      "dedupeKey": "assign-models-by-role-multi-model-team",
-      "title": "Assign each model a role in your coding setup",
-      "what": "Split work across models by strength: one implements, one playtests, one writes copy.",
+      "id": "seo-listicles-ai-visibility-long-tail",
+      "dedupeKey": "seo-listicles-ai-visibility-long-tail-questions",
+      "title": "Revive SEO with listicles, AI visibility and long-tail queries",
+      "what": "Four SEO moves Tibo says have worked very well for his products over the past 2 months.",
       "kind": "steps",
       "copy": [
-        "Fable leading implementation",
-        "GPT-6.2 Astra as a playtester",
-        "Gemini 4 Neon as the exclusive copy writer",
-        "All using their native harnesses and subscriptions"
+        "Find listicles to buy",
+        "Monitor AI visibility",
+        "Find long-tail keywords",
+        "Find questions"
       ],
-      "whenToUse": "When several frontier models each beat the others at a different part of building a product.",
+      "whenToUse": "When you want a product found through search and AI assistants, not just paid channels.",
       "source": {
-        "name": "@theo on X",
-        "url": "https://x.com/theo/status/2123273253850628260"
+        "name": "@tibo_maker on X",
+        "url": "https://x.com/tibo_maker/status/2123725557460324812"
       },
       "author": {
-        "name": "Theo",
-        "handle": "theo"
+        "name": "Tibo",
+        "handle": "tibo_maker"
       },
       "tags": [
-        "multi-model",
-        "coding-agents",
-        "t3-code"
+        "seo",
+        "ai-visibility",
+        "growth"
       ],
-      "quality": 3,
-      "verbatim": true,
+      "quality": 2,
+      "verbatim": false,
       "briefItem": {
-        "briefId": "2026-11-19-0700",
-        "itemId": "theo-t3-code-model-roles"
+        "briefId": "2026-11-20-0700",
+        "itemId": "tibo-maker-seo-ai-visibility"
       },
-      "addedAt": "2026-11-19T12:13:25.375Z"
+      "addedAt": "2026-11-20T12:12:43Z"
     }
   ]
 }
