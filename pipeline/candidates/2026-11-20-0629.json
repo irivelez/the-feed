@@ -1,0 +1,284 @@
+{
+ "schemaVersion": "1.1",
+ "runId": "2026-11-20-0629",
+ "generatedAt": "2026-11-20T11:29:40.299Z",
+ "configVersions": {
+  "sources": "1.3.0",
+  "preferences": "1.1.0"
+ },
+ "window": {
+  "from": "2026-11-20T04:29:06.058Z",
+  "to": "2026-11-20T11:29:40.299Z"
+ },
+ "sourceNotes": [
+  "X lanes: 6 relevancy searches (originals only, last 7h). Frontier-capital lane returned 0 posts; design lane 1 post (MengTo). Many lane results were noise (Elon, beffjezos, nikitabier GTA jokes) and skipped. Query lane, reply capture, author baselines, arXiv and HN not fetched. RSS read: Simon Willison, The Verge AI, One Useful Thing (nothing new), Lenny (nothing new), Stratechery, Mitchell Hashimoto (nothing new), Metaplanet Google News (latest Nov 17, aggregator pages). Other RSS not fetched. Post text from the API is truncated; links not expanded. X News items have no primary link."
+ ],
+ "candidates": [
+  {
+   "id": "theo-gemini-4-neon",
+   "lens": "practical",
+   "summary": "Theo says Neon is the first Gemini model good enough to deserve a functioning platform, and that he will go back to pushing Google to fix platform issues once the honeymoon phase wears off.",
+   "source": {
+    "name": "theo",
+    "url": "https://x.com/theo/status/2123720457551823008",
+    "type": "x",
+    "handle": "theo"
+   },
+   "publishedAt": "2026-11-20T10:09:48.000Z",
+   "metrics": {
+    "likes": 784,
+    "reposts": 9,
+    "replies": 69,
+    "views": 22886,
+    "capturedAt": "2026-11-20T11:29:40.299Z"
+   },
+   "care": 4,
+   "proof": 3,
+   "topic": "gemini-4-neon"
+  },
+  {
+   "id": "theo-t3-code-gemini",
+   "lens": "practical",
+   "summary": "Theo says the latest stable release of T3 Code should be a significant improvement in Antigravity/Gemini support.",
+   "source": {
+    "name": "theo",
+    "url": "https://x.com/theo/status/2123720628100628521",
+    "type": "x",
+    "handle": "theo"
+   },
+   "publishedAt": "2026-11-20T10:10:29.000Z",
+   "metrics": {
+    "likes": 452,
+    "reposts": 6,
+    "replies": 48,
+    "views": 17990,
+    "capturedAt": "2026-11-20T11:29:40.299Z"
+   },
+   "care": 3,
+   "proof": 3,
+   "topic": "t3-code-gemini"
+  },
+  {
+   "id": "kunchenguid-gemini-4-neon",
+   "lens": "practical",
+   "summary": "kunchenguid writes that Gemini 4 Neon 'is not bad' and that Google only needs to allow Gemini subscriptions in any harness for a comeback.",
+   "source": {
+    "name": "kunchenguid",
+    "url": "https://x.com/kunchenguid/status/2123643593688822222",
+    "type": "x",
+    "handle": "kunchenguid"
+   },
+   "publishedAt": "2026-11-20T05:04:22.000Z",
+   "metrics": {
+    "likes": 1975,
+    "reposts": 31,
+    "replies": 82,
+    "views": 104367,
+    "capturedAt": "2026-11-20T11:29:40.299Z"
+   },
+   "care": 4,
+   "proof": 3,
+   "topic": "gemini-4-neon"
+  },
+  {
+   "id": "geoffreyhuntley-bot-per-employee",
+   "lens": "practical",
+   "summary": "GeoffreyHuntley describes showing his builder how he manages OpenAI dots through his bots, creating one bot per virtual employee (post text truncated by the API).",
+   "source": {
+    "name": "GeoffreyHuntley",
+    "url": "https://x.com/GeoffreyHuntley/status/2123663979461652744",
+    "type": "x",
+    "handle": "GeoffreyHuntley"
+   },
+   "publishedAt": "2026-11-20T06:25:23.000Z",
+   "metrics": {
+    "likes": 105,
+    "reposts": 3,
+    "replies": 23,
+    "views": 6725,
+    "capturedAt": "2026-11-20T11:29:40.299Z"
+   },
+   "care": 3,
+   "proof": 2,
+   "topic": "bot-per-employee"
+  },
+  {
+   "id": "swyx-cursor-origin",
+   "lens": "practical",
+   "summary": "swyx asks whether anyone uses Cursor Origin 'in anger' yet and whether it has actions/CI/CD.",
+   "source": {
+    "name": "swyx",
+    "url": "https://x.com/swyx/status/2123690305736396925",
+    "type": "x",
+    "handle": "swyx"
+   },
+   "publishedAt": "2026-11-20T08:09:59.000Z",
+   "metrics": {
+    "likes": 54,
+    "reposts": 0,
+    "replies": 49,
+    "views": 7948,
+    "capturedAt": "2026-11-20T11:29:40.299Z"
+   },
+   "care": 3,
+   "proof": 2,
+   "topic": "cursor-origin"
+  },
+  {
+   "id": "tibo_maker-seo-ai-visibility",
+   "lens": "practical",
+   "summary": "tibo_maker says SEO has worked 'insanely well' again for his products in the past 2 months, mainly by finding listicles to buy, monitoring AI visibility, finding long-tail keywords and finding questions.",
+   "source": {
+    "name": "tibo_maker",
+    "url": "https://x.com/tibo_maker/status/2123725557460324812",
+    "type": "x",
+    "handle": "tibo_maker"
+   },
+   "publishedAt": "2026-11-20T10:30:04.000Z",
+   "metrics": {
+    "likes": 57,
+    "reposts": 3,
+    "replies": 66,
+    "views": 3965,
+    "capturedAt": "2026-11-20T11:29:40.299Z"
+   },
+   "care": 3,
+   "proof": 2,
+   "topic": "seo-ai-visibility"
+  },
+  {
+   "id": "mengto-astra-62-3d",
+   "lens": "design",
+   "summary": "MengTo says that with extra steering, astra 6.2 can achieve 3D realism he has not seen in a model before, and links a full workflow.",
+   "source": {
+    "name": "MengTo",
+    "url": "https://x.com/MengTo/status/2123650237600498063",
+    "type": "x",
+    "handle": "MengTo"
+   },
+   "publishedAt": "2026-11-20T05:30:46.000Z",
+   "metrics": {
+    "likes": 76,
+    "reposts": 6,
+    "replies": 11,
+    "views": 6869,
+    "capturedAt": "2026-11-20T11:29:40.299Z"
+   },
+   "care": 3,
+   "proof": 3,
+   "topic": "astra-62-3d"
+  },
+  {
+   "id": "simonwillison-token-fraud",
+   "lens": "practical",
+   "summary": "Simon Willison posted a YouTube talk titled 'Token fraud is here and it's BAD' (title only read; content not fetched).",
+   "source": {
+    "name": "Simon Willison",
+    "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-20T02:49:57.000Z",
+   "care": 4,
+   "proof": 3,
+   "topic": "token-fraud"
+  },
+  {
+   "id": "simonwillison-postgresql-19",
+   "lens": "practical",
+   "summary": "Simon Willison noted the release of PostgreSQL 19.",
+   "source": {
+    "name": "Simon Willison",
+    "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-19T20:43:57.000Z",
+   "care": 2,
+   "proof": 3,
+   "topic": "postgresql-19"
+  },
+  {
+   "id": "verge-apple-ai-agent-hiring",
+   "lens": "broad",
+   "summary": "The Verge reports Apple is hiring engineers to build its own AI agent, based on a job listing.",
+   "source": {
+    "name": "The Verge AI",
+    "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-19T23:13:01.000Z",
+   "care": 4,
+   "proof": 3,
+   "topic": "apple-ai-agent"
+  },
+  {
+   "id": "verge-meta-muse-charm-price",
+   "lens": "broad",
+   "summary": "The Verge reports Meta's Muse Charm might cost $300.",
+   "source": {
+    "name": "The Verge AI",
+    "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-19T20:29:21.000Z",
+   "care": 3,
+   "proof": 2,
+   "topic": "meta-muse-charm"
+  },
+  {
+   "id": "stratechery-jensen-not-coming-back",
+   "lens": "broad",
+   "summary": "Stratechery's Sharp Tech on Video episode (Nov 20) covers 'Jensen's Not Coming Back', AI shopping and the iPhone Duo (title only read).",
+   "source": {
+    "name": "Ben Thompson (Stratechery)",
+    "url": "https://stratechery.com/2026/sharp-tech-on-video-jensens-not-coming-back-ai-shopping-the-iphone-duo/",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-20T11:00:00.000Z",
+   "care": 3,
+   "proof": 2,
+   "topic": "nvidia-ceo-transition"
+  },
+  {
+   "id": "stratechery-agentic-commerce-seufert",
+   "lens": "broad",
+   "summary": "Stratechery published an interview with Eric Seufert about agentic commerce (Nov 19).",
+   "source": {
+    "name": "Ben Thompson (Stratechery)",
+    "url": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-19T11:00:00.000Z",
+   "care": 4,
+   "proof": 3,
+   "topic": "agentic-commerce"
+  },
+  {
+   "id": "xnews-gao-chatbots-bypass",
+   "lens": "broad",
+   "summary": "X News: a Government Accountability Office test posing as regular users found ChatGPT, Claude, Gemini and Grok could be bypassed with common techniques; two chatbots outlined improvised explosives. No primary source link available from the news feed.",
+   "source": {
+    "name": "X News",
+    "url": "https://x.com/i/trending/2123101217794441701",
+    "type": "web"
+   },
+   "publishedAt": "2026-11-20T05:40:44.000Z",
+   "care": 3,
+   "proof": 2,
+   "topic": "chatbot-safety-gao"
+  },
+  {
+   "id": "xnews-chinese-open-weights-anthropic",
+   "lens": "broad",
+   "summary": "X News: debate over fast-improving Chinese open-weight models (GLM 5.3, Qwen, Kimi K3, DeepSeek V4) potentially disrupting Anthropic. Commentary, no primary source.",
+   "source": {
+    "name": "X News",
+    "url": "https://x.com/i/trending/2123662178935046577",
+    "type": "web"
+   },
+   "publishedAt": "2026-11-20T06:23:20.000Z",
+   "care": 3,
+   "proof": 2,
+   "topic": "open-weights-china"
+  }
+ ]
+}
