@@ -1,0 +1,294 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-20-0700",
+  "date": "2026-11-20",
+  "publishedAt": "2026-11-20T12:12:07.899Z",
+  "edition": "Morning",
+  "top3": [
+    {
+      "itemId": "verge-apple-ai-agent-hiring",
+      "headline": "Apple is hiring engineers to build its own AI agent",
+      "whyItMatters": "An Apple agent would reach staff and customers on devices they already use every day."
+    },
+    {
+      "itemId": "gemini-4-neon-any-harness",
+      "headline": "Builders warm to Gemini 4 Neon but want open harness access",
+      "whyItMatters": "Google's gap is now access, not quality, which could shift which models teams pick."
+    },
+    {
+      "itemId": "simonwillison-token-fraud",
+      "headline": "Simon Willison warns token fraud is here and it's bad",
+      "whyItMatters": "Teams paying per token should check who can spend on their AI keys and accounts."
+    }
+  ],
+  "items": [
+    {
+      "id": "stratechery-jensen-not-coming-back",
+      "title": "Stratechery's Sharp Tech: 'Jensen's Not Coming Back'",
+      "takeaway": "Ben Thompson's Sharp Tech on Video episode covers Jensen Huang's exit from Nvidia, AI shopping and the iPhone Duo.",
+      "soWhat": "A week on, Nvidia's leadership change is still the story analysts keep returning to.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-20T11:00:00Z",
+      "source": {
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/sharp-tech-on-video-jensens-not-coming-back-ai-shopping-the-iphone-duo/"
+      },
+      "image": {
+        "src": "/img/stratechery-jensen-not-coming-back.jpg",
+        "alt": "Image from Stratechery"
+      }
+    },
+    {
+      "id": "tibo-maker-seo-ai-visibility",
+      "title": "Tibo: SEO works again when you track AI visibility",
+      "takeaway": "Tibo says SEO worked 'insanely well' for his products in the past 2 months: buying listicle spots, monitoring AI visibility, long-tail keywords and questions.",
+      "soWhat": "Being cited by AI assistants is becoming part of how products get found.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-20T10:30:04Z",
+      "source": {
+        "name": "@tibo_maker on X",
+        "url": "https://x.com/tibo_maker/status/2123725557460324812"
+      },
+      "image": {
+        "src": "/img/tibo-maker-seo-ai-visibility.jpg",
+        "alt": "Profile image of @tibo_maker"
+      },
+      "heat": {
+        "score": 2,
+        "level": "none",
+        "metric": "4k views"
+      }
+    },
+    {
+      "id": "theo-t3-code-gemini",
+      "title": "T3 Code's latest stable release improves Gemini support",
+      "takeaway": "Theo says the newest stable T3 Code release should be a significant improvement in Antigravity and Gemini support.",
+      "soWhat": "Coding tools are racing to support Gemini well, which widens model choice for teams.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-20T10:10:29Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2123720628100628521"
+      },
+      "image": {
+        "src": "/img/theo-t3-code-gemini.jpg",
+        "alt": "Profile image of @theo"
+      },
+      "heat": {
+        "score": 11,
+        "level": "none",
+        "metric": "18k views"
+      }
+    },
+    {
+      "id": "geoffreyhuntley-bot-per-employee",
+      "title": "Geoffrey Huntley runs one bot per virtual employee",
+      "takeaway": "Huntley describes showing his builder how he manages work through his bots, creating one bot per virtual employee.",
+      "soWhat": "Giving each agent one job role is a simple pattern any team can try.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-20T06:25:23Z",
+      "source": {
+        "name": "@GeoffreyHuntley on X",
+        "url": "https://x.com/GeoffreyHuntley/status/2123663979461652744"
+      },
+      "image": {
+        "src": "/img/geoffreyhuntley-bot-per-employee.jpg",
+        "alt": "Image from @GeoffreyHuntley on X"
+      },
+      "heat": {
+        "score": 2,
+        "level": "none",
+        "metric": "7k views"
+      }
+    },
+    {
+      "id": "xnews-gao-chatbots-bypass",
+      "title": "GAO test bypassed safeguards on ChatGPT, Claude, Gemini and Grok",
+      "takeaway": "X News reports a GAO test posing as regular users got past the chatbots' safeguards with common techniques; two outlined improvised explosives.",
+      "soWhat": "Treat vendor guardrails as one layer and add your own controls for staff and agents.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 5,
+      "publishedAt": "2026-11-20T05:40:44Z",
+      "source": {
+        "name": "X News",
+        "url": "https://x.com/i/trending/2123101217794441701"
+      },
+      "image": {
+        "src": "/img/xnews-gao-chatbots-bypass.jpg",
+        "alt": "X News: GAO test bypassed safeguards on ChatGPT, Claude, Gemini and Grok"
+      }
+    },
+    {
+      "id": "mengto-astra-62-3d",
+      "title": "Meng To: Astra 6.2 reaches new 3D realism with extra steering",
+      "takeaway": "Meng To says that with extra steering, Astra 6.2 reaches 3D realism he has not seen from a model before, and links his full workflow.",
+      "soWhat": "Guided well, lower-cost models can now produce high-end 3D visuals.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-20T05:30:46Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2123650237600498063"
+      },
+      "image": {
+        "src": "/img/mengto-astra-62-3d.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "7k views"
+      }
+    },
+    {
+      "id": "gemini-4-neon-any-harness",
+      "title": "Builders warm to Gemini 4 Neon but want open harness access",
+      "takeaway": "kunchenguid calls Neon 'not bad' and says Google only needs to allow Gemini subscriptions in any harness. Theo calls it the first Gemini worth a functioning platform.",
+      "soWhat": "Google's gap is shifting from model quality to how developers can access it.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-20T05:04:22Z",
+      "source": {
+        "name": "@kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2123643593688822222"
+      },
+      "related": [
+        {
+          "name": "@theo on X",
+          "url": "https://x.com/theo/status/2123720457551823008"
+        }
+      ],
+      "image": {
+        "src": "/img/gemini-4-neon-any-harness.jpg",
+        "alt": "Image from @kunchenguid on X"
+      },
+      "heat": {
+        "score": 31,
+        "level": "none",
+        "metric": "104k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "simonwillison-token-fraud",
+      "title": "Simon Willison warns token fraud is here and it's bad",
+      "takeaway": "Simon Willison shared a video talk on his blog titled 'Token fraud is here and it's BAD'.",
+      "soWhat": "If you pay for AI by the token, check who can spend on your keys and accounts.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-20T02:49:57Z",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/"
+      },
+      "image": {
+        "src": "/img/simonwillison-token-fraud.jpg",
+        "alt": "Simon Willison: Simon Willison warns token fraud is here and it's bad"
+      }
+    },
+    {
+      "id": "verge-apple-ai-agent-hiring",
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "takeaway": "A job listing reported by The Verge shows Apple recruiting engineers to build an AI agent of its own.",
+      "soWhat": "An Apple agent would reach staff and customers on devices they already use.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 7,
+      "publishedAt": "2026-11-19T23:13:01Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
+      },
+      "image": {
+        "src": "/img/verge-apple-ai-agent-hiring.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "verge-meta-muse-charm-price",
+      "title": "Meta's Muse Charm might cost $300, The Verge reports",
+      "takeaway": "The Verge reports Meta's Muse Charm AI device might be priced at $300.",
+      "soWhat": "Price will decide whether AI wearables spread beyond early adopters.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-19T20:29:21Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price"
+      },
+      "image": {
+        "src": "/img/verge-meta-muse-charm-price.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "stratechery-agentic-commerce-seufert",
+      "title": "Stratechery interviews Eric Seufert on agentic commerce",
+      "takeaway": "Ben Thompson interviewed Eric Seufert about agentic commerce, where AI agents shop on people's behalf.",
+      "soWhat": "If agents do the shopping, how brands get chosen and paid will change.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-19T11:00:00Z",
+      "source": {
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/"
+      },
+      "image": {
+        "src": "/img/stratechery-agentic-commerce-seufert.jpg",
+        "alt": "Image from Stratechery"
+      }
+    }
+  ],
+  "voices": [],
+  "hotOnX": [
+    {
+      "url": "https://x.com/kunchenguid/status/2123643593688822222",
+      "handle": "@kunchenguid",
+      "text": "Gemini 4 Neon is not bad; Google only needs to allow Gemini subscriptions in any harness for a comeback.",
+      "metric": "1,975 likes",
+      "note": "Developers want to use Gemini plans inside the coding tools they already prefer."
+    },
+    {
+      "url": "https://x.com/theo/status/2123720457551823008",
+      "handle": "@theo",
+      "text": "Neon is the first Gemini model good enough to deserve a functioning platform.",
+      "metric": "784 likes",
+      "note": "A well-known Gemini critic now praises the model while still pushing Google on its platform."
+    },
+    {
+      "url": "https://x.com/theo/status/2123720628100628521",
+      "handle": "@theo",
+      "text": "The latest stable release of T3 Code should be a significant improvement in Antigravity/Gemini support.",
+      "metric": "452 likes",
+      "note": "Tool makers are moving fast to support Neon."
+    },
+    {
+      "url": "https://x.com/GeoffreyHuntley/status/2123663979461652744",
+      "handle": "@GeoffreyHuntley",
+      "text": "Showing how he manages work through his bots, with one bot per virtual employee.",
+      "metric": "105 likes",
+      "note": "A concrete picture of running a small company with agents in job roles."
+    },
+    {
+      "url": "https://x.com/tibo_maker/status/2123725557460324812",
+      "handle": "@tibo_maker",
+      "text": "SEO has worked insanely well again in the past 2 months: listicles, AI visibility, long-tail keywords, questions.",
+      "metric": "57 likes, 66 replies",
+      "note": "Founders are curious how to get found by AI assistants, not just search engines."
+    }
+  ]
+}

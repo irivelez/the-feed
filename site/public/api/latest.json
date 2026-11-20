@@ -1,558 +1,294 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-19-1900",
-  "date": "2026-11-19",
-  "publishedAt": "2026-11-20T00:13:24Z",
-  "edition": "Evening",
+  "id": "2026-11-20-0700",
+  "date": "2026-11-20",
+  "publishedAt": "2026-11-20T12:12:07.899Z",
+  "edition": "Morning",
   "top3": [
     {
-      "itemId": "aravsrinivas-anthropic-ipo-opus-55",
-      "headline": "On Anthropic's IPO day, Perplexity's CEO calls Opus 5.5 the best model",
-      "whyItMatters": "Even competitors name Anthropic's model the leader, which shapes vendor choices for your teams."
+      "itemId": "verge-apple-ai-agent-hiring",
+      "headline": "Apple is hiring engineers to build its own AI agent",
+      "whyItMatters": "An Apple agent would reach staff and customers on devices they already use every day."
     },
     {
-      "itemId": "aravsrinivas-decider-free-openrouter",
-      "headline": "Perplexity keeps Decider free for 3 weeks, claims near 20% share",
-      "whyItMatters": "Teams can test decision models at no cost while vendors compete hard on price."
+      "itemId": "gemini-4-neon-any-harness",
+      "headline": "Builders warm to Gemini 4 Neon but want open harness access",
+      "whyItMatters": "Google's gap is now access, not quality, which could shift which models teams pick."
     },
     {
-      "itemId": "theo-gemini-4-neon-long-horizon",
-      "headline": "Theo reports strong Gemini 4 Neon results on long engineering tasks",
-      "whyItMatters": "Long-horizon coding is where agents save the most time, so leadership there matters."
+      "itemId": "simonwillison-token-fraud",
+      "headline": "Simon Willison warns token fraud is here and it's bad",
+      "whyItMatters": "Teams paying per token should check who can spend on their AI keys and accounts."
     }
   ],
   "items": [
     {
-      "id": "amasad-muse-like-agent-one-prompt",
-      "title": "Masad: build your own Muse-like personal agent with one prompt",
-      "takeaway": "Amjad Masad posted 'Build your own Muse-like personal agent with one prompt', with a link to the details.",
-      "soWhat": "Personal agents like Muse are becoming something a small team can build, not only buy.",
-      "lens": "practical",
+      "id": "stratechery-jensen-not-coming-back",
+      "title": "Stratechery's Sharp Tech: 'Jensen's Not Coming Back'",
+      "takeaway": "Ben Thompson's Sharp Tech on Video episode covers Jensen Huang's exit from Nvidia, AI shopping and the iPhone Duo.",
+      "soWhat": "A week on, Nvidia's leadership change is still the story analysts keep returning to.",
+      "lens": "broad",
       "momentum": "building",
       "importance": 5,
-      "publishedAt": "2026-11-19T21:55:01Z",
+      "publishedAt": "2026-11-20T11:00:00Z",
       "source": {
-        "name": "@amasad on X",
-        "url": "https://x.com/amasad/status/2123535544718418191"
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/sharp-tech-on-video-jensens-not-coming-back-ai-shopping-the-iphone-duo/"
       },
       "image": {
-        "src": "/img/amasad-muse-like-agent-one-prompt.jpg",
-        "alt": "Image from @amasad on X"
-      },
-      "heat": {
-        "score": 4,
-        "level": "none",
-        "metric": "10k views"
+        "src": "/img/stratechery-jensen-not-coming-back.jpg",
+        "alt": "Image from Stratechery"
       }
     },
     {
-      "id": "amasad-contract-with-your-agent",
-      "title": "Replit's Amjad Masad expects others to copy its agent contracts",
-      "takeaway": "Masad says having a contract with your agent is a paradigm he expects many to copy from Replit. Details are in his linked post.",
-      "soWhat": "Setting terms with an agent before it starts work is turning into a product feature.",
+      "id": "tibo-maker-seo-ai-visibility",
+      "title": "Tibo: SEO works again when you track AI visibility",
+      "takeaway": "Tibo says SEO worked 'insanely well' for his products in the past 2 months: buying listicle spots, monitoring AI visibility, long-tail keywords and questions.",
+      "soWhat": "Being cited by AI assistants is becoming part of how products get found.",
       "lens": "practical",
       "momentum": "new",
       "importance": 5,
-      "publishedAt": "2026-11-19T21:54:18Z",
+      "publishedAt": "2026-11-20T10:30:04Z",
       "source": {
-        "name": "@amasad on X",
-        "url": "https://x.com/amasad/status/2123535362568134894"
+        "name": "@tibo_maker on X",
+        "url": "https://x.com/tibo_maker/status/2123725557460324812"
       },
       "image": {
-        "src": "/img/amasad-contract-with-your-agent.jpg",
-        "alt": "Image from @amasad on X"
+        "src": "/img/tibo-maker-seo-ai-visibility.jpg",
+        "alt": "Profile image of @tibo_maker"
       },
       "heat": {
-        "score": 0,
+        "score": 2,
         "level": "none",
         "metric": "4k views"
       }
     },
     {
-      "id": "theo-gemini-4-neon-long-horizon",
-      "title": "Theo reports strong Gemini 4 Neon results on long engineering tasks",
-      "takeaway": "Theo says he is seeing 'insane results from Gemini 4 Neon on long horizon eng work' and will share more soon.",
-      "soWhat": "Long-running coding work is where model choice matters most, so watch for his evidence.",
+      "id": "theo-t3-code-gemini",
+      "title": "T3 Code's latest stable release improves Gemini support",
+      "takeaway": "Theo says the newest stable T3 Code release should be a significant improvement in Antigravity and Gemini support.",
+      "soWhat": "Coding tools are racing to support Gemini well, which widens model choice for teams.",
       "lens": "practical",
       "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-19T21:06:06Z",
+      "importance": 5,
+      "publishedAt": "2026-11-20T10:10:29Z",
       "source": {
         "name": "@theo on X",
-        "url": "https://x.com/theo/status/2123523233551130896"
+        "url": "https://x.com/theo/status/2123720628100628521"
       },
       "image": {
-        "src": "/img/theo-gemini-4-neon-long-horizon.jpg",
+        "src": "/img/theo-t3-code-gemini.jpg",
         "alt": "Profile image of @theo"
       },
       "heat": {
-        "score": 19,
+        "score": 11,
         "level": "none",
-        "metric": "32k views"
+        "metric": "18k views"
       }
     },
     {
-      "id": "googledeepmind-koray-agi-less-spiky",
-      "title": "DeepMind's Koray Kavukcuoglu: no single test will show AGI arrived",
-      "takeaway": "Google DeepMind's SVP says progress will look like models becoming less spiky and more reliable, not a single benchmark moment.",
-      "soWhat": "Judge AI by how reliably it does your work, not by benchmark headlines.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-19T20:52:21Z",
-      "source": {
-        "name": "@GoogleDeepMind on X",
-        "url": "https://x.com/GoogleDeepMind/status/2123519772390215780"
-      },
-      "image": {
-        "src": "/img/googledeepmind-koray-agi-less-spiky.jpg",
-        "alt": "Image from @GoogleDeepMind on X"
-      },
-      "heat": {
-        "score": 9,
-        "level": "none",
-        "metric": "30k views"
-      }
-    },
-    {
-      "id": "langchain-langsmith-ai-search",
-      "title": "LangSmith AI Search turns plain-words questions into filters",
-      "takeaway": "Queries such as 'frustrated users with LLM errors this week' become structured filters, plus an AI check for what a filter cannot express.",
-      "soWhat": "Teams running agents in production can find failures without learning query syntax.",
+      "id": "geoffreyhuntley-bot-per-employee",
+      "title": "Geoffrey Huntley runs one bot per virtual employee",
+      "takeaway": "Huntley describes showing his builder how he manages work through his bots, creating one bot per virtual employee.",
+      "soWhat": "Giving each agent one job role is a simple pattern any team can try.",
       "lens": "practical",
       "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-19T20:00:48Z",
+      "importance": 4,
+      "publishedAt": "2026-11-20T06:25:23Z",
       "source": {
-        "name": "@LangChain on X",
-        "url": "https://x.com/LangChain/status/2123506798875263302"
+        "name": "@GeoffreyHuntley on X",
+        "url": "https://x.com/GeoffreyHuntley/status/2123663979461652744"
       },
       "image": {
-        "src": "/img/langchain-langsmith-ai-search.jpg",
-        "alt": "Image from @LangChain on X"
+        "src": "/img/geoffreyhuntley-bot-per-employee.jpg",
+        "alt": "Image from @GeoffreyHuntley on X"
       },
       "heat": {
-        "score": 0,
+        "score": 2,
         "level": "none",
-        "metric": "2k views"
+        "metric": "7k views"
       }
     },
     {
-      "id": "nathanbenaich-robotics-shared-experience",
-      "title": "Benaich: robots now share one model across customer sites",
-      "takeaway": "Nathan Benaich says frontier robotic systems like Sereact no longer need a custom model per site; experience at one site improves the model for the rest.",
-      "soWhat": "Shared learning across sites is what lets robotics scale more like software.",
-      "lens": "frontier-capital",
-      "momentum": "new",
+      "id": "xnews-gao-chatbots-bypass",
+      "title": "GAO test bypassed safeguards on ChatGPT, Claude, Gemini and Grok",
+      "takeaway": "X News reports a GAO test posing as regular users got past the chatbots' safeguards with common techniques; two outlined improvised explosives.",
+      "soWhat": "Treat vendor guardrails as one layer and add your own controls for staff and agents.",
+      "lens": "broad",
+      "momentum": "shift",
       "importance": 5,
-      "publishedAt": "2026-11-19T18:58:00Z",
+      "publishedAt": "2026-11-20T05:40:44Z",
       "source": {
-        "name": "@nathanbenaich on X",
-        "url": "https://x.com/nathanbenaich/status/2123490994012442906"
+        "name": "X News",
+        "url": "https://x.com/i/trending/2123101217794441701"
       },
       "image": {
-        "src": "/img/nathanbenaich-robotics-shared-experience.jpg",
-        "alt": "Image from @nathanbenaich on X"
+        "src": "/img/xnews-gao-chatbots-bypass.jpg",
+        "alt": "X News: GAO test bypassed safeguards on ChatGPT, Claude, Gemini and Grok"
+      }
+    },
+    {
+      "id": "mengto-astra-62-3d",
+      "title": "Meng To: Astra 6.2 reaches new 3D realism with extra steering",
+      "takeaway": "Meng To says that with extra steering, Astra 6.2 reaches 3D realism he has not seen from a model before, and links his full workflow.",
+      "soWhat": "Guided well, lower-cost models can now produce high-end 3D visuals.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-20T05:30:46Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2123650237600498063"
+      },
+      "image": {
+        "src": "/img/mengto-astra-62-3d.jpg",
+        "alt": "Image from @MengTo on X"
       },
       "heat": {
         "score": 0,
         "level": "none",
-        "metric": "1k views"
+        "metric": "7k views"
       }
     },
     {
-      "id": "aravsrinivas-anthropic-ipo-opus-55",
-      "title": "On Anthropic's IPO day, Perplexity's CEO calls Opus 5.5 the best model",
-      "takeaway": "Aravind Srinivas congratulated Anthropic on its 'historic IPO today' and said Opus 5.5 'remains the best model in the industry by a good margin'.",
-      "soWhat": "Praise from a competitor's CEO on listing day supports Anthropic's model-lead story with new investors.",
-      "lens": "broad",
-      "momentum": "shift",
-      "importance": 9,
-      "publishedAt": "2026-11-19T18:18:09Z",
-      "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2123480966459174920"
-      },
-      "image": {
-        "src": "/img/aravsrinivas-anthropic-ipo-opus-55.jpg",
-        "alt": "Profile image of @AravSrinivas"
-      },
-      "heat": {
-        "score": 22,
-        "level": "none",
-        "metric": "57k views"
-      }
-    },
-    {
-      "id": "aravsrinivas-decider-free-openrouter",
-      "title": "Perplexity keeps Decider models free on OpenRouter for three more weeks",
-      "takeaway": "Decider-v1.3 and Flash stay free for another 3 weeks. Srinivas says Perplexity's share of requests on Decision models is close to 20%.",
-      "soWhat": "Free windows are how model makers buy share, so cheap tests are available now.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-19T18:08:03Z",
-      "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2123478424761368980"
-      },
-      "image": {
-        "src": "/img/aravsrinivas-decider-free-openrouter.jpg",
-        "alt": "Profile image of @AravSrinivas"
-      },
-      "heat": {
-        "score": 4,
-        "level": "none",
-        "metric": "20k views"
-      }
-    },
-    {
-      "id": "perplexity-context-api-safe-fetch",
-      "title": "Perplexity adds prompt-injection checks to its Context API",
-      "takeaway": "After feedback from Tobi, Perplexity shipped decision models that screen fetched content for prompt injection and score it on custom criteria.",
-      "soWhat": "Web content is a main route for attacking agents, so filtering it before use is basic hygiene.",
+      "id": "gemini-4-neon-any-harness",
+      "title": "Builders warm to Gemini 4 Neon but want open harness access",
+      "takeaway": "kunchenguid calls Neon 'not bad' and says Google only needs to allow Gemini subscriptions in any harness. Theo calls it the first Gemini worth a functioning platform.",
+      "soWhat": "Google's gap is shifting from model quality to how developers can access it.",
       "lens": "practical",
       "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-19T17:12:22Z",
+      "importance": 7,
+      "publishedAt": "2026-11-20T05:04:22Z",
       "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2123464412971635018"
-      },
-      "image": {
-        "src": "/img/perplexity-context-api-safe-fetch.jpg",
-        "alt": "Profile image of @AravSrinivas"
-      },
-      "heat": {
-        "score": 0,
-        "level": "none",
-        "metric": "4k views"
-      }
-    },
-    {
-      "id": "anthropic-ipo-dario-remarks",
-      "title": "Dario Amodei shares his remarks on Anthropic's IPO",
-      "takeaway": "Anthropic posted CEO Dario Amodei's remarks on its IPO. He opens with why he and his co-founders started the company.",
-      "soWhat": "A frontier lab's CEO now speaks to public shareholders, so mission claims meet market scrutiny.",
-      "lens": "broad",
-      "momentum": "shift",
-      "importance": 9,
-      "publishedAt": "2026-11-19T17:01:26Z",
-      "source": {
-        "name": "@AnthropicAI on X",
-        "url": "https://x.com/AnthropicAI/status/2123461658890686863"
+        "name": "@kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2123643593688822222"
       },
       "related": [
         {
-          "name": "@rauchg on X",
-          "url": "https://x.com/rauchg/status/2123388870813450641"
+          "name": "@theo on X",
+          "url": "https://x.com/theo/status/2123720457551823008"
         }
       ],
       "image": {
-        "src": "/img/anthropic-ipo-dario-remarks.jpg",
-        "alt": "Image from @AnthropicAI on X"
+        "src": "/img/gemini-4-neon-any-harness.jpg",
+        "alt": "Image from @kunchenguid on X"
       },
       "heat": {
-        "score": 34,
+        "score": 31,
         "level": "none",
-        "metric": "119k views",
+        "metric": "104k views",
         "voices": 2
       }
     },
     {
-      "id": "perplexity-brain-self-improving-skills",
-      "title": "Perplexity Computer now writes its own agent skills from past sessions",
-      "takeaway": "Brain, which keeps a wiki about your work, now writes and updates agent skills; an improvement agent reads full session trajectories.",
-      "soWhat": "Agents that learn from their own sessions cut the manual work of maintaining skills.",
+      "id": "simonwillison-token-fraud",
+      "title": "Simon Willison warns token fraud is here and it's bad",
+      "takeaway": "Simon Willison shared a video talk on his blog titled 'Token fraud is here and it's BAD'.",
+      "soWhat": "If you pay for AI by the token, check who can spend on your keys and accounts.",
       "lens": "practical",
       "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-11-19T16:19:15Z",
+      "importance": 6,
+      "publishedAt": "2026-11-20T02:49:57Z",
       "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2123451045657690627"
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/"
       },
       "image": {
-        "src": "/img/perplexity-brain-self-improving-skills.jpg",
-        "alt": "Image from @AravSrinivas on X"
-      },
-      "heat": {
-        "score": 5,
-        "level": "none",
-        "metric": "10k views"
+        "src": "/img/simonwillison-token-fraud.jpg",
+        "alt": "Simon Willison: Simon Willison warns token fraud is here and it's bad"
       }
     },
     {
-      "id": "primeintellect-compromise-openrouter",
-      "title": "PrimeIntellect appears compromised; OpenRouter alerted affected users",
-      "takeaway": "Theo says PrimeIntellect appears compromised in a 'very strange way'. No public word from PrimeIntellect yet; OpenRouter told affected users, him included.",
-      "soWhat": "Each model provider behind your agents is part of your security surface, so track who you depend on.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-11-19T14:56:39Z",
-      "source": {
-        "name": "@theo on X",
-        "url": "https://x.com/theo/status/2123430257697157587"
-      },
-      "image": {
-        "src": "/img/primeintellect-compromise-openrouter.jpg",
-        "alt": "Image from @theo on X"
-      },
-      "heat": {
-        "score": 15,
-        "level": "none",
-        "metric": "64k views"
-      }
-    },
-    {
-      "id": "mengto-hi3d-mcp-game-characters",
-      "title": "Meng To: Claude Code built four 3D game characters on its own",
-      "takeaway": "For a three.js game Fable 5.2 built in 2 days, he gave Claude Code a picture of each character plus the Hi3D MCP.",
-      "soWhat": "Agents with the right tool connectors can now produce design assets, not just code.",
-      "lens": "design",
-      "momentum": "building",
-      "importance": 4,
-      "publishedAt": "2026-11-19T10:00:27Z",
-      "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2123355714693521766"
-      },
-      "image": {
-        "src": "/img/mengto-hi3d-mcp-game-characters.jpg",
-        "alt": "Image from @MengTo on X"
-      },
-      "heat": {
-        "score": 0,
-        "level": "none",
-        "metric": "3k views"
-      }
-    },
-    {
-      "id": "perplexity-multiagent-usage-doubles",
-      "title": "Perplexity says Multiagent usage doubled in a single day",
-      "takeaway": "Users pick it for work that splits into parallel pieces: decks, multi-source research, financial analysis, contact lists. Perplexity also shipped Monitor, Orchestrator and Context APIs.",
-      "soWhat": "Parallel agent work is finding real demand in everyday knowledge tasks, not just coding.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-19T08:12:52Z",
-      "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2123328640549339612"
-      },
-      "related": [
-        {
-          "name": "Perplexity APIs on X",
-          "url": "https://x.com/AravSrinivas/status/2123224126248906811"
-        }
-      ],
-      "image": {
-        "src": "/img/perplexity-multiagent-usage-doubles.jpg",
-        "alt": "Profile image of @AravSrinivas"
-      },
-      "heat": {
-        "score": 5,
-        "level": "none",
-        "metric": "10k views"
-      }
-    },
-    {
-      "id": "mengto-kimi-house-3d-site",
-      "title": "Kimi K3.1 Pro turns five concept images into a 3D house site",
-      "takeaway": "From five concept images it built the Blender model, materials and light, then a scroll-driven site cut open floor by floor.",
-      "soWhat": "Concept-to-client walkthrough is collapsing from weeks of studio work into one agent session.",
-      "lens": "design",
-      "momentum": "building",
-      "importance": 4,
-      "publishedAt": "2026-11-19T04:09:17Z",
-      "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2123267343988248810"
-      },
-      "related": [
-        {
-          "name": "Walkthrough on YouTube",
-          "url": "https://youtu.be/mKpwAwg90Vc"
-        }
-      ],
-      "image": {
-        "src": "/img/mengto-kimi-house-3d-site.jpg",
-        "alt": "Image from @MengTo on X"
-      },
-      "heat": {
-        "score": 0,
-        "level": "none",
-        "metric": "6k views"
-      }
-    },
-    {
-      "id": "genie-4-prompt-while-exploring",
-      "title": "Genie 4 lets users reshape a generated world while exploring it",
-      "takeaway": "Users can type prompts mid-exploration to add characters or change the scene, with audio adapting live; available to eligible Google AI Ultra subscribers.",
-      "soWhat": "Interactive world models point to new formats for training, simulation and product demos.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-19T02:25:37Z",
-      "source": {
-        "name": "@sundarpichai on X",
-        "url": "https://x.com/sundarpichai/status/2123241253982916795"
-      },
-      "image": {
-        "src": "/img/genie-4-prompt-while-exploring.jpg",
-        "alt": "Image from @sundarpichai on X"
-      },
-      "heat": {
-        "score": 25,
-        "level": "none",
-        "metric": "163k views"
-      }
-    },
-    {
-      "id": "anthropic-ipo-priced-83",
-      "title": "Anthropic prices its IPO at $83 a share, Nasdaq trading next",
-      "takeaway": "Anthropic priced its IPO at $83 per share; the SEC declared its registration effective on November 18 and Nasdaq trading is expected November 19.",
-      "soWhat": "A frontier lab now answers to public markets, so its pace and risk choices get priced daily.",
+      "id": "verge-apple-ai-agent-hiring",
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "takeaway": "A job listing reported by The Verge shows Apple recruiting engineers to build an AI agent of its own.",
+      "soWhat": "An Apple agent would reach staff and customers on devices they already use.",
       "lens": "broad",
       "momentum": "shift",
-      "importance": 9,
-      "publishedAt": "2026-11-18T23:29:00Z",
+      "importance": 7,
+      "publishedAt": "2026-11-19T23:13:01Z",
       "source": {
-        "name": "@AnthropicAI on X",
-        "url": "https://x.com/AnthropicAI/status/2123196808675405860"
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
       },
-      "related": [
-        {
-          "name": "Anthropic",
-          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
-        },
-        {
-          "name": "The Atlantic",
-          "url": "https://www.theatlantic.com/technology/2026/11/anthropic-winner-ai-race/689479/"
-        }
-      ],
       "image": {
-        "src": "/img/anthropic-ipo-priced-83.jpg",
-        "alt": "@AnthropicAI on X: Anthropic prices its IPO at $83 a share, Nasdaq trading next"
-      },
-      "heat": {
-        "score": 56,
-        "level": "warm",
-        "metric": "2.3M views",
-        "voices": 3
+        "src": "/img/verge-apple-ai-agent-hiring.jpg",
+        "alt": "Image from The Verge"
       }
     },
     {
-      "id": "tavicosta-silver-miners-capitulation",
-      "title": "Tavi Costa sees silver miners in a capitulation phase",
-      "takeaway": "Record outflows from the sector's biggest ETF, down more than 50% in six months; he says doubting your thesis is normal now.",
-      "soWhat": "A reminder that conviction is tested hardest when flows run the other way.",
-      "lens": "frontier-capital",
-      "momentum": "building",
-      "importance": 3,
-      "publishedAt": "2026-11-18T23:28:29Z",
-      "source": {
-        "name": "@TaviCosta on X",
-        "url": "https://x.com/TaviCosta/status/2123196677246857625"
-      },
-      "image": {
-        "src": "/img/tavicosta-silver-miners-capitulation.jpg",
-        "alt": "Image from @TaviCosta on X"
-      },
-      "heat": {
-        "score": 16,
-        "level": "none",
-        "metric": "42k views"
-      }
-    },
-    {
-      "id": "openai-research-jagged-frontier",
-      "title": "OpenAI: AI use by its own researchers keeps rising exponentially",
-      "takeaway": "OpenAI shares new data: researchers' AI use keeps rising exponentially, agents complete longer tasks, humans stay central, and researchers spend more time on safety.",
-      "soWhat": "How a frontier lab uses agents today previews how expert teams will work next.",
+      "id": "verge-meta-muse-charm-price",
+      "title": "Meta's Muse Charm might cost $300, The Verge reports",
+      "takeaway": "The Verge reports Meta's Muse Charm AI device might be priced at $300.",
+      "soWhat": "Price will decide whether AI wearables spread beyond early adopters.",
       "lens": "broad",
       "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-18T23:07:23Z",
+      "importance": 4,
+      "publishedAt": "2026-11-19T20:29:21Z",
       "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/research-acceleration-jagged-frontier"
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price"
       },
-      "related": [
-        {
-          "name": "@OpenAI on X",
-          "url": "https://x.com/OpenAI/status/2123191365983248653"
-        }
-      ],
       "image": {
-        "src": "/img/openai-research-jagged-frontier.jpg",
-        "alt": "Image from OpenAI"
+        "src": "/img/verge-meta-muse-charm-price.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "stratechery-agentic-commerce-seufert",
+      "title": "Stratechery interviews Eric Seufert on agentic commerce",
+      "takeaway": "Ben Thompson interviewed Eric Seufert about agentic commerce, where AI agents shop on people's behalf.",
+      "soWhat": "If agents do the shopping, how brands get chosen and paid will change.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-19T11:00:00Z",
+      "source": {
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-agentic-commerce/"
+      },
+      "image": {
+        "src": "/img/stratechery-agentic-commerce-seufert.jpg",
+        "alt": "Image from Stratechery"
       }
     }
   ],
-  "voices": [
-    {
-      "handle": "@AravSrinivas",
-      "quote": "remains the best model in the industry by a good margin",
-      "url": "https://x.com/AravSrinivas/status/2123480966459174920"
-    },
-    {
-      "handle": "@theo",
-      "quote": "insane results from Gemini 4 Neon on long horizon eng work",
-      "url": "https://x.com/theo/status/2123523233551130896"
-    },
-    {
-      "handle": "@amasad",
-      "quote": "Build your own Muse-like personal agent with one prompt",
-      "url": "https://x.com/amasad/status/2123535544718418191"
-    },
-    {
-      "handle": "@rauchg",
-      "quote": "It's infra not product",
-      "url": "https://x.com/rauchg/status/2123468825538789380"
-    },
-    {
-      "handle": "@hwchase17",
-      "quote": "if youre building agents, you should be building a knowledge factory",
-      "url": "https://x.com/hwchase17/status/2123293504164311419"
-    }
-  ],
+  "voices": [],
   "hotOnX": [
     {
-      "url": "https://x.com/theo/status/2123509826856878541",
+      "url": "https://x.com/kunchenguid/status/2123643593688822222",
+      "handle": "@kunchenguid",
+      "text": "Gemini 4 Neon is not bad; Google only needs to allow Gemini subscriptions in any harness for a comeback.",
+      "metric": "1,975 likes",
+      "note": "Developers want to use Gemini plans inside the coding tools they already prefer."
+    },
+    {
+      "url": "https://x.com/theo/status/2123720457551823008",
       "handle": "@theo",
-      "text": "End of 2026: Anthropic's model changed how we code, Google's is pleasant, OpenAI's is smartest but 'unpleasant to actually use'.",
-      "metric": "2.4k likes",
-      "note": "A builder's scorecard of the three big labs draws the most replies today."
+      "text": "Neon is the first Gemini model good enough to deserve a functioning platform.",
+      "metric": "784 likes",
+      "note": "A well-known Gemini critic now praises the model while still pushing Google on its platform."
     },
     {
-      "url": "https://x.com/AravSrinivas/status/2123480966459174920",
-      "handle": "@AravSrinivas",
-      "text": "Congrats to Anthropic on a historic IPO today; Opus 5.5 'remains the best model in the industry by a good margin'.",
-      "metric": "2.1k likes",
-      "note": "A competitor's CEO backs Anthropic's model lead on listing day."
-    },
-    {
-      "url": "https://x.com/theo/status/2123523233551130896",
+      "url": "https://x.com/theo/status/2123720628100628521",
       "handle": "@theo",
-      "text": "Seeing 'insane results from Gemini 4 Neon on long horizon eng work'; more soon.",
-      "metric": "1.5k likes",
-      "note": "Builders are testing Google's new model on long, autonomous coding work."
+      "text": "The latest stable release of T3 Code should be a significant improvement in Antigravity/Gemini support.",
+      "metric": "452 likes",
+      "note": "Tool makers are moving fast to support Neon."
     },
     {
-      "url": "https://x.com/rauchg/status/2123505400591106113",
-      "handle": "@rauchg",
-      "text": "Outcome-oriented, creative engineer: '1000x'. Tabs-vs-spaces debater: '-10x'. Regular knowledge worker: '2x'.",
-      "metric": "951 likes",
-      "note": "Vercel's CEO says AI widens the gap between outcome-driven engineers and the rest."
+      "url": "https://x.com/GeoffreyHuntley/status/2123663979461652744",
+      "handle": "@GeoffreyHuntley",
+      "text": "Showing how he manages work through his bots, with one bot per virtual employee.",
+      "metric": "105 likes",
+      "note": "A concrete picture of running a small company with agents in job roles."
     },
     {
-      "url": "https://x.com/a16z/status/2123484043996287469",
-      "handle": "@a16z",
-      "text": "Nick Bostrom: delaying superintelligence could mean delaying breakthroughs that radically extend human life.",
-      "metric": "570 likes",
-      "note": "The case against slowing AI, framed as a cost to human lifespan."
+      "url": "https://x.com/tibo_maker/status/2123725557460324812",
+      "handle": "@tibo_maker",
+      "text": "SEO has worked insanely well again in the past 2 months: listicles, AI visibility, long-tail keywords, questions.",
+      "metric": "57 likes, 66 replies",
+      "note": "Founders are curious how to get found by AI assistants, not just search engines."
     }
   ]
 }
