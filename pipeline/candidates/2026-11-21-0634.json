@@ -1,0 +1,448 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-21-0634",
+  "generatedAt": "2026-11-21T11:35:07.195Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-20T21:34:28.252Z",
+    "to": "2026-11-21T11:35:07.195Z"
+  },
+  "sourceNotes": [
+    "X: 5 combined from:-handle searches (results carry no usernames; handles taken from post URLs); last 14h, original posts only; authorBaseline not read (rate budget).",
+    "X replies not captured this run; X queries not run this run.",
+    "Stratechery RSS: HTTP 403. Dwarkesh RSS: empty response. Benedict Evans, One Useful Thing, Mitchell Hashimoto, Lenny: no recent items.",
+    "Hacker News Algolia: HTTP 400 on request. arXiv not fetched this run.",
+    "RSS (Simon Willison, Verge, MIT Tech Review, Atlantic, Gary Marcus) read as titles only; no candidates taken.",
+    "Noisy: GTA VI chatter from several handles (ThePrimeagen, poteto, GeoffreyHuntley, Ronycoder); elonmusk posts mostly memes."
+  ],
+  "candidates": [
+    {
+      "id": "x-2123930655000346888",
+      "lens": "practical",
+      "topic": "inkling-2-small",
+      "summary": "AlexFinn posted that Thinking Machines launched Inkling 2 Small, a 26B model that fits on a laptop, and claims it beats Qwen 3.8 27B.",
+      "facts": [
+        "Claim is from the poster; no benchmark link read."
+      ],
+      "source": {
+        "name": "@AlexFinn on X",
+        "url": "https://x.com/AlexFinn/status/2123930655000346888",
+        "type": "x",
+        "handle": "AlexFinn"
+      },
+      "publishedAt": "2026-11-21T00:05:03.000Z",
+      "metrics": {
+        "likes": 2167,
+        "reposts": 99,
+        "replies": 89,
+        "views": 159508,
+        "capturedAt": "2026-11-21T11:35:07.195Z"
+      },
+      "care": 4,
+      "proof": 2
+    },
+    {
+      "id": "x-2123943441017028866",
+      "lens": "practical",
+      "topic": "gemini-4-neon",
+      "summary": "gregisenberg shares 10 insights from 5 days with Gemini 4 Neon (early access, sponsored episode), starting with using /swarm with a researcher, a designer and engineers.",
+      "facts": [
+        "Sponsored by Google per the post."
+      ],
+      "source": {
+        "name": "@gregisenberg on X",
+        "url": "https://x.com/gregisenberg/status/2123943441017028866",
+        "type": "x",
+        "handle": "gregisenberg"
+      },
+      "publishedAt": "2026-11-21T00:55:51.000Z",
+      "metrics": {
+        "likes": 398,
+        "reposts": 20,
+        "replies": 53,
+        "views": 38788,
+        "capturedAt": "2026-11-21T11:35:07.195Z"
+      },
+      "care": 4,
+      "proof": 2
+    },
+    {
+      "id": "x-2123993205624770776",
+      "lens": "practical",
+      "topic": "gemini-4-neon",
+      "summary": "AravSrinivas: Gemini Neon is available on Perplexity Computer; he says he hears it is better than Opus 5.5 and Perplexity may make it the default model based on retention stats.",
+      "facts": [
+        "Hearsay on model quality; default switch is 'might'."
+      ],
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2123993205624770776",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-21T04:13:36.000Z",
+      "metrics": {
+        "likes": 543,
+        "reposts": 21,
+        "replies": 74,
+        "views": 31611,
+        "capturedAt": "2026-11-21T11:35:07.195Z"
+      },
+      "care": 4,
+      "proof": 3
+    },
+    {
+      "id": "x-2123929867393831114",
+      "lens": "practical",
+      "topic": "gemini-4-neon",
+      "summary": "theo posted that Gemini is seeing exponential growth in T3 Code usage.",
+      "facts": [
+        "No numbers in the post text."
+      ],
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2123929867393831114",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-21T00:01:55.000Z",
+      "metrics": {
+        "likes": 2972,
+        "reposts": 51,
+        "replies": 163,
+        "views": 108570,
+        "capturedAt": "2026-11-21T11:35:07.195Z"
+      },
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "x-2123985561551778151",
+      "lens": "practical",
+      "topic": "batching-prs",
+      "summary": "kunchenguid says his PR count fell from about 200 PRs/day to about 30 after he began batching multiple branches into one PR to improve CI efficiency, while shipping more than before.",
+      "facts": [
+        "First-hand workflow report; CI architecture is in an attached image/thread."
+      ],
+      "source": {
+        "name": "@kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2123985561551778151",
+        "type": "x",
+        "handle": "kunchenguid"
+      },
+      "publishedAt": "2026-11-21T03:43:14.000Z",
+      "metrics": {
+        "likes": 343,
+        "reposts": 12,
+        "replies": 52,
+        "views": 24087,
+        "capturedAt": "2026-11-21T11:35:07.195Z"
+      },
+      "care": 4,
+      "proof": 3
+    },
+    {
+      "id": "x-2124066583589077005",
+      "lens": "practical",
+      "topic": "agent-maintainability",
+      "summary": "kunchenguid: RLVR in current frontier LLMs' post-training is done at task level, so agents do not optimise for long-term maintainability, which he links to useless comments and tests.",
+      "facts": [
+        "Opinion; no evidence linked."
+      ],
+      "source": {
+        "name": "@kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2124066583589077005",
+        "type": "x",
+        "handle": "kunchenguid"
+      },
+      "publishedAt": "2026-11-21T09:05:11.000Z",
+      "metrics": {
+        "likes": 165,
+        "reposts": 11,
+        "replies": 28,
+        "views": 5844,
+        "capturedAt": "2026-11-21T11:35:07.195Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "x-2123898792487576021",
+      "lens": "practical",
+      "topic": "no-comments-skill",
+      "summary": "poteto suggests trying /no-comments from pstack, or asking your agent to turn it into a lint rule.",
+      "facts": [
+        "Tool tip."
+      ],
+      "source": {
+        "name": "@poteto on X",
+        "url": "https://x.com/poteto/status/2123898792487576021",
+        "type": "x",
+        "handle": "poteto"
+      },
+      "publishedAt": "2026-11-20T21:58:26.000Z",
+      "metrics": {
+        "likes": 2272,
+        "reposts": 89,
+        "replies": 90,
+        "views": 129895,
+        "capturedAt": "2026-11-21T11:35:07.195Z"
+      },
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "x-2123907614551810372",
+      "lens": "practical",
+      "topic": "orchestration-meme",
+      "summary": "poteto joked about orchestrating all your bots with just your mind.",
+      "facts": [
+        "Joke; low value."
+      ],
+      "source": {
+        "name": "@poteto on X",
+        "url": "https://x.com/poteto/status/2123907614551810372",
+        "type": "x",
+        "handle": "poteto"
+      },
+      "publishedAt": "2026-11-20T22:33:30.000Z",
+      "metrics": {
+        "likes": 3255,
+        "reposts": 128,
+        "replies": 173,
+        "views": 106252,
+        "capturedAt": "2026-11-21T11:35:07.195Z"
+      },
+      "care": 1,
+      "proof": 1
+    },
+    {
+      "id": "x-2124058139477594142",
+      "lens": "practical",
+      "topic": "adr-for-agents",
+      "summary": "mattpocockuk: good ADRs matter because agents make assumptions without them; the example came from a grilling session over naming and data relationships.",
+      "facts": [
+        "Short opinion with an attached image."
+      ],
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2124058139477594142",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-21T08:31:38.000Z",
+      "metrics": {
+        "likes": 156,
+        "reposts": 4,
+        "replies": 33,
+        "views": 15545,
+        "capturedAt": "2026-11-21T11:35:07.195Z"
+      },
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "x-2123901093751280052",
+      "lens": "practical",
+      "topic": "source-control-access",
+      "summary": "theo argues source control access should not be all-or-nothing: private files in repos, private branches for 3 team members, and built-in secret management.",
+      "facts": [
+        "Opinion, no linked proof."
+      ],
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2123901093751280052",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-20T22:07:35.000Z",
+      "metrics": {
+        "likes": 3733,
+        "reposts": 76,
+        "replies": 290,
+        "views": 234404,
+        "capturedAt": "2026-11-21T11:35:07.195Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "x-2124043630071652772",
+      "lens": "broad",
+      "topic": "local-models-mobile",
+      "summary": "nikitabier says there is a massive market opportunity in good local models that run on mobile devices, because phone data is too private and too large for a frontier model, especially given today's cybersecurity environment.",
+      "facts": [
+        "Opinion from a platform executive; no data."
+      ],
+      "source": {
+        "name": "@nikitabier on X",
+        "url": "https://x.com/nikitabier/status/2124043630071652772",
+        "type": "x",
+        "handle": "nikitabier"
+      },
+      "publishedAt": "2026-11-21T07:33:58.000Z",
+      "metrics": {
+        "likes": 1768,
+        "reposts": 114,
+        "replies": 245,
+        "views": 95541,
+        "capturedAt": "2026-11-21T11:35:07.195Z"
+      },
+      "care": 4,
+      "proof": 2
+    },
+    {
+      "id": "x-2124036566511472763",
+      "lens": "broad",
+      "topic": "design-delegation",
+      "summary": "nikitabier: when building a consumer app you need near photographic memory of every decision, pixel and data trend; delegating key design decisions makes it hard to see when new patterns emerge.",
+      "facts": [
+        "Opinion."
+      ],
+      "source": {
+        "name": "@nikitabier on X",
+        "url": "https://x.com/nikitabier/status/2124036566511472763",
+        "type": "x",
+        "handle": "nikitabier"
+      },
+      "publishedAt": "2026-11-21T07:05:54.000Z",
+      "metrics": {
+        "likes": 2242,
+        "reposts": 160,
+        "replies": 141,
+        "views": 96177,
+        "capturedAt": "2026-11-21T11:35:07.195Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "x-2123949893014388933",
+      "lens": "broad",
+      "topic": "nvda-ai-fad",
+      "summary": "nikitabier posted sarcastically that 'the verdict is out: AI was a fad this whole time' with $NVDA, a market-reaction joke.",
+      "facts": [
+        "No data in text."
+      ],
+      "source": {
+        "name": "@nikitabier on X",
+        "url": "https://x.com/nikitabier/status/2123949893014388933",
+        "type": "x",
+        "handle": "nikitabier"
+      },
+      "publishedAt": "2026-11-21T01:21:30.000Z",
+      "metrics": {
+        "likes": 9382,
+        "reposts": 322,
+        "replies": 614,
+        "views": 413093,
+        "capturedAt": "2026-11-21T11:35:07.195Z"
+      },
+      "care": 2,
+      "proof": 1
+    },
+    {
+      "id": "x-2124042864891982292",
+      "lens": "broad",
+      "topic": "elon-sft-system-prompt",
+      "summary": "elonmusk says SFT is more like 'a haircut with a chainsaw' than fine-tuning, that it should be built into primary training, and that a system prompt is silly; default behaviour should be sensible.",
+      "facts": [
+        "Opinion; he says 'the above are already true for' something truncated in the read."
+      ],
+      "source": {
+        "name": "@elonmusk on X",
+        "url": "https://x.com/elonmusk/status/2124042864891982292",
+        "type": "x",
+        "handle": "elonmusk"
+      },
+      "publishedAt": "2026-11-21T07:30:56.000Z",
+      "metrics": {
+        "likes": 7211,
+        "reposts": 655,
+        "replies": 797,
+        "views": 1186964,
+        "capturedAt": "2026-11-21T11:35:07.195Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "x-2123906584531304944",
+      "lens": "broad",
+      "topic": "greg-opportunities",
+      "summary": "gregisenberg lists biggest opportunities now: build for loneliness (people crave real human connection as AI floods everything) and for places with no cameras or recording.",
+      "facts": [
+        "Thesis post, no data."
+      ],
+      "source": {
+        "name": "@gregisenberg on X",
+        "url": "https://x.com/gregisenberg/status/2123906584531304944",
+        "type": "x",
+        "handle": "gregisenberg"
+      },
+      "publishedAt": "2026-11-20T22:29:24.000Z",
+      "metrics": {
+        "likes": 9280,
+        "reposts": 1047,
+        "replies": 336,
+        "views": 543038,
+        "capturedAt": "2026-11-21T11:35:07.195Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "x-2124015852592988367",
+      "lens": "design",
+      "topic": "three-js-game",
+      "summary": "MengTo spent about 24 hours building a three.js cyberpunk game with GPT-6.2 Astra (pick a character, drive through a city, real 3D) and open-sourced 3 skills: 3D scans, Lens rain, Selector.",
+      "facts": [
+        "Primary demo with open-sourced skills."
+      ],
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2124015852592988367",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-21T05:43:36.000Z",
+      "metrics": {
+        "likes": 526,
+        "reposts": 44,
+        "replies": 49,
+        "views": 31095,
+        "capturedAt": "2026-11-21T11:35:07.195Z"
+      },
+      "care": 4,
+      "proof": 4
+    },
+    {
+      "id": "x-2124005399397339622",
+      "lens": "frontier-capital",
+      "topic": "btc-56pct",
+      "summary": "LynAldenContact: 'Bitcoin is dead right now. It fell 56%.' and suggests checking back in 2-3 years during the next rising liquidity cycle and PMI cycle.",
+      "facts": [
+        "Crypto price move: muted topic in preferences; included as a low-ranked view on liquidity cycles only."
+      ],
+      "source": {
+        "name": "@LynAldenContact on X",
+        "url": "https://x.com/LynAldenContact/status/2124005399397339622",
+        "type": "x",
+        "handle": "LynAldenContact"
+      },
+      "publishedAt": "2026-11-21T05:02:03.000Z",
+      "metrics": {
+        "likes": 7540,
+        "reposts": 679,
+        "replies": 260,
+        "views": 250626,
+        "capturedAt": "2026-11-21T11:35:07.195Z"
+      },
+      "care": 2,
+      "proof": 2
+    }
+  ]
+}
