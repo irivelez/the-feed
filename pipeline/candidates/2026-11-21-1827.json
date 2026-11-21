@@ -1,0 +1,270 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-21-1827",
+  "generatedAt": "2026-11-21T23:28:00.871Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-21T17:15:40.991Z",
+    "to": "2026-11-21T23:28:00.871Z"
+  },
+  "sourceNotes": [
+    "X: 7 combined from:-handle searches over the lanes (original posts only, last ~6h); 55 posts returned; authorBaseline not read; X replies and X queries not run.",
+    "frontierCapital: only RayDalio, TaviCosta and nathanbenaich posted; none taken (generic, macro, or sports).",
+    "Noisy: elonmusk (Uranus/GTA memes), AlexFinn and nikitabier (GTA VI), Ronycoder (CapCut ad), nathanbenaich (tennis).",
+    "RSS, arXiv and Hacker News not fetched this run."
+  ],
+  "candidates": [
+    {
+      "id": "x-2124217876777464269",
+      "lens": "practical",
+      "topic": "gemini-4-effort",
+      "summary": "simonw reports Gemini 4 Hydrogen on 'xhigh' thinking effort vs 'high' differs a lot on his pelican test.",
+      "facts": [
+        "High: 3.99 cents, 5,311 output tokens.",
+        "xhigh: 23.61 cents, 31,477 output tokens."
+      ],
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2124217876777464269",
+        "type": "x",
+        "handle": "simonw"
+      },
+      "publishedAt": "2026-11-21T19:06:22.000Z",
+      "metrics": {
+        "likes": 239,
+        "reposts": 7,
+        "replies": 111,
+        "views": 18008,
+        "capturedAt": "2026-11-21T23:28:00.871Z"
+      },
+      "care": 4,
+      "proof": 4
+    },
+    {
+      "id": "x-2124214098984370645",
+      "lens": "practical",
+      "topic": "agent-writing-style",
+      "summary": "mattpocockuk proposes a method to get an agent to write in your style: build a 'scorer' app where the agent sends example sentences and you score them one at a time, swipe-style.",
+      "facts": [
+        "Scoring either 'score this sentence 1-4' (single) or a pick-between-options format."
+      ],
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2124214098984370645",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-21T18:51:21.000Z",
+      "metrics": {
+        "likes": 927,
+        "reposts": 24,
+        "replies": 98,
+        "views": 46564,
+        "capturedAt": "2026-11-21T23:28:00.871Z"
+      },
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "x-2124227570292117977",
+      "lens": "practical",
+      "topic": "agent-harness",
+      "summary": "startupideaspod posts 'How to design an agent harness' with a link/image.",
+      "facts": [
+        "Linked content not read."
+      ],
+      "source": {
+        "name": "@startupideaspod on X",
+        "url": "https://x.com/startupideaspod/status/2124227570292117977",
+        "type": "x",
+        "handle": "startupideaspod"
+      },
+      "publishedAt": "2026-11-21T19:44:53.000Z",
+      "metrics": {
+        "likes": 81,
+        "reposts": 7,
+        "replies": 0,
+        "views": 4114,
+        "capturedAt": "2026-11-21T23:28:00.871Z"
+      },
+      "care": 2,
+      "proof": 2
+    },
+    {
+      "id": "x-2124265949025235187",
+      "lens": "practical",
+      "topic": "knowledge-factory-agents",
+      "summary": "hwchase17 says many companies buy Copilot or similar and wonder why AI isn't changing how their team works; he calls the 'knowledge factory' the missing piece.",
+      "facts": [
+        "Links an article; not read."
+      ],
+      "source": {
+        "name": "@hwchase17 on X",
+        "url": "https://x.com/hwchase17/status/2124265949025235187",
+        "type": "x",
+        "handle": "hwchase17"
+      },
+      "publishedAt": "2026-11-21T22:17:23.000Z",
+      "metrics": {
+        "likes": 33,
+        "reposts": 1,
+        "replies": 12,
+        "views": 2262,
+        "capturedAt": "2026-11-21T23:28:00.871Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "x-2124277564596519355",
+      "lens": "practical",
+      "topic": "amuse-open-source",
+      "summary": "amasad says Amuse, built by Replit Missions, is open source.",
+      "facts": [
+        "Link to repo not read."
+      ],
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2124277564596519355",
+        "type": "x",
+        "handle": "amasad"
+      },
+      "publishedAt": "2026-11-21T23:03:33.000Z",
+      "metrics": {
+        "likes": 40,
+        "reposts": 2,
+        "replies": 13,
+        "views": 3211,
+        "capturedAt": "2026-11-21T23:28:00.871Z"
+      },
+      "care": 2,
+      "proof": 2
+    },
+    {
+      "id": "x-2124254600723394644",
+      "lens": "broad",
+      "topic": "gemini-4-models",
+      "summary": "AravSrinivas says Gemini Neon (reasoning High) is intelligent and fast, and he has migrated some of his Perplexity Computer Teammates to it.",
+      "facts": [
+        "Post continues with congratulations; rest of text not captured."
+      ],
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2124254600723394644",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-21T21:32:18.000Z",
+      "metrics": {
+        "likes": 1052,
+        "reposts": 54,
+        "replies": 54,
+        "views": 43574,
+        "capturedAt": "2026-11-21T23:28:00.871Z"
+      },
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "x-2124266892991115362",
+      "lens": "practical",
+      "topic": "t3-code-antigravity",
+      "summary": "theo says a Deepmind engineer who works on Antigravity has landed many PRs on T3 Code to improve Gemini support, calling it 'as official as it gets'.",
+      "facts": [
+        "Follows his earlier posts disputing claims about T3 Code's Antigravity support."
+      ],
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2124266892991115362",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-21T22:21:08.000Z",
+      "metrics": {
+        "likes": 944,
+        "reposts": 18,
+        "replies": 38,
+        "views": 23105,
+        "capturedAt": "2026-11-21T23:28:00.871Z"
+      },
+      "care": 2,
+      "proof": 3
+    },
+    {
+      "id": "x-2124270426402836626",
+      "lens": "broad",
+      "topic": "real-time-ai-video",
+      "summary": "elonmusk posts real-time AI video generation, 'no gaming engine', running on half of one AI4 TRIP accelerator.",
+      "facts": [
+        "Claim is the poster's; demo video attached, not independently verified."
+      ],
+      "source": {
+        "name": "@elonmusk on X",
+        "url": "https://x.com/elonmusk/status/2124270426402836626",
+        "type": "x",
+        "handle": "elonmusk"
+      },
+      "publishedAt": "2026-11-21T22:35:11.000Z",
+      "metrics": {
+        "likes": 4746,
+        "reposts": 490,
+        "replies": 626,
+        "views": 534303,
+        "capturedAt": "2026-11-21T23:28:00.871Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "x-2124201269879570695",
+      "lens": "broad",
+      "topic": "agent-traffic-travel",
+      "summary": "a16z Chart of the Week: after the Nov 13 FAA ground stop, Navan car and hotel bookings spiked to roughly twice normal hourly volume.",
+      "facts": [
+        "Charts linked in the post."
+      ],
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2124201269879570695",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "publishedAt": "2026-11-21T18:00:23.000Z",
+      "metrics": {
+        "likes": 41,
+        "reposts": 5,
+        "replies": 13,
+        "views": 11700,
+        "capturedAt": "2026-11-21T23:28:00.871Z"
+      },
+      "care": 2,
+      "proof": 3
+    },
+    {
+      "id": "x-2124195058408980677",
+      "lens": "design",
+      "topic": "motion-skills-ui",
+      "summary": "MengTo lists motion skills for animating UI: HyperFrames (write HTML, render video with agents), Emil Kowalski's animation skills, DesignBookmark Motion animated components.",
+      "facts": [],
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2124195058408980677",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-21T17:35:42.000Z",
+      "metrics": {
+        "likes": 226,
+        "reposts": 15,
+        "replies": 27,
+        "views": 10104,
+        "capturedAt": "2026-11-21T23:28:00.871Z"
+      },
+      "care": 3,
+      "proof": 3
+    }
+  ]
+}
