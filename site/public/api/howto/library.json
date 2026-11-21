@@ -1,7 +1,72 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-21T12:15:12Z",
+  "updatedAt": "2026-11-21T18:10:14Z",
   "howtos": [
+    {
+      "id": "curator-agent-owns-wiki-edits",
+      "dedupeKey": "single-curator-agent-for-wiki-edits",
+      "title": "Route all wiki edits through one curator agent",
+      "what": "Harrison Chase says agents can't reliably edit a wiki, so one separate curator agent should make every edit.",
+      "kind": "steps",
+      "copy": [
+        "Don't let your main agent or subagents edit the wiki directly.",
+        "Have a separate curator agent make all the edits."
+      ],
+      "whenToUse": "When several agents share a wiki or knowledge base and its content keeps drifting.",
+      "source": {
+        "name": "@hwchase17 on X",
+        "url": "https://x.com/hwchase17/status/2124188957001023548"
+      },
+      "author": {
+        "name": "Harrison Chase",
+        "handle": "hwchase17"
+      },
+      "tags": [
+        "multi-agent",
+        "knowledge-base",
+        "agent-design"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-21-1300",
+        "itemId": "hwchase17-curator-agent-wiki-edits"
+      },
+      "addedAt": "2026-11-21T18:10:14Z"
+    },
+    {
+      "id": "shared-team-bots-own-app-areas",
+      "dedupeKey": "shared-team-bots-with-ownership",
+      "title": "Share one team list of bots that own app areas",
+      "what": "Ryan Carson's team runs Devin Bots like employees that own parts of the app, shared by the whole team.",
+      "kind": "steps",
+      "copy": [
+        "Give each Bot ownership of a part of the app or the engineering process.",
+        "Keep one shared list of the Bots for the team.",
+        "Have everyone talk to the same Bots."
+      ],
+      "whenToUse": "When each teammate runs private agents and context is getting split across them.",
+      "source": {
+        "name": "@ryancarson on X",
+        "url": "https://x.com/ryancarson/status/2124174540204880154"
+      },
+      "author": {
+        "name": "Ryan Carson",
+        "handle": "ryancarson"
+      },
+      "tags": [
+        "agent-teams",
+        "coding-agents",
+        "workflow"
+      ],
+      "quality": 2,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-21-1300",
+        "itemId": "ryancarson-devin-bots-own-the-app"
+      },
+      "addedAt": "2026-11-21T18:10:14Z"
+    },
     {
       "id": "strip-agent-comments-no-comments-skill",
       "dedupeKey": "no-comments-skill-lint-rule",

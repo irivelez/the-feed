@@ -1,70 +1,72 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-21T12:15:12Z",
-  "runId": "2026-11-21-0634",
+  "updatedAt": "2026-11-21T18:10:14Z",
+  "runId": "2026-11-21-1233",
   "howtos": [
     {
-      "id": "strip-agent-comments-no-comments-skill",
-      "dedupeKey": "no-comments-skill-lint-rule",
-      "title": "Strip agent code comments with /no-comments",
-      "what": "poteto's tip: run the /no-comments skill from pstack, or turn it into a lint rule, to cut noisy agent comments.",
+      "id": "curator-agent-owns-wiki-edits",
+      "dedupeKey": "single-curator-agent-for-wiki-edits",
+      "title": "Route all wiki edits through one curator agent",
+      "what": "Harrison Chase says agents can't reliably edit a wiki, so one separate curator agent should make every edit.",
       "kind": "steps",
       "copy": [
-        "Try the /no-comments skill from pstack.",
-        "Or ask your agent to turn it into a lint rule."
+        "Don't let your main agent or subagents edit the wiki directly.",
+        "Have a separate curator agent make all the edits."
       ],
-      "whenToUse": "When coding agents keep filling your codebase with comments that add nothing.",
+      "whenToUse": "When several agents share a wiki or knowledge base and its content keeps drifting.",
       "source": {
-        "name": "@poteto on X",
-        "url": "https://x.com/poteto/status/2123898792487576021"
+        "name": "@hwchase17 on X",
+        "url": "https://x.com/hwchase17/status/2124188957001023548"
       },
       "author": {
-        "name": "poteto",
-        "handle": "poteto"
+        "name": "Harrison Chase",
+        "handle": "hwchase17"
       },
       "tags": [
-        "coding-agents",
-        "code-quality",
-        "skills"
+        "multi-agent",
+        "knowledge-base",
+        "agent-design"
       ],
       "quality": 3,
       "verbatim": false,
       "briefItem": {
-        "briefId": "2026-11-21-0700",
-        "itemId": "poteto-no-comments-skill"
+        "briefId": "2026-11-21-1300",
+        "itemId": "hwchase17-curator-agent-wiki-edits"
       },
-      "addedAt": "2026-11-21T12:15:12Z"
+      "addedAt": "2026-11-21T18:10:14Z"
     },
     {
-      "id": "batch-branches-into-one-pr",
-      "dedupeKey": "batch-branches-into-one-pr-for-ci",
-      "title": "Batch several branches into one PR for CI",
-      "what": "Kun Chen batches multiple branches into one PR; his PRs fell from about 200 to 30 a day while he ships more.",
+      "id": "shared-team-bots-own-app-areas",
+      "dedupeKey": "shared-team-bots-with-ownership",
+      "title": "Share one team list of bots that own app areas",
+      "what": "Ryan Carson's team runs Devin Bots like employees that own parts of the app, shared by the whole team.",
       "kind": "steps",
       "copy": [
-        "Batch multiple branches into one PR instead of opening one PR per branch, to make CI more efficient."
+        "Give each Bot ownership of a part of the app or the engineering process.",
+        "Keep one shared list of the Bots for the team.",
+        "Have everyone talk to the same Bots."
       ],
-      "whenToUse": "When agent-driven PR volume is clogging your CI pipeline.",
+      "whenToUse": "When each teammate runs private agents and context is getting split across them.",
       "source": {
-        "name": "@kunchenguid on X",
-        "url": "https://x.com/kunchenguid/status/2123985561551778151"
+        "name": "@ryancarson on X",
+        "url": "https://x.com/ryancarson/status/2124174540204880154"
       },
       "author": {
-        "name": "Kun Chen",
-        "handle": "kunchenguid"
+        "name": "Ryan Carson",
+        "handle": "ryancarson"
       },
       "tags": [
-        "ci",
+        "agent-teams",
         "coding-agents",
         "workflow"
       ],
-      "quality": 3,
+      "quality": 2,
       "verbatim": false,
       "briefItem": {
-        "briefId": "2026-11-21-0700",
-        "itemId": "kunchenguid-batched-prs-ci"
+        "briefId": "2026-11-21-1300",
+        "itemId": "ryancarson-devin-bots-own-the-app"
       },
-      "addedAt": "2026-11-21T12:15:12Z"
+      "addedAt": "2026-11-21T18:10:14Z"
     }
   ]
 }
