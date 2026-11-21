@@ -1,40 +1,70 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-20T18:06:22Z",
-  "runId": "2026-11-20-1228",
+  "updatedAt": "2026-11-21T12:15:12Z",
+  "runId": "2026-11-21-0634",
   "howtos": [
     {
-      "id": "audit-code-comments-with-agent",
-      "dedupeKey": "agent-review-categorise-code-comments",
-      "title": "Have an agent audit every code comment",
-      "what": "Matt Pocock's prompt of the day: an agent reviews each code comment and sorts it by category.",
+      "id": "strip-agent-comments-no-comments-skill",
+      "dedupeKey": "no-comments-skill-lint-rule",
+      "title": "Strip agent code comments with /no-comments",
+      "what": "poteto's tip: run the /no-comments skill from pstack, or turn it into a lint rule, to cut noisy agent comments.",
       "kind": "steps",
       "copy": [
-        "Ask the agent to review every code comment in the codebase, or in one section of it.",
-        "Have it categorise each comment.",
-        "First category: tautology, a comment that repeats what is already visible in the code."
+        "Try the /no-comments skill from pstack.",
+        "Or ask your agent to turn it into a lint rule."
       ],
-      "whenToUse": "When a codebase has collected noisy or outdated comments and you want a quick cleanup pass.",
+      "whenToUse": "When coding agents keep filling your codebase with comments that add nothing.",
       "source": {
-        "name": "@mattpocockuk on X",
-        "url": "https://x.com/mattpocockuk/status/2123798388227403983"
+        "name": "@poteto on X",
+        "url": "https://x.com/poteto/status/2123898792487576021"
       },
       "author": {
-        "name": "Matt Pocock",
-        "handle": "mattpocockuk"
+        "name": "poteto",
+        "handle": "poteto"
       },
       "tags": [
         "coding-agents",
         "code-quality",
-        "prompts"
+        "skills"
       ],
       "quality": 3,
       "verbatim": false,
       "briefItem": {
-        "briefId": "2026-11-20-1300",
-        "itemId": "mattpocock-code-comment-prompt"
+        "briefId": "2026-11-21-0700",
+        "itemId": "poteto-no-comments-skill"
       },
-      "addedAt": "2026-11-20T18:06:22Z"
+      "addedAt": "2026-11-21T12:15:12Z"
+    },
+    {
+      "id": "batch-branches-into-one-pr",
+      "dedupeKey": "batch-branches-into-one-pr-for-ci",
+      "title": "Batch several branches into one PR for CI",
+      "what": "Kun Chen batches multiple branches into one PR; his PRs fell from about 200 to 30 a day while he ships more.",
+      "kind": "steps",
+      "copy": [
+        "Batch multiple branches into one PR instead of opening one PR per branch, to make CI more efficient."
+      ],
+      "whenToUse": "When agent-driven PR volume is clogging your CI pipeline.",
+      "source": {
+        "name": "@kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2123985561551778151"
+      },
+      "author": {
+        "name": "Kun Chen",
+        "handle": "kunchenguid"
+      },
+      "tags": [
+        "ci",
+        "coding-agents",
+        "workflow"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-21-0700",
+        "itemId": "kunchenguid-batched-prs-ci"
+      },
+      "addedAt": "2026-11-21T12:15:12Z"
     }
   ]
 }

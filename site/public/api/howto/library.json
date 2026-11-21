@@ -1,7 +1,70 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-20T18:06:22Z",
+  "updatedAt": "2026-11-21T12:15:12Z",
   "howtos": [
+    {
+      "id": "strip-agent-comments-no-comments-skill",
+      "dedupeKey": "no-comments-skill-lint-rule",
+      "title": "Strip agent code comments with /no-comments",
+      "what": "poteto's tip: run the /no-comments skill from pstack, or turn it into a lint rule, to cut noisy agent comments.",
+      "kind": "steps",
+      "copy": [
+        "Try the /no-comments skill from pstack.",
+        "Or ask your agent to turn it into a lint rule."
+      ],
+      "whenToUse": "When coding agents keep filling your codebase with comments that add nothing.",
+      "source": {
+        "name": "@poteto on X",
+        "url": "https://x.com/poteto/status/2123898792487576021"
+      },
+      "author": {
+        "name": "poteto",
+        "handle": "poteto"
+      },
+      "tags": [
+        "coding-agents",
+        "code-quality",
+        "skills"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-21-0700",
+        "itemId": "poteto-no-comments-skill"
+      },
+      "addedAt": "2026-11-21T12:15:12Z"
+    },
+    {
+      "id": "batch-branches-into-one-pr",
+      "dedupeKey": "batch-branches-into-one-pr-for-ci",
+      "title": "Batch several branches into one PR for CI",
+      "what": "Kun Chen batches multiple branches into one PR; his PRs fell from about 200 to 30 a day while he ships more.",
+      "kind": "steps",
+      "copy": [
+        "Batch multiple branches into one PR instead of opening one PR per branch, to make CI more efficient."
+      ],
+      "whenToUse": "When agent-driven PR volume is clogging your CI pipeline.",
+      "source": {
+        "name": "@kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2123985561551778151"
+      },
+      "author": {
+        "name": "Kun Chen",
+        "handle": "kunchenguid"
+      },
+      "tags": [
+        "ci",
+        "coding-agents",
+        "workflow"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-21-0700",
+        "itemId": "kunchenguid-batched-prs-ci"
+      },
+      "addedAt": "2026-11-21T12:15:12Z"
+    },
     {
       "id": "audit-code-comments-with-agent",
       "dedupeKey": "agent-review-categorise-code-comments",
