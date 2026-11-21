@@ -1,0 +1,317 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-21-0700",
+  "date": "2026-11-21",
+  "publishedAt": "2026-11-21T12:14:16Z",
+  "edition": "Morning",
+  "top3": [
+    {
+      "itemId": "mengto-astra-threejs-cyberpunk-game",
+      "headline": "Meng To builds a 3D city driving game in a day",
+      "whyItMatters": "Small teams with AI can now ship rich interactive work that once needed a studio."
+    },
+    {
+      "itemId": "perplexity-gemini-neon-default",
+      "headline": "Perplexity may switch its default model to Gemini Neon",
+      "whyItMatters": "Model loyalty is weak; vendors switch defaults on retention data alone."
+    },
+    {
+      "itemId": "kunchenguid-batched-prs-ci",
+      "headline": "Batching agent branches cut one builder's PRs from 200 to 30 daily",
+      "whyItMatters": "Agent output is outgrowing CI, so review how your pipeline handles volume."
+    }
+  ],
+  "items": [
+    {
+      "id": "kunchenguid-rlvr-agents-maintainability",
+      "title": "Kun Chen: agents are not trained to keep code maintainable",
+      "takeaway": "He says frontier models are rewarded per task in post-training, so agents ignore long-term upkeep. He links this to useless comments and tests.",
+      "soWhat": "Someone on your team still has to own code health after the agent finishes.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-21T09:05:11Z",
+      "source": {
+        "name": "@kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2124066583589077005"
+      },
+      "image": {
+        "src": "/img/kunchenguid-rlvr-agents-maintainability.jpg",
+        "alt": "Profile image of @kunchenguid"
+      },
+      "heat": {
+        "score": 5,
+        "level": "none",
+        "metric": "6k views"
+      }
+    },
+    {
+      "id": "pocock-adrs-stop-agent-assumptions",
+      "title": "Matt Pocock: written decision records stop agents from guessing",
+      "takeaway": "He says good ADRs matter because agents make assumptions without them. His example came from a session on naming and data relationships.",
+      "soWhat": "Written decisions become the briefing your agents work from.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-21T08:31:38Z",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2124058139477594142"
+      },
+      "image": {
+        "src": "/img/pocock-adrs-stop-agent-assumptions.jpg",
+        "alt": "Image from @mattpocockuk on X"
+      },
+      "heat": {
+        "score": 5,
+        "level": "none",
+        "metric": "16k views"
+      }
+    },
+    {
+      "id": "nikitabier-local-mobile-models",
+      "title": "Nikita Bier sees a big market for local models on phones",
+      "takeaway": "He argues phone data is too private and too large to send to a frontier model, especially given today's security climate.",
+      "soWhat": "Privacy and security may push some AI work onto the device, away from the cloud.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-21T07:33:58Z",
+      "source": {
+        "name": "@nikitabier on X",
+        "url": "https://x.com/nikitabier/status/2124043630071652772"
+      },
+      "image": {
+        "src": "/img/nikitabier-local-mobile-models.jpg",
+        "alt": "Profile image of @nikitabier"
+      },
+      "heat": {
+        "score": 22,
+        "level": "none",
+        "metric": "96k views"
+      }
+    },
+    {
+      "id": "musk-sft-system-prompts",
+      "title": "Musk calls fine-tuning a chainsaw haircut and system prompts silly",
+      "takeaway": "He says supervised fine-tuning should be part of primary training and that a model's default behaviour should be sensible without a system prompt.",
+      "soWhat": "A lab owner signals that model behaviour should be set in training, not in prompts.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-21T07:30:56Z",
+      "source": {
+        "name": "@elonmusk on X",
+        "url": "https://x.com/elonmusk/status/2124042864891982292"
+      },
+      "image": {
+        "src": "/img/musk-sft-system-prompts.jpg",
+        "alt": "Profile image of @elonmusk"
+      },
+      "heat": {
+        "score": 32,
+        "level": "none",
+        "metric": "1.2M views"
+      }
+    },
+    {
+      "id": "nikitabier-keep-design-decisions",
+      "title": "Nikita Bier: consumer app leaders should not delegate key design calls",
+      "takeaway": "He says building a consumer app takes near-photographic memory of every decision, pixel and data trend. Delegating key design hides new patterns.",
+      "soWhat": "Delegating to agents or teams has a cost: you lose sight of emerging patterns.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-21T07:05:54Z",
+      "source": {
+        "name": "@nikitabier on X",
+        "url": "https://x.com/nikitabier/status/2124036566511472763"
+      },
+      "image": {
+        "src": "/img/nikitabier-keep-design-decisions.jpg",
+        "alt": "Profile image of @nikitabier"
+      },
+      "heat": {
+        "score": 23,
+        "level": "none",
+        "metric": "96k views"
+      }
+    },
+    {
+      "id": "mengto-astra-threejs-cyberpunk-game",
+      "title": "Meng To builds a 3D cyberpunk game in a day with Astra",
+      "takeaway": "In about 24 hours he built a three.js game where you pick a character and drive through a city. He open-sourced three skills: 3D scans, Lens rain, Selector.",
+      "soWhat": "One designer with AI now ships in a day what used to take a studio weeks.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-21T05:43:36Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2124015852592988367"
+      },
+      "image": {
+        "src": "/img/mengto-astra-threejs-cyberpunk-game.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 13,
+        "level": "none",
+        "metric": "31k views"
+      }
+    },
+    {
+      "id": "perplexity-gemini-neon-default",
+      "title": "Perplexity may make Gemini Neon its default model",
+      "takeaway": "Aravind Srinivas says Gemini Neon is live on Perplexity Computer and he hears it beats Opus 5.5. A default switch depends on retention data.",
+      "soWhat": "Default models are chosen on user retention, so expect switches without notice.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-21T04:13:36Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2123993205624770776"
+      },
+      "related": [
+        {
+          "name": "@theo on X",
+          "url": "https://x.com/theo/status/2123929867393831114"
+        }
+      ],
+      "image": {
+        "src": "/img/perplexity-gemini-neon-default.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 33,
+        "level": "none",
+        "metric": "32k views",
+        "voices": 3
+      }
+    },
+    {
+      "id": "kunchenguid-batched-prs-ci",
+      "title": "Kun Chen cuts daily PRs from 200 to 30 and ships more",
+      "takeaway": "He now batches several agent branches into one pull request to make CI more efficient, and says he ships more than before.",
+      "soWhat": "With agents writing code, CI capacity, not coding, sets your team's shipping speed.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 7,
+      "publishedAt": "2026-11-21T03:43:14Z",
+      "source": {
+        "name": "@kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2123985561551778151"
+      },
+      "image": {
+        "src": "/img/kunchenguid-batched-prs-ci.jpg",
+        "alt": "Image from @kunchenguid on X"
+      },
+      "heat": {
+        "score": 10,
+        "level": "none",
+        "metric": "24k views"
+      }
+    },
+    {
+      "id": "isenberg-loneliness-offline-opportunities",
+      "title": "Greg Isenberg: build for loneliness and camera-free places",
+      "takeaway": "He lists two big opportunities: real human connection as AI floods everything, and places with no cameras or recording.",
+      "soWhat": "As AI content grows, scarce human and private experiences gain value.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-20T22:29:24Z",
+      "source": {
+        "name": "@gregisenberg on X",
+        "url": "https://x.com/gregisenberg/status/2123906584531304944"
+      },
+      "image": {
+        "src": "/img/isenberg-loneliness-offline-opportunities.jpg",
+        "alt": "Profile image of @gregisenberg"
+      },
+      "heat": {
+        "score": 33,
+        "level": "none",
+        "metric": "543k views"
+      }
+    },
+    {
+      "id": "theo-granular-repo-access",
+      "title": "Theo: source control access should not be all or nothing",
+      "takeaway": "He wants private files inside repos, private branches for small groups and built-in secret management.",
+      "soWhat": "More people and agents in your repos means access needs finer controls.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-20T22:07:35Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2123901093751280052"
+      },
+      "image": {
+        "src": "/img/theo-granular-repo-access.jpg",
+        "alt": "Image from @theo on X"
+      },
+      "heat": {
+        "score": 26,
+        "level": "none",
+        "metric": "234k views"
+      }
+    },
+    {
+      "id": "poteto-no-comments-skill",
+      "title": "poteto suggests /no-comments to strip agent code comments",
+      "takeaway": "He points builders to the /no-comments skill in pstack, or asking your agent to turn it into a lint rule.",
+      "soWhat": "A cheap fix for the noisy comments agents leave in your codebase.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-20T21:58:26Z",
+      "source": {
+        "name": "@poteto on X",
+        "url": "https://x.com/poteto/status/2123898792487576021"
+      },
+      "image": {
+        "src": "/img/poteto-no-comments-skill.jpg",
+        "alt": "Image from @poteto on X"
+      },
+      "heat": {
+        "score": 22,
+        "level": "none",
+        "metric": "130k views"
+      }
+    }
+  ],
+  "voices": [],
+  "hotOnX": [
+    {
+      "url": "https://x.com/nikitabier/status/2123949893014388933",
+      "handle": "@nikitabier",
+      "text": "The verdict is out: AI was a fad this whole time. $NVDA",
+      "metric": "9.4k likes",
+      "note": "Sarcasm about the Nvidia sell-off and talk of an AI bubble."
+    },
+    {
+      "url": "https://x.com/gregisenberg/status/2123906584531304944",
+      "handle": "@gregisenberg",
+      "text": "Biggest opportunities now: build for loneliness, and for places with no cameras or recording.",
+      "metric": "9.3k likes",
+      "note": "A popular bet that human connection gains value as AI floods everything."
+    },
+    {
+      "url": "https://x.com/elonmusk/status/2124042864891982292",
+      "handle": "@elonmusk",
+      "text": "SFT is more like a haircut with a chainsaw; a system prompt is silly. Default behaviour should be sensible.",
+      "metric": "7.2k likes",
+      "note": "A lab owner's blunt view on how models should be trained."
+    },
+    {
+      "url": "https://x.com/theo/status/2123901093751280052",
+      "handle": "@theo",
+      "text": "Source control access should not be all-or-nothing: private files, private branches, built-in secrets.",
+      "metric": "3.7k likes",
+      "note": "Builders want finer repo permissions as agents and teams grow."
+    }
+  ]
+}

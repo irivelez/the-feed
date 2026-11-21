@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-20-1900",
-  "count": 86,
+  "latest": "2026-11-21-0700",
+  "count": 87,
   "briefs": [
+    {
+      "id": "2026-11-21-0700",
+      "date": "2026-11-21",
+      "edition": "Morning",
+      "publishedAt": "2026-11-21T12:14:16Z",
+      "headline": "Meng To builds a 3D city driving game in a day",
+      "url": "/api/briefs/2026-11-21-0700.json"
+    },
     {
       "id": "2026-11-20-1900",
       "date": "2026-11-20",
