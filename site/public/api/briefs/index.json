@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-20-1300",
-  "count": 85,
+  "latest": "2026-11-20-1900",
+  "count": 86,
   "briefs": [
+    {
+      "id": "2026-11-20-1900",
+      "date": "2026-11-20",
+      "edition": "Evening",
+      "publishedAt": "2026-11-21T00:05:49Z",
+      "headline": "Trump threatens a 'tremendous tax' on data centers built abroad",
+      "url": "/api/briefs/2026-11-20-1900.json"
+    },
     {
       "id": "2026-11-20-1300",
       "date": "2026-11-20",

@@ -1,0 +1,380 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-20-1900",
+  "date": "2026-11-20",
+  "publishedAt": "2026-11-21T00:05:49Z",
+  "edition": "Evening",
+  "top3": [
+    {
+      "itemId": "trump-foreign-data-center-tax",
+      "headline": "Trump threatens a 'tremendous tax' on data centers built abroad",
+      "whyItMatters": "Where you build AI capacity is now a political choice, not just a cost decision."
+    },
+    {
+      "itemId": "metr-time-horizon-update",
+      "headline": "METR: AI keeps improving fast, but judgment still trails coding",
+      "whyItMatters": "Hand agents coding-like tasks first and keep judgment calls with your people."
+    },
+    {
+      "itemId": "openai-adversarial-distillation",
+      "headline": "OpenAI moves to stop others copying its models via distillation",
+      "whyItMatters": "Copied models may ship without safeguards, so know where your AI really comes from."
+    }
+  ],
+  "items": [
+    {
+      "id": "perplexity-computer-chrome",
+      "title": "Perplexity Computer now takes delegated tasks inside Chrome",
+      "takeaway": "Aravind Srinivas says you can now delegate tasks to Perplexity Computer on Chrome.",
+      "soWhat": "Agents are moving into the browser your team already uses every day.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-20T22:11:01Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2123901958990000525"
+      },
+      "image": {
+        "src": "/img/perplexity-computer-chrome.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "6k views"
+      }
+    },
+    {
+      "id": "lynalden-bonds-flat-while-assets-fell",
+      "title": "Lyn Alden: bonds flat since Nov 2 while stocks, gold, bitcoin fell",
+      "takeaway": "She notes bonds have been basically flat since November 2 while stocks, gold and bitcoin all fell.",
+      "soWhat": "A quick read on where money is holding up as risk assets slide.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 3,
+      "publishedAt": "2026-11-20T21:25:14Z",
+      "source": {
+        "name": "@LynAldenContact on X",
+        "url": "https://x.com/LynAldenContact/status/2123890434279932102"
+      },
+      "image": {
+        "src": "/img/lynalden-bonds-flat-while-assets-fell.jpg",
+        "alt": "Image from @LynAldenContact on X"
+      },
+      "heat": {
+        "score": 13,
+        "level": "none",
+        "metric": "37k views"
+      }
+    },
+    {
+      "id": "theo-gemini-4-neon-praise",
+      "title": "Theo calls Gemini 4 Neon an incredible model",
+      "takeaway": "Theo says Gemini 4 Neon is an incredible model, one more builder reaction since its launch this week.",
+      "soWhat": "Builder praise is an early signal of which model your developers will ask for next.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-20T20:46:21Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2123880652428988683"
+      },
+      "image": {
+        "src": "/img/theo-gemini-4-neon-praise.jpg",
+        "alt": "Image from @theo on X"
+      },
+      "heat": {
+        "score": 42,
+        "level": "warm",
+        "metric": "73k views",
+        "voices": 3
+      }
+    },
+    {
+      "id": "isomorphic-merck-cancer-drug",
+      "title": "Isomorphic Labs partners with Merck to design a new cancer drug",
+      "takeaway": "Demis Hassabis announces the collaboration and calls it a proof point for Isomorphic's reimagining of drug discovery.",
+      "soWhat": "AI drug design is moving from funding rounds to deals with big pharma.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-20T20:11:26Z",
+      "source": {
+        "name": "@demishassabis on X",
+        "url": "https://x.com/demishassabis/status/2123871861843075099"
+      },
+      "image": {
+        "src": "/img/isomorphic-merck-cancer-drug.jpg",
+        "alt": "Profile image of @demishassabis"
+      },
+      "heat": {
+        "score": 22,
+        "level": "none",
+        "metric": "59k views"
+      }
+    },
+    {
+      "id": "openai-adversarial-distillation",
+      "title": "OpenAI details how it detects and disrupts model distillation",
+      "takeaway": "OpenAI says distillation can reproduce powerful capabilities without their safeguards, and describes how it spots and disrupts coordinated attempts.",
+      "soWhat": "Copied models can arrive without safety guardrails, a new risk for anyone buying AI.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-20T19:33:37Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2123862344422088794"
+      },
+      "image": {
+        "src": "/img/openai-adversarial-distillation.jpg",
+        "alt": "Image from @OpenAI on X"
+      },
+      "heat": {
+        "score": 23,
+        "level": "none",
+        "metric": "294k views"
+      }
+    },
+    {
+      "id": "openai-medchembench",
+      "title": "OpenAI launches MedChemBench to test AI on drug chemistry",
+      "takeaway": "OpenAI says the new benchmark shows frontier models improving at helping scientists identify promising drug candidates.",
+      "soWhat": "Labs now measure AI against scientific work, not just chat and code.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-20T19:09:39Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2123856316187975756"
+      },
+      "image": {
+        "src": "/img/openai-medchembench.jpg",
+        "alt": "Image from @OpenAI on X"
+      },
+      "heat": {
+        "score": 24,
+        "level": "none",
+        "metric": "195k views"
+      }
+    },
+    {
+      "id": "trump-foreign-data-center-tax",
+      "title": "Trump threatens a 'tremendous tax' on data centers built abroad",
+      "takeaway": "Trump said: 'We're not going to allow our companies to build data centers outside of our country', The Verge reports.",
+      "soWhat": "Plans to build AI capacity outside the US could face new costs and political risk.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-20T18:50:19Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
+      },
+      "image": {
+        "src": "/img/trump-foreign-data-center-tax.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "metr-time-horizon-update",
+      "title": "METR update: AI keeps improving fast, but judgment lags coding",
+      "takeaway": "MIT Technology Review covers METR's new report: some capabilities still grow exponentially, while judgment tasks trail coding.",
+      "soWhat": "Delegate coding-like work first; keep judgment calls with people for now.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-20T18:15:15Z",
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/"
+      },
+      "image": {
+        "src": "/img/metr-time-horizon-update.jpg",
+        "alt": "Image from MIT Technology Review"
+      }
+    },
+    {
+      "id": "claude-riemann-hypothesis-claim",
+      "title": "Anthropic mathematician claims a Riemann proof with Claude, unverified",
+      "takeaway": "Levent Alpöge says he and Claude found a proof and formalized the arguments; The Verge notes it is not yet verified.",
+      "soWhat": "If verified, AI becomes a partner on the hardest problems, not just an assistant.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-20T16:34:13Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem"
+      },
+      "related": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
+        }
+      ],
+      "image": {
+        "src": "/img/claude-riemann-hypothesis-claim.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "raydalio-failure-comes-with-adventure",
+      "title": "Ray Dalio: failure comes with being adventurous",
+      "takeaway": "He recalls a market mistake in which he lost everything and had to borrow money to cover family expenses.",
+      "soWhat": "Taking big bets means planning to survive the misses, not avoiding them.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 3,
+      "publishedAt": "2026-11-20T15:19:41Z",
+      "source": {
+        "name": "@RayDalio on X",
+        "url": "https://x.com/RayDalio/status/2123798441314681248"
+      },
+      "image": {
+        "src": "/img/raydalio-failure-comes-with-adventure.jpg",
+        "alt": "Image from @RayDalio on X"
+      },
+      "heat": {
+        "score": 13,
+        "level": "none",
+        "metric": "52k views"
+      }
+    },
+    {
+      "id": "signal-blocks-ai-agent-screenshots",
+      "title": "Signal blocks screenshots so OS-level AI agents can't read chats",
+      "takeaway": "The Verge says Signal now restricts screenshots on Android and iOS to keep agents like Gemini and Siri off on-screen data.",
+      "soWhat": "Apps are starting to wall off agents; check what your own tools let them see.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-20T12:30:47Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app"
+      },
+      "image": {
+        "src": "/img/signal-blocks-ai-agent-screenshots.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "rubenhassid-claude-seven-jobs",
+      "title": "Ruben Hassid: 20 minutes to set Claude up for 7 business jobs",
+      "takeaway": "He says to go beyond rewriting emails, starting with Claude for small business; any paid plan works.",
+      "soWhat": "A short setup can turn a chat subscription into real help across the business.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-20T12:00:01Z",
+      "source": {
+        "name": "@rubenhassid on X",
+        "url": "https://x.com/rubenhassid/status/2123748194727215296"
+      },
+      "image": {
+        "src": "/img/rubenhassid-claude-seven-jobs.jpg",
+        "alt": "Image from @rubenhassid on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "3k views"
+      }
+    },
+    {
+      "id": "claude-black-hole-physics",
+      "title": "Anthropic says Claude solved two open problems in black-hole physics",
+      "takeaway": "Anthropic's research post, on the Hacker News front page, says Claude solved two open problems in the physics of black holes.",
+      "soWhat": "A second science claim in a day suggests labs will compete on discovery.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "source": {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/research/claude-black-hole-physics"
+      },
+      "image": {
+        "src": "/img/claude-black-hole-physics.jpg",
+        "alt": "Image from Anthropic"
+      }
+    },
+    {
+      "id": "anthropic-debut-wall-street-test",
+      "title": "Anthropic's Nasdaq debut puts AI's promise to a Wall Street test",
+      "takeaway": "Reuters frames the debut as a test of AI's promise and peril; Gary Marcus argues the stock is already crashing.",
+      "soWhat": "Public markets will now grade frontier labs daily, and sentiment can turn fast.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-19T00:00:00Z",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/"
+      },
+      "related": [
+        {
+          "name": "Gary Marcus",
+          "url": "https://garymarcus.substack.com/p/breaking-anthropic-stock-is-crashing"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-debut-wall-street-test.jpg",
+        "alt": "Image from Reuters"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "Levent Alpöge",
+      "quote": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis",
+      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
+    },
+    {
+      "handle": "@sundarpichai",
+      "quote": "Somewhere Euler, Gauss and Riemann in awe today!",
+      "url": "https://x.com/sundarpichai/status/2123869629164786137"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/naval/status/2123768555317723476",
+      "handle": "@naval",
+      "text": "NVIDIA has to become a frontier lab faster than frontier labs are becoming chip companies.",
+      "metric": "6.5k likes",
+      "note": "A sharp line on chip makers and AI labs racing into each other's business."
+    },
+    {
+      "url": "https://x.com/sundarpichai/status/2123869629164786137",
+      "handle": "@sundarpichai",
+      "text": "Somewhere Euler, Gauss and Riemann in awe today!",
+      "metric": "6k likes",
+      "note": "Google's CEO marks a big day for AI and math."
+    },
+    {
+      "url": "https://x.com/AnthropicAI/status/2123822989154369958",
+      "handle": "@AnthropicAI",
+      "text": "The story so far, told by Anthropic's seven co-founders.",
+      "metric": "3.5k likes",
+      "note": "Interest in Anthropic stays high in its first days as a public company."
+    },
+    {
+      "url": "https://x.com/mattpocockuk/status/2123798388227403983",
+      "handle": "@mattpocockuk",
+      "text": "Prompt of the day: review every code comment in a codebase and categorise each, e.g. Tautology or Excuse.",
+      "metric": "2.6k likes",
+      "note": "A copyable prompt that stops agents hiding hacks behind comments."
+    },
+    {
+      "url": "https://x.com/OpenAI/status/2123856316187975756",
+      "handle": "@OpenAI",
+      "text": "Introducing MedChemBench, a new benchmark for AI reasoning in medicinal chemistry.",
+      "metric": "2.6k likes",
+      "note": "Drug discovery is becoming a headline test for frontier models."
+    }
+  ]
+}
