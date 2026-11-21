@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-21-1300",
+  "date": "2026-11-21",
+  "publishedAt": "2026-11-21T18:09:27Z",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "hwchase17-curator-agent-wiki-edits",
+      "headline": "Harrison Chase: let one curator agent make all wiki edits",
+      "whyItMatters": "Shared company knowledge stays reliable when one agent owns every change to it."
+    },
+    {
+      "itemId": "ryancarson-devin-bots-own-the-app",
+      "headline": "Ryan Carson's team shares Devin Bots that own parts of the app",
+      "whyItMatters": "Agents are starting to hold standing roles on teams, not just run one-off tasks."
+    },
+    {
+      "itemId": "hwchase17-langchain-agents-learning-loop",
+      "headline": "Harrison Chase: every internal LangChain agent has a learning loop",
+      "whyItMatters": "Agents that improve from their own work compound in value over time."
+    }
+  ],
+  "items": [
+    {
+      "id": "hwchase17-curator-agent-wiki-edits",
+      "title": "Harrison Chase: let one curator agent make all wiki edits",
+      "takeaway": "He says agents, main or sub, can't reliably edit a wiki. A separate curator agent should make every edit. He describes this as common across LangChain's work.",
+      "soWhat": "Give one agent clear ownership of shared knowledge instead of letting every agent write to it.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-21T17:11:27Z",
+      "source": {
+        "name": "@hwchase17 on X",
+        "url": "https://x.com/hwchase17/status/2124188957001023548"
+      },
+      "image": {
+        "src": "/img/hwchase17-curator-agent-wiki-edits.jpg",
+        "alt": "Profile image of @hwchase17"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "2k views"
+      }
+    },
+    {
+      "id": "hwchase17-langchain-agents-learning-loop",
+      "title": "Harrison Chase: every internal LangChain agent has a learning loop",
+      "takeaway": "He says all of LangChain's internal agents, for GTM, content and LangSmith Engine, have a learning loop. He links a write-up on what makes a knowledge factory.",
+      "soWhat": "Ask whether your agents get better from their own work or start from zero each time.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-21T16:40:42Z",
+      "source": {
+        "name": "@hwchase17 on X",
+        "url": "https://x.com/hwchase17/status/2124181216719151585"
+      },
+      "image": {
+        "src": "/img/hwchase17-langchain-agents-learning-loop.jpg",
+        "alt": "Profile image of @hwchase17"
+      },
+      "heat": {
+        "score": 7,
+        "level": "none",
+        "metric": "9k views"
+      }
+    },
+    {
+      "id": "ryancarson-devin-bots-own-the-app",
+      "title": "Ryan Carson's team shares Devin Bots that own parts of the app",
+      "takeaway": "He says Devin Bots at HelloUntangle act like employees who own parts of the app and the engineering process. The team keeps one shared list, and everyone talks to the same Bots.",
+      "soWhat": "Shared, named agents with clear ownership are easier to manage than one private agent per person.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-21T16:14:10Z",
+      "source": {
+        "name": "@ryancarson on X",
+        "url": "https://x.com/ryancarson/status/2124174540204880154"
+      },
+      "image": {
+        "src": "/img/ryancarson-devin-bots-own-the-app.jpg",
+        "alt": "Image from @ryancarson on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "3k views"
+      }
+    },
+    {
+      "id": "tibo-maker-squad-agents-gmail",
+      "title": "Tibo says his Squad agents now run his Gmail inbox",
+      "takeaway": "He says his Squad agents handle long email threads, ping him for important items and send follow-ups. This is self-reported, with no demo shown.",
+      "soWhat": "Email triage is an early, low-risk place for leaders to test delegating to agents.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-21T14:55:47Z",
+      "source": {
+        "name": "@tibo_maker on X",
+        "url": "https://x.com/tibo_maker/status/2124154815110402444"
+      },
+      "image": {
+        "src": "/img/tibo-maker-squad-agents-gmail.jpg",
+        "alt": "Profile image of @tibo_maker"
+      },
+      "heat": {
+        "score": 1,
+        "level": "none",
+        "metric": "3k views"
+      }
+    }
+  ],
+  "voices": [],
+  "hotOnX": [
+    {
+      "url": "https://x.com/garrytan/status/2124151626286170609",
+      "handle": "@garrytan",
+      "text": "Uses one tool for about half his work with his 'software factory'; calls it his best experience across desktop, mobile and cloud.",
+      "metric": "392 likes",
+      "note": "The YC CEO says one tool now handles about half his work."
+    },
+    {
+      "url": "https://x.com/AravSrinivas/status/2124172039766651250",
+      "handle": "@AravSrinivas",
+      "text": "The level of orchestration here is incredible",
+      "metric": "197 likes",
+      "note": "Perplexity's CEO praises the orchestration in a linked post."
+    },
+    {
+      "url": "https://x.com/hwchase17/status/2124181216719151585",
+      "handle": "@hwchase17",
+      "text": "All LangChain internal agents have a learning loop; links a write-up on what makes a 'knowledge factory'.",
+      "metric": "187 likes",
+      "note": "Builders want to know how agents can learn from their own work."
+    },
+    {
+      "url": "https://x.com/swyx/status/2124147427313861009",
+      "handle": "@swyx",
+      "text": "Asks whether there is a benign explanation for providers 'secretly phoning home'.",
+      "metric": "151 likes",
+      "note": "Trust in what AI tools send back to providers is an open question."
+    }
+  ]
+}
