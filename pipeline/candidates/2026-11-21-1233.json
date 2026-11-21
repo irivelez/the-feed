@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-21-1233",
+  "generatedAt": "2026-11-21T17:34:28.074Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-21T11:35:00Z",
+    "to": "2026-11-21T17:34:28.074Z"
+  },
+  "sourceNotes": [
+    "X: 4 combined from:-handle searches per lane group (original posts only, since 11:35Z); quiet Saturday window, 17 posts returned in total; authorBaseline not read; X replies and X queries not run this run.",
+    "Design lane (MengTo): 0 posts in window. bigPicture groups 1 and 3: 0 posts. howTo group 4: 0 posts.",
+    "RSS, arXiv and Hacker News not fetched this run.",
+    "Noisy: ThePrimeagen (Minecraft joke), Ronycoder (CapCut ad), nathanbenaich (link-only posts), garrytan GTA VI post, TaviCosta (macro Fed post, not taken)."
+  ],
+  "candidates": [
+    {
+      "id": "x-2124181216719151585",
+      "lens": "practical",
+      "topic": "knowledge-factory-agents",
+      "summary": "hwchase17 says all LangChain internal agents (GTM, content, LangSmith Engine) have a learning loop, and links a write-up on what makes up a 'knowledge factory'.",
+      "facts": [
+        "Post links an article; article not read."
+      ],
+      "source": {
+        "name": "@hwchase17 on X",
+        "url": "https://x.com/hwchase17/status/2124181216719151585",
+        "type": "x",
+        "handle": "hwchase17"
+      },
+      "publishedAt": "2026-11-21T16:40:42.000Z",
+      "metrics": {
+        "likes": 187,
+        "reposts": 12,
+        "replies": 43,
+        "views": 8896,
+        "capturedAt": "2026-11-21T17:34:28.074Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "x-2124188957001023548",
+      "lens": "practical",
+      "topic": "knowledge-factory-agents",
+      "summary": "hwchase17 says agents, main or sub, can't reliably edit a wiki, so a separate 'curator agent' should make all the edits.",
+      "facts": [
+        "Pattern described as common across LangChain's work; linked article not read."
+      ],
+      "source": {
+        "name": "@hwchase17 on X",
+        "url": "https://x.com/hwchase17/status/2124188957001023548",
+        "type": "x",
+        "handle": "hwchase17"
+      },
+      "publishedAt": "2026-11-21T17:11:27.000Z",
+      "metrics": {
+        "likes": 12,
+        "reposts": 2,
+        "replies": 8,
+        "views": 1535,
+        "capturedAt": "2026-11-21T17:34:28.074Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "x-2124174540204880154",
+      "lens": "practical",
+      "topic": "devin-bots",
+      "summary": "ryancarson says Devin Bots at HelloUntangle act like employees who own parts of the app and engineering process; the team shares a list of Bots and everyone talks to the same Bots.",
+      "facts": [
+        "Image/link with the list of Bots not read."
+      ],
+      "source": {
+        "name": "@ryancarson on X",
+        "url": "https://x.com/ryancarson/status/2124174540204880154",
+        "type": "x",
+        "handle": "ryancarson"
+      },
+      "publishedAt": "2026-11-21T16:14:10.000Z",
+      "metrics": {
+        "likes": 27,
+        "reposts": 4,
+        "replies": 12,
+        "views": 2679,
+        "capturedAt": "2026-11-21T17:34:28.074Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "x-2124154815110402444",
+      "lens": "practical",
+      "topic": "agent-inbox",
+      "summary": "tibo_maker says his Squad agents have taken over his Gmail inbox: handle long conversations, ping him for important items, follow up.",
+      "facts": [
+        "Self-reported; no demo link read."
+      ],
+      "source": {
+        "name": "@tibo_maker on X",
+        "url": "https://x.com/tibo_maker/status/2124154815110402444",
+        "type": "x",
+        "handle": "tibo_maker"
+      },
+      "publishedAt": "2026-11-21T14:55:47.000Z",
+      "metrics": {
+        "likes": 53,
+        "reposts": 4,
+        "replies": 50,
+        "views": 3119,
+        "capturedAt": "2026-11-21T17:34:28.074Z"
+      },
+      "care": 2,
+      "proof": 1
+    },
+    {
+      "id": "x-2124147427313861009",
+      "lens": "practical",
+      "topic": "providers-phoning-home",
+      "summary": "swyx asks whether there is a benign explanation for providers 'secretly phoning home', linking a post.",
+      "facts": [
+        "Linked content not read; which providers is not stated in the post text."
+      ],
+      "source": {
+        "name": "@swyx on X",
+        "url": "https://x.com/swyx/status/2124147427313861009",
+        "type": "x",
+        "handle": "swyx"
+      },
+      "publishedAt": "2026-11-21T14:26:26.000Z",
+      "metrics": {
+        "likes": 151,
+        "reposts": 6,
+        "replies": 76,
+        "views": 22623,
+        "capturedAt": "2026-11-21T17:34:28.074Z"
+      },
+      "care": 3,
+      "proof": 1
+    },
+    {
+      "id": "x-2124151626286170609",
+      "lens": "broad",
+      "topic": "software-factory",
+      "summary": "garrytan says he uses a tool for about half his work with his 'software factory' and calls it his best experience across desktop, mobile and cloud.",
+      "facts": [
+        "Tool not named in post text; linked content not read."
+      ],
+      "source": {
+        "name": "@garrytan on X",
+        "url": "https://x.com/garrytan/status/2124151626286170609",
+        "type": "x",
+        "handle": "garrytan"
+      },
+      "publishedAt": "2026-11-21T14:43:07.000Z",
+      "metrics": {
+        "likes": 392,
+        "reposts": 6,
+        "replies": 36,
+        "views": 34413,
+        "capturedAt": "2026-11-21T17:34:28.074Z"
+      },
+      "care": 2,
+      "proof": 1
+    },
+    {
+      "id": "x-2124172039766651250",
+      "lens": "broad",
+      "topic": "orchestration-demo",
+      "summary": "AravSrinivas posted 'The level of orchestration here is incredible' with a link.",
+      "facts": [
+        "Linked content not read."
+      ],
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2124172039766651250",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-21T16:04:14.000Z",
+      "metrics": {
+        "likes": 197,
+        "reposts": 14,
+        "replies": 16,
+        "views": 13350,
+        "capturedAt": "2026-11-21T17:34:28.074Z"
+      },
+      "care": 2,
+      "proof": 1
+    }
+  ]
+}
