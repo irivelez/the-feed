@@ -1,145 +1,137 @@
 {
   "schemaVersion": "1.0",
-  "id": "2026-11-18",
-  "publishedAt": "2026-11-18T19:40:00-05:00",
+  "id": "2026-11-20",
+  "publishedAt": "2026-11-21T00:06:56Z",
   "window": {
-    "from": "2026-11-12",
-    "to": "2026-11-18"
+    "from": "2026-11-14",
+    "to": "2026-11-20"
   },
-  "headline": "AI now helps build AI, and labs are fighting on price",
-  "summary": "This week the labs pointed AI at themselves. OpenAI says its models found up to 14% chip gains on AMD's flagship GPU IP, its researchers' AI use keeps rising exponentially, and Perplexity is putting 10,000 GPUs toward an automated AI researcher. At the same time, near-frontier power got cheaper: GPT-6.2 Astra came within 0.3 points of Claude Fable 5.2 on one benchmark in a third of the time, and open models now carry about 30% of enterprise tokens. Google added Gemini 4 Neon after Carbon and Hydrogen, while Microsoft calls Copilot the OS for work and Perplexity calls its app a mini workOS. Agent spend is real money now, with T3 Code passing $10M in API spend in one day. Stop betting on one model and start measuring every agent task by what it costs and what it ships.",
+  "headline": "AI goes public and claims discoveries, while the walls go up",
+  "summary": "Anthropic priced its IPO at $83 a share, so a frontier lab is now graded by the market every trading day, and Gary Marcus already argues the stock is crashing. The same week, AI claims moved from code to discovery: an Anthropic mathematician says he and Claude found a proof of the Riemann Hypothesis, still unverified, and Isomorphic is working with Merck on a new cancer drug. METR's update adds the caveat: capability keeps compounding, but judgment still trails coding. Meanwhile the walls are going up, as Signal blocks screenshots from OS-level agents and OpenAI moves against distillation that copies models without their safeguards. Your move: hand agents the measurable work, keep judgment with your people, and audit what your agents can see and where your models come from.",
   "threads": [
     {
-      "title": "AI that builds AI",
-      "line": "Labs now use their own models to improve chips, research and the next model. Expect the release clock to keep shortening.",
+      "title": "Graded every trading day",
+      "line": "Anthropic is public now, so lab strategy gets a daily market verdict. Expect louder bulls, louder bears and faster narrative swings.",
       "evidence": [
         {
-          "briefId": "2026-11-18-1300",
-          "itemId": "openai-amd-chip-design"
+          "briefId": "2026-11-19-0700",
+          "itemId": "anthropic-ipo-priced-83"
         },
         {
-          "briefId": "2026-11-18-1900",
-          "itemId": "openai-research-jagged-frontier"
+          "briefId": "2026-11-19-1300",
+          "itemId": "anthropic-ipo-dario-remarks"
         },
         {
-          "briefId": "2026-11-16-1300",
-          "itemId": "perplexity-frontier-research-10k-gpus"
-        },
-        {
-          "briefId": "2026-11-18-1900",
-          "itemId": "benaich-frontierrsi-evals"
-        },
-        {
-          "briefId": "2026-11-18-1900",
+          "briefId": "2026-11-19-0700",
           "itemId": "anthropic-ipo-closing-the-loop-sacks"
+        },
+        {
+          "briefId": "2026-11-20-1900",
+          "itemId": "anthropic-debut-wall-street-test"
         }
       ]
     },
     {
-      "title": "Close enough, for less",
-      "line": "Near-frontier models now come cheaper and from more vendors. Test each task and keep two providers in play.",
+      "title": "From coder to discoverer",
+      "line": "Labs now pitch AI on math, physics and drugs. Treat each claim as unverified until checked, but watch where they land.",
       "evidence": [
         {
-          "briefId": "2026-11-18-0700",
-          "itemId": "gpt62-astra-reviews-alexfinn"
+          "briefId": "2026-11-20-1900",
+          "itemId": "claude-riemann-hypothesis-claim"
         },
         {
-          "briefId": "2026-11-17-0700",
-          "itemId": "databricks-ai-index-open-models"
+          "briefId": "2026-11-20-1900",
+          "itemId": "claude-black-hole-physics"
         },
         {
-          "briefId": "2026-11-17-0700",
-          "itemId": "a16z-imas-lab-price-competition"
+          "briefId": "2026-11-20-1900",
+          "itemId": "isomorphic-merck-cancer-drug"
         },
         {
-          "briefId": "2026-11-14-0700",
-          "itemId": "garrytan-opus-vs-fable-eval"
+          "briefId": "2026-11-20-1900",
+          "itemId": "openai-medchembench"
         },
         {
-          "briefId": "2026-11-18-1900",
+          "briefId": "2026-11-20-1900",
+          "itemId": "metr-time-horizon-update"
+        }
+      ]
+    },
+    {
+      "title": "The walls go up",
+      "line": "Apps block agents, labs fight copying and providers get compromised. Know what your agents can see and where your models come from.",
+      "evidence": [
+        {
+          "briefId": "2026-11-20-1900",
+          "itemId": "signal-blocks-ai-agent-screenshots"
+        },
+        {
+          "briefId": "2026-11-20-1900",
+          "itemId": "openai-adversarial-distillation"
+        },
+        {
+          "briefId": "2026-11-19-1300",
+          "itemId": "primeintellect-compromise-openrouter"
+        },
+        {
+          "briefId": "2026-11-19-1300",
+          "itemId": "perplexity-context-api-safe-fetch"
+        },
+        {
+          "briefId": "2026-11-20-0700",
+          "itemId": "simonwillison-token-fraud"
+        }
+      ]
+    },
+    {
+      "title": "A model for every job",
+      "line": "Gemini 4 Neon joined the lineup and production teams switch fast. Assign models by task and price every merged PR.",
+      "evidence": [
+        {
+          "briefId": "2026-11-19-0700",
           "itemId": "gemini-4-neon-launch"
         },
         {
-          "briefId": "2026-11-13-0700",
-          "itemId": "gemini-4-carbon-argon-price-doubling"
+          "briefId": "2026-11-19-0700",
+          "itemId": "cursor-gemini-4-neon-cursorbench"
+        },
+        {
+          "briefId": "2026-11-19-0700",
+          "itemId": "theo-t3-code-model-roles"
+        },
+        {
+          "briefId": "2026-11-20-1300",
+          "itemId": "langsmith-gpt-6-luna-production"
+        },
+        {
+          "briefId": "2026-11-19-0700",
+          "itemId": "langsmith-coding-agent-roi"
         }
       ]
     },
     {
       "title": "Who owns the workday",
-      "line": "Assistants are competing to become the screen your people work in. Choose on purpose before habits choose for you.",
+      "line": "Microsoft, Perplexity and now Apple want to be the agent your people work through. Choose on purpose before habits choose for you.",
       "evidence": [
         {
-          "briefId": "2026-11-18-1900",
+          "briefId": "2026-11-19-0700",
           "itemId": "copilot-perplexity-os-for-work"
         },
         {
-          "briefId": "2026-11-15-0700",
-          "itemId": "arav-teammate-agent-hours"
+          "briefId": "2026-11-19-0700",
+          "itemId": "perplexity-multiagent-usage-doubles"
         },
         {
-          "briefId": "2026-11-17-1300",
-          "itemId": "sundar-gemini-tasks-expansion"
+          "briefId": "2026-11-20-0700",
+          "itemId": "verge-apple-ai-agent-hiring"
         },
         {
-          "briefId": "2026-11-12-1900",
-          "itemId": "claude-meetings-launch"
+          "briefId": "2026-11-20-1900",
+          "itemId": "perplexity-computer-chrome"
         },
         {
-          "briefId": "2026-11-16-1900",
-          "itemId": "openai-chatgpt-healthcare-plugins"
-        }
-      ]
-    },
-    {
-      "title": "Price every merged PR",
-      "line": "Agent spend is large and rising. Tie it to verified, shipped work and run agents' code in sandboxes.",
-      "evidence": [
-        {
-          "briefId": "2026-11-18-1900",
-          "itemId": "langsmith-coding-agent-roi"
-        },
-        {
-          "briefId": "2026-11-18-0700",
-          "itemId": "t3-code-31t-tokens-theo"
-        },
-        {
-          "briefId": "2026-11-16-1900",
-          "itemId": "claude-code-verification-post"
-        },
-        {
-          "briefId": "2026-11-16-1900",
-          "itemId": "vercel-agent-evals-users-are-agents"
-        },
-        {
-          "briefId": "2026-11-17-0700",
-          "itemId": "simonw-external-sandbox-pattern"
-        },
-        {
-          "briefId": "2026-11-18-1900",
-          "itemId": "openai-codex-sandbox"
-        }
-      ]
-    },
-    {
-      "title": "Nvidia without Jensen",
-      "line": "The main AI chip supplier lost its founder CEO while demand stays high. Treat compute supply as a strategic risk.",
-      "evidence": [
-        {
-          "briefId": "2026-11-12-1300",
-          "itemId": "nvidia-ceo-transition-announcement"
-        },
-        {
-          "briefId": "2026-11-14-1900",
-          "itemId": "stratechery-end-of-jensen"
-        },
-        {
-          "briefId": "2026-11-18-1300",
-          "itemId": "chip-earnings-frontier-pause-verge"
-        },
-        {
-          "briefId": "2026-11-18-1300",
-          "itemId": "nvidia-h200-china-stop-verge"
+          "briefId": "2026-11-19-1300",
+          "itemId": "perplexity-brain-self-improving-skills"
         }
       ]
     }

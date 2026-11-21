@@ -1,8 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-18",
-  "count": 16,
+  "latest": "2026-11-20",
+  "count": 17,
   "narratives": [
+    {
+      "id": "2026-11-20",
+      "publishedAt": "2026-11-21T00:06:56Z",
+      "window": {
+        "from": "2026-11-14",
+        "to": "2026-11-20"
+      },
+      "headline": "AI goes public and claims discoveries, while the walls go up",
+      "url": "/api/narrative/2026-11-20.json"
+    },
     {
       "id": "2026-11-18",
       "publishedAt": "2026-11-18T19:40:00-05:00",
