@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-21-1900",
-  "count": 89,
+  "latest": "2026-11-22-0700",
+  "count": 90,
   "briefs": [
+    {
+      "id": "2026-11-22-0700",
+      "date": "2026-11-22",
+      "edition": "Morning",
+      "publishedAt": "2026-11-22T12:05:28Z",
+      "headline": "Kloss: audit agent skills with rival models, keep edits they agree on",
+      "url": "/api/briefs/2026-11-22-0700.json"
+    },
     {
       "id": "2026-11-21-1900",
       "date": "2026-11-21",

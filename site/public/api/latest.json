@@ -1,27 +1,91 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-21-1900",
-  "date": "2026-11-21",
-  "publishedAt": "2026-11-22T00:05:04Z",
-  "edition": "Evening",
+  "id": "2026-11-22-0700",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-22T12:05:28Z",
+  "edition": "Morning",
   "top3": [
     {
-      "itemId": "simonw-gemini-4-xhigh-cost",
-      "headline": "Gemini 4 at max effort cost Simon Willison nearly six times more",
-      "whyItMatters": "Thinking effort is now a cost lever to set deliberately, not leave on max."
+      "itemId": "kloss-cross-model-skill-audit",
+      "headline": "Kloss: audit agent skills with rival models, keep edits they agree on",
+      "whyItMatters": "Teams can refresh agent instructions per model release without trusting any single model's edits."
     },
     {
-      "itemId": "perplexity-teammates-gemini-neon",
-      "headline": "Perplexity moves some Computer Teammates to Gemini Neon",
-      "whyItMatters": "Talk of switching models has turned into a real migration at Perplexity."
+      "itemId": "simonw-muru-ai-assisted-rust-server",
+      "headline": "mod_wsgi's author builds a Rust server for Python apps with AI",
+      "whyItMatters": "Seasoned engineers now use AI for production infrastructure, not just prototypes."
     },
     {
-      "itemId": "pocock-agent-style-scorer",
-      "headline": "Matt Pocock: teach an agent your style by scoring its sentences",
-      "whyItMatters": "A cheap feedback loop could help agents write in a leader's own voice."
+      "itemId": "mengto-liquid-glass-3d-skills",
+      "headline": "Meng To open-sources three skills for Liquid Glass and 3D interfaces",
+      "whyItMatters": "Reusable design skills make polished interactive interfaces cheaper to prototype."
     }
   ],
   "items": [
+    {
+      "id": "mengto-liquid-glass-3d-skills",
+      "title": "Meng To open-sources three skills for Liquid Glass and 3D interfaces",
+      "takeaway": "He says GPT 6.2 Astra rebuilt a desk scene in three.js with interactive objects. He published skills for liquid glass, press shaders and a 3D room.",
+      "soWhat": "Design teams can reuse packaged skills instead of prompting rich interfaces from scratch.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-22T09:16:36Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2124431846859813234"
+      },
+      "image": {
+        "src": "/img/mengto-liquid-glass-3d-skills.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 1,
+        "level": "none",
+        "metric": "5k views"
+      }
+    },
+    {
+      "id": "kloss-cross-model-skill-audit",
+      "title": "Kloss: audit agent skills with rival models, keep edits they agree on",
+      "takeaway": "Two Cursor cloud agents run read-only audits of his skills with Gemini 4 Neon and Fable 5.2; he applies only agreed edits. They agreed on 22 of 104 skills.",
+      "soWhat": "Skills written for older models drift, and a consensus check is a cheap way to update them.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-22T01:14:49Z",
+      "source": {
+        "name": "@kloss_xyz on X",
+        "url": "https://x.com/kloss_xyz/status/2124310598754472093"
+      },
+      "image": {
+        "src": "/img/kloss-cross-model-skill-audit.jpg",
+        "alt": "Image from @kloss_xyz on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "3k views"
+      }
+    },
+    {
+      "id": "simonw-muru-ai-assisted-rust-server",
+      "title": "Simon Willison flags Muru, an AI-assisted Rust server for Python apps",
+      "takeaway": "Graham Dumpleton, author of mod_wsgi, built Muru with AI help to run ASGI and WSGI apps, documenting it in detail over three weeks.",
+      "soWhat": "A veteran maintainer shipping production infrastructure with AI is stronger proof than a demo.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-21T23:56:28Z",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/21/muru/"
+      },
+      "image": {
+        "src": "/img/simonw-muru-ai-assisted-rust-server.jpg",
+        "alt": "Simon Willison: Simon Willison flags Muru, an AI-assisted Rust server for Python apps"
+      }
+    },
     {
       "id": "musk-real-time-ai-video",
       "title": "Musk shows real-time AI video with no game engine",
@@ -205,44 +269,89 @@
         "level": "none",
         "metric": "10k views"
       }
+    },
+    {
+      "id": "thinking-machines-inkling-2-mini",
+      "title": "Thinking Machines publishes Inkling 2 Mini",
+      "takeaway": "Thinking Machines posted Inkling 2 Mini on its news page. A separate Hacker News post shows it running in 5.4 GB of memory.",
+      "soWhat": "Watch whether small models that fit modest hardware cut inference costs for routine work.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-20T20:12:19Z",
+      "source": {
+        "name": "Thinking Machines",
+        "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
+      },
+      "related": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50581260"
+        },
+        {
+          "name": "HN: Inkling-2-Mini in 5.4 GB Memory",
+          "url": "https://news.ycombinator.com/item?id=50591853"
+        }
+      ],
+      "image": {
+        "src": "/img/thinking-machines-inkling-2-mini.jpg",
+        "alt": "Thinking Machines: Thinking Machines publishes Inkling 2 Mini"
+      }
+    },
+    {
+      "id": "paper-models-rewrite-own-weights",
+      "title": "Paper: language models can rewrite their own weights",
+      "takeaway": "An arXiv paper, 'Language Models Can Rewrite Their Own Weights', drew 487 points on Hacker News.",
+      "soWhat": "Self-updating models would make testing and governance harder, so track whether the result replicates.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-20T16:29:06Z",
+      "source": {
+        "name": "arXiv",
+        "url": "https://arxiv.org/abs/2611.21885"
+      },
+      "related": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50577265"
+        }
+      ],
+      "image": {
+        "src": "/img/paper-models-rewrite-own-weights.jpg",
+        "alt": "arXiv: Paper: language models can rewrite their own weights"
+      }
     }
   ],
   "voices": [],
   "hotOnX": [
     {
-      "url": "https://x.com/elonmusk/status/2124270426402836626",
-      "handle": "@elonmusk",
-      "text": "Real-time AI video generation, 'no gaming engine', running on half of one AI4 TRIP accelerator.",
-      "metric": "4.7k likes",
-      "note": "A real-time video claim from a huge account; the demo is not independently verified."
+      "url": "https://x.com/amasad/status/2124345037408686228",
+      "handle": "@amasad",
+      "text": "A high school student is recompiling GTA6 for PC, coordinating agent swarms through GitHub issues. A new model for open source?",
+      "metric": "684 likes",
+      "note": "A big account's story of agent swarms run through GitHub issues; the anecdote is unverified."
     },
     {
-      "url": "https://x.com/AravSrinivas/status/2124254600723394644",
-      "handle": "@AravSrinivas",
-      "text": "Gemini Neon (reasoning High) is intelligent and fast; some Perplexity Computer Teammates migrated to it.",
-      "metric": "1.1k likes",
-      "note": "A product CEO is moving real agents to Google's new model."
+      "url": "https://x.com/kunchenguid/status/2124297579219526013",
+      "handle": "@kunchenguid",
+      "text": "The Riemann hypothesis was reportedly solved by Anthropic and OpenAI has said nothing. When can labs set aside ego?",
+      "metric": "99 likes",
+      "note": "The unverified Riemann claim is turning into a story about lab rivalry."
     },
     {
-      "url": "https://x.com/theo/status/2124266892991115362",
-      "handle": "@theo",
-      "text": "A Deepmind engineer who works on Antigravity has landed many PRs on T3 Code for Gemini: 'as official as it gets'.",
-      "metric": "944 likes",
-      "note": "It settles a public dispute over T3 Code's Gemini support."
+      "url": "https://x.com/MengTo/status/2124431846859813234",
+      "handle": "@MengTo",
+      "text": "GPT 6.2 Astra recreated a desk scene in three.js with every object interactive; three skills open-sourced.",
+      "metric": "90 likes",
+      "note": "Free, reusable skills for rich 3D and Liquid Glass interfaces."
     },
     {
-      "url": "https://x.com/mattpocockuk/status/2124214098984370645",
-      "handle": "@mattpocockuk",
-      "text": "Get an agent to write in your style: a 'scorer' app where you rate its example sentences one at a time.",
-      "metric": "927 likes",
-      "note": "Builders want agents that sound like them, not like generic AI."
-    },
-    {
-      "url": "https://x.com/simonw/status/2124217876777464269",
-      "handle": "@simonw",
-      "text": "Gemini 4 Hydrogen xhigh vs high effort on the pelican test: 23.61 vs 3.99 cents, 31,477 vs 5,311 tokens.",
-      "metric": "239 likes",
-      "note": "The cost gap between effort settings is larger than many expect."
+      "url": "https://x.com/kloss_xyz/status/2124310598754472093",
+      "handle": "@kloss_xyz",
+      "text": "Skill audit: two cloud agents, two models, apply only the edits they agree on. They agreed on 22 of 104 skills.",
+      "metric": "60 likes",
+      "note": "A repeatable way to refresh agent skills whenever a new model ships."
     }
   ]
 }
