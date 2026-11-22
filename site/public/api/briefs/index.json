@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-21-1300",
-  "count": 88,
+  "latest": "2026-11-21-1900",
+  "count": 89,
   "briefs": [
+    {
+      "id": "2026-11-21-1900",
+      "date": "2026-11-21",
+      "edition": "Evening",
+      "publishedAt": "2026-11-22T00:05:04Z",
+      "headline": "Gemini 4 at max effort cost Simon Willison nearly six times more",
+      "url": "/api/briefs/2026-11-21-1900.json"
+    },
     {
       "id": "2026-11-21-1300",
       "date": "2026-11-21",

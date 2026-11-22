@@ -1,43 +1,89 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-21-1300",
+  "id": "2026-11-21-1900",
   "date": "2026-11-21",
-  "publishedAt": "2026-11-21T18:09:27Z",
-  "edition": "Midday",
+  "publishedAt": "2026-11-22T00:05:04Z",
+  "edition": "Evening",
   "top3": [
     {
-      "itemId": "hwchase17-curator-agent-wiki-edits",
-      "headline": "Harrison Chase: let one curator agent make all wiki edits",
-      "whyItMatters": "Shared company knowledge stays reliable when one agent owns every change to it."
+      "itemId": "simonw-gemini-4-xhigh-cost",
+      "headline": "Gemini 4 at max effort cost Simon Willison nearly six times more",
+      "whyItMatters": "Thinking effort is now a cost lever to set deliberately, not leave on max."
     },
     {
-      "itemId": "ryancarson-devin-bots-own-the-app",
-      "headline": "Ryan Carson's team shares Devin Bots that own parts of the app",
-      "whyItMatters": "Agents are starting to hold standing roles on teams, not just run one-off tasks."
+      "itemId": "perplexity-teammates-gemini-neon",
+      "headline": "Perplexity moves some Computer Teammates to Gemini Neon",
+      "whyItMatters": "Talk of switching models has turned into a real migration at Perplexity."
     },
     {
-      "itemId": "hwchase17-langchain-agents-learning-loop",
-      "headline": "Harrison Chase: every internal LangChain agent has a learning loop",
-      "whyItMatters": "Agents that improve from their own work compound in value over time."
+      "itemId": "pocock-agent-style-scorer",
+      "headline": "Matt Pocock: teach an agent your style by scoring its sentences",
+      "whyItMatters": "A cheap feedback loop could help agents write in a leader's own voice."
     }
   ],
   "items": [
     {
-      "id": "hwchase17-curator-agent-wiki-edits",
-      "title": "Harrison Chase: let one curator agent make all wiki edits",
-      "takeaway": "He says agents, main or sub, can't reliably edit a wiki. A separate curator agent should make every edit. He describes this as common across LangChain's work.",
-      "soWhat": "Give one agent clear ownership of shared knowledge instead of letting every agent write to it.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-21T17:11:27Z",
+      "id": "musk-real-time-ai-video",
+      "title": "Musk shows real-time AI video with no game engine",
+      "takeaway": "He posts a demo of real-time AI video generation, 'no gaming engine', running on half of one AI4 TRIP accelerator. The claim is his and not independently verified.",
+      "soWhat": "Unverified, but real-time generated video on small hardware would change interactive media costs.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-21T22:35:11Z",
       "source": {
-        "name": "@hwchase17 on X",
-        "url": "https://x.com/hwchase17/status/2124188957001023548"
+        "name": "@elonmusk on X",
+        "url": "https://x.com/elonmusk/status/2124270426402836626"
       },
       "image": {
-        "src": "/img/hwchase17-curator-agent-wiki-edits.jpg",
-        "alt": "Profile image of @hwchase17"
+        "src": "/img/musk-real-time-ai-video.jpg",
+        "alt": "Profile image of @elonmusk"
+      },
+      "heat": {
+        "score": 29,
+        "level": "none",
+        "metric": "534k views"
+      }
+    },
+    {
+      "id": "theo-deepmind-prs-t3-code",
+      "title": "Theo: a DeepMind Antigravity engineer is improving Gemini in T3 Code",
+      "takeaway": "He says a DeepMind engineer who works on Antigravity has landed many PRs to improve Gemini support in T3 Code, calling it 'as official as it gets'.",
+      "soWhat": "Google engineers are helping a third-party coding tool support Gemini, not only Google's own apps.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-21T22:21:08Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2124266892991115362"
+      },
+      "image": {
+        "src": "/img/theo-deepmind-prs-t3-code.jpg",
+        "alt": "Profile image of @theo"
+      },
+      "heat": {
+        "score": 16,
+        "level": "none",
+        "metric": "23k views"
+      }
+    },
+    {
+      "id": "hwchase17-knowledge-factory-copilot-gap",
+      "title": "Harrison Chase: buying Copilot alone does not change how teams work",
+      "takeaway": "He says many companies buy Copilot or similar tools and wonder why AI isn't changing how their team works. He calls a 'knowledge factory' the missing piece and links an article.",
+      "soWhat": "Licenses are not adoption; ask what system turns your team's work into reusable knowledge.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-21T22:17:23Z",
+      "source": {
+        "name": "@hwchase17 on X",
+        "url": "https://x.com/hwchase17/status/2124265949025235187"
+      },
+      "image": {
+        "src": "/img/hwchase17-knowledge-factory-copilot-gap.jpg",
+        "alt": "Image from @hwchase17 on X"
       },
       "heat": {
         "score": 0,
@@ -46,104 +92,157 @@
       }
     },
     {
-      "id": "hwchase17-langchain-agents-learning-loop",
-      "title": "Harrison Chase: every internal LangChain agent has a learning loop",
-      "takeaway": "He says all of LangChain's internal agents, for GTM, content and LangSmith Engine, have a learning loop. He links a write-up on what makes a knowledge factory.",
-      "soWhat": "Ask whether your agents get better from their own work or start from zero each time.",
-      "lens": "practical",
+      "id": "perplexity-teammates-gemini-neon",
+      "title": "Perplexity moves some Computer Teammates to Gemini Neon",
+      "takeaway": "Aravind Srinivas says Gemini Neon on high reasoning is intelligent and fast. He has migrated some of his Perplexity Computer Teammates to it.",
+      "soWhat": "Model switching is now routine; keep your agents portable across providers.",
+      "lens": "broad",
       "momentum": "building",
       "importance": 7,
-      "publishedAt": "2026-11-21T16:40:42Z",
+      "publishedAt": "2026-11-21T21:32:18Z",
       "source": {
-        "name": "@hwchase17 on X",
-        "url": "https://x.com/hwchase17/status/2124181216719151585"
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2124254600723394644"
       },
       "image": {
-        "src": "/img/hwchase17-langchain-agents-learning-loop.jpg",
-        "alt": "Profile image of @hwchase17"
+        "src": "/img/perplexity-teammates-gemini-neon.jpg",
+        "alt": "Profile image of @AravSrinivas"
       },
       "heat": {
-        "score": 7,
+        "score": 17,
         "level": "none",
-        "metric": "9k views"
+        "metric": "44k views"
       }
     },
     {
-      "id": "ryancarson-devin-bots-own-the-app",
-      "title": "Ryan Carson's team shares Devin Bots that own parts of the app",
-      "takeaway": "He says Devin Bots at HelloUntangle act like employees who own parts of the app and the engineering process. The team keeps one shared list, and everyone talks to the same Bots.",
-      "soWhat": "Shared, named agents with clear ownership are easier to manage than one private agent per person.",
+      "id": "simonw-gemini-4-xhigh-cost",
+      "title": "Simon Willison: Gemini 4 xhigh effort cost 23.61 cents, not 3.99",
+      "takeaway": "On his pelican test, Gemini 4 Hydrogen used 31,477 output tokens on xhigh effort versus 5,311 on high. Cost rose from 3.99 to 23.61 cents.",
+      "soWhat": "Set thinking effort per task; the top setting can multiply token spend several times over.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-21T19:06:22Z",
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2124217876777464269"
+      },
+      "image": {
+        "src": "/img/simonw-gemini-4-xhigh-cost.jpg",
+        "alt": "Image from @simonw on X"
+      },
+      "heat": {
+        "score": 9,
+        "level": "none",
+        "metric": "18k views"
+      }
+    },
+    {
+      "id": "pocock-agent-style-scorer",
+      "title": "Matt Pocock: teach an agent your style by scoring its sentences",
+      "takeaway": "He proposes a small scorer app: the agent sends example sentences and you rate them one at a time, swipe-style, either 1-4 or by picking between options.",
+      "soWhat": "Quick human ratings may be a cheap way to give an agent your own voice.",
       "lens": "practical",
       "momentum": "new",
       "importance": 7,
-      "publishedAt": "2026-11-21T16:14:10Z",
+      "publishedAt": "2026-11-21T18:51:21Z",
       "source": {
-        "name": "@ryancarson on X",
-        "url": "https://x.com/ryancarson/status/2124174540204880154"
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2124214098984370645"
       },
       "image": {
-        "src": "/img/ryancarson-devin-bots-own-the-app.jpg",
-        "alt": "Image from @ryancarson on X"
+        "src": "/img/pocock-agent-style-scorer.jpg",
+        "alt": "Profile image of @mattpocockuk"
+      },
+      "heat": {
+        "score": 16,
+        "level": "none",
+        "metric": "47k views"
+      }
+    },
+    {
+      "id": "a16z-navan-ground-stop-bookings",
+      "title": "a16z: Navan bookings doubled after the Nov 13 FAA ground stop",
+      "takeaway": "a16z's Chart of the Week shows Navan car and hotel bookings spiking to roughly twice normal hourly volume after the November 13 FAA ground stop.",
+      "soWhat": "Booking demand can double within hours of a disruption; travel systems must absorb it.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-21T18:00:23Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2124201269879570695"
+      },
+      "image": {
+        "src": "/img/a16z-navan-ground-stop-bookings.jpg",
+        "alt": "Image from @a16z on X"
       },
       "heat": {
         "score": 0,
         "level": "none",
-        "metric": "3k views"
+        "metric": "12k views"
       }
     },
     {
-      "id": "tibo-maker-squad-agents-gmail",
-      "title": "Tibo says his Squad agents now run his Gmail inbox",
-      "takeaway": "He says his Squad agents handle long email threads, ping him for important items and send follow-ups. This is self-reported, with no demo shown.",
-      "soWhat": "Email triage is an early, low-risk place for leaders to test delegating to agents.",
-      "lens": "practical",
+      "id": "mengto-motion-skills-ui",
+      "title": "Meng To lists motion skills for animating UI with agents",
+      "takeaway": "He points to HyperFrames, which renders video from HTML with agents, Emil Kowalski's animation skills, and DesignBookmark Motion animated components.",
+      "soWhat": "Agents can now add motion to interfaces through ready-made skills.",
+      "lens": "design",
       "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-11-21T14:55:47Z",
+      "importance": 6,
+      "publishedAt": "2026-11-21T17:35:42Z",
       "source": {
-        "name": "@tibo_maker on X",
-        "url": "https://x.com/tibo_maker/status/2124154815110402444"
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2124195058408980677"
       },
       "image": {
-        "src": "/img/tibo-maker-squad-agents-gmail.jpg",
-        "alt": "Profile image of @tibo_maker"
+        "src": "/img/mengto-motion-skills-ui.jpg",
+        "alt": "Image from @MengTo on X"
       },
       "heat": {
-        "score": 1,
+        "score": 7,
         "level": "none",
-        "metric": "3k views"
+        "metric": "10k views"
       }
     }
   ],
   "voices": [],
   "hotOnX": [
     {
-      "url": "https://x.com/garrytan/status/2124151626286170609",
-      "handle": "@garrytan",
-      "text": "Uses one tool for about half his work with his 'software factory'; calls it his best experience across desktop, mobile and cloud.",
-      "metric": "392 likes",
-      "note": "The YC CEO says one tool now handles about half his work."
+      "url": "https://x.com/elonmusk/status/2124270426402836626",
+      "handle": "@elonmusk",
+      "text": "Real-time AI video generation, 'no gaming engine', running on half of one AI4 TRIP accelerator.",
+      "metric": "4.7k likes",
+      "note": "A real-time video claim from a huge account; the demo is not independently verified."
     },
     {
-      "url": "https://x.com/AravSrinivas/status/2124172039766651250",
+      "url": "https://x.com/AravSrinivas/status/2124254600723394644",
       "handle": "@AravSrinivas",
-      "text": "The level of orchestration here is incredible",
-      "metric": "197 likes",
-      "note": "Perplexity's CEO praises the orchestration in a linked post."
+      "text": "Gemini Neon (reasoning High) is intelligent and fast; some Perplexity Computer Teammates migrated to it.",
+      "metric": "1.1k likes",
+      "note": "A product CEO is moving real agents to Google's new model."
     },
     {
-      "url": "https://x.com/hwchase17/status/2124181216719151585",
-      "handle": "@hwchase17",
-      "text": "All LangChain internal agents have a learning loop; links a write-up on what makes a 'knowledge factory'.",
-      "metric": "187 likes",
-      "note": "Builders want to know how agents can learn from their own work."
+      "url": "https://x.com/theo/status/2124266892991115362",
+      "handle": "@theo",
+      "text": "A Deepmind engineer who works on Antigravity has landed many PRs on T3 Code for Gemini: 'as official as it gets'.",
+      "metric": "944 likes",
+      "note": "It settles a public dispute over T3 Code's Gemini support."
     },
     {
-      "url": "https://x.com/swyx/status/2124147427313861009",
-      "handle": "@swyx",
-      "text": "Asks whether there is a benign explanation for providers 'secretly phoning home'.",
-      "metric": "151 likes",
-      "note": "Trust in what AI tools send back to providers is an open question."
+      "url": "https://x.com/mattpocockuk/status/2124214098984370645",
+      "handle": "@mattpocockuk",
+      "text": "Get an agent to write in your style: a 'scorer' app where you rate its example sentences one at a time.",
+      "metric": "927 likes",
+      "note": "Builders want agents that sound like them, not like generic AI."
+    },
+    {
+      "url": "https://x.com/simonw/status/2124217876777464269",
+      "handle": "@simonw",
+      "text": "Gemini 4 Hydrogen xhigh vs high effort on the pelican test: 23.61 vs 3.99 cents, 31,477 vs 5,311 tokens.",
+      "metric": "239 likes",
+      "note": "The cost gap between effort settings is larger than many expect."
     }
   ]
 }
