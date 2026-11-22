@@ -1,0 +1,400 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-22-1833",
+  "generatedAt": "2026-11-22T23:33:59.985Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-21T17:33:24.454Z",
+    "to": "2026-11-22T23:33:59.985Z"
+  },
+  "sourceNotes": [
+    "Dead: Dwarkesh Patel RSS redirects (HTTP 301) and OpenAI blog RSS 307; not followed.",
+    "X: 4 combined from:-handle searches (howTo x2, bigPicture, frontierCapital+design); queries, replies and authorBaseline not run; impressions stored as views.",
+    "X searches returned only a subset of lane handles; many handles had no originals in window.",
+    "Noisy X: theo one-liners, AlexFinn GTA6 review, ThePrimeagen personal posts, LynAldenContact meme post; not taken.",
+    "RSS: Simon Willison, Verge, MIT Tech Review fetched (titles only); Ben Evans, Stratechery, Atlantic, Lenny, Mollick, Hashimoto, Marcus, arXiv not refetched this run.",
+    "HN: Algolia front_page with points>200; only AI-relevant items taken."
+  ],
+  "candidates": [
+    {
+      "id": "x-2124551594691932405",
+      "lens": "broad",
+      "topic": "openai-perplexity-metric",
+      "summary": "sama says an OpenAI publication on pretraining progress is the most important thing OpenAI has published in a while, and proposes shared limits across labs.",
+      "facts": [
+        "sama: 'We are providing a lot of transparency into our pretraining progress and hope we can agree as a friend to common limits.'",
+        "swyx summarizes: OpenAI proposes perplexity as the universal metric for industry self regulation and pacing, instead of FLOPS.",
+        "Post 'Perplexity and Intelligence' at openai.com had 437 points on HN."
+      ],
+      "source": {
+        "name": "@sama on X",
+        "url": "https://x.com/sama/status/2124551594691932405",
+        "type": "x",
+        "handle": "sama"
+      },
+      "publishedAt": "2026-11-22T17:12:27.000Z",
+      "metrics": {
+        "likes": 6945,
+        "reposts": 430,
+        "replies": 644,
+        "views": 779155,
+        "capturedAt": "2026-11-22T23:33:59.985Z"
+      },
+      "care": 5,
+      "proof": 4
+    },
+    {
+      "id": "hn-50601525",
+      "lens": "broad",
+      "topic": "openai-perplexity-metric",
+      "summary": "OpenAI published 'Perplexity and Intelligence'; it reached 437 points on Hacker News.",
+      "facts": [
+        "Published 2026-11-22T17:06Z on HN front page."
+      ],
+      "source": {
+        "name": "OpenAI",
+        "url": "https://openai.com/index/perplexity-and-intelligence/",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-22T17:06:27.000Z",
+      "metrics": {
+        "points": 437,
+        "capturedAt": "2026-11-22T23:33:59.985Z"
+      },
+      "care": 5,
+      "proof": 5
+    },
+    {
+      "id": "x-2124217876777464269",
+      "lens": "practical",
+      "topic": "gemini-4-effort",
+      "summary": "simonw reports Gemini 4 Hydrogen at 'high' vs 'xhigh' thinking effort differs a lot in cost and output.",
+      "facts": [
+        "high: 3.99 cents, 5,311 output tokens",
+        "xhigh: 23.61 cents, 31,477 output tokens"
+      ],
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2124217876777464269",
+        "type": "x",
+        "handle": "simonw"
+      },
+      "publishedAt": "2026-11-21T19:06:22.000Z",
+      "metrics": {
+        "likes": 414,
+        "reposts": 18,
+        "replies": 223,
+        "views": 37659,
+        "capturedAt": "2026-11-22T23:33:59.985Z"
+      },
+      "care": 4,
+      "proof": 4
+    },
+    {
+      "id": "x-2124254600723394644",
+      "lens": "broad",
+      "topic": "gemini-neon",
+      "summary": "AravSrinivas says Gemini Neon (reasoning High) is intelligent and fast, and he moved some Perplexity Computer Teammates to it.",
+      "facts": [
+        "Post says it has been a while since a model felt both intelligent and fast."
+      ],
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2124254600723394644",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-21T21:32:18.000Z",
+      "metrics": {
+        "likes": 5272,
+        "reposts": 214,
+        "replies": 143,
+        "views": 327179,
+        "capturedAt": "2026-11-22T23:33:59.985Z"
+      },
+      "care": 4,
+      "proof": 3
+    },
+    {
+      "id": "x-2124214098984370645",
+      "lens": "practical",
+      "topic": "agent-writing-style-scorer",
+      "summary": "mattpocockuk sketches a way to make an agent write in your style: a scorer app where the agent sends example sentences and you score them one at a time.",
+      "facts": [
+        "Scoring is either 'score this sentence 1-4' (single) or choose between options."
+      ],
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2124214098984370645",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-21T18:51:21.000Z",
+      "metrics": {
+        "likes": 2129,
+        "reposts": 59,
+        "replies": 172,
+        "views": 126286,
+        "capturedAt": "2026-11-22T23:33:59.985Z"
+      },
+      "care": 4,
+      "proof": 3
+    },
+    {
+      "id": "x-2124577125814657374",
+      "lens": "practical",
+      "topic": "perfect-typescript-skill",
+      "summary": "mattpocockuk says an early version of his codebase skill produced the best codebase he has made, on a greenfield project.",
+      "facts": [
+        "Earlier post (13:50 Bogotá) asked what should go in a '/the-perfect-typescript-codebase' skill."
+      ],
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2124577125814657374",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-22T18:53:54.000Z",
+      "metrics": {
+        "likes": 545,
+        "reposts": 4,
+        "replies": 54,
+        "views": 35690,
+        "capturedAt": "2026-11-22T23:33:59.985Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "x-2124549720664383562",
+      "lens": "practical",
+      "topic": "vision-skill",
+      "summary": "kunchenguid published a video on his '/vision' skill, aimed at agents that keep asking the human for decisions.",
+      "facts": [
+        "Claim in post: it helps when the human's judgment is the bottleneck."
+      ],
+      "source": {
+        "name": "@kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2124549720664383562",
+        "type": "x",
+        "handle": "kunchenguid"
+      },
+      "publishedAt": "2026-11-22T17:05:00.000Z",
+      "metrics": {
+        "likes": 251,
+        "reposts": 9,
+        "replies": 14,
+        "views": 9538,
+        "capturedAt": "2026-11-22T23:33:59.985Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "x-2124345037408686228",
+      "lens": "broad",
+      "topic": "agent-swarm-github-issues",
+      "summary": "amasad shares a case of a high school student recompiling GTA6 for PC and using GitHub issues to coordinate agent swarms, and asks if it is a new model for open source.",
+      "facts": [
+        "Linked post carries the details; not verified independently."
+      ],
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2124345037408686228",
+        "type": "x",
+        "handle": "amasad"
+      },
+      "publishedAt": "2026-11-22T03:31:39.000Z",
+      "metrics": {
+        "likes": 1103,
+        "reposts": 63,
+        "replies": 149,
+        "views": 91569,
+        "capturedAt": "2026-11-22T23:33:59.985Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "x-2124604574606795002",
+      "lens": "broad",
+      "topic": "replit-desktop-security",
+      "summary": "amasad says Replit worked with Windows on a security model for Replit Desktop, and that Christie's chose Replit for secure agentic work.",
+      "facts": [
+        "Post calls desktop AI apps generally a security and privacy nightmare."
+      ],
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2124604574606795002",
+        "type": "x",
+        "handle": "amasad"
+      },
+      "publishedAt": "2026-11-22T20:42:58.000Z",
+      "metrics": {
+        "likes": 116,
+        "reposts": 8,
+        "replies": 42,
+        "views": 9169,
+        "capturedAt": "2026-11-22T23:33:59.985Z"
+      },
+      "care": 4,
+      "proof": 3
+    },
+    {
+      "id": "x-2124595496849445079",
+      "lens": "broad",
+      "topic": "stealth-models-exfiltration",
+      "summary": "rauchg warns that 'free' stealth-model inference marketed as ZDR is a mechanism of industrial-scale data exfiltration to nation states.",
+      "facts": [
+        "Quoting a viral tweet about a provider offering a stealth model; the claim is his opinion."
+      ],
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2124595496849445079",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "publishedAt": "2026-11-22T20:06:54.000Z",
+      "metrics": {
+        "likes": 312,
+        "reposts": 13,
+        "replies": 75,
+        "views": 28090,
+        "capturedAt": "2026-11-22T23:33:59.985Z"
+      },
+      "care": 4,
+      "proof": 2
+    },
+    {
+      "id": "x-2124539743098802456",
+      "lens": "practical",
+      "topic": "perplexity-harness",
+      "summary": "AravSrinivas says Perplexity is a model-neutral agentic harness with all primitives exposed in code mode.",
+      "facts": [
+        "Post says the harness works with the best frontier models."
+      ],
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2124539743098802456",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-22T16:25:21.000Z",
+      "metrics": {
+        "likes": 298,
+        "reposts": 16,
+        "replies": 82,
+        "views": 26056,
+        "capturedAt": "2026-11-22T23:33:59.985Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "x-2124431846859813234",
+      "lens": "design",
+      "topic": "mengto-liquid-glass-skills",
+      "summary": "MengTo says GPT 6.2 Astra recreated a desk scene in three.js with interactive objects, and he open-sourced 3 skills for liquid glass, shaders and a 3D room.",
+      "facts": [
+        "Includes a live demo site link."
+      ],
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2124431846859813234",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-22T09:16:36.000Z",
+      "metrics": {
+        "likes": 725,
+        "reposts": 49,
+        "replies": 45,
+        "views": 48351,
+        "capturedAt": "2026-11-22T23:33:59.985Z"
+      },
+      "care": 3,
+      "proof": 4
+    },
+    {
+      "id": "x-2124195058408980677",
+      "lens": "design",
+      "topic": "motion-skills",
+      "summary": "MengTo lists animation skills he finds helpful for UI: HyperFrames (write HTML, render video with agents), Emil Kowalski's animation skills, DesignBookmark Motion.",
+      "facts": [],
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2124195058408980677",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-21T17:35:42.000Z",
+      "metrics": {
+        "likes": 700,
+        "reposts": 64,
+        "replies": 41,
+        "views": 35351,
+        "capturedAt": "2026-11-22T23:33:59.985Z"
+      },
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "rss-simonw-muru",
+      "lens": "practical",
+      "topic": "muru",
+      "summary": "Simon Willison posted 'Muru' on 2026-11-21.",
+      "facts": [
+        "Title only read; content not fetched."
+      ],
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/21/muru/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-21T23:56:28.000Z",
+      "care": 2,
+      "proof": 3
+    },
+    {
+      "id": "rss-mit-ai-graph",
+      "lens": "broad",
+      "topic": "ai-graph-update",
+      "summary": "MIT Technology Review: 'The most misunderstood graph in AI just got a major update'.",
+      "facts": [
+        "Headline only; body not fetched."
+      ],
+      "source": {
+        "name": "MIT Tech Review",
+        "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-20T18:15:15.000Z",
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "hn-50602947",
+      "lens": "broad",
+      "topic": "silicon-valley-oreilly",
+      "summary": "O'Reilly Radar essay 'What Happened to Silicon Valley?' at 326 points on HN.",
+      "facts": [
+        "Headline and points only; body not read."
+      ],
+      "source": {
+        "name": "O'Reilly Radar",
+        "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-22T19:20:15.000Z",
+      "metrics": {
+        "points": 326,
+        "capturedAt": "2026-11-22T23:33:59.985Z"
+      },
+      "care": 2,
+      "proof": 2
+    }
+  ]
+}
