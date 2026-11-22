@@ -1,0 +1,356 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-22-0635",
+  "generatedAt": "2026-11-22T11:38:00.000Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-21T23:00:00.000Z",
+    "to": "2026-11-22T11:38:00.000Z"
+  },
+  "sourceNotes": [
+    "Dead: Dwarkesh Patel RSS returned HTTP 500.",
+    "arXiv API (cs.AI/cs.CL/cs.MA, agents) not usable this run (combined query 400; cs.MA query returned a malformed feed); one agents-relevant arXiv paper came via HN.",
+    "X: 3 combined from:-handle searches (howTo, bigPicture/frontier/design lanes; originals only, since 23:00Z); only 17 posts returned; authorBaseline not read; X replies and X queries not run.",
+    "Noisy/low-signal X: gregisenberg 20-idea list, rubenhassid certificate how-to (quiz-bypass), psychanon-style site posts, theo one-liners, ThePrimeagen/rauchg short quips; not taken.",
+    "Ben Evans, Lenny, Mitchell Hashimoto, One Useful Thing, Stratechery: no new items in window or not AI-relevant; The Atlantic Technology: nothing new since Nov 19.",
+    "HN: ≥200-point AI items in last 48h taken; many HN items off-topic."
+  ],
+  "candidates": [
+    {
+      "id": "x-2124345037408686228",
+      "lens": "practical",
+      "topic": "agent-swarm-github-issues",
+      "summary": "amasad says a high school student is recompiling GTA6 to run on PC and coordinating tasks across agent swarms using GitHub issues; he asks if this is a new model for open source.",
+      "facts": [
+        "Post includes an attached image."
+      ],
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2124345037408686228",
+        "type": "x",
+        "handle": "amasad"
+      },
+      "publishedAt": "2026-11-22T03:31:39.000Z",
+      "metrics": {
+        "likes": 684,
+        "reposts": 50,
+        "replies": 92,
+        "views": 53971,
+        "capturedAt": "2026-11-22T11:37:00.000Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "x-2124310598754472093",
+      "lens": "practical",
+      "topic": "skill-audits",
+      "summary": "kloss_xyz describes a 'skill audit': spawn 2 Cursor cloud agents to run read-only audits with Gemini 4 Neon and Fable 5.2 on xhigh effort, then apply only edits the models agree on, highest confidence first.",
+      "facts": [
+        "All 3 agreed on edits to 22 of his 104 skills (his figure: 21% of his stack).",
+        "Advice: run this every time a new model drops."
+      ],
+      "source": {
+        "name": "@kloss_xyz on X",
+        "url": "https://x.com/kloss_xyz/status/2124310598754472093",
+        "type": "x",
+        "handle": "kloss_xyz"
+      },
+      "publishedAt": "2026-11-22T01:14:49.000Z",
+      "metrics": {
+        "likes": 60,
+        "reposts": 4,
+        "replies": 21,
+        "views": 3402,
+        "capturedAt": "2026-11-22T11:37:00.000Z"
+      },
+      "care": 4,
+      "proof": 4
+    },
+    {
+      "id": "x-2124431846859813234",
+      "lens": "design",
+      "topic": "liquid-glass-skills",
+      "summary": "MengTo says GPT 6.2 Astra recreated a desk scene in three.js with every desk object interactive, and a sunset toggle on a Liquid Glass UI warms the room; he open-sourced 3 skills.",
+      "facts": [
+        "Skills: liquid glass, press shaders, 3D room (GitHub MengTo/Skills).",
+        "Demo site: threeui.com/studio-glass."
+      ],
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2124431846859813234",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-22T09:16:36.000Z",
+      "metrics": {
+        "likes": 90,
+        "reposts": 4,
+        "replies": 18,
+        "views": 5183,
+        "capturedAt": "2026-11-22T11:37:00.000Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "imageHint": "https://x.com/MengTo/status/2124431846859813234"
+    },
+    {
+      "id": "x-2124297579219526013",
+      "lens": "broad",
+      "topic": "riemann-hypothesis-claude",
+      "summary": "kunchenguid notes that the Riemann hypothesis was reportedly solved by Anthropic and that OpenAI has said nothing, and asks when labs can set aside ego and celebrate achievements together.",
+      "facts": [
+        "Quote-posts a 2022 post from sama."
+      ],
+      "source": {
+        "name": "@kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2124297579219526013",
+        "type": "x",
+        "handle": "kunchenguid"
+      },
+      "publishedAt": "2026-11-22T00:23:05.000Z",
+      "metrics": {
+        "likes": 99,
+        "reposts": 3,
+        "replies": 8,
+        "views": 6903,
+        "capturedAt": "2026-11-22T11:37:00.000Z"
+      },
+      "care": 2,
+      "proof": 2
+    },
+    {
+      "id": "rss-verge-riemann-claude",
+      "lens": "broad",
+      "topic": "riemann-hypothesis-claude",
+      "summary": "The Verge reports Anthropic mathematician Levent Alpöge claims to have proved the Riemann hypothesis with help from Claude.",
+      "facts": [
+        "The solution has not been independently verified.",
+        "Anthropic has not commented or involved itself in the announcement, per The Verge.",
+        "Anthropic went public on November 19th, 2026."
+      ],
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-20T16:57:47.000Z",
+      "care": 4,
+      "proof": 3,
+      "related": [
+        {
+          "name": "Hacker News: Levent Alpöge claims proof of the Generalized Riemann Hypothesis",
+          "url": "https://news.ycombinator.com/item?id=50574968"
+        },
+        {
+          "name": "Hacker News: Lean verification of the Riemann Hypothesis",
+          "url": "https://news.ycombinator.com/item?id=50589618"
+        },
+        {
+          "name": "Simon Willison: Quoting Levent Alpöge",
+          "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
+        }
+      ]
+    },
+    {
+      "id": "hn-50574968",
+      "lens": "broad",
+      "topic": "riemann-hypothesis-claude",
+      "summary": "Hacker News thread on 'Levent Alpöge claims proof of the Generalized Riemann Hypothesis' (PDF at alpo.ge/remark.pdf).",
+      "facts": [
+        "Same-cycle HN items: 'Lean verification of the Riemann Hypothesis' (1055 points), Scott Aaronson 'The stochastic parrots have apparently proved the Riemann Hypothesis' (347 points)."
+      ],
+      "source": {
+        "name": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50574968",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-20T14:16:21.000Z",
+      "care": 3,
+      "proof": 3,
+      "metrics": {
+        "points": 2882,
+        "capturedAt": "2026-11-22T11:37:00.000Z"
+      }
+    },
+    {
+      "id": "hn-50574383",
+      "lens": "broad",
+      "topic": "anthropic-ipo",
+      "summary": "Guardian headline on HN: 'Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic's second day'.",
+      "facts": [
+        "Gary Marcus (Nov 20): 'Breaking: Anthropic stock is crashing, and AI stocks have lost over 50% in 5 months.' (contrarian source).",
+        "The Verge podcast (Nov 21): 'Can Anthropic afford to put safety first?' says Anthropic went public on the Nasdaq last Thursday."
+      ],
+      "source": {
+        "name": "Hacker News / The Guardian",
+        "url": "https://news.ycombinator.com/item?id=50574383",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-20T13:29:59.000Z",
+      "care": 4,
+      "proof": 3,
+      "metrics": {
+        "points": 513,
+        "capturedAt": "2026-11-22T11:37:00.000Z"
+      },
+      "related": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+        },
+        {
+          "name": "Gary Marcus",
+          "url": "https://garymarcus.substack.com/p/breaking-anthropic-stock-is-crashing"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
+        }
+      ]
+    },
+    {
+      "id": "hn-50581260",
+      "lens": "broad",
+      "topic": "inkling-2-mini",
+      "summary": "Thinking Machines published 'Inkling 2 Mini' (thinkingmachines.ai/news/inkling-2-mini).",
+      "facts": [
+        "HN also shows 'Inkling-2-Mini in 5.4 GB Memory' (479 points)."
+      ],
+      "source": {
+        "name": "Hacker News / Thinking Machines",
+        "url": "https://news.ycombinator.com/item?id=50581260",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-20T20:12:19.000Z",
+      "care": 3,
+      "proof": 2,
+      "metrics": {
+        "points": 1417,
+        "capturedAt": "2026-11-22T11:37:00.000Z"
+      },
+      "related": [
+        {
+          "name": "Thinking Machines",
+          "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
+        },
+        {
+          "name": "HN: Inkling-2-Mini in 5.4 GB Memory",
+          "url": "https://news.ycombinator.com/item?id=50591853"
+        }
+      ]
+    },
+    {
+      "id": "hn-50577265",
+      "lens": "practical",
+      "topic": "models-rewrite-weights",
+      "summary": "arXiv paper 'Language Models Can Rewrite Their Own Weights' (2611.21885) discussed on HN.",
+      "facts": [],
+      "source": {
+        "name": "Hacker News / arXiv",
+        "url": "https://news.ycombinator.com/item?id=50577265",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-20T16:29:06.000Z",
+      "care": 3,
+      "proof": 2,
+      "metrics": {
+        "points": 487,
+        "capturedAt": "2026-11-22T11:37:00.000Z"
+      },
+      "related": [
+        {
+          "name": "arXiv",
+          "url": "https://arxiv.org/abs/2611.21885"
+        }
+      ]
+    },
+    {
+      "id": "rss-mit-metr-graph",
+      "lens": "broad",
+      "topic": "metr-doubling",
+      "summary": "MIT Technology Review covers METR's updated report on AI task performance.",
+      "facts": [
+        "Frontier models are doubling performance on verifiable tasks every four months, per the article summary.",
+        "Models still fall short of humans on judgment, e.g. designing new AI evaluations or scoring philosophical arguments."
+      ],
+      "source": {
+        "name": "MIT Tech Review AI",
+        "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-20T18:15:15.000Z",
+      "care": 4,
+      "proof": 3
+    },
+    {
+      "id": "rss-simonw-muru",
+      "lens": "practical",
+      "topic": "muru-ai-assisted-rust",
+      "summary": "Simon Willison highlights Muru, an AI-assisted Rust server by Graham Dumpleton (mod_wsgi author) for running ASGI and WSGI Python apps in development and production.",
+      "facts": [
+        "Dumpleton has published a detailed account of the project as he builds it, all in the last three weeks."
+      ],
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/21/muru/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-21T23:56:28.000Z",
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "rss-verge-ai-datacenter-tax",
+      "lens": "broad",
+      "topic": "ai-datacenter-tax",
+      "summary": "The Verge: Trump threatens a 'tremendous tax' for moving AI data centers outside the US.",
+      "facts": [],
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-20T18:50:19.000Z",
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "rss-openai-adversarial-distillation",
+      "lens": "broad",
+      "topic": "adversarial-distillation",
+      "summary": "OpenAI published 'Combatting adversarial distillation'.",
+      "facts": [
+        "Other OpenAI posts Nov 19-20: 'Explore the Codex Security Plugin'; Hebbia customer story citing GPT-6 Astra."
+      ],
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/combatting-adversarial-distillation",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-20T10:00:00.000Z",
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "rss-metaplanet-msci",
+      "lens": "frontier-capital",
+      "topic": "metaplanet-msci",
+      "summary": "Google News headline: 'MSCI Is Cutting Strategy and Metaplanet From Its Indexes. Here's What It Means for Bitcoin Treasury Company Stocks'.",
+      "facts": [
+        "Another headline (Nov 21): 'Strategy shares fall 30% in a week as bitcoin drops about 20% below the company's average purchase price - CEO'."
+      ],
+      "source": {
+        "name": "Metaplanet news (Google News)",
+        "url": "https://news.google.com/rss/search?q=Metaplanet&hl=en-US&gl=US&ceid=US:en",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-21T20:01:06.000Z",
+      "care": 2,
+      "proof": 2
+    }
+  ]
+}
