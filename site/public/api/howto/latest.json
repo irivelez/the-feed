@@ -1,40 +1,41 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-22T00:05:33Z",
-  "runId": "2026-11-21-1827",
+  "updatedAt": "2026-11-22T12:06:05Z",
+  "runId": "2026-11-22-0635",
   "howtos": [
     {
-      "id": "agent-style-sentence-scorer",
-      "dedupeKey": "agent-writing-style-sentence-scorer",
-      "title": "Teach an agent your style with a sentence scorer",
-      "what": "Matt Pocock's method: rate an agent's example sentences one at a time so it learns to write like you.",
+      "id": "cross-model-consensus-skill-audit",
+      "dedupeKey": "cross-model-consensus-skill-audit",
+      "title": "Audit your agent skills with two models, apply only shared edits",
+      "what": "A skill audit: rival models review your skills read-only, and you apply only the edits they agree on.",
       "kind": "steps",
       "copy": [
-        "Build a small 'scorer' app.",
-        "Have the agent send it example sentences.",
-        "Score them one at a time, swipe-style: either 1-4 per sentence or pick between options."
+        "Spawn 2 Cursor cloud agents.",
+        "Have them run read-only audits of your skills, one with Gemini 4 Neon and one with Fable 5.2, on xhigh effort.",
+        "Apply only the edits the models agree on, highest confidence first.",
+        "Run this every time a new model drops."
       ],
-      "whenToUse": "When an agent's writing doesn't sound like you and you want it to learn your style.",
+      "whenToUse": "When a new model ships and your agent skills may be out of date.",
       "source": {
-        "name": "@mattpocockuk on X",
-        "url": "https://x.com/mattpocockuk/status/2124214098984370645"
+        "name": "@kloss_xyz on X",
+        "url": "https://x.com/kloss_xyz/status/2124310598754472093"
       },
       "author": {
-        "name": "Matt Pocock",
-        "handle": "mattpocockuk"
+        "name": "@kloss_xyz",
+        "handle": "kloss_xyz"
       },
       "tags": [
-        "writing",
-        "agent-design",
-        "feedback-loop"
+        "agent-skills",
+        "model-upgrade",
+        "multi-agent"
       ],
-      "quality": 3,
+      "quality": 4,
       "verbatim": false,
       "briefItem": {
-        "briefId": "2026-11-21-1900",
-        "itemId": "pocock-agent-style-scorer"
+        "briefId": "2026-11-22-0700",
+        "itemId": "kloss-cross-model-skill-audit"
       },
-      "addedAt": "2026-11-22T00:05:33Z"
+      "addedAt": "2026-11-22T12:06:05Z"
     }
   ]
 }

@@ -1,7 +1,41 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-22T00:05:33Z",
+  "updatedAt": "2026-11-22T12:06:05Z",
   "howtos": [
+    {
+      "id": "cross-model-consensus-skill-audit",
+      "dedupeKey": "cross-model-consensus-skill-audit",
+      "title": "Audit your agent skills with two models, apply only shared edits",
+      "what": "A skill audit: rival models review your skills read-only, and you apply only the edits they agree on.",
+      "kind": "steps",
+      "copy": [
+        "Spawn 2 Cursor cloud agents.",
+        "Have them run read-only audits of your skills, one with Gemini 4 Neon and one with Fable 5.2, on xhigh effort.",
+        "Apply only the edits the models agree on, highest confidence first.",
+        "Run this every time a new model drops."
+      ],
+      "whenToUse": "When a new model ships and your agent skills may be out of date.",
+      "source": {
+        "name": "@kloss_xyz on X",
+        "url": "https://x.com/kloss_xyz/status/2124310598754472093"
+      },
+      "author": {
+        "name": "@kloss_xyz",
+        "handle": "kloss_xyz"
+      },
+      "tags": [
+        "agent-skills",
+        "model-upgrade",
+        "multi-agent"
+      ],
+      "quality": 4,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-22-0700",
+        "itemId": "kloss-cross-model-skill-audit"
+      },
+      "addedAt": "2026-11-22T12:06:05Z"
+    },
     {
       "id": "agent-style-sentence-scorer",
       "dedupeKey": "agent-writing-style-sentence-scorer",
