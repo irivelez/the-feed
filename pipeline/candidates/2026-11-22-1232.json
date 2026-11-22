@@ -1,0 +1,607 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-22-1232",
+  "generatedAt": "2026-11-22T17:33:00.000Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-21T12:00:00.000Z",
+    "to": "2026-11-22T17:31:00.000Z"
+  },
+  "sourceNotes": [
+    "Dead: Dwarkesh Patel RSS returned HTTP 500 (empty body).",
+    "arXiv: cs.MA query worked (8 entries, 1 agents-relevant: ROGUE-AI 2611.26553, not taken as a candidate); cs.AI and cs.CL not separately queried.",
+    "HN: Algolia works only with URL-encoded numericFilters; used front-page API cross-check. Items >=200 points taken only where AI-relevant.",
+    "X: 5 combined from:-handle searches (howTo x2, bigPicture, frontierCapital+design); X queries and replies not run; authorBaseline not read; search results carry bookmarks/impressions, impressions stored as views.",
+    "X search returned only a subset of lane handles (many handles had no matching originals in window); several handles never queried individually.",
+    "Noisy/low-signal X: theo reaction one-liners, kloss_xyz PA site posts, nathanbenaich non-AI chatter, LynAldenContact meme posts, AlexFinn GTA6 review, RayDalio principle quotes, naval aphorism; not taken.",
+    "RSS no new items in window or not AI-relevant: Ben Evans (last Sep 3), One Useful Thing (last Nov 9), Mitchell Hashimoto (last Nov 6), Stratechery (Nov 20 items covered elsewhere), The Atlantic Technology (nothing since Nov 19), Lenny (Nov 22 PM post, not fetched in detail).",
+    "Google News Metaplanet feed is a 20-item aggregation of the same MSCI story from many outlets."
+  ],
+  "candidates": [
+    {
+      "id": "x-2124500662436151797",
+      "lens": "practical",
+      "topic": "perfect-typescript-skill",
+      "summary": "mattpocockuk says he is thinking about creating a /the-perfect-typescript-codebase skill, a 'platonic ideal' of a great codebase, and asks what should go in it.",
+      "facts": [
+        "Post is a question to his followers; no skill released yet."
+      ],
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2124500662436151797",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-22T13:50:03.000Z",
+      "metrics": {
+        "likes": 493,
+        "reposts": 3,
+        "replies": 129,
+        "views": 35277,
+        "capturedAt": "2026-11-22T17:31:00.000Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "x-2124214098984370645",
+      "lens": "practical",
+      "topic": "agent-writing-style-scorer",
+      "summary": "mattpocockuk proposes getting an agent to write in your style by building a 'scorer' app where the agent sends example sentences that you score one at a time, swipe-style.",
+      "facts": [
+        "Scoring variants: 'score this sentence 1-4' (single) or choose between options."
+      ],
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2124214098984370645",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-21T18:51:21.000Z",
+      "metrics": {
+        "likes": 2008,
+        "reposts": 55,
+        "replies": 162,
+        "views": 117400,
+        "capturedAt": "2026-11-22T17:31:00.000Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "x-2124217876777464269",
+      "lens": "practical",
+      "topic": "gemini-4-effort",
+      "summary": "simonw reports Gemini 4 Hydrogen on 'high' thinking effort versus 'xhigh' differs significantly on his pelican test.",
+      "facts": [
+        "High: cost 3.99 cents, 5,311 output tokens.",
+        "xhigh: cost 23.61 cents, 31,477 output tokens."
+      ],
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2124217876777464269",
+        "type": "x",
+        "handle": "simonw"
+      },
+      "publishedAt": "2026-11-21T19:06:22.000Z",
+      "metrics": {
+        "likes": 395,
+        "reposts": 17,
+        "replies": 213,
+        "views": 34750,
+        "capturedAt": "2026-11-22T17:31:00.000Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "x-2124310598754472093",
+      "lens": "practical",
+      "topic": "skill-audits",
+      "summary": "kloss_xyz describes a 'skill audit': spawn 2 Cursor cloud agents to run read-only audits with Gemini 4 Neon and Fable 5.2 on xhigh effort to find skills the newest frontier models already do natively.",
+      "facts": [
+        "Post links a prompt to copy."
+      ],
+      "source": {
+        "name": "@kloss_xyz on X",
+        "url": "https://x.com/kloss_xyz/status/2124310598754472093",
+        "type": "x",
+        "handle": "kloss_xyz"
+      },
+      "publishedAt": "2026-11-22T01:14:49.000Z",
+      "metrics": {
+        "likes": 66,
+        "reposts": 4,
+        "replies": 21,
+        "views": 3896,
+        "capturedAt": "2026-11-22T17:31:00.000Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "x-2124181216719151585",
+      "lens": "practical",
+      "topic": "knowledge-factory",
+      "summary": "hwchase17 published an article 'How to build a knowledge factory': all LangChain agents (internal GTM and content agents, LangSmith Engine) have a learning loop with similar pieces.",
+      "facts": [
+        "Article title: How to build a knowledge factory.",
+        "Follow-up post: agents, whether main agent or subagents, can't reliably edit the wiki, so a separate 'curator agent' does all edits."
+      ],
+      "source": {
+        "name": "@hwchase17 on X",
+        "url": "https://x.com/hwchase17/status/2124181216719151585",
+        "type": "x",
+        "handle": "hwchase17"
+      },
+      "publishedAt": "2026-11-21T16:40:42.000Z",
+      "metrics": {
+        "likes": 2956,
+        "reposts": 318,
+        "replies": 221,
+        "views": 576846,
+        "capturedAt": "2026-11-22T17:31:00.000Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "x-2124345037408686228",
+      "lens": "practical",
+      "topic": "agent-swarm-github-issues",
+      "summary": "amasad says a high school student is recompiling GTA6 to run on PC and is coordinating tasks across agent swarms using GitHub issues; he asks whether this is a new model for open source.",
+      "facts": [
+        "Post includes an attached image.",
+        "HN item 'Leonida – PC Recompilation of the Xbox Version of GTA 6' reached 200 points."
+      ],
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2124345037408686228",
+        "type": "x",
+        "handle": "amasad"
+      },
+      "publishedAt": "2026-11-22T03:31:39.000Z",
+      "metrics": {
+        "likes": 987,
+        "reposts": 59,
+        "replies": 137,
+        "views": 79828,
+        "capturedAt": "2026-11-22T17:31:00.000Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "x-2124525336994177412",
+      "lens": "practical",
+      "topic": "codebase-gardening",
+      "summary": "poteto posts that it's a good day to do some gardening of your codebase, with a link.",
+      "facts": [
+        "Link target not read."
+      ],
+      "source": {
+        "name": "@poteto on X",
+        "url": "https://x.com/poteto/status/2124525336994177412",
+        "type": "x",
+        "handle": "poteto"
+      },
+      "publishedAt": "2026-11-22T15:28:06.000Z",
+      "metrics": {
+        "likes": 1154,
+        "reposts": 29,
+        "replies": 60,
+        "views": 60331,
+        "capturedAt": "2026-11-22T17:31:00.000Z"
+      },
+      "care": 2,
+      "proof": 1,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "x-2124174540204880154",
+      "lens": "practical",
+      "topic": "devin-bots",
+      "summary": "ryancarson says the new Devin Bots feature has streamlined engineering at Untangle, 'like having employees who own parts of the app and engineering process'; the team shares a list of Bots that everyone talks to.",
+      "facts": [
+        "Post includes a list of Bots as an image."
+      ],
+      "source": {
+        "name": "@ryancarson on X",
+        "url": "https://x.com/ryancarson/status/2124174540204880154",
+        "type": "x",
+        "handle": "ryancarson"
+      },
+      "publishedAt": "2026-11-21T16:14:10.000Z",
+      "metrics": {
+        "likes": 164,
+        "reposts": 14,
+        "replies": 25,
+        "views": 15163,
+        "capturedAt": "2026-11-22T17:31:00.000Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "hn-inkling-2-mini",
+      "lens": "practical",
+      "topic": "inkling-2-mini",
+      "summary": "Thinking Machines Lab released Inkling 2 Mini, a looped transformer small enough to run on a laptop; it runs the middle layers three times per token.",
+      "facts": [
+        "Claims to lead open-weights models under 100B total parameters on DeepSWE v1.1 (48.2%) and Vals Index v2.2 (46.5%).",
+        "Hacker News: 1,439 points at capture."
+      ],
+      "source": {
+        "name": "Thinking Machines Lab",
+        "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+        "type": "blog"
+      },
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "rss-simon-muru",
+      "lens": "practical",
+      "topic": "muru",
+      "summary": "Simon Willison highlights Muru, Graham Dumpleton's new AI-assisted Rust server for running ASGI and WSGI Python apps in development and production.",
+      "facts": [
+        "Dumpleton published a detailed account of the project over the last three weeks, starting 2026-11-04."
+      ],
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/21/muru/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-21T23:56:28.000Z",
+      "care": 2,
+      "proof": 3,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "hn-openrouter-data-incidents",
+      "lens": "practical",
+      "topic": "inference-provider-incidents",
+      "summary": "OpenRouter says security researchers reported certain inference providers had data compromised or did not uphold data policies; no breach of OpenRouter was found.",
+      "facts": [
+        "Off-boarded three providers.",
+        "Removed 125 endpoints from Zero Data Retention eligibility.",
+        "Notified all potentially affected customers.",
+        "Hacker News: 249 points at capture."
+      ],
+      "source": {
+        "name": "OpenRouter",
+        "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+        "type": "web"
+      },
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "rss-simon-token-fraud",
+      "lens": "practical",
+      "topic": "token-fraud",
+      "summary": "Simon Willison links a YouTube video where Claire Vo (ChatPRD) describes a flood of token fraud from groups abusing the product's free trial, some to resell tokens.",
+      "facts": [
+        "Simon notes it in a post titled 'Token fraud is here and it's BAD (YouTube)'."
+      ],
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-20T02:49:57.000Z",
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "x-2124551594691932405",
+      "lens": "broad",
+      "topic": "openai-pretraining-transparency",
+      "summary": "sama says OpenAI published 'the most important thing' in a while: transparency into its pretraining progress, and hopes labs can agree 'as a frield' [sic] to common limits, which he says would help ensure safety and control.",
+      "facts": [
+        "Linked publication not read."
+      ],
+      "source": {
+        "name": "@sama on X",
+        "url": "https://x.com/sama/status/2124551594691932405",
+        "type": "x",
+        "handle": "sama"
+      },
+      "publishedAt": "2026-11-22T17:12:27.000Z",
+      "metrics": {
+        "likes": 1042,
+        "reposts": 75,
+        "replies": 216,
+        "views": 81458,
+        "capturedAt": "2026-11-22T17:31:00.000Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "x-2124471707738231047",
+      "lens": "broad",
+      "topic": "agentic-commerce",
+      "summary": "patrickc posts that agentic commerce is growing extremely quickly, with a link/chart.",
+      "facts": [
+        "Stratechery also ran an interview with Eric Seufert about agentic commerce on 2026-11-19.",
+        "nathanbenaich pointed to @stateofai agentic commerce predictions on 2026-11-22."
+      ],
+      "source": {
+        "name": "@patrickc on X",
+        "url": "https://x.com/patrickc/status/2124471707738231047",
+        "type": "x",
+        "handle": "patrickc"
+      },
+      "publishedAt": "2026-11-22T11:55:00.000Z",
+      "metrics": {
+        "likes": 1142,
+        "reposts": 77,
+        "replies": 91,
+        "views": 119221,
+        "capturedAt": "2026-11-22T17:31:00.000Z"
+      },
+      "care": 4,
+      "proof": 2,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "rss-verge-anthropic-ipo",
+      "lens": "broad",
+      "topic": "anthropic-ipo",
+      "summary": "The Verge podcast with Hayden Field on the Anthropic IPO: the lab behind Claude went public on the Nasdaq last Thursday.",
+      "facts": [
+        "Third and final episode of its 'AI in real life' series."
+      ],
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-21T13:29:45.000Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "rss-marcus-anthropic-stock",
+      "lens": "broad",
+      "topic": "anthropic-ipo",
+      "summary": "Gary Marcus (contrarian) writes that Anthropic stock is dropping and AI stocks have lost over 50% in five months, per his headline.",
+      "facts": [
+        "Snippet: Anthropic, which dropped steadily after its opening, is set to drop nearly 10% more at the opening bell.",
+        "Source is a contrarian feed; claim is his headline, not verified."
+      ],
+      "source": {
+        "name": "Gary Marcus",
+        "url": "https://garymarcus.substack.com/p/breaking-anthropic-stock-is-crashing",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-20T14:20:06.000Z",
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "rss-mit-metr-graph",
+      "lens": "broad",
+      "topic": "metr-time-horizon",
+      "summary": "METR updated its time-horizon plot: some AI capabilities keep improving exponentially, but models are less good at tasks requiring judgment than at coding.",
+      "facts": [
+        "Report from the AI evaluation nonprofit METR."
+      ],
+      "source": {
+        "name": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-20T18:15:15.000Z",
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "hn-anthropic-power",
+      "lens": "broad",
+      "topic": "ai-power-demand",
+      "summary": "Better Data Center Project case study: Anthropic's compute commitments could mean 32 million metric tons of CO2 in 2028; the HN title says 87% of its power would come from gas and 11% from coal in 2028.",
+      "facts": [
+        "Report identifies 177 GW of planned bring-your-own-power gas capacity.",
+        "Hacker News: 517 points at capture."
+      ],
+      "source": {
+        "name": "Better Data Center Project",
+        "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "hn-lean-riemann",
+      "lens": "broad",
+      "topic": "riemann-claim",
+      "summary": "Lean community blog post 'Lean verification of the Riemann Hypothesis' reached 1,161 points on Hacker News.",
+      "facts": [
+        "The Verge reported on 2026-11-20 that an Anthropic mathematician claims to have solved a Millennium Prize problem with Claude.",
+        "Post content not read."
+      ],
+      "source": {
+        "name": "Lean community blog",
+        "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+        "type": "hn"
+      },
+      "publishedAt": "2026-11-21T00:00:00.000Z",
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "x-2124356471219769466",
+      "lens": "broad",
+      "topic": "engineer-unemployment",
+      "summary": "theo posts: 'If you still have your tech stack in your bio, you're probably gonna be unemployed in 6 months'.",
+      "facts": [
+        "Opinion post, no data."
+      ],
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2124356471219769466",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-22T04:17:06.000Z",
+      "metrics": {
+        "likes": 4247,
+        "reposts": 148,
+        "replies": 342,
+        "views": 206036,
+        "capturedAt": "2026-11-22T17:31:00.000Z"
+      },
+      "care": 2,
+      "proof": 1,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "rss-metaplanet-msci",
+      "lens": "frontier-capital",
+      "topic": "metaplanet-msci",
+      "summary": "Google News items (Motley Fool, The Block, CoinDesk and others) report MSCI is removing Strategy and Metaplanet from its indexes in the November reshuffle.",
+      "facts": [
+        "One headline says Metaplanet is removed from the MSCI Japan Small Cap Index at end of November.",
+        "Another headline: Metaplanet shares closed at ¥197, below ¥200 for the first time in five months."
+      ],
+      "source": {
+        "name": "Google News (Metaplanet)",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxObHN3NzNSVkZkMkRhcE9qRkw1QXZkZmdDOElscEN6aUFoQXYtdk0zNlJqSDZQUGhHQkdtWEVqQTFEY2NzUEpreEVaZ1FaUGVKTjlBdjVvVmVBUW9BTFlybDNKcU51TmhGWTVRX296VmZDclVxb191eFRhNUdOaUpKWEMwWDhFaGJxcGNnSzA2ck9PeVRGUmRqSDE2WWlIbFNRc2FTVHVieDRQcWlYVnF4REYya1hNdGMwWFIxQkdCMkxtbC1wVnVRdmpiYlF2dUM1b1AtdzZ5NFVHYTBxSVBKRjJnOWlvTlVUVVFyYQ?oc=5",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-21T19:17:02.000Z",
+      "care": 2,
+      "proof": 3,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "x-2124194159523402173",
+      "lens": "frontier-capital",
+      "topic": "fed-hikes-view",
+      "summary": "TaviCosta argues that accelerating rate hikes into a slowing economy dependent on easy money is how you would 'engineer a deflationary bust like 2008'; he says the Fed is doing exactly that.",
+      "facts": [
+        "Opinion, no data cited in the visible text."
+      ],
+      "source": {
+        "name": "@TaviCosta on X",
+        "url": "https://x.com/TaviCosta/status/2124194159523402173",
+        "type": "x",
+        "handle": "TaviCosta"
+      },
+      "publishedAt": "2026-11-21T17:32:07.000Z",
+      "metrics": {
+        "likes": 1085,
+        "reposts": 135,
+        "replies": 78,
+        "views": 81997,
+        "capturedAt": "2026-11-22T17:31:00.000Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "x-2124005399397339622",
+      "lens": "frontier-capital",
+      "topic": "bitcoin-liquidity-cycle",
+      "summary": "LynAldenContact posts that Bitcoin 'is dead right now. It fell 56%' and proposes checking back in 2-3 years during the next rising liquidity cycle and PMI cycle.",
+      "facts": [
+        "Crypto price move; low priority under mute topics."
+      ],
+      "source": {
+        "name": "@LynAldenContact on X",
+        "url": "https://x.com/LynAldenContact/status/2124005399397339622",
+        "type": "x",
+        "handle": "LynAldenContact"
+      },
+      "publishedAt": "2026-11-21T05:02:03.000Z",
+      "metrics": {
+        "likes": 15605,
+        "reposts": 1401,
+        "replies": 534,
+        "views": 639690,
+        "capturedAt": "2026-11-22T17:31:00.000Z"
+      },
+      "care": 2,
+      "proof": 1,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "x-2124431846859813234",
+      "lens": "design",
+      "topic": "liquid-glass-3d-skills",
+      "summary": "MengTo says GPT 6.2 Astra recreated a desk in three.js with every object interactive and a Liquid Glass UI where tapping sunset warms the room; he open-sourced 3 skills (glass, shaders, 3D room).",
+      "facts": [
+        "Follow-up post (2026-11-22 17:01Z, 21 likes) made a three.js creek in 12 hours with Astra 5.2 and 3 skills."
+      ],
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2124431846859813234",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-22T09:16:36.000Z",
+      "metrics": {
+        "likes": 488,
+        "reposts": 33,
+        "replies": 41,
+        "views": 32751,
+        "capturedAt": "2026-11-22T17:31:00.000Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-22"
+    },
+    {
+      "id": "x-2124195058408980677",
+      "lens": "design",
+      "topic": "motion-skills",
+      "summary": "MengTo lists three motion skills for animating UI: HyperFrames (write HTML, render video with agents), Emil Kowalski's animation skills, and DesignBookmark Motion (animated components to copy).",
+      "facts": [
+        "Post carries 1,136 bookmarks."
+      ],
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2124195058408980677",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-21T17:35:42.000Z",
+      "metrics": {
+        "likes": 667,
+        "reposts": 59,
+        "replies": 40,
+        "views": 32998,
+        "capturedAt": "2026-11-22T17:31:00.000Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-22"
+    }
+  ]
+}
