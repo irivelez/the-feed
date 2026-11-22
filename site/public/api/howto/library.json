@@ -1,7 +1,40 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-21T18:10:14Z",
+  "updatedAt": "2026-11-22T00:05:33Z",
   "howtos": [
+    {
+      "id": "agent-style-sentence-scorer",
+      "dedupeKey": "agent-writing-style-sentence-scorer",
+      "title": "Teach an agent your style with a sentence scorer",
+      "what": "Matt Pocock's method: rate an agent's example sentences one at a time so it learns to write like you.",
+      "kind": "steps",
+      "copy": [
+        "Build a small 'scorer' app.",
+        "Have the agent send it example sentences.",
+        "Score them one at a time, swipe-style: either 1-4 per sentence or pick between options."
+      ],
+      "whenToUse": "When an agent's writing doesn't sound like you and you want it to learn your style.",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2124214098984370645"
+      },
+      "author": {
+        "name": "Matt Pocock",
+        "handle": "mattpocockuk"
+      },
+      "tags": [
+        "writing",
+        "agent-design",
+        "feedback-loop"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-21-1900",
+        "itemId": "pocock-agent-style-scorer"
+      },
+      "addedAt": "2026-11-22T00:05:33Z"
+    },
     {
       "id": "curator-agent-owns-wiki-edits",
       "dedupeKey": "single-curator-agent-for-wiki-edits",
