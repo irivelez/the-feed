@@ -1,0 +1,210 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-22-1300",
+  "date": "2026-11-22",
+  "publishedAt": "2026-11-22T18:12:12Z",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "openrouter-inference-provider-data-incidents",
+      "headline": "OpenRouter off-boards three inference providers after data incidents",
+      "whyItMatters": "Data policies are only as strong as the weakest provider your AI traffic touches."
+    },
+    {
+      "itemId": "sama-openai-pretraining-transparency",
+      "headline": "Altman says OpenAI now publishes its pretraining progress",
+      "whyItMatters": "Common limits between labs would make the pace of frontier models easier to plan around."
+    },
+    {
+      "itemId": "anthropic-compute-co2-gas-coal-2028",
+      "headline": "Anthropic's compute could mean 32 million tons of CO2 in 2028",
+      "whyItMatters": "How AI vendors source power is becoming a climate and reputation question for buyers."
+    }
+  ],
+  "items": [
+    {
+      "id": "sama-openai-pretraining-transparency",
+      "title": "Altman says OpenAI now publishes its pretraining progress",
+      "takeaway": "Sam Altman calls OpenAI's new transparency into its pretraining progress 'the most important thing' in a while and hopes labs agree to common limits.",
+      "soWhat": "If labs adopt common limits, the pace of frontier model releases becomes easier to predict.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-22T17:12:27Z",
+      "source": {
+        "name": "@sama on X",
+        "url": "https://x.com/sama/status/2124551594691932405"
+      },
+      "image": {
+        "src": "/img/sama-openai-pretraining-transparency.jpg",
+        "alt": "Image from @sama on X"
+      },
+      "heat": {
+        "score": 18,
+        "level": "none",
+        "metric": "81k views"
+      }
+    },
+    {
+      "id": "patrickc-agentic-commerce-growth",
+      "title": "Patrick Collison says agentic commerce is growing extremely quickly",
+      "takeaway": "Patrick Collison posted that agentic commerce is growing extremely quickly, with a chart. Stratechery also covered agentic commerce on Nov 19.",
+      "soWhat": "Purchases made by agents for customers are becoming a sales channel worth planning for.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-22T11:55:00Z",
+      "source": {
+        "name": "@patrickc on X",
+        "url": "https://x.com/patrickc/status/2124471707738231047"
+      },
+      "image": {
+        "src": "/img/patrickc-agentic-commerce-growth.jpg",
+        "alt": "Profile image of @patrickc"
+      },
+      "heat": {
+        "score": 18,
+        "level": "none",
+        "metric": "119k views"
+      }
+    },
+    {
+      "id": "amasad-gta6-agent-swarms-github-issues",
+      "title": "Student coordinates agent swarms through GitHub issues to port GTA6",
+      "takeaway": "Amjad Masad says a high school student is recompiling GTA6 for PC, coordinating agent swarms with GitHub issues. A Hacker News post on the port reached 200 points.",
+      "soWhat": "GitHub issues can serve as a simple shared task board for many agents on one project.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-22T03:31:39Z",
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2124345037408686228"
+      },
+      "image": {
+        "src": "/img/amasad-gta6-agent-swarms-github-issues.jpg",
+        "alt": "Image from @amasad on X"
+      },
+      "heat": {
+        "score": 18,
+        "level": "none",
+        "metric": "80k views"
+      }
+    },
+    {
+      "id": "openrouter-inference-provider-data-incidents",
+      "title": "OpenRouter off-boards three inference providers after data incidents",
+      "takeaway": "Researchers reported some providers had data compromised or broke data policies. OpenRouter dropped three, pulled 125 endpoints from zero data retention and notified customers.",
+      "soWhat": "A model gateway does not remove the need to vet every provider behind it.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-22T00:00:00Z",
+      "source": {
+        "name": "OpenRouter",
+        "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+      },
+      "image": {
+        "src": "/img/openrouter-inference-provider-data-incidents.jpg",
+        "alt": "Image from OpenRouter"
+      }
+    },
+    {
+      "id": "tavicosta-fed-hikes-deflation-view",
+      "title": "Tavi Costa: faster rate hikes risk a 2008-style deflationary bust",
+      "takeaway": "Tavi Costa argues that accelerating rate hikes into a slowing economy dependent on easy money is how you engineer a deflationary bust like 2008, and says the Fed is doing that.",
+      "soWhat": "If he is right, tighter money will test growth plans that rely on cheap capital.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-21T17:32:07Z",
+      "source": {
+        "name": "@TaviCosta on X",
+        "url": "https://x.com/TaviCosta/status/2124194159523402173"
+      },
+      "image": {
+        "src": "/img/tavicosta-fed-hikes-deflation-view.jpg",
+        "alt": "Image from @TaviCosta on X"
+      },
+      "heat": {
+        "score": 19,
+        "level": "none",
+        "metric": "82k views"
+      }
+    },
+    {
+      "id": "lean-riemann-hypothesis-verification-post",
+      "title": "Lean blog post on Riemann Hypothesis verification draws 1,161 HN points",
+      "takeaway": "The Lean community blog posted 'Lean verification of the Riemann Hypothesis'. The Verge reported on Nov 20 that an Anthropic mathematician claims a proof with Claude.",
+      "soWhat": "Machine-checked proofs are how claims of AI-assisted math breakthroughs get tested.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-21T00:00:00Z",
+      "source": {
+        "name": "Lean community blog",
+        "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+      },
+      "image": {
+        "src": "/img/lean-riemann-hypothesis-verification-post.jpg",
+        "alt": "Image from Lean community blog"
+      }
+    },
+    {
+      "id": "anthropic-compute-co2-gas-coal-2028",
+      "title": "Anthropic's compute could mean 32 million tons of CO2 in 2028",
+      "takeaway": "A Better Data Center Project case study links Anthropic's compute commitments to 32 million metric tons of CO2 in 2028; the HN title says 87% gas and 11% coal power.",
+      "soWhat": "Power sourcing is becoming a regulatory and reputation risk for AI vendors and their buyers.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "source": {
+        "name": "Better Data Center",
+        "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/"
+      },
+      "image": {
+        "src": "/img/anthropic-compute-co2-gas-coal-2028.jpg",
+        "alt": "Image from Better Data Center"
+      }
+    }
+  ],
+  "voices": [],
+  "hotOnX": [
+    {
+      "url": "https://x.com/theo/status/2124356471219769466",
+      "handle": "@theo",
+      "text": "If you still have your tech stack in your bio, you're probably gonna be unemployed in 6 months",
+      "metric": "4,247 likes",
+      "note": "A blunt jobs prediction from a big developer account; opinion, no data."
+    },
+    {
+      "url": "https://x.com/hwchase17/status/2124181216719151585",
+      "handle": "@hwchase17",
+      "text": "How to build a knowledge factory: every LangChain agent has a learning loop with similar pieces.",
+      "metric": "2,956 likes",
+      "note": "A concrete pattern for agents that keep learning from their own work."
+    },
+    {
+      "url": "https://x.com/mattpocockuk/status/2124214098984370645",
+      "handle": "@mattpocockuk",
+      "text": "Get an agent to write in your style: build a scorer app and rate its sample sentences one at a time.",
+      "metric": "2,008 likes",
+      "note": "A simple way to teach an agent your voice without writing long style guides."
+    },
+    {
+      "url": "https://x.com/TaviCosta/status/2124194159523402173",
+      "handle": "@TaviCosta",
+      "text": "Accelerating rate hikes into a slowing, easy-money economy is how you'd engineer a deflationary bust like 2008.",
+      "metric": "1,085 likes",
+      "note": "A macro warning that the Fed may be tightening into weakness."
+    },
+    {
+      "url": "https://x.com/sama/status/2124551594691932405",
+      "handle": "@sama",
+      "text": "OpenAI published transparency into its pretraining progress; Altman hopes labs agree to common limits.",
+      "metric": "1,042 likes",
+      "note": "A lab leader openly asking rivals for shared limits on training."
+    }
+  ]
+}

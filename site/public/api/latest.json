@@ -1,357 +1,210 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-22-0700",
+  "id": "2026-11-22-1300",
   "date": "2026-11-22",
-  "publishedAt": "2026-11-22T12:05:28Z",
-  "edition": "Morning",
+  "publishedAt": "2026-11-22T18:12:12Z",
+  "edition": "Midday",
   "top3": [
     {
-      "itemId": "kloss-cross-model-skill-audit",
-      "headline": "Kloss: audit agent skills with rival models, keep edits they agree on",
-      "whyItMatters": "Teams can refresh agent instructions per model release without trusting any single model's edits."
+      "itemId": "openrouter-inference-provider-data-incidents",
+      "headline": "OpenRouter off-boards three inference providers after data incidents",
+      "whyItMatters": "Data policies are only as strong as the weakest provider your AI traffic touches."
     },
     {
-      "itemId": "simonw-muru-ai-assisted-rust-server",
-      "headline": "mod_wsgi's author builds a Rust server for Python apps with AI",
-      "whyItMatters": "Seasoned engineers now use AI for production infrastructure, not just prototypes."
+      "itemId": "sama-openai-pretraining-transparency",
+      "headline": "Altman says OpenAI now publishes its pretraining progress",
+      "whyItMatters": "Common limits between labs would make the pace of frontier models easier to plan around."
     },
     {
-      "itemId": "mengto-liquid-glass-3d-skills",
-      "headline": "Meng To open-sources three skills for Liquid Glass and 3D interfaces",
-      "whyItMatters": "Reusable design skills make polished interactive interfaces cheaper to prototype."
+      "itemId": "anthropic-compute-co2-gas-coal-2028",
+      "headline": "Anthropic's compute could mean 32 million tons of CO2 in 2028",
+      "whyItMatters": "How AI vendors source power is becoming a climate and reputation question for buyers."
     }
   ],
   "items": [
     {
-      "id": "mengto-liquid-glass-3d-skills",
-      "title": "Meng To open-sources three skills for Liquid Glass and 3D interfaces",
-      "takeaway": "He says GPT 6.2 Astra rebuilt a desk scene in three.js with interactive objects. He published skills for liquid glass, press shaders and a 3D room.",
-      "soWhat": "Design teams can reuse packaged skills instead of prompting rich interfaces from scratch.",
-      "lens": "design",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-22T09:16:36Z",
-      "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2124431846859813234"
-      },
-      "image": {
-        "src": "/img/mengto-liquid-glass-3d-skills.jpg",
-        "alt": "Image from @MengTo on X"
-      },
-      "heat": {
-        "score": 1,
-        "level": "none",
-        "metric": "5k views"
-      }
-    },
-    {
-      "id": "kloss-cross-model-skill-audit",
-      "title": "Kloss: audit agent skills with rival models, keep edits they agree on",
-      "takeaway": "Two Cursor cloud agents run read-only audits of his skills with Gemini 4 Neon and Fable 5.2; he applies only agreed edits. They agreed on 22 of 104 skills.",
-      "soWhat": "Skills written for older models drift, and a consensus check is a cheap way to update them.",
-      "lens": "practical",
+      "id": "sama-openai-pretraining-transparency",
+      "title": "Altman says OpenAI now publishes its pretraining progress",
+      "takeaway": "Sam Altman calls OpenAI's new transparency into its pretraining progress 'the most important thing' in a while and hopes labs agree to common limits.",
+      "soWhat": "If labs adopt common limits, the pace of frontier model releases becomes easier to predict.",
+      "lens": "broad",
       "momentum": "new",
       "importance": 8,
-      "publishedAt": "2026-11-22T01:14:49Z",
+      "publishedAt": "2026-11-22T17:12:27Z",
       "source": {
-        "name": "@kloss_xyz on X",
-        "url": "https://x.com/kloss_xyz/status/2124310598754472093"
+        "name": "@sama on X",
+        "url": "https://x.com/sama/status/2124551594691932405"
       },
       "image": {
-        "src": "/img/kloss-cross-model-skill-audit.jpg",
-        "alt": "Image from @kloss_xyz on X"
+        "src": "/img/sama-openai-pretraining-transparency.jpg",
+        "alt": "Image from @sama on X"
       },
       "heat": {
-        "score": 0,
+        "score": 18,
         "level": "none",
-        "metric": "3k views"
+        "metric": "81k views"
       }
     },
     {
-      "id": "simonw-muru-ai-assisted-rust-server",
-      "title": "Simon Willison flags Muru, an AI-assisted Rust server for Python apps",
-      "takeaway": "Graham Dumpleton, author of mod_wsgi, built Muru with AI help to run ASGI and WSGI apps, documenting it in detail over three weeks.",
-      "soWhat": "A veteran maintainer shipping production infrastructure with AI is stronger proof than a demo.",
+      "id": "patrickc-agentic-commerce-growth",
+      "title": "Patrick Collison says agentic commerce is growing extremely quickly",
+      "takeaway": "Patrick Collison posted that agentic commerce is growing extremely quickly, with a chart. Stratechery also covered agentic commerce on Nov 19.",
+      "soWhat": "Purchases made by agents for customers are becoming a sales channel worth planning for.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-22T11:55:00Z",
+      "source": {
+        "name": "@patrickc on X",
+        "url": "https://x.com/patrickc/status/2124471707738231047"
+      },
+      "image": {
+        "src": "/img/patrickc-agentic-commerce-growth.jpg",
+        "alt": "Profile image of @patrickc"
+      },
+      "heat": {
+        "score": 18,
+        "level": "none",
+        "metric": "119k views"
+      }
+    },
+    {
+      "id": "amasad-gta6-agent-swarms-github-issues",
+      "title": "Student coordinates agent swarms through GitHub issues to port GTA6",
+      "takeaway": "Amjad Masad says a high school student is recompiling GTA6 for PC, coordinating agent swarms with GitHub issues. A Hacker News post on the port reached 200 points.",
+      "soWhat": "GitHub issues can serve as a simple shared task board for many agents on one project.",
       "lens": "practical",
       "momentum": "new",
       "importance": 6,
-      "publishedAt": "2026-11-21T23:56:28Z",
+      "publishedAt": "2026-11-22T03:31:39Z",
       "source": {
-        "name": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Nov/21/muru/"
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2124345037408686228"
       },
       "image": {
-        "src": "/img/simonw-muru-ai-assisted-rust-server.jpg",
-        "alt": "Simon Willison: Simon Willison flags Muru, an AI-assisted Rust server for Python apps"
-      }
-    },
-    {
-      "id": "musk-real-time-ai-video",
-      "title": "Musk shows real-time AI video with no game engine",
-      "takeaway": "He posts a demo of real-time AI video generation, 'no gaming engine', running on half of one AI4 TRIP accelerator. The claim is his and not independently verified.",
-      "soWhat": "Unverified, but real-time generated video on small hardware would change interactive media costs.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-21T22:35:11Z",
-      "source": {
-        "name": "@elonmusk on X",
-        "url": "https://x.com/elonmusk/status/2124270426402836626"
-      },
-      "image": {
-        "src": "/img/musk-real-time-ai-video.jpg",
-        "alt": "Profile image of @elonmusk"
+        "src": "/img/amasad-gta6-agent-swarms-github-issues.jpg",
+        "alt": "Image from @amasad on X"
       },
       "heat": {
-        "score": 29,
+        "score": 18,
         "level": "none",
-        "metric": "534k views"
+        "metric": "80k views"
       }
     },
     {
-      "id": "theo-deepmind-prs-t3-code",
-      "title": "Theo: a DeepMind Antigravity engineer is improving Gemini in T3 Code",
-      "takeaway": "He says a DeepMind engineer who works on Antigravity has landed many PRs to improve Gemini support in T3 Code, calling it 'as official as it gets'.",
-      "soWhat": "Google engineers are helping a third-party coding tool support Gemini, not only Google's own apps.",
+      "id": "openrouter-inference-provider-data-incidents",
+      "title": "OpenRouter off-boards three inference providers after data incidents",
+      "takeaway": "Researchers reported some providers had data compromised or broke data policies. OpenRouter dropped three, pulled 125 endpoints from zero data retention and notified customers.",
+      "soWhat": "A model gateway does not remove the need to vet every provider behind it.",
       "lens": "practical",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-22T00:00:00Z",
+      "source": {
+        "name": "OpenRouter",
+        "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+      },
+      "image": {
+        "src": "/img/openrouter-inference-provider-data-incidents.jpg",
+        "alt": "Image from OpenRouter"
+      }
+    },
+    {
+      "id": "tavicosta-fed-hikes-deflation-view",
+      "title": "Tavi Costa: faster rate hikes risk a 2008-style deflationary bust",
+      "takeaway": "Tavi Costa argues that accelerating rate hikes into a slowing economy dependent on easy money is how you engineer a deflationary bust like 2008, and says the Fed is doing that.",
+      "soWhat": "If he is right, tighter money will test growth plans that rely on cheap capital.",
+      "lens": "frontier-capital",
       "momentum": "new",
       "importance": 4,
-      "publishedAt": "2026-11-21T22:21:08Z",
+      "publishedAt": "2026-11-21T17:32:07Z",
       "source": {
-        "name": "@theo on X",
-        "url": "https://x.com/theo/status/2124266892991115362"
+        "name": "@TaviCosta on X",
+        "url": "https://x.com/TaviCosta/status/2124194159523402173"
       },
       "image": {
-        "src": "/img/theo-deepmind-prs-t3-code.jpg",
-        "alt": "Profile image of @theo"
+        "src": "/img/tavicosta-fed-hikes-deflation-view.jpg",
+        "alt": "Image from @TaviCosta on X"
       },
       "heat": {
-        "score": 16,
+        "score": 19,
         "level": "none",
-        "metric": "23k views"
+        "metric": "82k views"
       }
     },
     {
-      "id": "hwchase17-knowledge-factory-copilot-gap",
-      "title": "Harrison Chase: buying Copilot alone does not change how teams work",
-      "takeaway": "He says many companies buy Copilot or similar tools and wonder why AI isn't changing how their team works. He calls a 'knowledge factory' the missing piece and links an article.",
-      "soWhat": "Licenses are not adoption; ask what system turns your team's work into reusable knowledge.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-21T22:17:23Z",
-      "source": {
-        "name": "@hwchase17 on X",
-        "url": "https://x.com/hwchase17/status/2124265949025235187"
-      },
-      "image": {
-        "src": "/img/hwchase17-knowledge-factory-copilot-gap.jpg",
-        "alt": "Image from @hwchase17 on X"
-      },
-      "heat": {
-        "score": 0,
-        "level": "none",
-        "metric": "2k views"
-      }
-    },
-    {
-      "id": "perplexity-teammates-gemini-neon",
-      "title": "Perplexity moves some Computer Teammates to Gemini Neon",
-      "takeaway": "Aravind Srinivas says Gemini Neon on high reasoning is intelligent and fast. He has migrated some of his Perplexity Computer Teammates to it.",
-      "soWhat": "Model switching is now routine; keep your agents portable across providers.",
+      "id": "lean-riemann-hypothesis-verification-post",
+      "title": "Lean blog post on Riemann Hypothesis verification draws 1,161 HN points",
+      "takeaway": "The Lean community blog posted 'Lean verification of the Riemann Hypothesis'. The Verge reported on Nov 20 that an Anthropic mathematician claims a proof with Claude.",
+      "soWhat": "Machine-checked proofs are how claims of AI-assisted math breakthroughs get tested.",
       "lens": "broad",
       "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-21T21:32:18Z",
+      "importance": 5,
+      "publishedAt": "2026-11-21T00:00:00Z",
       "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2124254600723394644"
+        "name": "Lean community blog",
+        "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
       },
       "image": {
-        "src": "/img/perplexity-teammates-gemini-neon.jpg",
-        "alt": "Profile image of @AravSrinivas"
-      },
-      "heat": {
-        "score": 17,
-        "level": "none",
-        "metric": "44k views"
+        "src": "/img/lean-riemann-hypothesis-verification-post.jpg",
+        "alt": "Image from Lean community blog"
       }
     },
     {
-      "id": "simonw-gemini-4-xhigh-cost",
-      "title": "Simon Willison: Gemini 4 xhigh effort cost 23.61 cents, not 3.99",
-      "takeaway": "On his pelican test, Gemini 4 Hydrogen used 31,477 output tokens on xhigh effort versus 5,311 on high. Cost rose from 3.99 to 23.61 cents.",
-      "soWhat": "Set thinking effort per task; the top setting can multiply token spend several times over.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-21T19:06:22Z",
-      "source": {
-        "name": "@simonw on X",
-        "url": "https://x.com/simonw/status/2124217876777464269"
-      },
-      "image": {
-        "src": "/img/simonw-gemini-4-xhigh-cost.jpg",
-        "alt": "Image from @simonw on X"
-      },
-      "heat": {
-        "score": 9,
-        "level": "none",
-        "metric": "18k views"
-      }
-    },
-    {
-      "id": "pocock-agent-style-scorer",
-      "title": "Matt Pocock: teach an agent your style by scoring its sentences",
-      "takeaway": "He proposes a small scorer app: the agent sends example sentences and you rate them one at a time, swipe-style, either 1-4 or by picking between options.",
-      "soWhat": "Quick human ratings may be a cheap way to give an agent your own voice.",
-      "lens": "practical",
+      "id": "anthropic-compute-co2-gas-coal-2028",
+      "title": "Anthropic's compute could mean 32 million tons of CO2 in 2028",
+      "takeaway": "A Better Data Center Project case study links Anthropic's compute commitments to 32 million metric tons of CO2 in 2028; the HN title says 87% gas and 11% coal power.",
+      "soWhat": "Power sourcing is becoming a regulatory and reputation risk for AI vendors and their buyers.",
+      "lens": "broad",
       "momentum": "new",
       "importance": 7,
-      "publishedAt": "2026-11-21T18:51:21Z",
+      "publishedAt": "2026-11-16T00:00:00Z",
       "source": {
-        "name": "@mattpocockuk on X",
-        "url": "https://x.com/mattpocockuk/status/2124214098984370645"
+        "name": "Better Data Center",
+        "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/"
       },
       "image": {
-        "src": "/img/pocock-agent-style-scorer.jpg",
-        "alt": "Profile image of @mattpocockuk"
-      },
-      "heat": {
-        "score": 16,
-        "level": "none",
-        "metric": "47k views"
-      }
-    },
-    {
-      "id": "a16z-navan-ground-stop-bookings",
-      "title": "a16z: Navan bookings doubled after the Nov 13 FAA ground stop",
-      "takeaway": "a16z's Chart of the Week shows Navan car and hotel bookings spiking to roughly twice normal hourly volume after the November 13 FAA ground stop.",
-      "soWhat": "Booking demand can double within hours of a disruption; travel systems must absorb it.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-21T18:00:23Z",
-      "source": {
-        "name": "@a16z on X",
-        "url": "https://x.com/a16z/status/2124201269879570695"
-      },
-      "image": {
-        "src": "/img/a16z-navan-ground-stop-bookings.jpg",
-        "alt": "Image from @a16z on X"
-      },
-      "heat": {
-        "score": 0,
-        "level": "none",
-        "metric": "12k views"
-      }
-    },
-    {
-      "id": "mengto-motion-skills-ui",
-      "title": "Meng To lists motion skills for animating UI with agents",
-      "takeaway": "He points to HyperFrames, which renders video from HTML with agents, Emil Kowalski's animation skills, and DesignBookmark Motion animated components.",
-      "soWhat": "Agents can now add motion to interfaces through ready-made skills.",
-      "lens": "design",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-21T17:35:42Z",
-      "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2124195058408980677"
-      },
-      "image": {
-        "src": "/img/mengto-motion-skills-ui.jpg",
-        "alt": "Image from @MengTo on X"
-      },
-      "heat": {
-        "score": 7,
-        "level": "none",
-        "metric": "10k views"
-      }
-    },
-    {
-      "id": "thinking-machines-inkling-2-mini",
-      "title": "Thinking Machines publishes Inkling 2 Mini",
-      "takeaway": "Thinking Machines posted Inkling 2 Mini on its news page. A separate Hacker News post shows it running in 5.4 GB of memory.",
-      "soWhat": "Watch whether small models that fit modest hardware cut inference costs for routine work.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-20T20:12:19Z",
-      "source": {
-        "name": "Thinking Machines",
-        "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
-      },
-      "related": [
-        {
-          "name": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50581260"
-        },
-        {
-          "name": "HN: Inkling-2-Mini in 5.4 GB Memory",
-          "url": "https://news.ycombinator.com/item?id=50591853"
-        }
-      ],
-      "image": {
-        "src": "/img/thinking-machines-inkling-2-mini.jpg",
-        "alt": "Thinking Machines: Thinking Machines publishes Inkling 2 Mini"
-      }
-    },
-    {
-      "id": "paper-models-rewrite-own-weights",
-      "title": "Paper: language models can rewrite their own weights",
-      "takeaway": "An arXiv paper, 'Language Models Can Rewrite Their Own Weights', drew 487 points on Hacker News.",
-      "soWhat": "Self-updating models would make testing and governance harder, so track whether the result replicates.",
-      "lens": "broad",
-      "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-11-20T16:29:06Z",
-      "source": {
-        "name": "arXiv",
-        "url": "https://arxiv.org/abs/2611.21885"
-      },
-      "related": [
-        {
-          "name": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50577265"
-        }
-      ],
-      "image": {
-        "src": "/img/paper-models-rewrite-own-weights.jpg",
-        "alt": "arXiv: Paper: language models can rewrite their own weights"
+        "src": "/img/anthropic-compute-co2-gas-coal-2028.jpg",
+        "alt": "Image from Better Data Center"
       }
     }
   ],
   "voices": [],
   "hotOnX": [
     {
-      "url": "https://x.com/amasad/status/2124345037408686228",
-      "handle": "@amasad",
-      "text": "A high school student is recompiling GTA6 for PC, coordinating agent swarms through GitHub issues. A new model for open source?",
-      "metric": "684 likes",
-      "note": "A big account's story of agent swarms run through GitHub issues; the anecdote is unverified."
+      "url": "https://x.com/theo/status/2124356471219769466",
+      "handle": "@theo",
+      "text": "If you still have your tech stack in your bio, you're probably gonna be unemployed in 6 months",
+      "metric": "4,247 likes",
+      "note": "A blunt jobs prediction from a big developer account; opinion, no data."
     },
     {
-      "url": "https://x.com/kunchenguid/status/2124297579219526013",
-      "handle": "@kunchenguid",
-      "text": "The Riemann hypothesis was reportedly solved by Anthropic and OpenAI has said nothing. When can labs set aside ego?",
-      "metric": "99 likes",
-      "note": "The unverified Riemann claim is turning into a story about lab rivalry."
+      "url": "https://x.com/hwchase17/status/2124181216719151585",
+      "handle": "@hwchase17",
+      "text": "How to build a knowledge factory: every LangChain agent has a learning loop with similar pieces.",
+      "metric": "2,956 likes",
+      "note": "A concrete pattern for agents that keep learning from their own work."
     },
     {
-      "url": "https://x.com/MengTo/status/2124431846859813234",
-      "handle": "@MengTo",
-      "text": "GPT 6.2 Astra recreated a desk scene in three.js with every object interactive; three skills open-sourced.",
-      "metric": "90 likes",
-      "note": "Free, reusable skills for rich 3D and Liquid Glass interfaces."
+      "url": "https://x.com/mattpocockuk/status/2124214098984370645",
+      "handle": "@mattpocockuk",
+      "text": "Get an agent to write in your style: build a scorer app and rate its sample sentences one at a time.",
+      "metric": "2,008 likes",
+      "note": "A simple way to teach an agent your voice without writing long style guides."
     },
     {
-      "url": "https://x.com/kloss_xyz/status/2124310598754472093",
-      "handle": "@kloss_xyz",
-      "text": "Skill audit: two cloud agents, two models, apply only the edits they agree on. They agreed on 22 of 104 skills.",
-      "metric": "60 likes",
-      "note": "A repeatable way to refresh agent skills whenever a new model ships."
+      "url": "https://x.com/TaviCosta/status/2124194159523402173",
+      "handle": "@TaviCosta",
+      "text": "Accelerating rate hikes into a slowing, easy-money economy is how you'd engineer a deflationary bust like 2008.",
+      "metric": "1,085 likes",
+      "note": "A macro warning that the Fed may be tightening into weakness."
+    },
+    {
+      "url": "https://x.com/sama/status/2124551594691932405",
+      "handle": "@sama",
+      "text": "OpenAI published transparency into its pretraining progress; Altman hopes labs agree to common limits.",
+      "metric": "1,042 likes",
+      "note": "A lab leader openly asking rivals for shared limits on training."
     }
   ]
 }

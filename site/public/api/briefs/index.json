@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-22-0700",
-  "count": 90,
+  "latest": "2026-11-22-1300",
+  "count": 91,
   "briefs": [
+    {
+      "id": "2026-11-22-1300",
+      "date": "2026-11-22",
+      "edition": "Midday",
+      "publishedAt": "2026-11-22T18:12:12Z",
+      "headline": "OpenRouter off-boards three inference providers after data incidents",
+      "url": "/api/briefs/2026-11-22-1300.json"
+    },
     {
       "id": "2026-11-22-0700",
       "date": "2026-11-22",
