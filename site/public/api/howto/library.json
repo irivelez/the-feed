@@ -1,7 +1,39 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-22T12:06:05Z",
+  "updatedAt": "2026-11-23T18:07:20Z",
   "howtos": [
+    {
+      "id": "agent-picks-model-from-your-sessions",
+      "dedupeKey": "agent-picks-model-from-your-sessions",
+      "title": "Let an agent pick your model from your own sessions",
+      "what": "Have an agent review your past coding sessions and choose which model suits your work best.",
+      "kind": "steps",
+      "copy": [
+        "Ask an agent (Rauch used Fable) to study your coding sessions.",
+        "Have it decide which model is best for you, for example Opus or Gemini Neon."
+      ],
+      "whenToUse": "When two frontier models look close on public benchmarks and you need to choose one for daily coding.",
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2124880074168242369"
+      },
+      "author": {
+        "name": "@rauchg",
+        "handle": "rauchg"
+      },
+      "tags": [
+        "model-selection",
+        "coding-agents",
+        "evals"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-23-1300",
+        "itemId": "rauchg-fable-picks-gemini-neon"
+      },
+      "addedAt": "2026-11-23T18:07:20Z"
+    },
     {
       "id": "cross-model-consensus-skill-audit",
       "dedupeKey": "cross-model-consensus-skill-audit",
