@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-22-1300",
-  "count": 91,
+  "latest": "2026-11-22-1900",
+  "count": 92,
   "briefs": [
+    {
+      "id": "2026-11-22-1900",
+      "date": "2026-11-22",
+      "edition": "Evening",
+      "publishedAt": "2026-11-23T00:07:12Z",
+      "headline": "OpenAI proposes perplexity as the shared metric for pacing labs",
+      "url": "/api/briefs/2026-11-22-1900.json"
+    },
     {
       "id": "2026-11-22-1300",
       "date": "2026-11-22",
