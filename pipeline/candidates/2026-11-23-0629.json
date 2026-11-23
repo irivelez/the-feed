@@ -1,0 +1,301 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-23-0629",
+  "generatedAt": "2026-11-23T11:29:25.302Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-22T05:28:53.394Z",
+    "to": "2026-11-23T11:29:25.302Z"
+  },
+  "sourceNotes": [
+    "X: 5 combined from:-handle searches (howTo x2, bigPicture x2, frontierCapital+design); queries, replies and authorBaseline not run; views are impressions.",
+    "X searches returned only a subset of lane handles; many handles had no originals in window.",
+    "Noisy X: elonmusk (jokes, Starlink/SpaceX, not AI-relevant), theo one-liners, ThePrimeagen personal posts, beffjezos memes; not taken.",
+    "HN Algolia returned non-JSON; HN not collected this run.",
+    "RSS: Simon Willison and The Verge AI fetched (titles only, nothing taken); other feeds and arXiv not refetched this run."
+  ],
+  "candidates": [
+    {
+      "id": "x-2124665075638411641",
+      "lens": "practical",
+      "topic": "gemini-antigravity-harness",
+      "summary": "theo clarifies Gemini subscriptions work only inside Antigravity; T3 Code routes through the Antigravity binary, other harnesses such as Pi are not allowed.",
+      "facts": [
+        "theo: 'You can only use your Gemini subscription in Antigravity.'",
+        "theo: T3 Code -> Antigravity binary -> Google API is allowed; Pi is not."
+      ],
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2124665075638411641",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-23T00:43:23.000Z",
+      "metrics": {
+        "likes": 3123,
+        "reposts": 89,
+        "replies": 196,
+        "views": 257055,
+        "capturedAt": "2026-11-23T11:29:25.302Z"
+      },
+      "care": 4,
+      "proof": 3
+    },
+    {
+      "id": "x-2124797717834543167",
+      "lens": "practical",
+      "topic": "vercel-board-agents",
+      "summary": "mattpocockuk on Vercel Board: a private Slack-like workspace for agents and developers, which he thinks most teams should build from scratch.",
+      "facts": [
+        "mattpocockuk: 'Basically just a private Slack workspace for your agents AND developers (which can even sync to Slack channels for better observability)'"
+      ],
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2124797717834543167",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-23T09:30:27.000Z",
+      "metrics": {
+        "likes": 865,
+        "reposts": 31,
+        "replies": 84,
+        "views": 49257,
+        "capturedAt": "2026-11-23T11:29:25.302Z"
+      },
+      "care": 4,
+      "proof": 3
+    },
+    {
+      "id": "x-2124747542566977889",
+      "lens": "practical",
+      "topic": "local-inkling-2",
+      "summary": "AlexFinn says Inkling 2 Mini runs on a MacBook Pro using under half its memory and does coding and web scraping 24/7.",
+      "facts": [
+        "AlexFinn claims 'Opus 4.6 level coding for free on a laptop'; a self-report, no benchmark linked."
+      ],
+      "source": {
+        "name": "@AlexFinn on X",
+        "url": "https://x.com/AlexFinn/status/2124747542566977889",
+        "type": "x",
+        "handle": "AlexFinn"
+      },
+      "publishedAt": "2026-11-23T06:11:04.000Z",
+      "metrics": {
+        "likes": 1449,
+        "reposts": 65,
+        "replies": 157,
+        "views": 99353,
+        "capturedAt": "2026-11-23T11:29:25.302Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "x-2124577125814657374",
+      "lens": "practical",
+      "topic": "pocock-greenfield-skill",
+      "summary": "mattpocockuk says an early version of a new skill produced the best codebase he has made on a greenfield project.",
+      "facts": [
+        "mattpocockuk: 'it's already the best codebase I've ever produced'"
+      ],
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2124577125814657374",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-22T18:53:54.000Z",
+      "metrics": {
+        "likes": 1166,
+        "reposts": 16,
+        "replies": 75,
+        "views": 78482,
+        "capturedAt": "2026-11-23T11:29:25.302Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "x-2124549720664383562",
+      "lens": "practical",
+      "topic": "kunchen-vision-skill",
+      "summary": "kunchenguid published a deep-dive video on a '/vision' skill meant to stop agents asking for decisions so judgment is not the bottleneck.",
+      "facts": [
+        "kunchenguid: 'if your agents keep asking you for decisions and your judgment is becoming a bottleneck, this is a solution'"
+      ],
+      "source": {
+        "name": "@kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2124549720664383562",
+        "type": "x",
+        "handle": "kunchenguid"
+      },
+      "publishedAt": "2026-11-22T17:05:00.000Z",
+      "metrics": {
+        "likes": 557,
+        "reposts": 18,
+        "replies": 24,
+        "views": 22062,
+        "capturedAt": "2026-11-23T11:29:25.302Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "x-2124539743098802456",
+      "lens": "practical",
+      "topic": "perplexity-harness",
+      "summary": "AravSrinivas says Perplexity is the best model-neutral agentic harness, with all primitives exposed in code mode.",
+      "facts": [
+        "AravSrinivas: 'compatible with the best frontier models'"
+      ],
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2124539743098802456",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-22T16:25:21.000Z",
+      "metrics": {
+        "likes": 425,
+        "reposts": 21,
+        "replies": 105,
+        "views": 203061,
+        "capturedAt": "2026-11-23T11:29:25.302Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "x-2124765417378099414",
+      "lens": "broad",
+      "topic": "gemini-4-adoption",
+      "summary": "AravSrinivas reports Gemini 4 Neon usage growth on Perplexity since launch.",
+      "facts": [
+        "+10.6%/day in Ask (fast search) queries",
+        "+15.0%/day in Computer (agentic tasks)",
+        "Window Nov 19 to Nov 22, 22-hour matched basis; Perplexity's own data."
+      ],
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2124765417378099414",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-23T07:22:06.000Z",
+      "metrics": {
+        "likes": 752,
+        "reposts": 15,
+        "replies": 102,
+        "views": 36402,
+        "capturedAt": "2026-11-23T11:29:25.302Z"
+      },
+      "care": 4,
+      "proof": 3
+    },
+    {
+      "id": "x-2124719968499777546",
+      "lens": "broad",
+      "topic": "wang-leadership-not-inevitable",
+      "summary": "alexandr_wang says the current AI path is not inevitable and that leadership matters more than ever, citing safety work at Meta.",
+      "facts": [
+        "alexandr_wang: 'this path is not inevitable'",
+        "alexandr_wang: 'much of what I said has been said by the leaders of other labs'"
+      ],
+      "source": {
+        "name": "@alexandr_wang on X",
+        "url": "https://x.com/alexandr_wang/status/2124719968499777546",
+        "type": "x",
+        "handle": "alexandr_wang"
+      },
+      "publishedAt": "2026-11-23T04:21:30.000Z",
+      "metrics": {
+        "likes": 2250,
+        "reposts": 149,
+        "replies": 206,
+        "views": 300201,
+        "capturedAt": "2026-11-23T11:29:25.302Z"
+      },
+      "care": 4,
+      "proof": 3
+    },
+    {
+      "id": "x-2124613622588707018",
+      "lens": "broad",
+      "topic": "agents-banking-inertia",
+      "summary": "nikitabier argues the economy rests on people not cancelling subscriptions or moving cash to higher-yield accounts; if everyone ran an agent to do it, banking would shift.",
+      "facts": [
+        "Post is cut off in the read; opinion, no data."
+      ],
+      "source": {
+        "name": "@nikitabier on X",
+        "url": "https://x.com/nikitabier/status/2124613622588707018",
+        "type": "x",
+        "handle": "nikitabier"
+      },
+      "publishedAt": "2026-11-22T21:18:55.000Z",
+      "metrics": {
+        "likes": 17231,
+        "reposts": 936,
+        "replies": 756,
+        "views": 2964283,
+        "capturedAt": "2026-11-23T11:29:25.302Z"
+      },
+      "care": 3,
+      "proof": 1
+    },
+    {
+      "id": "x-2124431846859813234",
+      "lens": "design",
+      "topic": "mengto-astra-desk",
+      "summary": "MengTo says GPT 6.2 Astra recreated an interactive desk in three.js, and he open-sourced 3 skills for liquid glass, shaders and a 3D room.",
+      "facts": [
+        "MengTo: every desk object is interactive; sunset toggle on the Liquid Glass UI warms the room."
+      ],
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2124431846859813234",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-22T09:16:36.000Z",
+      "metrics": {
+        "likes": 917,
+        "reposts": 74,
+        "replies": 55,
+        "views": 77885,
+        "capturedAt": "2026-11-23T11:29:25.302Z"
+      },
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "x-2124511883847950538",
+      "lens": "frontier-capital",
+      "topic": "india-silver-imports",
+      "summary": "TaviCosta notes India reported its third-highest silver import value on record, framing it as a shift from leveraged traders to long-term owners.",
+      "facts": [
+        "TaviCosta: 'third-highest silver import value on record'"
+      ],
+      "source": {
+        "name": "@TaviCosta on X",
+        "url": "https://x.com/TaviCosta/status/2124511883847950538",
+        "type": "x",
+        "handle": "TaviCosta"
+      },
+      "publishedAt": "2026-11-22T14:34:39.000Z",
+      "metrics": {
+        "likes": 710,
+        "reposts": 116,
+        "replies": 24,
+        "views": 34455,
+        "capturedAt": "2026-11-23T11:29:25.302Z"
+      },
+      "care": 2,
+      "proof": 2
+    }
+  ]
+}
