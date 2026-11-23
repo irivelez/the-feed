@@ -1,0 +1,269 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-23-0700",
+  "date": "2026-11-23",
+  "publishedAt": "2026-11-23T12:14:02Z",
+  "edition": "Morning",
+  "top3": [
+    {
+      "itemId": "perplexity-gemini-4-neon-usage-growth",
+      "headline": "Perplexity says Gemini 4 Neon use grows 15% a day in Computer",
+      "whyItMatters": "Daily growth on agentic tasks shows how fast teams switch models once one proves itself."
+    },
+    {
+      "itemId": "pocock-vercel-board-agent-workspace",
+      "headline": "Pocock: Vercel Board is a shared workspace for agents and developers",
+      "whyItMatters": "Teams running many agents need one place to see and steer their work."
+    },
+    {
+      "itemId": "theo-gemini-subscription-antigravity-only",
+      "headline": "Theo: Gemini subscriptions work only inside Google's Antigravity",
+      "whyItMatters": "Plan rules, not model quality, may decide which coding tools your team can use."
+    }
+  ],
+  "items": [
+    {
+      "id": "pocock-vercel-board-agent-workspace",
+      "title": "Pocock: Vercel Board is a shared workspace for agents and developers",
+      "takeaway": "Matt Pocock describes Vercel Board as a private Slack-like workspace for agents and developers that can sync to Slack channels. He thinks most teams should build something like it.",
+      "soWhat": "Give agents and people one shared channel so their work stays visible.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-23T09:30:27Z",
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2124797717834543167"
+      },
+      "image": {
+        "src": "/img/pocock-vercel-board-agent-workspace.jpg",
+        "alt": "Image from @mattpocockuk on X"
+      },
+      "heat": {
+        "score": 16,
+        "level": "none",
+        "metric": "49k views"
+      }
+    },
+    {
+      "id": "perplexity-gemini-4-neon-usage-growth",
+      "title": "Perplexity says Gemini 4 Neon use grows 15% a day in Computer",
+      "takeaway": "Aravind Srinivas reports Gemini 4 Neon usage on Perplexity up 10.6% a day in Ask and 15.0% a day in Computer, Nov 19 to 22. Perplexity's own data.",
+      "soWhat": "Usage data from a model-neutral product hints at where agentic work is moving.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-23T07:22:06Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2124765417378099414"
+      },
+      "image": {
+        "src": "/img/perplexity-gemini-4-neon-usage-growth.jpg",
+        "alt": "Profile image of @AravSrinivas"
+      },
+      "heat": {
+        "score": 15,
+        "level": "none",
+        "metric": "36k views"
+      }
+    },
+    {
+      "id": "alexfinn-inkling-2-mini-laptop",
+      "title": "Alex Finn runs Inkling 2 Mini on a laptop around the clock",
+      "takeaway": "Alex Finn says Inkling 2 Mini runs on a MacBook Pro using under half its memory, coding and scraping the web 24/7. He claims Opus 4.6 level coding; a self-report with no benchmark.",
+      "soWhat": "Local models may cut costs for always-on agent work; test before you trust the claim.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-23T06:11:04Z",
+      "source": {
+        "name": "@AlexFinn on X",
+        "url": "https://x.com/AlexFinn/status/2124747542566977889"
+      },
+      "image": {
+        "src": "/img/alexfinn-inkling-2-mini-laptop.jpg",
+        "alt": "Image from @AlexFinn on X"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "99k views"
+      }
+    },
+    {
+      "id": "alexandr-wang-ai-path-not-inevitable",
+      "title": "Alexandr Wang: the current AI path is not inevitable",
+      "takeaway": "Alexandr Wang says the current AI path is not inevitable and leadership matters more than ever, citing safety work at Meta. He notes leaders of other labs have said much the same.",
+      "soWhat": "Lab leaders are framing AI's direction as a leadership choice, not a given.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-23T04:21:30Z",
+      "source": {
+        "name": "@alexandr_wang on X",
+        "url": "https://x.com/alexandr_wang/status/2124719968499777546"
+      },
+      "image": {
+        "src": "/img/alexandr-wang-ai-path-not-inevitable.jpg",
+        "alt": "Profile image of @alexandr_wang"
+      },
+      "heat": {
+        "score": 23,
+        "level": "none",
+        "metric": "300k views"
+      }
+    },
+    {
+      "id": "theo-gemini-subscription-antigravity-only",
+      "title": "Theo: Gemini subscriptions work only inside Google's Antigravity",
+      "takeaway": "Theo says a Gemini subscription can only be used in Antigravity. T3 Code routing through the Antigravity binary to Google's API is allowed; other harnesses such as Pi are not.",
+      "soWhat": "Check plan terms before standardizing your team on a coding harness.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-23T00:43:23Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2124665075638411641"
+      },
+      "image": {
+        "src": "/img/theo-gemini-subscription-antigravity-only.jpg",
+        "alt": "Profile image of @theo"
+      },
+      "heat": {
+        "score": 25,
+        "level": "none",
+        "metric": "257k views"
+      }
+    },
+    {
+      "id": "nikitabier-agents-banking-inertia",
+      "title": "Nikita Bier: agents that cancel subscriptions could reshape banking",
+      "takeaway": "Nikita Bier argues the economy rests on people not cancelling subscriptions or moving cash to higher-yield accounts. If everyone ran an agent to do it, banking would shift. Opinion, no data.",
+      "soWhat": "Business models built on customer inertia are exposed once agents act for customers.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-22T21:18:55Z",
+      "source": {
+        "name": "@nikitabier on X",
+        "url": "https://x.com/nikitabier/status/2124613622588707018"
+      },
+      "image": {
+        "src": "/img/nikitabier-agents-banking-inertia.jpg",
+        "alt": "Profile image of @nikitabier"
+      },
+      "heat": {
+        "score": 37,
+        "level": "none",
+        "metric": "3M views"
+      }
+    },
+    {
+      "id": "perplexity-model-neutral-agent-harness",
+      "title": "Srinivas pitches Perplexity as a model-neutral agent harness",
+      "takeaway": "Aravind Srinivas calls Perplexity the best model-neutral agentic harness, compatible with the best frontier models, with all primitives exposed in code mode. A CEO's claim.",
+      "soWhat": "A model-neutral harness lets you swap models without rebuilding your agent setup.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-22T16:25:21Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2124539743098802456"
+      },
+      "image": {
+        "src": "/img/perplexity-model-neutral-agent-harness.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 12,
+        "level": "none",
+        "metric": "203k views"
+      }
+    },
+    {
+      "id": "tavicosta-india-silver-imports",
+      "title": "Tavi Costa: India's silver imports hit third-highest value on record",
+      "takeaway": "Tavi Costa notes India reported its third-highest silver import value on record and frames it as a shift from leveraged traders to long-term owners.",
+      "soWhat": "He reads the buying as long-term ownership, not short-term trading.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-22T14:34:39Z",
+      "source": {
+        "name": "@TaviCosta on X",
+        "url": "https://x.com/TaviCosta/status/2124511883847950538"
+      },
+      "image": {
+        "src": "/img/tavicosta-india-silver-imports.jpg",
+        "alt": "Image from @TaviCosta on X"
+      },
+      "heat": {
+        "score": 16,
+        "level": "none",
+        "metric": "34k views"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@mattpocockuk",
+      "quote": "Basically just a private Slack workspace for your agents AND developers (which can even sync to Slack channels for better observability)",
+      "url": "https://x.com/mattpocockuk/status/2124797717834543167"
+    },
+    {
+      "handle": "@alexandr_wang",
+      "quote": "this path is not inevitable",
+      "url": "https://x.com/alexandr_wang/status/2124719968499777546"
+    },
+    {
+      "handle": "@theo",
+      "quote": "You can only use your Gemini subscription in Antigravity.",
+      "url": "https://x.com/theo/status/2124665075638411641"
+    },
+    {
+      "handle": "@TaviCosta",
+      "quote": "third-highest silver import value on record",
+      "url": "https://x.com/TaviCosta/status/2124511883847950538"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/nikitabier/status/2124613622588707018",
+      "handle": "@nikitabier",
+      "text": "The economy rests on people not cancelling subscriptions or moving cash; agents doing it would shift banking.",
+      "metric": "17,231 likes",
+      "note": "A simple picture of what changes when agents act for consumers."
+    },
+    {
+      "url": "https://x.com/theo/status/2124665075638411641",
+      "handle": "@theo",
+      "text": "You can only use your Gemini subscription in Antigravity.",
+      "metric": "3,123 likes",
+      "note": "Developers weighing which coding harness their plan allows."
+    },
+    {
+      "url": "https://x.com/alexandr_wang/status/2124719968499777546",
+      "handle": "@alexandr_wang",
+      "text": "The current AI path is not inevitable; leadership matters more than ever.",
+      "metric": "2,250 likes",
+      "note": "A lab leader saying AI's direction is a choice."
+    },
+    {
+      "url": "https://x.com/AlexFinn/status/2124747542566977889",
+      "handle": "@AlexFinn",
+      "text": "Inkling 2 Mini runs on a MacBook Pro using under half its memory, coding and scraping 24/7.",
+      "metric": "1,449 likes",
+      "note": "Interest in running capable agents locally for free."
+    },
+    {
+      "url": "https://x.com/mattpocockuk/status/2124577125814657374",
+      "handle": "@mattpocockuk",
+      "text": "An early version of a new skill produced the best codebase he has made on a greenfield project.",
+      "metric": "1,166 likes",
+      "note": "Builders want skills that raise code quality, not just speed."
+    }
+  ]
+}
