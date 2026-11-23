@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-22",
-  "fetchedAt": "2026-11-22T13:01:33.668Z",
+  "date": "2026-11-23",
+  "fetchedAt": "2026-11-23T13:01:35.018Z",
   "stats": {
-    "rawFetched": 77,
-    "afterDedup": 77,
+    "rawFetched": 79,
+    "afterDedup": 78,
     "byTier": {
-      "hackernews": 12,
+      "hackernews": 13,
       "rss": 65
     },
     "bySource": {
-      "hackernews": 12,
+      "hackernews": 13,
       "rss": 65
     },
     "xSearches": {
@@ -24,53 +24,11 @@
       "content": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]\nRelated: <i>Hurried Announcement: Alessandro Masullo GRH</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50579568</a>",
       "author": "iamronaldo",
       "url": "https://alpo.ge/remark.pdf",
-      "likes": 2887,
-      "comments": 2065,
-      "engagementScore": 7017,
+      "likes": 2917,
+      "comments": 2096,
+      "engagementScore": 7109,
       "source": "hackernews",
       "publishedAt": "2026-11-20T14:16:21.000Z",
-      "tier": "hackernews",
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
-      "content": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
-      "author": "rafaelc",
-      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-      "likes": 1100,
-      "comments": 237,
-      "engagementScore": 1574,
-      "source": "hackernews",
-      "publishedAt": "2026-11-20T21:03:12.000Z",
-      "tier": "hackernews",
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "If you can't explain something in simple terms, you don't understand it (2017)",
-      "content": "If you can't explain something in simple terms, you don't understand it (2017)",
-      "author": "sammatilda",
-      "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
-      "likes": 709,
-      "comments": 326,
-      "engagementScore": 1361,
-      "source": "hackernews",
-      "publishedAt": "2026-11-20T09:43:19.000Z",
-      "tier": "hackernews",
-      "age": "2d",
-      "hot": false
-    },
-    {
-      "title": "Claude solves two open problems in the physics of black holes",
-      "content": "Claude solves two open problems in the physics of black holes",
-      "author": "cybermango",
-      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
-      "likes": 572,
-      "comments": 274,
-      "engagementScore": 1120,
-      "source": "hackernews",
-      "publishedAt": "2026-11-19T17:30:44.000Z",
       "tier": "hackernews",
       "age": "2d",
       "hot": false
@@ -80,126 +38,182 @@
       "content": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
       "author": "happosai",
       "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-      "likes": 222,
-      "comments": 324,
-      "engagementScore": 870,
+      "likes": 988,
+      "comments": 968,
+      "engagementScore": 2924,
       "source": "hackernews",
       "publishedAt": "2026-11-22T08:57:34.000Z",
       "tier": "hackernews",
-      "age": "4h",
-      "hot": false
-    },
-    {
-      "title": "NINLIVE: The Nine Inch Nails live archive",
-      "content": "NINLIVE: The Nine Inch Nails live archive",
-      "author": "CharlesW",
-      "url": "https://ninlive.com/",
-      "likes": 377,
-      "comments": 109,
-      "engagementScore": 595,
-      "source": "hackernews",
-      "publishedAt": "2026-11-20T22:30:47.000Z",
-      "tier": "hackernews",
       "age": "1d",
       "hot": false
     },
     {
-      "title": "The Mythology of Conscious AI",
-      "content": "The Mythology of Conscious AI",
-      "author": "Anon84",
-      "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
-      "likes": 86,
-      "comments": 183,
-      "engagementScore": 452,
+      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+      "content": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+      "author": "rafaelc",
+      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "likes": 1370,
+      "comments": 306,
+      "engagementScore": 1982,
       "source": "hackernews",
-      "publishedAt": "2026-11-22T02:10:02.000Z",
+      "publishedAt": "2026-11-20T21:03:12.000Z",
       "tier": "hackernews",
-      "age": "10h",
+      "age": "2d",
       "hot": false
     },
     {
-      "title": "ClawDOS – An AI coding agent for DOS",
-      "content": "ClawDOS – An AI coding agent for DOS",
-      "author": "Ricapar",
-      "url": "http://ricapar.net/ClawDOS/",
-      "likes": 166,
-      "comments": 52,
-      "engagementScore": 270,
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "content": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "author": "Retell15",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "likes": 578,
+      "comments": 239,
+      "engagementScore": 1056,
       "source": "hackernews",
-      "publishedAt": "2026-11-21T05:38:01.000Z",
-      "tier": "hackernews",
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "Surprisingly Adorable Insect Portraits",
-      "content": "Surprisingly Adorable Insect Portraits",
-      "author": "NordStreamYacht",
-      "url": "https://amateurphotographer.com/latest/these-astonishing-insect-portraits-reveal-a-hidden-world-you-never-knew-existed/",
-      "likes": 163,
-      "comments": 38,
-      "engagementScore": 239,
-      "source": "hackernews",
-      "publishedAt": "2026-11-21T06:44:14.000Z",
-      "tier": "hackernews",
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts",
-      "content": "Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts",
-      "author": "rzk",
-      "url": "https://arxiv.org/abs/2606.14068",
-      "likes": 69,
-      "comments": 53,
-      "engagementScore": 175,
-      "source": "hackernews",
-      "publishedAt": "2026-11-22T09:18:36.000Z",
-      "tier": "hackernews",
-      "age": "3h",
-      "hot": false
-    },
-    {
-      "title": "Pandex – Official European Law for AI Agents, over MCP",
-      "content": "Pandex – Official European Law for AI Agents, over MCP",
-      "author": "vasie",
-      "url": "https://www.pandex.io",
-      "likes": 107,
-      "comments": 28,
-      "engagementScore": 163,
-      "source": "hackernews",
-      "publishedAt": "2026-11-21T20:47:41.000Z",
+      "publishedAt": "2026-11-22T21:01:16.000Z",
       "tier": "hackernews",
       "age": "16h",
       "hot": false
     },
     {
-      "title": "Together.ai: Prompt Leakage for Requests",
-      "content": "Together.ai: Prompt Leakage for Requests",
-      "author": "Fe2O3",
-      "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
-      "likes": 34,
-      "comments": 8,
-      "engagementScore": 50,
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "content": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "author": "foohis",
+      "url": "https://z.ai/blog/glm-5.4",
+      "likes": 281,
+      "comments": 123,
+      "engagementScore": 527,
       "source": "hackernews",
-      "publishedAt": "2026-11-22T03:07:27.000Z",
+      "publishedAt": "2026-11-23T10:06:43.000Z",
       "tier": "hackernews",
-      "age": "9h",
+      "age": "2h",
       "hot": false
     },
     {
-      "title": "Muru",
-      "content": "Muru",
-      "author": "Simon Willison",
+      "title": "Show HN: I built a game where you are an LLM's subagent",
+      "content": "Show HN: I built a game where you are an LLM's subagent",
+      "author": "ivantgam",
+      "url": "https://github.com/gulivan/worker755",
+      "likes": 333,
+      "comments": 79,
+      "engagementScore": 491,
+      "source": "hackernews",
+      "publishedAt": "2026-11-22T13:56:58.000Z",
+      "tier": "hackernews",
+      "age": "23h",
+      "hot": false
+    },
+    {
+      "title": "C++26 is done (again): November 2026 ISO C++ meeting trip report",
+      "content": "C++26 is done (again): November 2026 ISO C++ meeting trip report",
+      "author": "dverlaeckt80",
+      "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
+      "likes": 87,
+      "comments": 71,
+      "engagementScore": 229,
+      "source": "hackernews",
+      "publishedAt": "2026-11-22T15:59:59.000Z",
+      "tier": "hackernews",
+      "age": "21h",
+      "hot": false
+    },
+    {
+      "title": "Enjoy this guy getting bricked over the detail of towers in GTA6",
+      "content": "Enjoy this guy getting bricked over the detail of towers in GTA6",
+      "author": "doener",
+      "url": "https://bsky.app/profile/floppyadult.com/post/3n2tgw7rofc2v",
+      "likes": 64,
+      "comments": 22,
+      "engagementScore": 108,
+      "source": "hackernews",
+      "publishedAt": "2026-11-23T09:15:09.000Z",
+      "tier": "hackernews",
+      "age": "3h",
+      "hot": false
+    },
+    {
+      "title": "Brake Check: Hijacking Trailer Brakes over Bluetooth",
+      "content": "Brake Check: Hijacking Trailer Brakes over Bluetooth",
+      "author": "DeepLogin",
+      "url": "https://elementdigital.com.au/blog/brake-check-trailer-brakes-over-bluetooth/",
+      "likes": 35,
+      "comments": 33,
+      "engagementScore": 101,
+      "source": "hackernews",
+      "publishedAt": "2026-11-20T20:57:16.000Z",
+      "tier": "hackernews",
+      "age": "2d",
+      "hot": false
+    },
+    {
+      "title": "Localcode, open source agentic coding on your Mac with one command",
+      "content": "Localcode, open source agentic coding on your Mac with one command",
+      "author": "mjwsolo",
+      "url": "https://github.com/mjwsolo/localcode",
+      "likes": 65,
+      "comments": 17,
+      "engagementScore": 99,
+      "source": "hackernews",
+      "publishedAt": "2026-11-22T22:18:48.000Z",
+      "tier": "hackernews",
+      "age": "14h",
+      "hot": false
+    },
+    {
+      "title": "Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+      "content": "Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+      "author": "joshcsimmons",
       "url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "likes": 77,
+      "comments": 11,
+      "engagementScore": 99,
+      "source": "hackernews",
+      "publishedAt": "2026-11-22T09:57:01.000Z",
+      "tier": "hackernews",
+      "age": "1d",
+      "hot": false
+    },
+    {
+      "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
+      "content": "0rwx – A simple model of AI usage, inspired by Unix permissions",
+      "author": "misswaterfairy",
+      "url": "https://0rwx.com/",
+      "likes": 61,
+      "comments": 16,
+      "engagementScore": 93,
+      "source": "hackernews",
+      "publishedAt": "2026-11-22T23:53:00.000Z",
+      "tier": "hackernews",
+      "age": "13h",
+      "hot": false
+    },
+    {
+      "title": "Harvard CS 2881R AI Safety",
+      "content": "Harvard CS 2881R AI Safety",
+      "author": "enjoyyourlife",
+      "url": "https://boazbk.github.io/mltheoryseminar/",
+      "likes": 73,
+      "comments": 8,
+      "engagementScore": 89,
+      "source": "hackernews",
+      "publishedAt": "2026-11-22T18:01:54.000Z",
+      "tier": "hackernews",
+      "age": "18h",
+      "hot": false
+    },
+    {
+      "title": "Select Styling Specimens",
+      "content": "Select Styling Specimens",
+      "author": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
       "likes": 0,
       "comments": 0,
       "source": "rss",
       "sourceName": "Simon Willison",
-      "publishedAt": "2026-11-21T23:56:28+00:00",
+      "publishedAt": "2026-11-22T19:45:06+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "13h",
+      "age": "17h",
       "hot": false
     },
     {
@@ -214,7 +228,7 @@
       "publishedAt": "2026-11-20T19:21:49+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -229,7 +243,7 @@
       "publishedAt": "2026-11-20T16:30:48+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -244,7 +258,7 @@
       "publishedAt": "2026-11-20T03:01:57+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -259,7 +273,7 @@
       "publishedAt": "2026-11-20T02:49:57+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -274,7 +288,7 @@
       "publishedAt": "2026-11-19T20:43:57+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -289,7 +303,7 @@
       "publishedAt": "2026-11-18T23:59:20+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -304,7 +318,7 @@
       "publishedAt": "2026-11-18T17:09:59+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -319,22 +333,67 @@
       "publishedAt": "2026-11-18T15:58:27+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
-      "title": "The PSF end-of-year fundraiser",
-      "content": "The PSF end-of-year fundraiser",
-      "author": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
+      "title": "Meta Muse can do your Black Friday shopping at Walmart",
+      "content": "Meta Muse can do your Black Friday shopping at Walmart",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "Simon Willison",
-      "publishedAt": "2026-11-18T14:44:48+00:00",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-11-23T06:00:00-05:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "2h",
+      "hot": false
+    },
+    {
+      "title": "We haven’t seen the last of the major tech outages",
+      "content": "We haven’t seen the last of the major tech outages",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-11-22T17:48:02-05:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "14h",
+      "hot": false
+    },
+    {
+      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "content": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-11-22T12:25:20-05:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "19h",
+      "hot": false
+    },
+    {
+      "title": "The vibe-coding revolution is coming to all the gadgets",
+      "content": "The vibe-coding revolution is coming to all the gadgets",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-11-22T08:00:00-05:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "1d",
       "hot": false
     },
     {
@@ -349,7 +408,7 @@
       "publishedAt": "2026-11-21T15:03:37-05:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "16h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -364,7 +423,7 @@
       "publishedAt": "2026-11-21T10:00:00-05:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "22h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -379,7 +438,7 @@
       "publishedAt": "2026-11-21T09:00:00-05:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "23h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -394,7 +453,7 @@
       "publishedAt": "2026-11-20T13:50:19-05:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -409,7 +468,7 @@
       "publishedAt": "2026-11-20T11:34:13-05:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -424,67 +483,22 @@
       "publishedAt": "2026-11-20T09:06:59-05:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
-      "content": "Signal is blocking Gemini and Siri AI from reading your screen",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-11-20T07:30:47-05:00",
-      "tier": "rss",
-      "signalWeight": 1,
       "age": "2d",
       "hot": false
     },
     {
-      "title": "Apple is hiring engineers to build its own AI agent",
-      "content": "Apple is hiring engineers to build its own AI agent",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "title": "Why using rocks for carbon removal could eventually reduce crop growth",
+      "content": "Tech companies are investing a lot of hope and money in rocks. Google, Microsoft, and others have committed hundreds of millions of dollars to get startups to spread crushed basalt, olivine, or other alkaline materials across farms, in an effort to capture carbon from the air and lock it away. A number of influential models&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/11/23/1149392/why-using-rocks-for-carbon-removal-could-eventually-reduce-crop-growth/",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-11-19T17:31:41-05:00",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Mon, 23 Nov 2026 11:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
-      "hot": false
-    },
-    {
-      "title": "A brief history of Nvidia’s recent stock fluctuations",
-      "content": "A brief history of Nvidia’s recent stock fluctuations",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-11-19T16:59:35-05:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "2d",
-      "hot": false
-    },
-    {
-      "title": "Meta’s Muse Charm might cost $300",
-      "content": "Meta’s Muse Charm might cost $300",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-11-19T15:22:17-05:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "2d",
+      "age": "2h",
       "hot": false
     },
     {
@@ -499,7 +513,7 @@
       "publishedAt": "Fri, 20 Nov 2026 18:15:15 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -514,7 +528,7 @@
       "publishedAt": "Fri, 20 Nov 2026 13:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -529,7 +543,7 @@
       "publishedAt": "Thu, 19 Nov 2026 13:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -544,7 +558,7 @@
       "publishedAt": "Thu, 19 Nov 2026 12:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -559,7 +573,7 @@
       "publishedAt": "Thu, 19 Nov 2026 11:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -574,7 +588,7 @@
       "publishedAt": "Wed, 18 Nov 2026 14:42:44 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -589,7 +603,7 @@
       "publishedAt": "Wed, 18 Nov 2026 13:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -604,7 +618,7 @@
       "publishedAt": "Wed, 18 Nov 2026 10:20:30 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -619,22 +633,22 @@
       "publishedAt": "Tue, 17 Nov 2026 18:46:47 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
-      "title": "Hydropower hit record lows in the US Southwest this summer",
-      "content": "The US Southwest generated 28% less electricity via hydropower between April and August than the 10-year average, according to new data from the US Energy Information Administration. Most hydropower plants in the US rely on dams to hold back water, creating reservoirs. The water can be released through turbines, generating electricity on demand. But an&#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/11/17/1148742/hydropower-drought-colorado-river/",
+      "title": "Perplexity and Intelligence",
+      "content": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "author": "OpenAI Blog",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Tue, 17 Nov 2026 17:52:10 +0000",
+      "sourceName": "OpenAI Blog",
+      "publishedAt": "Sun, 22 Nov 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "1d",
       "hot": false
     },
     {
@@ -649,7 +663,7 @@
       "publishedAt": "Fri, 20 Nov 2026 10:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -664,7 +678,7 @@
       "publishedAt": "Fri, 20 Nov 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -679,7 +693,7 @@
       "publishedAt": "Fri, 20 Nov 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -694,52 +708,7 @@
       "publishedAt": "Thu, 19 Nov 2026 08:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "Explore the Codex Security Plugin",
-      "content": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-      "author": "OpenAI Blog",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "OpenAI Blog",
-      "publishedAt": "Thu, 19 Nov 2026 00:00:00 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "See PR scans in action",
-      "content": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-      "author": "OpenAI Blog",
-      "url": "https://openai.com/business/learn/pr-scans-demo",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "OpenAI Blog",
-      "publishedAt": "Thu, 19 Nov 2026 00:00:00 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "Get started with Daybreak Blue",
-      "content": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
-      "author": "OpenAI Blog",
-      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "OpenAI Blog",
-      "publishedAt": "Thu, 19 Nov 2026 00:00:00 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -754,7 +723,52 @@
       "publishedAt": "Thu, 19 Nov 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
+      "hot": false
+    },
+    {
+      "title": "See PR scans in action",
+      "content": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "author": "OpenAI Blog",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "OpenAI Blog",
+      "publishedAt": "Thu, 19 Nov 2026 00:00:00 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "4d",
+      "hot": false
+    },
+    {
+      "title": "Get started with Daybreak Blue",
+      "content": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "author": "OpenAI Blog",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "OpenAI Blog",
+      "publishedAt": "Thu, 19 Nov 2026 00:00:00 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "4d",
+      "hot": false
+    },
+    {
+      "title": "Explore the Codex Security Plugin",
+      "content": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "author": "OpenAI Blog",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "OpenAI Blog",
+      "publishedAt": "Thu, 19 Nov 2026 00:00:00 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "4d",
       "hot": false
     },
     {
@@ -769,22 +783,22 @@
       "publishedAt": "Wed, 18 Nov 2026 10:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
-      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-      "content": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "author": "OpenAI Blog",
-      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+      "content": "Sherif Mansour on why PMs are thriving in the AI era, the artist PM advantage, and why juniors are your secret weapon now",
+      "author": "Lenny Rachitsky",
+      "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "OpenAI Blog",
-      "publishedAt": "Wed, 18 Nov 2026 08:00:00 GMT",
+      "sourceName": "Lenny Rachitsky",
+      "publishedAt": "Sun, 22 Nov 2026 13:31:53 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "23h",
       "hot": false
     },
     {
@@ -799,7 +813,7 @@
       "publishedAt": "Sat, 21 Nov 2026 16:49:56 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "20h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -814,7 +828,7 @@
       "publishedAt": "Tue, 17 Nov 2026 18:02:02 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -829,7 +843,7 @@
       "publishedAt": "Mon, 16 Nov 2026 16:02:55 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -844,7 +858,7 @@
       "publishedAt": "Mon, 16 Nov 2026 13:04:09 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -859,7 +873,7 @@
       "publishedAt": "Sun, 15 Nov 2026 13:31:28 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -874,7 +888,22 @@
       "publishedAt": "Sat, 14 Nov 2026 21:15:46 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
+      "age": "8d",
+      "hot": false
+    },
+    {
+      "title": "Amazon Earnings, The Chip Question, About Agents",
+      "content": "Amazon makes the case they are not like other compute providers, even as they signal the willingness to give up margin to serve the frontier.",
+      "author": "Ben Thompson (Stratechery)",
+      "url": "https://stratechery.com/2026/amazon-earnings-the-chip-question-about-agents/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Ben Thompson (Stratechery)",
+      "publishedAt": "Mon, 23 Nov 2026 11:00:00 +0000",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "2h",
       "hot": false
     },
     {
@@ -889,7 +918,7 @@
       "publishedAt": "Fri, 20 Nov 2026 19:09:57 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -904,7 +933,7 @@
       "publishedAt": "Fri, 20 Nov 2026 11:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -919,7 +948,7 @@
       "publishedAt": "Thu, 19 Nov 2026 11:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -934,7 +963,7 @@
       "publishedAt": "Wed, 18 Nov 2026 11:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -949,7 +978,7 @@
       "publishedAt": "Tue, 17 Nov 2026 11:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -964,7 +993,7 @@
       "publishedAt": "Mon, 16 Nov 2026 11:02:49 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -977,21 +1006,6 @@
       "source": "rss",
       "sourceName": "Ben Thompson (Stratechery)",
       "publishedAt": "Fri, 13 Nov 2026 18:00:00 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "8d",
-      "hot": false
-    },
-    {
-      "title": "Sharp Tech on Video: Nvidia After Jensen Huang, Ominous News for American AI, D.C. Gets Its Revenge",
-      "content": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery",
-      "author": "Ben Thompson (Stratechery)",
-      "url": "https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Ben Thompson (Stratechery)",
-      "publishedAt": "Fri, 13 Nov 2026 03:47:52 +0000",
       "tier": "rss",
       "signalWeight": 1,
       "age": "9d",
@@ -1009,7 +1023,7 @@
       "publishedAt": "Mon, 16 Nov 2026 17:46:28 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -1024,7 +1038,22 @@
       "publishedAt": "Fri, 13 Nov 2026 18:37:51 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "8d",
+      "age": "9d",
+      "hot": false
+    },
+    {
+      "title": "Levent Alpöge has solved the Riemann Hypothesis with help of Claude! What does it mean?",
+      "content": "And why isn&#8216;t it immediately rescuing the market?",
+      "author": "Gary Marcus",
+      "url": "https://garymarcus.substack.com/p/levent-alpoge-has-solved-the-riemann",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Gary Marcus",
+      "publishedAt": "Sun, 22 Nov 2026 18:37:02 GMT",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "18h",
       "hot": false
     },
     {
@@ -1039,7 +1068,7 @@
       "publishedAt": "Fri, 20 Nov 2026 14:20:06 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -1054,7 +1083,7 @@
       "publishedAt": "Thu, 19 Nov 2026 20:36:26 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -1069,7 +1098,7 @@
       "publishedAt": "Wed, 18 Nov 2026 21:45:04 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -1084,7 +1113,7 @@
       "publishedAt": "Tue, 17 Nov 2026 14:21:39 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -1099,7 +1128,7 @@
       "publishedAt": "Mon, 16 Nov 2026 19:34:40 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -1114,7 +1143,7 @@
       "publishedAt": "Mon, 16 Nov 2026 16:29:36 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -1129,7 +1158,7 @@
       "publishedAt": "Sat, 14 Nov 2026 00:20:10 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "8d",
+      "age": "9d",
       "hot": false
     },
     {
@@ -1142,21 +1171,6 @@
       "source": "rss",
       "sourceName": "Gary Marcus",
       "publishedAt": "Fri, 13 Nov 2026 18:26:49 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "8d",
-      "hot": false
-    },
-    {
-      "title": "Jensen Huang resigns.",
-      "content": "The future of Nvidia and the AI industry is uncertain",
-      "author": "Gary Marcus",
-      "url": "https://garymarcus.substack.com/p/jensen-huang-resigns",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Gary Marcus",
-      "publishedAt": "Thu, 12 Nov 2026 14:44:04 GMT",
       "tier": "rss",
       "signalWeight": 1,
       "age": "9d",
