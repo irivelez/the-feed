@@ -1,0 +1,588 @@
+{
+ "schemaVersion": "1.1",
+ "runId": "2026-11-23-1229",
+ "generatedAt": "2026-11-23T17:29:30.000Z",
+ "configVersions": {
+  "sources": "1.3.0",
+  "preferences": "1.1.0"
+ },
+ "window": {
+  "from": "2026-11-22T17:30:00.000Z",
+  "to": "2026-11-23T17:29:30.000Z"
+ },
+ "sourceNotes": [
+  "X: 3 combined from:-handle searches (howTo, bigPicture, frontierCapital+design); queries, replies and authorBaseline not run; views are impressions. Each call returned at most 25 posts, so only a subset of lane handles appear.",
+  "Noisy X: nikitabier jokes, nathanbenaich one-liners, theo reaction posts ('Well damn', 'Temu3 Code'), sama 'Jensen!' / 'This is really really good' (no context in text), elonmusk absent; not taken.",
+  "Dwarkesh Patel RSS returned HTTP 500.",
+  "HN Algolia returned HTTP 400; HN not collected this run.",
+  "RSS fetched but nothing taken: MIT Tech Review, OpenAI Blog, Lenny, Stratechery, Benedict Evans, One Useful Thing, Gary Marcus, Mitchell Hashimoto, Atlantic (only 2 items in window, non-AI-specific), Metaplanet Google News.",
+  "arXiv: one combined query (cs.AI/cs.CL/cs.MA, abs 'agents'); latest 12 only, 3 taken."
+ ],
+ "candidates": [
+  {
+   "id": "x-2124577125814657374",
+   "lens": "practical",
+   "topic": "pocock-greenfield-skill",
+   "summary": "mattpocockuk says an early version of a new skill produced the best codebase he has produced, on a greenfield project.",
+   "facts": [
+    "mattpocockuk: 'Just started a project with an early version of this skill and it's already the best codebase I've ever produced'"
+   ],
+   "source": {
+    "name": "@mattpocockuk on X",
+    "url": "https://x.com/mattpocockuk/status/2124577125814657374",
+    "type": "x",
+    "handle": "mattpocockuk"
+   },
+   "publishedAt": "2026-11-23T11:18:42.000Z",
+   "metrics": {
+    "likes": 1301,
+    "reposts": 16,
+    "replies": 77,
+    "views": 89087,
+    "capturedAt": "2026-11-23T17:29:30.000Z"
+   },
+   "care": 3,
+   "proof": 2
+  },
+  {
+   "id": "x-2124880074168242369",
+   "lens": "practical",
+   "topic": "gemini-neon-personal-eval",
+   "summary": "rauchg asked Fable to study his coding sessions and decide whether Opus or Gemini Neon is best; it picked Neon.",
+   "facts": [
+    "rauchg: 'It picked Neon. Google being so, so back seems widely (and wildly) under-discussed.'"
+   ],
+   "source": {
+    "name": "@rauchg on X",
+    "url": "https://x.com/rauchg/status/2124880074168242369",
+    "type": "x",
+    "handle": "rauchg"
+   },
+   "publishedAt": "2026-11-23T14:57:42.000Z",
+   "metrics": {
+    "likes": 760,
+    "reposts": 18,
+    "replies": 120,
+    "views": 48502,
+    "capturedAt": "2026-11-23T17:29:30.000Z"
+   },
+   "care": 4,
+   "proof": 3
+  },
+  {
+   "id": "x-2124765417378099414",
+   "lens": "broad",
+   "topic": "gemini-neon-growth",
+   "summary": "AravSrinivas reports Gemini 4 Neon usage growth on Perplexity since its first full day.",
+   "facts": [
+    "Perplexity: +10.6%/day in Ask (fast search) queries and +15.0%/day in Computer (agentic tasks), Nov 19 to Nov 22, 22-hour matched basis."
+   ],
+   "source": {
+    "name": "@AravSrinivas on X",
+    "url": "https://x.com/AravSrinivas/status/2124765417378099414",
+    "type": "x",
+    "handle": "AravSrinivas"
+   },
+   "publishedAt": "2026-11-23T07:22:06.000Z",
+   "metrics": {
+    "likes": 1199,
+    "reposts": 28,
+    "replies": 142,
+    "views": 74034,
+    "capturedAt": "2026-11-23T17:29:30.000Z"
+   },
+   "care": 4,
+   "proof": 4
+  },
+  {
+   "id": "x-2124762348556787848",
+   "lens": "design",
+   "topic": "fable-game-tutorial",
+   "summary": "MengTo published a 19-minute tutorial on how he made a game with Fable 5.2, with the full video and skills.",
+   "facts": [
+    "MengTo: 'A 19-min tutorial on how I made this game with Fable 5.2. Full video and all the skills here'"
+   ],
+   "source": {
+    "name": "@MengTo on X",
+    "url": "https://x.com/MengTo/status/2124762348556787848",
+    "type": "x",
+    "handle": "MengTo"
+   },
+   "publishedAt": "2026-11-23T07:09:54.000Z",
+   "metrics": {
+    "likes": 181,
+    "reposts": 16,
+    "replies": 23,
+    "views": 15244,
+    "capturedAt": "2026-11-23T17:29:30.000Z"
+   },
+   "care": 3,
+   "proof": 3
+  },
+  {
+   "id": "x-2124911073266413634",
+   "lens": "broad",
+   "topic": "deepmind-quantum-circuits",
+   "summary": "GoogleDeepMind says teams of Gemini 4 agents built quantum circuits that cut future simulation costs by up to 10 times.",
+   "facts": [
+    "GoogleDeepMind: 'Using teams of Gemini 4 agents, we've built new quantum circuits that cut future simulation costs by up to 10 times.'"
+   ],
+   "source": {
+    "name": "@GoogleDeepMind on X",
+    "url": "https://x.com/GoogleDeepMind/status/2124911073266413634",
+    "type": "x",
+    "handle": "GoogleDeepMind"
+   },
+   "publishedAt": "2026-11-23T17:00:53.000Z",
+   "metrics": {
+    "likes": 568,
+    "reposts": 55,
+    "replies": 62,
+    "views": 21571,
+    "capturedAt": "2026-11-23T17:29:30.000Z"
+   },
+   "care": 4,
+   "proof": 3
+  },
+  {
+   "id": "x-2124888419855634543",
+   "lens": "broad",
+   "topic": "openai-orchestra-bio",
+   "summary": "a16z post: OpenAI is building tools for scientists; in one collaboration 2,000 AI agents found patterns in eight million cells; OpenAI acquired Orchestra Bio.",
+   "facts": [
+    "a16z: '2,000 AI agents uncovered patterns in eight million cells that months of human analysis had missed.'",
+    "a16z: 'OpenAI recently acquired Orchestra Bio'"
+   ],
+   "source": {
+    "name": "@a16z on X",
+    "url": "https://x.com/a16z/status/2124888419855634543",
+    "type": "x",
+    "handle": "a16z"
+   },
+   "publishedAt": "2026-11-23T15:30:52.000Z",
+   "metrics": {
+    "likes": 95,
+    "reposts": 12,
+    "replies": 21,
+    "views": 13568,
+    "capturedAt": "2026-11-23T17:29:30.000Z"
+   },
+   "care": 3,
+   "proof": 2
+  },
+  {
+   "id": "x-2124719968499777546",
+   "lens": "broad",
+   "topic": "wang-meta-safety",
+   "summary": "alexandr_wang says much of what he said was said by other lab leaders, that the AI path is not inevitable and that leadership matters more than ever.",
+   "facts": [
+    "alexandr_wang: 'What I *am* saying is this path is not inevitable. I am saying leaders and leadership matter more than ever'"
+   ],
+   "source": {
+    "name": "@alexandr_wang on X",
+    "url": "https://x.com/alexandr_wang/status/2124719968499777546",
+    "type": "x",
+    "handle": "alexandr_wang"
+   },
+   "publishedAt": "2026-11-23T04:21:30.000Z",
+   "metrics": {
+    "likes": 3486,
+    "reposts": 227,
+    "replies": 303,
+    "views": 515179,
+    "capturedAt": "2026-11-23T17:29:30.000Z"
+   },
+   "care": 3,
+   "proof": 2
+  },
+  {
+   "id": "x-2124613622588707018",
+   "lens": "broad",
+   "topic": "agents-money-market",
+   "summary": "nikitabier posts that the global economy is held up by people forgetting to cancel subscriptions and not moving cash to higher-yield accounts, and that agent prompts could change this.",
+   "facts": [
+    "nikitabier: 'If every human ran a prompt for an agent to do it for them, the banking...' (text cut in search result)"
+   ],
+   "source": {
+    "name": "@nikitabier on X",
+    "url": "https://x.com/nikitabier/status/2124613622588707018",
+    "type": "x",
+    "handle": "nikitabier"
+   },
+   "publishedAt": "2026-11-22T21:18:55.000Z",
+   "metrics": {
+    "likes": 19547,
+    "reposts": 1086,
+    "replies": 836,
+    "views": 3946127,
+    "capturedAt": "2026-11-23T17:29:30.000Z"
+   },
+   "care": 3,
+   "proof": 1
+  },
+  {
+   "id": "x-2124595496849445079",
+   "lens": "practical",
+   "topic": "stealth-model-exfiltration",
+   "summary": "rauchg warns that free 'stealth model' ZDR inference offers are mechanisms of data exfiltration.",
+   "facts": [
+    "rauchg: 'These stealth models are mechanisms of industrial scale data exfiltration to nation state' (text cut in search result)"
+   ],
+   "source": {
+    "name": "@rauchg on X",
+    "url": "https://x.com/rauchg/status/2124595496849445079",
+    "type": "x",
+    "handle": "rauchg"
+   },
+   "publishedAt": "2026-11-22T20:06:54.000Z",
+   "metrics": {
+    "likes": 613,
+    "reposts": 27,
+    "replies": 119,
+    "views": 62372,
+    "capturedAt": "2026-11-23T17:29:30.000Z"
+   },
+   "care": 4,
+   "proof": 2
+  },
+  {
+   "id": "x-2124860284863209732",
+   "lens": "practical",
+   "topic": "zdr-vercel",
+   "summary": "rauchg posts 'ZDR you can actually trust' with a link.",
+   "facts": [
+    "rauchg: 'ZDR you can actually trust'"
+   ],
+   "source": {
+    "name": "@rauchg on X",
+    "url": "https://x.com/rauchg/status/2124860284863209732",
+    "type": "x",
+    "handle": "rauchg"
+   },
+   "publishedAt": "2026-11-23T13:39:04.000Z",
+   "metrics": {
+    "likes": 170,
+    "reposts": 7,
+    "replies": 46,
+    "views": 18290,
+    "capturedAt": "2026-11-23T17:29:30.000Z"
+   },
+   "care": 2,
+   "proof": 1
+  },
+  {
+   "id": "x-2124654108124848350",
+   "lens": "broad",
+   "topic": "ai-human-understandability",
+   "summary": "rauchg argues AI should be pointed at human-understandability: a Riemann proof should come with a paper, walkthrough and new concepts.",
+   "facts": [
+    "rauchg: 'Rather than art, we ought to point AI towards human-understandability and conceptualization.'"
+   ],
+   "source": {
+    "name": "@rauchg on X",
+    "url": "https://x.com/rauchg/status/2124654108124848350",
+    "type": "x",
+    "handle": "rauchg"
+   },
+   "publishedAt": "2026-11-22T23:59:48.000Z",
+   "metrics": {
+    "likes": 188,
+    "reposts": 7,
+    "replies": 106,
+    "views": 24533,
+    "capturedAt": "2026-11-23T17:29:30.000Z"
+   },
+   "care": 3,
+   "proof": 2
+  },
+  {
+   "id": "x-2124905972296560973",
+   "lens": "practical",
+   "topic": "garrytan-loop-prompt",
+   "summary": "garrytan suggests a startup can self-prompt in a loop by asking 'are we dying?'.",
+   "facts": [
+    "garrytan: 'One trick a startup can use to self-prompt in a loop: ask yourself \"are we dying?\"'"
+   ],
+   "source": {
+    "name": "@garrytan on X",
+    "url": "https://x.com/garrytan/status/2124905972296560973",
+    "type": "x",
+    "handle": "garrytan"
+   },
+   "publishedAt": "2026-11-23T16:40:37.000Z",
+   "metrics": {
+    "likes": 123,
+    "reposts": 4,
+    "replies": 39,
+    "views": 9692,
+    "capturedAt": "2026-11-23T17:29:30.000Z"
+   },
+   "care": 2,
+   "proof": 1
+  },
+  {
+   "id": "x-2124863039988248689",
+   "lens": "frontier-capital",
+   "topic": "uk-compute-inquiry",
+   "summary": "nathanbenaich quotes a UK Committee inquiry into the UK's compute and data-centre strategy.",
+   "facts": [
+    "Quoted: 'The Committee's inquiry will examine the UK's strategy on compute and data-centre capacity. It will consider whether there is scope for the UK to capture value in an AI economy dominated by US firms and overseas chip manufacturing.'"
+   ],
+   "source": {
+    "name": "@nathanbenaich on X",
+    "url": "https://x.com/nathanbenaich/status/2124863039988248689",
+    "type": "x",
+    "handle": "nathanbenaich"
+   },
+   "publishedAt": "2026-11-23T13:50:01.000Z",
+   "metrics": {
+    "likes": 14,
+    "reposts": 3,
+    "replies": 2,
+    "views": 5028,
+    "capturedAt": "2026-11-23T17:29:30.000Z"
+   },
+   "care": 3,
+   "proof": 2
+  },
+  {
+   "id": "x-2124914745991922025",
+   "lens": "frontier-capital",
+   "topic": "dalio-radical-transparency",
+   "summary": "RayDalio on radical truthfulness and transparency and thoughtful disagreement as an idea meritocracy.",
+   "facts": [
+    "RayDalio: 'Radical truthfulness and radical transparency eliminate confusion by putting hidden agendas directly on the table.'"
+   ],
+   "source": {
+    "name": "@RayDalio on X",
+    "url": "https://x.com/RayDalio/status/2124914745991922025",
+    "type": "x",
+    "handle": "RayDalio"
+   },
+   "publishedAt": "2026-11-23T17:15:29.000Z",
+   "metrics": {
+    "likes": 30,
+    "reposts": 9,
+    "replies": 5,
+    "views": 12831,
+    "capturedAt": "2026-11-23T17:29:30.000Z"
+   },
+   "care": 2,
+   "proof": 2
+  },
+  {
+   "id": "x-2124866436111704323",
+   "lens": "practical",
+   "topic": "langchain-knowledge-layer-event",
+   "summary": "LangChain announces a Dec 3 session on giving agents domain expertise with a knowledge layer, using automated insurance claims handling.",
+   "facts": [
+    "LangChain: event on December 3rd, RSVP link."
+   ],
+   "source": {
+    "name": "@LangChain on X",
+    "url": "https://x.com/LangChain/status/2124866436111704323",
+    "type": "x",
+    "handle": "LangChain"
+   },
+   "publishedAt": "2026-11-23T14:03:31.000Z",
+   "metrics": {
+    "likes": 8,
+    "reposts": 1,
+    "replies": 2,
+    "views": 2989,
+    "capturedAt": "2026-11-23T17:29:30.000Z"
+   },
+   "care": 2,
+   "proof": 2
+  },
+  {
+   "id": "rss-verge-jensen-reinstated",
+   "lens": "broad",
+   "topic": "nvidia-jensen-return",
+   "summary": "Nvidia reinstated Jensen Huang as CEO; the board voted unanimously, announced Monday morning.",
+   "facts": [
+    "The Verge: Nvidia 'board voted unanimously to reinstate Mr. Huang following a series of discussions and meetings'",
+    "Related Verge item: White House says Trump was 'totally involved' in the reinstatement."
+   ],
+   "source": {
+    "name": "The Verge AI",
+    "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-23T12:03:00.000Z",
+   "care": 4,
+   "proof": 4
+  },
+  {
+   "id": "rss-verge-meta-muse-walmart",
+   "lens": "broad",
+   "topic": "muse-walmart",
+   "summary": "Walmart will let Meta's Muse shop on a user's behalf, finding and buying Black Friday deals via Walmart's Sparky assistant.",
+   "facts": [
+    "The Verge: rolling out a live implementation of the agent gateway."
+   ],
+   "source": {
+    "name": "The Verge AI",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-23T10:09:00.000Z",
+   "care": 4,
+   "proof": 3
+  },
+  {
+   "id": "rss-verge-anthropic-safety-ipo",
+   "lens": "broad",
+   "topic": "anthropic-ipo",
+   "summary": "Verge podcast with Hayden Field on the Anthropic IPO and AI safety.",
+   "facts": [
+    "The Verge: Anthropic 'went public'; third episode in a series about AI in real life."
+   ],
+   "source": {
+    "name": "The Verge AI",
+    "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-21T08:29:00.000Z",
+   "care": 3,
+   "proof": 2
+  },
+  {
+   "id": "rss-verge-major-outages",
+   "lens": "broad",
+   "topic": "tech-outages",
+   "summary": "Verge: a week of major outages: FAA ground stop, multi-day Outlook outage, JPMorgan Chase banking outage.",
+   "facts": [
+    "The Verge: nationwide FAA ground stop, multi-day Outlook outage, banking outage at JPMorgan Chase."
+   ],
+   "source": {
+    "name": "The Verge AI",
+    "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-22T21:41:00.000Z",
+   "care": 2,
+   "proof": 2
+  },
+  {
+   "id": "rss-simon-muru",
+   "lens": "practical",
+   "topic": "muru-rust-server",
+   "summary": "Simon Willison on Muru, Graham Dumpleton's new AI-assisted Rust server for Python web apps.",
+   "facts": [
+    "Graham Dumpleton started mod_wsgi 20 years ago; Muru is his new AI-assisted Rust server."
+   ],
+   "source": {
+    "name": "Simon Willison",
+    "url": "https://simonwillison.net/2026/Nov/21/muru/",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-21T23:56:00.000Z",
+   "care": 3,
+   "proof": 3
+  },
+  {
+   "id": "rss-simon-token-fraud",
+   "lens": "practical",
+   "topic": "token-fraud",
+   "summary": "Simon Willison links Claire Vo's video 'Token fraud is here and it's BAD' about her product ChatPRD.",
+   "facts": [
+    "Claire Vo runs ChatPRD, an AI platform for product managers."
+   ],
+   "source": {
+    "name": "Simon Willison",
+    "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-20T02:49:00.000Z",
+   "care": 4,
+   "proof": 3
+  },
+  {
+   "id": "rss-simon-llm-gemini",
+   "lens": "practical",
+   "topic": "gemini-4-reasoning-levels",
+   "summary": "llm-gemini 0.38.1: Gemini 4 Carbon supports only low, medium, high reasoning; Hydrogen and Neon add xhigh.",
+   "facts": [
+    "Simon Willison release note for llm-gemini 0.38.1."
+   ],
+   "source": {
+    "name": "Simon Willison",
+    "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-20T03:01:00.000Z",
+   "care": 3,
+   "proof": 3
+  },
+  {
+   "id": "rss-simon-riemann",
+   "lens": "broad",
+   "topic": "riemann-claude-proof",
+   "summary": "Simon Willison quotes mathematicians on a claimed proof of the Riemann Hypothesis made working with Claude, and on feedback on a Generalized RH proof.",
+   "facts": [
+    "Levent Alpöge quote: 'I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis.'",
+    "Ravi Vakil quote: Brian Conrad has been examining a proposed GRH proof by Alessandro Masullo for months."
+   ],
+   "source": {
+    "name": "Simon Willison",
+    "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+    "type": "rss"
+   },
+   "publishedAt": "2026-11-20T16:30:00.000Z",
+   "care": 4,
+   "proof": 2
+  },
+  {
+   "id": "arxiv-2611-27860",
+   "lens": "practical",
+   "topic": "coding-agent-benchmarks",
+   "summary": "arXiv: 'Who Grades the Agent? Privilege Separation for Coding-Agent Benchmarks'.",
+   "facts": [
+    "Submitted 2026-11-20."
+   ],
+   "source": {
+    "name": "arXiv cs.AI",
+    "url": "http://arxiv.org/abs/2611.27860v1",
+    "type": "arxiv"
+   },
+   "publishedAt": "2026-11-20T17:09:10.000Z",
+   "care": 3,
+   "proof": 2
+  },
+  {
+   "id": "arxiv-2611-27895",
+   "lens": "practical",
+   "topic": "coding-agent-benchmarks",
+   "summary": "arXiv: 'TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?'",
+   "facts": [
+    "Submitted 2026-11-20."
+   ],
+   "source": {
+    "name": "arXiv cs.AI",
+    "url": "http://arxiv.org/abs/2611.27895v1",
+    "type": "arxiv"
+   },
+   "publishedAt": "2026-11-20T17:35:59.000Z",
+   "care": 2,
+   "proof": 2
+  },
+  {
+   "id": "arxiv-2611-27746",
+   "lens": "broad",
+   "topic": "human-ai-teams",
+   "summary": "arXiv: 'Shared Understanding in Human-AI Teams: Coordination Continuity in Evolving Work'.",
+   "facts": [
+    "Submitted 2026-11-20."
+   ],
+   "source": {
+    "name": "arXiv cs.MA",
+    "url": "http://arxiv.org/abs/2611.27746v1",
+    "type": "arxiv"
+   },
+   "publishedAt": "2026-11-20T15:39:11.000Z",
+   "care": 2,
+   "proof": 2
+  }
+ ]
+}
