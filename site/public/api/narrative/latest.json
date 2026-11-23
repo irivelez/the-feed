@@ -1,137 +1,123 @@
 {
   "schemaVersion": "1.0",
-  "id": "2026-11-20",
-  "publishedAt": "2026-11-21T00:06:56Z",
+  "id": "2026-11-23",
+  "publishedAt": "2026-11-23T13:04:38Z",
   "window": {
-    "from": "2026-11-14",
-    "to": "2026-11-20"
+    "from": "2026-11-16",
+    "to": "2026-11-23"
   },
-  "headline": "AI goes public and claims discoveries, while the walls go up",
-  "summary": "Anthropic priced its IPO at $83 a share, so a frontier lab is now graded by the market every trading day, and Gary Marcus already argues the stock is crashing. The same week, AI claims moved from code to discovery: an Anthropic mathematician says he and Claude found a proof of the Riemann Hypothesis, still unverified, and Isomorphic is working with Merck on a new cancer drug. METR's update adds the caveat: capability keeps compounding, but judgment still trails coding. Meanwhile the walls are going up, as Signal blocks screenshots from OS-level agents and OpenAI moves against distillation that copies models without their safeguards. Your move: hand agents the measurable work, keep judgment with your people, and audit what your agents can see and where your models come from.",
+  "headline": "Models are now cheap to swap. Trust is not.",
+  "summary": "The model is no longer your moat; the plumbing around it is your risk. In one week, GPT-6.2 Astra landed 0.3 points behind Fable 5.2 on one benchmark in a third of the time, Gemini 4 Neon use on Perplexity grew 15% a day, and Databricks found 75% of companies already run two or more model providers. Switching models has become a pricing call. Switching trust has not: OpenRouter dropped three inference providers after data incidents, and Guillermo Rauch argued that free inference sold as zero retention can move data to nation states at scale. The builders pulling ahead fence their agents in with verification gates, constrained tools and written decisions, since frontier models are rewarded per task, not for code you can maintain. Before your next model switch, ask where your tokens travel and who checks what comes back.",
   "threads": [
     {
-      "title": "Graded every trading day",
-      "line": "Anthropic is public now, so lab strategy gets a daily market verdict. Expect louder bulls, louder bears and faster narrative swings.",
+      "title": "Models became a line item",
+      "line": "Rankings and prices now move weekly. Keep two providers ready and choose on cost per solved task, not loyalty.",
       "evidence": [
         {
-          "briefId": "2026-11-19-0700",
-          "itemId": "anthropic-ipo-priced-83"
+          "briefId": "2026-11-18-0700",
+          "itemId": "gpt62-astra-reviews-alexfinn"
         },
         {
-          "briefId": "2026-11-19-1300",
-          "itemId": "anthropic-ipo-dario-remarks"
+          "briefId": "2026-11-16-0700",
+          "itemId": "garrytan-opus-vs-fable-eval"
         },
         {
-          "briefId": "2026-11-19-0700",
-          "itemId": "anthropic-ipo-closing-the-loop-sacks"
+          "briefId": "2026-11-17-0700",
+          "itemId": "databricks-ai-index-open-models"
         },
         {
-          "briefId": "2026-11-20-1900",
-          "itemId": "anthropic-debut-wall-street-test"
+          "briefId": "2026-11-23-0700",
+          "itemId": "perplexity-gemini-4-neon-usage-growth"
+        },
+        {
+          "briefId": "2026-11-16-0700",
+          "itemId": "gemini-4-carbon-argon-price-doubling"
+        },
+        {
+          "briefId": "2026-11-17-0700",
+          "itemId": "a16z-imas-lab-price-competition"
         }
       ]
     },
     {
-      "title": "From coder to discoverer",
-      "line": "Labs now pitch AI on math, physics and drugs. Treat each claim as unverified until checked, but watch where they land.",
+      "title": "The cheap pipe leaks",
+      "line": "Your weakest inference provider sets your data risk. Audit where prompts go before a discount decides for you.",
       "evidence": [
         {
-          "briefId": "2026-11-20-1900",
-          "itemId": "claude-riemann-hypothesis-claim"
+          "briefId": "2026-11-22-1300",
+          "itemId": "openrouter-inference-provider-data-incidents"
         },
         {
-          "briefId": "2026-11-20-1900",
-          "itemId": "claude-black-hole-physics"
-        },
-        {
-          "briefId": "2026-11-20-1900",
-          "itemId": "isomorphic-merck-cancer-drug"
-        },
-        {
-          "briefId": "2026-11-20-1900",
-          "itemId": "openai-medchembench"
-        },
-        {
-          "briefId": "2026-11-20-1900",
-          "itemId": "metr-time-horizon-update"
-        }
-      ]
-    },
-    {
-      "title": "The walls go up",
-      "line": "Apps block agents, labs fight copying and providers get compromised. Know what your agents can see and where your models come from.",
-      "evidence": [
-        {
-          "briefId": "2026-11-20-1900",
-          "itemId": "signal-blocks-ai-agent-screenshots"
-        },
-        {
-          "briefId": "2026-11-20-1900",
-          "itemId": "openai-adversarial-distillation"
+          "briefId": "2026-11-22-1900",
+          "itemId": "rauchg-stealth-model-data-exfiltration"
         },
         {
           "briefId": "2026-11-19-1300",
           "itemId": "primeintellect-compromise-openrouter"
         },
         {
-          "briefId": "2026-11-19-1300",
-          "itemId": "perplexity-context-api-safe-fetch"
+          "briefId": "2026-11-16-0700",
+          "itemId": "nathanbenaich-ai-infra-security"
         },
         {
           "briefId": "2026-11-20-0700",
           "itemId": "simonwillison-token-fraud"
+        },
+        {
+          "briefId": "2026-11-19-1300",
+          "itemId": "perplexity-context-api-safe-fetch"
         }
       ]
     },
     {
-      "title": "A model for every job",
-      "line": "Gemini 4 Neon joined the lineup and production teams switch fast. Assign models by task and price every merged PR.",
+      "title": "Less freedom, better code",
+      "line": "Reliable teams narrow what agents may choose and make them prove their work. Write the rules down.",
       "evidence": [
         {
-          "briefId": "2026-11-19-0700",
-          "itemId": "gemini-4-neon-launch"
+          "briefId": "2026-11-16-1300",
+          "itemId": "pocock-nuance-slop-poteto"
         },
         {
-          "briefId": "2026-11-19-0700",
-          "itemId": "cursor-gemini-4-neon-cursorbench"
+          "briefId": "2026-11-17-1300",
+          "itemId": "pocock-constrained-tools-experiment"
+        },
+        {
+          "briefId": "2026-11-16-1900",
+          "itemId": "claude-code-verification-post"
+        },
+        {
+          "briefId": "2026-11-21-0700",
+          "itemId": "kunchenguid-rlvr-agents-maintainability"
+        },
+        {
+          "briefId": "2026-11-21-0700",
+          "itemId": "pocock-adrs-stop-agent-assumptions"
+        },
+        {
+          "briefId": "2026-11-16-0700",
+          "itemId": "rauchg-agent-ship-gates"
+        }
+      ]
+    },
+    {
+      "title": "Walled apps, open harnesses",
+      "line": "Labs want you inside their app; builders want any model in one harness. Pick tools that let you leave.",
+      "evidence": [
+        {
+          "briefId": "2026-11-23-0700",
+          "itemId": "theo-gemini-subscription-antigravity-only"
+        },
+        {
+          "briefId": "2026-11-20-0700",
+          "itemId": "gemini-4-neon-any-harness"
+        },
+        {
+          "briefId": "2026-11-23-0700",
+          "itemId": "perplexity-model-neutral-agent-harness"
         },
         {
           "briefId": "2026-11-19-0700",
           "itemId": "theo-t3-code-model-roles"
-        },
-        {
-          "briefId": "2026-11-20-1300",
-          "itemId": "langsmith-gpt-6-luna-production"
-        },
-        {
-          "briefId": "2026-11-19-0700",
-          "itemId": "langsmith-coding-agent-roi"
-        }
-      ]
-    },
-    {
-      "title": "Who owns the workday",
-      "line": "Microsoft, Perplexity and now Apple want to be the agent your people work through. Choose on purpose before habits choose for you.",
-      "evidence": [
-        {
-          "briefId": "2026-11-19-0700",
-          "itemId": "copilot-perplexity-os-for-work"
-        },
-        {
-          "briefId": "2026-11-19-0700",
-          "itemId": "perplexity-multiagent-usage-doubles"
-        },
-        {
-          "briefId": "2026-11-20-0700",
-          "itemId": "verge-apple-ai-agent-hiring"
-        },
-        {
-          "briefId": "2026-11-20-1900",
-          "itemId": "perplexity-computer-chrome"
-        },
-        {
-          "briefId": "2026-11-19-1300",
-          "itemId": "perplexity-brain-self-improving-skills"
         }
       ]
     }
