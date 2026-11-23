@@ -1,0 +1,323 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-23-1300",
+  "date": "2026-11-23",
+  "publishedAt": "2026-11-23T18:06:42Z",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "nvidia-reinstates-jensen-huang",
+      "headline": "Nvidia's board unanimously reinstates Jensen Huang as CEO",
+      "whyItMatters": "Leadership at AI's key chip supplier is settled, and the White House says Trump was involved."
+    },
+    {
+      "itemId": "walmart-meta-muse-agent-shopping",
+      "headline": "Walmart lets Meta's Muse agent buy Black Friday deals for shoppers",
+      "whyItMatters": "Agent shopping is live at a top retailer; your checkout will need to serve agents too."
+    },
+    {
+      "itemId": "deepmind-gemini-agents-quantum-circuits",
+      "headline": "DeepMind's Gemini 4 agent teams build cheaper quantum circuits",
+      "whyItMatters": "Agent teams now produce research results, which puts R&D among the jobs to redesign."
+    }
+  ],
+  "items": [
+    {
+      "id": "deepmind-gemini-agents-quantum-circuits",
+      "title": "DeepMind's Gemini 4 agent teams build cheaper quantum circuits",
+      "takeaway": "Google DeepMind says teams of Gemini 4 agents built quantum circuits that cut future simulation costs by up to 10 times.",
+      "soWhat": "Multi-agent setups are moving from code into research work.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-23T17:00:53Z",
+      "source": {
+        "name": "@GoogleDeepMind on X",
+        "url": "https://x.com/GoogleDeepMind/status/2124911073266413634"
+      },
+      "image": {
+        "src": "/img/deepmind-gemini-agents-quantum-circuits.jpg",
+        "alt": "Image from @GoogleDeepMind on X"
+      },
+      "heat": {
+        "score": 14,
+        "level": "none",
+        "metric": "22k views"
+      }
+    },
+    {
+      "id": "dalio-radical-transparency",
+      "title": "Ray Dalio: radical transparency removes hidden agendas from decisions",
+      "takeaway": "Ray Dalio argues radical truthfulness and transparency, plus thoughtful disagreement, make an idea meritocracy.",
+      "soWhat": "He says open disagreement, not hidden agendas, is how the best idea wins.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-23T17:15:29Z",
+      "source": {
+        "name": "@RayDalio on X",
+        "url": "https://x.com/RayDalio/status/2124914745991922025"
+      },
+      "image": {
+        "src": "/img/dalio-radical-transparency.jpg",
+        "alt": "Image from @RayDalio on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "13k views"
+      }
+    },
+    {
+      "id": "a16z-openai-agents-eight-million-cells",
+      "title": "a16z: in an OpenAI collaboration, 2,000 agents mined eight million cells",
+      "takeaway": "a16z says OpenAI is building tools for scientists; 2,000 agents found patterns months of human analysis missed. OpenAI acquired Orchestra Bio.",
+      "soWhat": "OpenAI is moving into science tooling, where agent scale replaces months of manual analysis.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-23T15:30:52Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2124888419855634543"
+      },
+      "image": {
+        "src": "/img/a16z-openai-agents-eight-million-cells.jpg",
+        "alt": "Image from @a16z on X"
+      },
+      "heat": {
+        "score": 2,
+        "level": "none",
+        "metric": "14k views"
+      }
+    },
+    {
+      "id": "rauchg-fable-picks-gemini-neon",
+      "title": "Rauch had Fable study his sessions; it picked Gemini Neon over Opus",
+      "takeaway": "Guillermo Rauch asked Fable to study his coding sessions and choose between Opus and Gemini Neon. It picked Neon.",
+      "soWhat": "Let an agent judge models on your own work, not public benchmarks.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-23T14:57:42Z",
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2124880074168242369"
+      },
+      "image": {
+        "src": "/img/rauchg-fable-picks-gemini-neon.jpg",
+        "alt": "Image from @rauchg on X"
+      },
+      "heat": {
+        "score": 15,
+        "level": "none",
+        "metric": "49k views"
+      }
+    },
+    {
+      "id": "benaich-uk-compute-inquiry",
+      "title": "Benaich flags UK inquiry into its compute and data-centre strategy",
+      "takeaway": "Nathan Benaich shares a UK Committee inquiry on whether the UK can capture value in an AI economy dominated by US firms.",
+      "soWhat": "Countries outside the US are asking how to keep value from AI they don't build.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-23T13:50:01Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2124863039988248689"
+      },
+      "image": {
+        "src": "/img/benaich-uk-compute-inquiry.jpg",
+        "alt": "Image from @nathanbenaich on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "5k views"
+      }
+    },
+    {
+      "id": "nvidia-reinstates-jensen-huang",
+      "title": "Nvidia's board unanimously reinstates Jensen Huang as CEO",
+      "takeaway": "Nvidia's board voted unanimously to reinstate Jensen Huang, announced Monday. The White House says Trump was 'totally involved'.",
+      "soWhat": "The main AI chip supplier's leadership question is settled for now.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-23T12:03:00Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated"
+      },
+      "image": {
+        "src": "/img/nvidia-reinstates-jensen-huang.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "walmart-meta-muse-agent-shopping",
+      "title": "Walmart lets Meta's Muse agent buy Black Friday deals for shoppers",
+      "takeaway": "Walmart is rolling out a live agent gateway: Meta's Muse can find and buy deals through Walmart's Sparky assistant.",
+      "soWhat": "Retailers are opening checkout to outside agents; plan how agents will buy from you.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-23T10:09:00Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday"
+      },
+      "image": {
+        "src": "/img/walmart-meta-muse-agent-shopping.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "mengto-fable-game-tutorial",
+      "title": "Meng To shares a 19-minute tutorial for a Fable 5.2 game",
+      "takeaway": "Meng To published a 19-minute video on building a game with Fable 5.2, with all the skills he used.",
+      "soWhat": "Published skills and video make the workflow copyable by your own design team.",
+      "lens": "design",
+      "momentum": "shift",
+      "importance": 5,
+      "publishedAt": "2026-11-23T07:09:54Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2124762348556787848"
+      },
+      "image": {
+        "src": "/img/mengto-fable-game-tutorial.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 6,
+        "level": "none",
+        "metric": "15k views"
+      }
+    },
+    {
+      "id": "rauchg-ai-human-understandability",
+      "title": "Rauch: aim AI at making hard ideas understandable to humans",
+      "takeaway": "Guillermo Rauch argues a Riemann proof from AI should come with a paper, a walkthrough and new concepts people can grasp.",
+      "soWhat": "Judge AI output by whether your people can follow it, not just whether it works.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-22T23:59:48Z",
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2124654108124848350"
+      },
+      "image": {
+        "src": "/img/rauchg-ai-human-understandability.jpg",
+        "alt": "Profile image of @rauchg"
+      },
+      "heat": {
+        "score": 8,
+        "level": "none",
+        "metric": "25k views"
+      }
+    },
+    {
+      "id": "arxiv-who-grades-the-agent",
+      "title": "Paper proposes privilege separation for grading coding-agent benchmarks",
+      "takeaway": "arXiv paper 'Who Grades the Agent? Privilege Separation for Coding-Agent Benchmarks', submitted Nov 20.",
+      "soWhat": "Ask whether an agent could reach its own grader before trusting a benchmark score.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-20T17:09:10Z",
+      "source": {
+        "name": "arXiv cs.AI",
+        "url": "http://arxiv.org/abs/2611.27860v1"
+      },
+      "image": {
+        "src": "/img/arxiv-who-grades-the-agent.jpg",
+        "alt": "arXiv cs.AI: Paper proposes privilege separation for grading coding-agent benchmarks"
+      }
+    },
+    {
+      "id": "llm-gemini-reasoning-levels",
+      "title": "llm-gemini 0.38.1: only Neon and Hydrogen get xhigh reasoning",
+      "takeaway": "Simon Willison's llm-gemini 0.38.1: Gemini 4 Carbon supports low, medium and high reasoning; Hydrogen and Neon add xhigh.",
+      "soWhat": "Check which Gemini 4 tier allows the effort level your agents need.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-20T03:01:00Z",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/"
+      },
+      "image": {
+        "src": "/img/llm-gemini-reasoning-levels.jpg",
+        "alt": "Image from Simon Willison"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@rauchg",
+      "quote": "It picked Neon. Google being so, so back seems widely (and wildly) under-discussed.",
+      "url": "https://x.com/rauchg/status/2124880074168242369"
+    },
+    {
+      "handle": "@GoogleDeepMind",
+      "quote": "Using teams of Gemini 4 agents, we've built new quantum circuits that cut future simulation costs by up to 10 times.",
+      "url": "https://x.com/GoogleDeepMind/status/2124911073266413634"
+    },
+    {
+      "handle": "@rauchg",
+      "quote": "Rather than art, we ought to point AI towards human-understandability and conceptualization.",
+      "url": "https://x.com/rauchg/status/2124654108124848350"
+    },
+    {
+      "handle": "@RayDalio",
+      "quote": "Radical truthfulness and radical transparency eliminate confusion by putting hidden agendas directly on the table.",
+      "url": "https://x.com/RayDalio/status/2124914745991922025"
+    },
+    {
+      "handle": "@MengTo",
+      "quote": "A 19-min tutorial on how I made this game with Fable 5.2. Full video and all the skills here",
+      "url": "https://x.com/MengTo/status/2124762348556787848"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/nikitabier/status/2124613622588707018",
+      "handle": "@nikitabier",
+      "text": "The economy is held up by forgotten subscriptions and idle cash; agent prompts could change this.",
+      "metric": "19,547 likes",
+      "note": "A simple picture of what shifts when agents act for consumers."
+    },
+    {
+      "url": "https://x.com/alexandr_wang/status/2124719968499777546",
+      "handle": "@alexandr_wang",
+      "text": "This path is not inevitable. Leaders and leadership matter more than ever.",
+      "metric": "3,486 likes",
+      "note": "A lab leader framing AI's direction as a choice, not a given."
+    },
+    {
+      "url": "https://x.com/mattpocockuk/status/2124577125814657374",
+      "handle": "@mattpocockuk",
+      "text": "Just started a project with an early version of this skill and it's already the best codebase I've ever produced",
+      "metric": "1,301 likes",
+      "note": "Builders want skills that raise code quality, not just speed."
+    },
+    {
+      "url": "https://x.com/AravSrinivas/status/2124765417378099414",
+      "handle": "@AravSrinivas",
+      "text": "Gemini 4 Neon usage on Perplexity grew 15.0% a day in Computer and 10.6% in Ask, Nov 19 to 22.",
+      "metric": "1,199 likes",
+      "note": "Hard usage data on how fast a new model wins agent work."
+    },
+    {
+      "url": "https://x.com/rauchg/status/2124880074168242369",
+      "handle": "@rauchg",
+      "text": "It picked Neon. Google being so, so back seems widely (and wildly) under-discussed.",
+      "metric": "760 likes",
+      "note": "A personal eval that favors Google's model for coding."
+    }
+  ]
+}

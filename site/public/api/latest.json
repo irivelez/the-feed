@@ -1,269 +1,323 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-23-0700",
+  "id": "2026-11-23-1300",
   "date": "2026-11-23",
-  "publishedAt": "2026-11-23T12:14:02Z",
-  "edition": "Morning",
+  "publishedAt": "2026-11-23T18:06:42Z",
+  "edition": "Midday",
   "top3": [
     {
-      "itemId": "perplexity-gemini-4-neon-usage-growth",
-      "headline": "Perplexity says Gemini 4 Neon use grows 15% a day in Computer",
-      "whyItMatters": "Daily growth on agentic tasks shows how fast teams switch models once one proves itself."
+      "itemId": "nvidia-reinstates-jensen-huang",
+      "headline": "Nvidia's board unanimously reinstates Jensen Huang as CEO",
+      "whyItMatters": "Leadership at AI's key chip supplier is settled, and the White House says Trump was involved."
     },
     {
-      "itemId": "pocock-vercel-board-agent-workspace",
-      "headline": "Pocock: Vercel Board is a shared workspace for agents and developers",
-      "whyItMatters": "Teams running many agents need one place to see and steer their work."
+      "itemId": "walmart-meta-muse-agent-shopping",
+      "headline": "Walmart lets Meta's Muse agent buy Black Friday deals for shoppers",
+      "whyItMatters": "Agent shopping is live at a top retailer; your checkout will need to serve agents too."
     },
     {
-      "itemId": "theo-gemini-subscription-antigravity-only",
-      "headline": "Theo: Gemini subscriptions work only inside Google's Antigravity",
-      "whyItMatters": "Plan rules, not model quality, may decide which coding tools your team can use."
+      "itemId": "deepmind-gemini-agents-quantum-circuits",
+      "headline": "DeepMind's Gemini 4 agent teams build cheaper quantum circuits",
+      "whyItMatters": "Agent teams now produce research results, which puts R&D among the jobs to redesign."
     }
   ],
   "items": [
     {
-      "id": "pocock-vercel-board-agent-workspace",
-      "title": "Pocock: Vercel Board is a shared workspace for agents and developers",
-      "takeaway": "Matt Pocock describes Vercel Board as a private Slack-like workspace for agents and developers that can sync to Slack channels. He thinks most teams should build something like it.",
-      "soWhat": "Give agents and people one shared channel so their work stays visible.",
-      "lens": "practical",
-      "momentum": "new",
+      "id": "deepmind-gemini-agents-quantum-circuits",
+      "title": "DeepMind's Gemini 4 agent teams build cheaper quantum circuits",
+      "takeaway": "Google DeepMind says teams of Gemini 4 agents built quantum circuits that cut future simulation costs by up to 10 times.",
+      "soWhat": "Multi-agent setups are moving from code into research work.",
+      "lens": "broad",
+      "momentum": "building",
       "importance": 8,
-      "publishedAt": "2026-11-23T09:30:27Z",
+      "publishedAt": "2026-11-23T17:00:53Z",
       "source": {
-        "name": "@mattpocockuk on X",
-        "url": "https://x.com/mattpocockuk/status/2124797717834543167"
+        "name": "@GoogleDeepMind on X",
+        "url": "https://x.com/GoogleDeepMind/status/2124911073266413634"
       },
       "image": {
-        "src": "/img/pocock-vercel-board-agent-workspace.jpg",
-        "alt": "Image from @mattpocockuk on X"
+        "src": "/img/deepmind-gemini-agents-quantum-circuits.jpg",
+        "alt": "Image from @GoogleDeepMind on X"
       },
       "heat": {
-        "score": 16,
+        "score": 14,
+        "level": "none",
+        "metric": "22k views"
+      }
+    },
+    {
+      "id": "dalio-radical-transparency",
+      "title": "Ray Dalio: radical transparency removes hidden agendas from decisions",
+      "takeaway": "Ray Dalio argues radical truthfulness and transparency, plus thoughtful disagreement, make an idea meritocracy.",
+      "soWhat": "He says open disagreement, not hidden agendas, is how the best idea wins.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-23T17:15:29Z",
+      "source": {
+        "name": "@RayDalio on X",
+        "url": "https://x.com/RayDalio/status/2124914745991922025"
+      },
+      "image": {
+        "src": "/img/dalio-radical-transparency.jpg",
+        "alt": "Image from @RayDalio on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "13k views"
+      }
+    },
+    {
+      "id": "a16z-openai-agents-eight-million-cells",
+      "title": "a16z: in an OpenAI collaboration, 2,000 agents mined eight million cells",
+      "takeaway": "a16z says OpenAI is building tools for scientists; 2,000 agents found patterns months of human analysis missed. OpenAI acquired Orchestra Bio.",
+      "soWhat": "OpenAI is moving into science tooling, where agent scale replaces months of manual analysis.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-23T15:30:52Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2124888419855634543"
+      },
+      "image": {
+        "src": "/img/a16z-openai-agents-eight-million-cells.jpg",
+        "alt": "Image from @a16z on X"
+      },
+      "heat": {
+        "score": 2,
+        "level": "none",
+        "metric": "14k views"
+      }
+    },
+    {
+      "id": "rauchg-fable-picks-gemini-neon",
+      "title": "Rauch had Fable study his sessions; it picked Gemini Neon over Opus",
+      "takeaway": "Guillermo Rauch asked Fable to study his coding sessions and choose between Opus and Gemini Neon. It picked Neon.",
+      "soWhat": "Let an agent judge models on your own work, not public benchmarks.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-23T14:57:42Z",
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2124880074168242369"
+      },
+      "image": {
+        "src": "/img/rauchg-fable-picks-gemini-neon.jpg",
+        "alt": "Image from @rauchg on X"
+      },
+      "heat": {
+        "score": 15,
         "level": "none",
         "metric": "49k views"
       }
     },
     {
-      "id": "perplexity-gemini-4-neon-usage-growth",
-      "title": "Perplexity says Gemini 4 Neon use grows 15% a day in Computer",
-      "takeaway": "Aravind Srinivas reports Gemini 4 Neon usage on Perplexity up 10.6% a day in Ask and 15.0% a day in Computer, Nov 19 to 22. Perplexity's own data.",
-      "soWhat": "Usage data from a model-neutral product hints at where agentic work is moving.",
+      "id": "benaich-uk-compute-inquiry",
+      "title": "Benaich flags UK inquiry into its compute and data-centre strategy",
+      "takeaway": "Nathan Benaich shares a UK Committee inquiry on whether the UK can capture value in an AI economy dominated by US firms.",
+      "soWhat": "Countries outside the US are asking how to keep value from AI they don't build.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-23T13:50:01Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2124863039988248689"
+      },
+      "image": {
+        "src": "/img/benaich-uk-compute-inquiry.jpg",
+        "alt": "Image from @nathanbenaich on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "5k views"
+      }
+    },
+    {
+      "id": "nvidia-reinstates-jensen-huang",
+      "title": "Nvidia's board unanimously reinstates Jensen Huang as CEO",
+      "takeaway": "Nvidia's board voted unanimously to reinstate Jensen Huang, announced Monday. The White House says Trump was 'totally involved'.",
+      "soWhat": "The main AI chip supplier's leadership question is settled for now.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 9,
+      "publishedAt": "2026-11-23T12:03:00Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated"
+      },
+      "image": {
+        "src": "/img/nvidia-reinstates-jensen-huang.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "walmart-meta-muse-agent-shopping",
+      "title": "Walmart lets Meta's Muse agent buy Black Friday deals for shoppers",
+      "takeaway": "Walmart is rolling out a live agent gateway: Meta's Muse can find and buy deals through Walmart's Sparky assistant.",
+      "soWhat": "Retailers are opening checkout to outside agents; plan how agents will buy from you.",
       "lens": "broad",
       "momentum": "building",
       "importance": 8,
-      "publishedAt": "2026-11-23T07:22:06Z",
+      "publishedAt": "2026-11-23T10:09:00Z",
       "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2124765417378099414"
+        "name": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday"
       },
       "image": {
-        "src": "/img/perplexity-gemini-4-neon-usage-growth.jpg",
-        "alt": "Profile image of @AravSrinivas"
-      },
-      "heat": {
-        "score": 15,
-        "level": "none",
-        "metric": "36k views"
+        "src": "/img/walmart-meta-muse-agent-shopping.jpg",
+        "alt": "Image from The Verge"
       }
     },
     {
-      "id": "alexfinn-inkling-2-mini-laptop",
-      "title": "Alex Finn runs Inkling 2 Mini on a laptop around the clock",
-      "takeaway": "Alex Finn says Inkling 2 Mini runs on a MacBook Pro using under half its memory, coding and scraping the web 24/7. He claims Opus 4.6 level coding; a self-report with no benchmark.",
-      "soWhat": "Local models may cut costs for always-on agent work; test before you trust the claim.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-23T06:11:04Z",
+      "id": "mengto-fable-game-tutorial",
+      "title": "Meng To shares a 19-minute tutorial for a Fable 5.2 game",
+      "takeaway": "Meng To published a 19-minute video on building a game with Fable 5.2, with all the skills he used.",
+      "soWhat": "Published skills and video make the workflow copyable by your own design team.",
+      "lens": "design",
+      "momentum": "shift",
+      "importance": 5,
+      "publishedAt": "2026-11-23T07:09:54Z",
       "source": {
-        "name": "@AlexFinn on X",
-        "url": "https://x.com/AlexFinn/status/2124747542566977889"
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2124762348556787848"
       },
       "image": {
-        "src": "/img/alexfinn-inkling-2-mini-laptop.jpg",
-        "alt": "Image from @AlexFinn on X"
+        "src": "/img/mengto-fable-game-tutorial.jpg",
+        "alt": "Image from @MengTo on X"
       },
       "heat": {
-        "score": 20,
+        "score": 6,
         "level": "none",
-        "metric": "99k views"
+        "metric": "15k views"
       }
     },
     {
-      "id": "alexandr-wang-ai-path-not-inevitable",
-      "title": "Alexandr Wang: the current AI path is not inevitable",
-      "takeaway": "Alexandr Wang says the current AI path is not inevitable and leadership matters more than ever, citing safety work at Meta. He notes leaders of other labs have said much the same.",
-      "soWhat": "Lab leaders are framing AI's direction as a leadership choice, not a given.",
+      "id": "rauchg-ai-human-understandability",
+      "title": "Rauch: aim AI at making hard ideas understandable to humans",
+      "takeaway": "Guillermo Rauch argues a Riemann proof from AI should come with a paper, a walkthrough and new concepts people can grasp.",
+      "soWhat": "Judge AI output by whether your people can follow it, not just whether it works.",
       "lens": "broad",
-      "momentum": "new",
-      "importance": 7,
-      "publishedAt": "2026-11-23T04:21:30Z",
-      "source": {
-        "name": "@alexandr_wang on X",
-        "url": "https://x.com/alexandr_wang/status/2124719968499777546"
-      },
-      "image": {
-        "src": "/img/alexandr-wang-ai-path-not-inevitable.jpg",
-        "alt": "Profile image of @alexandr_wang"
-      },
-      "heat": {
-        "score": 23,
-        "level": "none",
-        "metric": "300k views"
-      }
-    },
-    {
-      "id": "theo-gemini-subscription-antigravity-only",
-      "title": "Theo: Gemini subscriptions work only inside Google's Antigravity",
-      "takeaway": "Theo says a Gemini subscription can only be used in Antigravity. T3 Code routing through the Antigravity binary to Google's API is allowed; other harnesses such as Pi are not.",
-      "soWhat": "Check plan terms before standardizing your team on a coding harness.",
-      "lens": "practical",
       "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-23T00:43:23Z",
+      "importance": 5,
+      "publishedAt": "2026-11-22T23:59:48Z",
       "source": {
-        "name": "@theo on X",
-        "url": "https://x.com/theo/status/2124665075638411641"
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2124654108124848350"
       },
       "image": {
-        "src": "/img/theo-gemini-subscription-antigravity-only.jpg",
-        "alt": "Profile image of @theo"
+        "src": "/img/rauchg-ai-human-understandability.jpg",
+        "alt": "Profile image of @rauchg"
       },
       "heat": {
-        "score": 25,
+        "score": 8,
         "level": "none",
-        "metric": "257k views"
+        "metric": "25k views"
       }
     },
     {
-      "id": "nikitabier-agents-banking-inertia",
-      "title": "Nikita Bier: agents that cancel subscriptions could reshape banking",
-      "takeaway": "Nikita Bier argues the economy rests on people not cancelling subscriptions or moving cash to higher-yield accounts. If everyone ran an agent to do it, banking would shift. Opinion, no data.",
-      "soWhat": "Business models built on customer inertia are exposed once agents act for customers.",
-      "lens": "broad",
+      "id": "arxiv-who-grades-the-agent",
+      "title": "Paper proposes privilege separation for grading coding-agent benchmarks",
+      "takeaway": "arXiv paper 'Who Grades the Agent? Privilege Separation for Coding-Agent Benchmarks', submitted Nov 20.",
+      "soWhat": "Ask whether an agent could reach its own grader before trusting a benchmark score.",
+      "lens": "practical",
       "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-22T21:18:55Z",
+      "importance": 5,
+      "publishedAt": "2026-11-20T17:09:10Z",
       "source": {
-        "name": "@nikitabier on X",
-        "url": "https://x.com/nikitabier/status/2124613622588707018"
+        "name": "arXiv cs.AI",
+        "url": "http://arxiv.org/abs/2611.27860v1"
       },
       "image": {
-        "src": "/img/nikitabier-agents-banking-inertia.jpg",
-        "alt": "Profile image of @nikitabier"
-      },
-      "heat": {
-        "score": 37,
-        "level": "none",
-        "metric": "3M views"
+        "src": "/img/arxiv-who-grades-the-agent.jpg",
+        "alt": "arXiv cs.AI: Paper proposes privilege separation for grading coding-agent benchmarks"
       }
     },
     {
-      "id": "perplexity-model-neutral-agent-harness",
-      "title": "Srinivas pitches Perplexity as a model-neutral agent harness",
-      "takeaway": "Aravind Srinivas calls Perplexity the best model-neutral agentic harness, compatible with the best frontier models, with all primitives exposed in code mode. A CEO's claim.",
-      "soWhat": "A model-neutral harness lets you swap models without rebuilding your agent setup.",
+      "id": "llm-gemini-reasoning-levels",
+      "title": "llm-gemini 0.38.1: only Neon and Hydrogen get xhigh reasoning",
+      "takeaway": "Simon Willison's llm-gemini 0.38.1: Gemini 4 Carbon supports low, medium and high reasoning; Hydrogen and Neon add xhigh.",
+      "soWhat": "Check which Gemini 4 tier allows the effort level your agents need.",
       "lens": "practical",
       "momentum": "building",
       "importance": 5,
-      "publishedAt": "2026-11-22T16:25:21Z",
+      "publishedAt": "2026-11-20T03:01:00Z",
       "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2124539743098802456"
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/"
       },
       "image": {
-        "src": "/img/perplexity-model-neutral-agent-harness.jpg",
-        "alt": "Image from @AravSrinivas on X"
-      },
-      "heat": {
-        "score": 12,
-        "level": "none",
-        "metric": "203k views"
-      }
-    },
-    {
-      "id": "tavicosta-india-silver-imports",
-      "title": "Tavi Costa: India's silver imports hit third-highest value on record",
-      "takeaway": "Tavi Costa notes India reported its third-highest silver import value on record and frames it as a shift from leveraged traders to long-term owners.",
-      "soWhat": "He reads the buying as long-term ownership, not short-term trading.",
-      "lens": "frontier-capital",
-      "momentum": "building",
-      "importance": 4,
-      "publishedAt": "2026-11-22T14:34:39Z",
-      "source": {
-        "name": "@TaviCosta on X",
-        "url": "https://x.com/TaviCosta/status/2124511883847950538"
-      },
-      "image": {
-        "src": "/img/tavicosta-india-silver-imports.jpg",
-        "alt": "Image from @TaviCosta on X"
-      },
-      "heat": {
-        "score": 16,
-        "level": "none",
-        "metric": "34k views"
+        "src": "/img/llm-gemini-reasoning-levels.jpg",
+        "alt": "Image from Simon Willison"
       }
     }
   ],
   "voices": [
     {
-      "handle": "@mattpocockuk",
-      "quote": "Basically just a private Slack workspace for your agents AND developers (which can even sync to Slack channels for better observability)",
-      "url": "https://x.com/mattpocockuk/status/2124797717834543167"
+      "handle": "@rauchg",
+      "quote": "It picked Neon. Google being so, so back seems widely (and wildly) under-discussed.",
+      "url": "https://x.com/rauchg/status/2124880074168242369"
     },
     {
-      "handle": "@alexandr_wang",
-      "quote": "this path is not inevitable",
-      "url": "https://x.com/alexandr_wang/status/2124719968499777546"
+      "handle": "@GoogleDeepMind",
+      "quote": "Using teams of Gemini 4 agents, we've built new quantum circuits that cut future simulation costs by up to 10 times.",
+      "url": "https://x.com/GoogleDeepMind/status/2124911073266413634"
     },
     {
-      "handle": "@theo",
-      "quote": "You can only use your Gemini subscription in Antigravity.",
-      "url": "https://x.com/theo/status/2124665075638411641"
+      "handle": "@rauchg",
+      "quote": "Rather than art, we ought to point AI towards human-understandability and conceptualization.",
+      "url": "https://x.com/rauchg/status/2124654108124848350"
     },
     {
-      "handle": "@TaviCosta",
-      "quote": "third-highest silver import value on record",
-      "url": "https://x.com/TaviCosta/status/2124511883847950538"
+      "handle": "@RayDalio",
+      "quote": "Radical truthfulness and radical transparency eliminate confusion by putting hidden agendas directly on the table.",
+      "url": "https://x.com/RayDalio/status/2124914745991922025"
+    },
+    {
+      "handle": "@MengTo",
+      "quote": "A 19-min tutorial on how I made this game with Fable 5.2. Full video and all the skills here",
+      "url": "https://x.com/MengTo/status/2124762348556787848"
     }
   ],
   "hotOnX": [
     {
       "url": "https://x.com/nikitabier/status/2124613622588707018",
       "handle": "@nikitabier",
-      "text": "The economy rests on people not cancelling subscriptions or moving cash; agents doing it would shift banking.",
-      "metric": "17,231 likes",
-      "note": "A simple picture of what changes when agents act for consumers."
-    },
-    {
-      "url": "https://x.com/theo/status/2124665075638411641",
-      "handle": "@theo",
-      "text": "You can only use your Gemini subscription in Antigravity.",
-      "metric": "3,123 likes",
-      "note": "Developers weighing which coding harness their plan allows."
+      "text": "The economy is held up by forgotten subscriptions and idle cash; agent prompts could change this.",
+      "metric": "19,547 likes",
+      "note": "A simple picture of what shifts when agents act for consumers."
     },
     {
       "url": "https://x.com/alexandr_wang/status/2124719968499777546",
       "handle": "@alexandr_wang",
-      "text": "The current AI path is not inevitable; leadership matters more than ever.",
-      "metric": "2,250 likes",
-      "note": "A lab leader saying AI's direction is a choice."
-    },
-    {
-      "url": "https://x.com/AlexFinn/status/2124747542566977889",
-      "handle": "@AlexFinn",
-      "text": "Inkling 2 Mini runs on a MacBook Pro using under half its memory, coding and scraping 24/7.",
-      "metric": "1,449 likes",
-      "note": "Interest in running capable agents locally for free."
+      "text": "This path is not inevitable. Leaders and leadership matter more than ever.",
+      "metric": "3,486 likes",
+      "note": "A lab leader framing AI's direction as a choice, not a given."
     },
     {
       "url": "https://x.com/mattpocockuk/status/2124577125814657374",
       "handle": "@mattpocockuk",
-      "text": "An early version of a new skill produced the best codebase he has made on a greenfield project.",
-      "metric": "1,166 likes",
+      "text": "Just started a project with an early version of this skill and it's already the best codebase I've ever produced",
+      "metric": "1,301 likes",
       "note": "Builders want skills that raise code quality, not just speed."
+    },
+    {
+      "url": "https://x.com/AravSrinivas/status/2124765417378099414",
+      "handle": "@AravSrinivas",
+      "text": "Gemini 4 Neon usage on Perplexity grew 15.0% a day in Computer and 10.6% in Ask, Nov 19 to 22.",
+      "metric": "1,199 likes",
+      "note": "Hard usage data on how fast a new model wins agent work."
+    },
+    {
+      "url": "https://x.com/rauchg/status/2124880074168242369",
+      "handle": "@rauchg",
+      "text": "It picked Neon. Google being so, so back seems widely (and wildly) under-discussed.",
+      "metric": "760 likes",
+      "note": "A personal eval that favors Google's model for coding."
     }
   ]
 }
