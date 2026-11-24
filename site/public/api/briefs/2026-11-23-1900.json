@@ -1,0 +1,290 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-23-1900",
+  "date": "2026-11-23",
+  "publishedAt": "2026-11-24T00:14:40Z",
+  "edition": "Evening",
+  "top3": [
+    {
+      "itemId": "claude-ship-beta",
+      "headline": "Anthropic's Claude Ship reviews, fixes and approves pull requests",
+      "whyItMatters": "Code approval is now delegable; decide which changes your policy lets an agent sign off."
+    },
+    {
+      "itemId": "openai-shirudo-ebpf",
+      "headline": "OpenAI and Cisco open-source Shirudo so agents can shield unpatched systems",
+      "whyItMatters": "Agents now defend live systems too, buying time between an exploit and a tested patch."
+    },
+    {
+      "itemId": "claude-plugins-merge",
+      "headline": "Claude merges connectors and skills into one plugin system",
+      "whyItMatters": "One plugin format means your company's tools and know-how can be packaged for Claude once."
+    }
+  ],
+  "items": [
+    {
+      "id": "gpt6-cyber-948-kernel-bugs",
+      "title": "GPT-6 Cyber helped validate 948 Linux kernel root bugs in one run",
+      "takeaway": "OpenAI researchers used GPT-6 Cyber to validate the bugs, draft patches for review and work with maintainers upstream.",
+      "soWhat": "Bug discovery now outpaces human patch review; plan for a much larger fix queue.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 10,
+      "publishedAt": "2026-11-23T23:25:45Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2125007927098699827"
+      },
+      "image": {
+        "src": "/img/gpt6-cyber-948-kernel-bugs.jpg",
+        "alt": "Image from @OpenAI on X"
+      },
+      "heat": {
+        "score": 11,
+        "level": "none",
+        "metric": "41k views"
+      }
+    },
+    {
+      "id": "openai-shirudo-ebpf",
+      "title": "OpenAI and Cisco release Shirudo, an agent runtime for live defense",
+      "takeaway": "Open-source Linux runtime; agents write dynamic eBPF controls to block exploits while patches are tested.",
+      "soWhat": "Agents can now hold the line on unpatched systems without downtime.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 10,
+      "publishedAt": "2026-11-23T21:37:07Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2124980590717911527"
+      },
+      "image": {
+        "src": "/img/openai-shirudo-ebpf.jpg",
+        "alt": "Image from @OpenAI on X"
+      },
+      "heat": {
+        "score": 30,
+        "level": "none",
+        "metric": "369k views"
+      }
+    },
+    {
+      "id": "claude-code-desktop-side-panel",
+      "title": "Claude Code desktop puts files, changes and terminal in tabs",
+      "takeaway": "Redesigned side panel; tabs can move or pop out. Mac first, Windows and Linux coming.",
+      "soWhat": "Agent coding tools are becoming full workspaces, not chat windows.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-23T21:30:01Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2124978802006851961"
+      },
+      "image": {
+        "src": "/img/claude-code-desktop-side-panel.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      },
+      "heat": {
+        "score": 24,
+        "level": "none",
+        "metric": "177k views"
+      }
+    },
+    {
+      "id": "a16z-agent-shopping-test",
+      "title": "a16z tests what makes AI shopping agents choose a product",
+      "takeaway": "Four consumer agents, 1,270 prompts, 11,307 completed runs, with The Prompting Company.",
+      "soWhat": "Specific customer needs can overturn an agent's default pick, so state yours plainly.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 8,
+      "publishedAt": "2026-11-23T21:15:02Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2124975031923122236"
+      },
+      "image": {
+        "src": "/img/a16z-agent-shopping-test.jpg",
+        "alt": "Image from @a16z on X"
+      },
+      "heat": {
+        "score": 4,
+        "level": "none",
+        "metric": "20k views"
+      }
+    },
+    {
+      "id": "claude-plugins-merge",
+      "title": "Claude connectors and skills become one plugin system",
+      "takeaway": "Live on Free, Pro, Max and Ultra; Team and Enterprise coming soon. 10,000+ plugins listed.",
+      "soWhat": "Package your tools and know-how once as a plugin, not twice.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 10,
+      "publishedAt": "2026-11-23T20:56:12Z",
+      "source": {
+        "name": "@claudeai on X",
+        "url": "https://x.com/claudeai/status/2124970294523945328"
+      },
+      "image": {
+        "src": "/img/claude-plugins-merge.jpg",
+        "alt": "Image from @claudeai on X"
+      },
+      "heat": {
+        "score": 27,
+        "level": "none",
+        "metric": "302k views"
+      }
+    },
+    {
+      "id": "replit-agent-swarm-scaling",
+      "title": "Replit: more agents help, but more compute alone does not",
+      "takeaway": "Replit research on scaling laws for agent swarms; how agents organize matters.",
+      "soWhat": "Design how your agents coordinate before you add more of them.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-23T20:52:17Z",
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2124969305674748175"
+      },
+      "image": {
+        "src": "/img/replit-agent-swarm-scaling.jpg",
+        "alt": "Image from @amasad on X"
+      },
+      "heat": {
+        "score": 6,
+        "level": "none",
+        "metric": "10k views"
+      }
+    },
+    {
+      "id": "claude-ship-beta",
+      "title": "Claude Ship reviews, fixes and approves pull requests",
+      "takeaway": "Beta for Team and Enterprise; approvals limited to what team policy allows.",
+      "soWhat": "Write the approval policy now; it defines what the agent may merge.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 10,
+      "publishedAt": "2026-11-23T20:13:04Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2124959436640858475"
+      },
+      "image": {
+        "src": "/img/claude-ship-beta.jpg",
+        "alt": "Profile image of @ClaudeDevs"
+      },
+      "heat": {
+        "score": 35,
+        "level": "none",
+        "metric": "1.1M views"
+      }
+    },
+    {
+      "id": "deepmind-gemini-4-neon-turing",
+      "title": "Gemini 4 Neon rebuilds Turing's 1936 study in interactive 3D",
+      "takeaway": "Built from archival photos in Antigravity, with a running Universal Turing Machine.",
+      "soWhat": "Models now turn archives into working 3D spaces in one project.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-23T20:12:34Z",
+      "source": {
+        "name": "@GoogleDeepMind on X",
+        "url": "https://x.com/GoogleDeepMind/status/2124959312606818597"
+      },
+      "image": {
+        "src": "/img/deepmind-gemini-4-neon-turing.jpg",
+        "alt": "Image from @GoogleDeepMind on X"
+      },
+      "heat": {
+        "score": 18,
+        "level": "none",
+        "metric": "52k views"
+      }
+    },
+    {
+      "id": "claude-zdr-efs-beta",
+      "title": "Claude Platform offers zero data retention with misuse checks",
+      "takeaway": "Public beta for eligible orgs: encrypted Messages API copies go to your own cloud storage.",
+      "soWhat": "You keep the data trail while the vendor keeps none, easing compliance reviews.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-23T18:17:06Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2124930253344948518"
+      },
+      "image": {
+        "src": "/img/claude-zdr-efs-beta.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "157k views"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@ClaudeDevs",
+      "quote": "The goal is to help you ship code as fast as you can write it.",
+      "url": "https://x.com/ClaudeDevs/status/2124959436640858475"
+    },
+    {
+      "handle": "@OpenAI",
+      "quote": "It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll out patches.",
+      "url": "https://x.com/OpenAI/status/2124980590717911527"
+    },
+    {
+      "handle": "@amasad",
+      "quote": "Unlike traditional scaling laws, more compute doesn't necessarily translate into better results",
+      "url": "https://x.com/amasad/status/2124969305674748175"
+    },
+    {
+      "handle": "@a16z",
+      "quote": "Specific customer needs can overturn an agent's default",
+      "url": "https://x.com/a16z/status/2124975031923122236"
+    },
+    {
+      "handle": "@claudeai",
+      "quote": "There’s now one way to connect your tools to Claude, teach it a new skill, or do both.",
+      "url": "https://x.com/claudeai/status/2124970294523945328"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/sama/status/2124887162206495228",
+      "handle": "@sama",
+      "text": "Jensen!",
+      "metric": "75,839 likes",
+      "note": "OpenAI's CEO cheering Jensen Huang's return to Nvidia, AI's key chip supplier."
+    },
+    {
+      "url": "https://x.com/ClaudeDevs/status/2124959436640858475",
+      "handle": "@ClaudeDevs",
+      "text": "Introducing Claude Ship (beta): Claude can review your pull requests, work on fixes, and approve the ones your team's policy allows.",
+      "metric": "12,886 likes",
+      "note": "Letting an agent approve code is a big step in delegation."
+    },
+    {
+      "url": "https://x.com/OpenAI/status/2124980590717911527",
+      "handle": "@OpenAI",
+      "text": "We’re introducing Shirudo, an open-source Linux runtime allowing agents to defend systems without downtime.",
+      "metric": "6,347 likes",
+      "note": "Agents moving into live security defense, built with Cisco."
+    },
+    {
+      "url": "https://x.com/claudeai/status/2124970294523945328",
+      "handle": "@claudeai",
+      "text": "Connectors and skills come together as plugins. Live on Free, Pro, Max, and Ultra plans.",
+      "metric": "4,171 likes",
+      "note": "One format for tools and skills simplifies how teams extend Claude."
+    }
+  ]
+}
