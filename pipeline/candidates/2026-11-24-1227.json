@@ -1,0 +1,236 @@
+{
+ "schemaVersion": "1.1",
+ "runId": "2026-11-24-1227",
+ "generatedAt": "2026-11-24T17:30:00Z",
+ "configVersions": {
+  "sources": "1.3.0",
+  "preferences": "1.1.0"
+ },
+ "window": {
+  "from": "2026-11-24T10:00:00Z",
+  "to": "2026-11-24T17:30:00Z"
+ },
+ "sourceNotes": [
+  "X: 5 calls (3 handle-subset searches since 05:00Z, 2 keyword relevancy searches); not every handle searched; no reply captured; keyword queries returned nothing above 150 likes.",
+  "RSS, arXiv, HN not fetched this run.",
+  "Quiet window: most trusted handles posted little since 07:00 Bogotá; Metaplanet post was Japanese event notice, skipped; Lyn Alden/Vitalik/naval nothing new."
+ ],
+ "candidates": [
+  {
+   "id": "claudedevs-managed-agents-redesign",
+   "lens": "practical",
+   "summary": "Anthropic's ClaudeDevs posted a 34-second video in which three Anthropic engineers explain how they redesigned the architecture of Claude Managed Agents, its platform for building agents.",
+   "facts": [],
+   "source": {
+    "name": "@ClaudeDevs on X",
+    "url": "https://x.com/ClaudeDevs/status/2125277263314792687",
+    "type": "x",
+    "handle": "ClaudeDevs"
+   },
+   "publishedAt": "2026-11-24T17:15:59Z",
+   "metrics": {
+    "likes": 423,
+    "reposts": 20,
+    "replies": 24,
+    "views": 30782,
+    "capturedAt": "2026-11-24T17:30:00Z"
+   },
+   "care": 4,
+   "proof": 3,
+   "topic": "claude-managed-agents",
+   "firstSeen": "2026-11-24"
+  },
+  {
+   "id": "theo-opus-45-anniversary",
+   "lens": "practical",
+   "summary": "Theo says it has been exactly one year since Opus 4.5 dropped and still calls it the model that changed how people code.",
+   "facts": [],
+   "source": {
+    "name": "@theo on X",
+    "url": "https://x.com/theo/status/2125204907905163378",
+    "type": "x",
+    "handle": "theo"
+   },
+   "publishedAt": "2026-11-24T12:28:29Z",
+   "metrics": {
+    "likes": 3476,
+    "reposts": 109,
+    "replies": 74,
+    "views": 114432,
+    "capturedAt": "2026-11-24T17:30:00Z"
+   },
+   "care": 2,
+   "proof": 2,
+   "topic": "opus-4-5-anniversary",
+   "firstSeen": "2026-11-24"
+  },
+  {
+   "id": "rubenhassid-original-answers-prompt",
+   "lens": "practical",
+   "summary": "Ruben Hassid shares a step-by-step prompt routine for getting less generic AI answers: ask for 20 answers, pick only 1.",
+   "facts": [],
+   "source": {
+    "name": "@rubenhassid on X",
+    "url": "https://x.com/rubenhassid/status/2125197759724552236",
+    "type": "x",
+    "handle": "rubenhassid"
+   },
+   "publishedAt": "2026-11-24T12:00:04Z",
+   "metrics": {
+    "likes": 9,
+    "reposts": 3,
+    "replies": 8,
+    "views": 1874,
+    "capturedAt": "2026-11-24T17:30:00Z"
+   },
+   "care": 2,
+   "proof": 2,
+   "topic": "prompting-originality",
+   "firstSeen": "2026-11-24"
+  },
+  {
+   "id": "perplexity-meta-quest-apps",
+   "lens": "broad",
+   "summary": "Aravind Srinivas says Perplexity can build Meta Quest 3 apps and shows a mixed reality drone simulator example.",
+   "facts": [],
+   "source": {
+    "name": "@AravSrinivas on X",
+    "url": "https://x.com/AravSrinivas/status/2125265828346282068",
+    "type": "x",
+    "handle": "AravSrinivas"
+   },
+   "publishedAt": "2026-11-24T16:30:33Z",
+   "metrics": {
+    "likes": 45,
+    "reposts": 3,
+    "replies": 17,
+    "views": 7198,
+    "capturedAt": "2026-11-24T17:30:00Z"
+   },
+   "care": 2,
+   "proof": 2,
+   "topic": "perplexity-builds-apps",
+   "firstSeen": "2026-11-24"
+  },
+  {
+   "id": "perplexity-inu-game",
+   "lens": "broad",
+   "summary": "Aravind Srinivas says Perplexity built a browser game, INU, in which you play a dog in a dystopian Tokyo.",
+   "facts": [],
+   "source": {
+    "name": "@AravSrinivas on X",
+    "url": "https://x.com/AravSrinivas/status/2125271395886358739",
+    "type": "x",
+    "handle": "AravSrinivas"
+   },
+   "publishedAt": "2026-11-24T16:52:41Z",
+   "metrics": {
+    "likes": 72,
+    "reposts": 6,
+    "replies": 25,
+    "views": 8399,
+    "capturedAt": "2026-11-24T17:30:00Z"
+   },
+   "care": 2,
+   "proof": 2,
+   "topic": "perplexity-builds-apps",
+   "firstSeen": "2026-11-24"
+  },
+  {
+   "id": "a16z-musk-urgency",
+   "lens": "broad",
+   "summary": "a16z posted Elon Musk on urgency: he says he is constantly addressing the limiting factor and aims for deadlines he thinks sit around the 50th percentile.",
+   "facts": [],
+   "source": {
+    "name": "@a16z on X",
+    "url": "https://x.com/a16z/status/2125243147315986618",
+    "type": "x",
+    "handle": "a16z"
+   },
+   "publishedAt": "2026-11-24T15:00:26Z",
+   "metrics": {
+    "likes": 412,
+    "reposts": 31,
+    "replies": 30,
+    "views": 26932,
+    "capturedAt": "2026-11-24T17:30:00Z"
+   },
+   "care": 2,
+   "proof": 2,
+   "topic": "musk-urgency",
+   "firstSeen": "2026-11-24"
+  },
+  {
+   "id": "deepmind-easy-read-gemini",
+   "lens": "broad",
+   "summary": "Google DeepMind built the Easy Read Co-Creator Tool with Gemini, with Mencap and people with learning disabilities, to turn complex health and finance documents into clear language.",
+   "facts": [],
+   "source": {
+    "name": "@GoogleDeepMind on X",
+    "url": "https://x.com/GoogleDeepMind/status/2125201709852934598",
+    "type": "x",
+    "handle": "GoogleDeepMind"
+   },
+   "publishedAt": "2026-11-24T12:15:46Z",
+   "metrics": {
+    "likes": 363,
+    "reposts": 29,
+    "replies": 127,
+    "views": 39702,
+    "capturedAt": "2026-11-24T17:30:00Z"
+   },
+   "care": 2,
+   "proof": 3,
+   "topic": "gemini-easy-read",
+   "firstSeen": "2026-11-24"
+  },
+  {
+   "id": "benaich-ai-slop-inbox",
+   "lens": "frontier-capital",
+   "summary": "Nathan Benaich says the share of his inbox that is AI-generated slop from randos has skyrocketed and that neither Gmail spam nor an LLM-trained classifier catches it.",
+   "facts": [],
+   "source": {
+    "name": "@nathanbenaich on X",
+    "url": "https://x.com/nathanbenaich/status/2125149946345365786",
+    "type": "x",
+    "handle": "nathanbenaich"
+   },
+   "publishedAt": "2026-11-24T08:50:05Z",
+   "metrics": {
+    "likes": 42,
+    "reposts": 0,
+    "replies": 19,
+    "views": 3540,
+    "capturedAt": "2026-11-24T17:30:00Z"
+   },
+   "care": 2,
+   "proof": 2,
+   "topic": "ai-slop-inbox",
+   "firstSeen": "2026-11-24"
+  },
+  {
+   "id": "mengto-astra-62",
+   "lens": "design",
+   "summary": "Meng To says that after 5 days with Astra 6.2 it is his favorite model, calling it extremely fast with the best taste in 3D, and shows a landing page built with it.",
+   "facts": [],
+   "source": {
+    "name": "@MengTo on X",
+    "url": "https://x.com/MengTo/status/2125125308991090749",
+    "type": "x",
+    "handle": "MengTo"
+   },
+   "publishedAt": "2026-11-24T07:12:11Z",
+   "metrics": {
+    "likes": 494,
+    "reposts": 36,
+    "replies": 44,
+    "views": 27548,
+    "capturedAt": "2026-11-24T17:30:00Z"
+   },
+   "care": 3,
+   "proof": 3,
+   "topic": "astra-6-2-design",
+   "firstSeen": "2026-11-24"
+  }
+ ]
+}
