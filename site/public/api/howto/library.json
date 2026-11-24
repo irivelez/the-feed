@@ -1,7 +1,43 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-23T18:07:20Z",
+  "updatedAt": "2026-11-24T18:10:57Z",
   "howtos": [
+    {
+      "id": "rubenhassid-mentor-notebook",
+      "dedupeKey": "notebook-from-mentor-youtube-videos",
+      "title": "Build a mentor notebook from someone's YouTube videos",
+      "what": "Ruben Hassid loads a mentor's longest videos into Google's notebook tool so answers lean toward that mentor's views.",
+      "kind": "steps",
+      "copy": [
+        "Go to Google's notebook tool and click Create notebook.",
+        "In the Sources box, type: “Latest and longest YouTube videos of [NAME] on [TOPIC].”",
+        "Untick the videos made by other people.",
+        "Untick the “Deep Research Report”; it must be “Fast research”.",
+        "Import all.",
+        "Ask your question. The answer is biased like a mentor's, with all sources listed."
+      ],
+      "whenToUse": "When generic AI answers aren't enough and you want advice shaped by a specific expert's long-form talks.",
+      "source": {
+        "name": "@rubenhassid on X",
+        "url": "https://x.com/rubenhassid/status/2125197759724552236"
+      },
+      "author": {
+        "name": "Ruben Hassid",
+        "handle": "rubenhassid"
+      },
+      "tags": [
+        "research",
+        "prompts",
+        "notebooks"
+      ],
+      "quality": 3,
+      "verbatim": false,
+      "briefItem": {
+        "briefId": "2026-11-24-1300",
+        "itemId": "rubenhassid-original-answers-prompt"
+      },
+      "addedAt": "2026-11-24T18:10:57Z"
+    },
     {
       "id": "agent-picks-model-from-your-sessions",
       "dedupeKey": "agent-picks-model-from-your-sessions",

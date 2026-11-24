@@ -1,39 +1,43 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-23T18:07:20Z",
-  "runId": "2026-11-23-1300",
+  "updatedAt": "2026-11-24T18:10:57Z",
+  "runId": "2026-11-24-1300",
   "howtos": [
     {
-      "id": "agent-picks-model-from-your-sessions",
-      "dedupeKey": "agent-picks-model-from-your-sessions",
-      "title": "Let an agent pick your model from your own sessions",
-      "what": "Have an agent review your past coding sessions and choose which model suits your work best.",
+      "id": "rubenhassid-mentor-notebook",
+      "dedupeKey": "notebook-from-mentor-youtube-videos",
+      "title": "Build a mentor notebook from someone's YouTube videos",
+      "what": "Ruben Hassid loads a mentor's longest videos into Google's notebook tool so answers lean toward that mentor's views.",
       "kind": "steps",
       "copy": [
-        "Ask an agent (Rauch used Fable) to study your coding sessions.",
-        "Have it decide which model is best for you, for example Opus or Gemini Neon."
+        "Go to Google's notebook tool and click Create notebook.",
+        "In the Sources box, type: “Latest and longest YouTube videos of [NAME] on [TOPIC].”",
+        "Untick the videos made by other people.",
+        "Untick the “Deep Research Report”; it must be “Fast research”.",
+        "Import all.",
+        "Ask your question. The answer is biased like a mentor's, with all sources listed."
       ],
-      "whenToUse": "When two frontier models look close on public benchmarks and you need to choose one for daily coding.",
+      "whenToUse": "When generic AI answers aren't enough and you want advice shaped by a specific expert's long-form talks.",
       "source": {
-        "name": "@rauchg on X",
-        "url": "https://x.com/rauchg/status/2124880074168242369"
+        "name": "@rubenhassid on X",
+        "url": "https://x.com/rubenhassid/status/2125197759724552236"
       },
       "author": {
-        "name": "@rauchg",
-        "handle": "rauchg"
+        "name": "Ruben Hassid",
+        "handle": "rubenhassid"
       },
       "tags": [
-        "model-selection",
-        "coding-agents",
-        "evals"
+        "research",
+        "prompts",
+        "notebooks"
       ],
       "quality": 3,
       "verbatim": false,
       "briefItem": {
-        "briefId": "2026-11-23-1300",
-        "itemId": "rauchg-fable-picks-gemini-neon"
+        "briefId": "2026-11-24-1300",
+        "itemId": "rubenhassid-original-answers-prompt"
       },
-      "addedAt": "2026-11-23T18:07:20Z"
+      "addedAt": "2026-11-24T18:10:57Z"
     }
   ]
 }
