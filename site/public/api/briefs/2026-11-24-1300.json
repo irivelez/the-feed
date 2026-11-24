@@ -1,0 +1,273 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-24-1300",
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-24T18:10:33Z",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "claudedevs-managed-agents-redesign",
+      "headline": "Anthropic engineers explain how they rebuilt Claude Managed Agents",
+      "whyItMatters": "Hosted agent platforms are maturing fast; decide what you build in-house and what you rent."
+    },
+    {
+      "itemId": "deepmind-easy-read-gemini",
+      "headline": "DeepMind and Mencap turn complex documents into Easy Read in minutes",
+      "whyItMatters": "Accessibility work that took weeks now takes minutes, with human experts still reviewing every version."
+    },
+    {
+      "itemId": "mengto-astra-62",
+      "headline": "Meng To names Astra 6.2 his favorite model for 3D design",
+      "whyItMatters": "Taste is becoming a model differentiator; design teams should test models, not just tools."
+    }
+  ],
+  "items": [
+    {
+      "id": "claudedevs-managed-agents-redesign",
+      "title": "Anthropic engineers explain how they rebuilt Claude Managed Agents",
+      "takeaway": "Three Anthropic engineers tell the product iteration story behind the platform's redesigned architecture, with a full conversation on YouTube.",
+      "soWhat": "Anthropic keeps reworking its hosted agent platform; weigh it against building your own agent stack.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-24T17:15:59Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2125277263314792687"
+      },
+      "related": [
+        {
+          "name": "Full conversation on YouTube",
+          "url": "https://youtu.be/8Aoq6mJeAXI"
+        }
+      ],
+      "image": {
+        "src": "/img/claudedevs-managed-agents-redesign.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      },
+      "heat": {
+        "score": 11,
+        "level": "none",
+        "metric": "31k views"
+      }
+    },
+    {
+      "id": "perplexity-inu-game",
+      "title": "Perplexity's agent built a browser game for about $1,320",
+      "takeaway": "Aravind Srinivas says Perplexity built INU, a browser game set in a robot-filled Tokyo, for about 132,000 Computer credits.",
+      "soWhat": "Agent-built software now has a price tag; compare it with what the same work costs your team.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-24T16:52:41Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2125271395886358739"
+      },
+      "related": [
+        {
+          "name": "Play INU",
+          "url": "https://inu.pplx.app"
+        },
+        {
+          "name": "Srinivas on Quest 3 apps",
+          "url": "https://x.com/AravSrinivas/status/2125265828346282068"
+        }
+      ],
+      "image": {
+        "src": "/img/perplexity-inu-game.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 1,
+        "level": "none",
+        "metric": "8k views"
+      }
+    },
+    {
+      "id": "a16z-musk-urgency",
+      "title": "Musk sets deadlines he thinks have a 50% chance of success",
+      "takeaway": "In a clip a16z posted, Musk says he keeps addressing the limiting factor and accepts being late half the time.",
+      "soWhat": "Aggressive but plausible deadlines expose the real bottleneck; ask what limits your AI rollout today.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-24T15:00:26Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2125243147315986618"
+      },
+      "image": {
+        "src": "/img/a16z-musk-urgency.jpg",
+        "alt": "Image from @a16z on X"
+      },
+      "heat": {
+        "score": 11,
+        "level": "none",
+        "metric": "27k views"
+      }
+    },
+    {
+      "id": "deepmind-easy-read-gemini",
+      "title": "DeepMind and Mencap build a Gemini tool for Easy Read documents",
+      "takeaway": "It turns complex health, finance and everyday documents into clear words and images in minutes rather than weeks, with experts reviewing every version.",
+      "soWhat": "Accessible versions of key documents can now ship in minutes, if humans still review each one.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-24T12:15:46Z",
+      "source": {
+        "name": "@GoogleDeepMind on X",
+        "url": "https://x.com/GoogleDeepMind/status/2125201709852934598"
+      },
+      "image": {
+        "src": "/img/deepmind-easy-read-gemini.jpg",
+        "alt": "Image from @GoogleDeepMind on X"
+      },
+      "heat": {
+        "score": 12,
+        "level": "none",
+        "metric": "40k views"
+      }
+    },
+    {
+      "id": "rubenhassid-original-answers-prompt",
+      "title": "Ruben Hassid's routine for AI answers that aren't the default",
+      "takeaway": "Ask for 20 answers from the usual to the most original, turn on memory, then query a notebook built from a mentor's podcasts.",
+      "soWhat": "Generic AI advice is a commodity; original answers come from your own memory and chosen sources.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-24T12:00:04Z",
+      "source": {
+        "name": "@rubenhassid on X",
+        "url": "https://x.com/rubenhassid/status/2125197759724552236"
+      },
+      "image": {
+        "src": "/img/rubenhassid-original-answers-prompt.jpg",
+        "alt": "Image from @rubenhassid on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "2k views"
+      }
+    },
+    {
+      "id": "benaich-ai-slop-inbox",
+      "title": "Nathan Benaich says AI-generated inbox slop has skyrocketed",
+      "takeaway": "The investor says neither Gmail spam filtering nor a GPT- or Claude-trained classifier catches it.",
+      "soWhat": "Cheap AI outreach is clogging inboxes that filters can't clean; cold email is losing its signal.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-24T08:50:05Z",
+      "source": {
+        "name": "@nathanbenaich on X",
+        "url": "https://x.com/nathanbenaich/status/2125149946345365786"
+      },
+      "image": {
+        "src": "/img/benaich-ai-slop-inbox.jpg",
+        "alt": "Profile image of @nathanbenaich"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "4k views"
+      }
+    },
+    {
+      "id": "mengto-astra-62",
+      "title": "Meng To calls Astra 6.2 his favorite model for 3D design",
+      "takeaway": "After five days he calls it extremely fast with the best taste in 3D, and open-sourced the four skills he used to steer it.",
+      "soWhat": "Design-strong models still need steering; skills are how teams capture that taste and reuse it.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-24T07:12:11Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2125125308991090749"
+      },
+      "related": [
+        {
+          "name": "Saltmere landing page",
+          "url": "https://threeui.com/saltmere"
+        }
+      ],
+      "image": {
+        "src": "/img/mengto-astra-62.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 13,
+        "level": "none",
+        "metric": "28k views"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@GoogleDeepMind",
+      "quote": "It turns complex health, finance and everyday documents into clear words and images in minutes rather than weeks – with human experts reviewing every version.",
+      "url": "https://x.com/GoogleDeepMind/status/2125201709852934598"
+    },
+    {
+      "handle": "@a16z",
+      "quote": "I generally try to aim for a deadline that I at least think is at the 50th percentile.",
+      "url": "https://x.com/a16z/status/2125243147315986618"
+    },
+    {
+      "handle": "@AravSrinivas",
+      "quote": "Total cost: about 132,000 Computer credits (~$1,320)",
+      "url": "https://x.com/AravSrinivas/status/2125271395886358739"
+    },
+    {
+      "handle": "@MengTo",
+      "quote": "I started making more skills as a result of this requiring more steering, which is not a bad thing.",
+      "url": "https://x.com/MengTo/status/2125125308991090749"
+    },
+    {
+      "handle": "@nathanbenaich",
+      "quote": "gmail spam was never good enough, and neither is a gpt/claude-trained spam classifier",
+      "url": "https://x.com/nathanbenaich/status/2125149946345365786"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/theo/status/2125204907905163378",
+      "handle": "@theo",
+      "text": "Today marks exactly 1 year since Opus 4.5 dropped. I still think it’s the model that changed how we code forever.",
+      "metric": "3,476 likes",
+      "note": "A year on, builders still credit Opus 4.5 with changing how software gets written."
+    },
+    {
+      "url": "https://x.com/MengTo/status/2125125308991090749",
+      "handle": "@MengTo",
+      "text": "After working for 5 days with Astra 6.2, I've come to love this model the most. It's extremely fast and has the best taste in 3D.",
+      "metric": "494 likes",
+      "note": "A respected 3D designer's model pick shapes what design teams try next."
+    },
+    {
+      "url": "https://x.com/ClaudeDevs/status/2125277263314792687",
+      "handle": "@ClaudeDevs",
+      "text": "Claude Managed Agents is our platform for developers to build agents that are intelligent and secure.",
+      "metric": "423 likes",
+      "note": "Builders want to see how Anthropic's hosted agent platform works under the hood."
+    },
+    {
+      "url": "https://x.com/a16z/status/2125243147315986618",
+      "handle": "@a16z",
+      "text": "Elon Musk on the maniacal sense of urgency behind his companies: \"I'm constantly addressing the limiting factor.\"",
+      "metric": "412 likes",
+      "note": "A concrete deadline rule leaders can test on their own teams."
+    },
+    {
+      "url": "https://x.com/GoogleDeepMind/status/2125201709852934598",
+      "handle": "@GoogleDeepMind",
+      "text": "We worked with @mencap_charity and people with learning disabilities to build the Easy Read Co-Creator Tool with Gemini.",
+      "metric": "363 likes",
+      "note": "An AI launch built with the people it serves, with experts checking every output."
+    }
+  ]
+}

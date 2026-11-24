@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-23-1900",
-  "count": 95,
+  "latest": "2026-11-24-1300",
+  "count": 96,
   "briefs": [
+    {
+      "id": "2026-11-24-1300",
+      "date": "2026-11-24",
+      "edition": "Midday",
+      "publishedAt": "2026-11-24T18:10:33Z",
+      "headline": "Anthropic engineers explain how they rebuilt Claude Managed Agents",
+      "url": "/api/briefs/2026-11-24-1300.json"
+    },
     {
       "id": "2026-11-23-1900",
       "date": "2026-11-23",
