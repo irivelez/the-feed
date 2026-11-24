@@ -1,0 +1,260 @@
+{
+ "schemaVersion": "1.1",
+ "runId": "2026-11-24-1830",
+ "generatedAt": "2026-11-24T23:31:00Z",
+ "configVersions": {
+  "sources": "1.3.0",
+  "preferences": "1.1.0"
+ },
+ "window": {
+  "from": "2026-11-24T17:00:00Z",
+  "to": "2026-11-24T23:31:00Z"
+ },
+ "sourceNotes": [
+  "X: 3 calls (handle-subset searches for howTo, bigPicture, frontier-capital/design since 17:00Z); not every handle searched; no reply captured; keyword queries not run.",
+  "RSS, arXiv, HN not fetched this run.",
+  "frontier-capital: only nathanbenaich posts (non-AI or off-lens); nothing new from naval, Vitalik, Lyn Alden, Dalio, Horowitz; design: nothing from MengTo."
+ ],
+ "candidates": [
+  {
+   "id": "claudedevs-artifacts-desktop-apps",
+   "lens": "practical",
+   "summary": "ClaudeDevs: Claude artifacts can now be installed as desktop apps on Mac and Windows. Ask Claude to build an artifact, click 'Install as app', and open it like any other app; it can use connectors and, if allowed, send notifications.",
+   "facts": [],
+   "source": {
+    "name": "@ClaudeDevs on X",
+    "url": "https://x.com/ClaudeDevs/status/2125315491522650299",
+    "type": "x",
+    "handle": "ClaudeDevs"
+   },
+   "publishedAt": "2026-11-24T19:47:54.000Z",
+   "metrics": {
+    "likes": 27950,
+    "reposts": 1499,
+    "replies": 524,
+    "views": 2010383,
+    "capturedAt": "2026-11-24T23:31:00Z"
+   },
+   "care": 4,
+   "proof": 4,
+   "topic": "claude-artifacts-desktop",
+   "firstSeen": "2026-11-24"
+  },
+  {
+   "id": "bcherny-mcp-servers-ship-skills",
+   "lens": "practical",
+   "summary": "Boris Cherny: MCP servers can now ship with their own skills, so Claude Code knows how to use them out of the box.",
+   "facts": [],
+   "source": {
+    "name": "@bcherny on X",
+    "url": "https://x.com/bcherny/status/2125292098165612585",
+    "type": "x",
+    "handle": "bcherny"
+   },
+   "publishedAt": "2026-11-24T18:14:56.000Z",
+   "metrics": {
+    "likes": 3798,
+    "reposts": 157,
+    "replies": 187,
+    "views": 218775,
+    "capturedAt": "2026-11-24T23:31:00Z"
+   },
+   "care": 4,
+   "proof": 4,
+   "topic": "mcp-skills",
+   "firstSeen": "2026-11-24"
+  },
+  {
+   "id": "claudedevs-mcp-turns-two",
+   "lens": "practical",
+   "summary": "ClaudeDevs: MCP turns two. Anthropic says it is bringing more agentic capabilities to Claude as the protocol evolves toward standardizing how agents communicate and orchestrate work.",
+   "facts": [],
+   "source": {
+    "name": "@ClaudeDevs on X",
+    "url": "https://x.com/ClaudeDevs/status/2125289794871963935",
+    "type": "x",
+    "handle": "ClaudeDevs"
+   },
+   "publishedAt": "2026-11-24T18:05:47.000Z",
+   "metrics": {
+    "likes": 6839,
+    "reposts": 398,
+    "replies": 183,
+    "views": 599551,
+    "capturedAt": "2026-11-24T23:31:00Z"
+   },
+   "care": 4,
+   "proof": 3,
+   "topic": "mcp-skills",
+   "firstSeen": "2026-11-24"
+  },
+  {
+   "id": "claudedevs-claude-ship-pr-followup",
+   "lens": "practical",
+   "summary": "ClaudeDevs posted a practical guide to shipping with Claude Code: handing off PR follow-up work to Claude Ship to stay in flow.",
+   "facts": [],
+   "source": {
+    "name": "@ClaudeDevs on X",
+    "url": "https://x.com/ClaudeDevs/status/2125365668463993091",
+    "type": "x",
+    "handle": "ClaudeDevs"
+   },
+   "publishedAt": "2026-11-24T23:07:17.000Z",
+   "metrics": {
+    "likes": 436,
+    "reposts": 14,
+    "replies": 25,
+    "views": 34500,
+    "capturedAt": "2026-11-24T23:31:00Z"
+   },
+   "care": 3,
+   "proof": 3,
+   "topic": "claude-ship",
+   "firstSeen": "2026-11-24"
+  },
+  {
+   "id": "theo-t3-code-telemetry-dispute",
+   "lens": "practical",
+   "summary": "Theo says he removed telemetry from T3 Code in a PR after a backlash, and published about 100 MB / 95,789 telemetry events from his own environments for inspection. He also said the repo would be closed-sourced that night.",
+   "facts": [],
+   "source": {
+    "name": "@theo on X",
+    "url": "https://x.com/theo/status/2125332956281749854",
+    "type": "x",
+    "handle": "theo"
+   },
+   "publishedAt": "2026-11-24T20:57:18.000Z",
+   "metrics": {
+    "likes": 464,
+    "reposts": 4,
+    "replies": 45,
+    "views": 54860,
+    "capturedAt": "2026-11-24T23:31:00Z"
+   },
+   "care": 3,
+   "proof": 3,
+   "topic": "t3-code-telemetry",
+   "firstSeen": "2026-11-24"
+  },
+  {
+   "id": "poteto-gemini-neon-cursor",
+   "lens": "practical",
+   "summary": "Poteto says he is now daily driving Gemini Neon in Cursor and calls it a good model.",
+   "facts": [],
+   "source": {
+    "name": "@poteto on X",
+    "url": "https://x.com/poteto/status/2125340394938593344",
+    "type": "x",
+    "handle": "poteto"
+   },
+   "publishedAt": "2026-11-24T21:26:51.000Z",
+   "metrics": {
+    "likes": 5807,
+    "reposts": 152,
+    "replies": 296,
+    "views": 143251,
+    "capturedAt": "2026-11-24T23:31:00Z"
+   },
+   "care": 3,
+   "proof": 2,
+   "topic": "gemini-4-neon",
+   "firstSeen": "2026-11-24"
+  },
+  {
+   "id": "perplexity-gemini-neon-120b-tokens",
+   "lens": "broad",
+   "summary": "Aravind Srinivas: Perplexity has passed 120B tokens of Gemini 4 Neon usage, doubling daily token volume in 3 days; Monday alone was 36B.",
+   "facts": [],
+   "source": {
+    "name": "@AravSrinivas on X",
+    "url": "https://x.com/AravSrinivas/status/2125328996221231313",
+    "type": "x",
+    "handle": "AravSrinivas"
+   },
+   "publishedAt": "2026-11-24T20:41:34.000Z",
+   "metrics": {
+    "likes": 965,
+    "reposts": 47,
+    "replies": 53,
+    "views": 51138,
+    "capturedAt": "2026-11-24T23:31:00Z"
+   },
+   "care": 4,
+   "proof": 3,
+   "topic": "gemini-4-neon",
+   "firstSeen": "2026-11-24"
+  },
+  {
+   "id": "anthropic-siren-sandbox-escape-eval",
+   "lens": "broad",
+   "summary": "Anthropic research: a new evaluation called Siren gives Claude routine tasks in intentionally weakened sandboxes, with something useful left outside, to test whether an agent will choose to escape.",
+   "facts": [],
+   "source": {
+    "name": "@AnthropicAI on X",
+    "url": "https://x.com/AnthropicAI/status/2125341904644763678",
+    "type": "x",
+    "handle": "AnthropicAI"
+   },
+   "publishedAt": "2026-11-24T21:32:51.000Z",
+   "metrics": {
+    "likes": 1414,
+    "reposts": 133,
+    "replies": 223,
+    "views": 102828,
+    "capturedAt": "2026-11-24T23:31:00Z"
+   },
+   "care": 4,
+   "proof": 4,
+   "topic": "agent-sandbox-security",
+   "firstSeen": "2026-11-24"
+  },
+  {
+   "id": "openai-gpt6-protein-design-preprint",
+   "lens": "broad",
+   "summary": "OpenAI shared a preprint showing wet lab validation of intrinsic protein design capabilities of the GPT-6 family of models.",
+   "facts": [],
+   "source": {
+    "name": "@OpenAI on X",
+    "url": "https://x.com/OpenAI/status/2125334383490105601",
+    "type": "x",
+    "handle": "OpenAI"
+   },
+   "publishedAt": "2026-11-24T21:02:58.000Z",
+   "metrics": {
+    "likes": 3808,
+    "reposts": 401,
+    "replies": 208,
+    "views": 314443,
+    "capturedAt": "2026-11-24T23:31:00Z"
+   },
+   "care": 3,
+   "proof": 4,
+   "topic": "gpt6-protein",
+   "firstSeen": "2026-11-24"
+  },
+  {
+   "id": "perplexity-computer-slides-viewer",
+   "lens": "broad",
+   "summary": "Aravind Srinivas: slide decks created in Perplexity Computer now have a native viewer that allows editing in place, supporting PowerPoint and Google Slides.",
+   "facts": [],
+   "source": {
+    "name": "@AravSrinivas on X",
+    "url": "https://x.com/AravSrinivas/status/2125364190802227680",
+    "type": "x",
+    "handle": "AravSrinivas"
+   },
+   "publishedAt": "2026-11-24T23:01:25.000Z",
+   "metrics": {
+    "likes": 32,
+    "reposts": 3,
+    "replies": 4,
+    "views": 4065,
+    "capturedAt": "2026-11-24T23:31:00Z"
+   },
+   "care": 2,
+   "proof": 2,
+   "topic": "perplexity-computer",
+   "firstSeen": "2026-11-24"
+  }
+ ]
+}
