@@ -1,0 +1,230 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-25-1828",
+  "generatedAt": "2026-11-25T23:28:51.910Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-25T12:00:00Z",
+    "to": "2026-11-25T23:28:51.910Z"
+  },
+  "sourceNotes": [
+    "X: 3 lane searches (howTo, bigPicture, frontierCapital+design) since 2026-11-25 12:00Z; queries lane, replies, authorBaseline not captured this run.",
+    "RSS, arXiv and Hacker News not refetched this run.",
+    "Frontier-capital lane: @LynAldenContact post is link-only (no text), @RayDalio post is about criticism style, nathanbenaich posts low-engagement; none used. @MengTo MAGI-2 post used as design.",
+    "Noisy: @claudeai Fable 5.2 showcase posts; @theo/@poteto telemetry and holiday banter."
+  ],
+  "candidates": [
+    {
+      "id": "anthropic-rust-migration-agents",
+      "lens": "practical",
+      "topic": "anthropic-rust-migration",
+      "summary": "Anthropic's engineering blog describes migrating the Claude Messages API from Python to Rust, using the existing Python service to verify the migration, with teams of agents tracking down and fixing differences between the two versions.",
+      "facts": [
+        "Engineering blog post announced by @ClaudeDevs and @AnthropicAI on 2026-11-25"
+      ],
+      "source": {
+        "name": "ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2125628717263372512",
+        "type": "x",
+        "handle": "ClaudeDevs"
+      },
+      "publishedAt": "2026-11-25T16:32:33.000Z",
+      "metrics": {
+        "likes": 3969,
+        "reposts": 162,
+        "replies": 118,
+        "views": 267656,
+        "capturedAt": "2026-11-25T23:28:51.910Z"
+      },
+      "care": 5,
+      "proof": 5
+    },
+    {
+      "id": "poteto-agent-bottleneck-review",
+      "lens": "practical",
+      "topic": "agent-workflow-bottlenecks",
+      "summary": "Poteto, endorsing a read: periodically resurface the limiting step in your coding workflow where human review is still required, then do the work to let the agent (or code) drive it.",
+      "facts": [],
+      "source": {
+        "name": "poteto on X",
+        "url": "https://x.com/poteto/status/2125657724126138682",
+        "type": "x",
+        "handle": "poteto"
+      },
+      "publishedAt": "2026-11-25T18:27:48.000Z",
+      "metrics": {
+        "likes": 953,
+        "reposts": 46,
+        "replies": 45,
+        "views": 55972,
+        "capturedAt": "2026-11-25T23:28:51.910Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "steipete-google-mcp-cli",
+      "lens": "practical",
+      "topic": "google-mcp-cli-restriction",
+      "summary": "Peter Steinberger says Google built an MCP and is now forbidding CLIs like gog unless you pay more (his reading; linked article not verified).",
+      "facts": [],
+      "source": {
+        "name": "steipete on X",
+        "url": "https://x.com/steipete/status/2125654555262431248",
+        "type": "x",
+        "handle": "steipete"
+      },
+      "publishedAt": "2026-11-25T18:15:13.000Z",
+      "metrics": {
+        "likes": 755,
+        "reposts": 32,
+        "replies": 108,
+        "views": 56947,
+        "capturedAt": "2026-11-25T23:28:51.910Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "openai-private-inference-test",
+      "lens": "broad",
+      "topic": "openai-private-inference",
+      "summary": "Sam Altman said OpenAI is testing Private Inference, part of OpenAI Private Intelligence, with a small group of customers, saying stronger privacy protections will make frontier AI useful for more work.",
+      "facts": [],
+      "source": {
+        "name": "sama on X",
+        "url": "https://x.com/sama/status/2125638790593274259",
+        "type": "x",
+        "handle": "sama"
+      },
+      "publishedAt": "2026-11-25T17:12:34.000Z",
+      "metrics": {
+        "likes": 6421,
+        "reposts": 339,
+        "replies": 709,
+        "views": 650307,
+        "capturedAt": "2026-11-25T23:28:51.910Z"
+      },
+      "care": 4,
+      "proof": 4
+    },
+    {
+      "id": "amodei-free-will-reply",
+      "lens": "broad",
+      "topic": "amodei-governance",
+      "summary": "Dario Amodei publicly rejected the claim that he believes we should 'surrender human free will' to AI systems, saying his essays' constant theme is AI governed by legitimate democratic processes.",
+      "facts": [],
+      "source": {
+        "name": "DarioAmodei on X",
+        "url": "https://x.com/DarioAmodei/status/2125656399392690605",
+        "type": "x",
+        "handle": "DarioAmodei"
+      },
+      "publishedAt": "2026-11-25T18:22:33.000Z",
+      "metrics": {
+        "likes": 12337,
+        "reposts": 1244,
+        "replies": 2847,
+        "views": 3191965,
+        "capturedAt": "2026-11-25T23:28:51.910Z"
+      },
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "perplexity-time-machine",
+      "lens": "broad",
+      "topic": "perplexity-time-machine",
+      "summary": "Perplexity launched Time Machine, which shows a model the web as it was on any chosen date, to post-train agents that predict the future; live in its Search and Context APIs.",
+      "facts": [],
+      "source": {
+        "name": "AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2125707364053680383",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-25T21:45:03.000Z",
+      "metrics": {
+        "likes": 510,
+        "reposts": 28,
+        "replies": 62,
+        "views": 39609,
+        "capturedAt": "2026-11-25T23:28:51.910Z"
+      },
+      "care": 4,
+      "proof": 3
+    },
+    {
+      "id": "anthropic-rust-migration-aa",
+      "lens": "broad",
+      "topic": "anthropic-rust-migration",
+      "summary": "Anthropic says it migrated its Messages API from Python to Rust, verifying the new service against the existing one with teams of Claude agents.",
+      "facts": [],
+      "source": {
+        "name": "AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2125627317263466739",
+        "type": "x",
+        "handle": "AnthropicAI"
+      },
+      "publishedAt": "2026-11-25T16:26:59.000Z",
+      "metrics": {
+        "likes": 7652,
+        "reposts": 509,
+        "replies": 426,
+        "views": 1699787,
+        "capturedAt": "2026-11-25T23:28:51.910Z"
+      },
+      "care": 4,
+      "proof": 5
+    },
+    {
+      "id": "theo-t3-code-telemetry",
+      "lens": "practical",
+      "topic": "t3-code-telemetry",
+      "summary": "Theo issued a 'final statement' that T3 Code has never sold data or uploaded files, prompts, responses, emails, user IDs or file paths; a later post says a few lapses in telemetry promises (Windows, webhooks) were found and fixed.",
+      "facts": [],
+      "source": {
+        "name": "theo on X",
+        "url": "https://x.com/theo/status/2125700717935841479",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-25T21:18:39.000Z",
+      "metrics": {
+        "likes": 2049,
+        "reposts": 51,
+        "replies": 84,
+        "views": 84785,
+        "capturedAt": "2026-11-25T23:28:51.910Z"
+      },
+      "care": 2,
+      "proof": 2
+    },
+    {
+      "id": "mengto-magi2-design",
+      "lens": "design",
+      "topic": "magi2-video",
+      "summary": "Meng To says MAGI-2 produced a full scene from one character drawing and two place images, with strong consistency and animation, making his 3D worlds and trailers cheaper.",
+      "facts": [],
+      "source": {
+        "name": "MengTo on X",
+        "url": "https://x.com/MengTo/status/2125642589466743173",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-25T17:27:40.000Z",
+      "metrics": {
+        "likes": 18,
+        "reposts": 1,
+        "replies": 8,
+        "views": 3510,
+        "capturedAt": "2026-11-25T23:28:51.910Z"
+      },
+      "care": 2,
+      "proof": 2
+    }
+  ]
+}
