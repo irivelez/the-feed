@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-24-1900",
-  "count": 97,
+  "latest": "2026-11-25-0700",
+  "count": 98,
   "briefs": [
+    {
+      "id": "2026-11-25-0700",
+      "date": "2026-11-25",
+      "edition": "Morning",
+      "publishedAt": "2026-11-25T12:09:10Z",
+      "headline": "Gemini 4 Neon topped Monday's Perplexity usage by 23.5% before Tuesday ended",
+      "url": "/api/briefs/2026-11-25-0700.json"
+    },
     {
       "id": "2026-11-24-1900",
       "date": "2026-11-24",

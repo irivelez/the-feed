@@ -1,294 +1,297 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-24-1900",
-  "date": "2026-11-24",
-  "publishedAt": "2026-11-25T00:14:34Z",
-  "edition": "Evening",
+  "id": "2026-11-25-0700",
+  "date": "2026-11-25",
+  "publishedAt": "2026-11-25T12:09:10Z",
+  "edition": "Morning",
   "top3": [
     {
-      "itemId": "claudedevs-artifacts-desktop-apps",
-      "headline": "Claude artifacts can now install as desktop apps on Mac and Windows",
-      "whyItMatters": "Anyone can now build a small internal app by asking; decide who may install them."
+      "itemId": "aravsrinivas-gemini4-neon-perplexity-tokens",
+      "headline": "Gemini 4 Neon topped Monday's Perplexity usage by 23.5% before Tuesday ended",
+      "whyItMatters": "Model preference can flip in days; keep your stack able to switch models quickly."
     },
     {
-      "itemId": "anthropic-siren-sandbox-escape-eval",
-      "headline": "Anthropic: describing sandbox rules cut agent boundary-probing to about 2%",
-      "whyItMatters": "Agent safety starts with clear written limits; check that your agents' prompts state theirs."
+      "itemId": "rubenhassid-claude-skills-library",
+      "headline": "Ruben Hassid shares his full daily Claude Skills library for free",
+      "whyItMatters": "Packaged routines save rebuilding setup each chat; collect your team's best ones."
     },
     {
-      "itemId": "bcherny-mcp-servers-ship-skills",
-      "headline": "MCP servers can now ship skills so Claude Code uses them",
-      "whyItMatters": "Vendor tools become usable by agents on day one; favor vendors who ship skills."
+      "itemId": "simonw-three-llm-inflection-points",
+      "headline": "Simon Willison argues LLMs hit three inflection points in twelve months",
+      "whyItMatters": "If the tools changed three times this year, last year's AI plan likely needs a review."
     }
   ],
   "items": [
     {
-      "id": "claudedevs-claude-ship-pr-followup",
-      "title": "Anthropic's guide hands pull request follow-up work to Claude Ship",
-      "takeaway": "A ClaudeDevs guide shows how to pass PR follow-up work to Claude Ship.",
-      "soWhat": "Agents now handle the loop after a PR opens; measure how much engineer time that frees.",
+      "id": "pocock-code-structure-repo",
+      "title": "Matt Pocock opens a 2,000-commit repo on how code should be structured",
+      "takeaway": "Pocock shares an unfinished repo showing his current thinking on code structure.",
+      "soWhat": "Teams setting coding standards for agents can study a working reference before writing their own.",
       "lens": "practical",
-      "momentum": "building",
+      "momentum": "new",
       "importance": 5,
-      "publishedAt": "2026-11-24T23:07:17Z",
+      "publishedAt": "2026-11-25T10:41:45Z",
       "source": {
-        "name": "@ClaudeDevs on X",
-        "url": "https://x.com/ClaudeDevs/status/2125365668463993091"
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2125540436483711074"
       },
-      "related": [
-        {
-          "name": "Claude blog: the work after you open a PR",
-          "url": "https://claude.dev/blog/the-work-after-you-open-a-pr/"
-        }
-      ],
       "image": {
-        "src": "/img/claudedevs-claude-ship-pr-followup.jpg",
-        "alt": "Image from @ClaudeDevs on X"
+        "src": "/img/pocock-code-structure-repo.jpg",
+        "alt": "Image from @mattpocockuk on X"
       },
       "heat": {
-        "score": 11,
+        "score": 3,
         "level": "none",
-        "metric": "35k views"
+        "metric": "12k views"
       }
     },
     {
-      "id": "perplexity-computer-slides-viewer",
-      "title": "Perplexity Computer adds in-place editing for slide decks",
-      "takeaway": "Decks made in Perplexity Computer open in a native viewer; supports PowerPoint and Google Slides.",
-      "soWhat": "Agent tools are moving into everyday office files; watch where your team's decks get made.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 3,
-      "publishedAt": "2026-11-24T23:01:25Z",
+      "id": "mengto-image-to-design-tutorial",
+      "title": "Meng To shares a 22-minute image-to-design tutorial for landing pages",
+      "takeaway": "Meng To says starting from an image avoids AI slop, and walks through his landing page process in Linen.",
+      "soWhat": "Starting from an image, not a prompt, is one way design teams avoid generic AI output.",
+      "lens": "design",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-25T09:39:18Z",
       "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2125364190802227680"
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2125524721760657518"
       },
       "image": {
-        "src": "/img/perplexity-computer-slides-viewer.jpg",
-        "alt": "Image from @AravSrinivas on X"
+        "src": "/img/mengto-image-to-design-tutorial.jpg",
+        "alt": "Image from @MengTo on X"
       },
       "heat": {
         "score": 0,
         "level": "none",
-        "metric": "4k views"
+        "metric": "3k views"
       }
     },
     {
-      "id": "anthropic-siren-sandbox-escape-eval",
-      "title": "Anthropic's Siren test asks if agents will escape weak sandboxes",
-      "takeaway": "Claude models looked or reached outside the sandbox 21-32% of the time; about 2% or less when rules were stated.",
-      "soWhat": "Spelling out sandbox rules in the prompt cut boundary-probing sharply; write yours down.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-24T21:32:51Z",
-      "source": {
-        "name": "@AnthropicAI on X",
-        "url": "https://x.com/AnthropicAI/status/2125341904644763678"
-      },
-      "image": {
-        "src": "/img/anthropic-siren-sandbox-escape-eval.jpg",
-        "alt": "Image from @AnthropicAI on X"
-      },
-      "heat": {
-        "score": 20,
-        "level": "none",
-        "metric": "103k views"
-      }
-    },
-    {
-      "id": "openai-gpt6-protein-design-preprint",
-      "title": "OpenAI says GPT-6 models designed proteins validated in a wet lab",
-      "takeaway": "A preprint says the models design protein shapes and sequences with reasoning and code alone.",
-      "soWhat": "AI in biology is moving from benchmarks to lab results; science-heavy firms should track it.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-24T21:02:58Z",
-      "source": {
-        "name": "@OpenAI on X",
-        "url": "https://x.com/OpenAI/status/2125334383490105601"
-      },
-      "image": {
-        "src": "/img/openai-gpt6-protein-design-preprint.jpg",
-        "alt": "Image from @OpenAI on X"
-      },
-      "heat": {
-        "score": 27,
-        "level": "none",
-        "metric": "314k views"
-      }
-    },
-    {
-      "id": "theo-t3-code-telemetry-dispute",
-      "title": "Theo publishes 95,789 T3 Code telemetry events for public review",
-      "takeaway": "About 100 MB of events from his own environments, shared so others can judge if it is intrusive.",
-      "soWhat": "Developer tool telemetry is now a trust issue; know what your team's coding tools send home.",
+      "id": "rubenhassid-claude-skills-library",
+      "title": "Ruben Hassid gives away the Claude Skills library he uses daily",
+      "takeaway": "Hassid shares his daily Claude Skills for free; a Skill is a /command that fires itself.",
+      "soWhat": "Skills turn repeated setup into one command; ask teams which routines deserve one.",
       "lens": "practical",
-      "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-24T20:57:18Z",
+      "momentum": "building",
+      "importance": 7,
+      "publishedAt": "2026-11-25T06:00:01Z",
       "source": {
-        "name": "@theo on X",
-        "url": "https://x.com/theo/status/2125332956281749854"
+        "name": "@rubenhassid on X",
+        "url": "https://x.com/rubenhassid/status/2125469538565431668"
       },
       "image": {
-        "src": "/img/theo-t3-code-telemetry-dispute.jpg",
-        "alt": "Profile image of @theo"
+        "src": "/img/rubenhassid-claude-skills-library.jpg",
+        "alt": "Image from @rubenhassid on X"
       },
       "heat": {
-        "score": 11,
+        "score": 0,
         "level": "none",
-        "metric": "55k views"
+        "metric": "5k views"
       }
     },
     {
-      "id": "perplexity-gemini-neon-120b-tokens",
-      "title": "Perplexity passes 120B Gemini 4 Neon tokens, doubling daily volume",
-      "takeaway": "Daily volume doubled in 3 days; Monday alone was 36B tokens.",
-      "soWhat": "Gemini 4 Neon is winning real production volume; test it against your current default model.",
+      "id": "aravsrinivas-gemini4-neon-perplexity-tokens",
+      "title": "Gemini 4 Neon hit 44.52B Perplexity tokens Tuesday, beating Monday early",
+      "takeaway": "Tuesday's 44.52B tokens were 23.5% above Monday's 36.06B with more than 3 hours left.",
+      "soWhat": "Usage is shifting fast toward Gemini 4 Neon; check whether your model choices still fit.",
       "lens": "broad",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-24T20:41:34Z",
+      "momentum": "shift",
+      "importance": 8,
+      "publishedAt": "2026-11-25T05:16:43Z",
       "source": {
         "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2125328996221231313"
+        "url": "https://x.com/AravSrinivas/status/2125458638823379123"
       },
-      "related": [
-        {
-          "name": "Poteto daily drives Neon in Cursor",
-          "url": "https://x.com/poteto/status/2125340394938593344"
-        }
-      ],
       "image": {
-        "src": "/img/perplexity-gemini-neon-120b-tokens.jpg",
+        "src": "/img/aravsrinivas-gemini4-neon-perplexity-tokens.jpg",
         "alt": "Profile image of @AravSrinivas"
       },
       "heat": {
-        "score": 27,
+        "score": 18,
         "level": "none",
-        "metric": "51k views",
-        "voices": 2
+        "metric": "52k views"
       }
     },
     {
-      "id": "claudedevs-artifacts-desktop-apps",
-      "title": "Claude artifacts can now be installed as desktop apps",
-      "takeaway": "Ask Claude for an artifact, click Install as app; it can use connectors and send notifications.",
-      "soWhat": "Staff can now turn a prompt into a working desktop app; set rules before these spread.",
+      "id": "steipete-oc-year-multiplayer",
+      "title": "Steinberger says open-source OC found prosumer and enterprise adoption",
+      "takeaway": "Steinberger calls OC's multiplayer team feature best in class and says reliable free open source is hard.",
+      "soWhat": "Open-source tools now win enterprise users; ask who keeps them reliable before you depend on one.",
       "lens": "practical",
       "momentum": "new",
-      "importance": 8,
-      "publishedAt": "2026-11-24T19:47:54Z",
+      "importance": 4,
+      "publishedAt": "2026-11-25T02:54:17Z",
       "source": {
-        "name": "@ClaudeDevs on X",
-        "url": "https://x.com/ClaudeDevs/status/2125315491522650299"
+        "name": "@steipete on X",
+        "url": "https://x.com/steipete/status/2125422797304549672"
       },
       "image": {
-        "src": "/img/claudedevs-artifacts-desktop-apps.jpg",
-        "alt": "Image from @ClaudeDevs on X"
+        "src": "/img/steipete-oc-year-multiplayer.jpg",
+        "alt": "Image from @steipete on X"
       },
       "heat": {
-        "score": 40,
-        "level": "warm",
-        "metric": "2M views"
+        "score": 17,
+        "level": "none",
+        "metric": "57k views"
       }
     },
     {
-      "id": "bcherny-mcp-servers-ship-skills",
-      "title": "MCP servers can now ship their own skills for Claude Code",
-      "takeaway": "Claude Code knows how to use such servers out of the box; announced as MCP turns two.",
-      "soWhat": "Tools that explain themselves to agents cut setup work; ask vendors whether their MCP servers ship skills.",
-      "lens": "practical",
-      "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-24T18:14:56Z",
+      "id": "googledeepmind-gemini4-hydrogen-lightning-globe",
+      "title": "Gemini 4 Hydrogen builds a 3D globe that turns lightning into music",
+      "takeaway": "DeepMind shows a Gemini 4 Hydrogen demo mapping live lightning strikes to ambient music.",
+      "soWhat": "Labs market models by what they build in one go; judge them on your own tasks.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 3,
+      "publishedAt": "2026-11-24T23:28:43Z",
       "source": {
-        "name": "@bcherny on X",
-        "url": "https://x.com/bcherny/status/2125292098165612585"
+        "name": "@GoogleDeepMind on X",
+        "url": "https://x.com/GoogleDeepMind/status/2125371062880022536"
       },
-      "related": [
-        {
-          "name": "ClaudeDevs: MCP turns two",
-          "url": "https://x.com/ClaudeDevs/status/2125289794871963935"
-        }
-      ],
       "image": {
-        "src": "/img/bcherny-mcp-servers-ship-skills.jpg",
-        "alt": "Image from @bcherny on X"
+        "src": "/img/googledeepmind-gemini4-hydrogen-lightning-globe.jpg",
+        "alt": "Profile image of @GoogleDeepMind"
       },
       "heat": {
-        "score": 36,
+        "score": 19,
         "level": "none",
-        "metric": "219k views",
-        "voices": 2
+        "metric": "69k views"
+      }
+    },
+    {
+      "id": "simonw-three-llm-inflection-points",
+      "title": "Simon Willison names three LLM inflection points from the past year",
+      "takeaway": "Willison expands his AI Engineer talk into a written argument about three LLM inflection points.",
+      "soWhat": "A practitioner's year review is a quick check on whether your AI plans match what changed.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-24T23:21:01Z",
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2125369126877286662"
+      },
+      "image": {
+        "src": "/img/simonw-three-llm-inflection-points.jpg",
+        "alt": "Image from @simonw on X"
+      },
+      "heat": {
+        "score": 8,
+        "level": "none",
+        "metric": "17k views"
+      }
+    },
+    {
+      "id": "anthropic-fellows-neuron-basis-interpretability",
+      "title": "Anthropic Fellows revisit single neurons as a way to read models",
+      "takeaway": "New Fellows research returns to neurons as the unit for understanding what happens inside a model.",
+      "soWhat": "Better tools for seeing inside models make AI safety claims easier to check.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-24T23:05:42Z",
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2125365268381929637"
+      },
+      "image": {
+        "src": "/img/anthropic-fellows-neuron-basis-interpretability.jpg",
+        "alt": "@AnthropicAI on X: Anthropic Fellows revisit single neurons as a way to read models"
+      },
+      "heat": {
+        "score": 29,
+        "level": "none",
+        "metric": "556k views"
+      }
+    },
+    {
+      "id": "amasad-sovereign-ai-jensen-return",
+      "title": "Amjad Masad: America can lead models and still lose the AI race",
+      "takeaway": "Masad says Jensen Huang's return matters because governments want sovereign AI on their own infrastructure.",
+      "soWhat": "Governments want AI on their own soil; that shapes where vendors build and who wins deals.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-24T22:20:19Z",
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2125353849057853876"
+      },
+      "image": {
+        "src": "/img/amasad-sovereign-ai-jensen-return.jpg",
+        "alt": "Image from @amasad on X"
+      },
+      "heat": {
+        "score": 17,
+        "level": "none",
+        "metric": "31k views"
       }
     }
   ],
   "voices": [
     {
-      "handle": "@AnthropicAI",
-      "quote": "When an AI agent can escape its sandbox, will it choose to?",
-      "url": "https://x.com/AnthropicAI/status/2125341904644763678"
-    },
-    {
-      "handle": "@bcherny",
-      "quote": "MCP servers can now ship with their own skills, so Claude Code knows how to use them out of the box.",
-      "url": "https://x.com/bcherny/status/2125292098165612585"
-    },
-    {
-      "handle": "@OpenAI",
-      "quote": "Our models can design new protein shapes and sequences using reasoning and code, without calling specialized biology models to generate them.",
-      "url": "https://x.com/OpenAI/status/2125334383490105601"
-    },
-    {
       "handle": "@AravSrinivas",
-      "quote": "I would put it somewhere between Opus and Fable in intelligence level, but with a far better response style and usability",
-      "url": "https://x.com/AravSrinivas/status/2125328996221231313"
+      "quote": "I really haven’t seen this fast day-over-day growth rate for a model inside Perplexity in a while.",
+      "url": "https://x.com/AravSrinivas/status/2125458638823379123"
     },
     {
-      "handle": "@theo",
-      "quote": "Read through it. Tell me if what is collected is actually intrusive.",
-      "url": "https://x.com/theo/status/2125332956281749854"
+      "handle": "@amasad",
+      "quote": "America can build the best frontier models and still lose the global AI race.",
+      "url": "https://x.com/amasad/status/2125353849057853876"
+    },
+    {
+      "handle": "@AnthropicAI",
+      "quote": "Understanding what’s happening inside an AI model helps to make it safer.",
+      "url": "https://x.com/AnthropicAI/status/2125365268381929637"
+    },
+    {
+      "handle": "@MengTo",
+      "quote": "The image-to-design workflow is pretty much a cheat code for avoiding ai slops.",
+      "url": "https://x.com/MengTo/status/2125524721760657518"
+    },
+    {
+      "handle": "@steipete",
+      "quote": "Shipping reliable and free open source is also really really hard",
+      "url": "https://x.com/steipete/status/2125422797304549672"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/ClaudeDevs/status/2125315491522650299",
+      "url": "https://x.com/AnthropicAI/status/2125365268381929637",
+      "handle": "@AnthropicAI",
+      "text": "New Anthropic Fellows research: Returning to the neuron basis for interpretability",
+      "metric": "4,904 likes",
+      "note": "People want to know if looking at single neurons can finally explain model behavior."
+    },
+    {
+      "url": "https://x.com/theo/status/2125361024983568569",
+      "handle": "@theo",
+      "text": "Theo says he sees a coordinated effort to attack T3 Code's reputation.",
+      "metric": "2,638 likes",
+      "note": "Open-source coding tool rivalry and telemetry trust are drawing a crowd."
+    },
+    {
+      "url": "https://x.com/AnthropicAI/status/2125341904644763678",
+      "handle": "@AnthropicAI",
+      "text": "When an AI agent can escape its sandbox, will it choose to?",
+      "metric": "2,341 likes",
+      "note": "Agent safety in weak sandboxes is a live worry for anyone deploying agents."
+    },
+    {
+      "url": "https://x.com/ClaudeDevs/status/2125365668463993091",
       "handle": "@ClaudeDevs",
-      "text": "You can now install Claude artifacts as desktop apps on Mac and Windows.",
-      "metric": "27,950 likes",
-      "note": "Builders see a fast path from a prompt to a desktop app they can share."
+      "text": "A guide to handing pull request follow-up work to Claude Ship and staying in flow.",
+      "metric": "2,286 likes",
+      "note": "Builders want agents to own the review loop after a PR opens."
     },
     {
-      "url": "https://x.com/ClaudeDevs/status/2125289794871963935",
-      "handle": "@ClaudeDevs",
-      "text": "MCP turns two! What started as a protocol for connecting AI apps to tools and data is evolving to standardize how agents work.",
-      "metric": "6,839 likes",
-      "note": "Builders track where Anthropic takes the protocol their agent tools depend on."
-    },
-    {
-      "url": "https://x.com/poteto/status/2125340394938593344",
-      "handle": "@poteto",
-      "text": "never thought i'd say this but i am now daily driving gemini neon in cursor. it's a good model",
-      "metric": "5,807 likes",
-      "note": "A respected builder's switch adds to the week's momentum behind Gemini 4 Neon."
-    },
-    {
-      "url": "https://x.com/OpenAI/status/2125334383490105601",
-      "handle": "@OpenAI",
-      "text": "Wet lab validation of intrinsic protein design capabilities of the GPT-6 family of models.",
-      "metric": "3,808 likes",
-      "note": "Lab-tested results move AI biology claims beyond benchmarks."
-    },
-    {
-      "url": "https://x.com/bcherny/status/2125292098165612585",
-      "handle": "@bcherny",
-      "text": "MCP servers can now ship with their own skills, so Claude Code knows how to use them out of the box.",
-      "metric": "3,798 likes",
-      "note": "Claude Code's creator flags a change that makes agent tools work without setup."
+      "url": "https://x.com/AravSrinivas/status/2125458638823379123",
+      "handle": "@AravSrinivas",
+      "text": "Gemini 4 Neon has consumed 44.52 billion tokens inside Perplexity on Tuesday, 23.5% above all of full-day Monday",
+      "metric": "1,212 likes",
+      "note": "A fast usage jump hints at where builders are moving their model spend."
     }
   ]
 }
