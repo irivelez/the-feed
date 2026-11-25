@@ -1,0 +1,307 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-25-1231",
+  "generatedAt": "2026-11-25T17:32:46.107Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-24T21:32:09.725Z",
+    "to": "2026-11-25T17:32:46.107Z"
+  },
+  "sourceNotes": [
+    "Dwarkesh Patel RSS: HTTP 500.",
+    "X: 4 combined lane searches (howTo, bigPicture, frontier/design, queries) + 1 post lookup; 'min_faves' is unsupported so the query lane was low-engagement noise (promo and vibe-coding posts), none used.",
+    "Reply capture skipped this run (no reply read; none confirmed at >=5 likes and >=1000 followers).",
+    "authorBaseline not captured (rate/budget).",
+    "Not refetched this run: arXiv, Hacker News, MIT Tech Review, OpenAI blog, Atlantic, Gary Marcus, Ben Evans (latest item 2026-09-03), Mitchell Hashimoto (latest 2026-11-06), One Useful Thing (latest 2026-11-09).",
+    "Noisy: @claudeai Fable 5.2 showcase posts (high likes, low practical value); Mat Pocock is off X until 2027-01-01."
+  ],
+  "candidates": [
+    {
+      "id": "anthropic-rust-migration-agents",
+      "lens": "practical",
+      "topic": "anthropic-rust-migration",
+      "summary": "Anthropic migrated the Claude Messages API from Python to Rust and used the existing Python service as the reference to verify the new one, with teams of Claude agents tracking down and fixing differences between the two versions.",
+      "facts": [
+        "Engineering blog post: anthropic.com/research/migrating-api-to-rust",
+        "Posted by @AnthropicAI and @ClaudeDevs on 2026-11-25"
+      ],
+      "source": {
+        "name": "AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2125627317263466739",
+        "type": "x",
+        "handle": "AnthropicAI"
+      },
+      "related": [
+        {
+          "name": "Anthropic engineering blog",
+          "url": "https://www.anthropic.com/research/migrating-api-to-rust"
+        },
+        {
+          "name": "ClaudeDevs on X",
+          "url": "https://x.com/ClaudeDevs/status/2125628717263372512"
+        }
+      ],
+      "publishedAt": "2026-11-25T16:26:59.000Z",
+      "metrics": {
+        "likes": 2280,
+        "reposts": 147,
+        "replies": 195,
+        "views": 203607,
+        "capturedAt": "2026-11-25T17:32:46.107Z"
+      },
+      "care": 5,
+      "proof": 5,
+      "imageHint": "https://www.anthropic.com/research/migrating-api-to-rust"
+    },
+    {
+      "id": "anthropic-siren-sandbox-escape",
+      "lens": "broad",
+      "topic": "agent-sandbox-escape",
+      "summary": "Anthropic published Siren, an evaluation that gives Claude routine tasks in intentionally weakened sandboxes with something useful to the task left outside the sandbox, across 1,700+ scenarios, to test whether an agent will escape.",
+      "facts": [
+        "Posted by @AnthropicAI on 2026-11-24"
+      ],
+      "source": {
+        "name": "AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2125341904644763678",
+        "type": "x",
+        "handle": "AnthropicAI"
+      },
+      "publishedAt": "2026-11-24T21:32:51.000Z",
+      "metrics": {
+        "likes": 2520,
+        "reposts": 263,
+        "replies": 513,
+        "views": 274781,
+        "capturedAt": "2026-11-25T17:32:46.107Z"
+      },
+      "care": 4,
+      "proof": 4
+    },
+    {
+      "id": "openai-private-inference-test",
+      "lens": "broad",
+      "topic": "openai-private-inference",
+      "summary": "Sam Altman said OpenAI is testing Private Inference, part of OpenAI Private Intelligence, with a small group of customers, framed as stronger privacy protections to make frontier AI usable for more business work.",
+      "facts": [
+        "Posted by @sama on 2026-11-25"
+      ],
+      "source": {
+        "name": "sama on X",
+        "url": "https://x.com/sama/status/2125638790593274259",
+        "type": "x",
+        "handle": "sama"
+      },
+      "publishedAt": "2026-11-25T17:12:34.000Z",
+      "metrics": {
+        "likes": 1444,
+        "reposts": 70,
+        "replies": 207,
+        "views": 107854,
+        "capturedAt": "2026-11-25T17:32:46.107Z"
+      },
+      "care": 4,
+      "proof": 3
+    },
+    {
+      "id": "gemini-4-neon-perplexity-tokens",
+      "lens": "broad",
+      "topic": "gemini-4-neon",
+      "summary": "Aravind Srinivas reported Gemini 4 Neon consumed 44.52B tokens inside Perplexity on Tuesday, 23.5% above all of Monday (36.06B) with 3+ hours left in the day.",
+      "facts": [
+        "Posted by @AravSrinivas on 2026-11-25"
+      ],
+      "source": {
+        "name": "AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2125458638823379123",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-25T05:16:43.000Z",
+      "metrics": {
+        "likes": 1696,
+        "reposts": 86,
+        "replies": 102,
+        "views": 85884,
+        "capturedAt": "2026-11-25T17:32:46.107Z"
+      },
+      "care": 4,
+      "proof": 4
+    },
+    {
+      "id": "lenny-gemini-4-neon-benchmark",
+      "lens": "practical",
+      "topic": "gemini-4-neon",
+      "summary": "Lenny's Newsletter post titled 'Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark'.",
+      "facts": [
+        "Published 2026-11-25 13:04 GMT; body not read"
+      ],
+      "source": {
+        "name": "Lenny's Newsletter",
+        "url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-25T13:04:21.000Z",
+      "care": 4,
+      "proof": 3
+    },
+    {
+      "id": "swyx-cost-per-task-misleading",
+      "lens": "practical",
+      "topic": "agent-cost-vs-reliability",
+      "summary": "swyx quoted 'Cost per task is a misleading metric; the scarce resource is human attention, not token cost' and warned that pareto-frontier charts reducing models to two numbers can hide reliability issues.",
+      "facts": [
+        "Posted by @swyx on 2026-11-25"
+      ],
+      "source": {
+        "name": "swyx on X",
+        "url": "https://x.com/swyx/status/2125627281230205435",
+        "type": "x",
+        "handle": "swyx"
+      },
+      "publishedAt": "2026-11-25T16:26:50.000Z",
+      "metrics": {
+        "likes": 108,
+        "reposts": 4,
+        "replies": 61,
+        "views": 4889,
+        "capturedAt": "2026-11-25T17:32:46.107Z"
+      },
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "simonw-three-llm-inflection-points",
+      "lens": "broad",
+      "topic": "llm-inflection-points",
+      "summary": "Simon Willison published 'Three LLM inflection points in twelve months'.",
+      "facts": [
+        "Published 2026-11-24; body not read"
+      ],
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-24T23:02:07.000Z",
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "stratechery-individual-exception",
+      "lens": "broad",
+      "topic": "stratechery-individual-exception",
+      "summary": "Stratechery published 'The Individual Exception' (headline only).",
+      "source": {
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/the-individual-exception/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-24T11:00:00.000Z",
+      "care": 2,
+      "proof": 2
+    },
+    {
+      "id": "nvidia-huang-rehired-denial",
+      "lens": "broad",
+      "topic": "nvidia-ceo-transition",
+      "summary": "The Verge reports Jensen Huang told Nvidia staff it is 'not true' that Trump got him rehired.",
+      "facts": [
+        "The Verge, 2026-11-24"
+      ],
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-24T20:52:01.000Z",
+      "care": 3,
+      "proof": 3
+    },
+    {
+      "id": "amazon-meta-muse-shopping-talks",
+      "lens": "broad",
+      "topic": "agent-shopping",
+      "summary": "The Verge reports Amazon is in talks to end its block on Meta's Muse AI shopping agent.",
+      "facts": [
+        "The Verge, 2026-11-25; 'reportedly'"
+      ],
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-25T14:12:33.000Z",
+      "care": 3,
+      "proof": 2
+    },
+    {
+      "id": "lynalden-post-nov-25",
+      "lens": "frontier-capital",
+      "topic": "lyn-alden",
+      "summary": "Lyn Alden posted a link-only post (content not readable from the search result) that drew 465 likes and 65k views.",
+      "source": {
+        "name": "LynAldenContact on X",
+        "url": "https://x.com/LynAldenContact/status/2125597055041065132",
+        "type": "x",
+        "handle": "LynAldenContact"
+      },
+      "publishedAt": "2026-11-25T14:26:44.000Z",
+      "metrics": {
+        "likes": 465,
+        "reposts": 19,
+        "replies": 30,
+        "views": 65345,
+        "capturedAt": "2026-11-25T17:32:46.107Z"
+      },
+      "care": 2,
+      "proof": 1
+    },
+    {
+      "id": "metaplanet-msci-index-cut",
+      "lens": "frontier-capital",
+      "topic": "metaplanet-msci",
+      "summary": "Google News lists coverage that MSCI is cutting Strategy and Metaplanet from its indexes.",
+      "facts": [
+        "Item dated 2026-11-21",
+        "Same feed also lists Sequent raising $2.2M from Frachtis and Metaplanet for AI smart-contract security (2026-11-25)"
+      ],
+      "source": {
+        "name": "Metaplanet news (Google News)",
+        "url": "https://news.google.com/rss/search?q=Metaplanet&hl=en-US&gl=US&ceid=US:en",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-21T19:37:02.000Z",
+      "care": 2,
+      "proof": 2
+    },
+    {
+      "id": "mengto-image-to-design-workflow",
+      "lens": "design",
+      "topic": "image-to-design",
+      "summary": "Meng To posted a 22-minute tutorial on his image-to-design workflow for landing pages, using Linen's Sections feature, framed as a way to avoid AI slop.",
+      "facts": [
+        "Posted by @MengTo on 2026-11-25"
+      ],
+      "source": {
+        "name": "MengTo on X",
+        "url": "https://x.com/MengTo/status/2125524721760657518",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-25T09:39:18.000Z",
+      "metrics": {
+        "likes": 50,
+        "reposts": 1,
+        "replies": 8,
+        "views": 5297,
+        "capturedAt": "2026-11-25T17:32:46.107Z"
+      },
+      "care": 3,
+      "proof": 3
+    }
+  ]
+}
