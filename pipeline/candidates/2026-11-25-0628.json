@@ -1,0 +1,336 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-25-0628",
+  "generatedAt": "2026-11-25T11:29:31Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-24T21:29:06Z",
+    "to": "2026-11-25T11:29:31Z"
+  },
+  "sourceNotes": [
+    "X: 3 calls (handle-subset searches for howTo, bigPicture, frontier-capital/design, last 14h, relevancy sort); not every handle searched; no replies captured; keyword queries not run; authorBaseline not read.",
+    "Search results include usernames; some posts' full text was truncated in results, so summaries use only visible text.",
+    "RSS: only Simon Willison fetched (ok). Other feeds, arXiv not fetched this run.",
+    "HN Algolia returned non-JSON again.",
+    "frontier-capital: only nathanbenaich post (no substance); nothing from naval, Vitalik, Lyn Alden, Dalio, Horowitz, Metaplanet, gerovich. design: one MengTo post."
+  ],
+  "candidates": [
+    {
+      "id": "claudedevs-claude-ship-pr-followup",
+      "lens": "practical",
+      "summary": "ClaudeDevs: a practical guide to shipping with Claude Code, covering how to hand off PR follow-up work to Claude Ship and stay in flow.",
+      "facts": [],
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2125365668463993091",
+        "type": "x",
+        "handle": "ClaudeDevs"
+      },
+      "publishedAt": "2026-11-24T23:07:17Z",
+      "metrics": {
+        "likes": 2286,
+        "reposts": 156,
+        "replies": 97,
+        "views": 190487,
+        "capturedAt": "2026-11-25T11:29:31Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "claude-ship-pr-followup",
+      "firstSeen": "2026-11-25"
+    },
+    {
+      "id": "rubenhassid-claude-skills-library",
+      "lens": "practical",
+      "summary": "Ruben Hassid says he is giving away, free, the whole library of Claude Skills he uses daily. He describes a Skill as a /command that fires itself, so you stop re-explaining who you are or rebuilding the same setup each chat.",
+      "facts": [],
+      "source": {
+        "name": "@rubenhassid on X",
+        "url": "https://x.com/rubenhassid/status/2125469538565431668",
+        "type": "x",
+        "handle": "rubenhassid"
+      },
+      "publishedAt": "2026-11-25T06:00:01Z",
+      "metrics": {
+        "likes": 66,
+        "reposts": 8,
+        "replies": 7,
+        "views": 4519,
+        "capturedAt": "2026-11-25T11:29:31Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "topic": "claude-skills-library",
+      "firstSeen": "2026-11-25"
+    },
+    {
+      "id": "pocock-code-structure-repo",
+      "lens": "practical",
+      "summary": "Matt Pocock shares a repo, 2,000 commits in and not ready yet, showing his current thinking on how code should be structured.",
+      "facts": [],
+      "source": {
+        "name": "@mattpocockuk on X",
+        "url": "https://x.com/mattpocockuk/status/2125540436483711074",
+        "type": "x",
+        "handle": "mattpocockuk"
+      },
+      "publishedAt": "2026-11-25T10:41:45Z",
+      "metrics": {
+        "likes": 132,
+        "reposts": 3,
+        "replies": 20,
+        "views": 12269,
+        "capturedAt": "2026-11-25T11:29:31Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "pocock-home-repo",
+      "firstSeen": "2026-11-25"
+    },
+    {
+      "id": "steipete-oc-year-multiplayer",
+      "lens": "practical",
+      "summary": "Peter Steinberger (steipete): OC is in a good place, found a niche in prosumer and enterprise adoption; he calls its multiplayer team feature best in class and says shipping reliable free open source is hard. Blog post planned over the holidays.",
+      "facts": [],
+      "source": {
+        "name": "@steipete on X",
+        "url": "https://x.com/steipete/status/2125422797304549672",
+        "type": "x",
+        "handle": "steipete"
+      },
+      "publishedAt": "2026-11-25T02:54:17Z",
+      "metrics": {
+        "likes": 864,
+        "reposts": 48,
+        "replies": 124,
+        "views": 57046,
+        "capturedAt": "2026-11-25T11:29:31Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "topic": "oc-multiplayer",
+      "firstSeen": "2026-11-25"
+    },
+    {
+      "id": "simonw-three-llm-inflection-points",
+      "lens": "practical",
+      "summary": "Simon Willison published an expanded written version of his talk at AI Engineer, arguing there were three key inflection points with LLMs over the past twelve months.",
+      "facts": [],
+      "source": {
+        "name": "@simonw on X",
+        "url": "https://x.com/simonw/status/2125369126877286662",
+        "type": "x",
+        "handle": "simonw"
+      },
+      "publishedAt": "2026-11-24T23:21:01Z",
+      "metrics": {
+        "likes": 187,
+        "reposts": 17,
+        "replies": 74,
+        "views": 17364,
+        "capturedAt": "2026-11-25T11:29:31Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "topic": "llm-inflection-points",
+      "firstSeen": "2026-11-25"
+    },
+    {
+      "id": "theo-t3-code-reputation-fight",
+      "lens": "practical",
+      "summary": "Theo says he sees a coordinated effort to attack T3 Code's reputation, and in related posts disputes claims about external PRs (1,411 contributors on the repo) and compares attention on open-source telemetry vs a closed-source tool.",
+      "facts": [],
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2125361024983568569",
+        "type": "x",
+        "handle": "theo"
+      },
+      "publishedAt": "2026-11-24T22:48:50Z",
+      "metrics": {
+        "likes": 2638,
+        "reposts": 25,
+        "replies": 424,
+        "views": 255471,
+        "capturedAt": "2026-11-25T11:29:31Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "topic": "t3-code-drama",
+      "firstSeen": "2026-11-25"
+    },
+    {
+      "id": "aravsrinivas-gemini4-neon-perplexity-tokens",
+      "lens": "broad",
+      "summary": "Aravind Srinivas: Gemini 4 Neon consumed 44.52 billion tokens inside Perplexity on Tuesday, 23.5% above all of Monday (36.06B) with more than 3 hours of the day left. He says he has not seen this fast a day-over-day growth for a model inside Perplexity in a while.",
+      "facts": [],
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2125458638823379123",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-25T05:16:43Z",
+      "metrics": {
+        "likes": 1212,
+        "reposts": 59,
+        "replies": 75,
+        "views": 52147,
+        "capturedAt": "2026-11-25T11:29:31Z"
+      },
+      "care": 5,
+      "proof": 4,
+      "topic": "gemini-4-neon-adoption",
+      "firstSeen": "2026-11-25"
+    },
+    {
+      "id": "anthropic-siren-sandbox-escape-eval",
+      "lens": "broad",
+      "summary": "Anthropic research: an evaluation called Siren gives Claude routine tasks in intentionally weakened sandboxes, with something useful to the task left outside the sandbox, across 1,700+ scenarios, to test whether an agent chooses to escape.",
+      "facts": [
+        "1,700+ scenarios"
+      ],
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2125341904644763678",
+        "type": "x",
+        "handle": "AnthropicAI"
+      },
+      "publishedAt": "2026-11-24T21:32:51Z",
+      "metrics": {
+        "likes": 2341,
+        "reposts": 245,
+        "replies": 438,
+        "views": 235394,
+        "capturedAt": "2026-11-25T11:29:31Z"
+      },
+      "care": 5,
+      "proof": 4,
+      "topic": "agent-sandbox-escape",
+      "firstSeen": "2026-11-25"
+    },
+    {
+      "id": "anthropic-fellows-neuron-basis-interpretability",
+      "lens": "broad",
+      "summary": "Anthropic Fellows research: 'Returning to the neuron basis for interpretability', revisiting neurons as the unit for understanding what happens inside a model.",
+      "facts": [],
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2125365268381929637",
+        "type": "x",
+        "handle": "AnthropicAI"
+      },
+      "publishedAt": "2026-11-24T23:05:42Z",
+      "metrics": {
+        "likes": 4904,
+        "reposts": 455,
+        "replies": 300,
+        "views": 556139,
+        "capturedAt": "2026-11-25T11:29:31Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "topic": "neuron-basis-interpretability",
+      "firstSeen": "2026-11-25"
+    },
+    {
+      "id": "amasad-sovereign-ai-jensen-return",
+      "lens": "broad",
+      "summary": "Amjad Masad: America can build the best frontier models and still lose the global AI race; he argues Jensen's return matters beyond Nvidia because governments want sovereign AI they can run on their own infrastructure.",
+      "facts": [],
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2125353849057853876",
+        "type": "x",
+        "handle": "amasad"
+      },
+      "publishedAt": "2026-11-24T22:20:19Z",
+      "metrics": {
+        "likes": 855,
+        "reposts": 103,
+        "replies": 72,
+        "views": 31215,
+        "capturedAt": "2026-11-25T11:29:31Z"
+      },
+      "care": 4,
+      "proof": 2,
+      "topic": "nvidia-ceo-transition",
+      "firstSeen": "2026-11-25"
+    },
+    {
+      "id": "aravsrinivas-perplexity-slides-viewer",
+      "lens": "broad",
+      "summary": "Perplexity: slide decks created in Perplexity Computer now have a native viewer that lets you edit in place; supports both PowerPoint and Google Slides.",
+      "facts": [],
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2125364190802227680",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-24T23:01:25Z",
+      "metrics": {
+        "likes": 198,
+        "reposts": 8,
+        "replies": 19,
+        "views": 22125,
+        "capturedAt": "2026-11-25T11:29:31Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "perplexity-computer-slides",
+      "firstSeen": "2026-11-25"
+    },
+    {
+      "id": "googledeepmind-gemini4-hydrogen-lightning-globe",
+      "lens": "broad",
+      "summary": "GoogleDeepMind: Gemini 4 Hydrogen built an interactive 3D globe that turns live lightning strikes into ambient music, with a try-it link.",
+      "facts": [],
+      "source": {
+        "name": "@GoogleDeepMind on X",
+        "url": "https://x.com/GoogleDeepMind/status/2125371062880022536",
+        "type": "x",
+        "handle": "GoogleDeepMind"
+      },
+      "publishedAt": "2026-11-24T23:28:43Z",
+      "metrics": {
+        "likes": 1204,
+        "reposts": 91,
+        "replies": 130,
+        "views": 69029,
+        "capturedAt": "2026-11-25T11:29:31Z"
+      },
+      "care": 2,
+      "proof": 3,
+      "topic": "gemini-4-hydrogen",
+      "firstSeen": "2026-11-25"
+    },
+    {
+      "id": "mengto-image-to-design-tutorial",
+      "lens": "design",
+      "summary": "Meng To: image-to-design workflow avoids AI slop; shares a full 22-minute tutorial on designing landing pages, using a Sections feature in Linen.",
+      "facts": [],
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2125524721760657518",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-25T09:39:18Z",
+      "metrics": {
+        "likes": 22,
+        "reposts": 1,
+        "replies": 3,
+        "views": 2562,
+        "capturedAt": "2026-11-25T11:29:31Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "topic": "image-to-design-landing-pages",
+      "firstSeen": "2026-11-25"
+    }
+  ]
+}
