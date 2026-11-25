@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-24-1300",
-  "count": 96,
+  "latest": "2026-11-24-1900",
+  "count": 97,
   "briefs": [
+    {
+      "id": "2026-11-24-1900",
+      "date": "2026-11-24",
+      "edition": "Evening",
+      "publishedAt": "2026-11-25T00:14:34Z",
+      "headline": "Claude artifacts can now install as desktop apps on Mac and Windows",
+      "url": "/api/briefs/2026-11-24-1900.json"
+    },
     {
       "id": "2026-11-24-1300",
       "date": "2026-11-24",

@@ -1,0 +1,294 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-24-1900",
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-25T00:14:34Z",
+  "edition": "Evening",
+  "top3": [
+    {
+      "itemId": "claudedevs-artifacts-desktop-apps",
+      "headline": "Claude artifacts can now install as desktop apps on Mac and Windows",
+      "whyItMatters": "Anyone can now build a small internal app by asking; decide who may install them."
+    },
+    {
+      "itemId": "anthropic-siren-sandbox-escape-eval",
+      "headline": "Anthropic: describing sandbox rules cut agent boundary-probing to about 2%",
+      "whyItMatters": "Agent safety starts with clear written limits; check that your agents' prompts state theirs."
+    },
+    {
+      "itemId": "bcherny-mcp-servers-ship-skills",
+      "headline": "MCP servers can now ship skills so Claude Code uses them",
+      "whyItMatters": "Vendor tools become usable by agents on day one; favor vendors who ship skills."
+    }
+  ],
+  "items": [
+    {
+      "id": "claudedevs-claude-ship-pr-followup",
+      "title": "Anthropic's guide hands pull request follow-up work to Claude Ship",
+      "takeaway": "A ClaudeDevs guide shows how to pass PR follow-up work to Claude Ship.",
+      "soWhat": "Agents now handle the loop after a PR opens; measure how much engineer time that frees.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-24T23:07:17Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2125365668463993091"
+      },
+      "related": [
+        {
+          "name": "Claude blog: the work after you open a PR",
+          "url": "https://claude.dev/blog/the-work-after-you-open-a-pr/"
+        }
+      ],
+      "image": {
+        "src": "/img/claudedevs-claude-ship-pr-followup.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      },
+      "heat": {
+        "score": 11,
+        "level": "none",
+        "metric": "35k views"
+      }
+    },
+    {
+      "id": "perplexity-computer-slides-viewer",
+      "title": "Perplexity Computer adds in-place editing for slide decks",
+      "takeaway": "Decks made in Perplexity Computer open in a native viewer; supports PowerPoint and Google Slides.",
+      "soWhat": "Agent tools are moving into everyday office files; watch where your team's decks get made.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 3,
+      "publishedAt": "2026-11-24T23:01:25Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2125364190802227680"
+      },
+      "image": {
+        "src": "/img/perplexity-computer-slides-viewer.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "4k views"
+      }
+    },
+    {
+      "id": "anthropic-siren-sandbox-escape-eval",
+      "title": "Anthropic's Siren test asks if agents will escape weak sandboxes",
+      "takeaway": "Claude models looked or reached outside the sandbox 21-32% of the time; about 2% or less when rules were stated.",
+      "soWhat": "Spelling out sandbox rules in the prompt cut boundary-probing sharply; write yours down.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-24T21:32:51Z",
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2125341904644763678"
+      },
+      "image": {
+        "src": "/img/anthropic-siren-sandbox-escape-eval.jpg",
+        "alt": "Image from @AnthropicAI on X"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "103k views"
+      }
+    },
+    {
+      "id": "openai-gpt6-protein-design-preprint",
+      "title": "OpenAI says GPT-6 models designed proteins validated in a wet lab",
+      "takeaway": "A preprint says the models design protein shapes and sequences with reasoning and code alone.",
+      "soWhat": "AI in biology is moving from benchmarks to lab results; science-heavy firms should track it.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-24T21:02:58Z",
+      "source": {
+        "name": "@OpenAI on X",
+        "url": "https://x.com/OpenAI/status/2125334383490105601"
+      },
+      "image": {
+        "src": "/img/openai-gpt6-protein-design-preprint.jpg",
+        "alt": "Image from @OpenAI on X"
+      },
+      "heat": {
+        "score": 27,
+        "level": "none",
+        "metric": "314k views"
+      }
+    },
+    {
+      "id": "theo-t3-code-telemetry-dispute",
+      "title": "Theo publishes 95,789 T3 Code telemetry events for public review",
+      "takeaway": "About 100 MB of events from his own environments, shared so others can judge if it is intrusive.",
+      "soWhat": "Developer tool telemetry is now a trust issue; know what your team's coding tools send home.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 5,
+      "publishedAt": "2026-11-24T20:57:18Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2125332956281749854"
+      },
+      "image": {
+        "src": "/img/theo-t3-code-telemetry-dispute.jpg",
+        "alt": "Profile image of @theo"
+      },
+      "heat": {
+        "score": 11,
+        "level": "none",
+        "metric": "55k views"
+      }
+    },
+    {
+      "id": "perplexity-gemini-neon-120b-tokens",
+      "title": "Perplexity passes 120B Gemini 4 Neon tokens, doubling daily volume",
+      "takeaway": "Daily volume doubled in 3 days; Monday alone was 36B tokens.",
+      "soWhat": "Gemini 4 Neon is winning real production volume; test it against your current default model.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-24T20:41:34Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2125328996221231313"
+      },
+      "related": [
+        {
+          "name": "Poteto daily drives Neon in Cursor",
+          "url": "https://x.com/poteto/status/2125340394938593344"
+        }
+      ],
+      "image": {
+        "src": "/img/perplexity-gemini-neon-120b-tokens.jpg",
+        "alt": "Profile image of @AravSrinivas"
+      },
+      "heat": {
+        "score": 27,
+        "level": "none",
+        "metric": "51k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "claudedevs-artifacts-desktop-apps",
+      "title": "Claude artifacts can now be installed as desktop apps",
+      "takeaway": "Ask Claude for an artifact, click Install as app; it can use connectors and send notifications.",
+      "soWhat": "Staff can now turn a prompt into a working desktop app; set rules before these spread.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-24T19:47:54Z",
+      "source": {
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2125315491522650299"
+      },
+      "image": {
+        "src": "/img/claudedevs-artifacts-desktop-apps.jpg",
+        "alt": "Image from @ClaudeDevs on X"
+      },
+      "heat": {
+        "score": 40,
+        "level": "warm",
+        "metric": "2M views"
+      }
+    },
+    {
+      "id": "bcherny-mcp-servers-ship-skills",
+      "title": "MCP servers can now ship their own skills for Claude Code",
+      "takeaway": "Claude Code knows how to use such servers out of the box; announced as MCP turns two.",
+      "soWhat": "Tools that explain themselves to agents cut setup work; ask vendors whether their MCP servers ship skills.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-24T18:14:56Z",
+      "source": {
+        "name": "@bcherny on X",
+        "url": "https://x.com/bcherny/status/2125292098165612585"
+      },
+      "related": [
+        {
+          "name": "ClaudeDevs: MCP turns two",
+          "url": "https://x.com/ClaudeDevs/status/2125289794871963935"
+        }
+      ],
+      "image": {
+        "src": "/img/bcherny-mcp-servers-ship-skills.jpg",
+        "alt": "Image from @bcherny on X"
+      },
+      "heat": {
+        "score": 36,
+        "level": "none",
+        "metric": "219k views",
+        "voices": 2
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@AnthropicAI",
+      "quote": "When an AI agent can escape its sandbox, will it choose to?",
+      "url": "https://x.com/AnthropicAI/status/2125341904644763678"
+    },
+    {
+      "handle": "@bcherny",
+      "quote": "MCP servers can now ship with their own skills, so Claude Code knows how to use them out of the box.",
+      "url": "https://x.com/bcherny/status/2125292098165612585"
+    },
+    {
+      "handle": "@OpenAI",
+      "quote": "Our models can design new protein shapes and sequences using reasoning and code, without calling specialized biology models to generate them.",
+      "url": "https://x.com/OpenAI/status/2125334383490105601"
+    },
+    {
+      "handle": "@AravSrinivas",
+      "quote": "I would put it somewhere between Opus and Fable in intelligence level, but with a far better response style and usability",
+      "url": "https://x.com/AravSrinivas/status/2125328996221231313"
+    },
+    {
+      "handle": "@theo",
+      "quote": "Read through it. Tell me if what is collected is actually intrusive.",
+      "url": "https://x.com/theo/status/2125332956281749854"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/ClaudeDevs/status/2125315491522650299",
+      "handle": "@ClaudeDevs",
+      "text": "You can now install Claude artifacts as desktop apps on Mac and Windows.",
+      "metric": "27,950 likes",
+      "note": "Builders see a fast path from a prompt to a desktop app they can share."
+    },
+    {
+      "url": "https://x.com/ClaudeDevs/status/2125289794871963935",
+      "handle": "@ClaudeDevs",
+      "text": "MCP turns two! What started as a protocol for connecting AI apps to tools and data is evolving to standardize how agents work.",
+      "metric": "6,839 likes",
+      "note": "Builders track where Anthropic takes the protocol their agent tools depend on."
+    },
+    {
+      "url": "https://x.com/poteto/status/2125340394938593344",
+      "handle": "@poteto",
+      "text": "never thought i'd say this but i am now daily driving gemini neon in cursor. it's a good model",
+      "metric": "5,807 likes",
+      "note": "A respected builder's switch adds to the week's momentum behind Gemini 4 Neon."
+    },
+    {
+      "url": "https://x.com/OpenAI/status/2125334383490105601",
+      "handle": "@OpenAI",
+      "text": "Wet lab validation of intrinsic protein design capabilities of the GPT-6 family of models.",
+      "metric": "3,808 likes",
+      "note": "Lab-tested results move AI biology claims beyond benchmarks."
+    },
+    {
+      "url": "https://x.com/bcherny/status/2125292098165612585",
+      "handle": "@bcherny",
+      "text": "MCP servers can now ship with their own skills, so Claude Code knows how to use them out of the box.",
+      "metric": "3,798 likes",
+      "note": "Claude Code's creator flags a change that makes agent tools work without setup."
+    }
+  ]
+}
