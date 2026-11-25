@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-25-1300",
+  "date": "2026-11-25",
+  "publishedAt": "2026-11-25T18:05:16Z",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "anthropic-rust-migration-agents",
+      "headline": "Claude agent teams helped Anthropic rewrite its API from Python to Rust",
+      "whyItMatters": "Big rewrites get safer when agents check new code against the system it replaces."
+    },
+    {
+      "itemId": "openai-private-inference-test",
+      "headline": "OpenAI tests Private Inference to bring frontier AI to sensitive business work",
+      "whyItMatters": "If privacy blocks your AI rollout, ask OpenAI what this test covers."
+    },
+    {
+      "itemId": "lenny-gemini-4-neon-benchmark",
+      "headline": "Gemini 4 Neon beats GPT-6.2 and Claude in Lenny's 25-task benchmark",
+      "whyItMatters": "Model rankings move weekly; test top models on your team's real tasks."
+    }
+  ],
+  "items": [
+    {
+      "id": "openai-private-inference-test",
+      "title": "OpenAI tests Private Inference with a small group of customers",
+      "takeaway": "Altman says Private Inference, part of OpenAI Private Intelligence, adds stronger privacy for business work.",
+      "soWhat": "Privacy terms are becoming a product tier; ask your AI vendors which protections you actually have.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-25T17:12:34Z",
+      "source": {
+        "name": "@sama on X",
+        "url": "https://x.com/sama/status/2125638790593274259"
+      },
+      "image": {
+        "src": "/img/openai-private-inference-test.jpg",
+        "alt": "Profile image of @sama"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "108k views"
+      }
+    },
+    {
+      "id": "anthropic-rust-migration-agents",
+      "title": "Claude agent teams helped Anthropic rewrite its API from Python to Rust",
+      "takeaway": "The old Python service served as the reference; agents found and fixed differences in the new one.",
+      "soWhat": "Keep the old system as the test reference and agents can take on large rewrites.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 9,
+      "publishedAt": "2026-11-25T16:26:59Z",
+      "source": {
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2125627317263466739"
+      },
+      "related": [
+        {
+          "name": "Anthropic engineering blog",
+          "url": "https://www.anthropic.com/research/migrating-api-to-rust"
+        },
+        {
+          "name": "@ClaudeDevs on X",
+          "url": "https://x.com/ClaudeDevs/status/2125628717263372512"
+        }
+      ],
+      "image": {
+        "src": "/img/anthropic-rust-migration-agents.jpg",
+        "alt": "Image from @AnthropicAI on X"
+      },
+      "heat": {
+        "score": 23,
+        "level": "none",
+        "metric": "204k views"
+      }
+    },
+    {
+      "id": "swyx-cost-per-task-misleading",
+      "title": "swyx warns cost-per-task charts can hide model reliability problems",
+      "takeaway": "He highlights the view that human attention, not token cost, is the scarce resource.",
+      "soWhat": "Judge agents by how much review time they save, not only by price per task.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-25T16:26:50Z",
+      "source": {
+        "name": "@swyx on X",
+        "url": "https://x.com/swyx/status/2125627281230205435"
+      },
+      "image": {
+        "src": "/img/swyx-cost-per-task-misleading.jpg",
+        "alt": "Image from @swyx on X"
+      },
+      "heat": {
+        "score": 4,
+        "level": "none",
+        "metric": "5k views"
+      }
+    },
+    {
+      "id": "amazon-meta-muse-shopping-talks",
+      "title": "Amazon reportedly in talks to stop blocking Meta's Muse shopping agent",
+      "takeaway": "The Verge reports Amazon may end its block on Meta's Muse AI shopping agent.",
+      "soWhat": "Retailers are deciding whether AI agents can shop for customers; set your own policy early.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 5,
+      "publishedAt": "2026-11-25T14:12:33Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions"
+      },
+      "image": {
+        "src": "/img/amazon-meta-muse-shopping-talks.jpg",
+        "alt": "Image from The Verge"
+      }
+    },
+    {
+      "id": "lenny-gemini-4-neon-benchmark",
+      "title": "Lenny's 25-task benchmark puts Gemini 4 Neon ahead of GPT-6.2 and Claude",
+      "takeaway": "Lenny's Newsletter reports Gemini 4 Neon beat GPT-6.2 and Claude in its own 25-task benchmark.",
+      "soWhat": "Run your own task benchmark before switching; public rankings keep changing week to week.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 6,
+      "publishedAt": "2026-11-25T13:04:21Z",
+      "source": {
+        "name": "Lenny's Newsletter",
+        "url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude"
+      },
+      "image": {
+        "src": "/img/lenny-gemini-4-neon-benchmark.jpg",
+        "alt": "Image from Lenny's Newsletter"
+      }
+    },
+    {
+      "id": "nvidia-huang-rehired-denial",
+      "title": "Jensen Huang tells Nvidia staff Trump did not get him rehired",
+      "takeaway": "The Verge reports Huang told staff it is 'not true' that Trump got him rehired.",
+      "soWhat": "Nvidia's leadership story is not settled; watch it if your AI plans rely on its chips.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-24T20:52:01Z",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology"
+      },
+      "image": {
+        "src": "/img/nvidia-huang-rehired-denial.jpg",
+        "alt": "Image from The Verge"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@swyx",
+      "quote": "Cost per task is a misleading metric; the scarce resource is human attention, not token cost",
+      "url": "https://x.com/swyx/status/2125627281230205435"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/AnthropicAI/status/2125341904644763678",
+      "handle": "@AnthropicAI",
+      "text": "Anthropic's Siren eval tests whether Claude escapes weakened sandboxes across 1,700+ scenarios.",
+      "metric": "2,520 likes",
+      "note": "Agent safety in weak sandboxes is a live worry for anyone deploying agents."
+    },
+    {
+      "url": "https://x.com/AnthropicAI/status/2125627317263466739",
+      "handle": "@AnthropicAI",
+      "text": "Anthropic moved the Claude Messages API from Python to Rust, with Claude agent teams fixing differences.",
+      "metric": "2,280 likes",
+      "note": "Builders want proof that agents can handle a production-scale rewrite."
+    },
+    {
+      "url": "https://x.com/AravSrinivas/status/2125458638823379123",
+      "handle": "@AravSrinivas",
+      "text": "Gemini 4 Neon used 44.52B tokens in Perplexity Tuesday, 23.5% above all of Monday.",
+      "metric": "1,696 likes",
+      "note": "A fast usage jump hints at where builders are moving model spend."
+    },
+    {
+      "url": "https://x.com/sama/status/2125638790593274259",
+      "handle": "@sama",
+      "text": "OpenAI is testing Private Inference with a small group of customers.",
+      "metric": "1,444 likes",
+      "note": "Data privacy remains a top blocker for business AI adoption."
+    }
+  ]
+}

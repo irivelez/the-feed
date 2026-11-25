@@ -1,297 +1,196 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-25-0700",
+  "id": "2026-11-25-1300",
   "date": "2026-11-25",
-  "publishedAt": "2026-11-25T12:09:10Z",
-  "edition": "Morning",
+  "publishedAt": "2026-11-25T18:05:16Z",
+  "edition": "Midday",
   "top3": [
     {
-      "itemId": "aravsrinivas-gemini4-neon-perplexity-tokens",
-      "headline": "Gemini 4 Neon topped Monday's Perplexity usage by 23.5% before Tuesday ended",
-      "whyItMatters": "Model preference can flip in days; keep your stack able to switch models quickly."
+      "itemId": "anthropic-rust-migration-agents",
+      "headline": "Claude agent teams helped Anthropic rewrite its API from Python to Rust",
+      "whyItMatters": "Big rewrites get safer when agents check new code against the system it replaces."
     },
     {
-      "itemId": "rubenhassid-claude-skills-library",
-      "headline": "Ruben Hassid shares his full daily Claude Skills library for free",
-      "whyItMatters": "Packaged routines save rebuilding setup each chat; collect your team's best ones."
+      "itemId": "openai-private-inference-test",
+      "headline": "OpenAI tests Private Inference to bring frontier AI to sensitive business work",
+      "whyItMatters": "If privacy blocks your AI rollout, ask OpenAI what this test covers."
     },
     {
-      "itemId": "simonw-three-llm-inflection-points",
-      "headline": "Simon Willison argues LLMs hit three inflection points in twelve months",
-      "whyItMatters": "If the tools changed three times this year, last year's AI plan likely needs a review."
+      "itemId": "lenny-gemini-4-neon-benchmark",
+      "headline": "Gemini 4 Neon beats GPT-6.2 and Claude in Lenny's 25-task benchmark",
+      "whyItMatters": "Model rankings move weekly; test top models on your team's real tasks."
     }
   ],
   "items": [
     {
-      "id": "pocock-code-structure-repo",
-      "title": "Matt Pocock opens a 2,000-commit repo on how code should be structured",
-      "takeaway": "Pocock shares an unfinished repo showing his current thinking on code structure.",
-      "soWhat": "Teams setting coding standards for agents can study a working reference before writing their own.",
+      "id": "openai-private-inference-test",
+      "title": "OpenAI tests Private Inference with a small group of customers",
+      "takeaway": "Altman says Private Inference, part of OpenAI Private Intelligence, adds stronger privacy for business work.",
+      "soWhat": "Privacy terms are becoming a product tier; ask your AI vendors which protections you actually have.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-25T17:12:34Z",
+      "source": {
+        "name": "@sama on X",
+        "url": "https://x.com/sama/status/2125638790593274259"
+      },
+      "image": {
+        "src": "/img/openai-private-inference-test.jpg",
+        "alt": "Profile image of @sama"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "108k views"
+      }
+    },
+    {
+      "id": "anthropic-rust-migration-agents",
+      "title": "Claude agent teams helped Anthropic rewrite its API from Python to Rust",
+      "takeaway": "The old Python service served as the reference; agents found and fixed differences in the new one.",
+      "soWhat": "Keep the old system as the test reference and agents can take on large rewrites.",
       "lens": "practical",
       "momentum": "new",
-      "importance": 5,
-      "publishedAt": "2026-11-25T10:41:45Z",
+      "importance": 9,
+      "publishedAt": "2026-11-25T16:26:59Z",
       "source": {
-        "name": "@mattpocockuk on X",
-        "url": "https://x.com/mattpocockuk/status/2125540436483711074"
+        "name": "@AnthropicAI on X",
+        "url": "https://x.com/AnthropicAI/status/2125627317263466739"
       },
+      "related": [
+        {
+          "name": "Anthropic engineering blog",
+          "url": "https://www.anthropic.com/research/migrating-api-to-rust"
+        },
+        {
+          "name": "@ClaudeDevs on X",
+          "url": "https://x.com/ClaudeDevs/status/2125628717263372512"
+        }
+      ],
       "image": {
-        "src": "/img/pocock-code-structure-repo.jpg",
-        "alt": "Image from @mattpocockuk on X"
+        "src": "/img/anthropic-rust-migration-agents.jpg",
+        "alt": "Image from @AnthropicAI on X"
       },
       "heat": {
-        "score": 3,
+        "score": 23,
         "level": "none",
-        "metric": "12k views"
+        "metric": "204k views"
       }
     },
     {
-      "id": "mengto-image-to-design-tutorial",
-      "title": "Meng To shares a 22-minute image-to-design tutorial for landing pages",
-      "takeaway": "Meng To says starting from an image avoids AI slop, and walks through his landing page process in Linen.",
-      "soWhat": "Starting from an image, not a prompt, is one way design teams avoid generic AI output.",
-      "lens": "design",
-      "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-11-25T09:39:18Z",
-      "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2125524721760657518"
-      },
-      "image": {
-        "src": "/img/mengto-image-to-design-tutorial.jpg",
-        "alt": "Image from @MengTo on X"
-      },
-      "heat": {
-        "score": 0,
-        "level": "none",
-        "metric": "3k views"
-      }
-    },
-    {
-      "id": "rubenhassid-claude-skills-library",
-      "title": "Ruben Hassid gives away the Claude Skills library he uses daily",
-      "takeaway": "Hassid shares his daily Claude Skills for free; a Skill is a /command that fires itself.",
-      "soWhat": "Skills turn repeated setup into one command; ask teams which routines deserve one.",
+      "id": "swyx-cost-per-task-misleading",
+      "title": "swyx warns cost-per-task charts can hide model reliability problems",
+      "takeaway": "He highlights the view that human attention, not token cost, is the scarce resource.",
+      "soWhat": "Judge agents by how much review time they save, not only by price per task.",
       "lens": "practical",
       "momentum": "building",
-      "importance": 7,
-      "publishedAt": "2026-11-25T06:00:01Z",
+      "importance": 4,
+      "publishedAt": "2026-11-25T16:26:50Z",
       "source": {
-        "name": "@rubenhassid on X",
-        "url": "https://x.com/rubenhassid/status/2125469538565431668"
+        "name": "@swyx on X",
+        "url": "https://x.com/swyx/status/2125627281230205435"
       },
       "image": {
-        "src": "/img/rubenhassid-claude-skills-library.jpg",
-        "alt": "Image from @rubenhassid on X"
+        "src": "/img/swyx-cost-per-task-misleading.jpg",
+        "alt": "Image from @swyx on X"
       },
       "heat": {
-        "score": 0,
+        "score": 4,
         "level": "none",
         "metric": "5k views"
       }
     },
     {
-      "id": "aravsrinivas-gemini4-neon-perplexity-tokens",
-      "title": "Gemini 4 Neon hit 44.52B Perplexity tokens Tuesday, beating Monday early",
-      "takeaway": "Tuesday's 44.52B tokens were 23.5% above Monday's 36.06B with more than 3 hours left.",
-      "soWhat": "Usage is shifting fast toward Gemini 4 Neon; check whether your model choices still fit.",
+      "id": "amazon-meta-muse-shopping-talks",
+      "title": "Amazon reportedly in talks to stop blocking Meta's Muse shopping agent",
+      "takeaway": "The Verge reports Amazon may end its block on Meta's Muse AI shopping agent.",
+      "soWhat": "Retailers are deciding whether AI agents can shop for customers; set your own policy early.",
       "lens": "broad",
       "momentum": "shift",
-      "importance": 8,
-      "publishedAt": "2026-11-25T05:16:43Z",
-      "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2125458638823379123"
-      },
-      "image": {
-        "src": "/img/aravsrinivas-gemini4-neon-perplexity-tokens.jpg",
-        "alt": "Profile image of @AravSrinivas"
-      },
-      "heat": {
-        "score": 18,
-        "level": "none",
-        "metric": "52k views"
-      }
-    },
-    {
-      "id": "steipete-oc-year-multiplayer",
-      "title": "Steinberger says open-source OC found prosumer and enterprise adoption",
-      "takeaway": "Steinberger calls OC's multiplayer team feature best in class and says reliable free open source is hard.",
-      "soWhat": "Open-source tools now win enterprise users; ask who keeps them reliable before you depend on one.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-11-25T02:54:17Z",
-      "source": {
-        "name": "@steipete on X",
-        "url": "https://x.com/steipete/status/2125422797304549672"
-      },
-      "image": {
-        "src": "/img/steipete-oc-year-multiplayer.jpg",
-        "alt": "Image from @steipete on X"
-      },
-      "heat": {
-        "score": 17,
-        "level": "none",
-        "metric": "57k views"
-      }
-    },
-    {
-      "id": "googledeepmind-gemini4-hydrogen-lightning-globe",
-      "title": "Gemini 4 Hydrogen builds a 3D globe that turns lightning into music",
-      "takeaway": "DeepMind shows a Gemini 4 Hydrogen demo mapping live lightning strikes to ambient music.",
-      "soWhat": "Labs market models by what they build in one go; judge them on your own tasks.",
-      "lens": "broad",
-      "momentum": "shift",
-      "importance": 3,
-      "publishedAt": "2026-11-24T23:28:43Z",
-      "source": {
-        "name": "@GoogleDeepMind on X",
-        "url": "https://x.com/GoogleDeepMind/status/2125371062880022536"
-      },
-      "image": {
-        "src": "/img/googledeepmind-gemini4-hydrogen-lightning-globe.jpg",
-        "alt": "Profile image of @GoogleDeepMind"
-      },
-      "heat": {
-        "score": 19,
-        "level": "none",
-        "metric": "69k views"
-      }
-    },
-    {
-      "id": "simonw-three-llm-inflection-points",
-      "title": "Simon Willison names three LLM inflection points from the past year",
-      "takeaway": "Willison expands his AI Engineer talk into a written argument about three LLM inflection points.",
-      "soWhat": "A practitioner's year review is a quick check on whether your AI plans match what changed.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-24T23:21:01Z",
-      "source": {
-        "name": "@simonw on X",
-        "url": "https://x.com/simonw/status/2125369126877286662"
-      },
-      "image": {
-        "src": "/img/simonw-three-llm-inflection-points.jpg",
-        "alt": "Image from @simonw on X"
-      },
-      "heat": {
-        "score": 8,
-        "level": "none",
-        "metric": "17k views"
-      }
-    },
-    {
-      "id": "anthropic-fellows-neuron-basis-interpretability",
-      "title": "Anthropic Fellows revisit single neurons as a way to read models",
-      "takeaway": "New Fellows research returns to neurons as the unit for understanding what happens inside a model.",
-      "soWhat": "Better tools for seeing inside models make AI safety claims easier to check.",
-      "lens": "broad",
-      "momentum": "new",
       "importance": 5,
-      "publishedAt": "2026-11-24T23:05:42Z",
+      "publishedAt": "2026-11-25T14:12:33Z",
       "source": {
-        "name": "@AnthropicAI on X",
-        "url": "https://x.com/AnthropicAI/status/2125365268381929637"
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions"
       },
       "image": {
-        "src": "/img/anthropic-fellows-neuron-basis-interpretability.jpg",
-        "alt": "@AnthropicAI on X: Anthropic Fellows revisit single neurons as a way to read models"
-      },
-      "heat": {
-        "score": 29,
-        "level": "none",
-        "metric": "556k views"
+        "src": "/img/amazon-meta-muse-shopping-talks.jpg",
+        "alt": "Image from The Verge"
       }
     },
     {
-      "id": "amasad-sovereign-ai-jensen-return",
-      "title": "Amjad Masad: America can lead models and still lose the AI race",
-      "takeaway": "Masad says Jensen Huang's return matters because governments want sovereign AI on their own infrastructure.",
-      "soWhat": "Governments want AI on their own soil; that shapes where vendors build and who wins deals.",
+      "id": "lenny-gemini-4-neon-benchmark",
+      "title": "Lenny's 25-task benchmark puts Gemini 4 Neon ahead of GPT-6.2 and Claude",
+      "takeaway": "Lenny's Newsletter reports Gemini 4 Neon beat GPT-6.2 and Claude in its own 25-task benchmark.",
+      "soWhat": "Run your own task benchmark before switching; public rankings keep changing week to week.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 6,
+      "publishedAt": "2026-11-25T13:04:21Z",
+      "source": {
+        "name": "Lenny's Newsletter",
+        "url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude"
+      },
+      "image": {
+        "src": "/img/lenny-gemini-4-neon-benchmark.jpg",
+        "alt": "Image from Lenny's Newsletter"
+      }
+    },
+    {
+      "id": "nvidia-huang-rehired-denial",
+      "title": "Jensen Huang tells Nvidia staff Trump did not get him rehired",
+      "takeaway": "The Verge reports Huang told staff it is 'not true' that Trump got him rehired.",
+      "soWhat": "Nvidia's leadership story is not settled; watch it if your AI plans rely on its chips.",
       "lens": "broad",
       "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-11-24T22:20:19Z",
+      "importance": 4,
+      "publishedAt": "2026-11-24T20:52:01Z",
       "source": {
-        "name": "@amasad on X",
-        "url": "https://x.com/amasad/status/2125353849057853876"
+        "name": "The Verge",
+        "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology"
       },
       "image": {
-        "src": "/img/amasad-sovereign-ai-jensen-return.jpg",
-        "alt": "Image from @amasad on X"
-      },
-      "heat": {
-        "score": 17,
-        "level": "none",
-        "metric": "31k views"
+        "src": "/img/nvidia-huang-rehired-denial.jpg",
+        "alt": "Image from The Verge"
       }
     }
   ],
   "voices": [
     {
-      "handle": "@AravSrinivas",
-      "quote": "I really haven’t seen this fast day-over-day growth rate for a model inside Perplexity in a while.",
-      "url": "https://x.com/AravSrinivas/status/2125458638823379123"
-    },
-    {
-      "handle": "@amasad",
-      "quote": "America can build the best frontier models and still lose the global AI race.",
-      "url": "https://x.com/amasad/status/2125353849057853876"
-    },
-    {
-      "handle": "@AnthropicAI",
-      "quote": "Understanding what’s happening inside an AI model helps to make it safer.",
-      "url": "https://x.com/AnthropicAI/status/2125365268381929637"
-    },
-    {
-      "handle": "@MengTo",
-      "quote": "The image-to-design workflow is pretty much a cheat code for avoiding ai slops.",
-      "url": "https://x.com/MengTo/status/2125524721760657518"
-    },
-    {
-      "handle": "@steipete",
-      "quote": "Shipping reliable and free open source is also really really hard",
-      "url": "https://x.com/steipete/status/2125422797304549672"
+      "handle": "@swyx",
+      "quote": "Cost per task is a misleading metric; the scarce resource is human attention, not token cost",
+      "url": "https://x.com/swyx/status/2125627281230205435"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/AnthropicAI/status/2125365268381929637",
-      "handle": "@AnthropicAI",
-      "text": "New Anthropic Fellows research: Returning to the neuron basis for interpretability",
-      "metric": "4,904 likes",
-      "note": "People want to know if looking at single neurons can finally explain model behavior."
-    },
-    {
-      "url": "https://x.com/theo/status/2125361024983568569",
-      "handle": "@theo",
-      "text": "Theo says he sees a coordinated effort to attack T3 Code's reputation.",
-      "metric": "2,638 likes",
-      "note": "Open-source coding tool rivalry and telemetry trust are drawing a crowd."
-    },
-    {
       "url": "https://x.com/AnthropicAI/status/2125341904644763678",
       "handle": "@AnthropicAI",
-      "text": "When an AI agent can escape its sandbox, will it choose to?",
-      "metric": "2,341 likes",
+      "text": "Anthropic's Siren eval tests whether Claude escapes weakened sandboxes across 1,700+ scenarios.",
+      "metric": "2,520 likes",
       "note": "Agent safety in weak sandboxes is a live worry for anyone deploying agents."
     },
     {
-      "url": "https://x.com/ClaudeDevs/status/2125365668463993091",
-      "handle": "@ClaudeDevs",
-      "text": "A guide to handing pull request follow-up work to Claude Ship and staying in flow.",
-      "metric": "2,286 likes",
-      "note": "Builders want agents to own the review loop after a PR opens."
+      "url": "https://x.com/AnthropicAI/status/2125627317263466739",
+      "handle": "@AnthropicAI",
+      "text": "Anthropic moved the Claude Messages API from Python to Rust, with Claude agent teams fixing differences.",
+      "metric": "2,280 likes",
+      "note": "Builders want proof that agents can handle a production-scale rewrite."
     },
     {
       "url": "https://x.com/AravSrinivas/status/2125458638823379123",
       "handle": "@AravSrinivas",
-      "text": "Gemini 4 Neon has consumed 44.52 billion tokens inside Perplexity on Tuesday, 23.5% above all of full-day Monday",
-      "metric": "1,212 likes",
-      "note": "A fast usage jump hints at where builders are moving their model spend."
+      "text": "Gemini 4 Neon used 44.52B tokens in Perplexity Tuesday, 23.5% above all of Monday.",
+      "metric": "1,696 likes",
+      "note": "A fast usage jump hints at where builders are moving model spend."
+    },
+    {
+      "url": "https://x.com/sama/status/2125638790593274259",
+      "handle": "@sama",
+      "text": "OpenAI is testing Private Inference with a small group of customers.",
+      "metric": "1,444 likes",
+      "note": "Data privacy remains a top blocker for business AI adoption."
     }
   ]
 }
