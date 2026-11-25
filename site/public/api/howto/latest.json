@@ -1,43 +1,40 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-24T18:10:57Z",
-  "runId": "2026-11-24-1300",
+  "updatedAt": "2026-11-25T00:15:07Z",
+  "runId": "2026-11-24-1830",
   "howtos": [
     {
-      "id": "rubenhassid-mentor-notebook",
-      "dedupeKey": "notebook-from-mentor-youtube-videos",
-      "title": "Build a mentor notebook from someone's YouTube videos",
-      "what": "Ruben Hassid loads a mentor's longest videos into Google's notebook tool so answers lean toward that mentor's views.",
+      "id": "claudedevs-artifact-desktop-app",
+      "dedupeKey": "install-claude-artifact-as-desktop-app",
+      "title": "Install a Claude artifact as a desktop app",
+      "what": "Turn an artifact Claude builds into an app on Mac or Windows that can use your connectors.",
       "kind": "steps",
       "copy": [
-        "Go to Google's notebook tool and click Create notebook.",
-        "In the Sources box, type: “Latest and longest YouTube videos of [NAME] on [TOPIC].”",
-        "Untick the videos made by other people.",
-        "Untick the “Deep Research Report”; it must be “Fast research”.",
-        "Import all.",
-        "Ask your question. The answer is biased like a mentor's, with all sources listed."
+        "Ask Claude to build an artifact.",
+        "Click \"Install as app\".",
+        "Open it like any other app. It can use your connectors and, if you allow it, send notifications or add a menu bar item."
       ],
-      "whenToUse": "When generic AI answers aren't enough and you want advice shaped by a specific expert's long-form talks.",
+      "whenToUse": "When a small tool you built in Claude should live on your desktop instead of in a chat.",
       "source": {
-        "name": "@rubenhassid on X",
-        "url": "https://x.com/rubenhassid/status/2125197759724552236"
+        "name": "@ClaudeDevs on X",
+        "url": "https://x.com/ClaudeDevs/status/2125315491522650299"
       },
       "author": {
-        "name": "Ruben Hassid",
-        "handle": "rubenhassid"
+        "name": "ClaudeDevs",
+        "handle": "ClaudeDevs"
       },
       "tags": [
-        "research",
-        "prompts",
-        "notebooks"
+        "claude",
+        "artifacts",
+        "desktop-apps"
       ],
       "quality": 3,
-      "verbatim": false,
+      "verbatim": true,
       "briefItem": {
-        "briefId": "2026-11-24-1300",
-        "itemId": "rubenhassid-original-answers-prompt"
+        "briefId": "2026-11-24-1900",
+        "itemId": "claudedevs-artifacts-desktop-apps"
       },
-      "addedAt": "2026-11-24T18:10:57Z"
+      "addedAt": "2026-11-25T00:15:07Z"
     }
   ]
 }
