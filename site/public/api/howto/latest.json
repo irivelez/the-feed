@@ -1,40 +1,36 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-25T00:15:07Z",
-  "runId": "2026-11-24-1830",
+  "updatedAt": "2026-11-26T18:08:14Z",
+  "runId": "2026-11-26-1300",
   "howtos": [
     {
-      "id": "claudedevs-artifact-desktop-app",
-      "dedupeKey": "install-claude-artifact-as-desktop-app",
-      "title": "Install a Claude artifact as a desktop app",
-      "what": "Turn an artifact Claude builds into an app on Mac or Windows that can use your connectors.",
+      "id": "alexfinn-antigravity-neon-swarm",
+      "dedupeKey": "antigravity-swarm-parallel-agents-pick-winner",
+      "title": "Run a Gemini Neon agent swarm in Antigravity",
+      "what": "Several Gemini Neon agents attack one problem; an orchestrator compares their results and picks a winner.",
       "kind": "steps",
       "copy": [
-        "Ask Claude to build an artifact.",
-        "Click \"Install as app\".",
-        "Open it like any other app. It can use your connectors and, if you allow it, send notifications or add a menu bar item."
+        "Open the problem in Google Antigravity.",
+        "Choose the Neon model.",
+        "Type '/swarm' and describe the task."
       ],
-      "whenToUse": "When a small tool you built in Claude should live on your desktop instead of in a chat.",
+      "whenToUse": "When a hard coding problem is worth spending extra compute on several attempts to get the best one.",
       "source": {
-        "name": "@ClaudeDevs on X",
-        "url": "https://x.com/ClaudeDevs/status/2125315491522650299"
+        "name": "@AlexFinn on X",
+        "url": "https://x.com/AlexFinn/status/2125706884023992374"
       },
       "author": {
-        "name": "ClaudeDevs",
-        "handle": "ClaudeDevs"
+        "name": "AlexFinn",
+        "handle": "AlexFinn"
       },
       "tags": [
-        "claude",
-        "artifacts",
-        "desktop-apps"
+        "antigravity",
+        "gemini",
+        "multi-agent"
       ],
       "quality": 3,
-      "verbatim": true,
-      "briefItem": {
-        "briefId": "2026-11-24-1900",
-        "itemId": "claudedevs-artifacts-desktop-apps"
-      },
-      "addedAt": "2026-11-25T00:15:07Z"
+      "verbatim": false,
+      "addedAt": "2026-11-26T18:08:14Z"
     }
   ]
 }
