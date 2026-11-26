@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-25-1900",
+  "date": "2026-11-25",
+  "publishedAt": "2026-11-26T00:09:27Z",
+  "edition": "Evening",
+  "top3": [
+    {
+      "itemId": "perplexity-time-machine",
+      "headline": "Perplexity Time Machine lets teams train agents to predict the future",
+      "whyItMatters": "Forecasting is becoming a trainable agent skill; watch which vendors build on it."
+    },
+    {
+      "itemId": "amodei-free-will-reply",
+      "headline": "Dario Amodei says turning governance over to AI is a terrible idea",
+      "whyItMatters": "AI autonomy is now a public fight between lab leaders; set your own limits first."
+    },
+    {
+      "itemId": "poteto-agent-bottleneck-review",
+      "headline": "Find where agents still wait on human review, then automate that step",
+      "whyItMatters": "Team speed with agents now depends on review capacity, not model choice."
+    }
+  ],
+  "items": [
+    {
+      "id": "perplexity-time-machine",
+      "title": "Perplexity Time Machine shows models the web on any past date",
+      "takeaway": "Perplexity says it lets teams post-train agents to predict the future; live in its Search and Context APIs.",
+      "soWhat": "Forecasting is becoming an agent skill you can train; watch which vendors build on it.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 8,
+      "publishedAt": "2026-11-25T21:45:03Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2125707364053680383"
+      },
+      "image": {
+        "src": "/img/perplexity-time-machine.jpg",
+        "alt": "Profile image of @AravSrinivas"
+      },
+      "heat": {
+        "score": 13,
+        "level": "none",
+        "metric": "40k views"
+      }
+    },
+    {
+      "id": "theo-t3-code-telemetry",
+      "title": "Theo says T3 Code never uploaded prompts, files or user data",
+      "takeaway": "In a final statement on the telemetry dispute, Theo says T3 Code tracked only token and prompt counts.",
+      "soWhat": "Before rolling out coding tools, get a written list of exactly what telemetry leaves your machines.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 4,
+      "publishedAt": "2026-11-25T21:18:39Z",
+      "source": {
+        "name": "@theo on X",
+        "url": "https://x.com/theo/status/2125700717935841479"
+      },
+      "image": {
+        "src": "/img/theo-t3-code-telemetry.jpg",
+        "alt": "Profile image of @theo"
+      },
+      "heat": {
+        "score": 22,
+        "level": "none",
+        "metric": "85k views"
+      }
+    },
+    {
+      "id": "poteto-agent-bottleneck-review",
+      "title": "Poteto: find where your coding workflow still needs human review",
+      "takeaway": "Periodically resurface the limiting step that still needs human review, then do the work to let agents drive it.",
+      "soWhat": "Human review is the new bottleneck; schedule regular audits of where your team's agents wait on people.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-25T18:27:48Z",
+      "source": {
+        "name": "@poteto on X",
+        "url": "https://x.com/poteto/status/2125657724126138682"
+      },
+      "image": {
+        "src": "/img/poteto-agent-bottleneck-review.jpg",
+        "alt": "Image from @poteto on X"
+      },
+      "heat": {
+        "score": 17,
+        "level": "none",
+        "metric": "56k views"
+      }
+    },
+    {
+      "id": "amodei-free-will-reply",
+      "title": "Amodei says handing human governance to AI is a terrible idea",
+      "takeaway": "Replying to an Axios article, he says AI must be governed democratically; his views on task automation are mixed.",
+      "soWhat": "Lab leaders now argue openly about AI autonomy; decide where your company wants humans to keep control.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-25T18:22:33Z",
+      "source": {
+        "name": "@DarioAmodei on X",
+        "url": "https://x.com/DarioAmodei/status/2125656399392690605"
+      },
+      "image": {
+        "src": "/img/amodei-free-will-reply.jpg",
+        "alt": "Profile image of @DarioAmodei"
+      },
+      "heat": {
+        "score": 36,
+        "level": "none",
+        "metric": "3.2M views"
+      }
+    },
+    {
+      "id": "mengto-magi2-design",
+      "title": "Meng To: MAGI-2 made a six-shot 1080p scene for 75 credits",
+      "takeaway": "One character drawing and two place photos produced 30 seconds with sound and a consistent character.",
+      "soWhat": "Short branded video is getting cheap enough to prototype in-house before you brief an agency.",
+      "lens": "design",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-25T17:27:40Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2125642589466743173"
+      },
+      "image": {
+        "src": "/img/mengto-magi2-design.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "4k views"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@DarioAmodei",
+      "quote": "we should never sacrifice legitimacy or self-determination at the altar of efficiency or security.",
+      "url": "https://x.com/DarioAmodei/status/2125656399392690605"
+    },
+    {
+      "handle": "@poteto",
+      "quote": "periodically resurfacing and thinking about the bottlenecks or limiting step in your coding workflow where human review is still required",
+      "url": "https://x.com/poteto/status/2125657724126138682"
+    },
+    {
+      "handle": "@AravSrinivas",
+      "quote": "Perplexity Time Machine shows a model the web exactly as it was on any date you pick.",
+      "url": "https://x.com/AravSrinivas/status/2125707364053680383"
+    },
+    {
+      "handle": "@MengTo",
+      "quote": "1 character drawing and 2 pictures of places went in. A whole scene came out",
+      "url": "https://x.com/MengTo/status/2125642589466743173"
+    },
+    {
+      "handle": "@theo",
+      "quote": "We only tracked basic usage (# of tokens and prompts). That’s it.",
+      "url": "https://x.com/theo/status/2125700717935841479"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/DarioAmodei/status/2125656399392690605",
+      "handle": "@DarioAmodei",
+      "text": "No, I do not believe that we should “surrender human free will” to AI systems, and it’s absurd to suggest that I do.",
+      "metric": "12,337 likes",
+      "note": "A lab CEO publicly drawing lines on AI autonomy and governance."
+    },
+    {
+      "url": "https://x.com/AnthropicAI/status/2125627317263466739",
+      "handle": "@AnthropicAI",
+      "text": "We recently migrated our Messages API from Python to Rust.",
+      "metric": "7,652 likes",
+      "note": "Proof that agent teams can verify a production-scale rewrite."
+    },
+    {
+      "url": "https://x.com/sama/status/2125638790593274259",
+      "handle": "@sama",
+      "text": "OpenAI is testing Private Inference, part of OpenAI Private Intelligence, with a small group of customers.",
+      "metric": "6,421 likes",
+      "note": "Privacy remains a top blocker to business AI adoption."
+    },
+    {
+      "url": "https://x.com/ClaudeDevs/status/2125628717263372512",
+      "handle": "@ClaudeDevs",
+      "text": "Our new engineering blog shares how we migrated the Claude Messages API from Python to Rust.",
+      "metric": "3,969 likes",
+      "note": "Builders want the playbook behind agent-verified migrations."
+    },
+    {
+      "url": "https://x.com/theo/status/2125700717935841479",
+      "handle": "@theo",
+      "text": "T3 Code has never sold data or uploaded files, prompts, responses, emails, user IDs or file paths.",
+      "metric": "2,049 likes",
+      "note": "Developers weigh how much telemetry their coding tools send."
+    }
+  ]
+}

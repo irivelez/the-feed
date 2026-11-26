@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-25-1300",
-  "count": 99,
+  "latest": "2026-11-25-1900",
+  "count": 100,
   "briefs": [
+    {
+      "id": "2026-11-25-1900",
+      "date": "2026-11-25",
+      "edition": "Evening",
+      "publishedAt": "2026-11-26T00:09:27Z",
+      "headline": "Perplexity Time Machine lets teams train agents to predict the future",
+      "url": "/api/briefs/2026-11-25-1900.json"
+    },
     {
       "id": "2026-11-25-1300",
       "date": "2026-11-25",
