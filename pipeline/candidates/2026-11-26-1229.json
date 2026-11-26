@@ -1,0 +1,349 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-26-1229",
+  "generatedAt": "2026-11-26T17:29:09.978Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-25T21:29:09.978Z",
+    "to": "2026-11-26T17:29:09.978Z"
+  },
+  "sourceNotes": [
+    "X: 7 lane searches (howTo x3, bigPicture x3, frontierCapital+design x1), 20h window, plus 1 post lookup; queries lane, replies and authorBaseline not captured this run.",
+    "RSS: Dwarkesh HTTP 500; Simon Willison, One Useful Thing, Stratechery, Verge, Lenny, OpenAI fetched; MIT Tech Review, Benedict Evans, Gary Marcus, Mitchell Hashimoto, Atlantic, Metaplanet Google News not fetched; arXiv not fetched.",
+    "HN Algolia worked (>200 points, 24h).",
+    "Noisy: @elonmusk (non-AI posts dominate), @beffjezos (politics/memes), holiday banter from @poteto, @swyx, @ryancarson. @MengTo posted once in window; other frontierCapital handles had only non-AI/market posts."
+  ],
+  "candidates": [
+    {
+      "id": "karpathy-claude-civilization-us-map",
+      "lens": "practical",
+      "topic": "claude-long-run-build",
+      "summary": "Karpathy asked Claude (Opus 5.5) to build a Civilization-style US map from real data; 7 hours and 45K lines of code later it works, using 31 real public data sources reconciled onto one 25 km hex grid.",
+      "facts": [
+        "Sources named include Census, BEA, BLS, EIA, NOAA, USGS, DoD, NPS, FAA, FEMA, CDC",
+        "Post includes a demo video"
+      ],
+      "source": {
+        "name": "karpathy on X",
+        "url": "https://x.com/karpathy/status/2125779541952246039",
+        "type": "x",
+        "handle": "karpathy"
+      },
+      "publishedAt": "2026-11-26T02:31:52.000Z",
+      "metrics": {
+        "likes": 19349,
+        "reposts": 1621,
+        "replies": 1086,
+        "views": 1485095,
+        "capturedAt": "2026-11-26T17:29:09.978Z"
+      },
+      "care": 4,
+      "proof": 5,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "alexfinn-antigravity-neon-swarm",
+      "lens": "practical",
+      "topic": "antigravity-swarm",
+      "summary": "AlexFinn: Google Antigravity swarm launched 7 Gemini Neon agents on one problem; an orchestrator compares results and picks a winner. Steps: open the problem in Antigravity, choose the Neon model, type '/swarm' and describe the task.",
+      "facts": [
+        "Demo video attached",
+        "Author is testing system prompts for an agent he is building"
+      ],
+      "source": {
+        "name": "AlexFinn on X",
+        "url": "https://x.com/AlexFinn/status/2125706884023992374",
+        "type": "x",
+        "handle": "AlexFinn"
+      },
+      "publishedAt": "2026-11-25T21:43:09.000Z",
+      "metrics": {
+        "likes": 1421,
+        "reposts": 85,
+        "replies": 154,
+        "views": 102988,
+        "capturedAt": "2026-11-26T17:29:09.978Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "aravind-perplexity-time-machine",
+      "lens": "broad",
+      "topic": "perplexity-time-machine",
+      "summary": "Perplexity Time Machine shows a model the web as it was on any chosen date, so agents can be post-trained to predict the future. Live in Perplexity's Search and Context APIs.",
+      "source": {
+        "name": "AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2125707364053680383",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-25T21:45:03.000Z",
+      "metrics": {
+        "likes": 1920,
+        "reposts": 122,
+        "replies": 180,
+        "views": 225381,
+        "capturedAt": "2026-11-26T17:29:09.978Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "aravind-neon-doubles-usage-perplexity",
+      "lens": "broad",
+      "topic": "gemini-neon-adoption",
+      "summary": "Aravind Srinivas: Neon usage on Perplexity doubled day over day, 100B+ tokens in a single day, with no default model routing. Harness changes were merged to fix formatting issues.",
+      "source": {
+        "name": "AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2125816545897312752",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-26T04:58:54.000Z",
+      "metrics": {
+        "likes": 1031,
+        "reposts": 52,
+        "replies": 102,
+        "views": 45486,
+        "capturedAt": "2026-11-26T17:29:09.978Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "primeagen-google-worst-to-best",
+      "lens": "broad",
+      "topic": "gemini-neon-adoption",
+      "summary": "ThePrimeagen: 'Google going from the actual worst model to the best is insane and I haven't recovered emotionally.' Opinion with no benchmark attached.",
+      "source": {
+        "name": "ThePrimeagen on X",
+        "url": "https://x.com/ThePrimeagen/status/2125818313552932976",
+        "type": "x",
+        "handle": "ThePrimeagen"
+      },
+      "publishedAt": "2026-11-26T05:05:56.000Z",
+      "metrics": {
+        "likes": 6350,
+        "reposts": 142,
+        "replies": 239,
+        "views": 155581,
+        "capturedAt": "2026-11-26T17:29:09.978Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "rubenhassid-opus-presentation-prompt",
+      "lens": "practical",
+      "topic": "claude-presentation-prompt",
+      "summary": "Ruben Hassid shares a one-prompt method: pick Claude Opus 5.5 on High, paste a prompt asking for an 'intelligence explosion' presentation with graphics and transitions, add nothing else. Demo video attached.",
+      "source": {
+        "name": "rubenhassid on X",
+        "url": "https://x.com/rubenhassid/status/2125922524575707539",
+        "type": "x",
+        "handle": "rubenhassid"
+      },
+      "publishedAt": "2026-11-26T12:00:02.000Z",
+      "metrics": {
+        "likes": 39,
+        "reposts": 2,
+        "replies": 9,
+        "views": 6010,
+        "capturedAt": "2026-11-26T17:29:09.978Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "mengto-gpt62-astra-threejs-skills",
+      "lens": "design",
+      "topic": "agent-skills-3d",
+      "summary": "MengTo built an endless three.js motorcycle ride with GPT-6.2 Astra using parallax and fisheye camera tricks, and open-sourced the skills (Fisheye, Parallax, Particles & sky) on GitHub.",
+      "facts": [
+        "Skills repo: https://github.com/MengTo/Skills"
+      ],
+      "source": {
+        "name": "MengTo on X",
+        "url": "https://x.com/MengTo/status/2125995984400654658",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-26T16:51:56.000Z",
+      "metrics": {
+        "likes": 50,
+        "reposts": 2,
+        "replies": 13,
+        "views": 2576,
+        "capturedAt": "2026-11-26T17:29:09.978Z"
+      },
+      "care": 3,
+      "proof": 5,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "nous-hermes-obsidian-connector",
+      "lens": "practical",
+      "topic": "agent-memory-connectors",
+      "summary": "NousResearch: Hermes Agent can now control an Obsidian vault as a shared knowledge base via an official connector; notes stay local.",
+      "source": {
+        "name": "NousResearch on X",
+        "url": "https://x.com/NousResearch/status/2125989568721637578",
+        "type": "x",
+        "handle": "NousResearch"
+      },
+      "publishedAt": "2026-11-26T16:26:26.000Z",
+      "metrics": {
+        "likes": 367,
+        "reposts": 28,
+        "replies": 28,
+        "views": 18797,
+        "capturedAt": "2026-11-26T17:29:09.978Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "vitalik-open-source-chip-design",
+      "lens": "frontier-capital",
+      "topic": "open-source-chips",
+      "summary": "Vitalik Buterin published 'A shallow dive into open-source chip design' on his blog.",
+      "source": {
+        "name": "VitalikButerin on X",
+        "url": "https://x.com/VitalikButerin/status/2125826087129358766",
+        "type": "x",
+        "handle": "VitalikButerin"
+      },
+      "publishedAt": "2026-11-26T05:36:49.000Z",
+      "metrics": {
+        "likes": 1876,
+        "reposts": 210,
+        "replies": 182,
+        "views": 202716,
+        "capturedAt": "2026-11-26T17:29:09.978Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "hn-openai-gpt62-usage-limits-cut",
+      "lens": "practical",
+      "topic": "gpt62-usage-limits",
+      "summary": "HN (424 points): OpenAI cuts GPT-6.2 usage; Astra hits limits 40% faster, Sol 25% faster, per the linked post by thsottiaux.",
+      "source": {
+        "name": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50651117",
+        "type": "hn"
+      },
+      "related": [
+        {
+          "name": "thsottiaux on X",
+          "url": "https://twitter.com/thsottiaux/status/2125784147889393806"
+        }
+      ],
+      "publishedAt": "2026-11-26T17:29:09.978Z",
+      "metrics": {
+        "points": 424,
+        "capturedAt": "2026-11-26T17:29:09.978Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "hn-scott-aaronson-magnitude-of-whats-happening",
+      "lens": "broad",
+      "topic": "aaronson-post",
+      "summary": "HN (1861 points): Scott Aaronson blog post titled 'Holy shit holy shit holy shit holy shit: The magnitude of what's now happening'. Content not read this run.",
+      "source": {
+        "name": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50646108",
+        "type": "hn"
+      },
+      "related": [
+        {
+          "name": "Shtetl-Optimized",
+          "url": "https://scottaaronson.blog/?p=10379"
+        }
+      ],
+      "publishedAt": "2026-11-26T17:29:09.978Z",
+      "metrics": {
+        "points": 1861,
+        "capturedAt": "2026-11-26T17:29:09.978Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "lenny-gemini-4-neon-benchmark",
+      "lens": "practical",
+      "topic": "gemini-neon-adoption",
+      "summary": "Lenny Rachitsky: 'Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark.'",
+      "source": {
+        "name": "Lenny's Newsletter",
+        "url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-25T13:04:21.000Z",
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "stratechery-individual-exception",
+      "lens": "broad",
+      "topic": "stratechery-individual-exception",
+      "summary": "Stratechery, Nov 24: 'The Individual Exception'. Content not read this run.",
+      "source": {
+        "name": "Stratechery",
+        "url": "https://stratechery.com/2026/the-individual-exception/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-24T11:00:00.000Z",
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "verge-fcc-spacex-million-satellites",
+      "lens": "broad",
+      "topic": "space-data-centers",
+      "summary": "The Verge: FCC signs off on SpaceX's plan to put up to 1 million data center satellites into space.",
+      "source": {
+        "name": "The Verge AI",
+        "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-25T17:44:57.000Z",
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "openai-gpt6-protein-design",
+      "lens": "broad",
+      "topic": "gpt6-science",
+      "summary": "OpenAI blog, Nov 24: 'GPT-6 models demonstrate intrinsic protein-design capabilities'.",
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-24T13:00:00.000Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-26"
+    }
+  ]
+}
