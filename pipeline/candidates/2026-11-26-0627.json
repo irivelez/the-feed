@@ -1,0 +1,311 @@
+{
+ "schemaVersion": "1.1",
+ "runId": "2026-11-26-0627",
+ "generatedAt": "2026-11-26T11:27:49.363Z",
+ "configVersions": {
+  "sources": "1.3.0",
+  "preferences": "1.1.0"
+ },
+ "window": {
+  "from": "2026-11-25T12:00:00Z",
+  "to": "2026-11-26T11:27:49.363Z"
+ },
+ "sourceNotes": [
+  "X: 7 lane searches (howTo x3, bigPicture x3, frontierCapital+design x1) since 2026-11-25 12:00Z; queries lane, replies and authorBaseline not captured this run.",
+  "RSS: Simon Willison and One Useful Thing fetched, no relevant new item; Dwarkesh feed empty; Stratechery 403; other RSS, arXiv not refetched.",
+  "Hacker News Algolia returned 400 Bad Request.",
+  "Noisy: @elonmusk (non-AI), @claudeai Fable 5.2 showcase, @poteto/@theo holiday and telemetry banter. Design lane (@MengTo) had no post in window."
+ ],
+ "candidates": [
+  {
+   "id": "anthropic-messages-api-rust-migration",
+   "lens": "practical",
+   "topic": "anthropic-rust-migration",
+   "summary": "ClaudeDevs: new engineering blog on migrating the Claude Messages API from Python to Rust, using the existing Python service to verify the new one with teams of agents.",
+   "facts": [
+    "Same story posted by @AnthropicAI (https://x.com/AnthropicAI/status/2125627317263466739)"
+   ],
+   "source": {
+    "name": "ClaudeDevs on X",
+    "url": "https://x.com/ClaudeDevs/status/2125628717263372512",
+    "type": "x",
+    "handle": "ClaudeDevs"
+   },
+   "publishedAt": "2026-11-25T16:32:33.000Z",
+   "metrics": {
+    "likes": 5228,
+    "reposts": 225,
+    "replies": 148,
+    "views": 373107,
+    "capturedAt": "2026-11-26T11:27:49.363Z"
+   },
+   "care": 5,
+   "proof": 5
+  },
+  {
+   "id": "karpathy-claude-civ-map",
+   "lens": "practical",
+   "topic": "claude-long-run-build",
+   "summary": "Karpathy asked Claude to populate a Civilization-style game map with real US data; per his post it took 7 hours and 45K lines of code and uses 31 real data sources including Census, BEA, BLS, EIA, NOAA, USGS.",
+   "facts": [
+    "Post text truncated in the read after the source list"
+   ],
+   "source": {
+    "name": "karpathy on X",
+    "url": "https://x.com/karpathy/status/2125779541952246039",
+    "type": "x",
+    "handle": "karpathy"
+   },
+   "publishedAt": "2026-11-26T02:31:52.000Z",
+   "metrics": {
+    "likes": 14220,
+    "reposts": 1156,
+    "replies": 817,
+    "views": 901272,
+    "capturedAt": "2026-11-26T11:27:49.363Z"
+   },
+   "care": 4,
+   "proof": 4
+  },
+  {
+   "id": "antigravity-neon-swarm-orchestrator",
+   "lens": "practical",
+   "topic": "gemini-neon-swarm",
+   "summary": "AlexFinn: Google Antigravity spun up 7 Gemini Neon agents on one problem in his app, testing different architectures; an orchestrator compares results and picks a winner.",
+   "facts": [],
+   "source": {
+    "name": "AlexFinn on X",
+    "url": "https://x.com/AlexFinn/status/2125706884023992374",
+    "type": "x",
+    "handle": "AlexFinn"
+   },
+   "publishedAt": "2026-11-25T21:43:09.000Z",
+   "metrics": {
+    "likes": 1231,
+    "reposts": 72,
+    "replies": 126,
+    "views": 88265,
+    "capturedAt": "2026-11-26T11:27:49.363Z"
+   },
+   "care": 4,
+   "proof": 3
+  },
+  {
+   "id": "neon-swarm-math-vs-gpt",
+   "lens": "practical",
+   "topic": "gemini-neon-swarm",
+   "summary": "EMostaque: a Gemini Neon swarm outperformed GPT 6.2 Ultra on a tricky lean-formalised mathematics optimisation task.",
+   "facts": [
+    "Single anecdotal report"
+   ],
+   "source": {
+    "name": "EMostaque on X",
+    "url": "https://x.com/EMostaque/status/2125668439998271534",
+    "type": "x",
+    "handle": "EMostaque"
+   },
+   "publishedAt": "2026-11-25T19:10:23.000Z",
+   "metrics": {
+    "likes": 1203,
+    "reposts": 42,
+    "replies": 70,
+    "views": 40361,
+    "capturedAt": "2026-11-26T11:27:49.363Z"
+   },
+   "care": 3,
+   "proof": 2
+  },
+  {
+   "id": "neon-hill-climbing",
+   "lens": "practical",
+   "topic": "gemini-neon-swarm",
+   "summary": "systematicls: Neon is 'exceptional' at hill-climbing work; his guess is Google went all in on hill-climbing as a training objective, with smaller models distilled from a large internal model. Labeled as a guess.",
+   "facts": [],
+   "source": {
+    "name": "systematicls on X",
+    "url": "https://x.com/systematicls/status/2125678487625511008",
+    "type": "x",
+    "handle": "systematicls"
+   },
+   "publishedAt": "2026-11-25T19:50:19.000Z",
+   "metrics": {
+    "likes": 775,
+    "reposts": 23,
+    "replies": 17,
+    "views": 42767,
+    "capturedAt": "2026-11-26T11:27:49.363Z"
+   },
+   "care": 3,
+   "proof": 2
+  },
+  {
+   "id": "google-mcp-gog-cli-restriction",
+   "lens": "practical",
+   "topic": "google-mcp-cli",
+   "summary": "steipete: Google built an MCP and is now, per his post, forbidding CLIs like gog unless you pay more.",
+   "facts": [
+    "Links to a source in the post; not independently verified"
+   ],
+   "source": {
+    "name": "steipete on X",
+    "url": "https://x.com/steipete/status/2125654555262431248",
+    "type": "x",
+    "handle": "steipete"
+   },
+   "publishedAt": "2026-11-25T18:15:13.000Z",
+   "metrics": {
+    "likes": 1186,
+    "reposts": 48,
+    "replies": 135,
+    "views": 92478,
+    "capturedAt": "2026-11-26T11:27:49.363Z"
+   },
+   "care": 4,
+   "proof": 2
+  },
+  {
+   "id": "theo-t3-code-telemetry-statement",
+   "lens": "practical",
+   "topic": "t3-code-data",
+   "summary": "Theo's 'final statement': T3 Code has never sold data or uploaded files, prompts, responses, emails, user IDs, file paths or any inputs/outputs.",
+   "facts": [
+    "Response to an ongoing data-collection dispute"
+   ],
+   "source": {
+    "name": "theo on X",
+    "url": "https://x.com/theo/status/2125700717935841479",
+    "type": "x",
+    "handle": "theo"
+   },
+   "publishedAt": "2026-11-25T21:18:39.000Z",
+   "metrics": {
+    "likes": 4673,
+    "reposts": 105,
+    "replies": 255,
+    "views": 277642,
+    "capturedAt": "2026-11-26T11:27:49.363Z"
+   },
+   "care": 3,
+   "proof": 3
+  },
+  {
+   "id": "perplexity-time-machine",
+   "lens": "broad",
+   "topic": "perplexity-time-machine",
+   "summary": "Perplexity Time Machine shows a model the web as it was on any chosen date, to post-train agents to predict the future. Live in Search and Context APIs.",
+   "facts": [],
+   "source": {
+    "name": "AravSrinivas on X",
+    "url": "https://x.com/AravSrinivas/status/2125707364053680383",
+    "type": "x",
+    "handle": "AravSrinivas"
+   },
+   "publishedAt": "2026-11-25T21:45:03.000Z",
+   "metrics": {
+    "likes": 1575,
+    "reposts": 94,
+    "replies": 160,
+    "views": 171372,
+    "capturedAt": "2026-11-26T11:27:49.363Z"
+   },
+   "care": 4,
+   "proof": 4
+  },
+  {
+   "id": "openai-private-inference",
+   "lens": "broad",
+   "topic": "openai-private-inference",
+   "summary": "sama: OpenAI is testing Private Inference, part of OpenAI Private Intelligence, with a small group of customers, citing stronger privacy protections for business use.",
+   "facts": [],
+   "source": {
+    "name": "sama on X",
+    "url": "https://x.com/sama/status/2125638790593274259",
+    "type": "x",
+    "handle": "sama"
+   },
+   "publishedAt": "2026-11-25T17:12:34.000Z",
+   "metrics": {
+    "likes": 8711,
+    "reposts": 466,
+    "replies": 970,
+    "views": 1138576,
+    "capturedAt": "2026-11-26T11:27:49.363Z"
+   },
+   "care": 4,
+   "proof": 4
+  },
+  {
+   "id": "dario-free-will-response",
+   "lens": "broad",
+   "topic": "ai-governance-debate",
+   "summary": "DarioAmodei: says he does not believe humans should 'surrender human free will' to AI systems and that AI should be governed by legitimate democratic processes.",
+   "facts": [],
+   "source": {
+    "name": "DarioAmodei on X",
+    "url": "https://x.com/DarioAmodei/status/2125656399392690605",
+    "type": "x",
+    "handle": "DarioAmodei"
+   },
+   "publishedAt": "2026-11-25T18:22:33.000Z",
+   "metrics": {
+    "likes": 18417,
+    "reposts": 1978,
+    "replies": 4759,
+    "views": 7412747,
+    "capturedAt": "2026-11-26T11:27:49.363Z"
+   },
+   "care": 3,
+   "proof": 3
+  },
+  {
+   "id": "garry-bostrom-clip",
+   "lens": "broad",
+   "topic": "superintelligence-debate",
+   "summary": "garrytan highlights a Nick Bostrom clip inverting 'if anyone builds it everyone dies' to 'if nobody builds it everyone dies', with superintelligence extending lives to 1200-1400 years per the post.",
+   "facts": [
+    "Claim is Bostrom's as described in the post"
+   ],
+   "source": {
+    "name": "garrytan on X",
+    "url": "https://x.com/garrytan/status/2125580632814412155",
+    "type": "x",
+    "handle": "garrytan"
+   },
+   "publishedAt": "2026-11-25T13:21:28.000Z",
+   "metrics": {
+    "likes": 2043,
+    "reposts": 257,
+    "replies": 193,
+    "views": 394046,
+    "capturedAt": "2026-11-26T11:27:49.363Z"
+   },
+   "care": 2,
+   "proof": 2
+  },
+  {
+   "id": "vitalik-open-source-chip-design",
+   "lens": "frontier-capital",
+   "topic": "open-source-chips",
+   "summary": "VitalikButerin published 'A shallow dive into open-source chip design' (link post).",
+   "facts": [
+    "Link-only post; article content not read"
+   ],
+   "source": {
+    "name": "VitalikButerin on X",
+    "url": "https://x.com/VitalikButerin/status/2125826087129358766",
+    "type": "x",
+    "handle": "VitalikButerin"
+   },
+   "publishedAt": "2026-11-26T05:36:49.000Z",
+   "metrics": {
+    "likes": 1313,
+    "reposts": 131,
+    "replies": 150,
+    "views": 144589,
+    "capturedAt": "2026-11-26T11:27:49.363Z"
+   },
+   "care": 2,
+   "proof": 2
+  }
+ ]
+}
