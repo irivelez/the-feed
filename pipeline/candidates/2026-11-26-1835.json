@@ -1,0 +1,365 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-26-1835",
+  "generatedAt": "2026-11-26T23:35:39.136Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-26T03:35:07.104Z",
+    "to": "2026-11-26T23:35:39.136Z"
+  },
+  "sourceNotes": [
+    "X: 7 lane searches (howTo x3, bigPicture x3, frontierCapital+design x1), 20h window, relevancy sort, plus 1 post lookup; queries lane, replies and authorBaseline not captured this run.",
+    "Thanksgiving day: lanes dominated by holiday posts and non-AI posts; few substantive items.",
+    "RSS: Simon Willison, Verge, OpenAI, One Useful Thing (no recent posts), Stratechery fetched; Dwarkesh HTTP 500; other feeds, arXiv not fetched.",
+    "HN Algolia returned HTTP 400 Bad Request; HN not covered.",
+    "Noisy: @elonmusk (non-AI posts), @beffjezos (politics/memes), @systematicls, @ycombinator and @RayDalio holiday posts."
+  ],
+  "candidates": [
+    {
+      "id": "aravind-neon-doubled-usage",
+      "lens": "broad",
+      "topic": "gemini-neon",
+      "summary": "Aravind Srinivas: Gemini Neon usage on Perplexity has doubled day over day with no default model routing, doing 100B+ tokens in a single day. Harness improvements were merged to fix earlier formatting issues.",
+      "facts": [
+        "Post quotes an earlier post"
+      ],
+      "source": {
+        "name": "AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2125816545897312752",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-26T04:58:54.000Z",
+      "metrics": {
+        "likes": 1190,
+        "reposts": 58,
+        "replies": 108,
+        "views": 53077,
+        "capturedAt": "2026-11-26T23:35:39.136Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "nous-hermes-obsidian-connector",
+      "lens": "practical",
+      "topic": "hermes-obsidian",
+      "summary": "NousResearch: Hermes Agent can now control an Obsidian vault as a shared knowledge base via the official connector. Notes stay local and private.",
+      "facts": [
+        "Post includes a link and media"
+      ],
+      "source": {
+        "name": "NousResearch on X",
+        "url": "https://x.com/NousResearch/status/2125989568721637578",
+        "type": "x",
+        "handle": "NousResearch"
+      },
+      "publishedAt": "2026-11-26T16:26:26.000Z",
+      "metrics": {
+        "likes": 1367,
+        "reposts": 92,
+        "replies": 57,
+        "views": 69123,
+        "capturedAt": "2026-11-26T23:35:39.136Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "gregisenberg-claude-jeep-ecu",
+      "lens": "practical",
+      "topic": "claude-hardware-diagnosis",
+      "summary": "Greg Isenberg shares a case: a man let Claude read his 1994 Jeep's engine computer through a $3 chip; it found why the car kept failing smog and he says it passed. About $15 in parts, free on GitHub.",
+      "facts": [
+        "Post includes a 67s video",
+        "Outcome is self-reported"
+      ],
+      "source": {
+        "name": "gregisenberg on X",
+        "url": "https://x.com/gregisenberg/status/2126004403052445733",
+        "type": "x",
+        "handle": "gregisenberg"
+      },
+      "publishedAt": "2026-11-26T17:25:23.000Z",
+      "metrics": {
+        "likes": 1083,
+        "reposts": 100,
+        "replies": 122,
+        "views": 85759,
+        "capturedAt": "2026-11-26T23:35:39.136Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "amasad-gemini4-replit",
+      "lens": "practical",
+      "topic": "gemini-4",
+      "summary": "Amjad Masad: 'Google really cooked with Gemini 4. Take them for a ride on Replit!' Gemini 4 is available in Replit.",
+      "facts": [],
+      "source": {
+        "name": "amasad on X",
+        "url": "https://x.com/amasad/status/2126018746884243652",
+        "type": "x",
+        "handle": "amasad"
+      },
+      "publishedAt": "2026-11-26T18:22:23.000Z",
+      "metrics": {
+        "likes": 347,
+        "reposts": 9,
+        "replies": 43,
+        "views": 16011,
+        "capturedAt": "2026-11-26T23:35:39.136Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "primeagen-google-best-model",
+      "lens": "broad",
+      "topic": "gemini-4",
+      "summary": "ThePrimeagen: 'Google going from the actual worst model to the best is insane and I haven't recovered emotionally.'",
+      "facts": [],
+      "source": {
+        "name": "ThePrimeagen on X",
+        "url": "https://x.com/ThePrimeagen/status/2125818313552932976",
+        "type": "x",
+        "handle": "ThePrimeagen"
+      },
+      "publishedAt": "2026-11-26T05:05:56.000Z",
+      "metrics": {
+        "likes": 8395,
+        "reposts": 180,
+        "replies": 271,
+        "views": 222856,
+        "capturedAt": "2026-11-26T23:35:39.136Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "rubenhassid-claude-settings",
+      "lens": "practical",
+      "topic": "claude-settings",
+      "summary": "Ruben Hassid posts a 57-second video listing Claude settings to switch on; setting 1 is to use the Claude desktop app instead of the browser.",
+      "facts": [
+        "Video post"
+      ],
+      "source": {
+        "name": "rubenhassid on X",
+        "url": "https://x.com/rubenhassid/status/2125831929027256631",
+        "type": "x",
+        "handle": "rubenhassid"
+      },
+      "publishedAt": "2026-11-26T06:00:02.000Z",
+      "metrics": {
+        "likes": 300,
+        "reposts": 22,
+        "replies": 21,
+        "views": 26003,
+        "capturedAt": "2026-11-26T23:35:39.136Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "swyx-saas-refounding",
+      "lens": "broad",
+      "topic": "saas-refounding",
+      "summary": "swyx: more SaaS founders with decade-plus-old companies are having to refound them, which he says is forcing a reckoning with lazy lock-in business models.",
+      "facts": [
+        "Quotes another post"
+      ],
+      "source": {
+        "name": "swyx on X",
+        "url": "https://x.com/swyx/status/2125969097276178943",
+        "type": "x",
+        "handle": "swyx"
+      },
+      "publishedAt": "2026-11-26T15:05:06.000Z",
+      "metrics": {
+        "likes": 459,
+        "reposts": 19,
+        "replies": 185,
+        "views": 40072,
+        "capturedAt": "2026-11-26T23:35:39.136Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "sama-ven-millennium-prize",
+      "lens": "broad",
+      "topic": "ai-math-proofs",
+      "summary": "Sam Altman: Ven was among the earliest believers that the then-current model could be used to solve millennium prize problems.",
+      "facts": [
+        "Quotes another post"
+      ],
+      "source": {
+        "name": "sama on X",
+        "url": "https://x.com/sama/status/2125990371897557278",
+        "type": "x",
+        "handle": "sama"
+      },
+      "publishedAt": "2026-11-26T16:29:38.000Z",
+      "metrics": {
+        "likes": 5674,
+        "reposts": 244,
+        "replies": 352,
+        "views": 418396,
+        "capturedAt": "2026-11-26T23:35:39.136Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "mengto-threejs-skills-open-sourced",
+      "lens": "practical",
+      "topic": "design-skills",
+      "summary": "Meng To built an endless three.js motorcycle ride with GPT-6.2 Astra using parallax and fisheye camera tricks, and open-sourced the Skills used: Fisheye, Parallax, Particles & sky.",
+      "facts": [
+        "Post includes a 40s video and links to each skill"
+      ],
+      "source": {
+        "name": "MengTo on X",
+        "url": "https://x.com/MengTo/status/2125995984400654658",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-26T16:51:56.000Z",
+      "metrics": {
+        "likes": 1663,
+        "reposts": 127,
+        "replies": 55,
+        "views": 65453,
+        "capturedAt": "2026-11-26T23:35:39.136Z"
+      },
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "emostaque-dot-product-axioms-lean",
+      "lens": "broad",
+      "topic": "ai-math-proofs",
+      "summary": "Emad Mostaque: every axiom of quantum mechanics and special relativity derived from one axiom (the dot product) using the axiomatic method, in 4 pages, proved in Lean. Includes a 378s video.",
+      "facts": [
+        "Claim is the poster's; not independently checked"
+      ],
+      "source": {
+        "name": "EMostaque on X",
+        "url": "https://x.com/EMostaque/status/2126045673581957242",
+        "type": "x",
+        "handle": "EMostaque"
+      },
+      "publishedAt": "2026-11-26T20:09:23.000Z",
+      "metrics": {
+        "likes": 517,
+        "reposts": 44,
+        "replies": 45,
+        "views": 60053,
+        "capturedAt": "2026-11-26T23:35:39.136Z"
+      },
+      "care": 2,
+      "proof": 3,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "vitalik-open-source-chip-design",
+      "lens": "frontier-capital",
+      "topic": "open-hardware",
+      "summary": "Vitalik Buterin posted 'A shallow dive into open-source chip design' with a link to the write-up.",
+      "facts": [
+        "Post links to a long-form piece"
+      ],
+      "source": {
+        "name": "VitalikButerin on X",
+        "url": "https://x.com/VitalikButerin/status/2125826087129358766",
+        "type": "x",
+        "handle": "VitalikButerin"
+      },
+      "publishedAt": "2026-11-26T05:36:49.000Z",
+      "metrics": {
+        "likes": 2168,
+        "reposts": 253,
+        "replies": 188,
+        "views": 238199,
+        "capturedAt": "2026-11-26T23:35:39.136Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "tavicosta-gold-miners-ratio",
+      "lens": "frontier-capital",
+      "topic": "gold-miners",
+      "summary": "Tavi Costa: the gold miners-to-gold ratio fell consistently in the bear market after the 2011 peak; today miners are outperforming the metal despite a correction.",
+      "facts": [
+        "Post includes a chart"
+      ],
+      "source": {
+        "name": "TaviCosta on X",
+        "url": "https://x.com/TaviCosta/status/2126000404085232056",
+        "type": "x",
+        "handle": "TaviCosta"
+      },
+      "publishedAt": "2026-11-26T17:09:30.000Z",
+      "metrics": {
+        "likes": 379,
+        "reposts": 52,
+        "replies": 32,
+        "views": 22298,
+        "capturedAt": "2026-11-26T23:35:39.136Z"
+      },
+      "care": 2,
+      "proof": 3,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "simonw-sqlite3-rsync",
+      "lens": "practical",
+      "topic": "sqlite-rsync",
+      "summary": "Simon Willison wrote about sqlite3_rsync, a remote-copy tool for SQLite databases.",
+      "facts": [],
+      "source": {
+        "name": "Simon Willison's Weblog",
+        "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-26T06:08:25.000Z",
+      "care": 2,
+      "proof": 3,
+      "firstSeen": "2026-11-26"
+    },
+    {
+      "id": "openai-gpt6-protein-design",
+      "lens": "broad",
+      "topic": "openai-science",
+      "summary": "OpenAI blog post: GPT-6 models demonstrate intrinsic protein design capabilities.",
+      "facts": [
+        "Published 2026-11-24"
+      ],
+      "source": {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+        "type": "rss"
+      },
+      "publishedAt": "2026-11-24T13:00:00.000Z",
+      "care": 3,
+      "proof": 4,
+      "firstSeen": "2026-11-24"
+    }
+  ]
+}
