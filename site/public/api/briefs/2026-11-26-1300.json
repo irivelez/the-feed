@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-26-1300",
+  "date": "2026-11-26",
+  "publishedAt": "2026-11-26T18:07:53Z",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "aravind-neon-doubles-usage-perplexity",
+      "headline": "Gemini Neon usage on Perplexity doubled in one day",
+      "whyItMatters": "Model leadership is shifting fast; avoid locking contracts to one provider."
+    },
+    {
+      "itemId": "openai-gpt62-usage-limits-cut",
+      "headline": "OpenAI tightens GPT-6.2 limits; Astra users hit caps 40% faster",
+      "whyItMatters": "AI seat value can change without notice; budget with headroom and a backup vendor."
+    },
+    {
+      "itemId": "nous-hermes-obsidian-connector",
+      "headline": "Hermes Agent gets an official Obsidian connector for local shared memory",
+      "whyItMatters": "Agents that read your own notes locally cut privacy risk in knowledge work."
+    }
+  ],
+  "items": [
+    {
+      "id": "openai-gpt62-usage-limits-cut",
+      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster",
+      "takeaway": "Per the linked post by thsottiaux, Sol limits also arrive 25% sooner; the HN thread drew 424 points.",
+      "soWhat": "Seat plans can shrink overnight; track real usage per team before committing to one vendor.",
+      "lens": "practical",
+      "momentum": "new",
+      "source": {
+        "name": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50651117"
+      },
+      "related": [
+        {
+          "name": "@thsottiaux on X",
+          "url": "https://twitter.com/thsottiaux/status/2125784147889393806"
+        }
+      ],
+      "publishedAt": "2026-11-26T17:29:09.978Z",
+      "importance": 7,
+      "image": {
+        "src": "/img/openai-gpt62-usage-limits-cut.jpg",
+        "alt": "Profile image of @thsottiaux"
+      }
+    },
+    {
+      "id": "mengto-gpt62-astra-threejs-skills",
+      "title": "MengTo open-sources three.js skills behind a GPT-6.2 Astra build",
+      "takeaway": "He built an endless motorcycle ride with parallax and fisheye camera tricks, and shared the skills on GitHub.",
+      "soWhat": "Reusable skill files let design teams hand agents proven visual techniques instead of starting from scratch.",
+      "lens": "design",
+      "momentum": "building",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2125995984400654658"
+      },
+      "related": [
+        {
+          "name": "MengTo/Skills on GitHub",
+          "url": "https://github.com/MengTo/Skills"
+        }
+      ],
+      "publishedAt": "2026-11-26T16:51:56.000Z",
+      "importance": 5,
+      "image": {
+        "src": "/img/mengto-gpt62-astra-threejs-skills.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "3k views"
+      }
+    },
+    {
+      "id": "nous-hermes-obsidian-connector",
+      "title": "Hermes Agent can now run an Obsidian vault as shared memory",
+      "takeaway": "NousResearch shipped an official connector; notes stay local.",
+      "soWhat": "Local knowledge bases give agents context without sending your notes to a vendor's cloud.",
+      "lens": "practical",
+      "momentum": "new",
+      "source": {
+        "name": "@NousResearch on X",
+        "url": "https://x.com/NousResearch/status/2125989568721637578"
+      },
+      "publishedAt": "2026-11-26T16:26:26.000Z",
+      "importance": 6,
+      "image": {
+        "src": "/img/nous-hermes-obsidian-connector.jpg",
+        "alt": "Image from @NousResearch on X"
+      },
+      "heat": {
+        "score": 10,
+        "level": "none",
+        "metric": "19k views"
+      }
+    },
+    {
+      "id": "rubenhassid-opus-presentation-prompt",
+      "title": "Ruben Hassid builds a full presentation from one Claude Opus prompt",
+      "takeaway": "He selects Opus 5.5 on High, pastes one prompt asking for graphics and transitions, and adds nothing else.",
+      "soWhat": "First drafts of decks now take one prompt; the editing is where your team adds value.",
+      "lens": "practical",
+      "momentum": "new",
+      "source": {
+        "name": "@rubenhassid on X",
+        "url": "https://x.com/rubenhassid/status/2125922524575707539"
+      },
+      "publishedAt": "2026-11-26T12:00:02.000Z",
+      "importance": 4,
+      "image": {
+        "src": "/img/rubenhassid-opus-presentation-prompt.jpg",
+        "alt": "Image from @rubenhassid on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "6k views"
+      }
+    },
+    {
+      "id": "aravind-neon-doubles-usage-perplexity",
+      "title": "Gemini Neon usage on Perplexity doubled in a day, past 100B tokens",
+      "takeaway": "Aravind Srinivas says this came with no default model routing; harness changes fixed formatting issues.",
+      "soWhat": "Users are choosing Google's model on their own; revisit model defaults in your AI stack.",
+      "lens": "broad",
+      "momentum": "building",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2125816545897312752"
+      },
+      "publishedAt": "2026-11-26T04:58:54.000Z",
+      "importance": 8,
+      "image": {
+        "src": "/img/aravind-neon-doubles-usage-perplexity.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 37,
+        "level": "none",
+        "metric": "45k views",
+        "voices": 3
+      }
+    },
+    {
+      "id": "verge-fcc-spacex-million-satellites",
+      "title": "FCC approves SpaceX plan for up to 1 million data center satellites",
+      "takeaway": "The Verge reports the FCC signed off on SpaceX's plan to put data centers into orbit.",
+      "soWhat": "Compute supply may move to orbit; watch who controls that capacity when planning long-term AI costs.",
+      "lens": "broad",
+      "momentum": "new",
+      "source": {
+        "name": "The Verge",
+        "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+      },
+      "publishedAt": "2026-11-25T17:44:57.000Z",
+      "importance": 5,
+      "image": {
+        "src": "/img/verge-fcc-spacex-million-satellites.jpg",
+        "alt": "Image from The Verge"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@ThePrimeagen",
+      "quote": "Google going from the actual worst model to the best is insane and I haven't recovered emotionally.",
+      "url": "https://x.com/ThePrimeagen/status/2125818313552932976"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/karpathy/status/2125779541952246039",
+      "handle": "@karpathy",
+      "text": "Asked Claude to build a Civilization-style US map from real data: 7 hours, 45K lines of code, 31 data sources.",
+      "metric": "19,349 likes",
+      "note": "A concrete view of how long and large one agent build can now run."
+    },
+    {
+      "url": "https://x.com/ThePrimeagen/status/2125818313552932976",
+      "handle": "@ThePrimeagen",
+      "text": "Google going from the actual worst model to the best is insane and I haven't recovered emotionally.",
+      "metric": "6,350 likes",
+      "note": "A popular developer voice captures the swing in sentiment toward Google's models."
+    },
+    {
+      "url": "https://x.com/AravSrinivas/status/2125707364053680383",
+      "handle": "@AravSrinivas",
+      "text": "Perplexity Time Machine shows a model the web as it was on any date, so agents can be trained to predict the future.",
+      "metric": "1,920 likes",
+      "note": "A new way to train forecasting agents, already live in Perplexity's APIs."
+    },
+    {
+      "url": "https://x.com/VitalikButerin/status/2125826087129358766",
+      "handle": "@VitalikButerin",
+      "text": "Published 'A shallow dive into open-source chip design' on his blog.",
+      "metric": "1,876 likes",
+      "note": "A widely read founder looks at open hardware, a lever on AI chip supply."
+    },
+    {
+      "url": "https://x.com/AlexFinn/status/2125706884023992374",
+      "handle": "@AlexFinn",
+      "text": "Google Antigravity swarm: 7 Gemini Neon agents attack one problem; an orchestrator picks the winner.",
+      "metric": "1,421 likes",
+      "note": "Parallel agents in a mainstream coding tool show quality bought with compute."
+    }
+  ]
+}
