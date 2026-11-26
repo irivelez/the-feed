@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-26-0700",
+  "date": "2026-11-26",
+  "publishedAt": "2026-11-26T12:05:37Z",
+  "edition": "Morning",
+  "top3": [
+    {
+      "itemId": "karpathy-claude-civ-map",
+      "headline": "Claude spent 7 hours building Karpathy a 45K-line US data map",
+      "whyItMatters": "Multi-hour agent runs now deliver large builds; scope agent tasks bigger and longer."
+    },
+    {
+      "itemId": "antigravity-neon-swarm-orchestrator",
+      "headline": "Google Antigravity runs 7 Gemini Neon agents and keeps the best result",
+      "whyItMatters": "Parallel attempts trade compute for quality; budget for it when choosing coding tools."
+    },
+    {
+      "itemId": "steipete-google-mcp-cli-restriction",
+      "headline": "Steipete says Google now blocks CLIs like gog unless you pay more",
+      "whyItMatters": "Agent access rules can shift with pricing; keep a fallback for every critical integration."
+    }
+  ],
+  "items": [
+    {
+      "id": "vitalik-open-source-chip-design",
+      "title": "Vitalik Buterin publishes a shallow dive into open-source chip design",
+      "takeaway": "A link post to his new essay, 'A shallow dive into open-source chip design'.",
+      "soWhat": "An investor-founder's view on open hardware, useful context if chip supply shapes your AI plans.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "source": {
+        "name": "@VitalikButerin on X",
+        "url": "https://x.com/VitalikButerin/status/2125826087129358766"
+      },
+      "publishedAt": "2026-11-26T05:36:49.000Z",
+      "importance": 3,
+      "image": {
+        "src": "/img/vitalik-open-source-chip-design.jpg",
+        "alt": "Profile image of @VitalikButerin"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "145k views"
+      }
+    },
+    {
+      "id": "karpathy-claude-civ-map",
+      "title": "Karpathy: Claude built a Civ-style US map from 31 data sources",
+      "takeaway": "Per his post, the run took 7 hours and 45K lines of code, using Census, BEA, BLS, EIA, NOAA and USGS data.",
+      "soWhat": "Agent runs now last hours and can turn public datasets into sizable software projects.",
+      "lens": "practical",
+      "momentum": "new",
+      "source": {
+        "name": "@karpathy on X",
+        "url": "https://x.com/karpathy/status/2125779541952246039"
+      },
+      "publishedAt": "2026-11-26T02:31:52.000Z",
+      "importance": 8,
+      "image": {
+        "src": "/img/karpathy-claude-civ-map.jpg",
+        "alt": "Image from @karpathy on X"
+      },
+      "heat": {
+        "score": 36,
+        "level": "none",
+        "metric": "901k views"
+      }
+    },
+    {
+      "id": "antigravity-neon-swarm-orchestrator",
+      "title": "Google Antigravity pits 7 Gemini Neon agents against one problem",
+      "takeaway": "Alex Finn says each agent tried a different architecture in his app; an orchestrator compared results and picked a winner.",
+      "soWhat": "Running several attempts and keeping the best one is now a built-in coding tool pattern.",
+      "lens": "practical",
+      "momentum": "building",
+      "source": {
+        "name": "@AlexFinn on X",
+        "url": "https://x.com/AlexFinn/status/2125706884023992374"
+      },
+      "related": [
+        {
+          "name": "@EMostaque on X",
+          "url": "https://x.com/EMostaque/status/2125668439998271534"
+        }
+      ],
+      "publishedAt": "2026-11-25T21:43:09.000Z",
+      "importance": 7,
+      "image": {
+        "src": "/img/antigravity-neon-swarm-orchestrator.jpg",
+        "alt": "Image from @AlexFinn on X"
+      },
+      "heat": {
+        "score": 39,
+        "level": "none",
+        "metric": "88k views",
+        "voices": 3
+      }
+    },
+    {
+      "id": "steipete-google-mcp-cli-restriction",
+      "title": "Steipete says Google now blocks CLIs like gog unless you pay more",
+      "takeaway": "Per his post, Google built its own MCP and now forbids command-line tools like gog unless users pay more. Not independently verified.",
+      "soWhat": "Platform access for agents can change with pricing; avoid building core workflows on one unofficial path.",
+      "lens": "practical",
+      "momentum": "new",
+      "source": {
+        "name": "@steipete on X",
+        "url": "https://x.com/steipete/status/2125654555262431248"
+      },
+      "publishedAt": "2026-11-25T18:15:13.000Z",
+      "importance": 5,
+      "image": {
+        "src": "/img/steipete-google-mcp-cli-restriction.jpg",
+        "alt": "Image from @steipete on X"
+      },
+      "heat": {
+        "score": 18,
+        "level": "none",
+        "metric": "92k views"
+      }
+    },
+    {
+      "id": "garrytan-bostrom-nobody-builds-it",
+      "title": "Garry Tan shares Bostrom: if nobody builds superintelligence, everyone dies",
+      "takeaway": "The clip inverts the 'if anyone builds it' warning; Bostrom says superintelligence could extend lives to 1,200-1,400 years, per the post.",
+      "soWhat": "The safety debate has a clear pro-building side too; expect both framings in board discussions.",
+      "lens": "broad",
+      "momentum": "new",
+      "source": {
+        "name": "@garrytan on X",
+        "url": "https://x.com/garrytan/status/2125580632814412155"
+      },
+      "publishedAt": "2026-11-25T13:21:28.000Z",
+      "importance": 3,
+      "image": {
+        "src": "/img/garrytan-bostrom-nobody-builds-it.jpg",
+        "alt": "Image from @garrytan on X"
+      },
+      "heat": {
+        "score": 23,
+        "level": "none",
+        "metric": "394k views"
+      }
+    }
+  ],
+  "voices": [],
+  "hotOnX": [
+    {
+      "url": "https://x.com/DarioAmodei/status/2125656399392690605",
+      "handle": "@DarioAmodei",
+      "text": "Humans should not \"surrender human free will\" to AI systems; AI should be governed by legitimate democratic processes.",
+      "metric": "18,417 likes",
+      "note": "A lab CEO drawing public lines on AI autonomy and governance."
+    },
+    {
+      "url": "https://x.com/karpathy/status/2125779541952246039",
+      "handle": "@karpathy",
+      "text": "Asked Claude to fill a Civilization-style map with real US data: 7 hours, 45K lines of code, 31 data sources.",
+      "metric": "14,220 likes",
+      "note": "A concrete look at how long and large one agent build can run."
+    },
+    {
+      "url": "https://x.com/sama/status/2125638790593274259",
+      "handle": "@sama",
+      "text": "OpenAI is testing Private Inference, part of OpenAI Private Intelligence, with a small group of customers.",
+      "metric": "8,711 likes",
+      "note": "Business buyers want stronger privacy before moving sensitive work to AI."
+    },
+    {
+      "url": "https://x.com/ClaudeDevs/status/2125628717263372512",
+      "handle": "@ClaudeDevs",
+      "text": "New engineering blog: how the Claude Messages API moved from Python to Rust, verified with teams of agents.",
+      "metric": "5,228 likes",
+      "note": "Builders want the playbook behind agent-verified migrations."
+    },
+    {
+      "url": "https://x.com/theo/status/2125700717935841479",
+      "handle": "@theo",
+      "text": "T3 Code has never sold data or uploaded files, prompts, responses, emails, user IDs or file paths.",
+      "metric": "4,673 likes",
+      "note": "Developers weigh how much telemetry their coding tools send."
+    }
+  ]
+}

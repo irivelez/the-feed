@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-25-1900",
-  "count": 100,
+  "latest": "2026-11-26-0700",
+  "count": 101,
   "briefs": [
+    {
+      "id": "2026-11-26-0700",
+      "date": "2026-11-26",
+      "edition": "Morning",
+      "publishedAt": "2026-11-26T12:05:37Z",
+      "headline": "Claude spent 7 hours building Karpathy a 45K-line US data map",
+      "url": "/api/briefs/2026-11-26-0700.json"
+    },
     {
       "id": "2026-11-25-1900",
       "date": "2026-11-25",
