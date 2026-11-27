@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-26-1900",
+  "date": "2026-11-26",
+  "publishedAt": "2026-11-27T00:08:41Z",
+  "edition": "Evening",
+  "top3": [
+    {
+      "itemId": "swyx-saas-refounding",
+      "headline": "swyx: decade-old SaaS founders are being forced to refound their companies",
+      "whyItMatters": "Lock-in is weakening as a moat; check what keeps your customers if switching gets cheap."
+    },
+    {
+      "itemId": "primeagen-google-best-model",
+      "headline": "ThePrimeagen: Google went from the worst model to the best",
+      "whyItMatters": "Model rankings now flip within months; keep your AI stack able to switch vendors."
+    },
+    {
+      "itemId": "gregisenberg-claude-jeep-ecu",
+      "headline": "Claude read a 1994 Jeep's engine computer and found the smog fault",
+      "whyItMatters": "Agents are reaching physical machines through cheap parts; diagnostics work is next to change."
+    }
+  ],
+  "items": [
+    {
+      "id": "emostaque-dot-product-axioms-lean",
+      "title": "Emad Mostaque claims physics axioms derived from one axiom, proved in Lean",
+      "takeaway": "His claim, not independently checked: quantum mechanics and special relativity from the dot product, in 4 pages.",
+      "soWhat": "AI-assisted formal proofs keep arriving; treat bold claims as unverified until experts check them.",
+      "lens": "broad",
+      "momentum": "building",
+      "source": {
+        "name": "@EMostaque on X",
+        "url": "https://x.com/EMostaque/status/2126045673581957242"
+      },
+      "publishedAt": "2026-11-26T20:09:00.000Z",
+      "importance": 4,
+      "image": {
+        "src": "/img/emostaque-dot-product-axioms-lean.jpg",
+        "alt": "Image from @EMostaque on X"
+      },
+      "heat": {
+        "score": 23,
+        "level": "none",
+        "metric": "60k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "amasad-gemini4-replit",
+      "title": "Amjad Masad: Gemini 4 is now available in Replit",
+      "takeaway": "Replit's CEO says Google really cooked with Gemini 4 and invites users to try it.",
+      "soWhat": "Build platforms add new models within days; your teams can test alternatives without new contracts.",
+      "lens": "practical",
+      "momentum": "shift",
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2126018746884243652"
+      },
+      "publishedAt": "2026-11-26T18:22:00.000Z",
+      "importance": 5,
+      "image": {
+        "src": "/img/amasad-gemini4-replit.jpg",
+        "alt": "Image from @amasad on X"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "16k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "gregisenberg-claude-jeep-ecu",
+      "title": "Claude read a 1994 Jeep's engine computer and found the smog fault",
+      "takeaway": "Shared by Greg Isenberg: a $3 chip, about $15 in parts, code free on GitHub; the pass is self-reported.",
+      "soWhat": "Cheap hardware plus an agent turns expert diagnostics into a weekend project.",
+      "lens": "practical",
+      "momentum": "new",
+      "source": {
+        "name": "@gregisenberg on X",
+        "url": "https://x.com/gregisenberg/status/2126004403052445733"
+      },
+      "publishedAt": "2026-11-26T17:25:00.000Z",
+      "importance": 6,
+      "image": {
+        "src": "/img/gregisenberg-claude-jeep-ecu.jpg",
+        "alt": "Image from @gregisenberg on X"
+      },
+      "heat": {
+        "score": 18,
+        "level": "none",
+        "metric": "86k views"
+      }
+    },
+    {
+      "id": "tavicosta-gold-miners-ratio",
+      "title": "Tavi Costa: gold miners now outperform the metal despite a correction",
+      "takeaway": "The miners-to-gold ratio fell steadily in the bear market after the 2011 peak; that trend has turned.",
+      "soWhat": "A long-running pattern in real assets may be reversing, a view worth tracking beyond AI.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "source": {
+        "name": "@TaviCosta on X",
+        "url": "https://x.com/TaviCosta/status/2126000404085232056"
+      },
+      "publishedAt": "2026-11-26T17:09:00.000Z",
+      "importance": 4,
+      "image": {
+        "src": "/img/tavicosta-gold-miners-ratio.jpg",
+        "alt": "Image from @TaviCosta on X"
+      },
+      "heat": {
+        "score": 11,
+        "level": "none",
+        "metric": "22k views"
+      }
+    },
+    {
+      "id": "sama-ven-millennium-prize",
+      "title": "Sam Altman credits Ven as early believer in AI on Millennium problems",
+      "takeaway": "Altman says Ven believed early that the then-current model could be used on millennium prize problems.",
+      "soWhat": "OpenAI's leader is pointing at frontier math as a proof point for its models.",
+      "lens": "broad",
+      "momentum": "building",
+      "source": {
+        "name": "@sama on X",
+        "url": "https://x.com/sama/status/2125990371897557278"
+      },
+      "publishedAt": "2026-11-26T16:29:00.000Z",
+      "importance": 5,
+      "image": {
+        "src": "/img/sama-ven-millennium-prize.jpg",
+        "alt": "Profile image of @sama"
+      },
+      "heat": {
+        "score": 39,
+        "level": "none",
+        "metric": "418k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "swyx-saas-refounding",
+      "title": "swyx: decade-old SaaS founders are being forced to refound their companies",
+      "takeaway": "He says this is forcing a reckoning with lazy lock-in business models.",
+      "soWhat": "If AI makes switching cheap, revenue built on lock-in is at risk; audit yours.",
+      "lens": "broad",
+      "momentum": "new",
+      "source": {
+        "name": "@swyx on X",
+        "url": "https://x.com/swyx/status/2125969097276178943"
+      },
+      "publishedAt": "2026-11-26T15:05:00.000Z",
+      "importance": 7,
+      "image": {
+        "src": "/img/swyx-saas-refounding.jpg",
+        "alt": "Profile image of @swyx"
+      },
+      "heat": {
+        "score": 13,
+        "level": "none",
+        "metric": "40k views"
+      }
+    },
+    {
+      "id": "simonw-sqlite3-rsync",
+      "title": "Simon Willison writes up sqlite3_rsync for copying SQLite databases",
+      "takeaway": "A remote-copy tool for SQLite databases.",
+      "soWhat": "Simple tools for moving local data help teams run small agent apps without heavy infrastructure.",
+      "lens": "practical",
+      "momentum": "new",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/"
+      },
+      "publishedAt": "2026-11-26T06:08:00.000Z",
+      "importance": 3,
+      "image": {
+        "src": "/img/simonw-sqlite3-rsync.jpg",
+        "alt": "Simon Willison: Simon Willison writes up sqlite3_rsync for copying SQLite databases"
+      }
+    },
+    {
+      "id": "rubenhassid-claude-settings",
+      "title": "Ruben Hassid lists the Claude settings worth switching on",
+      "takeaway": "A 57-second video; setting one is to use the Claude desktop app instead of the browser.",
+      "soWhat": "Small setup choices change what your team gets from the same Claude seat.",
+      "lens": "practical",
+      "momentum": "new",
+      "source": {
+        "name": "@rubenhassid on X",
+        "url": "https://x.com/rubenhassid/status/2125831929027256631"
+      },
+      "publishedAt": "2026-11-26T06:00:00.000Z",
+      "importance": 4,
+      "image": {
+        "src": "/img/rubenhassid-claude-settings.jpg",
+        "alt": "Image from @rubenhassid on X"
+      },
+      "heat": {
+        "score": 9,
+        "level": "none",
+        "metric": "26k views"
+      }
+    },
+    {
+      "id": "primeagen-google-best-model",
+      "title": "ThePrimeagen: Google went from the worst model to the best",
+      "takeaway": "A widely followed developer on the swing in Google's model quality.",
+      "soWhat": "Model rankings now flip within months; avoid long lock-in to any single provider.",
+      "lens": "broad",
+      "momentum": "shift",
+      "source": {
+        "name": "@ThePrimeagen on X",
+        "url": "https://x.com/ThePrimeagen/status/2125818313552932976"
+      },
+      "publishedAt": "2026-11-26T05:05:00.000Z",
+      "importance": 6,
+      "image": {
+        "src": "/img/primeagen-google-best-model.jpg",
+        "alt": "Profile image of @ThePrimeagen"
+      },
+      "heat": {
+        "score": 41,
+        "level": "warm",
+        "metric": "223k views",
+        "voices": 2
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@amasad",
+      "quote": "Google really cooked with Gemini 4. Take them for a ride on Replit!",
+      "url": "https://x.com/amasad/status/2126018746884243652"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/ThePrimeagen/status/2125818313552932976",
+      "handle": "@ThePrimeagen",
+      "text": "Google going from the actual worst model to the best is insane and I haven't recovered emotionally.",
+      "metric": "8,395 likes",
+      "note": "A popular developer voice captures the swing in sentiment toward Google's models."
+    },
+    {
+      "url": "https://x.com/sama/status/2125990371897557278",
+      "handle": "@sama",
+      "text": "Ven was among the earliest believers that the then-current model could be used on millennium prize problems.",
+      "metric": "5,674 likes",
+      "note": "OpenAI's CEO ties his models to frontier math."
+    },
+    {
+      "url": "https://x.com/VitalikButerin/status/2125826087129358766",
+      "handle": "@VitalikButerin",
+      "text": "Published 'A shallow dive into open-source chip design'.",
+      "metric": "2,168 likes",
+      "note": "A widely read founder looks at open hardware, a lever on AI chip supply."
+    },
+    {
+      "url": "https://x.com/MengTo/status/2125995984400654658",
+      "handle": "@MengTo",
+      "text": "Endless three.js motorcycle ride built with GPT-6.2 Astra; the Skills used are open-sourced.",
+      "metric": "1,663 likes",
+      "note": "Designers want reusable agent skills for visual craft."
+    },
+    {
+      "url": "https://x.com/NousResearch/status/2125989568721637578",
+      "handle": "@NousResearch",
+      "text": "Hermes Agent can now control an Obsidian vault as a shared knowledge base; notes stay local.",
+      "metric": "1,367 likes",
+      "note": "Local, private memory for agents draws builder interest."
+    }
+  ]
+}

@@ -1,211 +1,276 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-26-1300",
+  "id": "2026-11-26-1900",
   "date": "2026-11-26",
-  "publishedAt": "2026-11-26T18:07:53Z",
-  "edition": "Midday",
+  "publishedAt": "2026-11-27T00:08:41Z",
+  "edition": "Evening",
   "top3": [
     {
-      "itemId": "aravind-neon-doubles-usage-perplexity",
-      "headline": "Gemini Neon usage on Perplexity doubled in one day",
-      "whyItMatters": "Model leadership is shifting fast; avoid locking contracts to one provider."
+      "itemId": "swyx-saas-refounding",
+      "headline": "swyx: decade-old SaaS founders are being forced to refound their companies",
+      "whyItMatters": "Lock-in is weakening as a moat; check what keeps your customers if switching gets cheap."
     },
     {
-      "itemId": "openai-gpt62-usage-limits-cut",
-      "headline": "OpenAI tightens GPT-6.2 limits; Astra users hit caps 40% faster",
-      "whyItMatters": "AI seat value can change without notice; budget with headroom and a backup vendor."
+      "itemId": "primeagen-google-best-model",
+      "headline": "ThePrimeagen: Google went from the worst model to the best",
+      "whyItMatters": "Model rankings now flip within months; keep your AI stack able to switch vendors."
     },
     {
-      "itemId": "nous-hermes-obsidian-connector",
-      "headline": "Hermes Agent gets an official Obsidian connector for local shared memory",
-      "whyItMatters": "Agents that read your own notes locally cut privacy risk in knowledge work."
+      "itemId": "gregisenberg-claude-jeep-ecu",
+      "headline": "Claude read a 1994 Jeep's engine computer and found the smog fault",
+      "whyItMatters": "Agents are reaching physical machines through cheap parts; diagnostics work is next to change."
     }
   ],
   "items": [
     {
-      "id": "openai-gpt62-usage-limits-cut",
-      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster",
-      "takeaway": "Per the linked post by thsottiaux, Sol limits also arrive 25% sooner; the HN thread drew 424 points.",
-      "soWhat": "Seat plans can shrink overnight; track real usage per team before committing to one vendor.",
-      "lens": "practical",
-      "momentum": "new",
-      "source": {
-        "name": "Hacker News",
-        "url": "https://news.ycombinator.com/item?id=50651117"
-      },
-      "related": [
-        {
-          "name": "@thsottiaux on X",
-          "url": "https://twitter.com/thsottiaux/status/2125784147889393806"
-        }
-      ],
-      "publishedAt": "2026-11-26T17:29:09.978Z",
-      "importance": 7,
-      "image": {
-        "src": "/img/openai-gpt62-usage-limits-cut.jpg",
-        "alt": "Profile image of @thsottiaux"
-      }
-    },
-    {
-      "id": "mengto-gpt62-astra-threejs-skills",
-      "title": "MengTo open-sources three.js skills behind a GPT-6.2 Astra build",
-      "takeaway": "He built an endless motorcycle ride with parallax and fisheye camera tricks, and shared the skills on GitHub.",
-      "soWhat": "Reusable skill files let design teams hand agents proven visual techniques instead of starting from scratch.",
-      "lens": "design",
+      "id": "emostaque-dot-product-axioms-lean",
+      "title": "Emad Mostaque claims physics axioms derived from one axiom, proved in Lean",
+      "takeaway": "His claim, not independently checked: quantum mechanics and special relativity from the dot product, in 4 pages.",
+      "soWhat": "AI-assisted formal proofs keep arriving; treat bold claims as unverified until experts check them.",
+      "lens": "broad",
       "momentum": "building",
       "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2125995984400654658"
+        "name": "@EMostaque on X",
+        "url": "https://x.com/EMostaque/status/2126045673581957242"
       },
-      "related": [
-        {
-          "name": "MengTo/Skills on GitHub",
-          "url": "https://github.com/MengTo/Skills"
-        }
-      ],
-      "publishedAt": "2026-11-26T16:51:56.000Z",
-      "importance": 5,
+      "publishedAt": "2026-11-26T20:09:00.000Z",
+      "importance": 4,
       "image": {
-        "src": "/img/mengto-gpt62-astra-threejs-skills.jpg",
-        "alt": "Image from @MengTo on X"
+        "src": "/img/emostaque-dot-product-axioms-lean.jpg",
+        "alt": "Image from @EMostaque on X"
       },
       "heat": {
-        "score": 0,
+        "score": 23,
         "level": "none",
-        "metric": "3k views"
+        "metric": "60k views",
+        "voices": 2
       }
     },
     {
-      "id": "nous-hermes-obsidian-connector",
-      "title": "Hermes Agent can now run an Obsidian vault as shared memory",
-      "takeaway": "NousResearch shipped an official connector; notes stay local.",
-      "soWhat": "Local knowledge bases give agents context without sending your notes to a vendor's cloud.",
+      "id": "amasad-gemini4-replit",
+      "title": "Amjad Masad: Gemini 4 is now available in Replit",
+      "takeaway": "Replit's CEO says Google really cooked with Gemini 4 and invites users to try it.",
+      "soWhat": "Build platforms add new models within days; your teams can test alternatives without new contracts.",
+      "lens": "practical",
+      "momentum": "shift",
+      "source": {
+        "name": "@amasad on X",
+        "url": "https://x.com/amasad/status/2126018746884243652"
+      },
+      "publishedAt": "2026-11-26T18:22:00.000Z",
+      "importance": 5,
+      "image": {
+        "src": "/img/amasad-gemini4-replit.jpg",
+        "alt": "Image from @amasad on X"
+      },
+      "heat": {
+        "score": 20,
+        "level": "none",
+        "metric": "16k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "gregisenberg-claude-jeep-ecu",
+      "title": "Claude read a 1994 Jeep's engine computer and found the smog fault",
+      "takeaway": "Shared by Greg Isenberg: a $3 chip, about $15 in parts, code free on GitHub; the pass is self-reported.",
+      "soWhat": "Cheap hardware plus an agent turns expert diagnostics into a weekend project.",
       "lens": "practical",
       "momentum": "new",
       "source": {
-        "name": "@NousResearch on X",
-        "url": "https://x.com/NousResearch/status/2125989568721637578"
+        "name": "@gregisenberg on X",
+        "url": "https://x.com/gregisenberg/status/2126004403052445733"
       },
-      "publishedAt": "2026-11-26T16:26:26.000Z",
+      "publishedAt": "2026-11-26T17:25:00.000Z",
       "importance": 6,
       "image": {
-        "src": "/img/nous-hermes-obsidian-connector.jpg",
-        "alt": "Image from @NousResearch on X"
+        "src": "/img/gregisenberg-claude-jeep-ecu.jpg",
+        "alt": "Image from @gregisenberg on X"
       },
       "heat": {
-        "score": 10,
+        "score": 18,
         "level": "none",
-        "metric": "19k views"
+        "metric": "86k views"
       }
     },
     {
-      "id": "rubenhassid-opus-presentation-prompt",
-      "title": "Ruben Hassid builds a full presentation from one Claude Opus prompt",
-      "takeaway": "He selects Opus 5.5 on High, pastes one prompt asking for graphics and transitions, and adds nothing else.",
-      "soWhat": "First drafts of decks now take one prompt; the editing is where your team adds value.",
+      "id": "tavicosta-gold-miners-ratio",
+      "title": "Tavi Costa: gold miners now outperform the metal despite a correction",
+      "takeaway": "The miners-to-gold ratio fell steadily in the bear market after the 2011 peak; that trend has turned.",
+      "soWhat": "A long-running pattern in real assets may be reversing, a view worth tracking beyond AI.",
+      "lens": "frontier-capital",
+      "momentum": "building",
+      "source": {
+        "name": "@TaviCosta on X",
+        "url": "https://x.com/TaviCosta/status/2126000404085232056"
+      },
+      "publishedAt": "2026-11-26T17:09:00.000Z",
+      "importance": 4,
+      "image": {
+        "src": "/img/tavicosta-gold-miners-ratio.jpg",
+        "alt": "Image from @TaviCosta on X"
+      },
+      "heat": {
+        "score": 11,
+        "level": "none",
+        "metric": "22k views"
+      }
+    },
+    {
+      "id": "sama-ven-millennium-prize",
+      "title": "Sam Altman credits Ven as early believer in AI on Millennium problems",
+      "takeaway": "Altman says Ven believed early that the then-current model could be used on millennium prize problems.",
+      "soWhat": "OpenAI's leader is pointing at frontier math as a proof point for its models.",
+      "lens": "broad",
+      "momentum": "building",
+      "source": {
+        "name": "@sama on X",
+        "url": "https://x.com/sama/status/2125990371897557278"
+      },
+      "publishedAt": "2026-11-26T16:29:00.000Z",
+      "importance": 5,
+      "image": {
+        "src": "/img/sama-ven-millennium-prize.jpg",
+        "alt": "Profile image of @sama"
+      },
+      "heat": {
+        "score": 39,
+        "level": "none",
+        "metric": "418k views",
+        "voices": 2
+      }
+    },
+    {
+      "id": "swyx-saas-refounding",
+      "title": "swyx: decade-old SaaS founders are being forced to refound their companies",
+      "takeaway": "He says this is forcing a reckoning with lazy lock-in business models.",
+      "soWhat": "If AI makes switching cheap, revenue built on lock-in is at risk; audit yours.",
+      "lens": "broad",
+      "momentum": "new",
+      "source": {
+        "name": "@swyx on X",
+        "url": "https://x.com/swyx/status/2125969097276178943"
+      },
+      "publishedAt": "2026-11-26T15:05:00.000Z",
+      "importance": 7,
+      "image": {
+        "src": "/img/swyx-saas-refounding.jpg",
+        "alt": "Profile image of @swyx"
+      },
+      "heat": {
+        "score": 13,
+        "level": "none",
+        "metric": "40k views"
+      }
+    },
+    {
+      "id": "simonw-sqlite3-rsync",
+      "title": "Simon Willison writes up sqlite3_rsync for copying SQLite databases",
+      "takeaway": "A remote-copy tool for SQLite databases.",
+      "soWhat": "Simple tools for moving local data help teams run small agent apps without heavy infrastructure.",
+      "lens": "practical",
+      "momentum": "new",
+      "source": {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/"
+      },
+      "publishedAt": "2026-11-26T06:08:00.000Z",
+      "importance": 3,
+      "image": {
+        "src": "/img/simonw-sqlite3-rsync.jpg",
+        "alt": "Simon Willison: Simon Willison writes up sqlite3_rsync for copying SQLite databases"
+      }
+    },
+    {
+      "id": "rubenhassid-claude-settings",
+      "title": "Ruben Hassid lists the Claude settings worth switching on",
+      "takeaway": "A 57-second video; setting one is to use the Claude desktop app instead of the browser.",
+      "soWhat": "Small setup choices change what your team gets from the same Claude seat.",
       "lens": "practical",
       "momentum": "new",
       "source": {
         "name": "@rubenhassid on X",
-        "url": "https://x.com/rubenhassid/status/2125922524575707539"
+        "url": "https://x.com/rubenhassid/status/2125831929027256631"
       },
-      "publishedAt": "2026-11-26T12:00:02.000Z",
+      "publishedAt": "2026-11-26T06:00:00.000Z",
       "importance": 4,
       "image": {
-        "src": "/img/rubenhassid-opus-presentation-prompt.jpg",
+        "src": "/img/rubenhassid-claude-settings.jpg",
         "alt": "Image from @rubenhassid on X"
       },
       "heat": {
-        "score": 0,
+        "score": 9,
         "level": "none",
-        "metric": "6k views"
+        "metric": "26k views"
       }
     },
     {
-      "id": "aravind-neon-doubles-usage-perplexity",
-      "title": "Gemini Neon usage on Perplexity doubled in a day, past 100B tokens",
-      "takeaway": "Aravind Srinivas says this came with no default model routing; harness changes fixed formatting issues.",
-      "soWhat": "Users are choosing Google's model on their own; revisit model defaults in your AI stack.",
+      "id": "primeagen-google-best-model",
+      "title": "ThePrimeagen: Google went from the worst model to the best",
+      "takeaway": "A widely followed developer on the swing in Google's model quality.",
+      "soWhat": "Model rankings now flip within months; avoid long lock-in to any single provider.",
       "lens": "broad",
-      "momentum": "building",
+      "momentum": "shift",
       "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2125816545897312752"
+        "name": "@ThePrimeagen on X",
+        "url": "https://x.com/ThePrimeagen/status/2125818313552932976"
       },
-      "publishedAt": "2026-11-26T04:58:54.000Z",
-      "importance": 8,
+      "publishedAt": "2026-11-26T05:05:00.000Z",
+      "importance": 6,
       "image": {
-        "src": "/img/aravind-neon-doubles-usage-perplexity.jpg",
-        "alt": "Image from @AravSrinivas on X"
+        "src": "/img/primeagen-google-best-model.jpg",
+        "alt": "Profile image of @ThePrimeagen"
       },
       "heat": {
-        "score": 37,
-        "level": "none",
-        "metric": "45k views",
-        "voices": 3
-      }
-    },
-    {
-      "id": "verge-fcc-spacex-million-satellites",
-      "title": "FCC approves SpaceX plan for up to 1 million data center satellites",
-      "takeaway": "The Verge reports the FCC signed off on SpaceX's plan to put data centers into orbit.",
-      "soWhat": "Compute supply may move to orbit; watch who controls that capacity when planning long-term AI costs.",
-      "lens": "broad",
-      "momentum": "new",
-      "source": {
-        "name": "The Verge",
-        "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
-      },
-      "publishedAt": "2026-11-25T17:44:57.000Z",
-      "importance": 5,
-      "image": {
-        "src": "/img/verge-fcc-spacex-million-satellites.jpg",
-        "alt": "Image from The Verge"
+        "score": 41,
+        "level": "warm",
+        "metric": "223k views",
+        "voices": 2
       }
     }
   ],
   "voices": [
     {
-      "handle": "@ThePrimeagen",
-      "quote": "Google going from the actual worst model to the best is insane and I haven't recovered emotionally.",
-      "url": "https://x.com/ThePrimeagen/status/2125818313552932976"
+      "handle": "@amasad",
+      "quote": "Google really cooked with Gemini 4. Take them for a ride on Replit!",
+      "url": "https://x.com/amasad/status/2126018746884243652"
     }
   ],
   "hotOnX": [
     {
-      "url": "https://x.com/karpathy/status/2125779541952246039",
-      "handle": "@karpathy",
-      "text": "Asked Claude to build a Civilization-style US map from real data: 7 hours, 45K lines of code, 31 data sources.",
-      "metric": "19,349 likes",
-      "note": "A concrete view of how long and large one agent build can now run."
-    },
-    {
       "url": "https://x.com/ThePrimeagen/status/2125818313552932976",
       "handle": "@ThePrimeagen",
       "text": "Google going from the actual worst model to the best is insane and I haven't recovered emotionally.",
-      "metric": "6,350 likes",
+      "metric": "8,395 likes",
       "note": "A popular developer voice captures the swing in sentiment toward Google's models."
     },
     {
-      "url": "https://x.com/AravSrinivas/status/2125707364053680383",
-      "handle": "@AravSrinivas",
-      "text": "Perplexity Time Machine shows a model the web as it was on any date, so agents can be trained to predict the future.",
-      "metric": "1,920 likes",
-      "note": "A new way to train forecasting agents, already live in Perplexity's APIs."
+      "url": "https://x.com/sama/status/2125990371897557278",
+      "handle": "@sama",
+      "text": "Ven was among the earliest believers that the then-current model could be used on millennium prize problems.",
+      "metric": "5,674 likes",
+      "note": "OpenAI's CEO ties his models to frontier math."
     },
     {
       "url": "https://x.com/VitalikButerin/status/2125826087129358766",
       "handle": "@VitalikButerin",
-      "text": "Published 'A shallow dive into open-source chip design' on his blog.",
-      "metric": "1,876 likes",
+      "text": "Published 'A shallow dive into open-source chip design'.",
+      "metric": "2,168 likes",
       "note": "A widely read founder looks at open hardware, a lever on AI chip supply."
     },
     {
-      "url": "https://x.com/AlexFinn/status/2125706884023992374",
-      "handle": "@AlexFinn",
-      "text": "Google Antigravity swarm: 7 Gemini Neon agents attack one problem; an orchestrator picks the winner.",
-      "metric": "1,421 likes",
-      "note": "Parallel agents in a mainstream coding tool show quality bought with compute."
+      "url": "https://x.com/MengTo/status/2125995984400654658",
+      "handle": "@MengTo",
+      "text": "Endless three.js motorcycle ride built with GPT-6.2 Astra; the Skills used are open-sourced.",
+      "metric": "1,663 likes",
+      "note": "Designers want reusable agent skills for visual craft."
+    },
+    {
+      "url": "https://x.com/NousResearch/status/2125989568721637578",
+      "handle": "@NousResearch",
+      "text": "Hermes Agent can now control an Obsidian vault as a shared knowledge base; notes stay local.",
+      "metric": "1,367 likes",
+      "note": "Local, private memory for agents draws builder interest."
     }
   ]
 }

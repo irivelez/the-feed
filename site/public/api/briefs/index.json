@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-26-1300",
-  "count": 102,
+  "latest": "2026-11-26-1900",
+  "count": 103,
   "briefs": [
+    {
+      "id": "2026-11-26-1900",
+      "date": "2026-11-26",
+      "edition": "Evening",
+      "publishedAt": "2026-11-27T00:08:41Z",
+      "headline": "swyx: decade-old SaaS founders are being forced to refound their companies",
+      "url": "/api/briefs/2026-11-26-1900.json"
+    },
     {
       "id": "2026-11-26-1300",
       "date": "2026-11-26",
