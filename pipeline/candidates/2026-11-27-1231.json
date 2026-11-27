@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-27-1231",
+  "generatedAt": "2026-11-27T17:31:38.893Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-26T21:31:38.893Z",
+    "to": "2026-11-27T17:31:38.893Z"
+  },
+  "sourceNotes": [
+    "X: 6 lane searches (howTo x2, bigPicture x2, frontierCapital+design x1, one query-lane combo); 20h window, relevancy sort; replies and authorBaseline not captured. min_faves operator unsupported, query lane unfiltered by likes.",
+    "Post-Thanksgiving: lanes dominated by holiday and chatter posts; thin substance. frontierCapital lane (@naval, @LynAldenContact, @VitalikButerin, @RayDalio, @nathanbenaich) yielded no usable candidate; @MengTo posts only course promos.",
+    "Noisy: @poteto (holiday post, 4920 likes), @LynAldenContact (replies/chatter), @AlexFinn (promo), @karpathy top posts are non-substantive.",
+    "RSS, arXiv and Hacker News not fetched this run."
+  ],
+  "candidates": [
+    {
+      "id": "mattshumer-fable-gpu-game",
+      "lens": "practical",
+      "topic": "fable-gpu-game",
+      "summary": "Matt Shumer: says he built an in-browser, GTA VI-inspired open-world game in 3 days using Fable 5.2 and 16 RTX PRO 6000 GPUs connected through Higgsfield, rendered on a cloud computer. Post includes a 51s video.",
+      "facts": [
+        "Reads: 2103 likes, 289 reposts, 196 replies"
+      ],
+      "source": {
+        "name": "mattshumer_ on X",
+        "url": "https://x.com/mattshumer_/status/2126287844134048166",
+        "type": "x",
+        "handle": "mattshumer_"
+      },
+      "publishedAt": "2026-11-27T12:11:41.000Z",
+      "metrics": {
+        "likes": 2103,
+        "reposts": 289,
+        "replies": 196,
+        "views": 974868,
+        "capturedAt": "2026-11-27T17:31:38.893Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "alexfinn-reverse-prompt",
+      "lens": "practical",
+      "topic": "reverse-prompt",
+      "summary": "Alex Finn: 'reverse prompt' asks your AI to take all the facts it knows about you and find the most ambitious project you can currently focus on; prompt text in the post.",
+      "facts": [
+        "Reads: 1229 likes, 48 reposts, 121 replies"
+      ],
+      "source": {
+        "name": "AlexFinn on X",
+        "url": "https://x.com/AlexFinn/status/2126158673659470254",
+        "type": "x",
+        "handle": "AlexFinn"
+      },
+      "publishedAt": "2026-11-27T03:38:24.000Z",
+      "metrics": {
+        "likes": 1229,
+        "reposts": 48,
+        "replies": 121,
+        "views": 97795,
+        "capturedAt": "2026-11-27T17:31:38.893Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "ryancarson-neon-vs-opus",
+      "lens": "practical",
+      "topic": "neon-vs-opus",
+      "summary": "Ryan Carson: says he now uses Neon instead of Opus 5.5 ('Wild'), quoting another post.",
+      "facts": [
+        "Reads: 388 likes, 8 reposts, 20 replies"
+      ],
+      "source": {
+        "name": "ryancarson on X",
+        "url": "https://x.com/ryancarson/status/2126305373607113184",
+        "type": "x",
+        "handle": "ryancarson"
+      },
+      "publishedAt": "2026-11-27T13:21:20.000Z",
+      "metrics": {
+        "likes": 388,
+        "reposts": 8,
+        "replies": 20,
+        "views": 38474,
+        "capturedAt": "2026-11-27T17:31:38.893Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "swyx-gdm-revival",
+      "lens": "broad",
+      "topic": "gdm-revival",
+      "summary": "swyx: says Google DeepMind is revitalized, calls Neon 'the hottest frontier model in the world'; writeup promised on Latent Space.",
+      "facts": [
+        "Reads: 69 likes, 0 reposts, 28 replies"
+      ],
+      "source": {
+        "name": "swyx on X",
+        "url": "https://x.com/swyx/status/2126352854394790172",
+        "type": "x",
+        "handle": "swyx"
+      },
+      "publishedAt": "2026-11-27T16:30:00.000Z",
+      "metrics": {
+        "likes": 69,
+        "reposts": 0,
+        "replies": 28,
+        "views": 6102,
+        "capturedAt": "2026-11-27T17:31:38.893Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "swyx-swyx-day0-beat-cursor",
+      "lens": "practical",
+      "topic": "swyx-day0-beat-cursor",
+      "summary": "swyx: says a new tool is 'beating cursor and t3code on day 0' (quoting another post; tool not named in the text read).",
+      "facts": [
+        "Reads: 550 likes, 16 reposts, 99 replies"
+      ],
+      "source": {
+        "name": "swyx on X",
+        "url": "https://x.com/swyx/status/2126201671026180469",
+        "type": "x",
+        "handle": "swyx"
+      },
+      "publishedAt": "2026-11-27T06:29:15.000Z",
+      "metrics": {
+        "likes": 550,
+        "reposts": 16,
+        "replies": 99,
+        "views": 73673,
+        "capturedAt": "2026-11-27T17:31:38.893Z"
+      },
+      "care": 2,
+      "proof": 1,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "a16z-agent-fluency",
+      "lens": "broad",
+      "topic": "agent-fluency",
+      "summary": "a16z: Gavin Baker says a tool feels like another ChatGPT moment because it turns hours of Claude Code work into seconds; notes 23-year-olds are fluent and native in AI. Post includes a 99s video.",
+      "facts": [
+        "Reads: 279 likes, 25 reposts, 53 replies"
+      ],
+      "source": {
+        "name": "a16z on X",
+        "url": "https://x.com/a16z/status/2126331346180276262",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "publishedAt": "2026-11-27T15:04:32.000Z",
+      "metrics": {
+        "likes": 279,
+        "reposts": 25,
+        "replies": 53,
+        "views": 81757,
+        "capturedAt": "2026-11-27T17:31:38.893Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "aravsrinivas-ai-teammates",
+      "lens": "practical",
+      "topic": "ai-teammates",
+      "summary": "Aravind Srinivas: 'Onboard whatever roles you feel bottlenecked on... orchestrate them or have a chief of staff teammate orchestrate other teammates.' Quotes a product post.",
+      "facts": [
+        "Reads: 143 likes, 9 reposts, 98 replies"
+      ],
+      "source": {
+        "name": "AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2126176806885884184",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-27T04:50:27.000Z",
+      "metrics": {
+        "likes": 143,
+        "reposts": 9,
+        "replies": 98,
+        "views": 22399,
+        "capturedAt": "2026-11-27T17:31:38.893Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-27"
+    }
+  ]
+}
