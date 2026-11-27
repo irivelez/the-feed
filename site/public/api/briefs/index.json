@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-27-0700",
-  "count": 104,
+  "latest": "2026-11-27-1300",
+  "count": 105,
   "briefs": [
+    {
+      "id": "2026-11-27-1300",
+      "date": "2026-11-27",
+      "edition": "Midday",
+      "publishedAt": "2026-11-27T18:04:34Z",
+      "headline": "Matt Shumer built a GTA-style browser game in 3 days with Fable",
+      "url": "/api/briefs/2026-11-27-1300.json"
+    },
     {
       "id": "2026-11-27-0700",
       "date": "2026-11-27",

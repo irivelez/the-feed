@@ -1,254 +1,179 @@
 {
   "schemaVersion": "1.1",
-  "id": "2026-11-27-0700",
+  "id": "2026-11-27-1300",
   "date": "2026-11-27",
-  "publishedAt": "2026-11-27T12:12:28Z",
-  "edition": "Morning",
+  "publishedAt": "2026-11-27T18:04:34Z",
+  "edition": "Midday",
   "top3": [
     {
-      "itemId": "aravind-teammates-doubling",
-      "headline": "Perplexity Teammates adoption doubles every ten days among $200 Max users",
-      "whyItMatters": "Buyers are paying premium prices for work agents; plan budgets beyond chat seats."
+      "itemId": "mattshumer-fable-gpu-game",
+      "headline": "Matt Shumer built a GTA-style browser game in 3 days with Fable",
+      "whyItMatters": "Small teams renting GPUs may now attempt builds that once needed a full studio."
     },
     {
-      "itemId": "mengto-gpt62-astra-threejs-skills",
-      "headline": "Meng To open-sources the three.js skills behind a GPT-6.2 Astra build",
-      "whyItMatters": "Design craft is becoming shareable agent skills that teams can reuse instead of rebuild."
+      "itemId": "a16z-gavin-baker-claude-code-speed",
+      "headline": "Gavin Baker: a tool turns hours of Claude Code work into seconds",
+      "whyItMatters": "Speedups this large reset what one person can deliver in a working day."
     },
     {
-      "itemId": "gregisenberg-claude-jeep-ecu",
-      "headline": "Claude read a 1994 Jeep's engine computer and found the smog fault",
-      "whyItMatters": "Agents now reach physical machines through cheap parts, opening diagnostics to non-experts."
+      "itemId": "swyx-gdm-neon-revival",
+      "headline": "swyx calls Google DeepMind's Neon the hottest frontier model in the world",
+      "whyItMatters": "Model leadership is shifting within weeks, so keep switching costs low across labs."
     }
   ],
   "items": [
     {
-      "id": "kunchenguid-agents-backlog",
-      "title": "Kun Chen: with agents, build new ideas now instead of backlogging them",
-      "takeaway": "Kun Chen says the old habit of parking new ideas in a backlog no longer fits; with agents, acting while the idea is fresh is almost always better.",
-      "soWhat": "Planning rituals built for scarce engineering time may now slow down teams that use agents.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-11-27T06:01:44.000Z",
-      "source": {
-        "name": "@kunchenguid on X",
-        "url": "https://x.com/kunchenguid/status/2126194746037338180"
-      },
-      "image": {
-        "src": "/img/kunchenguid-agents-backlog.jpg",
-        "alt": "Profile image of @kunchenguid"
-      },
-      "heat": {
-        "score": 7,
-        "level": "none",
-        "metric": "9k views"
-      }
-    },
-    {
-      "id": "alexfinn-reverse-prompt",
-      "title": "Alex Finn's 'reverse prompt' asks AI to find your most ambitious project",
-      "takeaway": "The prompt asks your AI to use everything it knows about you to find the most ambitious project or question you can focus on now.",
-      "soWhat": "AI that remembers your work can now help set priorities, not just finish tasks.",
-      "lens": "practical",
-      "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-11-27T03:38:24.000Z",
-      "source": {
-        "name": "@AlexFinn on X",
-        "url": "https://x.com/AlexFinn/status/2126158673659470254"
-      },
-      "image": {
-        "src": "/img/alexfinn-reverse-prompt.jpg",
-        "alt": "Profile image of @AlexFinn"
-      },
-      "heat": {
-        "score": 16,
-        "level": "none",
-        "metric": "67k views"
-      }
-    },
-    {
-      "id": "aravind-teammates-doubling",
-      "title": "Perplexity Teammates adoption doubles every ten days among paying Max users",
-      "takeaway": "Aravind Srinivas says Perplexity Teammates adoption is doubling every ten days, counting only external users on the $200-a-month Max tier.",
-      "soWhat": "Paid demand for always-on work agents is compounding; expect budget requests for agent seats.",
+      "id": "swyx-gdm-neon-revival",
+      "title": "swyx calls Google DeepMind's Neon the hottest frontier model in the world",
+      "takeaway": "swyx says Google DeepMind is revitalized; a Latent Space writeup is promised.",
+      "soWhat": "Vendor rankings are moving fast; avoid locking your stack into a single lab.",
       "lens": "broad",
       "momentum": "building",
-      "importance": 8,
-      "publishedAt": "2026-11-26T19:41:50.000Z",
+      "importance": 3,
+      "publishedAt": "2026-11-27T16:30:00.000Z",
       "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2126038741622104256"
+        "name": "@swyx on X",
+        "url": "https://x.com/swyx/status/2126352854394790172"
       },
       "image": {
-        "src": "/img/aravind-teammates-doubling.jpg",
-        "alt": "Image from @AravSrinivas on X"
+        "src": "/img/swyx-gdm-neon-revival.jpg",
+        "alt": "Image from @swyx on X"
       },
       "heat": {
-        "score": 11,
+        "score": 0,
         "level": "none",
-        "metric": "115k views"
+        "metric": "6k views"
       }
     },
     {
-      "id": "aravind-orchestrator-api",
-      "title": "Perplexity: all leading AI models are usable through its Orchestrator API",
-      "takeaway": "Aravind Srinivas says every leading AI model can be used through the Perplexity Orchestrator API.",
-      "soWhat": "One API across models makes switching providers easier and lowers lock-in risk.",
+      "id": "a16z-gavin-baker-claude-code-speed",
+      "title": "Gavin Baker: a tool turns hours of Claude Code work into seconds",
+      "takeaway": "On a16z, Baker calls it another ChatGPT moment and says 23-year-olds are fluent and native in AI.",
+      "soWhat": "Baker says 23-year-olds are AI-native; plan roles and training around that fluency.",
       "lens": "broad",
       "momentum": "new",
-      "importance": 4,
-      "publishedAt": "2026-11-26T18:36:36.000Z",
+      "importance": 3,
+      "publishedAt": "2026-11-27T15:04:32.000Z",
       "source": {
-        "name": "@AravSrinivas on X",
-        "url": "https://x.com/AravSrinivas/status/2126022323069419777"
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2126331346180276262"
       },
       "image": {
-        "src": "/img/aravind-orchestrator-api.jpg",
-        "alt": "Image from @AravSrinivas on X"
+        "src": "/img/a16z-gavin-baker-claude-code-speed.jpg",
+        "alt": "Image from @a16z on X"
       },
       "heat": {
-        "score": 4,
+        "score": 9,
         "level": "none",
-        "metric": "32k views"
+        "metric": "82k views"
       }
     },
     {
-      "id": "gregisenberg-claude-jeep-ecu",
-      "title": "Claude read a 1994 Jeep's engine computer and found the smog fault",
-      "takeaway": "Greg Isenberg shares how a man let Claude read his 1994 Jeep's engine computer through a $3 chip; it found the smog fault and he says the car passed. Parts cost about $15; the code is free on GitHub.",
-      "soWhat": "Cheap hardware plus an agent turns expert diagnostics into a weekend project.",
+      "id": "ryancarson-neon-over-opus",
+      "title": "Ryan Carson says he now uses Neon instead of Opus 5.5",
+      "takeaway": "Carson calls the switch 'Wild' in a quote post.",
+      "soWhat": "Experienced builders switch default models quickly, so test new ones on your own work.",
       "lens": "practical",
-      "momentum": "new",
-      "importance": 6,
-      "publishedAt": "2026-11-26T17:25:23.000Z",
+      "momentum": "building",
+      "importance": 3,
+      "publishedAt": "2026-11-27T13:21:20.000Z",
       "source": {
-        "name": "@gregisenberg on X",
-        "url": "https://x.com/gregisenberg/status/2126004403052445733"
+        "name": "@ryancarson on X",
+        "url": "https://x.com/ryancarson/status/2126305373607113184"
       },
       "image": {
-        "src": "/img/gregisenberg-claude-jeep-ecu.jpg",
-        "alt": "Image from @gregisenberg on X"
+        "src": "/img/ryancarson-neon-over-opus.jpg",
+        "alt": "Profile image of @ryancarson"
+      },
+      "heat": {
+        "score": 10,
+        "level": "none",
+        "metric": "38k views"
+      }
+    },
+    {
+      "id": "mattshumer-fable-gpu-game",
+      "title": "Matt Shumer built a GTA-style browser game in 3 days with Fable",
+      "takeaway": "He says 16 RTX PRO 6000 GPUs via Higgsfield powered an in-browser open-world game on a cloud computer.",
+      "soWhat": "If the claim holds, game-scale builds take days of rented GPUs, not studio years.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-27T12:11:41.000Z",
+      "source": {
+        "name": "@mattshumer_ on X",
+        "url": "https://x.com/mattshumer_/status/2126287844134048166"
+      },
+      "image": {
+        "src": "/img/mattshumer-fable-gpu-game.jpg",
+        "alt": "Image from @mattshumer_ on X"
       },
       "heat": {
         "score": 23,
         "level": "none",
-        "metric": "149k views"
+        "metric": "975k views"
       }
     },
     {
-      "id": "mengto-gpt62-astra-threejs-skills",
-      "title": "Meng To open-sources the three.js skills behind a GPT-6.2 Astra build",
-      "takeaway": "Meng To built an endless three.js motorcycle ride with GPT-6.2 Astra using parallax and fisheye camera tricks, and open-sourced the Fisheye, Parallax and Particles & sky skills.",
-      "soWhat": "Reusable skill files let design teams hand agents proven visual techniques instead of starting fresh.",
-      "lens": "design",
-      "momentum": "building",
-      "importance": 6,
-      "publishedAt": "2026-11-26T16:51:56.000Z",
-      "source": {
-        "name": "@MengTo on X",
-        "url": "https://x.com/MengTo/status/2125995984400654658"
-      },
-      "related": [
-        {
-          "name": "MengTo/Skills on GitHub",
-          "url": "https://github.com/MengTo/Skills"
-        }
-      ],
-      "image": {
-        "src": "/img/mengto-gpt62-astra-threejs-skills.jpg",
-        "alt": "Image from @MengTo on X"
-      },
-      "heat": {
-        "score": 26,
-        "level": "none",
-        "metric": "153k views"
-      }
-    },
-    {
-      "id": "sama-ven-millennium-prize",
-      "title": "Sam Altman credits Ven as early believer in AI on Millennium problems",
-      "takeaway": "Sam Altman says Ven was one of the earliest believers that the then-current model could be used to solve Millennium Prize problems.",
-      "soWhat": "OpenAI's leader is pointing at frontier math as a proof point for its models.",
-      "lens": "broad",
-      "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-11-26T16:29:38.000Z",
-      "source": {
-        "name": "@sama on X",
-        "url": "https://x.com/sama/status/2125990371897557278"
-      },
-      "image": {
-        "src": "/img/sama-ven-millennium-prize.jpg",
-        "alt": "Profile image of @sama"
-      },
-      "heat": {
-        "score": 31,
-        "level": "none",
-        "metric": "570k views"
-      }
-    },
-    {
-      "id": "nous-hermes-obsidian-connector",
-      "title": "Hermes Agent can now run an Obsidian vault as shared memory",
-      "takeaway": "Nous Research says Hermes Agent can now control an Obsidian vault as a shared knowledge base through the official connector, with notes kept local and private.",
-      "soWhat": "Local knowledge bases give agents context without sending your notes to a vendor's cloud.",
+      "id": "aravind-chief-of-staff-teammate",
+      "title": "Aravind Srinivas: a chief-of-staff teammate can orchestrate the others",
+      "takeaway": "He says to onboard AI teammates for roles you feel bottlenecked on, then orchestrate them yourself or via a chief of staff teammate.",
+      "soWhat": "Start AI teammates where your team is bottlenecked, then add one to coordinate them.",
       "lens": "practical",
       "momentum": "building",
-      "importance": 5,
-      "publishedAt": "2026-11-26T16:26:26.000Z",
+      "importance": 3,
+      "publishedAt": "2026-11-27T04:50:27.000Z",
       "source": {
-        "name": "@NousResearch on X",
-        "url": "https://x.com/NousResearch/status/2125989568721637578"
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2126176806885884184"
       },
       "image": {
-        "src": "/img/nous-hermes-obsidian-connector.jpg",
-        "alt": "Image from @NousResearch on X"
+        "src": "/img/aravind-chief-of-staff-teammate.jpg",
+        "alt": "Image from @AravSrinivas on X"
       },
       "heat": {
-        "score": 22,
+        "score": 7,
         "level": "none",
-        "metric": "118k views"
+        "metric": "22k views"
       }
     }
   ],
   "voices": [],
   "hotOnX": [
     {
-      "url": "https://x.com/sama/status/2125990371897557278",
-      "handle": "@sama",
-      "text": "Ven was one of the earliest believers the then-current model could be used to solve millennium prize problems.",
-      "metric": "7,202 likes",
-      "note": "OpenAI's CEO ties his models to frontier math."
-    },
-    {
-      "url": "https://x.com/MengTo/status/2125995984400654658",
-      "handle": "@MengTo",
-      "text": "Endless three.js motorcycle ride built with GPT-6.2 Astra; Fisheye, Parallax and Particles & sky skills open-sourced.",
-      "metric": "3,509 likes",
-      "note": "Designers want reusable agent skills for visual craft."
-    },
-    {
-      "url": "https://x.com/NousResearch/status/2125989568721637578",
-      "handle": "@NousResearch",
-      "text": "Hermes Agent can now control an Obsidian vault as a shared knowledge base; notes stay local and private.",
-      "metric": "2,178 likes",
-      "note": "Local, private memory for agents draws builder interest."
-    },
-    {
-      "url": "https://x.com/gregisenberg/status/2126004403052445733",
-      "handle": "@gregisenberg",
-      "text": "Claude read a 1994 Jeep's engine computer through a $3 chip and found why it kept failing smog.",
-      "metric": "1,993 likes",
-      "note": "A cheap, concrete agent fix for a physical machine."
+      "url": "https://x.com/mattshumer_/status/2126287844134048166",
+      "handle": "@mattshumer_",
+      "text": "Built an in-browser, GTA VI-inspired open-world game in 3 days with Fable 5.2 and 16 RTX PRO 6000 GPUs.",
+      "metric": "2,103 likes",
+      "note": "A big creative build claimed in days draws builders and skeptics alike."
     },
     {
       "url": "https://x.com/AlexFinn/status/2126158673659470254",
       "handle": "@AlexFinn",
       "text": "'Reverse prompt': ask your AI to use what it knows about you to find your most ambitious project.",
-      "metric": "904 likes",
+      "metric": "1,229 likes",
       "note": "Readers want prompts that turn AI memory into direction."
+    },
+    {
+      "url": "https://x.com/swyx/status/2126201671026180469",
+      "handle": "@swyx",
+      "text": "A new tool is 'beating cursor and t3code on day 0'.",
+      "metric": "550 likes",
+      "note": "Coding tool rankings can flip on launch day, so builders watch closely."
+    },
+    {
+      "url": "https://x.com/ryancarson/status/2126305373607113184",
+      "handle": "@ryancarson",
+      "text": "Now using Neon instead of Opus 5.5. 'Wild'.",
+      "metric": "388 likes",
+      "note": "Another builder publicly switching defaults to Google's Neon."
+    },
+    {
+      "url": "https://x.com/a16z/status/2126331346180276262",
+      "handle": "@a16z",
+      "text": "Gavin Baker: a tool that turns hours of Claude Code work into seconds feels like another ChatGPT moment.",
+      "metric": "279 likes",
+      "note": "Investors framing agent speedups as a platform moment."
     }
   ]
 }

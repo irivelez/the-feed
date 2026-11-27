@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-27-1300",
+  "date": "2026-11-27",
+  "publishedAt": "2026-11-27T18:04:34Z",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "mattshumer-fable-gpu-game",
+      "headline": "Matt Shumer built a GTA-style browser game in 3 days with Fable",
+      "whyItMatters": "Small teams renting GPUs may now attempt builds that once needed a full studio."
+    },
+    {
+      "itemId": "a16z-gavin-baker-claude-code-speed",
+      "headline": "Gavin Baker: a tool turns hours of Claude Code work into seconds",
+      "whyItMatters": "Speedups this large reset what one person can deliver in a working day."
+    },
+    {
+      "itemId": "swyx-gdm-neon-revival",
+      "headline": "swyx calls Google DeepMind's Neon the hottest frontier model in the world",
+      "whyItMatters": "Model leadership is shifting within weeks, so keep switching costs low across labs."
+    }
+  ],
+  "items": [
+    {
+      "id": "swyx-gdm-neon-revival",
+      "title": "swyx calls Google DeepMind's Neon the hottest frontier model in the world",
+      "takeaway": "swyx says Google DeepMind is revitalized; a Latent Space writeup is promised.",
+      "soWhat": "Vendor rankings are moving fast; avoid locking your stack into a single lab.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 3,
+      "publishedAt": "2026-11-27T16:30:00.000Z",
+      "source": {
+        "name": "@swyx on X",
+        "url": "https://x.com/swyx/status/2126352854394790172"
+      },
+      "image": {
+        "src": "/img/swyx-gdm-neon-revival.jpg",
+        "alt": "Image from @swyx on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "6k views"
+      }
+    },
+    {
+      "id": "a16z-gavin-baker-claude-code-speed",
+      "title": "Gavin Baker: a tool turns hours of Claude Code work into seconds",
+      "takeaway": "On a16z, Baker calls it another ChatGPT moment and says 23-year-olds are fluent and native in AI.",
+      "soWhat": "Baker says 23-year-olds are AI-native; plan roles and training around that fluency.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 3,
+      "publishedAt": "2026-11-27T15:04:32.000Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2126331346180276262"
+      },
+      "image": {
+        "src": "/img/a16z-gavin-baker-claude-code-speed.jpg",
+        "alt": "Image from @a16z on X"
+      },
+      "heat": {
+        "score": 9,
+        "level": "none",
+        "metric": "82k views"
+      }
+    },
+    {
+      "id": "ryancarson-neon-over-opus",
+      "title": "Ryan Carson says he now uses Neon instead of Opus 5.5",
+      "takeaway": "Carson calls the switch 'Wild' in a quote post.",
+      "soWhat": "Experienced builders switch default models quickly, so test new ones on your own work.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 3,
+      "publishedAt": "2026-11-27T13:21:20.000Z",
+      "source": {
+        "name": "@ryancarson on X",
+        "url": "https://x.com/ryancarson/status/2126305373607113184"
+      },
+      "image": {
+        "src": "/img/ryancarson-neon-over-opus.jpg",
+        "alt": "Profile image of @ryancarson"
+      },
+      "heat": {
+        "score": 10,
+        "level": "none",
+        "metric": "38k views"
+      }
+    },
+    {
+      "id": "mattshumer-fable-gpu-game",
+      "title": "Matt Shumer built a GTA-style browser game in 3 days with Fable",
+      "takeaway": "He says 16 RTX PRO 6000 GPUs via Higgsfield powered an in-browser open-world game on a cloud computer.",
+      "soWhat": "If the claim holds, game-scale builds take days of rented GPUs, not studio years.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-27T12:11:41.000Z",
+      "source": {
+        "name": "@mattshumer_ on X",
+        "url": "https://x.com/mattshumer_/status/2126287844134048166"
+      },
+      "image": {
+        "src": "/img/mattshumer-fable-gpu-game.jpg",
+        "alt": "Image from @mattshumer_ on X"
+      },
+      "heat": {
+        "score": 23,
+        "level": "none",
+        "metric": "975k views"
+      }
+    },
+    {
+      "id": "aravind-chief-of-staff-teammate",
+      "title": "Aravind Srinivas: a chief-of-staff teammate can orchestrate the others",
+      "takeaway": "He says to onboard AI teammates for roles you feel bottlenecked on, then orchestrate them yourself or via a chief of staff teammate.",
+      "soWhat": "Start AI teammates where your team is bottlenecked, then add one to coordinate them.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 3,
+      "publishedAt": "2026-11-27T04:50:27.000Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2126176806885884184"
+      },
+      "image": {
+        "src": "/img/aravind-chief-of-staff-teammate.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 7,
+        "level": "none",
+        "metric": "22k views"
+      }
+    }
+  ],
+  "voices": [],
+  "hotOnX": [
+    {
+      "url": "https://x.com/mattshumer_/status/2126287844134048166",
+      "handle": "@mattshumer_",
+      "text": "Built an in-browser, GTA VI-inspired open-world game in 3 days with Fable 5.2 and 16 RTX PRO 6000 GPUs.",
+      "metric": "2,103 likes",
+      "note": "A big creative build claimed in days draws builders and skeptics alike."
+    },
+    {
+      "url": "https://x.com/AlexFinn/status/2126158673659470254",
+      "handle": "@AlexFinn",
+      "text": "'Reverse prompt': ask your AI to use what it knows about you to find your most ambitious project.",
+      "metric": "1,229 likes",
+      "note": "Readers want prompts that turn AI memory into direction."
+    },
+    {
+      "url": "https://x.com/swyx/status/2126201671026180469",
+      "handle": "@swyx",
+      "text": "A new tool is 'beating cursor and t3code on day 0'.",
+      "metric": "550 likes",
+      "note": "Coding tool rankings can flip on launch day, so builders watch closely."
+    },
+    {
+      "url": "https://x.com/ryancarson/status/2126305373607113184",
+      "handle": "@ryancarson",
+      "text": "Now using Neon instead of Opus 5.5. 'Wild'.",
+      "metric": "388 likes",
+      "note": "Another builder publicly switching defaults to Google's Neon."
+    },
+    {
+      "url": "https://x.com/a16z/status/2126331346180276262",
+      "handle": "@a16z",
+      "text": "Gavin Baker: a tool that turns hours of Claude Code work into seconds feels like another ChatGPT moment.",
+      "metric": "279 likes",
+      "note": "Investors framing agent speedups as a platform moment."
+    }
+  ]
+}
