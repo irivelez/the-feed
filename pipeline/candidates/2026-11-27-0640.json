@@ -1,0 +1,281 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-27-0640",
+  "generatedAt": "2026-11-27T11:34:48.855Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-26T15:34:23.897Z",
+    "to": "2026-11-27T11:34:48.855Z"
+  },
+  "sourceNotes": [
+    "X: 8 lane searches (howTo x4, bigPicture x3, frontierCapital+design x1), 20h window, relevancy sort; queries lane, replies and authorBaseline not captured.",
+    "Post-Thanksgiving: lanes dominated by holiday posts; few substantive items. frontierCapital lane yielded no usable candidate (Metaplanet posts are Japanese-language AGM notices; others holiday/chart posts).",
+    "RSS, arXiv and Hacker News not fetched this run.",
+    "Noisy: @elonmusk, @beffjezos (politics/memes), @gregisenberg/@kloss_xyz/@poteto holiday posts, @Metaplanet Japanese-only."
+  ],
+  "candidates": [
+    {
+      "id": "gregisenberg-claude-jeep-ecu",
+      "lens": "practical",
+      "topic": "claude-ecu-diagnosis",
+      "summary": "Greg Isenberg: a man let Claude read his 1994 Jeep's engine computer through a $3 chip; it found why the car kept failing smog and he says it passed. About $15 in parts, free on GitHub.",
+      "facts": [
+        "Reads: 1993 likes, 237 reposts, 170 replies"
+      ],
+      "source": {
+        "name": "gregisenberg on X",
+        "url": "https://x.com/gregisenberg/status/2126004403052445733",
+        "type": "x",
+        "handle": "gregisenberg"
+      },
+      "publishedAt": "2026-11-26T17:25:23.000Z",
+      "metrics": {
+        "likes": 1993,
+        "reposts": 237,
+        "replies": 170,
+        "views": 148812,
+        "capturedAt": "2026-11-27T11:34:48.855Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "alexfinn-reverse-prompt",
+      "lens": "practical",
+      "topic": "reverse-prompt",
+      "summary": "Alex Finn: 'reverse prompt' asks your AI to use everything it knows about you to find the most ambitious project or question you can focus on now.",
+      "facts": [
+        "Reads: 904 likes, 33 reposts, 97 replies"
+      ],
+      "source": {
+        "name": "AlexFinn on X",
+        "url": "https://x.com/AlexFinn/status/2126158673659470254",
+        "type": "x",
+        "handle": "AlexFinn"
+      },
+      "publishedAt": "2026-11-27T03:38:24.000Z",
+      "metrics": {
+        "likes": 904,
+        "reposts": 33,
+        "replies": 97,
+        "views": 67026,
+        "capturedAt": "2026-11-27T11:34:48.855Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "swyx-beating-cursor-day0",
+      "lens": "practical",
+      "topic": "swyx-day0-bench",
+      "summary": "swyx: 'beating cursor and t3code on day 0. strong start' with a link and screenshot (no further detail in the post text).",
+      "facts": [
+        "Reads: 298 likes, 12 reposts, 69 replies"
+      ],
+      "source": {
+        "name": "swyx on X",
+        "url": "https://x.com/swyx/status/2126201671026180469",
+        "type": "x",
+        "handle": "swyx"
+      },
+      "publishedAt": "2026-11-27T06:29:15.000Z",
+      "metrics": {
+        "likes": 298,
+        "reposts": 12,
+        "replies": 69,
+        "views": 33443,
+        "capturedAt": "2026-11-27T11:34:48.855Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "kunchenguid-agents-backlog",
+      "lens": "practical",
+      "topic": "idea-backlog-agents",
+      "summary": "kunchenguid: before agents, put new ideas in a backlog and prioritize later; with agents it is almost always better to do it right away while the idea is fresh.",
+      "facts": [
+        "Reads: 211 likes, 7 reposts, 53 replies"
+      ],
+      "source": {
+        "name": "kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2126194746037338180",
+        "type": "x",
+        "handle": "kunchenguid"
+      },
+      "publishedAt": "2026-11-27T06:01:44.000Z",
+      "metrics": {
+        "likes": 211,
+        "reposts": 7,
+        "replies": 53,
+        "views": 9031,
+        "capturedAt": "2026-11-27T11:34:48.855Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "nous-hermes-obsidian-connector",
+      "lens": "practical",
+      "topic": "hermes-obsidian",
+      "summary": "NousResearch: Hermes Agent can now control an Obsidian vault as a shared knowledge base via the official connector. Notes stay local and private.",
+      "facts": [
+        "Reads: 2178 likes, 146 reposts, 70 replies"
+      ],
+      "source": {
+        "name": "NousResearch on X",
+        "url": "https://x.com/NousResearch/status/2125989568721637578",
+        "type": "x",
+        "handle": "NousResearch"
+      },
+      "publishedAt": "2026-11-26T16:26:26.000Z",
+      "metrics": {
+        "likes": 2178,
+        "reposts": 146,
+        "replies": 70,
+        "views": 117577,
+        "capturedAt": "2026-11-27T11:34:48.855Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "aravind-teammates-doubling",
+      "lens": "broad",
+      "topic": "perplexity-teammates",
+      "summary": "Aravind Srinivas: Perplexity Teammates adoption doubling every ten days, counting only external Max users ($200/mo tier).",
+      "facts": [
+        "Reads: 369 likes, 22 reposts, 67 replies"
+      ],
+      "source": {
+        "name": "AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2126038741622104256",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-26T19:41:50.000Z",
+      "metrics": {
+        "likes": 369,
+        "reposts": 22,
+        "replies": 67,
+        "views": 115169,
+        "capturedAt": "2026-11-27T11:34:48.855Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "aravind-orchestrator-api",
+      "lens": "broad",
+      "topic": "perplexity-orchestrator",
+      "summary": "Aravind Srinivas: all leading AI models are usable through the Perplexity Orchestrator API.",
+      "facts": [
+        "Reads: 154 likes, 2 reposts, 26 replies"
+      ],
+      "source": {
+        "name": "AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2126022323069419777",
+        "type": "x",
+        "handle": "AravSrinivas"
+      },
+      "publishedAt": "2026-11-26T18:36:36.000Z",
+      "metrics": {
+        "likes": 154,
+        "reposts": 2,
+        "replies": 26,
+        "views": 31709,
+        "capturedAt": "2026-11-27T11:34:48.855Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "sama-ven-millennium-problems",
+      "lens": "broad",
+      "topic": "ai-math-proofs",
+      "summary": "Sam Altman: Ven was one of the earliest believers the then-current model could be used to solve millennium prize problems.",
+      "facts": [
+        "Reads: 7202 likes, 345 reposts, 465 replies"
+      ],
+      "source": {
+        "name": "sama on X",
+        "url": "https://x.com/sama/status/2125990371897557278",
+        "type": "x",
+        "handle": "sama"
+      },
+      "publishedAt": "2026-11-26T16:29:38.000Z",
+      "metrics": {
+        "likes": 7202,
+        "reposts": 345,
+        "replies": 465,
+        "views": 569637,
+        "capturedAt": "2026-11-27T11:34:48.855Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "systematicls-anthropic-sabotage",
+      "lens": "broad",
+      "topic": "anthropic-user-complaints",
+      "summary": "systematicls: claims Anthropic is making users pay for it to actively sabotage their projects (links an attachment; no specifics in post text).",
+      "facts": [
+        "Reads: 804 likes, 40 reposts, 40 replies"
+      ],
+      "source": {
+        "name": "systematicls on X",
+        "url": "https://x.com/systematicls/status/2126217013769248793",
+        "type": "x",
+        "handle": "systematicls"
+      },
+      "publishedAt": "2026-11-27T07:30:13.000Z",
+      "metrics": {
+        "likes": 804,
+        "reposts": 40,
+        "replies": 40,
+        "views": 25193,
+        "capturedAt": "2026-11-27T11:34:48.855Z"
+      },
+      "care": 2,
+      "proof": 1,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "mengto-three-js-skills",
+      "lens": "design",
+      "topic": "design-skills-open",
+      "summary": "Meng To: built an endless three.js motorcycle ride with GPT-6.2 Astra using parallax and fisheye camera tricks; open-sourced the Fisheye, Parallax and Particles & sky skills.",
+      "facts": [
+        "Reads: 3509 likes, 284 reposts, 116 replies"
+      ],
+      "source": {
+        "name": "MengTo on X",
+        "url": "https://x.com/MengTo/status/2125995984400654658",
+        "type": "x",
+        "handle": "MengTo"
+      },
+      "publishedAt": "2026-11-26T16:51:56.000Z",
+      "metrics": {
+        "likes": 3509,
+        "reposts": 284,
+        "replies": 116,
+        "views": 153352,
+        "capturedAt": "2026-11-27T11:34:48.855Z"
+      },
+      "care": 4,
+      "proof": 4,
+      "firstSeen": "2026-11-27"
+    }
+  ]
+}
