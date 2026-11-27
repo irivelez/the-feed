@@ -1,8 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "latest": "2026-11-26-1900",
-  "count": 103,
+  "latest": "2026-11-27-0700",
+  "count": 104,
   "briefs": [
+    {
+      "id": "2026-11-27-0700",
+      "date": "2026-11-27",
+      "edition": "Morning",
+      "publishedAt": "2026-11-27T12:12:28Z",
+      "headline": "Perplexity Teammates adoption doubles every ten days among $200 Max users",
+      "url": "/api/briefs/2026-11-27-0700.json"
+    },
     {
       "id": "2026-11-26-1900",
       "date": "2026-11-26",

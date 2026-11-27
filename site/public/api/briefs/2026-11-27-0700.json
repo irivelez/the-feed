@@ -1,0 +1,254 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-27-0700",
+  "date": "2026-11-27",
+  "publishedAt": "2026-11-27T12:12:28Z",
+  "edition": "Morning",
+  "top3": [
+    {
+      "itemId": "aravind-teammates-doubling",
+      "headline": "Perplexity Teammates adoption doubles every ten days among $200 Max users",
+      "whyItMatters": "Buyers are paying premium prices for work agents; plan budgets beyond chat seats."
+    },
+    {
+      "itemId": "mengto-gpt62-astra-threejs-skills",
+      "headline": "Meng To open-sources the three.js skills behind a GPT-6.2 Astra build",
+      "whyItMatters": "Design craft is becoming shareable agent skills that teams can reuse instead of rebuild."
+    },
+    {
+      "itemId": "gregisenberg-claude-jeep-ecu",
+      "headline": "Claude read a 1994 Jeep's engine computer and found the smog fault",
+      "whyItMatters": "Agents now reach physical machines through cheap parts, opening diagnostics to non-experts."
+    }
+  ],
+  "items": [
+    {
+      "id": "kunchenguid-agents-backlog",
+      "title": "Kun Chen: with agents, build new ideas now instead of backlogging them",
+      "takeaway": "Kun Chen says the old habit of parking new ideas in a backlog no longer fits; with agents, acting while the idea is fresh is almost always better.",
+      "soWhat": "Planning rituals built for scarce engineering time may now slow down teams that use agents.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-27T06:01:44.000Z",
+      "source": {
+        "name": "@kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2126194746037338180"
+      },
+      "image": {
+        "src": "/img/kunchenguid-agents-backlog.jpg",
+        "alt": "Profile image of @kunchenguid"
+      },
+      "heat": {
+        "score": 7,
+        "level": "none",
+        "metric": "9k views"
+      }
+    },
+    {
+      "id": "alexfinn-reverse-prompt",
+      "title": "Alex Finn's 'reverse prompt' asks AI to find your most ambitious project",
+      "takeaway": "The prompt asks your AI to use everything it knows about you to find the most ambitious project or question you can focus on now.",
+      "soWhat": "AI that remembers your work can now help set priorities, not just finish tasks.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-27T03:38:24.000Z",
+      "source": {
+        "name": "@AlexFinn on X",
+        "url": "https://x.com/AlexFinn/status/2126158673659470254"
+      },
+      "image": {
+        "src": "/img/alexfinn-reverse-prompt.jpg",
+        "alt": "Profile image of @AlexFinn"
+      },
+      "heat": {
+        "score": 16,
+        "level": "none",
+        "metric": "67k views"
+      }
+    },
+    {
+      "id": "aravind-teammates-doubling",
+      "title": "Perplexity Teammates adoption doubles every ten days among paying Max users",
+      "takeaway": "Aravind Srinivas says Perplexity Teammates adoption is doubling every ten days, counting only external users on the $200-a-month Max tier.",
+      "soWhat": "Paid demand for always-on work agents is compounding; expect budget requests for agent seats.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 8,
+      "publishedAt": "2026-11-26T19:41:50.000Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2126038741622104256"
+      },
+      "image": {
+        "src": "/img/aravind-teammates-doubling.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 11,
+        "level": "none",
+        "metric": "115k views"
+      }
+    },
+    {
+      "id": "aravind-orchestrator-api",
+      "title": "Perplexity: all leading AI models are usable through its Orchestrator API",
+      "takeaway": "Aravind Srinivas says every leading AI model can be used through the Perplexity Orchestrator API.",
+      "soWhat": "One API across models makes switching providers easier and lowers lock-in risk.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-26T18:36:36.000Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2126022323069419777"
+      },
+      "image": {
+        "src": "/img/aravind-orchestrator-api.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 4,
+        "level": "none",
+        "metric": "32k views"
+      }
+    },
+    {
+      "id": "gregisenberg-claude-jeep-ecu",
+      "title": "Claude read a 1994 Jeep's engine computer and found the smog fault",
+      "takeaway": "Greg Isenberg shares how a man let Claude read his 1994 Jeep's engine computer through a $3 chip; it found the smog fault and he says the car passed. Parts cost about $15; the code is free on GitHub.",
+      "soWhat": "Cheap hardware plus an agent turns expert diagnostics into a weekend project.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-26T17:25:23.000Z",
+      "source": {
+        "name": "@gregisenberg on X",
+        "url": "https://x.com/gregisenberg/status/2126004403052445733"
+      },
+      "image": {
+        "src": "/img/gregisenberg-claude-jeep-ecu.jpg",
+        "alt": "Image from @gregisenberg on X"
+      },
+      "heat": {
+        "score": 23,
+        "level": "none",
+        "metric": "149k views"
+      }
+    },
+    {
+      "id": "mengto-gpt62-astra-threejs-skills",
+      "title": "Meng To open-sources the three.js skills behind a GPT-6.2 Astra build",
+      "takeaway": "Meng To built an endless three.js motorcycle ride with GPT-6.2 Astra using parallax and fisheye camera tricks, and open-sourced the Fisheye, Parallax and Particles & sky skills.",
+      "soWhat": "Reusable skill files let design teams hand agents proven visual techniques instead of starting fresh.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-26T16:51:56.000Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2125995984400654658"
+      },
+      "related": [
+        {
+          "name": "MengTo/Skills on GitHub",
+          "url": "https://github.com/MengTo/Skills"
+        }
+      ],
+      "image": {
+        "src": "/img/mengto-gpt62-astra-threejs-skills.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 26,
+        "level": "none",
+        "metric": "153k views"
+      }
+    },
+    {
+      "id": "sama-ven-millennium-prize",
+      "title": "Sam Altman credits Ven as early believer in AI on Millennium problems",
+      "takeaway": "Sam Altman says Ven was one of the earliest believers that the then-current model could be used to solve Millennium Prize problems.",
+      "soWhat": "OpenAI's leader is pointing at frontier math as a proof point for its models.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-26T16:29:38.000Z",
+      "source": {
+        "name": "@sama on X",
+        "url": "https://x.com/sama/status/2125990371897557278"
+      },
+      "image": {
+        "src": "/img/sama-ven-millennium-prize.jpg",
+        "alt": "Profile image of @sama"
+      },
+      "heat": {
+        "score": 31,
+        "level": "none",
+        "metric": "570k views"
+      }
+    },
+    {
+      "id": "nous-hermes-obsidian-connector",
+      "title": "Hermes Agent can now run an Obsidian vault as shared memory",
+      "takeaway": "Nous Research says Hermes Agent can now control an Obsidian vault as a shared knowledge base through the official connector, with notes kept local and private.",
+      "soWhat": "Local knowledge bases give agents context without sending your notes to a vendor's cloud.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 5,
+      "publishedAt": "2026-11-26T16:26:26.000Z",
+      "source": {
+        "name": "@NousResearch on X",
+        "url": "https://x.com/NousResearch/status/2125989568721637578"
+      },
+      "image": {
+        "src": "/img/nous-hermes-obsidian-connector.jpg",
+        "alt": "Image from @NousResearch on X"
+      },
+      "heat": {
+        "score": 22,
+        "level": "none",
+        "metric": "118k views"
+      }
+    }
+  ],
+  "voices": [],
+  "hotOnX": [
+    {
+      "url": "https://x.com/sama/status/2125990371897557278",
+      "handle": "@sama",
+      "text": "Ven was one of the earliest believers the then-current model could be used to solve millennium prize problems.",
+      "metric": "7,202 likes",
+      "note": "OpenAI's CEO ties his models to frontier math."
+    },
+    {
+      "url": "https://x.com/MengTo/status/2125995984400654658",
+      "handle": "@MengTo",
+      "text": "Endless three.js motorcycle ride built with GPT-6.2 Astra; Fisheye, Parallax and Particles & sky skills open-sourced.",
+      "metric": "3,509 likes",
+      "note": "Designers want reusable agent skills for visual craft."
+    },
+    {
+      "url": "https://x.com/NousResearch/status/2125989568721637578",
+      "handle": "@NousResearch",
+      "text": "Hermes Agent can now control an Obsidian vault as a shared knowledge base; notes stay local and private.",
+      "metric": "2,178 likes",
+      "note": "Local, private memory for agents draws builder interest."
+    },
+    {
+      "url": "https://x.com/gregisenberg/status/2126004403052445733",
+      "handle": "@gregisenberg",
+      "text": "Claude read a 1994 Jeep's engine computer through a $3 chip and found why it kept failing smog.",
+      "metric": "1,993 likes",
+      "note": "A cheap, concrete agent fix for a physical machine."
+    },
+    {
+      "url": "https://x.com/AlexFinn/status/2126158673659470254",
+      "handle": "@AlexFinn",
+      "text": "'Reverse prompt': ask your AI to use what it knows about you to find your most ambitious project.",
+      "metric": "904 likes",
+      "note": "Readers want prompts that turn AI memory into direction."
+    }
+  ]
+}
