@@ -1,36 +1,38 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-26T18:08:14Z",
-  "runId": "2026-11-26-1300",
+  "updatedAt": "2026-11-27T12:12:55Z",
+  "runId": "2026-11-27-0640",
   "howtos": [
     {
-      "id": "alexfinn-antigravity-neon-swarm",
-      "dedupeKey": "antigravity-swarm-parallel-agents-pick-winner",
-      "title": "Run a Gemini Neon agent swarm in Antigravity",
-      "what": "Several Gemini Neon agents attack one problem; an orchestrator compares their results and picks a winner.",
+      "id": "alexfinn-reverse-prompt",
+      "dedupeKey": "reverse-prompt-most-ambitious-project",
+      "title": "Ask your AI for your most ambitious project",
+      "what": "Alex Finn's 'reverse prompt': your AI uses what it knows about you to suggest what to focus on.",
       "kind": "steps",
       "copy": [
-        "Open the problem in Google Antigravity.",
-        "Choose the Neon model.",
-        "Type '/swarm' and describe the task."
+        "Ask your AI to use everything it knows about you to find the most ambitious project or question you can focus on now."
       ],
-      "whenToUse": "When a hard coding problem is worth spending extra compute on several attempts to get the best one.",
+      "whenToUse": "When your AI already has memory of your work and you want help choosing what to pursue next.",
       "source": {
         "name": "@AlexFinn on X",
-        "url": "https://x.com/AlexFinn/status/2125706884023992374"
+        "url": "https://x.com/AlexFinn/status/2126158673659470254"
       },
       "author": {
-        "name": "AlexFinn",
+        "name": "Alex Finn",
         "handle": "AlexFinn"
       },
       "tags": [
-        "antigravity",
-        "gemini",
-        "multi-agent"
+        "prompting",
+        "planning",
+        "memory"
       ],
-      "quality": 3,
+      "quality": 2,
       "verbatim": false,
-      "addedAt": "2026-11-26T18:08:14Z"
+      "briefItem": {
+        "briefId": "2026-11-27-0700",
+        "itemId": "alexfinn-reverse-prompt"
+      },
+      "addedAt": "2026-11-27T12:12:55Z"
     }
   ]
 }
