@@ -1,0 +1,229 @@
+{
+  "schemaVersion": "1.1",
+  "runId": "2026-11-27-1830",
+  "generatedAt": "2026-11-27T23:26:58.683Z",
+  "configVersions": {
+    "sources": "1.3.0",
+    "preferences": "1.1.0"
+  },
+  "window": {
+    "from": "2026-11-27T03:26:38.161Z",
+    "to": "2026-11-27T23:26:58.683Z"
+  },
+  "sourceNotes": [
+    "X: 4 searches (howTo, bigPicture, frontierCapital+design lanes, one query lane); 20h window, relevancy sort; replies and authorBaseline not captured; 1 getPostsByIds call for full text.",
+    "Post-Thanksgiving: thin substance. frontierCapital lane (naval, LynAldenContact, VitalikButerin, RayDalio, nathanbenaich) yielded no usable candidate; MengTo only course promo.",
+    "Noisy: query lane dominated by repost-farm accounts repeating a secondhand David Sacks/Salesforce-Claude claim (dropped, no primary source); LynAldenContact chatter; Black Friday promos.",
+    "RSS, arXiv and Hacker News not fetched this run."
+  ],
+  "candidates": [
+    {
+      "id": "rauchg-unkernel-linux-browser",
+      "lens": "practical",
+      "topic": "unkernel-browser",
+      "summary": "Guillermo Rauch: says unkernel.dev runs a full Linux kernel and distro in a browser tab, can run coding agents and even Chrome inside Chrome. Post includes a 40s video. Link: https://unkernel.dev",
+      "facts": [
+        "Reads: 1883 likes, 126 reposts, 117 replies"
+      ],
+      "source": {
+        "name": "rauchg on X",
+        "url": "https://x.com/rauchg/status/2126416223592473046",
+        "type": "x",
+        "handle": "rauchg"
+      },
+      "publishedAt": "2026-11-27T20:41:49.000Z",
+      "metrics": {
+        "likes": 1883,
+        "reposts": 126,
+        "replies": 117,
+        "views": 72442,
+        "capturedAt": "2026-11-27T23:26:58.683Z"
+      },
+      "care": 4,
+      "proof": 3,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "swyx-gdm-neon-revival",
+      "lens": "broad",
+      "topic": "gemini-neon-4",
+      "summary": "swyx: says Google has a new 'tibo', spawning as 'neon' is the hottest frontier model in the world, and calls it a completely revitalized GDM, unlike anything since Gemini 2.5. Says a writeup is coming on Latent Space.",
+      "facts": [
+        "Reads: 725 likes, 16 reposts, 79 replies"
+      ],
+      "source": {
+        "name": "swyx on X",
+        "url": "https://x.com/swyx/status/2126352854394790172",
+        "type": "x",
+        "handle": "swyx"
+      },
+      "publishedAt": "2026-11-27T16:30:00.000Z",
+      "metrics": {
+        "likes": 725,
+        "reposts": 16,
+        "replies": 79,
+        "views": 63727,
+        "capturedAt": "2026-11-27T23:26:58.683Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "kunchenguid-backlog-vs-agents",
+      "lens": "practical",
+      "topic": "agent-backlog",
+      "summary": "kunchenguid: before agents, new ideas are best put in a backlog and prioritized; with agents, it's almost always better to get it done right away while the idea is fresh.",
+      "facts": [
+        "Reads: 375 likes, 17 reposts, 71 replies"
+      ],
+      "source": {
+        "name": "kunchenguid on X",
+        "url": "https://x.com/kunchenguid/status/2126194746037338180",
+        "type": "x",
+        "handle": "kunchenguid"
+      },
+      "publishedAt": "2026-11-27T06:01:44.000Z",
+      "metrics": {
+        "likes": 375,
+        "reposts": 17,
+        "replies": 71,
+        "views": 16695,
+        "capturedAt": "2026-11-27T23:26:58.683Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "a16z-gavin-baker-fluent",
+      "lens": "broad",
+      "topic": "ai-fluency",
+      "summary": "a16z clip (99s video): Gavin Baker says a new tool feels like another ChatGPT moment because it turns hours of Claude Code work into seconds; talks about 23-year-olds being fluent and native in AI.",
+      "facts": [
+        "Reads: 1213 likes, 120 reposts, 141 replies"
+      ],
+      "source": {
+        "name": "a16z on X",
+        "url": "https://x.com/a16z/status/2126331346180276262",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "publishedAt": "2026-11-27T15:04:32.000Z",
+      "metrics": {
+        "likes": 1213,
+        "reposts": 120,
+        "replies": 141,
+        "views": 757755,
+        "capturedAt": "2026-11-27T23:26:58.683Z"
+      },
+      "care": 3,
+      "proof": 3,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "a16z-balaji-founder-zone",
+      "lens": "broad",
+      "topic": "founder-zone",
+      "summary": "a16z clip (113s video): Balaji Srinivasan proposes a western special economic zone / 'special founder zone' where builders operate at the speed of physics, not permits.",
+      "facts": [
+        "Reads: 300 likes, 29 reposts, 25 replies"
+      ],
+      "source": {
+        "name": "a16z on X",
+        "url": "https://x.com/a16z/status/2126374781729869985",
+        "type": "x",
+        "handle": "a16z"
+      },
+      "publishedAt": "2026-11-27T17:57:08.000Z",
+      "metrics": {
+        "likes": 300,
+        "reposts": 29,
+        "replies": 25,
+        "views": 22003,
+        "capturedAt": "2026-11-27T23:26:58.683Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "icons8-hub-parallel-agents",
+      "lens": "practical",
+      "topic": "parallel-agent-coordinator",
+      "summary": "stretchcloud: Icons8 open-sourced Hub this week, a self-hosted coordinator that splits one goal from a browser or Telegram across multiple parallel Claude Code or Codex sessions, each in its own Git worktree.",
+      "facts": [
+        "Reads: 5 likes, 0 reposts, 3 replies"
+      ],
+      "source": {
+        "name": "stretchcloud on X",
+        "url": "https://x.com/stretchcloud/status/2126345554351305213",
+        "type": "x",
+        "handle": "stretchcloud"
+      },
+      "publishedAt": "2026-11-27T16:01:00.000Z",
+      "metrics": {
+        "likes": 5,
+        "reposts": 0,
+        "replies": 3,
+        "views": 286,
+        "capturedAt": "2026-11-27T23:26:58.683Z"
+      },
+      "care": 3,
+      "proof": 2,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "octop-managed-agents",
+      "lens": "practical",
+      "topic": "parallel-agent-coordinator",
+      "summary": "TencentAI_News: Octop, an open-source AI workspace, can now plug in Claude Code, Codex, OpenCode and CodeBuddy as managed agents in multi-agent teams; runs as a fault-tolerant cluster with a Helm chart.",
+      "facts": [
+        "Reads: 72 likes, 8 reposts, 12 replies"
+      ],
+      "source": {
+        "name": "TencentAI_News on X",
+        "url": "https://x.com/TencentAI_News/status/2126257456158589152",
+        "type": "x",
+        "handle": "TencentAI_News"
+      },
+      "publishedAt": "2026-11-27T10:10:56.000Z",
+      "metrics": {
+        "likes": 72,
+        "reposts": 8,
+        "replies": 12,
+        "views": 6716,
+        "capturedAt": "2026-11-27T23:26:58.683Z"
+      },
+      "care": 2,
+      "proof": 2,
+      "firstSeen": "2026-11-27"
+    },
+    {
+      "id": "acangiano-harness-tos",
+      "lens": "practical",
+      "topic": "gemini-neon-4",
+      "summary": "acangiano: says Gemini Neon 4 is great but Claude Code and Codex offer more flexible harnesses; claims agy cannot be invoked by another coding agent in a multi-agent workflow under a consumer subscription without violating Google's terms.",
+      "facts": [
+        "Reads: 5 likes, 0 reposts, 15 replies"
+      ],
+      "source": {
+        "name": "acangiano on X",
+        "url": "https://x.com/acangiano/status/2126367590876676520",
+        "type": "x",
+        "handle": "acangiano"
+      },
+      "publishedAt": "2026-11-27T17:28:34.000Z",
+      "metrics": {
+        "likes": 5,
+        "reposts": 0,
+        "replies": 15,
+        "views": 387,
+        "capturedAt": "2026-11-27T23:26:58.683Z"
+      },
+      "care": 2,
+      "proof": 1,
+      "firstSeen": "2026-11-27"
+    }
+  ]
+}
