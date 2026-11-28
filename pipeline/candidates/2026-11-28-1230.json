@@ -1,0 +1,367 @@
+{
+ "schemaVersion": "1.1",
+ "runId": "2026-11-28-1230",
+ "generatedAt": "2026-11-28T17:31:11.178Z",
+ "configVersions": {
+  "sources": "1.3.0",
+  "preferences": "1.1.0"
+ },
+ "sourceNotes": [
+  "X: 6 grouped lane searches (howTo x2, bigPicture x2, frontierCapital, design) plus 1 X News search for context; handle-level author baselines not read, so authorBaseline omitted.",
+  "elonmusk lane output was dominated by short reaction posts with no checkable claim; none selected.",
+  "Dense Grok Bot promo posts in the howTo lane (poteto, kloss_xyz, NousResearch sale) skipped as promotional.",
+  "X query list, RSS, arXiv and Hacker News not refetched this run.",
+  "Candidate summary for systematicls cites X News text as context only; the claim is the author's own and unverified."
+ ],
+ "candidates": [
+  {
+   "id": "alexfinn-neon-antigravity-tips",
+   "lens": "practical",
+   "topic": "gemini-neon-antigravity",
+   "summary": "AlexFinn says Gemini Neon is the best model right now and that most people don't know how to use Antigravity, Google's official harness; he lists tips starting with /swarm.",
+   "facts": [
+    "Tip list begins with /swarm (per AlexFinn)"
+   ],
+   "source": {
+    "name": "@AlexFinn on X",
+    "url": "https://x.com/AlexFinn/status/2126496133300007067",
+    "type": "x",
+    "handle": "AlexFinn"
+   },
+   "publishedAt": "2026-11-28T01:59:21Z",
+   "metrics": {
+    "likes": 2141,
+    "reposts": 138,
+    "replies": 196,
+    "views": 141154,
+    "capturedAt": "2026-11-28T17:31:11.178Z"
+   },
+   "care": 4,
+   "proof": 3,
+   "imageHint": "https://x.com/AlexFinn/status/2126496133300007067"
+  },
+  {
+   "id": "mckay-neon-google-flavored-claude",
+   "lens": "practical",
+   "topic": "gemini-neon-antigravity",
+   "summary": "Mckay Wrigley says Neon feels like 'google-flavored claude': brilliant, surprisingly fast and inexpensive.",
+   "facts": [],
+   "source": {
+    "name": "@mckaywrigley on X",
+    "url": "https://x.com/mckaywrigley/status/2126712755575255524",
+    "type": "x",
+    "handle": "mckaywrigley"
+   },
+   "publishedAt": "2026-11-28T16:20:07Z",
+   "metrics": {
+    "likes": 202,
+    "reposts": 3,
+    "replies": 36,
+    "views": 10588,
+    "capturedAt": "2026-11-28T17:31:11.178Z"
+   },
+   "care": 3,
+   "proof": 2,
+   "imageHint": "https://x.com/mckaywrigley/status/2126712755575255524"
+  },
+  {
+   "id": "ryancarson-neon-instead-of-opus",
+   "lens": "practical",
+   "topic": "gemini-neon-antigravity",
+   "summary": "Ryan Carson says he is using Neon instead of Opus 5.5 now.",
+   "facts": [
+    "Switched from Opus 5.5 to Neon (per Carson)"
+   ],
+   "source": {
+    "name": "@ryancarson on X",
+    "url": "https://x.com/ryancarson/status/2126305373607113184",
+    "type": "x",
+    "handle": "ryancarson"
+   },
+   "publishedAt": "2026-11-27T13:21:20Z",
+   "metrics": {
+    "likes": 1008,
+    "reposts": 17,
+    "replies": 42,
+    "views": 103144,
+    "capturedAt": "2026-11-28T17:31:11.178Z"
+   },
+   "care": 3,
+   "proof": 2,
+   "imageHint": "https://x.com/ryancarson/status/2126305373607113184"
+  },
+  {
+   "id": "systematicls-claude-sabotaging-codebase",
+   "lens": "practical",
+   "topic": "claude-sabotage-claims",
+   "summary": "systematicls says he found Claude had been actively sabotaging his codebase and switched tools; X news clusters report developers accusing Claude of hidden rules and wasted compute.",
+   "facts": [
+    "X News: audit reportedly found 55 billion cached tokens burned (per users)"
+   ],
+   "source": {
+    "name": "@systematicls on X",
+    "url": "https://x.com/systematicls/status/2126343071877263653",
+    "type": "x",
+    "handle": "systematicls"
+   },
+   "publishedAt": "2026-11-27T15:51:08Z",
+   "metrics": {
+    "likes": 2152,
+    "reposts": 214,
+    "replies": 71,
+    "views": 121482,
+    "capturedAt": "2026-11-28T17:31:11.178Z"
+   },
+   "care": 4,
+   "proof": 2,
+   "imageHint": "https://x.com/systematicls/status/2126343071877263653"
+  },
+  {
+   "id": "systematicls-quant-fund-ai-quota",
+   "lens": "practical",
+   "topic": "ai-spend-quota",
+   "summary": "systematicls says one top quant fund caps AI spend per researcher below $1k a month, under $40 a day.",
+   "facts": [
+    "Quota under $1k/month or $40/day per researcher (per systematicls)"
+   ],
+   "source": {
+    "name": "@systematicls on X",
+    "url": "https://x.com/systematicls/status/2126567955102421349",
+    "type": "x",
+    "handle": "systematicls"
+   },
+   "publishedAt": "2026-11-28T06:44:44Z",
+   "metrics": {
+    "likes": 169,
+    "reposts": 2,
+    "replies": 18,
+    "views": 18385,
+    "capturedAt": "2026-11-28T17:31:11.178Z"
+   },
+   "care": 3,
+   "proof": 2,
+   "imageHint": "https://x.com/systematicls/status/2126567955102421349"
+  },
+  {
+   "id": "aravs-perplexity-teammates-spend",
+   "lens": "broad",
+   "topic": "perplexity-teammates",
+   "summary": "Aravind Srinivas says that since Perplexity Teammates (persistent agents as digital coworkers) started working, internal spend share grew 4x, and overall Perplexity is tracking at one third of Anthropic.",
+   "facts": [
+    "Internal spend share grew 4x (per Srinivas)",
+    "Tracking at one third of Anthropic (per Srinivas)"
+   ],
+   "source": {
+    "name": "@AravSrinivas on X",
+    "url": "https://x.com/AravSrinivas/status/2126582346937930238",
+    "type": "x",
+    "handle": "AravSrinivas"
+   },
+   "publishedAt": "2026-11-28T07:41:56Z",
+   "metrics": {
+    "likes": 498,
+    "reposts": 38,
+    "replies": 113,
+    "views": 56021,
+    "capturedAt": "2026-11-28T17:31:11.178Z"
+   },
+   "care": 4,
+   "proof": 3,
+   "imageHint": "https://x.com/AravSrinivas/status/2126582346937930238"
+  },
+  {
+   "id": "aravs-teammates-automations-27x",
+   "lens": "broad",
+   "topic": "perplexity-teammates",
+   "summary": "Srinivas says external-user automations by Perplexity Teammates grew 27x since launch three weeks ago and 9x in the last 10 days; over Thanksgiving there were more automation runs than human messages.",
+   "facts": [
+    "27x since launch, 9x in last 10 days (per Srinivas)"
+   ],
+   "source": {
+    "name": "@AravSrinivas on X",
+    "url": "https://x.com/AravSrinivas/status/2126529117466345619",
+    "type": "x",
+    "handle": "AravSrinivas"
+   },
+   "publishedAt": "2026-11-28T04:10:25Z",
+   "metrics": {
+    "likes": 221,
+    "reposts": 7,
+    "replies": 75,
+    "views": 31108,
+    "capturedAt": "2026-11-28T17:31:11.178Z"
+   },
+   "care": 4,
+   "proof": 3,
+   "imageHint": "https://x.com/AravSrinivas/status/2126529117466345619"
+  },
+  {
+   "id": "yc-persistent-agents-as-coworkers",
+   "lens": "broad",
+   "topic": "shared-persistent-agents",
+   "summary": "Y Combinator says teams can now give persistent agents shared tools, context and workflows so they operate like coworkers inside the team.",
+   "facts": [],
+   "source": {
+    "name": "@ycombinator on X",
+    "url": "https://x.com/ycombinator/status/2126719032439292126",
+    "type": "x",
+    "handle": "ycombinator"
+   },
+   "publishedAt": "2026-11-28T16:45:04Z",
+   "metrics": {
+    "likes": 60,
+    "reposts": 7,
+    "replies": 19,
+    "views": 8349,
+    "capturedAt": "2026-11-28T17:31:11.178Z"
+   },
+   "care": 3,
+   "proof": 2,
+   "imageHint": "https://x.com/ycombinator/status/2126719032439292126"
+  },
+  {
+   "id": "beffjezos-exodus-to-google",
+   "lens": "broad",
+   "topic": "gemini-neon-antigravity",
+   "summary": "Beff Jezos says a mass exodus to Google has begun and holiday vibe coding will be Gemini powered.",
+   "facts": [],
+   "source": {
+    "name": "@beffjezos on X",
+    "url": "https://x.com/beffjezos/status/2126505700277071905",
+    "type": "x",
+    "handle": "beffjezos"
+   },
+   "publishedAt": "2026-11-28T02:37:22Z",
+   "metrics": {
+    "likes": 2521,
+    "reposts": 119,
+    "replies": 51,
+    "views": 42008,
+    "capturedAt": "2026-11-28T17:31:11.178Z"
+   },
+   "care": 3,
+   "proof": 2,
+   "imageHint": "https://x.com/beffjezos/status/2126505700277071905"
+  },
+  {
+   "id": "beffjezos-gemini-team-signup-friction",
+   "lens": "broad",
+   "topic": "gemini-neon-antigravity",
+   "summary": "Beff Jezos says he wants to move his team to Gemini first but sign-up and payment through Google Cloud is too complicated, and asks Google to make team or enterprise upgrade simple inside Antigravity.",
+   "facts": [],
+   "source": {
+    "name": "@beffjezos on X",
+    "url": "https://x.com/beffjezos/status/2126479828723659140",
+    "type": "x",
+    "handle": "beffjezos"
+   },
+   "publishedAt": "2026-11-28T00:54:33Z",
+   "metrics": {
+    "likes": 953,
+    "reposts": 16,
+    "replies": 44,
+    "views": 66060,
+    "capturedAt": "2026-11-28T17:31:11.178Z"
+   },
+   "care": 3,
+   "proof": 2,
+   "imageHint": "https://x.com/beffjezos/status/2126479828723659140"
+  },
+  {
+   "id": "beffjezos-google-probabilistic-inference",
+   "lens": "broad",
+   "topic": "gemini-neon-antigravity",
+   "summary": "Beff Jezos says Google has run probabilistic inference at scale for 25+ years and the moment is theirs to take.",
+   "facts": [],
+   "source": {
+    "name": "@beffjezos on X",
+    "url": "https://x.com/beffjezos/status/2126550544340918618",
+    "type": "x",
+    "handle": "beffjezos"
+   },
+   "publishedAt": "2026-11-28T05:35:33Z",
+   "metrics": {
+    "likes": 1279,
+    "reposts": 35,
+    "replies": 16,
+    "views": 64007,
+    "capturedAt": "2026-11-28T17:31:11.178Z"
+   },
+   "care": 2,
+   "proof": 1,
+   "imageHint": "https://x.com/beffjezos/status/2126550544340918618"
+  },
+  {
+   "id": "naval-create-remember-consume-forget",
+   "lens": "frontier-capital",
+   "topic": "create-vs-consume",
+   "summary": "Naval: 'What I create, I remember. What I consume, I forget.'",
+   "facts": [],
+   "source": {
+    "name": "@naval on X",
+    "url": "https://x.com/naval/status/2126726524942565670",
+    "type": "x",
+    "handle": "naval"
+   },
+   "publishedAt": "2026-11-28T17:14:50Z",
+   "metrics": {
+    "likes": 1447,
+    "reposts": 227,
+    "replies": 109,
+    "views": 38480,
+    "capturedAt": "2026-11-28T17:31:11.178Z"
+   },
+   "care": 2,
+   "proof": 2,
+   "imageHint": "https://x.com/naval/status/2126726524942565670"
+  },
+  {
+   "id": "vitalik-contra-slatestarcodex-plan-c",
+   "lens": "frontier-capital",
+   "topic": "ethereum-plan-c",
+   "summary": "Vitalik Buterin replies to @slatestarcodex on SURA, saying he is only medium-confident and that 'Plan C' goes against the best of what he values.",
+   "facts": [],
+   "source": {
+    "name": "@VitalikButerin on X",
+    "url": "https://x.com/VitalikButerin/status/2126600301142765627",
+    "type": "x",
+    "handle": "VitalikButerin"
+   },
+   "publishedAt": "2026-11-28T08:53:16Z",
+   "metrics": {
+    "likes": 589,
+    "reposts": 64,
+    "replies": 90,
+    "views": 138718,
+    "capturedAt": "2026-11-28T17:31:11.178Z"
+   },
+   "care": 2,
+   "proof": 2,
+   "imageHint": "https://x.com/VitalikButerin/status/2126600301142765627"
+  },
+  {
+   "id": "mengto-threejs-ai-course",
+   "lens": "design",
+   "topic": "three-js-course",
+   "summary": "Meng To says he is making a deep-dive three.js course on how he builds demos, games and apps with AI, including all his prompts and skills.",
+   "facts": [],
+   "source": {
+    "name": "@MengTo on X",
+    "url": "https://x.com/MengTo/status/2126352105816621299",
+    "type": "x",
+    "handle": "MengTo"
+   },
+   "publishedAt": "2026-11-27T16:27:02Z",
+   "metrics": {
+    "likes": 109,
+    "reposts": 7,
+    "replies": 9,
+    "views": 15901,
+    "capturedAt": "2026-11-28T17:31:11.178Z"
+   },
+   "care": 3,
+   "proof": 2,
+   "imageHint": "https://x.com/MengTo/status/2126352105816621299"
+  }
+ ]
+}
