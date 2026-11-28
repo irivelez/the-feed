@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-27",
-  "fetchedAt": "2026-11-27T13:01:30.515Z",
+  "date": "2026-11-28",
+  "fetchedAt": "2026-11-28T13:01:36.951Z",
   "stats": {
-    "rawFetched": 80,
-    "afterDedup": 80,
+    "rawFetched": 73,
+    "afterDedup": 73,
     "byTier": {
-      "hackernews": 18,
-      "rss": 62
+      "hackernews": 13,
+      "rss": 60
     },
     "bySource": {
-      "hackernews": 18,
-      "rss": 62
+      "hackernews": 13,
+      "rss": 60
     },
     "xSearches": {
       "searches": 66,
@@ -20,143 +20,73 @@
   },
   "items": [
     {
-      "title": "The New York Times warns photographers not to update Photoshop over AI features",
-      "content": "The New York Times warns photographers not to update Photoshop over AI features\n<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;pcUgy\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;pcUgy</a>",
-      "author": "rmason",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-      "likes": 675,
-      "comments": 533,
-      "engagementScore": 1741,
-      "source": "hackernews",
-      "publishedAt": "2026-11-25T21:18:02.000Z",
-      "tier": "hackernews",
-      "age": "1d",
-      "hot": false
-    },
-    {
       "title": "AI made self-hosting fun again",
       "content": "AI made self-hosting fun again",
       "author": "jlelse",
       "url": "https://janlukas.blog/posts/ai-self-hosting",
-      "likes": 816,
-      "comments": 399,
-      "engagementScore": 1614,
+      "likes": 1122,
+      "comments": 523,
+      "engagementScore": 2168,
       "source": "hackernews",
       "publishedAt": "2026-11-26T21:47:45.000Z",
       "tier": "hackernews",
-      "age": "15h",
+      "age": "1d",
       "hot": false
     },
     {
-      "title": "Much shorter version of GRH Lean verification from Anthropic",
-      "content": "Much shorter version of GRH Lean verification from Anthropic",
-      "author": "nb-t",
-      "url": "https://github.com/lsernau/grh-lean",
-      "likes": 558,
-      "comments": 355,
-      "engagementScore": 1268,
+      "title": "Claude sabotaging ML research tasks?",
+      "content": "Claude sabotaging ML research tasks?",
+      "author": "baobabKoodaa",
+      "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+      "likes": 724,
+      "comments": 319,
+      "engagementScore": 1362,
       "source": "hackernews",
-      "publishedAt": "2026-11-25T21:48:10.000Z",
+      "publishedAt": "2026-11-27T08:28:08.000Z",
       "tier": "hackernews",
       "age": "1d",
       "hot": false
     },
     {
-      "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
-      "content": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?\nBasically the title.<p>Anthropic is accusing me and my company of using their API for distillation. We are not. We do not train our own models.<p>Our only usage which I think could get us flagged is automated regression benchmarks whenever we change some AI settings. But this is not against their policy?<p>Now I&#x27;ve got 24h to prove we didn&#x27;t.<p>Has anyone dealt with this too? How can you prove that you are not distilling Anthropic models without breaking your user&#x27;s privacy?",
-      "author": "weli",
-      "url": "https://news.ycombinator.com/item?id=50630809",
-      "likes": 469,
-      "comments": 359,
-      "engagementScore": 1187,
+      "title": "Michael Nielsen took down his book on neural nets",
+      "content": "Michael Nielsen took down his book on neural nets",
+      "author": "brandonb",
+      "url": "https://neuralnetworksanddeeplearning.com/",
+      "likes": 578,
+      "comments": 373,
+      "engagementScore": 1324,
       "source": "hackernews",
-      "publishedAt": "2026-11-24T16:45:44.000Z",
+      "publishedAt": "2026-11-27T19:31:01.000Z",
       "tier": "hackernews",
-      "age": "2d",
+      "age": "17h",
       "hot": false
     },
     {
-      "title": "OpenAI may be in cost control mode",
-      "content": "OpenAI may be in cost control mode",
-      "author": "seizethecheese",
-      "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
-      "likes": 337,
-      "comments": 348,
-      "engagementScore": 1033,
-      "source": "hackernews",
-      "publishedAt": "2026-11-26T07:33:12.000Z",
-      "tier": "hackernews",
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-      "content": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-      "author": "Herrera",
-      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
-      "likes": 493,
-      "comments": 267,
-      "engagementScore": 1027,
-      "source": "hackernews",
-      "publishedAt": "2026-11-26T03:36:58.000Z",
-      "tier": "hackernews",
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "The USAID Files",
-      "content": "The USAID Files",
-      "author": "MassPikeMike",
-      "url": "https://reclaimthenet.org/usaid-files",
-      "likes": 288,
-      "comments": 350,
-      "engagementScore": 988,
-      "source": "hackernews",
-      "publishedAt": "2026-11-25T23:15:52.000Z",
-      "tier": "hackernews",
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-      "content": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-      "author": "ritzaco",
-      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
-      "likes": 355,
-      "comments": 307,
-      "engagementScore": 969,
-      "source": "hackernews",
-      "publishedAt": "2026-11-26T09:44:23.000Z",
-      "tier": "hackernews",
-      "age": "1d",
-      "hot": false
-    },
-    {
-      "title": "The group chat where your AI talks behind your back",
-      "content": "The group chat where your AI talks behind your back",
+      "title": "Group chat where your AI talks behind your back",
+      "content": "Group chat where your AI talks behind your back",
       "author": "utiiiD",
       "url": "https://construct22.com/",
-      "likes": 382,
-      "comments": 173,
-      "engagementScore": 728,
+      "likes": 714,
+      "comments": 291,
+      "engagementScore": 1296,
       "source": "hackernews",
       "publishedAt": "2026-11-27T06:44:34.000Z",
       "tier": "hackernews",
-      "age": "6h",
+      "age": "1d",
       "hot": false
     },
     {
-      "title": "Tell HN: Lots of Ask HNs again",
-      "content": "Tell HN: Lots of Ask HNs again\nThere have been questions about why the &#x2F;ask page (<a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;ask\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;ask</a>) was running dry of Ask HNs - e.g.:<p><i>Ask HN: Why is Ask HN only showing me 14 posts?</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49984484\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49984484</a> - Oct 2026 (47 comments)<p><i>Ask HN: Why is pagination gone on &quot;Ask HN&quot;, and showing only 19 items?</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50280719\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=50280719</a> - Oct 2026 (3 comments)<p>I believe I found the problem. The pool of stories for <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;ask\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;ask</a> has traditionally been drawn from the ranked stories list from which we generate the frontpage. That list is restricted to the top 1500 ranked submissions, and it seems the % of submissions which are text posts (i.e. no linked URL) had declined enough to starve the Ask HN feed. The solution is to compute a separate list of ranked Ask HNs.<p>p.s. &quot;Ask HN&quot; is the conventional name but it means text posts. The title can also start with &quot;Tell HN&quot; or nothing in particular. They&#x27;re just posts which were submitted without a URL.",
-      "author": "dang",
-      "url": "https://news.ycombinator.com/item?id=50649864",
-      "likes": 407,
-      "comments": 155,
-      "engagementScore": 717,
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "content": "GPT 6.2 Astra Solves a Historical Mystery",
+      "author": "dr_red_dog",
+      "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+      "likes": 469,
+      "comments": 297,
+      "engagementScore": 1063,
       "source": "hackernews",
-      "publishedAt": "2026-11-26T00:43:34.000Z",
+      "publishedAt": "2026-11-25T15:16:53.000Z",
       "tier": "hackernews",
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -164,111 +94,141 @@
       "content": "The need for a formally verifiable mainstream programming language",
       "author": "todsacerdoti",
       "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
-      "likes": 191,
-      "comments": 179,
-      "engagementScore": 549,
+      "likes": 335,
+      "comments": 308,
+      "engagementScore": 951,
       "source": "hackernews",
       "publishedAt": "2026-11-27T05:22:06.000Z",
       "tier": "hackernews",
-      "age": "7h",
+      "age": "1d",
       "hot": false
     },
     {
-      "title": "An algebraic quantization of gravity from the null cone",
-      "content": "An algebraic quantization of gravity from the null cone",
-      "author": "hecmmm",
-      "url": "https://arxiv.org/abs/2611.34924",
-      "likes": 249,
-      "comments": 98,
-      "engagementScore": 445,
+      "title": "US Air Force's cloud computing platform hacked",
+      "content": "US Air Force's cloud computing platform hacked",
+      "author": "freakynit",
+      "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
+      "likes": 347,
+      "comments": 213,
+      "engagementScore": 773,
       "source": "hackernews",
-      "publishedAt": "2026-11-26T05:37:51.000Z",
+      "publishedAt": "2026-11-27T12:54:11.000Z",
       "tier": "hackernews",
       "age": "1d",
       "hot": false
     },
     {
-      "title": "Taking over US Treasury subdomains for $3 each",
-      "content": "Taking over US Treasury subdomains for $3 each",
-      "author": "negura",
-      "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
-      "likes": 258,
-      "comments": 54,
-      "engagementScore": 366,
-      "source": "hackernews",
-      "publishedAt": "2026-11-25T04:27:55.000Z",
-      "tier": "hackernews",
-      "age": "2d",
-      "hot": false
-    },
-    {
-      "title": "Claude sabotaging SOTA ML research tasks",
-      "content": "Claude sabotaging SOTA ML research tasks",
-      "author": "baobabKoodaa",
-      "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
-      "likes": 144,
-      "comments": 91,
-      "engagementScore": 326,
-      "source": "hackernews",
-      "publishedAt": "2026-11-27T08:28:08.000Z",
-      "tier": "hackernews",
-      "age": "4h",
-      "hot": false
-    },
-    {
-      "title": "\"What's Claude's Fursona?\" and Other Questions",
-      "content": "\"What's Claude's Fursona?\" and Other Questions",
+      "title": "\"What's Claude's fursona?\" and other questions",
+      "content": "\"What's Claude's fursona?\" and other questions",
       "author": "Mond_",
       "url": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
-      "likes": 99,
-      "comments": 77,
-      "engagementScore": 253,
+      "likes": 203,
+      "comments": 193,
+      "engagementScore": 589,
       "source": "hackernews",
       "publishedAt": "2026-11-27T04:56:18.000Z",
       "tier": "hackernews",
-      "age": "8h",
-      "hot": false
-    },
-    {
-      "title": "An introduction to uncertainty in machine learning",
-      "content": "An introduction to uncertainty in machine learning",
-      "author": "chrhenning",
-      "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
-      "likes": 97,
-      "comments": 7,
-      "engagementScore": 111,
-      "source": "hackernews",
-      "publishedAt": "2026-11-26T19:04:50.000Z",
-      "tier": "hackernews",
-      "age": "17h",
-      "hot": false
-    },
-    {
-      "title": "Claude tries to sabotage research work at every stage",
-      "content": "Claude tries to sabotage research work at every stage",
-      "author": "theanonymousone",
-      "url": "https://twitter.com/skirano/status/2125371115979641188",
-      "likes": 64,
-      "comments": 17,
-      "engagementScore": 98,
-      "source": "hackernews",
-      "publishedAt": "2026-11-26T04:49:21.000Z",
-      "tier": "hackernews",
       "age": "1d",
       "hot": false
     },
     {
-      "title": "Testers think they're hitting Claude Opus 5.6 through an Opus 5.5 Extra route",
-      "content": "Testers think they're hitting Claude Opus 5.6 through an Opus 5.5 Extra route",
-      "author": "goatley",
-      "url": "https://www.testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6/",
-      "likes": 44,
-      "comments": 15,
-      "engagementScore": 74,
+      "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+      "content": "Woman evicted after landlord's AI assistant told her she could delay rent",
+      "author": "Tiwariparth6165",
+      "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+      "likes": 191,
+      "comments": 138,
+      "engagementScore": 467,
       "source": "hackernews",
-      "publishedAt": "2026-11-26T14:38:57.000Z",
+      "publishedAt": "2026-11-28T01:32:56.000Z",
       "tier": "hackernews",
-      "age": "22h",
+      "age": "11h",
+      "hot": false
+    },
+    {
+      "title": "Show HN: DragDropMath – Learn math by feel",
+      "content": "Show HN: DragDropMath – Learn math by feel\nHi HN!<p>I am a professional physicist and I shuffle symbols in equations and mathematical expressions all day long. During my PhD (almost 20 years ago) I noticed that it is as if the symbols have their own &#x27;physics&#x27;, which makes the wrong moves impossible and the right ones obvious.<p>So I created DragDropMath, where you can learn how to simplify mathematical expressions and how to solve equations by dragging symbols around, and only correct moves are allowed, so you get to feel what&#x27;s right without experiencing (and so learning) wrong moves.<p>I always wanted to make this, but life got in the way. Then a few weeks ago I saw declarative dragging (<a href=\"https:&#x2F;&#x2F;declarative-dragging.github.io&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;declarative-dragging.github.io&#x2F;</a>) on the front page of HN and the spark came back!<p>It took quite a few rounds to get the feel right, but I think it&#x27;s close to what happens in my mind when I mentally manipulate these expressions.<p>A few more points:\n- There are no ads, no trackers, no accounts (it&#x27;s a static website and progress is saved in the browser cache).\n- Teachers can create their own problem sets, encoded in the link.\n- I plan to add more chapters (trigonometry, complex numbers, some calculus) but I first need to figure out the &#x27;right&#x27; mode of interaction.\n- I just started working on the experience from mobile, so there may still be some rough edges there<p>I&#x27;m curious to know what you think, if you have suggestions for content, if you spot anything that I should fix, if you have feature requests! Thank you in advance",
+      "author": "ziofill",
+      "url": "https://dragdropmath.com/",
+      "likes": 155,
+      "comments": 40,
+      "engagementScore": 235,
+      "source": "hackernews",
+      "publishedAt": "2026-11-27T17:56:28.000Z",
+      "tier": "hackernews",
+      "age": "19h",
+      "hot": false
+    },
+    {
+      "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+      "content": "Prospero: Bloat-free, native AI coding harness with ImGui",
+      "author": "ingve",
+      "url": "https://github.com/skeeto/prospero",
+      "likes": 81,
+      "comments": 34,
+      "engagementScore": 149,
+      "source": "hackernews",
+      "publishedAt": "2026-11-27T20:23:14.000Z",
+      "tier": "hackernews",
+      "age": "16h",
+      "hot": false
+    },
+    {
+      "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "content": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "author": "arvindell",
+      "url": "https://sessiongraph.ai/",
+      "likes": 68,
+      "comments": 27,
+      "engagementScore": 122,
+      "source": "hackernews",
+      "publishedAt": "2026-11-27T21:07:34.000Z",
+      "tier": "hackernews",
+      "age": "15h",
+      "hot": false
+    },
+    {
+      "title": "Show HN: Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10",
+      "content": "Show HN: Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10",
+      "author": "runtimenotes",
+      "url": "https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10/",
+      "likes": 58,
+      "comments": 15,
+      "engagementScore": 88,
+      "source": "hackernews",
+      "publishedAt": "2026-11-27T18:59:55.000Z",
+      "tier": "hackernews",
+      "age": "18h",
+      "hot": false
+    },
+    {
+      "title": "datasette-charts 0.4a0",
+      "content": "datasette-charts 0.4a0",
+      "author": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "publishedAt": "2026-11-27T23:57:17+00:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "13h",
+      "hot": false
+    },
+    {
+      "title": "datasette-mcp 0.4",
+      "content": "datasette-mcp 0.4",
+      "author": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+      "likes": 0,
+      "comments": 0,
+      "source": "rss",
+      "sourceName": "Simon Willison",
+      "publishedAt": "2026-11-27T00:26:17+00:00",
+      "tier": "rss",
+      "signalWeight": 1,
+      "age": "1d",
       "hot": false
     },
     {
@@ -283,7 +243,7 @@
       "publishedAt": "2026-11-26T15:09:31+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "21h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -298,7 +258,7 @@
       "publishedAt": "2026-11-26T06:08:25+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -313,7 +273,7 @@
       "publishedAt": "2026-11-26T05:08:46+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -328,7 +288,7 @@
       "publishedAt": "2026-11-25T23:26:32+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -343,7 +303,7 @@
       "publishedAt": "2026-11-25T18:16:50+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -358,7 +318,7 @@
       "publishedAt": "2026-11-24T23:02:07+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -373,7 +333,7 @@
       "publishedAt": "2026-11-24T16:53:59+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -388,37 +348,22 @@
       "publishedAt": "2026-11-24T06:07:19+00:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
-      "title": "datasette-charts 0.2a0",
-      "content": "datasette-charts 0.2a0",
-      "author": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
+      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "content": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "author": "The Verge AI",
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "Simon Willison",
-      "publishedAt": "2026-11-24T04:24:29+00:00",
+      "sourceName": "The Verge AI",
+      "publishedAt": "2026-11-27T09:00:00-05:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "datasette-agent 0.7a1",
-      "content": "datasette-agent 0.7a1",
-      "author": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Simon Willison",
-      "publishedAt": "2026-11-24T03:45:57+00:00",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
+      "age": "23h",
       "hot": false
     },
     {
@@ -433,7 +378,7 @@
       "publishedAt": "2026-11-26T04:54:40-05:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -448,7 +393,7 @@
       "publishedAt": "2026-11-25T16:51:26-05:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -463,7 +408,7 @@
       "publishedAt": "2026-11-25T12:44:51-05:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -478,7 +423,7 @@
       "publishedAt": "2026-11-25T11:00:59-05:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -493,7 +438,7 @@
       "publishedAt": "2026-11-25T09:12:33-05:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -508,7 +453,7 @@
       "publishedAt": "2026-11-25T08:00:00-05:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -523,7 +468,7 @@
       "publishedAt": "2026-11-24T15:02:03-05:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -538,7 +483,7 @@
       "publishedAt": "2026-11-24T13:15:00-05:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -553,22 +498,22 @@
       "publishedAt": "2026-11-24T12:17:09-05:00",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
-      "title": "Jensen Huang deepfakes are the hot new AI slop",
-      "content": "Jensen Huang deepfakes are the hot new AI slop",
-      "author": "The Verge AI",
-      "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+      "title": "The Download: Innovators Under 35 nominations are open, and a bionic window into the mind",
+      "content": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Our 2027 Innovators Under 35 competition is now open Every year, MIT Technology Review honors 35 of the world&#8217;s brightest young scientists, entrepreneurs, and inventors in our Innovators Under 35 list.&#8230;",
+      "author": "MIT Tech Review AI",
+      "url": "https://www.technologyreview.com/2026/11/27/1149960/the-download-the-download-innovators-under-35-nominations-bionic-hand/",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "The Verge AI",
-      "publishedAt": "2026-11-24T11:30:00-05:00",
+      "sourceName": "MIT Tech Review AI",
+      "publishedAt": "Fri, 27 Nov 2026 13:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "1d",
       "hot": false
     },
     {
@@ -583,7 +528,7 @@
       "publishedAt": "Fri, 27 Nov 2026 10:48:47 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -598,7 +543,7 @@
       "publishedAt": "Fri, 27 Nov 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -613,7 +558,7 @@
       "publishedAt": "Thu, 26 Nov 2026 13:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "23h",
+      "age": "1d",
       "hot": false
     },
     {
@@ -628,7 +573,7 @@
       "publishedAt": "Thu, 26 Nov 2026 09:59:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -643,7 +588,7 @@
       "publishedAt": "Wed, 25 Nov 2026 17:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -658,7 +603,7 @@
       "publishedAt": "Wed, 25 Nov 2026 13:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -673,7 +618,7 @@
       "publishedAt": "Wed, 25 Nov 2026 10:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -688,7 +633,7 @@
       "publishedAt": "Tue, 24 Nov 2026 13:10:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -703,22 +648,7 @@
       "publishedAt": "Tue, 24 Nov 2026 11:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
-      "hot": false
-    },
-    {
-      "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
-      "content": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we approach model sentience and moral&#8230;",
-      "author": "MIT Tech Review AI",
-      "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "MIT Tech Review AI",
-      "publishedAt": "Mon, 23 Nov 2026 17:36:08 +0000",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -733,7 +663,7 @@
       "publishedAt": "Tue, 24 Nov 2026 13:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -748,7 +678,7 @@
       "publishedAt": "Tue, 24 Nov 2026 11:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -763,7 +693,7 @@
       "publishedAt": "Tue, 24 Nov 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -778,7 +708,7 @@
       "publishedAt": "Tue, 24 Nov 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -793,7 +723,7 @@
       "publishedAt": "Tue, 24 Nov 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -808,7 +738,7 @@
       "publishedAt": "Mon, 23 Nov 2026 21:20:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -823,7 +753,7 @@
       "publishedAt": "Mon, 23 Nov 2026 08:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -838,7 +768,7 @@
       "publishedAt": "Mon, 23 Nov 2026 08:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -853,7 +783,7 @@
       "publishedAt": "Sun, 22 Nov 2026 00:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -868,7 +798,7 @@
       "publishedAt": "Fri, 20 Nov 2026 10:00:00 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
+      "age": "8d",
       "hot": false
     },
     {
@@ -883,7 +813,7 @@
       "publishedAt": "Wed, 25 Nov 2026 13:04:21 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "1d",
+      "age": "2d",
       "hot": false
     },
     {
@@ -898,7 +828,7 @@
       "publishedAt": "Mon, 23 Nov 2026 16:01:48 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -913,7 +843,7 @@
       "publishedAt": "Mon, 23 Nov 2026 13:04:43 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -928,7 +858,7 @@
       "publishedAt": "Sun, 22 Nov 2026 13:31:53 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -943,22 +873,7 @@
       "publishedAt": "Sat, 21 Nov 2026 16:49:56 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "5d",
-      "hot": false
-    },
-    {
-      "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
-      "content": "Over $40,000 in value, exclusively for Lenny&#8217;s Newsletter subscribers",
-      "author": "Lenny Rachitsky",
-      "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Lenny Rachitsky",
-      "publishedAt": "Tue, 17 Nov 2026 18:02:02 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "9d",
+      "age": "6d",
       "hot": false
     },
     {
@@ -973,7 +888,7 @@
       "publishedAt": "Tue, 24 Nov 2026 11:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -988,7 +903,7 @@
       "publishedAt": "Mon, 23 Nov 2026 11:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -1003,7 +918,7 @@
       "publishedAt": "Fri, 20 Nov 2026 19:09:57 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -1018,7 +933,7 @@
       "publishedAt": "Fri, 20 Nov 2026 11:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
+      "age": "8d",
       "hot": false
     },
     {
@@ -1033,22 +948,22 @@
       "publishedAt": "Thu, 19 Nov 2026 11:00:00 +0000",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "8d",
+      "age": "9d",
       "hot": false
     },
     {
-      "title": "Nvidia Earnings; Office Convergence; OS Wars, AI Edition",
-      "content": "Nvidia's earnings were boring, and also a statement as to why Jensen Huang probably isn't coming back; then, Microsoft and Anthropic ship dueling operating system updates.",
-      "author": "Ben Thompson (Stratechery)",
-      "url": "https://stratechery.com/2026/nvidia-earnings-office-convergence-os-wars-ai-edition/",
+      "title": "AI researchers debate what we should do next – Daniel Kokotajlo and Ege Erdil",
+      "content": "\"If we pause now, people still won't understand what's at stake.\"",
+      "author": "Dwarkesh Patel",
+      "url": "https://www.dwarkesh.com/p/daniel-kokotajlo-ege-erdil",
       "likes": 0,
       "comments": 0,
       "source": "rss",
-      "sourceName": "Ben Thompson (Stratechery)",
-      "publishedAt": "Wed, 18 Nov 2026 11:00:00 +0000",
+      "sourceName": "Dwarkesh Patel",
+      "publishedAt": "Fri, 27 Nov 2026 18:01:14 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "9d",
+      "age": "19h",
       "hot": false
     },
     {
@@ -1063,7 +978,7 @@
       "publishedAt": "Tue, 24 Nov 2026 21:45:30 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -1078,7 +993,7 @@
       "publishedAt": "Tue, 24 Nov 2026 16:06:27 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -1093,7 +1008,7 @@
       "publishedAt": "Tue, 24 Nov 2026 15:06:30 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "2d",
+      "age": "3d",
       "hot": false
     },
     {
@@ -1108,7 +1023,7 @@
       "publishedAt": "Mon, 23 Nov 2026 18:46:14 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -1123,7 +1038,7 @@
       "publishedAt": "Mon, 23 Nov 2026 16:38:04 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "3d",
+      "age": "4d",
       "hot": false
     },
     {
@@ -1138,7 +1053,7 @@
       "publishedAt": "Sun, 22 Nov 2026 18:37:02 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "4d",
+      "age": "5d",
       "hot": false
     },
     {
@@ -1153,7 +1068,7 @@
       "publishedAt": "Fri, 20 Nov 2026 14:20:06 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "6d",
+      "age": "7d",
       "hot": false
     },
     {
@@ -1168,7 +1083,7 @@
       "publishedAt": "Thu, 19 Nov 2026 20:36:26 GMT",
       "tier": "rss",
       "signalWeight": 1,
-      "age": "7d",
+      "age": "8d",
       "hot": false
     },
     {
@@ -1181,21 +1096,6 @@
       "source": "rss",
       "sourceName": "Gary Marcus",
       "publishedAt": "Wed, 18 Nov 2026 21:45:04 GMT",
-      "tier": "rss",
-      "signalWeight": 1,
-      "age": "8d",
-      "hot": false
-    },
-    {
-      "title": "Wake up! America’s infrastructure is melting. And AI appears to be partly responsible.",
-      "content": "Hundreds of companies have been hit. Shit is getting very real.",
-      "author": "Gary Marcus",
-      "url": "https://garymarcus.substack.com/p/wake-up-americas-infrastructure-is",
-      "likes": 0,
-      "comments": 0,
-      "source": "rss",
-      "sourceName": "Gary Marcus",
-      "publishedAt": "Tue, 17 Nov 2026 14:21:39 GMT",
       "tier": "rss",
       "signalWeight": 1,
       "age": "9d",
