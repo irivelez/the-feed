@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-27-1900",
+  "date": "2026-11-27",
+  "publishedAt": "2026-11-28T00:08:58Z",
+  "edition": "Evening",
+  "top3": [
+    {
+      "itemId": "rauchg-unkernel-linux-browser",
+      "headline": "Guillermo Rauch shows a full Linux system running inside a browser tab",
+      "whyItMatters": "Coding agents could run sandboxed in any browser tab, with no machine to provision."
+    },
+    {
+      "itemId": "octop-managed-agents",
+      "headline": "Octop says it now runs Claude Code and Codex as managed agents",
+      "whyItMatters": "Multi-agent teams are turning into infrastructure that IT can deploy and manage."
+    },
+    {
+      "itemId": "a16z-balaji-founder-zone",
+      "headline": "Balaji Srinivasan proposes a 'special founder zone' that skips permit delays",
+      "whyItMatters": "Builders are openly comparing jurisdictions on speed, which puts pressure on regulators."
+    }
+  ],
+  "items": [
+    {
+      "id": "rauchg-unkernel-linux-browser",
+      "title": "Guillermo Rauch shows a full Linux system running inside a browser tab",
+      "takeaway": "Rauch says unkernel.dev runs a Linux kernel and distro in a tab, including coding agents.",
+      "soWhat": "Coding agents could run sandboxed in any browser tab, with no machine to provision.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-27T20:41:49.000Z",
+      "source": {
+        "name": "@rauchg on X",
+        "url": "https://x.com/rauchg/status/2126416223592473046"
+      },
+      "related": [
+        {
+          "name": "unkernel.dev",
+          "url": "https://unkernel.dev"
+        }
+      ],
+      "image": {
+        "src": "/img/rauchg-unkernel-linux-browser.jpg",
+        "alt": "Image from @rauchg on X"
+      },
+      "heat": {
+        "score": 22,
+        "level": "none",
+        "metric": "72k views"
+      }
+    },
+    {
+      "id": "a16z-balaji-founder-zone",
+      "title": "Balaji Srinivasan proposes a 'special founder zone' that skips permit delays",
+      "takeaway": "In an a16z clip, Balaji pitches a western special economic zone for builders.",
+      "soWhat": "Builders are openly comparing jurisdictions on speed, which puts pressure on regulators.",
+      "lens": "broad",
+      "momentum": "new",
+      "importance": 2,
+      "publishedAt": "2026-11-27T17:57:08.000Z",
+      "source": {
+        "name": "@a16z on X",
+        "url": "https://x.com/a16z/status/2126374781729869985"
+      },
+      "image": {
+        "src": "/img/a16z-balaji-founder-zone.jpg",
+        "alt": "Image from @a16z on X"
+      },
+      "heat": {
+        "score": 9,
+        "level": "none",
+        "metric": "22k views"
+      }
+    },
+    {
+      "id": "octop-managed-agents",
+      "title": "Octop says it now runs Claude Code and Codex as managed agents",
+      "takeaway": "The open-source workspace runs agent teams as a fault-tolerant cluster with a Helm chart.",
+      "soWhat": "Multi-agent teams are turning into infrastructure that IT can deploy and manage.",
+      "lens": "practical",
+      "momentum": "building",
+      "importance": 2,
+      "publishedAt": "2026-11-27T10:10:56.000Z",
+      "source": {
+        "name": "@TencentAI_News on X",
+        "url": "https://x.com/TencentAI_News/status/2126257456158589152"
+      },
+      "image": {
+        "src": "/img/octop-managed-agents.jpg",
+        "alt": "Image from @TencentAI_News on X"
+      },
+      "heat": {
+        "score": 10,
+        "level": "none",
+        "metric": "7k views",
+        "voices": 2
+      }
+    }
+  ],
+  "voices": [],
+  "hotOnX": [
+    {
+      "url": "https://x.com/rauchg/status/2126416223592473046",
+      "handle": "@rauchg",
+      "text": "unkernel.dev runs a full Linux kernel and distro in a browser tab, coding agents and even Chrome inside Chrome.",
+      "metric": "1,883 likes",
+      "note": "A browser that can host agents changes where builders run code."
+    },
+    {
+      "url": "https://x.com/a16z/status/2126331346180276262",
+      "handle": "@a16z",
+      "text": "Gavin Baker: a tool that turns hours of Claude Code work into seconds feels like another ChatGPT moment.",
+      "metric": "758k views",
+      "note": "Investors framing agent speedups as a platform moment draws wide attention."
+    },
+    {
+      "url": "https://x.com/swyx/status/2126352854394790172",
+      "handle": "@swyx",
+      "text": "Google's 'neon' is the hottest frontier model in the world; a completely revitalized GDM.",
+      "metric": "725 likes",
+      "note": "Builders are tracking whether Google now leads the frontier."
+    },
+    {
+      "url": "https://x.com/kunchenguid/status/2126194746037338180",
+      "handle": "@kunchenguid",
+      "text": "With agents, it's almost always better to build a new idea right away than to backlog it.",
+      "metric": "375 likes",
+      "note": "Agents are changing how teams prioritize work."
+    },
+    {
+      "url": "https://x.com/a16z/status/2126374781729869985",
+      "handle": "@a16z",
+      "text": "Balaji Srinivasan: a 'special founder zone' where builders move at the speed of physics, not permits.",
+      "metric": "300 likes",
+      "note": "Speed of regulation is becoming a competitive question for builders."
+    }
+  ]
+}
