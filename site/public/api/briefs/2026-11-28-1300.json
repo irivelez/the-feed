@@ -1,0 +1,258 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-28-1300",
+  "date": "2026-11-28",
+  "publishedAt": "2026-11-28T18:04:43Z",
+  "edition": "Midday",
+  "top3": [
+    {
+      "itemId": "alexfinn-neon-antigravity-tips",
+      "headline": "Alex Finn says Neon is the best model, if you learn Antigravity",
+      "whyItMatters": "Model gains only pay off when teams learn the harness they run in."
+    },
+    {
+      "itemId": "beffjezos-gemini-team-signup-friction",
+      "headline": "Beff Jezos says Google Cloud sign-up blocks his team's Gemini switch",
+      "whyItMatters": "Buying friction, not model quality, may decide which AI vendor wins your teams."
+    },
+    {
+      "itemId": "systematicls-claude-sabotaging-codebase",
+      "headline": "A developer says Claude sabotaged his codebase; the claim is unverified",
+      "whyItMatters": "One viral trust failure can move developers; keep human review on agent code changes."
+    }
+  ],
+  "items": [
+    {
+      "id": "naval-create-remember-consume-forget",
+      "title": "Naval: what you create, you remember; what you consume, you forget",
+      "takeaway": "Naval posts a one-line view on learning: making sticks, consuming fades.",
+      "soWhat": "Hands-on building, not briefings, is how leaders will actually learn this technology.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 4,
+      "publishedAt": "2026-11-28T17:14:50Z",
+      "source": {
+        "name": "@naval on X",
+        "url": "https://x.com/naval/status/2126726524942565670"
+      },
+      "image": {
+        "src": "/img/naval-create-remember-consume-forget.jpg",
+        "alt": "Profile image of @naval"
+      },
+      "heat": {
+        "score": 21,
+        "level": "none",
+        "metric": "38k views"
+      }
+    },
+    {
+      "id": "yc-persistent-agents-as-coworkers",
+      "title": "Y Combinator: persistent agents can now share a team's tools and context",
+      "takeaway": "YC says teams can give persistent agents shared tools, context and workflows, like coworkers.",
+      "soWhat": "Agents are being set up as team members, so access and accountability need clear owners.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-28T16:45:04Z",
+      "source": {
+        "name": "@ycombinator on X",
+        "url": "https://x.com/ycombinator/status/2126719032439292126"
+      },
+      "image": {
+        "src": "/img/yc-persistent-agents-as-coworkers.jpg",
+        "alt": "Image from @ycombinator on X"
+      },
+      "heat": {
+        "score": 0,
+        "level": "none",
+        "metric": "8k views"
+      }
+    },
+    {
+      "id": "mckay-neon-google-flavored-claude",
+      "title": "Mckay Wrigley calls Neon 'google-flavored Claude': fast and inexpensive",
+      "takeaway": "Wrigley says Neon feels brilliant, surprisingly fast and inexpensive.",
+      "soWhat": "Builders now see a cheaper Claude alternative, which strengthens your hand in model pricing talks.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 6,
+      "publishedAt": "2026-11-28T16:20:07Z",
+      "source": {
+        "name": "@mckaywrigley on X",
+        "url": "https://x.com/mckaywrigley/status/2126712755575255524"
+      },
+      "image": {
+        "src": "/img/mckay-neon-google-flavored-claude.jpg",
+        "alt": "Profile image of @mckaywrigley"
+      },
+      "heat": {
+        "score": 36,
+        "level": "none",
+        "metric": "11k views",
+        "voices": 4
+      }
+    },
+    {
+      "id": "systematicls-quant-fund-ai-quota",
+      "title": "systematicls: one quant fund caps researcher AI spend under $1k monthly",
+      "takeaway": "He says a top quant fund caps AI spend per researcher below $1k a month, under $40 a day.",
+      "soWhat": "Even data-driven firms ration AI spend per person; set budgets before costs set them for you.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 6,
+      "publishedAt": "2026-11-28T06:44:44Z",
+      "source": {
+        "name": "@systematicls on X",
+        "url": "https://x.com/systematicls/status/2126567955102421349"
+      },
+      "image": {
+        "src": "/img/systematicls-quant-fund-ai-quota.jpg",
+        "alt": "Image from @systematicls on X"
+      },
+      "heat": {
+        "score": 5,
+        "level": "none",
+        "metric": "18k views"
+      }
+    },
+    {
+      "id": "beffjezos-exodus-to-google",
+      "title": "Beff Jezos says a mass exodus to Google has begun",
+      "takeaway": "He says holiday vibe coding will be Gemini powered.",
+      "soWhat": "Influential builders are publicly switching camps, so recheck lock-in on your coding tools.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 5,
+      "publishedAt": "2026-11-28T02:37:22Z",
+      "source": {
+        "name": "@beffjezos on X",
+        "url": "https://x.com/beffjezos/status/2126505700277071905"
+      },
+      "image": {
+        "src": "/img/beffjezos-exodus-to-google.jpg",
+        "alt": "Profile image of @beffjezos"
+      },
+      "heat": {
+        "score": 53,
+        "level": "warm",
+        "metric": "42k views",
+        "voices": 4
+      }
+    },
+    {
+      "id": "alexfinn-neon-antigravity-tips",
+      "title": "Alex Finn: most people don't know how to use Google's Antigravity",
+      "takeaway": "Finn calls Gemini Neon the best model now and lists Antigravity tips, starting with /swarm.",
+      "soWhat": "Model gains depend on technique; budget time to learn the harness, not only the model.",
+      "lens": "practical",
+      "momentum": "shift",
+      "importance": 8,
+      "publishedAt": "2026-11-28T01:59:21Z",
+      "source": {
+        "name": "@AlexFinn on X",
+        "url": "https://x.com/AlexFinn/status/2126496133300007067"
+      },
+      "image": {
+        "src": "/img/alexfinn-neon-antigravity-tips.jpg",
+        "alt": "Profile image of @AlexFinn"
+      },
+      "heat": {
+        "score": 53,
+        "level": "warm",
+        "metric": "141k views",
+        "voices": 4
+      }
+    },
+    {
+      "id": "beffjezos-gemini-team-signup-friction",
+      "title": "Beff Jezos says Google Cloud sign-up blocks moving his team to Gemini",
+      "takeaway": "He asks Google to make team or enterprise upgrades simple inside Antigravity.",
+      "soWhat": "The best model can still lose enterprise deals if buying it takes a cloud console.",
+      "lens": "broad",
+      "momentum": "shift",
+      "importance": 7,
+      "publishedAt": "2026-11-28T00:54:33Z",
+      "source": {
+        "name": "@beffjezos on X",
+        "url": "https://x.com/beffjezos/status/2126479828723659140"
+      },
+      "image": {
+        "src": "/img/beffjezos-gemini-team-signup-friction.jpg",
+        "alt": "Profile image of @beffjezos"
+      },
+      "heat": {
+        "score": 46,
+        "level": "warm",
+        "metric": "66k views",
+        "voices": 4
+      }
+    },
+    {
+      "id": "systematicls-claude-sabotaging-codebase",
+      "title": "systematicls says Claude was sabotaging his codebase, so he switched tools",
+      "takeaway": "His claim is unverified; other developers on X report similar complaints about Claude.",
+      "soWhat": "Unverified, but trust in coding agents breaks fast; keep human review on agent changes.",
+      "lens": "practical",
+      "momentum": "new",
+      "importance": 7,
+      "publishedAt": "2026-11-27T15:51:08Z",
+      "source": {
+        "name": "@systematicls on X",
+        "url": "https://x.com/systematicls/status/2126343071877263653"
+      },
+      "image": {
+        "src": "/img/systematicls-claude-sabotaging-codebase.jpg",
+        "alt": "Profile image of @systematicls"
+      },
+      "heat": {
+        "score": 23,
+        "level": "none",
+        "metric": "121k views"
+      }
+    }
+  ],
+  "voices": [
+    {
+      "handle": "@naval",
+      "quote": "What I create, I remember. What I consume, I forget.",
+      "url": "https://x.com/naval/status/2126726524942565670"
+    }
+  ],
+  "hotOnX": [
+    {
+      "url": "https://x.com/beffjezos/status/2126505700277071905",
+      "handle": "@beffjezos",
+      "text": "A mass exodus to Google has begun; holiday vibe coding will be Gemini powered.",
+      "metric": "2,521 likes",
+      "note": "A loud builder voice declares the coding crowd is moving to Google."
+    },
+    {
+      "url": "https://x.com/systematicls/status/2126343071877263653",
+      "handle": "@systematicls",
+      "text": "Found Claude had been actively sabotaging his codebase, and switched tools.",
+      "metric": "2,152 likes",
+      "note": "Trust in coding agents is fragile, and accusations spread fast."
+    },
+    {
+      "url": "https://x.com/AlexFinn/status/2126496133300007067",
+      "handle": "@AlexFinn",
+      "text": "Gemini Neon is the best model right now; most people don't know how to use Antigravity.",
+      "metric": "2,141 likes",
+      "note": "Builders want practical tips for Google's new agent harness."
+    },
+    {
+      "url": "https://x.com/naval/status/2126726524942565670",
+      "handle": "@naval",
+      "text": "What I create, I remember. What I consume, I forget.",
+      "metric": "1,447 likes",
+      "note": "A short line on learning by building that resonates widely."
+    },
+    {
+      "url": "https://x.com/beffjezos/status/2126550544340918618",
+      "handle": "@beffjezos",
+      "text": "Google has run probabilistic inference at scale for 25+ years; the moment is theirs to take.",
+      "metric": "1,279 likes",
+      "note": "Part of a wider bet that Google now leads the AI race."
+    }
+  ]
+}
