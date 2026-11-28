@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "1.1",
+  "id": "2026-11-28-0700",
+  "date": "2026-11-28",
+  "publishedAt": "2026-11-28T12:06:50Z",
+  "edition": "Morning",
+  "top3": [
+    {
+      "itemId": "aravs-perplexity-teammates-spend",
+      "headline": "Srinivas says Perplexity's spend share grew 4x since Teammates launched",
+      "whyItMatters": "Agent coworkers are moving from demos to measurable spend, by the CEO's own count."
+    },
+    {
+      "itemId": "aravs-teammates-automations-27x",
+      "headline": "Perplexity Teammates automations grew 27x in three weeks, Srinivas says",
+      "whyItMatters": "Agent work keeps running when people stop, which changes how leaders plan capacity."
+    },
+    {
+      "itemId": "vitalik-contra-slatestarcodex-sura",
+      "headline": "Vitalik Buterin posts a rebuttal to Slate Star Codex on SURA",
+      "whyItMatters": "Treat confident long-range forecasts with caution; even top thinkers say they are only medium-confident."
+    }
+  ],
+  "items": [
+    {
+      "id": "vitalik-contra-slatestarcodex-sura",
+      "title": "Vitalik Buterin posts a rebuttal to Slate Star Codex on SURA",
+      "takeaway": "Buterin says he is only medium-confident and distrusts anyone confident about what comes next.",
+      "soWhat": "A leading builder openly admits uncertainty, a useful check on confident forecasts in your plans.",
+      "lens": "frontier-capital",
+      "momentum": "new",
+      "importance": 3,
+      "publishedAt": "2026-11-28T08:53:16Z",
+      "source": {
+        "name": "@VitalikButerin on X",
+        "url": "https://x.com/VitalikButerin/status/2126600301142765627"
+      },
+      "image": {
+        "src": "/img/vitalik-contra-slatestarcodex-sura.jpg",
+        "alt": "Profile image of @VitalikButerin"
+      },
+      "heat": {
+        "score": 10,
+        "level": "none",
+        "metric": "298 likes"
+      }
+    },
+    {
+      "id": "aravs-perplexity-teammates-spend",
+      "title": "Srinivas says Perplexity's spend share grew 4x since Teammates launched",
+      "takeaway": "Srinivas says spend share grew 4x since Teammates started, tracking at one third of Anthropic's.",
+      "soWhat": "Persistent agent coworkers are moving from demos to measurable spend, per the CEO's own numbers.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-28T07:41:56Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2126582346937930238"
+      },
+      "image": {
+        "src": "/img/aravs-perplexity-teammates-spend.jpg",
+        "alt": "Image from @AravSrinivas on X"
+      },
+      "heat": {
+        "score": 9,
+        "level": "none",
+        "metric": "239 likes"
+      }
+    },
+    {
+      "id": "aravs-teammates-automations-27x",
+      "title": "Perplexity Teammates automations grew 27x in three weeks, Srinivas says",
+      "takeaway": "Automations grew 9x in 10 days; over Thanksgiving, automation runs beat human messages.",
+      "soWhat": "When agents out-message humans on a holiday, work no longer waits for staff to be online.",
+      "lens": "broad",
+      "momentum": "building",
+      "importance": 6,
+      "publishedAt": "2026-11-28T04:10:25Z",
+      "source": {
+        "name": "@AravSrinivas on X",
+        "url": "https://x.com/AravSrinivas/status/2126529117466345619"
+      },
+      "image": {
+        "src": "/img/aravs-teammates-automations-27x.jpg",
+        "alt": "Profile image of @AravSrinivas"
+      },
+      "heat": {
+        "score": 6,
+        "level": "none",
+        "metric": "168 likes"
+      }
+    },
+    {
+      "id": "mengto-threejs-ai-course",
+      "title": "Meng To launches a three.js course on building with AI",
+      "takeaway": "It includes his prompts and skills, weekly live webinars and a private Slack of 80+ members.",
+      "soWhat": "Design craft with AI is being packaged as a repeatable process teams can buy.",
+      "lens": "design",
+      "momentum": "building",
+      "importance": 2,
+      "publishedAt": "2026-11-27T16:27:02Z",
+      "source": {
+        "name": "@MengTo on X",
+        "url": "https://x.com/MengTo/status/2126352105816621299"
+      },
+      "image": {
+        "src": "/img/mengto-threejs-ai-course.jpg",
+        "alt": "Image from @MengTo on X"
+      },
+      "heat": {
+        "score": 2,
+        "level": "none",
+        "metric": "103 likes"
+      }
+    }
+  ],
+  "voices": [],
+  "hotOnX": [
+    {
+      "url": "https://x.com/a16z/status/2126331346180276262",
+      "handle": "@a16z",
+      "text": "Gavin Baker: a tool that turns hours of Claude Code work into seconds feels like another ChatGPT moment.",
+      "metric": "1,672 likes",
+      "note": "Investors frame agent speedups as a platform shift, and that framing spreads."
+    },
+    {
+      "url": "https://x.com/swyx/status/2126352854394790172",
+      "handle": "@swyx",
+      "text": "Google has a revitalized GDM as Neon is the hottest frontier model; a Latent Space writeup is coming.",
+      "metric": "1,180 likes",
+      "note": "Builders are tracking whether Google now leads the frontier."
+    },
+    {
+      "url": "https://x.com/a16z/status/2126374781729869985",
+      "handle": "@a16z",
+      "text": "Balaji Srinivasan: a 'special founder zone' where builders move at the speed of physics, not permits.",
+      "metric": "616 likes",
+      "note": "Speed of regulation is becoming a competitive question for builders."
+    },
+    {
+      "url": "https://x.com/VitalikButerin/status/2126600301142765627",
+      "handle": "@VitalikButerin",
+      "text": "Contra @slatestarcodex on SURA: only medium-confident, and wary of anyone confident about what comes next.",
+      "metric": "298 likes",
+      "note": "Rare public humility from a top builder on forecasting."
+    },
+    {
+      "url": "https://x.com/AravSrinivas/status/2126582346937930238",
+      "handle": "@AravSrinivas",
+      "text": "Since Teammates started working, Perplexity's spend share grew 4x, tracking at one third of Anthropic's.",
+      "metric": "239 likes",
+      "note": "A CEO putting numbers on agent coworkers invites scrutiny and comparison."
+    }
+  ]
+}
